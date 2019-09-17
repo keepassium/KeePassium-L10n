@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="KeePassiumLib/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en" target-language="nl">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.3" build-num="10G8"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>KeePassiumLib</source>
+        <note>Bundle name</note>
+        <target state="translated">KeePassiumLib</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="KeePassiumLib/en.lproj/Localizable.strings" source-language="en" target-language="nl" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.3" build-num="10G8"/>
+    </header>
+    <body>
+      <trans-unit id="[AppLock/Passcode/KeyboardType/title] Alphanumeric">
+        <source>Alphanumeric</source>
+        <target state="translated">Alfanumeriek</target>
+        <note>Type of keyboard to show for App Lock passcode: letters and digits.</note>
+      </trans-unit>
+      <trans-unit id="[AppLock/Passcode/KeyboardType/title] Numeric">
+        <source>Numeric</source>
+        <target state="translated">Numeriek</target>
+        <note>Type of keyboard to show for App Lock passcode: digits only (PIN code).</note>
+      </trans-unit>
+      <trans-unit id="[Cipher/Progress] Decrypting">
+        <source>Decrypting</source>
+        <target state="translated">Ontsleutelen</target>
+        <note>Progress status</note>
+      </trans-unit>
+      <trans-unit id="[Cipher/Progress] Encrypting">
+        <source>Encrypting</source>
+        <target state="translated">Versleutelen</target>
+        <note>Progress status</note>
+      </trans-unit>
+      <trans-unit id="[CryptoError] AES decryption error (code %d)">
+        <source>AES decryption error (code %d)</source>
+        <target state="translated">AES-ontcryptiefout (code %d)</target>
+        <note>Error message about AES cipher. [errorCode: Int]</note>
+      </trans-unit>
+      <trans-unit id="[CryptoError] AES encryption error (code %d)">
+        <source>AES encryption error (code %d)</source>
+        <target state="translated">AES-versleutelfout (code %d)</target>
+        <note>Error message about AES cipher. [errorCode: Int]</note>
+      </trans-unit>
+      <trans-unit id="[CryptoError] AES initialization error (code %d)">
+        <source>AES initialization error (code %d)</source>
+        <target state="translated">AES-initialisatiefout (code %d)</target>
+        <note>Error message about AES cipher. [errorCode: Int]</note>
+      </trans-unit>
+      <trans-unit id="[CryptoError] Argon2 hashing error (code %d)">
+        <source>Argon2 hashing error (code %d)</source>
+        <target state="translated">Argon2-hashfout (code %d)</target>
+        <note>Error message about Argon2 hashing function. [errorCode: Int]</note>
+      </trans-unit>
+      <trans-unit id="[CryptoError] Invalid KDF parameter: %@ - %@. File corrupt?">
+        <source>Invalid KDF parameter: %1$@ - %2$@. File corrupt?</source>
+        <target state="translated">Ongeldige KDF-parameter: %1$@ - %2$@. Beschadigd bestand?</target>
+        <note>Error message about key derivation function (KDF) parameters. [kdfName: String, paramName: String]</note>
+      </trans-unit>
+      <trans-unit id="[CryptoError] Invalid data padding (code %d). File corrupt?">
+        <source>Invalid data padding (code %d). File corrupt?</source>
+        <target state="translated">Ongeldige gegevensopmaak (code %d). Beschadigd bestand?</target>
+        <note>Error message about PKCS7 padding. [errorCode: Int]</note>
+      </trans-unit>
+      <trans-unit id="[CryptoError] Random number generator error (code %d)">
+        <source>Random number generator error (code %d)</source>
+        <target state="translated">Willekeurigenummergenerator-fout (code %d)</target>
+        <note>Error message about random number generator. [errorCode: Int]</note>
+      </trans-unit>
+      <trans-unit id="[CryptoError] Twofish cipher error (code %d)">
+        <source>Twofish cipher error (code %d)</source>
+        <target state="translated">Twofish-vercijferingsfout (code %d)</target>
+        <note>Error message about Twofish cipher. [errorCode: Int]</note>
+      </trans-unit>
+      <trans-unit id="[Database/Load/Error] Cannot find database file">
+        <source>Cannot find database file</source>
+        <target state="translated">Kan databankbestand niet vinden</target>
+        <note>Error message</note>
+      </trans-unit>
+      <trans-unit id="[Database/Load/Error] Cannot find key file">
+        <source>Cannot find key file</source>
+        <target state="translated">Kan sleutelbestand niet vinden</target>
+        <note>Error message</note>
+      </trans-unit>
+      <trans-unit id="[Database/Load/Error] Cannot open database file">
+        <source>Cannot open database file</source>
+        <target state="translated">Kan databankbestand niet openen</target>
+        <note>Error message</note>
+      </trans-unit>
+      <trans-unit id="[Database/Load/Error] Cannot open key file">
+        <source>Cannot open key file</source>
+        <target state="translated">Kan sleutelbestand niet openen</target>
+        <note>Error message</note>
+      </trans-unit>
+      <trans-unit id="[Database/Load/Error] Please provide at least a password or a key file">
+        <source>Please provide at least a password or a key file</source>
+        <target state="translated">Kies een wachtwoord of sleutelbestand</target>
+        <note>Error shown when both master password and key file are empty</note>
+      </trans-unit>
+      <trans-unit id="[Database/Load/Error] Unrecognized database format">
+        <source>Unrecognized database format</source>
+        <target state="translated">Niet-herkend databankformaat</target>
+        <note>Error message</note>
+      </trans-unit>
+      <trans-unit id="[Database/Progress] Done">
+        <source>Done</source>
+        <target state="translated">Klaar</target>
+        <note>Progress status: finished loading database</note>
+      </trans-unit>
+      <trans-unit id="[Database/Progress] Loading database file...">
+        <source>Loading database file...</source>
+        <target state="translated">Bezig met laden van databankbestand...</target>
+        <note>Progress bar status</note>
+      </trans-unit>
+      <trans-unit id="[Database/Progress] Loading key file...">
+        <source>Loading key file...</source>
+        <target state="translated">Bezig met laden van sleutelbestand...</target>
+        <note>Progress status</note>
+      </trans-unit>
+      <trans-unit id="[Database/Unlock/Error] Failed to open key file">
+        <source>Failed to open key file</source>
+        <target state="translated">Kan sleutelbestand niet openen</target>
+        <note>Error message</note>
+      </trans-unit>
+      <trans-unit id="[Database/Unlock/Error] Password and key file are both empty.">
+        <source>Password and key file are both empty.</source>
+        <target state="translated">Wachtwoord en sleutelbestand zijn beide leeg.</target>
+        <note>Error message</note>
+      </trans-unit>
+      <trans-unit id="[Database1/FormatError] Database file is corrupted.">
+        <source>Database file is corrupted.</source>
+        <target state="translated">Het databankbestand is beschadigd.</target>
+        <note>Error message</note>
+      </trans-unit>
+      <trans-unit id="[Database1/FormatError] Error parsing field %@. Corrupted database file?">
+        <source>Error parsing field %@. Corrupted database file?</source>
+        <target state="translated">Fout tijdens verwerken van het veld '%@'. Is het databankbestand beschadigd?</target>
+        <note>Error message [fieldName: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database1/FormatError] Found an entry outside any group. Corrupted DB file?">
+        <source>Found an entry outside any group. Corrupted DB file?</source>
+        <target state="translated">Er is een item zonder groep aangetroffen. Is het databankbestand beschadigd?</target>
+        <note>Error message</note>
+      </trans-unit>
+      <trans-unit id="[Database1/FormatError] Unexpected end of file. Corrupted database file?">
+        <source>Unexpected end of file. Corrupted database file?</source>
+        <target state="translated">Onverwachte einde van bestand. Is het databankbestand beschadigd?</target>
+        <note>Error message</note>
+      </trans-unit>
+      <trans-unit id="[Database1/Header1/Error] Header reading error. DB file corrupt?">
+        <source>Header reading error. DB file corrupt?</source>
+        <target state="translated">Kan kop niet uitlezen. Is het databankbestand beschadigd?</target>
+        <note>Error message when reading database header</note>
+      </trans-unit>
+      <trans-unit id="[Database1/Header1/Error] Unsupported cipher. (Code: %@)">
+        <source>Unsupported cipher. (Code: %@)</source>
+        <target state="translated">Niet-ondersteunde vercijfering. (code: %@)</target>
+        <note>Error message. [flagsHexString: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database1/Header1/Error] Unsupported database format version: %@.">
+        <source>Unsupported database format version: %@.</source>
+        <target state="translated">Niet-ondersteunde databankformaatversie: %@.</target>
+        <note>Error message when opening a database. [version: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database1/Header1/Error] Wrong file signature. Not a KeePass database?">
+        <source>Wrong file signature. Not a KeePass database?</source>
+        <target state="translated">Verkeerde bestandshandtekening. Is het wel een KeePass-databank?</target>
+        <note>Error message when opening a database</note>
+      </trans-unit>
+      <trans-unit id="[Database1/Progress] Packing the content">
+        <source>Packing the content</source>
+        <target state="translated">Bezig met inpakken</target>
+        <note>Status message: collecting database items into a single package</note>
+      </trans-unit>
+      <trans-unit id="[Database1/Progress] Parsing content">
+        <source>Parsing content</source>
+        <target state="translated">Bezig met verwerken</target>
+        <note>Status message: processing the content of a database</note>
+      </trans-unit>
+      <trans-unit id="[Database2/FormatError] Cannot parse database. %s">
+        <source>Cannot parse database. %s</source>
+        <target state="translated">Kan databank niet verwerken. %s</target>
+        <note>Error message. Parsing refers to the analysis/understanding of file content. [reason: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/FormatError] Corrupted database file (HMAC mismatch in block %d)">
+        <source>Corrupted database file (HMAC mismatch in block %d)</source>
+        <target state="translated">Beschadigd databankbestand (HMAC komt niet overeen in %d)</target>
+        <note>Error message: HMAC value (kind of checksum) of a data block is wrong. [blockIndex: Int]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/FormatError] Corrupted database file (block %d has negative size)">
+        <source>Corrupted database file (block %d has negative size)</source>
+        <target state="translated">Beschadigd databankbestand (blok %d heeft een negatieve grootte)</target>
+        <note>Error message [blockIndex: Int]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/FormatError] Corrupted database file (hash mismatch in block %d)">
+        <source>Corrupted database file (hash mismatch in block %d)</source>
+        <target state="translated">Beschadigd databankbestand (hash komt niet overeen in blok %d)</target>
+        <note>Error message: hash(checksum) of a data block is wrong. [blockIndex: Int]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/FormatError] Gzip error: %@">
+        <source>Gzip error: %@</source>
+        <target state="translated">Gzip-fout: %@</target>
+        <note>Error message about Gzip compression algorithm. [reason: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/FormatError] Unexpected block ID.">
+        <source>Unexpected block ID.</source>
+        <target state="translated">Onverwachte blok-id.</target>
+        <note>Error message: wrong ID of a data block</note>
+      </trans-unit>
+      <trans-unit id="[Database2/FormatError] Unexpected end of file. Corrupted file?">
+        <source>Unexpected end of file. Corrupted file?</source>
+        <target state="translated">Onverwachte einde van bestand. Is het bestand beschadigd?</target>
+        <note>Error message</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Header2/Error] Failed to uncompress attachment data: %@">
+        <source>Failed to uncompress attachment data: %@</source>
+        <target state="translated">Fout bij het uitpakken van de bijlagegegevens: %@</target>
+        <note>Error message when saving a database. [reason: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Header2/Error] Header HMAC mismatch. DB file corrupt?">
+        <source>Header HMAC mismatch. DB file corrupt?</source>
+        <target state="translated">Kop HMAC komt niet overeen. Is het databankbestand beschadigd?</target>
+        <note>Error message. HMAC = https://en.wikipedia.org/wiki/HMAC</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Header2/Error] Header field %@ is corrupted.">
+        <source>Header field %@ is corrupted.</source>
+        <target state="translated">Kopveld %@ is beschadigd.</target>
+        <note>Error message, with the name of problematic field. [fieldName: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Header2/Error] Header hash mismatch. DB file corrupt?">
+        <source>Header hash mismatch. DB file corrupt?</source>
+        <target state="translated">Hash komt niet overeen in kop. Is het databankbestand beschadigd?</target>
+        <note>Error message</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Header2/Error] Header reading error. DB file corrupt?">
+        <source>Header reading error. DB file corrupt?</source>
+        <target state="translated">Kan kop niet uitlezen. Is het databankbestand beschadigd?</target>
+        <note>Error message when reading database header</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Header2/Error] Unknown compression algorithm.">
+        <source>Unknown compression algorithm.</source>
+        <target state="translated">Onbekend compressie-algoritme.</target>
+        <note>Error message when opening a database</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Header2/Error] Unsupported KDF: %@">
+        <source>Unsupported KDF: %@</source>
+        <target state="translated">Niet-ondersteund KDF: %@</target>
+        <note>Error message about Key Derivation Function. [uuidString: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Header2/Error] Unsupported data cipher: %@">
+        <source>Unsupported data cipher: %@</source>
+        <target state="translated">Niet-ondersteunde gegevensvercijfering: %@</target>
+        <note>Error message. [uuidHexString: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Header2/Error] Unsupported database format version: %@.">
+        <source>Unsupported database format version: %@.</source>
+        <target state="translated">Niet-ondersteunde databankformaatversie: %@.</target>
+        <note>Error message when opening a database. [version: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Header2/Error] Unsupported inner stream cipher (ID %d)">
+        <source>Unsupported inner stream cipher (ID %d)</source>
+        <target state="translated">Niet-ondersteunde interne streamvercijfering (id %d)</target>
+        <note>Error message when opening a database. [id: UInt32]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Header2/Error] Wrong file signature. Not a KeePass database?">
+        <source>Wrong file signature. Not a KeePass database?</source>
+        <target state="translated">Verkeerde bestandshandtekening. Is het wel een KeePass-databank?</target>
+        <note>Error message when opening a database</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Loading/Error] Error unpacking database: %@">
+        <source>Error unpacking database: %@</source>
+        <target state="translated">Fout bij uitpakken van databank: %@</target>
+        <note>Error message about Gzip compression algorithm. [errorMessage: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Loading/Warning/missingBinaries]">
+        <source>Attachments of some entries are missing data. This is a sign of database corruption, most likely by the last used app (%1$@). KeePassium will preserve the empty attachments, but cannot restore them. You should restore your database from a backup copy. 
+
+Missing attachments: %2$@</source>
+        <target state="translated">Er ontbreken gegevens bij de bijlagen van sommige items. Dit kan duiden op databankbeschadiging, waarschijnlijk veroorzaakt door de laatstgebruikte app (%1$@). KeePassium bewaart de lege bijlagen, maar kan ze niet herstellen. Herstel je databank vanuit een back-up. 
+
+Ontbrekende bijlagen: %2$@</target>
+        <note>A warning about missing attachments after loading the database. [lastUsedAppName: String, attachmentNames: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Loading/Warning/namelessAttachments]">
+        <source>Some entries have attachments without a name. This is a sign of previous database corruption.
+
+ Please review attached files in the following entries (and their history):
+%@</source>
+        <target state="translated">De bijlagen van sommige items zijn naamloos. Dit kan duiden op eerdere databankbeschadiging.
+
+ Controleer de bijgevoegde bestanden van de volgende items (en hun geschiedenis):
+%@</target>
+        <note>A warning about nameless attachments, shown after loading the database. [listOfEntryNames: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Loading/Warning/namelessCustomFields]">
+        <source>Some entries have custom field(s) with empty names. This can be a sign of data corruption. Please check these entries:
+
+%@</source>
+        <target state="translated">Sommige items hebben aangepast(e) veld(en) met lege namen. Dit kan duiden op gegevensbeschadiging. Controleer de volgende items:
+
+%@</target>
+        <note>A warning about misformatted custom fields after loading the database. [entryPaths: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Loading/Warning/unusedAttachments]">
+        <source>The database contains some attachments that are not used in any entry. Most likely, they have been forgotten by the last used app (%@). However, this can also be a sign of data corruption. 
+Please make sure to have a backup of your database before changing anything.</source>
+        <target state="translated">De databank bevat enkele bijlagen die niet in gebruik zijn bij een item. Waarschijnlijk zijn ze vergeten door de laatstgebruikte app (%@). Dit kan echter ook een teken van gegevensbeschadiging zijn. 
+Zorg ervoor dat je een back-up van je databank hebt voordat je iets aanpast.</target>
+        <note>A warning about unused attachments after loading the database. [lastUsedAppName: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Progress] Loading database">
+        <source>Loading database</source>
+        <target state="translated">Bezig met laden van databank</target>
+        <note>Progress bar status</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Progress] Reading database content">
+        <source>Reading database content</source>
+        <target state="translated">Bezig met uitlezen van databank</target>
+        <note>Progress bar status</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Progress] Writing encrypted blocks">
+        <source>Writing encrypted blocks</source>
+        <target state="translated">Bezig met wegschrijven van versleutelde blokken</target>
+        <note>Progress bar status</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Saving/Error] Data compression error: %@">
+        <source>Data compression error: %@</source>
+        <target state="translated">Fout bij gegevenscompressie: %@</target>
+        <note>Error message while saving a database. [errorDescription: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Saving/Error] Encryption error: %@">
+        <source>Encryption error: %@</source>
+        <target state="translated">Versleutelingsfout: %@</target>
+        <note>Error message while saving a database. [errorDescription: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Xml2/ParsingError] Malformed value '%@' in %@">
+        <source>Malformed value '%1$@' in %2$@</source>
+        <target state="translated">Ongeldige waarde '%1$@' in %2$@</target>
+        <note>Error message about XML parsing. [value: String, tag: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Xml2/ParsingError] Nil value in %@">
+        <source>Nil value in %@</source>
+        <target state="translated">Nil-waarde in %@</target>
+        <note>Error message about XML parsing. [tag: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Xml2/ParsingError] Not a KeePass XML">
+        <source>Not a KeePass XML</source>
+        <target state="translated">Geen KeePass-XML</target>
+        <note>Error message about XML parsing</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Xml2/ParsingError] Unexpected tag '%@'">
+        <source>Unexpected tag '%@'</source>
+        <target state="translated">Onverwachte tag '%@'</target>
+        <note>Error message about XML parsing. [actualTag: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Xml2/ParsingError] Unexpected tag '%@' (instead of '%@')">
+        <source>Unexpected tag '%1$@' (instead of '%2$@')</source>
+        <target state="translated">Onverwachte tag '%1$@' (in plaats van '%2$@')</target>
+        <note>Error message about XML parsing. [actualTag: String, expectedTag: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Xml2/ParsingError] XML error: %@">
+        <source>XML error: %@</source>
+        <target state="translated">XML-fout: %@</target>
+        <note>Generic error while parsing XML. [errorDetails: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/backupGroupName] Recycle Bin">
+        <source>Recycle Bin</source>
+        <target state="translated">Prullenbak</target>
+        <note>Name of a group which contains deleted entries</note>
+      </trans-unit>
+      <trans-unit id="[DatabaseError] Cannot open database">
+        <source>Cannot open database</source>
+        <target state="translated">Kan databank niet openen</target>
+        <note>Error message while opening a database</note>
+      </trans-unit>
+      <trans-unit id="[DatabaseError] Cannot save database">
+        <source>Cannot save database</source>
+        <target state="translated">Kan databank niet opslaan</target>
+        <note>Error message while saving a database</note>
+      </trans-unit>
+      <trans-unit id="[DatabaseError] Invalid password or key file">
+        <source>Invalid password or key file</source>
+        <target state="translated">Ongeldig wachtwoord of sleutelbestand</target>
+        <note>Error message: user provided a wrong master key for decryption.</note>
+      </trans-unit>
+      <trans-unit id="[FileDocument] Unexpected file error, please contact us.">
+        <source>Unexpected file error, please contact us.</source>
+        <target state="translated">Onverwachte bestandsfout; neem contact met ons op.</target>
+        <note>A very generic error message</note>
+      </trans-unit>
+      <trans-unit id="[FileKeeper] Failed to delete file. Reason: %@">
+        <source>Failed to delete file. Reason: %@</source>
+        <target state="translated">Kan bestand niet verwijderen. Reden: %@</target>
+        <note>Error message [reason: String]</note>
+      </trans-unit>
+      <trans-unit id="[FileKeeper] Failed to import file. Reason: %@">
+        <source>Failed to import file. Reason: %@</source>
+        <target state="translated">Kan bestand niet importeren. Reden: %@</target>
+        <note>Error message [reason: String]</note>
+      </trans-unit>
+      <trans-unit id="[FileKeeper] Failed to open file. Reason: %@">
+        <source>Failed to open file. Reason: %@</source>
+        <target state="translated">Kan bestand niet openen. Reden: %@</target>
+        <note>Error message [reason: String]</note>
+      </trans-unit>
+      <trans-unit id="[FileKeeper] Not a file URL">
+        <source>Not a file URL</source>
+        <target state="translated">Geen bestands-url</target>
+        <note>Error message: tried to import URL which does not point to a file</note>
+      </trans-unit>
+      <trans-unit id="[FilesSortOrder/longTitle] Creation Date (Oldest First)">
+        <source>Creation Date (Oldest First)</source>
+        <target state="translated">Aanmaakdatum (oudste eerst)</target>
+        <note>A sorting option for a list of files, by file creation date. Example: 'Sort Order: Creation Date (Oldest First)'</note>
+      </trans-unit>
+      <trans-unit id="[FilesSortOrder/longTitle] Creation Date (Recent First)">
+        <source>Creation Date (Recent First)</source>
+        <target state="translated">Aanmaakdatum (nieuwste eerst)</target>
+        <note>A sorting option for a list of files, by file creation date. Example: 'Sort Order: Creation Date (Recent First)'</note>
+      </trans-unit>
+      <trans-unit id="[FilesSortOrder/longTitle] Modification Date (Oldest First)">
+        <source>Modification Date (Oldest First)</source>
+        <target state="translated">Wijzigingsdatum (oudste eerst)</target>
+        <note>A sorting option for a list of files, by file's last modification date. Example: 'Sort Order: Modification Date (Oldest First)'</note>
+      </trans-unit>
+      <trans-unit id="[FilesSortOrder/longTitle] Modification Date (Recent First)">
+        <source>Modification Date (Recent First)</source>
+        <target state="translated">Wijzigingsdatum (nieuwste eerst)</target>
+        <note>A sorting option for a list of files, by file's last modification date. Example: 'Sort Order: Modification Date (Recent First)'</note>
+      </trans-unit>
+      <trans-unit id="[FilesSortOrder/longTitle] Name (A..Z)">
+        <source>Name (A..Z)</source>
+        <target state="translated">Naam (A..Z)</target>
+        <note>A sorting option for a list of files, by file name. Example: 'Sort Order: Name (A..Z)'</note>
+      </trans-unit>
+      <trans-unit id="[FilesSortOrder/longTitle] Name (Z..A)">
+        <source>Name (Z..A)</source>
+        <target state="translated">Naam (Z..A)</target>
+        <note>A sorting option for a list of files, by file name. Example: 'Sort Order: Name (Z..A)'</note>
+      </trans-unit>
+      <trans-unit id="[FilesSortOrder/longTitle] No Sorting">
+        <source>No Sorting</source>
+        <target state="translated">Niet sorteren</target>
+        <note>A sorting option for a list of files. Example: 'Sort Order: No Sorting'</note>
+      </trans-unit>
+      <trans-unit id="[GroupSortOrder/longTitle] By Creation Date (New..Old)">
+        <source>By Creation Date (New..Old)</source>
+        <target state="translated">Op aanmaakdatum (nieuw..oud)</target>
+        <note>An option in Group Viewer settings. Example: 'Sort Order: By Creation Date (New..Old)'</note>
+      </trans-unit>
+      <trans-unit id="[GroupSortOrder/longTitle] By Creation Date (Old..New)">
+        <source>By Creation Date (Old..New)</source>
+        <target state="translated">Op aanmaakdatum (oud..nieuw)</target>
+        <note>An option in Group Viewer settings. Example: 'Sort Order: By Creation Date (Old..New)'</note>
+      </trans-unit>
+      <trans-unit id="[GroupSortOrder/longTitle] By Modification Date (New..Old)">
+        <source>By Modification Date (New..Old)</source>
+        <target state="translated">Op wijzigingsdatum (nieuw..oud)</target>
+        <note>An option in Group Viewer settings. Example: 'Sort Order: By Modification Date (New..Old)'</note>
+      </trans-unit>
+      <trans-unit id="[GroupSortOrder/longTitle] By Modification Date (Old..New)">
+        <source>By Modification Date (Old..New)</source>
+        <target state="translated">Op wijzigingsdatum (oud..nieuw)</target>
+        <note>An option in Group Viewer settings. Example: 'Sort Order: By Modification Date (Old..New)'</note>
+      </trans-unit>
+      <trans-unit id="[GroupSortOrder/longTitle] By Title (A..Z)">
+        <source>By Title (A..Z)</source>
+        <target state="translated">Op naam (A..Z)</target>
+        <note>An option in Group Viewer settings. Example: 'Sort Order: By Title (A..Z)'</note>
+      </trans-unit>
+      <trans-unit id="[GroupSortOrder/longTitle] By Title (Z..A)">
+        <source>By Title (Z..A)</source>
+        <target state="translated">Op naam (Z..A)</target>
+        <note>An option in Group Viewer settings. Example: 'Sort Order: By Title (Z..A)'</note>
+      </trans-unit>
+      <trans-unit id="[GroupSortOrder/longTitle] No Sorting">
+        <source>No Sorting</source>
+        <target state="translated">Niet sorteren</target>
+        <note>An option in Group Viewer settings. Example: 'Sort Order: No Sorting'</note>
+      </trans-unit>
+      <trans-unit id="[KDF/Progress] Processing the master key">
+        <source>Processing the master key</source>
+        <target state="translated">Bezig met verwerken van hoofdsleutel</target>
+        <note>Status message: processing of the master key is in progress</note>
+      </trans-unit>
+      <trans-unit id="[KeychainError/generic] Keychain error (code %d) ">
+        <source>Keychain error (code %d) </source>
+        <target state="translated">Sleutelhangerfout (code %d) </target>
+        <note>Generic error message about system keychain. [errorCode: Int]</note>
+      </trans-unit>
+      <trans-unit id="[KeychainError/unexpectedFormat] Keychain error: unexpected data format">
+        <source>Keychain error: unexpected data format</source>
+        <target state="translated">Sleutelhangerfout: onverwacht gegevensformaat</target>
+        <note>Error message about system keychain.</note>
+      </trans-unit>
+      <trans-unit id="[Progress/CancellationReason/lowMemory]">
+        <source>Not enough memory to continue.
+This can happen with larger databases or too ambitious database settings (Argon2 memory parameter).</source>
+        <target state="translated">Niet genoeg geheugen om door te gaan.
+Dit kan gebeuren bij grotere databanken of te ambitieuze databankinstellingen (Argon2-geheugenparameter).</target>
+        <note>Error message when a long-running operation was cancelled due to the lack of free memory (RAM).</note>
+      </trans-unit>
+      <trans-unit id="[Progress/CancellationReason] Cancelled by user">
+        <source>Cancelled by user</source>
+        <target state="translated">Afgebroken door gebruiker</target>
+        <note>Explanation/notification when a long-running operation was cancelled by user</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AppLockTimeout/description] After last interaction">
+        <source>After last interaction</source>
+        <target state="translated">Na laatste interactie</target>
+        <note>A description/subtitle for Settings/AppLockTimeout options that trigger when the user has been idle for a while. For example: 'AppLock Timeout: 3 seconds (After last interaction)</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AppLockTimeout/description] After leaving the app">
+        <source>After leaving the app</source>
+        <target state="translated">Na het verlaten van de app</target>
+        <note>A description/subtitle for Settings/AppLock/Timeout options that trigger when the app is minimized. For example: 'AppLock Timeout: 3 seconds (After leaving the app)</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AppLockTimeout/fullTitle] Immediately">
+        <source>Immediately</source>
+        <target state="translated">Onmiddelijk</target>
+        <note>An option in Settings. Will be shown as 'App Lock: Timeout: Immediately'</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AppLockTimeout/fullTitle] Never">
+        <source>Never</source>
+        <target state="translated">Nooit</target>
+        <note>An option in Settings. Will be shown as 'App Lock: Timeout: Never'</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AppLockTimeout/shortTitle] Immediately">
+        <source>Immediately</source>
+        <target state="translated">Onmiddelijk</target>
+        <note>An option in Settings. Will be shown as 'App Lock: Timeout: Immediately'</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AppLockTimeout/shortTitle] Never">
+        <source>Never</source>
+        <target state="translated">Nooit</target>
+        <note>An option in Settings. Will be shown as 'App Lock: Timeout: Never'</note>
+      </trans-unit>
+      <trans-unit id="[Settings/BackupKeepingDuration/shortTitle] Forever">
+        <source>Forever</source>
+        <target state="translated">Voor altijd</target>
+        <note>An option in Settings. Please keep it short. Will be shown as 'Keep Backup Files: Forever'</note>
+      </trans-unit>
+      <trans-unit id="[Settings/ClipboardTimeout/fullTitle] Never">
+        <source>Never</source>
+        <target state="translated">Nooit</target>
+        <note>An option in Settings. Will be shown as 'Clipboard Timeout: Never'</note>
+      </trans-unit>
+      <trans-unit id="[Settings/ClipboardTimeout/shortTitle] Never">
+        <source>Never</source>
+        <target state="translated">Nooit</target>
+        <note>An option in Settings. Will be shown as 'Clipboard Timeout: Never'</note>
+      </trans-unit>
+      <trans-unit id="[Settings/DatabaseLockTimeout/description] When leaving the app">
+        <source>When leaving the app</source>
+        <target state="translated">Bij het verlaten van de app</target>
+        <note>A description/subtitle for the 'DatabaseLockTimeout: Immediately'.</note>
+      </trans-unit>
+      <trans-unit id="[Settings/DatabaseLockTimeout/fullTitle] Immediately">
+        <source>Immediately</source>
+        <target state="translated">Onmiddelijk</target>
+        <note>An option in Settings. Will be shown as 'Database Lock: Timeout: Immediately'</note>
+      </trans-unit>
+      <trans-unit id="[Settings/DatabaseLockTimeout/fullTitle] Never">
+        <source>Never</source>
+        <target state="translated">Nooit</target>
+        <note>An option in Settings. Will be shown as 'Database Lock: Timeout: Never'</note>
+      </trans-unit>
+      <trans-unit id="[Settings/DatabaseLockTimeout/shortTitle] Immediately">
+        <source>Immediately</source>
+        <target state="translated">Onmiddelijk</target>
+        <note>An option in Settings. Will be shown as 'Database Lock: Timeout: Immediately'</note>
+      </trans-unit>
+      <trans-unit id="[Settings/DatabaseLockTimeout/shortTitle] Never">
+        <source>Never</source>
+        <target state="translated">Nooit</target>
+        <note>An option in Settings. Will be shown as 'Database Lock: Timeout: Never'</note>
+      </trans-unit>
+      <trans-unit id="[Settings/EntryListDetail/longTitle] Last Modified Date">
+        <source>Last Modified Date</source>
+        <target state="translated">Laatst gewijzigd op</target>
+        <note>An option in Group Viewer settings. Refers fo the most recent time when the entry was modified. Will be shown as 'Entry Subtitle: Last Modified Date'.</note>
+      </trans-unit>
+      <trans-unit id="[Settings/EntryListDetail/longTitle] None">
+        <source>None</source>
+        <target state="translated">Geen</target>
+        <note>An option in Group Viewer settings. Will be shown as 'Entry Subtitle: None', meanining that no entry details will be shown in any lists.</note>
+      </trans-unit>
+      <trans-unit id="[Settings/EntryListDetail/longTitle] Notes">
+        <source>Notes</source>
+        <target state="translated">Notities</target>
+        <note>An option in Group Viewer settings. Refers to comments/notes field of the entry. Will be shown as 'Entry Subtitle: Notes'.</note>
+      </trans-unit>
+      <trans-unit id="[Settings/EntryListDetail/longTitle] Password">
+        <source>Password</source>
+        <target state="translated">Wachtwoord</target>
+        <note>An option in Group Viewer settings. Will be shown as 'Entry Subtitle: Password'.</note>
+      </trans-unit>
+      <trans-unit id="[Settings/EntryListDetail/longTitle] URL">
+        <source>URL</source>
+        <target state="translated">URL</target>
+        <note>An option in Group Viewer settings. Will be shown as 'Entry Subtitle: URL'.</note>
+      </trans-unit>
+      <trans-unit id="[Settings/EntryListDetail/longTitle] User Name">
+        <source>User Name</source>
+        <target state="translated">Gebruikersnaam</target>
+        <note>An option in Group Viewer settings. It refers to login information rather than person's name. Will be shown as 'Entry Subtitle: User Name'.</note>
+      </trans-unit>
+      <trans-unit id="[URLReference/Location] Cloud storage / Another app">
+        <source>Cloud storage / Another app</source>
+        <target state="translated">Cloud-opslag/Andere app</target>
+        <note>Human-readable file location. The file is situated either online / in cloud storage, or on the same device, but in some other app. Example: 'File Location: Cloud storage / Another app'</note>
+      </trans-unit>
+      <trans-unit id="[URLReference/Location] Internal backup">
+        <source>Internal backup</source>
+        <target state="translated">Interne back-up</target>
+        <note>Human-readable file location: the file is on device, inside the app sandbox. 'Backup' is a dedicated directory for database backup files. Example: 'File Location: Internal backup'</note>
+      </trans-unit>
+      <trans-unit id="[URLReference/Location] Internal inbox">
+        <source>Internal inbox</source>
+        <target state="translated">Intern Postvak IN</target>
+        <note>Human-readable file location: the file is on device, inside the app sandbox. 'Inbox' is a special directory for files that are being imported. Can be also 'Internal import'. Example: 'File Location: Internal inbox'</note>
+      </trans-unit>
+      <trans-unit id="[URLReference/Location] Local copy">
+        <source>Local copy</source>
+        <target state="translated">Lokale kopie</target>
+        <note>Human-readable file location: the file is on device, inside the app sandbox. Example: 'File Location: Local copy'</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
