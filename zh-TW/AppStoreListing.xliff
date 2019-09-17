@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="KeePassium/AppStoreDescription.txt" source-language="en" target-language="zh-TW" datatype="plaintext">
+    <body>
+      <trans-unit id="Title" maxwidth="30">
+        <source>KeePassium Password Manager</source>
+        <note>Please keep `KeePassium` as the first word. If this is difficult with the natural word order, feel free to use punctuation, for example: "KeePassium - Password Manager"</note>
+        <target state="translated">KeePassium 密碼管理器</target>
+      </trans-unit>
+      <trans-unit id="Subtitle 1" maxwidth="30">
+        <source>Respects your privacy</source>
+        <note>One-line app description/subtitle</note>
+        <target state="translated">保護您的隱私</target>
+      </trans-unit>
+      <trans-unit id="Description/Intro">
+        <source>KeePassium keeps your passwords safe. It delivers the security of KeePass databases with a clean, easy to use interface.</source>
+        <note/>
+        <target state="translated">KeePassium 確保您的密碼安全, 有著簡潔易用的介面來提供KeePass資料庫安全設定。</target>
+      </trans-unit>
+      <trans-unit id="Description/MainFeatures/title">
+        <source>MAIN FEATURES</source>
+        <note>Section header, capitalized</note>
+        <target state="translated">主要特性</target>
+      </trans-unit>
+      <trans-unit id="Description/MainFeatures/text">
+        <source>• Automatic sync — keep your database in your favorite cloud or offline.
+• Password AutoFill — login to any service in a few taps.
+• Touch ID / Face ID — save your time.
+• Multiple databases — to share passwords with your team or family.
+• Attached files — passport scans and server keys, always with you.
+• Peace of mind — feel free to check our source code, it's open.</source>
+        <note>Please keep the bullet points (followed by one space)</note>
+        <target state="translated">•自動同步 - 將您的資料庫保存在您喜歡的雲端服務中或離線保存。
+•密碼自動填充 - 只需輕點幾下即可登錄任何服務。
+•Touch ID /Face ID - 節省您的時間。
+•多個資料庫 - 與您的團隊或家人共享密碼。
+•附件 - 隨時隨地查看附件, 比如: 護照掃描件和服務器金鑰。
+•安心 - 隨時查看我們的原始碼，它是開源的。</target>
+      </trans-unit>
+      <trans-unit id="Description/AntiFeatures/title">
+        <source>ANTI-FEATURES</source>
+        <note>Section header, capitalized: features that are explicitly excluded</note>
+        <target state="translated">我們沒有</target>
+      </trans-unit>
+      <trans-unit id="Description/AntiFeatures/text">
+        <source>• No in-app browser
+• No VNC/SSH viewer 
+• No coffee maker
+• No analytics
+• No ads</source>
+        <note>Please keep the bullet points (followed by one space)</note>
+        <target state="translated">• 內置瀏覽器
+• VNC / SSH查看器
+• 分析
+• 廣告</target>
+      </trans-unit>
+      <trans-unit id="Description/AutomaticSync/title">
+        <source>AUTOMATIC SYNC</source>
+        <note>Section header, capitalized</note>
+        <target state="translated">自動同步</target>
+      </trans-unit>
+      <trans-unit id="Description/AutomaticSync/text">
+        <source>KeePassium can work both offline and with your favorite cloud provider. 
+
+There is no setup: pick your database through the familiar Files interface — and that's it. By integrating with the Files app, KeePassium supports almost all storage providers, including:
+
+• iCloud Drive
+• OneDrive
+• Dropbox 
+• Box
+• pCloud
+• Google Drive
+• NextCloud (with hiccups)
+• WebDAV and SFTP (via a third-party app)
+• ...and more!
+
+Should a password manager have full access to your corporate file server? Of course not! All the networking is automatically performed by the original storage provider app. This way, KeePassium knows only about few specific databases, not your whole server.</source>
+        <note>Please keep the bullet points (followed by one space)</note>
+        <target state="translated">KeePassium可以離線運行，也可以與您最喜歡的雲端服務一起使用。
+
+幾乎不用設置：通過熟悉的界面選擇您的資料庫 - 就是這樣。 與"檔案"應用程式的集成，KeePassium支持幾乎所有雲端服務商，包括：
+
+• iCloud Drive
+• OneDrive
+• Dropbox 
+• Box
+• pCloud
+• Google Drive
+• NextCloud (with hiccups)
+• WebDAV and SFTP (通過第三方服務)
+• ...還有更多!
+
+KeePassium 是否應具有對雲端服務的完全訪問權限？ 當然不是！ 
+所有同步操作都由您選擇的雲端服務商提供的程式自動執行。 這樣KeePassium只知道幾個特定的資料庫，而不是整個雲端中的所有資料。</target>
+      </trans-unit>
+      <trans-unit id="Description/More/title">
+        <source>WHAT ELSE CAN IT DO?</source>
+        <note>Section header, capitalized: additional list of features</note>
+        <target state="translated">它還能做什麼?</target>
+      </trans-unit>
+      <trans-unit id="Description/More/text">
+        <source>• Read and write all database formats (kdb, kdbx3, kdbx4 — including Argon2/ChaCha20)
+• View time-based one-time passwords (TOTP)
+• View deleted groups and entries (Recycle Bin)
+• View previous revisions of an entry
+• View and edit custom fields
+• View custom icons
+• And more! See for yourself, it's free.</source>
+        <note>Please keep the bullet points (followed by one space)</note>
+        <target state="translated">•讀寫所有KeePass資料庫格式(kdb，kdbx3，kdbx4 - 包括Argon2 / ChaCha20)
+•查看基於時間的一次性密碼(TOTP)
+•查看已刪除的組和條目(資源回收桶)
+•查看條目的先前修訂版
+•查看和編輯自定義字段
+•查看自定義圖標
+•還有更多功能! 等著您的發掘, 它是免費的。</target>
+      </trans-unit>
+      <trans-unit id="Description/Privacy/title">
+        <source>PRIVACY</source>
+        <note>Section header, capitalized: privacy policy</note>
+        <target state="translated">隱私權</target>
+      </trans-unit>
+      <trans-unit id="Description/Privacy/text">
+        <source>This app does not collect any personal data. We sell the app, not its users.</source>
+        <note/>
+        <target state="translated">此應用程式不會收集任何個人資料。我們銷售的是應用程式，而不是用戶資料。</target>
+      </trans-unit>
+      <trans-unit id="Description/CommercialAndOpen/title">
+        <source>COMMERCIAL AND OPEN</source>
+        <note>Section header, capitalized: the app is both a commercial and open source project</note>
+        <target state="translated">商業應用及開源應用</target>
+      </trans-unit>
+      <trans-unit id="Description/CommercialAndOpen/text">
+        <source>KeePassium is a commercial open source app. Here, "open source" is the transparency you need from a password manager. The "commercial" part, in turn, gives you:
+
+• A great well-polished interface
+• Responsive support that cares
+• Future updates and improvements</source>
+        <note>Please keep the bullet points (followed by one space)</note>
+        <target state="translated">KeePassium是一個商業開源應用程式。 “開源”是密碼管理器所需的透明度。 “商業”部分為您提供：
+
+•精心設計的界面
+•技術支持
+•未來的更新和改進</target>
+      </trans-unit>
+      <trans-unit id="Description/Freemium/title">
+        <source>FREE vs PREMIUM</source>
+        <note>Section header, capitalized: a comparison of free and premium version.</note>
+        <target state="translated">免費版 vs 高級版</target>
+      </trans-unit>
+      <trans-unit id="Description/Freemium/text">
+        <source>There is no "trial period". The free version is always completely functional. You can view and edit, use Touch ID / Face ID, search and AutoFill — but only with one database at a time.
+
+You can install free KeePassium for your family members. If they barely use the app, it will not bother them to buy premium. 
+
+With the premium version, you can:
+• Quickly switch between multiple databases.
+• Unlock databases with one tap and keep them open as long as you need.
+• View attachments in the app, without leaving a trace in the system.
+• Email your questions and get answers directly from the developer.
+• Keep KeePassium shiny and available to people who need security but cannot afford it yet.</source>
+        <note>Please keep the bullet points (followed by one space)</note>
+        <target state="translated">沒有“試用期”。 免費版本可以完完全全的正常運行。 您可以查看和編輯，使用Touch ID / Face ID，搜索和自動填充 - 但一次只能使用一個資料庫。
+
+您可以為您的家人安裝免費的KeePassium。 如果他們很少使用KeePassium，我們不會頻繁地給予他們購買高級版的提示。
+
+使用高級版本，您可以：
+•在多個資料庫之間快速切換。
+•只需輕輕一按即可解鎖資料庫，並在需要時保持打開狀態。
+•在應用程式中查看附件，而不會在系統中留下痕跡。
+•通過電子郵件發送問題並直接從開發人員處獲得答案
+•支持KeePassium，可供需要安全密碼管理器但卻負擔不起的人使用。</target>
+      </trans-unit>
+      <trans-unit id="Description/Contact/text">
+        <source>Talk to us at info@keepassium.com, /r/KeePassium on Reddit, @KeePassium on Twitter and GitHub.</source>
+        <note/>
+        <target state="translated">聯繫我們 info@keepassium.com, /r/KeePassium 在 Reddit, @KeePassium 在Twitter 還有 GitHub.</target>
+      </trans-unit>
+      <trans-unit id="Description/Footer/text">
+        <source>* Premium version is available as an in-app purchase, either as a subscription or a one-time payment. 
+* Payment will be charged to your Apple ID account at the confirmation of (in-app) purchase. Subscription automatically renews unless it is canceled at least 24 hours before the end of the current period. Your account will be charged for renewal within 24 hours prior to the end of the current period. 
+* You can manage and cancel your subscriptions by going to your account settings on the App Store after purchase.
+* Privacy policy: https://keepassium.com/privacy/app
+* Terms of Use: https://keepassium.com/terms/app</source>
+        <note>Mandatory legalese required by Apple. Asterisks instead of bullet points.</note>
+        <target state="translated">*高級版作為應用內購買，可按週期訂閱或一次性付款。
+*付款將在(應用內)購買確認時從您的Apple ID帳戶中扣除。 除非在到期前至少24小時取消，否則訂閱會自動續訂。 您的帳戶將在到期前24小時內收取續訂費用。
+*您可以在購買後轉到App Store上的帳戶設置來管理和取消訂閱。
+*隱私政策：https://keepassium.com/privacy/app
+*使用條款：https://keepassium.com/terms/app</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
