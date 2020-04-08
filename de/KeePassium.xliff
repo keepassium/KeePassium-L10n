@@ -2,7 +2,7 @@
 <xliff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="KeePassium AutoFill/controllers/Base.lproj/CrashReportVC.storyboard" source-language="en" target-language="de" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.1" build-num="11A1027"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
     </header>
     <body>
       <trans-unit id="ebS-pB-Qan.title" xml:space="preserve">
@@ -16,13 +16,17 @@
 This can happen with large databases or memory-demanding database settings (Argon2).
 
 Please contact us if you need help with this.</source>
-        <target state="translated">Es scheint, dass AutoFill das letzte Mal nicht korrekt geschlossen hat. 
+        <target state="translated">Es scheint, dass sich AutoFill das letzte Mal nicht korrekt geschlossen hat. 
 
 Dies kann mit großen Datenbanken oder speicherintensiven Datenbankeinstellungen (Argon2) passieren.
 
 Bitte kontaktieren Sie uns, wenn Sie Hilfe benötigen.</target>
         <note>Class = "UILabel"; text = "It seems that AutoFill did not close correctly the last time. \n\nThis can happen with large databases or memory-demanding database settings (Argon2).\n\nPlease contact us if you need help with this."; ObjectID = "kmV-si-Nrg";</note>
       <alt-trans><target>Es scheint, dass AutoFill das letzte Mal nicht korrekt geschlossen hat. 
+
+Dies kann mit großen Datenbanken oder speicherintensiven Datenbankeinstellungen (Argon2) passieren.
+
+Bitte kontaktieren Sie uns, wenn Sie Hilfe benötigen.</target></alt-trans><alt-trans><target>Es scheint, dass AutoFill das letzte Mal nicht korrekt geschlossen hat. 
 
 Dies kann mit großen Datenbanken oder speicheranspruchsvollen Datenbankeinstellungen (Argon2) passieren.
 
@@ -36,7 +40,7 @@ Bitte kontaktieren Sie uns, wenn Sie Hilfe benötigen.</target></alt-trans></tra
   </file>
   <file original="KeePassium AutoFill/controllers/Base.lproj/DatabaseChooserVC.storyboard" source-language="en" target-language="de" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.1" build-num="11A1027"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
     </header>
     <body>
       <trans-unit id="CbK-f7-To5.title" xml:space="preserve">
@@ -58,7 +62,7 @@ Bitte kontaktieren Sie uns, wenn Sie Hilfe benötigen.</target></alt-trans></tra
   </file>
   <file original="KeePassium AutoFill/controllers/Base.lproj/DatabaseUnlockerVC.storyboard" source-language="en" target-language="de" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.1" build-num="11A1027"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
     </header>
     <body>
       <trans-unit id="89h-8b-LRO.normalTitle" xml:space="preserve">
@@ -85,7 +89,7 @@ Bitte kontaktieren Sie uns, wenn Sie Hilfe benötigen.</target></alt-trans></tra
   </file>
   <file original="KeePassium AutoFill/controllers/Base.lproj/DiagnosticsViewerVC.storyboard" source-language="en" target-language="de" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.1" build-num="11A1027"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
     </header>
     <body>
       <trans-unit id="Ura-k4-GXq.title" xml:space="preserve">
@@ -97,14 +101,14 @@ Bitte kontaktieren Sie uns, wenn Sie Hilfe benötigen.</target></alt-trans></tra
   </file>
   <file original="KeePassium AutoFill/controllers/Base.lproj/EntryFinderVC.storyboard" source-language="en" target-language="de" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.1" build-num="11A1027"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
     </header>
     <body>
       <trans-unit id="NSB-dG-jRN.text" xml:space="preserve">
         <source>Nothing suitable found.</source>
-        <target state="translated">Nichts gefunden.</target>
+        <target state="translated">Nichts passendes gefunden.</target>
         <note>Class = "UILabel"; text = "Nothing suitable found."; ObjectID = "NSB-dG-jRN"; Note = "Placeholder text for empty search results.";</note>
-      </trans-unit>
+      <alt-trans><target>Nichts gefunden.</target></alt-trans></trans-unit>
       <trans-unit id="dPB-bK-tzh.title" xml:space="preserve">
         <source>Lock Database</source>
         <target state="translated">Datenbank sperren</target>
@@ -119,7 +123,7 @@ Bitte kontaktieren Sie uns, wenn Sie Hilfe benötigen.</target></alt-trans></tra
   </file>
   <file original="KeePassium AutoFill/controllers/Base.lproj/FirstSetupVC.storyboard" source-language="en" target-language="de" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.1" build-num="11A1027"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
     </header>
     <body>
       <trans-unit id="P0M-N3-ynf.text" xml:space="preserve">
@@ -133,13 +137,17 @@ Bitte kontaktieren Sie uns, wenn Sie Hilfe benötigen.</target></alt-trans></tra
 Why? Behind the scenes, the system treats AutoFill as a separate app, independent from the main KeePassium process. For security reasons, an app cannot simply access any external files – unless you explicitly link these files to that app. Thus the system guarantees that the app can only access the few files you allowed it to.
 
 As a result, both AutoFill and the main KeePassium app need to be given their own permissions for each external file. Luckily, this is a one-time procedure.</source>
-        <target state="translated">Der AutoFill kann nicht automatisch auf die Dateien zugreifen, die Sie bereits in der Haupt-KeePassium-App haben.
+        <target state="translated">Die AutoFill-Funktion kann nicht automatisch auf die Dateien zugreifen, die Sie bereits in der eigentlichen KeePassium-App haben.
 
 Warum? Hinter den Kulissen behandelt das System AutoFill als separate App, unabhängig vom Hauptprozess von KeePassium. Aus Sicherheitsgründen kann eine App keine externen Dateien abrufen – es sei denn, Sie verknüpfen diese Dateien ausdrücklich mit dieser App. Das System garantiert also, dass die App nur auf die Dateien zugreifen kann, für die Sie die Erlaubnis gegeben haben.
 
-Infolgedessen müssen AutoFill und die Haupt-KeePassium-App ihre eigenen Berechtigungen für jede externe Datei erhalten. Glücklicherweise ist dies nur einmalig gemacht werden.</target>
+Infolgedessen müssen AutoFill und die KeePassium-App ihre eigenen Berechtigungen für jede externe Datei erhalten. Zum Glück muss das nur einmal gemacht werden.</target>
         <note>Class = "UITextView"; text = "The AutoFill cannot automatically access the files you already have in the main KeePassium app.\n\nWhy? Behind the scenes, the system treats AutoFill as a separate app, independent from the main KeePassium process. For security reasons, an app cannot simply access any external files – unless you explicitly link these files to that app. Thus the system guarantees that the app can only access the few files you allowed it to.\n\nAs a result, both AutoFill and the main KeePassium app need to be given their own permissions for each external file. Luckily, this is a one-time procedure."; ObjectID = "UAW-0G-N5G";</note>
-      </trans-unit>
+      <alt-trans><target>Der AutoFill kann nicht automatisch auf die Dateien zugreifen, die Sie bereits in der Haupt-KeePassium-App haben.
+
+Warum? Hinter den Kulissen behandelt das System AutoFill als separate App, unabhängig vom Hauptprozess von KeePassium. Aus Sicherheitsgründen kann eine App keine externen Dateien abrufen – es sei denn, Sie verknüpfen diese Dateien ausdrücklich mit dieser App. Das System garantiert also, dass die App nur auf die Dateien zugreifen kann, für die Sie die Erlaubnis gegeben haben.
+
+Infolgedessen müssen AutoFill und die Haupt-KeePassium-App ihre eigenen Berechtigungen für jede externe Datei erhalten. Glücklicherweise ist dies nur einmalig gemacht werden.</target></alt-trans></trans-unit>
       <trans-unit id="enW-gs-tra.normalTitle" xml:space="preserve">
         <source>Add Database</source>
         <target state="translated">Datenbank hinzufügen</target>
@@ -159,7 +167,7 @@ Infolgedessen müssen AutoFill und die Haupt-KeePassium-App ihre eigenen Berecht
   </file>
   <file original="KeePassium AutoFill/controllers/Base.lproj/KeyFileChooserVC.storyboard" source-language="en" target-language="de" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.1" build-num="11A1027"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
     </header>
     <body>
       <trans-unit id="9UZ-FK-v73.text" xml:space="preserve">
@@ -172,6 +180,11 @@ Infolgedessen müssen AutoFill und die Haupt-KeePassium-App ihre eigenen Berecht
         <target state="translated">Schlüsseldatei hinzufügen</target>
         <note>Class = "UIBarButtonItem"; title = "Add Key File"; ObjectID = "Lod-RE-tcd";</note>
       </trans-unit>
+      <trans-unit id="Omh-Sn-jl2.normalTitle" xml:space="preserve">
+        <source>Add Key File</source>
+        <target state="translated">Schlüsseldatei hinzufügen</target>
+        <note>Class = "UIButton"; normalTitle = "Add Key File"; ObjectID = "Omh-Sn-jl2";</note>
+      </trans-unit>
       <trans-unit id="leO-vH-qBX.text" xml:space="preserve">
         <source>Use only password</source>
         <target state="translated">Nur Passwort verwenden</target>
@@ -179,14 +192,14 @@ Infolgedessen müssen AutoFill und die Haupt-KeePassium-App ihre eigenen Berecht
       </trans-unit>
       <trans-unit id="r85-yz-wYI.title" xml:space="preserve">
         <source>Key Files</source>
-        <target state="translated">Schlüssel-Dateien</target>
+        <target state="translated">Schlüsseldateien</target>
         <note>Class = "UINavigationItem"; title = "Key Files"; ObjectID = "r85-yz-wYI";</note>
-      </trans-unit>
+      <alt-trans><target>Schlüssel-Dateien</target></alt-trans></trans-unit>
     </body>
   </file>
   <file original="KeePassium AutoFill/en.lproj/InfoPlist.strings" source-language="en" target-language="de" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.1" build-num="11A1027"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName" xml:space="preserve">
@@ -208,7 +221,7 @@ Infolgedessen müssen AutoFill und die Haupt-KeePassium-App ihre eigenen Berecht
   </file>
   <file original="KeePassium AutoFill/en.lproj/Localizable.strings" source-language="en" target-language="de" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.1" build-num="11A1027"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
     </header>
     <body>
       <trans-unit id="Add Database" xml:space="preserve">
@@ -250,7 +263,7 @@ Infolgedessen müssen AutoFill und die Haupt-KeePassium-App ihre eigenen Berecht
         <source>Use Passcode</source>
         <target state="translated">Code verwenden</target>
         <note>Action/button to switch from TouchID/FaceID prompt to manual input of the AppLock passcode.</note>
-      </trans-unit>
+      <alt-trans><target>Zugangscode verwenden</target></alt-trans></trans-unit>
       <trans-unit id="[AppLock] Unlock" xml:space="preserve">
         <source>Unlock</source>
         <target state="translated">Entsperren</target>
@@ -258,9 +271,9 @@ Infolgedessen müssen AutoFill und die Haupt-KeePassium-App ihre eigenen Berecht
       </trans-unit>
       <trans-unit id="[AutoFill/Premium/Upgrade/Manual/text] To upgrade, please manually open KeePassium from your home screen." xml:space="preserve">
         <source>To upgrade, please manually open KeePassium from your home screen.</source>
-        <target state="translated">Um zu aktualisieren, bitte KeePassium von Ihrem Homescreen manuell öffnen.</target>
+        <target state="translated">Um zu aktualisieren, öffnen Sie bitte KeePassium manuell von Ihrem Home-Bildschirm aus.</target>
         <note>Message shown when AutoFill cannot automatically open the main app for upgrading to a premium version.</note>
-      </trans-unit>
+      <alt-trans><target>Um zu aktualisieren, bitte KeePassium von Ihrem Homescreen manuell öffnen.</target></alt-trans></trans-unit>
       <trans-unit id="[AutoFill/Premium/Upgrade/Manual/title] Premium Upgrade" xml:space="preserve">
         <source>Premium Upgrade</source>
         <target state="translated">Premium-Upgrade</target>
@@ -278,7 +291,7 @@ Infolgedessen müssen AutoFill und die Haupt-KeePassium-App ihre eigenen Berecht
       </trans-unit>
       <trans-unit id="[Database/Add] Selected file &quot;%@&quot; does not look like a database." xml:space="preserve">
         <source>Selected file "%@" does not look like a database.</source>
-        <target state="translated">Die ausgewählte Datei "%@" sieht nicht wie eine Datenbank aus.</target>
+        <target/>
         <note>Warning when trying to add a random file as a database. [fileName: String]</note>
       </trans-unit>
       <trans-unit id="[Database/Create/action] Create Database" xml:space="preserve">
@@ -307,12 +320,12 @@ Infolgedessen müssen AutoFill und die Haupt-KeePassium-App ihre eigenen Berecht
         <source>Loading...</source>
         <target state="translated">Lade...</target>
         <note>Status message: loading a database</note>
-      </trans-unit>
+      <alt-trans><target>wird geladen...</target></alt-trans></trans-unit>
       <trans-unit id="[Database/MasterKey/changed] Master key successfully changed" xml:space="preserve">
         <source>Master key successfully changed</source>
-        <target state="translated">Master Key erfolgreich gelöscht</target>
+        <target state="translated">Hauptschlüssel erfolgreich geändert</target>
         <note>Notification after changing database master key</note>
-      </trans-unit>
+      <alt-trans><target>Master Key erfolgreich gelöscht</target></alt-trans></trans-unit>
       <trans-unit id="[Database/Open/action] Open Database" xml:space="preserve">
         <source>Open Database</source>
         <target state="translated">Datenbank öffnen</target>
@@ -322,6 +335,11 @@ Infolgedessen müssen AutoFill und die Haupt-KeePassium-App ihre eigenen Berecht
         <source>Close</source>
         <target state="translated">Schließen</target>
         <note>Action/button to close current database (for example, when leaving the root group). NOTE: closing does not necessarily lock the database.</note>
+      </trans-unit>
+      <trans-unit id="[Database/Opened/action] Lock Database" xml:space="preserve">
+        <source>Lock Database</source>
+        <target state="translated">Datenbank sperren</target>
+        <note>Action/button to lock current database (the next time, it will ask for the master key).</note>
       </trans-unit>
       <trans-unit id="[Database/Remove/Confirm/text] Remove database from the list?&#10; The file will remain intact and you can add it again later." xml:space="preserve">
         <source>Remove database from the list?
@@ -402,7 +420,7 @@ Infolgedessen müssen AutoFill und die Haupt-KeePassium-App ihre eigenen Berecht
       </trans-unit>
       <trans-unit id="[File/PermissionDenied] Try to remove the file from the app, then add it again." xml:space="preserve">
         <source>Try to remove the file from the app, then add it again.</source>
-        <target state="needs-translation">Try to remove the file from the app, then add it again.</target>
+        <target state="translated">Versuchen Sie die Datei aus der App zu entfernen und fügen Sie sie erneut hinzu.</target>
         <note>A suggestion shown after specific file errors (either databases or key files).</note>
       </trans-unit>
       <trans-unit id="[FileInfo/Field/title] Creation Date" xml:space="preserve">
@@ -495,6 +513,11 @@ Infolgedessen müssen AutoFill und die Haupt-KeePassium-App ihre eigenen Berecht
         <target state="translated">Kontakt</target>
         <note>Action/button to write an email to support</note>
       </trans-unit>
+      <trans-unit id="[Generic] Copy" xml:space="preserve">
+        <source>Copy</source>
+        <target state="translated">Kopieren</target>
+        <note>Action/button to move an item (to another group/folder/etc)</note>
+      </trans-unit>
       <trans-unit id="[Generic] Delete" xml:space="preserve">
         <source>Delete</source>
         <target state="translated">Löschen</target>
@@ -524,6 +547,11 @@ Infolgedessen müssen AutoFill und die Haupt-KeePassium-App ihre eigenen Berecht
         <source>Export</source>
         <target state="translated">Exportieren</target>
         <note>Action/button to export an item to another app</note>
+      </trans-unit>
+      <trans-unit id="[Generic] Move" xml:space="preserve">
+        <source>Move</source>
+        <target state="translated">Verschieben</target>
+        <note>Action/button to move an item (to another group/folder/etc)</note>
       </trans-unit>
       <trans-unit id="[Generic] OK" xml:space="preserve">
         <source>OK</source>
@@ -641,7 +669,7 @@ Infolgedessen müssen AutoFill und die Haupt-KeePassium-App ihre eigenen Berecht
   </file>
   <file original="KeePassium/database/Base.lproj/ChangeMasterKeyVC.storyboard" source-language="en" target-language="de" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.1" build-num="11A1027"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
     </header>
     <body>
       <trans-unit id="JKD-iF-iwA.title" xml:space="preserve">
@@ -668,7 +696,7 @@ Infolgedessen müssen AutoFill und die Haupt-KeePassium-App ihre eigenen Berecht
   </file>
   <file original="KeePassium/database/Base.lproj/ChooseDatabaseVC.storyboard" source-language="en" target-language="de" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.1" build-num="11A1027"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
     </header>
     <body>
       <trans-unit id="2o3-sG-Pcm.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" xml:space="preserve">
@@ -705,9 +733,14 @@ Infolgedessen müssen AutoFill und die Haupt-KeePassium-App ihre eigenen Berecht
   </file>
   <file original="KeePassium/database/Base.lproj/ChooseKeyFileVC.storyboard" source-language="en" target-language="de" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.1" build-num="11A1027"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
     </header>
     <body>
+      <trans-unit id="8aU-C3-c3r.normalTitle" xml:space="preserve">
+        <source>Add Key File</source>
+        <target state="translated">Schlüsseldatei hinzufügen</target>
+        <note>Class = "UIButton"; normalTitle = "Add Key File"; ObjectID = "8aU-C3-c3r";</note>
+      </trans-unit>
       <trans-unit id="Ftb-fa-Dvb.text" xml:space="preserve">
         <source>Use only password</source>
         <target state="translated">Nur Passwort verwenden</target>
@@ -727,7 +760,7 @@ Infolgedessen müssen AutoFill und die Haupt-KeePassium-App ihre eigenen Berecht
   </file>
   <file original="KeePassium/database/Base.lproj/DatabaseCreatorVC.storyboard" source-language="en" target-language="de" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.1" build-num="11A1027"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
     </header>
     <body>
       <trans-unit id="2iK-ct-ygq.text" xml:space="preserve">
@@ -779,7 +812,7 @@ Infolgedessen müssen AutoFill und die Haupt-KeePassium-App ihre eigenen Berecht
   </file>
   <file original="KeePassium/database/Base.lproj/UnlockDatabaseVC.storyboard" source-language="en" target-language="de" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.1" build-num="11A1027"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
     </header>
     <body>
       <trans-unit id="CuN-tE-lAG.placeholder" xml:space="preserve">
@@ -826,7 +859,7 @@ Infolgedessen müssen AutoFill und die Haupt-KeePassium-App ihre eigenen Berecht
   </file>
   <file original="KeePassium/database/entry/Base.lproj/ViewEntryFieldsVC.storyboard" source-language="en" target-language="de" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.1" build-num="11A1027"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
     </header>
     <body>
       <trans-unit id="vLP-Zc-bUc.text" xml:space="preserve">
@@ -838,7 +871,7 @@ Infolgedessen müssen AutoFill und die Haupt-KeePassium-App ihre eigenen Berecht
   </file>
   <file original="KeePassium/database/entry/Base.lproj/ViewEntryFilesVC.storyboard" source-language="en" target-language="de" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.1" build-num="11A1027"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
     </header>
     <body>
       <trans-unit id="W86-tp-bfF.text" xml:space="preserve">
@@ -855,7 +888,7 @@ Infolgedessen müssen AutoFill und die Haupt-KeePassium-App ihre eigenen Berecht
   </file>
   <file original="KeePassium/database/entry/Base.lproj/ViewEntryHistoryVC.storyboard" source-language="en" target-language="de" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.1" build-num="11A1027"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
     </header>
     <body>
       <trans-unit id="bzL-mr-Hrz.text" xml:space="preserve">
@@ -867,7 +900,7 @@ Infolgedessen müssen AutoFill und die Haupt-KeePassium-App ihre eigenen Berecht
   </file>
   <file original="KeePassium/database/entry/Base.lproj/ViewEntryVC.storyboard" source-language="en" target-language="de" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.1" build-num="11A1027"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
     </header>
     <body>
       <trans-unit id="g9A-4w-Dsa.segmentTitles[0]" xml:space="preserve">
@@ -889,7 +922,7 @@ Infolgedessen müssen AutoFill und die Haupt-KeePassium-App ihre eigenen Berecht
   </file>
   <file original="KeePassium/database/entry/edit/Base.lproj/EditEntryVC.storyboard" source-language="en" target-language="de" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.1" build-num="11A1027"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
     </header>
     <body>
       <trans-unit id="0pb-xb-fuf.text" xml:space="preserve">
@@ -936,7 +969,7 @@ Infolgedessen müssen AutoFill und die Haupt-KeePassium-App ihre eigenen Berecht
   </file>
   <file original="KeePassium/database/entry/edit/Base.lproj/PasswordGeneratorVC.storyboard" source-language="en" target-language="de" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.1" build-num="11A1027"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
     </header>
     <body>
       <trans-unit id="5Xu-cN-kSg.text" xml:space="preserve">
@@ -978,7 +1011,7 @@ Infolgedessen müssen AutoFill und die Haupt-KeePassium-App ihre eigenen Berecht
   </file>
   <file original="KeePassium/database/group/Base.lproj/EditGroupVC.storyboard" source-language="en" target-language="de" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.1" build-num="11A1027"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
     </header>
     <body>
       <trans-unit id="jea-zX-9LD.placeholder" xml:space="preserve">
@@ -995,7 +1028,7 @@ Infolgedessen müssen AutoFill und die Haupt-KeePassium-App ihre eigenen Berecht
   </file>
   <file original="KeePassium/database/group/Base.lproj/ViewGroupVC.storyboard" source-language="en" target-language="de" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.1" build-num="11A1027"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
     </header>
     <body>
       <trans-unit id="9KV-rC-1XL.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" xml:space="preserve">
@@ -1030,9 +1063,15 @@ Infolgedessen müssen AutoFill und die Haupt-KeePassium-App ihre eigenen Berecht
       </trans-unit>
     </body>
   </file>
+  <file original="KeePassium/database/relocation/Base.lproj/DestinationGroupPickerVC.storyboard" source-language="en" target-language="de" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+    </header>
+    <body/>
+  </file>
   <file original="KeePassium/en.lproj/InfoPlist.strings" source-language="en" target-language="de" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.1" build-num="11A1027"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName" xml:space="preserve">
@@ -1069,7 +1108,7 @@ Infolgedessen müssen AutoFill und die Haupt-KeePassium-App ihre eigenen Berecht
   </file>
   <file original="KeePassium/en.lproj/Localizable.strings" source-language="en" target-language="de" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.1" build-num="11A1027"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
     </header>
     <body>
       <trans-unit id="Add Database" xml:space="preserve">
@@ -1129,7 +1168,7 @@ Infolgedessen müssen AutoFill und die Haupt-KeePassium-App ihre eigenen Berecht
       </trans-unit>
       <trans-unit id="[Database/Add] Selected file &quot;%@&quot; does not look like a database." xml:space="preserve">
         <source>Selected file "%@" does not look like a database.</source>
-        <target state="translated">Die ausgewählte Datei "%@" sieht nicht wie eine Datenbank aus.</target>
+        <target/>
         <note>Warning when trying to add a random file as a database. [fileName: String]</note>
       </trans-unit>
       <trans-unit id="[Database/Create/TemplateEntry/notes] You can also store some notes, if you like." xml:space="preserve">
@@ -1243,6 +1282,11 @@ Infolgedessen müssen AutoFill und die Haupt-KeePassium-App ihre eigenen Berecht
         <source>Close</source>
         <target state="translated">Schließen</target>
         <note>Action/button to close current database (for example, when leaving the root group). NOTE: closing does not necessarily lock the database.</note>
+      </trans-unit>
+      <trans-unit id="[Database/Opened/action] Lock Database" xml:space="preserve">
+        <source>Lock Database</source>
+        <target state="translated">Datenbank sperren</target>
+        <note>Action/button to lock current database (the next time, it will ask for the master key).</note>
       </trans-unit>
       <trans-unit id="[Database/Remove/Confirm/text] Remove database from the list?&#10; The file will remain intact and you can add it again later." xml:space="preserve">
         <source>Remove database from the list?
@@ -1373,7 +1417,7 @@ Infolgedessen müssen AutoFill und die Haupt-KeePassium-App ihre eigenen Berecht
       </trans-unit>
       <trans-unit id="[File/PermissionDenied] Try to remove the file from the app, then add it again." xml:space="preserve">
         <source>Try to remove the file from the app, then add it again.</source>
-        <target state="needs-translation">Try to remove the file from the app, then add it again.</target>
+        <target state="translated">Versuchen Sie die Datei aus der App zu entfernen und fügen Sie sie erneut hinzu.</target>
         <note>A suggestion shown after specific file errors (either databases or key files).</note>
       </trans-unit>
       <trans-unit id="[FileInfo/Field/title] Creation Date" xml:space="preserve">
@@ -1405,6 +1449,11 @@ Infolgedessen müssen AutoFill und die Haupt-KeePassium-App ihre eigenen Berecht
         <source>Error</source>
         <target state="translated">Fehler</target>
         <note>Title of a field with an error message</note>
+      </trans-unit>
+      <trans-unit id="[General/DestinationGroup/title] Choose a Destination" xml:space="preserve">
+        <source>Choose a Destination</source>
+        <target state="translated">Speicherort wählen</target>
+        <note>Title of the dialog for picking the destination group for move/copy operations</note>
       </trans-unit>
       <trans-unit id="[Generic/ConfirmDelete/title] Are you sure?" xml:space="preserve">
         <source>Are you sure?</source>
@@ -1466,6 +1515,11 @@ Infolgedessen müssen AutoFill und die Haupt-KeePassium-App ihre eigenen Berecht
         <target state="translated">Kontakt</target>
         <note>Action/button to write an email to support</note>
       </trans-unit>
+      <trans-unit id="[Generic] Copy" xml:space="preserve">
+        <source>Copy</source>
+        <target state="translated">Kopieren</target>
+        <note>Action/button to move an item (to another group/folder/etc)</note>
+      </trans-unit>
       <trans-unit id="[Generic] Delete" xml:space="preserve">
         <source>Delete</source>
         <target state="translated">Löschen</target>
@@ -1495,6 +1549,11 @@ Infolgedessen müssen AutoFill und die Haupt-KeePassium-App ihre eigenen Berecht
         <source>Export</source>
         <target state="translated">Exportieren</target>
         <note>Action/button to export an item to another app</note>
+      </trans-unit>
+      <trans-unit id="[Generic] Move" xml:space="preserve">
+        <source>Move</source>
+        <target state="translated">Verschieben</target>
+        <note>Action/button to move an item (to another group/folder/etc)</note>
       </trans-unit>
       <trans-unit id="[Generic] OK" xml:space="preserve">
         <source>OK</source>
@@ -1642,16 +1701,6 @@ Infolgedessen müssen AutoFill und die Haupt-KeePassium-App ihre eigenen Berecht
         <source>Purchase Restored</source>
         <target state="translated">Kauf wiederhergestellt</target>
         <note>Title of the message shown after in-app purchase was successfully restored</note>
-      </trans-unit>
-      <trans-unit id="[Premium/Upgrade/Success/text] Upgrade successful, enjoy the app!" xml:space="preserve">
-        <source>Upgrade successful, enjoy the app!</source>
-        <target state="translated">Upgrade erfolgreich, genieße die App!</target>
-        <note>Text of the message shown after successful in-app purchase</note>
-      </trans-unit>
-      <trans-unit id="[Premium/Upgrade/Success/title] Thank You" xml:space="preserve">
-        <source>Thank You</source>
-        <target state="translated">Vielen Dank</target>
-        <note>Title of the message shown after a successful in-app purchase</note>
       </trans-unit>
       <trans-unit id="[Premium/Upgrade/action] Upgrade to Premium" xml:space="preserve">
         <source>Upgrade to Premium</source>
@@ -1842,7 +1891,7 @@ Infolgedessen müssen AutoFill und die Haupt-KeePassium-App ihre eigenen Berecht
   </file>
   <file original="KeePassium/general/Base.lproj/AboutVC.storyboard" source-language="en" target-language="de" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.1" build-num="11A1027"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
     </header>
     <body>
       <trans-unit id="7bL-fQ-OUc.headerTitle" xml:space="preserve">
@@ -2064,7 +2113,7 @@ Infolgedessen müssen AutoFill und die Haupt-KeePassium-App ihre eigenen Berecht
   </file>
   <file original="KeePassium/general/Base.lproj/ChooseIconVC.storyboard" source-language="en" target-language="de" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.1" build-num="11A1027"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
     </header>
     <body>
       <trans-unit id="H8v-gf-kff.title" xml:space="preserve">
@@ -2076,7 +2125,7 @@ Infolgedessen müssen AutoFill und die Haupt-KeePassium-App ihre eigenen Berecht
   </file>
   <file original="KeePassium/general/Base.lproj/FileInfoVC.storyboard" source-language="en" target-language="de" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.1" build-num="11A1027"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
     </header>
     <body>
       <trans-unit id="Cu8-bv-TEu.title" xml:space="preserve">
@@ -2088,7 +2137,7 @@ Infolgedessen müssen AutoFill und die Haupt-KeePassium-App ihre eigenen Berecht
   </file>
   <file original="KeePassium/general/Base.lproj/PasscodeInputVC.storyboard" source-language="en" target-language="de" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.1" build-num="11A1027"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
     </header>
     <body>
       <trans-unit id="3mQ-t6-0ty.text" xml:space="preserve">
@@ -2115,7 +2164,7 @@ Infolgedessen müssen AutoFill und die Haupt-KeePassium-App ihre eigenen Berecht
   </file>
   <file original="KeePassium/general/Base.lproj/ViewDiagnosticsVC.storyboard" source-language="en" target-language="de" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.1" build-num="11A1027"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
     </header>
     <body>
       <trans-unit id="1D0-qD-Wj1.title" xml:space="preserve">
@@ -2137,7 +2186,7 @@ Infolgedessen müssen AutoFill und die Haupt-KeePassium-App ihre eigenen Berecht
   </file>
   <file original="KeePassium/general/Base.lproj/WelcomeVC.storyboard" source-language="en" target-language="de" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.1" build-num="11A1027"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
     </header>
     <body>
       <trans-unit id="1Nc-wz-Yqq.title" xml:space="preserve">
@@ -2166,7 +2215,7 @@ Sie können mehrere Datenbanken nutzen um zum Beispiel Arbeit, Familie und pers�
   </file>
   <file original="KeePassium/premium/Base.lproj/PremiumContainerVC.storyboard" source-language="en" target-language="de" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.1" build-num="11A1027"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
     </header>
     <body>
       <trans-unit id="Qkk-pB-jp6.segmentTitles[0]" xml:space="preserve">
@@ -2183,7 +2232,7 @@ Sie können mehrere Datenbanken nutzen um zum Beispiel Arbeit, Familie und pers�
   </file>
   <file original="KeePassium/premium/Base.lproj/PremiumProVC.storyboard" source-language="en" target-language="de" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.1" build-num="11A1027"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
     </header>
     <body>
       <trans-unit id="5rv-SA-uRy.accessibilityLabel" xml:space="preserve">
@@ -2212,7 +2261,7 @@ Kontaktieren Sie uns</target>
   </file>
   <file original="KeePassium/premium/Base.lproj/PremiumVC.storyboard" source-language="en" target-language="de" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.1" build-num="11A1027"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
     </header>
     <body>
       <trans-unit id="Dfd-LU-ij4.normalTitle" xml:space="preserve">
@@ -2243,7 +2292,7 @@ You can manage and cancel your subscriptions by going to your account settings o
   </file>
   <file original="KeePassium/settings/appLock/Base.lproj/SettingsAppLockVC.storyboard" source-language="en" target-language="de" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.1" build-num="11A1027"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
     </header>
     <body>
       <trans-unit id="5Dg-KX-m7a.footerTitle" xml:space="preserve">
@@ -2300,7 +2349,7 @@ You can manage and cancel your subscriptions by going to your account settings o
   </file>
   <file original="KeePassium/settings/appLock/Base.lproj/SettingsAppTimeoutVC.storyboard" source-language="en" target-language="de" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.1" build-num="11A1027"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
     </header>
     <body>
       <trans-unit id="5MH-wG-EYd.title" xml:space="preserve">
@@ -2312,7 +2361,7 @@ You can manage and cancel your subscriptions by going to your account settings o
   </file>
   <file original="KeePassium/settings/autoFill/Base.lproj/SettingsAutoFillVC.storyboard" source-language="en" target-language="de" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.1" build-num="11A1027"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
     </header>
     <body>
       <trans-unit id="7SF-2E-uTg.text" xml:space="preserve">
@@ -2369,7 +2418,7 @@ You can manage and cancel your subscriptions by going to your account settings o
   </file>
   <file original="KeePassium/settings/backup/Base.lproj/SettingsBackupTimeoutPickerVC.storyboard" source-language="en" target-language="de" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.1" build-num="11A1027"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
     </header>
     <body>
       <trans-unit id="atf-ra-KMC.title" xml:space="preserve">
@@ -2381,7 +2430,7 @@ You can manage and cancel your subscriptions by going to your account settings o
   </file>
   <file original="KeePassium/settings/backup/Base.lproj/SettingsBackupVC.storyboard" source-language="en" target-language="de" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.1" build-num="11A1027"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
     </header>
     <body>
       <trans-unit id="B3L-Dk-Uq3.footerTitle" xml:space="preserve">
@@ -2428,7 +2477,7 @@ You can manage and cancel your subscriptions by going to your account settings o
   </file>
   <file original="KeePassium/settings/Base.lproj/SettingsClipboardTimeoutVC.storyboard" source-language="en" target-language="de" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.1" build-num="11A1027"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
     </header>
     <body>
       <trans-unit id="iJJ-jv-hhP.title" xml:space="preserve">
@@ -2440,7 +2489,7 @@ You can manage and cancel your subscriptions by going to your account settings o
   </file>
   <file original="KeePassium/settings/Base.lproj/SettingsDatabaseTimeoutVC.storyboard" source-language="en" target-language="de" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.1" build-num="11A1027"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
     </header>
     <body>
       <trans-unit id="26a-m8-zQP.title" xml:space="preserve">
@@ -2452,7 +2501,7 @@ You can manage and cancel your subscriptions by going to your account settings o
   </file>
   <file original="KeePassium/settings/Base.lproj/SettingsDataProtectionVC.storyboard" source-language="en" target-language="de" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.1" build-num="11A1027"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
     </header>
     <body>
       <trans-unit id="3uV-Zs-RRo.normalTitle" xml:space="preserve">
@@ -2538,7 +2587,7 @@ You can manage and cancel your subscriptions by going to your account settings o
   </file>
   <file original="KeePassium/settings/Base.lproj/SettingsFileSortingVC.storyboard" source-language="en" target-language="de" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.1" build-num="11A1027"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
     </header>
     <body>
       <trans-unit id="87L-KA-IeR.title" xml:space="preserve">
@@ -2555,7 +2604,7 @@ You can manage and cancel your subscriptions by going to your account settings o
   </file>
   <file original="KeePassium/settings/Base.lproj/SettingsItemListVC.storyboard" source-language="en" target-language="de" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.1" build-num="11A1027"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
     </header>
     <body>
       <trans-unit id="Gyy-12-KPC.title" xml:space="preserve">
@@ -2567,7 +2616,7 @@ You can manage and cancel your subscriptions by going to your account settings o
   </file>
   <file original="KeePassium/settings/Base.lproj/SettingsVC.storyboard" source-language="en" target-language="de" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.1" build-num="11A1027"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
     </header>
     <body>
       <trans-unit id="9Me-8P-nIZ.footerTitle" xml:space="preserve">

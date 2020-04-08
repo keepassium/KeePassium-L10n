@@ -5,7 +5,10 @@
       <trans-unit id="Title" maxwidth="30">
         <source>KeePassium Password Manager</source>
         <note>Please keep `KeePassium` as the first word. If this is difficult with the natural word order, feel free to use punctuation, for example: "KeePassium - Password Manager"</note>
-        <target state="translated">Gestor de contraseñas</target>
+        <target state="translated">KeePassium - Gestor de claves</target>
+        <alt-trans>
+          <target>Gestor de contraseñas</target>
+        </alt-trans>
         <alt-trans>
           <target>KeePassium gestor contraseñas</target>
         </alt-trans>
@@ -42,17 +45,28 @@
 • Attached files — passport scans and server keys, always with you.
 • Peace of mind — feel free to check our source code, it's open.</source>
         <note>Please keep the bullet points (followed by one space)</note>
-        <target state="translated">• Sincronización automática — almacene su base de datos en su servicio de nube favorita o utilícelo sin conexión.
+        <target state="translated">• Sincronización automática — almacena tu base de datos en tu servicio de nube favorito o utilízalo sin conexión.
+• Autocompletar contraseñas — inicia sesión en cualquier servicio con unos pocos toques.
+• Identificación por reconocimiento facial / huella dactilar — ahorra tiempo.
+• Multiples bases de datos — para compartir contraseñas con tu equipo o familia.
+• Archivos adjuntos — copia de pasaporte y claves de servidor, siempre contigo.
+• Tranquilidad — se pude revisar el código fuente, es abierto.</target>
+        <alt-trans>
+          <target>• Sincronización automática — almacene su base de datos en su servicio de nube favorita o utilícelo sin conexión.
 • Autocompletar contraseñas — inicie sesión en cualquier servicio con unos cuantos toques.
 • Identificación por reconocimiento facial / huella dactilar — ahorre tiempo.
 • Multiples bases de datos — para compartir contraseñas con su equipo o familia.
 • Archivos adjuntos — escaneos de pasaporte y claves de servidor, siempre contigo.
 • Tranquilidad — es libre de revisar nuestro código fuente, es abierto.</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="Description/AntiFeatures/title">
         <source>ANTI-FEATURES</source>
         <note>Section header, capitalized: features that are explicitly excluded</note>
-        <target state="translated">CARACTER'ISTICAS NO SOPORTADAS</target>
+        <target state="translated">CARACTERÍSTICAS NO SOPORTADAS</target>
+        <alt-trans>
+          <target>CARACTER'ISTICAS NO SOPORTADAS</target>
+        </alt-trans>
         <alt-trans>
           <target>ANTIFUNCIONES</target>
         </alt-trans>
@@ -92,7 +106,40 @@ There is no setup: pick your database through the familiar Files interface — a
 
 Should a password manager have full access to your corporate file server? Of course not! All the networking is automatically performed by the original storage provider app. This way, KeePassium knows only about few specific databases, not your whole server.</source>
         <note>Please keep the bullet points (followed by one space)</note>
-        <target state="translated">KeePassium puede trabajar tanto sin conexión como con su proveedor de almacenamiento en la nube favorito. 
+        <target state="translated">KeePassium puede trabajar tanto sin conexión como con tu proveedor de almacenamiento en la nube favorito. 
+
+No requiere configuración: simplemente selecciona la base de datos de contraseñas mediante una interfaz familiar — y eso es todo. Al integrarse con la aplicación del sistema de archivos, KeePassium soporta casi todos los proveedores de almacenamiento, incluyendo:
+
+• iCloud Drive
+• OneDrive
+• Dropbox 
+• Box
+• pCloud
+• Google Drive
+• NextCloud (con algo de trabajo)
+• WebDAV y SFTP (a través de aplicaciones de terceros)
+• ... y más!
+
+¿Debe un administrador de contraseñas tener acceso completo al servidor de archivos corporativos? ¡Por supuesto que no! Todo el trabajo con la red se asigna automáticamente a la aplicación nativa del proveedor de almacenamiento. De esta manera, KeePassium solo tiene acceso a bases de datos específicas, no a todo el servidor.</target>
+        <alt-trans>
+          <target>KeePassium puede trabajar tanto sin conexión como con tu proveedor de almacenamiento en la nube favorito. 
+
+No requiere configuración: simplemente selecciona la base de datos de contraseñas mediante una interfaz familiar — y eso es todo. Al integrarse con la aplicación del sistema de archivos, KeePassium soporta casi todos los proveedores de almacenamiento, incluyendo:
+
+• iCloud Drive
+• OneDrive
+• Dropbox 
+• Box
+• pCloud
+• Google Drive
+• NextCloud (con algo de trabajo)
+• WebDAV y SFTP (a través de aplicaciones de terceros)
+• ...y más!
+
+¿Debe un administrador de contraseñas tener acceso completo al servidor de archivos corporativos? ¡Por supuesto que no! Todo el trabajo con la red se asigna automáticamente a la aplicación nativa del proveedor de almacenamiento. De esta manera, KeePassium solo tiene acceso a bases de datos específicas, no a todo el servidor.</target>
+        </alt-trans>
+        <alt-trans>
+          <target>KeePassium puede trabajar tanto sin conexión como con su proveedor de almacenamiento en la nube favorito. 
 
 No requiere configuración: simplemente elija su base de datos de contraseñas mediante una interfaz familiar — y eso es todo. Al integrarse con la aplicación del sistema de archivos, KeePassium soporta casi todos los proveedores de almacenamiento, incluyendo:
 
@@ -107,6 +154,7 @@ No requiere configuración: simplemente elija su base de datos de contraseñas m
 • ...y más!
 
 ¿Debe un administrador de contraseñas tener acceso completo a su servidor de archivos corporativos? ¡Por supuesto que no! Todo el trabajo con la red se asigna automáticamente a la aplicación nativa del proveedor de almacenamiento. De esta manera, KeePassium solo tienen acceso a bases de datos específicas, no a todo el servidor.</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="Description/More/title">
         <source>WHAT ELSE CAN IT DO?</source>
@@ -125,13 +173,22 @@ No requiere configuración: simplemente elija su base de datos de contraseñas m
 • View custom icons
 • And more! See for yourself, it's free.</source>
         <note>Please keep the bullet points (followed by one space)</note>
-        <target state="translated">• Leer y escribir todos los formatos de la base de datos (kdb, kdbx3, kdbx4 — incluyendo Argon2/ChaChaCha20)
+        <target state="translated">• Leer y escribir todos los formatos de base de datos (kdb, kdbx3, kdbx4 — incluyendo Argon2/ChaChaCha20)
+• Visualizar contraseñas de un solo uso con caducidad (TOTP)
+• Ver grupos y entradas eliminadas (papelera de reciclaje)
+• Ver versiones anteriores de una entrada
+• Ver y editar campos personalizados
+• Ver iconos personalizados
+• ¡Y mucho más! Compruébalo tú mismo, es gratis.</target>
+        <alt-trans>
+          <target>• Leer y escribir todos los formatos de la base de datos (kdb, kdbx3, kdbx4 — incluyendo Argon2/ChaChaCha20)
 • Visualizar contraseñas de un solo uso basadas en el tiempo (TOTP)
 • Ver grupos y entradas eliminadas (papelera de reciclaje)
 • Ver versiones anteriores de una entrada
 • Ver y editar campos personalizados
 • Ver iconos personalizados
 • Y más! Compruébelo usted mismo, es gratis.</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="Description/Privacy/title">
         <source>PRIVACY</source>
@@ -155,11 +212,18 @@ No requiere configuración: simplemente elija su base de datos de contraseñas m
 • Responsive support that cares
 • Future updates and improvements</source>
         <note>Please keep the bullet points (followed by one space)</note>
-        <target state="translated">KeePassium es una aplicación comercial de código abierto. Aquí, "código abierto" es la transparencia necesaria de un administrador de contraseñas. La parte "comercial", a su vez, te ofrece:
+        <target state="translated">KeePassium es una aplicación comercial de código abierto. Aquí, "código abierto" es la transparencia necesaria de un administrador de contraseñas. La parte "comercial", a su vez ofrece:
+
+• Una gran interfaz bien terminada
+• Soporte que responde y disponible
+• Futuras actualizaciones y mejoras</target>
+        <alt-trans>
+          <target>KeePassium es una aplicación comercial de código abierto. Aquí, "código abierto" es la transparencia necesaria de un administrador de contraseñas. La parte "comercial", a su vez, te ofrece:
 
 • Una gran interfaz bien terminada
 • Soporte responsivo y disponible
 • Futuras actualizaciones y mejoras</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="Description/Freemium/title">
         <source>FREE vs PREMIUM</source>
@@ -178,7 +242,18 @@ With the premium version, you can:
 • Email your questions and get answers directly from the developer.
 • Keep KeePassium shiny and available to people who need security but cannot afford it yet.</source>
         <note>Please keep the bullet points (followed by one space)</note>
-        <target state="translated">No hay un "período de prueba". La versión gratuita siempre es completamente funcional. Puede ver y editar, usar identificación por huella dactilar / reconocimiento facial, búsqueda y autocompletar — pero sólo con una base de datos a la vez.
+        <target state="translated">No hay un "periodo de prueba". La versión gratuita siempre es completamente funcional. Puedes ver y editar, usar la identificación por huella dactilar / reconocimiento facial, búsqueda y autocompletar — pero sólo con una base de datos a la vez.
+
+Puedes instalar KeePassium gratis para tus familiares. Si ocasionalmente usan la aplicación, no necesitarán comprar la versión premium.
+
+Con la versión premium, puedes:
+• Cambiar rápidamente entre múltiples bases de datos.
+• Desbloquear con un toque las bases de datos y mantenerlas abiertas el tiempo que consideres necesario.
+• Ver adjuntos en la aplicación, sin dejar rastro en el sistema.
+• Enviar preguntas y recibir respuestas directamente del desarrollador.
+• Mantén KeePassium brillante y disponible para las personas que necesitan seguridad pero aún no pueden permitírselo.</target>
+        <alt-trans>
+          <target>No hay un "período de prueba". La versión gratuita siempre es completamente funcional. Puede ver y editar, usar identificación por huella dactilar / reconocimiento facial, búsqueda y autocompletar — pero sólo con una base de datos a la vez.
 
 Puede instalar KeePassium gratis para sus familiares. Si ocasionalmente usan la aplicación, no necesitarán comprar la versión premium.
 
@@ -188,6 +263,7 @@ Con la versión premium, puedes:
 • Ver adjuntos en la aplicación, sin dejar rastro en el sistema.
 • Enviar sus preguntas y recibir respuestas directamente del desarrollador.
 • Mantenga KeePassium brillante y disponible para las personas que necesitan seguridad pero aún no pueden permitírselo.</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="Description/Contact/text">
         <source>Talk to us at info@keepassium.com, /r/KeePassium on Reddit, @KeePassium on Twitter and GitHub.</source>
@@ -205,10 +281,17 @@ Con la versión premium, puedes:
 * Terms of Use: https://keepassium.com/terms/app</source>
         <note>Mandatory legalese required by Apple. Asterisks instead of bullet points.</note>
         <target state="translated">* La versión Premium está disponible como compra en la aplicación, ya sea como suscripción o como pago único. 
+* El pago se cargará a la cuenta de Apple ID en la confirmación de la compra (en la aplicación). La suscripción se renueva automáticamente a no ser que se cancele al menos 24 horas antes que finalice el periodo actual. Se cobrará la renovación de la cuenta dentro de las 24 horas antes que termine el periodo actual. 
+* Puedes administrar y cancelar las suscripciones yendo a la configuración de la cuenta en la App Store después de la compra.
+* Política de privacidad: https://keepassium.com/privacy/app
+* Términos de uso: https://keepassium.com/terms/app</target>
+        <alt-trans>
+          <target>* La versión Premium está disponible como compra en la aplicación, ya sea como suscripción o como pago único. 
 * El pago se cargará a la cuenta de Apple ID en la confirmación de la compra (en la aplicación). La suscripción se renueva automáticamente a no ser que lo cancele al menos 24 horas antes que finalice el período actual. Se cobrará la renovación de su cuenta dentro de las 24 horas antes que termine el período actual. 
 * Puede administrar y cancelar sus suscripciones yendo a la configuración de tu cuenta en la App Store después de la compra.
 * Política de privacidad: https://keepassium.com/privacy/app
 * Términos de uso: https://keepassium.com/terms/app</target>
+        </alt-trans>
         <alt-trans>
           <target>* La versión Premium está disponible como compra en la aplicación, ya sea como suscripción o como pago único. 
 * El pago se cargará a su cuenta de Apple ID en la confirmación de la compra (en la aplicación). La suscripción se renueva automáticamente a no ser que lo cancele al menos 24 horas antes que finalice el período actual. Se cobrará la renovación de su cuenta dentro de las 24 horas antes que termine el período actual. 
