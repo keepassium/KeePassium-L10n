@@ -122,7 +122,7 @@ Pokud s tímhle potřebujete pomoci, napište nám.</target>
         <source>Please re-add databases and key files you want to use with the AutoFill feature.</source>
         <target state="translated">Prosím znovu přidejte databáze a soubory s klíčem, které chcete používat pro automatické vyplňování.</target>
         <note>Class = "UILabel"; text = "Please re-add databases and key files you want to use with the AutoFill feature."; ObjectID = "P0M-N3-ynf";</note>
-      <alt-trans><target>Prosím znovu přidejte databáze, které chcete používat pro automatické vyplňování.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="UAW-0G-N5G.text" xml:space="preserve">
         <source>The AutoFill cannot automatically access the files you already have in the main KeePassium app.
 
@@ -251,7 +251,7 @@ Z tohoto důvodu je nutné dát svolení k přístupu jak samotné aplikaci KeeP
         <source>Use Passcode</source>
         <target state="translated">Použít kód aplikace</target>
         <note>Action/button to switch from TouchID/FaceID prompt to manual input of the AppLock passcode.</note>
-      <alt-trans><target>Používat Passcode</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[AppLock] Unlock" xml:space="preserve">
         <source>Unlock</source>
         <target state="translated">Odemknout</target>
@@ -279,7 +279,7 @@ Z tohoto důvodu je nutné dát svolení k přístupu jak samotné aplikaci KeeP
       </trans-unit>
       <trans-unit id="[Database/Add] Selected file &quot;%@&quot; does not look like a database." xml:space="preserve">
         <source>Selected file "%@" does not look like a database.</source>
-        <target/>
+        <target state="translated">Vybraný soubor "%@" nevypadá jako databáze.</target>
         <note>Warning when trying to add a random file as a database. [fileName: String]</note>
       </trans-unit>
       <trans-unit id="[Database/Create/action] Create Database" xml:space="preserve">
@@ -313,7 +313,7 @@ Z tohoto důvodu je nutné dát svolení k přístupu jak samotné aplikaci KeeP
         <source>Master key successfully changed</source>
         <target state="translated">Hlavní klíč k databázi úspěšně změněn</target>
         <note>Notification after changing database master key</note>
-      <alt-trans><target>Hlavní heslo k databázi úspěšně změněno</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database/Open/action] Open Database" xml:space="preserve">
         <source>Open Database</source>
         <target state="translated">Otevřít databázi</target>
@@ -365,17 +365,17 @@ Soubor nebude ostraněn a můžete jej znovu přidat později.</target>
         <source>Attached Files</source>
         <target state="translated">Přiložené soubory</target>
         <note>Title of a list with attached files</note>
-      <alt-trans><target>Přiložené Soubory</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Entry/Create/action] Create Entry" xml:space="preserve">
         <source>Create Entry</source>
         <target state="translated">Vytvořit záznam</target>
         <note>Action/button to create a new entry in the current group</note>
-      <alt-trans><target>Vytvořit Záznam</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Entry/Edit/CreateField/defaultName] Field Name" xml:space="preserve">
         <source>Field Name</source>
         <target state="translated">Název pole</target>
         <note>Default name of a newly created entry field</note>
-      <alt-trans><target>Název Pole</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Entry/Field/name] Notes" xml:space="preserve">
         <source>Notes</source>
         <target state="translated">Poznámky</target>
@@ -460,7 +460,7 @@ Soubor nebude ostraněn a můžete jej znovu přidat později.</target>
         <source>Export Error</source>
         <target state="translated">Export selhal</target>
         <note>Title of an error message about file export</note>
-      <alt-trans><target>Chyba při exportování</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Generic/File/title] Import Error" xml:space="preserve">
         <source>Import Error</source>
         <target state="translated">Import selhal</target>
@@ -587,7 +587,7 @@ Soubor nebude ostraněn a můžete jej znovu přidat později.</target>
         <target state="translated">Opravdu chcete odstranit soubor s klíčem?
 Ujistěte se, že jej máte zálohovaný.</target>
         <note>Message to confirm deletion of a key file.</note>
-      <alt-trans><target>Opravdu chcete odstranit soubor s klíčem? Ujistěte se, že jej máte zálohovaný.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[News/2019/10/ProVersionReleaseNews/title] KeePassium Pro" xml:space="preserve">
         <source>KeePassium Pro</source>
         <target state="translated">KeePassium Pro</target>
@@ -617,7 +617,7 @@ Ujistěte se, že jej máte zálohovaný.</target>
         <source>Save time entering your complex master passwords — keep your database open longer in the premium version.</source>
         <target state="translated">Ušetřete čas zadáváním vašeho hlavního hesla – prémiová verze umožňuje ponechat databázi déle otevřenou.</target>
         <note>Description/advertisement for the `Long Database Timeouts` premium feature</note>
-      <alt-trans><target>Ušetřete čas zadáváním vašeho hlavního hesla - prémiová verze umožňuje ponechat databázi déle otevřenou.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[PremiumFeature/LongDBTimeouts/title] Long Database Timeouts" xml:space="preserve">
         <source>Long Database Timeouts</source>
         <target state="translated">Dlouhý časový zámek</target>
@@ -664,7 +664,7 @@ Ujistěte se, že jej máte zálohovaný.</target>
         <source>Change Master Key</source>
         <target state="translated">Změnit hlavní klíč</target>
         <note>Class = "UINavigationItem"; title = "Change Master Key"; ObjectID = "JKD-iF-iwA"; Note = "Title of the dialog for changing the database's master key.";</note>
-      <alt-trans><target>Změnit hlavní heslo</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="M9Q-v8-e6Q.placeholder" xml:space="preserve">
         <source>No Key File</source>
         <target state="translated">Žádný soubor s klíčem</target>
@@ -679,7 +679,7 @@ Ujistěte se, že jej máte zálohovaný.</target>
         <source>New Password</source>
         <target state="translated">Nové heslo</target>
         <note>Class = "UITextField"; placeholder = "New Password"; ObjectID = "hYP-f0-K1s"; Note = "Placeholder: text field for changing the master password";</note>
-      <alt-trans><target>Heslo</target></alt-trans></trans-unit>
+      </trans-unit>
     </body>
   </file>
   <file original="KeePassium/database/Base.lproj/ChooseDatabaseVC.storyboard" source-language="en" target-language="cs" datatype="plaintext">
@@ -760,7 +760,7 @@ Ujistěte se, že jej máte zálohovaný.</target>
         <source>Master Key</source>
         <target state="translated">Hlavní klíč</target>
         <note>Class = "UILabel"; text = "Master Key"; ObjectID = "VjQ-di-Ilx"; Note = "Common title for the password/key file fields.";</note>
-      <alt-trans><target>Hlavní heslo</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="XNL-lc-2Ti.placeholder" xml:space="preserve">
         <source>e.g. MyPasswords</source>
         <target state="translated">např. MojeHesla</target>
@@ -812,7 +812,7 @@ Ujistěte se, že jej máte zálohovaný.</target>
         <source>Will use the remembered master key.</source>
         <target state="translated">Bude použit uložený hlavní klíč.</target>
         <note>Class = "UILabel"; text = "Will use the remembered master key."; ObjectID = "K3Y-ON-C19"; Note = "Hint shown below the Unlock button, when not asking for master password/key file.";</note>
-      <alt-trans><target>Bude použito uložené hlavní heslo.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="eAa-Z5-pdq.title" xml:space="preserve">
         <source>Unlock Database</source>
         <target state="translated">Odemknout databázi</target>
@@ -964,7 +964,7 @@ Ujistěte se, že jej máte zálohovaný.</target>
         <source>Look-Alike Characters (1Il…)</source>
         <target state="translated">Podobně vypadající znaky (1Il…)</target>
         <note>Class = "UILabel"; text = "Look-Alike Characters (1Il…)"; ObjectID = "5Xu-cN-kSg"; Note = "Symbols to include in generated passwords.";</note>
-      <alt-trans><target>Podobně vypadající znaky (1Il)</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="Hxj-CB-VE7.text" xml:space="preserve">
         <source>Password Length</source>
         <target state="translated">Délka hesla</target>
@@ -1038,7 +1038,7 @@ Ujistěte se, že jej máte zálohovaný.</target>
         <source>Change Master Key</source>
         <target state="translated">Změnit hlavní klíč</target>
         <note>Class = "UIBarButtonItem"; qkh-6K-yQW.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Change Master Key"; ObjectID = "qkh-6K-yQW";</note>
-      <alt-trans><target>Změnit hlavní heslo</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="rF3-mC-kj1.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" xml:space="preserve">
         <source>Settings</source>
         <target state="translated">Nastavení</target>
@@ -1138,7 +1138,7 @@ Ujistěte se, že jej máte zálohovaný.</target>
         <source>Use Passcode</source>
         <target state="translated">Použít kód aplikace</target>
         <note>Action/button to switch from TouchID/FaceID prompt to manual input of the AppLock passcode.</note>
-      <alt-trans><target>Použít přístupový kód</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[AppLock] Unlock" xml:space="preserve">
         <source>Unlock</source>
         <target state="translated">Odemknout</target>
@@ -1156,7 +1156,7 @@ Ujistěte se, že jej máte zálohovaný.</target>
       </trans-unit>
       <trans-unit id="[Database/Add] Selected file &quot;%@&quot; does not look like a database." xml:space="preserve">
         <source>Selected file "%@" does not look like a database.</source>
-        <target/>
+        <target state="translated">Vybraný soubor "%@" nevypadá jako databáze.</target>
         <note>Warning when trying to add a random file as a database. [fileName: String]</note>
       </trans-unit>
       <trans-unit id="[Database/Create/TemplateEntry/notes] You can also store some notes, if you like." xml:space="preserve">
@@ -1440,7 +1440,7 @@ Soubor nebude ostraněn a můžete jej znovu přidat později.</target>
       </trans-unit>
       <trans-unit id="[General/DestinationGroup/title] Choose a Destination" xml:space="preserve">
         <source>Choose a Destination</source>
-        <target state="needs-translation">Choose a Destination</target>
+        <target state="translated">Vyberte cíl</target>
         <note>Title of the dialog for picking the destination group for move/copy operations</note>
       </trans-unit>
       <trans-unit id="[Generic/ConfirmDelete/title] Are you sure?" xml:space="preserve">
@@ -1614,7 +1614,7 @@ Ujistěte se, že jej máte zálohovaný.</target>
         <source>Preview without a trace</source>
         <target state="translated">Nahlížejte beze stop</target>
         <note>Title of a premium feature</note>
-      <alt-trans><target>Náhled beze stopy</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Premium/Benefits/DatabaseTimeout/details]" xml:space="preserve">
         <source>Tired of typing your master password? Keep your database open longer and unlock it with one tap.</source>
         <target state="translated">Unavuje vás neustále zadávat hlavní heslo? Mějte svou databázi otevřenou po delší dobu a odemkněte ji jedním klepnutím.</target>
@@ -1624,7 +1624,7 @@ Ujistěte se, že jej máte zálohovaný.</target>
         <source>Save your time</source>
         <target state="translated">Šetřete svůj čas</target>
         <note>Title of a premium feature</note>
-      <alt-trans><target>Šetří vám čas</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Premium/Benefits/Maintenance/details]" xml:space="preserve">
         <source>Keep KeePassium improved, maintained and without ads.</source>
         <target state="translated">Pomozte udržet KeePassium vylepšovaný, udržovaný a bez reklam.</target>
@@ -1804,12 +1804,12 @@ Ujistěte se, že jej máte zálohovaný.</target>
         <source>App Lock, passcode, timeout</source>
         <target state="translated">Zámek, kód aplikace, časový limit</target>
         <note>Settings: subtitle of the `App Protection` section when biometric auth is not available.</note>
-      <alt-trans><target>Zámek, kód, časový limit</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Settings/Backup/Delete/title] Delete all backup files?" xml:space="preserve">
         <source>Delete all backup files?</source>
         <target state="translated">Odstranit všechny zálohy?</target>
         <note>Confirmation dialog message to delete all backup files</note>
-      <alt-trans><target>Smazat všechny zálohy?</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Settings/Backup] Delete ALL Backup Files (%d)" xml:space="preserve">
         <source>Delete ALL Backup Files (%d)</source>
         <target state="translated">Odstranit VŠECHNY zálohy (%d)</target>
@@ -1834,7 +1834,7 @@ Ujistěte se, že jej máte zálohovaný.</target>
         <source>All master keys have been deleted.</source>
         <target state="translated">Všechny hlavní klíče byly smazány.</target>
         <note>Text of the success message for `Clear Master Keys` button</note>
-      <alt-trans><target>Všechny hlavní klíče byly smazána.</target></alt-trans><alt-trans><target>Všechna hlavní hesla byla smazána.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Settings/ClearMasterKeys/Cleared/title] Cleared" xml:space="preserve">
         <source>Cleared</source>
         <target state="translated">Vymazáno</target>
@@ -1896,17 +1896,17 @@ Ujistěte se, že jej máte zálohovaný.</target>
         <source>Icons by Icons8</source>
         <target state="translated">Ikony by Icons8</target>
         <note>Class = "UILabel"; text = "Icons by Icons8"; ObjectID = "7id-QT-w26";</note>
-      <alt-trans><target>Ikony od Icons8</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="9MZ-zt-75x.text" xml:space="preserve">
         <source>Base32 for Swift by Norio Nomura</source>
         <target state="translated">Base32 for Swift by Norio Nomura</target>
         <note>Class = "UILabel"; text = "Base32 for Swift by Norio Nomura"; ObjectID = "9MZ-zt-75x";</note>
-      <alt-trans><target>Base32 pro Swift od Norio Nomura</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="9lh-fA-Xgx.text" xml:space="preserve">
         <source>Ionicons by Ionic</source>
         <target state="translated">Ionicons by Ionic</target>
         <note>Class = "UILabel"; text = "Ionicons by Ionic"; ObjectID = "9lh-fA-Xgx";</note>
-      <alt-trans><target>Ionicons od Ionic</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="9wt-nj-TZW.text" xml:space="preserve">
         <source>KeePassium does not collect any personal or analytical data nor share it with anyone.</source>
         <target state="translated">KeePassium neshromažďuje žádná osobní nebo analytická data a ani je s nikým nesdílí.</target>
@@ -1926,7 +1926,7 @@ Ujistěte se, že jej máte zálohovaný.</target>
         <source>KeePass by Dominik Reichl</source>
         <target state="translated">KeePass by Dominik Reichl</target>
         <note>Class = "UILabel"; text = "KeePass by Dominik Reichl"; ObjectID = "CNI-b8-7Da";</note>
-      <alt-trans><target>KeePass od Dominik Reichl</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="EWy-OI-IxL.text" xml:space="preserve">
         <source>Custom permissive license</source>
         <target state="translated">Custom permissive license</target>
@@ -1936,7 +1936,7 @@ Ujistěte se, že jej máte zálohovaný.</target>
         <source>ChaCha20 &amp; Salsa20 implementation by D. J. Bernstein</source>
         <target state="translated">ChaCha20 &amp; Salsa20 implementation by D. J. Bernstein</target>
         <note>Class = "UILabel"; text = "ChaCha20 &amp; Salsa20 implementation by D. J. Bernstein"; ObjectID = "Ha8-Qv-0qg";</note>
-      <alt-trans><target>ChaCha20 &amp; Salsa20 implementace by D. J. Bernstein</target></alt-trans><alt-trans><target>ChaCha20 &amp; Salsa20 implementace od D. J. Bernstein</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="JRy-jy-KXb.text" xml:space="preserve">
         <source>GPL license</source>
         <target state="translated">Licence GPL</target>
@@ -1966,7 +1966,7 @@ Ujistěte se, že jej máte zálohovaný.</target>
         <source>Public domain</source>
         <target state="translated">Public domain</target>
         <note>Class = "UILabel"; text = "Public domain"; ObjectID = "QV5-N8-NRt";</note>
-      <alt-trans><target>Veřejné doména</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="Qz4-PJ-Tra.text" xml:space="preserve">
         <source>CC BY 3.0</source>
         <target state="translated">CC BY 3.0</target>
@@ -1981,7 +1981,7 @@ Ujistěte se, že jej máte zálohovaný.</target>
         <source>Linecons by Andrian Valeanu</source>
         <target state="translated">Linecons by Andrian Valeanu</target>
         <note>Class = "UILabel"; text = "Linecons by Andrian Valeanu"; ObjectID = "SOX-Re-yl9";</note>
-      <alt-trans><target>Linecons od Andrian Valeanu</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="TOl-DA-gYc.text" xml:space="preserve">
         <source>Contact Support</source>
         <target state="translated">Kontaktovat podporu</target>
@@ -2132,7 +2132,7 @@ Ujistěte se, že jej máte zálohovaný.</target>
         <source>Enter passcode</source>
         <target state="translated">Zadejte kód aplikace</target>
         <note>Class = "UILabel"; text = "Enter passcode"; ObjectID = "3mQ-t6-0ty"; Note = "Call for action above the passcode text field";</note>
-      <alt-trans><target>Zadejte kód</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="P3J-3c-ucU.title" xml:space="preserve">
         <source>Unlock KeePassium</source>
         <target state="translated">Odemknout KeePassium</target>
@@ -2291,12 +2291,12 @@ Své předplatné můžete spravovat v nastavení účtu v App Store.</target>
         <source>If you enter a wrong AppLock passcode, KeePassium will close all databases and clear all master keys from the keychain.</source>
         <target state="translated">Jakmile dojde k zadání nesprávného kódu aplikace, KeePassium uzavře všechny databáze a smaže všechna uložené hlavní klíče z klíčenky.</target>
         <note>Class = "UITableViewSection"; footerTitle = "If you enter a wrong AppLock passcode, KeePassium will close all databases and clear all master keys from the keychain."; ObjectID = "5Dg-KX-m7a"; Note = "AppLock settings section: what to do when the user enters a wrong AppLock passcode.";</note>
-      <alt-trans><target>Jakmile dojde k zadání nesprávného vstupního kódu, KeePassium uzavře všechny databáze a smaže všechna uložená hlavní hesla ze svazku klíčů.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="5Dg-KX-m7a.headerTitle" xml:space="preserve">
         <source>Wrong Passcode</source>
         <target state="translated">Nesprávný kód aplikace</target>
         <note>Class = "UITableViewSection"; headerTitle = "Wrong Passcode"; ObjectID = "5Dg-KX-m7a"; Note = "AppLock settings section: what to do when the user enters a wrong AppLock passcode.";</note>
-      <alt-trans><target>Nesprávný kód</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="6Pk-35-Fx6.text" xml:space="preserve">
         <source>Protect Databases</source>
         <target state="translated">Chránit databáze</target>
@@ -2306,7 +2306,7 @@ Své předplatné můžete spravovat v nastavení účtu v App Store.</target>
         <source>Allows biometric authentication as a quick (but less secure) alternative to AppLock passcode.</source>
         <target state="translated">Umožňuje biometrickou autentizaci jako rychlou (ale méně bezpečnou) alternativu ke kódu aplikace.</target>
         <note>Class = "UITableViewSection"; footerTitle = "Allows biometric authentication as a quick (but less secure) alternative to AppLock passcode."; ObjectID = "7ae-8I-LiQ"; Note = "AppLock settings section: biometric auth (Touch ID/Face ID)";</note>
-      <alt-trans><target>Umožňuje biometrickou autentizaci jako rychlou (ale méně bezpečnou) alternativu k přístupu s kódem.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="7ae-8I-LiQ.headerTitle" xml:space="preserve">
         <source>Biometrics</source>
         <target state="translated">Biometrie</target>
@@ -2348,7 +2348,7 @@ Své předplatné můžete spravovat v nastavení účtu v App Store.</target>
         <source>App Lock Timeout</source>
         <target state="translated">Časový limit</target>
         <note>Class = "UITableViewController"; title = "App Lock Timeout"; ObjectID = "5MH-wG-EYd";</note>
-      <alt-trans><target>Časový zámek</target></alt-trans></trans-unit>
+      </trans-unit>
     </body>
   </file>
   <file original="KeePassium/settings/autoFill/Base.lproj/SettingsAutoFillVC.storyboard" source-language="en" target-language="cs" datatype="plaintext">
@@ -2370,7 +2370,7 @@ Své předplatné můžete spravovat v nastavení účtu v App Store.</target>
         <source>Tap "AutoFill Passwords"</source>
         <target state="translated">Klepněte na "Vyplňování hesel"</target>
         <note>Class = "UILabel"; text = "Tap \"AutoFill Passwords\""; ObjectID = "UzV-Ht-rGx"; Note = "Step 3. Must match system's translation.";</note>
-      <alt-trans><target>Klepněte na "Automatické vyplnění hesel"</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="X2u-c9-gwU.text" xml:space="preserve">
         <source>Turn on "AutoFill Passwords"</source>
         <target state="translated">Zapněte "Automatické vyplnění hesel"</target>
@@ -2380,12 +2380,12 @@ Své předplatné můžete spravovat v nastavení účtu v App Store.</target>
         <source>When AutoFill inserts the username and password, it can also copy the one-time password (OTP) for you.</source>
         <target state="translated">Jakmile aplikace vyplní uživatelské jméno a heslo, může pro vás také zkopírovat jednorázové heslo (OTP).</target>
         <note>Class = "UITableViewSection"; footerTitle = "When AutoFill inserts the username and password, it can also copy the one-time password (OTP) for you."; ObjectID = "XYL-1l-Jx6";</note>
-      <alt-trans><target>Jakmile aplikace vyplní uživatelské jméno a heslo, může pro vás také zkopírovat jednorázové heslo.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="XYL-1l-Jx6.headerTitle" xml:space="preserve">
         <source>One-time passwords</source>
         <target state="translated">Jednorázová hesla</target>
         <note>Class = "UITableViewSection"; headerTitle = "One-time passwords"; ObjectID = "XYL-1l-Jx6";</note>
-      <alt-trans><target>Jednorázové hesla</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="caI-eV-WlU.text" xml:space="preserve">
         <source>Select "KeePassium"</source>
         <target state="translated">Vyberte "KeePassium"</target>
@@ -2509,9 +2509,7 @@ Své předplatné můžete spravovat v nastavení účtu v App Store.</target>
 
 (Zapamatované hlavní klíče jsou automaticky smazány, jakmile vyprší časový limit databáze.)</target>
         <note>Class = "UITableViewSection"; footerTitle = "Once you unlock a database, its master key can be stored in device's secure keychain. The next time, KeePassium will use that key so you won't have to type your full master password again. \n\n(Master keys are automatically cleared on database timeout.)"; ObjectID = "Faj-km-pM5";</note>
-      <alt-trans><target>Jakmile odemknete databázi pomocí hlavního hesla, aplikace si jej uloží do bezpečného svazku klíčů na vašem zařízení. Při dalším odemčení databáze bude uložené heslo použito a vy jej tak nebudete muset zadávat znova.
-
-(Zapamatovaná hlavní hesla jsou automaticky smazána, jakmile vyprší časový limit databáze.)</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="Faj-km-pM5.headerTitle" xml:space="preserve">
         <source>Quick Unlock</source>
         <target state="translated">Rychlé odemčení</target>
@@ -2521,7 +2519,7 @@ Své předplatné můžete spravovat v nastavení účtu v App Store.</target>
         <source>Remember Master Keys</source>
         <target state="translated">Ukládat hlavní klíče</target>
         <note>Class = "UILabel"; text = "Remember Master Keys"; ObjectID = "INJ-Cy-Tfo";</note>
-      <alt-trans><target>Ukládat hlavní hesla</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="IZZ-aM-g2i.title" xml:space="preserve">
         <source>Data Protection</source>
         <target state="translated">Ochrana dat</target>
@@ -2551,7 +2549,7 @@ Své předplatné můžete spravovat v nastavení účtu v App Store.</target>
         <source>Clear Master Keys</source>
         <target state="translated">Smazat hlavní klíče</target>
         <note>Class = "UIButton"; normalTitle = "Clear Master Keys"; ObjectID = "e1v-nv-Mst";</note>
-      <alt-trans><target>Smazat uložená hesla</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="hnI-Q8-Ixm.footerTitle" xml:space="preserve">
         <source>When you copy anything, KeePassium will automatically clear your clipboard (pasteboard) after some time.</source>
         <target state="translated">Jakmile zkopírujete nějaké údaje z databáze, aplikace automaticky vymaže obsah schránky po vybrané době.</target>
@@ -2566,7 +2564,7 @@ Své předplatné můžete spravovat v nastavení účtu v App Store.</target>
         <source>Database timeout closes any opened databases and clears any remembered master keys after some time.</source>
         <target state="translated">Opatření, které po zvolené době uzavře všechny otevřené databáze a smaže všechny uložené hlavní klíče.</target>
         <note>Class = "UITableViewSection"; footerTitle = "Database timeout closes any opened databases and clears any remembered master keys after some time."; ObjectID = "neJ-eG-TV7";</note>
-      <alt-trans><target>Opatření, které po zvolené době uzavře všechny otevřené databáze a smaže všechna uložená hlavní hesla.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="neJ-eG-TV7.headerTitle" xml:space="preserve">
         <source>Automatic Lock</source>
         <target state="translated">Automatický zámek</target>
@@ -2642,7 +2640,7 @@ Své předplatné můžete spravovat v nastavení účtu v App Store.</target>
         <source>Master keys, key files</source>
         <target state="translated">Hlavní klíče, soubory s klíčem</target>
         <note>Class = "UILabel"; text = "Master keys, key files"; ObjectID = "FHp-ns-ke9"; Note = "Subtitle/details for `Data Protection`";</note>
-      <alt-trans><target>Hlavní hesla, soubory s klíčem</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="HCe-A3-eG6.text" xml:space="preserve">
         <source>Premium Version</source>
         <target state="translated">Prémiová verze</target>

@@ -182,9 +182,9 @@
         <target state="translated">Tolkar innehåll</target>
         <note>Status message: processing the content of a database</note>
       </trans-unit>
-      <trans-unit id="[Database2/FormatError] Cannot parse database. %s" xml:space="preserve">
-        <source>Cannot parse database. %s</source>
-        <target state="translated">Kunde inte tolka databasen. %s</target>
+      <trans-unit id="[Database2/FormatError] Cannot parse database. %@" xml:space="preserve">
+        <source>Cannot parse database. %@</source>
+        <target state="translated">Kunde inte tolka databasen. %@</target>
         <note>Error message. Parsing refers to the analysis/understanding of file content. [reason: String]</note>
       </trans-unit>
       <trans-unit id="[Database2/FormatError] Corrupted database file (HMAC mismatch in block %d)" xml:space="preserve">
@@ -624,7 +624,7 @@ Detta kan hända med stora databaser eller för högt ställda databasinställni
         <source>Internal inbox</source>
         <target state="translated">Intern dokumentkatalog</target>
         <note>Human-readable file location: the file is on device, inside the app sandbox. 'Inbox' is a special directory for files that are being imported. Can be also 'Internal import'. Example: 'File Location: Internal inbox'</note>
-      <alt-trans><target>Intern inkorg</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[URLReference/Location] Local copy" xml:space="preserve">
         <source>Local copy</source>
         <target state="translated">Lokal kopia</target>

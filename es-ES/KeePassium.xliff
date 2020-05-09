@@ -22,15 +22,7 @@ Esto puede ocurrir con grandes bases de datos o bases de datos exigentes en memo
 
 Ponte en contacto con nosotros si necesitas ayuda al respecto.</target>
         <note>Class = "UILabel"; text = "It seems that AutoFill did not close correctly the last time. \n\nThis can happen with large databases or memory-demanding database settings (Argon2).\n\nPlease contact us if you need help with this."; ObjectID = "kmV-si-Nrg";</note>
-      <alt-trans><target>Al parecer autocompletar no se ha cerrado correctamente la última vez. 
-
-Esto puede ocurrir con grandes bases de datos o configuraciones de base de datos exigentes en memoria (Argon2).
-
-Ponte en contacto con nosotros si necesitas ayuda al respecto.</target></alt-trans><alt-trans><target>Al parecer autocompletar no se ha cerrado correctamente la última vez. 
-
-Esto puede ocurrir con grandes bases de datos o configuraciones de base de datos exigentes en memoria (Argon2).
-
-Por favor, póngase en contacto con nosotros si necesita ayuda al respecto.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="zvf-PV-5l4.title" xml:space="preserve">
         <source>We are sorry</source>
         <target state="translated">Lo sentimos</target>
@@ -47,7 +39,7 @@ Por favor, póngase en contacto con nosotros si necesita ayuda al respecto.</tar
         <source>Add Database</source>
         <target state="translated">Añadir base de datos</target>
         <note>Class = "UIBarButtonItem"; title = "Add Database"; ObjectID = "CbK-f7-To5"; Note = "Action";</note>
-      <alt-trans><target>Añadir la base de datos</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="Zun-me-VzS.title" xml:space="preserve">
         <source>Databases</source>
         <target state="translated">Bases de datos</target>
@@ -57,7 +49,7 @@ Por favor, póngase en contacto con nosotros si necesita ayuda al respecto.</tar
         <source>No recent databases</source>
         <target state="translated">No hay bases de datos recientes</target>
         <note>Class = "UILabel"; text = "No recent databases"; ObjectID = "fXt-kp-oSe";</note>
-      <alt-trans><target>No hay base de datos recientes</target></alt-trans></trans-unit>
+      </trans-unit>
     </body>
   </file>
   <file original="KeePassium AutoFill/controllers/Base.lproj/DatabaseUnlockerVC.storyboard" source-language="en" target-language="es" datatype="plaintext">
@@ -69,7 +61,7 @@ Por favor, póngase en contacto con nosotros si necesita ayuda al respecto.</tar
         <source>Unlock</source>
         <target state="translated">Abrir</target>
         <note>Class = "UIButton"; normalTitle = "Unlock"; ObjectID = "89h-8b-LRO";</note>
-      <alt-trans><target>Desbloquear</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="Dnl-vm-GMg.placeholder" xml:space="preserve">
         <source>No Key File</source>
         <target state="translated">Sin archivo de clave</target>
@@ -84,7 +76,7 @@ Por favor, póngase en contacto con nosotros si necesita ayuda al respecto.</tar
         <source>Unlock Database</source>
         <target state="translated">Abrir base de datos</target>
         <note>Class = "UIViewController"; title = "Unlock Database"; ObjectID = "bxv-kR-0w1";</note>
-      <alt-trans><target>Desbloquear base de datos</target></alt-trans><alt-trans><target>Desbloquear la base de datos</target></alt-trans></trans-unit>
+      </trans-unit>
     </body>
   </file>
   <file original="KeePassium AutoFill/controllers/Base.lproj/DiagnosticsViewerVC.storyboard" source-language="en" target-language="es" datatype="plaintext">
@@ -113,12 +105,12 @@ Por favor, póngase en contacto con nosotros si necesita ayuda al respecto.</tar
         <source>Lock Database</source>
         <target state="translated">Bloquear base de datos</target>
         <note>Class = "UIBarButtonItem"; title = "Lock Database"; ObjectID = "dPB-bK-tzh"; Note = "Action ";</note>
-      <alt-trans><target>Bloquear la base de datos</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="yLY-eZ-iAh.text" xml:space="preserve">
         <source>Related Entries</source>
         <target state="translated">Entradas similares</target>
         <note>Class = "UILabel"; text = "Related Entries"; ObjectID = "yLY-eZ-iAh"; Note = "Title of a list of entries similar to (but not exactly matching) the search query.";</note>
-      <alt-trans><target>Entradas relacionadas</target></alt-trans></trans-unit>
+      </trans-unit>
     </body>
   </file>
   <file original="KeePassium AutoFill/controllers/Base.lproj/FirstSetupVC.storyboard" source-language="en" target-language="es" datatype="plaintext">
@@ -130,7 +122,7 @@ Por favor, póngase en contacto con nosotros si necesita ayuda al respecto.</tar
         <source>Please re-add databases and key files you want to use with the AutoFill feature.</source>
         <target state="translated">Por favor, vuelve a agregar las bases de datos y los archivos de claves para utilizar con la función de autocompletar (AutoFill).</target>
         <note>Class = "UILabel"; text = "Please re-add databases and key files you want to use with the AutoFill feature."; ObjectID = "P0M-N3-ynf";</note>
-      <alt-trans><target>Por favor, vuelva a agregar las bases de datos y los archivos de claves que desea utilizar con la función autocompletar.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="UAW-0G-N5G.text" xml:space="preserve">
         <source>The AutoFill cannot automatically access the files you already have in the main KeePassium app.
 
@@ -143,21 +135,17 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
 
 Como resultado, tanto la aplicación de AutoFill como la aplicación principal de KeePassium deben recibir sus propios permisos para cada archivo externo. Afortunadamente, sólo se necesita hacerlo una vez por cada nueva base de datos.</target>
         <note>Class = "UITextView"; text = "The AutoFill cannot automatically access the files you already have in the main KeePassium app.\n\nWhy? Behind the scenes, the system treats AutoFill as a separate app, independent from the main KeePassium process. For security reasons, an app cannot simply access any external files – unless you explicitly link these files to that app. Thus the system guarantees that the app can only access the few files you allowed it to.\n\nAs a result, both AutoFill and the main KeePassium app need to be given their own permissions for each external file. Luckily, this is a one-time procedure."; ObjectID = "UAW-0G-N5G";</note>
-      <alt-trans><target>Autocompletar no puede acceder automáticamente a los archivos de la aplicación principal de KeePassium.
-
-¿Por qué? Internamente, el sistema trata autocompletar como una aplicación separada, independiente del proceso principal de KeePassium. Por razones de seguridad, una aplicación no puede simplemente acceder a ningún archivo externo, a menos que usted vincule explícitamente estos archivos a esa aplicación. Así, el sistema garantiza que la aplicación sólo puede acceder a los archivos permitidos.
-
-Como resultado, tanto autocompletar como la aplicación principal de KeePassium deben tener sus propios permisos para cada archivo externo. Afortunadamente, se trata de un procedimiento único.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="enW-gs-tra.normalTitle" xml:space="preserve">
         <source>Add Database</source>
         <target state="translated">Añadir base de datos</target>
         <note>Class = "UIButton"; normalTitle = "Add Database"; ObjectID = "enW-gs-tra";</note>
-      <alt-trans><target>Añadir la base de datos</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="pIl-6L-Msp.text" xml:space="preserve">
         <source>AutoFill Setup</source>
         <target state="translated">Configurar autocompletar (AutoFill)</target>
         <note>Class = "UILabel"; text = "AutoFill Setup"; ObjectID = "pIl-6L-Msp";</note>
-      <alt-trans><target>Configurar autocompletar</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="rzY-Ci-bd9.title" xml:space="preserve">
         <source>KeePassium</source>
         <target state="translated">KeePassium</target>
@@ -174,17 +162,17 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>No Key File</source>
         <target state="translated">Sin archivo de clave</target>
         <note>Class = "UILabel"; text = "No Key File"; ObjectID = "9UZ-FK-v73";</note>
-      <alt-trans><target>Sin archivo clave</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="Lod-RE-tcd.title" xml:space="preserve">
         <source>Add Key File</source>
         <target state="translated">Añadir archivo de clave</target>
         <note>Class = "UIBarButtonItem"; title = "Add Key File"; ObjectID = "Lod-RE-tcd";</note>
-      <alt-trans><target>Añadir archivo clave</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="Omh-Sn-jl2.normalTitle" xml:space="preserve">
         <source>Add Key File</source>
         <target state="translated">Añadir archivo de clave</target>
         <note>Class = "UIButton"; normalTitle = "Add Key File"; ObjectID = "Omh-Sn-jl2";</note>
-      <alt-trans><target>Añadir archivo clave</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="leO-vH-qBX.text" xml:space="preserve">
         <source>Use only password</source>
         <target state="translated">Utilizar sólo contraseña</target>
@@ -216,7 +204,7 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Use FaceID to unlock KeePassium</source>
         <target state="translated">Utilizar Face ID para desbloquear KeePassium</target>
         <note>Privacy - Face ID Usage Description</note>
-      <alt-trans><target>Utilizar FaceID para desbloquear KeePassium</target></alt-trans><alt-trans><target>Utilizar reconocimiento facial para desbloquear KeePassium</target></alt-trans><alt-trans><target>Usar FaceID para desbloquear KeePassium</target></alt-trans></trans-unit>
+      </trans-unit>
     </body>
   </file>
   <file original="KeePassium AutoFill/en.lproj/Localizable.strings" source-language="en" target-language="es" datatype="plaintext">
@@ -228,22 +216,22 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Add Database</source>
         <target state="translated">Añadir base de datos</target>
         <note>Action/button to add database to the app</note>
-      <alt-trans><target>Añadir la base de datos</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="Choose Database" xml:space="preserve">
         <source>Choose Database</source>
         <target state="translated">Seleccionar base de datos</target>
         <note>Title of a window where the user selects a file to be opened/added to the app</note>
-      <alt-trans><target>Seleccionar la base de datos</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="Import Database" xml:space="preserve">
         <source>Import Database</source>
         <target state="translated">Importar base de datos</target>
         <note>Action/button</note>
-      <alt-trans><target>Importar la base de datos</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="KeePass database should not be used as key file. Please pick a different file." xml:space="preserve">
         <source>KeePass database should not be used as key file. Please pick a different file.</source>
         <target state="translated">La base de datos de KeePass no debe ser usada como archivo de clave. Por favor, selecciona un archivo diferente.</target>
         <note>Warning message when the user tries to use a database as a key file</note>
-      <alt-trans><target>La base de datos de KeePass no debe ser usada como archivo de clave. Por favor, elija un archivo diferente.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[AppLock/Biometric/Hint] Unlock KeePassium" xml:space="preserve">
         <source>Unlock KeePassium</source>
         <target state="translated">Desbloquear KeePassium</target>
@@ -253,17 +241,17 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>123→ABC</source>
         <target state="translated">123 → ABC</target>
         <note>Action: change keyboard type to enter alphanumeric passphrases</note>
-      <alt-trans><target>123→ABC</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[AppLock/Passcode/KeyboardType/switchAction] ABC→123" xml:space="preserve">
         <source>ABC→123</source>
         <target state="translated">ABC → 123</target>
         <note>Action: change keyboard type to enter PIN numbers</note>
-      <alt-trans><target>ABC→123</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[AppLock/cancelBiometricAuth] Use Passcode" xml:space="preserve">
         <source>Use Passcode</source>
         <target state="translated">Usar código</target>
         <note>Action/button to switch from TouchID/FaceID prompt to manual input of the AppLock passcode.</note>
-      <alt-trans><target>Código de acceso</target></alt-trans><alt-trans><target>Utilizar Passcode</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[AppLock] Unlock" xml:space="preserve">
         <source>Unlock</source>
         <target state="translated">Desbloquear</target>
@@ -273,7 +261,7 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>To upgrade, please manually open KeePassium from your home screen.</source>
         <target state="translated">Para actualizar, inicia KeePassium manualmente desde el icono de aplicación.</target>
         <note>Message shown when AutoFill cannot automatically open the main app for upgrading to a premium version.</note>
-      <alt-trans><target>Para actualizar, inicia KeePassium manualmente con el icono de aplicación.</target></alt-trans><alt-trans><target>Para actualizar, por favor inicie KeePassium manualmente desde tu pantalla de inicio.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[AutoFill/Premium/Upgrade/Manual/title] Premium Upgrade" xml:space="preserve">
         <source>Premium Upgrade</source>
         <target state="translated">Obtener Premium</target>
@@ -283,46 +271,44 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Face ID</source>
         <target state="translated">Reconocimiento facial</target>
         <note>Name of biometric authentication method. Trademarked, do not translate unless Apple traslated it to your language.</note>
-      <alt-trans><target>Identificación por reconocimiento facial</target></alt-trans><alt-trans><target>Reconocimiento Facial</target></alt-trans><alt-trans><target>Face ID</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[BiometricAuthType] Touch ID" xml:space="preserve">
         <source>Touch ID</source>
         <target state="translated">Touch ID</target>
         <note>Name of biometric authentication method. Trademarked, do not translate unless Apple traslated it to your language.</note>
-      <alt-trans><target>Identificación por huella dactilar</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database/Add] Selected file &quot;%@&quot; does not look like a database." xml:space="preserve">
         <source>Selected file "%@" does not look like a database.</source>
-        <target/>
+        <target state="translated">El archivo seleccionado «%@» no parece una base de datos.</target>
         <note>Warning when trying to add a random file as a database. [fileName: String]</note>
       </trans-unit>
       <trans-unit id="[Database/Create/action] Create Database" xml:space="preserve">
         <source>Create Database</source>
         <target state="translated">Crear base de datos</target>
         <note>Action/button to create a new database</note>
-      <alt-trans><target>Crear la base de datos</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database/Create/title] Create Database" xml:space="preserve">
         <source>Create Database</source>
         <target state="translated">Crear base de datos</target>
         <note>Title of a form for creating a database</note>
-      <alt-trans><target>Crear la base de datos</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database/Delete/Confirm/text] Delete database file?&#10; Make sure you have a backup." xml:space="preserve">
         <source>Delete database file?
  Make sure you have a backup.</source>
         <target state="translated">¿Eliminar el archivo de base de datos?
  Asegúrate de tener una copia de seguridad.</target>
         <note>Message to confirm deletion of a database file. (This deletes the file itself)</note>
-      <alt-trans><target>¿Eliminar el archivo de base de datos?
- Asegúrese de que tiene un backup.</target></alt-trans><alt-trans><target>¿Eliminar el archivo de base de datos?
- Asegúrese de que tiene una copia de seguridad.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database/Delete] Failed to delete database file" xml:space="preserve">
         <source>Failed to delete database file</source>
         <target state="translated">Error al eliminar la base de datos</target>
         <note>Title of an error message</note>
-      <alt-trans><target>Error al eliminar el archivo de la base de datos</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database/Loading/Status] Loading..." xml:space="preserve">
         <source>Loading...</source>
         <target state="translated">Cargando ...</target>
         <note>Status message: loading a database</note>
-      <alt-trans><target>Cargando...</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database/MasterKey/changed] Master key successfully changed" xml:space="preserve">
         <source>Master key successfully changed</source>
         <target state="translated">Clave maestra cambiada correctamente</target>
@@ -332,7 +318,7 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Open Database</source>
         <target state="translated">Abrir base de datos</target>
         <note>Action/button</note>
-      <alt-trans><target>Abrir la base de datos</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database/Opened/action] Close" xml:space="preserve">
         <source>Close</source>
         <target state="translated">Cerrar</target>
@@ -342,15 +328,14 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Lock Database</source>
         <target state="translated">Bloquear base de datos</target>
         <note>Action/button to lock current database (the next time, it will ask for the master key).</note>
-      <alt-trans><target>Bloquear la base de datos</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database/Remove/Confirm/text] Remove database from the list?&#10; The file will remain intact and you can add it again later." xml:space="preserve">
         <source>Remove database from the list?
  The file will remain intact and you can add it again later.</source>
         <target state="translated">¿Eliminar la base de datos de la lista?
  El archivo permanecerá intacto y se puede volver a añadir más tarde.</target>
         <note>Message to confirm removal of database file from the app. (This keeps the file, but removes its reference from the app.)</note>
-      <alt-trans><target>¿Eliminar la base de datos de la lista?
- El archivo permanecerá intacto y puede añadirlo más tarde.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database/Saving/Status] Done" xml:space="preserve">
         <source>Done</source>
         <target state="translated">Hecho</target>
@@ -360,7 +345,7 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Saving...</source>
         <target state="translated">Guardando ...</target>
         <note>Status message: saving a database</note>
-      <alt-trans><target>Guardando...</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database/Unlock] Key file error: %@" xml:space="preserve">
         <source>Key file error: %@</source>
         <target state="translated">Error del archivo de clave: %@</target>
@@ -370,12 +355,12 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Diagnostic log has been copied to clipboard.</source>
         <target state="translated">El diagnóstico se ha copiado al portapapeles.</target>
         <note>Notification/confirmation message</note>
-      <alt-trans><target>El registro de diagnóstico se ha copiado al portapapeles.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Diagnostics] Show Diagnostic Log" xml:space="preserve">
         <source>Show Diagnostic Log</source>
         <target state="translated">Visualizar diagnóstico</target>
         <note>Action/button to show internal diagnostic log</note>
-      <alt-trans><target>Visualizar el diagnóstico</target></alt-trans><alt-trans><target>Mostrar el diagnóstico</target></alt-trans><alt-trans><target>Mostrar registro de diagnóstico</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Entry/Attachments/title] Attached Files" xml:space="preserve">
         <source>Attached Files</source>
         <target state="translated">Archivos adjuntos</target>
@@ -385,12 +370,12 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Create Entry</source>
         <target state="translated">Crear entrada</target>
         <note>Action/button to create a new entry in the current group</note>
-      <alt-trans><target>Crear Entrada</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Entry/Edit/CreateField/defaultName] Field Name" xml:space="preserve">
         <source>Field Name</source>
         <target state="translated">Nombre del campo</target>
         <note>Default name of a newly created entry field</note>
-      <alt-trans><target>Nombre del Campo</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Entry/Field/name] Notes" xml:space="preserve">
         <source>Notes</source>
         <target state="translated">Notas</target>
@@ -415,42 +400,42 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>User Name</source>
         <target state="translated">Nombre de usuario</target>
         <note>Name of an entry field</note>
-      <alt-trans><target>Nombre de Usuario</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Entry/New/defaultTitle] New Entry" xml:space="preserve">
         <source>New Entry</source>
         <target state="translated">Nueva entrada</target>
         <note>Default title of a new entry</note>
-      <alt-trans><target>Nueva Entrada</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[File/PermissionDenied] Try to remove the file from the app, then add it again." xml:space="preserve">
         <source>Try to remove the file from the app, then add it again.</source>
         <target state="translated">Prueba a eliminar el archivo de la aplicación e inténtalo de nuevo.</target>
         <note>A suggestion shown after specific file errors (either databases or key files).</note>
-      <alt-trans><target>Prueba a eliminar el archivo de la aplicación y inténtalo de nuevo.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[FileInfo/Field/title] Creation Date" xml:space="preserve">
         <source>Creation Date</source>
         <target state="translated">Fecha de creación</target>
         <note>Field title</note>
-      <alt-trans><target>Fecha de Creación</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[FileInfo/Field/title] File Location" xml:space="preserve">
         <source>File Location</source>
         <target state="translated">Localización del archivo</target>
         <note>Field title</note>
-      <alt-trans><target>Localización del Archivo</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[FileInfo/Field/title] File Name" xml:space="preserve">
         <source>File Name</source>
         <target state="translated">Nombre del archivo</target>
         <note>Field title</note>
-      <alt-trans><target>Nombre del Archivo</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[FileInfo/Field/title] File Size" xml:space="preserve">
         <source>File Size</source>
         <target state="translated">Tamaño del archivo</target>
         <note>Field title</note>
-      <alt-trans><target>Tamaño del Archivo</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[FileInfo/Field/title] Last Modification Date" xml:space="preserve">
         <source>Last Modification Date</source>
         <target state="translated">Fecha de última modificación</target>
         <note>Field title</note>
-      <alt-trans><target>Fecha de la última modificación</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[FileInfo/Field/valueError] Error" xml:space="preserve">
         <source>Error</source>
         <target state="translated">Error</target>
@@ -490,7 +475,7 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Remove</source>
         <target state="translated">Eliminar</target>
         <note>Action/button to remove a file from the app (the file remains, but the app forgets about it)</note>
-      <alt-trans><target>Remover</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Generic/title] Error" xml:space="preserve">
         <source>Error</source>
         <target state="translated">Error</target>
@@ -515,7 +500,7 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Contact Us</source>
         <target state="translated">Contáctanos</target>
         <note>Action/button to write an email to support</note>
-      <alt-trans><target>Contáctenos</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Generic] Copy" xml:space="preserve">
         <source>Copy</source>
         <target state="translated">Copiar</target>
@@ -580,12 +565,12 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Create Group</source>
         <target state="translated">Crear grupo</target>
         <note>Action/button to create a new sub-group in the current group</note>
-      <alt-trans><target>Crear Grupo</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Group/Create/title] Create Group" xml:space="preserve">
         <source>Create Group</source>
         <target state="translated">Crear grupo</target>
         <note>Title of a form for creating a group</note>
-      <alt-trans><target>Crear Grupo</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Group/Edit/title] Edit Group" xml:space="preserve">
         <source>Edit Group</source>
         <target state="translated">Editar grupo</target>
@@ -602,9 +587,7 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <target state="translated">¿Eliminar el archivo de clave?
  Asegúrate de tener una copia de seguridad.</target>
         <note>Message to confirm deletion of a key file.</note>
-      <alt-trans><target>¿Eliminar el archivo de clave?
- Asegúrese de que tiene un backup.</target></alt-trans><alt-trans><target>¿Eliminar el archivo de clave?
- Asegúrese de que tiene una copia de seguridad.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[News/2019/10/ProVersionReleaseNews/title] KeePassium Pro" xml:space="preserve">
         <source>KeePassium Pro</source>
         <target state="translated">KeePassium Pro</target>
@@ -614,7 +597,7 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Please open the main app for the full announcement.</source>
         <target state="translated">Por favor, abre la aplicación principal para ver el anuncio completo.</target>
         <note>Message shown when opening an announcement in AutoFill</note>
-      <alt-trans><target>Por favor, abra la aplicación principal para el anuncio completo.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Premium/Upgrade/action] Upgrade to Premium" xml:space="preserve">
         <source>Upgrade to Premium</source>
         <target state="translated">Actualizar a Premium</target>
@@ -624,7 +607,7 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Quickly access your passwords using Face ID/Touch ID in the premium version.</source>
         <target state="translated">Accede rápidamente a tus contraseñas usando Touch ID o Face ID en la versión premium.</target>
         <note>Description/advertisement for the `Biometric Unlock` premium feature</note>
-      <alt-trans><target>Accede rápidamente a tus contraseñas usando identificación por huella dactilar / reconocimiento facial, en la versión premium.</target></alt-trans><alt-trans><target>Accede rápidamente a tus contraseñas usando Face ID/Touch ID en la versión premium.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[PremiumFeature/BiometricAppLock/title] Biometric Unlock" xml:space="preserve">
         <source>Biometric Unlock</source>
         <target state="translated">Desbloqueo biométrico</target>
@@ -634,17 +617,17 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Save time entering your complex master passwords — keep your database open longer in the premium version.</source>
         <target state="translated">Ahorra tiempo introduciendo la larga contraseña maestra — mantén tu base de datos abierta más tiempo con la versión premium.</target>
         <note>Description/advertisement for the `Long Database Timeouts` premium feature</note>
-      <alt-trans><target>Ahorra tiempo ingresando tus contraseñas maestras complejas — mantiene tu base de datos abierta más tiempo en la versión premium.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[PremiumFeature/LongDBTimeouts/title] Long Database Timeouts" xml:space="preserve">
         <source>Long Database Timeouts</source>
         <target state="translated">Tiempo largo de cierre de la base de datos</target>
         <note>Title of a premium feature: ability to set long delays in Database Lock Timeout settings (In Title Case)</note>
-      <alt-trans><target>Tiempo largo de cierre de la Base de Datos</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[PremiumFeature/MultiDB/description] Easily switch between databases in the premium version." xml:space="preserve">
         <source>Easily switch between databases in the premium version.</source>
         <target state="translated">Cambia fácilmente entre bases de datos con la versión premium.</target>
         <note>Description/advertisement for the `Multiple Databases` premium feature</note>
-      <alt-trans><target>Cambie fácilmente entre bases de datos en la versión premium.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[PremiumFeature/MultiDB/title] Multiple Databases" xml:space="preserve">
         <source>Multiple Databases</source>
         <target state="translated">Múltiples bases de datos</target>
@@ -654,7 +637,7 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Preview images and documents directly in the app, in the premium version.</source>
         <target state="translated">Vista previa de imágenes y documentos directamente en la aplicación con la versión premium.</target>
         <note>Description/advertisement for the `Preview Attachments` premium feature</note>
-      <alt-trans><target>Vista previa de imágenes y documentos directamente en la aplicación, en la versión premium.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[PremiumFeature/Preview/title] Preview Attachments" xml:space="preserve">
         <source>Preview Attachments</source>
         <target state="translated">Vista previa de adjuntos</target>
@@ -664,12 +647,12 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Show Password</source>
         <target state="translated">Mostrar contraseña</target>
         <note>Action/button to make password visible as plain-text</note>
-      <alt-trans><target>Mostrar la contraseña</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Support/template] (Please describe the problem here)" xml:space="preserve">
         <source>(Please describe the problem here)</source>
         <target state="translated">(Por favor, describe aquí el problema)</target>
         <note>Template text of a bug report email</note>
-      <alt-trans><target>(Por favor, describa el problema aquí)</target></alt-trans></trans-unit>
+      </trans-unit>
     </body>
   </file>
   <file original="KeePassium/database/Base.lproj/ChangeMasterKeyVC.storyboard" source-language="en" target-language="es" datatype="plaintext">
@@ -713,7 +696,7 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>No database files</source>
         <target state="translated">No hay bases de datos</target>
         <note>Class = "UILabel"; text = "No database files"; ObjectID = "5Md-DB-C5P"; Note = "Placeholder shown when there are no database files available";</note>
-      <alt-trans><target>No hay base de datos</target></alt-trans><alt-trans><target>No hay archivos de base de datos</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="UI0-Lh-wTj.title" xml:space="preserve">
         <source>Databases</source>
         <target state="translated">Bases de datos</target>
@@ -728,7 +711,7 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Settings</source>
         <target state="translated">Ajustes</target>
         <note>Class = "UIBarButtonItem"; oee-CI-r2x.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Settings"; ObjectID = "oee-CI-r2x"; Note = "Action: show app settings";</note>
-      <alt-trans><target>Configuración</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="qPq-UR-uZs.title" xml:space="preserve">
         <source>Add Database</source>
         <target state="translated">Añadir base de datos</target>
@@ -745,7 +728,7 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Add Key File</source>
         <target state="translated">Añadir archivo de clave</target>
         <note>Class = "UIButton"; normalTitle = "Add Key File"; ObjectID = "8aU-C3-c3r";</note>
-      <alt-trans><target>Añadir archivo clave</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="Ftb-fa-Dvb.text" xml:space="preserve">
         <source>Use only password</source>
         <target state="translated">Utilizar sólo contraseña</target>
@@ -755,7 +738,7 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Choose Key File</source>
         <target state="translated">Seleccionar archivo de clave</target>
         <note>Class = "UINavigationItem"; title = "Choose Key File"; ObjectID = "dAQ-9p-8Y9";</note>
-      <alt-trans><target>Elegir archivo de clave</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="tGm-oo-awN.text" xml:space="preserve">
         <source>No Key File</source>
         <target state="translated">Sin archivo de clave</target>
@@ -772,7 +755,7 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Database File Name</source>
         <target state="translated">Nombre de archivo de base de datos</target>
         <note>Class = "UILabel"; text = "Database File Name"; ObjectID = "2iK-ct-ygq";</note>
-      <alt-trans><target>Nombre del archivo de base de datos</target></alt-trans><alt-trans><target>Nombre de la base de datos</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="VjQ-di-Ilx.text" xml:space="preserve">
         <source>Master Key</source>
         <target state="translated">Clave maestra</target>
@@ -792,7 +775,7 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Will use kdbx4 format (Argon2+ChaCha20)</source>
         <target state="translated">Utilizará el formato kdbx4 (Argon2+ChaCha20)</target>
         <note>Class = "UILabel"; text = "Will use kdbx4 format (Argon2+ChaCha20)"; ObjectID = "XVR-1N-ywy"; Note = "Hint about the default format of new databases.";</note>
-      <alt-trans><target>Utilizará el formato kdbx4 (Argon2+Cha20)</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="bNa-R0-f67.accessibilityLabel" xml:space="preserve">
         <source>Show Diagnostics</source>
         <target state="translated">Mostrar diagnóstico</target>
@@ -802,7 +785,7 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Save Database</source>
         <target state="translated">Guardar base de datos</target>
         <note>Class = "UIButton"; normalTitle = "Save Database"; ObjectID = "h6C-CG-RVI"; Note = "Action: save the new database (will show a file picker dialog).";</note>
-      <alt-trans><target>Guardar la base de datos</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="pvt-FS-0Yx.placeholder" xml:space="preserve">
         <source>No Key File</source>
         <target state="translated">Sin archivo de clave</target>
@@ -834,12 +817,12 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Unlock Database</source>
         <target state="translated">Abrir base de datos</target>
         <note>Class = "UIViewController"; title = "Unlock Database"; ObjectID = "eAa-Z5-pdq"; Note = "Title of the database unlocker dialog.";</note>
-      <alt-trans><target>Desbloquear base de datos</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="epu-yU-Lyg.text" xml:space="preserve">
         <source>Database was closed by a timer.</source>
         <target state="translated">La aplicación cerró la base de datos.</target>
         <note>Class = "UILabel"; text = "Database was closed by a timer."; ObjectID = "epu-yU-Lyg"; Note = "Notification message shown by database lock timer.";</note>
-      <alt-trans><target>La base de datos fue cerrada por la aplicación.</target></alt-trans><alt-trans><target>La base de datos fue cerrada por el temporizador.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="i6N-fq-JbM.normalTitle" xml:space="preserve">
         <source>Upgrade to Premium</source>
         <target state="translated">Actualizar a Premium</target>
@@ -849,7 +832,7 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Unlock</source>
         <target state="translated">Abrir</target>
         <note>Class = "UIButton"; normalTitle = "Unlock"; ObjectID = "l45-hq-1lr";</note>
-      <alt-trans><target>Desbloquear</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="mYY-hP-3vH.placeholder" xml:space="preserve">
         <source>No Key File</source>
         <target state="translated">Sin archivo de clave</target>
@@ -900,7 +883,7 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>There are no previous versions</source>
         <target state="translated">No hay versiones previas</target>
         <note>Class = "UILabel"; text = "There are no previous versions"; ObjectID = "bzL-mr-Hrz"; Note = "Placeholder text shown when the entry does not have previous versions/revisions (has never been changed)";</note>
-      <alt-trans><target>No hay versiones anteriores</target></alt-trans></trans-unit>
+      </trans-unit>
     </body>
   </file>
   <file original="KeePassium/database/entry/Base.lproj/ViewEntryVC.storyboard" source-language="en" target-language="es" datatype="plaintext">
@@ -969,7 +952,7 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Randomize</source>
         <target state="translated">Generar</target>
         <note>Class = "UIButton"; normalTitle = "Randomize"; ObjectID = "z2C-wo-jYf"; Note = "Action/button to generate new password";</note>
-      <alt-trans><target>Aleatoria</target></alt-trans><alt-trans><target>Aleatorio</target></alt-trans></trans-unit>
+      </trans-unit>
     </body>
   </file>
   <file original="KeePassium/database/entry/edit/Base.lproj/PasswordGeneratorVC.storyboard" source-language="en" target-language="es" datatype="plaintext">
@@ -981,12 +964,12 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Look-Alike Characters (1Il…)</source>
         <target state="translated">Caracteres similares (1Il…)</target>
         <note>Class = "UILabel"; text = "Look-Alike Characters (1Il…)"; ObjectID = "5Xu-cN-kSg"; Note = "Symbols to include in generated passwords.";</note>
-      <alt-trans><target>Caracteres Look-Alike (1Il…)</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="Hxj-CB-VE7.text" xml:space="preserve">
         <source>Password Length</source>
         <target state="translated">Longitud de contraseña</target>
         <note>Class = "UILabel"; text = "Password Length"; ObjectID = "Hxj-CB-VE7"; Note = "Label of the control that specifies the length of the password to be generated";</note>
-      <alt-trans><target>Longitud de la contraseña</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="Mwu-Lk-3MU.text" xml:space="preserve">
         <source>Special Symbols (@#$…)</source>
         <target state="translated">Símbolos especiales (@#$…)</target>
@@ -996,7 +979,7 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Randomizer</source>
         <target state="translated">Generador</target>
         <note>Class = "UINavigationItem"; title = "Randomizer"; ObjectID = "O7Z-bK-bJa"; Note = "Title of the password generator screen.";</note>
-      <alt-trans><target>Aleatorizar</target></alt-trans><alt-trans><target>Aleatorio</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="Rwu-qh-8ON.text" xml:space="preserve">
         <source>Lower Case Letters (abc…)</source>
         <target state="translated">Letras minusculas (abc…)</target>
@@ -1006,7 +989,7 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Digits (123…)</source>
         <target state="translated">Cifras (123…)</target>
         <note>Class = "UILabel"; text = "Digits (123…)"; ObjectID = "iRk-FV-7U8"; Note = "Symbols to include in generated passwords. Don't translate the digits.";</note>
-      <alt-trans><target>Dígitos (123…)</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="x93-rB-nNr.text" xml:space="preserve">
         <source>Upper Case Letters (ABC…)</source>
         <target state="translated">Letras mayúsculas (ABC…)</target>
@@ -1040,7 +1023,7 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Lock Database</source>
         <target state="translated">Bloquear base de datos</target>
         <note>Class = "UIBarButtonItem"; 9KV-rC-1XL.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Lock Database"; ObjectID = "9KV-rC-1XL";</note>
-      <alt-trans><target>Bloquear la base de datos</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="M5a-Ld-ZXd.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" xml:space="preserve">
         <source>Sort Order</source>
         <target state="translated">Ordenar por</target>
@@ -1060,7 +1043,7 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Settings</source>
         <target state="translated">Ajustes</target>
         <note>Class = "UIBarButtonItem"; rF3-mC-kj1.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Settings"; ObjectID = "rF3-mC-kj1";</note>
-      <alt-trans><target>Configuración</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="tpA-i1-ah8.text" xml:space="preserve">
         <source>No entries found</source>
         <target state="translated">No se encontraron entradas</target>
@@ -1103,12 +1086,12 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Use FaceID to unlock KeePassium</source>
         <target state="translated">Utilizar Face ID para desbloquear KeePassium</target>
         <note>Privacy - Face ID Usage Description</note>
-      <alt-trans><target>Utilizar FaceID para desbloquear KeePassium</target></alt-trans><alt-trans><target>Utilizar reconocimiento facial para desbloquear KeePassium</target></alt-trans><alt-trans><target>Usar FaceID para desbloquear KeePassium</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="NSPhotoLibraryAddUsageDescription" xml:space="preserve">
         <source>KeePassium needs permission to export files to your Photo Library.</source>
         <target state="translated">KeePassium requiere permisos para exportar archivos a la fototeca.</target>
         <note>Privacy - Photo Library Additions Usage Description</note>
-      <alt-trans><target>KeePassium requiere permisos para exportar archivos a su galería de fotos.</target></alt-trans></trans-unit>
+      </trans-unit>
     </body>
   </file>
   <file original="KeePassium/en.lproj/Localizable.strings" source-language="en" target-language="es" datatype="plaintext">
@@ -1125,17 +1108,17 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Choose Database</source>
         <target state="translated">Seleccionar base de datos</target>
         <note>Title of a window where the user selects a file to be opened/added to the app</note>
-      <alt-trans><target>Seleccionar la base de datos</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="Import Database" xml:space="preserve">
         <source>Import Database</source>
         <target state="translated">Importar base de datos</target>
         <note>Action/button</note>
-      <alt-trans><target>Importar la base de datos</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="KeePass database should not be used as key file. Please pick a different file." xml:space="preserve">
         <source>KeePass database should not be used as key file. Please pick a different file.</source>
         <target state="translated">La base de datos de KeePass no debe ser usada como archivo de clave. Por favor, selecciona un archivo diferente.</target>
         <note>Warning message when the user tries to use a database as a key file</note>
-      <alt-trans><target>La base de datos de KeePass no debe ser usada como archivo de clave. Por favor, elija un archivo diferente.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[AppLock/Biometric/Hint] Unlock KeePassium" xml:space="preserve">
         <source>Unlock KeePassium</source>
         <target state="translated">Desbloquear KeePassium</target>
@@ -1145,17 +1128,17 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>123→ABC</source>
         <target state="translated">123 → ABC</target>
         <note>Action: change keyboard type to enter alphanumeric passphrases</note>
-      <alt-trans><target>123→ABC</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[AppLock/Passcode/KeyboardType/switchAction] ABC→123" xml:space="preserve">
         <source>ABC→123</source>
         <target state="translated">ABC → 123</target>
         <note>Action: change keyboard type to enter PIN numbers</note>
-      <alt-trans><target>ABC→123</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[AppLock/cancelBiometricAuth] Use Passcode" xml:space="preserve">
         <source>Use Passcode</source>
         <target state="translated">Usar código</target>
         <note>Action/button to switch from TouchID/FaceID prompt to manual input of the AppLock passcode.</note>
-      <alt-trans><target>Código de acceso</target></alt-trans><alt-trans><target>Utilizar Passcode</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[AppLock] Unlock" xml:space="preserve">
         <source>Unlock</source>
         <target state="translated">Desbloquear</target>
@@ -1165,27 +1148,27 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Face ID</source>
         <target state="translated">Face ID</target>
         <note>Name of biometric authentication method. Trademarked, do not translate unless Apple traslated it to your language.</note>
-      <alt-trans><target>Reconocimiento facial</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[BiometricAuthType] Touch ID" xml:space="preserve">
         <source>Touch ID</source>
         <target state="translated">Touch ID</target>
         <note>Name of biometric authentication method. Trademarked, do not translate unless Apple traslated it to your language.</note>
-      <alt-trans><target>Identificación por huella dactilar</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database/Add] Selected file &quot;%@&quot; does not look like a database." xml:space="preserve">
         <source>Selected file "%@" does not look like a database.</source>
-        <target/>
+        <target state="translated">El archivo seleccionado "%@" no parece ser una base de datos.</target>
         <note>Warning when trying to add a random file as a database. [fileName: String]</note>
       </trans-unit>
       <trans-unit id="[Database/Create/TemplateEntry/notes] You can also store some notes, if you like." xml:space="preserve">
         <source>You can also store some notes, if you like.</source>
         <target state="translated">También puedes almacenar notas, si lo deseas.</target>
         <note>Note for a sample entry</note>
-      <alt-trans><target>También puede almacenar algunas notas, si lo desea.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database/Create/TemplateEntry/password] pa$$word" xml:space="preserve">
         <source>pa$$word</source>
         <target state="translated">Contra$€ña</target>
         <note>Password for a sample entry. Translation is optional.</note>
-      <alt-trans><target>Contras€ña</target></alt-trans><alt-trans><target>Contra$eña</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database/Create/TemplateEntry/title] Sample Entry" xml:space="preserve">
         <source>Sample Entry</source>
         <target state="translated">Entrada de ejemplo</target>
@@ -1195,7 +1178,7 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>john.smith</source>
         <target state="translated">perico.palotes</target>
         <note>User name for a sample entry. Set it to a typical person name for your language ( https://en.wikipedia.org/wiki/List_of_placeholder_names_by_language).</note>
-      <alt-trans><target>john.smith</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database/Create/TemplateGroup/title] Email" xml:space="preserve">
         <source>Email</source>
         <target state="translated">Correo electrónico</target>
@@ -1230,30 +1213,29 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Create Database</source>
         <target state="translated">Crear base de datos</target>
         <note>Action/button to create a new database</note>
-      <alt-trans><target>Crear la base de datos</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database/Create/title] Create Database" xml:space="preserve">
         <source>Create Database</source>
         <target state="translated">Crear base de datos</target>
         <note>Title of a form for creating a database</note>
-      <alt-trans><target>Crear la base de datos</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database/Create] Please enter a password or choose a key file." xml:space="preserve">
         <source>Please enter a password or choose a key file.</source>
         <target state="translated">Por favor, introduce una contraseña o selecciona un archivo de clave.</target>
         <note>Hint shown when both password and key file are empty.</note>
-      <alt-trans><target>Por favor, introduzca una contraseña o elija un archivo de clave.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database/Delete/Confirm/text] Delete database file?&#10; Make sure you have a backup." xml:space="preserve">
         <source>Delete database file?
  Make sure you have a backup.</source>
         <target state="translated">¿Eliminar el archivo de base de datos?
  Asegúrate de tener una copia de seguridad.</target>
         <note>Message to confirm deletion of a database file. (This deletes the file itself)</note>
-      <alt-trans><target>¿Eliminar el archivo de base de datos?
- Asegúrese que tiene un backup.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database/Loading/Status] Loading..." xml:space="preserve">
         <source>Loading...</source>
         <target state="translated">Cargando ...</target>
         <note>Status message: loading a database</note>
-      <alt-trans><target>Cargando...</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database/MasterKey/changed] Master key successfully changed" xml:space="preserve">
         <source>Master key successfully changed</source>
         <target state="translated">Clave maestra cambiada correctamente</target>
@@ -1263,12 +1245,12 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Open Database</source>
         <target state="translated">Abrir base de datos</target>
         <note>Action/button</note>
-      <alt-trans><target>Abrir la base de datos</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database/Opened/Warning/action] Close Database" xml:space="preserve">
         <source>Close Database</source>
         <target state="translated">Cerrar base de datos</target>
         <note>Action: lock database</note>
-      <alt-trans><target>Cerrar la base de datos</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database/Opened/Warning/action] Ignore and Continue" xml:space="preserve">
         <source>Ignore and Continue</source>
         <target state="translated">Ignorar y continuar</target>
@@ -1283,7 +1265,7 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Your database is ready, but there was an issue.</source>
         <target state="translated">Tu base de datos está lista, pero hubo un fallo.</target>
         <note>Title of a warning message, shown after opening a problematic database</note>
-      <alt-trans><target>Tu base de datos está lista, pero hubo un problema.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database/Opened/action] Close" xml:space="preserve">
         <source>Close</source>
         <target state="translated">Cerrar</target>
@@ -1293,15 +1275,14 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Lock Database</source>
         <target state="translated">Bloquear base de datos</target>
         <note>Action/button to lock current database (the next time, it will ask for the master key).</note>
-      <alt-trans><target>Bloquear la base de datos</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database/Remove/Confirm/text] Remove database from the list?&#10; The file will remain intact and you can add it again later." xml:space="preserve">
         <source>Remove database from the list?
  The file will remain intact and you can add it again later.</source>
         <target state="translated">¿Eliminar la base de datos de la lista?
  El archivo permanecerá intacto y se puede volver a añadir más tarde.</target>
         <note>Message to confirm removal of database file from the app. (This keeps the file, but removes its reference from the app.)</note>
-      <alt-trans><target>¿Eliminar la base de datos de la lista?
- El archivo permanecerá intacto y puede añadirlo más tarde.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database/Saving/Status] Done" xml:space="preserve">
         <source>Done</source>
         <target state="translated">Hecho</target>
@@ -1311,7 +1292,7 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Saving...</source>
         <target state="translated">Guardando ...</target>
         <note>Status message: saving a database</note>
-      <alt-trans><target>Guardando...</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database/Unlock] Key file error: %@" xml:space="preserve">
         <source>Key file error: %@</source>
         <target state="translated">Error del archivo de clave: %@</target>
@@ -1321,7 +1302,7 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Choose</source>
         <target state="translated">Seleccionar</target>
         <note>Action: choose a username from a list</note>
-      <alt-trans><target>Seleccione</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Entry/Attachments/title] Attached Files" xml:space="preserve">
         <source>Attached Files</source>
         <target state="translated">Archivos adjuntos</target>
@@ -1331,12 +1312,12 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Create Entry</source>
         <target state="translated">Crear entrada</target>
         <note>Action/button to create a new entry in the current group</note>
-      <alt-trans><target>Crear Entrada</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Entry/Edit/CreateField/defaultName] Field Name" xml:space="preserve">
         <source>Field Name</source>
         <target state="translated">Nombre del campo</target>
         <note>Default name of a newly created entry field</note>
-      <alt-trans><target>Nombre del Campo</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Entry/Field/name] Notes" xml:space="preserve">
         <source>Notes</source>
         <target state="translated">Notas</target>
@@ -1376,7 +1357,7 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>This database supports only one attachment per entry, and there is already one.</source>
         <target state="translated">Esta base de datos soporta sólo un archivo adjunto por entrada y ya existe uno.</target>
         <note>Explanation for replacing the only attachment of KeePass1 entry</note>
-      <alt-trans><target>Esta base de datos soporta sólo un archivo adjunto por entrada, y ya existe uno.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Entry/Files/Rename/title] Rename File" xml:space="preserve">
         <source>Rename File</source>
         <target state="translated">Cambiar nombre del archivo</target>
@@ -1391,7 +1372,7 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Creation Date</source>
         <target state="translated">Fecha de creación</target>
         <note>Title of a field with entry creation date and time</note>
-      <alt-trans><target>Fecha de Creación</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Entry/History] Expiry Date" xml:space="preserve">
         <source>Expiry Date</source>
         <target state="translated">Fecha de caducidad</target>
@@ -1406,7 +1387,7 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Last Modification Date</source>
         <target state="translated">Fecha de última modificación</target>
         <note>Title of a field with entry's last modification date and time</note>
-      <alt-trans><target>Fecha de la última modificación</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Entry/History] Previous Versions" xml:space="preserve">
         <source>Previous Versions</source>
         <target state="translated">Versiones previas</target>
@@ -1416,7 +1397,7 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>New Entry</source>
         <target state="translated">Nueva entrada</target>
         <note>Default title of a new entry</note>
-      <alt-trans><target>Nueva Entrada</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Entry/View] Edit Entry" xml:space="preserve">
         <source>Edit Entry</source>
         <target state="translated">Editar entrada</target>
@@ -1431,22 +1412,22 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Creation Date</source>
         <target state="translated">Fecha de creación</target>
         <note>Field title</note>
-      <alt-trans><target>Fecha de Creación</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[FileInfo/Field/title] File Location" xml:space="preserve">
         <source>File Location</source>
         <target state="translated">Localización del archivo</target>
         <note>Field title</note>
-      <alt-trans><target>Localización del Archivo</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[FileInfo/Field/title] File Name" xml:space="preserve">
         <source>File Name</source>
         <target state="translated">Nombre del archivo</target>
         <note>Field title</note>
-      <alt-trans><target>Nombre del Archivo</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[FileInfo/Field/title] File Size" xml:space="preserve">
         <source>File Size</source>
         <target state="translated">Tamaño del archivo</target>
         <note>Field title</note>
-      <alt-trans><target>Tamaño del Archivo</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[FileInfo/Field/title] Last Modification Date" xml:space="preserve">
         <source>Last Modification Date</source>
         <target state="translated">Fecha de la última modificación</target>
@@ -1491,12 +1472,12 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Delete</source>
         <target state="translated">Borrar</target>
         <note>Action/button to delete a file (destroys the file forever)</note>
-      <alt-trans><target>Eliminar</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Generic/File] Remove" xml:space="preserve">
         <source>Remove</source>
         <target state="translated">Eliminar</target>
         <note>Action/button to remove a file from the app (the file remains, but the app forgets about it)</note>
-      <alt-trans><target>Remover</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Generic/title] Error" xml:space="preserve">
         <source>Error</source>
         <target state="translated">Error</target>
@@ -1521,7 +1502,7 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Contact Us</source>
         <target state="translated">Contáctanos</target>
         <note>Action/button to write an email to support</note>
-      <alt-trans><target>Contáctenos</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Generic] Copy" xml:space="preserve">
         <source>Copy</source>
         <target state="translated">Copiar</target>
@@ -1613,9 +1594,7 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <target state="translated">¿Eliminar el archivo de clave?
  Asegúrate de tener una copia de seguridad.</target>
         <note>Message to confirm deletion of a key file.</note>
-      <alt-trans><target>¿Eliminar el archivo de clave?
- Asegúrese de que tiene un backup.</target></alt-trans><alt-trans><target>¿Eliminar el archivo de clave?
- Asegúrese de que tiene una copia de seguridad.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[News/2019/10/ProVersionReleaseNews/title] KeePassium Pro" xml:space="preserve">
         <source>KeePassium Pro</source>
         <target state="translated">KeePassium Pro</target>
@@ -1625,12 +1604,12 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Please open the main app for the full announcement.</source>
         <target state="translated">Por favor, abre la aplicación principal para ver el anuncio completo.</target>
         <note>Message shown when opening an announcement in AutoFill</note>
-      <alt-trans><target>Por favor, abra la aplicación principal para el anuncio completo.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Premium/Benefits/AttachmentPreview/details]" xml:space="preserve">
         <source>Preview attached files directly in KeePassium and leave no traces in other apps. (Works with images, documents, archives and more.)</source>
         <target state="translated">Vista previa de archivos adjuntos directamente en KeePassium para no dejar rastro en otras aplicaciones. (Funciona con imágenes, documentos, archivos y más.)</target>
         <note>Explanation of the premium feature</note>
-      <alt-trans><target>Vista previa de los archivos adjuntos directamente en KeePassium y no deje rastros en otras aplicaciones. (Funciona con imágenes, documentos, archivos y más.)</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Premium/Benefits/AttachmentPreview/title]" xml:space="preserve">
         <source>Preview without a trace</source>
         <target state="translated">Vista previa sin dejar rastro</target>
@@ -1640,57 +1619,57 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Tired of typing your master password? Keep your database open longer and unlock it with one tap.</source>
         <target state="translated">¿Cansado de escribir la contraseña maestra? Mantén la base de datos abierta por más tiempo y desbloquéala con un toque.</target>
         <note>Explanation of the premium feature</note>
-      <alt-trans><target>¿Cansado de escribir su contraseña maestra? Mantenga su base de datos abierta por más tiempo y desbloquéela con un toque.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Premium/Benefits/DatabaseTimeout/title]" xml:space="preserve">
         <source>Save your time</source>
         <target state="translated">Ahorra tiempo</target>
         <note>Title of a premium feature</note>
-      <alt-trans><target>Ahorre tiempo</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Premium/Benefits/Maintenance/details]" xml:space="preserve">
         <source>Keep KeePassium improved, maintained and without ads.</source>
         <target state="translated">Apoya el desarrollo de KeePassium, un programa genial sin espionaje ni publicidad.</target>
         <note>Explanation of the premium feature</note>
-      <alt-trans><target>Apoye el desarrollo de KeePassium, un programa genial sin espionaje ni publicidad.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Premium/Benefits/Maintenance/title]" xml:space="preserve">
         <source>Keep it shiny</source>
         <target state="translated">Mantenlo brillante</target>
         <note>Title of a premium feature</note>
-      <alt-trans><target>Mantenerlo brillante</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Premium/Benefits/MultiDB/details]" xml:space="preserve">
         <source>Add multiple databases and quickly switch between them.</source>
         <target state="translated">Agrega múltiples bases de datos y cambia rápidamente entre ellas.</target>
         <note>Explanation of the premium feature</note>
-      <alt-trans><target>Agregue múltiples bases de datos y cambie rápidamente entre ellas.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Premium/Benefits/MultiDB/title]" xml:space="preserve">
         <source>Sync with the team</source>
         <target state="translated">Sincroniza con tu equipo</target>
         <note>Title of a premium feature</note>
-      <alt-trans><target>Sincronizar con el equipo</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Premium/Benefits/Support/details]" xml:space="preserve">
         <source>Community support means no obligations. With premium, get answers and solutions directly from the developer.</source>
         <target state="translated">El apoyo de la comunidad no implica ninguna obligación. Con premium, obtienes respuestas y soluciones directamente del desarrollador.</target>
         <note>Explanation of the premium feature</note>
-      <alt-trans><target>El apoyo comunitario no implica ninguna obligación. Con premium, obtener respuestas y soluciones directamente del desarrollador.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Premium/Benefits/Support/title]" xml:space="preserve">
         <source>Talk to support that cares</source>
         <target state="translated">Habla con un soporte técnico que se preocupa</target>
         <note>Title of a premium feature</note>
-      <alt-trans><target>Habla para apoyar que se preocupa</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Premium/Upgrade/Deferred/text] Thank you! You can use KeePassium while purchase is awaiting approval from a parent" xml:space="preserve">
         <source>Thank you! You can use KeePassium while purchase is awaiting approval from a parent</source>
         <target state="translated">¡Gracias! Puedes usar KeePassium mientras la compra se aprueba por el supervisor de la familia</target>
         <note>Message shown when in-app purchase is deferred until parental approval.</note>
-      <alt-trans><target>¡Gracias! Puedes usar KeePassium mientras la compra es aprobada por un supervisor</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Premium/Upgrade/Progress] Contacting AppStore..." xml:space="preserve">
         <source>Contacting AppStore...</source>
         <target state="translated">Conectando con la AppStore ...</target>
         <note>Status message when downloading available in-app purchases</note>
-      <alt-trans><target>Contactando al AppStore...</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Premium/Upgrade/Progress] Purchasing..." xml:space="preserve">
         <source>Purchasing...</source>
         <target state="translated">Comprando ...</target>
         <note>Status: in-app purchase started</note>
-      <alt-trans><target>Comprando...</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Premium/Upgrade/RestoreFailed/text] No previous purchase could be restored." xml:space="preserve">
         <source>No previous purchase could be restored.</source>
         <target state="translated">No se pudo restaurar ninguna compra anterior.</target>
@@ -1705,12 +1684,12 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Upgrade successful, enjoy the app!</source>
         <target state="translated">Actualización hecha con éxito, ¡disfruta de KeePassium!</target>
         <note>Text of the message shown after in-app purchase was successfully restored</note>
-      <alt-trans><target>Actualización exitosa, ¡disfrute de la aplicación!</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Premium/Upgrade/Restored/title] Purchase Restored" xml:space="preserve">
         <source>Purchase Restored</source>
         <target state="translated">Compra restablecida</target>
         <note>Title of the message shown after in-app purchase was successfully restored</note>
-      <alt-trans><target>Compra restaurada</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Premium/Upgrade/action] Upgrade to Premium" xml:space="preserve">
         <source>Upgrade to Premium</source>
         <target state="translated">Actualizar a Premium</target>
@@ -1720,7 +1699,7 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>with priority support</source>
         <target state="translated">con soporte técnico prioritario</target>
         <note>Description of a premium option. Lowercase. For example 'Business Premium / with priority support'.</note>
-      <alt-trans><target>con soporte prioritario</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Premium/Upgrade/price] %@ / month" xml:space="preserve">
         <source>%@ / month</source>
         <target state="translated">%@ / mes</target>
@@ -1735,22 +1714,22 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>%@ once</source>
         <target state="translated">%@ de una vez</target>
         <note>Product price for once-and-forever premium. [localizedPrice: String]</note>
-      <alt-trans><target>%@ una vez</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Premium/Upgrade] Hmm, there are no upgrades available. This should not happen, please contact support." xml:space="preserve">
         <source>Hmm, there are no upgrades available. This should not happen, please contact support.</source>
         <target state="translated">Hmm, no hay actualizaciones disponibles. Esto no debería suceder, por favor contacta con el soporte técnico.</target>
         <note>Error message: AppStore returned no available in-app purchase options</note>
-      <alt-trans><target>Hmm, no hay actualizaciones disponibles. Esto no debe suceder, por favor contacte con el soporte.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Premium/status] Beta testing" xml:space="preserve">
         <source>Beta testing</source>
         <target state="translated">Prueba la versión beta</target>
         <note>Status: special premium for beta-testing environment is active</note>
-      <alt-trans><target>Probando la versión beta</target></alt-trans><alt-trans><target>Probando la beta</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Premium/status] Expired %@ ago. Please renew." xml:space="preserve">
         <source>Expired %@ ago. Please renew.</source>
         <target state="translated">Expirado hace %@. Por favor, renueva la suscripción.</target>
         <note>Status: premium subscription has expired. For example: `Expired 1 day ago`. [timeFormatted: String, includes the time unit (day, hour, minute)]</note>
-      <alt-trans><target>Expirado hace %@. Por favor, renueve.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Premium/status] Next renewal on %@" xml:space="preserve">
         <source>Next renewal on %@</source>
         <target state="translated">Siguiente renovación en %@</target>
@@ -1765,7 +1744,7 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>App being useful: %1$@/month, that is around %2$@/year.</source>
         <target state="translated">Uso de KeePassium: %1$@/mes, que es alrededor de %2$@/año.</target>
         <note>Status: how long the app has been used during some time period. For example: `App being useful: 1hr/month, about 12hr/year`. [monthlyUsage: String, annualUsage: String — already include the time unit (hours, minutes)]</note>
-      <alt-trans><target>Uso de KePassium: %1$@/mes, que es alrededor de %2$@/año.</target></alt-trans><alt-trans><target>En uso: %1$@/month, que es alrededor de %2$@/year.</target></alt-trans><alt-trans><target>La aplicación utilizada por: %1$@/month, que es alrededor de %2$@/year.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[PremiumFeature/BiometricAppLock/description] Quickly access your passwords using Face ID/Touch ID in the premium version." xml:space="preserve">
         <source>Quickly access your passwords using Face ID/Touch ID in the premium version.</source>
         <target state="translated">Accede rápidamente a tus contraseñas usando Touch ID o Face ID con la versión premium.</target>
@@ -1780,7 +1759,7 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Save time entering your complex master passwords — keep your database open longer in the premium version.</source>
         <target state="translated">Ahorra tiempo introduciendo la larga contraseña maestra — mantén tu base de datos abierta más tiempo con la versión premium.</target>
         <note>Description/advertisement for the `Long Database Timeouts` premium feature</note>
-      <alt-trans><target>Ahorra tiempo ingresando tus contraseñas maestras complejas — mantiene tu base de datos abierta más tiempo en la versión premium.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[PremiumFeature/LongDBTimeouts/title] Long Database Timeouts" xml:space="preserve">
         <source>Long Database Timeouts</source>
         <target state="translated">Tiempo largo de cierre de la base de datos</target>
@@ -1790,7 +1769,7 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Easily switch between databases in the premium version.</source>
         <target state="translated">Cambia fácilmente entre bases de datos con la versión premium.</target>
         <note>Description/advertisement for the `Multiple Databases` premium feature</note>
-      <alt-trans><target>Cambie fácilmente entre bases de datos en la versión premium.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[PremiumFeature/MultiDB/title] Multiple Databases" xml:space="preserve">
         <source>Multiple Databases</source>
         <target state="translated">Múltiples bases de datos</target>
@@ -1800,7 +1779,7 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Preview images and documents directly in the app, in the premium version.</source>
         <target state="translated">Vista previa de imágenes y documentos directamente en la aplicación con la versión premium.</target>
         <note>Description/advertisement for the `Preview Attachments` premium feature</note>
-      <alt-trans><target>Vista previa de imágenes y documentos directamente en la aplicación, en la versión premium.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[PremiumFeature/Preview/title] Preview Attachments" xml:space="preserve">
         <source>Preview Attachments</source>
         <target state="translated">Vista previa de adjuntos</target>
@@ -1815,7 +1794,7 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Use %@</source>
         <target state="translated">Usar %@</target>
         <note>Settings switch: whether AppLock is allowed to use Touch ID/Face ID. Example: 'Use Touch ID'. [biometryTypeName: String]</note>
-      <alt-trans><target>Uso %@</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Settings/AppLock/subtitle] App Lock, %@, timeout" xml:space="preserve">
         <source>App Lock, %@, timeout</source>
         <target state="translated">Bloqueo de aplicación, %@, tiempo de espera</target>
@@ -1825,7 +1804,7 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>App Lock, passcode, timeout</source>
         <target state="translated">Bloqueo, código, tiempo de espera</target>
         <note>Settings: subtitle of the `App Protection` section when biometric auth is not available.</note>
-      <alt-trans><target>Bloqueo, cód. de acceso, tiempo de espera</target></alt-trans><alt-trans><target>Bloqueo de la aplicación, código de acceso, tiempo de espera</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Settings/Backup/Delete/title] Delete all backup files?" xml:space="preserve">
         <source>Delete all backup files?</source>
         <target state="translated">¿Eliminar todas las copias de seguridad?</target>
@@ -1835,12 +1814,12 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Delete ALL Backup Files (%d)</source>
         <target state="translated">Eliminar TODAS las copias (%d)</target>
         <note>Action to delete all backup files from the app. `ALL` is in capitals as a highlight. [backupFileCount: Int]</note>
-      <alt-trans><target>Eliminar TODOS los backups (%d)</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Settings/Backup] No Backup Files Found" xml:space="preserve">
         <source>No Backup Files Found</source>
         <target state="translated">No se encontraron copias de seguridad</target>
         <note>Status message: there are no backup files to delete</note>
-      <alt-trans><target>No se encontraron backups</target></alt-trans><alt-trans><target>No se encontraron archivos de copia de seguridad</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Settings/ClearKeyFileAssociations/Cleared/text] Associations between key files and databases have been removed." xml:space="preserve">
         <source>Associations between key files and databases have been removed.</source>
         <target state="translated">Se han eliminado las asociaciones entre los archivos de claves y las bases de datos.</target>
@@ -1850,42 +1829,42 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Cleared</source>
         <target state="translated">Eliminado</target>
         <note>Title of the success message for `Clear Key File Associations` button</note>
-      <alt-trans><target>Hecho</target></alt-trans><alt-trans><target>Procesado</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Settings/ClearMasterKeys/Cleared/text] All master keys have been deleted." xml:space="preserve">
         <source>All master keys have been deleted.</source>
         <target state="translated">Se han eliminado todas las claves maestras.</target>
         <note>Text of the success message for `Clear Master Keys` button</note>
-      <alt-trans><target>Todas las claves maestras han sido limpiadas.</target></alt-trans><alt-trans><target>Todas las claves maestras han sido eliminadas.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Settings/ClearMasterKeys/Cleared/title] Cleared" xml:space="preserve">
         <source>Cleared</source>
         <target state="translated">Eliminado</target>
         <note>Title of the success message for `Clear Master Keys` button</note>
-      <alt-trans><target>Procesado</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Settings/ClipboardTimeout/description] When you copy some text from an entry, the app will automatically clear your clipboard (pasteboard) after this time." xml:space="preserve">
         <source>When you copy some text from an entry, the app will automatically clear your clipboard (pasteboard) after this time.</source>
         <target state="translated">Cuando copies texto de una entrada, la aplicación borrará automáticamente el portapapeles después del tiempo especificado.</target>
         <note>Description of the clipboard/pasteboard timeout.</note>
-      <alt-trans><target>Cuando copie algún texto de una entrada, la aplicación borrará automáticamente su portapapeles después de un tiempo especificado.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Settings/DatabaseLockTimeout/description] If you are not interacting with the app for some time, the database will be closed for your safety. To open it, you will need to enter its master password again." xml:space="preserve">
         <source>If you are not interacting with the app for some time, the database will be closed for your safety. To open it, you will need to enter its master password again.</source>
         <target state="translated">Si no estás interactuando con la aplicación durante un tiempo, la base de datos se cerrará por seguridad. Para abrirla, tendrás que introducir la contraseña maestra de nuevo.</target>
         <note>Description of the Database Lock Timeout</note>
-      <alt-trans><target>Si no estás interactuando con la aplicación durante algún tiempo, la base de datos se cerrará por seguridad. Para abrirla, tendrás que introducir la contraseña maestra de nuevo.</target></alt-trans><alt-trans><target>Si no estás interactuando con la aplicación durante algún tiempo, la base de datos se cerrará por seguridad. Para abrirla, tendrás que introducir la contraseña maestra nuevamente.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Settings/FileLists/Backup/title] Backup" xml:space="preserve">
         <source>Backup</source>
         <target state="translated">Copia de seguridad</target>
         <note>Title of a settings section about making backup files</note>
-      <alt-trans><target>Backup</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Settings/FileLists/Sorting/title] Sorting" xml:space="preserve">
         <source>Sorting</source>
         <target state="translated">Órden</target>
         <note>Title of a settings section about file order in lists</note>
-      <alt-trans><target>Ordenando</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Settings/GroupViewer] Entry Subtitle" xml:space="preserve">
         <source>Entry Subtitle</source>
         <target state="translated">Introducir subtítulo</target>
         <note>Title of a settings section: which entry field to show along with entry title</note>
-      <alt-trans><target>Ingresar subtítulo</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Settings/GroupViewer] Sort Order" xml:space="preserve">
         <source>Sort Order</source>
         <target state="translated">Ordenar por</target>
@@ -1895,7 +1874,7 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>(Please describe the problem here)</source>
         <target state="translated">(Por favor, describe aquí el problema)</target>
         <note>Template text of a bug report email</note>
-      <alt-trans><target>(Por favor, describa el problema aquí)</target></alt-trans></trans-unit>
+      </trans-unit>
     </body>
   </file>
   <file original="KeePassium/general/Base.lproj/AboutVC.storyboard" source-language="en" target-language="es" datatype="plaintext">
@@ -1932,7 +1911,7 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>KeePassium does not collect any personal or analytical data nor share it with anyone.</source>
         <target state="translated">KeePassium no recopila datos personales o analíticos ni los comparte con nadie.</target>
         <note>Class = "UILabel"; text = "KeePassium does not collect any personal or analytical data nor share it with anyone."; ObjectID = "9wt-nj-TZW";</note>
-      <alt-trans><target>KeePassium no recopila datos personales o analíticos, ni los comparte con nadie.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="AMd-x7-PDa.text" xml:space="preserve">
         <source>Do you like what you see?</source>
         <target state="translated">¿Te gusta lo que ves?</target>
@@ -1977,7 +1956,7 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Fancy deboss pattern by Daniel Beaton</source>
         <target state="translated">Patrón Fancy deboss por Daniel Beaton</target>
         <note>Class = "UILabel"; text = "Fancy deboss pattern by Daniel Beaton"; ObjectID = "Kdg-Hz-XOQ";</note>
-      <alt-trans><target>Fancy deboss pattern por Daniel Beaton</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="NLN-lQ-bh5.title" xml:space="preserve">
         <source>About</source>
         <target state="translated">Acerca de</target>
@@ -2007,7 +1986,7 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Contact Support</source>
         <target state="translated">Contacta con el soporte técnico</target>
         <note>Class = "UILabel"; text = "Contact Support"; ObjectID = "TOl-DA-gYc"; Note = "Action: contact us";</note>
-      <alt-trans><target>Contacte al soporte</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="Wuj-Uw-baK.text" xml:space="preserve">
         <source>KeePassium</source>
         <target state="translated">KeePassium</target>
@@ -2017,7 +1996,7 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Translation by KeePassium contributors</source>
         <target state="translated">Traducción gracias a los colaboradores de KeePassium</target>
         <note>Class = "UILabel"; text = "Translation by KeePassium contributors"; ObjectID = "aqX-J9-IzD"; Note = "Replace with a credit to yourself. For example: `German translation by Erika Mustermann and @JohnDoe`.";</note>
-      <alt-trans><target>Traducción por colaboradores de KeePassium</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="axY-gm-XNr.text" xml:space="preserve">
         <source>Twofish implementation by Niels Ferguson</source>
         <target state="translated">Implementación de Twofish por Niels Ferguson</target>
@@ -2062,7 +2041,7 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Any questions? We have answers.</source>
         <target state="translated">¿Alguna pregunta? Tenemos las respuestas.</target>
         <note>Class = "UILabel"; text = "Any questions? We have answers."; ObjectID = "jzd-La-4YT";</note>
-      <alt-trans><target>¿Alguna pregunta? Tenemos respuestas.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="lht-LP-o0Y.text" xml:space="preserve">
         <source>MIT license</source>
         <target state="translated">Licencia MIT</target>
@@ -2082,7 +2061,7 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Argon2 by Daniel Dinu, Dmitry Khovratovich, Jean-Philippe Aumasson, and Samuel Neves</source>
         <target state="translated">Argon2 por Daniel Dinu, Dmitry Khovratovich, Jean-Philippe Aumasson y Samuel Neves</target>
         <note>Class = "UILabel"; text = "Argon2 by Daniel Dinu, Dmitry Khovratovich, Jean-Philippe Aumasson, and Samuel Neves"; ObjectID = "rDJ-4G-8Oz";</note>
-      <alt-trans><target>Argon2 de Daniel Dinu, Dmitry Khovratovich, Jean-Philippe Aumasson y Samuel Neves</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="sCk-Se-Vvo.text" xml:space="preserve">
         <source>MIT license</source>
         <target state="translated">Licencia MIT</target>
@@ -2102,12 +2081,12 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Feather icons by Cole Bemis</source>
         <target state="translated">Iconos Feather por Cole Bemis</target>
         <note>Class = "UILabel"; text = "Feather icons by Cole Bemis"; ObjectID = "tOr-N9-2UY";</note>
-      <alt-trans><target>Iconos principales por Cole Bemis</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="uiw-Qh-pNp.text" xml:space="preserve">
         <source>Leave an App Store review.</source>
         <target state="translated">Deja una reseña en la AppStore.</target>
         <note>Class = "UILabel"; text = "Leave an App Store review."; ObjectID = "uiw-Qh-pNp"; Note = "Second part of the 'Do you like what you see? / Leave an App Store review.\"";</note>
-      <alt-trans><target>Dejar una revisión de App Store.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="vg0-6M-OIq.text" xml:space="preserve">
         <source>KeyboardLayoutConstraint by James Tang</source>
         <target state="translated">KeyboardLayoutConstraint por James Tang</target>
@@ -2117,7 +2096,7 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>System settings icon by Vicons Design</source>
         <target state="translated">Icono de ajustes del sistema por Vicons Design</target>
         <note>Class = "UILabel"; text = "System settings icon by Vicons Design"; ObjectID = "wYr-Ya-qAP";</note>
-      <alt-trans><target>Icono de configuración del sistema por Vicons Design</target></alt-trans></trans-unit>
+      </trans-unit>
     </body>
   </file>
   <file original="KeePassium/general/Base.lproj/ChooseIconVC.storyboard" source-language="en" target-language="es" datatype="plaintext">
@@ -2129,7 +2108,7 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Choose Icon</source>
         <target state="translated">Seleccionar icono</target>
         <note>Class = "UINavigationItem"; title = "Choose Icon"; ObjectID = "H8v-gf-kff";</note>
-      <alt-trans><target>Elegir icono</target></alt-trans></trans-unit>
+      </trans-unit>
     </body>
   </file>
   <file original="KeePassium/general/Base.lproj/FileInfoVC.storyboard" source-language="en" target-language="es" datatype="plaintext">
@@ -2153,7 +2132,7 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Enter passcode</source>
         <target state="translated">Introducir código</target>
         <note>Class = "UILabel"; text = "Enter passcode"; ObjectID = "3mQ-t6-0ty"; Note = "Call for action above the passcode text field";</note>
-      <alt-trans><target>Ingrese código de acceso</target></alt-trans><alt-trans><target>Introducir PIN</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="P3J-3c-ucU.title" xml:space="preserve">
         <source>Unlock KeePassium</source>
         <target state="translated">Desbloquear KeePassium</target>
@@ -2190,7 +2169,7 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Contact Support</source>
         <target state="translated">Contactar con el soporte técnico</target>
         <note>Class = "UIBarButtonItem"; title = "Contact Support"; ObjectID = "uAJ-Ui-Jkx"; Note = "Action: write an email to support";</note>
-      <alt-trans><target>Contacte al soporte</target></alt-trans></trans-unit>
+      </trans-unit>
     </body>
   </file>
   <file original="KeePassium/general/Base.lproj/WelcomeVC.storyboard" source-language="en" target-language="es" datatype="plaintext">
@@ -2202,25 +2181,24 @@ Como resultado, tanto autocompletar como la aplicación principal de KeePassium 
         <source>Welcome</source>
         <target state="translated">Bienvenid@</target>
         <note>Class = "UIViewController"; title = "Welcome"; ObjectID = "1Nc-wz-Yqq"; Note = "Onboarding screen shown on first launch";</note>
-      <alt-trans><target>Bienvenido</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="4wh-8O-5Ch.normalTitle" xml:space="preserve">
         <source>Create New Database</source>
         <target state="translated">Crear base de datos nueva</target>
         <note>Class = "UIButton"; normalTitle = "Create New Database"; ObjectID = "4wh-8O-5Ch";</note>
-      <alt-trans><target>Crear una nueva base de datos</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="PgB-6p-H0t.text" xml:space="preserve">
         <source>KeePassium stores your passwords, credit cards and other information in an encrypted file (database). 
 You can have multiple databases, for example to separate work, family and personal accounts.</source>
         <target state="translated">KeePassium almacena las contraseñas, tarjetas de crédito y otra información en un archivo cifrado (base de datos).
 Puedes tener múltiples bases de datos, p.ej. para separar cuentas de trabajo, familiares y personales.</target>
         <note>Class = "UILabel"; text = "KeePassium stores your passwords, credit cards and other information in an encrypted file (database). \nYou can have multiple databases, for example to separate work, family and personal accounts."; ObjectID = "PgB-6p-H0t";</note>
-      <alt-trans><target>KeePassium almacena sus contraseñas, tarjetas de crédito y otra información en un archivo cifrado (base de datos). 
-Puede tener múltiples bases de datos, por ejemplo para separar cuentas de trabajo, familiares y personales.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="ZKW-2f-Xkz.normalTitle" xml:space="preserve">
         <source>Add Existing Database</source>
         <target state="translated">Añadir base de datos existente</target>
         <note>Class = "UIButton"; normalTitle = "Add Existing Database"; ObjectID = "ZKW-2f-Xkz";</note>
-      <alt-trans><target>Añadir una base de datos existente</target></alt-trans></trans-unit>
+      </trans-unit>
     </body>
   </file>
   <file original="KeePassium/premium/Base.lproj/PremiumContainerVC.storyboard" source-language="en" target-language="es" datatype="plaintext">
@@ -2291,7 +2269,7 @@ La suscripción se renueva automáticamente a no ser que se cancele al menos 24 
 
 Puedes gestionar y cancelar tus suscripciones accediendo a los ajustes de tu cuenta en la AppStore después de la compra.</target>
         <note>Class = "UILabel"; text = "Payment will be charged to your Apple ID account at the confirmation of purchase. \n\nSubscription automatically renews unless it is canceled at least 24 hours before the end of the current period. Your account will be charged for renewal within 24 hours prior to the end of the current period. \n\nYou can manage and cancel your subscriptions by going to your account settings on the App Store after purchase."; ObjectID = "Rkk-oi-8fO"; Note = "Standard conditions text mandated by Apple.";</note>
-      <alt-trans><target>El pago se cargará a tu ID de Apple al confirmar la compra. La suscripción se renueva automáticamente a no ser que lo cancele al menos 24 horas antes que finalice el periodo actual. Se te cobrará la renovación de la suscripción 24 horas antes que termine el periodo actual. Puedes gestionar y cancelar tus suscripciones accediendo a los ajustes de tu cuenta en la AppStore después de la compra.</target></alt-trans><alt-trans><target>El pago se cargará en tu cuenta ID de Apple al confirmar la compra. La suscripción se renueva automáticamente a no ser que lo cancele al menos 24 horas antes que finalice el periodo actual. Se cobrará la renovación de su cuenta dentro de 24 horas antes que termine el periodo actual. Puedes gestionar y cancelar tus suscripciones accediendo a los ajustes de tu cuenta en el App Store después de la compra.</target></alt-trans><alt-trans><target>El pago se cargará en tu cuenta ID de Apple al confirmar la compra. La suscripción se renueva automáticamente a menos que se cancele al menos 24 horas antes del final del periodo actual. Se cobrará la renovación de tu cuenta dentro de un plazo de 24 horas antes de que termine el periodo actual. Puedes gestionar y cancelar tus suscripciones accediendo a los ajustes de tu cuenta en el App Store después de la compra.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="ujr-9f-eco.normalTitle" xml:space="preserve">
         <source>Terms and Conditions</source>
         <target state="translated">Términos y condiciones</target>
@@ -2313,22 +2291,22 @@ Puedes gestionar y cancelar tus suscripciones accediendo a los ajustes de tu cue
         <source>If you enter a wrong AppLock passcode, KeePassium will close all databases and clear all master keys from the keychain.</source>
         <target state="translated">Si introduces un código de acceso (AppLock) incorrecto, KeePassium cerrará todas las bases de datos y borrará todas las claves maestras de la cadena de claves.</target>
         <note>Class = "UITableViewSection"; footerTitle = "If you enter a wrong AppLock passcode, KeePassium will close all databases and clear all master keys from the keychain."; ObjectID = "5Dg-KX-m7a"; Note = "AppLock settings section: what to do when the user enters a wrong AppLock passcode.";</note>
-      <alt-trans><target>Si introduces un código de acceso incorrecto, KeePassium cerrará todas las bases de datos y borrará todas las claves maestras de la cadena de claves.</target></alt-trans><alt-trans><target>Si introduce un código de acceso AppLock incorrecto, KeePassium cerrará todas las bases de datos y borrará todas las claves maestras de la cadena de claves.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="5Dg-KX-m7a.headerTitle" xml:space="preserve">
         <source>Wrong Passcode</source>
         <target state="translated">Código incorrecto</target>
         <note>Class = "UITableViewSection"; headerTitle = "Wrong Passcode"; ObjectID = "5Dg-KX-m7a"; Note = "AppLock settings section: what to do when the user enters a wrong AppLock passcode.";</note>
-      <alt-trans><target>Código de acceso incorrecto</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="6Pk-35-Fx6.text" xml:space="preserve">
         <source>Protect Databases</source>
         <target state="translated">Proteger bases de datos</target>
         <note>Class = "UILabel"; text = "Protect Databases"; ObjectID = "6Pk-35-Fx6";</note>
-      <alt-trans><target>Proteger las bases de datos</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="7ae-8I-LiQ.footerTitle" xml:space="preserve">
         <source>Allows biometric authentication as a quick (but less secure) alternative to AppLock passcode.</source>
         <target state="translated">Permite la autenticación biométrica como una alternativa más rápida (pero menos segura) al código de acceso.</target>
         <note>Class = "UITableViewSection"; footerTitle = "Allows biometric authentication as a quick (but less secure) alternative to AppLock passcode."; ObjectID = "7ae-8I-LiQ"; Note = "AppLock settings section: biometric auth (Touch ID/Face ID)";</note>
-      <alt-trans><target>Permitir la autenticación biométrica como una alternativa más rápida (pero menos segura) al código de acceso AppLock.</target></alt-trans><alt-trans><target>Permitir la autenticación biométrica como una alternativa rápida (pero menos segura) al AppLock passcode.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="7ae-8I-LiQ.headerTitle" xml:space="preserve">
         <source>Biometrics</source>
         <target state="translated">Biometría</target>
@@ -2348,17 +2326,17 @@ Puedes gestionar y cancelar tus suscripciones accediendo a los ajustes de tu cue
         <source>App Protection</source>
         <target state="translated">Protección de la Aplicación</target>
         <note>Class = "UITableViewController"; title = "App Protection"; ObjectID = "U5m-je-MhO";</note>
-      <alt-trans><target>Protección de la App</target></alt-trans><alt-trans><target>Protección de la aplicación</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="aBx-Ee-bMk.footerTitle" xml:space="preserve">
         <source>Protect KeePassium from unauthorized access.</source>
         <target state="translated">Protege KeePassium de accesos no autorizados.</target>
         <note>Class = "UITableViewSection"; footerTitle = "Protect KeePassium from unauthorized access."; ObjectID = "aBx-Ee-bMk"; Note = "Explanation for the `Enable AppLock` option.";</note>
-      <alt-trans><target>Protege a KeePassium de accesos no autorizados.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="m50-fl-4tu.footerTitle" xml:space="preserve">
         <source>The app will automatically lock up after this time.</source>
         <target state="translated">La aplicación se bloqueará automáticamente después de un tiempo.</target>
         <note>Class = "UITableViewSection"; footerTitle = "The app will automatically lock up after this time."; ObjectID = "m50-fl-4tu";</note>
-      <alt-trans><target>La aplicación se bloqueará automáticamente después de este tiempo.</target></alt-trans></trans-unit>
+      </trans-unit>
     </body>
   </file>
   <file original="KeePassium/settings/appLock/Base.lproj/SettingsAppTimeoutVC.storyboard" source-language="en" target-language="es" datatype="plaintext">
@@ -2382,32 +2360,32 @@ Puedes gestionar y cancelar tus suscripciones accediendo a los ajustes de tu cue
         <source>Tap "Passwords &amp; Accounts"</source>
         <target state="translated">Toca en "Contraseñas y cuentas"</target>
         <note>Class = "UILabel"; text = "Tap \"Passwords &amp; Accounts\""; ObjectID = "7SF-2E-uTg"; Note = "Step 2. Must match system's translation.";</note>
-      <alt-trans><target>Pulse "Contraseñas y cuentas"</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="K3a-Mc-VCg.text" xml:space="preserve">
         <source>Open device settings</source>
         <target state="translated">Abre «Ajustes» de iOS</target>
         <note>Class = "UILabel"; text = "Open device settings"; ObjectID = "K3a-Mc-VCg"; Note = "Step 1";</note>
-      <alt-trans><target>Abrir ajustes de dispositivo</target></alt-trans><alt-trans><target>Abrir configuración de dispositivo</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="UzV-Ht-rGx.text" xml:space="preserve">
         <source>Tap "AutoFill Passwords"</source>
         <target state="translated">Toca «Autocompletado de contraseñas»</target>
         <note>Class = "UILabel"; text = "Tap \"AutoFill Passwords\""; ObjectID = "UzV-Ht-rGx"; Note = "Step 3. Must match system's translation.";</note>
-      <alt-trans><target>Toca "Autocompletado de contraseñas"</target></alt-trans><alt-trans><target>Pulse "Autocompletado de contraseñas"</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="X2u-c9-gwU.text" xml:space="preserve">
         <source>Turn on "AutoFill Passwords"</source>
         <target state="translated">Habilita «Autocompletar contraseñas»</target>
         <note>Class = "UILabel"; text = "Turn on \"AutoFill Passwords\""; ObjectID = "X2u-c9-gwU";</note>
-      <alt-trans><target>Habilita "Autocompletar contraseñas"</target></alt-trans><alt-trans><target>Activar "Autocompletar contraseñas"</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="XYL-1l-Jx6.footerTitle" xml:space="preserve">
         <source>When AutoFill inserts the username and password, it can also copy the one-time password (OTP) for you.</source>
         <target state="translated">«Autocompletar» inserta el nombre de usuario y contraseña, pero también puede copiar contraseñas de un solo uso (OTP).</target>
         <note>Class = "UITableViewSection"; footerTitle = "When AutoFill inserts the username and password, it can also copy the one-time password (OTP) for you."; ObjectID = "XYL-1l-Jx6";</note>
-      <alt-trans><target>Autocompletar inserta el nombre de usuario y contraseña, pero también puede copiar contraseñas de un solo uso (OTP).</target></alt-trans><alt-trans><target>Cuando autocompletar inserta el nombre de usuario y contraseña, también puede copiar contraseñas de un solo uso (OTP).</target></alt-trans><alt-trans><target>Cuando autocompletar inserta el nombre de usuario y contraseña, también puede copiar la contraseña de un solo uso (OTP).</target></alt-trans><alt-trans><target>Cuando autocompletar inserta el nombre de usuario y contraseña, también puede copiar la contraseña de un solo uso (OTP) por usted.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="XYL-1l-Jx6.headerTitle" xml:space="preserve">
         <source>One-time passwords</source>
         <target state="translated">Contraseñas de un solo uso (OTP)</target>
         <note>Class = "UITableViewSection"; headerTitle = "One-time passwords"; ObjectID = "XYL-1l-Jx6";</note>
-      <alt-trans><target>Contraseñas de un solo uso</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="caI-eV-WlU.text" xml:space="preserve">
         <source>Select "KeePassium"</source>
         <target state="translated">Selecciona "KeePassium"</target>
@@ -2417,7 +2395,7 @@ Puedes gestionar y cancelar tus suscripciones accediendo a los ajustes de tu cue
         <source>AutoFill</source>
         <target state="translated">Autocompletar (AutoFill)</target>
         <note>Class = "UITableViewController"; title = "AutoFill"; ObjectID = "ei6-22-NXN";</note>
-      <alt-trans><target>Autocompletar</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="go1-Nt-isQ.text" xml:space="preserve">
         <source>Copy OTP to clipboard</source>
         <target state="translated">Copiar OTP al portapapeles</target>
@@ -2427,7 +2405,7 @@ Puedes gestionar y cancelar tus suscripciones accediendo a los ajustes de tu cue
         <source>Initial Setup</source>
         <target state="translated">Ajustes iniciales</target>
         <note>Class = "UITableViewSection"; headerTitle = "Initial Setup"; ObjectID = "r0b-qe-g8J";</note>
-      <alt-trans><target>Configuración inicial</target></alt-trans></trans-unit>
+      </trans-unit>
     </body>
   </file>
   <file original="KeePassium/settings/backup/Base.lproj/SettingsBackupTimeoutPickerVC.storyboard" source-language="en" target-language="es" datatype="plaintext">
@@ -2439,7 +2417,7 @@ Puedes gestionar y cancelar tus suscripciones accediendo a los ajustes de tu cue
         <source>Keep Backup Files</source>
         <target state="translated">Conservar copias de seguridad</target>
         <note>Class = "UITableViewController"; title = "Keep Backup Files"; ObjectID = "atf-ra-KMC"; Note = "Dialog for selecting the duration of keeping the backup copies.";</note>
-      <alt-trans><target>Conservar las copias de seguridad</target></alt-trans><alt-trans><target>Conservar los backups</target></alt-trans><alt-trans><target>Mantener archivos de copia de seguridad</target></alt-trans></trans-unit>
+      </trans-unit>
     </body>
   </file>
   <file original="KeePassium/settings/backup/Base.lproj/SettingsBackupVC.storyboard" source-language="en" target-language="es" datatype="plaintext">
@@ -2451,7 +2429,7 @@ Puedes gestionar y cancelar tus suscripciones accediendo a los ajustes de tu cue
         <source>KeePassium can automatically delete old backup files to free up some storage space.</source>
         <target state="translated">KeePassium puede eliminar automáticamente copias de seguridad antiguas para liberar espacio de almacenamiento.</target>
         <note>Class = "UITableViewSection"; footerTitle = "KeePassium can automatically delete old backup files to free up some storage space."; ObjectID = "B3L-Dk-Uq3"; Note = "Settings section of the `Keep Backup Files` option";</note>
-      <alt-trans><target>KeePassium puede eliminar automáticamente archivos de copia de seguridad antiguos para liberar espacio de almacenamiento.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="B3L-Dk-Uq3.headerTitle" xml:space="preserve">
         <source>Periodic cleanup</source>
         <target state="translated">Limpieza periódica</target>
@@ -2461,32 +2439,32 @@ Puedes gestionar y cancelar tus suscripciones accediendo a los ajustes de tu cue
         <source>Make Backup Copies</source>
         <target state="translated">Hacer copias de seguridad</target>
         <note>Class = "UILabel"; text = "Make Backup Copies"; ObjectID = "BJ7-eQ-JOc"; Note = "Settings option: backup databases before saving them";</note>
-      <alt-trans><target>Hacer Backups</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="G42-gR-eKm.text" xml:space="preserve">
         <source>Keep Backup Files</source>
         <target state="translated">Almacenar copias de seguridad</target>
         <note>Class = "UILabel"; text = "Keep Backup Files"; ObjectID = "G42-gR-eKm"; Note = "Settings option: how long to keep backup copies. Example: `Keep Backup Copies: 3 days`";</note>
-      <alt-trans><target>Almacenar los backups</target></alt-trans><alt-trans><target>Almacenar archivos de copia de seguridad</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="XeH-7q-aad.footerTitle" xml:space="preserve">
         <source>Backup copies will appear along with the original files.</source>
         <target state="translated">Las copias de seguridad se muestran junto a los archivos originales.</target>
         <note>Class = "UITableViewSection"; footerTitle = "Backup copies will appear along with the original files."; ObjectID = "XeH-7q-aad"; Note = "Explanation for the `Show Backup Files` option";</note>
-      <alt-trans><target>Los backups aparecerán junto a los archivos originales.</target></alt-trans><alt-trans><target>Las copias de seguridad aparecerán junto a los archivos originales.</target></alt-trans><alt-trans><target>Las copias de seguridad aparecerán junto con los archivos originales.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="aEK-cJ-9bc.text" xml:space="preserve">
         <source>Show Backup Files</source>
         <target state="translated">Mostrar copias de seguridad</target>
         <note>Class = "UILabel"; text = "Show Backup Files"; ObjectID = "aEK-cJ-9bc"; Note = "Settings option: whether to show backup copies in the list of database files";</note>
-      <alt-trans><target>Mostrar los backups</target></alt-trans><alt-trans><target>Mostrar los archivos de copia de seguridad</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="nBI-OF-9iV.footerTitle" xml:space="preserve">
         <source>Before saving a database, KeePassium will automatically make a copy, just in case.</source>
         <target state="translated">Antes de guardar una base de datos, KeePassium hará una copia automática por seguridad.</target>
         <note>Class = "UITableViewSection"; footerTitle = "Before saving a database, KeePassium will automatically make a copy, just in case."; ObjectID = "nBI-OF-9iV"; Note = "Explanation for the `Make Backup Copies` option";</note>
-      <alt-trans><target>Antes de guardar una base de datos, KeePassium automáticamente hará una copia, solo por seguridad.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="nSy-3u-0xW.title" xml:space="preserve">
         <source>Database Backup</source>
         <target state="translated">Copias de seguridad</target>
         <note>Class = "UITableViewController"; title = "Database Backup"; ObjectID = "nSy-3u-0xW";</note>
-      <alt-trans><target>Copia de seguridad de bases de datos</target></alt-trans><alt-trans><target>Backup de la base de datos</target></alt-trans><alt-trans><target>Copia de seguridad de la base de datos</target></alt-trans></trans-unit>
+      </trans-unit>
     </body>
   </file>
   <file original="KeePassium/settings/Base.lproj/SettingsClipboardTimeoutVC.storyboard" source-language="en" target-language="es" datatype="plaintext">
@@ -2498,7 +2476,7 @@ Puedes gestionar y cancelar tus suscripciones accediendo a los ajustes de tu cue
         <source>Clipboard Timeout</source>
         <target state="translated">Tiempo de espera del portapapeles</target>
         <note>Class = "UITableViewController"; title = "Clipboard Timeout"; ObjectID = "iJJ-jv-hhP"; Note = "TItle of a list of options, when to delete clipboard content. Alternative title \"Clear Clipboard\"";</note>
-      <alt-trans><target>Tiempo de espera para el portapapeles</target></alt-trans><alt-trans><target>Tiempo para limpieza del portapapeles</target></alt-trans></trans-unit>
+      </trans-unit>
     </body>
   </file>
   <file original="KeePassium/settings/Base.lproj/SettingsDatabaseTimeoutVC.storyboard" source-language="en" target-language="es" datatype="plaintext">
@@ -2510,7 +2488,7 @@ Puedes gestionar y cancelar tus suscripciones accediendo a los ajustes de tu cue
         <source>Database Timeout</source>
         <target state="translated">Tiempo de espera</target>
         <note>Class = "UITableViewController"; title = "Database Timeout"; ObjectID = "26a-m8-zQP"; Note = "Title of a list of database timeouts, linked to Settings/Data Protection/Database Timeout.";</note>
-      <alt-trans><target>Tiempo de espera de bases de datos</target></alt-trans><alt-trans><target>Tiempo de espera de la base de datos</target></alt-trans></trans-unit>
+      </trans-unit>
     </body>
   </file>
   <file original="KeePassium/settings/Base.lproj/SettingsDataProtectionVC.storyboard" source-language="en" target-language="es" datatype="plaintext">
@@ -2531,11 +2509,7 @@ Puedes gestionar y cancelar tus suscripciones accediendo a los ajustes de tu cue
 
 (Las claves maestras se borran automáticamente al cumplirse el tiempo de espera de la base de datos.)</target>
         <note>Class = "UITableViewSection"; footerTitle = "Once you unlock a database, its master key can be stored in device's secure keychain. The next time, KeePassium will use that key so you won't have to type your full master password again. \n\n(Master keys are automatically cleared on database timeout.)"; ObjectID = "Faj-km-pM5";</note>
-      <alt-trans><target>Una vez desbloqueada una base de datos, la clave maestra se puede almacenar en la cadena de claves segura del iPhone (KeyChain). La próxima vez, KeePassium utilizará esa clave para no introducir la contraseña maestra completa de nuevo. 
-
-(Las claves maestras se borran automáticamente al cumplirse el tiempo de espera de la base de datos.)</target></alt-trans><alt-trans><target>Una vez que desbloquee una base de datos, su clave maestra puede almacenarse en la cadena de claves segura del dispositivo. La próxima vez, KeePassium utilizará esa clave para que no tenga que escribir su contraseña maestra completa de nuevo. 
-
-(las claves maestras se borran automáticamente en el tiempo de espera de la base de datos.)</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="Faj-km-pM5.headerTitle" xml:space="preserve">
         <source>Quick Unlock</source>
         <target state="translated">Desbloqueo rápido</target>
@@ -2545,7 +2519,7 @@ Puedes gestionar y cancelar tus suscripciones accediendo a los ajustes de tu cue
         <source>Remember Master Keys</source>
         <target state="translated">Recordar contraseñas maestras</target>
         <note>Class = "UILabel"; text = "Remember Master Keys"; ObjectID = "INJ-Cy-Tfo";</note>
-      <alt-trans><target>Recordar contraseña maestra</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="IZZ-aM-g2i.title" xml:space="preserve">
         <source>Data Protection</source>
         <target state="translated">Protección de datos</target>
@@ -2555,7 +2529,7 @@ Puedes gestionar y cancelar tus suscripciones accediendo a los ajustes de tu cue
         <source>Remember Key Files</source>
         <target state="translated">Recordar archivos de claves</target>
         <note>Class = "UILabel"; text = "Remember Key Files"; ObjectID = "JHl-o7-xHI";</note>
-      <alt-trans><target>Recordar los archivos de claves</target></alt-trans><alt-trans><target>Recordar archivos de clave</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="Mxu-GP-FmN.footerTitle" xml:space="preserve">
         <source>Remember and automatically select the last used key file for each database. Clearing the associations does not affect the files.</source>
         <target state="translated">Recordar y seleccionar automáticamente el último archivo de clave usado para cada base de datos. Limpiar las asociaciones no afecta a los archivos.</target>
@@ -2570,7 +2544,7 @@ Puedes gestionar y cancelar tus suscripciones accediendo a los ajustes de tu cue
         <source>Clipboard Timeout</source>
         <target state="translated">Tiempo de espera del portapapeles</target>
         <note>Class = "UILabel"; text = "Clipboard Timeout"; ObjectID = "SSu-Sr-MCg";</note>
-      <alt-trans><target>Tiempo de espera para el portapapeles</target></alt-trans><alt-trans><target>Tiempo para limpieza del portapapeles</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="e1v-nv-Mst.normalTitle" xml:space="preserve">
         <source>Clear Master Keys</source>
         <target state="translated">Borrar contraseñas maestras</target>
@@ -2580,7 +2554,7 @@ Puedes gestionar y cancelar tus suscripciones accediendo a los ajustes de tu cue
         <source>When you copy anything, KeePassium will automatically clear your clipboard (pasteboard) after some time.</source>
         <target state="translated">Cuando copies texto, KeePassium limpiará automáticamente el portapapeles después del tiempo seleccionado.</target>
         <note>Class = "UITableViewSection"; footerTitle = "When you copy anything, KeePassium will automatically clear your clipboard (pasteboard) after some time."; ObjectID = "hnI-Q8-Ixm";</note>
-      <alt-trans><target>Cuando copies textto, KeePassium limpiará automáticamente el portapapeles después del tiempo seleccionado.</target></alt-trans><alt-trans><target>Cuando copie algo, KeePassium limpiará automáticamente su portapapeles después de un tiempo.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="hnI-Q8-Ixm.headerTitle" xml:space="preserve">
         <source>Clipboard</source>
         <target state="translated">Portapapeles</target>
@@ -2590,7 +2564,7 @@ Puedes gestionar y cancelar tus suscripciones accediendo a los ajustes de tu cue
         <source>Database timeout closes any opened databases and clears any remembered master keys after some time.</source>
         <target state="translated">Tras el tiempo de espera de la base de datos, todas las bases de datos abiertas se cerrarán y sus claves maestras se borrarán.</target>
         <note>Class = "UITableViewSection"; footerTitle = "Database timeout closes any opened databases and clears any remembered master keys after some time."; ObjectID = "neJ-eG-TV7";</note>
-      <alt-trans><target>Después del tiempo de espera de la base de datos, todas las bases de datos abiertas se cerrarán y sus claves maestras serán borradas.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="neJ-eG-TV7.headerTitle" xml:space="preserve">
         <source>Automatic Lock</source>
         <target state="translated">Bloqueo automático</target>
@@ -2600,7 +2574,7 @@ Puedes gestionar y cancelar tus suscripciones accediendo a los ajustes de tu cue
         <source>Database Timeout</source>
         <target state="translated">Tiempo de espera</target>
         <note>Class = "UILabel"; text = "Database Timeout"; ObjectID = "weX-SZ-IDB";</note>
-      <alt-trans><target>Tiempo de espera de bases de datos</target></alt-trans><alt-trans><target>Tiempo de espera de la base de datos</target></alt-trans></trans-unit>
+      </trans-unit>
     </body>
   </file>
   <file original="KeePassium/settings/Base.lproj/SettingsFileSortingVC.storyboard" source-language="en" target-language="es" datatype="plaintext">
@@ -2612,12 +2586,12 @@ Puedes gestionar y cancelar tus suscripciones accediendo a los ajustes de tu cue
         <source>File Sorting</source>
         <target state="translated">Órden de archivos</target>
         <note>Class = "UITableViewController"; title = "File Sorting"; ObjectID = "87L-KA-IeR"; Note = "Settings page";</note>
-      <alt-trans><target>Ordenando archivos</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="pp5-eX-yPx.text" xml:space="preserve">
         <source>Show Backup Files</source>
         <target state="translated">Mostrar copias de seguridad</target>
         <note>Class = "UILabel"; text = "Show Backup Files"; ObjectID = "pp5-eX-yPx"; Note = "Settings switch: whether to include backup copies in the file list";</note>
-      <alt-trans><target>Mostrar los backups</target></alt-trans><alt-trans><target>Mostrar los archivos de copia de seguridad</target></alt-trans></trans-unit>
+      </trans-unit>
     </body>
   </file>
   <file original="KeePassium/settings/Base.lproj/SettingsItemListVC.storyboard" source-language="en" target-language="es" datatype="plaintext">
@@ -2629,7 +2603,7 @@ Puedes gestionar y cancelar tus suscripciones accediendo a los ajustes de tu cue
         <source>List Settings</source>
         <target state="translated">Lista de ajustes</target>
         <note>Class = "UINavigationItem"; title = "List Settings"; ObjectID = "Gyy-12-KPC";</note>
-      <alt-trans><target>Configuración de lista</target></alt-trans></trans-unit>
+      </trans-unit>
     </body>
   </file>
   <file original="KeePassium/settings/Base.lproj/SettingsVC.storyboard" source-language="en" target-language="es" datatype="plaintext">
@@ -2641,7 +2615,7 @@ Puedes gestionar y cancelar tus suscripciones accediendo a los ajustes de tu cue
         <source>After opening a database, automatically show the search field.</source>
         <target state="translated">Al abrir una base de datos, se mostrará automáticamente el campo de búsquedas.</target>
         <note>Class = "UITableViewSection"; footerTitle = "After opening a database, automatically show the search field."; ObjectID = "9Me-8P-nIZ";</note>
-      <alt-trans><target>Al abrir una base de datos, se iniciará la búsqueda automáticamente.</target></alt-trans><alt-trans><target>Al abrir una base de datos, automáticamente se iniciará la búsqueda.</target></alt-trans><alt-trans><target>Después de abrir una base de datos, automáticamente se mostrará el modo de búsqueda.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="9Me-8P-nIZ.headerTitle" xml:space="preserve">
         <source>Start</source>
         <target state="translated">Inicio</target>
@@ -2656,7 +2630,7 @@ Puedes gestionar y cancelar tus suscripciones accediendo a los ajustes de tu cue
         <source>Settings</source>
         <target state="translated">Ajustes</target>
         <note>Class = "UINavigationItem"; title = "Settings"; ObjectID = "Bk0-Xf-O7B";</note>
-      <alt-trans><target>Configuración</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="DNo-Rs-0EP.text" xml:space="preserve">
         <source>About KeePassium</source>
         <target state="translated">Acerca de KeePassium</target>
@@ -2666,22 +2640,22 @@ Puedes gestionar y cancelar tus suscripciones accediendo a los ajustes de tu cue
         <source>Master keys, key files</source>
         <target state="translated">Claves maestras, archivos de claves</target>
         <note>Class = "UILabel"; text = "Master keys, key files"; ObjectID = "FHp-ns-ke9"; Note = "Subtitle/details for `Data Protection`";</note>
-      <alt-trans><target>Claves maestras, archivos clave</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="HCe-A3-eG6.text" xml:space="preserve">
         <source>Premium Version</source>
         <target state="translated">Versión premium</target>
         <note>Class = "UILabel"; text = "Premium Version"; ObjectID = "HCe-A3-eG6"; Note = "Status shown on premium tier";</note>
-      <alt-trans><target>Versión Premium</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="HYe-lP-dCp.text" xml:space="preserve">
         <source>Rate KeePassium on the App Store</source>
         <target state="translated">Valora KeePassium en la AppStore</target>
         <note>Class = "UILabel"; text = "Rate KeePassium on the App Store"; ObjectID = "HYe-lP-dCp"; Note = "Subtitle for `Review KeePassium`";</note>
-      <alt-trans><target>Califica KeePassium en la App Store</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="HjD-9G-X8p.headerTitle" xml:space="preserve">
         <source>Backup</source>
         <target state="translated">Copias de seguridad</target>
         <note>Class = "UITableViewSection"; headerTitle = "Backup"; ObjectID = "HjD-9G-X8p";</note>
-      <alt-trans><target>Backup</target></alt-trans><alt-trans><target>Copia de seguridad</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="PpA-oZ-kr2.text" xml:space="preserve">
         <source>Diagnostic Log</source>
         <target state="translated">Registro de diagnóstico</target>
@@ -2691,12 +2665,12 @@ Puedes gestionar y cancelar tus suscripciones accediendo a los ajustes de tu cue
         <source>Contact Us</source>
         <target state="translated">Contáctanos</target>
         <note>Class = "UILabel"; text = "Contact Us"; ObjectID = "QlM-VS-hle"; Note = "Action";</note>
-      <alt-trans><target>Contáctenos</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="RNK-fS-Fvx.text" xml:space="preserve">
         <source>Suggestions? Problems? Let us know!</source>
         <target state="translated">¿Sugerencias? ¿Problemas? ¡Háznoslo saber!</target>
         <note>Class = "UILabel"; text = "Suggestions? Problems? Let us know!"; ObjectID = "RNK-fS-Fvx"; Note = "Subtitle for `Contact Us`. Keep it short.";</note>
-      <alt-trans><target>¿Sugerencias? ¿Problemas? ¡Haznoslo saber!</target></alt-trans><alt-trans><target>¿Sugerencias? ¿Problemas? ¡Haznos saber!</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="T2Z-oa-zJR.text" xml:space="preserve">
         <source>AutoFill Passwords</source>
         <target state="translated">Autocompletar contraseñas</target>
@@ -2716,22 +2690,22 @@ Puedes gestionar y cancelar tus suscripciones accediendo a los ajustes de tu cue
         <source>App Protection</source>
         <target state="translated">Protección de la Aplicación</target>
         <note>Class = "UILabel"; text = "App Protection"; ObjectID = "abS-AH-iFO"; Note = "Settings section: protection of the app from unauthorized access";</note>
-      <alt-trans><target>Protección de la App</target></alt-trans><alt-trans><target>Protección de aplicación</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="c5H-hS-sU3.text" xml:space="preserve">
         <source>Review KeePassium</source>
         <target state="translated">Valorar KeePassium</target>
         <note>Class = "UILabel"; text = "Review KeePassium"; ObjectID = "c5H-hS-sU3"; Note = "Action: write an app review on the App Store";</note>
-      <alt-trans><target>Comentar KeePassium</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="cBS-jW-dHU.headerTitle" xml:space="preserve">
         <source>Support</source>
         <target state="translated">Soporte técnico</target>
         <note>Class = "UITableViewSection"; headerTitle = "Support"; ObjectID = "cBS-jW-dHU";</note>
-      <alt-trans><target>Soporte</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="coD-Om-Vfm.text" xml:space="preserve">
         <source>Database Backup</source>
         <target state="translated">Copias de seguridad</target>
         <note>Class = "UILabel"; text = "Database Backup"; ObjectID = "coD-Om-Vfm"; Note = "Settings section";</note>
-      <alt-trans><target>Copia de seguridad de la base de datos</target></alt-trans><alt-trans><target>Backup de la base de datos</target></alt-trans><alt-trans><target>Copia de seguridad de base de datos</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="hui-xG-chj.headerTitle" xml:space="preserve">
         <source>Access Control</source>
         <target state="translated">Control de acceso</target>
@@ -2746,12 +2720,12 @@ Puedes gestionar y cancelar tus suscripciones accediendo a los ajustes de tu cue
         <source>For expert troubleshooting</source>
         <target state="translated">Solucionar problemas de expertos</target>
         <note>Class = "UILabel"; text = "For expert troubleshooting"; ObjectID = "qhK-lw-bGy"; Note = "Subtitle for `Diagnostic Log`. Keep it short.";</note>
-      <alt-trans><target>Para solucionar problemas de expertos</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="yuN-Ls-o9d.text" xml:space="preserve">
         <source>Start with Search</source>
         <target state="translated">Iniciar con campo de búsquedas</target>
         <note>Class = "UILabel"; text = "Start with Search"; ObjectID = "yuN-Ls-o9d";</note>
-      <alt-trans><target>Iniciar con búsqueda</target></alt-trans><alt-trans><target>Iniciar en búsqueda</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="zUh-Sn-3ya.text" xml:space="preserve">
         <source>Manage Subscriptions</source>
         <target state="translated">Administrar suscripciones</target>

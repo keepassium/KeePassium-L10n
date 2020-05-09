@@ -161,7 +161,7 @@
         <source>Unsupported cipher. (Code: %@)</source>
         <target state="translated">不支持的密碼。(代碼:%@)</target>
         <note>Error message. [flagsHexString: String]</note>
-      <alt-trans><target>不支持的密碼。(代碼:)%@</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database1/Header1/Error] Unsupported database format version: %@." xml:space="preserve">
         <source>Unsupported database format version: %@.</source>
         <target state="translated">不支持的資料庫格式版本:%@。</target>
@@ -182,9 +182,9 @@
         <target state="translated">解析內容</target>
         <note>Status message: processing the content of a database</note>
       </trans-unit>
-      <trans-unit id="[Database2/FormatError] Cannot parse database. %s" xml:space="preserve">
-        <source>Cannot parse database. %s</source>
-        <target state="translated">無法解析資料庫。%s</target>
+      <trans-unit id="[Database2/FormatError] Cannot parse database. %@" xml:space="preserve">
+        <source>Cannot parse database. %@</source>
+        <target state="translated">無法解析資料庫。%@</target>
         <note>Error message. Parsing refers to the analysis/understanding of file content. [reason: String]</note>
       </trans-unit>
       <trans-unit id="[Database2/FormatError] Corrupted database file (HMAC mismatch in block %d)" xml:space="preserve">

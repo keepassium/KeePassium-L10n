@@ -277,9 +277,9 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <target state="final">Touch ID</target>
         <note>Name of biometric authentication method. Trademarked, do not translate unless Apple traslated it to your language.</note>
       </trans-unit>
-      <trans-unit id="[Database/Add] Selected file &quot;%@&quot; does not look like a database." xml:space="preserve">
+      <trans-unit id="[Database/Add] Selected file &quot;%@&quot; does not look like a database." xml:space="preserve" approved="yes">
         <source>Selected file "%@" does not look like a database.</source>
-        <target/>
+        <target state="final">Выбранный файл "%@" не похож на базу паролей.</target>
         <note>Warning when trying to add a random file as a database. [fileName: String]</note>
       </trans-unit>
       <trans-unit id="[Database/Create/action] Create Database" xml:space="preserve" approved="yes">
@@ -1154,9 +1154,9 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <target state="final">Touch ID</target>
         <note>Name of biometric authentication method. Trademarked, do not translate unless Apple traslated it to your language.</note>
       </trans-unit>
-      <trans-unit id="[Database/Add] Selected file &quot;%@&quot; does not look like a database." xml:space="preserve">
+      <trans-unit id="[Database/Add] Selected file &quot;%@&quot; does not look like a database." xml:space="preserve" approved="yes">
         <source>Selected file "%@" does not look like a database.</source>
-        <target/>
+        <target state="final">Выбранный файл "%@" не похож на базу паролей.</target>
         <note>Warning when trying to add a random file as a database. [fileName: String]</note>
       </trans-unit>
       <trans-unit id="[Database/Create/TemplateEntry/notes] You can also store some notes, if you like." xml:space="preserve" approved="yes">
@@ -2223,9 +2223,9 @@ You can have multiple databases, for example to separate work, family and person
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
     </header>
     <body>
-      <trans-unit id="5rv-SA-uRy.accessibilityLabel" xml:space="preserve">
+      <trans-unit id="5rv-SA-uRy.accessibilityLabel" xml:space="preserve" approved="yes">
         <source>Download in the App Store</source>
-        <target state="translated">Загрузить в App Store</target>
+        <target state="final">Загрузить в App Store</target>
         <note>Class = "UIButton"; accessibilityLabel = "Download in the App Store"; ObjectID = "5rv-SA-uRy";</note>
       </trans-unit>
       <trans-unit id="RMU-nJ-6tZ.text" xml:space="preserve">

@@ -182,9 +182,9 @@
         <target state="translated">解析内容</target>
         <note>Status message: processing the content of a database</note>
       </trans-unit>
-      <trans-unit id="[Database2/FormatError] Cannot parse database. %s" xml:space="preserve">
-        <source>Cannot parse database. %s</source>
-        <target state="translated">无法解析数据库。%s</target>
+      <trans-unit id="[Database2/FormatError] Cannot parse database. %@" xml:space="preserve">
+        <source>Cannot parse database. %@</source>
+        <target state="translated">无法解析数据库。%@</target>
         <note>Error message. Parsing refers to the analysis/understanding of file content. [reason: String]</note>
       </trans-unit>
       <trans-unit id="[Database2/FormatError] Corrupted database file (HMAC mismatch in block %d)" xml:space="preserve">

@@ -279,7 +279,7 @@ Detta leder till att både Autofyll och huvudappen för KeePassium behöver ges 
       </trans-unit>
       <trans-unit id="[Database/Add] Selected file &quot;%@&quot; does not look like a database." xml:space="preserve">
         <source>Selected file "%@" does not look like a database.</source>
-        <target/>
+        <target state="translated">Vald fil "%@" verkar inte vara en databas.</target>
         <note>Warning when trying to add a random file as a database. [fileName: String]</note>
       </trans-unit>
       <trans-unit id="[Database/Create/action] Create Database" xml:space="preserve">
@@ -1156,7 +1156,7 @@ Säkerställ att du har en backup.</target>
       </trans-unit>
       <trans-unit id="[Database/Add] Selected file &quot;%@&quot; does not look like a database." xml:space="preserve">
         <source>Selected file "%@" does not look like a database.</source>
-        <target/>
+        <target state="translated">Vald fil "%@" verkar inte vara en databas.</target>
         <note>Warning when trying to add a random file as a database. [fileName: String]</note>
       </trans-unit>
       <trans-unit id="[Database/Create/TemplateEntry/notes] You can also store some notes, if you like." xml:space="preserve">
@@ -1644,7 +1644,7 @@ Säkerställ att du har en backup.</target>
         <source>Sync with the team</source>
         <target state="translated">Synka med teamet</target>
         <note>Title of a premium feature</note>
-      <alt-trans><target>Synka med kollegorna</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Premium/Benefits/Support/details]" xml:space="preserve">
         <source>Community support means no obligations. With premium, get answers and solutions directly from the developer.</source>
         <target state="translated">Community-supporten innebär inga löften. Med premium får du svaren och lösningarna direkt från utvecklaren.</target>
@@ -2132,7 +2132,7 @@ Säkerställ att du har en backup.</target>
         <source>Enter passcode</source>
         <target state="translated">Ange PIN-kod</target>
         <note>Class = "UILabel"; text = "Enter passcode"; ObjectID = "3mQ-t6-0ty"; Note = "Call for action above the passcode text field";</note>
-      <alt-trans><target>Ange lösenkod</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="P3J-3c-ucU.title" xml:space="preserve">
         <source>Unlock KeePassium</source>
         <target state="translated">Lås upp KeePassium</target>
@@ -2142,7 +2142,7 @@ Säkerställ att du har en backup.</target>
         <source>Passcode</source>
         <target state="translated">PIN-kod</target>
         <note>Class = "UITextField"; placeholder = "Passcode"; ObjectID = "ZTd-Zj-qAs"; Note = "Placeholder text in the AppLock passcode field";</note>
-      <alt-trans><target>Lösenkod</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="z0x-Rz-Nfj.normalTitle" xml:space="preserve">
         <source>Cancel</source>
         <target state="translated">Avbryt</target>
@@ -2356,9 +2356,9 @@ Du kan hantera och avsluta din prenumeration genom att gå till Kontoinställnin
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
     </header>
     <body>
-      <trans-unit id="7SF-2E-uTg.text" xml:space="preserve">
+      <trans-unit id="7SF-2E-uTg.text" xml:space="preserve" approved="yes">
         <source>Tap "Passwords &amp; Accounts"</source>
-        <target state="translated">Tryck på "Lösenord och konton"</target>
+        <target state="final">Tryck på "Lösenord och konton"</target>
         <note>Class = "UILabel"; text = "Tap \"Passwords &amp; Accounts\""; ObjectID = "7SF-2E-uTg"; Note = "Step 2. Must match system's translation.";</note>
       </trans-unit>
       <trans-unit id="K3a-Mc-VCg.text" xml:space="preserve">

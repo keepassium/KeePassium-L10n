@@ -279,27 +279,26 @@ Als gevolg hiervan moeten zowel AutoFill als de KeePassium-app hun eigen machtig
       </trans-unit>
       <trans-unit id="[Database/Add] Selected file &quot;%@&quot; does not look like a database." xml:space="preserve">
         <source>Selected file "%@" does not look like a database.</source>
-        <target/>
+        <target state="translated">Het geselecteerde bestand ('%@') lijkt geen databank te zijn.</target>
         <note>Warning when trying to add a random file as a database. [fileName: String]</note>
       </trans-unit>
       <trans-unit id="[Database/Create/action] Create Database" xml:space="preserve">
         <source>Create Database</source>
         <target state="translated">Maak databank</target>
         <note>Action/button to create a new database</note>
-      <alt-trans><target>Creëer databank</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database/Create/title] Create Database" xml:space="preserve">
         <source>Create Database</source>
         <target state="translated">Maak databank</target>
         <note>Title of a form for creating a database</note>
-      <alt-trans><target>Creëer databank</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database/Delete/Confirm/text] Delete database file?&#10; Make sure you have a backup." xml:space="preserve">
         <source>Delete database file?
  Make sure you have a backup.</source>
         <target state="translated">Verwijder databankbestand?
  Zorg ervoor dat je een back-up hebt.</target>
         <note>Message to confirm deletion of a database file. (This deletes the file itself)</note>
-      <alt-trans><target>Verwijder databankbestand?
-Zorg ervoor dat je een back-up hebt.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database/Delete] Failed to delete database file" xml:space="preserve">
         <source>Failed to delete database file</source>
         <target state="translated">Kan databankbestand niet verwijderen</target>
@@ -1157,7 +1156,7 @@ Zorg ervoor dat je een back-up hebt.</target></alt-trans></trans-unit>
       </trans-unit>
       <trans-unit id="[Database/Add] Selected file &quot;%@&quot; does not look like a database." xml:space="preserve">
         <source>Selected file "%@" does not look like a database.</source>
-        <target/>
+        <target state="translated">Het geselecteerde bestand ('%@') lijkt geen databank te zijn.</target>
         <note>Warning when trying to add a random file as a database. [fileName: String]</note>
       </trans-unit>
       <trans-unit id="[Database/Create/TemplateEntry/notes] You can also store some notes, if you like." xml:space="preserve">
@@ -1997,7 +1996,7 @@ Zorg ervoor dat je een back-up hebt.</target></alt-trans></trans-unit>
         <source>Translation by KeePassium contributors</source>
         <target state="translated">Dutch translation by Heimen Stoffels (@Vistaus)</target>
         <note>Class = "UILabel"; text = "Translation by KeePassium contributors"; ObjectID = "aqX-J9-IzD"; Note = "Replace with a credit to yourself. For example: `German translation by Erika Mustermann and @JohnDoe`.";</note>
-      <alt-trans><target>Vertaling door KeePassium-bijdragers</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="axY-gm-XNr.text" xml:space="preserve">
         <source>Twofish implementation by Niels Ferguson</source>
         <target state="translated">Twovis-implementatie door Niels Ferguson</target>

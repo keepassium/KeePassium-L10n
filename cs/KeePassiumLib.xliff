@@ -141,7 +141,7 @@
         <source>Error parsing field %@. Corrupted database file?</source>
         <target state="translated">Chyba analyzování pole %@. Databáze je poškozená?</target>
         <note>Error message [fieldName: String]</note>
-      <alt-trans><target>Chyba parsování pole %@. Databáze je poškozená?</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database1/FormatError] Found an entry outside any group. Corrupted DB file?" xml:space="preserve">
         <source>Found an entry outside any group. Corrupted DB file?</source>
         <target state="translated">Záznam byl nalezen mimo jakoukoliv skupinu. Databáze je poškozená?</target>
@@ -181,17 +181,17 @@
         <source>Parsing content</source>
         <target state="translated">Analýza obsahu</target>
         <note>Status message: processing the content of a database</note>
-      <alt-trans><target>Parsování obsahu</target></alt-trans></trans-unit>
-      <trans-unit id="[Database2/FormatError] Cannot parse database. %s" xml:space="preserve">
-        <source>Cannot parse database. %s</source>
-        <target state="translated">Nelze zanalyzovat databázi. %s</target>
+      </trans-unit>
+      <trans-unit id="[Database2/FormatError] Cannot parse database. %@" xml:space="preserve">
+        <source>Cannot parse database. %@</source>
+        <target state="translated">Nelze zanalyzovat databázi. %@</target>
         <note>Error message. Parsing refers to the analysis/understanding of file content. [reason: String]</note>
       </trans-unit>
       <trans-unit id="[Database2/FormatError] Corrupted database file (HMAC mismatch in block %d)" xml:space="preserve">
         <source>Corrupted database file (HMAC mismatch in block %d)</source>
         <target state="translated">Poškozená databáze (neshoda HMAC v bloku %d)</target>
         <note>Error message: HMAC value (kind of checksum) of a data block is wrong. [blockIndex: Int]</note>
-      <alt-trans><target>Poškozená databáze (HMAC neshoda v bloku %d)</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database2/FormatError] Corrupted database file (block %d has negative size)" xml:space="preserve">
         <source>Corrupted database file (block %d has negative size)</source>
         <target state="translated">Poškozená databáze (blok %d má zápornou velikost)</target>
@@ -211,7 +211,7 @@
         <source>Unexpected block ID.</source>
         <target state="translated">Neočekávaný blok ID.</target>
         <note>Error message: wrong ID of a data block</note>
-      <alt-trans><target>Nečekaný blok ID.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database2/FormatError] Unexpected end of file. Corrupted file?" xml:space="preserve">
         <source>Unexpected end of file. Corrupted file?</source>
         <target state="translated">Neočekávaný konec souboru. Poškozený soubor?</target>
@@ -297,11 +297,11 @@ Prosím posuďte přílohu souborů v následujících záznamech (a jejich hist
 %@</target>
         <note>A warning about nameless attachments, shown after loading the database. [listOfEntryNames: String]</note>
       </trans-unit>
-      <trans-unit id="[Database2/Loading/Warning/namelessCustomFields]" xml:space="preserve">
+      <trans-unit id="[Database2/Loading/Warning/namelessCustomFields]" xml:space="preserve" approved="yes">
         <source>Some entries have custom field(s) with empty names. This can be a sign of data corruption. Please check these entries:
 
 %@</source>
-        <target state="translated">Některé záznamy mají vlastní pole s prázdným názvem. To může znamenat poškození dat. Prosím zkontrolujte tyto záznamy:
+        <target state="final">Některé záznamy mají vlastní pole s prázdným názvem. To může znamenat poškození dat. Prosím zkontrolujte tyto záznamy:
 
 %@</target>
         <note>A warning about misformatted custom fields after loading the database. [entryPaths: String]</note>
@@ -417,7 +417,7 @@ Prosím ujistěte se, že máte zálohu vaší databáze před nedávnou změnou
         <source>Creation Date (Oldest First)</source>
         <target state="translated">Datum vytvoření (od nejstarší)</target>
         <note>A sorting option for a list of files, by file creation date. Example: 'Sort Order: Creation Date (Oldest First)'</note>
-      <alt-trans><target>Datum vytvoření (od nejstaršího)</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[FilesSortOrder/longTitle] Creation Date (Recent First)" xml:space="preserve">
         <source>Creation Date (Recent First)</source>
         <target state="translated">Datum vytvoření (od nejnovější)</target>

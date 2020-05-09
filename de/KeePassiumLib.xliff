@@ -71,7 +71,7 @@
         <source>Random number generator error (code %d)</source>
         <target state="translated">Zufallszahl-Generator-Fehler (Code %d)</target>
         <note>Error message about random number generator. [errorCode: Int]</note>
-      <alt-trans><target>Zufallsnummer-Generator-Fehler (Code %d)</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[CryptoError] Twofish cipher error (code %d)" xml:space="preserve">
         <source>Twofish cipher error (code %d)</source>
         <target state="translated">Twofish Chiffrerfehler (Code %d)</target>
@@ -101,7 +101,7 @@
         <source>Please provide at least a password or a key file</source>
         <target state="translated">Bitte nutzen Sie mindestens ein Passwort oder eine Schlüsseldatei</target>
         <note>Error shown when both master password and key file are empty</note>
-      <alt-trans><target>Bitte geben Sie mindestens ein Passwort ein oder eine Schlüsseldatei an</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database/Load/Error] Unrecognized database format" xml:space="preserve">
         <source>Unrecognized database format</source>
         <target state="translated">Unbekanntes Datenbankformat</target>
@@ -131,7 +131,7 @@
         <source>Password and key file are both empty.</source>
         <target state="translated">Passwortfeld ist leer und es wurde keine Schlüsseldatei angegeben.</target>
         <note>Error message</note>
-      <alt-trans><target>Passwort ist leer und es ist keine Schlüsseldatei angegeben.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database1/FormatError] Database file is corrupted." xml:space="preserve">
         <source>Database file is corrupted.</source>
         <target state="translated">Datenbank-Datei ist beschädigt.</target>
@@ -141,17 +141,17 @@
         <source>Error parsing field %@. Corrupted database file?</source>
         <target state="translated">Fehler beim Parsen des Feldes %@. Datenbankdatei beschädigt?</target>
         <note>Error message [fieldName: String]</note>
-      <alt-trans><target>Fehler beim Parsen des Feldes %@. Datenbankdatei fehlerhaft?</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database1/FormatError] Found an entry outside any group. Corrupted DB file?" xml:space="preserve">
         <source>Found an entry outside any group. Corrupted DB file?</source>
         <target state="translated">Eintrag außerhalb einer Gruppe gefunden. Datenbankdatei beschädigt?</target>
         <note>Error message</note>
-      <alt-trans><target>Eintrag außerhalb einer Gruppe gefunden. Korrupte Datenbankdatei?</target></alt-trans><alt-trans><target>Eintrag außerhalb einer Gruppe gefunden. Korrupte Datenbank-Datei?</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database1/FormatError] Unexpected end of file. Corrupted database file?" xml:space="preserve">
         <source>Unexpected end of file. Corrupted database file?</source>
         <target state="translated">Unerwartetes Ende der Datei. Datenbankdatei beschädigt?</target>
         <note>Error message</note>
-      <alt-trans><target>Unerwartetes Ende der Datei. Korrupte Datenbankdatei?</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database1/Header1/Error] Header reading error. DB file corrupt?" xml:space="preserve">
         <source>Header reading error. DB file corrupt?</source>
         <target state="translated">Header Lesefehler. Datenbankdatei beschädigt?</target>
@@ -182,9 +182,9 @@
         <target state="translated">Inhalt analysieren</target>
         <note>Status message: processing the content of a database</note>
       </trans-unit>
-      <trans-unit id="[Database2/FormatError] Cannot parse database. %s" xml:space="preserve">
-        <source>Cannot parse database. %s</source>
-        <target state="translated">Datenbank kann nicht analysiert werden. %s</target>
+      <trans-unit id="[Database2/FormatError] Cannot parse database. %@" xml:space="preserve">
+        <source>Cannot parse database. %@</source>
+        <target state="translated">Datenbank kann nicht analysiert werden. %@</target>
         <note>Error message. Parsing refers to the analysis/understanding of file content. [reason: String]</note>
       </trans-unit>
       <trans-unit id="[Database2/FormatError] Corrupted database file (HMAC mismatch in block %d)" xml:space="preserve">
@@ -236,7 +236,7 @@
         <source>Header hash mismatch. DB file corrupt?</source>
         <target state="translated">Header Hash-Fehler. Datenbankdatei beschädigt?</target>
         <note>Error message</note>
-      <alt-trans><target>Header Hash-Fehler. Datenbankdatei möglicherweise beschädigt?</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database2/Header2/Error] Header reading error. DB file corrupt?" xml:space="preserve">
         <source>Header reading error. DB file corrupt?</source>
         <target state="translated">Header Lesefehler. Datenbankdatei beschädigt?</target>
@@ -452,32 +452,32 @@ Bitte stellen Sie sicher, dass Sie eine Sicherung Ihrer Datenbank haben, bevor S
         <source>By Creation Date (New..Old)</source>
         <target state="translated">Erstellungsdatum (neueste zuerst)</target>
         <note>An option in Group Viewer settings. Example: 'Sort Order: By Creation Date (New..Old)'</note>
-      <alt-trans><target>Erstellungsdatum (Neu...Alt)</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[GroupSortOrder/longTitle] By Creation Date (Old..New)" xml:space="preserve">
         <source>By Creation Date (Old..New)</source>
         <target state="translated">Erstellungsdatum (älteste zuerst)</target>
         <note>An option in Group Viewer settings. Example: 'Sort Order: By Creation Date (Old..New)'</note>
-      <alt-trans><target>Erstellungsdatum (Alt...Neu)</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[GroupSortOrder/longTitle] By Modification Date (New..Old)" xml:space="preserve">
         <source>By Modification Date (New..Old)</source>
         <target state="translated">Änderungsdatum (neueste zuerst)</target>
         <note>An option in Group Viewer settings. Example: 'Sort Order: By Modification Date (New..Old)'</note>
-      <alt-trans><target>Änderungsdatum (Neu...Alt)</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[GroupSortOrder/longTitle] By Modification Date (Old..New)" xml:space="preserve">
         <source>By Modification Date (Old..New)</source>
         <target state="translated">Änderungsdatum (älteste zuerst)</target>
         <note>An option in Group Viewer settings. Example: 'Sort Order: By Modification Date (Old..New)'</note>
-      <alt-trans><target>Änderungsdatum (Alt...Neu)</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[GroupSortOrder/longTitle] By Title (A..Z)" xml:space="preserve">
         <source>By Title (A..Z)</source>
         <target state="translated">Titel (A-Z)</target>
         <note>An option in Group Viewer settings. Example: 'Sort Order: By Title (A..Z)'</note>
-      <alt-trans><target>Titel (A...Z)</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[GroupSortOrder/longTitle] By Title (Z..A)" xml:space="preserve">
         <source>By Title (Z..A)</source>
         <target state="translated">Titel (Z-A)</target>
         <note>An option in Group Viewer settings. Example: 'Sort Order: By Title (Z..A)'</note>
-      <alt-trans><target>Titel (Z...A)</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[GroupSortOrder/longTitle] No Sorting" xml:space="preserve">
         <source>No Sorting</source>
         <target state="translated">Keine Sortierung</target>

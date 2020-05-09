@@ -31,12 +31,12 @@
         <source>Decrypting</source>
         <target state="translated">Descifrando</target>
         <note>Progress status</note>
-      <alt-trans><target>Desencriptando</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Cipher/Progress] Encrypting" xml:space="preserve">
         <source>Encrypting</source>
         <target state="translated">Cifrando</target>
         <note>Progress status</note>
-      <alt-trans><target>Encriptando</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[CryptoError] AES decryption error (code %d)" xml:space="preserve">
         <source>AES decryption error (code %d)</source>
         <target state="translated">Error descifrado AES (código %d)</target>
@@ -81,17 +81,17 @@
         <source>Cannot find database file</source>
         <target state="translated">Base de datos no encontrada</target>
         <note>Error message</note>
-      <alt-trans><target>No se puede encontrar el archivo de base de datos</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database/Load/Error] Cannot find key file" xml:space="preserve">
         <source>Cannot find key file</source>
         <target state="translated">Archivo de clave no encontrado</target>
         <note>Error message</note>
-      <alt-trans><target>Archivo de clave no encontrada</target></alt-trans><alt-trans><target>No se puede encontrar el archivo de clave</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database/Load/Error] Cannot open database file" xml:space="preserve">
         <source>Cannot open database file</source>
         <target state="translated">No se pudo abrir la base de datos</target>
         <note>Error message</note>
-      <alt-trans><target>No se puede abrir el archivo de base de datos</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database/Load/Error] Cannot open key file" xml:space="preserve">
         <source>Cannot open key file</source>
         <target state="translated">No se pudo abrir el archivo de clave</target>
@@ -101,7 +101,7 @@
         <source>Please provide at least a password or a key file</source>
         <target state="translated">Proporciona al menos una contraseña o un archivo de clave</target>
         <note>Error shown when both master password and key file are empty</note>
-      <alt-trans><target>Proporcione al menos una contraseña o un archivo de clave</target></alt-trans><alt-trans><target>Por favor, proporcione al menos una contraseña o un archivo de clave</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database/Load/Error] Unrecognized database format" xml:space="preserve">
         <source>Unrecognized database format</source>
         <target state="translated">Formato de base de datos desconocido</target>
@@ -116,97 +116,97 @@
         <source>Loading database file...</source>
         <target state="translated">Cargando base de datos ...</target>
         <note>Progress bar status</note>
-      <alt-trans><target>Cargando la base de datos...</target></alt-trans><alt-trans><target>Cargando el archivo de la base de datos...</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database/Progress] Loading key file..." xml:space="preserve">
         <source>Loading key file...</source>
         <target state="translated">Cargando archivo de clave ...</target>
         <note>Progress status</note>
-      <alt-trans><target>Cargando el archivo de clave...</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database/Unlock/Error] Failed to open key file" xml:space="preserve">
         <source>Failed to open key file</source>
         <target state="translated">Error al abrir archivo de clave</target>
         <note>Error message</note>
-      <alt-trans><target>Error al abrir el archivo de clave</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database/Unlock/Error] Password and key file are both empty." xml:space="preserve">
         <source>Password and key file are both empty.</source>
         <target state="translated">La contraseña y el archivo de clave están vacíos.</target>
         <note>Error message</note>
-      <alt-trans><target>La contraseña y el archivo de claves están vacíos.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database1/FormatError] Database file is corrupted." xml:space="preserve">
         <source>Database file is corrupted.</source>
         <target state="translated">La base de datos está dañada.</target>
         <note>Error message</note>
-      <alt-trans><target>El archivo de la base de datos está dañado.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database1/FormatError] Error parsing field %@. Corrupted database file?" xml:space="preserve">
         <source>Error parsing field %@. Corrupted database file?</source>
         <target state="translated">Error al analizar el campo %@. ¿Base de datos dañada?</target>
         <note>Error message [fieldName: String]</note>
-      <alt-trans><target>Error al analizar el campo %@. ¿Base de datos corrupta?</target></alt-trans><alt-trans><target>Error al analizar el campo %@. ¿Archivo de base de datos corrupto?</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database1/FormatError] Found an entry outside any group. Corrupted DB file?" xml:space="preserve">
         <source>Found an entry outside any group. Corrupted DB file?</source>
         <target state="translated">Se encontró una entrada sin grupo. ¿BD dañada?</target>
         <note>Error message</note>
-      <alt-trans><target>Se encontró una entrada sin grupo. ¿BD corrupta?</target></alt-trans><alt-trans><target>Se encontró una entrada fuera de cualquier grupo. ¿Archivo DB corrupto?</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database1/FormatError] Unexpected end of file. Corrupted database file?" xml:space="preserve">
         <source>Unexpected end of file. Corrupted database file?</source>
         <target state="translated">Final inesperado del archivo. ¿Base de datos dañada?</target>
         <note>Error message</note>
-      <alt-trans><target>Final inesperado del archivo. ¿Base de datos corrupta?</target></alt-trans><alt-trans><target>Final inesperado del archivo. ¿Archivo de base de datos corrupto?</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database1/Header1/Error] Header reading error. DB file corrupt?" xml:space="preserve">
         <source>Header reading error. DB file corrupt?</source>
         <target state="translated">Error de lectura del encabezado. ¿BD dañada?</target>
         <note>Error message when reading database header</note>
-      <alt-trans><target>Error de lectura del encabezado. ¿BD corrupta?</target></alt-trans><alt-trans><target>Error de lectura del encabezado. ¿Archivo BD corrupto?</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database1/Header1/Error] Unsupported cipher. (Code: %@)" xml:space="preserve">
         <source>Unsupported cipher. (Code: %@)</source>
         <target state="translated">Cifrado no soportado. (Cód: %@)</target>
         <note>Error message. [flagsHexString: String]</note>
-      <alt-trans><target>Cifrado no soportado. (Código: %@)</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database1/Header1/Error] Unsupported database format version: %@." xml:space="preserve">
         <source>Unsupported database format version: %@.</source>
         <target state="translated">Versión no compatible de base de datos: %@.</target>
         <note>Error message when opening a database. [version: String]</note>
-      <alt-trans><target>Versión no compatible de la base de datos: %@.</target></alt-trans><alt-trans><target>Versión no compatible del formato de la base de datos: %@.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database1/Header1/Error] Wrong file signature. Not a KeePass database?" xml:space="preserve">
         <source>Wrong file signature. Not a KeePass database?</source>
         <target state="translated">Firma de archivo incorrecta. ¿Es una base de datos KeePass?</target>
         <note>Error message when opening a database</note>
-      <alt-trans><target>Firma de archivo incorrecta. ¿No es una base de datos KeePass?</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database1/Progress] Packing the content" xml:space="preserve">
         <source>Packing the content</source>
         <target state="translated">Comprimiendo el contenido</target>
         <note>Status message: collecting database items into a single package</note>
-      <alt-trans><target>Empaquetando contenido</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database1/Progress] Parsing content" xml:space="preserve">
         <source>Parsing content</source>
         <target state="translated">Analizando contenido</target>
         <note>Status message: processing the content of a database</note>
       </trans-unit>
-      <trans-unit id="[Database2/FormatError] Cannot parse database. %s" xml:space="preserve">
-        <source>Cannot parse database. %s</source>
-        <target state="translated">No se pudo analizar la base de datos. %s</target>
+      <trans-unit id="[Database2/FormatError] Cannot parse database. %@" xml:space="preserve">
+        <source>Cannot parse database. %@</source>
+        <target state="translated">No se pudo analizar la base de datos. %@</target>
         <note>Error message. Parsing refers to the analysis/understanding of file content. [reason: String]</note>
       </trans-unit>
       <trans-unit id="[Database2/FormatError] Corrupted database file (HMAC mismatch in block %d)" xml:space="preserve">
         <source>Corrupted database file (HMAC mismatch in block %d)</source>
         <target state="translated">Base de datos dañada (HMAC no coincide en el bloque %d)</target>
         <note>Error message: HMAC value (kind of checksum) of a data block is wrong. [blockIndex: Int]</note>
-      <alt-trans><target>Base de datos corrupto (HMAC no coincide en el bloque %d)</target></alt-trans><alt-trans><target>Archivo de base de datos corrupto (HMAC no coincide en el bloque %d)</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database2/FormatError] Corrupted database file (block %d has negative size)" xml:space="preserve">
         <source>Corrupted database file (block %d has negative size)</source>
         <target state="translated">Base de datos dañada (bloque %d tiene tamaño negativo)</target>
         <note>Error message [blockIndex: Int]</note>
-      <alt-trans><target>Base de datos corrupto (bloque %d tiene tamaño negativo)</target></alt-trans><alt-trans><target>Archivo de base de datos corrupto (bloque %d tiene tamaño negativo)</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database2/FormatError] Corrupted database file (hash mismatch in block %d)" xml:space="preserve">
         <source>Corrupted database file (hash mismatch in block %d)</source>
         <target state="translated">Base de datos dañada (hash no coincide en el bloque %d)</target>
         <note>Error message: hash(checksum) of a data block is wrong. [blockIndex: Int]</note>
-      <alt-trans><target>Base de datos corrupto (hash no coincide en el bloque %d)</target></alt-trans><alt-trans><target>Archivo de base de datos corrupto (hash no coincide en el bloque %d)</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database2/FormatError] Gzip error: %@" xml:space="preserve">
         <source>Gzip error: %@</source>
         <target state="translated">Error en archivo Gzip: %@</target>
         <note>Error message about Gzip compression algorithm. [reason: String]</note>
-      <alt-trans><target>Error Gzip: %@</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database2/FormatError] Unexpected block ID." xml:space="preserve">
         <source>Unexpected block ID.</source>
         <target state="translated">ID de bloque inesperado.</target>
@@ -216,7 +216,7 @@
         <source>Unexpected end of file. Corrupted file?</source>
         <target state="translated">Final inesperado de archivo. ¿Archivo dañado?</target>
         <note>Error message</note>
-      <alt-trans><target>Final inesperado del archivo. ¿Archivo corrupto?</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database2/Header2/Error] Failed to uncompress attachment data: %@" xml:space="preserve">
         <source>Failed to uncompress attachment data: %@</source>
         <target state="translated">Error al descomprimir los datos adjuntos: %@</target>
@@ -226,22 +226,22 @@
         <source>Header HMAC mismatch. DB file corrupt?</source>
         <target state="translated">Cabecera HMAC no coincide. ¿Archivo DB dañado?</target>
         <note>Error message. HMAC = https://en.wikipedia.org/wiki/HMAC</note>
-      <alt-trans><target>Cabecera HMAC no coincide. ¿Archivo DB corrupto?</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database2/Header2/Error] Header field %@ is corrupted." xml:space="preserve">
         <source>Header field %@ is corrupted.</source>
         <target state="translated">El campo de la cabecera %@ está dañado.</target>
         <note>Error message, with the name of problematic field. [fieldName: String]</note>
-      <alt-trans><target>El campo de la cabecera %@ está corrupto.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database2/Header2/Error] Header hash mismatch. DB file corrupt?" xml:space="preserve">
         <source>Header hash mismatch. DB file corrupt?</source>
         <target state="translated">Hash de cabecera no coincide. ¿Archivo BD dañado?</target>
         <note>Error message</note>
-      <alt-trans><target>Hash de cabecera no coincide. ¿Archivo BD corrupto?</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database2/Header2/Error] Header reading error. DB file corrupt?" xml:space="preserve">
         <source>Header reading error. DB file corrupt?</source>
         <target state="translated">Error de lectura de cabecera. ¿Archivo BD dañado?</target>
         <note>Error message when reading database header</note>
-      <alt-trans><target>Error de lectura de cabecera. ¿Archivo BD corrupto?</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database2/Header2/Error] Unknown compression algorithm." xml:space="preserve">
         <source>Unknown compression algorithm.</source>
         <target state="translated">Algoritmo de compresión desconocido.</target>
@@ -261,7 +261,7 @@
         <source>Unsupported database format version: %@.</source>
         <target state="translated">Versión no compatible de base de datos: %@.</target>
         <note>Error message when opening a database. [version: String]</note>
-      <alt-trans><target>Versión no compatible de la base de datos: %@.</target></alt-trans><alt-trans><target>Versión no compatible del formato de la base de datos: %@.</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database2/Header2/Error] Unsupported inner stream cipher (ID %d)" xml:space="preserve">
         <source>Unsupported inner stream cipher (ID %d)</source>
         <target state="translated">Cifrado de flujo interno no soportado (ID %d)</target>
@@ -271,12 +271,12 @@
         <source>Wrong file signature. Not a KeePass database?</source>
         <target state="translated">Firma de archivo incorrecta. ¿Es una base de datos KeePass?</target>
         <note>Error message when opening a database</note>
-      <alt-trans><target>Firma de archivo incorrecta. ¿No es una base de datos KeePass?</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database2/Loading/Error] Error unpacking database: %@" xml:space="preserve">
         <source>Error unpacking database: %@</source>
         <target state="translated">Error descomprimiendo la base de datos: %@</target>
         <note>Error message about Gzip compression algorithm. [errorMessage: String]</note>
-      <alt-trans><target>Error desempacando la base de datos: %@</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database2/Loading/Warning/missingBinaries]" xml:space="preserve">
         <source>Attachments of some entries are missing data. This is a sign of database corruption, most likely by the last used app (%1$@). KeePassium will preserve the empty attachments, but cannot restore them. You should restore your database from a backup copy. 
 
@@ -285,9 +285,7 @@ Missing attachments: %2$@</source>
 
 Faltan adjuntos: %2$@</target>
         <note>A warning about missing attachments after loading the database. [lastUsedAppName: String, attachmentNames: String]</note>
-      <alt-trans><target>Los adjuntos en algunas entradas no tienen datos. Este es una señal de daño en la base de datos, posiblemente causada por la última aplicación utilizada (%1$@). KeePassium dejará los datos adjuntos vacíos, pero no los puede restaurar. Debe restaurar su base de datos de una copia de seguridad. 
-
-Faltan adjuntos: %2$@</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database2/Loading/Warning/namelessAttachments]" xml:space="preserve">
         <source>Some entries have attachments without a name. This is a sign of previous database corruption.
 
@@ -298,10 +296,7 @@ Faltan adjuntos: %2$@</target></alt-trans></trans-unit>
  Por favor, revia los archivos adjuntos en las siguientes entradas (y su historial):
 %@</target>
         <note>A warning about nameless attachments, shown after loading the database. [listOfEntryNames: String]</note>
-      <alt-trans><target>Algunas entradas tienen adjuntos sin nombre. Esta es una señal de daño en la base de datos anterior.
-
- Por favor, revise los archivos adjuntos en las siguientes entradas (y su historial):
-%@</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Database2/Loading/Warning/namelessCustomFields]" xml:space="preserve">
         <source>Some entries have custom field(s) with empty names. This can be a sign of data corruption. Please check these entries:
 
@@ -437,7 +432,7 @@ Por favor, asegúrese de tener una copia de seguridad de su base de datos antes 
         <source>Modification Date (Recent First)</source>
         <target state="translated">Fecha de modificación (el más actual primero)</target>
         <note>A sorting option for a list of files, by file's last modification date. Example: 'Sort Order: Modification Date (Recent First)'</note>
-      <alt-trans><target>Fecha de modificación (la más actual primero)</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[FilesSortOrder/longTitle] Name (A..Z)" xml:space="preserve">
         <source>Name (A..Z)</source>
         <target state="translated">Nombre (A..Z)</target>
@@ -509,8 +504,7 @@ This can happen with larger databases or too ambitious database settings (Argon2
         <target state="translated">No hay suficiente memoria para continuar.
 Esto puede ocurrir con bases de datos muy grandes o configuraciones muy exigentes (parámetro de memoria Argon2).</target>
         <note>Error message when a long-running operation was cancelled due to the lack of free memory (RAM).</note>
-      <alt-trans><target>No hay suficiente memoria para continuar.
-Esto puede ocurrir con bases de datos muy grandes o configuraciones de base de datos muy exigentes (parámetro de memoria Argon2).</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="[Progress/CancellationReason] Cancelled by user" xml:space="preserve">
         <source>Cancelled by user</source>
         <target state="translated">Cancelado por el usuario</target>

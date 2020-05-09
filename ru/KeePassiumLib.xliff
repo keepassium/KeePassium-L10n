@@ -182,9 +182,9 @@
         <target state="final">Разбор данных</target>
         <note>Status message: processing the content of a database</note>
       </trans-unit>
-      <trans-unit id="[Database2/FormatError] Cannot parse database. %s" xml:space="preserve" approved="yes">
-        <source>Cannot parse database. %s</source>
-        <target state="final">Не удалось разобрать базу паролей. %s</target>
+      <trans-unit id="[Database2/FormatError] Cannot parse database. %@" xml:space="preserve" approved="yes">
+        <source>Cannot parse database. %@</source>
+        <target state="final">Не удалось разобрать базу паролей. %@</target>
         <note>Error message. Parsing refers to the analysis/understanding of file content. [reason: String]</note>
       </trans-unit>
       <trans-unit id="[Database2/FormatError] Corrupted database file (HMAC mismatch in block %d)" xml:space="preserve" approved="yes">
