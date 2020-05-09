@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="KeePassiumLib/en.lproj/InfoPlist.strings" source-language="en" target-language="fr" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName" xml:space="preserve" approved="yes">
+        <source>KeePassiumLib</source>
+        <target state="final">KeePassiumLib</target>
+        <note>Bundle name</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="KeePassiumLib/en.lproj/Localizable.strings" source-language="en" target-language="fr" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+    </header>
+    <body>
+      <trans-unit id="[AppLock/Passcode/KeyboardType/title] Alphanumeric" xml:space="preserve">
+        <source>Alphanumeric</source>
+        <target state="translated">Alphanumérique</target>
+        <note>Type of keyboard to show for App Lock passcode: letters and digits.</note>
+      </trans-unit>
+      <trans-unit id="[AppLock/Passcode/KeyboardType/title] Numeric" xml:space="preserve">
+        <source>Numeric</source>
+        <target state="translated">Numérique</target>
+        <note>Type of keyboard to show for App Lock passcode: digits only (PIN code).</note>
+      </trans-unit>
+      <trans-unit id="[Cipher/Progress] Decrypting" xml:space="preserve">
+        <source>Decrypting</source>
+        <target state="translated">Déchiffrement</target>
+        <note>Progress status</note>
+      </trans-unit>
+      <trans-unit id="[Cipher/Progress] Encrypting" xml:space="preserve">
+        <source>Encrypting</source>
+        <target state="translated">Chiffrement</target>
+        <note>Progress status</note>
+      </trans-unit>
+      <trans-unit id="[CryptoError] AES decryption error (code %d)" xml:space="preserve">
+        <source>AES decryption error (code %d)</source>
+        <target state="translated">Erreur de déchiffrement AES (code %d)</target>
+        <note>Error message about AES cipher. [errorCode: Int]</note>
+      </trans-unit>
+      <trans-unit id="[CryptoError] AES encryption error (code %d)" xml:space="preserve">
+        <source>AES encryption error (code %d)</source>
+        <target state="translated">Erreur de chiffrement AES (code %d)</target>
+        <note>Error message about AES cipher. [errorCode: Int]</note>
+      </trans-unit>
+      <trans-unit id="[CryptoError] AES initialization error (code %d)" xml:space="preserve">
+        <source>AES initialization error (code %d)</source>
+        <target state="translated">Erreur d'initialisation AES (code %d)</target>
+        <note>Error message about AES cipher. [errorCode: Int]</note>
+      </trans-unit>
+      <trans-unit id="[CryptoError] Argon2 hashing error (code %d)" xml:space="preserve">
+        <source>Argon2 hashing error (code %d)</source>
+        <target state="translated">Erreur de hachage Argon2 (code %d)</target>
+        <note>Error message about Argon2 hashing function. [errorCode: Int]</note>
+      </trans-unit>
+      <trans-unit id="[CryptoError] Invalid KDF parameter: %@ - %@. File corrupt?" xml:space="preserve">
+        <source>Invalid KDF parameter: %1$@ - %2$@. File corrupt?</source>
+        <target state="translated">Paramètre KDF invalide : %1$@ - %2$@. Fichier corrompu ?</target>
+        <note>Error message about key derivation function (KDF) parameters. [kdfName: String, paramName: String]</note>
+      </trans-unit>
+      <trans-unit id="[CryptoError] Invalid data padding (code %d). File corrupt?" xml:space="preserve">
+        <source>Invalid data padding (code %d). File corrupt?</source>
+        <target state="translated">Remplissage de données invalide (code %d). Fichier corrompu ?</target>
+        <note>Error message about PKCS7 padding. [errorCode: Int]</note>
+      </trans-unit>
+      <trans-unit id="[CryptoError] Random number generator error (code %d)" xml:space="preserve">
+        <source>Random number generator error (code %d)</source>
+        <target state="translated">Erreur du générateur de nombre aléatoire (code %d)</target>
+        <note>Error message about random number generator. [errorCode: Int]</note>
+      </trans-unit>
+      <trans-unit id="[CryptoError] Twofish cipher error (code %d)" xml:space="preserve">
+        <source>Twofish cipher error (code %d)</source>
+        <target state="translated">Erreur Twofish cipher (code %d)</target>
+        <note>Error message about Twofish cipher. [errorCode: Int]</note>
+      </trans-unit>
+      <trans-unit id="[Database/Load/Error] Cannot find database file" xml:space="preserve">
+        <source>Cannot find database file</source>
+        <target state="translated">KeePassiumLib/en. lproj/Localizable. strings
+[Base de données/Chargement/Erreur] Le fichier de base de données n'a pas été trouvé
+Message d'erreur:
+Fichier: KeePassiumLib. xliff</target>
+        <note>Error message</note>
+      </trans-unit>
+      <trans-unit id="[Database/Load/Error] Cannot find key file" xml:space="preserve">
+        <source>Cannot find key file</source>
+        <target state="translated">KeePassiumLib/en. lproj/Localizable. strings
+[Base de données/Chargement/Erreur] Impossible de trouver le fichier clé
+Message d'erreur:
+Fichier: KeePassiumLib. xliff</target>
+        <note>Error message</note>
+      </trans-unit>
+      <trans-unit id="[Database/Load/Error] Cannot open database file" xml:space="preserve">
+        <source>Cannot open database file</source>
+        <target state="translated">KeePassiumLib/en. lproj/Localizable. strings
+[Base de données/Chargement/Erreur] Impossible d'ouvrir le fichierr de base de données
+Message d'erreur
+Fichier: KeePassiumLib. xliff</target>
+        <note>Error message</note>
+      </trans-unit>
+      <trans-unit id="[Database/Load/Error] Cannot open key file" xml:space="preserve">
+        <source>Cannot open key file</source>
+        <target state="translated">Impossible d'ouvrir le fichier de clé</target>
+        <note>Error message</note>
+      </trans-unit>
+      <trans-unit id="[Database/Load/Error] Please provide at least a password or a key file" xml:space="preserve">
+        <source>Please provide at least a password or a key file</source>
+        <target state="translated">Veuillez fournir au moins un mot de passe ou un fichier clé</target>
+        <note>Error shown when both master password and key file are empty</note>
+      </trans-unit>
+      <trans-unit id="[Database/Load/Error] Unrecognized database format" xml:space="preserve">
+        <source>Unrecognized database format</source>
+        <target state="translated">Format de la base de données non reconnu</target>
+        <note>Error message</note>
+      </trans-unit>
+      <trans-unit id="[Database/Progress] Done" xml:space="preserve">
+        <source>Done</source>
+        <target state="translated">Fait</target>
+        <note>Progress status: finished loading database</note>
+      </trans-unit>
+      <trans-unit id="[Database/Progress] Loading database file..." xml:space="preserve">
+        <source>Loading database file...</source>
+        <target state="translated">Chargement de la bases de données...</target>
+        <note>Progress bar status</note>
+      </trans-unit>
+      <trans-unit id="[Database/Progress] Loading key file..." xml:space="preserve">
+        <source>Loading key file...</source>
+        <target state="translated">Chargement du fichier de clé...</target>
+        <note>Progress status</note>
+      </trans-unit>
+      <trans-unit id="[Database/Unlock/Error] Failed to open key file" xml:space="preserve">
+        <source>Failed to open key file</source>
+        <target state="translated">Impossible d'ouvrir le fichier de clé</target>
+        <note>Error message</note>
+      </trans-unit>
+      <trans-unit id="[Database/Unlock/Error] Password and key file are both empty." xml:space="preserve">
+        <source>Password and key file are both empty.</source>
+        <target state="translated">Le mot de passe et le fichier de clé sont tous deux vides.</target>
+        <note>Error message</note>
+      </trans-unit>
+      <trans-unit id="[Database1/FormatError] Database file is corrupted." xml:space="preserve">
+        <source>Database file is corrupted.</source>
+        <target state="translated">Le fichier de base de données est corrompu.</target>
+        <note>Error message</note>
+      </trans-unit>
+      <trans-unit id="[Database1/FormatError] Error parsing field %@. Corrupted database file?" xml:space="preserve">
+        <source>Error parsing field %@. Corrupted database file?</source>
+        <target state="translated">Erreur lors de l'analyse du champ %@. Fichier de base de données corrompu ?</target>
+        <note>Error message [fieldName: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database1/FormatError] Found an entry outside any group. Corrupted DB file?" xml:space="preserve">
+        <source>Found an entry outside any group. Corrupted DB file?</source>
+        <target state="translated">Une entrée a été trouvée en dehors d'un groupe. Fichier de base de données corrompu ?</target>
+        <note>Error message</note>
+      </trans-unit>
+      <trans-unit id="[Database1/FormatError] Unexpected end of file. Corrupted database file?" xml:space="preserve">
+        <source>Unexpected end of file. Corrupted database file?</source>
+        <target state="translated">Fin de fichier inattendue. Fichier de base de données corrompu?</target>
+        <note>Error message</note>
+      </trans-unit>
+      <trans-unit id="[Database1/Header1/Error] Header reading error. DB file corrupt?" xml:space="preserve">
+        <source>Header reading error. DB file corrupt?</source>
+        <target state="translated">Erreur de lecture de l'en-tête. Fichier de la base de données corrompu?</target>
+        <note>Error message when reading database header</note>
+      </trans-unit>
+      <trans-unit id="[Database1/Header1/Error] Unsupported cipher. (Code: %@)" xml:space="preserve">
+        <source>Unsupported cipher. (Code: %@)</source>
+        <target state="translated">Chiffrement non pris en charge. (Code : %@)</target>
+        <note>Error message. [flagsHexString: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database1/Header1/Error] Unsupported database format version: %@." xml:space="preserve">
+        <source>Unsupported database format version: %@.</source>
+        <target state="translated">Version du format de base de données non prise en charge : %@.</target>
+        <note>Error message when opening a database. [version: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database1/Header1/Error] Wrong file signature. Not a KeePass database?" xml:space="preserve">
+        <source>Wrong file signature. Not a KeePass database?</source>
+        <target state="translated">Mauvaise signature de fichier. Pas une base de données KeePass ?</target>
+        <note>Error message when opening a database</note>
+      </trans-unit>
+      <trans-unit id="[Database1/Progress] Packing the content" xml:space="preserve">
+        <source>Packing the content</source>
+        <target state="translated">Emballer le contenu</target>
+        <note>Status message: collecting database items into a single package</note>
+      </trans-unit>
+      <trans-unit id="[Database1/Progress] Parsing content" xml:space="preserve">
+        <source>Parsing content</source>
+        <target state="translated">Analyse du contenu</target>
+        <note>Status message: processing the content of a database</note>
+      </trans-unit>
+      <trans-unit id="[Database2/FormatError] Cannot parse database. %@" xml:space="preserve">
+        <source>Cannot parse database. %@</source>
+        <target state="translated">Impossible d'analyser la base de données. %@</target>
+        <note>Error message. Parsing refers to the analysis/understanding of file content. [reason: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/FormatError] Corrupted database file (HMAC mismatch in block %d)" xml:space="preserve">
+        <source>Corrupted database file (HMAC mismatch in block %d)</source>
+        <target state="translated">Fichier de base de données corrompu (HMAC incompatible avec le bloc %d)</target>
+        <note>Error message: HMAC value (kind of checksum) of a data block is wrong. [blockIndex: Int]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/FormatError] Corrupted database file (block %d has negative size)" xml:space="preserve">
+        <source>Corrupted database file (block %d has negative size)</source>
+        <target state="translated">Fichier de base de données corrompu (le bloc %d a une taille négative)</target>
+        <note>Error message [blockIndex: Int]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/FormatError] Corrupted database file (hash mismatch in block %d)" xml:space="preserve">
+        <source>Corrupted database file (hash mismatch in block %d)</source>
+        <target state="translated">Fichier de base de données corrompu (hash incompatible dans le bloc %d)</target>
+        <note>Error message: hash(checksum) of a data block is wrong. [blockIndex: Int]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/FormatError] Gzip error: %@" xml:space="preserve">
+        <source>Gzip error: %@</source>
+        <target state="translated">Erreur Gzip : %@</target>
+        <note>Error message about Gzip compression algorithm. [reason: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/FormatError] Unexpected block ID." xml:space="preserve">
+        <source>Unexpected block ID.</source>
+        <target state="translated">ID de bloc inattendu.</target>
+        <note>Error message: wrong ID of a data block</note>
+      </trans-unit>
+      <trans-unit id="[Database2/FormatError] Unexpected end of file. Corrupted file?" xml:space="preserve">
+        <source>Unexpected end of file. Corrupted file?</source>
+        <target state="translated">Fin de fichier inattendue. Fichier corrompu?</target>
+        <note>Error message</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Header2/Error] Failed to uncompress attachment data: %@" xml:space="preserve">
+        <source>Failed to uncompress attachment data: %@</source>
+        <target state="translated">Impossible de décompresser les données de pièce jointe : %@</target>
+        <note>Error message when saving a database. [reason: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Header2/Error] Header HMAC mismatch. DB file corrupt?" xml:space="preserve">
+        <source>Header HMAC mismatch. DB file corrupt?</source>
+        <target state="translated">Incompatibilité HMAC de l'en-tête. Fichier de la base de données corrompu ?</target>
+        <note>Error message. HMAC = https://en.wikipedia.org/wiki/HMAC</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Header2/Error] Header field %@ is corrupted." xml:space="preserve">
+        <source>Header field %@ is corrupted.</source>
+        <target state="translated">Le champ d'en-tête %@ est corrompu.</target>
+        <note>Error message, with the name of problematic field. [fieldName: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Header2/Error] Header hash mismatch. DB file corrupt?" xml:space="preserve">
+        <source>Header hash mismatch. DB file corrupt?</source>
+        <target state="translated">Incompatibilité de hachage de l'en-tête. Fichier de base corrompu ?</target>
+        <note>Error message</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Header2/Error] Header reading error. DB file corrupt?" xml:space="preserve">
+        <source>Header reading error. DB file corrupt?</source>
+        <target state="translated">Erreur de lecture de l'en-tête. Fichier de la base de données corrompu?</target>
+        <note>Error message when reading database header</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Header2/Error] Unknown compression algorithm." xml:space="preserve">
+        <source>Unknown compression algorithm.</source>
+        <target state="translated">Algorithme de compression inconnu.</target>
+        <note>Error message when opening a database</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Header2/Error] Unsupported KDF: %@" xml:space="preserve">
+        <source>Unsupported KDF: %@</source>
+        <target state="translated">KDF non pris en charge : %@</target>
+        <note>Error message about Key Derivation Function. [uuidString: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Header2/Error] Unsupported data cipher: %@" xml:space="preserve">
+        <source>Unsupported data cipher: %@</source>
+        <target state="translated">Chiffrement de données non pris en charge : %@</target>
+        <note>Error message. [uuidHexString: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Header2/Error] Unsupported database format version: %@." xml:space="preserve">
+        <source>Unsupported database format version: %@.</source>
+        <target state="translated">Version du format de base de données non prise en charge : %@.</target>
+        <note>Error message when opening a database. [version: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Header2/Error] Unsupported inner stream cipher (ID %d)" xml:space="preserve">
+        <source>Unsupported inner stream cipher (ID %d)</source>
+        <target state="translated">Chiffrement de flux interne non pris en charge (ID %d)</target>
+        <note>Error message when opening a database. [id: UInt32]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Header2/Error] Wrong file signature. Not a KeePass database?" xml:space="preserve">
+        <source>Wrong file signature. Not a KeePass database?</source>
+        <target state="translated">Mauvaise signature de fichier. Pas une base de données KeePass ?</target>
+        <note>Error message when opening a database</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Loading/Error] Error unpacking database: %@" xml:space="preserve">
+        <source>Error unpacking database: %@</source>
+        <target state="translated">Erreur lors de la décompression de la base de données : %@</target>
+        <note>Error message about Gzip compression algorithm. [errorMessage: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Loading/Warning/missingBinaries]" xml:space="preserve">
+        <source>Attachments of some entries are missing data. This is a sign of database corruption, most likely by the last used app (%1$@). KeePassium will preserve the empty attachments, but cannot restore them. You should restore your database from a backup copy. 
+
+Missing attachments: %2$@</source>
+        <target state="translated">Les pièces jointes de certaines entrées ont des données manquante. Ceci est un signe de corruption de la base de données, probablement par la dernière application utilisée (%1$@). KeePassium conservera les pièces jointes vides, mais ne pourra pas les restaurer. Vous devez restaurer votre base de données à partir d'une copie de sauvegarde. 
+
+Pièces jointes manquantes : %2$@</target>
+        <note>A warning about missing attachments after loading the database. [lastUsedAppName: String, attachmentNames: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Loading/Warning/namelessAttachments]" xml:space="preserve">
+        <source>Some entries have attachments without a name. This is a sign of previous database corruption.
+
+ Please review attached files in the following entries (and their history):
+%@</source>
+        <target state="translated">Certaines entrées ont des pièces jointes sans nom. Ceci est un signe d'une base de données ayant été corrompue.
+
+ Veuillez consulter les fichiers joints dans les entrées suivantes (et leur historique):
+%@</target>
+        <note>A warning about nameless attachments, shown after loading the database. [listOfEntryNames: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Loading/Warning/namelessCustomFields]" xml:space="preserve">
+        <source>Some entries have custom field(s) with empty names. This can be a sign of data corruption. Please check these entries:
+
+%@</source>
+        <target state="translated">Certaines entrées ont des champs personnalisés avec des noms vides. Cela peut être un signe de corruption de données. Veuillez vérifier ces entrées :
+
+%@</target>
+        <note>A warning about misformatted custom fields after loading the database. [entryPaths: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Loading/Warning/unusedAttachments]" xml:space="preserve">
+        <source>The database contains some attachments that are not used in any entry. Most likely, they have been forgotten by the last used app (%@). However, this can also be a sign of data corruption. 
+Please make sure to have a backup of your database before changing anything.</source>
+        <target state="translated">La base de données contient des pièces jointes qui ne sont utilisées dans aucune entrée. Très probablement, ils ont été oubliés par la dernière application (%@). Cependant, cela peut également être un signe de corruption des données. 
+Veuillez vous assurer d'avoir une sauvegarde de votre base de données avant de changer quoi que ce soit.</target>
+        <note>A warning about unused attachments after loading the database. [lastUsedAppName: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Progress] Loading database" xml:space="preserve">
+        <source>Loading database</source>
+        <target state="translated">Chargement de la bases de données</target>
+        <note>Progress bar status</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Progress] Reading database content" xml:space="preserve">
+        <source>Reading database content</source>
+        <target state="translated">Lecture du contenu de la base de données</target>
+        <note>Progress bar status</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Progress] Writing encrypted blocks" xml:space="preserve">
+        <source>Writing encrypted blocks</source>
+        <target state="translated">Écriture de blocs chiffrés</target>
+        <note>Progress bar status</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Saving/Error] Data compression error: %@" xml:space="preserve">
+        <source>Data compression error: %@</source>
+        <target state="translated">Erreur de compression de données : %@</target>
+        <note>Error message while saving a database. [errorDescription: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Saving/Error] Encryption error: %@" xml:space="preserve">
+        <source>Encryption error: %@</source>
+        <target state="translated">Erreur de chiffrement : %@</target>
+        <note>Error message while saving a database. [errorDescription: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Xml2/ParsingError] Malformed value '%@' in %@" xml:space="preserve">
+        <source>Malformed value '%1$@' in %2$@</source>
+        <target state="translated">Valeur '%1$@' malformée dans %2$@</target>
+        <note>Error message about XML parsing. [value: String, tag: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Xml2/ParsingError] Nil value in %@" xml:space="preserve">
+        <source>Nil value in %@</source>
+        <target state="translated">Valeur Nulle dans %@</target>
+        <note>Error message about XML parsing. [tag: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Xml2/ParsingError] Not a KeePass XML" xml:space="preserve">
+        <source>Not a KeePass XML</source>
+        <target state="translated">Pas un XML KeePass</target>
+        <note>Error message about XML parsing</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Xml2/ParsingError] Unexpected tag '%@'" xml:space="preserve">
+        <source>Unexpected tag '%@'</source>
+        <target state="translated">Balise inattendue '%@'</target>
+        <note>Error message about XML parsing. [actualTag: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Xml2/ParsingError] Unexpected tag '%@' (instead of '%@')" xml:space="preserve">
+        <source>Unexpected tag '%1$@' (instead of '%2$@')</source>
+        <target state="translated">Balise inattendue '%1$@' (au lieu de '%2$@')</target>
+        <note>Error message about XML parsing. [actualTag: String, expectedTag: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Xml2/ParsingError] XML error: %@" xml:space="preserve">
+        <source>XML error: %@</source>
+        <target state="translated">Erreur XML : %@</target>
+        <note>Generic error while parsing XML. [errorDetails: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/backupGroupName] Recycle Bin" xml:space="preserve">
+        <source>Recycle Bin</source>
+        <target state="translated">Corbeille</target>
+        <note>Name of a group which contains deleted entries</note>
+      </trans-unit>
+      <trans-unit id="[DatabaseError] Cannot open database" xml:space="preserve">
+        <source>Cannot open database</source>
+        <target state="translated">Impossible d'ouvrir la base de données</target>
+        <note>Error message while opening a database</note>
+      </trans-unit>
+      <trans-unit id="[DatabaseError] Cannot save database" xml:space="preserve">
+        <source>Cannot save database</source>
+        <target state="translated">Impossible de sauvegarder la base de données</target>
+        <note>Error message while saving a database</note>
+      </trans-unit>
+      <trans-unit id="[DatabaseError] Invalid password or key file" xml:space="preserve">
+        <source>Invalid password or key file</source>
+        <target state="translated">Mot de passe ou clé de fichier incorrect</target>
+        <note>Error message: user provided a wrong master key for decryption.</note>
+      </trans-unit>
+      <trans-unit id="[FileDocument] Unexpected file error, please contact us." xml:space="preserve">
+        <source>Unexpected file error, please contact us.</source>
+        <target state="translated">Une erreur inattendue est survenue, veuillez contacter le support technique.</target>
+        <note>A very generic error message</note>
+      </trans-unit>
+      <trans-unit id="[FileKeeper] Failed to delete file. Reason: %@" xml:space="preserve">
+        <source>Failed to delete file. Reason: %@</source>
+        <target state="translated">Échec de la suppression du fichier. Raison : %@</target>
+        <note>Error message [reason: String]</note>
+      </trans-unit>
+      <trans-unit id="[FileKeeper] Failed to import file. Reason: %@" xml:space="preserve">
+        <source>Failed to import file. Reason: %@</source>
+        <target state="translated">Échec de l'import du fichier. Raison : %@</target>
+        <note>Error message [reason: String]</note>
+      </trans-unit>
+      <trans-unit id="[FileKeeper] Failed to open file. Reason: %@" xml:space="preserve">
+        <source>Failed to open file. Reason: %@</source>
+        <target state="translated">Échec de l'ouverture du fichier. Raison : %@</target>
+        <note>Error message [reason: String]</note>
+      </trans-unit>
+      <trans-unit id="[FileKeeper] Not a file URL" xml:space="preserve">
+        <source>Not a file URL</source>
+        <target state="translated">Pas une URL de fichier</target>
+        <note>Error message: tried to import URL which does not point to a file</note>
+      </trans-unit>
+      <trans-unit id="[FilesSortOrder/longTitle] Creation Date (Oldest First)" xml:space="preserve">
+        <source>Creation Date (Oldest First)</source>
+        <target state="translated">Date de création (plus ancien en premier)</target>
+        <note>A sorting option for a list of files, by file creation date. Example: 'Sort Order: Creation Date (Oldest First)'</note>
+      </trans-unit>
+      <trans-unit id="[FilesSortOrder/longTitle] Creation Date (Recent First)" xml:space="preserve">
+        <source>Creation Date (Recent First)</source>
+        <target state="translated">Date de création (Récent en premier)</target>
+        <note>A sorting option for a list of files, by file creation date. Example: 'Sort Order: Creation Date (Recent First)'</note>
+      </trans-unit>
+      <trans-unit id="[FilesSortOrder/longTitle] Modification Date (Oldest First)" xml:space="preserve">
+        <source>Modification Date (Oldest First)</source>
+        <target state="translated">Date de modification (plus ancien en premier)</target>
+        <note>A sorting option for a list of files, by file's last modification date. Example: 'Sort Order: Modification Date (Oldest First)'</note>
+      </trans-unit>
+      <trans-unit id="[FilesSortOrder/longTitle] Modification Date (Recent First)" xml:space="preserve">
+        <source>Modification Date (Recent First)</source>
+        <target state="translated">Date de création (Récent en premier)</target>
+        <note>A sorting option for a list of files, by file's last modification date. Example: 'Sort Order: Modification Date (Recent First)'</note>
+      </trans-unit>
+      <trans-unit id="[FilesSortOrder/longTitle] Name (A..Z)" xml:space="preserve">
+        <source>Name (A..Z)</source>
+        <target state="translated">Nom (A..Z)</target>
+        <note>A sorting option for a list of files, by file name. Example: 'Sort Order: Name (A..Z)'</note>
+      </trans-unit>
+      <trans-unit id="[FilesSortOrder/longTitle] Name (Z..A)" xml:space="preserve">
+        <source>Name (Z..A)</source>
+        <target state="translated">Nom (Z..A)</target>
+        <note>A sorting option for a list of files, by file name. Example: 'Sort Order: Name (Z..A)'</note>
+      </trans-unit>
+      <trans-unit id="[FilesSortOrder/longTitle] No Sorting" xml:space="preserve">
+        <source>No Sorting</source>
+        <target state="translated">Aucun tri</target>
+        <note>A sorting option for a list of files. Example: 'Sort Order: No Sorting'</note>
+      </trans-unit>
+      <trans-unit id="[GroupSortOrder/longTitle] By Creation Date (New..Old)" xml:space="preserve">
+        <source>By Creation Date (New..Old)</source>
+        <target state="translated">Par Date de Création (Nouveau..Ancien)</target>
+        <note>An option in Group Viewer settings. Example: 'Sort Order: By Creation Date (New..Old)'</note>
+      </trans-unit>
+      <trans-unit id="[GroupSortOrder/longTitle] By Creation Date (Old..New)" xml:space="preserve">
+        <source>By Creation Date (Old..New)</source>
+        <target state="translated">Par Date de Création (Ancien..Nouveau)</target>
+        <note>An option in Group Viewer settings. Example: 'Sort Order: By Creation Date (Old..New)'</note>
+      </trans-unit>
+      <trans-unit id="[GroupSortOrder/longTitle] By Modification Date (New..Old)" xml:space="preserve">
+        <source>By Modification Date (New..Old)</source>
+        <target state="translated">Par Date de modification (Nouveau..Ancien)</target>
+        <note>An option in Group Viewer settings. Example: 'Sort Order: By Modification Date (New..Old)'</note>
+      </trans-unit>
+      <trans-unit id="[GroupSortOrder/longTitle] By Modification Date (Old..New)" xml:space="preserve">
+        <source>By Modification Date (Old..New)</source>
+        <target state="translated">Par date de modification (Ancien..Nouveau)</target>
+        <note>An option in Group Viewer settings. Example: 'Sort Order: By Modification Date (Old..New)'</note>
+      </trans-unit>
+      <trans-unit id="[GroupSortOrder/longTitle] By Title (A..Z)" xml:space="preserve">
+        <source>By Title (A..Z)</source>
+        <target state="translated">Par titre (A..Z)</target>
+        <note>An option in Group Viewer settings. Example: 'Sort Order: By Title (A..Z)'</note>
+      </trans-unit>
+      <trans-unit id="[GroupSortOrder/longTitle] By Title (Z..A)" xml:space="preserve">
+        <source>By Title (Z..A)</source>
+        <target state="translated">Par titre (Z..A)</target>
+        <note>An option in Group Viewer settings. Example: 'Sort Order: By Title (Z..A)'</note>
+      </trans-unit>
+      <trans-unit id="[GroupSortOrder/longTitle] No Sorting" xml:space="preserve">
+        <source>No Sorting</source>
+        <target state="translated">Aucun tri</target>
+        <note>An option in Group Viewer settings. Example: 'Sort Order: No Sorting'</note>
+      </trans-unit>
+      <trans-unit id="[KDF/Progress] Processing the master key" xml:space="preserve">
+        <source>Processing the master key</source>
+        <target state="translated">Traitement de la clé principale</target>
+        <note>Status message: processing of the master key is in progress</note>
+      </trans-unit>
+      <trans-unit id="[KeychainError/generic] Keychain error (code %d) " xml:space="preserve">
+        <source>Keychain error (code %d) </source>
+        <target state="translated">Erreur de trousseau (code %d) </target>
+        <note>Generic error message about system keychain. [errorCode: Int]</note>
+      </trans-unit>
+      <trans-unit id="[KeychainError/unexpectedFormat] Keychain error: unexpected data format" xml:space="preserve">
+        <source>Keychain error: unexpected data format</source>
+        <target state="translated">Erreur trousseau: format de données inattendu</target>
+        <note>Error message about system keychain.</note>
+      </trans-unit>
+      <trans-unit id="[Progress/CancellationReason/lowMemory]" xml:space="preserve">
+        <source>Not enough memory to continue.
+This can happen with larger databases or too ambitious database settings (Argon2 memory parameter).</source>
+        <target state="translated">Mémoire insuffisante pour continuer.
+Cela peut se produire avec des bases de données volumineuse ou des paramètres de base de données trop ambitieux (paramètre de mémoire Argon2).</target>
+        <note>Error message when a long-running operation was cancelled due to the lack of free memory (RAM).</note>
+      </trans-unit>
+      <trans-unit id="[Progress/CancellationReason] Cancelled by user" xml:space="preserve">
+        <source>Cancelled by user</source>
+        <target state="translated">Annulé par l'utilisateur</target>
+        <note>Explanation/notification when a long-running operation was cancelled by user</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AppLockTimeout/description] After last interaction" xml:space="preserve">
+        <source>After last interaction</source>
+        <target state="translated">Après la dernière interaction</target>
+        <note>A description/subtitle for Settings/AppLockTimeout options that trigger when the user has been idle for a while. For example: 'AppLock Timeout: 3 seconds (After last interaction)</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AppLockTimeout/description] After leaving the app" xml:space="preserve">
+        <source>After leaving the app</source>
+        <target state="translated">Après avoir quitté l'application</target>
+        <note>A description/subtitle for Settings/AppLock/Timeout options that trigger when the app is minimized. For example: 'AppLock Timeout: 3 seconds (After leaving the app)</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AppLockTimeout/fullTitle] Immediately" xml:space="preserve">
+        <source>Immediately</source>
+        <target state="translated">Immédiatement</target>
+        <note>An option in Settings. Will be shown as 'App Lock: Timeout: Immediately'</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AppLockTimeout/fullTitle] Never" xml:space="preserve">
+        <source>Never</source>
+        <target state="translated">Jamais</target>
+        <note>An option in Settings. Will be shown as 'App Lock: Timeout: Never'</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AppLockTimeout/shortTitle] Immediately" xml:space="preserve">
+        <source>Immediately</source>
+        <target state="translated">Immédiatement</target>
+        <note>An option in Settings. Will be shown as 'App Lock: Timeout: Immediately'</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AppLockTimeout/shortTitle] Never" xml:space="preserve">
+        <source>Never</source>
+        <target state="translated">Jamais</target>
+        <note>An option in Settings. Will be shown as 'App Lock: Timeout: Never'</note>
+      </trans-unit>
+      <trans-unit id="[Settings/BackupKeepingDuration/shortTitle] Forever" xml:space="preserve">
+        <source>Forever</source>
+        <target state="translated">Pour toujours</target>
+        <note>An option in Settings. Please keep it short. Will be shown as 'Keep Backup Files: Forever'</note>
+      </trans-unit>
+      <trans-unit id="[Settings/ClipboardTimeout/fullTitle] Never" xml:space="preserve">
+        <source>Never</source>
+        <target state="translated">Jamais</target>
+        <note>An option in Settings. Will be shown as 'Clipboard Timeout: Never'</note>
+      </trans-unit>
+      <trans-unit id="[Settings/ClipboardTimeout/shortTitle] Never" xml:space="preserve">
+        <source>Never</source>
+        <target state="translated">Jamais</target>
+        <note>An option in Settings. Will be shown as 'Clipboard Timeout: Never'</note>
+      </trans-unit>
+      <trans-unit id="[Settings/DatabaseLockTimeout/description] When leaving the app" xml:space="preserve">
+        <source>When leaving the app</source>
+        <target state="translated">En quittant l'application</target>
+        <note>A description/subtitle for the 'DatabaseLockTimeout: Immediately'.</note>
+      </trans-unit>
+      <trans-unit id="[Settings/DatabaseLockTimeout/fullTitle] Immediately" xml:space="preserve">
+        <source>Immediately</source>
+        <target state="translated">Immédiatement</target>
+        <note>An option in Settings. Will be shown as 'Database Lock: Timeout: Immediately'</note>
+      </trans-unit>
+      <trans-unit id="[Settings/DatabaseLockTimeout/fullTitle] Never" xml:space="preserve">
+        <source>Never</source>
+        <target state="translated">Jamais</target>
+        <note>An option in Settings. Will be shown as 'Database Lock: Timeout: Never'</note>
+      </trans-unit>
+      <trans-unit id="[Settings/DatabaseLockTimeout/shortTitle] Immediately" xml:space="preserve">
+        <source>Immediately</source>
+        <target state="translated">Immédiatement</target>
+        <note>An option in Settings. Will be shown as 'Database Lock: Timeout: Immediately'</note>
+      </trans-unit>
+      <trans-unit id="[Settings/DatabaseLockTimeout/shortTitle] Never" xml:space="preserve">
+        <source>Never</source>
+        <target state="translated">Jamais</target>
+        <note>An option in Settings. Will be shown as 'Database Lock: Timeout: Never'</note>
+      </trans-unit>
+      <trans-unit id="[Settings/EntryListDetail/longTitle] Last Modified Date" xml:space="preserve">
+        <source>Last Modified Date</source>
+        <target state="translated">Dernière modification</target>
+        <note>An option in Group Viewer settings. Refers fo the most recent time when the entry was modified. Will be shown as 'Entry Subtitle: Last Modified Date'.</note>
+      </trans-unit>
+      <trans-unit id="[Settings/EntryListDetail/longTitle] None" xml:space="preserve">
+        <source>None</source>
+        <target state="translated">Aucune</target>
+        <note>An option in Group Viewer settings. Will be shown as 'Entry Subtitle: None', meanining that no entry details will be shown in any lists.</note>
+      </trans-unit>
+      <trans-unit id="[Settings/EntryListDetail/longTitle] Notes" xml:space="preserve">
+        <source>Notes</source>
+        <target state="translated">Remarques</target>
+        <note>An option in Group Viewer settings. Refers to comments/notes field of the entry. Will be shown as 'Entry Subtitle: Notes'.</note>
+      </trans-unit>
+      <trans-unit id="[Settings/EntryListDetail/longTitle] Password" xml:space="preserve">
+        <source>Password</source>
+        <target state="translated">Mot de passe</target>
+        <note>An option in Group Viewer settings. Will be shown as 'Entry Subtitle: Password'.</note>
+      </trans-unit>
+      <trans-unit id="[Settings/EntryListDetail/longTitle] URL" xml:space="preserve">
+        <source>URL</source>
+        <target state="translated">URL</target>
+        <note>An option in Group Viewer settings. Will be shown as 'Entry Subtitle: URL'.</note>
+      </trans-unit>
+      <trans-unit id="[Settings/EntryListDetail/longTitle] User Name" xml:space="preserve">
+        <source>User Name</source>
+        <target state="translated">Nom d'utilisateur</target>
+        <note>An option in Group Viewer settings. It refers to login information rather than person's name. Will be shown as 'Entry Subtitle: User Name'.</note>
+      </trans-unit>
+      <trans-unit id="[URLReference/Location] Cloud storage / Another app" xml:space="preserve">
+        <source>Cloud storage / Another app</source>
+        <target state="translated">Stockage Cloud / Une autre application</target>
+        <note>Human-readable file location. The file is situated either online / in cloud storage, or on the same device, but in some other app. Example: 'File Location: Cloud storage / Another app'</note>
+      </trans-unit>
+      <trans-unit id="[URLReference/Location] Internal backup" xml:space="preserve">
+        <source>Internal backup</source>
+        <target state="translated">Sauvegarde interne</target>
+        <note>Human-readable file location: the file is on device, inside the app sandbox. 'Backup' is a dedicated directory for database backup files. Example: 'File Location: Internal backup'</note>
+      </trans-unit>
+      <trans-unit id="[URLReference/Location] Internal inbox" xml:space="preserve">
+        <source>Internal inbox</source>
+        <target state="translated">Boîte de réception interne</target>
+        <note>Human-readable file location: the file is on device, inside the app sandbox. 'Inbox' is a special directory for files that are being imported. Can be also 'Internal import'. Example: 'File Location: Internal inbox'</note>
+      </trans-unit>
+      <trans-unit id="[URLReference/Location] Local copy" xml:space="preserve">
+        <source>Local copy</source>
+        <target state="translated">Copie locale</target>
+        <note>Human-readable file location: the file is on device, inside the app sandbox. Example: 'File Location: Local copy'</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
