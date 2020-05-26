@@ -351,6 +351,11 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <target state="translated">金鑰檔案異常: %@</target>
         <note>Error message related to key file. [errorDetails: String]</note>
       </trans-unit>
+      <trans-unit id="[Database/Unlock] YubiKey" xml:space="preserve">
+        <source>YubiKey</source>
+        <target state="translated">YubiKey</target>
+        <note>Action/button to setup YubiKey key component</note>
+      </trans-unit>
       <trans-unit id="[Diagnostics] Diagnostic log has been copied to clipboard." xml:space="preserve">
         <source>Diagnostic log has been copied to clipboard.</source>
         <target state="translated">診斷日誌複製到剪貼簿成功。</target>
@@ -408,7 +413,7 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="[File/PermissionDenied] Try to remove the file from the app, then add it again." xml:space="preserve">
         <source>Try to remove the file from the app, then add it again.</source>
-        <target state="needs-translation">Try to remove the file from the app, then add it again.</target>
+        <target state="translated">嘗試從應用程序中刪除文件，然後再次添加。</target>
         <note>A suggestion shown after specific file errors (either databases or key files).</note>
       </trans-unit>
       <trans-unit id="[FileInfo/Field/title] Creation Date" xml:space="preserve">
@@ -460,6 +465,11 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <source>Export Error</source>
         <target state="translated">匯出錯誤</target>
         <note>Title of an error message about file export</note>
+      </trans-unit>
+      <trans-unit id="[Generic/File/title] File already exists" xml:space="preserve">
+        <source>File already exists</source>
+        <target state="translated">檔案已經存在</target>
+        <note>Message shown when trying to copy into an existing file.</note>
       </trans-unit>
       <trans-unit id="[Generic/File/title] Import Error" xml:space="preserve">
         <source>Import Error</source>
@@ -546,6 +556,11 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <target state="translated">確定</target>
         <note>Action/button: generic OK</note>
       </trans-unit>
+      <trans-unit id="[Generic] Overwrite" xml:space="preserve">
+        <source>Overwrite</source>
+        <target state="translated">覆寫</target>
+        <note>Action/button to replace/overwrite an item</note>
+      </trans-unit>
       <trans-unit id="[Generic] Rename" xml:space="preserve">
         <source>Rename</source>
         <target state="translated">重新命名</target>
@@ -560,6 +575,11 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <source>Show Details</source>
         <target state="translated">顯示詳細資訊</target>
         <note>Action/button to show additional information about an error or item</note>
+      </trans-unit>
+      <trans-unit id="[Generic] Show more" xml:space="preserve">
+        <source>Show more</source>
+        <target state="translated">顯示更多</target>
+        <note>Checkbox/Button to show a text field in its full size</note>
       </trans-unit>
       <trans-unit id="[Group/Create/action] Create Group" xml:space="preserve">
         <source>Create Group</source>
@@ -580,6 +600,21 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <source>New Group</source>
         <target state="translated">新建群組</target>
         <note>Default name of a new group</note>
+      </trans-unit>
+      <trans-unit id="[HardwareKey/AutoFill/NotAvailable] Hardware keys are not available in AutoFill." xml:space="preserve">
+        <source>Hardware keys are not available in AutoFill.</source>
+        <target state="translated">硬體金鑰不支持自動填充。</target>
+        <note>A notification that hardware keys (e.g. YubiKey) cannot be used in AutoFill (the OS does not allow the AutoFill to use NFC/MFI).</note>
+      </trans-unit>
+      <trans-unit id="[HardwareKey/None] No Hardware Key" xml:space="preserve">
+        <source>No Hardware Key</source>
+        <target state="translated">沒有硬體金鑰</target>
+        <note>Master key/unlock option: don't use hardware keys</note>
+      </trans-unit>
+      <trans-unit id="[HardwareKey/YubiKey/Slot] YubiKey Slot #%d" xml:space="preserve">
+        <source>YubiKey Slot %d</source>
+        <target state="translated">YubiKey Slot %d</target>
+        <note>Master key/unlock option: use given slot of YubiKey</note>
       </trans-unit>
       <trans-unit id="[KeyFile/Delete/Confirm/text] Delete key file?&#10; Make sure you have a backup." xml:space="preserve">
         <source>Delete key file?
@@ -603,15 +638,15 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <target state="translated">升級到高級版</target>
         <note>Action/button to start choosing premium versions and possibly buying one</note>
       </trans-unit>
-      <trans-unit id="[PremiumFeature/BiometricAppLock/description] Quickly access your passwords using Face ID/Touch ID in the premium version." xml:space="preserve">
-        <source>Quickly access your passwords using Face ID/Touch ID in the premium version.</source>
-        <target state="translated">升級高級版使用Face ID/Touch ID來快速存取您的密碼。</target>
-        <note>Description/advertisement for the `Biometric Unlock` premium feature</note>
+      <trans-unit id="[PremiumFeature/HardwareKeys/description]" xml:space="preserve">
+        <source>Strengthen your security with hardware keys (YubiKey) in the premium version.</source>
+        <target state="translated">高級版本的硬體金鑰 (YubiKey) 提高了安全性。</target>
+        <note>Description/advertisement for the `Hardware Keys` premium feature</note>
       </trans-unit>
-      <trans-unit id="[PremiumFeature/BiometricAppLock/title] Biometric Unlock" xml:space="preserve">
-        <source>Biometric Unlock</source>
-        <target state="translated">生物識別解鎖</target>
-        <note>Title of a premium feature: ability to use Touch ID / Face ID in AppLock settings (In Title Case)</note>
+      <trans-unit id="[PremiumFeature/HardwareKeys/title] Hardware Keys" xml:space="preserve">
+        <source>Hardware Keys</source>
+        <target state="translated">硬體金鑰</target>
+        <note>Title of a premium feature: ability use hardware keys (e.g. YubiKey) for encryption (In Title Case)</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/LongDBTimeouts/description] Save time entering your complex master passwords — keep your database open longer in the premium version." xml:space="preserve">
         <source>Save time entering your complex master passwords — keep your database open longer in the premium version.</source>
@@ -653,6 +688,26 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <target state="translated">(請在此處描述問題)</target>
         <note>Template text of a bug report email</note>
       </trans-unit>
+      <trans-unit id="[YubiKey] Don't use YubiKey" xml:space="preserve">
+        <source>Without YubiKey</source>
+        <target state="translated">不使用YubiKey</target>
+        <note>Selector choice: don't use YubiKey to encrypt/decrypt database</note>
+      </trans-unit>
+      <trans-unit id="[YubiKey] Insert the key" xml:space="preserve">
+        <source>Insert the key</source>
+        <target state="translated">插入金鑰</target>
+        <note>Call for action: insert YubiKey 5Ci to the Lightning port</note>
+      </trans-unit>
+      <trans-unit id="[YubiKey] Touch the key" xml:space="preserve">
+        <source>Touch the key</source>
+        <target state="translated">觸摸金鑰</target>
+        <note>Call for action: touch the sides of YubiKey 5Ci to continue</note>
+      </trans-unit>
+      <trans-unit id="[YubiKey] Use YubiKey Slot %d" xml:space="preserve">
+        <source>Use YubiKey Slot %d</source>
+        <target state="translated">使用YubiKey Slot %d</target>
+        <note>Selector choice: use YubiKey to encrypt/decrypt database. For example: `Use YubiKey Slot 1`. [slotID: Int]</note>
+      </trans-unit>
     </body>
   </file>
   <file original="KeePassium/database/Base.lproj/ChangeMasterKeyVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
@@ -672,7 +727,7 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="SHG-X2-fHH.placeholder" xml:space="preserve">
         <source>Repeat Password</source>
-        <target state="needs-translation">Repeat Password</target>
+        <target state="translated">請重複輸入密碼</target>
         <note>Class = "UITextField"; placeholder = "Repeat Password"; ObjectID = "SHG-X2-fHH"; Note = "Placeholder: the second text field for changing the master password";</note>
       </trans-unit>
       <trans-unit id="hYP-f0-K1s.placeholder" xml:space="preserve">
@@ -697,10 +752,20 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <target state="translated">沒有資料庫檔案</target>
         <note>Class = "UILabel"; text = "No database files"; ObjectID = "5Md-DB-C5P"; Note = "Placeholder shown when there are no database files available";</note>
       </trans-unit>
+      <trans-unit id="R68-cy-5mz.text" xml:space="preserve">
+        <source>Protect KeePassium from unauthorized access.</source>
+        <target state="translated">保護KeePassium免受未經授權的訪問。</target>
+        <note>Class = "UILabel"; text = "Protect KeePassium from unauthorized access."; ObjectID = "R68-cy-5mz"; Note = "Explanation for the `Enable AppLock` button.";</note>
+      </trans-unit>
       <trans-unit id="UI0-Lh-wTj.title" xml:space="preserve">
         <source>Databases</source>
         <target state="translated">資料庫</target>
         <note>Class = "UINavigationItem"; title = "Databases"; ObjectID = "UI0-Lh-wTj"; Note = "Title of the database picker list";</note>
+      </trans-unit>
+      <trans-unit id="hmv-DA-BgM.normalTitle" xml:space="preserve">
+        <source>Enable AppLock</source>
+        <target state="translated">啟用應用解鎖密碼</target>
+        <note>Class = "UIButton"; normalTitle = "Enable AppLock"; ObjectID = "hmv-DA-BgM";</note>
       </trans-unit>
       <trans-unit id="lnO-nD-gvh.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" xml:space="preserve">
         <source>Sort Order</source>
@@ -823,6 +888,11 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <target state="translated">資料庫已經被計時器關閉。</target>
         <note>Class = "UILabel"; text = "Database was closed by a timer."; ObjectID = "epu-yU-Lyg"; Note = "Notification message shown by database lock timer.";</note>
       </trans-unit>
+      <trans-unit id="gji-1x-co5.normalTitle" xml:space="preserve">
+        <source>Lock Database</source>
+        <target state="translated">鎖定資料庫</target>
+        <note>Class = "UIButton"; normalTitle = "Lock Database"; ObjectID = "gji-1x-co5";</note>
+      </trans-unit>
       <trans-unit id="i6N-fq-JbM.normalTitle" xml:space="preserve">
         <source>Upgrade to Premium</source>
         <target state="translated">升級到高級版</target>
@@ -850,6 +920,16 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
     </header>
     <body>
+      <trans-unit id="6Mx-Oh-6m0.accessibilityHint" xml:space="preserve">
+        <source>Expands a text field to its full height</source>
+        <target state="translated">擴展文本字段到最大高度。</target>
+        <note>Class = "UIButton"; accessibilityHint = "Expands a text field to its full height"; ObjectID = "6Mx-Oh-6m0";</note>
+      </trans-unit>
+      <trans-unit id="6Mx-Oh-6m0.accessibilityLabel" xml:space="preserve">
+        <source>Show more</source>
+        <target state="translated">顯示更多</target>
+        <note>Class = "UIButton"; accessibilityLabel = "Show more"; ObjectID = "6Mx-Oh-6m0";</note>
+      </trans-unit>
       <trans-unit id="vLP-Zc-bUc.text" xml:space="preserve">
         <source>Copied</source>
         <target state="translated">已複製</target>
@@ -1082,6 +1162,16 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <target state="translated">KeePass 資料庫(kdbx)</target>
         <note/>
       </trans-unit>
+      <trans-unit id="NFCReaderUsageDescription" xml:space="preserve">
+        <source>KeePassium needs access to NFC to communicate with your YubiKey.</source>
+        <target state="translated">KeePassium 需要NFC訪問權限才能使用你的YubiKey。</target>
+        <note>Privacy - NFC Scan Usage Description</note>
+      </trans-unit>
+      <trans-unit id="NSCameraUsageDescription" xml:space="preserve">
+        <source>KeePassium needs the camera to scan QR codes.</source>
+        <target state="translated">KeePassium 需要使用相機來掃描QR碼。</target>
+        <note>Privacy - Camera Usage Description</note>
+      </trans-unit>
       <trans-unit id="NSFaceIDUsageDescription" xml:space="preserve">
         <source>Use FaceID to unlock KeePassium</source>
         <target state="translated">使用 FaceID 解鎖 KeePassium</target>
@@ -1298,9 +1388,14 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <target state="translated">金鑰檔案異常: %@</target>
         <note>Error message related to key file. [errorDetails: String]</note>
       </trans-unit>
+      <trans-unit id="[Database/Unlock] YubiKey" xml:space="preserve">
+        <source>YubiKey</source>
+        <target state="translated">YubiKey</target>
+        <note>Action/button to setup YubiKey key component</note>
+      </trans-unit>
       <trans-unit id="[EditEntry/UserName/choose]" xml:space="preserve">
         <source>Choose</source>
-        <target state="needs-translation">Choose</target>
+        <target state="translated">選擇</target>
         <note>Action: choose a username from a list</note>
       </trans-unit>
       <trans-unit id="[Entry/Attachments/title] Attached Files" xml:space="preserve">
@@ -1405,7 +1500,7 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="[File/PermissionDenied] Try to remove the file from the app, then add it again." xml:space="preserve">
         <source>Try to remove the file from the app, then add it again.</source>
-        <target state="needs-translation">Try to remove the file from the app, then add it again.</target>
+        <target state="translated">嘗試從應用程序中刪除文件，然後再次添加。</target>
         <note>A suggestion shown after specific file errors (either databases or key files).</note>
       </trans-unit>
       <trans-unit id="[FileInfo/Field/title] Creation Date" xml:space="preserve">
@@ -1462,6 +1557,11 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <source>Export Error</source>
         <target state="translated">匯出錯誤</target>
         <note>Title of an error message about file export</note>
+      </trans-unit>
+      <trans-unit id="[Generic/File/title] File already exists" xml:space="preserve">
+        <source>File already exists</source>
+        <target state="translated">檔案已經存在</target>
+        <note>Message shown when trying to copy into an existing file.</note>
       </trans-unit>
       <trans-unit id="[Generic/File/title] Import Error" xml:space="preserve">
         <source>Import Error</source>
@@ -1548,6 +1648,11 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <target state="translated">確定</target>
         <note>Action/button: generic OK</note>
       </trans-unit>
+      <trans-unit id="[Generic] Overwrite" xml:space="preserve">
+        <source>Overwrite</source>
+        <target state="translated">覆寫</target>
+        <note>Action/button to replace/overwrite an item</note>
+      </trans-unit>
       <trans-unit id="[Generic] Rename" xml:space="preserve">
         <source>Rename</source>
         <target state="translated">重新命名</target>
@@ -1562,6 +1667,11 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <source>Show Details</source>
         <target state="translated">顯示詳細資訊</target>
         <note>Action/button to show additional information about an error or item</note>
+      </trans-unit>
+      <trans-unit id="[Generic] Show more" xml:space="preserve">
+        <source>Show more</source>
+        <target state="translated">顯示更多</target>
+        <note>Checkbox/Button to show a text field in its full size</note>
       </trans-unit>
       <trans-unit id="[Group/Create/action] Create Group" xml:space="preserve">
         <source>Create Group</source>
@@ -1582,6 +1692,21 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <source>New Group</source>
         <target state="translated">新建群組</target>
         <note>Default name of a new group</note>
+      </trans-unit>
+      <trans-unit id="[HardwareKey/AutoFill/NotAvailable] Hardware keys are not available in AutoFill." xml:space="preserve">
+        <source>Hardware keys are not available in AutoFill.</source>
+        <target state="translated">硬體金鑰不支持自動填充。</target>
+        <note>A notification that hardware keys (e.g. YubiKey) cannot be used in AutoFill (the OS does not allow the AutoFill to use NFC/MFI).</note>
+      </trans-unit>
+      <trans-unit id="[HardwareKey/None] No Hardware Key" xml:space="preserve">
+        <source>No Hardware Key</source>
+        <target state="translated">沒有硬體金鑰</target>
+        <note>Master key/unlock option: don't use hardware keys</note>
+      </trans-unit>
+      <trans-unit id="[HardwareKey/YubiKey/Slot] YubiKey Slot #%d" xml:space="preserve">
+        <source>YubiKey Slot %d</source>
+        <target state="translated">YubiKey Slot %d</target>
+        <note>Master key/unlock option: use given slot of YubiKey</note>
       </trans-unit>
       <trans-unit id="[ItemCategory] Default (KeePass)" xml:space="preserve">
         <source>Default (KeePass)</source>
@@ -1623,6 +1748,16 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       <trans-unit id="[Premium/Benefits/DatabaseTimeout/title]" xml:space="preserve">
         <source>Save your time</source>
         <target state="translated">節省您的時間</target>
+        <note>Title of a premium feature</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Benefits/HardwareKeys/details]" xml:space="preserve">
+        <source>Protect your secrets with a hardware key, such as YubiKey.</source>
+        <target state="translated">使用硬體金鑰來保護你的資料，比如 YubiKey 。</target>
+        <note>Explanation of the premium feature</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Benefits/HardwareKeys/title]" xml:space="preserve">
+        <source>Use hardware keys</source>
+        <target state="translated">使用硬體金鑰</target>
         <note>Title of a premium feature</note>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/Maintenance/details]" xml:space="preserve">
@@ -1745,15 +1880,15 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <target state="translated">程式已使用: %1$@/月, 大約%2$@/年</target>
         <note>Status: how long the app has been used during some time period. For example: `App being useful: 1hr/month, about 12hr/year`. [monthlyUsage: String, annualUsage: String — already include the time unit (hours, minutes)]</note>
       </trans-unit>
-      <trans-unit id="[PremiumFeature/BiometricAppLock/description] Quickly access your passwords using Face ID/Touch ID in the premium version." xml:space="preserve">
-        <source>Quickly access your passwords using Face ID/Touch ID in the premium version.</source>
-        <target state="translated">升級高級版使用Face ID/Touch ID來快速存取您的密碼。</target>
-        <note>Description/advertisement for the `Biometric Unlock` premium feature</note>
+      <trans-unit id="[PremiumFeature/HardwareKeys/description]" xml:space="preserve">
+        <source>Strengthen your security with hardware keys (YubiKey) in the premium version.</source>
+        <target state="translated">高級版本的硬體金鑰 (YubiKey) 提高了安全性。</target>
+        <note>Description/advertisement for the `Hardware Keys` premium feature</note>
       </trans-unit>
-      <trans-unit id="[PremiumFeature/BiometricAppLock/title] Biometric Unlock" xml:space="preserve">
-        <source>Biometric Unlock</source>
-        <target state="translated">生物識別解鎖</target>
-        <note>Title of a premium feature: ability to use Touch ID / Face ID in AppLock settings (In Title Case)</note>
+      <trans-unit id="[PremiumFeature/HardwareKeys/title] Hardware Keys" xml:space="preserve">
+        <source>Hardware Keys</source>
+        <target state="translated">硬體金鑰</target>
+        <note>Title of a premium feature: ability use hardware keys (e.g. YubiKey) for encryption (In Title Case)</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/LongDBTimeouts/description] Save time entering your complex master passwords — keep your database open longer in the premium version." xml:space="preserve">
         <source>Save time entering your complex master passwords — keep your database open longer in the premium version.</source>
@@ -1875,6 +2010,26 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <target state="translated">(請在此處描述問題)</target>
         <note>Template text of a bug report email</note>
       </trans-unit>
+      <trans-unit id="[YubiKey] Don't use YubiKey" xml:space="preserve">
+        <source>Without YubiKey</source>
+        <target state="translated">不使用YubiKey</target>
+        <note>Selector choice: don't use YubiKey to encrypt/decrypt database</note>
+      </trans-unit>
+      <trans-unit id="[YubiKey] Insert the key" xml:space="preserve">
+        <source>Insert the key</source>
+        <target state="translated">插入金鑰</target>
+        <note>Call for action: insert YubiKey 5Ci to the Lightning port</note>
+      </trans-unit>
+      <trans-unit id="[YubiKey] Touch the key" xml:space="preserve">
+        <source>Touch the key</source>
+        <target state="translated">觸摸金鑰</target>
+        <note>Call for action: touch the sides of YubiKey 5Ci to continue</note>
+      </trans-unit>
+      <trans-unit id="[YubiKey] Use YubiKey Slot %d" xml:space="preserve">
+        <source>Use YubiKey Slot %d</source>
+        <target state="translated">使用YubiKey Slot %d</target>
+        <note>Selector choice: use YubiKey to encrypt/decrypt database. For example: `Use YubiKey Slot 1`. [slotID: Int]</note>
+      </trans-unit>
     </body>
   </file>
   <file original="KeePassium/general/Base.lproj/AboutVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
@@ -1992,6 +2147,11 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <target state="translated">KeePassium</target>
         <note>Class = "UILabel"; text = "KeePassium"; ObjectID = "Wuj-Uw-baK";</note>
       </trans-unit>
+      <trans-unit id="Xee-Y1-Dcw.text" xml:space="preserve">
+        <source>Yubico Mobile iOS SDK by Yubico AB</source>
+        <target state="translated">Yubico Mobile iOS SDK 來自 Yubico AB</target>
+        <note>Class = "UILabel"; text = "Yubico Mobile iOS SDK by Yubico AB"; ObjectID = "Xee-Y1-Dcw";</note>
+      </trans-unit>
       <trans-unit id="aqX-J9-IzD.text" xml:space="preserve">
         <source>Translation by KeePassium contributors</source>
         <target state="translated">繁體中文翻譯 由 社群 與 3374575857 貢獻</target>
@@ -2032,15 +2192,15 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <target state="translated">CC BY 3.0</target>
         <note>Class = "UILabel"; text = "CC BY 3.0"; ObjectID = "hVm-qH-TAI";</note>
       </trans-unit>
+      <trans-unit id="ht7-pj-Dbb.text" xml:space="preserve">
+        <source>Apache 2.0 license</source>
+        <target state="translated">Apache 2.0 license</target>
+        <note>Class = "UILabel"; text = "Apache 2.0 license"; ObjectID = "ht7-pj-Dbb";</note>
+      </trans-unit>
       <trans-unit id="iKy-z5-Ox7.text" xml:space="preserve">
         <source>CC BY-ND 3.0</source>
         <target state="translated">CC BY-ND 3.0</target>
         <note>Class = "UILabel"; text = "CC BY-ND 3.0"; ObjectID = "iKy-z5-Ox7";</note>
-      </trans-unit>
-      <trans-unit id="jzd-La-4YT.text" xml:space="preserve">
-        <source>Any questions? We have answers.</source>
-        <target state="translated">有任何問題? 我們有答案。</target>
-        <note>Class = "UILabel"; text = "Any questions? We have answers."; ObjectID = "jzd-La-4YT";</note>
       </trans-unit>
       <trans-unit id="lht-LP-o0Y.text" xml:space="preserve">
         <source>MIT license</source>
@@ -2120,6 +2280,11 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <source>File Info</source>
         <target state="translated">檔案資訊</target>
         <note>Class = "UITableViewController"; title = "File Info"; ObjectID = "Cu8-bv-TEu";</note>
+      </trans-unit>
+      <trans-unit id="DWC-wm-aMy.normalTitle" xml:space="preserve">
+        <source>Export</source>
+        <target state="translated">匯出</target>
+        <note>Class = "UIButton"; normalTitle = "Export"; ObjectID = "DWC-wm-aMy";</note>
       </trans-unit>
     </body>
   </file>
@@ -2213,7 +2378,7 @@ You can have multiple databases, for example to separate work, family and person
       </trans-unit>
       <trans-unit id="Qkk-pB-jp6.segmentTitles[1]" xml:space="preserve">
         <source>Pro</source>
-        <target state="needs-translation">Pro</target>
+        <target state="translated">Pro</target>
         <note>Class = "UISegmentedControl"; Qkk-pB-jp6.segmentTitles[1] = "Pro"; ObjectID = "Qkk-pB-jp6";</note>
       </trans-unit>
     </body>
@@ -2371,6 +2536,11 @@ You can manage and cancel your subscriptions by going to your account settings o
         <target state="translated">點選 "自動填寫密碼"</target>
         <note>Class = "UILabel"; text = "Tap \"AutoFill Passwords\""; ObjectID = "UzV-Ht-rGx"; Note = "Step 3. Must match system's translation.";</note>
       </trans-unit>
+      <trans-unit id="WDb-aU-Mmf.text" xml:space="preserve">
+        <source>Fill-in the perfect result automatically</source>
+        <target state="translated">自動填入合適的結果</target>
+        <note>Class = "UILabel"; text = "Fill-in the perfect result automatically"; ObjectID = "WDb-aU-Mmf"; Note = "Title of an option: copy one-time password to clipboard when using AutoFill";</note>
+      </trans-unit>
       <trans-unit id="X2u-c9-gwU.text" xml:space="preserve">
         <source>Turn on "AutoFill Passwords"</source>
         <target state="translated">打開"自動填寫密碼"</target>
@@ -2400,6 +2570,16 @@ You can manage and cancel your subscriptions by going to your account settings o
         <source>Copy OTP to clipboard</source>
         <target state="translated">複製 一次性密碼OTP 到剪貼簿</target>
         <note>Class = "UILabel"; text = "Copy OTP to clipboard"; ObjectID = "go1-Nt-isQ"; Note = "Title of an option: copy one-time password to clipboard when using AutoFill";</note>
+      </trans-unit>
+      <trans-unit id="jYl-ks-dFG.footerTitle" xml:space="preserve">
+        <source>When AutoFill finds only one, perfectly matching, entry – this entry will be pasted automatically.</source>
+        <target state="translated">當自動填入只找到一個並且完整匹配的條目時 - 該條目將會被自動貼上。</target>
+        <note>Class = "UITableViewSection"; footerTitle = "When AutoFill finds only one, perfectly matching, entry – this entry will be pasted automatically."; ObjectID = "jYl-ks-dFG";</note>
+      </trans-unit>
+      <trans-unit id="jYl-ks-dFG.headerTitle" xml:space="preserve">
+        <source>Automatic search</source>
+        <target state="translated">自動搜尋</target>
+        <note>Class = "UITableViewSection"; headerTitle = "Automatic search"; ObjectID = "jYl-ks-dFG";</note>
       </trans-unit>
       <trans-unit id="r0b-qe-g8J.headerTitle" xml:space="preserve">
         <source>Initial Setup</source>
@@ -2545,10 +2725,30 @@ You can manage and cancel your subscriptions by going to your account settings o
         <target state="translated">剪貼簿逾時</target>
         <note>Class = "UILabel"; text = "Clipboard Timeout"; ObjectID = "SSu-Sr-MCg";</note>
       </trans-unit>
+      <trans-unit id="YL6-U9-FM6.text" xml:space="preserve">
+        <source>Universal Clipboard</source>
+        <target state="translated">通用剪貼板</target>
+        <note>Class = "UILabel"; text = "Universal Clipboard"; ObjectID = "YL6-U9-FM6";</note>
+      </trans-unit>
       <trans-unit id="e1v-nv-Mst.normalTitle" xml:space="preserve">
         <source>Clear Master Keys</source>
         <target state="translated">清除主金鑰</target>
         <note>Class = "UIButton"; normalTitle = "Clear Master Keys"; ObjectID = "e1v-nv-Mst";</note>
+      </trans-unit>
+      <trans-unit id="e6Y-AP-hag.footerTitle" xml:space="preserve">
+        <source>Hide passwords and other protected fields behind asterisks (recommended).</source>
+        <target state="translated">隱藏密碼與其他受保護的欄位在星號後面（推薦）。</target>
+        <note>Class = "UITableViewSection"; footerTitle = "Hide passwords and other protected fields behind asterisks (recommended)."; ObjectID = "e6Y-AP-hag";</note>
+      </trans-unit>
+      <trans-unit id="e6Y-AP-hag.headerTitle" xml:space="preserve">
+        <source>Protected Fields</source>
+        <target state="translated">受保護的欄位</target>
+        <note>Class = "UITableViewSection"; headerTitle = "Protected Fields"; ObjectID = "e6Y-AP-hag";</note>
+      </trans-unit>
+      <trans-unit id="g9a-rJ-4WJ.footerTitle" xml:space="preserve">
+        <source>Use Universal Clipboard to copy and paste between your Apple devices.</source>
+        <target state="translated">使用通用剪貼板在你的蘋果設備之間複製和貼上。</target>
+        <note>Class = "UITableViewSection"; footerTitle = "Use Universal Clipboard to copy and paste between your Apple devices."; ObjectID = "g9a-rJ-4WJ";</note>
       </trans-unit>
       <trans-unit id="hnI-Q8-Ixm.footerTitle" xml:space="preserve">
         <source>When you copy anything, KeePassium will automatically clear your clipboard (pasteboard) after some time.</source>
@@ -2569,6 +2769,11 @@ You can manage and cancel your subscriptions by going to your account settings o
         <source>Automatic Lock</source>
         <target state="translated">自動鎖定</target>
         <note>Class = "UITableViewSection"; headerTitle = "Automatic Lock"; ObjectID = "neJ-eG-TV7";</note>
+      </trans-unit>
+      <trans-unit id="pid-k2-idJ.text" xml:space="preserve">
+        <source>Hide Passwords</source>
+        <target state="translated">隱藏密碼</target>
+        <note>Class = "UILabel"; text = "Hide Passwords"; ObjectID = "pid-k2-idJ";</note>
       </trans-unit>
       <trans-unit id="weX-SZ-IDB.text" xml:space="preserve">
         <source>Database Timeout</source>

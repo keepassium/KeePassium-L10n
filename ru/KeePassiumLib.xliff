@@ -27,6 +27,36 @@
         <target state="final">Цифровая</target>
         <note>Type of keyboard to show for App Lock passcode: digits only (PIN code).</note>
       </trans-unit>
+      <trans-unit id="[ChallengeResponseError] cancelled" xml:space="preserve">
+        <source>Cancelled by the user.</source>
+        <target state="translated">Отменено пользователем.</target>
+        <note>Error message when the challenge-response communication has been cancelled by the user.</note>
+      </trans-unit>
+      <trans-unit id="[ChallengeResponseError] keyNotConnected" xml:space="preserve">
+        <source>Hardware key is not connected.</source>
+        <target state="translated">Аппаратный ключ не подключён.</target>
+        <note>Error message when the hardware key is not plugged in.</note>
+      </trans-unit>
+      <trans-unit id="[ChallengeResponseError] notAvailableInAutoFill" xml:space="preserve">
+        <source>Hardware keys are not available in AutoFill.</source>
+        <target state="translated">Аппаратные ключи не доступны в Автозаполнении.</target>
+        <note>Error message when trying to use challenge-response hardware in AutoFill.</note>
+      </trans-unit>
+      <trans-unit id="[ChallengeResponseError] notSupportedByDatabaseFormat" xml:space="preserve">
+        <source>Hardware keys are not supported by this database format.</source>
+        <target state="translated">Аппаратные ключи не поддерживаются этим форматом базы паролей.</target>
+        <note>Error message when trying to use challenge-response with a kdb database.</note>
+      </trans-unit>
+      <trans-unit id="[ChallengeResponseError] notSupportedByDeviceOrSystem" xml:space="preserve">
+        <source>This device or iOS version does not support hardware keys (%@)</source>
+        <target state="translated">Это устройство или версия iOS не поддерживает аппаратные ключи (%@)</target>
+        <note>Error message when trying to use a hardware challenge-response key on unsupported device/iOS version. %@ will be the name of the hardware interface, such as `NFC` or `Lightning`.</note>
+      </trans-unit>
+      <trans-unit id="[ChallengeResponseError] slotNotConfigured" xml:space="preserve">
+        <source>Hardware key is not configured for challenge-response.</source>
+        <target state="translated">Аппаратный ключ не настроен для аутентификации вызов-ответ.</target>
+        <note>Error message: the hardware key (or its slot) was not configured for challenge-response operations.</note>
+      </trans-unit>
       <trans-unit id="[Cipher/Progress] Decrypting" xml:space="preserve" approved="yes">
         <source>Decrypting</source>
         <target state="final">Дешифрование</target>
@@ -182,9 +212,9 @@
         <target state="final">Разбор данных</target>
         <note>Status message: processing the content of a database</note>
       </trans-unit>
-      <trans-unit id="[Database2/FormatError] Cannot parse database. %@" xml:space="preserve" approved="yes">
+      <trans-unit id="[Database2/FormatError] Cannot parse database. %@" xml:space="preserve">
         <source>Cannot parse database. %@</source>
-        <target state="final">Не удалось разобрать базу паролей. %@</target>
+        <target state="translated">Не удалось разобрать базу паролей. %@</target>
         <note>Error message. Parsing refers to the analysis/understanding of file content. [reason: String]</note>
       </trans-unit>
       <trans-unit id="[Database2/FormatError] Corrupted database file (HMAC mismatch in block %d)" xml:space="preserve" approved="yes">
