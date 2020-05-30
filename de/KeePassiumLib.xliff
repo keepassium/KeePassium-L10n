@@ -137,6 +137,11 @@
         <target state="translated">Unbekanntes Datenbankformat</target>
         <note>Error message</note>
       </trans-unit>
+      <trans-unit id="[Database/Progress/resolving]" xml:space="preserve">
+        <source>Contacting storage provider...</source>
+        <target state="translated">Kontaktiere den Speicheranbieter...</target>
+        <note>Progress status</note>
+      </trans-unit>
       <trans-unit id="[Database/Progress] Done" xml:space="preserve">
         <source>Done</source>
         <target state="translated">Fertig</target>
@@ -342,6 +347,21 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="translated">Die Datenbank enthält einige Anhänge, die in keinem Eintrag verwendet werden. Wahrscheinlich wurden sie von der letzten App (%@) vergessen. Dies kann aber auch ein Zeichen von Datenverlust sein.
 Bitte stellen Sie sicher, dass Sie eine Sicherung Ihrer Datenbank haben, bevor Sie etwas ändern.</target>
         <note>A warning about unused attachments after loading the database. [lastUsedAppName: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Progress/decompressing]" xml:space="preserve">
+        <source>Decompressing database</source>
+        <target state="translated">Dekomprimiere Datenbank</target>
+        <note>Progress bar status: un-zipping the database content</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Progress/integrityCheck]" xml:space="preserve">
+        <source>Checking integrity</source>
+        <target state="translated">Integrität wird überprüft</target>
+        <note>Progress bar status</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Progress/parsingXML]" xml:space="preserve">
+        <source>Parsing database</source>
+        <target state="translated">Lade Datenbank</target>
+        <note>Progress bar status: parsing decrypted XML content</note>
       </trans-unit>
       <trans-unit id="[Database2/Progress] Loading database" xml:space="preserve">
         <source>Loading database</source>

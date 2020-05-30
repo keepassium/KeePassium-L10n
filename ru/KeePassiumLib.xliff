@@ -137,6 +137,11 @@
         <target state="final">Неизвестный формат базы</target>
         <note>Error message</note>
       </trans-unit>
+      <trans-unit id="[Database/Progress/resolving]" xml:space="preserve">
+        <source>Contacting storage provider...</source>
+        <target state="translated">Соединение с хранилищем...</target>
+        <note>Progress status</note>
+      </trans-unit>
       <trans-unit id="[Database/Progress] Done" xml:space="preserve" approved="yes">
         <source>Done</source>
         <target state="final">Готово</target>
@@ -343,6 +348,21 @@ Please make sure to have a backup of your database before changing anything.</so
 Перед тем как что-либо редактировать, убедитесь, что у Вас есть резервная копия базы паролей.</target>
         <note>A warning about unused attachments after loading the database. [lastUsedAppName: String]</note>
       </trans-unit>
+      <trans-unit id="[Database2/Progress/decompressing]" xml:space="preserve">
+        <source>Decompressing database</source>
+        <target state="translated">Распаковка базы паролей</target>
+        <note>Progress bar status: un-zipping the database content</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Progress/integrityCheck]" xml:space="preserve">
+        <source>Checking integrity</source>
+        <target state="translated">Проверка целостности</target>
+        <note>Progress bar status</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Progress/parsingXML]" xml:space="preserve">
+        <source>Parsing database</source>
+        <target state="translated">Разбор базы паролей</target>
+        <note>Progress bar status: parsing decrypted XML content</note>
+      </trans-unit>
       <trans-unit id="[Database2/Progress] Loading database" xml:space="preserve" approved="yes">
         <source>Loading database</source>
         <target state="final">Загрузка базы паролей</target>
@@ -445,22 +465,22 @@ Please make sure to have a backup of your database before changing anything.</so
       </trans-unit>
       <trans-unit id="[FilesSortOrder/longTitle] Creation Date (Oldest First)" xml:space="preserve" approved="yes">
         <source>Creation Date (Oldest First)</source>
-        <target state="final">Дата Создания (Начиная со Старых)</target>
+        <target state="final">Дата создания (начиная со старых)</target>
         <note>A sorting option for a list of files, by file creation date. Example: 'Sort Order: Creation Date (Oldest First)'</note>
       </trans-unit>
       <trans-unit id="[FilesSortOrder/longTitle] Creation Date (Recent First)" xml:space="preserve" approved="yes">
         <source>Creation Date (Recent First)</source>
-        <target state="final">Дата Создания (Начиная с Новых)</target>
+        <target state="final">Дата создания (начиная с новых)</target>
         <note>A sorting option for a list of files, by file creation date. Example: 'Sort Order: Creation Date (Recent First)'</note>
       </trans-unit>
       <trans-unit id="[FilesSortOrder/longTitle] Modification Date (Oldest First)" xml:space="preserve" approved="yes">
         <source>Modification Date (Oldest First)</source>
-        <target state="final">Дата Изменения (Начиная со Старых)</target>
+        <target state="final">Дата изменения (начиная со старых)</target>
         <note>A sorting option for a list of files, by file's last modification date. Example: 'Sort Order: Modification Date (Oldest First)'</note>
       </trans-unit>
       <trans-unit id="[FilesSortOrder/longTitle] Modification Date (Recent First)" xml:space="preserve" approved="yes">
         <source>Modification Date (Recent First)</source>
-        <target state="final">Дата Изменения (Начиная с Новых)</target>
+        <target state="final">Дата изменения (начиная с новых)</target>
         <note>A sorting option for a list of files, by file's last modification date. Example: 'Sort Order: Modification Date (Recent First)'</note>
       </trans-unit>
       <trans-unit id="[FilesSortOrder/longTitle] Name (A..Z)" xml:space="preserve" approved="yes">
@@ -480,32 +500,32 @@ Please make sure to have a backup of your database before changing anything.</so
       </trans-unit>
       <trans-unit id="[GroupSortOrder/longTitle] By Creation Date (New..Old)" xml:space="preserve" approved="yes">
         <source>By Creation Date (New..Old)</source>
-        <target state="final">По Дате Создания (Новые..Старые)</target>
+        <target state="final">По дате создания (новые..старые)</target>
         <note>An option in Group Viewer settings. Example: 'Sort Order: By Creation Date (New..Old)'</note>
       </trans-unit>
       <trans-unit id="[GroupSortOrder/longTitle] By Creation Date (Old..New)" xml:space="preserve" approved="yes">
         <source>By Creation Date (Old..New)</source>
-        <target state="final">По Дате Создания (Старые..Новые)</target>
+        <target state="final">По дате создания (старые..новые)</target>
         <note>An option in Group Viewer settings. Example: 'Sort Order: By Creation Date (Old..New)'</note>
       </trans-unit>
       <trans-unit id="[GroupSortOrder/longTitle] By Modification Date (New..Old)" xml:space="preserve" approved="yes">
         <source>By Modification Date (New..Old)</source>
-        <target state="final">По Дате Изменения (Новые..Старые)</target>
+        <target state="final">По дате изменения (новые..старые)</target>
         <note>An option in Group Viewer settings. Example: 'Sort Order: By Modification Date (New..Old)'</note>
       </trans-unit>
       <trans-unit id="[GroupSortOrder/longTitle] By Modification Date (Old..New)" xml:space="preserve" approved="yes">
         <source>By Modification Date (Old..New)</source>
-        <target state="final">По Дате Изменения (Старые..Новые)</target>
+        <target state="final">По дате изменения (старые..новые)</target>
         <note>An option in Group Viewer settings. Example: 'Sort Order: By Modification Date (Old..New)'</note>
       </trans-unit>
       <trans-unit id="[GroupSortOrder/longTitle] By Title (A..Z)" xml:space="preserve" approved="yes">
         <source>By Title (A..Z)</source>
-        <target state="final">По Названию (А..я)</target>
+        <target state="final">По названию (А..я)</target>
         <note>An option in Group Viewer settings. Example: 'Sort Order: By Title (A..Z)'</note>
       </trans-unit>
       <trans-unit id="[GroupSortOrder/longTitle] By Title (Z..A)" xml:space="preserve" approved="yes">
         <source>By Title (Z..A)</source>
-        <target state="final">По Названию (я..А)</target>
+        <target state="final">По названию (я..А)</target>
         <note>An option in Group Viewer settings. Example: 'Sort Order: By Title (Z..A)'</note>
       </trans-unit>
       <trans-unit id="[GroupSortOrder/longTitle] No Sorting" xml:space="preserve" approved="yes">
@@ -520,12 +540,12 @@ Please make sure to have a backup of your database before changing anything.</so
       </trans-unit>
       <trans-unit id="[KeychainError/generic] Keychain error (code %d) " xml:space="preserve" approved="yes">
         <source>Keychain error (code %d) </source>
-        <target state="final">Ошибка при работе со Связкой Ключей (код %d) </target>
+        <target state="final">Ошибка при работе со связкой ключей (код %d) </target>
         <note>Generic error message about system keychain. [errorCode: Int]</note>
       </trans-unit>
       <trans-unit id="[KeychainError/unexpectedFormat] Keychain error: unexpected data format" xml:space="preserve" approved="yes">
         <source>Keychain error: unexpected data format</source>
-        <target state="final">Ошибка при работе со Связкой Ключей: неожиданный формат данных</target>
+        <target state="final">Ошибка при работе со связкой ключей: неожиданный формат данных</target>
         <note>Error message about system keychain.</note>
       </trans-unit>
       <trans-unit id="[Progress/CancellationReason/lowMemory]" xml:space="preserve" approved="yes">
@@ -612,7 +632,7 @@ This can happen with larger databases or too ambitious database settings (Argon2
       </trans-unit>
       <trans-unit id="[Settings/EntryListDetail/longTitle] Last Modified Date" xml:space="preserve" approved="yes">
         <source>Last Modified Date</source>
-        <target state="final">Дата Изменения</target>
+        <target state="final">Дата изменения</target>
         <note>An option in Group Viewer settings. Refers fo the most recent time when the entry was modified. Will be shown as 'Entry Subtitle: Last Modified Date'.</note>
       </trans-unit>
       <trans-unit id="[Settings/EntryListDetail/longTitle] None" xml:space="preserve" approved="yes">

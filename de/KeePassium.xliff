@@ -2807,20 +2807,57 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
     </body>
   </file>
+  <file original="KeePassium/settings/Base.lproj/SettingsSearchVC.storyboard" source-language="en" target-language="de" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+    </header>
+    <body>
+      <trans-unit id="DJr-hC-DMT.footerTitle" xml:space="preserve">
+        <source>After opening a database, automatically show the search field.</source>
+        <target state="translated">Nach dem Öffnen einer Datenbank automatisch das Suchfeld anzeigen.</target>
+        <note>Class = "UITableViewSection"; footerTitle = "After opening a database, automatically show the search field."; ObjectID = "DJr-hC-DMT"; Note = "A section in search-related settings: what happens when the app is just started or database is just opened.";</note>
+      </trans-unit>
+      <trans-unit id="Io8-uP-3lF.headerTitle" xml:space="preserve">
+        <source>Search Scope</source>
+        <target state="translated">Suchbereich</target>
+        <note>Class = "UITableViewSection"; headerTitle = "Search Scope"; ObjectID = "Io8-uP-3lF"; Note = "A section in search-related settings: which fields to include in search.";</note>
+      </trans-unit>
+      <trans-unit id="LrQ-5g-wj0.text" xml:space="preserve">
+        <source>Search in Protected Values</source>
+        <target state="translated">In geschützten Werten suchen</target>
+        <note>Class = "UILabel"; text = "Search in Protected Values"; ObjectID = "LrQ-5g-wj0"; Note = "An switch in settings: whether to include protected field values in search procedure.";</note>
+      </trans-unit>
+      <trans-unit id="RZt-EW-TGN.title" xml:space="preserve">
+        <source>Search</source>
+        <target state="translated">Suche</target>
+        <note>Class = "UITableViewController"; title = "Search"; ObjectID = "RZt-EW-TGN"; Note = "Section title in settings";</note>
+      </trans-unit>
+      <trans-unit id="cCm-E4-L3m.text" xml:space="preserve">
+        <source>Search in Field Names</source>
+        <target state="translated">Suche in Feldnamen</target>
+        <note>Class = "UILabel"; text = "Search in Field Names"; ObjectID = "cCm-E4-L3m"; Note = "An switch in settings: whether to include entry field names in search procedure.";</note>
+      </trans-unit>
+      <trans-unit id="q0v-f7-D4Y.text" xml:space="preserve">
+        <source>Start with Search</source>
+        <target state="translated">Beim Start Suchfeld öffnen</target>
+        <note>Class = "UILabel"; text = "Start with Search"; ObjectID = "q0v-f7-D4Y";</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="KeePassium/settings/Base.lproj/SettingsVC.storyboard" source-language="en" target-language="de" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
     </header>
     <body>
-      <trans-unit id="9Me-8P-nIZ.footerTitle" xml:space="preserve">
-        <source>After opening a database, automatically show the search field.</source>
-        <target state="translated">Nach dem Öffnen einer Datenbank wird automatisch das Suchfeld angezeigt.</target>
-        <note>Class = "UITableViewSection"; footerTitle = "After opening a database, automatically show the search field."; ObjectID = "9Me-8P-nIZ";</note>
-      </trans-unit>
-      <trans-unit id="9Me-8P-nIZ.headerTitle" xml:space="preserve">
+      <trans-unit id="9yn-W3-FDl.headerTitle" xml:space="preserve">
         <source>Start</source>
         <target state="translated">Start</target>
-        <note>Class = "UITableViewSection"; headerTitle = "Start"; ObjectID = "9Me-8P-nIZ";</note>
+        <note>Class = "UITableViewSection"; headerTitle = "Start"; ObjectID = "9yn-W3-FDl"; Note = "Section in settings: settings that define what happens when the app is started.";</note>
+      </trans-unit>
+      <trans-unit id="756-sL-G2t.text" xml:space="preserve">
+        <source>Auto-open the Previous Database</source>
+        <target state="translated">Automatisches Öffnen der vorherigen Datenbank</target>
+        <note>Class = "UILabel"; text = "Auto-open the Previous Database"; ObjectID = "756-sL-G2t"; Note = "Option in settings: whether to open the last used database automatically on start.";</note>
       </trans-unit>
       <trans-unit id="A5N-B3-t3t.headerTitle" xml:space="preserve">
         <source>Premium</source>
@@ -2841,6 +2878,11 @@ You can manage and cancel your subscriptions by going to your account settings o
         <source>Master keys, key files</source>
         <target state="translated">Masterschlüssel, Schlüsseldateien</target>
         <note>Class = "UILabel"; text = "Master keys, key files"; ObjectID = "FHp-ns-ke9"; Note = "Subtitle/details for `Data Protection`";</note>
+      </trans-unit>
+      <trans-unit id="GLr-Uf-Kln.text" xml:space="preserve">
+        <source>Search</source>
+        <target state="translated">Suche</target>
+        <note>Class = "UILabel"; text = "Search"; ObjectID = "GLr-Uf-Kln"; Note = "Section title in settings";</note>
       </trans-unit>
       <trans-unit id="HCe-A3-eG6.text" xml:space="preserve">
         <source>Premium Version</source>
@@ -2917,15 +2959,15 @@ You can manage and cancel your subscriptions by going to your account settings o
         <target state="translated">Auf Premium upgraden</target>
         <note>Class = "UILabel"; text = "Upgrade to Premium"; ObjectID = "oxG-N8-1ld";</note>
       </trans-unit>
+      <trans-unit id="qEE-z7-pd0.headerTitle" xml:space="preserve">
+        <source>Search</source>
+        <target state="translated">Suche</target>
+        <note>Class = "UITableViewSection"; headerTitle = "Search"; ObjectID = "qEE-z7-pd0"; Note = "Section title in settings";</note>
+      </trans-unit>
       <trans-unit id="qhK-lw-bGy.text" xml:space="preserve">
         <source>For expert troubleshooting</source>
         <target state="translated">Fehlerbehebung (Expertenmodus)</target>
         <note>Class = "UILabel"; text = "For expert troubleshooting"; ObjectID = "qhK-lw-bGy"; Note = "Subtitle for `Diagnostic Log`. Keep it short.";</note>
-      </trans-unit>
-      <trans-unit id="yuN-Ls-o9d.text" xml:space="preserve">
-        <source>Start with Search</source>
-        <target state="translated">Beim Start Suchfeld öffnen</target>
-        <note>Class = "UILabel"; text = "Start with Search"; ObjectID = "yuN-Ls-o9d";</note>
       </trans-unit>
       <trans-unit id="zUh-Sn-3ya.text" xml:space="preserve">
         <source>Manage Subscriptions</source>

@@ -353,7 +353,7 @@ Como resultado, tanto la aplicación de AutoFill como la aplicación principal d
       </trans-unit>
       <trans-unit id="[Database/Unlock] YubiKey" xml:space="preserve">
         <source>YubiKey</source>
-        <target state="needs-translation">YubiKey</target>
+        <target state="translated">YubiKey</target>
         <note>Action/button to setup YubiKey key component</note>
       </trans-unit>
       <trans-unit id="[Diagnostics] Diagnostic log has been copied to clipboard." xml:space="preserve">
@@ -468,7 +468,7 @@ Como resultado, tanto la aplicación de AutoFill como la aplicación principal d
       </trans-unit>
       <trans-unit id="[Generic/File/title] File already exists" xml:space="preserve">
         <source>File already exists</source>
-        <target state="needs-translation">File already exists</target>
+        <target state="translated">El archivo ya existe</target>
         <note>Message shown when trying to copy into an existing file.</note>
       </trans-unit>
       <trans-unit id="[Generic/File/title] Import Error" xml:space="preserve">
@@ -558,7 +558,7 @@ Como resultado, tanto la aplicación de AutoFill como la aplicación principal d
       </trans-unit>
       <trans-unit id="[Generic] Overwrite" xml:space="preserve">
         <source>Overwrite</source>
-        <target state="needs-translation">Overwrite</target>
+        <target state="translated">Sobreescribir</target>
         <note>Action/button to replace/overwrite an item</note>
       </trans-unit>
       <trans-unit id="[Generic] Rename" xml:space="preserve">
@@ -578,7 +578,7 @@ Como resultado, tanto la aplicación de AutoFill como la aplicación principal d
       </trans-unit>
       <trans-unit id="[Generic] Show more" xml:space="preserve">
         <source>Show more</source>
-        <target state="needs-translation">Show more</target>
+        <target state="translated">Mostrar más</target>
         <note>Checkbox/Button to show a text field in its full size</note>
       </trans-unit>
       <trans-unit id="[Group/Create/action] Create Group" xml:space="preserve">
@@ -603,17 +603,17 @@ Como resultado, tanto la aplicación de AutoFill como la aplicación principal d
       </trans-unit>
       <trans-unit id="[HardwareKey/AutoFill/NotAvailable] Hardware keys are not available in AutoFill." xml:space="preserve">
         <source>Hardware keys are not available in AutoFill.</source>
-        <target state="needs-translation">Hardware keys are not available in AutoFill.</target>
+        <target state="translated">Las llaves físicas como YubiKey no están disponibles con Autocompletar.</target>
         <note>A notification that hardware keys (e.g. YubiKey) cannot be used in AutoFill (the OS does not allow the AutoFill to use NFC/MFI).</note>
       </trans-unit>
       <trans-unit id="[HardwareKey/None] No Hardware Key" xml:space="preserve">
         <source>No Hardware Key</source>
-        <target state="needs-translation">No Hardware Key</target>
+        <target state="translated">Sin llave física</target>
         <note>Master key/unlock option: don't use hardware keys</note>
       </trans-unit>
       <trans-unit id="[HardwareKey/YubiKey/Slot] YubiKey Slot #%d" xml:space="preserve">
         <source>YubiKey Slot %d</source>
-        <target state="needs-translation">YubiKey Slot %d</target>
+        <target state="translated">Unidad de YubiKey %d</target>
         <note>Master key/unlock option: use given slot of YubiKey</note>
       </trans-unit>
       <trans-unit id="[KeyFile/Delete/Confirm/text] Delete key file?&#10; Make sure you have a backup." xml:space="preserve">
@@ -640,12 +640,12 @@ Como resultado, tanto la aplicación de AutoFill como la aplicación principal d
       </trans-unit>
       <trans-unit id="[PremiumFeature/HardwareKeys/description]" xml:space="preserve">
         <source>Strengthen your security with hardware keys (YubiKey) in the premium version.</source>
-        <target state="needs-translation">Strengthen your security with hardware keys (YubiKey) in the premium version.</target>
+        <target state="translated">Mejora la seguridad de tu archivo de contraseñas con el soporte de llaves físicas (YubiKey) en la versión premium.</target>
         <note>Description/advertisement for the `Hardware Keys` premium feature</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/HardwareKeys/title] Hardware Keys" xml:space="preserve">
         <source>Hardware Keys</source>
-        <target state="needs-translation">Hardware Keys</target>
+        <target state="translated">Llaves físicas</target>
         <note>Title of a premium feature: ability use hardware keys (e.g. YubiKey) for encryption (In Title Case)</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/LongDBTimeouts/description] Save time entering your complex master passwords — keep your database open longer in the premium version." xml:space="preserve">
@@ -690,22 +690,22 @@ Como resultado, tanto la aplicación de AutoFill como la aplicación principal d
       </trans-unit>
       <trans-unit id="[YubiKey] Don't use YubiKey" xml:space="preserve">
         <source>Without YubiKey</source>
-        <target state="needs-translation">Without YubiKey</target>
+        <target state="translated">Sin YubiKey</target>
         <note>Selector choice: don't use YubiKey to encrypt/decrypt database</note>
       </trans-unit>
       <trans-unit id="[YubiKey] Insert the key" xml:space="preserve">
         <source>Insert the key</source>
-        <target state="needs-translation">Insert the key</target>
+        <target state="translated">Conecta la llave</target>
         <note>Call for action: insert YubiKey 5Ci to the Lightning port</note>
       </trans-unit>
       <trans-unit id="[YubiKey] Touch the key" xml:space="preserve">
         <source>Touch the key</source>
-        <target state="needs-translation">Touch the key</target>
+        <target state="translated">Toca la llave</target>
         <note>Call for action: touch the sides of YubiKey 5Ci to continue</note>
       </trans-unit>
       <trans-unit id="[YubiKey] Use YubiKey Slot %d" xml:space="preserve">
         <source>Use YubiKey Slot %d</source>
-        <target state="needs-translation">Use YubiKey Slot %d</target>
+        <target state="translated">Usa la unidad YubiKey %d</target>
         <note>Selector choice: use YubiKey to encrypt/decrypt database. For example: `Use YubiKey Slot 1`. [slotID: Int]</note>
       </trans-unit>
     </body>
@@ -922,12 +922,12 @@ Como resultado, tanto la aplicación de AutoFill como la aplicación principal d
     <body>
       <trans-unit id="6Mx-Oh-6m0.accessibilityHint" xml:space="preserve">
         <source>Expands a text field to its full height</source>
-        <target state="needs-translation">Expands a text field to its full height</target>
+        <target state="translated">Expande un campo de texto a su altura total</target>
         <note>Class = "UIButton"; accessibilityHint = "Expands a text field to its full height"; ObjectID = "6Mx-Oh-6m0";</note>
       </trans-unit>
       <trans-unit id="6Mx-Oh-6m0.accessibilityLabel" xml:space="preserve">
         <source>Show more</source>
-        <target state="needs-translation">Show more</target>
+        <target state="translated">Mostrar más</target>
         <note>Class = "UIButton"; accessibilityLabel = "Show more"; ObjectID = "6Mx-Oh-6m0";</note>
       </trans-unit>
       <trans-unit id="vLP-Zc-bUc.text" xml:space="preserve">
@@ -1164,12 +1164,12 @@ Como resultado, tanto la aplicación de AutoFill como la aplicación principal d
       </trans-unit>
       <trans-unit id="NFCReaderUsageDescription" xml:space="preserve">
         <source>KeePassium needs access to NFC to communicate with your YubiKey.</source>
-        <target state="needs-translation">KeePassium needs access to NFC to communicate with your YubiKey.</target>
+        <target state="translated">KeePassium necesita acceso al módulo NFC para comunicarse con tu YubiKey.</target>
         <note>Privacy - NFC Scan Usage Description</note>
       </trans-unit>
       <trans-unit id="NSCameraUsageDescription" xml:space="preserve">
         <source>KeePassium needs the camera to scan QR codes.</source>
-        <target state="needs-translation">KeePassium needs the camera to scan QR codes.</target>
+        <target state="translated">KeePassium necesita acceso a la cámara para escanear códigos QR.</target>
         <note>Privacy - Camera Usage Description</note>
       </trans-unit>
       <trans-unit id="NSFaceIDUsageDescription" xml:space="preserve">
@@ -1390,7 +1390,7 @@ Como resultado, tanto la aplicación de AutoFill como la aplicación principal d
       </trans-unit>
       <trans-unit id="[Database/Unlock] YubiKey" xml:space="preserve">
         <source>YubiKey</source>
-        <target state="needs-translation">YubiKey</target>
+        <target state="translated">YubiKey</target>
         <note>Action/button to setup YubiKey key component</note>
       </trans-unit>
       <trans-unit id="[EditEntry/UserName/choose]" xml:space="preserve">
@@ -1560,7 +1560,7 @@ Como resultado, tanto la aplicación de AutoFill como la aplicación principal d
       </trans-unit>
       <trans-unit id="[Generic/File/title] File already exists" xml:space="preserve">
         <source>File already exists</source>
-        <target state="needs-translation">File already exists</target>
+        <target state="translated">El archivo ya existe</target>
         <note>Message shown when trying to copy into an existing file.</note>
       </trans-unit>
       <trans-unit id="[Generic/File/title] Import Error" xml:space="preserve">
@@ -1650,7 +1650,7 @@ Como resultado, tanto la aplicación de AutoFill como la aplicación principal d
       </trans-unit>
       <trans-unit id="[Generic] Overwrite" xml:space="preserve">
         <source>Overwrite</source>
-        <target state="needs-translation">Overwrite</target>
+        <target state="translated">Sobreescribir</target>
         <note>Action/button to replace/overwrite an item</note>
       </trans-unit>
       <trans-unit id="[Generic] Rename" xml:space="preserve">
@@ -1670,7 +1670,7 @@ Como resultado, tanto la aplicación de AutoFill como la aplicación principal d
       </trans-unit>
       <trans-unit id="[Generic] Show more" xml:space="preserve">
         <source>Show more</source>
-        <target state="needs-translation">Show more</target>
+        <target state="translated">Mostrar más</target>
         <note>Checkbox/Button to show a text field in its full size</note>
       </trans-unit>
       <trans-unit id="[Group/Create/action] Create Group" xml:space="preserve">
@@ -1695,17 +1695,17 @@ Como resultado, tanto la aplicación de AutoFill como la aplicación principal d
       </trans-unit>
       <trans-unit id="[HardwareKey/AutoFill/NotAvailable] Hardware keys are not available in AutoFill." xml:space="preserve">
         <source>Hardware keys are not available in AutoFill.</source>
-        <target state="needs-translation">Hardware keys are not available in AutoFill.</target>
+        <target state="translated">Las llaves físicas no están disponibles con autocompletar.</target>
         <note>A notification that hardware keys (e.g. YubiKey) cannot be used in AutoFill (the OS does not allow the AutoFill to use NFC/MFI).</note>
       </trans-unit>
       <trans-unit id="[HardwareKey/None] No Hardware Key" xml:space="preserve">
         <source>No Hardware Key</source>
-        <target state="needs-translation">No Hardware Key</target>
+        <target state="translated">Sin llave física</target>
         <note>Master key/unlock option: don't use hardware keys</note>
       </trans-unit>
       <trans-unit id="[HardwareKey/YubiKey/Slot] YubiKey Slot #%d" xml:space="preserve">
         <source>YubiKey Slot %d</source>
-        <target state="needs-translation">YubiKey Slot %d</target>
+        <target state="translated">Unidad de YubiKey %d</target>
         <note>Master key/unlock option: use given slot of YubiKey</note>
       </trans-unit>
       <trans-unit id="[ItemCategory] Default (KeePass)" xml:space="preserve">
@@ -1752,12 +1752,12 @@ Como resultado, tanto la aplicación de AutoFill como la aplicación principal d
       </trans-unit>
       <trans-unit id="[Premium/Benefits/HardwareKeys/details]" xml:space="preserve">
         <source>Protect your secrets with a hardware key, such as YubiKey.</source>
-        <target state="needs-translation">Protect your secrets with a hardware key, such as YubiKey.</target>
+        <target state="translated">Proteje tus secretos y contraseñas con una llave física como una YubiKey.</target>
         <note>Explanation of the premium feature</note>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/HardwareKeys/title]" xml:space="preserve">
         <source>Use hardware keys</source>
-        <target state="needs-translation">Use hardware keys</target>
+        <target state="translated">Usar llaves físicas</target>
         <note>Title of a premium feature</note>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/Maintenance/details]" xml:space="preserve">
@@ -1882,12 +1882,12 @@ Como resultado, tanto la aplicación de AutoFill como la aplicación principal d
       </trans-unit>
       <trans-unit id="[PremiumFeature/HardwareKeys/description]" xml:space="preserve">
         <source>Strengthen your security with hardware keys (YubiKey) in the premium version.</source>
-        <target state="needs-translation">Strengthen your security with hardware keys (YubiKey) in the premium version.</target>
+        <target state="translated">Mejora la seguridad de tu archivo de contraseñas con el soporte de llaves físicas (YubiKey) en la versión premium.</target>
         <note>Description/advertisement for the `Hardware Keys` premium feature</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/HardwareKeys/title] Hardware Keys" xml:space="preserve">
         <source>Hardware Keys</source>
-        <target state="needs-translation">Hardware Keys</target>
+        <target state="translated">Llaves físicas</target>
         <note>Title of a premium feature: ability use hardware keys (e.g. YubiKey) for encryption (In Title Case)</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/LongDBTimeouts/description] Save time entering your complex master passwords — keep your database open longer in the premium version." xml:space="preserve">
@@ -2012,22 +2012,22 @@ Como resultado, tanto la aplicación de AutoFill como la aplicación principal d
       </trans-unit>
       <trans-unit id="[YubiKey] Don't use YubiKey" xml:space="preserve">
         <source>Without YubiKey</source>
-        <target state="needs-translation">Without YubiKey</target>
+        <target state="translated">Sin YubiKey</target>
         <note>Selector choice: don't use YubiKey to encrypt/decrypt database</note>
       </trans-unit>
       <trans-unit id="[YubiKey] Insert the key" xml:space="preserve">
         <source>Insert the key</source>
-        <target state="needs-translation">Insert the key</target>
+        <target state="translated">Conecta la llave</target>
         <note>Call for action: insert YubiKey 5Ci to the Lightning port</note>
       </trans-unit>
       <trans-unit id="[YubiKey] Touch the key" xml:space="preserve">
         <source>Touch the key</source>
-        <target state="needs-translation">Touch the key</target>
+        <target state="translated">Toca la llave</target>
         <note>Call for action: touch the sides of YubiKey 5Ci to continue</note>
       </trans-unit>
       <trans-unit id="[YubiKey] Use YubiKey Slot %d" xml:space="preserve">
         <source>Use YubiKey Slot %d</source>
-        <target state="needs-translation">Use YubiKey Slot %d</target>
+        <target state="translated">Usa la unidad YubiKey %d</target>
         <note>Selector choice: use YubiKey to encrypt/decrypt database. For example: `Use YubiKey Slot 1`. [slotID: Int]</note>
       </trans-unit>
     </body>
@@ -2149,7 +2149,7 @@ Como resultado, tanto la aplicación de AutoFill como la aplicación principal d
       </trans-unit>
       <trans-unit id="Xee-Y1-Dcw.text" xml:space="preserve">
         <source>Yubico Mobile iOS SDK by Yubico AB</source>
-        <target state="needs-translation">Yubico Mobile iOS SDK by Yubico AB</target>
+        <target state="translated">SDK Yubico Mobile para iOS de Yubico AB</target>
         <note>Class = "UILabel"; text = "Yubico Mobile iOS SDK by Yubico AB"; ObjectID = "Xee-Y1-Dcw";</note>
       </trans-unit>
       <trans-unit id="aqX-J9-IzD.text" xml:space="preserve">
@@ -2194,7 +2194,7 @@ Como resultado, tanto la aplicación de AutoFill como la aplicación principal d
       </trans-unit>
       <trans-unit id="ht7-pj-Dbb.text" xml:space="preserve">
         <source>Apache 2.0 license</source>
-        <target state="needs-translation">Apache 2.0 license</target>
+        <target state="translated">Licencia Apache 2.0</target>
         <note>Class = "UILabel"; text = "Apache 2.0 license"; ObjectID = "ht7-pj-Dbb";</note>
       </trans-unit>
       <trans-unit id="iKy-z5-Ox7.text" xml:space="preserve">
@@ -2538,7 +2538,7 @@ Puedes gestionar y cancelar tus suscripciones accediendo a los ajustes de tu cue
       </trans-unit>
       <trans-unit id="WDb-aU-Mmf.text" xml:space="preserve">
         <source>Fill-in the perfect result automatically</source>
-        <target state="needs-translation">Fill-in the perfect result automatically</target>
+        <target state="translated">Autocompletar automáticamente con entrada inequívoca</target>
         <note>Class = "UILabel"; text = "Fill-in the perfect result automatically"; ObjectID = "WDb-aU-Mmf"; Note = "Title of an option: copy one-time password to clipboard when using AutoFill";</note>
       </trans-unit>
       <trans-unit id="X2u-c9-gwU.text" xml:space="preserve">
@@ -2573,12 +2573,12 @@ Puedes gestionar y cancelar tus suscripciones accediendo a los ajustes de tu cue
       </trans-unit>
       <trans-unit id="jYl-ks-dFG.footerTitle" xml:space="preserve">
         <source>When AutoFill finds only one, perfectly matching, entry – this entry will be pasted automatically.</source>
-        <target state="needs-translation">When AutoFill finds only one, perfectly matching, entry – this entry will be pasted automatically.</target>
+        <target state="translated">Si el sistema de autocompletar encuentra sólo una entrada que coincide, pegará automáticamente usuario y contraseña.</target>
         <note>Class = "UITableViewSection"; footerTitle = "When AutoFill finds only one, perfectly matching, entry – this entry will be pasted automatically."; ObjectID = "jYl-ks-dFG";</note>
       </trans-unit>
       <trans-unit id="jYl-ks-dFG.headerTitle" xml:space="preserve">
         <source>Automatic search</source>
-        <target state="needs-translation">Automatic search</target>
+        <target state="translated">Búsqueda automática</target>
         <note>Class = "UITableViewSection"; headerTitle = "Automatic search"; ObjectID = "jYl-ks-dFG";</note>
       </trans-unit>
       <trans-unit id="r0b-qe-g8J.headerTitle" xml:space="preserve">
@@ -2727,7 +2727,7 @@ Puedes gestionar y cancelar tus suscripciones accediendo a los ajustes de tu cue
       </trans-unit>
       <trans-unit id="YL6-U9-FM6.text" xml:space="preserve">
         <source>Universal Clipboard</source>
-        <target state="needs-translation">Universal Clipboard</target>
+        <target state="translated">Portapapeles universal</target>
         <note>Class = "UILabel"; text = "Universal Clipboard"; ObjectID = "YL6-U9-FM6";</note>
       </trans-unit>
       <trans-unit id="e1v-nv-Mst.normalTitle" xml:space="preserve">
@@ -2737,17 +2737,17 @@ Puedes gestionar y cancelar tus suscripciones accediendo a los ajustes de tu cue
       </trans-unit>
       <trans-unit id="e6Y-AP-hag.footerTitle" xml:space="preserve">
         <source>Hide passwords and other protected fields behind asterisks (recommended).</source>
-        <target state="needs-translation">Hide passwords and other protected fields behind asterisks (recommended).</target>
+        <target state="translated">Ocultar contraseñas y otros campos protegidos detrás de asteriscos (recomendado).</target>
         <note>Class = "UITableViewSection"; footerTitle = "Hide passwords and other protected fields behind asterisks (recommended)."; ObjectID = "e6Y-AP-hag";</note>
       </trans-unit>
       <trans-unit id="e6Y-AP-hag.headerTitle" xml:space="preserve">
         <source>Protected Fields</source>
-        <target state="needs-translation">Protected Fields</target>
+        <target state="translated">Campos protegidos</target>
         <note>Class = "UITableViewSection"; headerTitle = "Protected Fields"; ObjectID = "e6Y-AP-hag";</note>
       </trans-unit>
       <trans-unit id="g9a-rJ-4WJ.footerTitle" xml:space="preserve">
         <source>Use Universal Clipboard to copy and paste between your Apple devices.</source>
-        <target state="needs-translation">Use Universal Clipboard to copy and paste between your Apple devices.</target>
+        <target state="translated">Usa el portapapeles universal para copiar y pegar entre tus dispositivos Apple.</target>
         <note>Class = "UITableViewSection"; footerTitle = "Use Universal Clipboard to copy and paste between your Apple devices."; ObjectID = "g9a-rJ-4WJ";</note>
       </trans-unit>
       <trans-unit id="hnI-Q8-Ixm.footerTitle" xml:space="preserve">
@@ -2772,7 +2772,7 @@ Puedes gestionar y cancelar tus suscripciones accediendo a los ajustes de tu cue
       </trans-unit>
       <trans-unit id="pid-k2-idJ.text" xml:space="preserve">
         <source>Hide Passwords</source>
-        <target state="needs-translation">Hide Passwords</target>
+        <target state="translated">Ocultar contraseñas</target>
         <note>Class = "UILabel"; text = "Hide Passwords"; ObjectID = "pid-k2-idJ";</note>
       </trans-unit>
       <trans-unit id="weX-SZ-IDB.text" xml:space="preserve">
@@ -2811,20 +2811,57 @@ Puedes gestionar y cancelar tus suscripciones accediendo a los ajustes de tu cue
       </trans-unit>
     </body>
   </file>
+  <file original="KeePassium/settings/Base.lproj/SettingsSearchVC.storyboard" source-language="en" target-language="es" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+    </header>
+    <body>
+      <trans-unit id="DJr-hC-DMT.footerTitle" xml:space="preserve">
+        <source>After opening a database, automatically show the search field.</source>
+        <target state="translated">Mostrar automáticamente el campo de búsqueda tras abrir una base de datos.</target>
+        <note>Class = "UITableViewSection"; footerTitle = "After opening a database, automatically show the search field."; ObjectID = "DJr-hC-DMT"; Note = "A section in search-related settings: what happens when the app is just started or database is just opened.";</note>
+      </trans-unit>
+      <trans-unit id="Io8-uP-3lF.headerTitle" xml:space="preserve">
+        <source>Search Scope</source>
+        <target state="translated">Ámbito de búsqueda</target>
+        <note>Class = "UITableViewSection"; headerTitle = "Search Scope"; ObjectID = "Io8-uP-3lF"; Note = "A section in search-related settings: which fields to include in search.";</note>
+      </trans-unit>
+      <trans-unit id="LrQ-5g-wj0.text" xml:space="preserve">
+        <source>Search in Protected Values</source>
+        <target state="translated">Buscar en campos protegidos</target>
+        <note>Class = "UILabel"; text = "Search in Protected Values"; ObjectID = "LrQ-5g-wj0"; Note = "An switch in settings: whether to include protected field values in search procedure.";</note>
+      </trans-unit>
+      <trans-unit id="RZt-EW-TGN.title" xml:space="preserve">
+        <source>Search</source>
+        <target state="translated">Buscar</target>
+        <note>Class = "UITableViewController"; title = "Search"; ObjectID = "RZt-EW-TGN"; Note = "Section title in settings";</note>
+      </trans-unit>
+      <trans-unit id="cCm-E4-L3m.text" xml:space="preserve">
+        <source>Search in Field Names</source>
+        <target state="translated">Buscar en nombre de campo</target>
+        <note>Class = "UILabel"; text = "Search in Field Names"; ObjectID = "cCm-E4-L3m"; Note = "An switch in settings: whether to include entry field names in search procedure.";</note>
+      </trans-unit>
+      <trans-unit id="q0v-f7-D4Y.text" xml:space="preserve">
+        <source>Start with Search</source>
+        <target state="translated">Iniciar con búsqueda</target>
+        <note>Class = "UILabel"; text = "Start with Search"; ObjectID = "q0v-f7-D4Y";</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="KeePassium/settings/Base.lproj/SettingsVC.storyboard" source-language="en" target-language="es" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
     </header>
     <body>
-      <trans-unit id="9Me-8P-nIZ.footerTitle" xml:space="preserve">
-        <source>After opening a database, automatically show the search field.</source>
-        <target state="translated">Al abrir una base de datos, se mostrará automáticamente el campo de búsquedas.</target>
-        <note>Class = "UITableViewSection"; footerTitle = "After opening a database, automatically show the search field."; ObjectID = "9Me-8P-nIZ";</note>
-      </trans-unit>
-      <trans-unit id="9Me-8P-nIZ.headerTitle" xml:space="preserve">
+      <trans-unit id="9yn-W3-FDl.headerTitle" xml:space="preserve">
         <source>Start</source>
-        <target state="translated">Inicio</target>
-        <note>Class = "UITableViewSection"; headerTitle = "Start"; ObjectID = "9Me-8P-nIZ";</note>
+        <target state="translated">Al iniciar la aplicación</target>
+        <note>Class = "UITableViewSection"; headerTitle = "Start"; ObjectID = "9yn-W3-FDl"; Note = "Section in settings: settings that define what happens when the app is started.";</note>
+      </trans-unit>
+      <trans-unit id="756-sL-G2t.text" xml:space="preserve">
+        <source>Auto-open the Previous Database</source>
+        <target state="translated">Abrir automáticamente la base de datos previa</target>
+        <note>Class = "UILabel"; text = "Auto-open the Previous Database"; ObjectID = "756-sL-G2t"; Note = "Option in settings: whether to open the last used database automatically on start.";</note>
       </trans-unit>
       <trans-unit id="A5N-B3-t3t.headerTitle" xml:space="preserve">
         <source>Premium</source>
@@ -2845,6 +2882,11 @@ Puedes gestionar y cancelar tus suscripciones accediendo a los ajustes de tu cue
         <source>Master keys, key files</source>
         <target state="translated">Claves maestras, archivos de claves</target>
         <note>Class = "UILabel"; text = "Master keys, key files"; ObjectID = "FHp-ns-ke9"; Note = "Subtitle/details for `Data Protection`";</note>
+      </trans-unit>
+      <trans-unit id="GLr-Uf-Kln.text" xml:space="preserve">
+        <source>Search</source>
+        <target state="translated">Buscar</target>
+        <note>Class = "UILabel"; text = "Search"; ObjectID = "GLr-Uf-Kln"; Note = "Section title in settings";</note>
       </trans-unit>
       <trans-unit id="HCe-A3-eG6.text" xml:space="preserve">
         <source>Premium Version</source>
@@ -2921,15 +2963,15 @@ Puedes gestionar y cancelar tus suscripciones accediendo a los ajustes de tu cue
         <target state="translated">Actualizar a Premium</target>
         <note>Class = "UILabel"; text = "Upgrade to Premium"; ObjectID = "oxG-N8-1ld";</note>
       </trans-unit>
+      <trans-unit id="qEE-z7-pd0.headerTitle" xml:space="preserve">
+        <source>Search</source>
+        <target state="translated">Buscar</target>
+        <note>Class = "UITableViewSection"; headerTitle = "Search"; ObjectID = "qEE-z7-pd0"; Note = "Section title in settings";</note>
+      </trans-unit>
       <trans-unit id="qhK-lw-bGy.text" xml:space="preserve">
         <source>For expert troubleshooting</source>
         <target state="translated">Solucionar problemas de expertos</target>
         <note>Class = "UILabel"; text = "For expert troubleshooting"; ObjectID = "qhK-lw-bGy"; Note = "Subtitle for `Diagnostic Log`. Keep it short.";</note>
-      </trans-unit>
-      <trans-unit id="yuN-Ls-o9d.text" xml:space="preserve">
-        <source>Start with Search</source>
-        <target state="translated">Iniciar con campo de búsquedas</target>
-        <note>Class = "UILabel"; text = "Start with Search"; ObjectID = "yuN-Ls-o9d";</note>
       </trans-unit>
       <trans-unit id="zUh-Sn-3ya.text" xml:space="preserve">
         <source>Manage Subscriptions</source>
