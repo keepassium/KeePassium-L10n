@@ -137,6 +137,11 @@
         <target state="translated">Nerozpoznaný formát databáze</target>
         <note>Error message</note>
       </trans-unit>
+      <trans-unit id="[Database/Progress/resolving]" xml:space="preserve">
+        <source>Contacting storage provider...</source>
+        <target state="needs-translation">Contacting storage provider...</target>
+        <note>Progress status</note>
+      </trans-unit>
       <trans-unit id="[Database/Progress] Done" xml:space="preserve">
         <source>Done</source>
         <target state="translated">Hotovo</target>
@@ -342,6 +347,21 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="translated">Databáze obsahuje některé přílohy, které nejsou použity v žádném záznamu. Pravděpodobně zapomenuto při posledním použitím aplikace (%@). Nicméně to může být také známkou poškození dat.
 Prosím ujistěte se, že máte zálohu vaší databáze před nedávnou změnou.</target>
         <note>A warning about unused attachments after loading the database. [lastUsedAppName: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Progress/decompressing]" xml:space="preserve">
+        <source>Decompressing database</source>
+        <target state="needs-translation">Decompressing database</target>
+        <note>Progress bar status: un-zipping the database content</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Progress/integrityCheck]" xml:space="preserve">
+        <source>Checking integrity</source>
+        <target state="needs-translation">Checking integrity</target>
+        <note>Progress bar status</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Progress/parsingXML]" xml:space="preserve">
+        <source>Parsing database</source>
+        <target state="needs-translation">Parsing database</target>
+        <note>Progress bar status: parsing decrypted XML content</note>
       </trans-unit>
       <trans-unit id="[Database2/Progress] Loading database" xml:space="preserve">
         <source>Loading database</source>

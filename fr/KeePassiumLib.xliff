@@ -29,32 +29,32 @@
       </trans-unit>
       <trans-unit id="[ChallengeResponseError] cancelled" xml:space="preserve">
         <source>Cancelled by the user.</source>
-        <target state="needs-translation">Cancelled by the user.</target>
+        <target state="translated">Annulé par l'utilisateur.</target>
         <note>Error message when the challenge-response communication has been cancelled by the user.</note>
       </trans-unit>
       <trans-unit id="[ChallengeResponseError] keyNotConnected" xml:space="preserve">
         <source>Hardware key is not connected.</source>
-        <target state="needs-translation">Hardware key is not connected.</target>
+        <target state="translated">La clé matérielle n'est pas connectée.</target>
         <note>Error message when the hardware key is not plugged in.</note>
       </trans-unit>
       <trans-unit id="[ChallengeResponseError] notAvailableInAutoFill" xml:space="preserve">
         <source>Hardware keys are not available in AutoFill.</source>
-        <target state="needs-translation">Hardware keys are not available in AutoFill.</target>
+        <target state="translated">Les clés materielles ne sont pas disponibles dans AutoFill.</target>
         <note>Error message when trying to use challenge-response hardware in AutoFill.</note>
       </trans-unit>
       <trans-unit id="[ChallengeResponseError] notSupportedByDatabaseFormat" xml:space="preserve">
         <source>Hardware keys are not supported by this database format.</source>
-        <target state="needs-translation">Hardware keys are not supported by this database format.</target>
+        <target state="translated">Les clés matérielles ne sont pas prises en charge par ce format de base de données.</target>
         <note>Error message when trying to use challenge-response with a kdb database.</note>
       </trans-unit>
       <trans-unit id="[ChallengeResponseError] notSupportedByDeviceOrSystem" xml:space="preserve">
         <source>This device or iOS version does not support hardware keys (%@)</source>
-        <target state="needs-translation">This device or iOS version does not support hardware keys (%@)</target>
+        <target state="translated">Cette version de l'appareil ou d'iOS ne prend pas en charge les clés matérielles (%@)</target>
         <note>Error message when trying to use a hardware challenge-response key on unsupported device/iOS version. %@ will be the name of the hardware interface, such as `NFC` or `Lightning`.</note>
       </trans-unit>
       <trans-unit id="[ChallengeResponseError] slotNotConfigured" xml:space="preserve">
         <source>Hardware key is not configured for challenge-response.</source>
-        <target state="needs-translation">Hardware key is not configured for challenge-response.</target>
+        <target state="translated">La clé matérielle n'est pas configurée pour le challenge-response.</target>
         <note>Error message: the hardware key (or its slot) was not configured for challenge-response operations.</note>
       </trans-unit>
       <trans-unit id="[Cipher/Progress] Decrypting" xml:space="preserve">
@@ -145,6 +145,11 @@ Fichier: KeePassiumLib. xliff</target>
         <source>Unrecognized database format</source>
         <target state="translated">Format de la base de données non reconnu</target>
         <note>Error message</note>
+      </trans-unit>
+      <trans-unit id="[Database/Progress/resolving]" xml:space="preserve">
+        <source>Contacting storage provider...</source>
+        <target state="translated">Contact avec le fournisseur de stockage...</target>
+        <note>Progress status</note>
       </trans-unit>
       <trans-unit id="[Database/Progress] Done" xml:space="preserve">
         <source>Done</source>
@@ -351,6 +356,21 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="translated">La base de données contient des pièces jointes qui ne sont utilisées dans aucune entrée. Très probablement, ils ont été oubliés par la dernière application (%@). Cependant, cela peut également être un signe de corruption des données. 
 Veuillez vous assurer d'avoir une sauvegarde de votre base de données avant de changer quoi que ce soit.</target>
         <note>A warning about unused attachments after loading the database. [lastUsedAppName: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Progress/decompressing]" xml:space="preserve">
+        <source>Decompressing database</source>
+        <target state="translated">Décompression de la base de données</target>
+        <note>Progress bar status: un-zipping the database content</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Progress/integrityCheck]" xml:space="preserve">
+        <source>Checking integrity</source>
+        <target state="translated">Vérification de l'intégrité</target>
+        <note>Progress bar status</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Progress/parsingXML]" xml:space="preserve">
+        <source>Parsing database</source>
+        <target state="translated">Analyse de la base de données</target>
+        <note>Progress bar status: parsing decrypted XML content</note>
       </trans-unit>
       <trans-unit id="[Database2/Progress] Loading database" xml:space="preserve">
         <source>Loading database</source>
