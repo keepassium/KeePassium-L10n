@@ -2,7 +2,7 @@
 <xliff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="KeePassiumLib/en.lproj/InfoPlist.strings" source-language="en" target-language="ru" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="CFBundleName" xml:space="preserve" approved="yes">
@@ -14,7 +14,7 @@
   </file>
   <file original="KeePassiumLib/en.lproj/Localizable.strings" source-language="en" target-language="ru" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="[AppLock/Passcode/KeyboardType/title] Alphanumeric" xml:space="preserve" approved="yes">
@@ -137,6 +137,16 @@
         <target state="final">Неизвестный формат базы</target>
         <note>Error message</note>
       </trans-unit>
+      <trans-unit id="[Database/Progress/downloading]" xml:space="preserve">
+        <source>Downloading database file...</source>
+        <target state="translated">Загрузка базы паролей...</target>
+        <note>Database loading status: fetching the database file from disk/cloud</note>
+      </trans-unit>
+      <trans-unit id="[Database/Progress/makingDatabaseBackup]" xml:space="preserve">
+        <source>Making backup copy...</source>
+        <target state="translated">Создание резервной копии...</target>
+        <note>Database saving status: making a local backup copy of the database</note>
+      </trans-unit>
       <trans-unit id="[Database/Progress/resolving]" xml:space="preserve">
         <source>Contacting storage provider...</source>
         <target state="translated">Соединение с хранилищем...</target>
@@ -146,11 +156,6 @@
         <source>Done</source>
         <target state="final">Готово</target>
         <note>Progress status: finished loading database</note>
-      </trans-unit>
-      <trans-unit id="[Database/Progress] Loading database file..." xml:space="preserve" approved="yes">
-        <source>Loading database file...</source>
-        <target state="final">Загрузка базы паролей...</target>
-        <note>Progress bar status</note>
       </trans-unit>
       <trans-unit id="[Database/Progress] Loading key file..." xml:space="preserve" approved="yes">
         <source>Loading key file...</source>
@@ -438,10 +443,50 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="final">Неверный пароль или ключевой файл</target>
         <note>Error message: user provided a wrong master key for decryption.</note>
       </trans-unit>
-      <trans-unit id="[FileDocument] Unexpected file error, please contact us." xml:space="preserve" approved="yes">
-        <source>Unexpected file error, please contact us.</source>
-        <target state="final">Неожиданная ошибка при работе с файлами. Пожалуйста, сообщите об этом нам.</target>
-        <note>A very generic error message</note>
+      <trans-unit id="[FileAccessError/FileProvider/NotFound/generic]" xml:space="preserve">
+        <source>Storage provider is not available. Please check whether it is installed and logged in to your account.</source>
+        <target state="translated">Хранилище файлов недоступно. Убедитесь, что соответствующее приложение установлено и подключено к вашему аккаунту.</target>
+        <note>Error message: storage provider app was logged out or uninstalled.</note>
+      </trans-unit>
+      <trans-unit id="[FileAccessError/FileProvider/NotFound/other]" xml:space="preserve">
+        <source>%@ is not available. Please check whether it is installed and logged in to your account.</source>
+        <target state="translated">%@ недоступен. Убедитесь, что соответствующее приложение установлено и подключено к вашему аккаунту.</target>
+        <note>Error message: storage provider app was logged out or uninstalled [fileProviderName: String].</note>
+      </trans-unit>
+      <trans-unit id="[FileAccessError/FileProvider/NotFound/smbShare]" xml:space="preserve">
+        <source>Network storage is disconnected.</source>
+        <target state="translated">Сетевое хранилище не подключено.</target>
+        <note>Error message: the required network drive is not connected.</note>
+      </trans-unit>
+      <trans-unit id="[FileAccessError/FileProvider/NotFound/usbDrive]" xml:space="preserve">
+        <source>USB drive is disconnected.</source>
+        <target state="translated">USB-накопитель не подключен.</target>
+        <note>Error message: there is no USB drive connected to the device.</note>
+      </trans-unit>
+      <trans-unit id="[FileAccessError/NoResponse/genericFileProvider]" xml:space="preserve">
+        <source>Storage provider does not respond.</source>
+        <target state="translated">Хранилище файлов не отвечает.</target>
+        <note>Error message: storage provider app (e.g. Google Drive) does not respond to requests.</note>
+      </trans-unit>
+      <trans-unit id="[FileAccessError/NoResponse/knownFileProvider]" xml:space="preserve">
+        <source>%@ does not respond.</source>
+        <target state="translated">%@ не отвечает.</target>
+        <note>Error message: file provider does not respond to requests. For example: `Google Drive does not respond.`</note>
+      </trans-unit>
+      <trans-unit id="[FileAccessError/Timeout/genericFileProvider]" xml:space="preserve">
+        <source>Storage provider does not respond.</source>
+        <target state="translated">Хранилище файлов не отвечает.</target>
+        <note>Error message: storage provider app (e.g. Google Drive) does not respond to requests (quickly enough).</note>
+      </trans-unit>
+      <trans-unit id="[FileAccessError/Timeout/knownFileProvider]" xml:space="preserve">
+        <source>%@ does not respond.</source>
+        <target state="translated">%@ не отвечает.</target>
+        <note>Error message: file provider does not respond to requests (quickly enough). For example: `Google Drive does not respond`</note>
+      </trans-unit>
+      <trans-unit id="[FileAccessError/internalError]" xml:space="preserve">
+        <source>Internal KeePassium error, please tell us about it.</source>
+        <target state="translated">Внутренняя ошибка KeePassium. Пожалуйста, сообщите нам об этом.</target>
+        <note>Error message shown when there's internal inconsistency in KeePassium.</note>
       </trans-unit>
       <trans-unit id="[FileKeeper] Failed to delete file. Reason: %@" xml:space="preserve" approved="yes">
         <source>Failed to delete file. Reason: %@</source>
@@ -462,6 +507,116 @@ Please make sure to have a backup of your database before changing anything.</so
         <source>Not a file URL</source>
         <target state="final">Не файловый URL</target>
         <note>Error message: tried to import URL which does not point to a file</note>
+      </trans-unit>
+      <trans-unit id="[FileProvider/Amerigo/name]" xml:space="preserve">
+        <source>Amerigo</source>
+        <target state="translated">Amerigo</target>
+        <note>Localized name of the storage service: Amerigo (https://www.amerigo-app.com)</note>
+      </trans-unit>
+      <trans-unit id="[FileProvider/Box/name]" xml:space="preserve">
+        <source>Box</source>
+        <target state="translated">Box</target>
+        <note>Localized name of the storage service: Box (https://box.com)</note>
+      </trans-unit>
+      <trans-unit id="[FileProvider/Boxcryptor/name]" xml:space="preserve">
+        <source>Boxcryptor</source>
+        <target state="translated">Boxcryptor</target>
+        <note>Localized name of the storage service: Boxcryptor (https://boxcryptor.com)</note>
+      </trans-unit>
+      <trans-unit id="[FileProvider/Dropbox/name]" xml:space="preserve">
+        <source>Dropbox</source>
+        <target state="translated">Dropbox</target>
+        <note>Localized name of the storage service: Dropbox (https://dropbox.com)</note>
+      </trans-unit>
+      <trans-unit id="[FileProvider/FE File Explorer/name]" xml:space="preserve">
+        <source>FE File Explorer</source>
+        <target state="translated">FE File Explorer</target>
+        <note>Localized name of the storage service: FE File Explorer (https://apps.apple.com/app/fe-file-explorer-file-manager/id510282524)</note>
+      </trans-unit>
+      <trans-unit id="[FileProvider/Google Drive/name]" xml:space="preserve">
+        <source>Google Drive</source>
+        <target state="translated">Google Диск</target>
+        <note>Localized name of the storage service: Google Drive (https://drive.google.com)</note>
+      </trans-unit>
+      <trans-unit id="[FileProvider/Nextcloud/name]" xml:space="preserve">
+        <source>Nextcloud</source>
+        <target state="translated">Nextcloud</target>
+        <note>Localized name of the storage service: Nextcloud (https://nextcloud.com)</note>
+      </trans-unit>
+      <trans-unit id="[FileProvider/On My iPad/name]" xml:space="preserve">
+        <source>On My iPad</source>
+        <target state="translated">iPad</target>
+        <note>Localized name of the local on-device storage, as shown in the Files app.</note>
+      </trans-unit>
+      <trans-unit id="[FileProvider/On My iPhone/name]" xml:space="preserve">
+        <source>On My iPhone</source>
+        <target state="translated">iPhone</target>
+        <note>Localized name of the local on-device storage, as shown in the Files app.</note>
+      </trans-unit>
+      <trans-unit id="[FileProvider/OneDrive/name]" xml:space="preserve">
+        <source>OneDrive</source>
+        <target state="translated">OneDrive</target>
+        <note>Localized name of the storage service: OneDrive (https://onedrive.com)</note>
+      </trans-unit>
+      <trans-unit id="[FileProvider/Readdle Documents/name]" xml:space="preserve" approved="yes">
+        <source>Documents by Readdle</source>
+        <target state="final">Documents от Readdle</target>
+        <note>Localized name of the storage service: Documents by Readdle (https://apps.apple.com/app/id364901807)</note>
+      </trans-unit>
+      <trans-unit id="[FileProvider/Resilio Sync/name]" xml:space="preserve">
+        <source>Resilio Sync</source>
+        <target state="translated">Resilio Sync</target>
+        <note>Localized name of the storage service: Resilio Sync (https://https://apps.apple.com/us/app/id1126282325)</note>
+      </trans-unit>
+      <trans-unit id="[FileProvider/SMB/name]" xml:space="preserve">
+        <source>SMB server</source>
+        <target state="translated">SMB сервер</target>
+        <note>Localized name of the storage service: SMB server (network share) via native iOS integration.</note>
+      </trans-unit>
+      <trans-unit id="[FileProvider/Synology DS file/name]" xml:space="preserve">
+        <source>Synology DS file</source>
+        <target state="translated">Synology DS file</target>
+        <note>Localized name of the storage service: Synology DS file (https://apps.apple.com/us/app/ds-file/id416751772)</note>
+      </trans-unit>
+      <trans-unit id="[FileProvider/Synology Drive/name]" xml:space="preserve">
+        <source>Synology Drive</source>
+        <target state="translated">Synology Drive</target>
+        <note>Localized name of the storage service: Synology Drive (https://apps.apple.com/us/app/synology-drive/id1267275421)</note>
+      </trans-unit>
+      <trans-unit id="[FileProvider/Tresorit/name]" xml:space="preserve">
+        <source>Tresorit</source>
+        <target state="translated">Tresorit</target>
+        <note>Localized name of the storage service: Tresorit (https://tresorit.com)</note>
+      </trans-unit>
+      <trans-unit id="[FileProvider/USB drive/name]" xml:space="preserve">
+        <source>USB drive</source>
+        <target state="translated">USB-диск</target>
+        <note>Localized name of the storage service: local USB drive (native iOS integration)</note>
+      </trans-unit>
+      <trans-unit id="[FileProvider/Yandex.Disk/name]" xml:space="preserve">
+        <source>Yandex.Disk</source>
+        <target state="translated">Яндекс.Диск</target>
+        <note>Localized name of the storage service: Yandex.Disk (https://disk.yandex.com)</note>
+      </trans-unit>
+      <trans-unit id="[FileProvider/iCloud Drive/name]" xml:space="preserve">
+        <source>iCloud Drive</source>
+        <target state="translated">iCloud Drive</target>
+        <note>Localized name of the storage service iCloud Drive (https://icloud.com/iclouddrive)</note>
+      </trans-unit>
+      <trans-unit id="[FileProvider/ownCloud/name]" xml:space="preserve">
+        <source>ownCloud</source>
+        <target state="translated">ownCloud</target>
+        <note>Localized name of the storage service: ownCloud (https://owncloud.com)</note>
+      </trans-unit>
+      <trans-unit id="[FileProvider/pCloud/name]" xml:space="preserve">
+        <source>pCloud</source>
+        <target state="translated">pCloud</target>
+        <note>Localized name of the storage service: pCloud (https://pcloud.com)</note>
+      </trans-unit>
+      <trans-unit id="[FileProvider/sync.com/name]" xml:space="preserve">
+        <source>Sync.com</source>
+        <target state="translated">Sync.com</target>
+        <note>Localized name of the storage service: Sync.com (https://sync.com)</note>
       </trans-unit>
       <trans-unit id="[FilesSortOrder/longTitle] Creation Date (Oldest First)" xml:space="preserve" approved="yes">
         <source>Creation Date (Oldest First)</source>

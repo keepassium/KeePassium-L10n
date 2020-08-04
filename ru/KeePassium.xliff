@@ -2,7 +2,7 @@
 <xliff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="KeePassium AutoFill/controllers/Base.lproj/CrashReportVC.storyboard" source-language="en" target-language="ru" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="ebS-pB-Qan.title" xml:space="preserve" approved="yes">
@@ -32,7 +32,7 @@ Please contact us if you need help with this.</source>
   </file>
   <file original="KeePassium AutoFill/controllers/Base.lproj/DatabaseChooserVC.storyboard" source-language="en" target-language="ru" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="CbK-f7-To5.title" xml:space="preserve" approved="yes">
@@ -54,7 +54,7 @@ Please contact us if you need help with this.</source>
   </file>
   <file original="KeePassium AutoFill/controllers/Base.lproj/DatabaseUnlockerVC.storyboard" source-language="en" target-language="ru" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="89h-8b-LRO.normalTitle" xml:space="preserve" approved="yes">
@@ -81,7 +81,7 @@ Please contact us if you need help with this.</source>
   </file>
   <file original="KeePassium AutoFill/controllers/Base.lproj/DiagnosticsViewerVC.storyboard" source-language="en" target-language="ru" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="Ura-k4-GXq.title" xml:space="preserve" approved="yes">
@@ -93,7 +93,7 @@ Please contact us if you need help with this.</source>
   </file>
   <file original="KeePassium AutoFill/controllers/Base.lproj/EntryFinderVC.storyboard" source-language="en" target-language="ru" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="NSB-dG-jRN.text" xml:space="preserve" approved="yes">
@@ -115,26 +115,13 @@ Please contact us if you need help with this.</source>
   </file>
   <file original="KeePassium AutoFill/controllers/Base.lproj/FirstSetupVC.storyboard" source-language="en" target-language="ru" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="P0M-N3-ynf.text" xml:space="preserve" approved="yes">
         <source>Please re-add databases and key files you want to use with the AutoFill feature.</source>
         <target state="final">Для использования в Автозаполнении, пожалуйста добавьте базы паролей и ключевые файлы ещё раз.</target>
         <note>Class = "UILabel"; text = "Please re-add databases and key files you want to use with the AutoFill feature."; ObjectID = "P0M-N3-ynf";</note>
-      </trans-unit>
-      <trans-unit id="UAW-0G-N5G.text" xml:space="preserve" approved="yes">
-        <source>The AutoFill cannot automatically access the files you already have in the main KeePassium app.
-
-Why? Behind the scenes, the system treats AutoFill as a separate app, independent from the main KeePassium process. For security reasons, an app cannot simply access any external files – unless you explicitly link these files to that app. Thus the system guarantees that the app can only access the few files you allowed it to.
-
-As a result, both AutoFill and the main KeePassium app need to be given their own permissions for each external file. Luckily, this is a one-time procedure.</source>
-        <target state="final">Автозаполнение не может автоматически открывать файлы, уже добавленные в основное приложение.
-
-Почему? С точки зрения системы, Автозаполнение — это отдельное приложение, независимое от основного. В целях безопасности, приложение не может просто так открывать файлы в других приложениях, если только пользователь не свяжет эти файлы с этим приложением. Таким образом система гарантирует, что приложения могут работать только с несколькими специально выбранными файлами.
-
-В результате, и Автозаполнение, и основное приложение должны получить "отдельные приглашения" для работы с каждым внешним файлом. К счастью, эта процедура нужна только один раз.</target>
-        <note>Class = "UITextView"; text = "The AutoFill cannot automatically access the files you already have in the main KeePassium app.\n\nWhy? Behind the scenes, the system treats AutoFill as a separate app, independent from the main KeePassium process. For security reasons, an app cannot simply access any external files – unless you explicitly link these files to that app. Thus the system guarantees that the app can only access the few files you allowed it to.\n\nAs a result, both AutoFill and the main KeePassium app need to be given their own permissions for each external file. Luckily, this is a one-time procedure."; ObjectID = "UAW-0G-N5G";</note>
       </trans-unit>
       <trans-unit id="enW-gs-tra.normalTitle" xml:space="preserve" approved="yes">
         <source>Add Database</source>
@@ -155,7 +142,7 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
   </file>
   <file original="KeePassium AutoFill/controllers/Base.lproj/KeyFileChooserVC.storyboard" source-language="en" target-language="ru" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="9UZ-FK-v73.text" xml:space="preserve" approved="yes">
@@ -187,7 +174,7 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
   </file>
   <file original="KeePassium AutoFill/en.lproj/InfoPlist.strings" source-language="en" target-language="ru" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName" xml:space="preserve" approved="yes">
@@ -209,7 +196,7 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
   </file>
   <file original="KeePassium AutoFill/en.lproj/Localizable.strings" source-language="en" target-language="ru" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="Add Database" xml:space="preserve" approved="yes">
@@ -259,13 +246,31 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="[AutoFill/Premium/Upgrade/Manual/text] To upgrade, please manually open KeePassium from your home screen." xml:space="preserve" approved="yes">
         <source>To upgrade, please manually open KeePassium from your home screen.</source>
-        <target state="final">Для обновления, пожалуйста откройте основное приложение KeePassium.</target>
+        <target state="final">Чтобы включить премиум-доступ, откройте основное приложение KeePassium.</target>
         <note>Message shown when AutoFill cannot automatically open the main app for upgrading to a premium version.</note>
       </trans-unit>
       <trans-unit id="[AutoFill/Premium/Upgrade/Manual/title] Premium Upgrade" xml:space="preserve" approved="yes">
         <source>Premium Upgrade</source>
-        <target state="final">Купить полную версию</target>
+        <target state="final">Премиум</target>
         <note>Title of a message related to upgrading to the premium version</note>
+      </trans-unit>
+      <trans-unit id="[AutoFill/Search/callerID]" xml:space="preserve">
+        <source>Caller ID: %@</source>
+        <target state="translated">Caller ID: %@</target>
+        <note>An identifier of the app that called AutoFill. The term is intentionally similar to https://ru.wikipedia.org/wiki/Caller_ID. [callerID: String]</note>
+      </trans-unit>
+      <trans-unit id="[AutoFill/Setup/footer]" xml:space="preserve">
+        <source>The AutoFill cannot automatically access the files you already have in the main KeePassium app.
+
+Why? Behind the scenes, the system treats AutoFill as a separate app, independent from the main KeePassium process. For security reasons, an app cannot simply access any external files – unless you explicitly link these files to that app. Thus the system guarantees that the app can only access the few files you allowed it to.
+
+As a result, both AutoFill and the main KeePassium app need to be given their own permissions for each external file. Luckily, this is a one-time procedure.</source>
+        <target state="translated">Автозаполнение не может автоматически открывать файлы, уже добавленные в основное приложение.
+
+Почему? С точки зрения системы, Автозаполнение — это отдельное приложение, независимое от основного. В целях безопасности, приложение не может просто так открывать файлы в других приложениях, если только пользователь не свяжет эти файлы с этим приложением. Таким образом система гарантирует, что приложения могут работать только с несколькими специально выбранными файлами.
+
+В результате, и Автозаполнение, и основное приложение должны получить "отдельные приглашения" для работы с каждым внешним файлом. К счастью, эта процедура нужна только один раз.</target>
+        <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="[BiometricAuthType] Face ID" xml:space="preserve" approved="yes">
         <source>Face ID</source>
@@ -416,6 +421,16 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <target state="translated">Попробуйте убрать файл из приложения, затем добавить его снова.</target>
         <note>A suggestion shown after specific file errors (either databases or key files).</note>
       </trans-unit>
+      <trans-unit id="[FileInfo/Backup/header]" xml:space="preserve" approved="yes">
+        <source>Backup</source>
+        <target state="final">Резервирование</target>
+        <note>Section header: file backup settings</note>
+      </trans-unit>
+      <trans-unit id="[FileInfo/Error/failed to change attributes]" xml:space="preserve">
+        <source>Failed to update file attributes.</source>
+        <target state="translated">Не удалось обновить атрибуты файла.</target>
+        <note>Error message shown when the user tries to change file attributes (such as creation/modification date, backup flag, etc)</note>
+      </trans-unit>
       <trans-unit id="[FileInfo/Field/title] Creation Date" xml:space="preserve" approved="yes">
         <source>Creation Date</source>
         <target state="final">Дата создания</target>
@@ -445,6 +460,11 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <source>Error</source>
         <target state="final">Ошибка</target>
         <note>Title of a field with an error message</note>
+      </trans-unit>
+      <trans-unit id="[FileInfo/isExcludedFromBackup/title]" xml:space="preserve">
+        <source>Exclude From iCloud/iTunes Backup</source>
+        <target state="translated">Исключить из резервной копии iCloud/iTunes</target>
+        <note>Title of a setting: is the file exluded from iCloud/iTunes backup. For example: `Exclude From Backup: &lt;Yes&gt;`</note>
       </trans-unit>
       <trans-unit id="[Generic/ConfirmDelete/title] Are you sure?" xml:space="preserve" approved="yes">
         <source>Are you sure?</source>
@@ -510,6 +530,11 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <source>Contact Us</source>
         <target state="final">Связаться с нами</target>
         <note>Action/button to write an email to support</note>
+      </trans-unit>
+      <trans-unit id="[Generic] Continue" xml:space="preserve">
+        <source>Continue</source>
+        <target state="translated">Продолжить</target>
+        <note>Action/button to proceed with the action</note>
       </trans-unit>
       <trans-unit id="[Generic] Copy" xml:space="preserve">
         <source>Copy</source>
@@ -623,24 +648,36 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
 Убедитесь, что у вас есть резервная копия.</target>
         <note>Message to confirm deletion of a key file.</note>
       </trans-unit>
-      <trans-unit id="[News/2019/10/ProVersionReleaseNews/title] KeePassium Pro" xml:space="preserve">
-        <source>KeePassium Pro</source>
-        <target state="translated">KeePassium Pro</target>
-        <note>Title of an announcement about the Pro version</note>
-      </trans-unit>
-      <trans-unit id="[News/AutoFill/stubText] Please open the main app for the full announcement." xml:space="preserve" approved="yes">
-        <source>Please open the main app for the full announcement.</source>
-        <target state="final">Пожалуйста, откройте главное приложение чтобы прочесть полное объявление.</target>
-        <note>Message shown when opening an announcement in AutoFill</note>
+      <trans-unit id="[KeyFile/Remove/Confirm/text] Remove key file from the list?&#10; The file will remain intact and you can add it again later." xml:space="preserve">
+        <source>Remove key file from the list?
+ The file will remain intact and you can add it again later.</source>
+        <target state="translated">Удалить ключевой файл из списка?
+ Файл останется нетронутым и вы можете добавить его позже.</target>
+        <note>Message to confirm removal of a key file from the app. (This keeps the file, but removes its reference from the app.)</note>
       </trans-unit>
       <trans-unit id="[Premium/Upgrade/action] Upgrade to Premium" xml:space="preserve" approved="yes">
         <source>Upgrade to Premium</source>
         <target state="final">Купить полную версию</target>
         <note>Action/button to start choosing premium versions and possibly buying one</note>
       </trans-unit>
+      <trans-unit id="[PremiumFeature/CustomAppIcons/title]" xml:space="preserve">
+        <source>Custom App Icons</source>
+        <target state="translated">Другая иконка приложения</target>
+        <note>Title of a premium feature: ability to change the app icon</note>
+      </trans-unit>
+      <trans-unit id="[PremiumFeature/Generic/description]" xml:space="preserve" approved="yes">
+        <source>You have found a premium feature! Upgrade to premium and enjoy KeePassium at its best.</source>
+        <target state="final">Вы нашли премиум-функцию! Подключите KeePassium Premium и пользуйтесь всеми возможностями программы.</target>
+        <note>A generic description of a premium feature</note>
+      </trans-unit>
+      <trans-unit id="[PremiumFeature/Generic/title]" xml:space="preserve" approved="yes">
+        <source>Premium Feature</source>
+        <target state="final">Премиум-функция</target>
+        <note>A generic title of a premium feature</note>
+      </trans-unit>
       <trans-unit id="[PremiumFeature/HardwareKeys/description]" xml:space="preserve" approved="yes">
         <source>Strengthen your security with hardware keys (YubiKey) in the premium version.</source>
-        <target state="final">Укрепите свою безопасность с помощью аппаратных ключей (YubiKey) в полной версии.</target>
+        <target state="final">Укрепите свою безопасность с помощью аппаратных ключей (YubiKey) в премиум-версии приложения.</target>
         <note>Description/advertisement for the `Hardware Keys` premium feature</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/HardwareKeys/title] Hardware Keys" xml:space="preserve">
@@ -650,7 +687,7 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="[PremiumFeature/LongDBTimeouts/description] Save time entering your complex master passwords — keep your database open longer in the premium version." xml:space="preserve" approved="yes">
         <source>Save time entering your complex master passwords — keep your database open longer in the premium version.</source>
-        <target state="final">Экономьте время на вводе сложных мастер-паролей — держите базу открытой дольше в полной версии приложения.</target>
+        <target state="final">Экономьте время на вводе сложных мастер-паролей — держите базу открытой дольше в премиум-версии приложения.</target>
         <note>Description/advertisement for the `Long Database Timeouts` premium feature</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/LongDBTimeouts/title] Long Database Timeouts" xml:space="preserve" approved="yes">
@@ -660,7 +697,7 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="[PremiumFeature/MultiDB/description] Easily switch between databases in the premium version." xml:space="preserve" approved="yes">
         <source>Easily switch between databases in the premium version.</source>
-        <target state="final">Переключайтесь между базами легко и быстро в полной версии приложения.</target>
+        <target state="final">Переключайтесь между базами легко и быстро в премиум-версии.</target>
         <note>Description/advertisement for the `Multiple Databases` premium feature</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/MultiDB/title] Multiple Databases" xml:space="preserve" approved="yes">
@@ -670,7 +707,7 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="[PremiumFeature/Preview/description] Preview images and documents directly in the app, in the premium version." xml:space="preserve" approved="yes">
         <source>Preview images and documents directly in the app, in the premium version.</source>
-        <target state="final">Просматривайте изображения и документы непосредственно в приложении – в полной версии.</target>
+        <target state="final">Просматривайте изображения и документы прямо в премиум-версии программы.</target>
         <note>Description/advertisement for the `Preview Attachments` premium feature</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/Preview/title] Preview Attachments" xml:space="preserve" approved="yes">
@@ -710,9 +747,21 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
     </body>
   </file>
+  <file original="KeePassium/challenge-response/Base.lproj/HardwareKeyPicker.storyboard" source-language="en" target-language="ru" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
+    </header>
+    <body>
+      <trans-unit id="fH6-bS-mDZ.title" xml:space="preserve">
+        <source>Choose Hardware Key</source>
+        <target state="translated">Выберите аппаратный ключ</target>
+        <note>Class = "UITableViewController"; title = "Choose Hardware Key"; ObjectID = "fH6-bS-mDZ"; Note = "Title of the hardware key selector (e.g. for YubiKey)";</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="KeePassium/database/Base.lproj/ChangeMasterKeyVC.storyboard" source-language="en" target-language="ru" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="JKD-iF-iwA.title" xml:space="preserve" approved="yes">
@@ -739,7 +788,7 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
   </file>
   <file original="KeePassium/database/Base.lproj/ChooseDatabaseVC.storyboard" source-language="en" target-language="ru" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="2o3-sG-Pcm.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" xml:space="preserve" approved="yes">
@@ -752,9 +801,9 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <target state="final">Нет ни одной базы паролей</target>
         <note>Class = "UILabel"; text = "No database files"; ObjectID = "5Md-DB-C5P"; Note = "Placeholder shown when there are no database files available";</note>
       </trans-unit>
-      <trans-unit id="R68-cy-5mz.text" xml:space="preserve" approved="yes">
+      <trans-unit id="R68-cy-5mz.text" xml:space="preserve">
         <source>Protect KeePassium from unauthorized access.</source>
-        <target state="final">Защищает KeePassium от посторонних глаз.</target>
+        <target state="translated">Защитите KeePassium от посторонних глаз.</target>
         <note>Class = "UILabel"; text = "Protect KeePassium from unauthorized access."; ObjectID = "R68-cy-5mz"; Note = "Explanation for the `Enable AppLock` button.";</note>
       </trans-unit>
       <trans-unit id="UI0-Lh-wTj.title" xml:space="preserve" approved="yes">
@@ -762,9 +811,9 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <target state="final">Базы паролей</target>
         <note>Class = "UINavigationItem"; title = "Databases"; ObjectID = "UI0-Lh-wTj"; Note = "Title of the database picker list";</note>
       </trans-unit>
-      <trans-unit id="hmv-DA-BgM.normalTitle" xml:space="preserve" approved="yes">
+      <trans-unit id="hmv-DA-BgM.normalTitle" xml:space="preserve">
         <source>Enable AppLock</source>
-        <target state="final">Использовать AppLock</target>
+        <target state="translated">Включить защиту приложения</target>
         <note>Class = "UIButton"; normalTitle = "Enable AppLock"; ObjectID = "hmv-DA-BgM";</note>
       </trans-unit>
       <trans-unit id="lnO-nD-gvh.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" xml:space="preserve" approved="yes">
@@ -786,7 +835,7 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
   </file>
   <file original="KeePassium/database/Base.lproj/ChooseKeyFileVC.storyboard" source-language="en" target-language="ru" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="8aU-C3-c3r.normalTitle" xml:space="preserve" approved="yes">
@@ -813,7 +862,7 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
   </file>
   <file original="KeePassium/database/Base.lproj/DatabaseCreatorVC.storyboard" source-language="en" target-language="ru" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="2iK-ct-ygq.text" xml:space="preserve" approved="yes">
@@ -865,7 +914,7 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
   </file>
   <file original="KeePassium/database/Base.lproj/UnlockDatabaseVC.storyboard" source-language="en" target-language="ru" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="CuN-tE-lAG.placeholder" xml:space="preserve" approved="yes">
@@ -893,11 +942,6 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <target state="final">Закрыть базу паролей</target>
         <note>Class = "UIButton"; normalTitle = "Lock Database"; ObjectID = "gji-1x-co5";</note>
       </trans-unit>
-      <trans-unit id="i6N-fq-JbM.normalTitle" xml:space="preserve" approved="yes">
-        <source>Upgrade to Premium</source>
-        <target state="final">Купить полную версию</target>
-        <note>Class = "UIButton"; normalTitle = "Upgrade to Premium"; ObjectID = "i6N-fq-JbM"; Note = "Action: open upgrade screen. Please avoid money-related words like 'buy' or 'purchase'.  If there is no good translation for the 'Upgrade' call for action, it's ok to replace it with 'get', or even reduce the phrase to  'Premium'.";</note>
-      </trans-unit>
       <trans-unit id="l45-hq-1lr.normalTitle" xml:space="preserve" approved="yes">
         <source>Unlock</source>
         <target state="final">Открыть</target>
@@ -917,7 +961,7 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
   </file>
   <file original="KeePassium/database/entry/Base.lproj/ViewEntryFieldsVC.storyboard" source-language="en" target-language="ru" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="6Mx-Oh-6m0.accessibilityHint" xml:space="preserve">
@@ -939,7 +983,7 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
   </file>
   <file original="KeePassium/database/entry/Base.lproj/ViewEntryFilesVC.storyboard" source-language="en" target-language="ru" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="W86-tp-bfF.text" xml:space="preserve" approved="yes">
@@ -956,7 +1000,7 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
   </file>
   <file original="KeePassium/database/entry/Base.lproj/ViewEntryHistoryVC.storyboard" source-language="en" target-language="ru" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="bzL-mr-Hrz.text" xml:space="preserve" approved="yes">
@@ -968,7 +1012,7 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
   </file>
   <file original="KeePassium/database/entry/Base.lproj/ViewEntryVC.storyboard" source-language="en" target-language="ru" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="g9A-4w-Dsa.segmentTitles[0]" xml:space="preserve" approved="yes">
@@ -990,7 +1034,7 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
   </file>
   <file original="KeePassium/database/entry/edit/Base.lproj/EditEntryVC.storyboard" source-language="en" target-language="ru" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="0pb-xb-fuf.text" xml:space="preserve" approved="yes">
@@ -1037,7 +1081,7 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
   </file>
   <file original="KeePassium/database/entry/edit/Base.lproj/PasswordGeneratorVC.storyboard" source-language="en" target-language="ru" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="5Xu-cN-kSg.text" xml:space="preserve" approved="yes">
@@ -1079,7 +1123,7 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
   </file>
   <file original="KeePassium/database/group/Base.lproj/EditGroupVC.storyboard" source-language="en" target-language="ru" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="jea-zX-9LD.placeholder" xml:space="preserve" approved="yes">
@@ -1096,7 +1140,7 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
   </file>
   <file original="KeePassium/database/group/Base.lproj/ViewGroupVC.storyboard" source-language="en" target-language="ru" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="9KV-rC-1XL.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" xml:space="preserve" approved="yes">
@@ -1133,13 +1177,13 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
   </file>
   <file original="KeePassium/database/relocation/Base.lproj/DestinationGroupPickerVC.storyboard" source-language="en" target-language="ru" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body/>
   </file>
   <file original="KeePassium/en.lproj/InfoPlist.strings" source-language="en" target-language="ru" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName" xml:space="preserve" approved="yes">
@@ -1155,12 +1199,12 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       <trans-unit id="KeePass Database (kdb)" xml:space="preserve" approved="yes">
         <source>KeePass Database (kdb)</source>
         <target state="final">База паролей KeePass (kdb)</target>
-        <note/>
+        <note>(No Comment)</note>
       </trans-unit>
       <trans-unit id="KeePass Database (kdbx)" xml:space="preserve" approved="yes">
         <source>KeePass Database (kdbx)</source>
         <target state="final">База паролей KeePass (kdbx)</target>
-        <note/>
+        <note>(No Comment)</note>
       </trans-unit>
       <trans-unit id="NFCReaderUsageDescription" xml:space="preserve">
         <source>KeePassium needs access to NFC to communicate with your YubiKey.</source>
@@ -1186,7 +1230,7 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
   </file>
   <file original="KeePassium/en.lproj/Localizable.strings" source-language="en" target-language="ru" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="Add Database" xml:space="preserve" approved="yes">
@@ -1503,6 +1547,16 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <target state="translated">Попробуйте убрать файл из приложения, затем добавить его снова.</target>
         <note>A suggestion shown after specific file errors (either databases or key files).</note>
       </trans-unit>
+      <trans-unit id="[FileInfo/Backup/header]" xml:space="preserve" approved="yes">
+        <source>Backup</source>
+        <target state="final">Резервирование</target>
+        <note>Section header: file backup settings</note>
+      </trans-unit>
+      <trans-unit id="[FileInfo/Error/failed to change attributes]" xml:space="preserve">
+        <source>Failed to update file attributes.</source>
+        <target state="translated">Не удалось обновить атрибуты файла.</target>
+        <note>Error message shown when the user tries to change file attributes (such as creation/modification date, backup flag, etc)</note>
+      </trans-unit>
       <trans-unit id="[FileInfo/Field/title] Creation Date" xml:space="preserve" approved="yes">
         <source>Creation Date</source>
         <target state="final">Дата создания</target>
@@ -1532,6 +1586,11 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <source>Error</source>
         <target state="final">Ошибка</target>
         <note>Title of a field with an error message</note>
+      </trans-unit>
+      <trans-unit id="[FileInfo/isExcludedFromBackup/title]" xml:space="preserve">
+        <source>Exclude From iCloud/iTunes Backup</source>
+        <target state="translated">Исключить из резервной копии iCloud/iTunes</target>
+        <note>Title of a setting: is the file exluded from iCloud/iTunes backup. For example: `Exclude From Backup: &lt;Yes&gt;`</note>
       </trans-unit>
       <trans-unit id="[General/DestinationGroup/title] Choose a Destination" xml:space="preserve" approved="yes">
         <source>Choose a Destination</source>
@@ -1602,6 +1661,11 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <source>Contact Us</source>
         <target state="final">Связаться с нами</target>
         <note>Action/button to write an email to support</note>
+      </trans-unit>
+      <trans-unit id="[Generic] Continue" xml:space="preserve">
+        <source>Continue</source>
+        <target state="translated">Продолжить</target>
+        <note>Action/button to proceed with the action</note>
       </trans-unit>
       <trans-unit id="[Generic] Copy" xml:space="preserve">
         <source>Copy</source>
@@ -1720,15 +1784,12 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
 Убедитесь, что у вас есть резервная копия.</target>
         <note>Message to confirm deletion of a key file.</note>
       </trans-unit>
-      <trans-unit id="[News/2019/10/ProVersionReleaseNews/title] KeePassium Pro" xml:space="preserve">
-        <source>KeePassium Pro</source>
-        <target state="translated">KeePassium Pro</target>
-        <note>Title of an announcement about the Pro version</note>
-      </trans-unit>
-      <trans-unit id="[News/AutoFill/stubText] Please open the main app for the full announcement." xml:space="preserve" approved="yes">
-        <source>Please open the main app for the full announcement.</source>
-        <target state="final">Пожалуйста, откройте главное приложение чтобы прочесть полное объявление.</target>
-        <note>Message shown when opening an announcement in AutoFill</note>
+      <trans-unit id="[KeyFile/Remove/Confirm/text] Remove key file from the list?&#10; The file will remain intact and you can add it again later." xml:space="preserve">
+        <source>Remove key file from the list?
+ The file will remain intact and you can add it again later.</source>
+        <target state="translated">Удалить ключевой файл из списка?
+ Файл останется нетронутым и вы можете добавить его позже.</target>
+        <note>Message to confirm removal of a key file from the app. (This keeps the file, but removes its reference from the app.)</note>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/AttachmentPreview/details]" xml:space="preserve" approved="yes">
         <source>Preview attached files directly in KeePassium and leave no traces in other apps. (Works with images, documents, archives and more.)</source>
@@ -1738,6 +1799,16 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       <trans-unit id="[Premium/Benefits/AttachmentPreview/title]" xml:space="preserve" approved="yes">
         <source>Preview without a trace</source>
         <target state="final">Просмотр без следа</target>
+        <note>Title of a premium feature</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Benefits/CustomAppIcon/details]" xml:space="preserve">
+        <source>Make KeePassium look unique, familiar, or disguise it as a calculator — the choice is yours.</source>
+        <target state="translated">Сделайте иконку приложения уникальной, привычной — или вообще замаскируйте KeePassium под калькулятор.</target>
+        <note>Explanation of a premium feature</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Benefits/CustomAppIcon/title]" xml:space="preserve">
+        <source>Change app icon</source>
+        <target state="translated">Смените иконку приложения</target>
         <note>Title of a premium feature</note>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/DatabaseTimeout/details]" xml:space="preserve" approved="yes">
@@ -1760,16 +1831,6 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <target state="translated">Используйте аппаратные ключи</target>
         <note>Title of a premium feature</note>
       </trans-unit>
-      <trans-unit id="[Premium/Benefits/Maintenance/details]" xml:space="preserve" approved="yes">
-        <source>Keep KeePassium improved, maintained and without ads.</source>
-        <target state="final">Поддержите развитие KeePassium без рекламы.</target>
-        <note>Explanation of the premium feature</note>
-      </trans-unit>
-      <trans-unit id="[Premium/Benefits/Maintenance/title]" xml:space="preserve" approved="yes">
-        <source>Keep it shiny</source>
-        <target state="final">Вперёд и вверх</target>
-        <note>Title of a premium feature</note>
-      </trans-unit>
       <trans-unit id="[Premium/Benefits/MultiDB/details]" xml:space="preserve" approved="yes">
         <source>Add multiple databases and quickly switch between them.</source>
         <target state="final">Добавьте несколько баз и переключайтесь между ними за пару нажатий.</target>
@@ -1780,15 +1841,112 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <target state="final">Синхронизация с другими</target>
         <note>Title of a premium feature</note>
       </trans-unit>
-      <trans-unit id="[Premium/Benefits/Support/details]" xml:space="preserve" approved="yes">
-        <source>Community support means no obligations. With premium, get answers and solutions directly from the developer.</source>
-        <target state="final">Бесплатная версия поддерживается сообществом. Пользователи премиум-версии получают ответы напрямую от разработчика.</target>
-        <note>Explanation of the premium feature</note>
+      <trans-unit id="[Premium/Benefits/Negative/header] " xml:space="preserve">
+        <source>What you are missing</source>
+        <target state="translated">Что Вы упускаете</target>
+        <note>List of premium benefits/advantages</note>
       </trans-unit>
-      <trans-unit id="[Premium/Benefits/Support/title]" xml:space="preserve" approved="yes">
-        <source>Talk to support that cares</source>
-        <target state="final">Внимательная поддержка</target>
-        <note>Title of a premium feature</note>
+      <trans-unit id="[Premium/Benefits/Positive/header] " xml:space="preserve">
+        <source>What you get</source>
+        <target state="translated">Что Вы получите</target>
+        <note>List of premium benefits/advantages</note>
+      </trans-unit>
+      <trans-unit id="[Premium/CallToAction/free]" xml:space="preserve">
+        <source>Continue Testing</source>
+        <target state="translated">Продолжить тестирование</target>
+        <note>Call to action: continue using the free version</note>
+      </trans-unit>
+      <trans-unit id="[Premium/CallToAction/startTrial]" xml:space="preserve">
+        <source>Try it free</source>
+        <target state="translated">Попробовать бесплатно</target>
+        <note>Call to action: start free trial</note>
+      </trans-unit>
+      <trans-unit id="[Premium/CallToAction/upgradeNow]" xml:space="preserve">
+        <source>Upgrade Now</source>
+        <target state="translated">Включить Премиум</target>
+        <note>Call to action: upgrade to premium</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Price Plan/Conditions/1 year email support]" xml:space="preserve">
+        <source>One year of email support</source>
+        <target state="translated">Год поддержки по электронной почте</target>
+        <note>What's included in a price plan: 1 year of support via email</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Price Plan/Conditions/all premium features]" xml:space="preserve">
+        <source>All premium features</source>
+        <target state="translated">Все премиум-функции</target>
+        <note>What's included in a price plan</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Price Plan/Conditions/community support]" xml:space="preserve">
+        <source>Customer support: Online forums</source>
+        <target state="translated">Поддержка: онлайн-форумы</target>
+        <note>What's included in a free plan: support via forums (as opposed to email support)</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Price Plan/Conditions/current premium features]" xml:space="preserve">
+        <source>Current premium features</source>
+        <target state="translated">Текущие премиум функции</target>
+        <note>What's included in a price plan: existing premium features only (as opposed to `current + future`)</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Price Plan/Conditions/email support]" xml:space="preserve">
+        <source>Customer support: Email</source>
+        <target state="translated">Поддержка: электронная почта</target>
+        <note>What's included in a price plan: support via email</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Price Plan/Conditions/freemium reminders]" xml:space="preserve">
+        <source>Freemium reminders</source>
+        <target state="translated">Напоминания о бесплатной версии</target>
+        <note>What's included in a free plan: reminders that the version is free</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Price Plan/Conditions/future premium features]" xml:space="preserve">
+        <source>Future premium features</source>
+        <target state="translated">Будущие премиум-функции</target>
+        <note>What's included in a price plan: upcoming premium features (as opposed to `current only`)</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Price Plan/Conditions/perpetual fallback]" xml:space="preserve">
+        <source>Rent-to-own license (Perpetual fallback license)</source>
+        <target state="translated">Лицензия "Покупка путём аренды" (Резервная бессрочная лицензия)</target>
+        <note>What's included in a price plan. Please leave `perpetual fallback license` in English.</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Price Plan/Conditions/updates and bug fixes]" xml:space="preserve">
+        <source>Updates and bug fixes</source>
+        <target state="translated">Обновления и исправление ошибок</target>
+        <note>What's included in a price plan</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Price Plan/Free/price]" xml:space="preserve">
+        <source>Free</source>
+        <target state="translated">Бесплатно</target>
+        <note>Price of the free pricing plan</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Price Plan/Free/title]" xml:space="preserve">
+        <source>Free</source>
+        <target state="translated">Бесплатно</target>
+        <note>Name of the free pricing plan</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Price Plan/popular]" xml:space="preserve">
+        <source>Popular</source>
+        <target state="translated">Популярный</target>
+        <note>Marks the default pricing plan</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Subscription/Legal/text]" xml:space="preserve">
+        <source>
+Payment will be charged to your Apple ID account at the confirmation of purchase.
+
+Subscription automatically renews unless it is canceled at least 24 hours before the end of the current period. Your account will be charged for renewal within 24 hours prior to the end of the current period.
+
+You can manage and cancel your subscriptions by going to your account settings on the App Store after purchase.
+</source>
+        <target state="translated">
+Оплата будет снята с вашего аккаунта Apple ID после подтверждения покупки. 
+
+Подписка автоматически возобновляется, если не отменена минимум за 24 часа до конца текущего периода. Плата за продление подписки будет снята с Вашего счёта в течение суток до окончания текущего периода. 
+
+Вы можете изменить или отменить свои подписки, зайдя в настройки своего аккаунта в App Store после покупки.
+</target>
+        <note>Subscription conditions</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Trial/trial then price]" xml:space="preserve">
+        <source>%1$@ free, then %2$@</source>
+        <target state="translated">%1$@ бесплатно, затем %2$@</target>
+        <note>Trial conditions. For example `30 days free, then $1 per month`</note>
       </trans-unit>
       <trans-unit id="[Premium/Upgrade/Deferred/text] Thank you! You can use KeePassium while purchase is awaiting approval from a parent" xml:space="preserve" approved="yes">
         <source>Thank you! You can use KeePassium while purchase is awaiting approval from a parent</source>
@@ -1827,13 +1985,8 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="[Premium/Upgrade/action] Upgrade to Premium" xml:space="preserve" approved="yes">
         <source>Upgrade to Premium</source>
-        <target state="final">Купить полную версию</target>
+        <target state="final">Включить Премиум</target>
         <note>Action/button to start choosing premium versions and possibly buying one</note>
-      </trans-unit>
-      <trans-unit id="[Premium/Upgrade/description] with priority support" xml:space="preserve" approved="yes">
-        <source>with priority support</source>
-        <target state="final">с приоритетной поддержкой</target>
-        <note>Description of a premium option. Lowercase. For example 'Business Premium / with priority support'.</note>
       </trans-unit>
       <trans-unit id="[Premium/Upgrade/price] %@ / month" xml:space="preserve" approved="yes">
         <source>%@ / month</source>
@@ -1849,6 +2002,11 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <source>%@ once</source>
         <target state="final">%@ однократно</target>
         <note>Product price for once-and-forever premium. [localizedPrice: String]</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Upgrade/price] around %@ / month" xml:space="preserve" approved="yes">
+        <source>≈ %@ / month</source>
+        <target state="final">≈ %@ в месяц</target>
+        <note>Equivalent monthly price for an annual subscription. For example: `$12/year ≈ $1 / month`</note>
       </trans-unit>
       <trans-unit id="[Premium/Upgrade] Hmm, there are no upgrades available. This should not happen, please contact support." xml:space="preserve" approved="yes">
         <source>Hmm, there are no upgrades available. This should not happen, please contact support.</source>
@@ -1880,9 +2038,24 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <target state="final">Приложение полезно %1$@/месяц, т.е. около %2$@/год.</target>
         <note>Status: how long the app has been used during some time period. For example: `App being useful: 1hr/month, about 12hr/year`. [monthlyUsage: String, annualUsage: String — already include the time unit (hours, minutes)]</note>
       </trans-unit>
+      <trans-unit id="[PremiumFeature/CustomAppIcons/title]" xml:space="preserve">
+        <source>Custom App Icons</source>
+        <target state="translated">Другая иконка приложения</target>
+        <note>Title of a premium feature: ability to change the app icon</note>
+      </trans-unit>
+      <trans-unit id="[PremiumFeature/Generic/description]" xml:space="preserve" approved="yes">
+        <source>You have found a premium feature! Upgrade to premium and enjoy KeePassium at its best.</source>
+        <target state="final">Вы нашли премиум-функцию! Подключите KeePassium Premium и пользуйтесь всеми возможностями программы.</target>
+        <note>A generic description of a premium feature</note>
+      </trans-unit>
+      <trans-unit id="[PremiumFeature/Generic/title]" xml:space="preserve" approved="yes">
+        <source>Premium Feature</source>
+        <target state="final">Премиум-функция</target>
+        <note>A generic title of a premium feature</note>
+      </trans-unit>
       <trans-unit id="[PremiumFeature/HardwareKeys/description]" xml:space="preserve" approved="yes">
         <source>Strengthen your security with hardware keys (YubiKey) in the premium version.</source>
-        <target state="final">Укрепите свою безопасность с помощью аппаратных ключей (YubiKey) в полной версии.</target>
+        <target state="final">Укрепите свою защиту с помощью аппаратных ключей (YubiKey) в премиум-версии приложения.</target>
         <note>Description/advertisement for the `Hardware Keys` premium feature</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/HardwareKeys/title] Hardware Keys" xml:space="preserve">
@@ -1912,7 +2085,7 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="[PremiumFeature/Preview/description] Preview images and documents directly in the app, in the premium version." xml:space="preserve" approved="yes">
         <source>Preview images and documents directly in the app, in the premium version.</source>
-        <target state="final">Просматривайте изображения и документы непосредственно в приложении – в премиум-версии.</target>
+        <target state="final">Просматривайте изображения и документы прямо в премиум-версии программы.</target>
         <note>Description/advertisement for the `Preview Attachments` premium feature</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/Preview/title] Preview Attachments" xml:space="preserve" approved="yes">
@@ -2034,7 +2207,7 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
   </file>
   <file original="KeePassium/general/Base.lproj/AboutVC.storyboard" source-language="en" target-language="ru" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="7bL-fQ-OUc.headerTitle" xml:space="preserve" approved="yes">
@@ -2071,6 +2244,11 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <source>Do you like what you see?</source>
         <target state="final">Нравится программа?</target>
         <note>Class = "UILabel"; text = "Do you like what you see?"; ObjectID = "AMd-x7-PDa"; Note = "First part of the 'Do you like what you see? / Leave an App Store review.\"";</note>
+      </trans-unit>
+      <trans-unit id="AWg-lI-BfC.text" xml:space="preserve" approved="yes">
+        <source>MIT license</source>
+        <target state="final">Лицензия MIT</target>
+        <note>Class = "UILabel"; text = "MIT license"; ObjectID = "AWg-lI-BfC";</note>
       </trans-unit>
       <trans-unit id="Aig-jg-p8B.text" xml:space="preserve" approved="yes">
         <source>MIT license</source>
@@ -2116,6 +2294,11 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <source>About</source>
         <target state="final">О программе</target>
         <note>Class = "UITableViewController"; title = "About"; ObjectID = "NLN-lQ-bh5";</note>
+      </trans-unit>
+      <trans-unit id="OaP-Bl-5vR.text" xml:space="preserve">
+        <source>TPInAppReceipt by Pavel Tikhonenko</source>
+        <target state="translated">TPInAppReceipt, автор Павел Тихоненко</target>
+        <note>Class = "UILabel"; text = "TPInAppReceipt by Pavel Tikhonenko"; ObjectID = "OaP-Bl-5vR";</note>
       </trans-unit>
       <trans-unit id="QV5-N8-NRt.text" xml:space="preserve" approved="yes">
         <source>Public domain</source>
@@ -2168,9 +2351,9 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <note>Class = "UILabel"; text = "MIT license"; ObjectID = "bAq-tq-nuY";</note>
       </trans-unit>
       <trans-unit id="bmf-Ed-H4x.text" xml:space="preserve" approved="yes">
-        <source>©2019 Andrei Popleteev</source>
-        <target state="final">©2019 Андрей Поплетеев</target>
-        <note>Class = "UILabel"; text = "©2019 Andrei Popleteev"; ObjectID = "bmf-Ed-H4x";</note>
+        <source>©2020 Andrei Popleteev</source>
+        <target state="final">©2020 Андрей Поплетеев</target>
+        <note>Class = "UILabel"; text = "©2020 Andrei Popleteev"; ObjectID = "bmf-Ed-H4x";</note>
       </trans-unit>
       <trans-unit id="dMv-Zw-y7y.text" xml:space="preserve" approved="yes">
         <source>MIT license</source>
@@ -2261,7 +2444,7 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
   </file>
   <file original="KeePassium/general/Base.lproj/ChooseIconVC.storyboard" source-language="en" target-language="ru" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="H8v-gf-kff.title" xml:space="preserve" approved="yes">
@@ -2273,7 +2456,7 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
   </file>
   <file original="KeePassium/general/Base.lproj/FileInfoVC.storyboard" source-language="en" target-language="ru" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="Cu8-bv-TEu.title" xml:space="preserve" approved="yes">
@@ -2290,7 +2473,7 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
   </file>
   <file original="KeePassium/general/Base.lproj/PasscodeInputVC.storyboard" source-language="en" target-language="ru" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="3mQ-t6-0ty.text" xml:space="preserve" approved="yes">
@@ -2317,7 +2500,7 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
   </file>
   <file original="KeePassium/general/Base.lproj/ViewDiagnosticsVC.storyboard" source-language="en" target-language="ru" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="1D0-qD-Wj1.title" xml:space="preserve" approved="yes">
@@ -2339,7 +2522,7 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
   </file>
   <file original="KeePassium/general/Base.lproj/WelcomeVC.storyboard" source-language="en" target-language="ru" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="1Nc-wz-Yqq.title" xml:space="preserve" approved="yes">
@@ -2366,90 +2549,36 @@ You can have multiple databases, for example to separate work, family and person
       </trans-unit>
     </body>
   </file>
-  <file original="KeePassium/premium/Base.lproj/PremiumContainerVC.storyboard" source-language="en" target-language="ru" datatype="plaintext">
+  <file original="KeePassium/premium/Base.lproj/PricingPlanPickerVC.storyboard" source-language="en" target-language="ru" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
-      <trans-unit id="Qkk-pB-jp6.segmentTitles[0]" xml:space="preserve">
+      <trans-unit id="LNd-e9-YY7.title" xml:space="preserve" approved="yes">
         <source>Premium</source>
-        <target state="translated">Премиум</target>
-        <note>Class = "UISegmentedControl"; Qkk-pB-jp6.segmentTitles[0] = "Premium"; ObjectID = "Qkk-pB-jp6";</note>
+        <target state="final">Премиум</target>
+        <note>Class = "UINavigationItem"; title = "Premium"; ObjectID = "LNd-e9-YY7";</note>
       </trans-unit>
-      <trans-unit id="Qkk-pB-jp6.segmentTitles[1]" xml:space="preserve">
-        <source>Pro</source>
-        <target state="translated">Про</target>
-        <note>Class = "UISegmentedControl"; Qkk-pB-jp6.segmentTitles[1] = "Pro"; ObjectID = "Qkk-pB-jp6";</note>
+      <trans-unit id="NSz-U1-2ye.normalTitle" xml:space="preserve">
+        <source>Terms and Conditions</source>
+        <target state="translated">Условия и положения</target>
+        <note>Class = "UIButton"; normalTitle = "Terms and Conditions"; ObjectID = "NSz-U1-2ye";</note>
       </trans-unit>
-    </body>
-  </file>
-  <file original="KeePassium/premium/Base.lproj/PremiumProVC.storyboard" source-language="en" target-language="ru" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
-    </header>
-    <body>
-      <trans-unit id="5rv-SA-uRy.accessibilityLabel" xml:space="preserve" approved="yes">
-        <source>Download in the App Store</source>
-        <target state="final">Загрузить в App Store</target>
-        <note>Class = "UIButton"; accessibilityLabel = "Download in the App Store"; ObjectID = "5rv-SA-uRy";</note>
-      </trans-unit>
-      <trans-unit id="RMU-nJ-6tZ.text" xml:space="preserve">
-        <source>KeePassium Pro</source>
-        <target state="translated">KeePassium Pro</target>
-        <note>Class = "UILabel"; text = "KeePassium Pro"; ObjectID = "RMU-nJ-6tZ";</note>
-      </trans-unit>
-      <trans-unit id="TAt-eQ-x30.text" xml:space="preserve">
-        <source>KeePassium Pro is a paid version of KeePassium, and is suitable for Family Sharing and Volume Purchase Program.</source>
-        <target state="translated">KeePassium Pro — это платная версия программы, совместимая с функцией «Семейный доступ» и Volume Purchase Program.</target>
-        <note>Class = "UILabel"; text = "KeePassium Pro is a paid version of KeePassium, and is suitable for Family Sharing and Volume Purchase Program."; ObjectID = "TAt-eQ-x30";</note>
-      </trans-unit>
-      <trans-unit id="k28-Nu-VFD.normalTitle" xml:space="preserve">
-        <source>Premium Keeper = Free upgrade
-Contact us</source>
-        <target state="translated">Premium Keeper = Бесплатное обновление
-Напишите нам</target>
-        <note>Class = "UIButton"; normalTitle = "Premium Keeper = Free upgrade\nContact us"; ObjectID = "k28-Nu-VFD";</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="KeePassium/premium/Base.lproj/PremiumVC.storyboard" source-language="en" target-language="ru" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
-    </header>
-    <body>
-      <trans-unit id="Dfd-LU-ij4.normalTitle" xml:space="preserve" approved="yes">
+      <trans-unit id="fC2-en-cOo.normalTitle" xml:space="preserve" approved="yes">
         <source>Privacy Policy</source>
         <target state="final">Политика конфиденциальности</target>
-        <note>Class = "UIButton"; normalTitle = "Privacy Policy"; ObjectID = "Dfd-LU-ij4";</note>
+        <note>Class = "UIButton"; normalTitle = "Privacy Policy"; ObjectID = "fC2-en-cOo";</note>
       </trans-unit>
-      <trans-unit id="Rkk-oi-8fO.text" xml:space="preserve" approved="yes">
-        <source>Payment will be charged to your Apple ID account at the confirmation of purchase. 
-
-Subscription automatically renews unless it is canceled at least 24 hours before the end of the current period. Your account will be charged for renewal within 24 hours prior to the end of the current period. 
-
-You can manage and cancel your subscriptions by going to your account settings on the App Store after purchase.</source>
-        <target state="final">Платёж будет снят с вашего счёта Apple ID после подтверждения покупки. 
-
-Подписка автоматически возобновляется, если не отменена минимум за 24 часа до конца текущего периода. Платёж за обновление подписки будет снят с Вашего счёта в течение суток до конца текущего периода. 
-
-Вы можете изменить или отменить свои подписки, зайдя в настройки своего аккаунта в App Store после покупки.</target>
-        <note>Class = "UILabel"; text = "Payment will be charged to your Apple ID account at the confirmation of purchase. \n\nSubscription automatically renews unless it is canceled at least 24 hours before the end of the current period. Your account will be charged for renewal within 24 hours prior to the end of the current period. \n\nYou can manage and cancel your subscriptions by going to your account settings on the App Store after purchase."; ObjectID = "Rkk-oi-8fO"; Note = "Standard conditions text mandated by Apple.";</note>
-      </trans-unit>
-      <trans-unit id="ujr-9f-eco.normalTitle" xml:space="preserve" approved="yes">
-        <source>Terms and Conditions</source>
-        <target state="final">Условия и положения</target>
-        <note>Class = "UIButton"; normalTitle = "Terms and Conditions"; ObjectID = "ujr-9f-eco";</note>
-      </trans-unit>
-      <trans-unit id="yss-Xu-2XK.normalTitle" xml:space="preserve" approved="yes">
-        <source>Restore Purchases</source>
-        <target state="final">Восстановить покупки</target>
-        <note>Class = "UIButton"; normalTitle = "Restore Purchases"; ObjectID = "yss-Xu-2XK";</note>
+      <trans-unit id="j7c-Gd-QEh.normalTitle" xml:space="preserve">
+        <source>Already purchased?</source>
+        <target state="translated">Уже купили?</target>
+        <note>Class = "UIButton"; normalTitle = "Already purchased?"; ObjectID = "j7c-Gd-QEh";</note>
       </trans-unit>
     </body>
   </file>
   <file original="KeePassium/settings/appLock/Base.lproj/SettingsAppLockVC.storyboard" source-language="en" target-language="ru" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="5Dg-KX-m7a.footerTitle" xml:space="preserve" approved="yes">
@@ -2506,7 +2635,7 @@ You can manage and cancel your subscriptions by going to your account settings o
   </file>
   <file original="KeePassium/settings/appLock/Base.lproj/SettingsAppTimeoutVC.storyboard" source-language="en" target-language="ru" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="5MH-wG-EYd.title" xml:space="preserve" approved="yes">
@@ -2518,7 +2647,7 @@ You can manage and cancel your subscriptions by going to your account settings o
   </file>
   <file original="KeePassium/settings/autoFill/Base.lproj/SettingsAutoFillVC.storyboard" source-language="en" target-language="ru" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="7SF-2E-uTg.text" xml:space="preserve" approved="yes">
@@ -2590,7 +2719,7 @@ You can manage and cancel your subscriptions by going to your account settings o
   </file>
   <file original="KeePassium/settings/backup/Base.lproj/SettingsBackupTimeoutPickerVC.storyboard" source-language="en" target-language="ru" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="atf-ra-KMC.title" xml:space="preserve" approved="yes">
@@ -2602,7 +2731,7 @@ You can manage and cancel your subscriptions by going to your account settings o
   </file>
   <file original="KeePassium/settings/backup/Base.lproj/SettingsBackupVC.storyboard" source-language="en" target-language="ru" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="B3L-Dk-Uq3.footerTitle" xml:space="preserve" approved="yes">
@@ -2649,7 +2778,7 @@ You can manage and cancel your subscriptions by going to your account settings o
   </file>
   <file original="KeePassium/settings/Base.lproj/SettingsClipboardTimeoutVC.storyboard" source-language="en" target-language="ru" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="iJJ-jv-hhP.title" xml:space="preserve" approved="yes">
@@ -2661,7 +2790,7 @@ You can manage and cancel your subscriptions by going to your account settings o
   </file>
   <file original="KeePassium/settings/Base.lproj/SettingsDatabaseTimeoutVC.storyboard" source-language="en" target-language="ru" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="26a-m8-zQP.title" xml:space="preserve" approved="yes">
@@ -2673,7 +2802,7 @@ You can manage and cancel your subscriptions by going to your account settings o
   </file>
   <file original="KeePassium/settings/Base.lproj/SettingsDataProtectionVC.storyboard" source-language="en" target-language="ru" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="3uV-Zs-RRo.normalTitle" xml:space="preserve" approved="yes">
@@ -2750,6 +2879,11 @@ You can manage and cancel your subscriptions by going to your account settings o
         <target state="translated">Используйте универсальный буфер обмена для копирования и вставки между вашими устройствами Apple.</target>
         <note>Class = "UITableViewSection"; footerTitle = "Use Universal Clipboard to copy and paste between your Apple devices."; ObjectID = "g9a-rJ-4WJ";</note>
       </trans-unit>
+      <trans-unit id="gTm-F6-EDQ.text" xml:space="preserve">
+        <source>Clear Master Keys on Timeout</source>
+        <target state="translated">Удалять мастер-ключи по истечении задержки</target>
+        <note>Class = "UILabel"; text = "Clear Master Keys on Timeout"; ObjectID = "gTm-F6-EDQ";</note>
+      </trans-unit>
       <trans-unit id="hnI-Q8-Ixm.footerTitle" xml:space="preserve" approved="yes">
         <source>When you copy anything, KeePassium will automatically clear your clipboard (pasteboard) after some time.</source>
         <target state="final">После копирования, KeePassium автоматически очистит буфер обмена через некоторое время.</target>
@@ -2784,7 +2918,7 @@ You can manage and cancel your subscriptions by going to your account settings o
   </file>
   <file original="KeePassium/settings/Base.lproj/SettingsFileSortingVC.storyboard" source-language="en" target-language="ru" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="87L-KA-IeR.title" xml:space="preserve" approved="yes">
@@ -2801,7 +2935,7 @@ You can manage and cancel your subscriptions by going to your account settings o
   </file>
   <file original="KeePassium/settings/Base.lproj/SettingsItemListVC.storyboard" source-language="en" target-language="ru" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="Gyy-12-KPC.title" xml:space="preserve" approved="yes">
@@ -2813,7 +2947,7 @@ You can manage and cancel your subscriptions by going to your account settings o
   </file>
   <file original="KeePassium/settings/Base.lproj/SettingsSearchVC.storyboard" source-language="en" target-language="ru" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="DJr-hC-DMT.footerTitle" xml:space="preserve">
@@ -2850,7 +2984,7 @@ You can manage and cancel your subscriptions by going to your account settings o
   </file>
   <file original="KeePassium/settings/Base.lproj/SettingsVC.storyboard" source-language="en" target-language="ru" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="9yn-W3-FDl.headerTitle" xml:space="preserve">
@@ -2923,15 +3057,15 @@ You can manage and cancel your subscriptions by going to your account settings o
         <target state="final">Автозаполнение паролей</target>
         <note>Class = "UILabel"; text = "AutoFill Passwords"; ObjectID = "T2Z-oa-zJR";</note>
       </trans-unit>
+      <trans-unit id="TUE-Aw-fJl.text" xml:space="preserve">
+        <source>App Icon</source>
+        <target state="translated">Иконка приложения</target>
+        <note>Class = "UILabel"; text = "App Icon"; ObjectID = "TUE-Aw-fJl"; Note = "Section in settings: icon for the app";</note>
+      </trans-unit>
       <trans-unit id="UNl-Hc-Ref.text" xml:space="preserve" approved="yes">
         <source>Data Protection</source>
         <target state="final">Защита данных</target>
         <note>Class = "UILabel"; text = "Data Protection"; ObjectID = "UNl-Hc-Ref"; Note = "Settings section: protection of databases, their keys and data inside them";</note>
-      </trans-unit>
-      <trans-unit id="ZFi-ss-fUa.headerTitle" xml:space="preserve" approved="yes">
-        <source>AutoFill</source>
-        <target state="final">Автозаполнение</target>
-        <note>Class = "UITableViewSection"; headerTitle = "AutoFill"; ObjectID = "ZFi-ss-fUa";</note>
       </trans-unit>
       <trans-unit id="abS-AH-iFO.text" xml:space="preserve" approved="yes">
         <source>App Protection</source>
@@ -2960,13 +3094,8 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
       <trans-unit id="oxG-N8-1ld.text" xml:space="preserve" approved="yes">
         <source>Upgrade to Premium</source>
-        <target state="final">Купить полную версию</target>
+        <target state="final">Включить Премиум</target>
         <note>Class = "UILabel"; text = "Upgrade to Premium"; ObjectID = "oxG-N8-1ld";</note>
-      </trans-unit>
-      <trans-unit id="qEE-z7-pd0.headerTitle" xml:space="preserve">
-        <source>Search</source>
-        <target state="translated">Поиск</target>
-        <note>Class = "UITableViewSection"; headerTitle = "Search"; ObjectID = "qEE-z7-pd0"; Note = "Section title in settings";</note>
       </trans-unit>
       <trans-unit id="qhK-lw-bGy.text" xml:space="preserve" approved="yes">
         <source>For expert troubleshooting</source>

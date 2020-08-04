@@ -2,7 +2,7 @@
 <xliff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="KeePassium AutoFill/controllers/Base.lproj/CrashReportVC.storyboard" source-language="en" target-language="fr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="ebS-pB-Qan.title" xml:space="preserve">
@@ -32,7 +32,7 @@ Veuillez nous contacter si vous avez besoin d'aide à ce sujet.</target>
   </file>
   <file original="KeePassium AutoFill/controllers/Base.lproj/DatabaseChooserVC.storyboard" source-language="en" target-language="fr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="CbK-f7-To5.title" xml:space="preserve">
@@ -54,7 +54,7 @@ Veuillez nous contacter si vous avez besoin d'aide à ce sujet.</target>
   </file>
   <file original="KeePassium AutoFill/controllers/Base.lproj/DatabaseUnlockerVC.storyboard" source-language="en" target-language="fr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="89h-8b-LRO.normalTitle" xml:space="preserve">
@@ -81,7 +81,7 @@ Veuillez nous contacter si vous avez besoin d'aide à ce sujet.</target>
   </file>
   <file original="KeePassium AutoFill/controllers/Base.lproj/DiagnosticsViewerVC.storyboard" source-language="en" target-language="fr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="Ura-k4-GXq.title" xml:space="preserve">
@@ -93,7 +93,7 @@ Veuillez nous contacter si vous avez besoin d'aide à ce sujet.</target>
   </file>
   <file original="KeePassium AutoFill/controllers/Base.lproj/EntryFinderVC.storyboard" source-language="en" target-language="fr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="NSB-dG-jRN.text" xml:space="preserve">
@@ -115,26 +115,13 @@ Veuillez nous contacter si vous avez besoin d'aide à ce sujet.</target>
   </file>
   <file original="KeePassium AutoFill/controllers/Base.lproj/FirstSetupVC.storyboard" source-language="en" target-language="fr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="P0M-N3-ynf.text" xml:space="preserve">
         <source>Please re-add databases and key files you want to use with the AutoFill feature.</source>
         <target state="translated">Veuillez ajouter à nouveau les bases de données et les fichiers clés que vous souhaitez utiliser avec la fonction Remplissage automatique.</target>
         <note>Class = "UILabel"; text = "Please re-add databases and key files you want to use with the AutoFill feature."; ObjectID = "P0M-N3-ynf";</note>
-      </trans-unit>
-      <trans-unit id="UAW-0G-N5G.text" xml:space="preserve">
-        <source>The AutoFill cannot automatically access the files you already have in the main KeePassium app.
-
-Why? Behind the scenes, the system treats AutoFill as a separate app, independent from the main KeePassium process. For security reasons, an app cannot simply access any external files – unless you explicitly link these files to that app. Thus the system guarantees that the app can only access the few files you allowed it to.
-
-As a result, both AutoFill and the main KeePassium app need to be given their own permissions for each external file. Luckily, this is a one-time procedure.</source>
-        <target state="translated">Le remplissage automatique ne peut pas accéder automatiquement aux fichiers que vous avez déjà dans l'application principale KeePassium.
-
-Pourquoi? Derrière les scènes, le système traite le remplissage automatique comme une application séparée, indépendante du processus KeePassium principal. Pour des raisons de sécurité, une application ne peut pas simplement accéder à des fichiers externes, à moins que vous ne liez explicitement ces fichiers à cette application. Ainsi, le système garantit que l'application ne peut accéder qu'aux quelques fichiers que vous avez autorisés.
-
-En conséquence, le remplissage automatique et l'application principale KeePassium doivent avoir leurs propres permissions pour chaque fichier externe. Heureusement, il s'agit d'une procédure unique.</target>
-        <note>Class = "UITextView"; text = "The AutoFill cannot automatically access the files you already have in the main KeePassium app.\n\nWhy? Behind the scenes, the system treats AutoFill as a separate app, independent from the main KeePassium process. For security reasons, an app cannot simply access any external files – unless you explicitly link these files to that app. Thus the system guarantees that the app can only access the few files you allowed it to.\n\nAs a result, both AutoFill and the main KeePassium app need to be given their own permissions for each external file. Luckily, this is a one-time procedure."; ObjectID = "UAW-0G-N5G";</note>
       </trans-unit>
       <trans-unit id="enW-gs-tra.normalTitle" xml:space="preserve">
         <source>Add Database</source>
@@ -155,7 +142,7 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
   </file>
   <file original="KeePassium AutoFill/controllers/Base.lproj/KeyFileChooserVC.storyboard" source-language="en" target-language="fr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="9UZ-FK-v73.text" xml:space="preserve">
@@ -187,7 +174,7 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
   </file>
   <file original="KeePassium AutoFill/en.lproj/InfoPlist.strings" source-language="en" target-language="fr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName" xml:space="preserve">
@@ -209,7 +196,7 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
   </file>
   <file original="KeePassium AutoFill/en.lproj/Localizable.strings" source-language="en" target-language="fr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="Add Database" xml:space="preserve">
@@ -266,6 +253,24 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
         <source>Premium Upgrade</source>
         <target state="translated">Mise à niveau Premium</target>
         <note>Title of a message related to upgrading to the premium version</note>
+      </trans-unit>
+      <trans-unit id="[AutoFill/Search/callerID]" xml:space="preserve">
+        <source>Caller ID: %@</source>
+        <target state="translated">ID de l'appelant : %@</target>
+        <note>An identifier of the app that called AutoFill. The term is intentionally similar to https://ru.wikipedia.org/wiki/Caller_ID. [callerID: String]</note>
+      </trans-unit>
+      <trans-unit id="[AutoFill/Setup/footer]" xml:space="preserve">
+        <source>The AutoFill cannot automatically access the files you already have in the main KeePassium app.
+
+Why? Behind the scenes, the system treats AutoFill as a separate app, independent from the main KeePassium process. For security reasons, an app cannot simply access any external files – unless you explicitly link these files to that app. Thus the system guarantees that the app can only access the few files you allowed it to.
+
+As a result, both AutoFill and the main KeePassium app need to be given their own permissions for each external file. Luckily, this is a one-time procedure.</source>
+        <target state="translated">Le remplissage automatique ne peut pas accéder automatiquement aux fichiers que vous avez déjà dans l'application principale KeePassium.
+
+Pourquoi? Derrière les scènes, le système traite le remplissage automatique comme une application séparée, indépendante du processus KeePassium principal. Pour des raisons de sécurité, une application ne peut pas simplement accéder à des fichiers externes, à moins que vous ne liez explicitement ces fichiers à cette application. Ainsi, le système garantit que l'application ne peut accéder qu'aux quelques fichiers que vous avez autorisés.
+
+En conséquence, le remplissage automatique et l'application principale KeePassium doivent avoir leurs propres permissions pour chaque fichier externe. Heureusement, il s'agit d'une procédure unique.</target>
+        <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="[BiometricAuthType] Face ID" xml:space="preserve">
         <source>Face ID</source>
@@ -416,6 +421,16 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
         <target state="translated">Essayez de supprimer le fichier de l'application, puis ajoutez-le à nouveau.</target>
         <note>A suggestion shown after specific file errors (either databases or key files).</note>
       </trans-unit>
+      <trans-unit id="[FileInfo/Backup/header]" xml:space="preserve">
+        <source>Backup</source>
+        <target state="translated">Sauvegarde</target>
+        <note>Section header: file backup settings</note>
+      </trans-unit>
+      <trans-unit id="[FileInfo/Error/failed to change attributes]" xml:space="preserve">
+        <source>Failed to update file attributes.</source>
+        <target state="translated">Échec de la mise à jour des attributs de fichier.</target>
+        <note>Error message shown when the user tries to change file attributes (such as creation/modification date, backup flag, etc)</note>
+      </trans-unit>
       <trans-unit id="[FileInfo/Field/title] Creation Date" xml:space="preserve">
         <source>Creation Date</source>
         <target state="translated">Date de création</target>
@@ -445,6 +460,11 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
         <source>Error</source>
         <target state="translated">Erreur</target>
         <note>Title of a field with an error message</note>
+      </trans-unit>
+      <trans-unit id="[FileInfo/isExcludedFromBackup/title]" xml:space="preserve">
+        <source>Exclude From iCloud/iTunes Backup</source>
+        <target state="translated">Exclure de la sauvegarde iCloud/iTunes</target>
+        <note>Title of a setting: is the file exluded from iCloud/iTunes backup. For example: `Exclude From Backup: &lt;Yes&gt;`</note>
       </trans-unit>
       <trans-unit id="[Generic/ConfirmDelete/title] Are you sure?" xml:space="preserve">
         <source>Are you sure?</source>
@@ -510,6 +530,11 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
         <source>Contact Us</source>
         <target state="translated">Contactez-nous</target>
         <note>Action/button to write an email to support</note>
+      </trans-unit>
+      <trans-unit id="[Generic] Continue" xml:space="preserve">
+        <source>Continue</source>
+        <target state="translated">Continuer</target>
+        <note>Action/button to proceed with the action</note>
       </trans-unit>
       <trans-unit id="[Generic] Copy" xml:space="preserve">
         <source>Copy</source>
@@ -623,20 +648,32 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
  Assurez-vous d'avoir une sauvegarde.</target>
         <note>Message to confirm deletion of a key file.</note>
       </trans-unit>
-      <trans-unit id="[News/2019/10/ProVersionReleaseNews/title] KeePassium Pro" xml:space="preserve">
-        <source>KeePassium Pro</source>
-        <target state="translated">KeePassium Pro</target>
-        <note>Title of an announcement about the Pro version</note>
-      </trans-unit>
-      <trans-unit id="[News/AutoFill/stubText] Please open the main app for the full announcement." xml:space="preserve">
-        <source>Please open the main app for the full announcement.</source>
-        <target state="translated">Veuillez ouvrir l'application principale pour l'annonce complète.</target>
-        <note>Message shown when opening an announcement in AutoFill</note>
+      <trans-unit id="[KeyFile/Remove/Confirm/text] Remove key file from the list?&#10; The file will remain intact and you can add it again later." xml:space="preserve">
+        <source>Remove key file from the list?
+ The file will remain intact and you can add it again later.</source>
+        <target state="translated">Retirer le fichier de clé de la liste ?
+ Le fichier restera intact et vous pourrez l'ajouter plus tard.</target>
+        <note>Message to confirm removal of a key file from the app. (This keeps the file, but removes its reference from the app.)</note>
       </trans-unit>
       <trans-unit id="[Premium/Upgrade/action] Upgrade to Premium" xml:space="preserve">
         <source>Upgrade to Premium</source>
         <target state="translated">Passer à la version Premium</target>
         <note>Action/button to start choosing premium versions and possibly buying one</note>
+      </trans-unit>
+      <trans-unit id="[PremiumFeature/CustomAppIcons/title]" xml:space="preserve">
+        <source>Custom App Icons</source>
+        <target state="translated">Icônes personnalisées d'applications</target>
+        <note>Title of a premium feature: ability to change the app icon</note>
+      </trans-unit>
+      <trans-unit id="[PremiumFeature/Generic/description]" xml:space="preserve">
+        <source>You have found a premium feature! Upgrade to premium and enjoy KeePassium at its best.</source>
+        <target state="translated">Vous avez trouvé une fonctionnalité premium ! Passez à la version premium et profitez de KeePassium à son meilleur.</target>
+        <note>A generic description of a premium feature</note>
+      </trans-unit>
+      <trans-unit id="[PremiumFeature/Generic/title]" xml:space="preserve">
+        <source>Premium Feature</source>
+        <target state="translated">Fonctionnalité Premium</target>
+        <note>A generic title of a premium feature</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/HardwareKeys/description]" xml:space="preserve">
         <source>Strengthen your security with hardware keys (YubiKey) in the premium version.</source>
@@ -710,9 +747,21 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
       </trans-unit>
     </body>
   </file>
+  <file original="KeePassium/challenge-response/Base.lproj/HardwareKeyPicker.storyboard" source-language="en" target-language="fr" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
+    </header>
+    <body>
+      <trans-unit id="fH6-bS-mDZ.title" xml:space="preserve">
+        <source>Choose Hardware Key</source>
+        <target state="translated">Choisir votre clé matérielle</target>
+        <note>Class = "UITableViewController"; title = "Choose Hardware Key"; ObjectID = "fH6-bS-mDZ"; Note = "Title of the hardware key selector (e.g. for YubiKey)";</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="KeePassium/database/Base.lproj/ChangeMasterKeyVC.storyboard" source-language="en" target-language="fr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="JKD-iF-iwA.title" xml:space="preserve">
@@ -739,7 +788,7 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
   </file>
   <file original="KeePassium/database/Base.lproj/ChooseDatabaseVC.storyboard" source-language="en" target-language="fr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="2o3-sG-Pcm.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" xml:space="preserve">
@@ -786,7 +835,7 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
   </file>
   <file original="KeePassium/database/Base.lproj/ChooseKeyFileVC.storyboard" source-language="en" target-language="fr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="8aU-C3-c3r.normalTitle" xml:space="preserve">
@@ -813,7 +862,7 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
   </file>
   <file original="KeePassium/database/Base.lproj/DatabaseCreatorVC.storyboard" source-language="en" target-language="fr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="2iK-ct-ygq.text" xml:space="preserve">
@@ -865,7 +914,7 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
   </file>
   <file original="KeePassium/database/Base.lproj/UnlockDatabaseVC.storyboard" source-language="en" target-language="fr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="CuN-tE-lAG.placeholder" xml:space="preserve">
@@ -893,11 +942,6 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
         <target state="translated">Verrouiller la base de données</target>
         <note>Class = "UIButton"; normalTitle = "Lock Database"; ObjectID = "gji-1x-co5";</note>
       </trans-unit>
-      <trans-unit id="i6N-fq-JbM.normalTitle" xml:space="preserve">
-        <source>Upgrade to Premium</source>
-        <target state="translated">Passer à la version Premium</target>
-        <note>Class = "UIButton"; normalTitle = "Upgrade to Premium"; ObjectID = "i6N-fq-JbM"; Note = "Action: open upgrade screen. Please avoid money-related words like 'buy' or 'purchase'.  If there is no good translation for the 'Upgrade' call for action, it's ok to replace it with 'get', or even reduce the phrase to  'Premium'.";</note>
-      </trans-unit>
       <trans-unit id="l45-hq-1lr.normalTitle" xml:space="preserve">
         <source>Unlock</source>
         <target state="translated">Déverrouiller</target>
@@ -917,7 +961,7 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
   </file>
   <file original="KeePassium/database/entry/Base.lproj/ViewEntryFieldsVC.storyboard" source-language="en" target-language="fr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="6Mx-Oh-6m0.accessibilityHint" xml:space="preserve">
@@ -939,7 +983,7 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
   </file>
   <file original="KeePassium/database/entry/Base.lproj/ViewEntryFilesVC.storyboard" source-language="en" target-language="fr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="W86-tp-bfF.text" xml:space="preserve">
@@ -956,7 +1000,7 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
   </file>
   <file original="KeePassium/database/entry/Base.lproj/ViewEntryHistoryVC.storyboard" source-language="en" target-language="fr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="bzL-mr-Hrz.text" xml:space="preserve">
@@ -968,7 +1012,7 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
   </file>
   <file original="KeePassium/database/entry/Base.lproj/ViewEntryVC.storyboard" source-language="en" target-language="fr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="g9A-4w-Dsa.segmentTitles[0]" xml:space="preserve">
@@ -990,7 +1034,7 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
   </file>
   <file original="KeePassium/database/entry/edit/Base.lproj/EditEntryVC.storyboard" source-language="en" target-language="fr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="0pb-xb-fuf.text" xml:space="preserve">
@@ -1037,7 +1081,7 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
   </file>
   <file original="KeePassium/database/entry/edit/Base.lproj/PasswordGeneratorVC.storyboard" source-language="en" target-language="fr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="5Xu-cN-kSg.text" xml:space="preserve">
@@ -1079,7 +1123,7 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
   </file>
   <file original="KeePassium/database/group/Base.lproj/EditGroupVC.storyboard" source-language="en" target-language="fr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="jea-zX-9LD.placeholder" xml:space="preserve">
@@ -1096,7 +1140,7 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
   </file>
   <file original="KeePassium/database/group/Base.lproj/ViewGroupVC.storyboard" source-language="en" target-language="fr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="9KV-rC-1XL.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" xml:space="preserve">
@@ -1133,13 +1177,13 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
   </file>
   <file original="KeePassium/database/relocation/Base.lproj/DestinationGroupPickerVC.storyboard" source-language="en" target-language="fr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body/>
   </file>
   <file original="KeePassium/en.lproj/InfoPlist.strings" source-language="en" target-language="fr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName" xml:space="preserve">
@@ -1155,12 +1199,12 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
       <trans-unit id="KeePass Database (kdb)" xml:space="preserve">
         <source>KeePass Database (kdb)</source>
         <target state="translated">Base de données KeePass (kdb)</target>
-        <note/>
+        <note>(No Comment)</note>
       </trans-unit>
       <trans-unit id="KeePass Database (kdbx)" xml:space="preserve">
         <source>KeePass Database (kdbx)</source>
         <target state="translated">Base de données KeePass (kdbx)</target>
-        <note/>
+        <note>(No Comment)</note>
       </trans-unit>
       <trans-unit id="NFCReaderUsageDescription" xml:space="preserve">
         <source>KeePassium needs access to NFC to communicate with your YubiKey.</source>
@@ -1186,7 +1230,7 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
   </file>
   <file original="KeePassium/en.lproj/Localizable.strings" source-language="en" target-language="fr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="Add Database" xml:space="preserve">
@@ -1503,6 +1547,16 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
         <target state="translated">Essayez de supprimer le fichier de l'application, puis ajoutez-le à nouveau.</target>
         <note>A suggestion shown after specific file errors (either databases or key files).</note>
       </trans-unit>
+      <trans-unit id="[FileInfo/Backup/header]" xml:space="preserve">
+        <source>Backup</source>
+        <target state="translated">Sauvegarde</target>
+        <note>Section header: file backup settings</note>
+      </trans-unit>
+      <trans-unit id="[FileInfo/Error/failed to change attributes]" xml:space="preserve">
+        <source>Failed to update file attributes.</source>
+        <target state="translated">Échec de la mise à jour des attributs de fichier.</target>
+        <note>Error message shown when the user tries to change file attributes (such as creation/modification date, backup flag, etc)</note>
+      </trans-unit>
       <trans-unit id="[FileInfo/Field/title] Creation Date" xml:space="preserve">
         <source>Creation Date</source>
         <target state="translated">Date de création</target>
@@ -1532,6 +1586,11 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
         <source>Error</source>
         <target state="translated">Erreur</target>
         <note>Title of a field with an error message</note>
+      </trans-unit>
+      <trans-unit id="[FileInfo/isExcludedFromBackup/title]" xml:space="preserve">
+        <source>Exclude From iCloud/iTunes Backup</source>
+        <target state="translated">Exclure de la sauvegarde iCloud/iTunes</target>
+        <note>Title of a setting: is the file exluded from iCloud/iTunes backup. For example: `Exclude From Backup: &lt;Yes&gt;`</note>
       </trans-unit>
       <trans-unit id="[General/DestinationGroup/title] Choose a Destination" xml:space="preserve">
         <source>Choose a Destination</source>
@@ -1602,6 +1661,11 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
         <source>Contact Us</source>
         <target state="translated">Contactez-nous</target>
         <note>Action/button to write an email to support</note>
+      </trans-unit>
+      <trans-unit id="[Generic] Continue" xml:space="preserve">
+        <source>Continue</source>
+        <target state="translated">Continuer</target>
+        <note>Action/button to proceed with the action</note>
       </trans-unit>
       <trans-unit id="[Generic] Copy" xml:space="preserve">
         <source>Copy</source>
@@ -1720,15 +1784,12 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
  Assurez-vous d'avoir une sauvegarde.</target>
         <note>Message to confirm deletion of a key file.</note>
       </trans-unit>
-      <trans-unit id="[News/2019/10/ProVersionReleaseNews/title] KeePassium Pro" xml:space="preserve">
-        <source>KeePassium Pro</source>
-        <target state="translated">KeePassium Pro</target>
-        <note>Title of an announcement about the Pro version</note>
-      </trans-unit>
-      <trans-unit id="[News/AutoFill/stubText] Please open the main app for the full announcement." xml:space="preserve">
-        <source>Please open the main app for the full announcement.</source>
-        <target state="translated">Veuillez ouvrir l'application principale pour l'annonce complète.</target>
-        <note>Message shown when opening an announcement in AutoFill</note>
+      <trans-unit id="[KeyFile/Remove/Confirm/text] Remove key file from the list?&#10; The file will remain intact and you can add it again later." xml:space="preserve">
+        <source>Remove key file from the list?
+ The file will remain intact and you can add it again later.</source>
+        <target state="translated">Retirer le fichier de clé de la liste ?
+ Le fichier restera intact et vous pourrez l'ajouter plus tard.</target>
+        <note>Message to confirm removal of a key file from the app. (This keeps the file, but removes its reference from the app.)</note>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/AttachmentPreview/details]" xml:space="preserve">
         <source>Preview attached files directly in KeePassium and leave no traces in other apps. (Works with images, documents, archives and more.)</source>
@@ -1738,6 +1799,16 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
       <trans-unit id="[Premium/Benefits/AttachmentPreview/title]" xml:space="preserve">
         <source>Preview without a trace</source>
         <target state="translated">Aperçu sans trace</target>
+        <note>Title of a premium feature</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Benefits/CustomAppIcon/details]" xml:space="preserve">
+        <source>Make KeePassium look unique, familiar, or disguise it as a calculator — the choice is yours.</source>
+        <target state="translated">Donnez à KeePassium un aspect unique, familier, ou déguisez-le en calculatrice - le choix vous appartient.</target>
+        <note>Explanation of a premium feature</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Benefits/CustomAppIcon/title]" xml:space="preserve">
+        <source>Change app icon</source>
+        <target state="translated">Changer l'icône de l'application</target>
         <note>Title of a premium feature</note>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/DatabaseTimeout/details]" xml:space="preserve">
@@ -1760,16 +1831,6 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
         <target state="translated">Utiliser des clés materielles</target>
         <note>Title of a premium feature</note>
       </trans-unit>
-      <trans-unit id="[Premium/Benefits/Maintenance/details]" xml:space="preserve">
-        <source>Keep KeePassium improved, maintained and without ads.</source>
-        <target state="translated">Gardez KeePassium amélioré, maintenu et sans publicité.</target>
-        <note>Explanation of the premium feature</note>
-      </trans-unit>
-      <trans-unit id="[Premium/Benefits/Maintenance/title]" xml:space="preserve">
-        <source>Keep it shiny</source>
-        <target state="translated">Gardez-le brillant</target>
-        <note>Title of a premium feature</note>
-      </trans-unit>
       <trans-unit id="[Premium/Benefits/MultiDB/details]" xml:space="preserve">
         <source>Add multiple databases and quickly switch between them.</source>
         <target state="translated">Ajoutez plusieurs bases de données et basculez rapidement entre elles.</target>
@@ -1780,15 +1841,112 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
         <target state="translated">Synchroniser avec l'équipe</target>
         <note>Title of a premium feature</note>
       </trans-unit>
-      <trans-unit id="[Premium/Benefits/Support/details]" xml:space="preserve">
-        <source>Community support means no obligations. With premium, get answers and solutions directly from the developer.</source>
-        <target state="translated">Le soutien de la communauté n'a pas de caractère obligatoire. Avec la version Premium, obtenez des réponses et des solutions directement du développeur.</target>
-        <note>Explanation of the premium feature</note>
+      <trans-unit id="[Premium/Benefits/Negative/header] " xml:space="preserve">
+        <source>What you are missing</source>
+        <target state="translated">Ce qui vous manque</target>
+        <note>List of premium benefits/advantages</note>
       </trans-unit>
-      <trans-unit id="[Premium/Benefits/Support/title]" xml:space="preserve">
-        <source>Talk to support that cares</source>
-        <target state="translated">Échanger avec une assistance technique consciencieuse</target>
-        <note>Title of a premium feature</note>
+      <trans-unit id="[Premium/Benefits/Positive/header] " xml:space="preserve">
+        <source>What you get</source>
+        <target state="translated">Ce que vous obtenez</target>
+        <note>List of premium benefits/advantages</note>
+      </trans-unit>
+      <trans-unit id="[Premium/CallToAction/free]" xml:space="preserve">
+        <source>Continue Testing</source>
+        <target state="translated">Poursuivre les tests</target>
+        <note>Call to action: continue using the free version</note>
+      </trans-unit>
+      <trans-unit id="[Premium/CallToAction/startTrial]" xml:space="preserve">
+        <source>Try it free</source>
+        <target state="translated">L'essayer gratuitement</target>
+        <note>Call to action: start free trial</note>
+      </trans-unit>
+      <trans-unit id="[Premium/CallToAction/upgradeNow]" xml:space="preserve">
+        <source>Upgrade Now</source>
+        <target state="translated">Mettre à niveau maintenant</target>
+        <note>Call to action: upgrade to premium</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Price Plan/Conditions/1 year email support]" xml:space="preserve">
+        <source>One year of email support</source>
+        <target state="translated">Un an d'assistance par e-mail</target>
+        <note>What's included in a price plan: 1 year of support via email</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Price Plan/Conditions/all premium features]" xml:space="preserve">
+        <source>All premium features</source>
+        <target state="translated">Toutes les fonctionnalités Premium</target>
+        <note>What's included in a price plan</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Price Plan/Conditions/community support]" xml:space="preserve">
+        <source>Customer support: Online forums</source>
+        <target state="translated">Support client : forums en ligne</target>
+        <note>What's included in a free plan: support via forums (as opposed to email support)</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Price Plan/Conditions/current premium features]" xml:space="preserve">
+        <source>Current premium features</source>
+        <target state="translated">Fonctionnalités Premium actuelles</target>
+        <note>What's included in a price plan: existing premium features only (as opposed to `current + future`)</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Price Plan/Conditions/email support]" xml:space="preserve">
+        <source>Customer support: Email</source>
+        <target state="translated">Support client : E-mail</target>
+        <note>What's included in a price plan: support via email</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Price Plan/Conditions/freemium reminders]" xml:space="preserve">
+        <source>Freemium reminders</source>
+        <target state="translated">Rappels Freemium</target>
+        <note>What's included in a free plan: reminders that the version is free</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Price Plan/Conditions/future premium features]" xml:space="preserve">
+        <source>Future premium features</source>
+        <target state="translated">Fonctionnalités Premium futures</target>
+        <note>What's included in a price plan: upcoming premium features (as opposed to `current only`)</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Price Plan/Conditions/perpetual fallback]" xml:space="preserve">
+        <source>Rent-to-own license (Perpetual fallback license)</source>
+        <target state="translated">Licence en location avec option d'achat (licence supplétive perpétuelle)</target>
+        <note>What's included in a price plan. Please leave `perpetual fallback license` in English.</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Price Plan/Conditions/updates and bug fixes]" xml:space="preserve">
+        <source>Updates and bug fixes</source>
+        <target state="translated">Mises à jour et correctifs</target>
+        <note>What's included in a price plan</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Price Plan/Free/price]" xml:space="preserve">
+        <source>Free</source>
+        <target state="translated">Gratuit</target>
+        <note>Price of the free pricing plan</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Price Plan/Free/title]" xml:space="preserve">
+        <source>Free</source>
+        <target state="translated">Gratuit</target>
+        <note>Name of the free pricing plan</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Price Plan/popular]" xml:space="preserve">
+        <source>Popular</source>
+        <target state="translated">Populaire</target>
+        <note>Marks the default pricing plan</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Subscription/Legal/text]" xml:space="preserve">
+        <source>
+Payment will be charged to your Apple ID account at the confirmation of purchase.
+
+Subscription automatically renews unless it is canceled at least 24 hours before the end of the current period. Your account will be charged for renewal within 24 hours prior to the end of the current period.
+
+You can manage and cancel your subscriptions by going to your account settings on the App Store after purchase.
+</source>
+        <target state="translated">
+Le paiement sera prélevé sur votre compte Apple au moment de la confirmation de l’achat.
+
+L’abonnement est renouvelé automatiquement à moins qu’il ne soit annulé au moins 24 heures avant la fin de la période en cours. Le renouvellement sera prélevé sur votre compte dans les 24 heures précédant la fin de la période en cours. 
+
+Vous pouvez gérer et annuler vos abonnements depuis les paramètres du compte dans l’App Store, une fois l’achat réalisé.
+</target>
+        <note>Subscription conditions</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Trial/trial then price]" xml:space="preserve">
+        <source>%1$@ free, then %2$@</source>
+        <target state="translated">%1$@ gratuit, puis %2$@</target>
+        <note>Trial conditions. For example `30 days free, then $1 per month`</note>
       </trans-unit>
       <trans-unit id="[Premium/Upgrade/Deferred/text] Thank you! You can use KeePassium while purchase is awaiting approval from a parent" xml:space="preserve">
         <source>Thank you! You can use KeePassium while purchase is awaiting approval from a parent</source>
@@ -1830,11 +1988,6 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
         <target state="translated">Passer à la version Premium</target>
         <note>Action/button to start choosing premium versions and possibly buying one</note>
       </trans-unit>
-      <trans-unit id="[Premium/Upgrade/description] with priority support" xml:space="preserve">
-        <source>with priority support</source>
-        <target state="translated">avec support prioritaire</target>
-        <note>Description of a premium option. Lowercase. For example 'Business Premium / with priority support'.</note>
-      </trans-unit>
       <trans-unit id="[Premium/Upgrade/price] %@ / month" xml:space="preserve">
         <source>%@ / month</source>
         <target state="translated">%@ / mois</target>
@@ -1849,6 +2002,11 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
         <source>%@ once</source>
         <target state="final">%@ une fois</target>
         <note>Product price for once-and-forever premium. [localizedPrice: String]</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Upgrade/price] around %@ / month" xml:space="preserve">
+        <source>≈ %@ / month</source>
+        <target state="translated">≈ %@/mois</target>
+        <note>Equivalent monthly price for an annual subscription. For example: `$12/year ≈ $1 / month`</note>
       </trans-unit>
       <trans-unit id="[Premium/Upgrade] Hmm, there are no upgrades available. This should not happen, please contact support." xml:space="preserve">
         <source>Hmm, there are no upgrades available. This should not happen, please contact support.</source>
@@ -1879,6 +2037,21 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
         <source>App being useful: %1$@/month, that is around %2$@/year.</source>
         <target state="translated">Application utile : %1$@/mois, soit environ %2$@/an.</target>
         <note>Status: how long the app has been used during some time period. For example: `App being useful: 1hr/month, about 12hr/year`. [monthlyUsage: String, annualUsage: String — already include the time unit (hours, minutes)]</note>
+      </trans-unit>
+      <trans-unit id="[PremiumFeature/CustomAppIcons/title]" xml:space="preserve">
+        <source>Custom App Icons</source>
+        <target state="translated">Icônes personnalisées d'applications</target>
+        <note>Title of a premium feature: ability to change the app icon</note>
+      </trans-unit>
+      <trans-unit id="[PremiumFeature/Generic/description]" xml:space="preserve">
+        <source>You have found a premium feature! Upgrade to premium and enjoy KeePassium at its best.</source>
+        <target state="translated">Vous avez trouvé une fonctionnalité premium ! Passez à la version premium et profitez de KeePassium à son meilleur.</target>
+        <note>A generic description of a premium feature</note>
+      </trans-unit>
+      <trans-unit id="[PremiumFeature/Generic/title]" xml:space="preserve">
+        <source>Premium Feature</source>
+        <target state="translated">Fonctionnalité Premium</target>
+        <note>A generic title of a premium feature</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/HardwareKeys/description]" xml:space="preserve">
         <source>Strengthen your security with hardware keys (YubiKey) in the premium version.</source>
@@ -2034,7 +2207,7 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
   </file>
   <file original="KeePassium/general/Base.lproj/AboutVC.storyboard" source-language="en" target-language="fr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="7bL-fQ-OUc.headerTitle" xml:space="preserve">
@@ -2071,6 +2244,11 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
         <source>Do you like what you see?</source>
         <target state="translated">Vous aimez ce que vous voyez?</target>
         <note>Class = "UILabel"; text = "Do you like what you see?"; ObjectID = "AMd-x7-PDa"; Note = "First part of the 'Do you like what you see? / Leave an App Store review.\"";</note>
+      </trans-unit>
+      <trans-unit id="AWg-lI-BfC.text" xml:space="preserve">
+        <source>MIT license</source>
+        <target state="translated">Licence MIT</target>
+        <note>Class = "UILabel"; text = "MIT license"; ObjectID = "AWg-lI-BfC";</note>
       </trans-unit>
       <trans-unit id="Aig-jg-p8B.text" xml:space="preserve">
         <source>MIT license</source>
@@ -2116,6 +2294,11 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
         <source>About</source>
         <target state="translated">A propos</target>
         <note>Class = "UITableViewController"; title = "About"; ObjectID = "NLN-lQ-bh5";</note>
+      </trans-unit>
+      <trans-unit id="OaP-Bl-5vR.text" xml:space="preserve">
+        <source>TPInAppReceipt by Pavel Tikhonenko</source>
+        <target state="translated">TPInAppReceipt de Pavel Tikhonenko</target>
+        <note>Class = "UILabel"; text = "TPInAppReceipt by Pavel Tikhonenko"; ObjectID = "OaP-Bl-5vR";</note>
       </trans-unit>
       <trans-unit id="QV5-N8-NRt.text" xml:space="preserve">
         <source>Public domain</source>
@@ -2168,9 +2351,9 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
         <note>Class = "UILabel"; text = "MIT license"; ObjectID = "bAq-tq-nuY";</note>
       </trans-unit>
       <trans-unit id="bmf-Ed-H4x.text" xml:space="preserve">
-        <source>©2019 Andrei Popleteev</source>
-        <target state="translated">©2019 Andrei Popleteev</target>
-        <note>Class = "UILabel"; text = "©2019 Andrei Popleteev"; ObjectID = "bmf-Ed-H4x";</note>
+        <source>©2020 Andrei Popleteev</source>
+        <target state="translated">©2020 Andrei Popleteev</target>
+        <note>Class = "UILabel"; text = "©2020 Andrei Popleteev"; ObjectID = "bmf-Ed-H4x";</note>
       </trans-unit>
       <trans-unit id="dMv-Zw-y7y.text" xml:space="preserve">
         <source>MIT license</source>
@@ -2261,7 +2444,7 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
   </file>
   <file original="KeePassium/general/Base.lproj/ChooseIconVC.storyboard" source-language="en" target-language="fr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="H8v-gf-kff.title" xml:space="preserve">
@@ -2273,7 +2456,7 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
   </file>
   <file original="KeePassium/general/Base.lproj/FileInfoVC.storyboard" source-language="en" target-language="fr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="Cu8-bv-TEu.title" xml:space="preserve">
@@ -2290,7 +2473,7 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
   </file>
   <file original="KeePassium/general/Base.lproj/PasscodeInputVC.storyboard" source-language="en" target-language="fr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="3mQ-t6-0ty.text" xml:space="preserve">
@@ -2317,7 +2500,7 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
   </file>
   <file original="KeePassium/general/Base.lproj/ViewDiagnosticsVC.storyboard" source-language="en" target-language="fr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="1D0-qD-Wj1.title" xml:space="preserve">
@@ -2339,7 +2522,7 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
   </file>
   <file original="KeePassium/general/Base.lproj/WelcomeVC.storyboard" source-language="en" target-language="fr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="1Nc-wz-Yqq.title" xml:space="preserve">
@@ -2366,86 +2549,36 @@ Vous pouvez avoir plusieurs bases de données, par exemple pour séparer le trav
       </trans-unit>
     </body>
   </file>
-  <file original="KeePassium/premium/Base.lproj/PremiumContainerVC.storyboard" source-language="en" target-language="fr" datatype="plaintext">
+  <file original="KeePassium/premium/Base.lproj/PricingPlanPickerVC.storyboard" source-language="en" target-language="fr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
-      <trans-unit id="Qkk-pB-jp6.segmentTitles[0]" xml:space="preserve">
+      <trans-unit id="LNd-e9-YY7.title" xml:space="preserve">
         <source>Premium</source>
         <target state="translated">Premium</target>
-        <note>Class = "UISegmentedControl"; Qkk-pB-jp6.segmentTitles[0] = "Premium"; ObjectID = "Qkk-pB-jp6";</note>
+        <note>Class = "UINavigationItem"; title = "Premium"; ObjectID = "LNd-e9-YY7";</note>
       </trans-unit>
-      <trans-unit id="Qkk-pB-jp6.segmentTitles[1]" xml:space="preserve">
-        <source>Pro</source>
-        <target state="translated">Pro</target>
-        <note>Class = "UISegmentedControl"; Qkk-pB-jp6.segmentTitles[1] = "Pro"; ObjectID = "Qkk-pB-jp6";</note>
+      <trans-unit id="NSz-U1-2ye.normalTitle" xml:space="preserve">
+        <source>Terms and Conditions</source>
+        <target state="translated">Conditions générales</target>
+        <note>Class = "UIButton"; normalTitle = "Terms and Conditions"; ObjectID = "NSz-U1-2ye";</note>
       </trans-unit>
-    </body>
-  </file>
-  <file original="KeePassium/premium/Base.lproj/PremiumProVC.storyboard" source-language="en" target-language="fr" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
-    </header>
-    <body>
-      <trans-unit id="5rv-SA-uRy.accessibilityLabel" xml:space="preserve">
-        <source>Download in the App Store</source>
-        <target state="translated">Télécharger sur l'App Store</target>
-        <note>Class = "UIButton"; accessibilityLabel = "Download in the App Store"; ObjectID = "5rv-SA-uRy";</note>
-      </trans-unit>
-      <trans-unit id="RMU-nJ-6tZ.text" xml:space="preserve">
-        <source>KeePassium Pro</source>
-        <target state="translated">KeePassium Pro</target>
-        <note>Class = "UILabel"; text = "KeePassium Pro"; ObjectID = "RMU-nJ-6tZ";</note>
-      </trans-unit>
-      <trans-unit id="TAt-eQ-x30.text" xml:space="preserve">
-        <source>KeePassium Pro is a paid version of KeePassium, and is suitable for Family Sharing and Volume Purchase Program.</source>
-        <target state="translated">KeePassium Pro est une version payante de KeePassium, adaptée au programme de partage familial et d’achat en volume.</target>
-        <note>Class = "UILabel"; text = "KeePassium Pro is a paid version of KeePassium, and is suitable for Family Sharing and Volume Purchase Program."; ObjectID = "TAt-eQ-x30";</note>
-      </trans-unit>
-      <trans-unit id="k28-Nu-VFD.normalTitle" xml:space="preserve">
-        <source>Premium Keeper = Free upgrade
-Contact us</source>
-        <target state="translated">Premium Keeper = Mise à niveau gratuite
-Contactez-nous</target>
-        <note>Class = "UIButton"; normalTitle = "Premium Keeper = Free upgrade\nContact us"; ObjectID = "k28-Nu-VFD";</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="KeePassium/premium/Base.lproj/PremiumVC.storyboard" source-language="en" target-language="fr" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
-    </header>
-    <body>
-      <trans-unit id="Dfd-LU-ij4.normalTitle" xml:space="preserve">
+      <trans-unit id="fC2-en-cOo.normalTitle" xml:space="preserve">
         <source>Privacy Policy</source>
         <target state="translated">Politique de confidentialité</target>
-        <note>Class = "UIButton"; normalTitle = "Privacy Policy"; ObjectID = "Dfd-LU-ij4";</note>
+        <note>Class = "UIButton"; normalTitle = "Privacy Policy"; ObjectID = "fC2-en-cOo";</note>
       </trans-unit>
-      <trans-unit id="Rkk-oi-8fO.text" xml:space="preserve">
-        <source>Payment will be charged to your Apple ID account at the confirmation of purchase. 
-
-Subscription automatically renews unless it is canceled at least 24 hours before the end of the current period. Your account will be charged for renewal within 24 hours prior to the end of the current period. 
-
-You can manage and cancel your subscriptions by going to your account settings on the App Store after purchase.</source>
-        <target state="translated">Le paiement sera prélevé sur votre compte Apple au moment de la confirmation de l’achat. L’abonnement est renouvelé automatiquement à moins qu’il ne soit annulé au moins 24 heures avant la fin de la période en cours. Le renouvellement sera prélevé sur votre compte dans les 24 heures précédant la fin de la période en cours. Vous pouvez gérer et annuler vos abonnements depuis les paramètres du compte dans l’App Store, une fois l’achat réalisé.</target>
-        <note>Class = "UILabel"; text = "Payment will be charged to your Apple ID account at the confirmation of purchase. \n\nSubscription automatically renews unless it is canceled at least 24 hours before the end of the current period. Your account will be charged for renewal within 24 hours prior to the end of the current period. \n\nYou can manage and cancel your subscriptions by going to your account settings on the App Store after purchase."; ObjectID = "Rkk-oi-8fO"; Note = "Standard conditions text mandated by Apple.";</note>
-      </trans-unit>
-      <trans-unit id="ujr-9f-eco.normalTitle" xml:space="preserve">
-        <source>Terms and Conditions</source>
-        <target state="translated">Conditions d’utilisation</target>
-        <note>Class = "UIButton"; normalTitle = "Terms and Conditions"; ObjectID = "ujr-9f-eco";</note>
-      </trans-unit>
-      <trans-unit id="yss-Xu-2XK.normalTitle" xml:space="preserve">
-        <source>Restore Purchases</source>
-        <target state="translated">Restaurer les achats</target>
-        <note>Class = "UIButton"; normalTitle = "Restore Purchases"; ObjectID = "yss-Xu-2XK";</note>
+      <trans-unit id="j7c-Gd-QEh.normalTitle" xml:space="preserve">
+        <source>Already purchased?</source>
+        <target state="translated">Déjà acheté ?</target>
+        <note>Class = "UIButton"; normalTitle = "Already purchased?"; ObjectID = "j7c-Gd-QEh";</note>
       </trans-unit>
     </body>
   </file>
   <file original="KeePassium/settings/appLock/Base.lproj/SettingsAppLockVC.storyboard" source-language="en" target-language="fr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="5Dg-KX-m7a.footerTitle" xml:space="preserve">
@@ -2502,7 +2635,7 @@ You can manage and cancel your subscriptions by going to your account settings o
   </file>
   <file original="KeePassium/settings/appLock/Base.lproj/SettingsAppTimeoutVC.storyboard" source-language="en" target-language="fr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="5MH-wG-EYd.title" xml:space="preserve">
@@ -2514,7 +2647,7 @@ You can manage and cancel your subscriptions by going to your account settings o
   </file>
   <file original="KeePassium/settings/autoFill/Base.lproj/SettingsAutoFillVC.storyboard" source-language="en" target-language="fr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="7SF-2E-uTg.text" xml:space="preserve">
@@ -2586,7 +2719,7 @@ You can manage and cancel your subscriptions by going to your account settings o
   </file>
   <file original="KeePassium/settings/backup/Base.lproj/SettingsBackupTimeoutPickerVC.storyboard" source-language="en" target-language="fr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="atf-ra-KMC.title" xml:space="preserve">
@@ -2598,7 +2731,7 @@ You can manage and cancel your subscriptions by going to your account settings o
   </file>
   <file original="KeePassium/settings/backup/Base.lproj/SettingsBackupVC.storyboard" source-language="en" target-language="fr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="B3L-Dk-Uq3.footerTitle" xml:space="preserve">
@@ -2645,7 +2778,7 @@ You can manage and cancel your subscriptions by going to your account settings o
   </file>
   <file original="KeePassium/settings/Base.lproj/SettingsClipboardTimeoutVC.storyboard" source-language="en" target-language="fr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="iJJ-jv-hhP.title" xml:space="preserve">
@@ -2657,7 +2790,7 @@ You can manage and cancel your subscriptions by going to your account settings o
   </file>
   <file original="KeePassium/settings/Base.lproj/SettingsDatabaseTimeoutVC.storyboard" source-language="en" target-language="fr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="26a-m8-zQP.title" xml:space="preserve">
@@ -2669,7 +2802,7 @@ You can manage and cancel your subscriptions by going to your account settings o
   </file>
   <file original="KeePassium/settings/Base.lproj/SettingsDataProtectionVC.storyboard" source-language="en" target-language="fr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="3uV-Zs-RRo.normalTitle" xml:space="preserve">
@@ -2746,6 +2879,11 @@ You can manage and cancel your subscriptions by going to your account settings o
         <target state="translated">Utilisez le Presse-papiers universel pour copier et coller entre vos appareils Apple.</target>
         <note>Class = "UITableViewSection"; footerTitle = "Use Universal Clipboard to copy and paste between your Apple devices."; ObjectID = "g9a-rJ-4WJ";</note>
       </trans-unit>
+      <trans-unit id="gTm-F6-EDQ.text" xml:space="preserve">
+        <source>Clear Master Keys on Timeout</source>
+        <target state="translated">Effacer la clé primaire en cas d'expiration</target>
+        <note>Class = "UILabel"; text = "Clear Master Keys on Timeout"; ObjectID = "gTm-F6-EDQ";</note>
+      </trans-unit>
       <trans-unit id="hnI-Q8-Ixm.footerTitle" xml:space="preserve">
         <source>When you copy anything, KeePassium will automatically clear your clipboard (pasteboard) after some time.</source>
         <target state="translated">Lorsque vous copiez du texte depuis une entrée, l'application effacera automatiquement votre presse-papiers après un certain délai.</target>
@@ -2780,7 +2918,7 @@ You can manage and cancel your subscriptions by going to your account settings o
   </file>
   <file original="KeePassium/settings/Base.lproj/SettingsFileSortingVC.storyboard" source-language="en" target-language="fr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="87L-KA-IeR.title" xml:space="preserve">
@@ -2797,7 +2935,7 @@ You can manage and cancel your subscriptions by going to your account settings o
   </file>
   <file original="KeePassium/settings/Base.lproj/SettingsItemListVC.storyboard" source-language="en" target-language="fr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="Gyy-12-KPC.title" xml:space="preserve">
@@ -2809,7 +2947,7 @@ You can manage and cancel your subscriptions by going to your account settings o
   </file>
   <file original="KeePassium/settings/Base.lproj/SettingsSearchVC.storyboard" source-language="en" target-language="fr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="DJr-hC-DMT.footerTitle" xml:space="preserve">
@@ -2846,7 +2984,7 @@ You can manage and cancel your subscriptions by going to your account settings o
   </file>
   <file original="KeePassium/settings/Base.lproj/SettingsVC.storyboard" source-language="en" target-language="fr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="9yn-W3-FDl.headerTitle" xml:space="preserve">
@@ -2919,15 +3057,15 @@ You can manage and cancel your subscriptions by going to your account settings o
         <target state="translated">Remplissage automatique des mots de passe</target>
         <note>Class = "UILabel"; text = "AutoFill Passwords"; ObjectID = "T2Z-oa-zJR";</note>
       </trans-unit>
+      <trans-unit id="TUE-Aw-fJl.text" xml:space="preserve">
+        <source>App Icon</source>
+        <target state="translated">Icône d'application</target>
+        <note>Class = "UILabel"; text = "App Icon"; ObjectID = "TUE-Aw-fJl"; Note = "Section in settings: icon for the app";</note>
+      </trans-unit>
       <trans-unit id="UNl-Hc-Ref.text" xml:space="preserve">
         <source>Data Protection</source>
         <target state="translated">Protection des données</target>
         <note>Class = "UILabel"; text = "Data Protection"; ObjectID = "UNl-Hc-Ref"; Note = "Settings section: protection of databases, their keys and data inside them";</note>
-      </trans-unit>
-      <trans-unit id="ZFi-ss-fUa.headerTitle" xml:space="preserve">
-        <source>AutoFill</source>
-        <target state="translated">Remplissage automatique</target>
-        <note>Class = "UITableViewSection"; headerTitle = "AutoFill"; ObjectID = "ZFi-ss-fUa";</note>
       </trans-unit>
       <trans-unit id="abS-AH-iFO.text" xml:space="preserve">
         <source>App Protection</source>
@@ -2958,11 +3096,6 @@ You can manage and cancel your subscriptions by going to your account settings o
         <source>Upgrade to Premium</source>
         <target state="translated">Passer à la version Premium</target>
         <note>Class = "UILabel"; text = "Upgrade to Premium"; ObjectID = "oxG-N8-1ld";</note>
-      </trans-unit>
-      <trans-unit id="qEE-z7-pd0.headerTitle" xml:space="preserve">
-        <source>Search</source>
-        <target state="translated">Recherche</target>
-        <note>Class = "UITableViewSection"; headerTitle = "Search"; ObjectID = "qEE-z7-pd0"; Note = "Section title in settings";</note>
       </trans-unit>
       <trans-unit id="qhK-lw-bGy.text" xml:space="preserve">
         <source>For expert troubleshooting</source>
