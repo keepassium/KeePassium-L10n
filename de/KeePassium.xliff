@@ -471,6 +471,11 @@ Infolgedessen müssen AutoFill und die KeePassium-App ihre eigenen Berechtigunge
         <target state="translated">Sind Sie sicher?</target>
         <note>Message to confirm deletion of an item.</note>
       </trans-unit>
+      <trans-unit id="[Generic/Directory/Recently Deleted/name]" xml:space="preserve">
+        <source>Recently Deleted</source>
+        <target state="translated">Zuletzt gelöscht</target>
+        <note>Name of the Recently Deleted (Recycle Bin) directory, as shown in the Files app</note>
+      </trans-unit>
       <trans-unit id="[Generic/Edit/Aborting/text] Discard unsaved changes?" xml:space="preserve">
         <source>Discard unsaved changes?</source>
         <target state="translated">Nicht gespeicherte Änderungen verwerfen?</target>
@@ -631,6 +636,11 @@ Infolgedessen müssen AutoFill und die KeePassium-App ihre eigenen Berechtigunge
         <target state="translated">Hardwareschlüssel sind in AutoFill nicht verfügbar.</target>
         <note>A notification that hardware keys (e.g. YubiKey) cannot be used in AutoFill (the OS does not allow the AutoFill to use NFC/MFI).</note>
       </trans-unit>
+      <trans-unit id="[HardwareKey/NFC/OS too old]" xml:space="preserve">
+        <source>NFC requires iOS 13 or later.</source>
+        <target state="needs-translation">NFC requires iOS 13 or later.</target>
+        <note>A notification that NFC (Near Field Communication) interface is not supported by the current iOS version.</note>
+      </trans-unit>
       <trans-unit id="[HardwareKey/None] No Hardware Key" xml:space="preserve">
         <source>No Hardware Key</source>
         <target state="translated">Kein Hardware-Schlüssel</target>
@@ -640,6 +650,11 @@ Infolgedessen müssen AutoFill und die KeePassium-App ihre eigenen Berechtigunge
         <source>YubiKey Slot %d</source>
         <target state="translated">YubiKey Slot %d</target>
         <note>Master key/unlock option: use given slot of YubiKey</note>
+      </trans-unit>
+      <trans-unit id="[Help Viewer/title]" xml:space="preserve">
+        <source>Help</source>
+        <target state="translated">Hilfe</target>
+        <note>Generic title of in-app help article</note>
       </trans-unit>
       <trans-unit id="[KeyFile/Delete/Confirm/text] Delete key file?&#10; Make sure you have a backup." xml:space="preserve">
         <source>Delete key file?
@@ -830,6 +845,11 @@ Infolgedessen müssen AutoFill und die KeePassium-App ihre eigenen Berechtigunge
         <source>Add Database</source>
         <target state="translated">Datenbank hinzufügen</target>
         <note>Class = "UIBarButtonItem"; title = "Add Database"; ObjectID = "qPq-UR-uZs"; Note = "Action: add database (either an existing file or create a new one)";</note>
+      </trans-unit>
+      <trans-unit id="zIk-Pe-sKK.accessibilityLabel" xml:space="preserve">
+        <source>Close</source>
+        <target state="translated">Schließen</target>
+        <note>Class = "UIButton"; accessibilityLabel = "Close"; ObjectID = "zIk-Pe-sKK";</note>
       </trans-unit>
     </body>
   </file>
@@ -1602,6 +1622,11 @@ Infolgedessen müssen AutoFill und die KeePassium-App ihre eigenen Berechtigunge
         <target state="translated">Bist du sicher?</target>
         <note>Message to confirm deletion of an item.</note>
       </trans-unit>
+      <trans-unit id="[Generic/Directory/Recently Deleted/name]" xml:space="preserve">
+        <source>Recently Deleted</source>
+        <target state="translated">Zuletzt gelöscht</target>
+        <note>Name of the Recently Deleted (Recycle Bin) directory, as shown in the Files app</note>
+      </trans-unit>
       <trans-unit id="[Generic/Edit/Aborting/text] Discard unsaved changes?" xml:space="preserve">
         <source>Discard unsaved changes?</source>
         <target state="translated">Ungespeicherte Änderungen verwerfen?</target>
@@ -1762,6 +1787,11 @@ Infolgedessen müssen AutoFill und die KeePassium-App ihre eigenen Berechtigunge
         <target state="translated">Hardwareschlüssel sind in AutoFill nicht verfügbar.</target>
         <note>A notification that hardware keys (e.g. YubiKey) cannot be used in AutoFill (the OS does not allow the AutoFill to use NFC/MFI).</note>
       </trans-unit>
+      <trans-unit id="[HardwareKey/NFC/OS too old]" xml:space="preserve">
+        <source>NFC requires iOS 13 or later.</source>
+        <target state="needs-translation">NFC requires iOS 13 or later.</target>
+        <note>A notification that NFC (Near Field Communication) interface is not supported by the current iOS version.</note>
+      </trans-unit>
       <trans-unit id="[HardwareKey/None] No Hardware Key" xml:space="preserve">
         <source>No Hardware Key</source>
         <target state="translated">Kein Hardware-Schlüssel</target>
@@ -1771,6 +1801,11 @@ Infolgedessen müssen AutoFill und die KeePassium-App ihre eigenen Berechtigunge
         <source>YubiKey Slot %d</source>
         <target state="translated">YubiKey Slot %d</target>
         <note>Master key/unlock option: use given slot of YubiKey</note>
+      </trans-unit>
+      <trans-unit id="[Help Viewer/title]" xml:space="preserve">
+        <source>Help</source>
+        <target state="translated">Hilfe</target>
+        <note>Generic title of in-app help article</note>
       </trans-unit>
       <trans-unit id="[ItemCategory] Default (KeePass)" xml:space="preserve">
         <source>Default (KeePass)</source>
@@ -1865,6 +1900,11 @@ Infolgedessen müssen AutoFill und die KeePassium-App ihre eigenen Berechtigunge
         <source>Upgrade Now</source>
         <target state="final">Jetzt upgraden</target>
         <note>Call to action: upgrade to premium</note>
+      </trans-unit>
+      <trans-unit id="[Premium/PerpetualLicense/status]" xml:space="preserve">
+        <source>You have a perpetual license for all the versions before %@.</source>
+        <target state="needs-translation">You have a perpetual license for all the versions before %@.</target>
+        <note>[formattedDate: String]</note>
       </trans-unit>
       <trans-unit id="[Premium/Price Plan/Conditions/1 year email support]" xml:space="preserve" approved="yes">
         <source>One year of email support</source>
@@ -2012,6 +2052,11 @@ Sie können Ihre Abonnements verwalten und kündigen, indem Sie nach dem Kauf Ih
         <source>Hmm, there are no upgrades available. This should not happen, please contact support.</source>
         <target state="translated">Hmm, es sind keine Upgrades verfügbar. Dies sollte nicht passieren, bitte kontaktieren Sie den Support.</target>
         <note>Error message: AppStore returned no available in-app purchase options</note>
+      </trans-unit>
+      <trans-unit id="[Premium/perpetualLicense]" xml:space="preserve">
+        <source>Perpetual license</source>
+        <target state="needs-translation">Perpetual license</target>
+        <note>Name of the permanent/never-ending license.</note>
       </trans-unit>
       <trans-unit id="[Premium/status] Beta testing" xml:space="preserve">
         <source>Beta testing</source>
@@ -2875,9 +2920,9 @@ Sie können mehrere Datenbanken nutzen um zum Beispiel Arbeit, Familie und pers�
         <note>Class = "UITableViewSection"; headerTitle = "Protected Fields"; ObjectID = "e6Y-AP-hag";</note>
       </trans-unit>
       <trans-unit id="g9a-rJ-4WJ.footerTitle" xml:space="preserve">
-        <source>Use Universal Clipboard to copy and paste between your Apple devices.</source>
-        <target state="translated">Verwenden Sie Universal Zwischenablage zum Kopieren und Einfügen zwischen Ihren Apple-Geräten.</target>
-        <note>Class = "UITableViewSection"; footerTitle = "Use Universal Clipboard to copy and paste between your Apple devices."; ObjectID = "g9a-rJ-4WJ";</note>
+        <source>Use Universal Clipboard to copy and paste between your Apple devices. On external devices, this clipboard is cleared after two minutes.</source>
+        <target state="needs-translation">Use Universal Clipboard to copy and paste between your Apple devices. On external devices, this clipboard is cleared after two minutes.</target>
+        <note>Class = "UITableViewSection"; footerTitle = "Use Universal Clipboard to copy and paste between your Apple devices. On external devices, this clipboard is cleared after two minutes."; ObjectID = "g9a-rJ-4WJ";</note>
       </trans-unit>
       <trans-unit id="gTm-F6-EDQ.text" xml:space="preserve" approved="yes">
         <source>Clear Master Keys on Timeout</source>
@@ -3051,6 +3096,11 @@ Sie können mehrere Datenbanken nutzen um zum Beispiel Arbeit, Familie und pers�
         <source>Suggestions? Problems? Let us know!</source>
         <target state="translated">Vorschläge? Probleme? Lass uns wissen!</target>
         <note>Class = "UILabel"; text = "Suggestions? Problems? Let us know!"; ObjectID = "RNK-fS-Fvx"; Note = "Subtitle for `Contact Us`. Keep it short.";</note>
+      </trans-unit>
+      <trans-unit id="RlK-RW-8Ld.text" xml:space="preserve">
+        <source>What's New</source>
+        <target state="translated">Neuheiten</target>
+        <note>Class = "UILabel"; text = "What's New"; ObjectID = "RlK-RW-8Ld"; Note = "Action: open app history page (change log)";</note>
       </trans-unit>
       <trans-unit id="T2Z-oa-zJR.text" xml:space="preserve">
         <source>AutoFill Passwords</source>

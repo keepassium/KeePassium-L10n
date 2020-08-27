@@ -256,7 +256,7 @@ Se hai bisogno di aiuto, contattaci pure.</target>
       </trans-unit>
       <trans-unit id="[AutoFill/Search/callerID]" xml:space="preserve">
         <source>Caller ID: %@</source>
-        <target state="needs-translation">Caller ID: %@</target>
+        <target state="translated">Caller ID: %@</target>
         <note>An identifier of the app that called AutoFill. The term is intentionally similar to https://ru.wikipedia.org/wiki/Caller_ID. [callerID: String]</note>
       </trans-unit>
       <trans-unit id="[AutoFill/Setup/footer]" xml:space="preserve">
@@ -267,9 +267,9 @@ Why? Behind the scenes, the system treats AutoFill as a separate app, independen
 As a result, both AutoFill and the main KeePassium app need to be given their own permissions for each external file. Luckily, this is a one-time procedure.</source>
         <target state="translated">L'AutoFill non può accedere automaticamente ai file che hai già nell'app principale di KeePassium
 
-Perché? Dietro le quinte, il sistema tratta AutoFill come un'app separata, indipendente dal processo principale di KeePassium. Per ragioni di sicurezza, un’app non può semplicemente accedere a qualsiasi file esterno – a meno che non si collegino esplicitamente questi file a questa app. Pertanto, il sistema garantisce che l'applicazione possa accedere solo ai file che hai autorizzato.
+Perché? Dietro le quinte, il sistema tratta AutoFill come un'app separata, indipendente dal processo principale di KeePassium. Per ragioni di sicurezza, un’app non può semplicemente accedere a qualsiasi file esterno – a meno che non si colleghino esplicitamente questi file all'app. Pertanto, il sistema garantisce che l'applicazione possa accedere solo ai file che hai autorizzato.
 
-Di conseguenza, sia AutoFill che l'app principale di KeePassium devono avere le autorizzazioni necessarie per ogni file esterno. Fortunatamente si tratta di una procedura unica.</target>
+Di conseguenza, sia AutoFill che l'app principale di KeePassium devono avere le autorizzazioni necessarie per ogni file esterno. Fortunatamente si tratta di una procedura da eseguire una tantum.</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="[BiometricAuthType] Face ID" xml:space="preserve">
@@ -428,7 +428,7 @@ Di conseguenza, sia AutoFill che l'app principale di KeePassium devono avere le 
       </trans-unit>
       <trans-unit id="[FileInfo/Error/failed to change attributes]" xml:space="preserve">
         <source>Failed to update file attributes.</source>
-        <target state="needs-translation">Failed to update file attributes.</target>
+        <target state="translated">Impossibile aggiornare gli attributi del file.</target>
         <note>Error message shown when the user tries to change file attributes (such as creation/modification date, backup flag, etc)</note>
       </trans-unit>
       <trans-unit id="[FileInfo/Field/title] Creation Date" xml:space="preserve">
@@ -463,13 +463,18 @@ Di conseguenza, sia AutoFill che l'app principale di KeePassium devono avere le 
       </trans-unit>
       <trans-unit id="[FileInfo/isExcludedFromBackup/title]" xml:space="preserve">
         <source>Exclude From iCloud/iTunes Backup</source>
-        <target state="needs-translation">Exclude From iCloud/iTunes Backup</target>
+        <target state="translated">Escludi da iCloud/iTunes Backup</target>
         <note>Title of a setting: is the file exluded from iCloud/iTunes backup. For example: `Exclude From Backup: &lt;Yes&gt;`</note>
       </trans-unit>
       <trans-unit id="[Generic/ConfirmDelete/title] Are you sure?" xml:space="preserve">
         <source>Are you sure?</source>
         <target state="translated">Sei sicuro?</target>
         <note>Message to confirm deletion of an item.</note>
+      </trans-unit>
+      <trans-unit id="[Generic/Directory/Recently Deleted/name]" xml:space="preserve">
+        <source>Recently Deleted</source>
+        <target state="translated">Eliminati di recente</target>
+        <note>Name of the Recently Deleted (Recycle Bin) directory, as shown in the Files app</note>
       </trans-unit>
       <trans-unit id="[Generic/Edit/Aborting/text] Discard unsaved changes?" xml:space="preserve">
         <source>Discard unsaved changes?</source>
@@ -533,7 +538,7 @@ Di conseguenza, sia AutoFill che l'app principale di KeePassium devono avere le 
       </trans-unit>
       <trans-unit id="[Generic] Continue" xml:space="preserve">
         <source>Continue</source>
-        <target state="needs-translation">Continue</target>
+        <target state="translated">Prosegui</target>
         <note>Action/button to proceed with the action</note>
       </trans-unit>
       <trans-unit id="[Generic] Copy" xml:space="preserve">
@@ -631,6 +636,11 @@ Di conseguenza, sia AutoFill che l'app principale di KeePassium devono avere le 
         <target state="needs-translation">Hardware keys are not available in AutoFill.</target>
         <note>A notification that hardware keys (e.g. YubiKey) cannot be used in AutoFill (the OS does not allow the AutoFill to use NFC/MFI).</note>
       </trans-unit>
+      <trans-unit id="[HardwareKey/NFC/OS too old]" xml:space="preserve">
+        <source>NFC requires iOS 13 or later.</source>
+        <target state="needs-translation">NFC requires iOS 13 or later.</target>
+        <note>A notification that NFC (Near Field Communication) interface is not supported by the current iOS version.</note>
+      </trans-unit>
       <trans-unit id="[HardwareKey/None] No Hardware Key" xml:space="preserve">
         <source>No Hardware Key</source>
         <target state="needs-translation">No Hardware Key</target>
@@ -640,6 +650,11 @@ Di conseguenza, sia AutoFill che l'app principale di KeePassium devono avere le 
         <source>YubiKey Slot %d</source>
         <target state="needs-translation">YubiKey Slot %d</target>
         <note>Master key/unlock option: use given slot of YubiKey</note>
+      </trans-unit>
+      <trans-unit id="[Help Viewer/title]" xml:space="preserve">
+        <source>Help</source>
+        <target state="translated">Aiuto</target>
+        <note>Generic title of in-app help article</note>
       </trans-unit>
       <trans-unit id="[KeyFile/Delete/Confirm/text] Delete key file?&#10; Make sure you have a backup." xml:space="preserve">
         <source>Delete key file?
@@ -662,7 +677,7 @@ Di conseguenza, sia AutoFill che l'app principale di KeePassium devono avere le 
       </trans-unit>
       <trans-unit id="[PremiumFeature/CustomAppIcons/title]" xml:space="preserve">
         <source>Custom App Icons</source>
-        <target state="needs-translation">Custom App Icons</target>
+        <target state="translated">Icone App Personalizzate</target>
         <note>Title of a premium feature: ability to change the app icon</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/Generic/description]" xml:space="preserve">
@@ -754,7 +769,7 @@ Di conseguenza, sia AutoFill che l'app principale di KeePassium devono avere le 
     <body>
       <trans-unit id="fH6-bS-mDZ.title" xml:space="preserve">
         <source>Choose Hardware Key</source>
-        <target state="needs-translation">Choose Hardware Key</target>
+        <target state="translated">Selezionare Chiave Hardware</target>
         <note>Class = "UITableViewController"; title = "Choose Hardware Key"; ObjectID = "fH6-bS-mDZ"; Note = "Title of the hardware key selector (e.g. for YubiKey)";</note>
       </trans-unit>
     </body>
@@ -830,6 +845,11 @@ Di conseguenza, sia AutoFill che l'app principale di KeePassium devono avere le 
         <source>Add Database</source>
         <target state="translated">Aggiungi Database</target>
         <note>Class = "UIBarButtonItem"; title = "Add Database"; ObjectID = "qPq-UR-uZs"; Note = "Action: add database (either an existing file or create a new one)";</note>
+      </trans-unit>
+      <trans-unit id="zIk-Pe-sKK.accessibilityLabel" xml:space="preserve">
+        <source>Close</source>
+        <target state="translated">Chiudi</target>
+        <note>Class = "UIButton"; accessibilityLabel = "Close"; ObjectID = "zIk-Pe-sKK";</note>
       </trans-unit>
     </body>
   </file>
@@ -1554,7 +1574,7 @@ Di conseguenza, sia AutoFill che l'app principale di KeePassium devono avere le 
       </trans-unit>
       <trans-unit id="[FileInfo/Error/failed to change attributes]" xml:space="preserve">
         <source>Failed to update file attributes.</source>
-        <target state="needs-translation">Failed to update file attributes.</target>
+        <target state="translated">Impossibile aggiornare gli attributi del file.</target>
         <note>Error message shown when the user tries to change file attributes (such as creation/modification date, backup flag, etc)</note>
       </trans-unit>
       <trans-unit id="[FileInfo/Field/title] Creation Date" xml:space="preserve">
@@ -1589,7 +1609,7 @@ Di conseguenza, sia AutoFill che l'app principale di KeePassium devono avere le 
       </trans-unit>
       <trans-unit id="[FileInfo/isExcludedFromBackup/title]" xml:space="preserve">
         <source>Exclude From iCloud/iTunes Backup</source>
-        <target state="needs-translation">Exclude From iCloud/iTunes Backup</target>
+        <target state="translated">Escludi da iCloud/iTunes Backup</target>
         <note>Title of a setting: is the file exluded from iCloud/iTunes backup. For example: `Exclude From Backup: &lt;Yes&gt;`</note>
       </trans-unit>
       <trans-unit id="[General/DestinationGroup/title] Choose a Destination" xml:space="preserve">
@@ -1601,6 +1621,11 @@ Di conseguenza, sia AutoFill che l'app principale di KeePassium devono avere le 
         <source>Are you sure?</source>
         <target state="translated">Sei sicuro?</target>
         <note>Message to confirm deletion of an item.</note>
+      </trans-unit>
+      <trans-unit id="[Generic/Directory/Recently Deleted/name]" xml:space="preserve">
+        <source>Recently Deleted</source>
+        <target state="translated">Eliminati di recente</target>
+        <note>Name of the Recently Deleted (Recycle Bin) directory, as shown in the Files app</note>
       </trans-unit>
       <trans-unit id="[Generic/Edit/Aborting/text] Discard unsaved changes?" xml:space="preserve">
         <source>Discard unsaved changes?</source>
@@ -1664,7 +1689,7 @@ Di conseguenza, sia AutoFill che l'app principale di KeePassium devono avere le 
       </trans-unit>
       <trans-unit id="[Generic] Continue" xml:space="preserve">
         <source>Continue</source>
-        <target state="needs-translation">Continue</target>
+        <target state="translated">Prosegui</target>
         <note>Action/button to proceed with the action</note>
       </trans-unit>
       <trans-unit id="[Generic] Copy" xml:space="preserve">
@@ -1762,6 +1787,11 @@ Di conseguenza, sia AutoFill che l'app principale di KeePassium devono avere le 
         <target state="needs-translation">Hardware keys are not available in AutoFill.</target>
         <note>A notification that hardware keys (e.g. YubiKey) cannot be used in AutoFill (the OS does not allow the AutoFill to use NFC/MFI).</note>
       </trans-unit>
+      <trans-unit id="[HardwareKey/NFC/OS too old]" xml:space="preserve">
+        <source>NFC requires iOS 13 or later.</source>
+        <target state="needs-translation">NFC requires iOS 13 or later.</target>
+        <note>A notification that NFC (Near Field Communication) interface is not supported by the current iOS version.</note>
+      </trans-unit>
       <trans-unit id="[HardwareKey/None] No Hardware Key" xml:space="preserve">
         <source>No Hardware Key</source>
         <target state="needs-translation">No Hardware Key</target>
@@ -1771,6 +1801,11 @@ Di conseguenza, sia AutoFill che l'app principale di KeePassium devono avere le 
         <source>YubiKey Slot %d</source>
         <target state="needs-translation">YubiKey Slot %d</target>
         <note>Master key/unlock option: use given slot of YubiKey</note>
+      </trans-unit>
+      <trans-unit id="[Help Viewer/title]" xml:space="preserve">
+        <source>Help</source>
+        <target state="translated">Aiuto</target>
+        <note>Generic title of in-app help article</note>
       </trans-unit>
       <trans-unit id="[ItemCategory] Default (KeePass)" xml:space="preserve">
         <source>Default (KeePass)</source>
@@ -1803,12 +1838,12 @@ Di conseguenza, sia AutoFill che l'app principale di KeePassium devono avere le 
       </trans-unit>
       <trans-unit id="[Premium/Benefits/CustomAppIcon/details]" xml:space="preserve">
         <source>Make KeePassium look unique, familiar, or disguise it as a calculator — the choice is yours.</source>
-        <target state="needs-translation">Make KeePassium look unique, familiar, or disguise it as a calculator — the choice is yours.</target>
+        <target state="translated">Modifica l'aspetto di KeePassium rendendolo unico, familiare, o mascherarlo come una calcolatrice — la scelta è vostra.</target>
         <note>Explanation of a premium feature</note>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/CustomAppIcon/title]" xml:space="preserve">
         <source>Change app icon</source>
-        <target state="needs-translation">Change app icon</target>
+        <target state="translated">Modifica icona app</target>
         <note>Title of a premium feature</note>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/DatabaseTimeout/details]" xml:space="preserve">
@@ -1858,13 +1893,18 @@ Di conseguenza, sia AutoFill che l'app principale di KeePassium devono avere le 
       </trans-unit>
       <trans-unit id="[Premium/CallToAction/startTrial]" xml:space="preserve">
         <source>Try it free</source>
-        <target state="needs-translation">Try it free</target>
+        <target state="translated">Prova gratuita</target>
         <note>Call to action: start free trial</note>
       </trans-unit>
       <trans-unit id="[Premium/CallToAction/upgradeNow]" xml:space="preserve">
         <source>Upgrade Now</source>
-        <target state="needs-translation">Upgrade Now</target>
+        <target state="translated">Aggiorna subito</target>
         <note>Call to action: upgrade to premium</note>
+      </trans-unit>
+      <trans-unit id="[Premium/PerpetualLicense/status]" xml:space="preserve">
+        <source>You have a perpetual license for all the versions before %@.</source>
+        <target state="needs-translation">You have a perpetual license for all the versions before %@.</target>
+        <note>[formattedDate: String]</note>
       </trans-unit>
       <trans-unit id="[Premium/Price Plan/Conditions/1 year email support]" xml:space="preserve">
         <source>One year of email support</source>
@@ -1898,7 +1938,7 @@ Di conseguenza, sia AutoFill che l'app principale di KeePassium devono avere le 
       </trans-unit>
       <trans-unit id="[Premium/Price Plan/Conditions/future premium features]" xml:space="preserve">
         <source>Future premium features</source>
-        <target state="needs-translation">Future premium features</target>
+        <target state="translated">Tutte le funzioni Premium future</target>
         <note>What's included in a price plan: upcoming premium features (as opposed to `current only`)</note>
       </trans-unit>
       <trans-unit id="[Premium/Price Plan/Conditions/perpetual fallback]" xml:space="preserve">
@@ -1913,12 +1953,12 @@ Di conseguenza, sia AutoFill che l'app principale di KeePassium devono avere le 
       </trans-unit>
       <trans-unit id="[Premium/Price Plan/Free/price]" xml:space="preserve">
         <source>Free</source>
-        <target state="needs-translation">Free</target>
+        <target state="translated">Gratis</target>
         <note>Price of the free pricing plan</note>
       </trans-unit>
       <trans-unit id="[Premium/Price Plan/Free/title]" xml:space="preserve">
         <source>Free</source>
-        <target state="needs-translation">Free</target>
+        <target state="translated">Gratis</target>
         <note>Name of the free pricing plan</note>
       </trans-unit>
       <trans-unit id="[Premium/Price Plan/popular]" xml:space="preserve">
@@ -2005,13 +2045,18 @@ Potete gestire e annullare gli abbonamenti nelle impostazioni del vostro account
       </trans-unit>
       <trans-unit id="[Premium/Upgrade/price] around %@ / month" xml:space="preserve">
         <source>≈ %@ / month</source>
-        <target state="needs-translation">≈ %@ / month</target>
+        <target state="translated">≈ %@ / mese</target>
         <note>Equivalent monthly price for an annual subscription. For example: `$12/year ≈ $1 / month`</note>
       </trans-unit>
       <trans-unit id="[Premium/Upgrade] Hmm, there are no upgrades available. This should not happen, please contact support." xml:space="preserve">
         <source>Hmm, there are no upgrades available. This should not happen, please contact support.</source>
         <target state="translated">Hmm, non ci sono aggiornamenti disponibili. Questo non dovrebbe accadere, si prega di contattare il supporto.</target>
         <note>Error message: AppStore returned no available in-app purchase options</note>
+      </trans-unit>
+      <trans-unit id="[Premium/perpetualLicense]" xml:space="preserve">
+        <source>Perpetual license</source>
+        <target state="needs-translation">Perpetual license</target>
+        <note>Name of the permanent/never-ending license.</note>
       </trans-unit>
       <trans-unit id="[Premium/status] Beta testing" xml:space="preserve">
         <source>Beta testing</source>
@@ -2040,7 +2085,7 @@ Potete gestire e annullare gli abbonamenti nelle impostazioni del vostro account
       </trans-unit>
       <trans-unit id="[PremiumFeature/CustomAppIcons/title]" xml:space="preserve">
         <source>Custom App Icons</source>
-        <target state="needs-translation">Custom App Icons</target>
+        <target state="translated">Icone App Personalizzate</target>
         <note>Title of a premium feature: ability to change the app icon</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/Generic/description]" xml:space="preserve">
@@ -2297,7 +2342,7 @@ Potete gestire e annullare gli abbonamenti nelle impostazioni del vostro account
       </trans-unit>
       <trans-unit id="OaP-Bl-5vR.text" xml:space="preserve">
         <source>TPInAppReceipt by Pavel Tikhonenko</source>
-        <target state="needs-translation">TPInAppReceipt by Pavel Tikhonenko</target>
+        <target state="translated">TPInAppReceipt di Pavel Tikhonenko</target>
         <note>Class = "UILabel"; text = "TPInAppReceipt by Pavel Tikhonenko"; ObjectID = "OaP-Bl-5vR";</note>
       </trans-unit>
       <trans-unit id="QV5-N8-NRt.text" xml:space="preserve">
@@ -2875,9 +2920,9 @@ Puoi gestire più database, ad esempio per separare gli account di lavoro, famig
         <note>Class = "UITableViewSection"; headerTitle = "Protected Fields"; ObjectID = "e6Y-AP-hag";</note>
       </trans-unit>
       <trans-unit id="g9a-rJ-4WJ.footerTitle" xml:space="preserve">
-        <source>Use Universal Clipboard to copy and paste between your Apple devices.</source>
-        <target state="needs-translation">Use Universal Clipboard to copy and paste between your Apple devices.</target>
-        <note>Class = "UITableViewSection"; footerTitle = "Use Universal Clipboard to copy and paste between your Apple devices."; ObjectID = "g9a-rJ-4WJ";</note>
+        <source>Use Universal Clipboard to copy and paste between your Apple devices. On external devices, this clipboard is cleared after two minutes.</source>
+        <target state="needs-translation">Use Universal Clipboard to copy and paste between your Apple devices. On external devices, this clipboard is cleared after two minutes.</target>
+        <note>Class = "UITableViewSection"; footerTitle = "Use Universal Clipboard to copy and paste between your Apple devices. On external devices, this clipboard is cleared after two minutes."; ObjectID = "g9a-rJ-4WJ";</note>
       </trans-unit>
       <trans-unit id="gTm-F6-EDQ.text" xml:space="preserve">
         <source>Clear Master Keys on Timeout</source>
@@ -3052,6 +3097,11 @@ Puoi gestire più database, ad esempio per separare gli account di lavoro, famig
         <target state="translated">Suggerimenti? Problemi? Facci sapere!</target>
         <note>Class = "UILabel"; text = "Suggestions? Problems? Let us know!"; ObjectID = "RNK-fS-Fvx"; Note = "Subtitle for `Contact Us`. Keep it short.";</note>
       </trans-unit>
+      <trans-unit id="RlK-RW-8Ld.text" xml:space="preserve">
+        <source>What's New</source>
+        <target state="needs-translation">What's New</target>
+        <note>Class = "UILabel"; text = "What's New"; ObjectID = "RlK-RW-8Ld"; Note = "Action: open app history page (change log)";</note>
+      </trans-unit>
       <trans-unit id="T2Z-oa-zJR.text" xml:space="preserve">
         <source>AutoFill Passwords</source>
         <target state="translated">AutoRiempimento Password</target>
@@ -3059,7 +3109,7 @@ Puoi gestire più database, ad esempio per separare gli account di lavoro, famig
       </trans-unit>
       <trans-unit id="TUE-Aw-fJl.text" xml:space="preserve">
         <source>App Icon</source>
-        <target state="needs-translation">App Icon</target>
+        <target state="translated">Icona App</target>
         <note>Class = "UILabel"; text = "App Icon"; ObjectID = "TUE-Aw-fJl"; Note = "Section in settings: icon for the app";</note>
       </trans-unit>
       <trans-unit id="UNl-Hc-Ref.text" xml:space="preserve">

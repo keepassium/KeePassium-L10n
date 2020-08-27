@@ -74,7 +74,7 @@ Please contact us if you need help with this.</source>
       </trans-unit>
       <trans-unit id="bxv-kR-0w1.title" xml:space="preserve">
         <source>Unlock Database</source>
-        <target state="translated">データベースを開ける</target>
+        <target state="translated">データベースをアンロック</target>
         <note>Class = "UIViewController"; title = "Unlock Database"; ObjectID = "bxv-kR-0w1";</note>
       </trans-unit>
     </body>
@@ -120,7 +120,7 @@ Please contact us if you need help with this.</source>
     <body>
       <trans-unit id="P0M-N3-ynf.text" xml:space="preserve">
         <source>Please re-add databases and key files you want to use with the AutoFill feature.</source>
-        <target state="translated">自動入力を使いたいデータベースとキーファイルをもう一度追加してください。</target>
+        <target state="translated">自動入力で使用するデータベースとキーファイルをもう一度追加してください。</target>
         <note>Class = "UILabel"; text = "Please re-add databases and key files you want to use with the AutoFill feature."; ObjectID = "P0M-N3-ynf";</note>
       </trans-unit>
       <trans-unit id="enW-gs-tra.normalTitle" xml:space="preserve">
@@ -216,7 +216,7 @@ Please contact us if you need help with this.</source>
       </trans-unit>
       <trans-unit id="KeePass database should not be used as key file. Please pick a different file." xml:space="preserve">
         <source>KeePass database should not be used as key file. Please pick a different file.</source>
-        <target state="translated">KeePassのデータベースをキーファイルとして使わないでください。違うファイルを選んでください。</target>
+        <target state="translated">KeePassのデータベースをキーファイルとして使用しないでください。別のファイルを選択してください。</target>
         <note>Warning message when the user tries to use a database as a key file</note>
       </trans-unit>
       <trans-unit id="[AppLock/Biometric/Hint] Unlock KeePassium" xml:space="preserve">
@@ -418,7 +418,7 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="[File/PermissionDenied] Try to remove the file from the app, then add it again." xml:space="preserve">
         <source>Try to remove the file from the app, then add it again.</source>
-        <target state="translated">ファイルをアプリから一旦削除して、再度追加してみてください。</target>
+        <target state="translated">Appからファイルを削除し、もう一度追加してみてください。</target>
         <note>A suggestion shown after specific file errors (either databases or key files).</note>
       </trans-unit>
       <trans-unit id="[FileInfo/Backup/header]" xml:space="preserve">
@@ -470,6 +470,11 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <source>Are you sure?</source>
         <target state="translated">よろしいですか？</target>
         <note>Message to confirm deletion of an item.</note>
+      </trans-unit>
+      <trans-unit id="[Generic/Directory/Recently Deleted/name]" xml:space="preserve">
+        <source>Recently Deleted</source>
+        <target state="translated">最近削除した項目</target>
+        <note>Name of the Recently Deleted (Recycle Bin) directory, as shown in the Files app</note>
       </trans-unit>
       <trans-unit id="[Generic/Edit/Aborting/text] Discard unsaved changes?" xml:space="preserve">
         <source>Discard unsaved changes?</source>
@@ -631,6 +636,11 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <target state="translated">ハードウェアキーは自動入力では使用できません。</target>
         <note>A notification that hardware keys (e.g. YubiKey) cannot be used in AutoFill (the OS does not allow the AutoFill to use NFC/MFI).</note>
       </trans-unit>
+      <trans-unit id="[HardwareKey/NFC/OS too old]" xml:space="preserve">
+        <source>NFC requires iOS 13 or later.</source>
+        <target state="translated">NFCはiOS 13以降が必要です。</target>
+        <note>A notification that NFC (Near Field Communication) interface is not supported by the current iOS version.</note>
+      </trans-unit>
       <trans-unit id="[HardwareKey/None] No Hardware Key" xml:space="preserve">
         <source>No Hardware Key</source>
         <target state="translated">ハードウェアキーがありません</target>
@@ -640,6 +650,11 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <source>YubiKey Slot %d</source>
         <target state="translated">YubiKey スロット %d</target>
         <note>Master key/unlock option: use given slot of YubiKey</note>
+      </trans-unit>
+      <trans-unit id="[Help Viewer/title]" xml:space="preserve">
+        <source>Help</source>
+        <target state="translated">ヘルプ</target>
+        <note>Generic title of in-app help article</note>
       </trans-unit>
       <trans-unit id="[KeyFile/Delete/Confirm/text] Delete key file?&#10; Make sure you have a backup." xml:space="preserve">
         <source>Delete key file?
@@ -656,12 +671,12 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="[Premium/Upgrade/action] Upgrade to Premium" xml:space="preserve">
         <source>Upgrade to Premium</source>
-        <target state="translated">Premiumにアップグレード</target>
+        <target state="translated">プレミアム版にアップグレード</target>
         <note>Action/button to start choosing premium versions and possibly buying one</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/CustomAppIcons/title]" xml:space="preserve">
         <source>Custom App Icons</source>
-        <target state="translated">アプリのアイコン変更</target>
+        <target state="translated">Appのアイコンの変更</target>
         <note>Title of a premium feature: ability to change the app icon</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/Generic/description]" xml:space="preserve">
@@ -706,7 +721,7 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="[PremiumFeature/Preview/description] Preview images and documents directly in the app, in the premium version." xml:space="preserve">
         <source>Preview images and documents directly in the app, in the premium version.</source>
-        <target state="translated">プレミアム版では画像や文書を直接アプリ内部で見ることができます。</target>
+        <target state="translated">プレミアム版では画像や文書を直接Appで見ることができます。</target>
         <note>Description/advertisement for the `Preview Attachments` premium feature</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/Preview/title] Preview Attachments" xml:space="preserve">
@@ -812,7 +827,7 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="hmv-DA-BgM.normalTitle" xml:space="preserve">
         <source>Enable AppLock</source>
-        <target state="translated">アプリをロック</target>
+        <target state="translated">Appロックを使用</target>
         <note>Class = "UIButton"; normalTitle = "Enable AppLock"; ObjectID = "hmv-DA-BgM";</note>
       </trans-unit>
       <trans-unit id="lnO-nD-gvh.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" xml:space="preserve">
@@ -829,6 +844,11 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <source>Add Database</source>
         <target state="translated">データベースを追加</target>
         <note>Class = "UIBarButtonItem"; title = "Add Database"; ObjectID = "qPq-UR-uZs"; Note = "Action: add database (either an existing file or create a new one)";</note>
+      </trans-unit>
+      <trans-unit id="zIk-Pe-sKK.accessibilityLabel" xml:space="preserve">
+        <source>Close</source>
+        <target state="translated">閉じる</target>
+        <note>Class = "UIButton"; accessibilityLabel = "Close"; ObjectID = "zIk-Pe-sKK";</note>
       </trans-unit>
     </body>
   </file>
@@ -928,7 +948,7 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="eAa-Z5-pdq.title" xml:space="preserve">
         <source>Unlock Database</source>
-        <target state="translated">データベースを開ける</target>
+        <target state="translated">データベースをアンロック</target>
         <note>Class = "UIViewController"; title = "Unlock Database"; ObjectID = "eAa-Z5-pdq"; Note = "Title of the database unlocker dialog.";</note>
       </trans-unit>
       <trans-unit id="epu-yU-Lyg.text" xml:space="preserve">
@@ -1249,7 +1269,7 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="KeePass database should not be used as key file. Please pick a different file." xml:space="preserve">
         <source>KeePass database should not be used as key file. Please pick a different file.</source>
-        <target state="translated">KeePassのデータベースをキーファイルとして使わないでください。違うファイルを選んでください。</target>
+        <target state="translated">KeePassのデータベースをキーファイルとして使用しないでください。別のファイルを選択してください。</target>
         <note>Warning message when the user tries to use a database as a key file</note>
       </trans-unit>
       <trans-unit id="[AppLock/Biometric/Hint] Unlock KeePassium" xml:space="preserve">
@@ -1543,7 +1563,7 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="[File/PermissionDenied] Try to remove the file from the app, then add it again." xml:space="preserve">
         <source>Try to remove the file from the app, then add it again.</source>
-        <target state="translated">アプリからファイルを削除し、もう一度追加してみてください。</target>
+        <target state="translated">Appからファイルを削除し、もう一度追加してみてください。</target>
         <note>A suggestion shown after specific file errors (either databases or key files).</note>
       </trans-unit>
       <trans-unit id="[FileInfo/Backup/header]" xml:space="preserve">
@@ -1600,6 +1620,11 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <source>Are you sure?</source>
         <target state="translated">よろしいですか？</target>
         <note>Message to confirm deletion of an item.</note>
+      </trans-unit>
+      <trans-unit id="[Generic/Directory/Recently Deleted/name]" xml:space="preserve">
+        <source>Recently Deleted</source>
+        <target state="translated">最近削除した項目</target>
+        <note>Name of the Recently Deleted (Recycle Bin) directory, as shown in the Files app</note>
       </trans-unit>
       <trans-unit id="[Generic/Edit/Aborting/text] Discard unsaved changes?" xml:space="preserve">
         <source>Discard unsaved changes?</source>
@@ -1761,6 +1786,11 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <target state="translated">ハードウェアキーは自動入力では使用できません。</target>
         <note>A notification that hardware keys (e.g. YubiKey) cannot be used in AutoFill (the OS does not allow the AutoFill to use NFC/MFI).</note>
       </trans-unit>
+      <trans-unit id="[HardwareKey/NFC/OS too old]" xml:space="preserve">
+        <source>NFC requires iOS 13 or later.</source>
+        <target state="translated">NFCはiOS 13以降が必要です。</target>
+        <note>A notification that NFC (Near Field Communication) interface is not supported by the current iOS version.</note>
+      </trans-unit>
       <trans-unit id="[HardwareKey/None] No Hardware Key" xml:space="preserve">
         <source>No Hardware Key</source>
         <target state="translated">ハードウェアキーがありません</target>
@@ -1770,6 +1800,11 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <source>YubiKey Slot %d</source>
         <target state="translated">YubiKey スロット %d</target>
         <note>Master key/unlock option: use given slot of YubiKey</note>
+      </trans-unit>
+      <trans-unit id="[Help Viewer/title]" xml:space="preserve">
+        <source>Help</source>
+        <target state="translated">ヘルプ</target>
+        <note>Generic title of in-app help article</note>
       </trans-unit>
       <trans-unit id="[ItemCategory] Default (KeePass)" xml:space="preserve">
         <source>Default (KeePass)</source>
@@ -1791,7 +1826,7 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="[Premium/Benefits/AttachmentPreview/details]" xml:space="preserve">
         <source>Preview attached files directly in KeePassium and leave no traces in other apps. (Works with images, documents, archives and more.)</source>
-        <target state="translated">添付ファイルを直接アプリ内で表示するので、他のアプリに痕跡を残しません。(画像や文書、圧縮ファイルなどで有効です。)</target>
+        <target state="translated">添付ファイルを直接Appで表示するので、他のAppに痕跡を残しません。(画像や文書、圧縮ファイルなどで有効です。)</target>
         <note>Explanation of the premium feature</note>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/AttachmentPreview/title]" xml:space="preserve">
@@ -1806,7 +1841,7 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="[Premium/Benefits/CustomAppIcon/title]" xml:space="preserve">
         <source>Change app icon</source>
-        <target state="translated">アプリのアイコン変更</target>
+        <target state="translated">Appのアイコンを変更</target>
         <note>Title of a premium feature</note>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/DatabaseTimeout/details]" xml:space="preserve">
@@ -1864,6 +1899,11 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <target state="translated">今すぐアップグレードする</target>
         <note>Call to action: upgrade to premium</note>
       </trans-unit>
+      <trans-unit id="[Premium/PerpetualLicense/status]" xml:space="preserve">
+        <source>You have a perpetual license for all the versions before %@.</source>
+        <target state="translated">%@ 以前のすべてのバージョンの永久ライセンスをお持ちです。</target>
+        <note>[formattedDate: String]</note>
+      </trans-unit>
       <trans-unit id="[Premium/Price Plan/Conditions/1 year email support]" xml:space="preserve">
         <source>One year of email support</source>
         <target state="translated">1年間のEメールサポート</target>
@@ -1871,7 +1911,7 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="[Premium/Price Plan/Conditions/all premium features]" xml:space="preserve">
         <source>All premium features</source>
-        <target state="translated">プレミアム版の全機能</target>
+        <target state="translated">プレミアム版のすべての機能</target>
         <note>What's included in a price plan</note>
       </trans-unit>
       <trans-unit id="[Premium/Price Plan/Conditions/community support]" xml:space="preserve">
@@ -1973,7 +2013,7 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
       <trans-unit id="[Premium/Upgrade/Restored/text] Upgrade successful, enjoy the app!" xml:space="preserve">
         <source>Upgrade successful, enjoy the app!</source>
-        <target state="translated">アップグレードに成功しました。アプリをお楽しみください！</target>
+        <target state="translated">アップグレードに成功しました。Appをお楽しみください！</target>
         <note>Text of the message shown after in-app purchase was successfully restored</note>
       </trans-unit>
       <trans-unit id="[Premium/Upgrade/Restored/title] Purchase Restored" xml:space="preserve">
@@ -1983,7 +2023,7 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
       <trans-unit id="[Premium/Upgrade/action] Upgrade to Premium" xml:space="preserve">
         <source>Upgrade to Premium</source>
-        <target state="translated">Premiumにアップグレード</target>
+        <target state="translated">プレミアム版にアップグレード</target>
         <note>Action/button to start choosing premium versions and possibly buying one</note>
       </trans-unit>
       <trans-unit id="[Premium/Upgrade/price] %@ / month" xml:space="preserve">
@@ -2011,6 +2051,11 @@ You can manage and cancel your subscriptions by going to your account settings o
         <target state="translated">アップグレードがありません。サポートにお問い合わせください。</target>
         <note>Error message: AppStore returned no available in-app purchase options</note>
       </trans-unit>
+      <trans-unit id="[Premium/perpetualLicense]" xml:space="preserve">
+        <source>Perpetual license</source>
+        <target state="translated">永久ライセンス</target>
+        <note>Name of the permanent/never-ending license.</note>
+      </trans-unit>
       <trans-unit id="[Premium/status] Beta testing" xml:space="preserve">
         <source>Beta testing</source>
         <target state="translated">ベータテスト</target>
@@ -2033,12 +2078,12 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
       <trans-unit id="[Premium/usage] App being useful: %@/month, that is around %@/year." xml:space="preserve">
         <source>App being useful: %1$@/month, that is around %2$@/year.</source>
-        <target state="translated">アプリが役立っています: %1$@/月、約%2$@/年。</target>
+        <target state="translated">Appの使用実績: %1$@/月、約%2$@/年</target>
         <note>Status: how long the app has been used during some time period. For example: `App being useful: 1hr/month, about 12hr/year`. [monthlyUsage: String, annualUsage: String — already include the time unit (hours, minutes)]</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/CustomAppIcons/title]" xml:space="preserve">
         <source>Custom App Icons</source>
-        <target state="translated">アプリのアイコン変更</target>
+        <target state="translated">Appのアイコンの変更</target>
         <note>Title of a premium feature: ability to change the app icon</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/Generic/description]" xml:space="preserve">
@@ -2083,7 +2128,7 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
       <trans-unit id="[PremiumFeature/Preview/description] Preview images and documents directly in the app, in the premium version." xml:space="preserve">
         <source>Preview images and documents directly in the app, in the premium version.</source>
-        <target state="translated">プレミアム版では画像や文書を直接アプリ内部で見ることができます。</target>
+        <target state="translated">プレミアム版では画像や文書を直接Appで見ることができます。</target>
         <note>Description/advertisement for the `Preview Attachments` premium feature</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/Preview/title] Preview Attachments" xml:space="preserve">
@@ -2103,12 +2148,12 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
       <trans-unit id="[Settings/AppLock/subtitle] App Lock, %@, timeout" xml:space="preserve">
         <source>App Lock, %@, timeout</source>
-        <target state="translated">アプリのロック、%@、タイムアウト</target>
+        <target state="translated">Appロック、%@、タイムアウト</target>
         <note>Settings: subtitle of the `App Protection` section. biometryTypeName will be either 'Touch ID' or 'Face ID'. [biometryTypeName: String]</note>
       </trans-unit>
       <trans-unit id="[Settings/AppLock/subtitle] App Lock, passcode, timeout" xml:space="preserve">
         <source>App Lock, passcode, timeout</source>
-        <target state="translated">アプリのロック、パスコード、タイムアウト</target>
+        <target state="translated">Appロック、パスコード、タイムアウト</target>
         <note>Settings: subtitle of the `App Protection` section when biometric auth is not available.</note>
       </trans-unit>
       <trans-unit id="[Settings/Backup/Delete/title] Delete all backup files?" xml:space="preserve">
@@ -2153,7 +2198,7 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
       <trans-unit id="[Settings/DatabaseLockTimeout/description] If you are not interacting with the app for some time, the database will be closed for your safety. To open it, you will need to enter its master password again." xml:space="preserve">
         <source>If you are not interacting with the app for some time, the database will be closed for your safety. To open it, you will need to enter its master password again.</source>
-        <target state="translated">アプリがしばらく使われていない場合、安全のためにデータベースを閉じます。再開するにはマスターパスワードを再度入力してください。</target>
+        <target state="translated">Appがしばらく使われていない場合、安全のためにデータベースを閉じます。再開するにはマスターパスワードを再度入力してください。</target>
         <note>Description of the Database Lock Timeout</note>
       </trans-unit>
       <trans-unit id="[Settings/FileLists/Backup/title] Backup" xml:space="preserve">
@@ -2215,7 +2260,7 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
       <trans-unit id="7cl-Fc-8Nf.text" xml:space="preserve">
         <source>Proprietary license</source>
-        <target state="translated">私有ライセンス</target>
+        <target state="translated">Proprietary license</target>
         <note>Class = "UILabel"; text = "Proprietary license"; ObjectID = "7cl-Fc-8Nf";</note>
       </trans-unit>
       <trans-unit id="7id-QT-w26.text" xml:space="preserve">
@@ -2290,7 +2335,7 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
       <trans-unit id="NLN-lQ-bh5.title" xml:space="preserve">
         <source>About</source>
-        <target state="translated">このアプリについて</target>
+        <target state="translated">このAppについて</target>
         <note>Class = "UITableViewController"; title = "About"; ObjectID = "NLN-lQ-bh5";</note>
       </trans-unit>
       <trans-unit id="OaP-Bl-5vR.text" xml:space="preserve">
@@ -2320,7 +2365,7 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
       <trans-unit id="TOl-DA-gYc.text" xml:space="preserve">
         <source>Contact Support</source>
-        <target state="translated">サポートに連絡</target>
+        <target state="translated">お問い合わせ</target>
         <note>Class = "UILabel"; text = "Contact Support"; ObjectID = "TOl-DA-gYc"; Note = "Action: contact us";</note>
       </trans-unit>
       <trans-unit id="Wuj-Uw-baK.text" xml:space="preserve">
@@ -2513,7 +2558,7 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
       <trans-unit id="uAJ-Ui-Jkx.title" xml:space="preserve">
         <source>Contact Support</source>
-        <target state="translated">サポートに連絡</target>
+        <target state="translated">お問い合わせ</target>
         <note>Class = "UIBarButtonItem"; title = "Contact Support"; ObjectID = "uAJ-Ui-Jkx"; Note = "Action: write an email to support";</note>
       </trans-unit>
     </body>
@@ -2581,7 +2626,7 @@ You can have multiple databases, for example to separate work, family and person
     <body>
       <trans-unit id="5Dg-KX-m7a.footerTitle" xml:space="preserve">
         <source>If you enter a wrong AppLock passcode, KeePassium will close all databases and clear all master keys from the keychain.</source>
-        <target state="translated">アプリをロックするパスコードを間違えると、KeePassiumはすべてのデータベースを閉じ、すべてのマスターキーをキーチェーンから消去します。</target>
+        <target state="translated">Appをロックするパスコードを間違えると、KeePassiumはすべてのデータベースを閉じ、すべてのマスターキーをキーチェーンから消去します。</target>
         <note>Class = "UITableViewSection"; footerTitle = "If you enter a wrong AppLock passcode, KeePassium will close all databases and clear all master keys from the keychain."; ObjectID = "5Dg-KX-m7a"; Note = "AppLock settings section: what to do when the user enters a wrong AppLock passcode.";</note>
       </trans-unit>
       <trans-unit id="5Dg-KX-m7a.headerTitle" xml:space="preserve">
@@ -2596,7 +2641,7 @@ You can have multiple databases, for example to separate work, family and person
       </trans-unit>
       <trans-unit id="7ae-8I-LiQ.footerTitle" xml:space="preserve">
         <source>Allows biometric authentication as a quick (but less secure) alternative to AppLock passcode.</source>
-        <target state="translated">アプリをロックするパスコードの代わりとして、素速い (が安全性は劣る) 生体認証を許可する。</target>
+        <target state="translated">Appロックでパスコードの代わりに動作の速い（が安全性は劣る）生体認証を使用します。</target>
         <note>Class = "UITableViewSection"; footerTitle = "Allows biometric authentication as a quick (but less secure) alternative to AppLock passcode."; ObjectID = "7ae-8I-LiQ"; Note = "AppLock settings section: biometric auth (Touch ID/Face ID)";</note>
       </trans-unit>
       <trans-unit id="7ae-8I-LiQ.headerTitle" xml:space="preserve">
@@ -2611,12 +2656,12 @@ You can have multiple databases, for example to separate work, family and person
       </trans-unit>
       <trans-unit id="IS1-Lb-MFy.text" xml:space="preserve">
         <source>Enable AppLock</source>
-        <target state="translated">アプリをロック</target>
+        <target state="translated">Appロックを使用</target>
         <note>Class = "UILabel"; text = "Enable AppLock"; ObjectID = "IS1-Lb-MFy";</note>
       </trans-unit>
       <trans-unit id="U5m-je-MhO.title" xml:space="preserve">
         <source>App Protection</source>
-        <target state="translated">アプリの保護</target>
+        <target state="translated">Appの保護</target>
         <note>Class = "UITableViewController"; title = "App Protection"; ObjectID = "U5m-je-MhO";</note>
       </trans-unit>
       <trans-unit id="aBx-Ee-bMk.footerTitle" xml:space="preserve">
@@ -2626,7 +2671,7 @@ You can have multiple databases, for example to separate work, family and person
       </trans-unit>
       <trans-unit id="m50-fl-4tu.footerTitle" xml:space="preserve">
         <source>The app will automatically lock up after this time.</source>
-        <target state="translated">指定時間後に自動的にアプリをロックします。</target>
+        <target state="translated">指定時間後に自動的にAppをロックします。</target>
         <note>Class = "UITableViewSection"; footerTitle = "The app will automatically lock up after this time."; ObjectID = "m50-fl-4tu";</note>
       </trans-unit>
     </body>
@@ -2744,7 +2789,7 @@ You can have multiple databases, for example to separate work, family and person
       </trans-unit>
       <trans-unit id="BJ7-eQ-JOc.text" xml:space="preserve">
         <source>Make Backup Copies</source>
-        <target state="translated">バックアップコピーを作成</target>
+        <target state="translated">バックアップを作成</target>
         <note>Class = "UILabel"; text = "Make Backup Copies"; ObjectID = "BJ7-eQ-JOc"; Note = "Settings option: backup databases before saving them";</note>
       </trans-unit>
       <trans-unit id="G42-gR-eKm.text" xml:space="preserve">
@@ -2754,7 +2799,7 @@ You can have multiple databases, for example to separate work, family and person
       </trans-unit>
       <trans-unit id="XeH-7q-aad.footerTitle" xml:space="preserve">
         <source>Backup copies will appear along with the original files.</source>
-        <target state="translated">バックアップのコピーを元のファイルと一緒に表示します。</target>
+        <target state="translated">バックアップを元のファイルと一緒に表示します。</target>
         <note>Class = "UITableViewSection"; footerTitle = "Backup copies will appear along with the original files."; ObjectID = "XeH-7q-aad"; Note = "Explanation for the `Show Backup Files` option";</note>
       </trans-unit>
       <trans-unit id="aEK-cJ-9bc.text" xml:space="preserve">
@@ -2873,9 +2918,9 @@ You can have multiple databases, for example to separate work, family and person
         <note>Class = "UITableViewSection"; headerTitle = "Protected Fields"; ObjectID = "e6Y-AP-hag";</note>
       </trans-unit>
       <trans-unit id="g9a-rJ-4WJ.footerTitle" xml:space="preserve">
-        <source>Use Universal Clipboard to copy and paste between your Apple devices.</source>
-        <target state="translated">ユニバーサルクリップボードを使って、コピー＆ペーストをAppleデバイス間で行う。</target>
-        <note>Class = "UITableViewSection"; footerTitle = "Use Universal Clipboard to copy and paste between your Apple devices."; ObjectID = "g9a-rJ-4WJ";</note>
+        <source>Use Universal Clipboard to copy and paste between your Apple devices. On external devices, this clipboard is cleared after two minutes.</source>
+        <target state="translated">ユニバーサルクリップボードを使用して、お使いのAppleデバイス間でコピー＆ペーストします。外部デバイスでは、このクリップボードは2分後に消去されます。</target>
+        <note>Class = "UITableViewSection"; footerTitle = "Use Universal Clipboard to copy and paste between your Apple devices. On external devices, this clipboard is cleared after two minutes."; ObjectID = "g9a-rJ-4WJ";</note>
       </trans-unit>
       <trans-unit id="gTm-F6-EDQ.text" xml:space="preserve">
         <source>Clear Master Keys on Timeout</source>
@@ -2950,7 +2995,7 @@ You can have multiple databases, for example to separate work, family and person
     <body>
       <trans-unit id="DJr-hC-DMT.footerTitle" xml:space="preserve">
         <source>After opening a database, automatically show the search field.</source>
-        <target state="translated">データベースを開くと自動的に検索欄を表示します。</target>
+        <target state="translated">データベースを開いた後、自動的に検索欄を表示します。</target>
         <note>Class = "UITableViewSection"; footerTitle = "After opening a database, automatically show the search field."; ObjectID = "DJr-hC-DMT"; Note = "A section in search-related settings: what happens when the app is just started or database is just opened.";</note>
       </trans-unit>
       <trans-unit id="Io8-uP-3lF.headerTitle" xml:space="preserve">
@@ -2960,7 +3005,7 @@ You can have multiple databases, for example to separate work, family and person
       </trans-unit>
       <trans-unit id="LrQ-5g-wj0.text" xml:space="preserve">
         <source>Search in Protected Values</source>
-        <target state="translated">保護されたデータも検索する</target>
+        <target state="translated">保護されたデータを検索</target>
         <note>Class = "UILabel"; text = "Search in Protected Values"; ObjectID = "LrQ-5g-wj0"; Note = "An switch in settings: whether to include protected field values in search procedure.";</note>
       </trans-unit>
       <trans-unit id="RZt-EW-TGN.title" xml:space="preserve">
@@ -2975,7 +3020,7 @@ You can have multiple databases, for example to separate work, family and person
       </trans-unit>
       <trans-unit id="q0v-f7-D4Y.text" xml:space="preserve">
         <source>Start with Search</source>
-        <target state="translated">検索で開始</target>
+        <target state="translated">起動時に検索</target>
         <note>Class = "UILabel"; text = "Start with Search"; ObjectID = "q0v-f7-D4Y";</note>
       </trans-unit>
     </body>
@@ -2987,7 +3032,7 @@ You can have multiple databases, for example to separate work, family and person
     <body>
       <trans-unit id="9yn-W3-FDl.headerTitle" xml:space="preserve">
         <source>Start</source>
-        <target state="translated">開始</target>
+        <target state="translated">起動時</target>
         <note>Class = "UITableViewSection"; headerTitle = "Start"; ObjectID = "9yn-W3-FDl"; Note = "Section in settings: settings that define what happens when the app is started.";</note>
       </trans-unit>
       <trans-unit id="756-sL-G2t.text" xml:space="preserve">
@@ -3047,8 +3092,13 @@ You can have multiple databases, for example to separate work, family and person
       </trans-unit>
       <trans-unit id="RNK-fS-Fvx.text" xml:space="preserve">
         <source>Suggestions? Problems? Let us know!</source>
-        <target state="translated">提案？ 問題？ お知らせ願います！</target>
+        <target state="translated">改善提案や問題点を報告する</target>
         <note>Class = "UILabel"; text = "Suggestions? Problems? Let us know!"; ObjectID = "RNK-fS-Fvx"; Note = "Subtitle for `Contact Us`. Keep it short.";</note>
+      </trans-unit>
+      <trans-unit id="RlK-RW-8Ld.text" xml:space="preserve">
+        <source>What's New</source>
+        <target state="translated">新着情報</target>
+        <note>Class = "UILabel"; text = "What's New"; ObjectID = "RlK-RW-8Ld"; Note = "Action: open app history page (change log)";</note>
       </trans-unit>
       <trans-unit id="T2Z-oa-zJR.text" xml:space="preserve">
         <source>AutoFill Passwords</source>
@@ -3057,7 +3107,7 @@ You can have multiple databases, for example to separate work, family and person
       </trans-unit>
       <trans-unit id="TUE-Aw-fJl.text" xml:space="preserve">
         <source>App Icon</source>
-        <target state="translated">アプリのアイコン</target>
+        <target state="translated">Appのアイコン</target>
         <note>Class = "UILabel"; text = "App Icon"; ObjectID = "TUE-Aw-fJl"; Note = "Section in settings: icon for the app";</note>
       </trans-unit>
       <trans-unit id="UNl-Hc-Ref.text" xml:space="preserve">
@@ -3067,7 +3117,7 @@ You can have multiple databases, for example to separate work, family and person
       </trans-unit>
       <trans-unit id="abS-AH-iFO.text" xml:space="preserve">
         <source>App Protection</source>
-        <target state="translated">アプリの保護</target>
+        <target state="translated">Appの保護</target>
         <note>Class = "UILabel"; text = "App Protection"; ObjectID = "abS-AH-iFO"; Note = "Settings section: protection of the app from unauthorized access";</note>
       </trans-unit>
       <trans-unit id="c5H-hS-sU3.text" xml:space="preserve">
@@ -3077,7 +3127,7 @@ You can have multiple databases, for example to separate work, family and person
       </trans-unit>
       <trans-unit id="cBS-jW-dHU.headerTitle" xml:space="preserve">
         <source>Support</source>
-        <target state="translated">サポート</target>
+        <target state="translated">お問い合わせ</target>
         <note>Class = "UITableViewSection"; headerTitle = "Support"; ObjectID = "cBS-jW-dHU";</note>
       </trans-unit>
       <trans-unit id="coD-Om-Vfm.text" xml:space="preserve">
@@ -3092,7 +3142,7 @@ You can have multiple databases, for example to separate work, family and person
       </trans-unit>
       <trans-unit id="oxG-N8-1ld.text" xml:space="preserve">
         <source>Upgrade to Premium</source>
-        <target state="translated">Premiumにアップグレード</target>
+        <target state="translated">プレミアム版にアップグレード</target>
         <note>Class = "UILabel"; text = "Upgrade to Premium"; ObjectID = "oxG-N8-1ld";</note>
       </trans-unit>
       <trans-unit id="qhK-lw-bGy.text" xml:space="preserve">

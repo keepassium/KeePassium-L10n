@@ -450,7 +450,7 @@ Por favor, asegúrese de tener una copia de seguridad de su base de datos antes 
       </trans-unit>
       <trans-unit id="[FileAccessError/FileProvider/NotFound/other]" xml:space="preserve">
         <source>%@ is not available. Please check whether it is installed and logged in to your account.</source>
-        <target state="needs-translation">%@ is not available. Please check whether it is installed and logged in to your account.</target>
+        <target state="translated">%@ no está disponible. Por favor, comprueba si está instalado y inicia sesión en tu cuenta.</target>
         <note>Error message: storage provider app was logged out or uninstalled [fileProviderName: String].</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/FileProvider/NotFound/smbShare]" xml:space="preserve">
@@ -470,17 +470,17 @@ Por favor, asegúrese de tener una copia de seguridad de su base de datos antes 
       </trans-unit>
       <trans-unit id="[FileAccessError/NoResponse/knownFileProvider]" xml:space="preserve">
         <source>%@ does not respond.</source>
-        <target state="needs-translation">%@ does not respond.</target>
+        <target state="translated">%@ no responde.</target>
         <note>Error message: file provider does not respond to requests. For example: `Google Drive does not respond.`</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/Timeout/genericFileProvider]" xml:space="preserve">
         <source>Storage provider does not respond.</source>
-        <target state="needs-translation">Storage provider does not respond.</target>
+        <target state="translated">El proveedor de almacenamiento no responde.</target>
         <note>Error message: storage provider app (e.g. Google Drive) does not respond to requests (quickly enough).</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/Timeout/knownFileProvider]" xml:space="preserve">
         <source>%@ does not respond.</source>
-        <target state="needs-translation">%@ does not respond.</target>
+        <target state="translated">%@ no responde.</target>
         <note>Error message: file provider does not respond to requests (quickly enough). For example: `Google Drive does not respond`</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/internalError]" xml:space="preserve">

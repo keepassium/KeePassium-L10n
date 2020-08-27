@@ -139,12 +139,12 @@
       </trans-unit>
       <trans-unit id="[Database/Progress/downloading]" xml:space="preserve">
         <source>Downloading database file...</source>
-        <target state="needs-translation">Downloading database file...</target>
+        <target state="translated">Laddar ner databasfil...</target>
         <note>Database loading status: fetching the database file from disk/cloud</note>
       </trans-unit>
       <trans-unit id="[Database/Progress/makingDatabaseBackup]" xml:space="preserve">
         <source>Making backup copy...</source>
-        <target state="needs-translation">Making backup copy...</target>
+        <target state="translated">Skapar säkerhetskopia...</target>
         <note>Database saving status: making a local backup copy of the database</note>
       </trans-unit>
       <trans-unit id="[Database/Progress/resolving]" xml:space="preserve">
@@ -445,47 +445,47 @@ Säkerställ att du har en backup på din databas innan du ändrar vidtar åtgä
       </trans-unit>
       <trans-unit id="[FileAccessError/FileProvider/NotFound/generic]" xml:space="preserve">
         <source>Storage provider is not available. Please check whether it is installed and logged in to your account.</source>
-        <target state="needs-translation">Storage provider is not available. Please check whether it is installed and logged in to your account.</target>
+        <target state="translated">Lagringsleverantören är inte tillgänglig. Kontrollera att appen är installerad och inloggad på ditt konto.</target>
         <note>Error message: storage provider app was logged out or uninstalled.</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/FileProvider/NotFound/other]" xml:space="preserve">
         <source>%@ is not available. Please check whether it is installed and logged in to your account.</source>
-        <target state="needs-translation">%@ is not available. Please check whether it is installed and logged in to your account.</target>
+        <target state="translated">%@ är inte tillgänglig. Kontrollera att den är installerad och inloggad på ditt konto.</target>
         <note>Error message: storage provider app was logged out or uninstalled [fileProviderName: String].</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/FileProvider/NotFound/smbShare]" xml:space="preserve">
         <source>Network storage is disconnected.</source>
-        <target state="needs-translation">Network storage is disconnected.</target>
+        <target state="translated">Nätverkslagring är inte ansluten.</target>
         <note>Error message: the required network drive is not connected.</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/FileProvider/NotFound/usbDrive]" xml:space="preserve">
         <source>USB drive is disconnected.</source>
-        <target state="needs-translation">USB drive is disconnected.</target>
+        <target state="translated">USB-enheten är frånkopplad.</target>
         <note>Error message: there is no USB drive connected to the device.</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/NoResponse/genericFileProvider]" xml:space="preserve">
         <source>Storage provider does not respond.</source>
-        <target state="needs-translation">Storage provider does not respond.</target>
+        <target state="translated">Lagringsleverantören svarar inte.</target>
         <note>Error message: storage provider app (e.g. Google Drive) does not respond to requests.</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/NoResponse/knownFileProvider]" xml:space="preserve">
         <source>%@ does not respond.</source>
-        <target state="needs-translation">%@ does not respond.</target>
+        <target state="translated">%@ svarar inte.</target>
         <note>Error message: file provider does not respond to requests. For example: `Google Drive does not respond.`</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/Timeout/genericFileProvider]" xml:space="preserve">
         <source>Storage provider does not respond.</source>
-        <target state="needs-translation">Storage provider does not respond.</target>
+        <target state="translated">Lagringsleverantören svarar inte.</target>
         <note>Error message: storage provider app (e.g. Google Drive) does not respond to requests (quickly enough).</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/Timeout/knownFileProvider]" xml:space="preserve">
         <source>%@ does not respond.</source>
-        <target state="needs-translation">%@ does not respond.</target>
+        <target state="translated">%@ svarar inte.</target>
         <note>Error message: file provider does not respond to requests (quickly enough). For example: `Google Drive does not respond`</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/internalError]" xml:space="preserve">
         <source>Internal KeePassium error, please tell us about it.</source>
-        <target state="needs-translation">Internal KeePassium error, please tell us about it.</target>
+        <target state="translated">Internt KeePassium-fel, var vänlig och rapportera det till oss.</target>
         <note>Error message shown when there's internal inconsistency in KeePassium.</note>
       </trans-unit>
       <trans-unit id="[FileKeeper] Failed to delete file. Reason: %@" xml:space="preserve">
@@ -570,7 +570,7 @@ Säkerställ att du har en backup på din databas innan du ändrar vidtar åtgä
       </trans-unit>
       <trans-unit id="[FileProvider/SMB/name]" xml:space="preserve">
         <source>SMB server</source>
-        <target state="needs-translation">SMB server</target>
+        <target state="translated">SMB-server</target>
         <note>Localized name of the storage service: SMB server (network share) via native iOS integration.</note>
       </trans-unit>
       <trans-unit id="[FileProvider/Synology DS file/name]" xml:space="preserve">
@@ -590,7 +590,7 @@ Säkerställ att du har en backup på din databas innan du ändrar vidtar åtgä
       </trans-unit>
       <trans-unit id="[FileProvider/USB drive/name]" xml:space="preserve">
         <source>USB drive</source>
-        <target state="needs-translation">USB drive</target>
+        <target state="translated">USB-enhet</target>
         <note>Localized name of the storage service: local USB drive (native iOS integration)</note>
       </trans-unit>
       <trans-unit id="[FileProvider/Yandex.Disk/name]" xml:space="preserve">

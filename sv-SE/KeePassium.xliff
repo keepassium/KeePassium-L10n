@@ -256,7 +256,7 @@ Kontakta oss om du behöver hjälp med detta.</target>
       </trans-unit>
       <trans-unit id="[AutoFill/Search/callerID]" xml:space="preserve">
         <source>Caller ID: %@</source>
-        <target state="needs-translation">Caller ID: %@</target>
+        <target state="translated">Anrops-ID: %@</target>
         <note>An identifier of the app that called AutoFill. The term is intentionally similar to https://ru.wikipedia.org/wiki/Caller_ID. [callerID: String]</note>
       </trans-unit>
       <trans-unit id="[AutoFill/Setup/footer]" xml:space="preserve">
@@ -428,7 +428,7 @@ Filen kommer inte raderas, och du kan lägga till den igen vid ett senare tillf�
       </trans-unit>
       <trans-unit id="[FileInfo/Error/failed to change attributes]" xml:space="preserve">
         <source>Failed to update file attributes.</source>
-        <target state="needs-translation">Failed to update file attributes.</target>
+        <target state="translated">Uppdatering av filattribut misslyckades.</target>
         <note>Error message shown when the user tries to change file attributes (such as creation/modification date, backup flag, etc)</note>
       </trans-unit>
       <trans-unit id="[FileInfo/Field/title] Creation Date" xml:space="preserve">
@@ -463,13 +463,18 @@ Filen kommer inte raderas, och du kan lägga till den igen vid ett senare tillf�
       </trans-unit>
       <trans-unit id="[FileInfo/isExcludedFromBackup/title]" xml:space="preserve">
         <source>Exclude From iCloud/iTunes Backup</source>
-        <target state="needs-translation">Exclude From iCloud/iTunes Backup</target>
+        <target state="translated">Exkludera från säkerhetskopiering till iCloud/iTunes</target>
         <note>Title of a setting: is the file exluded from iCloud/iTunes backup. For example: `Exclude From Backup: &lt;Yes&gt;`</note>
       </trans-unit>
       <trans-unit id="[Generic/ConfirmDelete/title] Are you sure?" xml:space="preserve">
         <source>Are you sure?</source>
         <target state="translated">Är du säker?</target>
         <note>Message to confirm deletion of an item.</note>
+      </trans-unit>
+      <trans-unit id="[Generic/Directory/Recently Deleted/name]" xml:space="preserve">
+        <source>Recently Deleted</source>
+        <target state="translated">Senast raderade</target>
+        <note>Name of the Recently Deleted (Recycle Bin) directory, as shown in the Files app</note>
       </trans-unit>
       <trans-unit id="[Generic/Edit/Aborting/text] Discard unsaved changes?" xml:space="preserve">
         <source>Discard unsaved changes?</source>
@@ -533,7 +538,7 @@ Filen kommer inte raderas, och du kan lägga till den igen vid ett senare tillf�
       </trans-unit>
       <trans-unit id="[Generic] Continue" xml:space="preserve">
         <source>Continue</source>
-        <target state="needs-translation">Continue</target>
+        <target state="translated">Fortsätt</target>
         <note>Action/button to proceed with the action</note>
       </trans-unit>
       <trans-unit id="[Generic] Copy" xml:space="preserve">
@@ -631,6 +636,11 @@ Filen kommer inte raderas, och du kan lägga till den igen vid ett senare tillf�
         <target state="translated">Hårdvarunycklar är ej tillgängliga i Autofyll.</target>
         <note>A notification that hardware keys (e.g. YubiKey) cannot be used in AutoFill (the OS does not allow the AutoFill to use NFC/MFI).</note>
       </trans-unit>
+      <trans-unit id="[HardwareKey/NFC/OS too old]" xml:space="preserve">
+        <source>NFC requires iOS 13 or later.</source>
+        <target state="needs-translation">NFC requires iOS 13 or later.</target>
+        <note>A notification that NFC (Near Field Communication) interface is not supported by the current iOS version.</note>
+      </trans-unit>
       <trans-unit id="[HardwareKey/None] No Hardware Key" xml:space="preserve">
         <source>No Hardware Key</source>
         <target state="translated">Ingen hårdvarunyckel</target>
@@ -640,6 +650,11 @@ Filen kommer inte raderas, och du kan lägga till den igen vid ett senare tillf�
         <source>YubiKey Slot %d</source>
         <target state="translated">YubiKey Slot %d</target>
         <note>Master key/unlock option: use given slot of YubiKey</note>
+      </trans-unit>
+      <trans-unit id="[Help Viewer/title]" xml:space="preserve">
+        <source>Help</source>
+        <target state="translated">Hjälp</target>
+        <note>Generic title of in-app help article</note>
       </trans-unit>
       <trans-unit id="[KeyFile/Delete/Confirm/text] Delete key file?&#10; Make sure you have a backup." xml:space="preserve">
         <source>Delete key file?
@@ -651,8 +666,8 @@ Se till att du har en säkerhetskopia.</target>
       <trans-unit id="[KeyFile/Remove/Confirm/text] Remove key file from the list?&#10; The file will remain intact and you can add it again later." xml:space="preserve">
         <source>Remove key file from the list?
  The file will remain intact and you can add it again later.</source>
-        <target state="needs-translation">Remove key file from the list?
- The file will remain intact and you can add it again later.</target>
+        <target state="translated">Ta bort nyckelfil från listan?
+ Filen kommer vara kvar oförändrad och du kan lägga till den igen senare.</target>
         <note>Message to confirm removal of a key file from the app. (This keeps the file, but removes its reference from the app.)</note>
       </trans-unit>
       <trans-unit id="[Premium/Upgrade/action] Upgrade to Premium" xml:space="preserve">
@@ -662,17 +677,17 @@ Se till att du har en säkerhetskopia.</target>
       </trans-unit>
       <trans-unit id="[PremiumFeature/CustomAppIcons/title]" xml:space="preserve">
         <source>Custom App Icons</source>
-        <target state="needs-translation">Custom App Icons</target>
+        <target state="translated">Valbara app-ikoner</target>
         <note>Title of a premium feature: ability to change the app icon</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/Generic/description]" xml:space="preserve">
         <source>You have found a premium feature! Upgrade to premium and enjoy KeePassium at its best.</source>
-        <target state="needs-translation">You have found a premium feature! Upgrade to premium and enjoy KeePassium at its best.</target>
+        <target state="translated">Du har hittat en premiumfunktion! Uppgradera till premium och upplev KeePassium när det är som bäst.</target>
         <note>A generic description of a premium feature</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/Generic/title]" xml:space="preserve">
         <source>Premium Feature</source>
-        <target state="needs-translation">Premium Feature</target>
+        <target state="translated">Premiumfunktion</target>
         <note>A generic title of a premium feature</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/HardwareKeys/description]" xml:space="preserve">
@@ -754,7 +769,7 @@ Se till att du har en säkerhetskopia.</target>
     <body>
       <trans-unit id="fH6-bS-mDZ.title" xml:space="preserve">
         <source>Choose Hardware Key</source>
-        <target state="needs-translation">Choose Hardware Key</target>
+        <target state="translated">Välj hårdvarunyckel</target>
         <note>Class = "UITableViewController"; title = "Choose Hardware Key"; ObjectID = "fH6-bS-mDZ"; Note = "Title of the hardware key selector (e.g. for YubiKey)";</note>
       </trans-unit>
     </body>
@@ -830,6 +845,11 @@ Se till att du har en säkerhetskopia.</target>
         <source>Add Database</source>
         <target state="translated">Lägg till databas</target>
         <note>Class = "UIBarButtonItem"; title = "Add Database"; ObjectID = "qPq-UR-uZs"; Note = "Action: add database (either an existing file or create a new one)";</note>
+      </trans-unit>
+      <trans-unit id="zIk-Pe-sKK.accessibilityLabel" xml:space="preserve">
+        <source>Close</source>
+        <target state="translated">Stäng</target>
+        <note>Class = "UIButton"; accessibilityLabel = "Close"; ObjectID = "zIk-Pe-sKK";</note>
       </trans-unit>
     </body>
   </file>
@@ -1554,7 +1574,7 @@ Filen kommer inte raderas, och du kan lägga till den igen vid ett senare tillf�
       </trans-unit>
       <trans-unit id="[FileInfo/Error/failed to change attributes]" xml:space="preserve">
         <source>Failed to update file attributes.</source>
-        <target state="needs-translation">Failed to update file attributes.</target>
+        <target state="translated">Uppdatering av filattribut misslyckades.</target>
         <note>Error message shown when the user tries to change file attributes (such as creation/modification date, backup flag, etc)</note>
       </trans-unit>
       <trans-unit id="[FileInfo/Field/title] Creation Date" xml:space="preserve">
@@ -1589,7 +1609,7 @@ Filen kommer inte raderas, och du kan lägga till den igen vid ett senare tillf�
       </trans-unit>
       <trans-unit id="[FileInfo/isExcludedFromBackup/title]" xml:space="preserve">
         <source>Exclude From iCloud/iTunes Backup</source>
-        <target state="needs-translation">Exclude From iCloud/iTunes Backup</target>
+        <target state="translated">Exkludera från säkerhetskopiering till iCloud/iTunes</target>
         <note>Title of a setting: is the file exluded from iCloud/iTunes backup. For example: `Exclude From Backup: &lt;Yes&gt;`</note>
       </trans-unit>
       <trans-unit id="[General/DestinationGroup/title] Choose a Destination" xml:space="preserve">
@@ -1601,6 +1621,11 @@ Filen kommer inte raderas, och du kan lägga till den igen vid ett senare tillf�
         <source>Are you sure?</source>
         <target state="translated">Är du säker?</target>
         <note>Message to confirm deletion of an item.</note>
+      </trans-unit>
+      <trans-unit id="[Generic/Directory/Recently Deleted/name]" xml:space="preserve">
+        <source>Recently Deleted</source>
+        <target state="translated">Senast raderade</target>
+        <note>Name of the Recently Deleted (Recycle Bin) directory, as shown in the Files app</note>
       </trans-unit>
       <trans-unit id="[Generic/Edit/Aborting/text] Discard unsaved changes?" xml:space="preserve">
         <source>Discard unsaved changes?</source>
@@ -1664,7 +1689,7 @@ Filen kommer inte raderas, och du kan lägga till den igen vid ett senare tillf�
       </trans-unit>
       <trans-unit id="[Generic] Continue" xml:space="preserve">
         <source>Continue</source>
-        <target state="needs-translation">Continue</target>
+        <target state="translated">Fortsätt</target>
         <note>Action/button to proceed with the action</note>
       </trans-unit>
       <trans-unit id="[Generic] Copy" xml:space="preserve">
@@ -1762,6 +1787,11 @@ Filen kommer inte raderas, och du kan lägga till den igen vid ett senare tillf�
         <target state="translated">Hårdvarunycklar är ej tillgängliga i Autofyll.</target>
         <note>A notification that hardware keys (e.g. YubiKey) cannot be used in AutoFill (the OS does not allow the AutoFill to use NFC/MFI).</note>
       </trans-unit>
+      <trans-unit id="[HardwareKey/NFC/OS too old]" xml:space="preserve">
+        <source>NFC requires iOS 13 or later.</source>
+        <target state="needs-translation">NFC requires iOS 13 or later.</target>
+        <note>A notification that NFC (Near Field Communication) interface is not supported by the current iOS version.</note>
+      </trans-unit>
       <trans-unit id="[HardwareKey/None] No Hardware Key" xml:space="preserve">
         <source>No Hardware Key</source>
         <target state="translated">Ingen hårdvarunyckel</target>
@@ -1771,6 +1801,11 @@ Filen kommer inte raderas, och du kan lägga till den igen vid ett senare tillf�
         <source>YubiKey Slot %d</source>
         <target state="translated">YubiKey Slot %d</target>
         <note>Master key/unlock option: use given slot of YubiKey</note>
+      </trans-unit>
+      <trans-unit id="[Help Viewer/title]" xml:space="preserve">
+        <source>Help</source>
+        <target state="translated">Hjälp</target>
+        <note>Generic title of in-app help article</note>
       </trans-unit>
       <trans-unit id="[ItemCategory] Default (KeePass)" xml:space="preserve">
         <source>Default (KeePass)</source>
@@ -1787,8 +1822,8 @@ Säkerställ att du har en backup.</target>
       <trans-unit id="[KeyFile/Remove/Confirm/text] Remove key file from the list?&#10; The file will remain intact and you can add it again later." xml:space="preserve">
         <source>Remove key file from the list?
  The file will remain intact and you can add it again later.</source>
-        <target state="needs-translation">Remove key file from the list?
- The file will remain intact and you can add it again later.</target>
+        <target state="translated">Ta bort nyckelfil från listan?
+ Filen kommer vara kvar oförändrad och du kan lägga till den igen senare.</target>
         <note>Message to confirm removal of a key file from the app. (This keeps the file, but removes its reference from the app.)</note>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/AttachmentPreview/details]" xml:space="preserve">
@@ -1803,12 +1838,12 @@ Säkerställ att du har en backup.</target>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/CustomAppIcon/details]" xml:space="preserve">
         <source>Make KeePassium look unique, familiar, or disguise it as a calculator — the choice is yours.</source>
-        <target state="needs-translation">Make KeePassium look unique, familiar, or disguise it as a calculator — the choice is yours.</target>
+        <target state="translated">Gör KeePassium unikt, igenkännbart, eller få det att se ut som en kalkylator – valet är ditt.</target>
         <note>Explanation of a premium feature</note>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/CustomAppIcon/title]" xml:space="preserve">
         <source>Change app icon</source>
-        <target state="needs-translation">Change app icon</target>
+        <target state="translated">Ändra app-ikon</target>
         <note>Title of a premium feature</note>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/DatabaseTimeout/details]" xml:space="preserve">
@@ -1843,87 +1878,92 @@ Säkerställ att du har en backup.</target>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/Negative/header] " xml:space="preserve">
         <source>What you are missing</source>
-        <target state="needs-translation">What you are missing</target>
+        <target state="translated">Vad du går miste om</target>
         <note>List of premium benefits/advantages</note>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/Positive/header] " xml:space="preserve">
         <source>What you get</source>
-        <target state="needs-translation">What you get</target>
+        <target state="translated">Vad du får</target>
         <note>List of premium benefits/advantages</note>
       </trans-unit>
       <trans-unit id="[Premium/CallToAction/free]" xml:space="preserve">
         <source>Continue Testing</source>
-        <target state="needs-translation">Continue Testing</target>
+        <target state="translated">Fortsätt prova</target>
         <note>Call to action: continue using the free version</note>
       </trans-unit>
       <trans-unit id="[Premium/CallToAction/startTrial]" xml:space="preserve">
         <source>Try it free</source>
-        <target state="needs-translation">Try it free</target>
+        <target state="translated">Prova gratis</target>
         <note>Call to action: start free trial</note>
       </trans-unit>
       <trans-unit id="[Premium/CallToAction/upgradeNow]" xml:space="preserve">
         <source>Upgrade Now</source>
-        <target state="needs-translation">Upgrade Now</target>
+        <target state="translated">Uppgradera Nu</target>
         <note>Call to action: upgrade to premium</note>
+      </trans-unit>
+      <trans-unit id="[Premium/PerpetualLicense/status]" xml:space="preserve">
+        <source>You have a perpetual license for all the versions before %@.</source>
+        <target state="needs-translation">You have a perpetual license for all the versions before %@.</target>
+        <note>[formattedDate: String]</note>
       </trans-unit>
       <trans-unit id="[Premium/Price Plan/Conditions/1 year email support]" xml:space="preserve">
         <source>One year of email support</source>
-        <target state="needs-translation">One year of email support</target>
+        <target state="translated">Ett år support via e-post</target>
         <note>What's included in a price plan: 1 year of support via email</note>
       </trans-unit>
       <trans-unit id="[Premium/Price Plan/Conditions/all premium features]" xml:space="preserve">
         <source>All premium features</source>
-        <target state="needs-translation">All premium features</target>
+        <target state="translated">Alla premiumfunktioner</target>
         <note>What's included in a price plan</note>
       </trans-unit>
       <trans-unit id="[Premium/Price Plan/Conditions/community support]" xml:space="preserve">
         <source>Customer support: Online forums</source>
-        <target state="needs-translation">Customer support: Online forums</target>
+        <target state="translated">Kundsupport: Online-forum</target>
         <note>What's included in a free plan: support via forums (as opposed to email support)</note>
       </trans-unit>
       <trans-unit id="[Premium/Price Plan/Conditions/current premium features]" xml:space="preserve">
         <source>Current premium features</source>
-        <target state="needs-translation">Current premium features</target>
+        <target state="translated">Nuvarande premiumfunktioner</target>
         <note>What's included in a price plan: existing premium features only (as opposed to `current + future`)</note>
       </trans-unit>
       <trans-unit id="[Premium/Price Plan/Conditions/email support]" xml:space="preserve">
         <source>Customer support: Email</source>
-        <target state="needs-translation">Customer support: Email</target>
+        <target state="translated">Kundsupport: E-post</target>
         <note>What's included in a price plan: support via email</note>
       </trans-unit>
       <trans-unit id="[Premium/Price Plan/Conditions/freemium reminders]" xml:space="preserve">
         <source>Freemium reminders</source>
-        <target state="needs-translation">Freemium reminders</target>
+        <target state="translated">Freemium-påminnelser</target>
         <note>What's included in a free plan: reminders that the version is free</note>
       </trans-unit>
       <trans-unit id="[Premium/Price Plan/Conditions/future premium features]" xml:space="preserve">
         <source>Future premium features</source>
-        <target state="needs-translation">Future premium features</target>
+        <target state="translated">Framtida premiumfunktioner</target>
         <note>What's included in a price plan: upcoming premium features (as opposed to `current only`)</note>
       </trans-unit>
       <trans-unit id="[Premium/Price Plan/Conditions/perpetual fallback]" xml:space="preserve">
         <source>Rent-to-own license (Perpetual fallback license)</source>
-        <target state="needs-translation">Rent-to-own license (Perpetual fallback license)</target>
+        <target state="translated">Hyrlicens (Perpetual fallback license)</target>
         <note>What's included in a price plan. Please leave `perpetual fallback license` in English.</note>
       </trans-unit>
       <trans-unit id="[Premium/Price Plan/Conditions/updates and bug fixes]" xml:space="preserve">
         <source>Updates and bug fixes</source>
-        <target state="needs-translation">Updates and bug fixes</target>
+        <target state="translated">Uppdateringar och buggfixar</target>
         <note>What's included in a price plan</note>
       </trans-unit>
       <trans-unit id="[Premium/Price Plan/Free/price]" xml:space="preserve">
         <source>Free</source>
-        <target state="needs-translation">Free</target>
+        <target state="translated">Gratis</target>
         <note>Price of the free pricing plan</note>
       </trans-unit>
       <trans-unit id="[Premium/Price Plan/Free/title]" xml:space="preserve">
         <source>Free</source>
-        <target state="needs-translation">Free</target>
+        <target state="translated">Gratis</target>
         <note>Name of the free pricing plan</note>
       </trans-unit>
       <trans-unit id="[Premium/Price Plan/popular]" xml:space="preserve">
         <source>Popular</source>
-        <target state="needs-translation">Popular</target>
+        <target state="translated">Populär</target>
         <note>Marks the default pricing plan</note>
       </trans-unit>
       <trans-unit id="[Premium/Subscription/Legal/text]" xml:space="preserve">
@@ -1945,7 +1985,7 @@ Du kan hantera och avsluta din prenumeration genom att gå till Kontoinställnin
       </trans-unit>
       <trans-unit id="[Premium/Trial/trial then price]" xml:space="preserve">
         <source>%1$@ free, then %2$@</source>
-        <target state="needs-translation">%1$@ free, then %2$@</target>
+        <target state="translated">%1$@ gratis, sedan %2$@</target>
         <note>Trial conditions. For example `30 days free, then $1 per month`</note>
       </trans-unit>
       <trans-unit id="[Premium/Upgrade/Deferred/text] Thank you! You can use KeePassium while purchase is awaiting approval from a parent" xml:space="preserve">
@@ -2005,13 +2045,18 @@ Du kan hantera och avsluta din prenumeration genom att gå till Kontoinställnin
       </trans-unit>
       <trans-unit id="[Premium/Upgrade/price] around %@ / month" xml:space="preserve">
         <source>≈ %@ / month</source>
-        <target state="needs-translation">≈ %@ / month</target>
+        <target state="translated">≈ %@ / månad</target>
         <note>Equivalent monthly price for an annual subscription. For example: `$12/year ≈ $1 / month`</note>
       </trans-unit>
       <trans-unit id="[Premium/Upgrade] Hmm, there are no upgrades available. This should not happen, please contact support." xml:space="preserve">
         <source>Hmm, there are no upgrades available. This should not happen, please contact support.</source>
         <target state="translated">Hmm, det finns inga uppgraderingar tillgängliga. Detta ska inte hända, var vänlig kontakta supporten.</target>
         <note>Error message: AppStore returned no available in-app purchase options</note>
+      </trans-unit>
+      <trans-unit id="[Premium/perpetualLicense]" xml:space="preserve">
+        <source>Perpetual license</source>
+        <target state="needs-translation">Perpetual license</target>
+        <note>Name of the permanent/never-ending license.</note>
       </trans-unit>
       <trans-unit id="[Premium/status] Beta testing" xml:space="preserve">
         <source>Beta testing</source>
@@ -2040,17 +2085,17 @@ Du kan hantera och avsluta din prenumeration genom att gå till Kontoinställnin
       </trans-unit>
       <trans-unit id="[PremiumFeature/CustomAppIcons/title]" xml:space="preserve">
         <source>Custom App Icons</source>
-        <target state="needs-translation">Custom App Icons</target>
+        <target state="translated">Valbar app-ikon</target>
         <note>Title of a premium feature: ability to change the app icon</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/Generic/description]" xml:space="preserve">
         <source>You have found a premium feature! Upgrade to premium and enjoy KeePassium at its best.</source>
-        <target state="needs-translation">You have found a premium feature! Upgrade to premium and enjoy KeePassium at its best.</target>
+        <target state="translated">Du har hittat en premiumfunktion! Uppgradera till premium och upplev KeePassium när det är som bäst.</target>
         <note>A generic description of a premium feature</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/Generic/title]" xml:space="preserve">
         <source>Premium Feature</source>
-        <target state="needs-translation">Premium Feature</target>
+        <target state="translated">Premiumfunktion</target>
         <note>A generic title of a premium feature</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/HardwareKeys/description]" xml:space="preserve">
@@ -2297,7 +2342,7 @@ Du kan hantera och avsluta din prenumeration genom att gå till Kontoinställnin
       </trans-unit>
       <trans-unit id="OaP-Bl-5vR.text" xml:space="preserve">
         <source>TPInAppReceipt by Pavel Tikhonenko</source>
-        <target state="needs-translation">TPInAppReceipt by Pavel Tikhonenko</target>
+        <target state="translated">TPInAppReceipt av Pavel Tikhonenko</target>
         <note>Class = "UILabel"; text = "TPInAppReceipt by Pavel Tikhonenko"; ObjectID = "OaP-Bl-5vR";</note>
       </trans-unit>
       <trans-unit id="QV5-N8-NRt.text" xml:space="preserve">
@@ -2561,7 +2606,7 @@ Du kan ha flera databaser, till exempel för att dela upp konton för arbete, fa
       </trans-unit>
       <trans-unit id="NSz-U1-2ye.normalTitle" xml:space="preserve">
         <source>Terms and Conditions</source>
-        <target state="needs-translation">Terms and Conditions</target>
+        <target state="translated">Användarvillkor</target>
         <note>Class = "UIButton"; normalTitle = "Terms and Conditions"; ObjectID = "NSz-U1-2ye";</note>
       </trans-unit>
       <trans-unit id="fC2-en-cOo.normalTitle" xml:space="preserve">
@@ -2571,7 +2616,7 @@ Du kan ha flera databaser, till exempel för att dela upp konton för arbete, fa
       </trans-unit>
       <trans-unit id="j7c-Gd-QEh.normalTitle" xml:space="preserve">
         <source>Already purchased?</source>
-        <target state="needs-translation">Already purchased?</target>
+        <target state="translated">Redan köpt?</target>
         <note>Class = "UIButton"; normalTitle = "Already purchased?"; ObjectID = "j7c-Gd-QEh";</note>
       </trans-unit>
     </body>
@@ -2875,13 +2920,13 @@ Du kan ha flera databaser, till exempel för att dela upp konton för arbete, fa
         <note>Class = "UITableViewSection"; headerTitle = "Protected Fields"; ObjectID = "e6Y-AP-hag";</note>
       </trans-unit>
       <trans-unit id="g9a-rJ-4WJ.footerTitle" xml:space="preserve">
-        <source>Use Universal Clipboard to copy and paste between your Apple devices.</source>
-        <target state="translated">Använd Universal Clipboard för att kopiera och klistra mellan dina Apple-enheter.</target>
-        <note>Class = "UITableViewSection"; footerTitle = "Use Universal Clipboard to copy and paste between your Apple devices."; ObjectID = "g9a-rJ-4WJ";</note>
+        <source>Use Universal Clipboard to copy and paste between your Apple devices. On external devices, this clipboard is cleared after two minutes.</source>
+        <target state="needs-translation">Use Universal Clipboard to copy and paste between your Apple devices. On external devices, this clipboard is cleared after two minutes.</target>
+        <note>Class = "UITableViewSection"; footerTitle = "Use Universal Clipboard to copy and paste between your Apple devices. On external devices, this clipboard is cleared after two minutes."; ObjectID = "g9a-rJ-4WJ";</note>
       </trans-unit>
       <trans-unit id="gTm-F6-EDQ.text" xml:space="preserve">
         <source>Clear Master Keys on Timeout</source>
-        <target state="needs-translation">Clear Master Keys on Timeout</target>
+        <target state="translated">Rensa huvudnyckel vid timeout</target>
         <note>Class = "UILabel"; text = "Clear Master Keys on Timeout"; ObjectID = "gTm-F6-EDQ";</note>
       </trans-unit>
       <trans-unit id="hnI-Q8-Ixm.footerTitle" xml:space="preserve">
@@ -3052,6 +3097,11 @@ Du kan ha flera databaser, till exempel för att dela upp konton för arbete, fa
         <target state="translated">Förslag? Problem? Hör av dig!</target>
         <note>Class = "UILabel"; text = "Suggestions? Problems? Let us know!"; ObjectID = "RNK-fS-Fvx"; Note = "Subtitle for `Contact Us`. Keep it short.";</note>
       </trans-unit>
+      <trans-unit id="RlK-RW-8Ld.text" xml:space="preserve">
+        <source>What's New</source>
+        <target state="translated">Nyheter</target>
+        <note>Class = "UILabel"; text = "What's New"; ObjectID = "RlK-RW-8Ld"; Note = "Action: open app history page (change log)";</note>
+      </trans-unit>
       <trans-unit id="T2Z-oa-zJR.text" xml:space="preserve">
         <source>AutoFill Passwords</source>
         <target state="translated">Autofyll lösenord</target>
@@ -3059,7 +3109,7 @@ Du kan ha flera databaser, till exempel för att dela upp konton för arbete, fa
       </trans-unit>
       <trans-unit id="TUE-Aw-fJl.text" xml:space="preserve">
         <source>App Icon</source>
-        <target state="needs-translation">App Icon</target>
+        <target state="translated">App-ikon</target>
         <note>Class = "UILabel"; text = "App Icon"; ObjectID = "TUE-Aw-fJl"; Note = "Section in settings: icon for the app";</note>
       </trans-unit>
       <trans-unit id="UNl-Hc-Ref.text" xml:space="preserve">

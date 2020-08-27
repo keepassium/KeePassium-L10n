@@ -471,6 +471,11 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <target state="translated">您确定吗？</target>
         <note>Message to confirm deletion of an item.</note>
       </trans-unit>
+      <trans-unit id="[Generic/Directory/Recently Deleted/name]" xml:space="preserve">
+        <source>Recently Deleted</source>
+        <target state="translated">最近删除</target>
+        <note>Name of the Recently Deleted (Recycle Bin) directory, as shown in the Files app</note>
+      </trans-unit>
       <trans-unit id="[Generic/Edit/Aborting/text] Discard unsaved changes?" xml:space="preserve">
         <source>Discard unsaved changes?</source>
         <target state="translated">要舍弃尚未储存的变更？</target>
@@ -631,6 +636,11 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <target state="translated">硬件密钥在自动填充中不可用。</target>
         <note>A notification that hardware keys (e.g. YubiKey) cannot be used in AutoFill (the OS does not allow the AutoFill to use NFC/MFI).</note>
       </trans-unit>
+      <trans-unit id="[HardwareKey/NFC/OS too old]" xml:space="preserve">
+        <source>NFC requires iOS 13 or later.</source>
+        <target state="needs-translation">NFC requires iOS 13 or later.</target>
+        <note>A notification that NFC (Near Field Communication) interface is not supported by the current iOS version.</note>
+      </trans-unit>
       <trans-unit id="[HardwareKey/None] No Hardware Key" xml:space="preserve">
         <source>No Hardware Key</source>
         <target state="translated">没有硬件密钥</target>
@@ -640,6 +650,11 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <source>YubiKey Slot %d</source>
         <target state="translated">YubiKey Slot %d</target>
         <note>Master key/unlock option: use given slot of YubiKey</note>
+      </trans-unit>
+      <trans-unit id="[Help Viewer/title]" xml:space="preserve">
+        <source>Help</source>
+        <target state="translated">帮助</target>
+        <note>Generic title of in-app help article</note>
       </trans-unit>
       <trans-unit id="[KeyFile/Delete/Confirm/text] Delete key file?&#10; Make sure you have a backup." xml:space="preserve">
         <source>Delete key file?
@@ -830,6 +845,11 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <source>Add Database</source>
         <target state="translated">添加数据库</target>
         <note>Class = "UIBarButtonItem"; title = "Add Database"; ObjectID = "qPq-UR-uZs"; Note = "Action: add database (either an existing file or create a new one)";</note>
+      </trans-unit>
+      <trans-unit id="zIk-Pe-sKK.accessibilityLabel" xml:space="preserve">
+        <source>Close</source>
+        <target state="translated">关闭</target>
+        <note>Class = "UIButton"; accessibilityLabel = "Close"; ObjectID = "zIk-Pe-sKK";</note>
       </trans-unit>
     </body>
   </file>
@@ -1602,6 +1622,11 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <target state="translated">您确定吗？</target>
         <note>Message to confirm deletion of an item.</note>
       </trans-unit>
+      <trans-unit id="[Generic/Directory/Recently Deleted/name]" xml:space="preserve">
+        <source>Recently Deleted</source>
+        <target state="translated">最近删除</target>
+        <note>Name of the Recently Deleted (Recycle Bin) directory, as shown in the Files app</note>
+      </trans-unit>
       <trans-unit id="[Generic/Edit/Aborting/text] Discard unsaved changes?" xml:space="preserve">
         <source>Discard unsaved changes?</source>
         <target state="translated">要舍弃尚未储存的变更？</target>
@@ -1762,6 +1787,11 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <target state="translated">硬件密钥在自动填充中不可用。</target>
         <note>A notification that hardware keys (e.g. YubiKey) cannot be used in AutoFill (the OS does not allow the AutoFill to use NFC/MFI).</note>
       </trans-unit>
+      <trans-unit id="[HardwareKey/NFC/OS too old]" xml:space="preserve">
+        <source>NFC requires iOS 13 or later.</source>
+        <target state="needs-translation">NFC requires iOS 13 or later.</target>
+        <note>A notification that NFC (Near Field Communication) interface is not supported by the current iOS version.</note>
+      </trans-unit>
       <trans-unit id="[HardwareKey/None] No Hardware Key" xml:space="preserve">
         <source>No Hardware Key</source>
         <target state="translated">没有硬件密钥</target>
@@ -1771,6 +1801,11 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <source>YubiKey Slot %d</source>
         <target state="translated">YubiKey Slot %d</target>
         <note>Master key/unlock option: use given slot of YubiKey</note>
+      </trans-unit>
+      <trans-unit id="[Help Viewer/title]" xml:space="preserve">
+        <source>Help</source>
+        <target state="translated">帮助</target>
+        <note>Generic title of in-app help article</note>
       </trans-unit>
       <trans-unit id="[ItemCategory] Default (KeePass)" xml:space="preserve">
         <source>Default (KeePass)</source>
@@ -1865,6 +1900,11 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <source>Upgrade Now</source>
         <target state="translated">立即升级</target>
         <note>Call to action: upgrade to premium</note>
+      </trans-unit>
+      <trans-unit id="[Premium/PerpetualLicense/status]" xml:space="preserve">
+        <source>You have a perpetual license for all the versions before %@.</source>
+        <target state="needs-translation">You have a perpetual license for all the versions before %@.</target>
+        <note>[formattedDate: String]</note>
       </trans-unit>
       <trans-unit id="[Premium/Price Plan/Conditions/1 year email support]" xml:space="preserve">
         <source>One year of email support</source>
@@ -2012,6 +2052,11 @@ You can manage and cancel your subscriptions by going to your account settings o
         <source>Hmm, there are no upgrades available. This should not happen, please contact support.</source>
         <target state="translated">没有可用的升级, 这不应该发生, 请联系技术支持。</target>
         <note>Error message: AppStore returned no available in-app purchase options</note>
+      </trans-unit>
+      <trans-unit id="[Premium/perpetualLicense]" xml:space="preserve">
+        <source>Perpetual license</source>
+        <target state="needs-translation">Perpetual license</target>
+        <note>Name of the permanent/never-ending license.</note>
       </trans-unit>
       <trans-unit id="[Premium/status] Beta testing" xml:space="preserve">
         <source>Beta testing</source>
@@ -2875,9 +2920,9 @@ You can have multiple databases, for example to separate work, family and person
         <note>Class = "UITableViewSection"; headerTitle = "Protected Fields"; ObjectID = "e6Y-AP-hag";</note>
       </trans-unit>
       <trans-unit id="g9a-rJ-4WJ.footerTitle" xml:space="preserve">
-        <source>Use Universal Clipboard to copy and paste between your Apple devices.</source>
-        <target state="translated">使用通用剪贴板在您的苹果设备之间复制并粘贴。</target>
-        <note>Class = "UITableViewSection"; footerTitle = "Use Universal Clipboard to copy and paste between your Apple devices."; ObjectID = "g9a-rJ-4WJ";</note>
+        <source>Use Universal Clipboard to copy and paste between your Apple devices. On external devices, this clipboard is cleared after two minutes.</source>
+        <target state="needs-translation">Use Universal Clipboard to copy and paste between your Apple devices. On external devices, this clipboard is cleared after two minutes.</target>
+        <note>Class = "UITableViewSection"; footerTitle = "Use Universal Clipboard to copy and paste between your Apple devices. On external devices, this clipboard is cleared after two minutes."; ObjectID = "g9a-rJ-4WJ";</note>
       </trans-unit>
       <trans-unit id="gTm-F6-EDQ.text" xml:space="preserve">
         <source>Clear Master Keys on Timeout</source>
@@ -3051,6 +3096,11 @@ You can have multiple databases, for example to separate work, family and person
         <source>Suggestions? Problems? Let us know!</source>
         <target state="translated">建议? 问题? 让我们知道!</target>
         <note>Class = "UILabel"; text = "Suggestions? Problems? Let us know!"; ObjectID = "RNK-fS-Fvx"; Note = "Subtitle for `Contact Us`. Keep it short.";</note>
+      </trans-unit>
+      <trans-unit id="RlK-RW-8Ld.text" xml:space="preserve">
+        <source>What's New</source>
+        <target state="needs-translation">What's New</target>
+        <note>Class = "UILabel"; text = "What's New"; ObjectID = "RlK-RW-8Ld"; Note = "Action: open app history page (change log)";</note>
       </trans-unit>
       <trans-unit id="T2Z-oa-zJR.text" xml:space="preserve">
         <source>AutoFill Passwords</source>

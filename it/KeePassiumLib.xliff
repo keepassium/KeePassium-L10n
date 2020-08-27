@@ -445,22 +445,22 @@ Assicurati di avere un backup del database prima di fare qualsiasi modifica.</ta
       </trans-unit>
       <trans-unit id="[FileAccessError/FileProvider/NotFound/generic]" xml:space="preserve">
         <source>Storage provider is not available. Please check whether it is installed and logged in to your account.</source>
-        <target state="needs-translation">Storage provider is not available. Please check whether it is installed and logged in to your account.</target>
+        <target state="translated">Lo Storage provider non è disponibile. Verificare che sia installato e collegato con il vostro account.</target>
         <note>Error message: storage provider app was logged out or uninstalled.</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/FileProvider/NotFound/other]" xml:space="preserve">
         <source>%@ is not available. Please check whether it is installed and logged in to your account.</source>
-        <target state="needs-translation">%@ is not available. Please check whether it is installed and logged in to your account.</target>
+        <target state="translated">%@ non è disponibile. Controllare che sia installato e connesso al vostro account.</target>
         <note>Error message: storage provider app was logged out or uninstalled [fileProviderName: String].</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/FileProvider/NotFound/smbShare]" xml:space="preserve">
         <source>Network storage is disconnected.</source>
-        <target state="needs-translation">Network storage is disconnected.</target>
+        <target state="translated">L'archivio di rete è disconnesso.</target>
         <note>Error message: the required network drive is not connected.</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/FileProvider/NotFound/usbDrive]" xml:space="preserve">
         <source>USB drive is disconnected.</source>
-        <target state="needs-translation">USB drive is disconnected.</target>
+        <target state="translated">L'unità USB è disconnessa.</target>
         <note>Error message: there is no USB drive connected to the device.</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/NoResponse/genericFileProvider]" xml:space="preserve">

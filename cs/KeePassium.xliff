@@ -256,7 +256,7 @@ Pokud s tímhle potřebujete pomoci, napište nám.</target>
       </trans-unit>
       <trans-unit id="[AutoFill/Search/callerID]" xml:space="preserve">
         <source>Caller ID: %@</source>
-        <target state="needs-translation">Caller ID: %@</target>
+        <target state="translated">Caller ID: %@</target>
         <note>An identifier of the app that called AutoFill. The term is intentionally similar to https://ru.wikipedia.org/wiki/Caller_ID. [callerID: String]</note>
       </trans-unit>
       <trans-unit id="[AutoFill/Setup/footer]" xml:space="preserve">
@@ -428,7 +428,7 @@ Soubor nebude ostraněn a můžete jej znovu přidat později.</target>
       </trans-unit>
       <trans-unit id="[FileInfo/Error/failed to change attributes]" xml:space="preserve">
         <source>Failed to update file attributes.</source>
-        <target state="needs-translation">Failed to update file attributes.</target>
+        <target state="translated">Nepodařilo se aktualizovat vlastnosti souboru.</target>
         <note>Error message shown when the user tries to change file attributes (such as creation/modification date, backup flag, etc)</note>
       </trans-unit>
       <trans-unit id="[FileInfo/Field/title] Creation Date" xml:space="preserve">
@@ -463,13 +463,18 @@ Soubor nebude ostraněn a můžete jej znovu přidat později.</target>
       </trans-unit>
       <trans-unit id="[FileInfo/isExcludedFromBackup/title]" xml:space="preserve">
         <source>Exclude From iCloud/iTunes Backup</source>
-        <target state="needs-translation">Exclude From iCloud/iTunes Backup</target>
+        <target state="translated">Vyloučit ze zálohy iCloudu/iTunes</target>
         <note>Title of a setting: is the file exluded from iCloud/iTunes backup. For example: `Exclude From Backup: &lt;Yes&gt;`</note>
       </trans-unit>
       <trans-unit id="[Generic/ConfirmDelete/title] Are you sure?" xml:space="preserve">
         <source>Are you sure?</source>
         <target state="translated">Jste si jisti?</target>
         <note>Message to confirm deletion of an item.</note>
+      </trans-unit>
+      <trans-unit id="[Generic/Directory/Recently Deleted/name]" xml:space="preserve">
+        <source>Recently Deleted</source>
+        <target state="translated">Nedávno smazané</target>
+        <note>Name of the Recently Deleted (Recycle Bin) directory, as shown in the Files app</note>
       </trans-unit>
       <trans-unit id="[Generic/Edit/Aborting/text] Discard unsaved changes?" xml:space="preserve">
         <source>Discard unsaved changes?</source>
@@ -533,7 +538,7 @@ Soubor nebude ostraněn a můžete jej znovu přidat později.</target>
       </trans-unit>
       <trans-unit id="[Generic] Continue" xml:space="preserve">
         <source>Continue</source>
-        <target state="needs-translation">Continue</target>
+        <target state="translated">Pokračovat</target>
         <note>Action/button to proceed with the action</note>
       </trans-unit>
       <trans-unit id="[Generic] Copy" xml:space="preserve">
@@ -628,18 +633,28 @@ Soubor nebude ostraněn a můžete jej znovu přidat později.</target>
       </trans-unit>
       <trans-unit id="[HardwareKey/AutoFill/NotAvailable] Hardware keys are not available in AutoFill." xml:space="preserve">
         <source>Hardware keys are not available in AutoFill.</source>
-        <target state="translated">Hardwarový Klíč není možné použít pro automatické vyplňování.</target>
+        <target state="translated">Hardwarový klíč není možné použít pro automatické vyplňování.</target>
         <note>A notification that hardware keys (e.g. YubiKey) cannot be used in AutoFill (the OS does not allow the AutoFill to use NFC/MFI).</note>
+      </trans-unit>
+      <trans-unit id="[HardwareKey/NFC/OS too old]" xml:space="preserve">
+        <source>NFC requires iOS 13 or later.</source>
+        <target state="needs-translation">NFC requires iOS 13 or later.</target>
+        <note>A notification that NFC (Near Field Communication) interface is not supported by the current iOS version.</note>
       </trans-unit>
       <trans-unit id="[HardwareKey/None] No Hardware Key" xml:space="preserve">
         <source>No Hardware Key</source>
-        <target state="translated">Žádný Hardwarový Klíč</target>
+        <target state="translated">Žádný hardwarový klíč</target>
         <note>Master key/unlock option: don't use hardware keys</note>
       </trans-unit>
       <trans-unit id="[HardwareKey/YubiKey/Slot] YubiKey Slot #%d" xml:space="preserve">
         <source>YubiKey Slot %d</source>
-        <target state="needs-translation">YubiKey Slot %d</target>
+        <target state="translated">YubiKey slot %d</target>
         <note>Master key/unlock option: use given slot of YubiKey</note>
+      </trans-unit>
+      <trans-unit id="[Help Viewer/title]" xml:space="preserve">
+        <source>Help</source>
+        <target state="translated">Nápověda</target>
+        <note>Generic title of in-app help article</note>
       </trans-unit>
       <trans-unit id="[KeyFile/Delete/Confirm/text] Delete key file?&#10; Make sure you have a backup." xml:space="preserve">
         <source>Delete key file?
@@ -651,8 +666,8 @@ Ujistěte se, že jej máte zálohovaný.</target>
       <trans-unit id="[KeyFile/Remove/Confirm/text] Remove key file from the list?&#10; The file will remain intact and you can add it again later." xml:space="preserve">
         <source>Remove key file from the list?
  The file will remain intact and you can add it again later.</source>
-        <target state="needs-translation">Remove key file from the list?
- The file will remain intact and you can add it again later.</target>
+        <target state="translated">Odebrat soubor s klíčem ze seznamu?
+Soubor zůstane neporušený a později jej budete moci znovu přidat.</target>
         <note>Message to confirm removal of a key file from the app. (This keeps the file, but removes its reference from the app.)</note>
       </trans-unit>
       <trans-unit id="[Premium/Upgrade/action] Upgrade to Premium" xml:space="preserve">
@@ -662,27 +677,27 @@ Ujistěte se, že jej máte zálohovaný.</target>
       </trans-unit>
       <trans-unit id="[PremiumFeature/CustomAppIcons/title]" xml:space="preserve">
         <source>Custom App Icons</source>
-        <target state="needs-translation">Custom App Icons</target>
+        <target state="translated">Vlastní ikony aplikace</target>
         <note>Title of a premium feature: ability to change the app icon</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/Generic/description]" xml:space="preserve">
         <source>You have found a premium feature! Upgrade to premium and enjoy KeePassium at its best.</source>
-        <target state="needs-translation">You have found a premium feature! Upgrade to premium and enjoy KeePassium at its best.</target>
+        <target state="translated">Našli jste prémiovou funkci! Upgradujte na Premium a užijte si KeePassium se všemi funkcemi.</target>
         <note>A generic description of a premium feature</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/Generic/title]" xml:space="preserve">
         <source>Premium Feature</source>
-        <target state="needs-translation">Premium Feature</target>
+        <target state="translated">Prémiová funkce</target>
         <note>A generic title of a premium feature</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/HardwareKeys/description]" xml:space="preserve">
         <source>Strengthen your security with hardware keys (YubiKey) in the premium version.</source>
-        <target state="needs-translation">Strengthen your security with hardware keys (YubiKey) in the premium version.</target>
+        <target state="translated">Posilte svou bezpečnost pomocí hardwarových klíčů (YubiKey) v prémiové verzi.</target>
         <note>Description/advertisement for the `Hardware Keys` premium feature</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/HardwareKeys/title] Hardware Keys" xml:space="preserve">
         <source>Hardware Keys</source>
-        <target state="needs-translation">Hardware Keys</target>
+        <target state="translated">Hardwarové klíče</target>
         <note>Title of a premium feature: ability use hardware keys (e.g. YubiKey) for encryption (In Title Case)</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/LongDBTimeouts/description] Save time entering your complex master passwords — keep your database open longer in the premium version." xml:space="preserve">
@@ -727,22 +742,22 @@ Ujistěte se, že jej máte zálohovaný.</target>
       </trans-unit>
       <trans-unit id="[YubiKey] Don't use YubiKey" xml:space="preserve">
         <source>Without YubiKey</source>
-        <target state="needs-translation">Without YubiKey</target>
+        <target state="translated">Bez YubiKey</target>
         <note>Selector choice: don't use YubiKey to encrypt/decrypt database</note>
       </trans-unit>
       <trans-unit id="[YubiKey] Insert the key" xml:space="preserve">
         <source>Insert the key</source>
-        <target state="needs-translation">Insert the key</target>
+        <target state="translated">Vložte klíč</target>
         <note>Call for action: insert YubiKey 5Ci to the Lightning port</note>
       </trans-unit>
       <trans-unit id="[YubiKey] Touch the key" xml:space="preserve">
         <source>Touch the key</source>
-        <target state="needs-translation">Touch the key</target>
+        <target state="translated">Dotkněte se klíče</target>
         <note>Call for action: touch the sides of YubiKey 5Ci to continue</note>
       </trans-unit>
       <trans-unit id="[YubiKey] Use YubiKey Slot %d" xml:space="preserve">
         <source>Use YubiKey Slot %d</source>
-        <target state="needs-translation">Use YubiKey Slot %d</target>
+        <target state="translated">Použít YubiKey slot %d</target>
         <note>Selector choice: use YubiKey to encrypt/decrypt database. For example: `Use YubiKey Slot 1`. [slotID: Int]</note>
       </trans-unit>
     </body>
@@ -754,7 +769,7 @@ Ujistěte se, že jej máte zálohovaný.</target>
     <body>
       <trans-unit id="fH6-bS-mDZ.title" xml:space="preserve">
         <source>Choose Hardware Key</source>
-        <target state="needs-translation">Choose Hardware Key</target>
+        <target state="translated">Vybrat hardwarový klíč</target>
         <note>Class = "UITableViewController"; title = "Choose Hardware Key"; ObjectID = "fH6-bS-mDZ"; Note = "Title of the hardware key selector (e.g. for YubiKey)";</note>
       </trans-unit>
     </body>
@@ -830,6 +845,11 @@ Ujistěte se, že jej máte zálohovaný.</target>
         <source>Add Database</source>
         <target state="translated">Přidat databázi</target>
         <note>Class = "UIBarButtonItem"; title = "Add Database"; ObjectID = "qPq-UR-uZs"; Note = "Action: add database (either an existing file or create a new one)";</note>
+      </trans-unit>
+      <trans-unit id="zIk-Pe-sKK.accessibilityLabel" xml:space="preserve">
+        <source>Close</source>
+        <target state="translated">Zavřít</target>
+        <note>Class = "UIButton"; accessibilityLabel = "Close"; ObjectID = "zIk-Pe-sKK";</note>
       </trans-unit>
     </body>
   </file>
@@ -966,7 +986,7 @@ Ujistěte se, že jej máte zálohovaný.</target>
     <body>
       <trans-unit id="6Mx-Oh-6m0.accessibilityHint" xml:space="preserve">
         <source>Expands a text field to its full height</source>
-        <target state="needs-translation">Expands a text field to its full height</target>
+        <target state="translated">Rozšíří textové pole na jeho plnou výšku</target>
         <note>Class = "UIButton"; accessibilityHint = "Expands a text field to its full height"; ObjectID = "6Mx-Oh-6m0";</note>
       </trans-unit>
       <trans-unit id="6Mx-Oh-6m0.accessibilityLabel" xml:space="preserve">
@@ -1208,12 +1228,12 @@ Ujistěte se, že jej máte zálohovaný.</target>
       </trans-unit>
       <trans-unit id="NFCReaderUsageDescription" xml:space="preserve">
         <source>KeePassium needs access to NFC to communicate with your YubiKey.</source>
-        <target state="needs-translation">KeePassium needs access to NFC to communicate with your YubiKey.</target>
+        <target state="translated">KeePassium potřebuje přístup k NFC pro komunikaci s vaším YubiKey.</target>
         <note>Privacy - NFC Scan Usage Description</note>
       </trans-unit>
       <trans-unit id="NSCameraUsageDescription" xml:space="preserve">
         <source>KeePassium needs the camera to scan QR codes.</source>
-        <target state="needs-translation">KeePassium needs the camera to scan QR codes.</target>
+        <target state="translated">KeePassium potřebuje přístup k fotoaparátu pro skenování QR kódů.</target>
         <note>Privacy - Camera Usage Description</note>
       </trans-unit>
       <trans-unit id="NSFaceIDUsageDescription" xml:space="preserve">
@@ -1554,7 +1574,7 @@ Soubor nebude ostraněn a můžete jej znovu přidat později.</target>
       </trans-unit>
       <trans-unit id="[FileInfo/Error/failed to change attributes]" xml:space="preserve">
         <source>Failed to update file attributes.</source>
-        <target state="needs-translation">Failed to update file attributes.</target>
+        <target state="translated">Nepodařilo se aktualizovat vlastnosti souboru.</target>
         <note>Error message shown when the user tries to change file attributes (such as creation/modification date, backup flag, etc)</note>
       </trans-unit>
       <trans-unit id="[FileInfo/Field/title] Creation Date" xml:space="preserve">
@@ -1589,7 +1609,7 @@ Soubor nebude ostraněn a můžete jej znovu přidat později.</target>
       </trans-unit>
       <trans-unit id="[FileInfo/isExcludedFromBackup/title]" xml:space="preserve">
         <source>Exclude From iCloud/iTunes Backup</source>
-        <target state="needs-translation">Exclude From iCloud/iTunes Backup</target>
+        <target state="translated">Vyloučit ze zálohy iCloudu/iTunes</target>
         <note>Title of a setting: is the file exluded from iCloud/iTunes backup. For example: `Exclude From Backup: &lt;Yes&gt;`</note>
       </trans-unit>
       <trans-unit id="[General/DestinationGroup/title] Choose a Destination" xml:space="preserve">
@@ -1601,6 +1621,11 @@ Soubor nebude ostraněn a můžete jej znovu přidat později.</target>
         <source>Are you sure?</source>
         <target state="translated">Jste si jisti?</target>
         <note>Message to confirm deletion of an item.</note>
+      </trans-unit>
+      <trans-unit id="[Generic/Directory/Recently Deleted/name]" xml:space="preserve">
+        <source>Recently Deleted</source>
+        <target state="translated">Nedávno smazané</target>
+        <note>Name of the Recently Deleted (Recycle Bin) directory, as shown in the Files app</note>
       </trans-unit>
       <trans-unit id="[Generic/Edit/Aborting/text] Discard unsaved changes?" xml:space="preserve">
         <source>Discard unsaved changes?</source>
@@ -1664,7 +1689,7 @@ Soubor nebude ostraněn a můžete jej znovu přidat později.</target>
       </trans-unit>
       <trans-unit id="[Generic] Continue" xml:space="preserve">
         <source>Continue</source>
-        <target state="needs-translation">Continue</target>
+        <target state="translated">Pokračovat</target>
         <note>Action/button to proceed with the action</note>
       </trans-unit>
       <trans-unit id="[Generic] Copy" xml:space="preserve">
@@ -1759,18 +1784,28 @@ Soubor nebude ostraněn a můžete jej znovu přidat později.</target>
       </trans-unit>
       <trans-unit id="[HardwareKey/AutoFill/NotAvailable] Hardware keys are not available in AutoFill." xml:space="preserve">
         <source>Hardware keys are not available in AutoFill.</source>
-        <target state="needs-translation">Hardware keys are not available in AutoFill.</target>
+        <target state="translated">Hardwarové klíče není možné použít pro automatické vyplňování.</target>
         <note>A notification that hardware keys (e.g. YubiKey) cannot be used in AutoFill (the OS does not allow the AutoFill to use NFC/MFI).</note>
+      </trans-unit>
+      <trans-unit id="[HardwareKey/NFC/OS too old]" xml:space="preserve">
+        <source>NFC requires iOS 13 or later.</source>
+        <target state="needs-translation">NFC requires iOS 13 or later.</target>
+        <note>A notification that NFC (Near Field Communication) interface is not supported by the current iOS version.</note>
       </trans-unit>
       <trans-unit id="[HardwareKey/None] No Hardware Key" xml:space="preserve">
         <source>No Hardware Key</source>
-        <target state="translated">Žádný Hardwarový Klíč</target>
+        <target state="translated">Žádný hardwarový klíč</target>
         <note>Master key/unlock option: don't use hardware keys</note>
       </trans-unit>
       <trans-unit id="[HardwareKey/YubiKey/Slot] YubiKey Slot #%d" xml:space="preserve">
         <source>YubiKey Slot %d</source>
-        <target state="needs-translation">YubiKey Slot %d</target>
+        <target state="translated">YubiKey slot %d</target>
         <note>Master key/unlock option: use given slot of YubiKey</note>
+      </trans-unit>
+      <trans-unit id="[Help Viewer/title]" xml:space="preserve">
+        <source>Help</source>
+        <target state="translated">Nápověda</target>
+        <note>Generic title of in-app help article</note>
       </trans-unit>
       <trans-unit id="[ItemCategory] Default (KeePass)" xml:space="preserve">
         <source>Default (KeePass)</source>
@@ -1787,8 +1822,8 @@ Ujistěte se, že jej máte zálohovaný.</target>
       <trans-unit id="[KeyFile/Remove/Confirm/text] Remove key file from the list?&#10; The file will remain intact and you can add it again later." xml:space="preserve">
         <source>Remove key file from the list?
  The file will remain intact and you can add it again later.</source>
-        <target state="needs-translation">Remove key file from the list?
- The file will remain intact and you can add it again later.</target>
+        <target state="translated">Odebrat soubor s klíčem ze seznamu?
+Soubor zůstane neporušený a později jej budete moci znovu přidat.</target>
         <note>Message to confirm removal of a key file from the app. (This keeps the file, but removes its reference from the app.)</note>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/AttachmentPreview/details]" xml:space="preserve">
@@ -1803,12 +1838,12 @@ Ujistěte se, že jej máte zálohovaný.</target>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/CustomAppIcon/details]" xml:space="preserve">
         <source>Make KeePassium look unique, familiar, or disguise it as a calculator — the choice is yours.</source>
-        <target state="needs-translation">Make KeePassium look unique, familiar, or disguise it as a calculator — the choice is yours.</target>
+        <target state="translated">Zvolte si pro KeePassium unikátní ikonu nebo ji třeba maskujte jako kalkulačku – volba je na vás.</target>
         <note>Explanation of a premium feature</note>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/CustomAppIcon/title]" xml:space="preserve">
         <source>Change app icon</source>
-        <target state="needs-translation">Change app icon</target>
+        <target state="translated">Změnit ikonu aplikace</target>
         <note>Title of a premium feature</note>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/DatabaseTimeout/details]" xml:space="preserve">
@@ -1823,12 +1858,12 @@ Ujistěte se, že jej máte zálohovaný.</target>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/HardwareKeys/details]" xml:space="preserve">
         <source>Protect your secrets with a hardware key, such as YubiKey.</source>
-        <target state="needs-translation">Protect your secrets with a hardware key, such as YubiKey.</target>
+        <target state="translated">Chraňte svá hesla pomocí hardwarového klíče, jako je YubiKey.</target>
         <note>Explanation of the premium feature</note>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/HardwareKeys/title]" xml:space="preserve">
         <source>Use hardware keys</source>
-        <target state="needs-translation">Use hardware keys</target>
+        <target state="translated">Použijte hardwarové klíče</target>
         <note>Title of a premium feature</note>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/MultiDB/details]" xml:space="preserve">
@@ -1843,62 +1878,67 @@ Ujistěte se, že jej máte zálohovaný.</target>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/Negative/header] " xml:space="preserve">
         <source>What you are missing</source>
-        <target state="needs-translation">What you are missing</target>
+        <target state="translated">Co vám chybí</target>
         <note>List of premium benefits/advantages</note>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/Positive/header] " xml:space="preserve">
         <source>What you get</source>
-        <target state="needs-translation">What you get</target>
+        <target state="translated">Co obdržíte</target>
         <note>List of premium benefits/advantages</note>
       </trans-unit>
       <trans-unit id="[Premium/CallToAction/free]" xml:space="preserve">
         <source>Continue Testing</source>
-        <target state="needs-translation">Continue Testing</target>
+        <target state="translated">Pokračovat v testování</target>
         <note>Call to action: continue using the free version</note>
       </trans-unit>
       <trans-unit id="[Premium/CallToAction/startTrial]" xml:space="preserve">
         <source>Try it free</source>
-        <target state="needs-translation">Try it free</target>
+        <target state="translated">Vyzkoušejte zdarma</target>
         <note>Call to action: start free trial</note>
       </trans-unit>
       <trans-unit id="[Premium/CallToAction/upgradeNow]" xml:space="preserve">
         <source>Upgrade Now</source>
-        <target state="needs-translation">Upgrade Now</target>
+        <target state="translated">Upgradovat nyní</target>
         <note>Call to action: upgrade to premium</note>
+      </trans-unit>
+      <trans-unit id="[Premium/PerpetualLicense/status]" xml:space="preserve">
+        <source>You have a perpetual license for all the versions before %@.</source>
+        <target state="needs-translation">You have a perpetual license for all the versions before %@.</target>
+        <note>[formattedDate: String]</note>
       </trans-unit>
       <trans-unit id="[Premium/Price Plan/Conditions/1 year email support]" xml:space="preserve">
         <source>One year of email support</source>
-        <target state="needs-translation">One year of email support</target>
+        <target state="translated">Jeden rok e-mailové podpory</target>
         <note>What's included in a price plan: 1 year of support via email</note>
       </trans-unit>
       <trans-unit id="[Premium/Price Plan/Conditions/all premium features]" xml:space="preserve">
         <source>All premium features</source>
-        <target state="needs-translation">All premium features</target>
+        <target state="translated">Všechny prémiové funkce</target>
         <note>What's included in a price plan</note>
       </trans-unit>
       <trans-unit id="[Premium/Price Plan/Conditions/community support]" xml:space="preserve">
         <source>Customer support: Online forums</source>
-        <target state="needs-translation">Customer support: Online forums</target>
+        <target state="translated">Zákaznická podpora: online fóra</target>
         <note>What's included in a free plan: support via forums (as opposed to email support)</note>
       </trans-unit>
       <trans-unit id="[Premium/Price Plan/Conditions/current premium features]" xml:space="preserve">
         <source>Current premium features</source>
-        <target state="needs-translation">Current premium features</target>
+        <target state="translated">Současné prémiové funkce</target>
         <note>What's included in a price plan: existing premium features only (as opposed to `current + future`)</note>
       </trans-unit>
       <trans-unit id="[Premium/Price Plan/Conditions/email support]" xml:space="preserve">
         <source>Customer support: Email</source>
-        <target state="needs-translation">Customer support: Email</target>
+        <target state="translated">Zákaznická podpora: e-mail</target>
         <note>What's included in a price plan: support via email</note>
       </trans-unit>
       <trans-unit id="[Premium/Price Plan/Conditions/freemium reminders]" xml:space="preserve">
         <source>Freemium reminders</source>
-        <target state="needs-translation">Freemium reminders</target>
+        <target state="translated">Freemium připomínky</target>
         <note>What's included in a free plan: reminders that the version is free</note>
       </trans-unit>
       <trans-unit id="[Premium/Price Plan/Conditions/future premium features]" xml:space="preserve">
         <source>Future premium features</source>
-        <target state="needs-translation">Future premium features</target>
+        <target state="translated">Budoucí prémiové funkce</target>
         <note>What's included in a price plan: upcoming premium features (as opposed to `current only`)</note>
       </trans-unit>
       <trans-unit id="[Premium/Price Plan/Conditions/perpetual fallback]" xml:space="preserve">
@@ -1908,22 +1948,22 @@ Ujistěte se, že jej máte zálohovaný.</target>
       </trans-unit>
       <trans-unit id="[Premium/Price Plan/Conditions/updates and bug fixes]" xml:space="preserve">
         <source>Updates and bug fixes</source>
-        <target state="needs-translation">Updates and bug fixes</target>
+        <target state="translated">Aktualizace a opravy chyb</target>
         <note>What's included in a price plan</note>
       </trans-unit>
       <trans-unit id="[Premium/Price Plan/Free/price]" xml:space="preserve">
         <source>Free</source>
-        <target state="needs-translation">Free</target>
+        <target state="translated">Zdarma</target>
         <note>Price of the free pricing plan</note>
       </trans-unit>
       <trans-unit id="[Premium/Price Plan/Free/title]" xml:space="preserve">
         <source>Free</source>
-        <target state="needs-translation">Free</target>
+        <target state="translated">Zdarma</target>
         <note>Name of the free pricing plan</note>
       </trans-unit>
       <trans-unit id="[Premium/Price Plan/popular]" xml:space="preserve">
         <source>Popular</source>
-        <target state="needs-translation">Popular</target>
+        <target state="translated">Oblíbené</target>
         <note>Marks the default pricing plan</note>
       </trans-unit>
       <trans-unit id="[Premium/Subscription/Legal/text]" xml:space="preserve">
@@ -1945,7 +1985,7 @@ Své předplatné můžete spravovat v nastavení účtu v App Store.
       </trans-unit>
       <trans-unit id="[Premium/Trial/trial then price]" xml:space="preserve">
         <source>%1$@ free, then %2$@</source>
-        <target state="needs-translation">%1$@ free, then %2$@</target>
+        <target state="translated">%1$@ zdarma, pak %2$@</target>
         <note>Trial conditions. For example `30 days free, then $1 per month`</note>
       </trans-unit>
       <trans-unit id="[Premium/Upgrade/Deferred/text] Thank you! You can use KeePassium while purchase is awaiting approval from a parent" xml:space="preserve">
@@ -2005,13 +2045,18 @@ Své předplatné můžete spravovat v nastavení účtu v App Store.
       </trans-unit>
       <trans-unit id="[Premium/Upgrade/price] around %@ / month" xml:space="preserve">
         <source>≈ %@ / month</source>
-        <target state="needs-translation">≈ %@ / month</target>
+        <target state="translated">≈ %@ / měsíc</target>
         <note>Equivalent monthly price for an annual subscription. For example: `$12/year ≈ $1 / month`</note>
       </trans-unit>
       <trans-unit id="[Premium/Upgrade] Hmm, there are no upgrades available. This should not happen, please contact support." xml:space="preserve">
         <source>Hmm, there are no upgrades available. This should not happen, please contact support.</source>
         <target state="translated">Hmm, není k dispozici žádný upgrade. To by se nemělo stát, prosím kontaktujte podporu.</target>
         <note>Error message: AppStore returned no available in-app purchase options</note>
+      </trans-unit>
+      <trans-unit id="[Premium/perpetualLicense]" xml:space="preserve">
+        <source>Perpetual license</source>
+        <target state="needs-translation">Perpetual license</target>
+        <note>Name of the permanent/never-ending license.</note>
       </trans-unit>
       <trans-unit id="[Premium/status] Beta testing" xml:space="preserve">
         <source>Beta testing</source>
@@ -2040,27 +2085,27 @@ Své předplatné můžete spravovat v nastavení účtu v App Store.
       </trans-unit>
       <trans-unit id="[PremiumFeature/CustomAppIcons/title]" xml:space="preserve">
         <source>Custom App Icons</source>
-        <target state="needs-translation">Custom App Icons</target>
+        <target state="translated">Vlastní ikony aplikace</target>
         <note>Title of a premium feature: ability to change the app icon</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/Generic/description]" xml:space="preserve">
         <source>You have found a premium feature! Upgrade to premium and enjoy KeePassium at its best.</source>
-        <target state="needs-translation">You have found a premium feature! Upgrade to premium and enjoy KeePassium at its best.</target>
+        <target state="translated">Našli jste prémiovou funkci! Upgradujte na Premium a užijte si KeePassium se všemi funkcemi.</target>
         <note>A generic description of a premium feature</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/Generic/title]" xml:space="preserve">
         <source>Premium Feature</source>
-        <target state="needs-translation">Premium Feature</target>
+        <target state="translated">Prémiová funkce</target>
         <note>A generic title of a premium feature</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/HardwareKeys/description]" xml:space="preserve">
         <source>Strengthen your security with hardware keys (YubiKey) in the premium version.</source>
-        <target state="needs-translation">Strengthen your security with hardware keys (YubiKey) in the premium version.</target>
+        <target state="translated">Posilte svou bezpečnost pomocí hardwarových klíčů (YubiKey) v prémiové verzi.</target>
         <note>Description/advertisement for the `Hardware Keys` premium feature</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/HardwareKeys/title] Hardware Keys" xml:space="preserve">
         <source>Hardware Keys</source>
-        <target state="needs-translation">Hardware Keys</target>
+        <target state="translated">Hardwarové klíče</target>
         <note>Title of a premium feature: ability use hardware keys (e.g. YubiKey) for encryption (In Title Case)</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/LongDBTimeouts/description] Save time entering your complex master passwords — keep your database open longer in the premium version." xml:space="preserve">
@@ -2185,22 +2230,22 @@ Své předplatné můžete spravovat v nastavení účtu v App Store.
       </trans-unit>
       <trans-unit id="[YubiKey] Don't use YubiKey" xml:space="preserve">
         <source>Without YubiKey</source>
-        <target state="needs-translation">Without YubiKey</target>
+        <target state="translated">Bez YubiKey</target>
         <note>Selector choice: don't use YubiKey to encrypt/decrypt database</note>
       </trans-unit>
       <trans-unit id="[YubiKey] Insert the key" xml:space="preserve">
         <source>Insert the key</source>
-        <target state="needs-translation">Insert the key</target>
+        <target state="translated">Vložte klíč</target>
         <note>Call for action: insert YubiKey 5Ci to the Lightning port</note>
       </trans-unit>
       <trans-unit id="[YubiKey] Touch the key" xml:space="preserve">
         <source>Touch the key</source>
-        <target state="needs-translation">Touch the key</target>
+        <target state="translated">Dotkněte se klíče</target>
         <note>Call for action: touch the sides of YubiKey 5Ci to continue</note>
       </trans-unit>
       <trans-unit id="[YubiKey] Use YubiKey Slot %d" xml:space="preserve">
         <source>Use YubiKey Slot %d</source>
-        <target state="needs-translation">Use YubiKey Slot %d</target>
+        <target state="translated">Použít YubiKey slot %d</target>
         <note>Selector choice: use YubiKey to encrypt/decrypt database. For example: `Use YubiKey Slot 1`. [slotID: Int]</note>
       </trans-unit>
     </body>
@@ -2297,7 +2342,7 @@ Své předplatné můžete spravovat v nastavení účtu v App Store.
       </trans-unit>
       <trans-unit id="OaP-Bl-5vR.text" xml:space="preserve">
         <source>TPInAppReceipt by Pavel Tikhonenko</source>
-        <target state="needs-translation">TPInAppReceipt by Pavel Tikhonenko</target>
+        <target state="translated">TPInAppReceipt by Pavel Tikhonenko</target>
         <note>Class = "UILabel"; text = "TPInAppReceipt by Pavel Tikhonenko"; ObjectID = "OaP-Bl-5vR";</note>
       </trans-unit>
       <trans-unit id="QV5-N8-NRt.text" xml:space="preserve">
@@ -2332,7 +2377,7 @@ Své předplatné můžete spravovat v nastavení účtu v App Store.
       </trans-unit>
       <trans-unit id="Xee-Y1-Dcw.text" xml:space="preserve">
         <source>Yubico Mobile iOS SDK by Yubico AB</source>
-        <target state="needs-translation">Yubico Mobile iOS SDK by Yubico AB</target>
+        <target state="translated">Yubico Mobile iOS SDK od Yubico AB</target>
         <note>Class = "UILabel"; text = "Yubico Mobile iOS SDK by Yubico AB"; ObjectID = "Xee-Y1-Dcw";</note>
       </trans-unit>
       <trans-unit id="aqX-J9-IzD.text" xml:space="preserve">
@@ -2377,7 +2422,7 @@ Své předplatné můžete spravovat v nastavení účtu v App Store.
       </trans-unit>
       <trans-unit id="ht7-pj-Dbb.text" xml:space="preserve">
         <source>Apache 2.0 license</source>
-        <target state="needs-translation">Apache 2.0 license</target>
+        <target state="translated">Licence Apache 2.0</target>
         <note>Class = "UILabel"; text = "Apache 2.0 license"; ObjectID = "ht7-pj-Dbb";</note>
       </trans-unit>
       <trans-unit id="iKy-z5-Ox7.text" xml:space="preserve">
@@ -2561,7 +2606,7 @@ Můžete mít více databází, například pro oddělení pracovních, rodinný
       </trans-unit>
       <trans-unit id="NSz-U1-2ye.normalTitle" xml:space="preserve">
         <source>Terms and Conditions</source>
-        <target state="needs-translation">Terms and Conditions</target>
+        <target state="translated">Podmínky užití</target>
         <note>Class = "UIButton"; normalTitle = "Terms and Conditions"; ObjectID = "NSz-U1-2ye";</note>
       </trans-unit>
       <trans-unit id="fC2-en-cOo.normalTitle" xml:space="preserve">
@@ -2571,7 +2616,7 @@ Můžete mít více databází, například pro oddělení pracovních, rodinný
       </trans-unit>
       <trans-unit id="j7c-Gd-QEh.normalTitle" xml:space="preserve">
         <source>Already purchased?</source>
-        <target state="needs-translation">Already purchased?</target>
+        <target state="translated">Už jste si koupili?</target>
         <note>Class = "UIButton"; normalTitle = "Already purchased?"; ObjectID = "j7c-Gd-QEh";</note>
       </trans-unit>
     </body>
@@ -2667,7 +2712,7 @@ Můžete mít více databází, například pro oddělení pracovních, rodinný
       </trans-unit>
       <trans-unit id="WDb-aU-Mmf.text" xml:space="preserve">
         <source>Fill-in the perfect result automatically</source>
-        <target state="needs-translation">Fill-in the perfect result automatically</target>
+        <target state="translated">Vyplnit přesné výsledky automaticky</target>
         <note>Class = "UILabel"; text = "Fill-in the perfect result automatically"; ObjectID = "WDb-aU-Mmf"; Note = "Title of an option: copy one-time password to clipboard when using AutoFill";</note>
       </trans-unit>
       <trans-unit id="X2u-c9-gwU.text" xml:space="preserve">
@@ -2702,12 +2747,12 @@ Můžete mít více databází, například pro oddělení pracovních, rodinný
       </trans-unit>
       <trans-unit id="jYl-ks-dFG.footerTitle" xml:space="preserve">
         <source>When AutoFill finds only one, perfectly matching, entry – this entry will be pasted automatically.</source>
-        <target state="needs-translation">When AutoFill finds only one, perfectly matching, entry – this entry will be pasted automatically.</target>
+        <target state="translated">Když bude nalezen pouze jeden, přesně odpovídající záznam, tak se tento záznam vloží automaticky.</target>
         <note>Class = "UITableViewSection"; footerTitle = "When AutoFill finds only one, perfectly matching, entry – this entry will be pasted automatically."; ObjectID = "jYl-ks-dFG";</note>
       </trans-unit>
       <trans-unit id="jYl-ks-dFG.headerTitle" xml:space="preserve">
         <source>Automatic search</source>
-        <target state="needs-translation">Automatic search</target>
+        <target state="translated">Automatické vyhledávání</target>
         <note>Class = "UITableViewSection"; headerTitle = "Automatic search"; ObjectID = "jYl-ks-dFG";</note>
       </trans-unit>
       <trans-unit id="r0b-qe-g8J.headerTitle" xml:space="preserve">
@@ -2856,7 +2901,7 @@ Můžete mít více databází, například pro oddělení pracovních, rodinný
       </trans-unit>
       <trans-unit id="YL6-U9-FM6.text" xml:space="preserve">
         <source>Universal Clipboard</source>
-        <target state="needs-translation">Universal Clipboard</target>
+        <target state="translated">Univerzální schránka</target>
         <note>Class = "UILabel"; text = "Universal Clipboard"; ObjectID = "YL6-U9-FM6";</note>
       </trans-unit>
       <trans-unit id="e1v-nv-Mst.normalTitle" xml:space="preserve">
@@ -2866,22 +2911,22 @@ Můžete mít více databází, například pro oddělení pracovních, rodinný
       </trans-unit>
       <trans-unit id="e6Y-AP-hag.footerTitle" xml:space="preserve">
         <source>Hide passwords and other protected fields behind asterisks (recommended).</source>
-        <target state="needs-translation">Hide passwords and other protected fields behind asterisks (recommended).</target>
+        <target state="translated">Skrýt hesla a další chráněná pole hvězdičkami (doporučeno).</target>
         <note>Class = "UITableViewSection"; footerTitle = "Hide passwords and other protected fields behind asterisks (recommended)."; ObjectID = "e6Y-AP-hag";</note>
       </trans-unit>
       <trans-unit id="e6Y-AP-hag.headerTitle" xml:space="preserve">
         <source>Protected Fields</source>
-        <target state="needs-translation">Protected Fields</target>
+        <target state="translated">Chráněná pole</target>
         <note>Class = "UITableViewSection"; headerTitle = "Protected Fields"; ObjectID = "e6Y-AP-hag";</note>
       </trans-unit>
       <trans-unit id="g9a-rJ-4WJ.footerTitle" xml:space="preserve">
-        <source>Use Universal Clipboard to copy and paste between your Apple devices.</source>
-        <target state="needs-translation">Use Universal Clipboard to copy and paste between your Apple devices.</target>
-        <note>Class = "UITableViewSection"; footerTitle = "Use Universal Clipboard to copy and paste between your Apple devices."; ObjectID = "g9a-rJ-4WJ";</note>
+        <source>Use Universal Clipboard to copy and paste between your Apple devices. On external devices, this clipboard is cleared after two minutes.</source>
+        <target state="needs-translation">Use Universal Clipboard to copy and paste between your Apple devices. On external devices, this clipboard is cleared after two minutes.</target>
+        <note>Class = "UITableViewSection"; footerTitle = "Use Universal Clipboard to copy and paste between your Apple devices. On external devices, this clipboard is cleared after two minutes."; ObjectID = "g9a-rJ-4WJ";</note>
       </trans-unit>
       <trans-unit id="gTm-F6-EDQ.text" xml:space="preserve">
         <source>Clear Master Keys on Timeout</source>
-        <target state="needs-translation">Clear Master Keys on Timeout</target>
+        <target state="translated">Vymazat hlavní klíče při vypršení časového limitu</target>
         <note>Class = "UILabel"; text = "Clear Master Keys on Timeout"; ObjectID = "gTm-F6-EDQ";</note>
       </trans-unit>
       <trans-unit id="hnI-Q8-Ixm.footerTitle" xml:space="preserve">
@@ -2906,7 +2951,7 @@ Můžete mít více databází, například pro oddělení pracovních, rodinný
       </trans-unit>
       <trans-unit id="pid-k2-idJ.text" xml:space="preserve">
         <source>Hide Passwords</source>
-        <target state="needs-translation">Hide Passwords</target>
+        <target state="translated">Skrýt hesla</target>
         <note>Class = "UILabel"; text = "Hide Passwords"; ObjectID = "pid-k2-idJ";</note>
       </trans-unit>
       <trans-unit id="weX-SZ-IDB.text" xml:space="preserve">
@@ -2952,32 +2997,32 @@ Můžete mít více databází, například pro oddělení pracovních, rodinný
     <body>
       <trans-unit id="DJr-hC-DMT.footerTitle" xml:space="preserve">
         <source>After opening a database, automatically show the search field.</source>
-        <target state="needs-translation">After opening a database, automatically show the search field.</target>
+        <target state="translated">Vyhledávací pole se automaticky zobrazí po otevření databáze.</target>
         <note>Class = "UITableViewSection"; footerTitle = "After opening a database, automatically show the search field."; ObjectID = "DJr-hC-DMT"; Note = "A section in search-related settings: what happens when the app is just started or database is just opened.";</note>
       </trans-unit>
       <trans-unit id="Io8-uP-3lF.headerTitle" xml:space="preserve">
         <source>Search Scope</source>
-        <target state="needs-translation">Search Scope</target>
+        <target state="translated">Rozsah vyhledávání</target>
         <note>Class = "UITableViewSection"; headerTitle = "Search Scope"; ObjectID = "Io8-uP-3lF"; Note = "A section in search-related settings: which fields to include in search.";</note>
       </trans-unit>
       <trans-unit id="LrQ-5g-wj0.text" xml:space="preserve">
         <source>Search in Protected Values</source>
-        <target state="needs-translation">Search in Protected Values</target>
+        <target state="translated">Hledat v hodnotách s ochranou</target>
         <note>Class = "UILabel"; text = "Search in Protected Values"; ObjectID = "LrQ-5g-wj0"; Note = "An switch in settings: whether to include protected field values in search procedure.";</note>
       </trans-unit>
       <trans-unit id="RZt-EW-TGN.title" xml:space="preserve">
         <source>Search</source>
-        <target state="needs-translation">Search</target>
+        <target state="translated">Vyhledávání</target>
         <note>Class = "UITableViewController"; title = "Search"; ObjectID = "RZt-EW-TGN"; Note = "Section title in settings";</note>
       </trans-unit>
       <trans-unit id="cCm-E4-L3m.text" xml:space="preserve">
         <source>Search in Field Names</source>
-        <target state="needs-translation">Search in Field Names</target>
+        <target state="translated">Prohledávat názvy polí</target>
         <note>Class = "UILabel"; text = "Search in Field Names"; ObjectID = "cCm-E4-L3m"; Note = "An switch in settings: whether to include entry field names in search procedure.";</note>
       </trans-unit>
       <trans-unit id="q0v-f7-D4Y.text" xml:space="preserve">
         <source>Start with Search</source>
-        <target state="needs-translation">Start with Search</target>
+        <target state="translated">Začít s vyhledáváním</target>
         <note>Class = "UILabel"; text = "Start with Search"; ObjectID = "q0v-f7-D4Y";</note>
       </trans-unit>
     </body>
@@ -2989,12 +3034,12 @@ Můžete mít více databází, například pro oddělení pracovních, rodinný
     <body>
       <trans-unit id="9yn-W3-FDl.headerTitle" xml:space="preserve">
         <source>Start</source>
-        <target state="needs-translation">Start</target>
+        <target state="translated">Po spuštění</target>
         <note>Class = "UITableViewSection"; headerTitle = "Start"; ObjectID = "9yn-W3-FDl"; Note = "Section in settings: settings that define what happens when the app is started.";</note>
       </trans-unit>
       <trans-unit id="756-sL-G2t.text" xml:space="preserve">
         <source>Auto-open the Previous Database</source>
-        <target state="needs-translation">Auto-open the Previous Database</target>
+        <target state="translated">Automaticky načíst minule otevřenou databázi</target>
         <note>Class = "UILabel"; text = "Auto-open the Previous Database"; ObjectID = "756-sL-G2t"; Note = "Option in settings: whether to open the last used database automatically on start.";</note>
       </trans-unit>
       <trans-unit id="A5N-B3-t3t.headerTitle" xml:space="preserve">
@@ -3019,7 +3064,7 @@ Můžete mít více databází, například pro oddělení pracovních, rodinný
       </trans-unit>
       <trans-unit id="GLr-Uf-Kln.text" xml:space="preserve">
         <source>Search</source>
-        <target state="needs-translation">Search</target>
+        <target state="translated">Vyhledávání</target>
         <note>Class = "UILabel"; text = "Search"; ObjectID = "GLr-Uf-Kln"; Note = "Section title in settings";</note>
       </trans-unit>
       <trans-unit id="HCe-A3-eG6.text" xml:space="preserve">
@@ -3052,14 +3097,19 @@ Můžete mít více databází, například pro oddělení pracovních, rodinný
         <target state="translated">Návrhy? Problémy? Dejte nám vědět!</target>
         <note>Class = "UILabel"; text = "Suggestions? Problems? Let us know!"; ObjectID = "RNK-fS-Fvx"; Note = "Subtitle for `Contact Us`. Keep it short.";</note>
       </trans-unit>
+      <trans-unit id="RlK-RW-8Ld.text" xml:space="preserve">
+        <source>What's New</source>
+        <target state="translated">Novinky</target>
+        <note>Class = "UILabel"; text = "What's New"; ObjectID = "RlK-RW-8Ld"; Note = "Action: open app history page (change log)";</note>
+      </trans-unit>
       <trans-unit id="T2Z-oa-zJR.text" xml:space="preserve">
         <source>AutoFill Passwords</source>
-        <target state="translated">Automatické vyplňování</target>
+        <target state="translated">Vyplňování hesel</target>
         <note>Class = "UILabel"; text = "AutoFill Passwords"; ObjectID = "T2Z-oa-zJR";</note>
       </trans-unit>
       <trans-unit id="TUE-Aw-fJl.text" xml:space="preserve">
         <source>App Icon</source>
-        <target state="needs-translation">App Icon</target>
+        <target state="translated">Ikona aplikace</target>
         <note>Class = "UILabel"; text = "App Icon"; ObjectID = "TUE-Aw-fJl"; Note = "Section in settings: icon for the app";</note>
       </trans-unit>
       <trans-unit id="UNl-Hc-Ref.text" xml:space="preserve">
