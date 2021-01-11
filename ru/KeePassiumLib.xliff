@@ -37,9 +37,9 @@
         <target state="translated">Аппаратный ключ не подключён.</target>
         <note>Error message when the hardware key is not plugged in.</note>
       </trans-unit>
-      <trans-unit id="[ChallengeResponseError] notAvailableInAutoFill" xml:space="preserve">
+      <trans-unit id="[ChallengeResponseError] notAvailableInAutoFill" xml:space="preserve" approved="yes">
         <source>Hardware keys are not available in AutoFill.</source>
-        <target state="translated">Аппаратные ключи не доступны в Автозаполнении.</target>
+        <target state="final">Аппаратные ключи недоступны в Автозаполнении.</target>
         <note>Error message when trying to use challenge-response hardware in AutoFill.</note>
       </trans-unit>
       <trans-unit id="[ChallengeResponseError] notSupportedByDatabaseFormat" xml:space="preserve">
@@ -129,7 +129,7 @@
       </trans-unit>
       <trans-unit id="[Database/Load/Error] Please provide at least a password or a key file" xml:space="preserve" approved="yes">
         <source>Please provide at least a password or a key file</source>
-        <target state="final">Пожалуйста укажите пароль или ключевой файл</target>
+        <target state="final">Укажите пароль или ключевой файл</target>
         <note>Error shown when both master password and key file are empty</note>
       </trans-unit>
       <trans-unit id="[Database/Load/Error] Unrecognized database format" xml:space="preserve" approved="yes">
@@ -234,7 +234,7 @@
       </trans-unit>
       <trans-unit id="[Database2/FormatError] Corrupted database file (block %d has negative size)" xml:space="preserve" approved="yes">
         <source>Corrupted database file (block %d has negative size)</source>
-        <target state="final">Файл с базой паролей повреждён (блок %d имеет отрицательный размер)</target>
+        <target state="final">Файл с базой паролей повреждён (у блока %d отрицательный размер)</target>
         <note>Error message [blockIndex: Int]</note>
       </trans-unit>
       <trans-unit id="[Database2/FormatError] Corrupted database file (hash mismatch in block %d)" xml:space="preserve" approved="yes">
@@ -289,7 +289,7 @@
       </trans-unit>
       <trans-unit id="[Database2/Header2/Error] Unsupported KDF: %@" xml:space="preserve" approved="yes">
         <source>Unsupported KDF: %@</source>
-        <target state="final">Незнакомая функция формирования ключа (KDF): %@</target>
+        <target state="final">Неподдерживаемая функция формирования ключа (KDF): %@</target>
         <note>Error message about Key Derivation Function. [uuidString: String]</note>
       </trans-unit>
       <trans-unit id="[Database2/Header2/Error] Unsupported data cipher: %@" xml:space="preserve" approved="yes">
@@ -321,7 +321,7 @@
         <source>Attachments of some entries are missing data. This is a sign of database corruption, most likely by the last used app (%1$@). KeePassium will preserve the empty attachments, but cannot restore them. You should restore your database from a backup copy. 
 
 Missing attachments: %2$@</source>
-        <target state="final">Прикреплённые файлы в некоторых записях не имеют содержимого. Это признак повреждения базы паролей, возможно последним использованным приложением (%1$@). KeePassium оставит эти пустые прикреплённые файлы, но не может восстановить их. Советуем восстановить базу из резервной копии.
+        <target state="final">Прикреплённые файлы в некоторых записях не имеют содержимого. Это признак повреждения базы паролей, возможно, последним использованным приложением (%1$@). KeePassium оставит эти пустые прикреплённые файлы, но не сможет восстановить их. Советуем восстановить базу из резервной копии.
 
 Отсутствующие прикреплённые файлы: %2$@</target>
         <note>A warning about missing attachments after loading the database. [lastUsedAppName: String, attachmentNames: String]</note>
@@ -458,9 +458,9 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="translated">Сетевое хранилище не подключено.</target>
         <note>Error message: the required network drive is not connected.</note>
       </trans-unit>
-      <trans-unit id="[FileAccessError/FileProvider/NotFound/usbDrive]" xml:space="preserve">
+      <trans-unit id="[FileAccessError/FileProvider/NotFound/usbDrive]" xml:space="preserve" approved="yes">
         <source>USB drive is disconnected.</source>
-        <target state="translated">USB-накопитель не подключен.</target>
+        <target state="final">USB-накопитель не подключён.</target>
         <note>Error message: there is no USB drive connected to the device.</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/NoResponse/genericFileProvider]" xml:space="preserve">
@@ -568,19 +568,19 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="translated">Resilio Sync</target>
         <note>Localized name of the storage service: Resilio Sync (https://https://apps.apple.com/us/app/id1126282325)</note>
       </trans-unit>
-      <trans-unit id="[FileProvider/SMB/name]" xml:space="preserve">
+      <trans-unit id="[FileProvider/SMB/name]" xml:space="preserve" approved="yes">
         <source>SMB server</source>
-        <target state="translated">SMB сервер</target>
+        <target state="final">SMB-сервер</target>
         <note>Localized name of the storage service: SMB server (network share) via native iOS integration.</note>
       </trans-unit>
-      <trans-unit id="[FileProvider/Synology DS file/name]" xml:space="preserve">
+      <trans-unit id="[FileProvider/Synology DS file/name]" xml:space="preserve" approved="yes">
         <source>Synology DS file</source>
-        <target state="translated">Synology DS file</target>
+        <target state="final">Synology DS file</target>
         <note>Localized name of the storage service: Synology DS file (https://apps.apple.com/us/app/ds-file/id416751772)</note>
       </trans-unit>
-      <trans-unit id="[FileProvider/Synology Drive/name]" xml:space="preserve">
+      <trans-unit id="[FileProvider/Synology Drive/name]" xml:space="preserve" approved="yes">
         <source>Synology Drive</source>
-        <target state="translated">Synology Drive</target>
+        <target state="final">Synology Drive</target>
         <note>Localized name of the storage service: Synology Drive (https://apps.apple.com/us/app/synology-drive/id1267275421)</note>
       </trans-unit>
       <trans-unit id="[FileProvider/Tresorit/name]" xml:space="preserve">
@@ -706,7 +706,7 @@ Please make sure to have a backup of your database before changing anything.</so
       <trans-unit id="[Progress/CancellationReason/lowMemory]" xml:space="preserve" approved="yes">
         <source>Not enough memory to continue.
 This can happen with larger databases or too ambitious database settings (Argon2 memory parameter).</source>
-        <target state="final">Не хватило памяти.
+        <target state="final">Недостаточно памяти.
 Возможно, база слишком велика или требует очень много памяти (для Argon2).</target>
         <note>Error message when a long-running operation was cancelled due to the lack of free memory (RAM).</note>
       </trans-unit>

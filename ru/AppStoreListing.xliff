@@ -5,7 +5,7 @@
       <trans-unit id="Title" maxwidth="30" approved="yes">
         <source>KeePassium Password Manager</source>
         <note>Please keep `KeePassium` as the first word. If this is difficult with the natural word order, feel free to use punctuation, for example: "KeePassium - Password Manager"</note>
-        <target state="final">KeePassium - Менеджер Паролей</target>
+        <target state="final">KeePassium - менеджер паролей</target>
       </trans-unit>
       <trans-unit id="Subtitle 1" maxwidth="30" approved="yes">
         <source>Respects your privacy</source>
@@ -15,7 +15,7 @@
       <trans-unit id="Description/Intro" approved="yes">
         <source>KeePassium keeps your passwords safe. It delivers the security of KeePass databases with a clean, easy to use interface.</source>
         <note/>
-        <target state="final">KeePassium защищает ваши пароли, совмещая надёжность KeePass'а и продуманный современный интерфейс.</target>
+        <target state="final">KeePassium защищает ваши пароли, совмещая надёжность KeePass и продуманный современный интерфейс.</target>
       </trans-unit>
       <trans-unit id="Description/MainFeatures/title" approved="yes">
         <source>MAIN FEATURES</source>
@@ -50,8 +50,8 @@
 • No ads</source>
         <note>Please keep the bullet points (followed by one space)</note>
         <target state="final">• Нет встроенного браузера
-• Нет VNC/SSH клиента
-• Не делает кофе
+• Нет VNC/SSH-клиента
+• Нет кофеварки
 • Нет аналитики
 • Нет рекламы</target>
       </trans-unit>
@@ -77,9 +77,9 @@ There is no setup: pick your database through the familiar Files interface — a
 
 Should a password manager have full access to your corporate file server? Of course not! All the networking is automatically performed by the original storage provider app. This way, KeePassium knows only about few specific databases, not your whole server.</source>
         <note>Please keep the bullet points (followed by one space)</note>
-        <target state="final">KeePassium может работать как оффлайн, так и с вашим онлайн-хранилищем файлов. 
+        <target state="final">KeePassium может работать как автономно, так и с облачными хранилищами файлов. 
 
-Никакой настройки не требуется: просто выберите файл своей базы паролей — и всё. KeePassium работает с системным приложением Файлы, и таким образом поддерживает почти все онлайн-хранилища. В частности:
+Никакой настройки не требуется: просто выберите файл своей базы паролей — и всё. KeePassium работает с системным приложением "Файлы" и, таким образом, поддерживает почти все онлайн-хранилища. В частности:
 
 • iCloud Drive
 • OneDrive
@@ -91,7 +91,7 @@ Should a password manager have full access to your corporate file server? Of cou
 • WebDAV и SFTP (через другое приложение)
 • ...и другие!
 
-Нужен ли менеджеру паролей полный доступ к вашему корпоративному серверу? Конечно нет! Вся работа с сетью возложена на родное приложение онлайн-хранилища. Таким образом, KeePassium имеет доступ только к нескольким базам, и ничего не знает о других файлах на сервере.</target>
+Нужен ли менеджеру паролей полный доступ к вашему корпоративному серверу? Конечно нет! Вся работа с сетью возложена на родное приложение онлайн-хранилища. Таким образом, KeePassium имеет доступ только к нескольким базам и ничего не знает о других файлах на сервере.</target>
       </trans-unit>
       <trans-unit id="Description/More/title" approved="yes">
         <source>WHAT ELSE CAN IT DO?</source>
@@ -107,12 +107,12 @@ Should a password manager have full access to your corporate file server? Of cou
 • View custom icons
 • And more! See for yourself, it's free.</source>
         <note>Please keep the bullet points (followed by one space)</note>
-        <target state="final">• Читать и писать все форматы KeePass (kdb, kdbx3, kdbx4 — включая Argon2/ChaCha20)
+        <target state="final">• Читать и записывать файлы всех форматов KeePass (kdb, kdbx3, kdbx4 — включая Argon2/ChaCha20)
 • Показывать одноразовые пароли (TOTP)
 • Показывать удалённые группы и записи (Корзина)
 • Показывать предыдущие версии записей
 • Показывать и изменять дополнительные поля
-• Показывать нестандартные иконки
+• Показывать нестандартные значки
 • И многое другое! Посмотрите сами, это бесплатно.</target>
       </trans-unit>
       <trans-unit id="Description/Privacy/title" approved="yes">
@@ -137,7 +137,7 @@ Should a password manager have full access to your corporate file server? Of cou
 • Responsive support that cares
 • Future updates and improvements</source>
         <note>Please keep the bullet points (followed by one space)</note>
-        <target state="final">KeePassium — коммерческое приложение с открытым исходным кодом. Доступность исходных кодов даёт вам открытость и прозрачность, необходимую для менеджера паролей. В свою очередь, "коммерческая" часть даёт вам:
+        <target state="final">KeePassium — коммерческое приложение с открытым исходным кодом. Доступность исходных кодов — это открытость и прозрачность, необходимые для менеджера паролей. В свою очередь, "коммерческая" часть даёт вам:
 
 • Отличный продуманный интерфейс
 • Отзывчивую поддержку
@@ -174,7 +174,7 @@ With the premium version, you can:
       <trans-unit id="Description/Contact/text" approved="yes">
         <source>Talk to us at info@keepassium.com, /r/KeePassium on Reddit, @KeePassium on Twitter and GitHub.</source>
         <note/>
-        <target state="final">Пишите нам: info@keepassium.com, r/KeePassium на Reddit'е, @KeePassium в Твиттере.</target>
+        <target state="final">Пишите нам: info@keepassium.com, r/KeePassium на Reddit, @KeePassium в Твиттере.</target>
       </trans-unit>
       <trans-unit id="Description/Footer/text" approved="yes">
         <source>* Premium version is available as an in-app purchase, either as a subscription or a one-time payment. 

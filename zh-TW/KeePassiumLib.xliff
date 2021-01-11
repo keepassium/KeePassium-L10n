@@ -139,17 +139,17 @@
       </trans-unit>
       <trans-unit id="[Database/Progress/downloading]" xml:space="preserve">
         <source>Downloading database file...</source>
-        <target state="needs-translation">Downloading database file...</target>
+        <target state="translated">下載資料庫檔案...</target>
         <note>Database loading status: fetching the database file from disk/cloud</note>
       </trans-unit>
       <trans-unit id="[Database/Progress/makingDatabaseBackup]" xml:space="preserve">
         <source>Making backup copy...</source>
-        <target state="needs-translation">Making backup copy...</target>
+        <target state="translated">製作備份副本...</target>
         <note>Database saving status: making a local backup copy of the database</note>
       </trans-unit>
       <trans-unit id="[Database/Progress/resolving]" xml:space="preserve">
         <source>Contacting storage provider...</source>
-        <target state="needs-translation">Contacting storage provider...</target>
+        <target state="translated">正在請求空間提供商...</target>
         <note>Progress status</note>
       </trans-unit>
       <trans-unit id="[Database/Progress] Done" xml:space="preserve">
@@ -179,7 +179,7 @@
       </trans-unit>
       <trans-unit id="[Database1/FormatError] Error parsing field %@. Corrupted database file?" xml:space="preserve">
         <source>Error parsing field %@. Corrupted database file?</source>
-        <target state="translated">解析 %@ 字段錯誤。資料庫檔案損壞?</target>
+        <target state="translated">解析 %@ 欄位錯誤。資料庫檔案損壞?</target>
         <note>Error message [fieldName: String]</note>
       </trans-unit>
       <trans-unit id="[Database1/FormatError] Found an entry outside any group. Corrupted DB file?" xml:space="preserve">
@@ -269,7 +269,7 @@
       </trans-unit>
       <trans-unit id="[Database2/Header2/Error] Header field %@ is corrupted." xml:space="preserve">
         <source>Header field %@ is corrupted.</source>
-        <target state="translated">標頭字段 %@ 已損壞。</target>
+        <target state="translated">標頭欄位 %@ 已損壞。</target>
         <note>Error message, with the name of problematic field. [fieldName: String]</note>
       </trans-unit>
       <trans-unit id="[Database2/Header2/Error] Header hash mismatch. DB file corrupt?" xml:space="preserve">
@@ -341,7 +341,7 @@ Missing attachments: %2$@</source>
         <source>Some entries have custom field(s) with empty names. This can be a sign of data corruption. Please check these entries:
 
 %@</source>
-        <target state="translated">某些條目具有空名稱的自定義字段。這是資料庫早期損壞的跡象。請檢查以下條目：
+        <target state="translated">某些條目具有空名稱的自定義欄位。這是資料庫早期損壞的跡象。請檢查以下條目：
 
 %@</target>
         <note>A warning about misformatted custom fields after loading the database. [entryPaths: String]</note>
@@ -355,17 +355,17 @@ Please make sure to have a backup of your database before changing anything.</so
       </trans-unit>
       <trans-unit id="[Database2/Progress/decompressing]" xml:space="preserve">
         <source>Decompressing database</source>
-        <target state="needs-translation">Decompressing database</target>
+        <target state="translated">解壓縮資料庫</target>
         <note>Progress bar status: un-zipping the database content</note>
       </trans-unit>
       <trans-unit id="[Database2/Progress/integrityCheck]" xml:space="preserve">
         <source>Checking integrity</source>
-        <target state="needs-translation">Checking integrity</target>
+        <target state="translated">完整性檢查</target>
         <note>Progress bar status</note>
       </trans-unit>
       <trans-unit id="[Database2/Progress/parsingXML]" xml:space="preserve">
         <source>Parsing database</source>
-        <target state="needs-translation">Parsing database</target>
+        <target state="translated">解析資料庫</target>
         <note>Progress bar status: parsing decrypted XML content</note>
       </trans-unit>
       <trans-unit id="[Database2/Progress] Loading database" xml:space="preserve">
@@ -445,47 +445,47 @@ Please make sure to have a backup of your database before changing anything.</so
       </trans-unit>
       <trans-unit id="[FileAccessError/FileProvider/NotFound/generic]" xml:space="preserve">
         <source>Storage provider is not available. Please check whether it is installed and logged in to your account.</source>
-        <target state="needs-translation">Storage provider is not available. Please check whether it is installed and logged in to your account.</target>
+        <target state="translated">儲存空間提供商不可用，請確認是否安裝並登入帳號。</target>
         <note>Error message: storage provider app was logged out or uninstalled.</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/FileProvider/NotFound/other]" xml:space="preserve">
         <source>%@ is not available. Please check whether it is installed and logged in to your account.</source>
-        <target state="needs-translation">%@ is not available. Please check whether it is installed and logged in to your account.</target>
+        <target state="translated">%@ 不可用，請確認是否安裝並登入帳號。</target>
         <note>Error message: storage provider app was logged out or uninstalled [fileProviderName: String].</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/FileProvider/NotFound/smbShare]" xml:space="preserve">
         <source>Network storage is disconnected.</source>
-        <target state="needs-translation">Network storage is disconnected.</target>
+        <target state="translated">網路儲存空間已斷開連接。</target>
         <note>Error message: the required network drive is not connected.</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/FileProvider/NotFound/usbDrive]" xml:space="preserve">
         <source>USB drive is disconnected.</source>
-        <target state="needs-translation">USB drive is disconnected.</target>
+        <target state="translated">USB 隨身碟已斷開連接。</target>
         <note>Error message: there is no USB drive connected to the device.</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/NoResponse/genericFileProvider]" xml:space="preserve">
         <source>Storage provider does not respond.</source>
-        <target state="needs-translation">Storage provider does not respond.</target>
+        <target state="translated">儲存空間提供商沒有回應。</target>
         <note>Error message: storage provider app (e.g. Google Drive) does not respond to requests.</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/NoResponse/knownFileProvider]" xml:space="preserve">
         <source>%@ does not respond.</source>
-        <target state="needs-translation">%@ does not respond.</target>
+        <target state="translated">%@ 沒有回應。</target>
         <note>Error message: file provider does not respond to requests. For example: `Google Drive does not respond.`</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/Timeout/genericFileProvider]" xml:space="preserve">
         <source>Storage provider does not respond.</source>
-        <target state="needs-translation">Storage provider does not respond.</target>
+        <target state="translated">儲存空間提供商沒有回應。</target>
         <note>Error message: storage provider app (e.g. Google Drive) does not respond to requests (quickly enough).</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/Timeout/knownFileProvider]" xml:space="preserve">
         <source>%@ does not respond.</source>
-        <target state="needs-translation">%@ does not respond.</target>
+        <target state="translated">%@ 沒有回應。</target>
         <note>Error message: file provider does not respond to requests (quickly enough). For example: `Google Drive does not respond`</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/internalError]" xml:space="preserve">
         <source>Internal KeePassium error, please tell us about it.</source>
-        <target state="needs-translation">Internal KeePassium error, please tell us about it.</target>
+        <target state="translated">KeePassium 內部錯誤，請告知我們。</target>
         <note>Error message shown when there's internal inconsistency in KeePassium.</note>
       </trans-unit>
       <trans-unit id="[FileKeeper] Failed to delete file. Reason: %@" xml:space="preserve">
@@ -510,112 +510,112 @@ Please make sure to have a backup of your database before changing anything.</so
       </trans-unit>
       <trans-unit id="[FileProvider/Amerigo/name]" xml:space="preserve">
         <source>Amerigo</source>
-        <target state="needs-translation">Amerigo</target>
+        <target state="translated">Amerigo</target>
         <note>Localized name of the storage service: Amerigo (https://www.amerigo-app.com)</note>
       </trans-unit>
       <trans-unit id="[FileProvider/Box/name]" xml:space="preserve">
         <source>Box</source>
-        <target state="needs-translation">Box</target>
+        <target state="translated">Box</target>
         <note>Localized name of the storage service: Box (https://box.com)</note>
       </trans-unit>
       <trans-unit id="[FileProvider/Boxcryptor/name]" xml:space="preserve">
         <source>Boxcryptor</source>
-        <target state="needs-translation">Boxcryptor</target>
+        <target state="translated">Boxcryptor</target>
         <note>Localized name of the storage service: Boxcryptor (https://boxcryptor.com)</note>
       </trans-unit>
       <trans-unit id="[FileProvider/Dropbox/name]" xml:space="preserve">
         <source>Dropbox</source>
-        <target state="needs-translation">Dropbox</target>
+        <target state="translated">Dropbox</target>
         <note>Localized name of the storage service: Dropbox (https://dropbox.com)</note>
       </trans-unit>
       <trans-unit id="[FileProvider/FE File Explorer/name]" xml:space="preserve">
         <source>FE File Explorer</source>
-        <target state="needs-translation">FE File Explorer</target>
+        <target state="translated">FE File Explorer</target>
         <note>Localized name of the storage service: FE File Explorer (https://apps.apple.com/app/fe-file-explorer-file-manager/id510282524)</note>
       </trans-unit>
       <trans-unit id="[FileProvider/Google Drive/name]" xml:space="preserve">
         <source>Google Drive</source>
-        <target state="needs-translation">Google Drive</target>
+        <target state="translated">Google 雲端硬碟</target>
         <note>Localized name of the storage service: Google Drive (https://drive.google.com)</note>
       </trans-unit>
       <trans-unit id="[FileProvider/Nextcloud/name]" xml:space="preserve">
         <source>Nextcloud</source>
-        <target state="needs-translation">Nextcloud</target>
+        <target state="translated">Nextcloud</target>
         <note>Localized name of the storage service: Nextcloud (https://nextcloud.com)</note>
       </trans-unit>
       <trans-unit id="[FileProvider/On My iPad/name]" xml:space="preserve">
         <source>On My iPad</source>
-        <target state="needs-translation">On My iPad</target>
+        <target state="translated">我的 iPad</target>
         <note>Localized name of the local on-device storage, as shown in the Files app.</note>
       </trans-unit>
       <trans-unit id="[FileProvider/On My iPhone/name]" xml:space="preserve">
         <source>On My iPhone</source>
-        <target state="needs-translation">On My iPhone</target>
+        <target state="translated">我的 iPhone</target>
         <note>Localized name of the local on-device storage, as shown in the Files app.</note>
       </trans-unit>
       <trans-unit id="[FileProvider/OneDrive/name]" xml:space="preserve">
         <source>OneDrive</source>
-        <target state="needs-translation">OneDrive</target>
+        <target state="translated">OneDrive</target>
         <note>Localized name of the storage service: OneDrive (https://onedrive.com)</note>
       </trans-unit>
       <trans-unit id="[FileProvider/Readdle Documents/name]" xml:space="preserve">
         <source>Documents by Readdle</source>
-        <target state="needs-translation">Documents by Readdle</target>
+        <target state="translated">Documents by Readdle</target>
         <note>Localized name of the storage service: Documents by Readdle (https://apps.apple.com/app/id364901807)</note>
       </trans-unit>
       <trans-unit id="[FileProvider/Resilio Sync/name]" xml:space="preserve">
         <source>Resilio Sync</source>
-        <target state="needs-translation">Resilio Sync</target>
+        <target state="translated">Resilio Sync</target>
         <note>Localized name of the storage service: Resilio Sync (https://https://apps.apple.com/us/app/id1126282325)</note>
       </trans-unit>
       <trans-unit id="[FileProvider/SMB/name]" xml:space="preserve">
         <source>SMB server</source>
-        <target state="needs-translation">SMB server</target>
+        <target state="translated">SMB 伺服器</target>
         <note>Localized name of the storage service: SMB server (network share) via native iOS integration.</note>
       </trans-unit>
       <trans-unit id="[FileProvider/Synology DS file/name]" xml:space="preserve">
         <source>Synology DS file</source>
-        <target state="needs-translation">Synology DS file</target>
+        <target state="translated">Synology DS file</target>
         <note>Localized name of the storage service: Synology DS file (https://apps.apple.com/us/app/ds-file/id416751772)</note>
       </trans-unit>
       <trans-unit id="[FileProvider/Synology Drive/name]" xml:space="preserve">
         <source>Synology Drive</source>
-        <target state="needs-translation">Synology Drive</target>
+        <target state="translated">Synology Drive</target>
         <note>Localized name of the storage service: Synology Drive (https://apps.apple.com/us/app/synology-drive/id1267275421)</note>
       </trans-unit>
       <trans-unit id="[FileProvider/Tresorit/name]" xml:space="preserve">
         <source>Tresorit</source>
-        <target state="needs-translation">Tresorit</target>
+        <target state="translated">Tresorit</target>
         <note>Localized name of the storage service: Tresorit (https://tresorit.com)</note>
       </trans-unit>
       <trans-unit id="[FileProvider/USB drive/name]" xml:space="preserve">
         <source>USB drive</source>
-        <target state="needs-translation">USB drive</target>
+        <target state="translated">USB 隨身碟</target>
         <note>Localized name of the storage service: local USB drive (native iOS integration)</note>
       </trans-unit>
       <trans-unit id="[FileProvider/Yandex.Disk/name]" xml:space="preserve">
         <source>Yandex.Disk</source>
-        <target state="needs-translation">Yandex.Disk</target>
+        <target state="translated">Yandex.Disk</target>
         <note>Localized name of the storage service: Yandex.Disk (https://disk.yandex.com)</note>
       </trans-unit>
       <trans-unit id="[FileProvider/iCloud Drive/name]" xml:space="preserve">
         <source>iCloud Drive</source>
-        <target state="needs-translation">iCloud Drive</target>
+        <target state="translated">iCloud Drive</target>
         <note>Localized name of the storage service iCloud Drive (https://icloud.com/iclouddrive)</note>
       </trans-unit>
       <trans-unit id="[FileProvider/ownCloud/name]" xml:space="preserve">
         <source>ownCloud</source>
-        <target state="needs-translation">ownCloud</target>
+        <target state="translated">ownCloud</target>
         <note>Localized name of the storage service: ownCloud (https://owncloud.com)</note>
       </trans-unit>
       <trans-unit id="[FileProvider/pCloud/name]" xml:space="preserve">
         <source>pCloud</source>
-        <target state="needs-translation">pCloud</target>
+        <target state="translated">pCloud</target>
         <note>Localized name of the storage service: pCloud (https://pcloud.com)</note>
       </trans-unit>
       <trans-unit id="[FileProvider/sync.com/name]" xml:space="preserve">
         <source>Sync.com</source>
-        <target state="needs-translation">Sync.com</target>
+        <target state="translated">Sync.com</target>
         <note>Localized name of the storage service: Sync.com (https://sync.com)</note>
       </trans-unit>
       <trans-unit id="[FilesSortOrder/longTitle] Creation Date (Oldest First)" xml:space="preserve">
