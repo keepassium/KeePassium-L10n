@@ -147,6 +147,11 @@
         <target state="translated">Создание резервной копии...</target>
         <note>Database saving status: making a local backup copy of the database</note>
       </trans-unit>
+      <trans-unit id="[Database/Progress/resolvingFieldReferences]" xml:space="preserve">
+        <source>Resolving field references…</source>
+        <target state="translated">Сопоставление ссылок на поля…</target>
+        <note>Database loading/saving status: replacing field references with their values</note>
+      </trans-unit>
       <trans-unit id="[Database/Progress/resolving]" xml:space="preserve">
         <source>Contacting storage provider...</source>
         <target state="translated">Соединение с хранилищем...</target>
@@ -443,6 +448,16 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="final">Неверный пароль или ключевой файл</target>
         <note>Error message: user provided a wrong master key for decryption.</note>
       </trans-unit>
+      <trans-unit id="[File/In Trash/warning]" xml:space="preserve">
+        <source>'%@' is located in Recently Deleted and might be deleted soon. To preserve your data, move the file to a more permanent location.</source>
+        <target state="translated">'%@' расположен в недавно удалённых и может быть вскоре удалён. Чтобы сохранить свои данные, переместите файл в более постоянное место.</target>
+        <note>Warning shown when opening files from Recycle Bin location. Translation of 'Recently Deleted' should match that in the Files app. [fileName: String]</note>
+      </trans-unit>
+      <trans-unit id="[File/TemporaryBackup/warning]" xml:space="preserve">
+        <source>This is a temporary backup database. It can be automatically deleted without a warning. Don't use it as your main database.</source>
+        <target state="translated">Это временная копия базы данных. Она может быть автоматически удалена без предупреждения. Не используйте её как основную базу.</target>
+        <note>Notification when user opens an in-app backup database.</note>
+      </trans-unit>
       <trans-unit id="[FileAccessError/FileProvider/NotFound/generic]" xml:space="preserve">
         <source>Storage provider is not available. Please check whether it is installed and logged in to your account.</source>
         <target state="translated">Хранилище файлов недоступно. Убедитесь, что соответствующее приложение установлено и подключено к вашему аккаунту.</target>
@@ -573,6 +588,11 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="final">SMB-сервер</target>
         <note>Localized name of the storage service: SMB server (network share) via native iOS integration.</note>
       </trans-unit>
+      <trans-unit id="[FileProvider/Stratospherix FileBrowser/name]" xml:space="preserve">
+        <source>FileBrowser</source>
+        <target state="translated">FileBrowser</target>
+        <note>Localized name of the storage service: Stratospherix FileBrowser (https://apps.apple.com/us/app/filebrowser-document-manager/id364738545)</note>
+      </trans-unit>
       <trans-unit id="[FileProvider/Synology DS file/name]" xml:space="preserve" approved="yes">
         <source>Synology DS file</source>
         <target state="final">Synology DS file</target>
@@ -612,6 +632,11 @@ Please make sure to have a backup of your database before changing anything.</so
         <source>pCloud</source>
         <target state="translated">pCloud</target>
         <note>Localized name of the storage service: pCloud (https://pcloud.com)</note>
+      </trans-unit>
+      <trans-unit id="[FileProvider/qnapQFile/name]" xml:space="preserve">
+        <source>Qfile</source>
+        <target state="translated">Qfile</target>
+        <note>Localized name of the storage service: QNAP Qfile (https://apps.apple.com/app/qfile/id526330408)</note>
       </trans-unit>
       <trans-unit id="[FileProvider/sync.com/name]" xml:space="preserve">
         <source>Sync.com</source>
@@ -692,6 +717,16 @@ Please make sure to have a backup of your database before changing anything.</so
         <source>Processing the master key</source>
         <target state="final">Подготовка мастер-ключа</target>
         <note>Status message: processing of the master key is in progress</note>
+      </trans-unit>
+      <trans-unit id="[KeyFileError/Corrupted/title]" xml:space="preserve">
+        <source>Key file is corrupted</source>
+        <target state="translated">Ключевой файл повреждён</target>
+        <note>Error message when the key file is misformatted or damaged</note>
+      </trans-unit>
+      <trans-unit id="[KeyFileError/UnsupportedFormat/title]" xml:space="preserve">
+        <source>Unsupported key file format</source>
+        <target state="translated">Неподдерживаемый формат ключевого файла</target>
+        <note>Error message: unsupported/unknown format of a key file</note>
       </trans-unit>
       <trans-unit id="[KeychainError/generic] Keychain error (code %d) " xml:space="preserve" approved="yes">
         <source>Keychain error (code %d) </source>

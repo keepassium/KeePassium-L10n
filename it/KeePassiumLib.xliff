@@ -32,29 +32,29 @@
         <target state="translated">Annullato dall'utente.</target>
         <note>Error message when the challenge-response communication has been cancelled by the user.</note>
       </trans-unit>
-      <trans-unit id="[ChallengeResponseError] keyNotConnected" xml:space="preserve">
+      <trans-unit id="[ChallengeResponseError] keyNotConnected" xml:space="preserve" approved="yes">
         <source>Hardware key is not connected.</source>
-        <target state="needs-translation">Hardware key is not connected.</target>
+        <target state="final">La chiave hardware non è collegata.</target>
         <note>Error message when the hardware key is not plugged in.</note>
       </trans-unit>
-      <trans-unit id="[ChallengeResponseError] notAvailableInAutoFill" xml:space="preserve">
+      <trans-unit id="[ChallengeResponseError] notAvailableInAutoFill" xml:space="preserve" approved="yes">
         <source>Hardware keys are not available in AutoFill.</source>
-        <target state="needs-translation">Hardware keys are not available in AutoFill.</target>
+        <target state="final">Le chiavi hardware non sono disponibili in modalità Riempimento automatico.</target>
         <note>Error message when trying to use challenge-response hardware in AutoFill.</note>
       </trans-unit>
-      <trans-unit id="[ChallengeResponseError] notSupportedByDatabaseFormat" xml:space="preserve">
+      <trans-unit id="[ChallengeResponseError] notSupportedByDatabaseFormat" xml:space="preserve" approved="yes">
         <source>Hardware keys are not supported by this database format.</source>
-        <target state="needs-translation">Hardware keys are not supported by this database format.</target>
+        <target state="final">Le chiavi hardware non sono supportate da questo formato di database.</target>
         <note>Error message when trying to use challenge-response with a kdb database.</note>
       </trans-unit>
-      <trans-unit id="[ChallengeResponseError] notSupportedByDeviceOrSystem" xml:space="preserve">
+      <trans-unit id="[ChallengeResponseError] notSupportedByDeviceOrSystem" xml:space="preserve" approved="yes">
         <source>This device or iOS version does not support hardware keys (%@)</source>
-        <target state="needs-translation">This device or iOS version does not support hardware keys (%@)</target>
+        <target state="final">Questo dispositivo o questa versione di iOS non supporta le chiavi hardware (%@)</target>
         <note>Error message when trying to use a hardware challenge-response key on unsupported device/iOS version. %@ will be the name of the hardware interface, such as `NFC` or `Lightning`.</note>
       </trans-unit>
-      <trans-unit id="[ChallengeResponseError] slotNotConfigured" xml:space="preserve">
+      <trans-unit id="[ChallengeResponseError] slotNotConfigured" xml:space="preserve" approved="yes">
         <source>Hardware key is not configured for challenge-response.</source>
-        <target state="needs-translation">Hardware key is not configured for challenge-response.</target>
+        <target state="final">La chiave hardware non è configurata per la procedura challenge/response.</target>
         <note>Error message: the hardware key (or its slot) was not configured for challenge-response operations.</note>
       </trans-unit>
       <trans-unit id="[Cipher/Progress] Decrypting" xml:space="preserve">
@@ -137,19 +137,24 @@
         <target state="translated">Formato di database non riconosciuto</target>
         <note>Error message</note>
       </trans-unit>
-      <trans-unit id="[Database/Progress/downloading]" xml:space="preserve">
+      <trans-unit id="[Database/Progress/downloading]" xml:space="preserve" approved="yes">
         <source>Downloading database file...</source>
-        <target state="needs-translation">Downloading database file...</target>
+        <target state="final">Download del file di database...</target>
         <note>Database loading status: fetching the database file from disk/cloud</note>
       </trans-unit>
-      <trans-unit id="[Database/Progress/makingDatabaseBackup]" xml:space="preserve">
+      <trans-unit id="[Database/Progress/makingDatabaseBackup]" xml:space="preserve" approved="yes">
         <source>Making backup copy...</source>
-        <target state="needs-translation">Making backup copy...</target>
+        <target state="final">Creazione della copia di backup...</target>
         <note>Database saving status: making a local backup copy of the database</note>
       </trans-unit>
-      <trans-unit id="[Database/Progress/resolving]" xml:space="preserve">
+      <trans-unit id="[Database/Progress/resolvingFieldReferences]" xml:space="preserve" approved="yes">
+        <source>Resolving field references…</source>
+        <target state="final">Risoluzione dei riferimenti campo…</target>
+        <note>Database loading/saving status: replacing field references with their values</note>
+      </trans-unit>
+      <trans-unit id="[Database/Progress/resolving]" xml:space="preserve" approved="yes">
         <source>Contacting storage provider...</source>
-        <target state="needs-translation">Contacting storage provider...</target>
+        <target state="final">Contatto del provider di archiviazione...</target>
         <note>Progress status</note>
       </trans-unit>
       <trans-unit id="[Database/Progress] Done" xml:space="preserve">
@@ -353,19 +358,19 @@ Please make sure to have a backup of your database before changing anything.</so
 Assicurati di avere un backup del database prima di fare qualsiasi modifica.</target>
         <note>A warning about unused attachments after loading the database. [lastUsedAppName: String]</note>
       </trans-unit>
-      <trans-unit id="[Database2/Progress/decompressing]" xml:space="preserve">
+      <trans-unit id="[Database2/Progress/decompressing]" xml:space="preserve" approved="yes">
         <source>Decompressing database</source>
-        <target state="needs-translation">Decompressing database</target>
+        <target state="final">Decompressione del database</target>
         <note>Progress bar status: un-zipping the database content</note>
       </trans-unit>
-      <trans-unit id="[Database2/Progress/integrityCheck]" xml:space="preserve">
+      <trans-unit id="[Database2/Progress/integrityCheck]" xml:space="preserve" approved="yes">
         <source>Checking integrity</source>
-        <target state="needs-translation">Checking integrity</target>
+        <target state="final">Verifica dell'integrità</target>
         <note>Progress bar status</note>
       </trans-unit>
-      <trans-unit id="[Database2/Progress/parsingXML]" xml:space="preserve">
+      <trans-unit id="[Database2/Progress/parsingXML]" xml:space="preserve" approved="yes">
         <source>Parsing database</source>
-        <target state="needs-translation">Parsing database</target>
+        <target state="final">Analisi del database</target>
         <note>Progress bar status: parsing decrypted XML content</note>
       </trans-unit>
       <trans-unit id="[Database2/Progress] Loading database" xml:space="preserve">
@@ -443,6 +448,16 @@ Assicurati di avere un backup del database prima di fare qualsiasi modifica.</ta
         <target state="translated">Password o file chiave non validi</target>
         <note>Error message: user provided a wrong master key for decryption.</note>
       </trans-unit>
+      <trans-unit id="[File/In Trash/warning]" xml:space="preserve" approved="yes">
+        <source>'%@' is located in Recently Deleted and might be deleted soon. To preserve your data, move the file to a more permanent location.</source>
+        <target state="final">'%@' si trova nella cartella Eliminati di recente e potrebbe essere eliminato a breve. Per preservare i tuoi dati, sposta il file in una posizione più permanente.</target>
+        <note>Warning shown when opening files from Recycle Bin location. Translation of 'Recently Deleted' should match that in the Files app. [fileName: String]</note>
+      </trans-unit>
+      <trans-unit id="[File/TemporaryBackup/warning]" xml:space="preserve" approved="yes">
+        <source>This is a temporary backup database. It can be automatically deleted without a warning. Don't use it as your main database.</source>
+        <target state="final">Questo è un database di backup temporaneo. Può essere eliminato automaticamente senza preavviso. Non usarlo come database principale.</target>
+        <note>Notification when user opens an in-app backup database.</note>
+      </trans-unit>
       <trans-unit id="[FileAccessError/FileProvider/NotFound/generic]" xml:space="preserve">
         <source>Storage provider is not available. Please check whether it is installed and logged in to your account.</source>
         <target state="translated">Lo Storage provider non è disponibile. Verificare che sia installato e collegato con il vostro account.</target>
@@ -463,29 +478,29 @@ Assicurati di avere un backup del database prima di fare qualsiasi modifica.</ta
         <target state="translated">L'unità USB è disconnessa.</target>
         <note>Error message: there is no USB drive connected to the device.</note>
       </trans-unit>
-      <trans-unit id="[FileAccessError/NoResponse/genericFileProvider]" xml:space="preserve">
+      <trans-unit id="[FileAccessError/NoResponse/genericFileProvider]" xml:space="preserve" approved="yes">
         <source>Storage provider does not respond.</source>
-        <target state="needs-translation">Storage provider does not respond.</target>
+        <target state="final">Il provider di archiviazione non risponde.</target>
         <note>Error message: storage provider app (e.g. Google Drive) does not respond to requests.</note>
       </trans-unit>
-      <trans-unit id="[FileAccessError/NoResponse/knownFileProvider]" xml:space="preserve">
+      <trans-unit id="[FileAccessError/NoResponse/knownFileProvider]" xml:space="preserve" approved="yes">
         <source>%@ does not respond.</source>
-        <target state="needs-translation">%@ does not respond.</target>
+        <target state="final">%@ non risponde.</target>
         <note>Error message: file provider does not respond to requests. For example: `Google Drive does not respond.`</note>
       </trans-unit>
-      <trans-unit id="[FileAccessError/Timeout/genericFileProvider]" xml:space="preserve">
+      <trans-unit id="[FileAccessError/Timeout/genericFileProvider]" xml:space="preserve" approved="yes">
         <source>Storage provider does not respond.</source>
-        <target state="needs-translation">Storage provider does not respond.</target>
+        <target state="final">Il provider di archiviazione non risponde.</target>
         <note>Error message: storage provider app (e.g. Google Drive) does not respond to requests (quickly enough).</note>
       </trans-unit>
-      <trans-unit id="[FileAccessError/Timeout/knownFileProvider]" xml:space="preserve">
+      <trans-unit id="[FileAccessError/Timeout/knownFileProvider]" xml:space="preserve" approved="yes">
         <source>%@ does not respond.</source>
-        <target state="needs-translation">%@ does not respond.</target>
+        <target state="final">%@ non risponde.</target>
         <note>Error message: file provider does not respond to requests (quickly enough). For example: `Google Drive does not respond`</note>
       </trans-unit>
-      <trans-unit id="[FileAccessError/internalError]" xml:space="preserve">
+      <trans-unit id="[FileAccessError/internalError]" xml:space="preserve" approved="yes">
         <source>Internal KeePassium error, please tell us about it.</source>
-        <target state="needs-translation">Internal KeePassium error, please tell us about it.</target>
+        <target state="final">Errore interno di KeePassium, ti preghiamo di inviarci una segnalazione in merito.</target>
         <note>Error message shown when there's internal inconsistency in KeePassium.</note>
       </trans-unit>
       <trans-unit id="[FileKeeper] Failed to delete file. Reason: %@" xml:space="preserve">
@@ -568,10 +583,15 @@ Assicurati di avere un backup del database prima di fare qualsiasi modifica.</ta
         <target state="translated">Resilio Sync</target>
         <note>Localized name of the storage service: Resilio Sync (https://https://apps.apple.com/us/app/id1126282325)</note>
       </trans-unit>
-      <trans-unit id="[FileProvider/SMB/name]" xml:space="preserve">
+      <trans-unit id="[FileProvider/SMB/name]" xml:space="preserve" approved="yes">
         <source>SMB server</source>
-        <target state="needs-translation">SMB server</target>
+        <target state="final">Server SMB</target>
         <note>Localized name of the storage service: SMB server (network share) via native iOS integration.</note>
+      </trans-unit>
+      <trans-unit id="[FileProvider/Stratospherix FileBrowser/name]" xml:space="preserve" approved="yes">
+        <source>FileBrowser</source>
+        <target state="final">FileBrowser</target>
+        <note>Localized name of the storage service: Stratospherix FileBrowser (https://apps.apple.com/us/app/filebrowser-document-manager/id364738545)</note>
       </trans-unit>
       <trans-unit id="[FileProvider/Synology DS file/name]" xml:space="preserve">
         <source>Synology DS file</source>
@@ -588,9 +608,9 @@ Assicurati di avere un backup del database prima di fare qualsiasi modifica.</ta
         <target state="translated">Tresorit</target>
         <note>Localized name of the storage service: Tresorit (https://tresorit.com)</note>
       </trans-unit>
-      <trans-unit id="[FileProvider/USB drive/name]" xml:space="preserve">
+      <trans-unit id="[FileProvider/USB drive/name]" xml:space="preserve" approved="yes">
         <source>USB drive</source>
-        <target state="needs-translation">USB drive</target>
+        <target state="final">Memoria USB</target>
         <note>Localized name of the storage service: local USB drive (native iOS integration)</note>
       </trans-unit>
       <trans-unit id="[FileProvider/Yandex.Disk/name]" xml:space="preserve">
@@ -612,6 +632,11 @@ Assicurati di avere un backup del database prima di fare qualsiasi modifica.</ta
         <source>pCloud</source>
         <target state="translated">pCloud</target>
         <note>Localized name of the storage service: pCloud (https://pcloud.com)</note>
+      </trans-unit>
+      <trans-unit id="[FileProvider/qnapQFile/name]" xml:space="preserve" approved="yes">
+        <source>Qfile</source>
+        <target state="final">Qfile</target>
+        <note>Localized name of the storage service: QNAP Qfile (https://apps.apple.com/app/qfile/id526330408)</note>
       </trans-unit>
       <trans-unit id="[FileProvider/sync.com/name]" xml:space="preserve">
         <source>Sync.com</source>
@@ -692,6 +717,16 @@ Assicurati di avere un backup del database prima di fare qualsiasi modifica.</ta
         <source>Processing the master key</source>
         <target state="translated">Elaborazione della chiave principale</target>
         <note>Status message: processing of the master key is in progress</note>
+      </trans-unit>
+      <trans-unit id="[KeyFileError/Corrupted/title]" xml:space="preserve" approved="yes">
+        <source>Key file is corrupted</source>
+        <target state="final">File chiave corrotto</target>
+        <note>Error message when the key file is misformatted or damaged</note>
+      </trans-unit>
+      <trans-unit id="[KeyFileError/UnsupportedFormat/title]" xml:space="preserve" approved="yes">
+        <source>Unsupported key file format</source>
+        <target state="final">Formato di file chiave non supportato</target>
+        <note>Error message: unsupported/unknown format of a key file</note>
       </trans-unit>
       <trans-unit id="[KeychainError/generic] Keychain error (code %d) " xml:space="preserve">
         <source>Keychain error (code %d) </source>

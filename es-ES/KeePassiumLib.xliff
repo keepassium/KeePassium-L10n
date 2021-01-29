@@ -5,9 +5,9 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
     </header>
     <body>
-      <trans-unit id="CFBundleName" xml:space="preserve">
+      <trans-unit id="CFBundleName" xml:space="preserve" approved="yes">
         <source>KeePassiumLib</source>
-        <target state="translated">KeePassiumLib</target>
+        <target state="final">KeePassiumLib</target>
         <note>Bundle name</note>
       </trans-unit>
     </body>
@@ -137,15 +137,20 @@
         <target state="translated">Formato de base de datos desconocido</target>
         <note>Error message</note>
       </trans-unit>
-      <trans-unit id="[Database/Progress/downloading]" xml:space="preserve">
+      <trans-unit id="[Database/Progress/downloading]" xml:space="preserve" approved="yes">
         <source>Downloading database file...</source>
-        <target state="needs-translation">Downloading database file...</target>
+        <target state="final">Descargando base de datos...</target>
         <note>Database loading status: fetching the database file from disk/cloud</note>
       </trans-unit>
-      <trans-unit id="[Database/Progress/makingDatabaseBackup]" xml:space="preserve">
+      <trans-unit id="[Database/Progress/makingDatabaseBackup]" xml:space="preserve" approved="yes">
         <source>Making backup copy...</source>
-        <target state="needs-translation">Making backup copy...</target>
+        <target state="final">Creando copia de copia de seguridad...</target>
         <note>Database saving status: making a local backup copy of the database</note>
+      </trans-unit>
+      <trans-unit id="[Database/Progress/resolvingFieldReferences]" xml:space="preserve" approved="yes">
+        <source>Resolving field references…</source>
+        <target state="final">Determinando campos de referencia…</target>
+        <note>Database loading/saving status: replacing field references with their values</note>
       </trans-unit>
       <trans-unit id="[Database/Progress/resolving]" xml:space="preserve">
         <source>Contacting storage provider...</source>
@@ -443,9 +448,19 @@ Por favor, asegúrese de tener una copia de seguridad de su base de datos antes 
         <target state="translated">Contraseña o archivo de clave incorrecto</target>
         <note>Error message: user provided a wrong master key for decryption.</note>
       </trans-unit>
-      <trans-unit id="[FileAccessError/FileProvider/NotFound/generic]" xml:space="preserve">
+      <trans-unit id="[File/In Trash/warning]" xml:space="preserve" approved="yes">
+        <source>'%@' is located in Recently Deleted and might be deleted soon. To preserve your data, move the file to a more permanent location.</source>
+        <target state="final">%@ está ubicado en Eliminados Recientemente y puede ser eliminado en cualquier momento. Para preservar la información, cambie el archivo a una ubicación más permanente.</target>
+        <note>Warning shown when opening files from Recycle Bin location. Translation of 'Recently Deleted' should match that in the Files app. [fileName: String]</note>
+      </trans-unit>
+      <trans-unit id="[File/TemporaryBackup/warning]" xml:space="preserve" approved="yes">
+        <source>This is a temporary backup database. It can be automatically deleted without a warning. Don't use it as your main database.</source>
+        <target state="final">Esta es una base de datos transitoria. Puede ser eliminada automáticamente sin previo aviso. No la utilice como su base de datos principal.</target>
+        <note>Notification when user opens an in-app backup database.</note>
+      </trans-unit>
+      <trans-unit id="[FileAccessError/FileProvider/NotFound/generic]" xml:space="preserve" approved="yes">
         <source>Storage provider is not available. Please check whether it is installed and logged in to your account.</source>
-        <target state="needs-translation">Storage provider is not available. Please check whether it is installed and logged in to your account.</target>
+        <target state="final">El proveedor de almacenamiento no está disponible. Compruebe si está instalado y si ha iniciado sesión en el sistema.</target>
         <note>Error message: storage provider app was logged out or uninstalled.</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/FileProvider/NotFound/other]" xml:space="preserve">
@@ -453,19 +468,19 @@ Por favor, asegúrese de tener una copia de seguridad de su base de datos antes 
         <target state="translated">%@ no está disponible. Por favor, comprueba si está instalado y inicia sesión en tu cuenta.</target>
         <note>Error message: storage provider app was logged out or uninstalled [fileProviderName: String].</note>
       </trans-unit>
-      <trans-unit id="[FileAccessError/FileProvider/NotFound/smbShare]" xml:space="preserve">
+      <trans-unit id="[FileAccessError/FileProvider/NotFound/smbShare]" xml:space="preserve" approved="yes">
         <source>Network storage is disconnected.</source>
-        <target state="needs-translation">Network storage is disconnected.</target>
+        <target state="final">El almacenamiento en red está desconectado.</target>
         <note>Error message: the required network drive is not connected.</note>
       </trans-unit>
-      <trans-unit id="[FileAccessError/FileProvider/NotFound/usbDrive]" xml:space="preserve">
+      <trans-unit id="[FileAccessError/FileProvider/NotFound/usbDrive]" xml:space="preserve" approved="yes">
         <source>USB drive is disconnected.</source>
-        <target state="needs-translation">USB drive is disconnected.</target>
+        <target state="final">El dispositivo USB está desconectado.</target>
         <note>Error message: there is no USB drive connected to the device.</note>
       </trans-unit>
-      <trans-unit id="[FileAccessError/NoResponse/genericFileProvider]" xml:space="preserve">
+      <trans-unit id="[FileAccessError/NoResponse/genericFileProvider]" xml:space="preserve" approved="yes">
         <source>Storage provider does not respond.</source>
-        <target state="needs-translation">Storage provider does not respond.</target>
+        <target state="final">El proveedor de almacenamiento no responde.</target>
         <note>Error message: storage provider app (e.g. Google Drive) does not respond to requests.</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/NoResponse/knownFileProvider]" xml:space="preserve">
@@ -483,9 +498,9 @@ Por favor, asegúrese de tener una copia de seguridad de su base de datos antes 
         <target state="translated">%@ no responde.</target>
         <note>Error message: file provider does not respond to requests (quickly enough). For example: `Google Drive does not respond`</note>
       </trans-unit>
-      <trans-unit id="[FileAccessError/internalError]" xml:space="preserve">
+      <trans-unit id="[FileAccessError/internalError]" xml:space="preserve" approved="yes">
         <source>Internal KeePassium error, please tell us about it.</source>
-        <target state="needs-translation">Internal KeePassium error, please tell us about it.</target>
+        <target state="final">Error interno en KeePassium, póngase en contacto con nosotros.</target>
         <note>Error message shown when there's internal inconsistency in KeePassium.</note>
       </trans-unit>
       <trans-unit id="[FileKeeper] Failed to delete file. Reason: %@" xml:space="preserve">
@@ -568,10 +583,15 @@ Por favor, asegúrese de tener una copia de seguridad de su base de datos antes 
         <target state="translated">Resilio Sync</target>
         <note>Localized name of the storage service: Resilio Sync (https://https://apps.apple.com/us/app/id1126282325)</note>
       </trans-unit>
-      <trans-unit id="[FileProvider/SMB/name]" xml:space="preserve">
+      <trans-unit id="[FileProvider/SMB/name]" xml:space="preserve" approved="yes">
         <source>SMB server</source>
-        <target state="needs-translation">SMB server</target>
+        <target state="final">Servidor SMB</target>
         <note>Localized name of the storage service: SMB server (network share) via native iOS integration.</note>
+      </trans-unit>
+      <trans-unit id="[FileProvider/Stratospherix FileBrowser/name]" xml:space="preserve" approved="yes">
+        <source>FileBrowser</source>
+        <target state="final">FileBrowser</target>
+        <note>Localized name of the storage service: Stratospherix FileBrowser (https://apps.apple.com/us/app/filebrowser-document-manager/id364738545)</note>
       </trans-unit>
       <trans-unit id="[FileProvider/Synology DS file/name]" xml:space="preserve">
         <source>Synology DS file</source>
@@ -588,9 +608,9 @@ Por favor, asegúrese de tener una copia de seguridad de su base de datos antes 
         <target state="translated">Tresorit</target>
         <note>Localized name of the storage service: Tresorit (https://tresorit.com)</note>
       </trans-unit>
-      <trans-unit id="[FileProvider/USB drive/name]" xml:space="preserve">
+      <trans-unit id="[FileProvider/USB drive/name]" xml:space="preserve" approved="yes">
         <source>USB drive</source>
-        <target state="needs-translation">USB drive</target>
+        <target state="final">Dispositivo USB</target>
         <note>Localized name of the storage service: local USB drive (native iOS integration)</note>
       </trans-unit>
       <trans-unit id="[FileProvider/Yandex.Disk/name]" xml:space="preserve">
@@ -608,10 +628,15 @@ Por favor, asegúrese de tener una copia de seguridad de su base de datos antes 
         <target state="translated">ownCloud</target>
         <note>Localized name of the storage service: ownCloud (https://owncloud.com)</note>
       </trans-unit>
-      <trans-unit id="[FileProvider/pCloud/name]" xml:space="preserve">
+      <trans-unit id="[FileProvider/pCloud/name]" xml:space="preserve" approved="yes">
         <source>pCloud</source>
-        <target state="translated">pCloud</target>
+        <target state="final">pCloud</target>
         <note>Localized name of the storage service: pCloud (https://pcloud.com)</note>
+      </trans-unit>
+      <trans-unit id="[FileProvider/qnapQFile/name]" xml:space="preserve" approved="yes">
+        <source>Qfile</source>
+        <target state="final">Qfile</target>
+        <note>Localized name of the storage service: QNAP Qfile (https://apps.apple.com/app/qfile/id526330408)</note>
       </trans-unit>
       <trans-unit id="[FileProvider/sync.com/name]" xml:space="preserve">
         <source>Sync.com</source>
@@ -692,6 +717,16 @@ Por favor, asegúrese de tener una copia de seguridad de su base de datos antes 
         <source>Processing the master key</source>
         <target state="translated">Procesando la clave maestra</target>
         <note>Status message: processing of the master key is in progress</note>
+      </trans-unit>
+      <trans-unit id="[KeyFileError/Corrupted/title]" xml:space="preserve" approved="yes">
+        <source>Key file is corrupted</source>
+        <target state="final">El archivo de clave está dañado</target>
+        <note>Error message when the key file is misformatted or damaged</note>
+      </trans-unit>
+      <trans-unit id="[KeyFileError/UnsupportedFormat/title]" xml:space="preserve" approved="yes">
+        <source>Unsupported key file format</source>
+        <target state="final">El formato del archivo de clave es incompatible</target>
+        <note>Error message: unsupported/unknown format of a key file</note>
       </trans-unit>
       <trans-unit id="[KeychainError/generic] Keychain error (code %d) " xml:space="preserve">
         <source>Keychain error (code %d) </source>

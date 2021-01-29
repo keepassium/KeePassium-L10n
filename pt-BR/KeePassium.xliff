@@ -118,6 +118,11 @@ Por favor, entre em contato conosco se precisar de ajuda com isto.</target>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
     </header>
     <body>
+      <trans-unit id="Gck-9R-sGq.normalTitle" xml:space="preserve">
+        <source>Skip</source>
+        <target state="translated">Pular</target>
+        <note>Class = "UIButton"; normalTitle = "Skip"; ObjectID = "Gck-9R-sGq"; Note = "Action: skip setup and proceed to the next step.";</note>
+      </trans-unit>
       <trans-unit id="P0M-N3-ynf.text" xml:space="preserve">
         <source>Please re-add databases and key files you want to use with the AutoFill feature.</source>
         <target state="translated">Por favor, adicione de novo os bancos de dados e arquivos de chave que deseja usar com o preenchimento automático.</target>
@@ -219,6 +224,11 @@ Por favor, entre em contato conosco se precisar de ajuda com isto.</target>
         <target state="translated">Um banco de dados do KeePass não pode ser usado como arquivo de chave. Por favor, escolha um arquivo diferente.</target>
         <note>Warning message when the user tries to use a database as a key file</note>
       </trans-unit>
+      <trans-unit id="[Accessibility] Double tap to copy to clipboard" xml:space="preserve">
+        <source>Double tap to copy to clipboard</source>
+        <target state="translated">Toque duas vezes para copiar</target>
+        <note>Suggestion/hint for available user action</note>
+      </trans-unit>
       <trans-unit id="[AppLock/Biometric/Hint] Unlock KeePassium" xml:space="preserve">
         <source>Unlock KeePassium</source>
         <target state="translated">Desbloquear KeePassium</target>
@@ -282,6 +292,16 @@ Como resultado, tanto o preenchimento automático quanto o aplicativo principal 
         <target state="translated">Touch ID</target>
         <note>Name of biometric authentication method. Trademarked, do not translate unless Apple traslated it to your language.</note>
       </trans-unit>
+      <trans-unit id="[Clipboard/Copy/namedValue]" xml:space="preserve">
+        <source>Copy %@</source>
+        <target state="translated">Copiar %@</target>
+        <note>Action copy some named value to clipboard. For example: `Copy Password`. [valueName: String]</note>
+      </trans-unit>
+      <trans-unit id="[Clipboard/Copy/notification]" xml:space="preserve">
+        <source>Copied</source>
+        <target state="translated">Copiado</target>
+        <note>Notification: an item has been copied to clipboard</note>
+      </trans-unit>
       <trans-unit id="[Database/Add] Selected file &quot;%@&quot; does not look like a database." xml:space="preserve">
         <source>Selected file "%@" does not look like a database.</source>
         <target state="translated">O arquivo selecionado "%@" não parece ser um banco de dados.</target>
@@ -289,7 +309,7 @@ Como resultado, tanto o preenchimento automático quanto o aplicativo principal 
       </trans-unit>
       <trans-unit id="[Database/Create/action] Create Database" xml:space="preserve">
         <source>Create Database</source>
-        <target state="needs-translation">Create Database</target>
+        <target state="translated">Criar banco de dados</target>
         <note>Action/button to create a new database</note>
       </trans-unit>
       <trans-unit id="[Database/Create/title] Create Database" xml:space="preserve">
@@ -421,6 +441,11 @@ Como resultado, tanto o preenchimento automático quanto o aplicativo principal 
         <target state="translated">Tente retirar o arquivo do aplicativo e adicioná-lo de novo.</target>
         <note>A suggestion shown after specific file errors (either databases or key files).</note>
       </trans-unit>
+      <trans-unit id="[File/Re-add/title]" xml:space="preserve">
+        <source>Add the file again</source>
+        <target state="translated">Adicionar arquivo novamente</target>
+        <note>Action: re-add (a broken) database or key file to the app.</note>
+      </trans-unit>
       <trans-unit id="[FileInfo/Backup/header]" xml:space="preserve">
         <source>Backup</source>
         <target state="translated">Cópias de segurança</target>
@@ -546,6 +571,11 @@ Como resultado, tanto o preenchimento automático quanto o aplicativo principal 
         <target state="translated">Copiar</target>
         <note>Action/button to move an item (to another group/folder/etc)</note>
       </trans-unit>
+      <trans-unit id="[Generic] Create" xml:space="preserve">
+        <source>Create</source>
+        <target state="translated">Criar</target>
+        <note>Action/button to create an item (entry, group, file — depending on context)</note>
+      </trans-unit>
       <trans-unit id="[Generic] Delete" xml:space="preserve">
         <source>Delete</source>
         <target state="translated">Apagar</target>
@@ -576,6 +606,16 @@ Como resultado, tanto o preenchimento automático quanto o aplicativo principal 
         <target state="translated">Exportar</target>
         <note>Action/button to export an item to another app</note>
       </trans-unit>
+      <trans-unit id="[Generic] Learn more" xml:space="preserve">
+        <source>Learn more…</source>
+        <target state="translated">Saiba mais…</target>
+        <note>Action/button to view more help/info about some topic</note>
+      </trans-unit>
+      <trans-unit id="[Generic] More Actions" xml:space="preserve">
+        <source>More Actions</source>
+        <target state="translated">Mais ações</target>
+        <note>Checkbox/Button to show additional actions</note>
+      </trans-unit>
       <trans-unit id="[Generic] Move" xml:space="preserve">
         <source>Move</source>
         <target state="translated">Mover</target>
@@ -585,6 +625,11 @@ Como resultado, tanto o preenchimento automático quanto o aplicativo principal 
         <source>OK</source>
         <target state="translated">OK</target>
         <note>Action/button: generic OK</note>
+      </trans-unit>
+      <trans-unit id="[Generic] Open URL" xml:space="preserve">
+        <source>Open URL</source>
+        <target state="translated">Abrir URL</target>
+        <note>Action/button to open URL in the appropriate app (usually, web browser)</note>
       </trans-unit>
       <trans-unit id="[Generic] Overwrite" xml:space="preserve">
         <source>Overwrite</source>
@@ -601,10 +646,20 @@ Como resultado, tanto o preenchimento automático quanto o aplicativo principal 
         <target state="translated">Substituir</target>
         <note>Action/button to replace an item with another one</note>
       </trans-unit>
+      <trans-unit id="[Generic] Share" xml:space="preserve">
+        <source>Share</source>
+        <target state="translated">Compartilhar</target>
+        <note>Action/button to share an item with another app (AirDrop, send an email, etc)</note>
+      </trans-unit>
       <trans-unit id="[Generic] Show Details" xml:space="preserve">
         <source>Show Details</source>
         <target state="translated">Mostrar detalhes</target>
         <note>Action/button to show additional information about an error or item</note>
+      </trans-unit>
+      <trans-unit id="[Generic] Show In Plain Text" xml:space="preserve">
+        <source>Show In Plain Text</source>
+        <target state="translated">Exibir</target>
+        <note>Action/button to show sensitive info as it is, in plain text (as opposed to asterisks)</note>
       </trans-unit>
       <trans-unit id="[Generic] Show more" xml:space="preserve">
         <source>Show more</source>
@@ -630,6 +685,11 @@ Como resultado, tanto o preenchimento automático quanto o aplicativo principal 
         <source>New Group</source>
         <target state="translated">Novo Grupo</target>
         <note>Default name of a new group</note>
+      </trans-unit>
+      <trans-unit id="[Group/a11y/description]" xml:space="preserve">
+        <source>%@, Group</source>
+        <target state="translated">%@, Grupo</target>
+        <note>VoiceOver description of a group [groupTitle: String, itemCount: Int]</note>
       </trans-unit>
       <trans-unit id="[HardwareKey/AutoFill/NotAvailable] Hardware keys are not available in AutoFill." xml:space="preserve">
         <source>Hardware keys are not available in AutoFill.</source>
@@ -670,10 +730,222 @@ Como resultado, tanto o preenchimento automático quanto o aplicativo principal 
  O arquivo permanecerá intacto e você poderá adicioná-lo de novo depois.</target>
         <note>Message to confirm removal of a key file from the app. (This keeps the file, but removes its reference from the app.)</note>
       </trans-unit>
+      <trans-unit id="[Premium/Benefits/Negative/header] " xml:space="preserve">
+        <source>What you are missing</source>
+        <target state="translated">Você está perdendo</target>
+        <note>List of premium benefits/advantages</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Benefits/Positive/header] " xml:space="preserve">
+        <source>What you get</source>
+        <target state="translated">Você aproveita</target>
+        <note>List of premium benefits/advantages</note>
+      </trans-unit>
+      <trans-unit id="[Premium/CallToAction/buyNow]" xml:space="preserve">
+        <source>Buy Now</source>
+        <target state="translated">Compre agora</target>
+        <note>Call to action</note>
+      </trans-unit>
+      <trans-unit id="[Premium/CallToAction/free]" xml:space="preserve">
+        <source>Continue Testing</source>
+        <target state="translated">Continuar testando</target>
+        <note>Call to action: continue using the free version</note>
+      </trans-unit>
+      <trans-unit id="[Premium/CallToAction/startTrial]" xml:space="preserve">
+        <source>Try it free</source>
+        <target state="translated">Teste grátis</target>
+        <note>Call to action: start free trial</note>
+      </trans-unit>
+      <trans-unit id="[Premium/CallToAction/upgradeNow]" xml:space="preserve">
+        <source>Upgrade Now</source>
+        <target state="translated">Atualize agora</target>
+        <note>Call to action: upgrade to premium</note>
+      </trans-unit>
+      <trans-unit id="[Premium/ManageSubscriptions/action]" xml:space="preserve">
+        <source>Manage subscriptions</source>
+        <target state="translated">Gerenciar assinaturas</target>
+        <note>Action: open AppStore subscription management page</note>
+      </trans-unit>
+      <trans-unit id="[Premium/PerpetualLicense/status]" xml:space="preserve">
+        <source>You have a perpetual license for all the versions before %@.</source>
+        <target state="translated">Você tem uma licença perpétua para todas as versões anteriores à %@.</target>
+        <note>[formattedDate: String]</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Price Plan/Conditions/1 year email support]" xml:space="preserve">
+        <source>One year of email support</source>
+        <target state="translated">Um ano de suporte via e-mail</target>
+        <note>What's included in a price plan: 1 year of support via email</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Price Plan/Conditions/all premium features]" xml:space="preserve">
+        <source>All premium features</source>
+        <target state="translated">Todos os recursos premium</target>
+        <note>What's included in a price plan</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Price Plan/Conditions/community support]" xml:space="preserve">
+        <source>Customer support: Online forums</source>
+        <target state="translated">Suporte: fórum on-line</target>
+        <note>What's included in a free plan: support via forums (as opposed to email support)</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Price Plan/Conditions/current premium features]" xml:space="preserve">
+        <source>Current premium features</source>
+        <target state="translated">Recursos premium atuais</target>
+        <note>What's included in a price plan: existing premium features only (as opposed to `current + future`)</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Price Plan/Conditions/email support]" xml:space="preserve">
+        <source>Customer support: Email</source>
+        <target state="translated">Suporte: via e-mail</target>
+        <note>What's included in a price plan: support via email</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Price Plan/Conditions/family sharing]" xml:space="preserve">
+        <source>Family Sharing</source>
+        <target state="translated">Compartilhamento familiar</target>
+        <note>Family Sharing programme. Translation must match Apple's: https://www.apple.com/family-sharing/</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Price Plan/Conditions/freemium reminders]" xml:space="preserve">
+        <source>Freemium reminders</source>
+        <target state="translated">Lembretes freemium</target>
+        <note>What's included in a free plan: reminders that the version is free</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Price Plan/Conditions/full price upgrade]" xml:space="preserve">
+        <source>Premium features added in the future would require a new purchase at full price.</source>
+        <target state="translated">Recursos premium adicionados no futuro exigirão uma nova compra pelo valor cheio vigente.</target>
+        <note>Upgrade conditions for current-version premium purchase.</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Price Plan/Conditions/future premium features]" xml:space="preserve">
+        <source>Future premium features</source>
+        <target state="translated">Recursos premium futuros</target>
+        <note>What's included in a price plan: upcoming premium features (as opposed to `current only`)</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Price Plan/Conditions/perpetual fallback]" xml:space="preserve">
+        <source>Rent-to-own license (Perpetual fallback license)</source>
+        <target state="needs-translation">Rent-to-own license (Perpetual fallback license)</target>
+        <note>What's included in a price plan. Please leave `perpetual fallback license` in English.</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Price Plan/Conditions/subscription as purchase]" xml:space="preserve">
+        <source>Subscription as a purchase</source>
+        <target state="needs-translation">Subscription as a purchase</target>
+        <note>What's included in a subscription plan. By subscribing for a certain period, the user receives a permanent license for a version of the app. More info: https://keepassium.com/articles/perpetual-fallback-license/</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Price Plan/Conditions/updates and bug fixes]" xml:space="preserve">
+        <source>Updates and bug fixes</source>
+        <target state="needs-translation">Updates and bug fixes</target>
+        <note>What's included in a price plan</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Price Plan/Free/price]" xml:space="preserve">
+        <source>Free</source>
+        <target state="translated">Grátis</target>
+        <note>Price of the free pricing plan</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Price Plan/Free/title]" xml:space="preserve">
+        <source>Free</source>
+        <target state="translated">Grátis</target>
+        <note>Name of the free pricing plan</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Price Plan/popular]" xml:space="preserve">
+        <source>Popular</source>
+        <target state="translated">Popular</target>
+        <note>Marks the default pricing plan</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Subscription/Legal/text]" xml:space="preserve">
+        <source>
+Payment will be charged to your Apple ID account at the confirmation of purchase.
+
+Subscription automatically renews unless it is canceled at least 24 hours before the end of the current period. Your account will be charged for renewal within 24 hours prior to the end of the current period.
+
+You can manage and cancel your subscriptions by going to your account settings on the App Store after purchase.
+</source>
+        <target state="needs-translation">
+Payment will be charged to your Apple ID account at the confirmation of purchase.
+
+Subscription automatically renews unless it is canceled at least 24 hours before the end of the current period. Your account will be charged for renewal within 24 hours prior to the end of the current period.
+
+You can manage and cancel your subscriptions by going to your account settings on the App Store after purchase.
+</target>
+        <note>Subscription conditions</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Trial/trial then price]" xml:space="preserve">
+        <source>%1$@ free, then %2$@</source>
+        <target state="translated">%1$@ grátis, depois %2$@</target>
+        <note>Trial conditions. For example `30 days free, then $1 per month`</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Upgrade/Deferred/text] Thank you! You can use KeePassium while purchase is awaiting approval." xml:space="preserve">
+        <source>Thank you! You can use KeePassium while purchase is awaiting approval.</source>
+        <target state="needs-translation">Thank you! You can use KeePassium while purchase is awaiting approval.</target>
+        <note>Message shown when in-app purchase is deferred until approval (parental or corporate).</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Upgrade/Progress] Contacting AppStore..." xml:space="preserve">
+        <source>Contacting AppStore...</source>
+        <target state="translated">Contactando AppStore...</target>
+        <note>Status message when downloading available in-app purchases</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Upgrade/Progress] Purchasing..." xml:space="preserve">
+        <source>Purchasing...</source>
+        <target state="translated">Comprando...</target>
+        <note>Status: in-app purchase started</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Upgrade/RestoreFailed/text] No previous purchase could be restored." xml:space="preserve">
+        <source>No previous purchase could be restored.</source>
+        <target state="translated">Nenhuma compra anterior pôde ser restaurada.</target>
+        <note>Text of an error message: there were no in-app purchases that can be restored</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Upgrade/RestoreFailed/title] Sorry" xml:space="preserve">
+        <source>Sorry</source>
+        <target state="translated">Desculpe</target>
+        <note>Title of an error message: there were no in-app purchases that can be restored</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Upgrade/Restored/text] Upgrade successful, enjoy the app!" xml:space="preserve">
+        <source>Upgrade successful, enjoy the app!</source>
+        <target state="translated">Atualizado com sucesso. Aproveite!</target>
+        <note>Text of the message shown after in-app purchase was successfully restored</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Upgrade/Restored/title] Purchase Restored" xml:space="preserve">
+        <source>Purchase Restored</source>
+        <target state="translated">Compra restaurada</target>
+        <note>Title of the message shown after in-app purchase was successfully restored</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Upgrade/Success/thankYou]" xml:space="preserve">
+        <source>Thank you for the purchase!</source>
+        <target state="needs-translation">Thank you for the purchase!</target>
+        <note>Message shown after buying or subscribing.</note>
+      </trans-unit>
       <trans-unit id="[Premium/Upgrade/action] Upgrade to Premium" xml:space="preserve">
         <source>Upgrade to Premium</source>
         <target state="translated">Atualizar para Premium</target>
         <note>Action/button to start choosing premium versions and possibly buying one</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Upgrade/cancelOngoingSubscription]" xml:space="preserve">
+        <source>Please check if you need to cancel your old subscription.</source>
+        <target state="needs-translation">Please check if you need to cancel your old subscription.</target>
+        <note>Message shown after buying a lifetime version.</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Upgrade/price] %@ / month" xml:space="preserve">
+        <source>%@ / month</source>
+        <target state="translated">%@/mês</target>
+        <note>Product price for monthly premium subscription. [localizedPrice: String]</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Upgrade/price] %@ / year" xml:space="preserve">
+        <source>%@ / year</source>
+        <target state="translated">%@/ano</target>
+        <note>Product price for annual premium subscription. [localizedPrice: String]</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Upgrade/price] %@ once" xml:space="preserve">
+        <source>%@ once</source>
+        <target state="translated">Pagamento único: %@</target>
+        <note>Product price for once-and-forever premium. [localizedPrice: String]</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Upgrade/price] around %@ / month" xml:space="preserve">
+        <source>≈ %@ / month</source>
+        <target state="translated">≈%@/mês</target>
+        <note>Equivalent monthly price for an annual subscription. For example: `$12/year ≈ $1 / month`</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Upgrade] Hmm, there are no upgrades available. This should not happen, please contact support." xml:space="preserve">
+        <source>Hmm, there are no upgrades available. This should not happen, please contact support.</source>
+        <target state="translated">Hum... Não há atualizações disponíveis. Isso não deveria ocorrer. Por favor, contacte nosso suporte.</target>
+        <note>Error message: AppStore returned no available in-app purchase options</note>
+      </trans-unit>
+      <trans-unit id="[Premium/perpetualLicense]" xml:space="preserve">
+        <source>Perpetual license</source>
+        <target state="translated">Licença perpétua</target>
+        <note>Name of the permanent/never-ending license.</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/CustomAppIcons/title]" xml:space="preserve">
         <source>Custom App Icons</source>
@@ -681,8 +953,8 @@ Como resultado, tanto o preenchimento automático quanto o aplicativo principal 
         <note>Title of a premium feature: ability to change the app icon</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/Generic/description]" xml:space="preserve">
-        <source>You have found a premium feature! Upgrade to premium and enjoy KeePassium at its best.</source>
-        <target state="translated">Você encontrou um recurso Premium! Atualize para Premium e aproveite KeePassium ao máximo.</target>
+        <source>Upgrade to Premium and enjoy KeePassium at its best.</source>
+        <target state="translated">Atualize para Premium e aproveite KeePassium ao máximo.</target>
         <note>A generic description of a premium feature</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/Generic/title]" xml:space="preserve">
@@ -1195,6 +1467,18 @@ Como resultado, tanto o preenchimento automático quanto o aplicativo principal 
       </trans-unit>
     </body>
   </file>
+  <file original="KeePassium/database/icon/Base.lproj/ItemIconPicker.storyboard" source-language="en" target-language="pt-BR" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
+    </header>
+    <body>
+      <trans-unit id="H8v-gf-kff.title" xml:space="preserve">
+        <source>Choose Icon</source>
+        <target state="translated">Escolher ícone</target>
+        <note>Class = "UINavigationItem"; title = "Choose Icon"; ObjectID = "H8v-gf-kff";</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="KeePassium/database/relocation/Base.lproj/DestinationGroupPickerVC.storyboard" source-language="en" target-language="pt-BR" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
@@ -1273,6 +1557,11 @@ Como resultado, tanto o preenchimento automático quanto o aplicativo principal 
         <target state="translated">Um banco de dados do KeePass não pode ser usado como arquivo de chave. Por favor, escolha um arquivo diferente.</target>
         <note>Warning message when the user tries to use a database as a key file</note>
       </trans-unit>
+      <trans-unit id="[Accessibility] Double tap to copy to clipboard" xml:space="preserve">
+        <source>Double tap to copy to clipboard</source>
+        <target state="translated">Toque duas vezes para copiar</target>
+        <note>Suggestion/hint for available user action</note>
+      </trans-unit>
       <trans-unit id="[AppLock/Biometric/Hint] Unlock KeePassium" xml:space="preserve">
         <source>Unlock KeePassium</source>
         <target state="translated">Desbloquear KeePassium</target>
@@ -1307,6 +1596,16 @@ Como resultado, tanto o preenchimento automático quanto o aplicativo principal 
         <source>Touch ID</source>
         <target state="translated">Touch ID</target>
         <note>Name of biometric authentication method. Trademarked, do not translate unless Apple traslated it to your language.</note>
+      </trans-unit>
+      <trans-unit id="[Clipboard/Copy/namedValue]" xml:space="preserve">
+        <source>Copy %@</source>
+        <target state="translated">Copiar %@</target>
+        <note>Action copy some named value to clipboard. For example: `Copy Password`. [valueName: String]</note>
+      </trans-unit>
+      <trans-unit id="[Clipboard/Copy/notification]" xml:space="preserve">
+        <source>Copied</source>
+        <target state="needs-translation">Copied</target>
+        <note>Notification: an item has been copied to clipboard</note>
       </trans-unit>
       <trans-unit id="[Database/Add] Selected file &quot;%@&quot; does not look like a database." xml:space="preserve">
         <source>Selected file "%@" does not look like a database.</source>
@@ -1567,6 +1866,11 @@ Como resultado, tanto o preenchimento automático quanto o aplicativo principal 
         <target state="translated">Tente retirar o arquivo do aplicativo e adicioná-lo de novo.</target>
         <note>A suggestion shown after specific file errors (either databases or key files).</note>
       </trans-unit>
+      <trans-unit id="[File/Re-add/title]" xml:space="preserve">
+        <source>Add the file again</source>
+        <target state="translated">Adicionar arquivo novamente</target>
+        <note>Action: re-add (a broken) database or key file to the app.</note>
+      </trans-unit>
       <trans-unit id="[FileInfo/Backup/header]" xml:space="preserve">
         <source>Backup</source>
         <target state="translated">Copias de segurança</target>
@@ -1697,6 +2001,11 @@ Como resultado, tanto o preenchimento automático quanto o aplicativo principal 
         <target state="translated">Copiar</target>
         <note>Action/button to move an item (to another group/folder/etc)</note>
       </trans-unit>
+      <trans-unit id="[Generic] Create" xml:space="preserve">
+        <source>Create</source>
+        <target state="translated">Criar</target>
+        <note>Action/button to create an item (entry, group, file — depending on context)</note>
+      </trans-unit>
       <trans-unit id="[Generic] Delete" xml:space="preserve">
         <source>Delete</source>
         <target state="translated">Apagar</target>
@@ -1727,6 +2036,16 @@ Como resultado, tanto o preenchimento automático quanto o aplicativo principal 
         <target state="translated">Exportar</target>
         <note>Action/button to export an item to another app</note>
       </trans-unit>
+      <trans-unit id="[Generic] Learn more" xml:space="preserve">
+        <source>Learn more…</source>
+        <target state="translated">Saiba mais…</target>
+        <note>Action/button to view more help/info about some topic</note>
+      </trans-unit>
+      <trans-unit id="[Generic] More Actions" xml:space="preserve">
+        <source>More Actions</source>
+        <target state="translated">Mais ações</target>
+        <note>Checkbox/Button to show additional actions</note>
+      </trans-unit>
       <trans-unit id="[Generic] Move" xml:space="preserve">
         <source>Move</source>
         <target state="translated">Mover</target>
@@ -1736,6 +2055,11 @@ Como resultado, tanto o preenchimento automático quanto o aplicativo principal 
         <source>OK</source>
         <target state="translated">OK</target>
         <note>Action/button: generic OK</note>
+      </trans-unit>
+      <trans-unit id="[Generic] Open URL" xml:space="preserve">
+        <source>Open URL</source>
+        <target state="translated">Abrir URL</target>
+        <note>Action/button to open URL in the appropriate app (usually, web browser)</note>
       </trans-unit>
       <trans-unit id="[Generic] Overwrite" xml:space="preserve">
         <source>Overwrite</source>
@@ -1752,10 +2076,20 @@ Como resultado, tanto o preenchimento automático quanto o aplicativo principal 
         <target state="translated">Substituir</target>
         <note>Action/button to replace an item with another one</note>
       </trans-unit>
+      <trans-unit id="[Generic] Share" xml:space="preserve">
+        <source>Share</source>
+        <target state="translated">Compartilhar</target>
+        <note>Action/button to share an item with another app (AirDrop, send an email, etc)</note>
+      </trans-unit>
       <trans-unit id="[Generic] Show Details" xml:space="preserve">
         <source>Show Details</source>
         <target state="translated">Mostrar detalhes</target>
         <note>Action/button to show additional information about an error or item</note>
+      </trans-unit>
+      <trans-unit id="[Generic] Show In Plain Text" xml:space="preserve">
+        <source>Show In Plain Text</source>
+        <target state="translated">Exibir</target>
+        <note>Action/button to show sensitive info as it is, in plain text (as opposed to asterisks)</note>
       </trans-unit>
       <trans-unit id="[Generic] Show more" xml:space="preserve">
         <source>Show more</source>
@@ -1781,6 +2115,11 @@ Como resultado, tanto o preenchimento automático quanto o aplicativo principal 
         <source>New Group</source>
         <target state="translated">Novo Grupo</target>
         <note>Default name of a new group</note>
+      </trans-unit>
+      <trans-unit id="[Group/a11y/description]" xml:space="preserve">
+        <source>%@, Group</source>
+        <target state="translated">%@, Grupo</target>
+        <note>VoiceOver description of a group [groupTitle: String, itemCount: Int]</note>
       </trans-unit>
       <trans-unit id="[HardwareKey/AutoFill/NotAvailable] Hardware keys are not available in AutoFill." xml:space="preserve">
         <source>Hardware keys are not available in AutoFill.</source>
@@ -1886,6 +2225,21 @@ Como resultado, tanto o preenchimento automático quanto o aplicativo principal 
         <target state="translated">Você aproveita</target>
         <note>List of premium benefits/advantages</note>
       </trans-unit>
+      <trans-unit id="[Premium/Benefits/ViewFieldReferences/details]" xml:space="preserve">
+        <source>Use field references to show information from other entries, instead of creating multiple copies of the same information.</source>
+        <target state="needs-translation">Use field references to show information from other entries, instead of creating multiple copies of the same information.</target>
+        <note>Explanation of a premium feature</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Benefits/ViewFieldReferences/title]" xml:space="preserve">
+        <source>Show field references</source>
+        <target state="needs-translation">Show field references</target>
+        <note>Title of a premium feature</note>
+      </trans-unit>
+      <trans-unit id="[Premium/CallToAction/buyNow]" xml:space="preserve">
+        <source>Buy Now</source>
+        <target state="translated">Compre agora</target>
+        <note>Call to action</note>
+      </trans-unit>
       <trans-unit id="[Premium/CallToAction/free]" xml:space="preserve">
         <source>Continue Testing</source>
         <target state="translated">Continuar testando</target>
@@ -1900,6 +2254,11 @@ Como resultado, tanto o preenchimento automático quanto o aplicativo principal 
         <source>Upgrade Now</source>
         <target state="translated">Atualize agora</target>
         <note>Call to action: upgrade to premium</note>
+      </trans-unit>
+      <trans-unit id="[Premium/ManageSubscriptions/action]" xml:space="preserve">
+        <source>Manage subscriptions</source>
+        <target state="translated">Gerenciar assinaturas</target>
+        <note>Action: open AppStore subscription management page</note>
       </trans-unit>
       <trans-unit id="[Premium/PerpetualLicense/status]" xml:space="preserve">
         <source>You have a perpetual license for all the versions before %@.</source>
@@ -1931,10 +2290,20 @@ Como resultado, tanto o preenchimento automático quanto o aplicativo principal 
         <target state="needs-translation">Customer support: Email</target>
         <note>What's included in a price plan: support via email</note>
       </trans-unit>
+      <trans-unit id="[Premium/Price Plan/Conditions/family sharing]" xml:space="preserve">
+        <source>Family Sharing</source>
+        <target state="translated">Compartilhamento familiar</target>
+        <note>Family Sharing programme. Translation must match Apple's: https://www.apple.com/family-sharing/</note>
+      </trans-unit>
       <trans-unit id="[Premium/Price Plan/Conditions/freemium reminders]" xml:space="preserve">
         <source>Freemium reminders</source>
         <target state="needs-translation">Freemium reminders</target>
         <note>What's included in a free plan: reminders that the version is free</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Price Plan/Conditions/full price upgrade]" xml:space="preserve">
+        <source>Premium features added in the future would require a new purchase at full price.</source>
+        <target state="translated">Recursos premium adicionados no futuro exigirão uma nova compra pelo valor cheio vigente.</target>
+        <note>Upgrade conditions for current-version premium purchase.</note>
       </trans-unit>
       <trans-unit id="[Premium/Price Plan/Conditions/future premium features]" xml:space="preserve">
         <source>Future premium features</source>
@@ -1945,6 +2314,11 @@ Como resultado, tanto o preenchimento automático quanto o aplicativo principal 
         <source>Rent-to-own license (Perpetual fallback license)</source>
         <target state="needs-translation">Rent-to-own license (Perpetual fallback license)</target>
         <note>What's included in a price plan. Please leave `perpetual fallback license` in English.</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Price Plan/Conditions/subscription as purchase]" xml:space="preserve">
+        <source>Subscription as a purchase</source>
+        <target state="needs-translation">Subscription as a purchase</target>
+        <note>What's included in a subscription plan. By subscribing for a certain period, the user receives a permanent license for a version of the app. More info: https://keepassium.com/articles/perpetual-fallback-license/</note>
       </trans-unit>
       <trans-unit id="[Premium/Price Plan/Conditions/updates and bug fixes]" xml:space="preserve">
         <source>Updates and bug fixes</source>
@@ -1988,10 +2362,10 @@ You can manage and cancel your subscriptions by going to your account settings o
         <target state="translated">%1$@ grátis, depois %2$@</target>
         <note>Trial conditions. For example `30 days free, then $1 per month`</note>
       </trans-unit>
-      <trans-unit id="[Premium/Upgrade/Deferred/text] Thank you! You can use KeePassium while purchase is awaiting approval from a parent" xml:space="preserve">
-        <source>Thank you! You can use KeePassium while purchase is awaiting approval from a parent</source>
-        <target state="translated">Obrigado! Você pode continuar usando KeePassium enquanto a compra aguarda aprovação de um responsável.</target>
-        <note>Message shown when in-app purchase is deferred until parental approval.</note>
+      <trans-unit id="[Premium/Upgrade/Deferred/text] Thank you! You can use KeePassium while purchase is awaiting approval." xml:space="preserve">
+        <source>Thank you! You can use KeePassium while purchase is awaiting approval.</source>
+        <target state="needs-translation">Thank you! You can use KeePassium while purchase is awaiting approval.</target>
+        <note>Message shown when in-app purchase is deferred until approval (parental or corporate).</note>
       </trans-unit>
       <trans-unit id="[Premium/Upgrade/Progress] Contacting AppStore..." xml:space="preserve">
         <source>Contacting AppStore...</source>
@@ -2023,10 +2397,20 @@ You can manage and cancel your subscriptions by going to your account settings o
         <target state="translated">Compra restaurada</target>
         <note>Title of the message shown after in-app purchase was successfully restored</note>
       </trans-unit>
+      <trans-unit id="[Premium/Upgrade/Success/thankYou]" xml:space="preserve">
+        <source>Thank you for the purchase!</source>
+        <target state="needs-translation">Thank you for the purchase!</target>
+        <note>Message shown after buying or subscribing.</note>
+      </trans-unit>
       <trans-unit id="[Premium/Upgrade/action] Upgrade to Premium" xml:space="preserve">
         <source>Upgrade to Premium</source>
         <target state="translated">Atualizar para Premium</target>
         <note>Action/button to start choosing premium versions and possibly buying one</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Upgrade/cancelOngoingSubscription]" xml:space="preserve">
+        <source>Please check if you need to cancel your old subscription.</source>
+        <target state="needs-translation">Please check if you need to cancel your old subscription.</target>
+        <note>Message shown after buying a lifetime version.</note>
       </trans-unit>
       <trans-unit id="[Premium/Upgrade/price] %@ / month" xml:space="preserve">
         <source>%@ / month</source>
@@ -2089,8 +2473,8 @@ You can manage and cancel your subscriptions by going to your account settings o
         <note>Title of a premium feature: ability to change the app icon</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/Generic/description]" xml:space="preserve">
-        <source>You have found a premium feature! Upgrade to premium and enjoy KeePassium at its best.</source>
-        <target state="translated">Você encontrou um recurso Premium! Atualize para Premium e aproveite KeePassium ao máximo.</target>
+        <source>Upgrade to Premium and enjoy KeePassium at its best.</source>
+        <target state="translated">Atualize para Premium e aproveite KeePassium ao máximo.</target>
         <note>A generic description of a premium feature</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/Generic/title]" xml:space="preserve">
@@ -2147,6 +2531,16 @@ You can manage and cancel your subscriptions by going to your account settings o
         <source>Use %@</source>
         <target state="translated">Usar %@</target>
         <note>Settings switch: whether AppLock is allowed to use Touch ID/Face ID. Example: 'Use Touch ID'. [biometryTypeName: String]</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AppLock/LockOnLaunch/description]" xml:space="preserve">
+        <source>Ensures KeePassium is locked after you force-close the app or restart the device.</source>
+        <target state="needs-translation">Ensures KeePassium is locked after you force-close the app or restart the device.</target>
+        <note>Explanation for the `Lock on App Launch` setting</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AppLock/LockOnLaunch/title]" xml:space="preserve">
+        <source>Lock on App Launch</source>
+        <target state="needs-translation">Lock on App Launch</target>
+        <note>Setting switch: whether to lock the app after it was terminated and relaunched.</note>
       </trans-unit>
       <trans-unit id="[Settings/AppLock/subtitle] App Lock, %@, timeout" xml:space="preserve">
         <source>App Lock, %@, timeout</source>
@@ -2487,18 +2881,6 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
     </body>
   </file>
-  <file original="KeePassium/database/icon/Base.lproj/ItemIconPicker.storyboard" source-language="en" target-language="pt-BR" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
-    </header>
-    <body>
-      <trans-unit id="H8v-gf-kff.title" xml:space="preserve">
-        <source>Choose Icon</source>
-        <target state="needs-translation">Choose Icon</target>
-        <note>Class = "UINavigationItem"; title = "Choose Icon"; ObjectID = "H8v-gf-kff";</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="KeePassium/general/Base.lproj/FileInfoVC.storyboard" source-language="en" target-language="pt-BR" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
@@ -2799,6 +3181,11 @@ You can have multiple databases, for example to separate work, family and person
         <target state="translated">Manter cópias de segurança</target>
         <note>Class = "UILabel"; text = "Keep Backup Files"; ObjectID = "G42-gR-eKm"; Note = "Settings option: how long to keep backup copies. Example: `Keep Backup Copies: 3 days`";</note>
       </trans-unit>
+      <trans-unit id="Qs6-uS-gdS.text" xml:space="preserve">
+        <source>Exclude Backup Files from System Backup</source>
+        <target state="needs-translation">Exclude Backup Files from System Backup</target>
+        <note>Class = "UILabel"; text = "Exclude Backup Files from System Backup"; ObjectID = "Qs6-uS-gdS"; Note = "Settings option, on/off";</note>
+      </trans-unit>
       <trans-unit id="XeH-7q-aad.footerTitle" xml:space="preserve">
         <source>Backup copies will appear along with the original files.</source>
         <target state="translated">As cópias de segurança aparecerão junto aos arquivos originais.</target>
@@ -2808,6 +3195,16 @@ You can have multiple databases, for example to separate work, family and person
         <source>Show Backup Files</source>
         <target state="translated">Mostrar cópias de segurança</target>
         <note>Class = "UILabel"; text = "Show Backup Files"; ObjectID = "aEK-cJ-9bc"; Note = "Settings option: whether to show backup copies in the list of database files";</note>
+      </trans-unit>
+      <trans-unit id="fst-lq-BDl.footerTitle" xml:space="preserve">
+        <source>Defines whether backup databases created by KeePassium should be excluded from iCloud/iTunes backup. Applies to all the existing and future backup files.</source>
+        <target state="needs-translation">Defines whether backup databases created by KeePassium should be excluded from iCloud/iTunes backup. Applies to all the existing and future backup files.</target>
+        <note>Class = "UITableViewSection"; footerTitle = "Defines whether backup databases created by KeePassium should be excluded from iCloud/iTunes backup. Applies to all the existing and future backup files."; ObjectID = "fst-lq-BDl"; Note = "Section header, refers to Apple's backup services (https://support.apple.com/HT203977)";</note>
+      </trans-unit>
+      <trans-unit id="fst-lq-BDl.headerTitle" xml:space="preserve">
+        <source>iTunes and iCloud Backup</source>
+        <target state="needs-translation">iTunes and iCloud Backup</target>
+        <note>Class = "UITableViewSection"; headerTitle = "iTunes and iCloud Backup"; ObjectID = "fst-lq-BDl"; Note = "Section header, refers to Apple's backup services (https://support.apple.com/HT203977)";</note>
       </trans-unit>
       <trans-unit id="nBI-OF-9iV.footerTitle" xml:space="preserve">
         <source>Before saving a database, KeePassium will automatically make a copy, just in case.</source>
@@ -2904,6 +3301,16 @@ You can have multiple databases, for example to separate work, family and person
         <target state="translated">Área de transferência universal</target>
         <note>Class = "UILabel"; text = "Universal Clipboard"; ObjectID = "YL6-U9-FM6";</note>
       </trans-unit>
+      <trans-unit id="Zqb-p5-Ft8.footerTitle" xml:space="preserve">
+        <source>Cached keys allow KeePassium to skip key derivation and YubiKey scans whenever possible. </source>
+        <target state="needs-translation">Cached keys allow KeePassium to skip key derivation and YubiKey scans whenever possible. </target>
+        <note>Class = "UITableViewSection"; footerTitle = "Cached keys allow KeePassium to skip key derivation and YubiKey scans whenever possible. "; ObjectID = "Zqb-p5-Ft8"; Note = "Section title: advanced/expert settings";</note>
+      </trans-unit>
+      <trans-unit id="Zqb-p5-Ft8.headerTitle" xml:space="preserve">
+        <source>Advanced</source>
+        <target state="needs-translation">Advanced</target>
+        <note>Class = "UITableViewSection"; headerTitle = "Advanced"; ObjectID = "Zqb-p5-Ft8"; Note = "Section title: advanced/expert settings";</note>
+      </trans-unit>
       <trans-unit id="e1v-nv-Mst.normalTitle" xml:space="preserve">
         <source>Clear Master Keys</source>
         <target state="translated">Apagar chaves-mestras</target>
@@ -2953,6 +3360,11 @@ You can have multiple databases, for example to separate work, family and person
         <source>Hide Passwords</source>
         <target state="translated">Esconder Senhas</target>
         <note>Class = "UILabel"; text = "Hide Passwords"; ObjectID = "pid-k2-idJ";</note>
+      </trans-unit>
+      <trans-unit id="siQ-LK-GXZ.text" xml:space="preserve">
+        <source>Cache Derived Encryption Keys</source>
+        <target state="needs-translation">Cache Derived Encryption Keys</target>
+        <note>Class = "UILabel"; text = "Cache Derived Encryption Keys"; ObjectID = "siQ-LK-GXZ"; Note = "Setting: preserve (cache) calculated database keys";</note>
       </trans-unit>
       <trans-unit id="weX-SZ-IDB.text" xml:space="preserve">
         <source>Database Timeout</source>
