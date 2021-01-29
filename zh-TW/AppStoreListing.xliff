@@ -146,7 +146,7 @@ KeePassium 是否應具有對雲端服務的完全訪問權限？ 當然不是�
       <trans-unit id="Description/Freemium/title">
         <source>FREE vs PREMIUM</source>
         <note>Section header, capitalized: a comparison of free and premium version.</note>
-        <target state="translated">免費版 vs 高級版</target>
+        <target state="translated">免費版 vs 進階版</target>
       </trans-unit>
       <trans-unit id="Description/Freemium/text">
         <source>There is no "trial period". The free version is always completely functional. You can view and edit, use Touch ID / Face ID, search and AutoFill — but only with one database at a time.
@@ -162,9 +162,9 @@ With the premium version, you can:
         <note>Please keep the bullet points (followed by one space)</note>
         <target state="translated">沒有“試用期”。 免費版本可以完完全全的正常運行。 您可以查看和編輯，使用Touch ID / Face ID，搜索和自動填充 - 但一次只能使用一個資料庫。
 
-您可以為您的家人安裝免費的KeePassium。 如果他們很少使用KeePassium，我們不會頻繁地給予他們購買高級版的提示。
+您可以為您的家人安裝免費的KeePassium。 如果他們很少使用KeePassium，我們不會頻繁地給予他們購買進階版的提示。
 
-使用高級版本，您可以：
+使用進階版本，您可以：
 •在多個資料庫之間快速切換。
 •只需輕輕一按即可解鎖資料庫，並在需要時保持打開狀態。
 •在應用程式中查看附件，而不會在系統中留下痕跡。
@@ -183,11 +183,29 @@ With the premium version, you can:
 * Privacy policy: https://keepassium.com/privacy/app
 * Terms of Use: https://keepassium.com/terms/app</source>
         <note>Mandatory legalese required by Apple. Asterisks instead of bullet points.</note>
-        <target state="translated">*高級版作為應用內購買，可按週期訂閱或一次性付款。
+        <target state="translated">*進階版作為應用內購買，可按週期訂閱或一次性付款。
 *付款將在(應用內)購買確認時從您的Apple ID帳戶中扣除。 除非在到期前至少24小時取消，否則訂閱會自動續訂。 您的帳戶將在到期前24小時內收取續訂費用。
 *您可以在購買後轉到App Store上的帳戶設置來管理和取消訂閱。
 *隱私政策：https://keepassium.com/privacy/app
 *使用條款：https://keepassium.com/terms/app</target>
+      </trans-unit>
+      <trans-unit id="Subtitle Pro">
+        <source>Lifetime license</source>
+        <note>Subtitle for the Pro version</note>
+        <target state="translated">終生訂閱</target>
+      </trans-unit>
+      <trans-unit id="Description/Intro Pro">
+        <source>KeePassium Pro is the full version of KeePassium Password Manager. This app offers a lifetime license as a one-time purchase.</source>
+        <target state="translated">KeePassium Pro 是 KeePassium 密碼管理器完整功能的版本，提供了一次性購買的終身授權。</target>
+      </trans-unit>
+      <trans-unit id="Benefits of the Pro version">
+        <source>• All premium features (current and future)
+• Lifetime email support
+• No in-app purchases</source>
+        <note>Please keep the bullet points (followed by one space)</note>
+        <target state="translated">• 所有進階功能 (當前和未來)
+• 終生電子郵件客戶服務
+• 沒有應用內購買的項目</target>
       </trans-unit>
     </body>
   </file>
