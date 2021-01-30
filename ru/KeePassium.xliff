@@ -3807,9 +3807,9 @@ You can have multiple databases, for example to separate work, family and person
         <target state="translated">Универсальный буфер обмена</target>
         <note>Class = "UILabel"; text = "Universal Clipboard"; ObjectID = "YL6-U9-FM6";</note>
       </trans-unit>
-      <trans-unit id="Zqb-p5-Ft8.footerTitle" xml:space="preserve">
+      <trans-unit id="Zqb-p5-Ft8.footerTitle" xml:space="preserve" approved="yes">
         <source>Cached keys allow KeePassium to skip key derivation and YubiKey scans whenever possible. </source>
-        <target state="translated">Кэшированные ключи позволяют KeePassium пропускать формирование ключей, а YubiKey сканировать, когда это возможно. </target>
+        <target state="final">Кешированные ключи позволяют KeePassium пропускать этап формирования ключей и сканирование YubiKey, когда это возможно. </target>
         <note>Class = "UITableViewSection"; footerTitle = "Cached keys allow KeePassium to skip key derivation and YubiKey scans whenever possible. "; ObjectID = "Zqb-p5-Ft8"; Note = "Section title: advanced/expert settings";</note>
       </trans-unit>
       <trans-unit id="Zqb-p5-Ft8.headerTitle" xml:space="preserve">
@@ -3872,9 +3872,9 @@ You can have multiple databases, for example to separate work, family and person
         <target state="translated">Скрывать пароли</target>
         <note>Class = "UILabel"; text = "Hide Passwords"; ObjectID = "pid-k2-idJ";</note>
       </trans-unit>
-      <trans-unit id="siQ-LK-GXZ.text" xml:space="preserve">
+      <trans-unit id="siQ-LK-GXZ.text" xml:space="preserve" approved="yes">
         <source>Cache Derived Encryption Keys</source>
-        <target state="translated">Ключи шифрования кэша</target>
+        <target state="final">Кешировать вычисленные ключи шифрования</target>
         <note>Class = "UILabel"; text = "Cache Derived Encryption Keys"; ObjectID = "siQ-LK-GXZ"; Note = "Setting: preserve (cache) calculated database keys";</note>
       </trans-unit>
       <trans-unit id="weX-SZ-IDB.text" xml:space="preserve" approved="yes">
