@@ -19,17 +19,17 @@
     <body>
       <trans-unit id="[AppLock/Passcode/KeyboardType/title] Alphanumeric" xml:space="preserve">
         <source>Alphanumeric</source>
-        <target state="translated">أبجدي رقمي</target>
+        <target state="translated">أبجدي عددي</target>
         <note>Type of keyboard to show for App Lock passcode: letters and digits.</note>
       </trans-unit>
       <trans-unit id="[AppLock/Passcode/KeyboardType/title] Numeric" xml:space="preserve">
         <source>Numeric</source>
-        <target state="translated">رقمي</target>
+        <target state="translated">عددي</target>
         <note>Type of keyboard to show for App Lock passcode: digits only (PIN code).</note>
       </trans-unit>
       <trans-unit id="[ChallengeResponseError] cancelled" xml:space="preserve">
         <source>Cancelled by the user.</source>
-        <target state="translated">تمّ الإلغاء بواسطة المستخدم.</target>
+        <target state="translated">تمّ الإلغاء بواسطة المُستخدم.</target>
         <note>Error message when the challenge-response communication has been cancelled by the user.</note>
       </trans-unit>
       <trans-unit id="[ChallengeResponseError] keyNotConnected" xml:space="preserve">
@@ -44,7 +44,7 @@
       </trans-unit>
       <trans-unit id="[ChallengeResponseError] notSupportedByDatabaseFormat" xml:space="preserve">
         <source>Hardware keys are not supported by this database format.</source>
-        <target state="translated">أجهزة المفاتيح غير مدعومة بصيغة قاعدة البيانات هذه.</target>
+        <target state="translated">أجهزة المفاتيح غير مدعومة في صيغة قاعدة البيانات هذه.</target>
         <note>Error message when trying to use challenge-response with a kdb database.</note>
       </trans-unit>
       <trans-unit id="[ChallengeResponseError] notSupportedByDeviceOrSystem" xml:space="preserve">
@@ -54,27 +54,27 @@
       </trans-unit>
       <trans-unit id="[ChallengeResponseError] slotNotConfigured" xml:space="preserve">
         <source>Hardware key is not configured for challenge-response.</source>
-        <target state="translated">لم يتم تكوين جهاز المفاتيح للاستجابة للتحدي.</target>
+        <target state="translated">لم يتم تكوين جهاز المفاتيح للاستجابة إلى التحدي.</target>
         <note>Error message: the hardware key (or its slot) was not configured for challenge-response operations.</note>
       </trans-unit>
       <trans-unit id="[Cipher/Progress] Decrypting" xml:space="preserve">
         <source>Decrypting</source>
-        <target state="translated">جاري فك التشفير</target>
+        <target state="translated">يجري فكّ التعمية</target>
         <note>Progress status</note>
       </trans-unit>
       <trans-unit id="[Cipher/Progress] Encrypting" xml:space="preserve">
         <source>Encrypting</source>
-        <target state="translated">جاري التشفير</target>
+        <target state="translated">التعمية جارية</target>
         <note>Progress status</note>
       </trans-unit>
       <trans-unit id="[CryptoError] AES decryption error (code %d)" xml:space="preserve">
         <source>AES decryption error (code %d)</source>
-        <target state="translated">خطأ في فك تشفير AES (الرمز %d)</target>
+        <target state="translated">خطأ في فك تعمية AES (الرمز %d)</target>
         <note>Error message about AES cipher. [errorCode: Int]</note>
       </trans-unit>
       <trans-unit id="[CryptoError] AES encryption error (code %d)" xml:space="preserve">
         <source>AES encryption error (code %d)</source>
-        <target state="translated">خطأ في تشفير AES (الرمز %d)</target>
+        <target state="translated">خطأ في تعمية AES (الرمز %d)</target>
         <note>Error message about AES cipher. [errorCode: Int]</note>
       </trans-unit>
       <trans-unit id="[CryptoError] AES initialization error (code %d)" xml:space="preserve">
@@ -104,32 +104,32 @@
       </trans-unit>
       <trans-unit id="[CryptoError] Twofish cipher error (code %d)" xml:space="preserve">
         <source>Twofish cipher error (code %d)</source>
-        <target state="translated">خطأ في التشفير الثنائي (الرمز %d)</target>
+        <target state="translated">خطأ في التعمية الثُنائية (الرمز %d)</target>
         <note>Error message about Twofish cipher. [errorCode: Int]</note>
       </trans-unit>
       <trans-unit id="[Database/Load/Error] Cannot find database file" xml:space="preserve">
         <source>Cannot find database file</source>
-        <target state="translated">لا يمكن العثور على ملف قاعدة البيانات</target>
+        <target state="translated">يتعذَّر العثور على ملف قاعدة البيانات</target>
         <note>Error message</note>
       </trans-unit>
       <trans-unit id="[Database/Load/Error] Cannot find key file" xml:space="preserve">
         <source>Cannot find key file</source>
-        <target state="translated">لا يمكن العثور على ملف المفتاح</target>
+        <target state="translated">يتعذَّر العثور على ملف المفتاح</target>
         <note>Error message</note>
       </trans-unit>
       <trans-unit id="[Database/Load/Error] Cannot open database file" xml:space="preserve">
         <source>Cannot open database file</source>
-        <target state="translated">لا يمكن فتح ملف قاعدة البيانات</target>
+        <target state="translated">يتعذَّر فتح ملف قاعدة البيانات</target>
         <note>Error message</note>
       </trans-unit>
       <trans-unit id="[Database/Load/Error] Cannot open key file" xml:space="preserve">
         <source>Cannot open key file</source>
-        <target state="translated">لا يمكن فتح ملف المفتاح</target>
+        <target state="translated">يتعذَّر فتح ملف المفتاح</target>
         <note>Error message</note>
       </trans-unit>
       <trans-unit id="[Database/Load/Error] Please provide at least a password or a key file" xml:space="preserve">
         <source>Please provide at least a password or a key file</source>
-        <target state="translated">الرجاء تعيين كلمة مرور أو ملف مفتاح على الأقل</target>
+        <target state="translated">يُرجى تعيِّين كلمة مرور أو ملف مفتاح على الأقل</target>
         <note>Error shown when both master password and key file are empty</note>
       </trans-unit>
       <trans-unit id="[Database/Load/Error] Unrecognized database format" xml:space="preserve">
@@ -139,42 +139,42 @@
       </trans-unit>
       <trans-unit id="[Database/Progress/downloading]" xml:space="preserve">
         <source>Downloading database file...</source>
-        <target state="translated">جاري تحميل ملف قاعدة البيانات...</target>
+        <target state="translated">يجري تنزيل ملف قاعدة البيانات...</target>
         <note>Database loading status: fetching the database file from disk/cloud</note>
       </trans-unit>
       <trans-unit id="[Database/Progress/makingDatabaseBackup]" xml:space="preserve">
         <source>Making backup copy...</source>
-        <target state="translated">جاري إنشاء نسخة احتياطية...</target>
+        <target state="translated">يجري إنشاء نسخة احتياطية...</target>
         <note>Database saving status: making a local backup copy of the database</note>
       </trans-unit>
       <trans-unit id="[Database/Progress/resolvingFieldReferences]" xml:space="preserve">
         <source>Resolving field references…</source>
-        <target state="needs-translation">Resolving field references…</target>
+        <target state="translated">يجري حل مراجع الحقول…</target>
         <note>Database loading/saving status: replacing field references with their values</note>
       </trans-unit>
       <trans-unit id="[Database/Progress/resolving]" xml:space="preserve">
         <source>Contacting storage provider...</source>
-        <target state="translated">جاري الاتصال بخدمة التخزين...</target>
+        <target state="translated">يجري الاتصال بخدمة التخزين...</target>
         <note>Progress status</note>
       </trans-unit>
       <trans-unit id="[Database/Progress] Done" xml:space="preserve">
         <source>Done</source>
-        <target state="translated">تمّ التحميل</target>
+        <target state="translated">تمَّ التحميل</target>
         <note>Progress status: finished loading database</note>
       </trans-unit>
       <trans-unit id="[Database/Progress] Loading key file..." xml:space="preserve">
         <source>Loading key file...</source>
-        <target state="translated">جاري تحميل ملف المفتاح...</target>
+        <target state="translated">يجري تحميل ملف المفتاح...</target>
         <note>Progress status</note>
       </trans-unit>
       <trans-unit id="[Database/Unlock/Error] Failed to open key file" xml:space="preserve">
         <source>Failed to open key file</source>
-        <target state="translated">فشل في فتح ملف المفتاح</target>
+        <target state="translated">فشل فتح ملف المفتاح</target>
         <note>Error message</note>
       </trans-unit>
       <trans-unit id="[Database/Unlock/Error] Password and key file are both empty." xml:space="preserve">
         <source>Password and key file are both empty.</source>
-        <target state="translated">كلمة المرور وملف المفتاح فارغان.</target>
+        <target state="translated">كلمة المرور وملف المفتاح كِلاهُما فارغان.</target>
         <note>Error message</note>
       </trans-unit>
       <trans-unit id="[Database1/FormatError] Database file is corrupted." xml:space="preserve">
@@ -189,7 +189,7 @@
       </trans-unit>
       <trans-unit id="[Database1/FormatError] Found an entry outside any group. Corrupted DB file?" xml:space="preserve">
         <source>Found an entry outside any group. Corrupted DB file?</source>
-        <target state="translated">تم العثور على سجل خارج أي مجموعة. ملف قاعدة البيانات تالف؟</target>
+        <target state="translated">تمَّ العثور على سجل خارج أي مجموعة. ملف قاعدة البيانات تالف؟</target>
         <note>Error message</note>
       </trans-unit>
       <trans-unit id="[Database1/FormatError] Unexpected end of file. Corrupted database file?" xml:space="preserve">
@@ -204,7 +204,7 @@
       </trans-unit>
       <trans-unit id="[Database1/Header1/Error] Unsupported cipher. (Code: %@)" xml:space="preserve">
         <source>Unsupported cipher. (Code: %@)</source>
-        <target state="translated">تشفير غير مدعوم. (الرمز: %@)</target>
+        <target state="translated">تعمية غير مدعومة. (الرمز: %@)</target>
         <note>Error message. [flagsHexString: String]</note>
       </trans-unit>
       <trans-unit id="[Database1/Header1/Error] Unsupported database format version: %@." xml:space="preserve">
@@ -214,7 +214,7 @@
       </trans-unit>
       <trans-unit id="[Database1/Header1/Error] Wrong file signature. Not a KeePass database?" xml:space="preserve">
         <source>Wrong file signature. Not a KeePass database?</source>
-        <target state="translated">توقيع الملف خاطئ. ليست قاعدة بيانات KeePass ؟</target>
+        <target state="translated">توقيع الملف خاطئ. ليست قاعدة بيانات KeePass؟</target>
         <note>Error message when opening a database</note>
       </trans-unit>
       <trans-unit id="[Database1/Progress] Packing the content" xml:space="preserve">
@@ -229,22 +229,22 @@
       </trans-unit>
       <trans-unit id="[Database2/FormatError] Cannot parse database. %@" xml:space="preserve">
         <source>Cannot parse database. %@</source>
-        <target state="translated">لا يمكن تحليل قاعدة البيانات. %@</target>
+        <target state="translated">يتعذَّر تحليل قاعدة البيانات. %@</target>
         <note>Error message. Parsing refers to the analysis/understanding of file content. [reason: String]</note>
       </trans-unit>
       <trans-unit id="[Database2/FormatError] Corrupted database file (HMAC mismatch in block %d)" xml:space="preserve">
         <source>Corrupted database file (HMAC mismatch in block %d)</source>
-        <target state="translated">ملف قاعدة البيانات تالف (عدم تطابق HMAC في الكتلة %d)</target>
+        <target state="translated">ملف قاعدة بيانات تالف (عدم تطابق HMAC في الكتلة %d)</target>
         <note>Error message: HMAC value (kind of checksum) of a data block is wrong. [blockIndex: Int]</note>
       </trans-unit>
       <trans-unit id="[Database2/FormatError] Corrupted database file (block %d has negative size)" xml:space="preserve">
         <source>Corrupted database file (block %d has negative size)</source>
-        <target state="translated">ملف قاعدة البيانات تالف (الكتلة %d لها حجم سالب)</target>
+        <target state="translated">ملف قاعدة بيانات تالف (الكتلة %d لها حجم سالب)</target>
         <note>Error message [blockIndex: Int]</note>
       </trans-unit>
       <trans-unit id="[Database2/FormatError] Corrupted database file (hash mismatch in block %d)" xml:space="preserve">
         <source>Corrupted database file (hash mismatch in block %d)</source>
-        <target state="translated">ملف قاعدة البيانات تالف (عدم تطابق التجزئة في الكتلة %d)</target>
+        <target state="translated">ملف قاعدة بيانات تالف (عدم تطابق التجزئة في الكتلة %d)</target>
         <note>Error message: hash(checksum) of a data block is wrong. [blockIndex: Int]</note>
       </trans-unit>
       <trans-unit id="[Database2/FormatError] Gzip error: %@" xml:space="preserve">
@@ -254,7 +254,7 @@
       </trans-unit>
       <trans-unit id="[Database2/FormatError] Unexpected block ID." xml:space="preserve">
         <source>Unexpected block ID.</source>
-        <target state="translated">مُعرف كتلة غير متوقع.</target>
+        <target state="translated">مُعرِّف كتلة غير متوقع.</target>
         <note>Error message: wrong ID of a data block</note>
       </trans-unit>
       <trans-unit id="[Database2/FormatError] Unexpected end of file. Corrupted file?" xml:space="preserve">
@@ -264,7 +264,7 @@
       </trans-unit>
       <trans-unit id="[Database2/Header2/Error] Failed to uncompress attachment data: %@" xml:space="preserve">
         <source>Failed to uncompress attachment data: %@</source>
-        <target state="translated">فشل فك ضغط البيانات المرفقة: %@</target>
+        <target state="translated">فشل فك ضغط البيانات المُرفقة: %@</target>
         <note>Error message when saving a database. [reason: String]</note>
       </trans-unit>
       <trans-unit id="[Database2/Header2/Error] Header HMAC mismatch. DB file corrupt?" xml:space="preserve">
@@ -299,7 +299,7 @@
       </trans-unit>
       <trans-unit id="[Database2/Header2/Error] Unsupported data cipher: %@" xml:space="preserve">
         <source>Unsupported data cipher: %@</source>
-        <target state="translated">تشفر بيانات غير مدعوم: %@</target>
+        <target state="translated">تعمية بيانات غير مدعومة: %@</target>
         <note>Error message. [uuidHexString: String]</note>
       </trans-unit>
       <trans-unit id="[Database2/Header2/Error] Unsupported database format version: %@." xml:space="preserve">
@@ -314,7 +314,7 @@
       </trans-unit>
       <trans-unit id="[Database2/Header2/Error] Wrong file signature. Not a KeePass database?" xml:space="preserve">
         <source>Wrong file signature. Not a KeePass database?</source>
-        <target state="translated">توقيع الملف خاطئ. ليست قاعدة بيانات KeePass ؟</target>
+        <target state="translated">توقيع الملف خاطئ. ليست قاعدة بيانات KeePass؟</target>
         <note>Error message when opening a database</note>
       </trans-unit>
       <trans-unit id="[Database2/Loading/Error] Error unpacking database: %@" xml:space="preserve">
@@ -326,8 +326,8 @@
         <source>Attachments of some entries are missing data. This is a sign of database corruption, most likely by the last used app (%1$@). KeePassium will preserve the empty attachments, but cannot restore them. You should restore your database from a backup copy. 
 
 Missing attachments: %2$@</source>
-        <target state="translated">المرفقات في بعض السجلات مفقودة. هذه علامة على تلف قاعدة البيانات، على الأرجح من قبل آخر تطبيق مستخدم (%1$@).
-KeePassium سيحتفظ بالمرفقات الفارغة، ولكن لا يمكن استعادتها. يجب عليك استعادة قاعدة البيانات الخاصة بك من نسخة احتياطية.
+        <target state="translated">المُرفقات في بعض السجلات مفقودة. هذه علامة على تلف قاعدة البيانات، على الأرجح من قِبَل آخر تطبيق مُستخدَم (%1$@).
+سيحتفظ KeePassium بالمُرفقات الفارِغة، ولكن لا يُمكن استعادتها. يجبُ عليك استعادة قاعدة البيانات الخاصة بك من نُسخة احتياطية.
 
 المرفقات المفقودة: %2$@</target>
         <note>A warning about missing attachments after loading the database. [lastUsedAppName: String, attachmentNames: String]</note>
@@ -337,9 +337,9 @@ KeePassium سيحتفظ بالمرفقات الفارغة، ولكن لا يمك
 
  Please review attached files in the following entries (and their history):
 %@</source>
-        <target state="translated">بعض السجلات تحتوي على مرفقات بدون اسم. هذه علامة على تلف قاعدة البيانات السابقة.
+        <target state="translated">بعض السجلات تحتوي على مُرفقات بغير اسم. هذه علامة على تلف قاعدة البيانات السابقة.
 
-الرجاء مراجعة الملفات المرفقة في التأريخ والسجلات التالية:
+الرجاء مُراجعة الملفات المُرفقة في التأريخ والسجلات التالية:
 %@</target>
         <note>A warning about nameless attachments, shown after loading the database. [listOfEntryNames: String]</note>
       </trans-unit>
@@ -347,7 +347,7 @@ KeePassium سيحتفظ بالمرفقات الفارغة، ولكن لا يمك
         <source>Some entries have custom field(s) with empty names. This can be a sign of data corruption. Please check these entries:
 
 %@</source>
-        <target state="translated">بعض السجلات تحتوي على حقل(حقول) مخصصة مع اسماء فارغة. يمكن أن يكون هذا علامة على تلف البيانات. يرجى التحقق من هذه الإدخالات:
+        <target state="translated">بعض السجلات تحتوي على حقل/حقول مُخصَّصة مع اسماء فارِغة. يُمكن أن يكون هذا علامة على تلف البيانات. يرجى التحقُّق من هذه الإدخالات:
 
 %@</target>
         <note>A warning about misformatted custom fields after loading the database. [entryPaths: String]</note>
@@ -355,18 +355,18 @@ KeePassium سيحتفظ بالمرفقات الفارغة، ولكن لا يمك
       <trans-unit id="[Database2/Loading/Warning/unusedAttachments]" xml:space="preserve">
         <source>The database contains some attachments that are not used in any entry. Most likely, they have been forgotten by the last used app (%@). However, this can also be a sign of data corruption. 
 Please make sure to have a backup of your database before changing anything.</source>
-        <target state="translated">تحتوي قاعدة البيانات على بعض المرفقات التي لا تستخدم في أي سجل. على الأرجح، تم نسيانها من قبل آخر تطبيق مستخدم (%@). ومع ذلك، يمكن أن يكون هذا أيضا علامة على تلف البيانات.
+        <target state="translated">تحوي قاعدة البيانات بعض المُرفقات التي لا تُستخدم في أي سجل. على الأرجح، تمَّ نسيانها من قِبَل آخر تطبيق مُستخدم (%@). ومع ذلك، يمكن أن يكون هذا أيضا علامة على تلف البيانات.
 الرجاء التأكد من وجود نسخة احتياطية من قاعدة البيانات الخاصة بك قبل تغيير أي شيء.</target>
         <note>A warning about unused attachments after loading the database. [lastUsedAppName: String]</note>
       </trans-unit>
       <trans-unit id="[Database2/Progress/decompressing]" xml:space="preserve">
         <source>Decompressing database</source>
-        <target state="translated">جاري فك ضغط قاعدة البيانات</target>
+        <target state="translated">يجري فك ضغط قاعدة البيانات</target>
         <note>Progress bar status: un-zipping the database content</note>
       </trans-unit>
       <trans-unit id="[Database2/Progress/integrityCheck]" xml:space="preserve">
         <source>Checking integrity</source>
-        <target state="translated">التحقق من سلامة الملف</target>
+        <target state="translated">التحقُّق مِن سلامة الملف</target>
         <note>Progress bar status</note>
       </trans-unit>
       <trans-unit id="[Database2/Progress/parsingXML]" xml:space="preserve">
@@ -381,12 +381,12 @@ Please make sure to have a backup of your database before changing anything.</so
       </trans-unit>
       <trans-unit id="[Database2/Progress] Reading database content" xml:space="preserve">
         <source>Reading database content</source>
-        <target state="translated">قراءة محتوى قاعدة البيانات</target>
+        <target state="translated">قراءة مُحتوى قاعدة البيانات</target>
         <note>Progress bar status</note>
       </trans-unit>
       <trans-unit id="[Database2/Progress] Writing encrypted blocks" xml:space="preserve">
         <source>Writing encrypted blocks</source>
-        <target state="translated">كتابة كتل مشفرة</target>
+        <target state="translated">كتابة كُتَل مُعمَّاة</target>
         <note>Progress bar status</note>
       </trans-unit>
       <trans-unit id="[Database2/Saving/Error] Data compression error: %@" xml:space="preserve">
@@ -396,7 +396,7 @@ Please make sure to have a backup of your database before changing anything.</so
       </trans-unit>
       <trans-unit id="[Database2/Saving/Error] Encryption error: %@" xml:space="preserve">
         <source>Encryption error: %@</source>
-        <target state="translated">خطأ في التشفير: %@</target>
+        <target state="translated">خطأ في التعمية: %@</target>
         <note>Error message while saving a database. [errorDescription: String]</note>
       </trans-unit>
       <trans-unit id="[Database2/Xml2/ParsingError] Malformed value '%@' in %@" xml:space="preserve">
@@ -431,52 +431,52 @@ Please make sure to have a backup of your database before changing anything.</so
       </trans-unit>
       <trans-unit id="[Database2/backupGroupName] Recycle Bin" xml:space="preserve">
         <source>Recycle Bin</source>
-        <target state="translated">سلة المحذوفات</target>
+        <target state="translated">سلَّة المحذوفات</target>
         <note>Name of a group which contains deleted entries</note>
       </trans-unit>
       <trans-unit id="[DatabaseError] Cannot open database" xml:space="preserve">
         <source>Cannot open database</source>
-        <target state="translated">لا يمكن فتح قاعدة البيانات</target>
+        <target state="translated">يتعذَّر فتح قاعدة البيانات</target>
         <note>Error message while opening a database</note>
       </trans-unit>
       <trans-unit id="[DatabaseError] Cannot save database" xml:space="preserve">
         <source>Cannot save database</source>
-        <target state="translated">لا يمكن حفظ قاعدة البيانات</target>
+        <target state="translated">يتعذَّر حفظ قاعدة البيانات</target>
         <note>Error message while saving a database</note>
       </trans-unit>
       <trans-unit id="[DatabaseError] Invalid password or key file" xml:space="preserve">
         <source>Invalid password or key file</source>
-        <target state="translated">كلمة المرور أو ملف المفتاح غير صالح</target>
+        <target state="translated">كلمة المرور غير صالحة أو ملف المفتاح غير صالح</target>
         <note>Error message: user provided a wrong master key for decryption.</note>
       </trans-unit>
       <trans-unit id="[File/In Trash/warning]" xml:space="preserve">
         <source>'%@' is located in Recently Deleted and might be deleted soon. To preserve your data, move the file to a more permanent location.</source>
-        <target state="needs-translation">'%@' is located in Recently Deleted and might be deleted soon. To preserve your data, move the file to a more permanent location.</target>
+        <target state="translated">إنَّ '%@' موجود في "المحذوفة مؤخرًا" وقد يتمُّ حذفه قريبًا. للحِفاظ على بياناتك، انقل المَلف إلى موقع أكثر ديمومة.</target>
         <note>Warning shown when opening files from Recycle Bin location. Translation of 'Recently Deleted' should match that in the Files app. [fileName: String]</note>
       </trans-unit>
       <trans-unit id="[File/TemporaryBackup/warning]" xml:space="preserve">
         <source>This is a temporary backup database. It can be automatically deleted without a warning. Don't use it as your main database.</source>
-        <target state="needs-translation">This is a temporary backup database. It can be automatically deleted without a warning. Don't use it as your main database.</target>
+        <target state="translated">هذه عِبارة عن قاعدة بيانات احتياطية مؤقتة. يُمكن أن تُحذَف تلقائيًا دون سابق إنذار. لا تستخدمها كقاعدة بياناتك الرئيسة.</target>
         <note>Notification when user opens an in-app backup database.</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/FileProvider/NotFound/generic]" xml:space="preserve">
         <source>Storage provider is not available. Please check whether it is installed and logged in to your account.</source>
-        <target state="translated">خدمة التخزين غير متوفرة. الرجاء التحقق مما إذا كانت مثبتة وتم تسجيل الدخول إلى حسابك.</target>
+        <target state="translated">خدمة التخزين غير متوفرة. الرجاء التحقُّق مما إذا كانت مثبَّتة وقد تمَّ تسجيل الدخول إلى حسابك.</target>
         <note>Error message: storage provider app was logged out or uninstalled.</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/FileProvider/NotFound/other]" xml:space="preserve">
         <source>%@ is not available. Please check whether it is installed and logged in to your account.</source>
-        <target state="translated">%@ غير متوفرة. الرجاء التحقق مما إذا كانت مثبتة وتم تسجيل الدخول إلى حسابك.</target>
+        <target state="translated">%@ غير متوفرة. الرجاء التحقُّق مما إذا كانت مثبَّتة وقد تمَّ تسجيل الدخول إلى حسابك.</target>
         <note>Error message: storage provider app was logged out or uninstalled [fileProviderName: String].</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/FileProvider/NotFound/smbShare]" xml:space="preserve">
         <source>Network storage is disconnected.</source>
-        <target state="translated">وحدة التخزين الشبكية غير متصلة.</target>
+        <target state="translated">وحدة التخزين الشبكية غير مُتَّصلة.</target>
         <note>Error message: the required network drive is not connected.</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/FileProvider/NotFound/usbDrive]" xml:space="preserve">
         <source>USB drive is disconnected.</source>
-        <target state="translated">وحدة USB غير متصلة.</target>
+        <target state="translated">وحدة USB غير مُتَّصلة.</target>
         <note>Error message: there is no USB drive connected to the device.</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/NoResponse/genericFileProvider]" xml:space="preserve">
@@ -501,27 +501,27 @@ Please make sure to have a backup of your database before changing anything.</so
       </trans-unit>
       <trans-unit id="[FileAccessError/internalError]" xml:space="preserve">
         <source>Internal KeePassium error, please tell us about it.</source>
-        <target state="translated">خطأ داخلي في KeePassium، الرجاء إعلامنا بذلك.</target>
+        <target state="translated">خطأ داخلي في KeePassium، يُرجى إعلامنا بذلك.</target>
         <note>Error message shown when there's internal inconsistency in KeePassium.</note>
       </trans-unit>
       <trans-unit id="[FileKeeper] Failed to delete file. Reason: %@" xml:space="preserve">
         <source>Failed to delete file. Reason: %@</source>
-        <target state="translated">فشل في حذف الملف. السبب: %@</target>
+        <target state="translated">فشل حذف الملف. السبب: %@</target>
         <note>Error message [reason: String]</note>
       </trans-unit>
       <trans-unit id="[FileKeeper] Failed to import file. Reason: %@" xml:space="preserve">
         <source>Failed to import file. Reason: %@</source>
-        <target state="translated">فشل في استيراد الملف. السبب: %@</target>
+        <target state="translated">فشل استيراد الملف. السبب: %@</target>
         <note>Error message [reason: String]</note>
       </trans-unit>
       <trans-unit id="[FileKeeper] Failed to open file. Reason: %@" xml:space="preserve">
         <source>Failed to open file. Reason: %@</source>
-        <target state="translated">فشل في فتح الملف. السبب: %@</target>
+        <target state="translated">فشل فتح الملف. السبب: %@</target>
         <note>Error message [reason: String]</note>
       </trans-unit>
       <trans-unit id="[FileKeeper] Not a file URL" xml:space="preserve">
         <source>Not a file URL</source>
-        <target state="translated">ليس رابط URL لملف</target>
+        <target state="translated">ليس رابط URL لِمَلف</target>
         <note>Error message: tried to import URL which does not point to a file</note>
       </trans-unit>
       <trans-unit id="[FileProvider/Amerigo/name]" xml:space="preserve">
@@ -591,7 +591,7 @@ Please make sure to have a backup of your database before changing anything.</so
       </trans-unit>
       <trans-unit id="[FileProvider/Stratospherix FileBrowser/name]" xml:space="preserve">
         <source>FileBrowser</source>
-        <target state="needs-translation">FileBrowser</target>
+        <target state="translated">FileBrowser</target>
         <note>Localized name of the storage service: Stratospherix FileBrowser (https://apps.apple.com/us/app/filebrowser-document-manager/id364738545)</note>
       </trans-unit>
       <trans-unit id="[FileProvider/Synology DS file/name]" xml:space="preserve">
@@ -636,7 +636,7 @@ Please make sure to have a backup of your database before changing anything.</so
       </trans-unit>
       <trans-unit id="[FileProvider/qnapQFile/name]" xml:space="preserve">
         <source>Qfile</source>
-        <target state="needs-translation">Qfile</target>
+        <target state="translated">Qfile</target>
         <note>Localized name of the storage service: QNAP Qfile (https://apps.apple.com/app/qfile/id526330408)</note>
       </trans-unit>
       <trans-unit id="[FileProvider/sync.com/name]" xml:space="preserve">
@@ -716,17 +716,17 @@ Please make sure to have a backup of your database before changing anything.</so
       </trans-unit>
       <trans-unit id="[KDF/Progress] Processing the master key" xml:space="preserve">
         <source>Processing the master key</source>
-        <target state="translated">معالجة المفتاح الرئيس</target>
+        <target state="translated">مُعالجة المفتاح الرئيس</target>
         <note>Status message: processing of the master key is in progress</note>
       </trans-unit>
       <trans-unit id="[KeyFileError/Corrupted/title]" xml:space="preserve">
         <source>Key file is corrupted</source>
-        <target state="needs-translation">Key file is corrupted</target>
+        <target state="translated">ملف المفتاح تالِف</target>
         <note>Error message when the key file is misformatted or damaged</note>
       </trans-unit>
       <trans-unit id="[KeyFileError/UnsupportedFormat/title]" xml:space="preserve">
         <source>Unsupported key file format</source>
-        <target state="needs-translation">Unsupported key file format</target>
+        <target state="translated">ملف مفتاح غير مدعوم</target>
         <note>Error message: unsupported/unknown format of a key file</note>
       </trans-unit>
       <trans-unit id="[KeychainError/generic] Keychain error (code %d) " xml:space="preserve">
@@ -742,13 +742,13 @@ Please make sure to have a backup of your database before changing anything.</so
       <trans-unit id="[Progress/CancellationReason/lowMemory]" xml:space="preserve">
         <source>Not enough memory to continue.
 This can happen with larger databases or too ambitious database settings (Argon2 memory parameter).</source>
-        <target state="translated">الذاكرة غير كافية للاستمرار.
-يمكن أن يحدث هذا مع قواعد البيانات الكبيرة أو إعدادات قاعدة بيانات عالية للغاية (معامل الذاكرة Argon2).</target>
+        <target state="translated">الذاكِرة غير كافية للاِستمرار.
+يُمكِن حُدوث هذا مع قواعد البيانات الكبيرة أو إعدادات قاعدة بيانات عالية للغاية (مُعامل الذاكرة Argon2).</target>
         <note>Error message when a long-running operation was cancelled due to the lack of free memory (RAM).</note>
       </trans-unit>
       <trans-unit id="[Progress/CancellationReason] Cancelled by user" xml:space="preserve">
         <source>Cancelled by user</source>
-        <target state="translated">تمّ الإلغاء مِن قِبل المستخدم</target>
+        <target state="translated">أُلغي مِن قِبَل المُستخدِم</target>
         <note>Explanation/notification when a long-running operation was cancelled by user</note>
       </trans-unit>
       <trans-unit id="[Settings/AppLockTimeout/description] After last interaction" xml:space="preserve">
@@ -768,7 +768,7 @@ This can happen with larger databases or too ambitious database settings (Argon2
       </trans-unit>
       <trans-unit id="[Settings/AppLockTimeout/fullTitle] Never" xml:space="preserve">
         <source>Never</source>
-        <target state="translated">ابداً</target>
+        <target state="translated">ابدًا</target>
         <note>An option in Settings. Will be shown as 'App Lock: Timeout: Never'</note>
       </trans-unit>
       <trans-unit id="[Settings/AppLockTimeout/shortTitle] Immediately" xml:space="preserve">
@@ -778,7 +778,7 @@ This can happen with larger databases or too ambitious database settings (Argon2
       </trans-unit>
       <trans-unit id="[Settings/AppLockTimeout/shortTitle] Never" xml:space="preserve">
         <source>Never</source>
-        <target state="translated">ابداً</target>
+        <target state="translated">ابدًا</target>
         <note>An option in Settings. Will be shown as 'App Lock: Timeout: Never'</note>
       </trans-unit>
       <trans-unit id="[Settings/BackupKeepingDuration/shortTitle] Forever" xml:space="preserve">
@@ -788,17 +788,17 @@ This can happen with larger databases or too ambitious database settings (Argon2
       </trans-unit>
       <trans-unit id="[Settings/ClipboardTimeout/fullTitle] Never" xml:space="preserve">
         <source>Never</source>
-        <target state="translated">ابداً</target>
+        <target state="translated">ابدًا</target>
         <note>An option in Settings. Will be shown as 'Clipboard Timeout: Never'</note>
       </trans-unit>
       <trans-unit id="[Settings/ClipboardTimeout/shortTitle] Never" xml:space="preserve">
         <source>Never</source>
-        <target state="translated">ابداً</target>
+        <target state="translated">ابدًا</target>
         <note>An option in Settings. Will be shown as 'Clipboard Timeout: Never'</note>
       </trans-unit>
       <trans-unit id="[Settings/DatabaseLockTimeout/description] When leaving the app" xml:space="preserve">
         <source>When leaving the app</source>
-        <target state="translated">عِندَ مغادرة التطبيق</target>
+        <target state="translated">عِندَ مُغادرة التطبيق</target>
         <note>A description/subtitle for the 'DatabaseLockTimeout: Immediately'.</note>
       </trans-unit>
       <trans-unit id="[Settings/DatabaseLockTimeout/fullTitle] Immediately" xml:space="preserve">
@@ -808,7 +808,7 @@ This can happen with larger databases or too ambitious database settings (Argon2
       </trans-unit>
       <trans-unit id="[Settings/DatabaseLockTimeout/fullTitle] Never" xml:space="preserve">
         <source>Never</source>
-        <target state="translated">ابداً</target>
+        <target state="translated">ابدًا</target>
         <note>An option in Settings. Will be shown as 'Database Lock: Timeout: Never'</note>
       </trans-unit>
       <trans-unit id="[Settings/DatabaseLockTimeout/shortTitle] Immediately" xml:space="preserve">
@@ -818,7 +818,7 @@ This can happen with larger databases or too ambitious database settings (Argon2
       </trans-unit>
       <trans-unit id="[Settings/DatabaseLockTimeout/shortTitle] Never" xml:space="preserve">
         <source>Never</source>
-        <target state="translated">ابداً</target>
+        <target state="translated">ابدًا</target>
         <note>An option in Settings. Will be shown as 'Database Lock: Timeout: Never'</note>
       </trans-unit>
       <trans-unit id="[Settings/EntryListDetail/longTitle] Last Modified Date" xml:space="preserve">
@@ -833,7 +833,7 @@ This can happen with larger databases or too ambitious database settings (Argon2
       </trans-unit>
       <trans-unit id="[Settings/EntryListDetail/longTitle] Notes" xml:space="preserve">
         <source>Notes</source>
-        <target state="translated">الملاحظات</target>
+        <target state="translated">المُلاحظات</target>
         <note>An option in Group Viewer settings. Refers to comments/notes field of the entry. Will be shown as 'Entry Subtitle: Notes'.</note>
       </trans-unit>
       <trans-unit id="[Settings/EntryListDetail/longTitle] Password" xml:space="preserve">
@@ -848,27 +848,27 @@ This can happen with larger databases or too ambitious database settings (Argon2
       </trans-unit>
       <trans-unit id="[Settings/EntryListDetail/longTitle] User Name" xml:space="preserve">
         <source>User Name</source>
-        <target state="translated">اسم المستخدم</target>
+        <target state="translated">اسم المُستخدِم</target>
         <note>An option in Group Viewer settings. It refers to login information rather than person's name. Will be shown as 'Entry Subtitle: User Name'.</note>
       </trans-unit>
       <trans-unit id="[URLReference/Location] Cloud storage / Another app" xml:space="preserve">
         <source>Cloud storage / Another app</source>
-        <target state="translated">التخزين السحابي/تطبيق آخر</target>
+        <target state="translated">التخزين السحابي / تطبيق آخر</target>
         <note>Human-readable file location. The file is situated either online / in cloud storage, or on the same device, but in some other app. Example: 'File Location: Cloud storage / Another app'</note>
       </trans-unit>
       <trans-unit id="[URLReference/Location] Internal backup" xml:space="preserve">
         <source>Internal backup</source>
-        <target state="translated">النسخ الاحتياطية الداخلية</target>
+        <target state="translated">النُسَخ الاحتياطيَّة الدَّاخليَّة</target>
         <note>Human-readable file location: the file is on device, inside the app sandbox. 'Backup' is a dedicated directory for database backup files. Example: 'File Location: Internal backup'</note>
       </trans-unit>
       <trans-unit id="[URLReference/Location] Internal inbox" xml:space="preserve">
         <source>Internal inbox</source>
-        <target state="translated">الملفات الداخلية الواردة</target>
+        <target state="translated">الملفَّات الدَّاخليِّة الوارِدة</target>
         <note>Human-readable file location: the file is on device, inside the app sandbox. 'Inbox' is a special directory for files that are being imported. Can be also 'Internal import'. Example: 'File Location: Internal inbox'</note>
       </trans-unit>
       <trans-unit id="[URLReference/Location] Local copy" xml:space="preserve">
         <source>Local copy</source>
-        <target state="translated">النسخة المحلية</target>
+        <target state="translated">النُسَخة المحلية</target>
         <note>Human-readable file location: the file is on device, inside the app sandbox. Example: 'File Location: Local copy'</note>
       </trans-unit>
     </body>
