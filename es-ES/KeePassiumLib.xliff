@@ -488,6 +488,21 @@ Por favor, asegúrese de tener una copia de seguridad de su base de datos antes 
         <target state="translated">%@ no responde.</target>
         <note>Error message: file provider does not respond to requests. For example: `Google Drive does not respond.`</note>
       </trans-unit>
+      <trans-unit id="[FileAccessError/NoWritePermission/title]" xml:space="preserve" approved="yes">
+        <source>Cannot save file (%@)</source>
+        <target state="final">No se puede guardar el archivo (%@)</target>
+        <note>Error message: file provider does not support write operations. For example: `Cannot save file (OneDrive)`</note>
+      </trans-unit>
+      <trans-unit id="[FileAccessError/OneDriveReadOnly/reason]" xml:space="preserve" approved="yes">
+        <source>Microsoft has recently switched OneDrive integration with iOS to read-only mode. Temporarily, they say.</source>
+        <target state="final">Microsoft ha cambiado recientemente la integración de OneDrive con iOS a modo de sólo lectura. Dicen que es algo temporal.</target>
+        <note>Explanation of a file writing error</note>
+      </trans-unit>
+      <trans-unit id="[FileAccessError/OneDriveReadOnly/recoverySuggestion]" xml:space="preserve" approved="yes">
+        <source>Use the Export option to save file to another location.</source>
+        <target state="final">Utilice la opción Exportar para guardar el archivo en otra ubicación.</target>
+        <note>Suggestion for error recovery</note>
+      </trans-unit>
       <trans-unit id="[FileAccessError/Timeout/genericFileProvider]" xml:space="preserve">
         <source>Storage provider does not respond.</source>
         <target state="translated">El proveedor de almacenamiento no responde.</target>
@@ -587,6 +602,11 @@ Por favor, asegúrese de tener una copia de seguridad de su base de datos antes 
         <source>SMB server</source>
         <target state="final">Servidor SMB</target>
         <note>Localized name of the storage service: SMB server (network share) via native iOS integration.</note>
+      </trans-unit>
+      <trans-unit id="[FileProvider/Seafile Pro/name]" xml:space="preserve">
+        <source>Seafile Pro</source>
+        <target state="translated">Seafile Pro</target>
+        <note>Localized name of the storage app: Seafile Pro (https://apps.apple.com/us/app/seafile-pro/id639202512)</note>
       </trans-unit>
       <trans-unit id="[FileProvider/Stratospherix FileBrowser/name]" xml:space="preserve" approved="yes">
         <source>FileBrowser</source>

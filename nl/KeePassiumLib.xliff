@@ -147,9 +147,9 @@
         <target state="translated">Bezig met samenstellen van back-up...</target>
         <note>Database saving status: making a local backup copy of the database</note>
       </trans-unit>
-      <trans-unit id="[Database/Progress/resolvingFieldReferences]" xml:space="preserve">
+      <trans-unit id="[Database/Progress/resolvingFieldReferences]" xml:space="preserve" approved="yes">
         <source>Resolving field references…</source>
-        <target state="translated">Veldverwijzingen oplossen …</target>
+        <target state="final">Veldverwijzingen oplossen …</target>
         <note>Database loading/saving status: replacing field references with their values</note>
       </trans-unit>
       <trans-unit id="[Database/Progress/resolving]" xml:space="preserve">
@@ -448,14 +448,14 @@ Zorg ervoor dat je een back-up van je databank hebt voordat je iets aanpast.</ta
         <target state="translated">Ongeldig wachtwoord of sleutelbestand</target>
         <note>Error message: user provided a wrong master key for decryption.</note>
       </trans-unit>
-      <trans-unit id="[File/In Trash/warning]" xml:space="preserve">
+      <trans-unit id="[File/In Trash/warning]" xml:space="preserve" approved="yes">
         <source>'%@' is located in Recently Deleted and might be deleted soon. To preserve your data, move the file to a more permanent location.</source>
-        <target state="translated">'%@' bevindt zich in Recent verwijderd en kan binnenkort worden verwijderd. Verplaats het bestand naar een meer permanente locatie om uw gegevens te bewaren.</target>
+        <target state="final">'%@' bevindt zich in Recent verwijderd en kan binnenkort worden verwijderd. Verplaats het bestand naar een meer permanente locatie om uw gegevens te bewaren.</target>
         <note>Warning shown when opening files from Recycle Bin location. Translation of 'Recently Deleted' should match that in the Files app. [fileName: String]</note>
       </trans-unit>
-      <trans-unit id="[File/TemporaryBackup/warning]" xml:space="preserve">
+      <trans-unit id="[File/TemporaryBackup/warning]" xml:space="preserve" approved="yes">
         <source>This is a temporary backup database. It can be automatically deleted without a warning. Don't use it as your main database.</source>
-        <target state="translated">Dit is een tijdelijke back-updatabase. Deze kan zonder waarschuwing automatisch worden verwijderd. Gebruik deze niet als uw hoofddatabase.</target>
+        <target state="final">Dit is een tijdelijke back-updatabase. Deze kan zonder waarschuwing automatisch worden verwijderd. Gebruik deze niet als uw hoofddatabase.</target>
         <note>Notification when user opens an in-app backup database.</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/FileProvider/NotFound/generic]" xml:space="preserve">
@@ -487,6 +487,21 @@ Zorg ervoor dat je een back-up van je databank hebt voordat je iets aanpast.</ta
         <source>%@ does not respond.</source>
         <target state="translated">%@ reageert niet.</target>
         <note>Error message: file provider does not respond to requests. For example: `Google Drive does not respond.`</note>
+      </trans-unit>
+      <trans-unit id="[FileAccessError/NoWritePermission/title]" xml:space="preserve">
+        <source>Cannot save file (%@)</source>
+        <target state="translated">Kan bestand niet opslaan (%@)</target>
+        <note>Error message: file provider does not support write operations. For example: `Cannot save file (OneDrive)`</note>
+      </trans-unit>
+      <trans-unit id="[FileAccessError/OneDriveReadOnly/reason]" xml:space="preserve">
+        <source>Microsoft has recently switched OneDrive integration with iOS to read-only mode. Temporarily, they say.</source>
+        <target state="translated">Microsoft heeft onlangs de OneDrive-integratie met iOS alleen-lezen gemaakt. Ze zeggen dat dit tijdelijk is.</target>
+        <note>Explanation of a file writing error</note>
+      </trans-unit>
+      <trans-unit id="[FileAccessError/OneDriveReadOnly/recoverySuggestion]" xml:space="preserve">
+        <source>Use the Export option to save file to another location.</source>
+        <target state="translated">Gebruik de exportoptie om het bestand op te slaan op een andere locatie.</target>
+        <note>Suggestion for error recovery</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/Timeout/genericFileProvider]" xml:space="preserve">
         <source>Storage provider does not respond.</source>
@@ -588,9 +603,14 @@ Zorg ervoor dat je een back-up van je databank hebt voordat je iets aanpast.</ta
         <target state="translated">SMB-server</target>
         <note>Localized name of the storage service: SMB server (network share) via native iOS integration.</note>
       </trans-unit>
-      <trans-unit id="[FileProvider/Stratospherix FileBrowser/name]" xml:space="preserve">
+      <trans-unit id="[FileProvider/Seafile Pro/name]" xml:space="preserve">
+        <source>Seafile Pro</source>
+        <target state="translated">Seafile Pro</target>
+        <note>Localized name of the storage app: Seafile Pro (https://apps.apple.com/us/app/seafile-pro/id639202512)</note>
+      </trans-unit>
+      <trans-unit id="[FileProvider/Stratospherix FileBrowser/name]" xml:space="preserve" approved="yes">
         <source>FileBrowser</source>
-        <target state="translated">FileBrowser</target>
+        <target state="final">FileBrowser</target>
         <note>Localized name of the storage service: Stratospherix FileBrowser (https://apps.apple.com/us/app/filebrowser-document-manager/id364738545)</note>
       </trans-unit>
       <trans-unit id="[FileProvider/Synology DS file/name]" xml:space="preserve">
@@ -633,9 +653,9 @@ Zorg ervoor dat je een back-up van je databank hebt voordat je iets aanpast.</ta
         <target state="translated">pCloud</target>
         <note>Localized name of the storage service: pCloud (https://pcloud.com)</note>
       </trans-unit>
-      <trans-unit id="[FileProvider/qnapQFile/name]" xml:space="preserve">
+      <trans-unit id="[FileProvider/qnapQFile/name]" xml:space="preserve" approved="yes">
         <source>Qfile</source>
-        <target state="translated">Qfile</target>
+        <target state="final">Qfile</target>
         <note>Localized name of the storage service: QNAP Qfile (https://apps.apple.com/app/qfile/id526330408)</note>
       </trans-unit>
       <trans-unit id="[FileProvider/sync.com/name]" xml:space="preserve">
@@ -718,14 +738,14 @@ Zorg ervoor dat je een back-up van je databank hebt voordat je iets aanpast.</ta
         <target state="translated">Bezig met verwerken van hoofdsleutel</target>
         <note>Status message: processing of the master key is in progress</note>
       </trans-unit>
-      <trans-unit id="[KeyFileError/Corrupted/title]" xml:space="preserve">
+      <trans-unit id="[KeyFileError/Corrupted/title]" xml:space="preserve" approved="yes">
         <source>Key file is corrupted</source>
-        <target state="translated">Het sleutelbestand is beschadigd</target>
+        <target state="final">Het sleutelbestand is beschadigd</target>
         <note>Error message when the key file is misformatted or damaged</note>
       </trans-unit>
-      <trans-unit id="[KeyFileError/UnsupportedFormat/title]" xml:space="preserve">
+      <trans-unit id="[KeyFileError/UnsupportedFormat/title]" xml:space="preserve" approved="yes">
         <source>Unsupported key file format</source>
-        <target state="translated">Bestandsindeling sleutelbestand niet ondersteund</target>
+        <target state="final">Bestandsindeling sleutelbestand niet ondersteund</target>
         <note>Error message: unsupported/unknown format of a key file</note>
       </trans-unit>
       <trans-unit id="[KeychainError/generic] Keychain error (code %d) " xml:space="preserve">

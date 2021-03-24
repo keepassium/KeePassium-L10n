@@ -104,28 +104,6 @@ Neem contact met ons op als je hulp nodig hebt.</target>
       </trans-unit>
     </body>
   </file>
-  <file original="KeePassium/general/diagnostics/Base.lproj/DiagnosticsViewerVC.storyboard" source-language="en" target-language="nl" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
-    </header>
-    <body>
-      <trans-unit id="Ura-k4-GXq.title" xml:space="preserve">
-        <source>Diagnostics</source>
-        <target state="translated">Diagnostische gegevens</target>
-        <note>Class = "UINavigationItem"; title = "Diagnostics"; ObjectID = "Ura-k4-GXq";</note>
-      </trans-unit>
-      <trans-unit id="VTC-44-cgF.text" xml:space="preserve" translate="no">
-        <source>{file:line:function}</source>
-        <target state="needs-translation">{file:line:function}</target>
-        <note>Class = "UILabel"; text = "{file:line:function}"; ObjectID = "VTC-44-cgF"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="vlS-RX-RUW.text" xml:space="preserve" translate="no">
-        <source>{Diagnostic message}</source>
-        <target state="needs-translation">{Diagnostic message}</target>
-        <note>Class = "UILabel"; text = "{Diagnostic message}"; ObjectID = "vlS-RX-RUW"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="KeePassium AutoFill/controllers/Base.lproj/EntryFinderVC.storyboard" source-language="en" target-language="nl" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
@@ -173,9 +151,9 @@ Neem contact met ons op als je hulp nodig hebt.</target>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
     </header>
     <body>
-      <trans-unit id="Gck-9R-sGq.normalTitle" xml:space="preserve">
+      <trans-unit id="Gck-9R-sGq.normalTitle" xml:space="preserve" approved="yes">
         <source>Skip</source>
-        <target state="translated">Overslaan</target>
+        <target state="final">Overslaan</target>
         <note>Class = "UIButton"; normalTitle = "Skip"; ObjectID = "Gck-9R-sGq"; Note = "Action: skip setup and proceed to the next step.";</note>
       </trans-unit>
       <trans-unit id="P0M-N3-ynf.text" xml:space="preserve">
@@ -294,15 +272,20 @@ Neem contact met ons op als je hulp nodig hebt.</target>
         <target state="translated">De KeePass-databank mag niet worden gebruikt als sleutelbestand. Kies een ander bestand.</target>
         <note>Warning message when the user tries to use a database as a key file</note>
       </trans-unit>
-      <trans-unit id="[Accessibility] Double tap to copy to clipboard" xml:space="preserve">
+      <trans-unit id="[Accessibility] Double tap to copy to clipboard" xml:space="preserve" approved="yes">
         <source>Double tap to copy to clipboard</source>
-        <target state="translated">Dubbeltikken om naar klembord te kopiëren</target>
+        <target state="final">Dubbeltikken om naar klembord te kopiëren</target>
         <note>Suggestion/hint for available user action</note>
       </trans-unit>
       <trans-unit id="[AppLock/Biometric/Hint] Unlock KeePassium" xml:space="preserve">
         <source>Unlock KeePassium</source>
         <target state="translated">Ontgrendel KeePassium</target>
         <note>Hint/Description why the user is asked to provide their fingerprint. Shown in the standard Touch ID prompt.</note>
+      </trans-unit>
+      <trans-unit id="[AppLock/EnterPasscode/callToAction]" xml:space="preserve">
+        <source>Unlock KeePassium</source>
+        <target state="translated">Ontgrendel KeePassium</target>
+        <note>Call to action in the passcode input dialog.</note>
       </trans-unit>
       <trans-unit id="[AppLock/Passcode/KeyboardType/switchAction] 123→ABC" xml:space="preserve">
         <source>123→ABC</source>
@@ -314,10 +297,30 @@ Neem contact met ons op als je hulp nodig hebt.</target>
         <target state="translated">ABC→123</target>
         <note>Action: change keyboard type to enter PIN numbers</note>
       </trans-unit>
+      <trans-unit id="[AppLock/SetupPasscode/callToAction]" xml:space="preserve" approved="yes">
+        <source>Protect KeePassium from unauthorized access</source>
+        <target state="final">Bescherm KeePassium tegen ongeautoriseerde toegang</target>
+        <note>Call to action in the passcode input dialog.</note>
+      </trans-unit>
       <trans-unit id="[AppLock/cancelBiometricAuth] Use Passcode" xml:space="preserve">
         <source>Use Passcode</source>
         <target state="translated">Gebruik toegangscode</target>
         <note>Action/button to switch from TouchID/FaceID prompt to manual input of the AppLock passcode.</note>
+      </trans-unit>
+      <trans-unit id="[AppLock/changePasscode]" xml:space="preserve" approved="yes">
+        <source>Change Passcode</source>
+        <target state="final">Toegangscode wijzigen</target>
+        <note>Action/button to modify the existing AppLock passcode.</note>
+      </trans-unit>
+      <trans-unit id="[AppLock/passcodeUpdated/title]" xml:space="preserve" approved="yes">
+        <source>Passcode updated successfully.</source>
+        <target state="final">Toegangscode bijgewerkt.</target>
+        <note>Notification that the modified AppLock passcode has been saved.</note>
+      </trans-unit>
+      <trans-unit id="[AppLock/savePasscode]" xml:space="preserve" approved="yes">
+        <source>Save Passcode</source>
+        <target state="final">Toegangscode opslaan</target>
+        <note>Action/button to save new or edited AppLock passcode.</note>
       </trans-unit>
       <trans-unit id="[AppLock] Unlock" xml:space="preserve">
         <source>Unlock</source>
@@ -362,9 +365,9 @@ Als gevolg hiervan moeten zowel AutoFill als de KeePassium-app hun eigen machtig
         <target state="translated">Touch ID</target>
         <note>Name of biometric authentication method. Trademarked, do not translate unless Apple traslated it to your language.</note>
       </trans-unit>
-      <trans-unit id="[Clipboard/Copy/namedValue]" xml:space="preserve">
+      <trans-unit id="[Clipboard/Copy/namedValue]" xml:space="preserve" approved="yes">
         <source>Copy %@</source>
-        <target state="translated">%@ kopiëren</target>
+        <target state="final">%@ kopiëren</target>
         <note>Action copy some named value to clipboard. For example: `Copy Password`. [valueName: String]</note>
       </trans-unit>
       <trans-unit id="[Clipboard/Copy/notification]" xml:space="preserve">
@@ -403,6 +406,16 @@ Als gevolg hiervan moeten zowel AutoFill als de KeePassium-app hun eigen machtig
         <source>Loading...</source>
         <target state="translated">Bezig met laden...</target>
         <note>Status message: loading a database</note>
+      </trans-unit>
+      <trans-unit id="[Database/MasterKey/RememberYourPassword/text]" xml:space="preserve" approved="yes">
+        <source>If you ever forget it, you won't be able to access your data. There is no password reset option.</source>
+        <target state="final">Als u het ooit vergeet, hebt u geen toegang meer tot uw gegevens. Er is geen optie om het wachtwoord te resetten.</target>
+        <note>A warning shown when changing database password. Is preceded with `Remember your database password`.</note>
+      </trans-unit>
+      <trans-unit id="[Database/MasterKey/RememberYourPassword/title]" xml:space="preserve" approved="yes">
+        <source>Remember your database password</source>
+        <target state="final">Onthoud uw databasewachtwoord</target>
+        <note>Imperative/recommendation: title of a warning when changing database password.</note>
       </trans-unit>
       <trans-unit id="[Database/MasterKey/changed] Master key successfully changed" xml:space="preserve">
         <source>Master key successfully changed</source>
@@ -511,9 +524,9 @@ Als gevolg hiervan moeten zowel AutoFill als de KeePassium-app hun eigen machtig
         <target state="translated">Probeer het bestand uit de app te verwijderen en voeg het dan opnieuw toe.</target>
         <note>A suggestion shown after specific file errors (either databases or key files).</note>
       </trans-unit>
-      <trans-unit id="[File/Re-add/title]" xml:space="preserve">
+      <trans-unit id="[File/Re-add/title]" xml:space="preserve" approved="yes">
         <source>Add the file again</source>
-        <target state="translated">Voeg het bestand opnieuw toe</target>
+        <target state="final">Voeg het bestand opnieuw toe</target>
         <note>Action: re-add (a broken) database or key file to the app.</note>
       </trans-unit>
       <trans-unit id="[FileInfo/Backup/header]" xml:space="preserve">
@@ -626,6 +639,11 @@ Als gevolg hiervan moeten zowel AutoFill als de KeePassium-app hun eigen machtig
         <target state="translated">Annuleer</target>
         <note>Action/button to cancel whatever is going on</note>
       </trans-unit>
+      <trans-unit id="[Generic] Contact Support" xml:space="preserve">
+        <source>Contact Support</source>
+        <target state="translated">Neem contact op met ons ondersteuningsteam</target>
+        <note>Action/button to write an email to support</note>
+      </trans-unit>
       <trans-unit id="[Generic] Contact Us" xml:space="preserve">
         <source>Contact Us</source>
         <target state="translated">Neem contact op</target>
@@ -641,9 +659,9 @@ Als gevolg hiervan moeten zowel AutoFill als de KeePassium-app hun eigen machtig
         <target state="translated">Kopiëren</target>
         <note>Action/button to move an item (to another group/folder/etc)</note>
       </trans-unit>
-      <trans-unit id="[Generic] Create" xml:space="preserve">
+      <trans-unit id="[Generic] Create" xml:space="preserve" approved="yes">
         <source>Create</source>
-        <target state="translated">Maken</target>
+        <target state="final">Maken</target>
         <note>Action/button to create an item (entry, group, file — depending on context)</note>
       </trans-unit>
       <trans-unit id="[Generic] Delete" xml:space="preserve">
@@ -676,14 +694,14 @@ Als gevolg hiervan moeten zowel AutoFill als de KeePassium-app hun eigen machtig
         <target state="translated">Exporteer</target>
         <note>Action/button to export an item to another app</note>
       </trans-unit>
-      <trans-unit id="[Generic] Learn more" xml:space="preserve">
+      <trans-unit id="[Generic] Learn more" xml:space="preserve" approved="yes">
         <source>Learn more…</source>
-        <target state="translated">Meer informatie</target>
+        <target state="final">Meer informatie</target>
         <note>Action/button to view more help/info about some topic</note>
       </trans-unit>
-      <trans-unit id="[Generic] More Actions" xml:space="preserve">
+      <trans-unit id="[Generic] More Actions" xml:space="preserve" approved="yes">
         <source>More Actions</source>
-        <target state="translated">Meer acties</target>
+        <target state="final">Meer acties</target>
         <note>Checkbox/Button to show additional actions</note>
       </trans-unit>
       <trans-unit id="[Generic] Move" xml:space="preserve">
@@ -696,9 +714,9 @@ Als gevolg hiervan moeten zowel AutoFill als de KeePassium-app hun eigen machtig
         <target state="translated">Oké</target>
         <note>Action/button: generic OK</note>
       </trans-unit>
-      <trans-unit id="[Generic] Open URL" xml:space="preserve">
+      <trans-unit id="[Generic] Open URL" xml:space="preserve" approved="yes">
         <source>Open URL</source>
-        <target state="translated">URL openen</target>
+        <target state="final">URL openen</target>
         <note>Action/button to open URL in the appropriate app (usually, web browser)</note>
       </trans-unit>
       <trans-unit id="[Generic] Overwrite" xml:space="preserve">
@@ -716,9 +734,9 @@ Als gevolg hiervan moeten zowel AutoFill als de KeePassium-app hun eigen machtig
         <target state="translated">Vervang</target>
         <note>Action/button to replace an item with another one</note>
       </trans-unit>
-      <trans-unit id="[Generic] Share" xml:space="preserve">
+      <trans-unit id="[Generic] Share" xml:space="preserve" approved="yes">
         <source>Share</source>
-        <target state="translated">Delen</target>
+        <target state="final">Delen</target>
         <note>Action/button to share an item with another app (AirDrop, send an email, etc)</note>
       </trans-unit>
       <trans-unit id="[Generic] Show Details" xml:space="preserve">
@@ -726,9 +744,9 @@ Als gevolg hiervan moeten zowel AutoFill als de KeePassium-app hun eigen machtig
         <target state="translated">Toon details</target>
         <note>Action/button to show additional information about an error or item</note>
       </trans-unit>
-      <trans-unit id="[Generic] Show In Plain Text" xml:space="preserve">
+      <trans-unit id="[Generic] Show In Plain Text" xml:space="preserve" approved="yes">
         <source>Show In Plain Text</source>
-        <target state="translated">Tonen in tekst zonder opmaak</target>
+        <target state="final">Tonen in tekst zonder opmaak</target>
         <note>Action/button to show sensitive info as it is, in plain text (as opposed to asterisks)</note>
       </trans-unit>
       <trans-unit id="[Generic] Show more" xml:space="preserve">
@@ -756,9 +774,9 @@ Als gevolg hiervan moeten zowel AutoFill als de KeePassium-app hun eigen machtig
         <target state="translated">Nieuwe groep</target>
         <note>Default name of a new group</note>
       </trans-unit>
-      <trans-unit id="[Group/a11y/description]" xml:space="preserve">
+      <trans-unit id="[Group/a11y/description]" xml:space="preserve" approved="yes">
         <source>%@, Group</source>
-        <target state="translated">%@, groep</target>
+        <target state="final">%@, groep</target>
         <note>VoiceOver description of a group [groupTitle: String, itemCount: Int]</note>
       </trans-unit>
       <trans-unit id="[HardwareKey/AutoFill/NotAvailable] Hardware keys are not available in AutoFill." xml:space="preserve">
@@ -810,9 +828,9 @@ Als gevolg hiervan moeten zowel AutoFill als de KeePassium-app hun eigen machtig
         <target state="translated">Wat je krijgt</target>
         <note>List of premium benefits/advantages</note>
       </trans-unit>
-      <trans-unit id="[Premium/CallToAction/buyNow]" xml:space="preserve">
+      <trans-unit id="[Premium/CallToAction/buyNow]" xml:space="preserve" approved="yes">
         <source>Buy Now</source>
-        <target state="translated">Nu kopen</target>
+        <target state="final">Nu kopen</target>
         <note>Call to action</note>
       </trans-unit>
       <trans-unit id="[Premium/CallToAction/free]" xml:space="preserve">
@@ -830,9 +848,9 @@ Als gevolg hiervan moeten zowel AutoFill als de KeePassium-app hun eigen machtig
         <target state="translated">Upgrade nu</target>
         <note>Call to action: upgrade to premium</note>
       </trans-unit>
-      <trans-unit id="[Premium/ManageSubscriptions/action]" xml:space="preserve">
+      <trans-unit id="[Premium/ManageSubscriptions/action]" xml:space="preserve" approved="yes">
         <source>Manage subscriptions</source>
-        <target state="translated">Abonnementen beheren</target>
+        <target state="final">Abonnementen beheren</target>
         <note>Action: open AppStore subscription management page</note>
       </trans-unit>
       <trans-unit id="[Premium/PerpetualLicense/status]" xml:space="preserve">
@@ -875,9 +893,9 @@ Als gevolg hiervan moeten zowel AutoFill als de KeePassium-app hun eigen machtig
         <target state="translated">Freemium-herinneringen</target>
         <note>What's included in a free plan: reminders that the version is free</note>
       </trans-unit>
-      <trans-unit id="[Premium/Price Plan/Conditions/full price upgrade]" xml:space="preserve">
+      <trans-unit id="[Premium/Price Plan/Conditions/full price upgrade]" xml:space="preserve" approved="yes">
         <source>Premium features added in the future would require a new purchase at full price.</source>
-        <target state="translated">Voor premiumfuncties die in de toekomst worden toegevoegd, is een nieuwe aankoop voor de volledige prijs vereist.</target>
+        <target state="final">Voor premiumfuncties die in de toekomst worden toegevoegd, is een nieuwe aankoop voor de volledige prijs vereist.</target>
         <note>Upgrade conditions for current-version premium purchase.</note>
       </trans-unit>
       <trans-unit id="[Premium/Price Plan/Conditions/future premium features]" xml:space="preserve">
@@ -890,9 +908,9 @@ Als gevolg hiervan moeten zowel AutoFill als de KeePassium-app hun eigen machtig
         <target state="translated">Bruikleenlicentie (terugvallicentie)</target>
         <note>What's included in a price plan. Please leave `perpetual fallback license` in English.</note>
       </trans-unit>
-      <trans-unit id="[Premium/Price Plan/Conditions/subscription as purchase]" xml:space="preserve">
+      <trans-unit id="[Premium/Price Plan/Conditions/subscription as purchase]" xml:space="preserve" approved="yes">
         <source>Subscription as a purchase</source>
-        <target state="translated">Abonnement in de vorm van een aankoop</target>
+        <target state="final">Abonnement in de vorm van een aankoop</target>
         <note>What's included in a subscription plan. By subscribing for a certain period, the user receives a permanent license for a version of the app. More info: https://keepassium.com/articles/perpetual-fallback-license/</note>
       </trans-unit>
       <trans-unit id="[Premium/Price Plan/Conditions/updates and bug fixes]" xml:space="preserve">
@@ -937,9 +955,9 @@ Je kunt je abonnementen beheren en annuleren door na aankoop naar je accountinst
         <target state="translated">%1$@ gratis, daarna %2$@</target>
         <note>Trial conditions. For example `30 days free, then $1 per month`</note>
       </trans-unit>
-      <trans-unit id="[Premium/Upgrade/Deferred/text] Thank you! You can use KeePassium while purchase is awaiting approval." xml:space="preserve">
+      <trans-unit id="[Premium/Upgrade/Deferred/text] Thank you! You can use KeePassium while purchase is awaiting approval." xml:space="preserve" approved="yes">
         <source>Thank you! You can use KeePassium while purchase is awaiting approval.</source>
-        <target state="translated">Bedankt! U kunt KeePassium gebruiken terwijl de aankoop wordt goedgekeurd.</target>
+        <target state="final">Bedankt! U kunt KeePassium gebruiken terwijl de aankoop wordt goedgekeurd.</target>
         <note>Message shown when in-app purchase is deferred until approval (parental or corporate).</note>
       </trans-unit>
       <trans-unit id="[Premium/Upgrade/Progress] Contacting AppStore..." xml:space="preserve">
@@ -972,9 +990,9 @@ Je kunt je abonnementen beheren en annuleren door na aankoop naar je accountinst
         <target state="translated">Aankoop hersteld</target>
         <note>Title of the message shown after in-app purchase was successfully restored</note>
       </trans-unit>
-      <trans-unit id="[Premium/Upgrade/Success/thankYou]" xml:space="preserve">
+      <trans-unit id="[Premium/Upgrade/Success/thankYou]" xml:space="preserve" approved="yes">
         <source>Thank you for the purchase!</source>
-        <target state="translated">Bedankt voor uw aankoop!</target>
+        <target state="final">Bedankt voor uw aankoop!</target>
         <note>Message shown after buying or subscribing.</note>
       </trans-unit>
       <trans-unit id="[Premium/Upgrade/action] Upgrade to Premium" xml:space="preserve">
@@ -982,9 +1000,9 @@ Je kunt je abonnementen beheren en annuleren door na aankoop naar je accountinst
         <target state="translated">Upgrade naar Premium</target>
         <note>Action/button to start choosing premium versions and possibly buying one</note>
       </trans-unit>
-      <trans-unit id="[Premium/Upgrade/cancelOngoingSubscription]" xml:space="preserve">
+      <trans-unit id="[Premium/Upgrade/cancelOngoingSubscription]" xml:space="preserve" approved="yes">
         <source>Please check if you need to cancel your old subscription.</source>
-        <target state="translated">Controleer of u uw oude abonnement moet opzeggen.</target>
+        <target state="final">Controleer of u uw oude abonnement moet opzeggen.</target>
         <note>Message shown after buying a lifetime version.</note>
       </trans-unit>
       <trans-unit id="[Premium/Upgrade/price] %@ / month" xml:space="preserve">
@@ -1544,15 +1562,15 @@ Je kunt je abonnementen beheren en annuleren door na aankoop naar je accountinst
         <target state="translated">In-geheugen-bescherming</target>
         <note>Class = "UILabel"; text = "In-memory Protection"; ObjectID = "0pb-xb-fuf"; Note = "Label for a switch, equivalent to KeePass' own `Enable in-memory protection` for custom entry fields.";</note>
       </trans-unit>
-      <trans-unit id="7iU-ut-hd7.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" xml:space="preserve" translate="no">
+      <trans-unit id="7iU-ut-hd7.accessibilityLabel" xml:space="preserve" approved="yes">
         <source>Custom field value</source>
-        <target state="needs-translation">Custom field value</target>
-        <note>Class = "UITextView"; 7iU-ut-hd7.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Custom field value"; ObjectID = "7iU-ut-hd7"; Note = "#bc-ignore!";</note>
+        <target state="final">Aangepaste veldwaarde</target>
+        <note>Class = "UITextView"; accessibilityLabel = "Custom field value"; ObjectID = "7iU-ut-hd7";</note>
       </trans-unit>
       <trans-unit id="7iU-ut-hd7.text" xml:space="preserve" translate="no">
         <source>{Multi-line field value. Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.}</source>
         <target state="needs-translation">{Multi-line field value. Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.}</target>
-        <note>Class = "UITextView"; text = "{Multi-line field value. Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.}"; ObjectID = "7iU-ut-hd7"; Note = "#bc-ignore!";</note>
+        <note>Class = "UITextView"; text = "{Multi-line field value. Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.}"; ObjectID = "7iU-ut-hd7";</note>
       </trans-unit>
       <trans-unit id="9e5-bz-qOo.text" xml:space="preserve" translate="no">
         <source>{Multi-line field value. Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.}</source>
@@ -1584,25 +1602,25 @@ Je kunt je abonnementen beheren en annuleren door na aankoop naar je accountinst
         <target state="needs-translation">{Field Value}</target>
         <note>Class = "UITextField"; text = "{Field Value}"; ObjectID = "Ro2-Xv-zrw"; Note = "#bc-ignore!";</note>
       </trans-unit>
-      <trans-unit id="ecN-Xd-ff5.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" xml:space="preserve" translate="no">
+      <trans-unit id="ecN-Xd-ff5.accessibilityLabel" xml:space="preserve" approved="yes">
         <source>Custom field name</source>
-        <target state="needs-translation">Custom field name</target>
-        <note>Class = "UITextField"; ecN-Xd-ff5.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Custom field name"; ObjectID = "ecN-Xd-ff5"; Note = "#bc-ignore!";</note>
+        <target state="final">Aangepaste veldnaam</target>
+        <note>Class = "UITextField"; accessibilityLabel = "Custom field name"; ObjectID = "ecN-Xd-ff5";</note>
       </trans-unit>
-      <trans-unit id="ecN-Xd-ff5.placeholder" xml:space="preserve" translate="no">
+      <trans-unit id="ecN-Xd-ff5.placeholder" xml:space="preserve">
         <source>Field Name</source>
         <target state="translated">Veldnaam</target>
-        <note>Class = "UITextField"; placeholder = "Field Name"; ObjectID = "ecN-Xd-ff5"; Note = "#bc-ignore!";</note>
+        <note>Class = "UITextField"; placeholder = "Field Name"; ObjectID = "ecN-Xd-ff5";</note>
       </trans-unit>
       <trans-unit id="ecN-Xd-ff5.text" xml:space="preserve" translate="no">
         <source>{Field Name}</source>
         <target state="needs-translation">{Field Name}</target>
-        <note>Class = "UITextField"; text = "{Field Name}"; ObjectID = "ecN-Xd-ff5"; Note = "#bc-ignore!";</note>
+        <note>Class = "UITextField"; text = "{Field Name}"; ObjectID = "ecN-Xd-ff5";</note>
       </trans-unit>
-      <trans-unit id="eox-My-Hns.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" xml:space="preserve">
+      <trans-unit id="eox-My-Hns.accessibilityLabel" xml:space="preserve">
         <source>In-memory Protection</source>
         <target state="translated">In-geheugen-bescherming</target>
-        <note>Class = "UISwitch"; eox-My-Hns.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "In-memory Protection"; ObjectID = "eox-My-Hns"; Note = "Equivalent to KeePass' own `Enable in-memory protection' for custom entry fields.";</note>
+        <note>Class = "UISwitch"; accessibilityLabel = "In-memory Protection"; ObjectID = "eox-My-Hns"; Note = "Equivalent to KeePass' own `Enable in-memory protection' for custom entry fields.";</note>
       </trans-unit>
       <trans-unit id="kN4-4o-MBS.text" xml:space="preserve" translate="no">
         <source>{Field Name}</source>
@@ -1614,20 +1632,20 @@ Je kunt je abonnementen beheren en annuleren door na aankoop naar je accountinst
         <target state="translated">Bewerk item</target>
         <note>Class = "UINavigationItem"; title = "Edit Entry"; ObjectID = "l3s-Bv-fA1";</note>
       </trans-unit>
-      <trans-unit id="mGc-If-zfn.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" xml:space="preserve" translate="no">
+      <trans-unit id="mGc-If-zfn.accessibilityLabel" xml:space="preserve" approved="yes">
         <source>Entry title</source>
-        <target state="needs-translation">Entry title</target>
-        <note>Class = "UITextField"; mGc-If-zfn.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Entry title"; ObjectID = "mGc-If-zfn"; Note = "#bc-ignore!";</note>
+        <target state="final">Invoertitel</target>
+        <note>Class = "UITextField"; accessibilityLabel = "Entry title"; ObjectID = "mGc-If-zfn";</note>
       </trans-unit>
-      <trans-unit id="mGc-If-zfn.placeholder" xml:space="preserve" translate="no">
+      <trans-unit id="mGc-If-zfn.placeholder" xml:space="preserve" approved="yes">
         <source>Entry Title</source>
-        <target state="needs-translation">Entry Title</target>
-        <note>Class = "UITextField"; placeholder = "Entry Title"; ObjectID = "mGc-If-zfn"; Note = "#bc-ignore!";</note>
+        <target state="final">Invoertitel</target>
+        <note>Class = "UITextField"; placeholder = "Entry Title"; ObjectID = "mGc-If-zfn";</note>
       </trans-unit>
       <trans-unit id="mGc-If-zfn.text" xml:space="preserve" translate="no">
         <source>{Entry Title}</source>
         <target state="needs-translation">{Entry Title}</target>
-        <note>Class = "UITextField"; text = "{Entry Title}"; ObjectID = "mGc-If-zfn"; Note = "#bc-ignore!";</note>
+        <note>Class = "UITextField"; text = "{Entry Title}"; ObjectID = "mGc-If-zfn";</note>
       </trans-unit>
       <trans-unit id="mYx-OE-79H.text" xml:space="preserve" translate="no">
         <source>{Field Name}</source>
@@ -1903,15 +1921,20 @@ Je kunt je abonnementen beheren en annuleren door na aankoop naar je accountinst
         <target state="translated">De KeePass-databank mag niet worden gebruikt als sleutelbestand. Kies een ander bestand.</target>
         <note>Warning message when the user tries to use a database as a key file</note>
       </trans-unit>
-      <trans-unit id="[Accessibility] Double tap to copy to clipboard" xml:space="preserve">
+      <trans-unit id="[Accessibility] Double tap to copy to clipboard" xml:space="preserve" approved="yes">
         <source>Double tap to copy to clipboard</source>
-        <target state="translated">Dubbeltikken om naar klembord te kopiëren</target>
+        <target state="final">Dubbeltikken om naar klembord te kopiëren</target>
         <note>Suggestion/hint for available user action</note>
       </trans-unit>
       <trans-unit id="[AppLock/Biometric/Hint] Unlock KeePassium" xml:space="preserve">
         <source>Unlock KeePassium</source>
         <target state="translated">Ontgrendel KeePassium</target>
         <note>Hint/Description why the user is asked to provide their fingerprint. Shown in the standard Touch ID prompt.</note>
+      </trans-unit>
+      <trans-unit id="[AppLock/EnterPasscode/callToAction]" xml:space="preserve">
+        <source>Unlock KeePassium</source>
+        <target state="translated">Ontgrendel KeePassium</target>
+        <note>Call to action in the passcode input dialog.</note>
       </trans-unit>
       <trans-unit id="[AppLock/Passcode/KeyboardType/switchAction] 123→ABC" xml:space="preserve">
         <source>123→ABC</source>
@@ -1923,15 +1946,40 @@ Je kunt je abonnementen beheren en annuleren door na aankoop naar je accountinst
         <target state="translated">ABC→123</target>
         <note>Action: change keyboard type to enter PIN numbers</note>
       </trans-unit>
+      <trans-unit id="[AppLock/SetupPasscode/callToAction]" xml:space="preserve" approved="yes">
+        <source>Protect KeePassium from unauthorized access</source>
+        <target state="final">Bescherm KeePassium tegen ongeautoriseerde toegang</target>
+        <note>Call to action in the passcode input dialog.</note>
+      </trans-unit>
       <trans-unit id="[AppLock/cancelBiometricAuth] Use Passcode" xml:space="preserve">
         <source>Use Passcode</source>
         <target state="translated">Gebruik toegangscode</target>
         <note>Action/button to switch from TouchID/FaceID prompt to manual input of the AppLock passcode.</note>
       </trans-unit>
+      <trans-unit id="[AppLock/changePasscode]" xml:space="preserve" approved="yes">
+        <source>Change Passcode</source>
+        <target state="final">Toegangscode wijzigen</target>
+        <note>Action/button to modify the existing AppLock passcode.</note>
+      </trans-unit>
+      <trans-unit id="[AppLock/passcodeUpdated/title]" xml:space="preserve" approved="yes">
+        <source>Passcode updated successfully.</source>
+        <target state="final">Toegangscode bijgewerkt.</target>
+        <note>Notification that the modified AppLock passcode has been saved.</note>
+      </trans-unit>
+      <trans-unit id="[AppLock/savePasscode]" xml:space="preserve" approved="yes">
+        <source>Save Passcode</source>
+        <target state="final">Toegangscode opslaan</target>
+        <note>Action/button to save new or edited AppLock passcode.</note>
+      </trans-unit>
       <trans-unit id="[AppLock] Unlock" xml:space="preserve">
         <source>Unlock</source>
         <target state="translated">Ontgrendel</target>
         <note>Action/button to unlock the App Lock with passcode</note>
+      </trans-unit>
+      <trans-unit id="[Appearance/TextSize/title]" xml:space="preserve" approved="yes">
+        <source>Text Size</source>
+        <target state="final">Tekstgrootte</target>
+        <note>Title of a setting option: font size</note>
       </trans-unit>
       <trans-unit id="[BiometricAuthType] Face ID" xml:space="preserve">
         <source>Face ID</source>
@@ -1943,9 +1991,9 @@ Je kunt je abonnementen beheren en annuleren door na aankoop naar je accountinst
         <target state="translated">Touch ID</target>
         <note>Name of biometric authentication method. Trademarked, do not translate unless Apple traslated it to your language.</note>
       </trans-unit>
-      <trans-unit id="[Clipboard/Copy/namedValue]" xml:space="preserve">
+      <trans-unit id="[Clipboard/Copy/namedValue]" xml:space="preserve" approved="yes">
         <source>Copy %@</source>
-        <target state="translated">%@ kopiëren</target>
+        <target state="final">%@ kopiëren</target>
         <note>Action copy some named value to clipboard. For example: `Copy Password`. [valueName: String]</note>
       </trans-unit>
       <trans-unit id="[Clipboard/Copy/notification]" xml:space="preserve">
@@ -2035,6 +2083,16 @@ Je kunt je abonnementen beheren en annuleren door na aankoop naar je accountinst
         <target state="translated">Bezig met laden...</target>
         <note>Status message: loading a database</note>
       </trans-unit>
+      <trans-unit id="[Database/MasterKey/RememberYourPassword/text]" xml:space="preserve" approved="yes">
+        <source>If you ever forget it, you won't be able to access your data. There is no password reset option.</source>
+        <target state="final">Als u het ooit vergeet, hebt u geen toegang meer tot uw gegevens. Er is geen optie om het wachtwoord te resetten.</target>
+        <note>A warning shown when changing database password. Is preceded with `Remember your database password`.</note>
+      </trans-unit>
+      <trans-unit id="[Database/MasterKey/RememberYourPassword/title]" xml:space="preserve" approved="yes">
+        <source>Remember your database password</source>
+        <target state="final">Onthoud uw databasewachtwoord</target>
+        <note>Imperative/recommendation: title of a warning when changing database password.</note>
+      </trans-unit>
       <trans-unit id="[Database/MasterKey/changed] Master key successfully changed" xml:space="preserve">
         <source>Master key successfully changed</source>
         <target state="translated">Hoofdsleutel is gewijzigd</target>
@@ -2101,6 +2159,11 @@ Je kunt je abonnementen beheren en annuleren door na aankoop naar je accountinst
         <source>YubiKey</source>
         <target state="translated">YubiKey</target>
         <note>Action/button to setup YubiKey key component</note>
+      </trans-unit>
+      <trans-unit id="[Diagnostics] Diagnostic log has been copied to clipboard." xml:space="preserve">
+        <source>Diagnostic log has been copied to clipboard.</source>
+        <target state="translated">Diagnostisch logbestand is gekopieerd naar het klembord.</target>
+        <note>Notification/confirmation message</note>
       </trans-unit>
       <trans-unit id="[EditEntry/UserName/choose]" xml:space="preserve">
         <source>Choose</source>
@@ -2202,19 +2265,14 @@ Je kunt je abonnementen beheren en annuleren door na aankoop naar je accountinst
         <target state="translated">Nieuw item</target>
         <note>Default title of a new entry</note>
       </trans-unit>
-      <trans-unit id="[Entry/View] Edit Entry" xml:space="preserve">
-        <source>Edit Entry</source>
-        <target state="translated">Bewerk item</target>
-        <note>Action to start editing an entry</note>
-      </trans-unit>
       <trans-unit id="[File/PermissionDenied] Try to remove the file from the app, then add it again." xml:space="preserve">
         <source>Try to remove the file from the app, then add it again.</source>
         <target state="translated">Probeer het bestand uit de app te verwijderen en voeg het dan opnieuw toe.</target>
         <note>A suggestion shown after specific file errors (either databases or key files).</note>
       </trans-unit>
-      <trans-unit id="[File/Re-add/title]" xml:space="preserve">
+      <trans-unit id="[File/Re-add/title]" xml:space="preserve" approved="yes">
         <source>Add the file again</source>
-        <target state="translated">Voeg het bestand opnieuw toe</target>
+        <target state="final">Voeg het bestand opnieuw toe</target>
         <note>Action: re-add (a broken) database or key file to the app.</note>
       </trans-unit>
       <trans-unit id="[FileInfo/Backup/header]" xml:space="preserve">
@@ -2332,6 +2390,11 @@ Je kunt je abonnementen beheren en annuleren door na aankoop naar je accountinst
         <target state="translated">Annuleer</target>
         <note>Action/button to cancel whatever is going on</note>
       </trans-unit>
+      <trans-unit id="[Generic] Contact Support" xml:space="preserve">
+        <source>Contact Support</source>
+        <target state="translated">Neem contact op met ons ondersteuningsteam</target>
+        <note>Action/button to write an email to support</note>
+      </trans-unit>
       <trans-unit id="[Generic] Contact Us" xml:space="preserve">
         <source>Contact Us</source>
         <target state="translated">Neem contact op</target>
@@ -2347,9 +2410,9 @@ Je kunt je abonnementen beheren en annuleren door na aankoop naar je accountinst
         <target state="translated">Kopiëren</target>
         <note>Action/button to move an item (to another group/folder/etc)</note>
       </trans-unit>
-      <trans-unit id="[Generic] Create" xml:space="preserve">
+      <trans-unit id="[Generic] Create" xml:space="preserve" approved="yes">
         <source>Create</source>
-        <target state="translated">Maken</target>
+        <target state="final">Maken</target>
         <note>Action/button to create an item (entry, group, file — depending on context)</note>
       </trans-unit>
       <trans-unit id="[Generic] Delete" xml:space="preserve">
@@ -2382,14 +2445,14 @@ Je kunt je abonnementen beheren en annuleren door na aankoop naar je accountinst
         <target state="translated">Exporteer</target>
         <note>Action/button to export an item to another app</note>
       </trans-unit>
-      <trans-unit id="[Generic] Learn more" xml:space="preserve">
+      <trans-unit id="[Generic] Learn more" xml:space="preserve" approved="yes">
         <source>Learn more…</source>
-        <target state="translated">Meer informatie</target>
+        <target state="final">Meer informatie</target>
         <note>Action/button to view more help/info about some topic</note>
       </trans-unit>
-      <trans-unit id="[Generic] More Actions" xml:space="preserve">
+      <trans-unit id="[Generic] More Actions" xml:space="preserve" approved="yes">
         <source>More Actions</source>
-        <target state="translated">Meer acties</target>
+        <target state="final">Meer acties</target>
         <note>Checkbox/Button to show additional actions</note>
       </trans-unit>
       <trans-unit id="[Generic] Move" xml:space="preserve">
@@ -2402,9 +2465,9 @@ Je kunt je abonnementen beheren en annuleren door na aankoop naar je accountinst
         <target state="translated">Oké</target>
         <note>Action/button: generic OK</note>
       </trans-unit>
-      <trans-unit id="[Generic] Open URL" xml:space="preserve">
+      <trans-unit id="[Generic] Open URL" xml:space="preserve" approved="yes">
         <source>Open URL</source>
-        <target state="translated">URL openen</target>
+        <target state="final">URL openen</target>
         <note>Action/button to open URL in the appropriate app (usually, web browser)</note>
       </trans-unit>
       <trans-unit id="[Generic] Overwrite" xml:space="preserve">
@@ -2422,9 +2485,9 @@ Je kunt je abonnementen beheren en annuleren door na aankoop naar je accountinst
         <target state="translated">Vervang</target>
         <note>Action/button to replace an item with another one</note>
       </trans-unit>
-      <trans-unit id="[Generic] Share" xml:space="preserve">
+      <trans-unit id="[Generic] Share" xml:space="preserve" approved="yes">
         <source>Share</source>
-        <target state="translated">Delen</target>
+        <target state="final">Delen</target>
         <note>Action/button to share an item with another app (AirDrop, send an email, etc)</note>
       </trans-unit>
       <trans-unit id="[Generic] Show Details" xml:space="preserve">
@@ -2432,9 +2495,9 @@ Je kunt je abonnementen beheren en annuleren door na aankoop naar je accountinst
         <target state="translated">Toon details</target>
         <note>Action/button to show additional information about an error or item</note>
       </trans-unit>
-      <trans-unit id="[Generic] Show In Plain Text" xml:space="preserve">
+      <trans-unit id="[Generic] Show In Plain Text" xml:space="preserve" approved="yes">
         <source>Show In Plain Text</source>
-        <target state="translated">Tonen in tekst zonder opmaak</target>
+        <target state="final">Tonen in tekst zonder opmaak</target>
         <note>Action/button to show sensitive info as it is, in plain text (as opposed to asterisks)</note>
       </trans-unit>
       <trans-unit id="[Generic] Show more" xml:space="preserve">
@@ -2462,9 +2525,9 @@ Je kunt je abonnementen beheren en annuleren door na aankoop naar je accountinst
         <target state="translated">Nieuwe groep</target>
         <note>Default name of a new group</note>
       </trans-unit>
-      <trans-unit id="[Group/a11y/description]" xml:space="preserve">
+      <trans-unit id="[Group/a11y/description]" xml:space="preserve" approved="yes">
         <source>%@, Group</source>
-        <target state="translated">%@, groep</target>
+        <target state="final">%@, groep</target>
         <note>VoiceOver description of a group [groupTitle: String, itemCount: Int]</note>
       </trans-unit>
       <trans-unit id="[HardwareKey/AutoFill/NotAvailable] Hardware keys are not available in AutoFill." xml:space="preserve">
@@ -2571,19 +2634,19 @@ Je kunt je abonnementen beheren en annuleren door na aankoop naar je accountinst
         <target state="translated">Wat je krijgt</target>
         <note>List of premium benefits/advantages</note>
       </trans-unit>
-      <trans-unit id="[Premium/Benefits/ViewFieldReferences/details]" xml:space="preserve">
+      <trans-unit id="[Premium/Benefits/ViewFieldReferences/details]" xml:space="preserve" approved="yes">
         <source>Use field references to show information from other entries, instead of creating multiple copies of the same information.</source>
-        <target state="translated">Gebruik veldverwijzingen om informatie van andere items weer te geven, in plaats van meerdere kopieën van dezelfde informatie te maken.</target>
+        <target state="final">Gebruik veldverwijzingen om informatie van andere items weer te geven, in plaats van meerdere kopieën van dezelfde informatie te maken.</target>
         <note>Explanation of a premium feature</note>
       </trans-unit>
-      <trans-unit id="[Premium/Benefits/ViewFieldReferences/title]" xml:space="preserve">
+      <trans-unit id="[Premium/Benefits/ViewFieldReferences/title]" xml:space="preserve" approved="yes">
         <source>Show field references</source>
-        <target state="translated">Veldverwijzingen tonen</target>
+        <target state="final">Veldverwijzingen tonen</target>
         <note>Title of a premium feature</note>
       </trans-unit>
-      <trans-unit id="[Premium/CallToAction/buyNow]" xml:space="preserve">
+      <trans-unit id="[Premium/CallToAction/buyNow]" xml:space="preserve" approved="yes">
         <source>Buy Now</source>
-        <target state="translated">Nu kopen</target>
+        <target state="final">Nu kopen</target>
         <note>Call to action</note>
       </trans-unit>
       <trans-unit id="[Premium/CallToAction/free]" xml:space="preserve">
@@ -2601,9 +2664,9 @@ Je kunt je abonnementen beheren en annuleren door na aankoop naar je accountinst
         <target state="translated">Upgrade nu</target>
         <note>Call to action: upgrade to premium</note>
       </trans-unit>
-      <trans-unit id="[Premium/ManageSubscriptions/action]" xml:space="preserve">
+      <trans-unit id="[Premium/ManageSubscriptions/action]" xml:space="preserve" approved="yes">
         <source>Manage subscriptions</source>
-        <target state="translated">Abonnementen beheren</target>
+        <target state="final">Abonnementen beheren</target>
         <note>Action: open AppStore subscription management page</note>
       </trans-unit>
       <trans-unit id="[Premium/PerpetualLicense/status]" xml:space="preserve">
@@ -2646,9 +2709,9 @@ Je kunt je abonnementen beheren en annuleren door na aankoop naar je accountinst
         <target state="translated">Freemium-herinneringen</target>
         <note>What's included in a free plan: reminders that the version is free</note>
       </trans-unit>
-      <trans-unit id="[Premium/Price Plan/Conditions/full price upgrade]" xml:space="preserve">
+      <trans-unit id="[Premium/Price Plan/Conditions/full price upgrade]" xml:space="preserve" approved="yes">
         <source>Premium features added in the future would require a new purchase at full price.</source>
-        <target state="translated">Voor premiumfuncties die in de toekomst worden toegevoegd, is een nieuwe aankoop voor de volledige prijs vereist.</target>
+        <target state="final">Voor premiumfuncties die in de toekomst worden toegevoegd, is een nieuwe aankoop voor de volledige prijs vereist.</target>
         <note>Upgrade conditions for current-version premium purchase.</note>
       </trans-unit>
       <trans-unit id="[Premium/Price Plan/Conditions/future premium features]" xml:space="preserve">
@@ -2661,9 +2724,9 @@ Je kunt je abonnementen beheren en annuleren door na aankoop naar je accountinst
         <target state="translated">Bruikleenlicentie (terugvallicentie)</target>
         <note>What's included in a price plan. Please leave `perpetual fallback license` in English.</note>
       </trans-unit>
-      <trans-unit id="[Premium/Price Plan/Conditions/subscription as purchase]" xml:space="preserve">
+      <trans-unit id="[Premium/Price Plan/Conditions/subscription as purchase]" xml:space="preserve" approved="yes">
         <source>Subscription as a purchase</source>
-        <target state="translated">Abonnement in de vorm van een aankoop</target>
+        <target state="final">Abonnement in de vorm van een aankoop</target>
         <note>What's included in a subscription plan. By subscribing for a certain period, the user receives a permanent license for a version of the app. More info: https://keepassium.com/articles/perpetual-fallback-license/</note>
       </trans-unit>
       <trans-unit id="[Premium/Price Plan/Conditions/updates and bug fixes]" xml:space="preserve">
@@ -2708,9 +2771,9 @@ Je kunt je abonnementen beheren en annuleren door na aankoop naar je accountinst
         <target state="translated">%1$@ gratis, daarna %2$@</target>
         <note>Trial conditions. For example `30 days free, then $1 per month`</note>
       </trans-unit>
-      <trans-unit id="[Premium/Upgrade/Deferred/text] Thank you! You can use KeePassium while purchase is awaiting approval." xml:space="preserve">
+      <trans-unit id="[Premium/Upgrade/Deferred/text] Thank you! You can use KeePassium while purchase is awaiting approval." xml:space="preserve" approved="yes">
         <source>Thank you! You can use KeePassium while purchase is awaiting approval.</source>
-        <target state="translated">Bedankt! U kunt KeePassium gebruiken terwijl de aankoop wordt goedgekeurd.</target>
+        <target state="final">Bedankt! U kunt KeePassium gebruiken terwijl de aankoop wordt goedgekeurd.</target>
         <note>Message shown when in-app purchase is deferred until approval (parental or corporate).</note>
       </trans-unit>
       <trans-unit id="[Premium/Upgrade/Progress] Contacting AppStore..." xml:space="preserve">
@@ -2743,9 +2806,9 @@ Je kunt je abonnementen beheren en annuleren door na aankoop naar je accountinst
         <target state="translated">Aankoop hersteld</target>
         <note>Title of the message shown after in-app purchase was successfully restored</note>
       </trans-unit>
-      <trans-unit id="[Premium/Upgrade/Success/thankYou]" xml:space="preserve">
+      <trans-unit id="[Premium/Upgrade/Success/thankYou]" xml:space="preserve" approved="yes">
         <source>Thank you for the purchase!</source>
-        <target state="translated">Bedankt voor uw aankoop!</target>
+        <target state="final">Bedankt voor uw aankoop!</target>
         <note>Message shown after buying or subscribing.</note>
       </trans-unit>
       <trans-unit id="[Premium/Upgrade/action] Upgrade to Premium" xml:space="preserve">
@@ -2753,9 +2816,9 @@ Je kunt je abonnementen beheren en annuleren door na aankoop naar je accountinst
         <target state="translated">Upgrade naar Premium</target>
         <note>Action/button to start choosing premium versions and possibly buying one</note>
       </trans-unit>
-      <trans-unit id="[Premium/Upgrade/cancelOngoingSubscription]" xml:space="preserve">
+      <trans-unit id="[Premium/Upgrade/cancelOngoingSubscription]" xml:space="preserve" approved="yes">
         <source>Please check if you need to cancel your old subscription.</source>
-        <target state="translated">Controleer of u uw oude abonnement moet opzeggen.</target>
+        <target state="final">Controleer of u uw oude abonnement moet opzeggen.</target>
         <note>Message shown after buying a lifetime version.</note>
       </trans-unit>
       <trans-unit id="[Premium/Upgrade/price] %@ / month" xml:space="preserve">
@@ -2878,14 +2941,14 @@ Je kunt je abonnementen beheren en annuleren door na aankoop naar je accountinst
         <target state="translated">Gebruik %@</target>
         <note>Settings switch: whether AppLock is allowed to use Touch ID/Face ID. Example: 'Use Touch ID'. [biometryTypeName: String]</note>
       </trans-unit>
-      <trans-unit id="[Settings/AppLock/LockOnLaunch/description]" xml:space="preserve">
+      <trans-unit id="[Settings/AppLock/LockOnLaunch/description]" xml:space="preserve" approved="yes">
         <source>Ensures KeePassium is locked after you force-close the app or restart the device.</source>
-        <target state="translated">Zorgt ervoor dat KeePassium is vergrendeld nadat u de app gedwongen hebt afgesloten of het apparaat opnieuw opstart.</target>
+        <target state="final">Zorgt ervoor dat KeePassium is vergrendeld nadat u de app gedwongen hebt afgesloten of het apparaat opnieuw opstart.</target>
         <note>Explanation for the `Lock on App Launch` setting</note>
       </trans-unit>
-      <trans-unit id="[Settings/AppLock/LockOnLaunch/title]" xml:space="preserve">
+      <trans-unit id="[Settings/AppLock/LockOnLaunch/title]" xml:space="preserve" approved="yes">
         <source>Lock on App Launch</source>
-        <target state="translated">Vergrendelen bij het starten van de app</target>
+        <target state="final">Vergrendelen bij het starten van de app</target>
         <note>Setting switch: whether to lock the app after it was terminated and relaunched.</note>
       </trans-unit>
       <trans-unit id="[Settings/AppLock/subtitle] App Lock, %@, timeout" xml:space="preserve">
@@ -3075,6 +3138,11 @@ Je kunt je abonnementen beheren en annuleren door na aankoop naar je accountinst
         <target state="translated">Publiek domein</target>
         <note>Class = "UILabel"; text = "Public domain"; ObjectID = "JgR-60-OMp";</note>
       </trans-unit>
+      <trans-unit id="JjJ-GT-eoX.text" xml:space="preserve" approved="yes">
+        <source>LGPL license</source>
+        <target state="final">LGPL-licentie</target>
+        <note>Class = "UILabel"; text = "LGPL license"; ObjectID = "JjJ-GT-eoX";</note>
+      </trans-unit>
       <trans-unit id="Kdg-Hz-XOQ.text" xml:space="preserve">
         <source>Fancy deboss pattern by Daniel Beaton</source>
         <target state="translated">Gelikt deboss-patroon van Daniel Beaton</target>
@@ -3115,6 +3183,11 @@ Je kunt je abonnementen beheren en annuleren door na aankoop naar je accountinst
         <target state="translated">Neem contact op met ons ondersteuningsteam</target>
         <note>Class = "UILabel"; text = "Contact Support"; ObjectID = "TOl-DA-gYc"; Note = "Action: contact us";</note>
       </trans-unit>
+      <trans-unit id="VuB-ng-Uii.text" xml:space="preserve" approved="yes">
+        <source>Nuvola icons by David Vignoni</source>
+        <target state="final">Nuvola-pictogrammen van David Vignoni</target>
+        <note>Class = "UILabel"; text = "Nuvola icons by David Vignoni"; ObjectID = "VuB-ng-Uii";</note>
+      </trans-unit>
       <trans-unit id="Wuj-Uw-baK.text" xml:space="preserve">
         <source>KeePassium</source>
         <target state="translated">KeePassium</target>
@@ -3124,6 +3197,11 @@ Je kunt je abonnementen beheren en annuleren door na aankoop naar je accountinst
         <source>Yubico Mobile iOS SDK by Yubico AB</source>
         <target state="translated">Yubico Mobile iOS SDK van Yubico AB</target>
         <note>Class = "UILabel"; text = "Yubico Mobile iOS SDK by Yubico AB"; ObjectID = "Xee-Y1-Dcw";</note>
+      </trans-unit>
+      <trans-unit id="Z7s-Ch-895.text" xml:space="preserve">
+        <source>MIT license</source>
+        <target state="translated">MIT-licentie</target>
+        <note>Class = "UILabel"; text = "MIT license"; ObjectID = "Z7s-Ch-895";</note>
       </trans-unit>
       <trans-unit id="aqX-J9-IzD.text" xml:space="preserve">
         <source>Translation by KeePassium contributors</source>
@@ -3169,6 +3247,11 @@ Je kunt je abonnementen beheren en annuleren door na aankoop naar je accountinst
         <source>CC BY 3.0</source>
         <target state="translated">CC BY 3.0</target>
         <note>Class = "UILabel"; text = "CC BY 3.0"; ObjectID = "hVm-qH-TAI";</note>
+      </trans-unit>
+      <trans-unit id="hW0-fR-mIf.text" xml:space="preserve" approved="yes">
+        <source>Icons by KeePassXC team</source>
+        <target state="final">Pictogrammen van het KeePassXC-team</target>
+        <note>Class = "UILabel"; text = "Icons by KeePassXC team"; ObjectID = "hW0-fR-mIf";</note>
       </trans-unit>
       <trans-unit id="ht7-pj-Dbb.text" xml:space="preserve">
         <source>Apache 2.0 license</source>
@@ -3289,10 +3372,10 @@ Je kunt je abonnementen beheren en annuleren door na aankoop naar je accountinst
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
     </header>
     <body>
-      <trans-unit id="3mQ-t6-0ty.text" xml:space="preserve">
-        <source>Enter passcode</source>
-        <target state="translated">Voer toegangscode in</target>
-        <note>Class = "UILabel"; text = "Enter passcode"; ObjectID = "3mQ-t6-0ty"; Note = "Call for action above the passcode text field";</note>
+      <trans-unit id="3mQ-t6-0ty.text" xml:space="preserve" translate="no">
+        <source>{Enter passcode to protect KeePassium}</source>
+        <target state="needs-translation">{Enter passcode to protect KeePassium}</target>
+        <note>Class = "UILabel"; text = "{Enter passcode to protect KeePassium}"; ObjectID = "3mQ-t6-0ty"; Note = "#bc-ignore!";</note>
       </trans-unit>
       <trans-unit id="P3J-3c-ucU.title" xml:space="preserve">
         <source>Unlock KeePassium</source>
@@ -3318,38 +3401,6 @@ Je kunt je abonnementen beheren en annuleren door na aankoop naar je accountinst
         <source>Cancel</source>
         <target state="translated">Annuleer</target>
         <note>Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "z0x-Rz-Nfj";</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="KeePassium/general/Base.lproj/ViewDiagnosticsVC.storyboard" source-language="en" target-language="nl" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
-    </header>
-    <body>
-      <trans-unit id="1D0-qD-Wj1.title" xml:space="preserve">
-        <source>Diagnostic Info</source>
-        <target state="translated">Diagnostische informatie</target>
-        <note>Class = "UINavigationItem"; title = "Diagnostic Info"; ObjectID = "1D0-qD-Wj1";</note>
-      </trans-unit>
-      <trans-unit id="dZz-Nc-6Cx.text" xml:space="preserve" translate="no">
-        <source>{Diagnostic message}</source>
-        <target state="needs-translation">{Diagnostic message}</target>
-        <note>Class = "UILabel"; text = "{Diagnostic message}"; ObjectID = "dZz-Nc-6Cx"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="icR-uK-cyC.title" xml:space="preserve">
-        <source>Clear</source>
-        <target state="translated">Wis</target>
-        <note>Class = "UIBarButtonItem"; title = "Clear"; ObjectID = "icR-uK-cyC"; Note = "Action: clear diagnostic log";</note>
-      </trans-unit>
-      <trans-unit id="p9T-RU-hRQ.text" xml:space="preserve" translate="no">
-        <source>{file:line:function}</source>
-        <target state="needs-translation">{file:line:function}</target>
-        <note>Class = "UILabel"; text = "{file:line:function}"; ObjectID = "p9T-RU-hRQ"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="uAJ-Ui-Jkx.title" xml:space="preserve">
-        <source>Contact Support</source>
-        <target state="translated">Neem contact op met ons ondersteuningsteam</target>
-        <note>Class = "UIBarButtonItem"; title = "Contact Support"; ObjectID = "uAJ-Ui-Jkx"; Note = "Action: write an email to support";</note>
       </trans-unit>
     </body>
   </file>
@@ -3379,6 +3430,33 @@ Je kunt beschikken over meerdere databanken, bijvoorbeeld om werk, familie en pe
         <source>Add Existing Database</source>
         <target state="translated">Voeg bestaande databank toe</target>
         <note>Class = "UIButton"; normalTitle = "Add Existing Database"; ObjectID = "ZKW-2f-Xkz";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="KeePassium/general/diagnostics/Base.lproj/DiagnosticsViewerVC.storyboard" source-language="en" target-language="nl" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
+    </header>
+    <body>
+      <trans-unit id="Bti-aV-bQB.title" xml:space="preserve" translate="no">
+        <source>{Contact Support}</source>
+        <target state="needs-translation">{Contact Support}</target>
+        <note>Class = "UIBarButtonItem"; title = "{Contact Support}"; ObjectID = "Bti-aV-bQB"; Note = "#bc-ignore!";</note>
+      </trans-unit>
+      <trans-unit id="Ura-k4-GXq.title" xml:space="preserve">
+        <source>Diagnostics</source>
+        <target state="translated">Diagnostische gegevens</target>
+        <note>Class = "UINavigationItem"; title = "Diagnostics"; ObjectID = "Ura-k4-GXq";</note>
+      </trans-unit>
+      <trans-unit id="VTC-44-cgF.text" xml:space="preserve" translate="no">
+        <source>{file:line:function}</source>
+        <target state="needs-translation">{file:line:function}</target>
+        <note>Class = "UILabel"; text = "{file:line:function}"; ObjectID = "VTC-44-cgF"; Note = "#bc-ignore!";</note>
+      </trans-unit>
+      <trans-unit id="vlS-RX-RUW.text" xml:space="preserve" translate="no">
+        <source>{Diagnostic message}</source>
+        <target state="needs-translation">{Diagnostic message}</target>
+        <note>Class = "UILabel"; text = "{Diagnostic message}"; ObjectID = "vlS-RX-RUW"; Note = "#bc-ignore!";</note>
       </trans-unit>
     </body>
   </file>
@@ -3459,6 +3537,58 @@ Je kunt beschikken over meerdere databanken, bijvoorbeeld om werk, familie en pe
       </trans-unit>
     </body>
   </file>
+  <file original="KeePassium/settings/appearance/Base.lproj/SettingsAppearanceVC.storyboard" source-language="en" target-language="nl" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
+    </header>
+    <body>
+      <trans-unit id="4Yu-VJ-n8p.text" xml:space="preserve">
+        <source>Database Icons</source>
+        <target state="translated">Databankpictogrammen</target>
+        <note>Class = "UILabel"; text = "Database Icons"; ObjectID = "4Yu-VJ-n8p"; Note = "Section in settings: icons for database";</note>
+      </trans-unit>
+      <trans-unit id="4mh-X8-Byq.title" xml:space="preserve">
+        <source>Appearance</source>
+        <target state="translated">Vormgeving</target>
+        <note>Class = "UITableViewController"; title = "Appearance"; ObjectID = "4mh-X8-Byq"; Note = "Settings for user interface appearance (text size, icons, etc)";</note>
+      </trans-unit>
+      <trans-unit id="5U9-NZ-sJe.accessibilityLabel" xml:space="preserve">
+        <source>Reset text size to default</source>
+        <target state="translated">Zet de tekstgrootte terug op de standaardwaarde</target>
+        <note>Class = "UIButton"; accessibilityLabel = "Reset text size to default"; ObjectID = "5U9-NZ-sJe"; Note = "Action: set text size to standard size";</note>
+      </trans-unit>
+      <trans-unit id="Lh3-CB-Urp.footerTitle" xml:space="preserve">
+        <source>Hide passwords and other protected fields behind asterisks (recommended).</source>
+        <target state="translated">Maskeer wachtwoorden en andere beveiligde velden met jokertekens (aanbevolen).</target>
+        <note>Class = "UITableViewSection"; footerTitle = "Hide passwords and other protected fields behind asterisks (recommended)."; ObjectID = "Lh3-CB-Urp";</note>
+      </trans-unit>
+      <trans-unit id="Lh3-CB-Urp.headerTitle" xml:space="preserve">
+        <source>Protected Fields</source>
+        <target state="translated">Beveiligde velden</target>
+        <note>Class = "UITableViewSection"; headerTitle = "Protected Fields"; ObjectID = "Lh3-CB-Urp";</note>
+      </trans-unit>
+      <trans-unit id="MsA-Cd-czb.headerTitle" xml:space="preserve">
+        <source>Entry Viewer</source>
+        <target state="translated">Itemweergave</target>
+        <note>Class = "UITableViewSection"; headerTitle = "Entry Viewer"; ObjectID = "MsA-Cd-czb";</note>
+      </trans-unit>
+      <trans-unit id="QbO-y9-3wb.text" xml:space="preserve" translate="no">
+        <source>{Text size}</source>
+        <target state="needs-translation">{Text size}</target>
+        <note>Class = "UILabel"; text = "{Text size}"; ObjectID = "QbO-y9-3wb"; Note = "#bc-ignore!";</note>
+      </trans-unit>
+      <trans-unit id="fSx-Do-lgu.text" xml:space="preserve">
+        <source>App Icon</source>
+        <target state="translated">App-pictogram</target>
+        <note>Class = "UILabel"; text = "App Icon"; ObjectID = "fSx-Do-lgu"; Note = "Section in settings: icon for the app";</note>
+      </trans-unit>
+      <trans-unit id="usg-hF-eLK.text" xml:space="preserve">
+        <source>Hide Passwords</source>
+        <target state="translated">Verberg wachtwoorden</target>
+        <note>Class = "UILabel"; text = "Hide Passwords"; ObjectID = "usg-hF-eLK";</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="KeePassium/settings/appLock/Base.lproj/SettingsAppLockVC.storyboard" source-language="en" target-language="nl" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
@@ -3523,6 +3653,11 @@ Je kunt beschikken over meerdere databanken, bijvoorbeeld om werk, familie en pe
         <source>The app will automatically lock up after this time.</source>
         <target state="translated">De app vergrendelt automatisch na deze periode.</target>
         <note>Class = "UITableViewSection"; footerTitle = "The app will automatically lock up after this time."; ObjectID = "m50-fl-4tu";</note>
+      </trans-unit>
+      <trans-unit id="wzW-GR-02W.text" xml:space="preserve" translate="no">
+        <source>{Change Passcode}</source>
+        <target state="needs-translation">{Change Passcode}</target>
+        <note>Class = "UILabel"; text = "{Change Passcode}"; ObjectID = "wzW-GR-02W"; Note = "#bc-ignore!";</note>
       </trans-unit>
     </body>
   </file>
@@ -3667,9 +3802,9 @@ Je kunt beschikken over meerdere databanken, bijvoorbeeld om werk, familie en pe
         <target state="needs-translation">{N days}</target>
         <note>Class = "UILabel"; text = "{N days}"; ObjectID = "PKe-6p-Ssr"; Note = "#bc-ignore!";</note>
       </trans-unit>
-      <trans-unit id="Qs6-uS-gdS.text" xml:space="preserve">
+      <trans-unit id="Qs6-uS-gdS.text" xml:space="preserve" approved="yes">
         <source>Exclude Backup Files from System Backup</source>
-        <target state="translated">Back-up bestanden niet opnemen in systeemback-up</target>
+        <target state="final">Back-up bestanden niet opnemen in systeemback-up</target>
         <note>Class = "UILabel"; text = "Exclude Backup Files from System Backup"; ObjectID = "Qs6-uS-gdS"; Note = "Settings option, on/off";</note>
       </trans-unit>
       <trans-unit id="RXF-mN-5RB.normalTitle" xml:space="preserve" translate="no">
@@ -3687,14 +3822,14 @@ Je kunt beschikken over meerdere databanken, bijvoorbeeld om werk, familie en pe
         <target state="translated">Toon back-upbestanden</target>
         <note>Class = "UILabel"; text = "Show Backup Files"; ObjectID = "aEK-cJ-9bc"; Note = "Settings option: whether to show backup copies in the list of database files";</note>
       </trans-unit>
-      <trans-unit id="fst-lq-BDl.footerTitle" xml:space="preserve">
+      <trans-unit id="fst-lq-BDl.footerTitle" xml:space="preserve" approved="yes">
         <source>Defines whether backup databases created by KeePassium should be excluded from iCloud/iTunes backup. Applies to all the existing and future backup files.</source>
-        <target state="translated">Definieert of back-updatabases gemaakt door KeePassium al dan niet moeten worden opgenomen in de back-up van iCloud/iTunes. Geldt voor alle bestaande en toekomstige back-upbestanden.</target>
+        <target state="final">Definieert of back-updatabases gemaakt door KeePassium al dan niet moeten worden opgenomen in de back-up van iCloud/iTunes. Geldt voor alle bestaande en toekomstige back-upbestanden.</target>
         <note>Class = "UITableViewSection"; footerTitle = "Defines whether backup databases created by KeePassium should be excluded from iCloud/iTunes backup. Applies to all the existing and future backup files."; ObjectID = "fst-lq-BDl"; Note = "Section header, refers to Apple's backup services (https://support.apple.com/HT203977)";</note>
       </trans-unit>
-      <trans-unit id="fst-lq-BDl.headerTitle" xml:space="preserve">
+      <trans-unit id="fst-lq-BDl.headerTitle" xml:space="preserve" approved="yes">
         <source>iTunes and iCloud Backup</source>
-        <target state="translated">Back-up van iTunes of iCloud</target>
+        <target state="final">Back-up van iTunes of iCloud</target>
         <note>Class = "UITableViewSection"; headerTitle = "iTunes and iCloud Backup"; ObjectID = "fst-lq-BDl"; Note = "Section header, refers to Apple's backup services (https://support.apple.com/HT203977)";</note>
       </trans-unit>
       <trans-unit id="nBI-OF-9iV.footerTitle" xml:space="preserve">
@@ -3807,14 +3942,14 @@ Je kunt beschikken over meerdere databanken, bijvoorbeeld om werk, familie en pe
         <target state="translated">Universeel klembord</target>
         <note>Class = "UILabel"; text = "Universal Clipboard"; ObjectID = "YL6-U9-FM6";</note>
       </trans-unit>
-      <trans-unit id="Zqb-p5-Ft8.footerTitle" xml:space="preserve">
+      <trans-unit id="Zqb-p5-Ft8.footerTitle" xml:space="preserve" approved="yes">
         <source>Cached keys allow KeePassium to skip key derivation and YubiKey scans whenever possible. </source>
-        <target state="translated">Sleutels in cache laten KeePassium waar mogelijk sleutelafleiding en YubiKey-scans overslaan. </target>
+        <target state="final">Sleutels in cache laten KeePassium waar mogelijk sleutelafleiding en YubiKey-scans overslaan. </target>
         <note>Class = "UITableViewSection"; footerTitle = "Cached keys allow KeePassium to skip key derivation and YubiKey scans whenever possible. "; ObjectID = "Zqb-p5-Ft8"; Note = "Section title: advanced/expert settings";</note>
       </trans-unit>
-      <trans-unit id="Zqb-p5-Ft8.headerTitle" xml:space="preserve">
+      <trans-unit id="Zqb-p5-Ft8.headerTitle" xml:space="preserve" approved="yes">
         <source>Advanced</source>
-        <target state="translated">Geavanceerd</target>
+        <target state="final">Geavanceerd</target>
         <note>Class = "UITableViewSection"; headerTitle = "Advanced"; ObjectID = "Zqb-p5-Ft8"; Note = "Section title: advanced/expert settings";</note>
       </trans-unit>
       <trans-unit id="beV-Hv-Qdr.text" xml:space="preserve" translate="no">
@@ -3872,9 +4007,9 @@ Je kunt beschikken over meerdere databanken, bijvoorbeeld om werk, familie en pe
         <target state="translated">Verberg wachtwoorden</target>
         <note>Class = "UILabel"; text = "Hide Passwords"; ObjectID = "pid-k2-idJ";</note>
       </trans-unit>
-      <trans-unit id="siQ-LK-GXZ.text" xml:space="preserve">
+      <trans-unit id="siQ-LK-GXZ.text" xml:space="preserve" approved="yes">
         <source>Cache Derived Encryption Keys</source>
-        <target state="translated">Versleutelingssleutels afgeleid van de cache</target>
+        <target state="final">Versleutelingssleutels afgeleid van de cache</target>
         <note>Class = "UILabel"; text = "Cache Derived Encryption Keys"; ObjectID = "siQ-LK-GXZ"; Note = "Setting: preserve (cache) calculated database keys";</note>
       </trans-unit>
       <trans-unit id="weX-SZ-IDB.text" xml:space="preserve">
@@ -3975,6 +4110,11 @@ Je kunt beschikken over meerdere databanken, bijvoorbeeld om werk, familie en pe
         <target state="translated">Start</target>
         <note>Class = "UITableViewSection"; headerTitle = "Start"; ObjectID = "9yn-W3-FDl"; Note = "Section in settings: settings that define what happens when the app is started.";</note>
       </trans-unit>
+      <trans-unit id="32P-LG-SHa.text" xml:space="preserve" approved="yes">
+        <source>Appearance</source>
+        <target state="final">Vormgeving</target>
+        <note>Class = "UILabel"; text = "Appearance"; ObjectID = "32P-LG-SHa"; Note = "Section in settings: visual style of app elements";</note>
+      </trans-unit>
       <trans-unit id="756-sL-G2t.text" xml:space="preserve">
         <source>Auto-open the Previous Database</source>
         <target state="translated">Open automatisch de vorige databank</target>
@@ -4054,11 +4194,6 @@ Je kunt beschikken over meerdere databanken, bijvoorbeeld om werk, familie en pe
         <source>AutoFill Passwords</source>
         <target state="translated">Vul wachtwoorden automatisch in</target>
         <note>Class = "UILabel"; text = "AutoFill Passwords"; ObjectID = "T2Z-oa-zJR";</note>
-      </trans-unit>
-      <trans-unit id="TUE-Aw-fJl.text" xml:space="preserve">
-        <source>App Icon</source>
-        <target state="translated">App pictogram</target>
-        <note>Class = "UILabel"; text = "App Icon"; ObjectID = "TUE-Aw-fJl"; Note = "Section in settings: icon for the app";</note>
       </trans-unit>
       <trans-unit id="UNl-Hc-Ref.text" xml:space="preserve">
         <source>Data Protection</source>

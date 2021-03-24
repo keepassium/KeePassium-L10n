@@ -488,6 +488,21 @@ Säkerställ att du har en backup på din databas innan du ändrar vidtar åtgä
         <target state="translated">%@ svarar inte.</target>
         <note>Error message: file provider does not respond to requests. For example: `Google Drive does not respond.`</note>
       </trans-unit>
+      <trans-unit id="[FileAccessError/NoWritePermission/title]" xml:space="preserve">
+        <source>Cannot save file (%@)</source>
+        <target state="translated">Kan inte spara fil (%@)</target>
+        <note>Error message: file provider does not support write operations. For example: `Cannot save file (OneDrive)`</note>
+      </trans-unit>
+      <trans-unit id="[FileAccessError/OneDriveReadOnly/reason]" xml:space="preserve">
+        <source>Microsoft has recently switched OneDrive integration with iOS to read-only mode. Temporarily, they say.</source>
+        <target state="translated">Microsoft har nyligen ändrat sin OneDrive-integration så den bara tillåter att läsa filer, utan möjlighet att skriva till dem. Tillfälligt, enligt Microsoft.</target>
+        <note>Explanation of a file writing error</note>
+      </trans-unit>
+      <trans-unit id="[FileAccessError/OneDriveReadOnly/recoverySuggestion]" xml:space="preserve">
+        <source>Use the Export option to save file to another location.</source>
+        <target state="translated">Använd Export-möjligheten för att spara filen till en annan plats.</target>
+        <note>Suggestion for error recovery</note>
+      </trans-unit>
       <trans-unit id="[FileAccessError/Timeout/genericFileProvider]" xml:space="preserve">
         <source>Storage provider does not respond.</source>
         <target state="translated">Lagringsleverantören svarar inte.</target>
@@ -587,6 +602,11 @@ Säkerställ att du har en backup på din databas innan du ändrar vidtar åtgä
         <source>SMB server</source>
         <target state="translated">SMB-server</target>
         <note>Localized name of the storage service: SMB server (network share) via native iOS integration.</note>
+      </trans-unit>
+      <trans-unit id="[FileProvider/Seafile Pro/name]" xml:space="preserve">
+        <source>Seafile Pro</source>
+        <target state="translated">Seafile Pro</target>
+        <note>Localized name of the storage app: Seafile Pro (https://apps.apple.com/us/app/seafile-pro/id639202512)</note>
       </trans-unit>
       <trans-unit id="[FileProvider/Stratospherix FileBrowser/name]" xml:space="preserve" approved="yes">
         <source>FileBrowser</source>

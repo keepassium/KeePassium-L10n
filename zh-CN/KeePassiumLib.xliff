@@ -488,6 +488,21 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="translated">%@没有响应。</target>
         <note>Error message: file provider does not respond to requests. For example: `Google Drive does not respond.`</note>
       </trans-unit>
+      <trans-unit id="[FileAccessError/NoWritePermission/title]" xml:space="preserve">
+        <source>Cannot save file (%@)</source>
+        <target state="needs-translation">Cannot save file (%@)</target>
+        <note>Error message: file provider does not support write operations. For example: `Cannot save file (OneDrive)`</note>
+      </trans-unit>
+      <trans-unit id="[FileAccessError/OneDriveReadOnly/reason]" xml:space="preserve">
+        <source>Microsoft has recently switched OneDrive integration with iOS to read-only mode. Temporarily, they say.</source>
+        <target state="needs-translation">Microsoft has recently switched OneDrive integration with iOS to read-only mode. Temporarily, they say.</target>
+        <note>Explanation of a file writing error</note>
+      </trans-unit>
+      <trans-unit id="[FileAccessError/OneDriveReadOnly/recoverySuggestion]" xml:space="preserve">
+        <source>Use the Export option to save file to another location.</source>
+        <target state="needs-translation">Use the Export option to save file to another location.</target>
+        <note>Suggestion for error recovery</note>
+      </trans-unit>
       <trans-unit id="[FileAccessError/Timeout/genericFileProvider]" xml:space="preserve">
         <source>Storage provider does not respond.</source>
         <target state="translated">存储提供商没有响应。</target>
@@ -588,9 +603,14 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="translated">SMB 服务器</target>
         <note>Localized name of the storage service: SMB server (network share) via native iOS integration.</note>
       </trans-unit>
+      <trans-unit id="[FileProvider/Seafile Pro/name]" xml:space="preserve">
+        <source>Seafile Pro</source>
+        <target state="translated">Seafile Pro</target>
+        <note>Localized name of the storage app: Seafile Pro (https://apps.apple.com/us/app/seafile-pro/id639202512)</note>
+      </trans-unit>
       <trans-unit id="[FileProvider/Stratospherix FileBrowser/name]" xml:space="preserve">
         <source>FileBrowser</source>
-        <target state="needs-translation">FileBrowser</target>
+        <target state="translated">FileBrowser</target>
         <note>Localized name of the storage service: Stratospherix FileBrowser (https://apps.apple.com/us/app/filebrowser-document-manager/id364738545)</note>
       </trans-unit>
       <trans-unit id="[FileProvider/Synology DS file/name]" xml:space="preserve">
@@ -635,7 +655,7 @@ Please make sure to have a backup of your database before changing anything.</so
       </trans-unit>
       <trans-unit id="[FileProvider/qnapQFile/name]" xml:space="preserve">
         <source>Qfile</source>
-        <target state="needs-translation">Qfile</target>
+        <target state="translated">Qfile</target>
         <note>Localized name of the storage service: QNAP Qfile (https://apps.apple.com/app/qfile/id526330408)</note>
       </trans-unit>
       <trans-unit id="[FileProvider/sync.com/name]" xml:space="preserve">

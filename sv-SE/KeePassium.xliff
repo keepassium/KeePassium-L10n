@@ -104,28 +104,6 @@ Kontakta oss om du behöver hjälp med detta.</target>
       </trans-unit>
     </body>
   </file>
-  <file original="KeePassium/general/diagnostics/Base.lproj/DiagnosticsViewerVC.storyboard" source-language="en" target-language="sv" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
-    </header>
-    <body>
-      <trans-unit id="Ura-k4-GXq.title" xml:space="preserve">
-        <source>Diagnostics</source>
-        <target state="translated">Diagnostik</target>
-        <note>Class = "UINavigationItem"; title = "Diagnostics"; ObjectID = "Ura-k4-GXq";</note>
-      </trans-unit>
-      <trans-unit id="VTC-44-cgF.text" xml:space="preserve" translate="no">
-        <source>{file:line:function}</source>
-        <target state="needs-translation">{file:line:function}</target>
-        <note>Class = "UILabel"; text = "{file:line:function}"; ObjectID = "VTC-44-cgF"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="vlS-RX-RUW.text" xml:space="preserve" translate="no">
-        <source>{Diagnostic message}</source>
-        <target state="needs-translation">{Diagnostic message}</target>
-        <note>Class = "UILabel"; text = "{Diagnostic message}"; ObjectID = "vlS-RX-RUW"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="KeePassium AutoFill/controllers/Base.lproj/EntryFinderVC.storyboard" source-language="en" target-language="sv" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
@@ -304,6 +282,11 @@ Kontakta oss om du behöver hjälp med detta.</target>
         <target state="translated">Lås upp KeePassium</target>
         <note>Hint/Description why the user is asked to provide their fingerprint. Shown in the standard Touch ID prompt.</note>
       </trans-unit>
+      <trans-unit id="[AppLock/EnterPasscode/callToAction]" xml:space="preserve">
+        <source>Unlock KeePassium</source>
+        <target state="translated">Lås upp KeePassium</target>
+        <note>Call to action in the passcode input dialog.</note>
+      </trans-unit>
       <trans-unit id="[AppLock/Passcode/KeyboardType/switchAction] 123→ABC" xml:space="preserve">
         <source>123→ABC</source>
         <target state="translated">123→ABC</target>
@@ -314,10 +297,30 @@ Kontakta oss om du behöver hjälp med detta.</target>
         <target state="translated">ABC→123</target>
         <note>Action: change keyboard type to enter PIN numbers</note>
       </trans-unit>
+      <trans-unit id="[AppLock/SetupPasscode/callToAction]" xml:space="preserve">
+        <source>Protect KeePassium from unauthorized access</source>
+        <target state="translated">Skydda KeePassium från obehörig åtkomst</target>
+        <note>Call to action in the passcode input dialog.</note>
+      </trans-unit>
       <trans-unit id="[AppLock/cancelBiometricAuth] Use Passcode" xml:space="preserve">
         <source>Use Passcode</source>
         <target state="translated">Använd PIN-kod</target>
         <note>Action/button to switch from TouchID/FaceID prompt to manual input of the AppLock passcode.</note>
+      </trans-unit>
+      <trans-unit id="[AppLock/changePasscode]" xml:space="preserve">
+        <source>Change Passcode</source>
+        <target state="translated">Ändra pinkod</target>
+        <note>Action/button to modify the existing AppLock passcode.</note>
+      </trans-unit>
+      <trans-unit id="[AppLock/passcodeUpdated/title]" xml:space="preserve">
+        <source>Passcode updated successfully.</source>
+        <target state="translated">Pinkoden uppdaterades.</target>
+        <note>Notification that the modified AppLock passcode has been saved.</note>
+      </trans-unit>
+      <trans-unit id="[AppLock/savePasscode]" xml:space="preserve">
+        <source>Save Passcode</source>
+        <target state="translated">Spara pinkod</target>
+        <note>Action/button to save new or edited AppLock passcode.</note>
       </trans-unit>
       <trans-unit id="[AppLock] Unlock" xml:space="preserve">
         <source>Unlock</source>
@@ -403,6 +406,16 @@ Säkerställ att du har en backup.</target>
         <source>Loading...</source>
         <target state="translated">Laddar...</target>
         <note>Status message: loading a database</note>
+      </trans-unit>
+      <trans-unit id="[Database/MasterKey/RememberYourPassword/text]" xml:space="preserve">
+        <source>If you ever forget it, you won't be able to access your data. There is no password reset option.</source>
+        <target state="translated">Om du glömmer det kommer du inte att kunna komma åt din data igen. Det finns ingen möjlighet att återställa lösenordet.</target>
+        <note>A warning shown when changing database password. Is preceded with `Remember your database password`.</note>
+      </trans-unit>
+      <trans-unit id="[Database/MasterKey/RememberYourPassword/title]" xml:space="preserve">
+        <source>Remember your database password</source>
+        <target state="translated">Kom ihåg lösenordet för databasen</target>
+        <note>Imperative/recommendation: title of a warning when changing database password.</note>
       </trans-unit>
       <trans-unit id="[Database/MasterKey/changed] Master key successfully changed" xml:space="preserve">
         <source>Master key successfully changed</source>
@@ -625,6 +638,11 @@ Filen kommer inte raderas, och du kan lägga till den igen vid ett senare tillf�
         <source>Cancel</source>
         <target state="translated">Avbryt</target>
         <note>Action/button to cancel whatever is going on</note>
+      </trans-unit>
+      <trans-unit id="[Generic] Contact Support" xml:space="preserve">
+        <source>Contact Support</source>
+        <target state="translated">Kontakta Support</target>
+        <note>Action/button to write an email to support</note>
       </trans-unit>
       <trans-unit id="[Generic] Contact Us" xml:space="preserve">
         <source>Contact Us</source>
@@ -1544,15 +1562,15 @@ Du kan hantera och avsluta din prenumeration genom att gå till Kontoinställnin
         <target state="translated">Minnesskydd</target>
         <note>Class = "UILabel"; text = "In-memory Protection"; ObjectID = "0pb-xb-fuf"; Note = "Label for a switch, equivalent to KeePass' own `Enable in-memory protection` for custom entry fields.";</note>
       </trans-unit>
-      <trans-unit id="7iU-ut-hd7.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" xml:space="preserve" translate="no">
+      <trans-unit id="7iU-ut-hd7.accessibilityLabel" xml:space="preserve">
         <source>Custom field value</source>
-        <target state="needs-translation">Custom field value</target>
-        <note>Class = "UITextView"; 7iU-ut-hd7.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Custom field value"; ObjectID = "7iU-ut-hd7"; Note = "#bc-ignore!";</note>
+        <target state="translated">Anpassat fältvärde</target>
+        <note>Class = "UITextView"; accessibilityLabel = "Custom field value"; ObjectID = "7iU-ut-hd7";</note>
       </trans-unit>
       <trans-unit id="7iU-ut-hd7.text" xml:space="preserve" translate="no">
         <source>{Multi-line field value. Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.}</source>
         <target state="needs-translation">{Multi-line field value. Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.}</target>
-        <note>Class = "UITextView"; text = "{Multi-line field value. Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.}"; ObjectID = "7iU-ut-hd7"; Note = "#bc-ignore!";</note>
+        <note>Class = "UITextView"; text = "{Multi-line field value. Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.}"; ObjectID = "7iU-ut-hd7";</note>
       </trans-unit>
       <trans-unit id="9e5-bz-qOo.text" xml:space="preserve" translate="no">
         <source>{Multi-line field value. Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.}</source>
@@ -1584,25 +1602,25 @@ Du kan hantera och avsluta din prenumeration genom att gå till Kontoinställnin
         <target state="needs-translation">{Field Value}</target>
         <note>Class = "UITextField"; text = "{Field Value}"; ObjectID = "Ro2-Xv-zrw"; Note = "#bc-ignore!";</note>
       </trans-unit>
-      <trans-unit id="ecN-Xd-ff5.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" xml:space="preserve" translate="no">
+      <trans-unit id="ecN-Xd-ff5.accessibilityLabel" xml:space="preserve">
         <source>Custom field name</source>
-        <target state="needs-translation">Custom field name</target>
-        <note>Class = "UITextField"; ecN-Xd-ff5.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Custom field name"; ObjectID = "ecN-Xd-ff5"; Note = "#bc-ignore!";</note>
+        <target state="translated">Anpassat fältnamn</target>
+        <note>Class = "UITextField"; accessibilityLabel = "Custom field name"; ObjectID = "ecN-Xd-ff5";</note>
       </trans-unit>
-      <trans-unit id="ecN-Xd-ff5.placeholder" xml:space="preserve" translate="no">
+      <trans-unit id="ecN-Xd-ff5.placeholder" xml:space="preserve">
         <source>Field Name</source>
         <target state="translated">Fältnamn</target>
-        <note>Class = "UITextField"; placeholder = "Field Name"; ObjectID = "ecN-Xd-ff5"; Note = "#bc-ignore!";</note>
+        <note>Class = "UITextField"; placeholder = "Field Name"; ObjectID = "ecN-Xd-ff5";</note>
       </trans-unit>
       <trans-unit id="ecN-Xd-ff5.text" xml:space="preserve" translate="no">
         <source>{Field Name}</source>
         <target state="needs-translation">{Field Name}</target>
-        <note>Class = "UITextField"; text = "{Field Name}"; ObjectID = "ecN-Xd-ff5"; Note = "#bc-ignore!";</note>
+        <note>Class = "UITextField"; text = "{Field Name}"; ObjectID = "ecN-Xd-ff5";</note>
       </trans-unit>
-      <trans-unit id="eox-My-Hns.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" xml:space="preserve">
+      <trans-unit id="eox-My-Hns.accessibilityLabel" xml:space="preserve">
         <source>In-memory Protection</source>
         <target state="translated">Minnesskydd</target>
-        <note>Class = "UISwitch"; eox-My-Hns.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "In-memory Protection"; ObjectID = "eox-My-Hns"; Note = "Equivalent to KeePass' own `Enable in-memory protection' for custom entry fields.";</note>
+        <note>Class = "UISwitch"; accessibilityLabel = "In-memory Protection"; ObjectID = "eox-My-Hns"; Note = "Equivalent to KeePass' own `Enable in-memory protection' for custom entry fields.";</note>
       </trans-unit>
       <trans-unit id="kN4-4o-MBS.text" xml:space="preserve" translate="no">
         <source>{Field Name}</source>
@@ -1614,20 +1632,20 @@ Du kan hantera och avsluta din prenumeration genom att gå till Kontoinställnin
         <target state="translated">Redigera konto</target>
         <note>Class = "UINavigationItem"; title = "Edit Entry"; ObjectID = "l3s-Bv-fA1";</note>
       </trans-unit>
-      <trans-unit id="mGc-If-zfn.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" xml:space="preserve" translate="no">
+      <trans-unit id="mGc-If-zfn.accessibilityLabel" xml:space="preserve">
         <source>Entry title</source>
-        <target state="needs-translation">Entry title</target>
-        <note>Class = "UITextField"; mGc-If-zfn.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Entry title"; ObjectID = "mGc-If-zfn"; Note = "#bc-ignore!";</note>
+        <target state="translated">Kontots namn</target>
+        <note>Class = "UITextField"; accessibilityLabel = "Entry title"; ObjectID = "mGc-If-zfn";</note>
       </trans-unit>
-      <trans-unit id="mGc-If-zfn.placeholder" xml:space="preserve" translate="no">
+      <trans-unit id="mGc-If-zfn.placeholder" xml:space="preserve">
         <source>Entry Title</source>
-        <target state="needs-translation">Entry Title</target>
-        <note>Class = "UITextField"; placeholder = "Entry Title"; ObjectID = "mGc-If-zfn"; Note = "#bc-ignore!";</note>
+        <target state="translated">Kontonamn</target>
+        <note>Class = "UITextField"; placeholder = "Entry Title"; ObjectID = "mGc-If-zfn";</note>
       </trans-unit>
       <trans-unit id="mGc-If-zfn.text" xml:space="preserve" translate="no">
         <source>{Entry Title}</source>
         <target state="needs-translation">{Entry Title}</target>
-        <note>Class = "UITextField"; text = "{Entry Title}"; ObjectID = "mGc-If-zfn"; Note = "#bc-ignore!";</note>
+        <note>Class = "UITextField"; text = "{Entry Title}"; ObjectID = "mGc-If-zfn";</note>
       </trans-unit>
       <trans-unit id="mYx-OE-79H.text" xml:space="preserve" translate="no">
         <source>{Field Name}</source>
@@ -1913,6 +1931,11 @@ Du kan hantera och avsluta din prenumeration genom att gå till Kontoinställnin
         <target state="translated">Lås upp KeePassium</target>
         <note>Hint/Description why the user is asked to provide their fingerprint. Shown in the standard Touch ID prompt.</note>
       </trans-unit>
+      <trans-unit id="[AppLock/EnterPasscode/callToAction]" xml:space="preserve">
+        <source>Unlock KeePassium</source>
+        <target state="translated">Lås upp KeePassium</target>
+        <note>Call to action in the passcode input dialog.</note>
+      </trans-unit>
       <trans-unit id="[AppLock/Passcode/KeyboardType/switchAction] 123→ABC" xml:space="preserve">
         <source>123→ABC</source>
         <target state="translated">123→ABC</target>
@@ -1923,15 +1946,40 @@ Du kan hantera och avsluta din prenumeration genom att gå till Kontoinställnin
         <target state="translated">ABC→123</target>
         <note>Action: change keyboard type to enter PIN numbers</note>
       </trans-unit>
+      <trans-unit id="[AppLock/SetupPasscode/callToAction]" xml:space="preserve">
+        <source>Protect KeePassium from unauthorized access</source>
+        <target state="translated">Skydda KeePassium från obehörig åtkomst</target>
+        <note>Call to action in the passcode input dialog.</note>
+      </trans-unit>
       <trans-unit id="[AppLock/cancelBiometricAuth] Use Passcode" xml:space="preserve">
         <source>Use Passcode</source>
         <target state="translated">Använd PIN-kod</target>
         <note>Action/button to switch from TouchID/FaceID prompt to manual input of the AppLock passcode.</note>
       </trans-unit>
+      <trans-unit id="[AppLock/changePasscode]" xml:space="preserve">
+        <source>Change Passcode</source>
+        <target state="translated">Ändra pinkod</target>
+        <note>Action/button to modify the existing AppLock passcode.</note>
+      </trans-unit>
+      <trans-unit id="[AppLock/passcodeUpdated/title]" xml:space="preserve">
+        <source>Passcode updated successfully.</source>
+        <target state="translated">Pinkoden uppdaterades.</target>
+        <note>Notification that the modified AppLock passcode has been saved.</note>
+      </trans-unit>
+      <trans-unit id="[AppLock/savePasscode]" xml:space="preserve">
+        <source>Save Passcode</source>
+        <target state="translated">Spara pinkod</target>
+        <note>Action/button to save new or edited AppLock passcode.</note>
+      </trans-unit>
       <trans-unit id="[AppLock] Unlock" xml:space="preserve">
         <source>Unlock</source>
         <target state="translated">Lås upp</target>
         <note>Action/button to unlock the App Lock with passcode</note>
+      </trans-unit>
+      <trans-unit id="[Appearance/TextSize/title]" xml:space="preserve">
+        <source>Text Size</source>
+        <target state="translated">Textstorlek</target>
+        <note>Title of a setting option: font size</note>
       </trans-unit>
       <trans-unit id="[BiometricAuthType] Face ID" xml:space="preserve">
         <source>Face ID</source>
@@ -2035,6 +2083,16 @@ Säkerställ att du har en backup.</target>
         <target state="translated">Laddar...</target>
         <note>Status message: loading a database</note>
       </trans-unit>
+      <trans-unit id="[Database/MasterKey/RememberYourPassword/text]" xml:space="preserve">
+        <source>If you ever forget it, you won't be able to access your data. There is no password reset option.</source>
+        <target state="translated">Om du glömmer det kommer du inte att kunna komma åt din data igen. Det finns ingen möjlighet att återställa lösenordet.</target>
+        <note>A warning shown when changing database password. Is preceded with `Remember your database password`.</note>
+      </trans-unit>
+      <trans-unit id="[Database/MasterKey/RememberYourPassword/title]" xml:space="preserve">
+        <source>Remember your database password</source>
+        <target state="translated">Kom ihåg lösenordet för databasen</target>
+        <note>Imperative/recommendation: title of a warning when changing database password.</note>
+      </trans-unit>
       <trans-unit id="[Database/MasterKey/changed] Master key successfully changed" xml:space="preserve">
         <source>Master key successfully changed</source>
         <target state="translated">Huvudnyckel ändrades</target>
@@ -2101,6 +2159,11 @@ Filen kommer inte raderas, och du kan lägga till den igen vid ett senare tillf�
         <source>YubiKey</source>
         <target state="translated">YubiKey</target>
         <note>Action/button to setup YubiKey key component</note>
+      </trans-unit>
+      <trans-unit id="[Diagnostics] Diagnostic log has been copied to clipboard." xml:space="preserve">
+        <source>Diagnostic log has been copied to clipboard.</source>
+        <target state="translated">Diagnostisk logg har kopierats till urklipp.</target>
+        <note>Notification/confirmation message</note>
       </trans-unit>
       <trans-unit id="[EditEntry/UserName/choose]" xml:space="preserve">
         <source>Choose</source>
@@ -2201,11 +2264,6 @@ Filen kommer inte raderas, och du kan lägga till den igen vid ett senare tillf�
         <source>New Entry</source>
         <target state="translated">Nytt konto</target>
         <note>Default title of a new entry</note>
-      </trans-unit>
-      <trans-unit id="[Entry/View] Edit Entry" xml:space="preserve">
-        <source>Edit Entry</source>
-        <target state="translated">Redigera konto</target>
-        <note>Action to start editing an entry</note>
       </trans-unit>
       <trans-unit id="[File/PermissionDenied] Try to remove the file from the app, then add it again." xml:space="preserve">
         <source>Try to remove the file from the app, then add it again.</source>
@@ -2331,6 +2389,11 @@ Filen kommer inte raderas, och du kan lägga till den igen vid ett senare tillf�
         <source>Cancel</source>
         <target state="translated">Avbryt</target>
         <note>Action/button to cancel whatever is going on</note>
+      </trans-unit>
+      <trans-unit id="[Generic] Contact Support" xml:space="preserve">
+        <source>Contact Support</source>
+        <target state="translated">Kontakta Support</target>
+        <note>Action/button to write an email to support</note>
       </trans-unit>
       <trans-unit id="[Generic] Contact Us" xml:space="preserve">
         <source>Contact Us</source>
@@ -3075,6 +3138,11 @@ Du kan hantera och avsluta din prenumeration genom att gå till Kontoinställnin
         <target state="translated">Public domain</target>
         <note>Class = "UILabel"; text = "Public domain"; ObjectID = "JgR-60-OMp";</note>
       </trans-unit>
+      <trans-unit id="JjJ-GT-eoX.text" xml:space="preserve">
+        <source>LGPL license</source>
+        <target state="translated">LGPL-licens</target>
+        <note>Class = "UILabel"; text = "LGPL license"; ObjectID = "JjJ-GT-eoX";</note>
+      </trans-unit>
       <trans-unit id="Kdg-Hz-XOQ.text" xml:space="preserve">
         <source>Fancy deboss pattern by Daniel Beaton</source>
         <target state="translated">Fancy deboss pattern av Daniel Beaton</target>
@@ -3115,6 +3183,11 @@ Du kan hantera och avsluta din prenumeration genom att gå till Kontoinställnin
         <target state="translated">Kontakta Support</target>
         <note>Class = "UILabel"; text = "Contact Support"; ObjectID = "TOl-DA-gYc"; Note = "Action: contact us";</note>
       </trans-unit>
+      <trans-unit id="VuB-ng-Uii.text" xml:space="preserve">
+        <source>Nuvola icons by David Vignoni</source>
+        <target state="translated">Nuvola icons av David Vignoni</target>
+        <note>Class = "UILabel"; text = "Nuvola icons by David Vignoni"; ObjectID = "VuB-ng-Uii";</note>
+      </trans-unit>
       <trans-unit id="Wuj-Uw-baK.text" xml:space="preserve">
         <source>KeePassium</source>
         <target state="translated">KeePassium</target>
@@ -3124,6 +3197,11 @@ Du kan hantera och avsluta din prenumeration genom att gå till Kontoinställnin
         <source>Yubico Mobile iOS SDK by Yubico AB</source>
         <target state="translated">Yubico Mobile iOS SDK av Yubico AB</target>
         <note>Class = "UILabel"; text = "Yubico Mobile iOS SDK by Yubico AB"; ObjectID = "Xee-Y1-Dcw";</note>
+      </trans-unit>
+      <trans-unit id="Z7s-Ch-895.text" xml:space="preserve">
+        <source>MIT license</source>
+        <target state="translated">MIT-licens</target>
+        <note>Class = "UILabel"; text = "MIT license"; ObjectID = "Z7s-Ch-895";</note>
       </trans-unit>
       <trans-unit id="aqX-J9-IzD.text" xml:space="preserve">
         <source>Translation by KeePassium contributors</source>
@@ -3169,6 +3247,11 @@ Du kan hantera och avsluta din prenumeration genom att gå till Kontoinställnin
         <source>CC BY 3.0</source>
         <target state="translated">CC BY 3.0</target>
         <note>Class = "UILabel"; text = "CC BY 3.0"; ObjectID = "hVm-qH-TAI";</note>
+      </trans-unit>
+      <trans-unit id="hW0-fR-mIf.text" xml:space="preserve">
+        <source>Icons by KeePassXC team</source>
+        <target state="translated">Ikoner av KeePassXC-teamet</target>
+        <note>Class = "UILabel"; text = "Icons by KeePassXC team"; ObjectID = "hW0-fR-mIf";</note>
       </trans-unit>
       <trans-unit id="ht7-pj-Dbb.text" xml:space="preserve">
         <source>Apache 2.0 license</source>
@@ -3289,10 +3372,10 @@ Du kan hantera och avsluta din prenumeration genom att gå till Kontoinställnin
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
     </header>
     <body>
-      <trans-unit id="3mQ-t6-0ty.text" xml:space="preserve">
-        <source>Enter passcode</source>
-        <target state="translated">Ange PIN-kod</target>
-        <note>Class = "UILabel"; text = "Enter passcode"; ObjectID = "3mQ-t6-0ty"; Note = "Call for action above the passcode text field";</note>
+      <trans-unit id="3mQ-t6-0ty.text" xml:space="preserve" translate="no">
+        <source>{Enter passcode to protect KeePassium}</source>
+        <target state="needs-translation">{Enter passcode to protect KeePassium}</target>
+        <note>Class = "UILabel"; text = "{Enter passcode to protect KeePassium}"; ObjectID = "3mQ-t6-0ty"; Note = "#bc-ignore!";</note>
       </trans-unit>
       <trans-unit id="P3J-3c-ucU.title" xml:space="preserve">
         <source>Unlock KeePassium</source>
@@ -3318,38 +3401,6 @@ Du kan hantera och avsluta din prenumeration genom att gå till Kontoinställnin
         <source>Cancel</source>
         <target state="translated">Avbryt</target>
         <note>Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "z0x-Rz-Nfj";</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="KeePassium/general/Base.lproj/ViewDiagnosticsVC.storyboard" source-language="en" target-language="sv" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
-    </header>
-    <body>
-      <trans-unit id="1D0-qD-Wj1.title" xml:space="preserve">
-        <source>Diagnostic Info</source>
-        <target state="translated">Diagnostisk info</target>
-        <note>Class = "UINavigationItem"; title = "Diagnostic Info"; ObjectID = "1D0-qD-Wj1";</note>
-      </trans-unit>
-      <trans-unit id="dZz-Nc-6Cx.text" xml:space="preserve" translate="no">
-        <source>{Diagnostic message}</source>
-        <target state="needs-translation">{Diagnostic message}</target>
-        <note>Class = "UILabel"; text = "{Diagnostic message}"; ObjectID = "dZz-Nc-6Cx"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="icR-uK-cyC.title" xml:space="preserve">
-        <source>Clear</source>
-        <target state="translated">Rensa</target>
-        <note>Class = "UIBarButtonItem"; title = "Clear"; ObjectID = "icR-uK-cyC"; Note = "Action: clear diagnostic log";</note>
-      </trans-unit>
-      <trans-unit id="p9T-RU-hRQ.text" xml:space="preserve" translate="no">
-        <source>{file:line:function}</source>
-        <target state="needs-translation">{file:line:function}</target>
-        <note>Class = "UILabel"; text = "{file:line:function}"; ObjectID = "p9T-RU-hRQ"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="uAJ-Ui-Jkx.title" xml:space="preserve">
-        <source>Contact Support</source>
-        <target state="translated">Kontakta Support</target>
-        <note>Class = "UIBarButtonItem"; title = "Contact Support"; ObjectID = "uAJ-Ui-Jkx"; Note = "Action: write an email to support";</note>
       </trans-unit>
     </body>
   </file>
@@ -3379,6 +3430,33 @@ Du kan ha flera databaser, till exempel för att dela upp konton för arbete, fa
         <source>Add Existing Database</source>
         <target state="translated">Lägg till existerande databas</target>
         <note>Class = "UIButton"; normalTitle = "Add Existing Database"; ObjectID = "ZKW-2f-Xkz";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="KeePassium/general/diagnostics/Base.lproj/DiagnosticsViewerVC.storyboard" source-language="en" target-language="sv" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
+    </header>
+    <body>
+      <trans-unit id="Bti-aV-bQB.title" xml:space="preserve" translate="no">
+        <source>{Contact Support}</source>
+        <target state="needs-translation">{Contact Support}</target>
+        <note>Class = "UIBarButtonItem"; title = "{Contact Support}"; ObjectID = "Bti-aV-bQB"; Note = "#bc-ignore!";</note>
+      </trans-unit>
+      <trans-unit id="Ura-k4-GXq.title" xml:space="preserve">
+        <source>Diagnostics</source>
+        <target state="translated">Diagnostik</target>
+        <note>Class = "UINavigationItem"; title = "Diagnostics"; ObjectID = "Ura-k4-GXq";</note>
+      </trans-unit>
+      <trans-unit id="VTC-44-cgF.text" xml:space="preserve" translate="no">
+        <source>{file:line:function}</source>
+        <target state="needs-translation">{file:line:function}</target>
+        <note>Class = "UILabel"; text = "{file:line:function}"; ObjectID = "VTC-44-cgF"; Note = "#bc-ignore!";</note>
+      </trans-unit>
+      <trans-unit id="vlS-RX-RUW.text" xml:space="preserve" translate="no">
+        <source>{Diagnostic message}</source>
+        <target state="needs-translation">{Diagnostic message}</target>
+        <note>Class = "UILabel"; text = "{Diagnostic message}"; ObjectID = "vlS-RX-RUW"; Note = "#bc-ignore!";</note>
       </trans-unit>
     </body>
   </file>
@@ -3459,6 +3537,58 @@ Du kan ha flera databaser, till exempel för att dela upp konton för arbete, fa
       </trans-unit>
     </body>
   </file>
+  <file original="KeePassium/settings/appearance/Base.lproj/SettingsAppearanceVC.storyboard" source-language="en" target-language="sv" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
+    </header>
+    <body>
+      <trans-unit id="4Yu-VJ-n8p.text" xml:space="preserve">
+        <source>Database Icons</source>
+        <target state="translated">Databasikoner</target>
+        <note>Class = "UILabel"; text = "Database Icons"; ObjectID = "4Yu-VJ-n8p"; Note = "Section in settings: icons for database";</note>
+      </trans-unit>
+      <trans-unit id="4mh-X8-Byq.title" xml:space="preserve">
+        <source>Appearance</source>
+        <target state="translated">Utseende</target>
+        <note>Class = "UITableViewController"; title = "Appearance"; ObjectID = "4mh-X8-Byq"; Note = "Settings for user interface appearance (text size, icons, etc)";</note>
+      </trans-unit>
+      <trans-unit id="5U9-NZ-sJe.accessibilityLabel" xml:space="preserve">
+        <source>Reset text size to default</source>
+        <target state="translated">Återställ till standard-textstorlek</target>
+        <note>Class = "UIButton"; accessibilityLabel = "Reset text size to default"; ObjectID = "5U9-NZ-sJe"; Note = "Action: set text size to standard size";</note>
+      </trans-unit>
+      <trans-unit id="Lh3-CB-Urp.footerTitle" xml:space="preserve">
+        <source>Hide passwords and other protected fields behind asterisks (recommended).</source>
+        <target state="translated">Dölj lösenord och andra skyddade fält med asterisker (rekommenderas).</target>
+        <note>Class = "UITableViewSection"; footerTitle = "Hide passwords and other protected fields behind asterisks (recommended)."; ObjectID = "Lh3-CB-Urp";</note>
+      </trans-unit>
+      <trans-unit id="Lh3-CB-Urp.headerTitle" xml:space="preserve">
+        <source>Protected Fields</source>
+        <target state="translated">Skyddade fält</target>
+        <note>Class = "UITableViewSection"; headerTitle = "Protected Fields"; ObjectID = "Lh3-CB-Urp";</note>
+      </trans-unit>
+      <trans-unit id="MsA-Cd-czb.headerTitle" xml:space="preserve">
+        <source>Entry Viewer</source>
+        <target state="translated">Kontoöversikt</target>
+        <note>Class = "UITableViewSection"; headerTitle = "Entry Viewer"; ObjectID = "MsA-Cd-czb";</note>
+      </trans-unit>
+      <trans-unit id="QbO-y9-3wb.text" xml:space="preserve" translate="no">
+        <source>{Text size}</source>
+        <target state="needs-translation">{Text size}</target>
+        <note>Class = "UILabel"; text = "{Text size}"; ObjectID = "QbO-y9-3wb"; Note = "#bc-ignore!";</note>
+      </trans-unit>
+      <trans-unit id="fSx-Do-lgu.text" xml:space="preserve">
+        <source>App Icon</source>
+        <target state="translated">App-ikon</target>
+        <note>Class = "UILabel"; text = "App Icon"; ObjectID = "fSx-Do-lgu"; Note = "Section in settings: icon for the app";</note>
+      </trans-unit>
+      <trans-unit id="usg-hF-eLK.text" xml:space="preserve">
+        <source>Hide Passwords</source>
+        <target state="translated">Dölj lösenord</target>
+        <note>Class = "UILabel"; text = "Hide Passwords"; ObjectID = "usg-hF-eLK";</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="KeePassium/settings/appLock/Base.lproj/SettingsAppLockVC.storyboard" source-language="en" target-language="sv" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
@@ -3523,6 +3653,11 @@ Du kan ha flera databaser, till exempel för att dela upp konton för arbete, fa
         <source>The app will automatically lock up after this time.</source>
         <target state="translated">Appen kommer automatiskt låsas efter denna tidsperiod.</target>
         <note>Class = "UITableViewSection"; footerTitle = "The app will automatically lock up after this time."; ObjectID = "m50-fl-4tu";</note>
+      </trans-unit>
+      <trans-unit id="wzW-GR-02W.text" xml:space="preserve" translate="no">
+        <source>{Change Passcode}</source>
+        <target state="needs-translation">{Change Passcode}</target>
+        <note>Class = "UILabel"; text = "{Change Passcode}"; ObjectID = "wzW-GR-02W"; Note = "#bc-ignore!";</note>
       </trans-unit>
     </body>
   </file>
@@ -3975,6 +4110,11 @@ Du kan ha flera databaser, till exempel för att dela upp konton för arbete, fa
         <target state="translated">Start</target>
         <note>Class = "UITableViewSection"; headerTitle = "Start"; ObjectID = "9yn-W3-FDl"; Note = "Section in settings: settings that define what happens when the app is started.";</note>
       </trans-unit>
+      <trans-unit id="32P-LG-SHa.text" xml:space="preserve">
+        <source>Appearance</source>
+        <target state="translated">Utseende</target>
+        <note>Class = "UILabel"; text = "Appearance"; ObjectID = "32P-LG-SHa"; Note = "Section in settings: visual style of app elements";</note>
+      </trans-unit>
       <trans-unit id="756-sL-G2t.text" xml:space="preserve">
         <source>Auto-open the Previous Database</source>
         <target state="translated">Öppna den tidigare databasen automatiskt</target>
@@ -4054,11 +4194,6 @@ Du kan ha flera databaser, till exempel för att dela upp konton för arbete, fa
         <source>AutoFill Passwords</source>
         <target state="translated">Autofyll lösenord</target>
         <note>Class = "UILabel"; text = "AutoFill Passwords"; ObjectID = "T2Z-oa-zJR";</note>
-      </trans-unit>
-      <trans-unit id="TUE-Aw-fJl.text" xml:space="preserve">
-        <source>App Icon</source>
-        <target state="translated">App-ikon</target>
-        <note>Class = "UILabel"; text = "App Icon"; ObjectID = "TUE-Aw-fJl"; Note = "Section in settings: icon for the app";</note>
       </trans-unit>
       <trans-unit id="UNl-Hc-Ref.text" xml:space="preserve">
         <source>Data Protection</source>
