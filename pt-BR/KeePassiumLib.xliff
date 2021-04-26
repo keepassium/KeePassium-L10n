@@ -450,7 +450,7 @@ Faça uma cópia de segurança desse banco de dados antes de modifica-lo.</targe
       </trans-unit>
       <trans-unit id="[File/In Trash/warning]" xml:space="preserve">
         <source>'%@' is located in Recently Deleted and might be deleted soon. To preserve your data, move the file to a more permanent location.</source>
-        <target state="translated">'%@' está na pasta Apagados Recentemente e pode eliminado em breve. Para salvar seus dados, mova o arquivo para outra pasta.</target>
+        <target state="translated">'%@' está na pasta Apagados Recentemente e pode ser eliminado em breve. Para salvar seus dados, mova o arquivo para outra pasta.</target>
         <note>Warning shown when opening files from Recycle Bin location. Translation of 'Recently Deleted' should match that in the Files app. [fileName: String]</note>
       </trans-unit>
       <trans-unit id="[File/TemporaryBackup/warning]" xml:space="preserve">
@@ -490,17 +490,17 @@ Faça uma cópia de segurança desse banco de dados antes de modifica-lo.</targe
       </trans-unit>
       <trans-unit id="[FileAccessError/NoWritePermission/title]" xml:space="preserve">
         <source>Cannot save file (%@)</source>
-        <target state="needs-translation">Cannot save file (%@)</target>
+        <target state="translated">Não pôde salvar o arquivo (%@)</target>
         <note>Error message: file provider does not support write operations. For example: `Cannot save file (OneDrive)`</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/OneDriveReadOnly/reason]" xml:space="preserve">
         <source>Microsoft has recently switched OneDrive integration with iOS to read-only mode. Temporarily, they say.</source>
-        <target state="needs-translation">Microsoft has recently switched OneDrive integration with iOS to read-only mode. Temporarily, they say.</target>
+        <target state="translated">Recentemente, a Microsoft tornou apenas-leitura a integração do OneDrive com o iOS. Temporariamente, dizem eles.</target>
         <note>Explanation of a file writing error</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/OneDriveReadOnly/recoverySuggestion]" xml:space="preserve">
         <source>Use the Export option to save file to another location.</source>
-        <target state="needs-translation">Use the Export option to save file to another location.</target>
+        <target state="translated">Use a opção Exportar para salvar este arquivo em outro local.</target>
         <note>Suggestion for error recovery</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/Timeout/genericFileProvider]" xml:space="preserve">

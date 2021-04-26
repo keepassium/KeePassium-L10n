@@ -183,7 +183,7 @@ Please contact us if you need help with this.</source>
       </trans-unit>
     </body>
   </file>
-  <file original="KeePassium AutoFill/controllers/Base.lproj/KeyFileChooserVC.storyboard" source-language="en" target-language="ja" datatype="plaintext">
+  <file original="KeePassium/database/key-file/Base.lproj/KeyFilePickerVC.storyboard" source-language="en" target-language="ja" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
     </header>
@@ -1551,7 +1551,7 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
     </body>
   </file>
-  <file original="KeePassium/database/entry/edit/Base.lproj/EditEntryVC.storyboard" source-language="en" target-language="ja" datatype="plaintext">
+  <file original="KeePassium/database/entry/edit/Base.lproj/EntryFieldEditorVC.storyboard" source-language="en" target-language="ja" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
     </header>
@@ -1638,7 +1638,7 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
       <trans-unit id="mGc-If-zfn.placeholder" xml:space="preserve">
         <source>Entry Title</source>
-        <target state="needs-translation">Entry Title</target>
+        <target state="translated">エントリーのタイトル</target>
         <note>Class = "UITextField"; placeholder = "Entry Title"; ObjectID = "mGc-If-zfn";</note>
       </trans-unit>
       <trans-unit id="mGc-If-zfn.text" xml:space="preserve" translate="no">
@@ -1673,7 +1673,7 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
     </body>
   </file>
-  <file original="KeePassium/database/entry/edit/Base.lproj/PasswordGeneratorVC.storyboard" source-language="en" target-language="ja" datatype="plaintext">
+  <file original="KeePassium/general/password-generator/Base.lproj/PasswordGeneratorVC.storyboard" source-language="en" target-language="ja" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
     </header>
@@ -1725,7 +1725,7 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
     </body>
   </file>
-  <file original="KeePassium/database/group/Base.lproj/EditGroupVC.storyboard" source-language="en" target-language="ja" datatype="plaintext">
+  <file original="KeePassium/database/group/Base.lproj/GroupEditorVC.storyboard" source-language="en" target-language="ja" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
     </header>
@@ -3557,7 +3557,7 @@ You can have multiple databases, for example to separate work, family and person
       </trans-unit>
       <trans-unit id="Lh3-CB-Urp.footerTitle" xml:space="preserve">
         <source>Hide passwords and other protected fields behind asterisks (recommended).</source>
-        <target state="translated">パスワードや他の保護データを星印で隠す (推奨)。</target>
+        <target state="translated">パスワードやその他の保護フィールドをアスタリスクで隠す (推奨)</target>
         <note>Class = "UITableViewSection"; footerTitle = "Hide passwords and other protected fields behind asterisks (recommended)."; ObjectID = "Lh3-CB-Urp";</note>
       </trans-unit>
       <trans-unit id="Lh3-CB-Urp.headerTitle" xml:space="preserve">
@@ -3962,7 +3962,7 @@ You can have multiple databases, for example to separate work, family and person
       </trans-unit>
       <trans-unit id="e6Y-AP-hag.footerTitle" xml:space="preserve">
         <source>Hide passwords and other protected fields behind asterisks (recommended).</source>
-        <target state="translated">パスワードや他の保護データを星印で隠す (推奨)。</target>
+        <target state="translated">パスワードやその他の保護フィールドをアスタリスクで隠す (推奨)</target>
         <note>Class = "UITableViewSection"; footerTitle = "Hide passwords and other protected fields behind asterisks (recommended)."; ObjectID = "e6Y-AP-hag";</note>
       </trans-unit>
       <trans-unit id="e6Y-AP-hag.headerTitle" xml:space="preserve">

@@ -183,7 +183,7 @@ Veuillez nous contacter si vous avez besoin d'aide à ce sujet.</target>
       </trans-unit>
     </body>
   </file>
-  <file original="KeePassium AutoFill/controllers/Base.lproj/KeyFileChooserVC.storyboard" source-language="en" target-language="fr" datatype="plaintext">
+  <file original="KeePassium/database/key-file/Base.lproj/KeyFilePickerVC.storyboard" source-language="en" target-language="fr" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
     </header>
@@ -350,7 +350,7 @@ Why? Behind the scenes, the system treats AutoFill as a separate app, independen
 As a result, both AutoFill and the main KeePassium app need to be given their own permissions for each external file. Luckily, this is a one-time procedure.</source>
         <target state="translated">Le remplissage automatique ne peut pas accéder automatiquement aux fichiers que vous avez déjà dans l'application principale KeePassium.
 
-Pourquoi? Derrière les scènes, le système traite le remplissage automatique comme une application séparée, indépendante du processus KeePassium principal. Pour des raisons de sécurité, une application ne peut pas simplement accéder à des fichiers externes, à moins que vous ne liez explicitement ces fichiers à cette application. Ainsi, le système garantit que l'application ne peut accéder qu'aux quelques fichiers que vous avez autorisés.
+Pourquoi ? En coulisse, le système traite le remplissage automatique comme une application séparée, indépendante du processus principal de KeePassium. Pour des raisons de sécurité, une application ne peut pas simplement accéder à des fichiers externes, à moins que vous ne liez explicitement ces fichiers à cette application. Ainsi, le système garantit que l'application ne peut accéder qu'aux quelques fichiers que vous avez autorisés.
 
 En conséquence, le remplissage automatique et l'application principale KeePassium doivent avoir leurs propres permissions pour chaque fichier externe. Heureusement, il s'agit d'une procédure unique.</target>
         <note>No comment provided by engineer.</note>
@@ -393,8 +393,8 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
       <trans-unit id="[Database/Delete/Confirm/text] Delete database file?&#10; Make sure you have a backup." xml:space="preserve">
         <source>Delete database file?
  Make sure you have a backup.</source>
-        <target state="translated">Supprimer le fichier de la base de données?
- Assurez-vous d'avoir une sauvegarde.</target>
+        <target state="translated">Supprimer le fichier de la base de données ?
+Assurez-vous d'avoir une sauvegarde.</target>
         <note>Message to confirm deletion of a database file. (This deletes the file itself)</note>
       </trans-unit>
       <trans-unit id="[Database/Delete] Failed to delete database file" xml:space="preserve">
@@ -1552,7 +1552,7 @@ Vous pouvez gérer et annuler vos abonnements depuis les paramètres du compte d
       </trans-unit>
     </body>
   </file>
-  <file original="KeePassium/database/entry/edit/Base.lproj/EditEntryVC.storyboard" source-language="en" target-language="fr" datatype="plaintext">
+  <file original="KeePassium/database/entry/edit/Base.lproj/EntryFieldEditorVC.storyboard" source-language="en" target-language="fr" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
     </header>
@@ -1674,7 +1674,7 @@ Vous pouvez gérer et annuler vos abonnements depuis les paramètres du compte d
       </trans-unit>
     </body>
   </file>
-  <file original="KeePassium/database/entry/edit/Base.lproj/PasswordGeneratorVC.storyboard" source-language="en" target-language="fr" datatype="plaintext">
+  <file original="KeePassium/general/password-generator/Base.lproj/PasswordGeneratorVC.storyboard" source-language="en" target-language="fr" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
     </header>
@@ -1726,7 +1726,7 @@ Vous pouvez gérer et annuler vos abonnements depuis les paramètres du compte d
       </trans-unit>
     </body>
   </file>
-  <file original="KeePassium/database/group/Base.lproj/EditGroupVC.storyboard" source-language="en" target-language="fr" datatype="plaintext">
+  <file original="KeePassium/database/group/Base.lproj/GroupEditorVC.storyboard" source-language="en" target-language="fr" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
     </header>
@@ -3095,7 +3095,7 @@ Vous pouvez gérer et annuler vos abonnements depuis les paramètres du compte d
       </trans-unit>
       <trans-unit id="AMd-x7-PDa.text" xml:space="preserve">
         <source>Do you like what you see?</source>
-        <target state="translated">Vous aimez ce que vous voyez?</target>
+        <target state="translated">Vous aimez ce que vous voyez ?</target>
         <note>Class = "UILabel"; text = "Do you like what you see?"; ObjectID = "AMd-x7-PDa"; Note = "First part of the 'Do you like what you see? / Leave an App Store review.\"";</note>
       </trans-unit>
       <trans-unit id="AWg-lI-BfC.text" xml:space="preserve">
@@ -4152,7 +4152,7 @@ Vous pouvez avoir plusieurs bases de données, par exemple pour séparer le trav
       </trans-unit>
       <trans-unit id="HYe-lP-dCp.text" xml:space="preserve">
         <source>Rate KeePassium on the App Store</source>
-        <target state="translated">Evaluez l'application sur «App Store»</target>
+        <target state="translated">Évaluez-nous sur l'App Store</target>
         <note>Class = "UILabel"; text = "Rate KeePassium on the App Store"; ObjectID = "HYe-lP-dCp"; Note = "Subtitle for `Review KeePassium`";</note>
       </trans-unit>
       <trans-unit id="HjD-9G-X8p.headerTitle" xml:space="preserve">
@@ -4177,7 +4177,7 @@ Vous pouvez avoir plusieurs bases de données, par exemple pour séparer le trav
       </trans-unit>
       <trans-unit id="RNK-fS-Fvx.text" xml:space="preserve">
         <source>Suggestions? Problems? Let us know!</source>
-        <target state="translated">Des suggestions ? Des problèmes? Faites-le nous savoir !</target>
+        <target state="translated">Des suggestions ? Des problèmes ? Faites-le nous savoir !</target>
         <note>Class = "UILabel"; text = "Suggestions? Problems? Let us know!"; ObjectID = "RNK-fS-Fvx"; Note = "Subtitle for `Contact Us`. Keep it short.";</note>
       </trans-unit>
       <trans-unit id="RlK-RW-8Ld.text" xml:space="preserve">
@@ -4212,7 +4212,7 @@ Vous pouvez avoir plusieurs bases de données, par exemple pour séparer le trav
       </trans-unit>
       <trans-unit id="c5H-hS-sU3.text" xml:space="preserve">
         <source>Review KeePassium</source>
-        <target state="translated">Evaluer KeePassium</target>
+        <target state="translated">Évaluer KeePassium</target>
         <note>Class = "UILabel"; text = "Review KeePassium"; ObjectID = "c5H-hS-sU3"; Note = "Action: write an app review on the App Store";</note>
       </trans-unit>
       <trans-unit id="cBS-jW-dHU.headerTitle" xml:space="preserve">

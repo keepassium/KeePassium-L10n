@@ -149,7 +149,7 @@
       </trans-unit>
       <trans-unit id="[Database/Progress/resolvingFieldReferences]" xml:space="preserve">
         <source>Resolving field references…</source>
-        <target state="needs-translation">Resolving field references…</target>
+        <target state="translated">解析字段引用…</target>
         <note>Database loading/saving status: replacing field references with their values</note>
       </trans-unit>
       <trans-unit id="[Database/Progress/resolving]" xml:space="preserve">
@@ -184,7 +184,7 @@
       </trans-unit>
       <trans-unit id="[Database1/FormatError] Error parsing field %@. Corrupted database file?" xml:space="preserve">
         <source>Error parsing field %@. Corrupted database file?</source>
-        <target state="translated">解析 %@ 欄位錯誤。資料庫檔案損壞?</target>
+        <target state="translated">解析 %@ 字段錯誤。資料庫檔案損壞?</target>
         <note>Error message [fieldName: String]</note>
       </trans-unit>
       <trans-unit id="[Database1/FormatError] Found an entry outside any group. Corrupted DB file?" xml:space="preserve">
@@ -274,7 +274,7 @@
       </trans-unit>
       <trans-unit id="[Database2/Header2/Error] Header field %@ is corrupted." xml:space="preserve">
         <source>Header field %@ is corrupted.</source>
-        <target state="translated">標頭欄位 %@ 已損壞。</target>
+        <target state="translated">標頭字段 %@ 已損壞。</target>
         <note>Error message, with the name of problematic field. [fieldName: String]</note>
       </trans-unit>
       <trans-unit id="[Database2/Header2/Error] Header hash mismatch. DB file corrupt?" xml:space="preserve">
@@ -346,7 +346,7 @@ Missing attachments: %2$@</source>
         <source>Some entries have custom field(s) with empty names. This can be a sign of data corruption. Please check these entries:
 
 %@</source>
-        <target state="translated">某些條目具有空名稱的自定義欄位。這是資料庫早期損壞的跡象。請檢查以下條目：
+        <target state="translated">某些項目具有空名稱的自定義字段。這是資料庫早期損壞的跡象。請檢查以下項目：
 
 %@</target>
         <note>A warning about misformatted custom fields after loading the database. [entryPaths: String]</note>
@@ -354,8 +354,7 @@ Missing attachments: %2$@</source>
       <trans-unit id="[Database2/Loading/Warning/unusedAttachments]" xml:space="preserve">
         <source>The database contains some attachments that are not used in any entry. Most likely, they have been forgotten by the last used app (%@). However, this can also be a sign of data corruption. 
 Please make sure to have a backup of your database before changing anything.</source>
-        <target state="translated">資料庫包含一些未在任何條目中使用的附件。最有可能的是，它們已被上次使用的應用程式(%@) 遺忘。但是，這也可能是資料庫早期損壞的跡象。在更改任何內容之前,
-請確保資料庫已經備份。</target>
+        <target state="translated">資料庫包含一些未在任何項目中使用的附件。最有可能的是，它們已被上次使用的應用程式(%@) 遺忘。但是，這也可能是資料庫早期損壞的跡象。在更改任何內容之前, 請確保資料庫已經備份。</target>
         <note>A warning about unused attachments after loading the database. [lastUsedAppName: String]</note>
       </trans-unit>
       <trans-unit id="[Database2/Progress/decompressing]" xml:space="preserve">
@@ -450,12 +449,12 @@ Please make sure to have a backup of your database before changing anything.</so
       </trans-unit>
       <trans-unit id="[File/In Trash/warning]" xml:space="preserve">
         <source>'%@' is located in Recently Deleted and might be deleted soon. To preserve your data, move the file to a more permanent location.</source>
-        <target state="needs-translation">'%@' is located in Recently Deleted and might be deleted soon. To preserve your data, move the file to a more permanent location.</target>
+        <target state="translated">“%@” 位於 “最近刪除” 中，可能很快就會被刪除。要保留數據，請將文件移到永久的位置。</target>
         <note>Warning shown when opening files from Recycle Bin location. Translation of 'Recently Deleted' should match that in the Files app. [fileName: String]</note>
       </trans-unit>
       <trans-unit id="[File/TemporaryBackup/warning]" xml:space="preserve">
         <source>This is a temporary backup database. It can be automatically deleted without a warning. Don't use it as your main database.</source>
-        <target state="needs-translation">This is a temporary backup database. It can be automatically deleted without a warning. Don't use it as your main database.</target>
+        <target state="translated">這是一個備份的資料庫，將會自動被刪除而不會提示，請勿將它視為主要的資料庫。</target>
         <note>Notification when user opens an in-app backup database.</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/FileProvider/NotFound/generic]" xml:space="preserve">
@@ -490,17 +489,17 @@ Please make sure to have a backup of your database before changing anything.</so
       </trans-unit>
       <trans-unit id="[FileAccessError/NoWritePermission/title]" xml:space="preserve">
         <source>Cannot save file (%@)</source>
-        <target state="needs-translation">Cannot save file (%@)</target>
+        <target state="translated">無法儲存檔案（%@）</target>
         <note>Error message: file provider does not support write operations. For example: `Cannot save file (OneDrive)`</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/OneDriveReadOnly/reason]" xml:space="preserve">
         <source>Microsoft has recently switched OneDrive integration with iOS to read-only mode. Temporarily, they say.</source>
-        <target state="needs-translation">Microsoft has recently switched OneDrive integration with iOS to read-only mode. Temporarily, they say.</target>
+        <target state="translated">微軟最近將 OneDrive 與 iOS 檔案的整合設定為僅讀模式。</target>
         <note>Explanation of a file writing error</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/OneDriveReadOnly/recoverySuggestion]" xml:space="preserve">
         <source>Use the Export option to save file to another location.</source>
-        <target state="needs-translation">Use the Export option to save file to another location.</target>
+        <target state="translated">使用 匯出 按鈕將檔案儲存到其他地方。</target>
         <note>Suggestion for error recovery</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/Timeout/genericFileProvider]" xml:space="preserve">
@@ -740,12 +739,12 @@ Please make sure to have a backup of your database before changing anything.</so
       </trans-unit>
       <trans-unit id="[KeyFileError/Corrupted/title]" xml:space="preserve">
         <source>Key file is corrupted</source>
-        <target state="needs-translation">Key file is corrupted</target>
+        <target state="translated">金鑰檔案已損壞</target>
         <note>Error message when the key file is misformatted or damaged</note>
       </trans-unit>
       <trans-unit id="[KeyFileError/UnsupportedFormat/title]" xml:space="preserve">
         <source>Unsupported key file format</source>
-        <target state="needs-translation">Unsupported key file format</target>
+        <target state="translated">不支援的金鑰檔案格式</target>
         <note>Error message: unsupported/unknown format of a key file</note>
       </trans-unit>
       <trans-unit id="[KeychainError/generic] Keychain error (code %d) " xml:space="preserve">

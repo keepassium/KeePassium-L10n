@@ -490,17 +490,17 @@ Prosím ujistěte se, že máte zálohu vaší databáze před nedávnou změnou
       </trans-unit>
       <trans-unit id="[FileAccessError/NoWritePermission/title]" xml:space="preserve">
         <source>Cannot save file (%@)</source>
-        <target state="needs-translation">Cannot save file (%@)</target>
+        <target state="translated">Soubor (%@) nelze uložit</target>
         <note>Error message: file provider does not support write operations. For example: `Cannot save file (OneDrive)`</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/OneDriveReadOnly/reason]" xml:space="preserve">
         <source>Microsoft has recently switched OneDrive integration with iOS to read-only mode. Temporarily, they say.</source>
-        <target state="needs-translation">Microsoft has recently switched OneDrive integration with iOS to read-only mode. Temporarily, they say.</target>
+        <target state="translated">Microsoft nedávno přepnul integraci OneDrive s iOS do režimu jen pro čtení. Říká, že dočasně.</target>
         <note>Explanation of a file writing error</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/OneDriveReadOnly/recoverySuggestion]" xml:space="preserve">
         <source>Use the Export option to save file to another location.</source>
-        <target state="needs-translation">Use the Export option to save file to another location.</target>
+        <target state="translated">Použijte možnost Export pro uložení souboru do jiné lokace.</target>
         <note>Suggestion for error recovery</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/Timeout/genericFileProvider]" xml:space="preserve">

@@ -149,7 +149,7 @@
       </trans-unit>
       <trans-unit id="[Database/Progress/resolvingFieldReferences]" xml:space="preserve">
         <source>Resolving field references…</source>
-        <target state="needs-translation">Resolving field references…</target>
+        <target state="translated">正在解析字段引用…</target>
         <note>Database loading/saving status: replacing field references with their values</note>
       </trans-unit>
       <trans-unit id="[Database/Progress/resolving]" xml:space="preserve">
@@ -450,32 +450,32 @@ Please make sure to have a backup of your database before changing anything.</so
       </trans-unit>
       <trans-unit id="[File/In Trash/warning]" xml:space="preserve">
         <source>'%@' is located in Recently Deleted and might be deleted soon. To preserve your data, move the file to a more permanent location.</source>
-        <target state="needs-translation">'%@' is located in Recently Deleted and might be deleted soon. To preserve your data, move the file to a more permanent location.</target>
+        <target state="translated">'%@'位于“最近删除”，可能很快被删除。要保存您的数据，请移动文件到一个永久的位置。</target>
         <note>Warning shown when opening files from Recycle Bin location. Translation of 'Recently Deleted' should match that in the Files app. [fileName: String]</note>
       </trans-unit>
       <trans-unit id="[File/TemporaryBackup/warning]" xml:space="preserve">
         <source>This is a temporary backup database. It can be automatically deleted without a warning. Don't use it as your main database.</source>
-        <target state="needs-translation">This is a temporary backup database. It can be automatically deleted without a warning. Don't use it as your main database.</target>
+        <target state="translated">这是一个临时备份数据库。它可以在没有警告的情况下自动删除。不要使用它作为您的主数据库。</target>
         <note>Notification when user opens an in-app backup database.</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/FileProvider/NotFound/generic]" xml:space="preserve">
         <source>Storage provider is not available. Please check whether it is installed and logged in to your account.</source>
-        <target state="needs-translation">Storage provider is not available. Please check whether it is installed and logged in to your account.</target>
+        <target state="translated">存储提供商不可用。请检查是否已安装并登录到您的帐户。</target>
         <note>Error message: storage provider app was logged out or uninstalled.</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/FileProvider/NotFound/other]" xml:space="preserve">
         <source>%@ is not available. Please check whether it is installed and logged in to your account.</source>
-        <target state="needs-translation">%@ is not available. Please check whether it is installed and logged in to your account.</target>
+        <target state="translated">%@ 不可用。请检查它是否已安装并登录到您的帐户。</target>
         <note>Error message: storage provider app was logged out or uninstalled [fileProviderName: String].</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/FileProvider/NotFound/smbShare]" xml:space="preserve">
         <source>Network storage is disconnected.</source>
-        <target state="needs-translation">Network storage is disconnected.</target>
+        <target state="translated">网络存储已断开连接。</target>
         <note>Error message: the required network drive is not connected.</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/FileProvider/NotFound/usbDrive]" xml:space="preserve">
         <source>USB drive is disconnected.</source>
-        <target state="needs-translation">USB drive is disconnected.</target>
+        <target state="translated">USB驱动器已断开连接。</target>
         <note>Error message: there is no USB drive connected to the device.</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/NoResponse/genericFileProvider]" xml:space="preserve">
@@ -490,17 +490,17 @@ Please make sure to have a backup of your database before changing anything.</so
       </trans-unit>
       <trans-unit id="[FileAccessError/NoWritePermission/title]" xml:space="preserve">
         <source>Cannot save file (%@)</source>
-        <target state="needs-translation">Cannot save file (%@)</target>
+        <target state="translated">无法保存文件 （%@）</target>
         <note>Error message: file provider does not support write operations. For example: `Cannot save file (OneDrive)`</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/OneDriveReadOnly/reason]" xml:space="preserve">
         <source>Microsoft has recently switched OneDrive integration with iOS to read-only mode. Temporarily, they say.</source>
-        <target state="needs-translation">Microsoft has recently switched OneDrive integration with iOS to read-only mode. Temporarily, they say.</target>
+        <target state="translated">微软最近将 OneDrive 与 iOS 档案的整合设定为仅读模式。</target>
         <note>Explanation of a file writing error</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/OneDriveReadOnly/recoverySuggestion]" xml:space="preserve">
         <source>Use the Export option to save file to another location.</source>
-        <target state="needs-translation">Use the Export option to save file to another location.</target>
+        <target state="translated">使用导出选项将文件保存到其他位置。</target>
         <note>Suggestion for error recovery</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/Timeout/genericFileProvider]" xml:space="preserve">
@@ -740,12 +740,12 @@ Please make sure to have a backup of your database before changing anything.</so
       </trans-unit>
       <trans-unit id="[KeyFileError/Corrupted/title]" xml:space="preserve">
         <source>Key file is corrupted</source>
-        <target state="needs-translation">Key file is corrupted</target>
+        <target state="translated">密钥文件已损坏</target>
         <note>Error message when the key file is misformatted or damaged</note>
       </trans-unit>
       <trans-unit id="[KeyFileError/UnsupportedFormat/title]" xml:space="preserve">
         <source>Unsupported key file format</source>
-        <target state="needs-translation">Unsupported key file format</target>
+        <target state="translated">不支持的密钥文件格式</target>
         <note>Error message: unsupported/unknown format of a key file</note>
       </trans-unit>
       <trans-unit id="[KeychainError/generic] Keychain error (code %d) " xml:space="preserve">

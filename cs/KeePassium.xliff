@@ -183,7 +183,7 @@ Pokud s tímhle potřebujete pomoci, napište nám.</target>
       </trans-unit>
     </body>
   </file>
-  <file original="KeePassium AutoFill/controllers/Base.lproj/KeyFileChooserVC.storyboard" source-language="en" target-language="cs" datatype="plaintext">
+  <file original="KeePassium/database/key-file/Base.lproj/KeyFilePickerVC.storyboard" source-language="en" target-language="cs" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
     </header>
@@ -299,7 +299,7 @@ Pokud s tímhle potřebujete pomoci, napište nám.</target>
       </trans-unit>
       <trans-unit id="[AppLock/SetupPasscode/callToAction]" xml:space="preserve">
         <source>Protect KeePassium from unauthorized access</source>
-        <target state="needs-translation">Protect KeePassium from unauthorized access</target>
+        <target state="translated">Chraňte KeePassium před neoprávněným přístupem</target>
         <note>Call to action in the passcode input dialog.</note>
       </trans-unit>
       <trans-unit id="[AppLock/cancelBiometricAuth] Use Passcode" xml:space="preserve">
@@ -309,17 +309,17 @@ Pokud s tímhle potřebujete pomoci, napište nám.</target>
       </trans-unit>
       <trans-unit id="[AppLock/changePasscode]" xml:space="preserve">
         <source>Change Passcode</source>
-        <target state="needs-translation">Change Passcode</target>
+        <target state="translated">Změnit přístupový kód</target>
         <note>Action/button to modify the existing AppLock passcode.</note>
       </trans-unit>
       <trans-unit id="[AppLock/passcodeUpdated/title]" xml:space="preserve">
         <source>Passcode updated successfully.</source>
-        <target state="needs-translation">Passcode updated successfully.</target>
+        <target state="translated">Přístupový kód byl úspěšně aktualizován.</target>
         <note>Notification that the modified AppLock passcode has been saved.</note>
       </trans-unit>
       <trans-unit id="[AppLock/savePasscode]" xml:space="preserve">
         <source>Save Passcode</source>
-        <target state="needs-translation">Save Passcode</target>
+        <target state="translated">Uložit přístupový kód</target>
         <note>Action/button to save new or edited AppLock passcode.</note>
       </trans-unit>
       <trans-unit id="[AppLock] Unlock" xml:space="preserve">
@@ -409,12 +409,12 @@ Z tohoto důvodu je nutné dát svolení k přístupu jak samotné aplikaci KeeP
       </trans-unit>
       <trans-unit id="[Database/MasterKey/RememberYourPassword/text]" xml:space="preserve">
         <source>If you ever forget it, you won't be able to access your data. There is no password reset option.</source>
-        <target state="needs-translation">If you ever forget it, you won't be able to access your data. There is no password reset option.</target>
+        <target state="translated">Pokud ho někdy zapomenete, nebudete mít přístup k vašim datům. Neexistuje žádná možnost pro obnovení hesla.</target>
         <note>A warning shown when changing database password. Is preceded with `Remember your database password`.</note>
       </trans-unit>
       <trans-unit id="[Database/MasterKey/RememberYourPassword/title]" xml:space="preserve">
         <source>Remember your database password</source>
-        <target state="needs-translation">Remember your database password</target>
+        <target state="translated">Zapamatujte si své heslo k databázi</target>
         <note>Imperative/recommendation: title of a warning when changing database password.</note>
       </trans-unit>
       <trans-unit id="[Database/MasterKey/changed] Master key successfully changed" xml:space="preserve">
@@ -1552,7 +1552,7 @@ Své předplatné můžete spravovat v nastavení účtu v App Store.
       </trans-unit>
     </body>
   </file>
-  <file original="KeePassium/database/entry/edit/Base.lproj/EditEntryVC.storyboard" source-language="en" target-language="cs" datatype="plaintext">
+  <file original="KeePassium/database/entry/edit/Base.lproj/EntryFieldEditorVC.storyboard" source-language="en" target-language="cs" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
     </header>
@@ -1564,7 +1564,7 @@ Své předplatné můžete spravovat v nastavení účtu v App Store.
       </trans-unit>
       <trans-unit id="7iU-ut-hd7.accessibilityLabel" xml:space="preserve">
         <source>Custom field value</source>
-        <target state="needs-translation">Custom field value</target>
+        <target state="translated">Hodnota vlastního pole</target>
         <note>Class = "UITextView"; accessibilityLabel = "Custom field value"; ObjectID = "7iU-ut-hd7";</note>
       </trans-unit>
       <trans-unit id="7iU-ut-hd7.text" xml:space="preserve" translate="no">
@@ -1604,7 +1604,7 @@ Své předplatné můžete spravovat v nastavení účtu v App Store.
       </trans-unit>
       <trans-unit id="ecN-Xd-ff5.accessibilityLabel" xml:space="preserve">
         <source>Custom field name</source>
-        <target state="needs-translation">Custom field name</target>
+        <target state="translated">Název vlastního pole</target>
         <note>Class = "UITextField"; accessibilityLabel = "Custom field name"; ObjectID = "ecN-Xd-ff5";</note>
       </trans-unit>
       <trans-unit id="ecN-Xd-ff5.placeholder" xml:space="preserve">
@@ -1634,12 +1634,12 @@ Své předplatné můžete spravovat v nastavení účtu v App Store.
       </trans-unit>
       <trans-unit id="mGc-If-zfn.accessibilityLabel" xml:space="preserve">
         <source>Entry title</source>
-        <target state="needs-translation">Entry title</target>
+        <target state="translated">Název záznamu</target>
         <note>Class = "UITextField"; accessibilityLabel = "Entry title"; ObjectID = "mGc-If-zfn";</note>
       </trans-unit>
       <trans-unit id="mGc-If-zfn.placeholder" xml:space="preserve">
         <source>Entry Title</source>
-        <target state="needs-translation">Entry Title</target>
+        <target state="translated">Název Záznamu</target>
         <note>Class = "UITextField"; placeholder = "Entry Title"; ObjectID = "mGc-If-zfn";</note>
       </trans-unit>
       <trans-unit id="mGc-If-zfn.text" xml:space="preserve" translate="no">
@@ -1674,7 +1674,7 @@ Své předplatné můžete spravovat v nastavení účtu v App Store.
       </trans-unit>
     </body>
   </file>
-  <file original="KeePassium/database/entry/edit/Base.lproj/PasswordGeneratorVC.storyboard" source-language="en" target-language="cs" datatype="plaintext">
+  <file original="KeePassium/general/password-generator/Base.lproj/PasswordGeneratorVC.storyboard" source-language="en" target-language="cs" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
     </header>
@@ -1726,7 +1726,7 @@ Své předplatné můžete spravovat v nastavení účtu v App Store.
       </trans-unit>
     </body>
   </file>
-  <file original="KeePassium/database/group/Base.lproj/EditGroupVC.storyboard" source-language="en" target-language="cs" datatype="plaintext">
+  <file original="KeePassium/database/group/Base.lproj/GroupEditorVC.storyboard" source-language="en" target-language="cs" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
     </header>
@@ -1948,7 +1948,7 @@ Své předplatné můžete spravovat v nastavení účtu v App Store.
       </trans-unit>
       <trans-unit id="[AppLock/SetupPasscode/callToAction]" xml:space="preserve">
         <source>Protect KeePassium from unauthorized access</source>
-        <target state="needs-translation">Protect KeePassium from unauthorized access</target>
+        <target state="translated">Chraňte KeePassium před neoprávněným přístupem</target>
         <note>Call to action in the passcode input dialog.</note>
       </trans-unit>
       <trans-unit id="[AppLock/cancelBiometricAuth] Use Passcode" xml:space="preserve">
@@ -1958,17 +1958,17 @@ Své předplatné můžete spravovat v nastavení účtu v App Store.
       </trans-unit>
       <trans-unit id="[AppLock/changePasscode]" xml:space="preserve">
         <source>Change Passcode</source>
-        <target state="needs-translation">Change Passcode</target>
+        <target state="translated">Změnit přístupový kód</target>
         <note>Action/button to modify the existing AppLock passcode.</note>
       </trans-unit>
       <trans-unit id="[AppLock/passcodeUpdated/title]" xml:space="preserve">
         <source>Passcode updated successfully.</source>
-        <target state="needs-translation">Passcode updated successfully.</target>
+        <target state="translated">Přístupový kód byl úspěšně aktualizován.</target>
         <note>Notification that the modified AppLock passcode has been saved.</note>
       </trans-unit>
       <trans-unit id="[AppLock/savePasscode]" xml:space="preserve">
         <source>Save Passcode</source>
-        <target state="needs-translation">Save Passcode</target>
+        <target state="translated">Uložit přístupový kód</target>
         <note>Action/button to save new or edited AppLock passcode.</note>
       </trans-unit>
       <trans-unit id="[AppLock] Unlock" xml:space="preserve">
@@ -1978,7 +1978,7 @@ Své předplatné můžete spravovat v nastavení účtu v App Store.
       </trans-unit>
       <trans-unit id="[Appearance/TextSize/title]" xml:space="preserve">
         <source>Text Size</source>
-        <target state="needs-translation">Text Size</target>
+        <target state="translated">Velikost písma</target>
         <note>Title of a setting option: font size</note>
       </trans-unit>
       <trans-unit id="[BiometricAuthType] Face ID" xml:space="preserve">
@@ -2085,12 +2085,12 @@ Své předplatné můžete spravovat v nastavení účtu v App Store.
       </trans-unit>
       <trans-unit id="[Database/MasterKey/RememberYourPassword/text]" xml:space="preserve">
         <source>If you ever forget it, you won't be able to access your data. There is no password reset option.</source>
-        <target state="needs-translation">If you ever forget it, you won't be able to access your data. There is no password reset option.</target>
+        <target state="translated">Pokud ho někdy zapomenete, nebudete mít přístup k vašim datům. Neexistuje žádná možnost pro obnovení hesla.</target>
         <note>A warning shown when changing database password. Is preceded with `Remember your database password`.</note>
       </trans-unit>
       <trans-unit id="[Database/MasterKey/RememberYourPassword/title]" xml:space="preserve">
         <source>Remember your database password</source>
-        <target state="needs-translation">Remember your database password</target>
+        <target state="translated">Zapamatujte si své heslo k databázi</target>
         <note>Imperative/recommendation: title of a warning when changing database password.</note>
       </trans-unit>
       <trans-unit id="[Database/MasterKey/changed] Master key successfully changed" xml:space="preserve">
@@ -3140,7 +3140,7 @@ Své předplatné můžete spravovat v nastavení účtu v App Store.
       </trans-unit>
       <trans-unit id="JjJ-GT-eoX.text" xml:space="preserve">
         <source>LGPL license</source>
-        <target state="needs-translation">LGPL license</target>
+        <target state="translated">LGPL licence</target>
         <note>Class = "UILabel"; text = "LGPL license"; ObjectID = "JjJ-GT-eoX";</note>
       </trans-unit>
       <trans-unit id="Kdg-Hz-XOQ.text" xml:space="preserve">
@@ -3185,7 +3185,7 @@ Své předplatné můžete spravovat v nastavení účtu v App Store.
       </trans-unit>
       <trans-unit id="VuB-ng-Uii.text" xml:space="preserve">
         <source>Nuvola icons by David Vignoni</source>
-        <target state="needs-translation">Nuvola icons by David Vignoni</target>
+        <target state="translated">Ikony Nuvola od Davida Vignoni</target>
         <note>Class = "UILabel"; text = "Nuvola icons by David Vignoni"; ObjectID = "VuB-ng-Uii";</note>
       </trans-unit>
       <trans-unit id="Wuj-Uw-baK.text" xml:space="preserve">
@@ -3250,7 +3250,7 @@ Své předplatné můžete spravovat v nastavení účtu v App Store.
       </trans-unit>
       <trans-unit id="hW0-fR-mIf.text" xml:space="preserve">
         <source>Icons by KeePassXC team</source>
-        <target state="needs-translation">Icons by KeePassXC team</target>
+        <target state="translated">Ikony týmu KeePassXC</target>
         <note>Class = "UILabel"; text = "Icons by KeePassXC team"; ObjectID = "hW0-fR-mIf";</note>
       </trans-unit>
       <trans-unit id="ht7-pj-Dbb.text" xml:space="preserve">
@@ -3544,17 +3544,17 @@ Můžete mít více databází, například pro oddělení pracovních, rodinný
     <body>
       <trans-unit id="4Yu-VJ-n8p.text" xml:space="preserve">
         <source>Database Icons</source>
-        <target state="needs-translation">Database Icons</target>
+        <target state="translated">Ikony databáze</target>
         <note>Class = "UILabel"; text = "Database Icons"; ObjectID = "4Yu-VJ-n8p"; Note = "Section in settings: icons for database";</note>
       </trans-unit>
       <trans-unit id="4mh-X8-Byq.title" xml:space="preserve">
         <source>Appearance</source>
-        <target state="needs-translation">Appearance</target>
+        <target state="translated">Vzhled</target>
         <note>Class = "UITableViewController"; title = "Appearance"; ObjectID = "4mh-X8-Byq"; Note = "Settings for user interface appearance (text size, icons, etc)";</note>
       </trans-unit>
       <trans-unit id="5U9-NZ-sJe.accessibilityLabel" xml:space="preserve">
         <source>Reset text size to default</source>
-        <target state="needs-translation">Reset text size to default</target>
+        <target state="translated">Obnovit velikost písma na výchozí</target>
         <note>Class = "UIButton"; accessibilityLabel = "Reset text size to default"; ObjectID = "5U9-NZ-sJe"; Note = "Action: set text size to standard size";</note>
       </trans-unit>
       <trans-unit id="Lh3-CB-Urp.footerTitle" xml:space="preserve">
@@ -3569,7 +3569,7 @@ Můžete mít více databází, například pro oddělení pracovních, rodinný
       </trans-unit>
       <trans-unit id="MsA-Cd-czb.headerTitle" xml:space="preserve">
         <source>Entry Viewer</source>
-        <target state="needs-translation">Entry Viewer</target>
+        <target state="translated">Prohlížeč záznamů</target>
         <note>Class = "UITableViewSection"; headerTitle = "Entry Viewer"; ObjectID = "MsA-Cd-czb";</note>
       </trans-unit>
       <trans-unit id="QbO-y9-3wb.text" xml:space="preserve" translate="no">
@@ -4112,7 +4112,7 @@ Můžete mít více databází, například pro oddělení pracovních, rodinný
       </trans-unit>
       <trans-unit id="32P-LG-SHa.text" xml:space="preserve">
         <source>Appearance</source>
-        <target state="needs-translation">Appearance</target>
+        <target state="translated">Vzhled</target>
         <note>Class = "UILabel"; text = "Appearance"; ObjectID = "32P-LG-SHa"; Note = "Section in settings: visual style of app elements";</note>
       </trans-unit>
       <trans-unit id="756-sL-G2t.text" xml:space="preserve">
