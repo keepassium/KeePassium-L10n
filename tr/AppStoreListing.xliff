@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="KeePassium/AppStoreDescription.txt" source-language="en" target-language="tr" datatype="plaintext">
+    <body>
+      <trans-unit id="Title" maxwidth="30">
+        <source>KeePassium Password Manager</source>
+        <note>Please keep `KeePassium` as the first word. If this is difficult with the natural word order, feel free to use punctuation, for example: "KeePassium - Password Manager"</note>
+        <target state="translated">KeePassium Şifre Yöneticisi</target>
+      </trans-unit>
+      <trans-unit id="Subtitle 1" maxwidth="30">
+        <source>Respects your privacy</source>
+        <note>One-line app description/subtitle</note>
+        <target state="translated">Gizliliğinize saygı duyar</target>
+      </trans-unit>
+      <trans-unit id="Description/Intro">
+        <source>KeePassium keeps your passwords safe. It delivers the security of KeePass databases with a clean, easy to use interface.</source>
+        <note/>
+        <target state="translated">KeePassium şifrelerinizi güvende tutar.  Temiz, kullanımı kolay bir arayüz ile KeePass veritabanlarının güvenliğini sağlar.</target>
+      </trans-unit>
+      <trans-unit id="Description/MainFeatures/title">
+        <source>MAIN FEATURES</source>
+        <note>Section header, capitalized</note>
+        <target state="translated">ANA ÖZELLİKLER</target>
+      </trans-unit>
+      <trans-unit id="Description/MainFeatures/text">
+        <source>• Automatic sync — keep your database in your favorite cloud or offline.
+• Password AutoFill — login to any service in a few taps.
+• Touch ID / Face ID — save your time.
+• Multiple databases — to share passwords with your team or family.
+• Attached files — passport scans and server keys, always with you.
+• Peace of mind — feel free to check our source code, it's open.</source>
+        <note>Please keep the bullet points (followed by one space)</note>
+        <target state="translated">• Otomatik eşitleme — veritabanlarınızı istediğiniz bulut servisinde veya çevrimdışı olarak saklayın.
+• Otomatik doldurma — birkaç dokunuşla herhangi bir servise giriş yapın.
+• Touch ID / Face ID — zamandan kazanın.
+• Çoklu veritabanı — şifrelerinizi çalışma arkadaşlarınızla veya ailenizle paylaşın.
+• Ekli dosyalar — pasaport taramaları ve sunucu anahtarları, her zaman yanınızda.
+• Kafanız rahat olsun — açık kaynak kodlarımızı özgürce inceleyebilirsiniz.</target>
+      </trans-unit>
+      <trans-unit id="Description/AntiFeatures/title">
+        <source>ANTI-FEATURES</source>
+        <note>Section header, capitalized: features that are explicitly excluded</note>
+        <target state="translated">KARŞIT-ÖZELLİKLER</target>
+      </trans-unit>
+      <trans-unit id="Description/AntiFeatures/text">
+        <source>• No in-app browser
+• No VNC/SSH viewer 
+• No coffee maker
+• No analytics
+• No ads</source>
+        <note>Please keep the bullet points (followed by one space)</note>
+        <target state="translated">• Uygulama içi tarayıcı yok
+• VNC/SSH görüntüleyicisi yok 
+• Kahve makinesi yok
+• Mantıksal çözümlemeler yok 
+• Reklamlar yok</target>
+      </trans-unit>
+      <trans-unit id="Description/AutomaticSync/title">
+        <source>AUTOMATIC SYNC</source>
+        <note>Section header, capitalized</note>
+        <target state="translated">OTOMATİK EŞİTLEME</target>
+      </trans-unit>
+      <trans-unit id="Description/AutomaticSync/text">
+        <source>KeePassium can work both offline and with your favorite cloud provider. 
+
+There is no setup: pick your database through the familiar Files interface — and that's it. By integrating with the Files app, KeePassium supports almost all storage providers, including:
+
+• iCloud Drive
+• OneDrive
+• Dropbox 
+• Box
+• pCloud
+• Google Drive
+• NextCloud (with hiccups)
+• WebDAV and SFTP (via a third-party app)
+• ...and more!
+
+Should a password manager have full access to your corporate file server? Of course not! All the networking is automatically performed by the original storage provider app. This way, KeePassium knows only about few specific databases, not your whole server.</source>
+        <note>Please keep the bullet points (followed by one space)</note>
+        <target state="translated">KeePassium hem çevrimdışı hem de favori bulut sağlayıcınızla çalışabilir.
+
+Kurulum yok: Veritabanınızı bildiğiniz Dosyalar arayüzünden seçin - hepsi bu kadar. Dosyalar uygulamasına entegre olarak, KeePassium aşağıdakiler dahil neredeyse tüm depolama sağlayıcılarını destekler:
+
+ • iCloud Drive
+ • OneDrive
+ • DropBox
+ • Box
+ • pCloud
+ • Google Drive
+ • NextCloud
+ • WebDAV ve SFTP (üçüncü parti uygulaması ile)
+ • ...ve daha fazlası!
+
+Bir şifre yöneticisi kurumsal dosya sunucunuza tam erişim hakkına sahip olmalı mı? Tabii ki değil! Tüm ağ iletişimi, orijinal depolama sağlayıcı uygulaması tarafından otomatik olarak gerçekleştirilir. Bu sayede, KeePassium tüm sunucunuzu değil, yalnızca birkaç belirli veritabanını bilir.</target>
+      </trans-unit>
+      <trans-unit id="Description/More/title">
+        <source>WHAT ELSE CAN IT DO?</source>
+        <note>Section header, capitalized: additional list of features</note>
+        <target state="translated">BAŞKA NE YAPILABİLİR?</target>
+      </trans-unit>
+      <trans-unit id="Description/More/text">
+        <source>• Read and write all database formats (kdb, kdbx3, kdbx4 — including Argon2/ChaCha20)
+• View time-based one-time passwords (TOTP)
+• View deleted groups and entries (Recycle Bin)
+• View previous revisions of an entry
+• View and edit custom fields
+• View custom icons
+• And more! See for yourself, it's free.</source>
+        <note>Please keep the bullet points (followed by one space)</note>
+        <target state="translated">• Tüm veritabanı biçimlerini okuyun ve yazın (kdb, kdbx3, kdbx4 - Argon2 / ChaCha20 dahil)
+• Zamana dayalı tek seferlik şifreleri görüntüleme (TOTP)
+• Silinen grupları ve girişleri görüntüleme (Geri Dönüşüm Kutusu)
+• Bir girişin önceki revizyonlarını görüntüleme
+• Özel alanları görüntüleme ve düzenleme
+• Özel simgeleri görüntüle
+• Ve dahası! Kendiniz görün, ücretsiz.</target>
+      </trans-unit>
+      <trans-unit id="Description/Privacy/title">
+        <source>PRIVACY</source>
+        <note>Section header, capitalized: privacy policy</note>
+        <target state="translated">ÖZEL</target>
+      </trans-unit>
+      <trans-unit id="Description/Privacy/text">
+        <source>This app does not collect any personal data. We sell the app, not its users.</source>
+        <note/>
+        <target state="translated">Bu uygulama herhangi bir kişisel veri toplamaz. Biz uygulamayı satıyoruz, kullanıcıları değil.</target>
+      </trans-unit>
+      <trans-unit id="Description/CommercialAndOpen/title">
+        <source>COMMERCIAL AND OPEN</source>
+        <note>Section header, capitalized: the app is both a commercial and open source project</note>
+        <target state="translated">TİCARİ VE AÇIK</target>
+      </trans-unit>
+      <trans-unit id="Description/CommercialAndOpen/text">
+        <source>KeePassium is a commercial open source app. Here, "open source" is the transparency you need from a password manager. The "commercial" part, in turn, gives you:
+
+• A great well-polished interface
+• Responsive support that cares
+• Future updates and improvements</source>
+        <note>Please keep the bullet points (followed by one space)</note>
+        <target state="translated">KeePassium ticari bir açık kaynak uygulamasıdır. Burada, "açık kaynak", bir şifre yöneticisinden ihtiyacınız olan şeffaflıktır. "Ticari" kısım, sırayla size şunları sunar:
+
+• Mükemmel cilalı bir arayüz
+• Özen gösteren duyarlı bir destek
+• Gelecekteki güncellemeler ve iyileştirmeler</target>
+      </trans-unit>
+      <trans-unit id="Description/Freemium/title">
+        <source>FREE vs PREMIUM</source>
+        <note>Section header, capitalized: a comparison of free and premium version.</note>
+        <target state="translated">ÜCRETSİZ'e karşı PREMIUM</target>
+      </trans-unit>
+      <trans-unit id="Description/Freemium/text">
+        <source>There is no "trial period". The free version is always completely functional. You can view and edit, use Touch ID / Face ID, search and AutoFill — but only with one database at a time.
+
+You can install free KeePassium for your family members. If they barely use the app, it will not bother them to buy premium. 
+
+With the premium version, you can:
+• Quickly switch between multiple databases.
+• Unlock databases with one tap and keep them open as long as you need.
+• View attachments in the app, without leaving a trace in the system.
+• Email your questions and get answers directly from the developer.
+• Keep KeePassium shiny and available to people who need security but cannot afford it yet.</source>
+        <note>Please keep the bullet points (followed by one space)</note>
+        <target state="translated">"Deneme süresi" diye birşey yok. Ücretsiz sürüm her daim tamamen işlevseldir. Görüntüleyebilir ve düzenleyebilir, Touch ID / Face ID, arama ve otomatik doldurma özelliklerini kullanabilirsiniz - ancak bir seferde yalnızca bir veritabanıyla.
+
+Aileniz için ücretsiz KeePassium yükleyebilirsiniz. Ancak uygulamayı kullanmakta zorlanıyorlarsa, premium almaları onları rahatsız etmeyecektir.
+
+Premium sürüm ile şunları yapabilirsiniz:
+• Hızlı bir şekilde birden fazla veritabanı arasında geçiş yapın.
+• Tek bir dokunuşla veritabanlarının kilidini açın ve ihtiyaç duyduğunuz sürece açık tutun.
+• Sistemde bir iz bırakmadan, uygulamadaki bağımlılıkları görüntüleyin.
+• Sorularınızı e-postayla gönderin ve doğrudan geliştiriciden yanıtlar alın.
+• Güvenlik ihtiyacı olan ancak henüz bunu karşılayamayan insanlara KeePassium'u ışıltılı ve ulaşılabilir tutun.</target>
+      </trans-unit>
+      <trans-unit id="Description/Contact/text">
+        <source>Talk to us at info@keepassium.com, /r/KeePassium on Reddit, @KeePassium on Twitter and GitHub.</source>
+        <note/>
+        <target state="translated">Bizimle info@keepassium.com adresinden, Reddit'te /r/KeePassium, Twitter'da ve GitHub'ta @KeePassium ile iletişime geçin.</target>
+      </trans-unit>
+      <trans-unit id="Description/Footer/text">
+        <source>* Premium version is available as an in-app purchase, either as a subscription or a one-time payment. 
+* Payment will be charged to your Apple ID account at the confirmation of (in-app) purchase. Subscription automatically renews unless it is canceled at least 24 hours before the end of the current period. Your account will be charged for renewal within 24 hours prior to the end of the current period. 
+* You can manage and cancel your subscriptions by going to your account settings on the App Store after purchase.
+* Privacy policy: https://keepassium.com/privacy/app
+* Terms of Use: https://keepassium.com/terms/app</source>
+        <note>Mandatory legalese required by Apple. Asterisks instead of bullet points.</note>
+        <target state="translated">* Premium sürüm, abonelik veya tek seferlik ödeme olarak uygulama içi satın alma yoluyla kullanılabilir.
+* Ödeme, (uygulama içi) satın alımın onaylanmasından sonra Apple ID hesabınızdan tahsil edilecektir. Abonelik, cari dönemin bitiminden en az 24 saat önce iptal edilmediği sürece otomatik olarak yenilenir. Cari dönemin bitiminden 24 saat önce hesabınızdan yenileme ücreti alınacaktır.
+* Satın aldıktan sonra App Store'daki hesap ayarlarınıza giderek aboneliklerinizi yönetebilir ve iptal edebilirsiniz.
+* Gizlilik politikası: https://keepassium.com/privacy/app
+* Kullanım Koşulları: https://keepassium.com/terms/app</target>
+      </trans-unit>
+      <trans-unit id="Subtitle Pro">
+        <source>Lifetime license</source>
+        <note>Subtitle for the Pro version</note>
+        <target state="translated">Ömür Boyu Kullanım Lisansı</target>
+      </trans-unit>
+      <trans-unit id="Description/Intro Pro">
+        <source>KeePassium Pro is the full version of KeePassium Password Manager. This app offers a lifetime license as a one-time purchase.</source>
+        <target state="translated">KeePassium Pro, KeePassium Şifre Yöneticisinin tam sürümüdür. Bu uygulama tek seferlik ödemeyle ömür boyu lisans hakkı sunar.</target>
+      </trans-unit>
+      <trans-unit id="Benefits of the Pro version">
+        <source>• All premium features (current and future)
+• Lifetime email support
+• No in-app purchases</source>
+        <note>Please keep the bullet points (followed by one space)</note>
+        <target state="translated">• Mevcut ve gelecekteki tüm premium özellikler
+• Ömür boyu email desteği
+• Uygulama içi satın alma yok</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
