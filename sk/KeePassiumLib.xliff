@@ -1,0 +1,895 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="KeePassiumLib/en.lproj/InfoPlist.strings" source-language="en" target-language="sk" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName" xml:space="preserve">
+        <source>KeePassiumLib</source>
+        <target state="translated">KeePassiumLib</target>
+        <note>Bundle name</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="KeePassiumLib/en.lproj/Localizable.strings" source-language="en" target-language="sk" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
+    </header>
+    <body>
+      <trans-unit id="[AppLock/Passcode/KeyboardType/title] Alphanumeric" xml:space="preserve">
+        <source>Alphanumeric</source>
+        <target state="translated">Alfanumerické</target>
+        <note>Type of keyboard to show for App Lock passcode: letters and digits.</note>
+      </trans-unit>
+      <trans-unit id="[AppLock/Passcode/KeyboardType/title] Numeric" xml:space="preserve">
+        <source>Numeric</source>
+        <target state="translated">Numerická</target>
+        <note>Type of keyboard to show for App Lock passcode: digits only (PIN code).</note>
+      </trans-unit>
+      <trans-unit id="[ChallengeResponseError] cancelled" xml:space="preserve">
+        <source>Cancelled by the user.</source>
+        <target state="translated">Zrušené užívateľom.</target>
+        <note>Error message when the challenge-response communication has been cancelled by the user.</note>
+      </trans-unit>
+      <trans-unit id="[ChallengeResponseError] keyNotConnected" xml:space="preserve">
+        <source>Hardware key is not connected.</source>
+        <target state="translated">Hardvérový kľúč nie je pripojený.</target>
+        <note>Error message when the hardware key is not plugged in.</note>
+      </trans-unit>
+      <trans-unit id="[ChallengeResponseError] notAvailableInAutoFill" xml:space="preserve">
+        <source>Hardware keys are not available in AutoFill.</source>
+        <target state="translated">Hardvérové ​​kľúče nie sú dostupné pre automatické vyplňovanie.</target>
+        <note>Error message when trying to use challenge-response hardware in AutoFill.</note>
+      </trans-unit>
+      <trans-unit id="[ChallengeResponseError] notSupportedByDatabaseFormat" xml:space="preserve">
+        <source>Hardware keys are not supported by this database format.</source>
+        <target state="translated">Hardvérové kľúče nie sú podporované v tomto formáte databázy.</target>
+        <note>Error message when trying to use challenge-response with a kdb database.</note>
+      </trans-unit>
+      <trans-unit id="[ChallengeResponseError] notSupportedByDeviceOrSystem" xml:space="preserve">
+        <source>This device or iOS version does not support hardware keys (%@)</source>
+        <target state="translated">Toto zariadenie alebo verzia iOS nepodporuje hardvérové kľúče (%@)</target>
+        <note>Error message when trying to use a hardware challenge-response key on unsupported device/iOS version. %@ will be the name of the hardware interface, such as `NFC` or `Lightning`.</note>
+      </trans-unit>
+      <trans-unit id="[ChallengeResponseError] slotNotConfigured" xml:space="preserve">
+        <source>Hardware key is not configured for challenge-response.</source>
+        <target state="translated">Hardvérový kľúč nie je nakonfigurovaný pre challenge-response.</target>
+        <note>Error message: the hardware key (or its slot) was not configured for challenge-response operations.</note>
+      </trans-unit>
+      <trans-unit id="[Cipher/Progress] Decrypting" xml:space="preserve">
+        <source>Decrypting</source>
+        <target state="translated">Dešifrovanie</target>
+        <note>Progress status</note>
+      </trans-unit>
+      <trans-unit id="[Cipher/Progress] Encrypting" xml:space="preserve">
+        <source>Encrypting</source>
+        <target state="translated">Šifrovanie</target>
+        <note>Progress status</note>
+      </trans-unit>
+      <trans-unit id="[CryptoError] AES decryption error (code %d)" xml:space="preserve">
+        <source>AES decryption error (code %d)</source>
+        <target state="translated">Chyba AES dešifrovania (kód %d)</target>
+        <note>Error message about AES cipher. [errorCode: Int]</note>
+      </trans-unit>
+      <trans-unit id="[CryptoError] AES encryption error (code %d)" xml:space="preserve">
+        <source>AES encryption error (code %d)</source>
+        <target state="translated">Chyba AES šifrovania (kód %d)</target>
+        <note>Error message about AES cipher. [errorCode: Int]</note>
+      </trans-unit>
+      <trans-unit id="[CryptoError] AES initialization error (code %d)" xml:space="preserve">
+        <source>AES initialization error (code %d)</source>
+        <target state="translated">Chyba AES inicializácie (kód %d)</target>
+        <note>Error message about AES cipher. [errorCode: Int]</note>
+      </trans-unit>
+      <trans-unit id="[CryptoError] Argon2 hashing error (code %d)" xml:space="preserve">
+        <source>Argon2 hashing error (code %d)</source>
+        <target state="translated">Chyba Argon2 funkcie hash (kód %d)</target>
+        <note>Error message about Argon2 hashing function. [errorCode: Int]</note>
+      </trans-unit>
+      <trans-unit id="[CryptoError] Invalid KDF parameter: %@ - %@. File corrupt?" xml:space="preserve">
+        <source>Invalid KDF parameter: %1$@ - %2$@. File corrupt?</source>
+        <target state="translated">Neplatný parameter KDF: %1$@ - %2$@. Poškodený súbor?</target>
+        <note>Error message about key derivation function (KDF) parameters. [kdfName: String, paramName: String]</note>
+      </trans-unit>
+      <trans-unit id="[CryptoError] Invalid data padding (code %d). File corrupt?" xml:space="preserve">
+        <source>Invalid data padding (code %d). File corrupt?</source>
+        <target state="translated">Neplatné vyplnenie dát (kód %d). Poškodený súbor?</target>
+        <note>Error message about PKCS7 padding. [errorCode: Int]</note>
+      </trans-unit>
+      <trans-unit id="[CryptoError] Random number generator error (code %d)" xml:space="preserve">
+        <source>Random number generator error (code %d)</source>
+        <target state="translated">Chyba generátora náhodných čísel (kód %d)</target>
+        <note>Error message about random number generator. [errorCode: Int]</note>
+      </trans-unit>
+      <trans-unit id="[CryptoError] Twofish cipher error (code %d)" xml:space="preserve">
+        <source>Twofish cipher error (code %d)</source>
+        <target state="translated">Chyba šifry Twofish (kód %d)</target>
+        <note>Error message about Twofish cipher. [errorCode: Int]</note>
+      </trans-unit>
+      <trans-unit id="[Database/Load/Error] Cannot find database file" xml:space="preserve">
+        <source>Cannot find database file</source>
+        <target state="translated">Nenájdený databázový súbor</target>
+        <note>Error message</note>
+      </trans-unit>
+      <trans-unit id="[Database/Load/Error] Cannot find key file" xml:space="preserve">
+        <source>Cannot find key file</source>
+        <target state="translated">Súbor s kľúčom nenájdený</target>
+        <note>Error message</note>
+      </trans-unit>
+      <trans-unit id="[Database/Load/Error] Cannot open database file" xml:space="preserve">
+        <source>Cannot open database file</source>
+        <target state="translated">Nedá sa otvoriť databázový súbor</target>
+        <note>Error message</note>
+      </trans-unit>
+      <trans-unit id="[Database/Load/Error] Cannot open key file" xml:space="preserve">
+        <source>Cannot open key file</source>
+        <target state="translated">Nedá sa otvoriť súbor s kľúčom</target>
+        <note>Error message</note>
+      </trans-unit>
+      <trans-unit id="[Database/Load/Error] Please provide at least a password or a key file" xml:space="preserve">
+        <source>Please provide at least a password or a key file</source>
+        <target state="translated">Prosím, vložte heslo alebo súbor s kľúčom</target>
+        <note>Error shown when both master password and key file are empty</note>
+      </trans-unit>
+      <trans-unit id="[Database/Load/Error] Unrecognized database format" xml:space="preserve">
+        <source>Unrecognized database format</source>
+        <target state="translated">Nerozpoznaný formát databázy</target>
+        <note>Error message</note>
+      </trans-unit>
+      <trans-unit id="[Database/Progress/downloading]" xml:space="preserve">
+        <source>Downloading database file...</source>
+        <target state="translated">Sťahuje sa databázový súbor...</target>
+        <note>Database loading status: fetching the database file from disk/cloud</note>
+      </trans-unit>
+      <trans-unit id="[Database/Progress/makingDatabaseBackup]" xml:space="preserve">
+        <source>Making backup copy...</source>
+        <target state="translated">Vytvára sa záloha...</target>
+        <note>Database saving status: making a local backup copy of the database</note>
+      </trans-unit>
+      <trans-unit id="[Database/Progress/resolvingFieldReferences]" xml:space="preserve">
+        <source>Resolving field references…</source>
+        <target state="translated">Riešenie odkazov na pole…</target>
+        <note>Database loading/saving status: replacing field references with their values</note>
+      </trans-unit>
+      <trans-unit id="[Database/Progress/resolving]" xml:space="preserve">
+        <source>Contacting storage provider...</source>
+        <target state="translated">Kontaktuje sa poskytovateľ úložiska...</target>
+        <note>Progress status</note>
+      </trans-unit>
+      <trans-unit id="[Database/Progress] Done" xml:space="preserve">
+        <source>Done</source>
+        <target state="translated">Hotovo</target>
+        <note>Progress status: finished loading database</note>
+      </trans-unit>
+      <trans-unit id="[Database/Progress] Loading key file..." xml:space="preserve">
+        <source>Loading key file...</source>
+        <target state="translated">Načítava sa súbor s kľúčom...</target>
+        <note>Progress status</note>
+      </trans-unit>
+      <trans-unit id="[Database/Unlock/Error] Failed to open key file" xml:space="preserve">
+        <source>Failed to open key file</source>
+        <target state="translated">Nepodarilo sa otvoriť súbor s kľúčom</target>
+        <note>Error message</note>
+      </trans-unit>
+      <trans-unit id="[Database/Unlock/Error] Password and key file are both empty." xml:space="preserve">
+        <source>Password and key file are both empty.</source>
+        <target state="translated">Heslo a súbor s kľúčom sú prázdne.</target>
+        <note>Error message</note>
+      </trans-unit>
+      <trans-unit id="[Database1/FormatError] Database file is corrupted." xml:space="preserve">
+        <source>Database file is corrupted.</source>
+        <target state="translated">Databáza je poškodená.</target>
+        <note>Error message</note>
+      </trans-unit>
+      <trans-unit id="[Database1/FormatError] Error parsing field %@. Corrupted database file?" xml:space="preserve">
+        <source>Error parsing field %@. Corrupted database file?</source>
+        <target state="translated">Chyba analyzovania poľa %@. Poškodená databáza?</target>
+        <note>Error message [fieldName: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database1/FormatError] Found an entry outside any group. Corrupted DB file?" xml:space="preserve">
+        <source>Found an entry outside any group. Corrupted DB file?</source>
+        <target state="translated">Našiel sa záznam mimo akejkoľvek skupiny. Poškodený súbor DB?</target>
+        <note>Error message</note>
+      </trans-unit>
+      <trans-unit id="[Database1/FormatError] Unexpected end of file. Corrupted database file?" xml:space="preserve">
+        <source>Unexpected end of file. Corrupted database file?</source>
+        <target state="translated">Neočakávaný koniec súboru. Poškodená databáza?</target>
+        <note>Error message</note>
+      </trans-unit>
+      <trans-unit id="[Database1/Header1/Error] Header reading error. DB file corrupt?" xml:space="preserve">
+        <source>Header reading error. DB file corrupt?</source>
+        <target state="translated">Chyba čítania hlavičky. Poškodená databáza?</target>
+        <note>Error message when reading database header</note>
+      </trans-unit>
+      <trans-unit id="[Database1/Header1/Error] Unsupported cipher. (Code: %@)" xml:space="preserve">
+        <source>Unsupported cipher. (Code: %@)</source>
+        <target state="translated">Nepodporovaná šifra (kód: %@)</target>
+        <note>Error message. [flagsHexString: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database1/Header1/Error] Unsupported database format version: %@." xml:space="preserve">
+        <source>Unsupported database format version: %@.</source>
+        <target state="translated">Nepodporovaná verzia formátu databázy: %@.</target>
+        <note>Error message when opening a database. [version: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database1/Header1/Error] Wrong file signature. Not a KeePass database?" xml:space="preserve">
+        <source>Wrong file signature. Not a KeePass database?</source>
+        <target state="translated">Chybný podpis súboru. Je to KeePass databáza?</target>
+        <note>Error message when opening a database</note>
+      </trans-unit>
+      <trans-unit id="[Database1/Progress] Packing the content" xml:space="preserve">
+        <source>Packing the content</source>
+        <target state="translated">Balenie obsahu</target>
+        <note>Status message: collecting database items into a single package</note>
+      </trans-unit>
+      <trans-unit id="[Database1/Progress] Parsing content" xml:space="preserve">
+        <source>Parsing content</source>
+        <target state="translated">Analýza obsahu</target>
+        <note>Status message: processing the content of a database</note>
+      </trans-unit>
+      <trans-unit id="[Database2/FormatError] Cannot parse database. %@" xml:space="preserve">
+        <source>Cannot parse database. %@</source>
+        <target state="translated">Databázu nie je možné analyzovať. %@</target>
+        <note>Error message. Parsing refers to the analysis/understanding of file content. [reason: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/FormatError] Corrupted database file (HMAC mismatch in block %d)" xml:space="preserve">
+        <source>Corrupted database file (HMAC mismatch in block %d)</source>
+        <target state="translated">Poškodená databáza (nezhoda HMAC v bloku %d)</target>
+        <note>Error message: HMAC value (kind of checksum) of a data block is wrong. [blockIndex: Int]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/FormatError] Corrupted database file (block %d has negative size)" xml:space="preserve">
+        <source>Corrupted database file (block %d has negative size)</source>
+        <target state="translated">Poškodená databáza (blok %d má zápornú veľkosť)</target>
+        <note>Error message [blockIndex: Int]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/FormatError] Corrupted database file (hash mismatch in block %d)" xml:space="preserve">
+        <source>Corrupted database file (hash mismatch in block %d)</source>
+        <target state="translated">Poškodená databáza (nesúlad hash v bloku %d)</target>
+        <note>Error message: hash(checksum) of a data block is wrong. [blockIndex: Int]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/FormatError] Gzip error: %@" xml:space="preserve">
+        <source>Gzip error: %@</source>
+        <target state="translated">Chyba Gzip: %@</target>
+        <note>Error message about Gzip compression algorithm. [reason: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/FormatError] Unexpected block ID." xml:space="preserve">
+        <source>Unexpected block ID.</source>
+        <target state="translated">Neočakávané blok ID.</target>
+        <note>Error message: wrong ID of a data block</note>
+      </trans-unit>
+      <trans-unit id="[Database2/FormatError] Unexpected end of file. Corrupted file?" xml:space="preserve">
+        <source>Unexpected end of file. Corrupted file?</source>
+        <target state="translated">Neočakávaný koniec súboru. Poškodený súbor?</target>
+        <note>Error message</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Header2/Error] Failed to uncompress attachment data: %@" xml:space="preserve">
+        <source>Failed to uncompress attachment data: %@</source>
+        <target state="translated">Nepodarilo sa dekomprimovať prílohu: %@</target>
+        <note>Error message when saving a database. [reason: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Header2/Error] Header HMAC mismatch. DB file corrupt?" xml:space="preserve">
+        <source>Header HMAC mismatch. DB file corrupt?</source>
+        <target state="translated">Nesúlad hlavičky HMAC. Poškodená databáza?</target>
+        <note>Error message. HMAC = https://en.wikipedia.org/wiki/HMAC</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Header2/Error] Header field %@ is corrupted." xml:space="preserve">
+        <source>Header field %@ is corrupted.</source>
+        <target state="translated">Hlavička poľa %@ je poškodená.</target>
+        <note>Error message, with the name of problematic field. [fieldName: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Header2/Error] Header hash mismatch. DB file corrupt?" xml:space="preserve">
+        <source>Header hash mismatch. DB file corrupt?</source>
+        <target state="translated">Nesúlad hash hlavičky. Poškodená databáza?</target>
+        <note>Error message</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Header2/Error] Header reading error. DB file corrupt?" xml:space="preserve">
+        <source>Header reading error. DB file corrupt?</source>
+        <target state="translated">Chyba čítania hlavičky. Poškodená databáza?</target>
+        <note>Error message when reading database header</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Header2/Error] Unknown compression algorithm." xml:space="preserve">
+        <source>Unknown compression algorithm.</source>
+        <target state="translated">Neznámy kompresný algoritmus.</target>
+        <note>Error message when opening a database</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Header2/Error] Unsupported KDF: %@" xml:space="preserve">
+        <source>Unsupported KDF: %@</source>
+        <target state="translated">Nepodporovaný KDF: %@</target>
+        <note>Error message about Key Derivation Function. [uuidString: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Header2/Error] Unsupported data cipher: %@" xml:space="preserve">
+        <source>Unsupported data cipher: %@</source>
+        <target state="translated">Nepodporovaná dátová šifra: %@</target>
+        <note>Error message. [uuidHexString: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Header2/Error] Unsupported database format version: %@." xml:space="preserve">
+        <source>Unsupported database format version: %@.</source>
+        <target state="translated">Nepodporovaná verzia formátu databázy: %@.</target>
+        <note>Error message when opening a database. [version: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Header2/Error] Unsupported inner stream cipher (ID %d)" xml:space="preserve">
+        <source>Unsupported inner stream cipher (ID %d)</source>
+        <target state="translated">Nepodporovaný vnútorný tok šifry (ID %d)</target>
+        <note>Error message when opening a database. [id: UInt32]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Header2/Error] Wrong file signature. Not a KeePass database?" xml:space="preserve">
+        <source>Wrong file signature. Not a KeePass database?</source>
+        <target state="translated">Chybný podpis súboru. Je to KeePass databáza?</target>
+        <note>Error message when opening a database</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Loading/Error] Error unpacking database: %@" xml:space="preserve">
+        <source>Error unpacking database: %@</source>
+        <target state="translated">Chyba pri rozbaľovaní databázy: %@</target>
+        <note>Error message about Gzip compression algorithm. [errorMessage: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Loading/Warning/missingBinaries]" xml:space="preserve">
+        <source>Attachments of some entries are missing data. This is a sign of database corruption, most likely by the last used app (%1$@). KeePassium will preserve the empty attachments, but cannot restore them. You should restore your database from a backup copy. 
+
+Missing attachments: %2$@</source>
+        <target state="translated">Prílohám niektorých záznamov chýbajú dáta. To môže znamenať poškodenie databázy, pravdepodobne pri poslednom použití aplikácie (%1$@). KeePassium uchováva prázdne prílohy, ale nemôže ich obnoviť. Mali by ste obnoviť svoju databáze zo záložnej kópie. 
+
+Chýbajúce prílohy: %2$@</target>
+        <note>A warning about missing attachments after loading the database. [lastUsedAppName: String, attachmentNames: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Loading/Warning/namelessAttachments]" xml:space="preserve">
+        <source>Some entries have attachments without a name. This is a sign of previous database corruption.
+
+ Please review attached files in the following entries (and their history):
+%@</source>
+        <target state="translated">Niektoré záznamy majú prílohy bez názvu. To môže znamenať predchádzajúce poškodenie databázy.
+
+ Prosím skontrolujte prílohy v nasledujúcich záznamoch (aj ich históriu):
+%@</target>
+        <note>A warning about nameless attachments, shown after loading the database. [listOfEntryNames: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Loading/Warning/namelessCustomFields]" xml:space="preserve">
+        <source>Some entries have custom field(s) with empty names. This can be a sign of data corruption. Please check these entries:
+
+%@</source>
+        <target state="translated">Niektoré záznamy majú vlastné polia s nevyplneným názvom. Môže to znamenať poškodenie dát. Prosím skontrolujte tieto záznamy:
+
+%@</target>
+        <note>A warning about misformatted custom fields after loading the database. [entryPaths: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Loading/Warning/unusedAttachments]" xml:space="preserve">
+        <source>The database contains some attachments that are not used in any entry. Most likely, they have been forgotten by the last used app (%@). However, this can also be a sign of data corruption. 
+Please make sure to have a backup of your database before changing anything.</source>
+        <target state="translated">Databáza obsahuje niektoré prílohy, ktoré nie sú použité v žiadnom zázname. Pravdepodobne boli zabudnuté pri poslednom použití aplikácie (%@). Avšak môže to byť tiež známkou poškodenia dát. 
+Predtým, ako niečo zmeníte, nezabudnite si prosím zálohovať svoju databázu.</target>
+        <note>A warning about unused attachments after loading the database. [lastUsedAppName: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Progress/decompressing]" xml:space="preserve">
+        <source>Decompressing database</source>
+        <target state="translated">Dekompresia databázy</target>
+        <note>Progress bar status: un-zipping the database content</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Progress/integrityCheck]" xml:space="preserve">
+        <source>Checking integrity</source>
+        <target state="translated">Kontrola integrity</target>
+        <note>Progress bar status</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Progress/parsingXML]" xml:space="preserve">
+        <source>Parsing database</source>
+        <target state="translated">Analýza databázy</target>
+        <note>Progress bar status: parsing decrypted XML content</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Progress] Loading database" xml:space="preserve">
+        <source>Loading database</source>
+        <target state="translated">Načítanie databázy</target>
+        <note>Progress bar status</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Progress] Reading database content" xml:space="preserve">
+        <source>Reading database content</source>
+        <target state="translated">Čítanie obsahu databázy</target>
+        <note>Progress bar status</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Progress] Writing encrypted blocks" xml:space="preserve">
+        <source>Writing encrypted blocks</source>
+        <target state="translated">Zapisovanie šifrovaných blokov</target>
+        <note>Progress bar status</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Saving/Error] Data compression error: %@" xml:space="preserve">
+        <source>Data compression error: %@</source>
+        <target state="translated">Chyba kompresie dát: %@</target>
+        <note>Error message while saving a database. [errorDescription: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Saving/Error] Encryption error: %@" xml:space="preserve">
+        <source>Encryption error: %@</source>
+        <target state="translated">Chyba šifrovania: %@</target>
+        <note>Error message while saving a database. [errorDescription: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Xml2/ParsingError] Malformed value '%@' in %@" xml:space="preserve">
+        <source>Malformed value '%1$@' in %2$@</source>
+        <target state="translated">Poškodená hodnota '%1$@' in %2$@</target>
+        <note>Error message about XML parsing. [value: String, tag: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Xml2/ParsingError] Nil value in %@" xml:space="preserve">
+        <source>Nil value in %@</source>
+        <target state="translated">Nulová hodnota v %@</target>
+        <note>Error message about XML parsing. [tag: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Xml2/ParsingError] Not a KeePass XML" xml:space="preserve">
+        <source>Not a KeePass XML</source>
+        <target state="translated">Nie je to KeePass XML</target>
+        <note>Error message about XML parsing</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Xml2/ParsingError] Unexpected tag '%@'" xml:space="preserve">
+        <source>Unexpected tag '%@'</source>
+        <target state="translated">Neočakávaný štítok '%@'</target>
+        <note>Error message about XML parsing. [actualTag: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Xml2/ParsingError] Unexpected tag '%@' (instead of '%@')" xml:space="preserve">
+        <source>Unexpected tag '%1$@' (instead of '%2$@')</source>
+        <target state="translated">Neočakávaný štítok '%1$@' (namiesto '%2$@')</target>
+        <note>Error message about XML parsing. [actualTag: String, expectedTag: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/Xml2/ParsingError] XML error: %@" xml:space="preserve">
+        <source>XML error: %@</source>
+        <target state="translated">Chyba XML: %@</target>
+        <note>Generic error while parsing XML. [errorDetails: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database2/backupGroupName] Recycle Bin" xml:space="preserve">
+        <source>Recycle Bin</source>
+        <target state="translated">Odpadkový kôš</target>
+        <note>Name of a group which contains deleted entries</note>
+      </trans-unit>
+      <trans-unit id="[DatabaseError] Cannot open database" xml:space="preserve">
+        <source>Cannot open database</source>
+        <target state="translated">Databáza sa nedá otvoriť</target>
+        <note>Error message while opening a database</note>
+      </trans-unit>
+      <trans-unit id="[DatabaseError] Cannot save database" xml:space="preserve">
+        <source>Cannot save database</source>
+        <target state="translated">Databáza sa nedá uložiť</target>
+        <note>Error message while saving a database</note>
+      </trans-unit>
+      <trans-unit id="[DatabaseError] Invalid password or key file" xml:space="preserve">
+        <source>Invalid password or key file</source>
+        <target state="translated">Chybné heslo alebo súbor s kľúčom</target>
+        <note>Error message: user provided a wrong master key for decryption.</note>
+      </trans-unit>
+      <trans-unit id="[File/In Trash/warning]" xml:space="preserve">
+        <source>'%@' is located in Recently Deleted and might be deleted soon. To preserve your data, move the file to a more permanent location.</source>
+        <target state="translated">'%@' je umiestnený v nedávno zmazaných súboroch a môže byť čoskoro odstránený. Ak chcete súbor zachovať, presuňte ho na trvalejšie miesto.</target>
+        <note>Warning shown when opening files from Recycle Bin location. Translation of 'Recently Deleted' should match that in the Files app. [fileName: String]</note>
+      </trans-unit>
+      <trans-unit id="[File/TemporaryBackup/warning]" xml:space="preserve">
+        <source>This is a temporary backup database. It can be automatically deleted without a warning. Don't use it as your main database.</source>
+        <target state="translated">Toto je dočasná záložný databáza. Môže byť automaticky a bez varovania vymazaná. Nepoužívajte ju ako svoju hlavnú databázu.</target>
+        <note>Notification when user opens an in-app backup database.</note>
+      </trans-unit>
+      <trans-unit id="[FileAccessError/FileProvider/NotFound/generic]" xml:space="preserve">
+        <source>Storage provider is not available. Please check whether it is installed and logged in to your account.</source>
+        <target state="translated">Poskytovateľ úložiska nie je k dispozícii. Skontrolujte prosím, či je nainštalovaný a prihlásený k vášmu účtu.</target>
+        <note>Error message: storage provider app was logged out or uninstalled.</note>
+      </trans-unit>
+      <trans-unit id="[FileAccessError/FileProvider/NotFound/other]" xml:space="preserve">
+        <source>%@ is not available. Please check whether it is installed and logged in to your account.</source>
+        <target state="translated">%@ nie je k dispozícii. Skontrolujte prosím, či je nainštalovaný a prihlásený k vášmu účtu.</target>
+        <note>Error message: storage provider app was logged out or uninstalled [fileProviderName: String].</note>
+      </trans-unit>
+      <trans-unit id="[FileAccessError/FileProvider/NotFound/smbShare]" xml:space="preserve">
+        <source>Network storage is disconnected.</source>
+        <target state="translated">Sieťové úložisko je odpojené.</target>
+        <note>Error message: the required network drive is not connected.</note>
+      </trans-unit>
+      <trans-unit id="[FileAccessError/FileProvider/NotFound/usbDrive]" xml:space="preserve">
+        <source>USB drive is disconnected.</source>
+        <target state="translated">USB disk je odpojený.</target>
+        <note>Error message: there is no USB drive connected to the device.</note>
+      </trans-unit>
+      <trans-unit id="[FileAccessError/NoResponse/genericFileProvider]" xml:space="preserve">
+        <source>Storage provider does not respond.</source>
+        <target state="translated">Poskytovateľ úložiska neodpovedá.</target>
+        <note>Error message: storage provider app (e.g. Google Drive) does not respond to requests.</note>
+      </trans-unit>
+      <trans-unit id="[FileAccessError/NoResponse/knownFileProvider]" xml:space="preserve">
+        <source>%@ does not respond.</source>
+        <target state="translated">%@ neodpovedá.</target>
+        <note>Error message: file provider does not respond to requests. For example: `Google Drive does not respond.`</note>
+      </trans-unit>
+      <trans-unit id="[FileAccessError/NoWritePermission/title]" xml:space="preserve">
+        <source>Cannot save file (%@)</source>
+        <target state="translated">Súbor (%@) sa nedá uložiť</target>
+        <note>Error message: file provider does not support write operations. For example: `Cannot save file (OneDrive)`</note>
+      </trans-unit>
+      <trans-unit id="[FileAccessError/OneDriveReadOnly/reason]" xml:space="preserve">
+        <source>Microsoft has recently switched OneDrive integration with iOS to read-only mode. Temporarily, they say.</source>
+        <target state="translated">Microsoft nedávno prepol integráciu OneDrive s iOS do režimu iba na čítanie. Tvrdí, že dočasne.</target>
+        <note>Explanation of a file writing error</note>
+      </trans-unit>
+      <trans-unit id="[FileAccessError/OneDriveReadOnly/recoverySuggestion]" xml:space="preserve">
+        <source>Use the Export option to save file to another location.</source>
+        <target state="translated">Použite možnosť Export na uloženie súboru do inej lokácie.</target>
+        <note>Suggestion for error recovery</note>
+      </trans-unit>
+      <trans-unit id="[FileAccessError/Timeout/genericFileProvider]" xml:space="preserve">
+        <source>Storage provider does not respond.</source>
+        <target state="translated">Poskytovateľ úložiska neodpovedá.</target>
+        <note>Error message: storage provider app (e.g. Google Drive) does not respond to requests (quickly enough).</note>
+      </trans-unit>
+      <trans-unit id="[FileAccessError/Timeout/knownFileProvider]" xml:space="preserve">
+        <source>%@ does not respond.</source>
+        <target state="translated">%@ neodpovedá.</target>
+        <note>Error message: file provider does not respond to requests (quickly enough). For example: `Google Drive does not respond`</note>
+      </trans-unit>
+      <trans-unit id="[FileAccessError/internalError]" xml:space="preserve">
+        <source>Internal KeePassium error, please tell us about it.</source>
+        <target state="translated">Interná chyba v aplikácii KeePassium, prosím, povedzte nám o nej.</target>
+        <note>Error message shown when there's internal inconsistency in KeePassium.</note>
+      </trans-unit>
+      <trans-unit id="[FileKeeper] Failed to delete file. Reason: %@" xml:space="preserve">
+        <source>Failed to delete file. Reason: %@</source>
+        <target state="translated">Nepodarilo sa vymazať súbor. Dôvod: %@</target>
+        <note>Error message [reason: String]</note>
+      </trans-unit>
+      <trans-unit id="[FileKeeper] Failed to import file. Reason: %@" xml:space="preserve">
+        <source>Failed to import file. Reason: %@</source>
+        <target state="translated">Nepodarilo sa naimportovať súbor. Dôvod: %@</target>
+        <note>Error message [reason: String]</note>
+      </trans-unit>
+      <trans-unit id="[FileKeeper] Failed to open file. Reason: %@" xml:space="preserve">
+        <source>Failed to open file. Reason: %@</source>
+        <target state="translated">Nepodarilo sa otvoriť súbor. Dôvod: %@</target>
+        <note>Error message [reason: String]</note>
+      </trans-unit>
+      <trans-unit id="[FileKeeper] Not a file URL" xml:space="preserve">
+        <source>Not a file URL</source>
+        <target state="translated">Nesprávny odkaz</target>
+        <note>Error message: tried to import URL which does not point to a file</note>
+      </trans-unit>
+      <trans-unit id="[FileProvider/Amerigo/name]" xml:space="preserve">
+        <source>Amerigo</source>
+        <target state="translated">Amerigo</target>
+        <note>Localized name of the storage service: Amerigo (https://www.amerigo-app.com)</note>
+      </trans-unit>
+      <trans-unit id="[FileProvider/Box/name]" xml:space="preserve">
+        <source>Box</source>
+        <target state="translated">Box</target>
+        <note>Localized name of the storage service: Box (https://box.com)</note>
+      </trans-unit>
+      <trans-unit id="[FileProvider/Boxcryptor/name]" xml:space="preserve">
+        <source>Boxcryptor</source>
+        <target state="translated">Boxcryptor</target>
+        <note>Localized name of the storage service: Boxcryptor (https://boxcryptor.com)</note>
+      </trans-unit>
+      <trans-unit id="[FileProvider/Dropbox/name]" xml:space="preserve">
+        <source>Dropbox</source>
+        <target state="translated">Dropbox</target>
+        <note>Localized name of the storage service: Dropbox (https://dropbox.com)</note>
+      </trans-unit>
+      <trans-unit id="[FileProvider/FE File Explorer/name]" xml:space="preserve">
+        <source>FE File Explorer</source>
+        <target state="translated">FE File Explorer</target>
+        <note>Localized name of the storage service: FE File Explorer (https://apps.apple.com/app/fe-file-explorer-file-manager/id510282524)</note>
+      </trans-unit>
+      <trans-unit id="[FileProvider/Google Drive/name]" xml:space="preserve">
+        <source>Google Drive</source>
+        <target state="translated">Google Drive</target>
+        <note>Localized name of the storage service: Google Drive (https://drive.google.com)</note>
+      </trans-unit>
+      <trans-unit id="[FileProvider/Nextcloud/name]" xml:space="preserve">
+        <source>Nextcloud</source>
+        <target state="translated">Nextcloud</target>
+        <note>Localized name of the storage service: Nextcloud (https://nextcloud.com)</note>
+      </trans-unit>
+      <trans-unit id="[FileProvider/On My iPad/name]" xml:space="preserve">
+        <source>On My iPad</source>
+        <target state="translated">Na mojom iPade</target>
+        <note>Localized name of the local on-device storage, as shown in the Files app.</note>
+      </trans-unit>
+      <trans-unit id="[FileProvider/On My iPhone/name]" xml:space="preserve">
+        <source>On My iPhone</source>
+        <target state="translated">Na mojom iPhone</target>
+        <note>Localized name of the local on-device storage, as shown in the Files app.</note>
+      </trans-unit>
+      <trans-unit id="[FileProvider/OneDrive/name]" xml:space="preserve">
+        <source>OneDrive</source>
+        <target state="translated">OneDrive</target>
+        <note>Localized name of the storage service: OneDrive (https://onedrive.com)</note>
+      </trans-unit>
+      <trans-unit id="[FileProvider/Readdle Documents/name]" xml:space="preserve">
+        <source>Documents by Readdle</source>
+        <target state="translated">Documents by Readdle</target>
+        <note>Localized name of the storage service: Documents by Readdle (https://apps.apple.com/app/id364901807)</note>
+      </trans-unit>
+      <trans-unit id="[FileProvider/Resilio Sync/name]" xml:space="preserve">
+        <source>Resilio Sync</source>
+        <target state="translated">Resilio Sync</target>
+        <note>Localized name of the storage service: Resilio Sync (https://https://apps.apple.com/us/app/id1126282325)</note>
+      </trans-unit>
+      <trans-unit id="[FileProvider/SMB/name]" xml:space="preserve">
+        <source>SMB server</source>
+        <target state="translated">SMB server</target>
+        <note>Localized name of the storage service: SMB server (network share) via native iOS integration.</note>
+      </trans-unit>
+      <trans-unit id="[FileProvider/Seafile Pro/name]" xml:space="preserve">
+        <source>Seafile Pro</source>
+        <target state="translated">Seafile Pro</target>
+        <note>Localized name of the storage app: Seafile Pro (https://apps.apple.com/us/app/seafile-pro/id639202512)</note>
+      </trans-unit>
+      <trans-unit id="[FileProvider/Stratospherix FileBrowser/name]" xml:space="preserve">
+        <source>FileBrowser</source>
+        <target state="translated">FileBrowser</target>
+        <note>Localized name of the storage service: Stratospherix FileBrowser (https://apps.apple.com/us/app/filebrowser-document-manager/id364738545)</note>
+      </trans-unit>
+      <trans-unit id="[FileProvider/Synology DS file/name]" xml:space="preserve">
+        <source>Synology DS file</source>
+        <target state="translated">Synology DS file</target>
+        <note>Localized name of the storage service: Synology DS file (https://apps.apple.com/us/app/ds-file/id416751772)</note>
+      </trans-unit>
+      <trans-unit id="[FileProvider/Synology Drive/name]" xml:space="preserve">
+        <source>Synology Drive</source>
+        <target state="translated">Synology Drive</target>
+        <note>Localized name of the storage service: Synology Drive (https://apps.apple.com/us/app/synology-drive/id1267275421)</note>
+      </trans-unit>
+      <trans-unit id="[FileProvider/Tresorit/name]" xml:space="preserve">
+        <source>Tresorit</source>
+        <target state="translated">Tresorit</target>
+        <note>Localized name of the storage service: Tresorit (https://tresorit.com)</note>
+      </trans-unit>
+      <trans-unit id="[FileProvider/USB drive/name]" xml:space="preserve">
+        <source>USB drive</source>
+        <target state="translated">USB disk</target>
+        <note>Localized name of the storage service: local USB drive (native iOS integration)</note>
+      </trans-unit>
+      <trans-unit id="[FileProvider/Yandex.Disk/name]" xml:space="preserve">
+        <source>Yandex.Disk</source>
+        <target state="translated">Yandex.Disk</target>
+        <note>Localized name of the storage service: Yandex.Disk (https://disk.yandex.com)</note>
+      </trans-unit>
+      <trans-unit id="[FileProvider/iCloud Drive/name]" xml:space="preserve">
+        <source>iCloud Drive</source>
+        <target state="translated">iCloud Drive</target>
+        <note>Localized name of the storage service iCloud Drive (https://icloud.com/iclouddrive)</note>
+      </trans-unit>
+      <trans-unit id="[FileProvider/ownCloud/name]" xml:space="preserve">
+        <source>ownCloud</source>
+        <target state="translated">ownCloud</target>
+        <note>Localized name of the storage service: ownCloud (https://owncloud.com)</note>
+      </trans-unit>
+      <trans-unit id="[FileProvider/pCloud/name]" xml:space="preserve">
+        <source>pCloud</source>
+        <target state="translated">pCloud</target>
+        <note>Localized name of the storage service: pCloud (https://pcloud.com)</note>
+      </trans-unit>
+      <trans-unit id="[FileProvider/qnapQFile/name]" xml:space="preserve">
+        <source>Qfile</source>
+        <target state="translated">Qfile</target>
+        <note>Localized name of the storage service: QNAP Qfile (https://apps.apple.com/app/qfile/id526330408)</note>
+      </trans-unit>
+      <trans-unit id="[FileProvider/sync.com/name]" xml:space="preserve">
+        <source>Sync.com</source>
+        <target state="translated">Sync.com</target>
+        <note>Localized name of the storage service: Sync.com (https://sync.com)</note>
+      </trans-unit>
+      <trans-unit id="[FilesSortOrder/longTitle] Creation Date (Oldest First)" xml:space="preserve">
+        <source>Creation Date (Oldest First)</source>
+        <target state="translated">Dátum vytvorenia (od najstaršieho)</target>
+        <note>A sorting option for a list of files, by file creation date. Example: 'Sort Order: Creation Date (Oldest First)'</note>
+      </trans-unit>
+      <trans-unit id="[FilesSortOrder/longTitle] Creation Date (Recent First)" xml:space="preserve">
+        <source>Creation Date (Recent First)</source>
+        <target state="translated">Dátum vytvorenia (od najnovšieho)</target>
+        <note>A sorting option for a list of files, by file creation date. Example: 'Sort Order: Creation Date (Recent First)'</note>
+      </trans-unit>
+      <trans-unit id="[FilesSortOrder/longTitle] Modification Date (Oldest First)" xml:space="preserve">
+        <source>Modification Date (Oldest First)</source>
+        <target state="translated">Dátum úpravy (od najstaršieho)</target>
+        <note>A sorting option for a list of files, by file's last modification date. Example: 'Sort Order: Modification Date (Oldest First)'</note>
+      </trans-unit>
+      <trans-unit id="[FilesSortOrder/longTitle] Modification Date (Recent First)" xml:space="preserve">
+        <source>Modification Date (Recent First)</source>
+        <target state="translated">Dátum úpravy (od najnovšieho)</target>
+        <note>A sorting option for a list of files, by file's last modification date. Example: 'Sort Order: Modification Date (Recent First)'</note>
+      </trans-unit>
+      <trans-unit id="[FilesSortOrder/longTitle] Name (A..Z)" xml:space="preserve">
+        <source>Name (A..Z)</source>
+        <target state="translated">Názov (A..Z)</target>
+        <note>A sorting option for a list of files, by file name. Example: 'Sort Order: Name (A..Z)'</note>
+      </trans-unit>
+      <trans-unit id="[FilesSortOrder/longTitle] Name (Z..A)" xml:space="preserve">
+        <source>Name (Z..A)</source>
+        <target state="translated">Názov (Z..A)</target>
+        <note>A sorting option for a list of files, by file name. Example: 'Sort Order: Name (Z..A)'</note>
+      </trans-unit>
+      <trans-unit id="[FilesSortOrder/longTitle] No Sorting" xml:space="preserve">
+        <source>No Sorting</source>
+        <target state="translated">Bez zoradenia</target>
+        <note>A sorting option for a list of files. Example: 'Sort Order: No Sorting'</note>
+      </trans-unit>
+      <trans-unit id="[GroupSortOrder/longTitle] By Creation Date (New..Old)" xml:space="preserve">
+        <source>By Creation Date (New..Old)</source>
+        <target state="translated">Podľa dátumu vytvorenia (nové..staré)</target>
+        <note>An option in Group Viewer settings. Example: 'Sort Order: By Creation Date (New..Old)'</note>
+      </trans-unit>
+      <trans-unit id="[GroupSortOrder/longTitle] By Creation Date (Old..New)" xml:space="preserve">
+        <source>By Creation Date (Old..New)</source>
+        <target state="translated">Podľa dátumu vytvorenia (staré..nové)</target>
+        <note>An option in Group Viewer settings. Example: 'Sort Order: By Creation Date (Old..New)'</note>
+      </trans-unit>
+      <trans-unit id="[GroupSortOrder/longTitle] By Modification Date (New..Old)" xml:space="preserve">
+        <source>By Modification Date (New..Old)</source>
+        <target state="translated">Podľa dátumu úpravy (nové..staré)</target>
+        <note>An option in Group Viewer settings. Example: 'Sort Order: By Modification Date (New..Old)'</note>
+      </trans-unit>
+      <trans-unit id="[GroupSortOrder/longTitle] By Modification Date (Old..New)" xml:space="preserve">
+        <source>By Modification Date (Old..New)</source>
+        <target state="translated">Podľa dátumu úpravy (staré..nové)</target>
+        <note>An option in Group Viewer settings. Example: 'Sort Order: By Modification Date (Old..New)'</note>
+      </trans-unit>
+      <trans-unit id="[GroupSortOrder/longTitle] By Title (A..Z)" xml:space="preserve">
+        <source>By Title (A..Z)</source>
+        <target state="translated">Podľa názvu (A..Z)</target>
+        <note>An option in Group Viewer settings. Example: 'Sort Order: By Title (A..Z)'</note>
+      </trans-unit>
+      <trans-unit id="[GroupSortOrder/longTitle] By Title (Z..A)" xml:space="preserve">
+        <source>By Title (Z..A)</source>
+        <target state="translated">Podľa názvu (Z..A)</target>
+        <note>An option in Group Viewer settings. Example: 'Sort Order: By Title (Z..A)'</note>
+      </trans-unit>
+      <trans-unit id="[GroupSortOrder/longTitle] No Sorting" xml:space="preserve">
+        <source>No Sorting</source>
+        <target state="translated">Bez zoradenia</target>
+        <note>An option in Group Viewer settings. Example: 'Sort Order: No Sorting'</note>
+      </trans-unit>
+      <trans-unit id="[KDF/Progress] Processing the master key" xml:space="preserve">
+        <source>Processing the master key</source>
+        <target state="translated">Spracováva sa hlavný kľúč</target>
+        <note>Status message: processing of the master key is in progress</note>
+      </trans-unit>
+      <trans-unit id="[KeyFileError/Corrupted/title]" xml:space="preserve">
+        <source>Key file is corrupted</source>
+        <target state="translated">Súbor s kľúčom je poškodený</target>
+        <note>Error message when the key file is misformatted or damaged</note>
+      </trans-unit>
+      <trans-unit id="[KeyFileError/UnsupportedFormat/title]" xml:space="preserve">
+        <source>Unsupported key file format</source>
+        <target state="translated">Nepodporovaný formát súboru s kľúčom</target>
+        <note>Error message: unsupported/unknown format of a key file</note>
+      </trans-unit>
+      <trans-unit id="[KeychainError/generic] Keychain error (code %d) " xml:space="preserve">
+        <source>Keychain error (code %d) </source>
+        <target state="translated">Chyba kľúčenky (kód %d) </target>
+        <note>Generic error message about system keychain. [errorCode: Int]</note>
+      </trans-unit>
+      <trans-unit id="[KeychainError/unexpectedFormat] Keychain error: unexpected data format" xml:space="preserve">
+        <source>Keychain error: unexpected data format</source>
+        <target state="translated">Chyba kľúčenky: neočakávaný formát dát</target>
+        <note>Error message about system keychain.</note>
+      </trans-unit>
+      <trans-unit id="[Progress/CancellationReason/lowMemory]" xml:space="preserve">
+        <source>Not enough memory to continue.
+This can happen with larger databases or too ambitious database settings (Argon2 memory parameter).</source>
+        <target state="translated">Nedostatok pamäte pre pokračovanie.
+Toto sa môže stať pri veľkých databázach alebo s príliš ambicióznym nastavením databázy (Argon2).</target>
+        <note>Error message when a long-running operation was cancelled due to the lack of free memory (RAM).</note>
+      </trans-unit>
+      <trans-unit id="[Progress/CancellationReason] Cancelled by user" xml:space="preserve">
+        <source>Cancelled by user</source>
+        <target state="translated">Zrušené používateľom</target>
+        <note>Explanation/notification when a long-running operation was cancelled by user</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AppLockTimeout/description] After last interaction" xml:space="preserve">
+        <source>After last interaction</source>
+        <target state="translated">Po poslednej interakcii</target>
+        <note>A description/subtitle for Settings/AppLockTimeout options that trigger when the user has been idle for a while. For example: 'AppLock Timeout: 3 seconds (After last interaction)</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AppLockTimeout/description] After leaving the app" xml:space="preserve">
+        <source>After leaving the app</source>
+        <target state="translated">Po odchode z tejto aplikácie</target>
+        <note>A description/subtitle for Settings/AppLock/Timeout options that trigger when the app is minimized. For example: 'AppLock Timeout: 3 seconds (After leaving the app)</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AppLockTimeout/fullTitle] Immediately" xml:space="preserve">
+        <source>Immediately</source>
+        <target state="translated">Okamžite</target>
+        <note>An option in Settings. Will be shown as 'App Lock: Timeout: Immediately'</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AppLockTimeout/fullTitle] Never" xml:space="preserve">
+        <source>Never</source>
+        <target state="translated">Nikdy</target>
+        <note>An option in Settings. Will be shown as 'App Lock: Timeout: Never'</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AppLockTimeout/shortTitle] Immediately" xml:space="preserve">
+        <source>Immediately</source>
+        <target state="translated">Okamžite</target>
+        <note>An option in Settings. Will be shown as 'App Lock: Timeout: Immediately'</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AppLockTimeout/shortTitle] Never" xml:space="preserve">
+        <source>Never</source>
+        <target state="translated">Nikdy</target>
+        <note>An option in Settings. Will be shown as 'App Lock: Timeout: Never'</note>
+      </trans-unit>
+      <trans-unit id="[Settings/BackupKeepingDuration/shortTitle] Forever" xml:space="preserve">
+        <source>Forever</source>
+        <target state="translated">Navždy</target>
+        <note>An option in Settings. Please keep it short. Will be shown as 'Keep Backup Files: Forever'</note>
+      </trans-unit>
+      <trans-unit id="[Settings/ClipboardTimeout/fullTitle] Never" xml:space="preserve">
+        <source>Never</source>
+        <target state="translated">Nikdy</target>
+        <note>An option in Settings. Will be shown as 'Clipboard Timeout: Never'</note>
+      </trans-unit>
+      <trans-unit id="[Settings/ClipboardTimeout/shortTitle] Never" xml:space="preserve">
+        <source>Never</source>
+        <target state="translated">Nikdy</target>
+        <note>An option in Settings. Will be shown as 'Clipboard Timeout: Never'</note>
+      </trans-unit>
+      <trans-unit id="[Settings/DatabaseLockTimeout/description] When leaving the app" xml:space="preserve">
+        <source>When leaving the app</source>
+        <target state="translated">Keď opustíte aplikáciu</target>
+        <note>A description/subtitle for the 'DatabaseLockTimeout: Immediately'.</note>
+      </trans-unit>
+      <trans-unit id="[Settings/DatabaseLockTimeout/fullTitle] Immediately" xml:space="preserve">
+        <source>Immediately</source>
+        <target state="translated">Okamžite</target>
+        <note>An option in Settings. Will be shown as 'Database Lock: Timeout: Immediately'</note>
+      </trans-unit>
+      <trans-unit id="[Settings/DatabaseLockTimeout/fullTitle] Never" xml:space="preserve">
+        <source>Never</source>
+        <target state="translated">Nikdy</target>
+        <note>An option in Settings. Will be shown as 'Database Lock: Timeout: Never'</note>
+      </trans-unit>
+      <trans-unit id="[Settings/DatabaseLockTimeout/shortTitle] Immediately" xml:space="preserve">
+        <source>Immediately</source>
+        <target state="translated">Okamžite</target>
+        <note>An option in Settings. Will be shown as 'Database Lock: Timeout: Immediately'</note>
+      </trans-unit>
+      <trans-unit id="[Settings/DatabaseLockTimeout/shortTitle] Never" xml:space="preserve">
+        <source>Never</source>
+        <target state="translated">Nikdy</target>
+        <note>An option in Settings. Will be shown as 'Database Lock: Timeout: Never'</note>
+      </trans-unit>
+      <trans-unit id="[Settings/EntryListDetail/longTitle] Last Modified Date" xml:space="preserve">
+        <source>Last Modified Date</source>
+        <target state="translated">Dátum poslednej úpravy</target>
+        <note>An option in Group Viewer settings. Refers fo the most recent time when the entry was modified. Will be shown as 'Entry Subtitle: Last Modified Date'.</note>
+      </trans-unit>
+      <trans-unit id="[Settings/EntryListDetail/longTitle] None" xml:space="preserve">
+        <source>None</source>
+        <target state="translated">Žiadny</target>
+        <note>An option in Group Viewer settings. Will be shown as 'Entry Subtitle: None', meanining that no entry details will be shown in any lists.</note>
+      </trans-unit>
+      <trans-unit id="[Settings/EntryListDetail/longTitle] Notes" xml:space="preserve">
+        <source>Notes</source>
+        <target state="translated">Poznámky</target>
+        <note>An option in Group Viewer settings. Refers to comments/notes field of the entry. Will be shown as 'Entry Subtitle: Notes'.</note>
+      </trans-unit>
+      <trans-unit id="[Settings/EntryListDetail/longTitle] Password" xml:space="preserve">
+        <source>Password</source>
+        <target state="translated">Heslo</target>
+        <note>An option in Group Viewer settings. Will be shown as 'Entry Subtitle: Password'.</note>
+      </trans-unit>
+      <trans-unit id="[Settings/EntryListDetail/longTitle] URL" xml:space="preserve">
+        <source>URL</source>
+        <target state="translated">Adresa URL</target>
+        <note>An option in Group Viewer settings. Will be shown as 'Entry Subtitle: URL'.</note>
+      </trans-unit>
+      <trans-unit id="[Settings/EntryListDetail/longTitle] User Name" xml:space="preserve">
+        <source>User Name</source>
+        <target state="translated">Užívateľské meno</target>
+        <note>An option in Group Viewer settings. It refers to login information rather than person's name. Will be shown as 'Entry Subtitle: User Name'.</note>
+      </trans-unit>
+      <trans-unit id="[URLReference/Location] Cloud storage / Another app" xml:space="preserve">
+        <source>Cloud storage / Another app</source>
+        <target state="translated">Cloudové úložisko / ďalšie aplikácie</target>
+        <note>Human-readable file location. The file is situated either online / in cloud storage, or on the same device, but in some other app. Example: 'File Location: Cloud storage / Another app'</note>
+      </trans-unit>
+      <trans-unit id="[URLReference/Location] Internal backup" xml:space="preserve">
+        <source>Internal backup</source>
+        <target state="translated">Interná záloha</target>
+        <note>Human-readable file location: the file is on device, inside the app sandbox. 'Backup' is a dedicated directory for database backup files. Example: 'File Location: Internal backup'</note>
+      </trans-unit>
+      <trans-unit id="[URLReference/Location] Internal inbox" xml:space="preserve">
+        <source>Internal inbox</source>
+        <target state="translated">Interná schránka</target>
+        <note>Human-readable file location: the file is on device, inside the app sandbox. 'Inbox' is a special directory for files that are being imported. Can be also 'Internal import'. Example: 'File Location: Internal inbox'</note>
+      </trans-unit>
+      <trans-unit id="[URLReference/Location] Local copy" xml:space="preserve">
+        <source>Local copy</source>
+        <target state="translated">Lokálna kópia</target>
+        <note>Human-readable file location: the file is on device, inside the app sandbox. Example: 'File Location: Local copy'</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
