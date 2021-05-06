@@ -450,12 +450,12 @@ Przed zmianą czegokolwiek upewnij się, że masz kopię zapasową bazy.</target
       </trans-unit>
       <trans-unit id="[File/In Trash/warning]" xml:space="preserve">
         <source>'%@' is located in Recently Deleted and might be deleted soon. To preserve your data, move the file to a more permanent location.</source>
-        <target state="needs-translation">'%@' is located in Recently Deleted and might be deleted soon. To preserve your data, move the file to a more permanent location.</target>
+        <target state="translated">'%@' został niedawno usunięty i może być wkrótce skasowany. Aby zachować dane, przenieś plik do bardziej trwałej lokalizacji.</target>
         <note>Warning shown when opening files from Recycle Bin location. Translation of 'Recently Deleted' should match that in the Files app. [fileName: String]</note>
       </trans-unit>
       <trans-unit id="[File/TemporaryBackup/warning]" xml:space="preserve">
         <source>This is a temporary backup database. It can be automatically deleted without a warning. Don't use it as your main database.</source>
-        <target state="needs-translation">This is a temporary backup database. It can be automatically deleted without a warning. Don't use it as your main database.</target>
+        <target state="translated">To jest tymczasowa kopia bazy. Może być automatycznie usunięta bez ostrzeżenia. Nie używaj jej jako bazy głównej.</target>
         <note>Notification when user opens an in-app backup database.</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/FileProvider/NotFound/generic]" xml:space="preserve">
@@ -490,17 +490,17 @@ Przed zmianą czegokolwiek upewnij się, że masz kopię zapasową bazy.</target
       </trans-unit>
       <trans-unit id="[FileAccessError/NoWritePermission/title]" xml:space="preserve">
         <source>Cannot save file (%@)</source>
-        <target state="needs-translation">Cannot save file (%@)</target>
+        <target state="translated">Nie można zapisać pliku (%@)</target>
         <note>Error message: file provider does not support write operations. For example: `Cannot save file (OneDrive)`</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/OneDriveReadOnly/reason]" xml:space="preserve">
         <source>Microsoft has recently switched OneDrive integration with iOS to read-only mode. Temporarily, they say.</source>
-        <target state="needs-translation">Microsoft has recently switched OneDrive integration with iOS to read-only mode. Temporarily, they say.</target>
+        <target state="translated">Microsoft zmienił integrację OneDrive dla systemu iOS w tryb tylko do odczytu. Mówią, że tymczasowo...</target>
         <note>Explanation of a file writing error</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/OneDriveReadOnly/recoverySuggestion]" xml:space="preserve">
         <source>Use the Export option to save file to another location.</source>
-        <target state="needs-translation">Use the Export option to save file to another location.</target>
+        <target state="translated">Użyj opcji eksportu, aby zapisać plik w innej lokalizacji.</target>
         <note>Suggestion for error recovery</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/Timeout/genericFileProvider]" xml:space="preserve">
@@ -740,12 +740,12 @@ Przed zmianą czegokolwiek upewnij się, że masz kopię zapasową bazy.</target
       </trans-unit>
       <trans-unit id="[KeyFileError/Corrupted/title]" xml:space="preserve">
         <source>Key file is corrupted</source>
-        <target state="needs-translation">Key file is corrupted</target>
+        <target state="translated">Plik klucza jest uszkodzony</target>
         <note>Error message when the key file is misformatted or damaged</note>
       </trans-unit>
       <trans-unit id="[KeyFileError/UnsupportedFormat/title]" xml:space="preserve">
         <source>Unsupported key file format</source>
-        <target state="needs-translation">Unsupported key file format</target>
+        <target state="translated">Nieobsługiwany format pliku klucza</target>
         <note>Error message: unsupported/unknown format of a key file</note>
       </trans-unit>
       <trans-unit id="[KeychainError/generic] Keychain error (code %d) " xml:space="preserve">

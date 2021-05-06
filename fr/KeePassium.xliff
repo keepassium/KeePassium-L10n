@@ -183,48 +183,6 @@ Veuillez nous contacter si vous avez besoin d'aide à ce sujet.</target>
       </trans-unit>
     </body>
   </file>
-  <file original="KeePassium/database/key-file/Base.lproj/KeyFilePickerVC.storyboard" source-language="en" target-language="fr" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
-    </header>
-    <body>
-      <trans-unit id="9UZ-FK-v73.text" xml:space="preserve">
-        <source>No Key File</source>
-        <target state="translated">Aucun fichier-clé</target>
-        <note>Class = "UILabel"; text = "No Key File"; ObjectID = "9UZ-FK-v73";</note>
-      </trans-unit>
-      <trans-unit id="Lod-RE-tcd.title" xml:space="preserve">
-        <source>Add Key File</source>
-        <target state="translated">Ajouter un fichier clé</target>
-        <note>Class = "UIBarButtonItem"; title = "Add Key File"; ObjectID = "Lod-RE-tcd";</note>
-      </trans-unit>
-      <trans-unit id="Omh-Sn-jl2.normalTitle" xml:space="preserve">
-        <source>Add Key File</source>
-        <target state="translated">Ajouter un fichier clé</target>
-        <note>Class = "UIButton"; normalTitle = "Add Key File"; ObjectID = "Omh-Sn-jl2";</note>
-      </trans-unit>
-      <trans-unit id="jCW-yW-0I5.text" xml:space="preserve" translate="no">
-        <source>{Database File Name}</source>
-        <target state="needs-translation">{Database File Name}</target>
-        <note>Class = "UILabel"; text = "{Database File Name}"; ObjectID = "jCW-yW-0I5"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="leO-vH-qBX.text" xml:space="preserve">
-        <source>Use only password</source>
-        <target state="translated">Utiliser uniquement le mot de passe</target>
-        <note>Class = "UILabel"; text = "Use only password"; ObjectID = "leO-vH-qBX";</note>
-      </trans-unit>
-      <trans-unit id="pn1-Yp-Bzr.text" xml:space="preserve" translate="no">
-        <source>{File Attributes}</source>
-        <target state="needs-translation">{File Attributes}</target>
-        <note>Class = "UILabel"; text = "{File Attributes}"; ObjectID = "pn1-Yp-Bzr"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="r85-yz-wYI.title" xml:space="preserve">
-        <source>Key Files</source>
-        <target state="translated">Fichiers clé</target>
-        <note>Class = "UINavigationItem"; title = "Key Files"; ObjectID = "r85-yz-wYI";</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="KeePassium AutoFill/en.lproj/InfoPlist.strings" source-language="en" target-language="fr" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
@@ -389,6 +347,11 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
         <source>Create Database</source>
         <target state="translated">Créer une base de données</target>
         <note>Title of a form for creating a database</note>
+      </trans-unit>
+      <trans-unit id="[Database/CustomIcon/add]" xml:space="preserve">
+        <source>Add Custom Icon</source>
+        <target state="translated">Ajouter une icône personnalisée</target>
+        <note>Action: add/import an image as a custom icon</note>
       </trans-unit>
       <trans-unit id="[Database/Delete/Confirm/text] Delete database file?&#10; Make sure you have a backup." xml:space="preserve">
         <source>Delete database file?
@@ -781,7 +744,7 @@ Assurez-vous d'avoir une sauvegarde.</target>
       </trans-unit>
       <trans-unit id="[HardwareKey/AutoFill/NotAvailable] Hardware keys are not available in AutoFill." xml:space="preserve">
         <source>Hardware keys are not available in AutoFill.</source>
-        <target state="translated">Les clés materiels ne sont pas disponibles dans AutoFill.</target>
+        <target state="translated">Les clés materielles ne sont pas disponibles dans AutoFill.</target>
         <note>A notification that hardware keys (e.g. YubiKey) cannot be used in AutoFill (the OS does not allow the AutoFill to use NFC/MFI).</note>
       </trans-unit>
       <trans-unit id="[HardwareKey/NFC/OS too old]" xml:space="preserve">
@@ -804,6 +767,16 @@ Assurez-vous d'avoir une sauvegarde.</target>
         <target state="translated">Aide</target>
         <note>Generic title of in-app help article</note>
       </trans-unit>
+      <trans-unit id="[ItemIconPicker/CustomIcons]" xml:space="preserve">
+        <source>Custom Icons</source>
+        <target state="translated">Icônes personnalisées</target>
+        <note>Title of a list with custom (user-imported) icons for groups and entries</note>
+      </trans-unit>
+      <trans-unit id="[ItemIconPicker/StandardIcons]" xml:space="preserve">
+        <source>Standard Icons</source>
+        <target state="translated">Icônes standards</target>
+        <note>Title of a list with standard/default icons for groups and entries</note>
+      </trans-unit>
       <trans-unit id="[KeyFile/Delete/Confirm/text] Delete key file?&#10; Make sure you have a backup." xml:space="preserve">
         <source>Delete key file?
  Make sure you have a backup.</source>
@@ -817,6 +790,21 @@ Assurez-vous d'avoir une sauvegarde.</target>
         <target state="translated">Retirer le fichier de clé de la liste ?
  Le fichier restera intact et vous pourrez l'ajouter plus tard.</target>
         <note>Message to confirm removal of a key file from the app. (This keeps the file, but removes its reference from the app.)</note>
+      </trans-unit>
+      <trans-unit id="[OTP/Scan/InvalidData]" xml:space="preserve">
+        <source>This QR code is not suitable for OTP setup.</source>
+        <target state="translated">Ce code QR n'est pas adapté à la configuration OTP.</target>
+        <note>Error shown when scanned QR code cannot be used for OTP</note>
+      </trans-unit>
+      <trans-unit id="[OTP/Scan/OverwriteWarning]" xml:space="preserve">
+        <source>One-time password is already configured for this entry. Do you want to overwrite it?</source>
+        <target state="translated">Le mot de passe à usage unique est déjà configuré pour cette entrée. Voulez-vous le remplacer ?</target>
+        <note>Message to confirm user intentions</note>
+      </trans-unit>
+      <trans-unit id="[OTP/Setup]" xml:space="preserve">
+        <source>Setup one-time password (OTP)</source>
+        <target state="translated">Configurer le mot de passe à usage unique (OTP)</target>
+        <note>Call for action. Acronym `OTP` should not be translated.</note>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/Negative/header] " xml:space="preserve">
         <source>What you are missing</source>
@@ -941,13 +929,11 @@ Subscription automatically renews unless it is canceled at least 24 hours before
 
 You can manage and cancel your subscriptions by going to your account settings on the App Store after purchase.
 </source>
-        <target state="translated">
-Le paiement sera prélevé sur votre compte Apple au moment de la confirmation de l’achat.
+        <target state="translated">Le paiement sera prélevé sur votre compte Apple au moment de la confirmation de l’achat.
 
 L’abonnement est renouvelé automatiquement à moins qu’il ne soit annulé au moins 24 heures avant la fin de la période en cours. Le renouvellement sera prélevé sur votre compte dans les 24 heures précédant la fin de la période en cours. 
 
-Vous pouvez gérer et annuler vos abonnements depuis les paramètres du compte dans l’App Store, une fois l’achat réalisé.
-</target>
+Vous pouvez gérer et annuler vos abonnements depuis les paramètres du compte dans l’App Store, une fois l’achat réalisé.</target>
         <note>Subscription conditions</note>
       </trans-unit>
       <trans-unit id="[Premium/Trial/trial then price]" xml:space="preserve">
@@ -1230,43 +1216,6 @@ Vous pouvez gérer et annuler vos abonnements depuis les paramètres du compte d
         <source>Close</source>
         <target state="translated">Fermer</target>
         <note>Class = "UIButton"; accessibilityLabel = "Close"; ObjectID = "zIk-Pe-sKK";</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="KeePassium/database/Base.lproj/ChooseKeyFileVC.storyboard" source-language="en" target-language="fr" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
-    </header>
-    <body>
-      <trans-unit id="8aU-C3-c3r.normalTitle" xml:space="preserve">
-        <source>Add Key File</source>
-        <target state="translated">Ajouter un fichier clé</target>
-        <note>Class = "UIButton"; normalTitle = "Add Key File"; ObjectID = "8aU-C3-c3r";</note>
-      </trans-unit>
-      <trans-unit id="9PC-8d-5Xf.text" xml:space="preserve" translate="no">
-        <source>{Database File Name}</source>
-        <target state="needs-translation">{Database File Name}</target>
-        <note>Class = "UILabel"; text = "{Database File Name}"; ObjectID = "9PC-8d-5Xf"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="Ftb-fa-Dvb.text" xml:space="preserve">
-        <source>Use only password</source>
-        <target state="translated">Utiliser uniquement le mot de passe</target>
-        <note>Class = "UILabel"; text = "Use only password"; ObjectID = "Ftb-fa-Dvb"; Note = "Explanation of the default option in key file picker: don't use key files.";</note>
-      </trans-unit>
-      <trans-unit id="dAQ-9p-8Y9.title" xml:space="preserve">
-        <source>Choose Key File</source>
-        <target state="translated">Choisir un fichier clé</target>
-        <note>Class = "UINavigationItem"; title = "Choose Key File"; ObjectID = "dAQ-9p-8Y9";</note>
-      </trans-unit>
-      <trans-unit id="tGm-oo-awN.text" xml:space="preserve">
-        <source>No Key File</source>
-        <target state="translated">Aucun fichier-clé</target>
-        <note>Class = "UILabel"; text = "No Key File"; ObjectID = "tGm-oo-awN"; Note = "Title of the default option in key file picker: don't use key files.";</note>
-      </trans-unit>
-      <trans-unit id="thx-qt-2LZ.text" xml:space="preserve" translate="no">
-        <source>{File Attributes}</source>
-        <target state="needs-translation">{File Attributes}</target>
-        <note>Class = "UILabel"; text = "{File Attributes}"; ObjectID = "thx-qt-2LZ"; Note = "#bc-ignore!";</note>
       </trans-unit>
     </body>
   </file>
@@ -1562,6 +1511,11 @@ Vous pouvez gérer et annuler vos abonnements depuis les paramètres du compte d
         <target state="translated">Protection en mémoire</target>
         <note>Class = "UILabel"; text = "In-memory Protection"; ObjectID = "0pb-xb-fuf"; Note = "Label for a switch, equivalent to KeePass' own `Enable in-memory protection` for custom entry fields.";</note>
       </trans-unit>
+      <trans-unit id="1Nq-zk-w7B.normalTitle" xml:space="preserve" translate="no">
+        <source>{Scan QR code to setup OTP}</source>
+        <target state="needs-translation">{Scan QR code to setup OTP}</target>
+        <note>Class = "UIButton"; normalTitle = "{Scan QR code to setup OTP}"; ObjectID = "1Nq-zk-w7B";</note>
+      </trans-unit>
       <trans-unit id="7iU-ut-hd7.accessibilityLabel" xml:space="preserve" approved="yes">
         <source>Custom field value</source>
         <target state="final">Valeur du champ personnalisé</target>
@@ -1674,58 +1628,6 @@ Vous pouvez gérer et annuler vos abonnements depuis les paramètres du compte d
       </trans-unit>
     </body>
   </file>
-  <file original="KeePassium/general/password-generator/Base.lproj/PasswordGeneratorVC.storyboard" source-language="en" target-language="fr" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
-    </header>
-    <body>
-      <trans-unit id="5Xu-cN-kSg.text" xml:space="preserve">
-        <source>Look-Alike Characters (1Il…)</source>
-        <target state="translated">Caractères ressemblants (1Il…)</target>
-        <note>Class = "UILabel"; text = "Look-Alike Characters (1Il…)"; ObjectID = "5Xu-cN-kSg"; Note = "Symbols to include in generated passwords.";</note>
-      </trans-unit>
-      <trans-unit id="Hxj-CB-VE7.text" xml:space="preserve">
-        <source>Password Length</source>
-        <target state="translated">Longueur du mot de passe</target>
-        <note>Class = "UILabel"; text = "Password Length"; ObjectID = "Hxj-CB-VE7"; Note = "Label of the control that specifies the length of the password to be generated";</note>
-      </trans-unit>
-      <trans-unit id="Mwu-Lk-3MU.text" xml:space="preserve">
-        <source>Special Symbols (@#$…)</source>
-        <target state="translated">Symboles spéciaux (@#$…)</target>
-        <note>Class = "UILabel"; text = "Special Symbols (@#$…)"; ObjectID = "Mwu-Lk-3MU"; Note = "Symbols to include in generated passwords.";</note>
-      </trans-unit>
-      <trans-unit id="O7Z-bK-bJa.title" xml:space="preserve">
-        <source>Randomizer</source>
-        <target state="translated">Générateur aléatoire</target>
-        <note>Class = "UINavigationItem"; title = "Randomizer"; ObjectID = "O7Z-bK-bJa"; Note = "Title of the password generator screen.";</note>
-      </trans-unit>
-      <trans-unit id="Rwu-qh-8ON.text" xml:space="preserve">
-        <source>Lower Case Letters (abc…)</source>
-        <target state="translated">Lettres minuscules (abc…)</target>
-        <note>Class = "UILabel"; text = "Lower Case Letters (abc…)"; ObjectID = "Rwu-qh-8ON"; Note = "Symbols to include in generated passwords. Don't translate the letters.";</note>
-      </trans-unit>
-      <trans-unit id="iRk-FV-7U8.text" xml:space="preserve">
-        <source>Digits (123…)</source>
-        <target state="translated">Chiffres (123…)</target>
-        <note>Class = "UILabel"; text = "Digits (123…)"; ObjectID = "iRk-FV-7U8"; Note = "Symbols to include in generated passwords. Don't translate the digits.";</note>
-      </trans-unit>
-      <trans-unit id="tS0-00-bHP.text" xml:space="preserve" translate="no">
-        <source>{123}</source>
-        <target state="needs-translation">{123}</target>
-        <note>Class = "UILabel"; text = "{123}"; ObjectID = "tS0-00-bHP"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="x93-rB-nNr.text" xml:space="preserve">
-        <source>Upper Case Letters (ABC…)</source>
-        <target state="translated">Lettres en majuscule (ABC…)</target>
-        <note>Class = "UILabel"; text = "Upper Case Letters (ABC…)"; ObjectID = "x93-rB-nNr"; Note = "Symbols to include in generated passwords. Don't translate the letters.";</note>
-      </trans-unit>
-      <trans-unit id="ylv-a4-bLZ.text" xml:space="preserve" translate="no">
-        <source>{Generated Pa$$word}</source>
-        <target state="needs-translation">{Generated Pa$$word}</target>
-        <note>Class = "UILabel"; text = "{Generated Pa$$word}"; ObjectID = "ylv-a4-bLZ"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="KeePassium/database/group/Base.lproj/GroupEditorVC.storyboard" source-language="en" target-language="fr" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
@@ -1825,6 +1727,53 @@ Vous pouvez gérer et annuler vos abonnements depuis les paramètres du compte d
         <target state="translated">Choisir une icône</target>
         <note>Class = "UINavigationItem"; title = "Choose Icon"; ObjectID = "H8v-gf-kff";</note>
       </trans-unit>
+      <trans-unit id="jvB-IX-QoY.text" xml:space="preserve" translate="no">
+        <source>{Section title}</source>
+        <target state="needs-translation">{Section title}</target>
+        <note>Class = "UILabel"; text = "{Section title}"; ObjectID = "jvB-IX-QoY";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="KeePassium/database/key-file/Base.lproj/KeyFilePickerVC.storyboard" source-language="en" target-language="fr" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
+    </header>
+    <body>
+      <trans-unit id="9UZ-FK-v73.text" xml:space="preserve">
+        <source>No Key File</source>
+        <target state="translated">Aucun fichier-clé</target>
+        <note>Class = "UILabel"; text = "No Key File"; ObjectID = "9UZ-FK-v73";</note>
+      </trans-unit>
+      <trans-unit id="Lod-RE-tcd.title" xml:space="preserve">
+        <source>Add Key File</source>
+        <target state="translated">Ajouter un fichier clé</target>
+        <note>Class = "UIBarButtonItem"; title = "Add Key File"; ObjectID = "Lod-RE-tcd";</note>
+      </trans-unit>
+      <trans-unit id="Omh-Sn-jl2.normalTitle" xml:space="preserve">
+        <source>Add Key File</source>
+        <target state="translated">Ajouter un fichier clé</target>
+        <note>Class = "UIButton"; normalTitle = "Add Key File"; ObjectID = "Omh-Sn-jl2";</note>
+      </trans-unit>
+      <trans-unit id="jCW-yW-0I5.text" xml:space="preserve" translate="no">
+        <source>{Database File Name}</source>
+        <target state="needs-translation">{Database File Name}</target>
+        <note>Class = "UILabel"; text = "{Database File Name}"; ObjectID = "jCW-yW-0I5"; Note = "#bc-ignore!";</note>
+      </trans-unit>
+      <trans-unit id="leO-vH-qBX.text" xml:space="preserve">
+        <source>Use only password</source>
+        <target state="translated">Utiliser uniquement le mot de passe</target>
+        <note>Class = "UILabel"; text = "Use only password"; ObjectID = "leO-vH-qBX";</note>
+      </trans-unit>
+      <trans-unit id="pn1-Yp-Bzr.text" xml:space="preserve" translate="no">
+        <source>{File Attributes}</source>
+        <target state="needs-translation">{File Attributes}</target>
+        <note>Class = "UILabel"; text = "{File Attributes}"; ObjectID = "pn1-Yp-Bzr"; Note = "#bc-ignore!";</note>
+      </trans-unit>
+      <trans-unit id="r85-yz-wYI.title" xml:space="preserve">
+        <source>Key Files</source>
+        <target state="translated">Fichiers clés</target>
+        <note>Class = "UINavigationItem"; title = "Key Files"; ObjectID = "r85-yz-wYI";</note>
+      </trans-unit>
     </body>
   </file>
   <file original="KeePassium/database/relocation/Base.lproj/DestinationGroupPickerVC.storyboard" source-language="en" target-language="fr" datatype="plaintext">
@@ -1893,6 +1842,11 @@ Vous pouvez gérer et annuler vos abonnements depuis les paramètres du compte d
         <source>KeePassium needs permission to export files to your Photo Library.</source>
         <target state="translated">KeePassium a besoin d'une autorisation pour exporter des fichiers vers votre bibliothèque Photos.</target>
         <note>Privacy - Photo Library Additions Usage Description</note>
+      </trans-unit>
+      <trans-unit id="NSPhotoLibraryUsageDescription" xml:space="preserve">
+        <source>KeePassium needs access to the Photos library to add custom icons to groups and entries</source>
+        <target state="translated">KeePassium a besoin d'accéder à la bibliothèque Photos pour ajouter des icônes personnalisées aux groupes et aux entrées</target>
+        <note/>
       </trans-unit>
     </body>
   </file>
@@ -2071,11 +2025,16 @@ Vous pouvez gérer et annuler vos abonnements depuis les paramètres du compte d
         <target state="translated">Veuillez entrer un mot de passe ou choisir un fichier de clé.</target>
         <note>Hint shown when both password and key file are empty.</note>
       </trans-unit>
+      <trans-unit id="[Database/CustomIcon/add]" xml:space="preserve">
+        <source>Add Custom Icon</source>
+        <target state="translated">Ajouter une icône personnalisée</target>
+        <note>Action: add/import an image as a custom icon</note>
+      </trans-unit>
       <trans-unit id="[Database/Delete/Confirm/text] Delete database file?&#10; Make sure you have a backup." xml:space="preserve">
         <source>Delete database file?
  Make sure you have a backup.</source>
-        <target state="translated">Supprimer le fichier de la base de données?
- Assurez-vous d'avoir une sauvegarde.</target>
+        <target state="translated">Supprimer le fichier de la base de données ?
+Assurez-vous d'avoir une sauvegarde.</target>
         <note>Message to confirm deletion of a database file. (This deletes the file itself)</note>
       </trans-unit>
       <trans-unit id="[Database/Loading/Status] Loading..." xml:space="preserve" approved="yes">
@@ -2560,6 +2519,16 @@ Vous pouvez gérer et annuler vos abonnements depuis les paramètres du compte d
         <target state="translated">Par défaut (KeePass)</target>
         <note>Name of an entry/group category (visual style): default one, like in KeePass</note>
       </trans-unit>
+      <trans-unit id="[ItemIconPicker/CustomIcons]" xml:space="preserve">
+        <source>Custom Icons</source>
+        <target state="translated">Icônes personnalisées</target>
+        <note>Title of a list with custom (user-imported) icons for groups and entries</note>
+      </trans-unit>
+      <trans-unit id="[ItemIconPicker/StandardIcons]" xml:space="preserve">
+        <source>Standard Icons</source>
+        <target state="translated">Icônes standards</target>
+        <note>Title of a list with standard/default icons for groups and entries</note>
+      </trans-unit>
       <trans-unit id="[KeyFile/Delete/Confirm/text] Delete key file?&#10; Make sure you have a backup." xml:space="preserve">
         <source>Delete key file?
  Make sure you have a backup.</source>
@@ -2573,6 +2542,21 @@ Vous pouvez gérer et annuler vos abonnements depuis les paramètres du compte d
         <target state="translated">Retirer le fichier de clé de la liste ?
  Le fichier restera intact et vous pourrez l'ajouter plus tard.</target>
         <note>Message to confirm removal of a key file from the app. (This keeps the file, but removes its reference from the app.)</note>
+      </trans-unit>
+      <trans-unit id="[OTP/Scan/InvalidData]" xml:space="preserve">
+        <source>This QR code is not suitable for OTP setup.</source>
+        <target state="translated">Ce code QR n'est pas adapté à la configuration OTP.</target>
+        <note>Error shown when scanned QR code cannot be used for OTP</note>
+      </trans-unit>
+      <trans-unit id="[OTP/Scan/OverwriteWarning]" xml:space="preserve">
+        <source>One-time password is already configured for this entry. Do you want to overwrite it?</source>
+        <target state="translated">Le mot de passe à usage unique est déjà configuré pour cette entrée. Voulez-vous le remplacer ?</target>
+        <note>Message to confirm user intentions</note>
+      </trans-unit>
+      <trans-unit id="[OTP/Setup]" xml:space="preserve">
+        <source>Setup one-time password (OTP)</source>
+        <target state="translated">Configurer le mot de passe à usage unique (OTP)</target>
+        <note>Call for action. Acronym `OTP` should not be translated.</note>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/AttachmentPreview/details]" xml:space="preserve">
         <source>Preview attached files directly in KeePassium and leave no traces in other apps. (Works with images, documents, archives and more.)</source>
@@ -2757,13 +2741,11 @@ Subscription automatically renews unless it is canceled at least 24 hours before
 
 You can manage and cancel your subscriptions by going to your account settings on the App Store after purchase.
 </source>
-        <target state="translated">
-Le paiement sera prélevé sur votre compte Apple au moment de la confirmation de l’achat.
+        <target state="translated">Le paiement sera prélevé sur votre compte Apple au moment de la confirmation de l’achat.
 
 L’abonnement est renouvelé automatiquement à moins qu’il ne soit annulé au moins 24 heures avant la fin de la période en cours. Le renouvellement sera prélevé sur votre compte dans les 24 heures précédant la fin de la période en cours. 
 
-Vous pouvez gérer et annuler vos abonnements depuis les paramètres du compte dans l’App Store, une fois l’achat réalisé.
-</target>
+Vous pouvez gérer et annuler vos abonnements depuis les paramètres du compte dans l’App Store, une fois l’achat réalisé.</target>
         <note>Subscription conditions</note>
       </trans-unit>
       <trans-unit id="[Premium/Trial/trial then price]" xml:space="preserve">
@@ -3253,6 +3235,11 @@ Vous pouvez gérer et annuler vos abonnements depuis les paramètres du compte d
         <target state="final">Icônes par l'équipe KeePassXC</target>
         <note>Class = "UILabel"; text = "Icons by KeePassXC team"; ObjectID = "hW0-fR-mIf";</note>
       </trans-unit>
+      <trans-unit id="hqP-9y-rXc.text" xml:space="preserve">
+        <source>MIT license</source>
+        <target state="translated">Licence MIT</target>
+        <note>Class = "UILabel"; text = "MIT license"; ObjectID = "hqP-9y-rXc";</note>
+      </trans-unit>
       <trans-unit id="ht7-pj-Dbb.text" xml:space="preserve">
         <source>Apache 2.0 license</source>
         <target state="translated">Licence Apache 2.0</target>
@@ -3282,6 +3269,11 @@ Vous pouvez gérer et annuler vos abonnements depuis les paramètres du compte d
         <source>CC0 license</source>
         <target state="translated">Licence CC0</target>
         <note>Class = "UILabel"; text = "CC0 license"; ObjectID = "o9e-qb-mMw";</note>
+      </trans-unit>
+      <trans-unit id="r7M-Gb-1Xd.text" xml:space="preserve">
+        <source>Toast-Swift by Charles Scalesse</source>
+        <target state="translated">Toast-Swift développé par Charles Scalesse</target>
+        <note>Class = "UILabel"; text = "Toast-Swift by Charles Scalesse"; ObjectID = "r7M-Gb-1Xd";</note>
       </trans-unit>
       <trans-unit id="rDJ-4G-8Oz.text" xml:space="preserve">
         <source>Argon2 by Daniel Dinu, Dmitry Khovratovich, Jean-Philippe Aumasson, and Samuel Neves</source>
@@ -3433,6 +3425,33 @@ Vous pouvez avoir plusieurs bases de données, par exemple pour séparer le trav
       </trans-unit>
     </body>
   </file>
+  <file original="KeePassium/general/changelog/Base.lproj/AppHistoryViewerVC.storyboard" source-language="en" target-language="fr" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
+    </header>
+    <body>
+      <trans-unit id="9Zh-Kk-7yq.title" xml:space="preserve">
+        <source>What's New</source>
+        <target state="translated">Les nouveautés</target>
+        <note>Class = "UITableViewController"; title = "What's New"; ObjectID = "9Zh-Kk-7yq"; Note = "Title of the app version history screen";</note>
+      </trans-unit>
+      <trans-unit id="D5J-1z-JKZ.text" xml:space="preserve" translate="no">
+        <source>{Detail}</source>
+        <target state="needs-translation">{Detail}</target>
+        <note>Class = "UILabel"; text = "{Detail}"; ObjectID = "D5J-1z-JKZ"; Note = "#bc-ignore!";</note>
+      </trans-unit>
+      <trans-unit id="b92-Zs-oKL.text" xml:space="preserve" translate="no">
+        <source>{Title}</source>
+        <target state="needs-translation">{Title}</target>
+        <note>Class = "UILabel"; text = "{Title}"; ObjectID = "b92-Zs-oKL"; Note = "#bc-ignore!";</note>
+      </trans-unit>
+      <trans-unit id="f1G-Tl-xxh.text" xml:space="preserve" translate="no">
+        <source>{Perpetual license status}</source>
+        <target state="needs-translation">{Perpetual license status}</target>
+        <note>Class = "UILabel"; text = "{Perpetual license status}"; ObjectID = "f1G-Tl-xxh"; Note = "#bc-ignore!";</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="KeePassium/general/diagnostics/Base.lproj/DiagnosticsViewerVC.storyboard" source-language="en" target-language="fr" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
@@ -3457,6 +3476,58 @@ Vous pouvez avoir plusieurs bases de données, par exemple pour séparer le trav
         <source>{Diagnostic message}</source>
         <target state="needs-translation">{Diagnostic message}</target>
         <note>Class = "UILabel"; text = "{Diagnostic message}"; ObjectID = "vlS-RX-RUW"; Note = "#bc-ignore!";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="KeePassium/general/password-generator/Base.lproj/PasswordGeneratorVC.storyboard" source-language="en" target-language="fr" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
+    </header>
+    <body>
+      <trans-unit id="5Xu-cN-kSg.text" xml:space="preserve">
+        <source>Look-Alike Characters (1Il…)</source>
+        <target state="translated">Caractères ressemblants (1Il…)</target>
+        <note>Class = "UILabel"; text = "Look-Alike Characters (1Il…)"; ObjectID = "5Xu-cN-kSg"; Note = "Symbols to include in generated passwords.";</note>
+      </trans-unit>
+      <trans-unit id="Hxj-CB-VE7.text" xml:space="preserve">
+        <source>Password Length</source>
+        <target state="translated">Longueur du mot de passe</target>
+        <note>Class = "UILabel"; text = "Password Length"; ObjectID = "Hxj-CB-VE7"; Note = "Label of the control that specifies the length of the password to be generated";</note>
+      </trans-unit>
+      <trans-unit id="Mwu-Lk-3MU.text" xml:space="preserve">
+        <source>Special Symbols (@#$…)</source>
+        <target state="translated">Symboles spéciaux (@#$…)</target>
+        <note>Class = "UILabel"; text = "Special Symbols (@#$…)"; ObjectID = "Mwu-Lk-3MU"; Note = "Symbols to include in generated passwords.";</note>
+      </trans-unit>
+      <trans-unit id="O7Z-bK-bJa.title" xml:space="preserve">
+        <source>Randomizer</source>
+        <target state="translated">Générateur aléatoire</target>
+        <note>Class = "UINavigationItem"; title = "Randomizer"; ObjectID = "O7Z-bK-bJa"; Note = "Title of the password generator screen.";</note>
+      </trans-unit>
+      <trans-unit id="Rwu-qh-8ON.text" xml:space="preserve">
+        <source>Lower Case Letters (abc…)</source>
+        <target state="translated">Lettres minuscules (abc…)</target>
+        <note>Class = "UILabel"; text = "Lower Case Letters (abc…)"; ObjectID = "Rwu-qh-8ON"; Note = "Symbols to include in generated passwords. Don't translate the letters.";</note>
+      </trans-unit>
+      <trans-unit id="iRk-FV-7U8.text" xml:space="preserve">
+        <source>Digits (123…)</source>
+        <target state="translated">Chiffres (123…)</target>
+        <note>Class = "UILabel"; text = "Digits (123…)"; ObjectID = "iRk-FV-7U8"; Note = "Symbols to include in generated passwords. Don't translate the digits.";</note>
+      </trans-unit>
+      <trans-unit id="tS0-00-bHP.text" xml:space="preserve" translate="no">
+        <source>{123}</source>
+        <target state="needs-translation">{123}</target>
+        <note>Class = "UILabel"; text = "{123}"; ObjectID = "tS0-00-bHP"; Note = "#bc-ignore!";</note>
+      </trans-unit>
+      <trans-unit id="x93-rB-nNr.text" xml:space="preserve">
+        <source>Upper Case Letters (ABC…)</source>
+        <target state="translated">Lettres en majuscule (ABC…)</target>
+        <note>Class = "UILabel"; text = "Upper Case Letters (ABC…)"; ObjectID = "x93-rB-nNr"; Note = "Symbols to include in generated passwords. Don't translate the letters.";</note>
+      </trans-unit>
+      <trans-unit id="ylv-a4-bLZ.text" xml:space="preserve" translate="no">
+        <source>{Generated Pa$$word}</source>
+        <target state="needs-translation">{Generated Pa$$word}</target>
+        <note>Class = "UILabel"; text = "{Generated Pa$$word}"; ObjectID = "ylv-a4-bLZ"; Note = "#bc-ignore!";</note>
       </trans-unit>
     </body>
   </file>
@@ -3942,9 +4013,9 @@ Vous pouvez avoir plusieurs bases de données, par exemple pour séparer le trav
         <target state="translated">Presse-papiers universel</target>
         <note>Class = "UILabel"; text = "Universal Clipboard"; ObjectID = "YL6-U9-FM6";</note>
       </trans-unit>
-      <trans-unit id="Zqb-p5-Ft8.footerTitle" xml:space="preserve" approved="yes">
+      <trans-unit id="Zqb-p5-Ft8.footerTitle" xml:space="preserve">
         <source>Cached keys allow KeePassium to skip key derivation and YubiKey scans whenever possible. </source>
-        <target state="final">Les clés mises en cache permettent à KeePassium de ne pas avoir à dériver les clés et à YubiKey de les scanner dès que possible. </target>
+        <target state="translated">Les clés mises en cache permettent à KeePassium de ne pas avoir à dériver les clés et à YubiKey de les scanner dès que possible. </target>
         <note>Class = "UITableViewSection"; footerTitle = "Cached keys allow KeePassium to skip key derivation and YubiKey scans whenever possible. "; ObjectID = "Zqb-p5-Ft8"; Note = "Section title: advanced/expert settings";</note>
       </trans-unit>
       <trans-unit id="Zqb-p5-Ft8.headerTitle" xml:space="preserve" approved="yes">
@@ -4014,7 +4085,7 @@ Vous pouvez avoir plusieurs bases de données, par exemple pour séparer le trav
       </trans-unit>
       <trans-unit id="weX-SZ-IDB.text" xml:space="preserve">
         <source>Database Timeout</source>
-        <target state="translated">Délai de réponse de la base de données</target>
+        <target state="translated">Expiration de la session de base de données</target>
         <note>Class = "UILabel"; text = "Database Timeout"; ObjectID = "weX-SZ-IDB";</note>
       </trans-unit>
       <trans-unit id="xPd-ot-oqe.text" xml:space="preserve" translate="no">

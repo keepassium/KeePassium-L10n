@@ -491,17 +491,17 @@ Please make sure to have a backup of your database before changing anything.</so
       </trans-unit>
       <trans-unit id="[FileAccessError/NoWritePermission/title]" xml:space="preserve">
         <source>Cannot save file (%@)</source>
-        <target state="needs-translation">Cannot save file (%@)</target>
+        <target state="translated">يتعذَّر حفظ الملف (%@)</target>
         <note>Error message: file provider does not support write operations. For example: `Cannot save file (OneDrive)`</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/OneDriveReadOnly/reason]" xml:space="preserve">
         <source>Microsoft has recently switched OneDrive integration with iOS to read-only mode. Temporarily, they say.</source>
-        <target state="needs-translation">Microsoft has recently switched OneDrive integration with iOS to read-only mode. Temporarily, they say.</target>
+        <target state="translated">لقد بدلت مايكروسوفت تكاملات OneDrive مع iOS إلى وضع القراءة-فقط. يقولون أن ذلك بشكل مؤقتًا.</target>
         <note>Explanation of a file writing error</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/OneDriveReadOnly/recoverySuggestion]" xml:space="preserve">
         <source>Use the Export option to save file to another location.</source>
-        <target state="needs-translation">Use the Export option to save file to another location.</target>
+        <target state="translated">استخدم خيار التصدير لحفظ الملف في موقع آخر.</target>
         <note>Suggestion for error recovery</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/Timeout/genericFileProvider]" xml:space="preserve">
