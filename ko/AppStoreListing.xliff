@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="KeePassium/AppStoreDescription.txt" source-language="en" target-language="ko" datatype="plaintext">
+    <body>
+      <trans-unit id="Title" maxwidth="30">
+        <source>KeePassium Password Manager</source>
+        <note>Please keep `KeePassium` as the first word. If this is difficult with the natural word order, feel free to use punctuation, for example: "KeePassium - Password Manager"</note>
+        <target state="translated">KeePassium 패스워드 관리자</target>
+      </trans-unit>
+      <trans-unit id="Subtitle 1" maxwidth="30">
+        <source>Respects your privacy</source>
+        <note>One-line app description/subtitle</note>
+        <target state="translated">사용자의 개인 정보를 존중합니다.</target>
+      </trans-unit>
+      <trans-unit id="Description/Intro">
+        <source>KeePassium keeps your passwords safe. It delivers the security of KeePass databases with a clean, easy to use interface.</source>
+        <note/>
+        <target state="translated">KeePassium은 사용자의 패스워드를 안전하게 보관합니다. KeePass 데이터베이스를 깔끔하고 편리한 UI로 관리해보세요.</target>
+      </trans-unit>
+      <trans-unit id="Description/MainFeatures/title">
+        <source>MAIN FEATURES</source>
+        <note>Section header, capitalized</note>
+        <target state="translated">주요 기능</target>
+      </trans-unit>
+      <trans-unit id="Description/MainFeatures/text">
+        <source>• Automatic sync — keep your database in your favorite cloud or offline.
+• Password AutoFill — login to any service in a few taps.
+• Touch ID / Face ID — save your time.
+• Multiple databases — to share passwords with your team or family.
+• Attached files — passport scans and server keys, always with you.
+• Peace of mind — feel free to check our source code, it's open.</source>
+        <note>Please keep the bullet points (followed by one space)</note>
+        <target state="translated">• 자동 동기화 — 사용자의 클라우드와 오프라인 간의 데이터베이스 파일을 일관적으로 유지해줍니다.
+• 패스워드 자동 완성 — 단 몇 번만의 터치로 어떤 서비스이든 로그인할 수 있습니다.
+• Touch ID / Face ID — 더 빠르게 패스워드에 접근할 수 있습니다.
+• 다중 데이터베이스 지원 — 가족 또는 팀 동료와 패스워드를 공유할 수 있습니다.
+• 첨부 파일 지원 — 여권 스캔 이미지나 서버 접속 개인 키 등 첨부 파일을 사용할 수 있습니다.
+• 오픈 소스 — 원하신다면 앱의 소스 코드를 확인해보실 수 있습니다.</target>
+      </trans-unit>
+      <trans-unit id="Description/AntiFeatures/title">
+        <source>ANTI-FEATURES</source>
+        <note>Section header, capitalized: features that are explicitly excluded</note>
+        <target state="translated">제외된 기능</target>
+      </trans-unit>
+      <trans-unit id="Description/AntiFeatures/text">
+        <source>• No in-app browser
+• No VNC/SSH viewer 
+• No coffee maker
+• No analytics
+• No ads</source>
+        <note>Please keep the bullet points (followed by one space)</note>
+        <target state="translated">• 앱 내 브라우저 없음
+• VNC/SSH 뷰어 없음
+• 기부 강요 없음
+• 애널리틱스 수집 및 분석 없음
+• 광고 없음</target>
+      </trans-unit>
+      <trans-unit id="Description/AutomaticSync/title">
+        <source>AUTOMATIC SYNC</source>
+        <note>Section header, capitalized</note>
+        <target state="translated">자동 동기화</target>
+      </trans-unit>
+      <trans-unit id="Description/AutomaticSync/text">
+        <source>KeePassium can work both offline and with your favorite cloud provider. 
+
+There is no setup: pick your database through the familiar Files interface — and that's it. By integrating with the Files app, KeePassium supports almost all storage providers, including:
+
+• iCloud Drive
+• OneDrive
+• Dropbox 
+• Box
+• pCloud
+• Google Drive
+• NextCloud (with hiccups)
+• WebDAV and SFTP (via a third-party app)
+• ...and more!
+
+Should a password manager have full access to your corporate file server? Of course not! All the networking is automatically performed by the original storage provider app. This way, KeePassium knows only about few specific databases, not your whole server.</source>
+        <note>Please keep the bullet points (followed by one space)</note>
+        <target state="translated">KeePassium은 오프라인 또는 사용자의 클라우드 서비스에 있는 데이터베이스 파일을 사용할 수 있습니다.
+
+따로 사전 설정을 할 필요가 없습니다. 이미 친숙한 파일 앱의 UI를 통해 데이터베이스 파일을 선택하기만 하면 끝입니다. 파일 앱과의 통합 덕분에 아래에 나열된 서비스들을 포함한 거의 모든 저장소 제공자를 지원합니다.
+
+• iCloud Drive
+• OneDrive
+• Dropbox
+• Box
+• pCloud
+• Google Drive
+• NextCloud (불안정할 수 있음)
+• 다른 앱을 통한 WebDAV 및 SFTP
+• 그 외 다양한 서비스 지원
+
+패스워드 관리자 앱이 사용자의 클라우드의 전체 접근 권한을 가질 필요가 있을까요? 당연히 아니죠! 데이터베이스 파일의 모든 변경 사항은 저장소 제공자 앱이 자동으로 처리하고 동기화합니다. 그렇기에 KeePassium은 사용자가 선택한 데이터베이스 파일 외에는 클라우드 서비스 그 자체나 다른 파일에 접근조차 하지 못합니다.</target>
+      </trans-unit>
+      <trans-unit id="Description/More/title">
+        <source>WHAT ELSE CAN IT DO?</source>
+        <note>Section header, capitalized: additional list of features</note>
+        <target state="translated">부가적인 기능</target>
+      </trans-unit>
+      <trans-unit id="Description/More/text">
+        <source>• Read and write all database formats (kdb, kdbx3, kdbx4 — including Argon2/ChaCha20)
+• View time-based one-time passwords (TOTP)
+• View deleted groups and entries (Recycle Bin)
+• View previous revisions of an entry
+• View and edit custom fields
+• View custom icons
+• And more! See for yourself, it's free.</source>
+        <note>Please keep the bullet points (followed by one space)</note>
+        <target state="translated">• 모든 데이터베이스 포맷 읽기/쓰기 (kdb, kdbx3, kdbx4 — Argon2/ChaCha20 알고리즘 포함)
+• 시간 기반 일회성 패스워드(TOTP) 확인
+• 삭제된 그룹 또는 항목 확인 (휴지통 기능)
+• 항목의 이전 변경 기록 확인
+• 사용자 지정 필드 확인 및 편집
+• 사용자 지정 아이콘 표시
+• 그 외 다양한 기능들이 당신을 기다리고 있습니다! 무료이니 직접 확인해보세요.</target>
+      </trans-unit>
+      <trans-unit id="Description/Privacy/title">
+        <source>PRIVACY</source>
+        <note>Section header, capitalized: privacy policy</note>
+        <target state="translated">개인 정보</target>
+      </trans-unit>
+      <trans-unit id="Description/Privacy/text">
+        <source>This app does not collect any personal data. We sell the app, not its users.</source>
+        <note/>
+        <target state="translated">이 앱은 사용자의 개인적인 데이터를 수집하지 않습니다. 저희는 앱을 팔지, 사용자를 절대 팔지 않습니다.</target>
+      </trans-unit>
+      <trans-unit id="Description/CommercialAndOpen/title">
+        <source>COMMERCIAL AND OPEN</source>
+        <note>Section header, capitalized: the app is both a commercial and open source project</note>
+        <target state="translated">상업적 오픈 소스</target>
+      </trans-unit>
+      <trans-unit id="Description/CommercialAndOpen/text">
+        <source>KeePassium is a commercial open source app. Here, "open source" is the transparency you need from a password manager. The "commercial" part, in turn, gives you:
+
+• A great well-polished interface
+• Responsive support that cares
+• Future updates and improvements</source>
+        <note>Please keep the bullet points (followed by one space)</note>
+        <target state="translated">KeePassium은 상업적 오픈 소스 앱입니다. “오픈 소스”는 패스워드 관리자의 기능을 투명하게 공개했다는 뜻이고, “상업적”은 다음과 같은 서비스가 포함되었다는 뜻입니다. :
+
+• 세련된 사용자 인터페이스
+• 유연한 고객지원
+• 지속적인 업데이트 및 개선 제공</target>
+      </trans-unit>
+      <trans-unit id="Description/Freemium/title">
+        <source>FREE vs PREMIUM</source>
+        <note>Section header, capitalized: a comparison of free and premium version.</note>
+        <target state="translated">무료 버전 vs 프리미엄 버전</target>
+      </trans-unit>
+      <trans-unit id="Description/Freemium/text">
+        <source>There is no "trial period". The free version is always completely functional. You can view and edit, use Touch ID / Face ID, search and AutoFill — but only with one database at a time.
+
+You can install free KeePassium for your family members. If they barely use the app, it will not bother them to buy premium. 
+
+With the premium version, you can:
+• Quickly switch between multiple databases.
+• Unlock databases with one tap and keep them open as long as you need.
+• View attachments in the app, without leaving a trace in the system.
+• Email your questions and get answers directly from the developer.
+• Keep KeePassium shiny and available to people who need security but cannot afford it yet.</source>
+        <note>Please keep the bullet points (followed by one space)</note>
+        <target state="translated">“시험 사용 기간”같은 개념은 이 앱에선 없습니다. 무료 버전은 언제나 전체 기능을 제공합니다. 사용자는 데이터베이스를 보고, 수정하고, Touch ID 또는 Face ID를 사용하고, 항목을 검색하고 자동 완성 기능을 사용할 수 있습니다. 단, 동시에 한 데이터베이스만 사용할 수 있습니다.
+
+가족들에게 KeePassium 무료 버전을 설치하여 사용하게 할 수도 있습니다. 가족들이 앱을 거의 사용하지 않는다면, 프리미엄 버전을 구매할 것을 요구하지도 않을 것입니다. 
+
+프리미엄 버전은 다음과 같은 기능이 제공됩니다. :
+• 여러 데이터베이스를 빠르게 전환
+• 한 번의 터치로 데이터베이스를 열고 원하는 시간만큼 열어두기
+• 시스템에 추적 기록을 남기지 않고 첨부 파일 열기
+• 개발자에게 이메일로 직접 앱에 대한 질문을 하고 답변 받기
+• KeePassium이 보안을 필요로 하는 사람들에게 계속 제공될 수 있도록 지원</target>
+      </trans-unit>
+      <trans-unit id="Description/Contact/text">
+        <source>Talk to us at info@keepassium.com, /r/KeePassium on Reddit, @KeePassium on Twitter and GitHub.</source>
+        <note/>
+        <target state="translated">info@keepassium.com, /r/KeePassium 서브레딧, @KeePassium 트위터 혹은 GitHub 계정으로 연락하세요.</target>
+      </trans-unit>
+      <trans-unit id="Description/Footer/text">
+        <source>* Premium version is available as an in-app purchase, either as a subscription or a one-time payment. 
+* Payment will be charged to your Apple ID account at the confirmation of (in-app) purchase. Subscription automatically renews unless it is canceled at least 24 hours before the end of the current period. Your account will be charged for renewal within 24 hours prior to the end of the current period. 
+* You can manage and cancel your subscriptions by going to your account settings on the App Store after purchase.
+* Privacy policy: https://keepassium.com/privacy/app
+* Terms of Use: https://keepassium.com/terms/app</source>
+        <note>Mandatory legalese required by Apple. Asterisks instead of bullet points.</note>
+        <target state="translated">* 프리미엄 버전은 인앱 구매를 통해 구독 혹은 일회성 결제 방식으로 활성화할 수 있습니다. 
+* 결제는 (인앱) 구매를 확정함과 즉시 사용자의 Apple ID에 이루어집니다. 구독은 활성화된 구독 기간이 끝나기 최소 24시간 전에 구독을 취소하지 않는 한 자동으로 갱신됩니다. 
+* 구매 후 App Store의 계정 설정에서 활성화된 구독을 관리하실 수 있습니다.
+* 개인정보취급방침 : https://keepassium.com/privacy/app
+* 사용약관 : https://keepassium.com/terms/app</target>
+      </trans-unit>
+      <trans-unit id="Subtitle Pro">
+        <source>Lifetime license</source>
+        <note>Subtitle for the Pro version</note>
+        <target state="translated">평생 소유 라이선스</target>
+      </trans-unit>
+      <trans-unit id="Description/Intro Pro">
+        <source>KeePassium Pro is the full version of KeePassium Password Manager. This app offers a lifetime license as a one-time purchase.</source>
+        <target state="translated">KeePassium Pro는 KeePassium 패스워드 관리자의 풀버전입니다. 한 번 결제하면 평생동안 풀버전 라이선스를 소유하게 됩니다.</target>
+      </trans-unit>
+      <trans-unit id="Benefits of the Pro version">
+        <source>• All premium features (current and future)
+• Lifetime email support
+• No in-app purchases</source>
+        <note>Please keep the bullet points (followed by one space)</note>
+        <target state="translated">• 현재의 프리미엄 기능은 물론 향후 출시될 프리미엄 기능 또한 사용 가능
+• 평생동안 이메일 지원 제공
+• 추가적인 앱 내 구입 없음</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
