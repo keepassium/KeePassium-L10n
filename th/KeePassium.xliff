@@ -922,20 +922,16 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <note>Marks the default pricing plan</note>
       </trans-unit>
       <trans-unit id="[Premium/Subscription/Legal/text]" xml:space="preserve">
-        <source>
-Payment will be charged to your Apple ID account at the confirmation of purchase.
+        <source>Payment will be charged to your Apple ID account at the confirmation of purchase.
 
 Subscription automatically renews unless it is canceled at least 24 hours before the end of the current period. Your account will be charged for renewal within 24 hours prior to the end of the current period.
 
-You can manage and cancel your subscriptions by going to your account settings on the App Store after purchase.
-</source>
-        <target state="translated">
-การชำระเงินจะถูกเรียกเก็บไปยังบัญชี Apple ID ของคุณเมื่อยืนยันการซื้อเรียบร้อยแล้ว
+You can manage and cancel your subscriptions by going to your account settings on the App Store after purchase.</source>
+        <target state="translated">การชำระเงินจะถูกเรียกเก็บไปยังบัญชี Apple ID ของคุณเมื่อยืนยันการซื้อเรียบร้อยแล้ว
 
 การสมัครรับจะต่ออายุให้อัตโนมัติหากไม่มีคำสั่งยกเลิกอย่างน้อย 24 ชั่วโมงก่อนที่จะหมดรอบใช้งานปัจจุบัน บัญชีของคุณจะถูกเรียกเก็บเงินเพื่อต่ออายุภายใน 24 ชั่วโมงก่อนสิ้นสุดรอบใช้งานปัจจุบัน
 
-คุณสามารถจัดการและยกเลิกการสมัครรับโดยเข้าไปที่ตั้งค่าบัญชีของคุณใน App Store หลังจากซื้อเรียบร้อยแล้ว
-</target>
+คุณสามารถจัดการและยกเลิกการสมัครรับโดยเข้าไปที่ตั้งค่าบัญชีของคุณใน App Store หลังจากซื้อเรียบร้อยแล้ว</target>
         <note>Subscription conditions</note>
       </trans-unit>
       <trans-unit id="[Premium/Trial/trial then price]" xml:space="preserve">
@@ -2736,20 +2732,16 @@ You can manage and cancel your subscriptions by going to your account settings o
         <note>Marks the default pricing plan</note>
       </trans-unit>
       <trans-unit id="[Premium/Subscription/Legal/text]" xml:space="preserve">
-        <source>
-Payment will be charged to your Apple ID account at the confirmation of purchase.
+        <source>Payment will be charged to your Apple ID account at the confirmation of purchase.
 
 Subscription automatically renews unless it is canceled at least 24 hours before the end of the current period. Your account will be charged for renewal within 24 hours prior to the end of the current period.
 
-You can manage and cancel your subscriptions by going to your account settings on the App Store after purchase.
-</source>
-        <target state="translated">
-การชำระเงินจะถูกเรียกเก็บไปยังบัญชี Apple ID ของคุณเมื่อยืนยันการซื้อเรียบร้อยแล้ว
+You can manage and cancel your subscriptions by going to your account settings on the App Store after purchase.</source>
+        <target state="translated">การชำระเงินจะถูกเรียกเก็บไปยังบัญชี Apple ID ของคุณเมื่อยืนยันการซื้อเรียบร้อยแล้ว
 
 การสมัครรับจะต่ออายุให้อัตโนมัติหากไม่มีคำสั่งยกเลิกอย่างน้อย 24 ชั่วโมงก่อนที่จะหมดรอบใช้งานปัจจุบัน บัญชีของคุณจะถูกเรียกเก็บเงินเพื่อต่ออายุภายใน 24 ชั่วโมงก่อนสิ้นสุดรอบใช้งานปัจจุบัน
 
-คุณสามารถจัดการและยกเลิกการสมัครรับโดยเข้าไปที่ตั้งค่าบัญชีของคุณใน App Store หลังจากซื้อเรียบร้อยแล้ว
-</target>
+คุณสามารถจัดการและยกเลิกการสมัครรับโดยเข้าไปที่ตั้งค่าบัญชีของคุณใน App Store หลังจากซื้อเรียบร้อยแล้ว</target>
         <note>Subscription conditions</note>
       </trans-unit>
       <trans-unit id="[Premium/Trial/trial then price]" xml:space="preserve">
@@ -2844,7 +2836,7 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
       <trans-unit id="[Premium/status] Expired %@ ago. Please renew." xml:space="preserve">
         <source>Expired %@ ago. Please renew.</source>
-        <target state="translated">หมดอายุ %@ ที่แล้ว โปรดต่ออายุใหม่</target>
+        <target state="translated">หมดอายุเมื่อ %@ ที่แล้ว โปรดต่ออายุใหม่</target>
         <note>Status: premium subscription has expired. For example: `Expired 1 day ago`. [timeFormatted: String, includes the time unit (day, hour, minute)]</note>
       </trans-unit>
       <trans-unit id="[Premium/status] Next renewal on %@" xml:space="preserve">
@@ -2989,7 +2981,7 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
       <trans-unit id="[Settings/DatabaseLockTimeout/description] If you are not interacting with the app for some time, the database will be closed for your safety. To open it, you will need to enter its master password again." xml:space="preserve">
         <source>If you are not interacting with the app for some time, the database will be closed for your safety. To open it, you will need to enter its master password again.</source>
-        <target state="translated">ถ้าคุณไม่ได้แตะต้องแอปสักพัก ฐานข้อมูลจะถูกปิดเพื่อความปลอดภัย หากต้องการเปิดมันขึ้นมาใหม่ คุณจะต้องใส่รหัสผ่านหลักอีกครั้ง</target>
+        <target state="translated">หากคุณไม่ได้ใช้งานแอปสักพัก ฐานข้อมูลจะถูกปิดเพื่อความปลอดภัย หากต้องการเปิดมันขึ้นมาใหม่ คุณจะต้องใส่รหัสผ่านหลักอีกครั้ง</target>
         <note>Description of the Database Lock Timeout</note>
       </trans-unit>
       <trans-unit id="[Settings/FileLists/Backup/title] Backup" xml:space="preserve">
@@ -3686,7 +3678,7 @@ You can have multiple databases, for example to separate work, family and person
       </trans-unit>
       <trans-unit id="7ae-8I-LiQ.footerTitle" xml:space="preserve">
         <source>Allows biometric authentication as a quick (but less secure) alternative to AppLock passcode.</source>
-        <target state="translated">อนุญาตให้ใช้การยืนยันไบโอเมทริกซ์เพื่อความรวดเร็ว (แต่ปลอดภัยน้อยลง) แทนการใช้รหัสผ่านแอปล็อก</target>
+        <target state="translated">อนุญาตให้ใช้การยืนยันด้วยไบโอเมทริกซ์เพื่อความรวดเร็ว (แต่ปลอดภัยน้อยลง) แทนการใช้รหัสผ่านแอปล็อก</target>
         <note>Class = "UITableViewSection"; footerTitle = "Allows biometric authentication as a quick (but less secure) alternative to AppLock passcode."; ObjectID = "7ae-8I-LiQ"; Note = "AppLock settings section: biometric auth (Touch ID/Face ID)";</note>
       </trans-unit>
       <trans-unit id="7ae-8I-LiQ.headerTitle" xml:space="preserve">
@@ -3842,7 +3834,7 @@ You can have multiple databases, for example to separate work, family and person
       </trans-unit>
       <trans-unit id="atf-ra-KMC.title" xml:space="preserve">
         <source>Keep Backup Files</source>
-        <target state="translated">พยายามสำรองข้อมูลไว้</target>
+        <target state="translated">เก็บไฟล์สำรองข้อมูลไว้</target>
         <note>Class = "UITableViewController"; title = "Keep Backup Files"; ObjectID = "atf-ra-KMC"; Note = "Dialog for selecting the duration of keeping the backup copies.";</note>
       </trans-unit>
     </body>
@@ -3869,7 +3861,7 @@ You can have multiple databases, for example to separate work, family and person
       </trans-unit>
       <trans-unit id="G42-gR-eKm.text" xml:space="preserve">
         <source>Keep Backup Files</source>
-        <target state="translated">พยายามสำรองข้อมูลไว้</target>
+        <target state="translated">เก็บไฟล์สำรองข้อมูลไว้</target>
         <note>Class = "UILabel"; text = "Keep Backup Files"; ObjectID = "G42-gR-eKm"; Note = "Settings option: how long to keep backup copies. Example: `Keep Backup Copies: 3 days`";</note>
       </trans-unit>
       <trans-unit id="PKe-6p-Ssr.text" xml:space="preserve" translate="no">
@@ -3879,7 +3871,7 @@ You can have multiple databases, for example to separate work, family and person
       </trans-unit>
       <trans-unit id="Qs6-uS-gdS.text" xml:space="preserve">
         <source>Exclude Backup Files from System Backup</source>
-        <target state="translated">เว้นไม่ให้ระบบเครื่องมาสำรองข้อมูลในไฟล์สำรองในแอป</target>
+        <target state="translated">เว้นไม่ให้ระบบเครื่องมาสำรองข้อมูลไฟล์สำรองในแอป</target>
         <note>Class = "UILabel"; text = "Exclude Backup Files from System Backup"; ObjectID = "Qs6-uS-gdS"; Note = "Settings option, on/off";</note>
       </trans-unit>
       <trans-unit id="RXF-mN-5RB.normalTitle" xml:space="preserve" translate="no">
@@ -3899,7 +3891,7 @@ You can have multiple databases, for example to separate work, family and person
       </trans-unit>
       <trans-unit id="fst-lq-BDl.footerTitle" xml:space="preserve">
         <source>Defines whether backup databases created by KeePassium should be excluded from iCloud/iTunes backup. Applies to all the existing and future backup files.</source>
-        <target state="translated">กำหนดให้ไม่ว่าฐานข้อมูลสำรองที่สร้างโดย KeePassium ควรเว้นไว้ไม่ให้ iCloud/iTunes มาสำรอง แล้วนำไปใช้กับฐานข้อมูลอื่นที่มีอยู่แล้วและไฟล์สำรองอื่นในอนาคต</target>
+        <target state="translated">กำหนดให้ฐานข้อมูลสำรองใด ๆ ที่สร้างโดย KeePassium ควรเว้นไว้ไม่ให้ iCloud/iTunes มาสำรอง แล้วนำไปใช้กับฐานข้อมูลอื่นที่มีอยู่แล้วและไฟล์สำรองอื่นในอนาคต</target>
         <note>Class = "UITableViewSection"; footerTitle = "Defines whether backup databases created by KeePassium should be excluded from iCloud/iTunes backup. Applies to all the existing and future backup files."; ObjectID = "fst-lq-BDl"; Note = "Section header, refers to Apple's backup services (https://support.apple.com/HT203977)";</note>
       </trans-unit>
       <trans-unit id="fst-lq-BDl.headerTitle" xml:space="preserve">
@@ -3909,7 +3901,7 @@ You can have multiple databases, for example to separate work, family and person
       </trans-unit>
       <trans-unit id="nBI-OF-9iV.footerTitle" xml:space="preserve">
         <source>Before saving a database, KeePassium will automatically make a copy, just in case.</source>
-        <target state="translated">ก่อนบันทึกฐานข้อมูล KeePassium จะทำสำเนาให้อัตโนมัติ ในกรณีที่เปิดใช้งาน</target>
+        <target state="translated">ก่อนบันทึกฐานข้อมูล KeePassium จะทำสำเนาให้อัตโนมัติ</target>
         <note>Class = "UITableViewSection"; footerTitle = "Before saving a database, KeePassium will automatically make a copy, just in case."; ObjectID = "nBI-OF-9iV"; Note = "Explanation for the `Make Backup Copies` option";</note>
       </trans-unit>
       <trans-unit id="nSy-3u-0xW.title" xml:space="preserve">
@@ -3943,7 +3935,7 @@ You can have multiple databases, for example to separate work, family and person
     <body>
       <trans-unit id="26a-m8-zQP.title" xml:space="preserve">
         <source>Database Timeout</source>
-        <target state="translated">เวลาหมดการใช้งานของฐานข้อมูล</target>
+        <target state="translated">หมดเวลาใช้งานฐานข้อมูล</target>
         <note>Class = "UITableViewController"; title = "Database Timeout"; ObjectID = "26a-m8-zQP"; Note = "Title of a list of database timeouts, linked to Settings/Data Protection/Database Timeout.";</note>
       </trans-unit>
       <trans-unit id="Beo-Vy-wZ8.text" xml:space="preserve" translate="no">
@@ -3972,7 +3964,7 @@ You can have multiple databases, for example to separate work, family and person
         <source>Once you unlock a database, its master key can be stored in device's secure keychain. The next time, KeePassium will use that key so you won't have to type your full master password again. 
 
 (Master keys are automatically cleared on database timeout.)</source>
-        <target state="translated">เมื่อคุณปลดล็อกฐานข้อมูลแล้ว กุญแจหลักจะถูกเก็บไว้ในพวงกุญแจในเครื่องที่ปลอดภัย ในครั้งต่อไป KeePassium จะใช้รหัสนั้นโดยที่คุณไม่ต้องพิมพ์รหัสผ่านหลักอีก
+        <target state="translated">เมื่อคุณปลดล็อกฐานข้อมูลแล้ว กุญแจหลักจะถูกเก็บไว้ในพวงกุญแจไว้ในเครื่องอย่างปลอดภัย ในครั้งต่อไป KeePassium จะใช้รหัสนั้นโดยที่คุณไม่ต้องพิมพ์รหัสผ่านหลักอีก
 
 (กุญแจหลักจะถูกล้างอัตโนมัติเมื่อหมดเวลาใช้งานฐานข้อมูล)</target>
         <note>Class = "UITableViewSection"; footerTitle = "Once you unlock a database, its master key can be stored in device's secure keychain. The next time, KeePassium will use that key so you won't have to type your full master password again. \n\n(Master keys are automatically cleared on database timeout.)"; ObjectID = "Faj-km-pM5";</note>
@@ -4069,7 +4061,7 @@ You can have multiple databases, for example to separate work, family and person
       </trans-unit>
       <trans-unit id="neJ-eG-TV7.footerTitle" xml:space="preserve">
         <source>Database timeout closes any opened databases and clears any remembered master keys after some time.</source>
-        <target state="translated">การหมดเวลาใช้งานฐานข้อมูลจะปิดฐานข้อมูลทุกตัวที่เปิดทิ้งไว้และกุญแจหลักจะถูกล้างหลังจากนั้นสักครู่</target>
+        <target state="translated">การหมดเวลาใช้งานฐานข้อมูลจะปิดฐานข้อมูลทุกตัวที่เปิดอยู่ทั้งหมดและกุญแจหลักจะถูกล้างหลังจากนั้นสักครู่</target>
         <note>Class = "UITableViewSection"; footerTitle = "Database timeout closes any opened databases and clears any remembered master keys after some time."; ObjectID = "neJ-eG-TV7";</note>
       </trans-unit>
       <trans-unit id="neJ-eG-TV7.headerTitle" xml:space="preserve">
@@ -4089,7 +4081,7 @@ You can have multiple databases, for example to separate work, family and person
       </trans-unit>
       <trans-unit id="weX-SZ-IDB.text" xml:space="preserve">
         <source>Database Timeout</source>
-        <target state="translated">เวลาหมดการใช้งานของฐานข้อมูล</target>
+        <target state="translated">หมดเวลาใช้งานฐานข้อมูล</target>
         <note>Class = "UILabel"; text = "Database Timeout"; ObjectID = "weX-SZ-IDB";</note>
       </trans-unit>
       <trans-unit id="xPd-ot-oqe.text" xml:space="preserve" translate="no">
@@ -4155,7 +4147,7 @@ You can have multiple databases, for example to separate work, family and person
       </trans-unit>
       <trans-unit id="LrQ-5g-wj0.text" xml:space="preserve">
         <source>Search in Protected Values</source>
-        <target state="translated">ค้นหาค่าที่ป้องกันไว้</target>
+        <target state="translated">ค้นหาในค่าที่ป้องกันไว้</target>
         <note>Class = "UILabel"; text = "Search in Protected Values"; ObjectID = "LrQ-5g-wj0"; Note = "An switch in settings: whether to include protected field values in search procedure.";</note>
       </trans-unit>
       <trans-unit id="RZt-EW-TGN.title" xml:space="preserve">

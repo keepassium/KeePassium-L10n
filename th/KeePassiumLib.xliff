@@ -234,17 +234,17 @@
       </trans-unit>
       <trans-unit id="[Database2/FormatError] Corrupted database file (HMAC mismatch in block %d)" xml:space="preserve">
         <source>Corrupted database file (HMAC mismatch in block %d)</source>
-        <target state="translated">Corrupted database file (HMAC mismatch in block %d)</target>
+        <target state="translated">ไฟล์ฐานข้อมูลไม่ถูกต้อง (HMAC mismatch in block %d)</target>
         <note>Error message: HMAC value (kind of checksum) of a data block is wrong. [blockIndex: Int]</note>
       </trans-unit>
       <trans-unit id="[Database2/FormatError] Corrupted database file (block %d has negative size)" xml:space="preserve">
         <source>Corrupted database file (block %d has negative size)</source>
-        <target state="translated">Corrupted database file (block %d has negative size)</target>
+        <target state="translated">ไฟล์ฐานข้อมูลไม่ถูกต้อง (block %d has negative size)</target>
         <note>Error message [blockIndex: Int]</note>
       </trans-unit>
       <trans-unit id="[Database2/FormatError] Corrupted database file (hash mismatch in block %d)" xml:space="preserve">
         <source>Corrupted database file (hash mismatch in block %d)</source>
-        <target state="translated">Corrupted database file (hash mismatch in block %d)</target>
+        <target state="translated">ไฟล์ฐานข้อมูลไม่ถูกต้อง (hash mismatch in block %d)</target>
         <note>Error message: hash(checksum) of a data block is wrong. [blockIndex: Int]</note>
       </trans-unit>
       <trans-unit id="[Database2/FormatError] Gzip error: %@" xml:space="preserve">
@@ -752,12 +752,12 @@ Please make sure to have a backup of your database before changing anything.</so
       </trans-unit>
       <trans-unit id="[KeychainError/generic] Keychain error (code %d) " xml:space="preserve">
         <source>Keychain error (code %d) </source>
-        <target state="translated">Keychain error (code %d) </target>
+        <target state="translated">พวงกุญแจเกิดข้อผิดพลาด (code %d) </target>
         <note>Generic error message about system keychain. [errorCode: Int]</note>
       </trans-unit>
       <trans-unit id="[KeychainError/unexpectedFormat] Keychain error: unexpected data format" xml:space="preserve">
         <source>Keychain error: unexpected data format</source>
-        <target state="translated">พวงกุญแจผิดพลาด: ไม่ทราบฟอร์แมทของข้อมูล</target>
+        <target state="translated">พวงกุญแจเกิดข้อผิดพลาด: ไม่ทราบฟอร์แมทของข้อมูล</target>
         <note>Error message about system keychain.</note>
       </trans-unit>
       <trans-unit id="[Progress/CancellationReason/lowMemory]" xml:space="preserve">
@@ -774,7 +774,7 @@ This can happen with larger databases or too ambitious database settings (Argon2
       </trans-unit>
       <trans-unit id="[Settings/AppLockTimeout/description] After last interaction" xml:space="preserve">
         <source>After last interaction</source>
-        <target state="translated">หลังจากการแตะต้องครั้งสุดท้าย</target>
+        <target state="translated">หลังจากใช้งานครั้งสุดท้าย</target>
         <note>A description/subtitle for Settings/AppLockTimeout options that trigger when the user has been idle for a while. For example: 'AppLock Timeout: 3 seconds (After last interaction)</note>
       </trans-unit>
       <trans-unit id="[Settings/AppLockTimeout/description] After leaving the app" xml:space="preserve">
