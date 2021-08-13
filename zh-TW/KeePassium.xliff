@@ -2,9 +2,14 @@
 <xliff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="KeePassium AutoFill/controllers/Base.lproj/CrashReportVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A5201i"/>
     </header>
     <body>
+      <trans-unit id="1To-fA-tCt.normalTitle" xml:space="preserve" translate="no">
+        <source>{Learn more}</source>
+        <target state="needs-translation">{Learn more}</target>
+        <note>Class = "UIButton"; normalTitle = "{Learn more}"; ObjectID = "1To-fA-tCt"; Note = "#bc-ignore!";</note>
+      </trans-unit>
       <trans-unit id="ebS-pB-Qan.title" xml:space="preserve">
         <source>Close</source>
         <target state="translated">關閉</target>
@@ -30,83 +35,9 @@ Please contact us if you need help with this.</source>
       </trans-unit>
     </body>
   </file>
-  <file original="KeePassium AutoFill/controllers/Base.lproj/DatabaseChooserVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
-    </header>
-    <body>
-      <trans-unit id="CbK-f7-To5.title" xml:space="preserve">
-        <source>Add Database</source>
-        <target state="translated">添加資料庫</target>
-        <note>Class = "UIBarButtonItem"; title = "Add Database"; ObjectID = "CbK-f7-To5"; Note = "Action";</note>
-      </trans-unit>
-      <trans-unit id="TPe-p5-jEu.text" xml:space="preserve" translate="no">
-        <source>{File Attributes}</source>
-        <target state="needs-translation">{File Attributes}</target>
-        <note>Class = "UILabel"; text = "{File Attributes}"; ObjectID = "TPe-p5-jEu"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="YVR-PU-ZpA.text" xml:space="preserve" translate="no">
-        <source>{Database File Name}</source>
-        <target state="needs-translation">{Database File Name}</target>
-        <note>Class = "UILabel"; text = "{Database File Name}"; ObjectID = "YVR-PU-ZpA"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="Zun-me-VzS.title" xml:space="preserve">
-        <source>Databases</source>
-        <target state="translated">資料庫</target>
-        <note>Class = "UINavigationItem"; title = "Databases"; ObjectID = "Zun-me-VzS";</note>
-      </trans-unit>
-      <trans-unit id="fXt-kp-oSe.text" xml:space="preserve">
-        <source>No recent databases</source>
-        <target state="translated">沒有最近的資料庫</target>
-        <note>Class = "UILabel"; text = "No recent databases"; ObjectID = "fXt-kp-oSe";</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="KeePassium AutoFill/controllers/Base.lproj/DatabaseUnlockerVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
-    </header>
-    <body>
-      <trans-unit id="66o-BC-gwg.text" xml:space="preserve" translate="no">
-        <source>{Database file name}</source>
-        <target state="needs-translation">{Database file name}</target>
-        <note>Class = "UILabel"; text = "{Database file name}"; ObjectID = "66o-BC-gwg"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="89h-8b-LRO.normalTitle" xml:space="preserve">
-        <source>Unlock</source>
-        <target state="translated">解鎖</target>
-        <note>Class = "UIButton"; normalTitle = "Unlock"; ObjectID = "89h-8b-LRO";</note>
-      </trans-unit>
-      <trans-unit id="Dnl-vm-GMg.placeholder" xml:space="preserve">
-        <source>No Key File</source>
-        <target state="translated">沒有金鑰檔案</target>
-        <note>Class = "UITextField"; placeholder = "No Key File"; ObjectID = "Dnl-vm-GMg";</note>
-      </trans-unit>
-      <trans-unit id="U6j-Ph-AWS.placeholder" xml:space="preserve">
-        <source>Password</source>
-        <target state="translated">密碼</target>
-        <note>Class = "UITextField"; placeholder = "Password"; ObjectID = "U6j-Ph-AWS";</note>
-      </trans-unit>
-      <trans-unit id="bxv-kR-0w1.title" xml:space="preserve">
-        <source>Unlock Database</source>
-        <target state="translated">解鎖資料庫</target>
-        <note>Class = "UIViewController"; title = "Unlock Database"; ObjectID = "bxv-kR-0w1";</note>
-      </trans-unit>
-      <trans-unit id="dID-zL-AtZ.text" xml:space="preserve" translate="no">
-        <source>{Error message}</source>
-        <target state="needs-translation">{Error message}</target>
-        <note>Class = "UILabel"; text = "{Error message}"; ObjectID = "dID-zL-AtZ"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="hrv-DG-D6F.normalTitle" xml:space="preserve" translate="no">
-        <source>{News announcement}</source>
-        <target state="needs-translation">{News announcement}</target>
-        <note>Class = "UIButton"; normalTitle = "{News announcement}"; ObjectID = "hrv-DG-D6F"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="KeePassium AutoFill/controllers/Base.lproj/EntryFinderVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A5201i"/>
     </header>
     <body>
       <trans-unit id="1xY-Ij-CPq.text" xml:space="preserve" translate="no">
@@ -148,7 +79,7 @@ Please contact us if you need help with this.</source>
   </file>
   <file original="KeePassium AutoFill/controllers/Base.lproj/FirstSetupVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A5201i"/>
     </header>
     <body>
       <trans-unit id="Gck-9R-sGq.normalTitle" xml:space="preserve">
@@ -185,7 +116,7 @@ Please contact us if you need help with this.</source>
   </file>
   <file original="KeePassium AutoFill/en.lproj/InfoPlist.strings" source-language="en" target-language="zh-Hant" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A5201i"/>
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName" xml:space="preserve">
@@ -207,7 +138,7 @@ Please contact us if you need help with this.</source>
   </file>
   <file original="KeePassium AutoFill/en.lproj/Localizable.strings" source-language="en" target-language="zh-Hant" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A5201i"/>
     </header>
     <body>
       <trans-unit id="Add Database" xml:space="preserve">
@@ -360,10 +291,10 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
  請確保您有備份檔案!</target>
         <note>Message to confirm deletion of a database file. (This deletes the file itself)</note>
       </trans-unit>
-      <trans-unit id="[Database/Delete] Failed to delete database file" xml:space="preserve">
-        <source>Failed to delete database file</source>
-        <target state="translated">刪除資料庫文件失敗</target>
-        <note>Title of an error message</note>
+      <trans-unit id="[Database/Loading/ReadOnly/text]" xml:space="preserve">
+        <source>The database is read-only</source>
+        <target state="needs-translation">The database is read-only</target>
+        <note>Message shown if current database cannot be edited</note>
       </trans-unit>
       <trans-unit id="[Database/Loading/Status] Loading..." xml:space="preserve">
         <source>Loading...</source>
@@ -417,25 +348,45 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <target state="translated">正在保存...</target>
         <note>Status message: saving a database</note>
       </trans-unit>
+      <trans-unit id="[Database/Unlock/wrongPassword/question]" xml:space="preserve">
+        <source>Forgot your password?</source>
+        <target state="translated">忘記了您的密碼？</target>
+        <note>Message shown when user enters an invalid database password</note>
+      </trans-unit>
       <trans-unit id="[Database/Unlock] Key file error: %@" xml:space="preserve">
         <source>Key file error: %@</source>
         <target state="translated">金鑰檔案異常: %@</target>
         <note>Error message related to key file. [errorDetails: String]</note>
-      </trans-unit>
-      <trans-unit id="[Database/Unlock] YubiKey" xml:space="preserve">
-        <source>YubiKey</source>
-        <target state="translated">YubiKey</target>
-        <note>Action/button to setup YubiKey key component</note>
       </trans-unit>
       <trans-unit id="[Diagnostics] Diagnostic log has been copied to clipboard." xml:space="preserve">
         <source>Diagnostic log has been copied to clipboard.</source>
         <target state="translated">診斷日誌複製到剪貼簿成功。</target>
         <note>Notification/confirmation message</note>
       </trans-unit>
-      <trans-unit id="[Diagnostics] Show Diagnostic Log" xml:space="preserve">
-        <source>Show Diagnostic Log</source>
-        <target state="translated">顯示診斷日誌</target>
-        <note>Action/button to show internal diagnostic log</note>
+      <trans-unit id="[Entry/Attachment/Photo/defaultName]" xml:space="preserve">
+        <source>Photo</source>
+        <target state="needs-translation">Photo</target>
+        <note>Default name for a photo attachment</note>
+      </trans-unit>
+      <trans-unit id="[Entry/Attachment/add]" xml:space="preserve">
+        <source>Add File</source>
+        <target state="translated">新增檔案</target>
+        <note>Action/button to add a file to entry attachments</note>
+      </trans-unit>
+      <trans-unit id="[Entry/Attachment/chooseFile]" xml:space="preserve">
+        <source>Choose File</source>
+        <target state="needs-translation">Choose File</target>
+        <note>Action/button to pick a file from a list</note>
+      </trans-unit>
+      <trans-unit id="[Entry/Attachment/choosePhoto]" xml:space="preserve">
+        <source>Choose Photo</source>
+        <target state="needs-translation">Choose Photo</target>
+        <note>Action/button to select an (existing) photo from Photo Library</note>
+      </trans-unit>
+      <trans-unit id="[Entry/Attachment/takePhoto]" xml:space="preserve">
+        <source>Take Photo</source>
+        <target state="needs-translation">Take Photo</target>
+        <note>Action/button to take a new photo from camera</note>
       </trans-unit>
       <trans-unit id="[Entry/Attachments/title] Attached Files" xml:space="preserve">
         <source>Attached Files</source>
@@ -476,6 +427,31 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <source>User Name</source>
         <target state="translated">用戶名稱</target>
         <note>Name of an entry field</note>
+      </trans-unit>
+      <trans-unit id="[Entry/History/ExpiryDate] Never" xml:space="preserve">
+        <source>Never</source>
+        <target state="translated">永不</target>
+        <note>Expiry Date of an entry which does not expire.</note>
+      </trans-unit>
+      <trans-unit id="[Entry/History] Creation Date" xml:space="preserve">
+        <source>Creation Date</source>
+        <target state="translated">建立時間</target>
+        <note>Title of a field with entry creation date and time</note>
+      </trans-unit>
+      <trans-unit id="[Entry/History] Expiry Date" xml:space="preserve">
+        <source>Expiry Date</source>
+        <target state="translated">到期日期</target>
+        <note>Title of a field with date and time when the entry will no longer be valid. 'Never' is also a possible value</note>
+      </trans-unit>
+      <trans-unit id="[Entry/History] Last Access Date" xml:space="preserve">
+        <source>Last Access Date</source>
+        <target state="translated">上次存取時間</target>
+        <note>Title of a field with date and time when the entry was last accessed/viewed</note>
+      </trans-unit>
+      <trans-unit id="[Entry/History] Last Modification Date" xml:space="preserve">
+        <source>Last Modification Date</source>
+        <target state="translated">最後修改日期</target>
+        <note>Title of a field with entry's last modification date and time</note>
       </trans-unit>
       <trans-unit id="[Entry/New/defaultTitle] New Entry" xml:space="preserve">
         <source>New Entry</source>
@@ -582,6 +558,11 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <target state="translated">移除</target>
         <note>Action/button to remove a file from the app (the file remains, but the app forgets about it)</note>
       </trans-unit>
+      <trans-unit id="[Generic/Presets]" xml:space="preserve">
+        <source>Presets</source>
+        <target state="needs-translation">Presets</target>
+        <note>Title of a list with predefined quick-choice values (for example: 'Presets: 1 week, 1 months, 1 year')</note>
+      </trans-unit>
       <trans-unit id="[Generic/title] Error" xml:space="preserve">
         <source>Error</source>
         <target state="translated">錯誤</target>
@@ -631,6 +612,11 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <source>Delete</source>
         <target state="translated">刪除</target>
         <note>Action/button to delete an item (destroys the item/file)</note>
+      </trans-unit>
+      <trans-unit id="[Generic] Delete All" xml:space="preserve">
+        <source>Delete All</source>
+        <target state="needs-translation">Delete All</target>
+        <note>Action/button to delete all relevant/selected items</note>
       </trans-unit>
       <trans-unit id="[Generic] Discard" xml:space="preserve">
         <source>Discard</source>
@@ -697,6 +683,11 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <target state="translated">替換</target>
         <note>Action/button to replace an item with another one</note>
       </trans-unit>
+      <trans-unit id="[Generic] Restore" xml:space="preserve">
+        <source>Restore</source>
+        <target state="needs-translation">Restore</target>
+        <note>Action/button to restore a backup/archived item in its original place</note>
+      </trans-unit>
       <trans-unit id="[Generic] Share" xml:space="preserve">
         <source>Share</source>
         <target state="translated">分享</target>
@@ -747,6 +738,11 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <target state="translated">硬體金鑰不支持自動填充。</target>
         <note>A notification that hardware keys (e.g. YubiKey) cannot be used in AutoFill (the OS does not allow the AutoFill to use NFC/MFI).</note>
       </trans-unit>
+      <trans-unit id="[HardwareKey/Field/title]" xml:space="preserve">
+        <source>Hardware Key</source>
+        <target state="translated">硬體金鑰</target>
+        <note>Name of an input field which shows selected hardware key</note>
+      </trans-unit>
       <trans-unit id="[HardwareKey/NFC/OS too old]" xml:space="preserve">
         <source>NFC requires iOS 13 or later.</source>
         <target state="translated">NFC 需要 iOS 13 或更高版本。</target>
@@ -767,6 +763,11 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <target state="translated">幫助</target>
         <note>Generic title of in-app help article</note>
       </trans-unit>
+      <trans-unit id="[Item/History/Restored]" xml:space="preserve">
+        <source>Previous version restored</source>
+        <target state="needs-translation">Previous version restored</target>
+        <note>Notification that an archived/historical item (e.g entry) has been successfully restored</note>
+      </trans-unit>
       <trans-unit id="[ItemIconPicker/CustomIcons]" xml:space="preserve">
         <source>Custom Icons</source>
         <target state="needs-translation">Custom Icons</target>
@@ -783,6 +784,11 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <target state="translated">刪除金鑰文件?
  請確保您有備份檔案!</target>
         <note>Message to confirm deletion of a key file.</note>
+      </trans-unit>
+      <trans-unit id="[KeyFile/Field/title]" xml:space="preserve">
+        <source>Key File</source>
+        <target state="translated">金鑰檔案</target>
+        <note>Name of an input field which shows selected key file</note>
       </trans-unit>
       <trans-unit id="[KeyFile/Remove/Confirm/text] Remove key file from the list?&#10; The file will remain intact and you can add it again later." xml:space="preserve">
         <source>Remove key file from the list?
@@ -1079,6 +1085,21 @@ You can manage and cancel your subscriptions by going to your account settings o
         <target state="translated">顯示密碼</target>
         <note>Action/button to make password visible as plain-text</note>
       </trans-unit>
+      <trans-unit id="[Repeat Password/Field/title]" xml:space="preserve">
+        <source>Repeat Password</source>
+        <target state="translated">請重複輸入密碼</target>
+        <note>Name of an input field for entering the password again</note>
+      </trans-unit>
+      <trans-unit id="[Settings/FileLists/Backup/title] Backup" xml:space="preserve">
+        <source>Backup</source>
+        <target state="translated">備份</target>
+        <note>Title of a settings section about making backup files</note>
+      </trans-unit>
+      <trans-unit id="[Settings/FileLists/Sorting/title] Sorting" xml:space="preserve">
+        <source>Sorting</source>
+        <target state="translated">排序</target>
+        <note>Title of a settings section about file order in lists</note>
+      </trans-unit>
       <trans-unit id="[Support/template] (Please describe the problem here)" xml:space="preserve">
         <source>(Please describe the problem here)</source>
         <target state="translated">(請在此處描述問題)</target>
@@ -1106,26 +1127,66 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
     </body>
   </file>
-  <file original="KeePassium/challenge-response/Base.lproj/HardwareKeyPicker.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
+  <file original="KeePassium/database/Base.lproj/DatabaseCreatorVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A5201i"/>
     </header>
     <body>
-      <trans-unit id="fH6-bS-mDZ.title" xml:space="preserve">
-        <source>Choose Hardware Key</source>
-        <target state="translated">選擇硬體金鑰</target>
-        <note>Class = "UITableViewController"; title = "Choose Hardware Key"; ObjectID = "fH6-bS-mDZ"; Note = "Title of the hardware key selector (e.g. for YubiKey)";</note>
+      <trans-unit id="2iK-ct-ygq.text" xml:space="preserve">
+        <source>Database File Name</source>
+        <target state="translated">資料庫檔案名</target>
+        <note>Class = "UILabel"; text = "Database File Name"; ObjectID = "2iK-ct-ygq";</note>
       </trans-unit>
-      <trans-unit id="v2F-pa-TaY.text" xml:space="preserve" translate="no">
-        <source>{Title}</source>
-        <target state="needs-translation">{Title}</target>
-        <note>Class = "UILabel"; text = "{Title}"; ObjectID = "v2F-pa-TaY"; Note = "#bc-ignore!";</note>
+      <trans-unit id="VjQ-di-Ilx.text" xml:space="preserve">
+        <source>Master Key</source>
+        <target state="translated">主密碼</target>
+        <note>Class = "UILabel"; text = "Master Key"; ObjectID = "VjQ-di-Ilx"; Note = "Common title for the password/key file fields.";</note>
+      </trans-unit>
+      <trans-unit id="XNL-lc-2Ti.placeholder" xml:space="preserve">
+        <source>e.g. MyPasswords</source>
+        <target state="translated">例如:我的密碼</target>
+        <note>Class = "UITextField"; placeholder = "e.g. MyPasswords"; ObjectID = "XNL-lc-2Ti"; Note = "Default name for a new database.";</note>
+      </trans-unit>
+      <trans-unit id="XNL-lc-2Ti.text" xml:space="preserve">
+        <source>MyPasswords</source>
+        <target state="translated">我的密碼</target>
+        <note>Class = "UITextField"; text = "MyPasswords"; ObjectID = "XNL-lc-2Ti"; Note = "Default name for a new database.";</note>
+      </trans-unit>
+      <trans-unit id="XVR-1N-ywy.text" xml:space="preserve">
+        <source>Will use kdbx4 format (Argon2+ChaCha20)</source>
+        <target state="translated">將使用 kdbx4 格式(Argon2+ChaCha20)</target>
+        <note>Class = "UILabel"; text = "Will use kdbx4 format (Argon2+ChaCha20)"; ObjectID = "XVR-1N-ywy"; Note = "Hint about the default format of new databases.";</note>
+      </trans-unit>
+      <trans-unit id="dhd-je-Doc.title" xml:space="preserve" translate="no">
+        <source>{Create Database}</source>
+        <target state="needs-translation">{Create Database}</target>
+        <note>Class = "UINavigationItem"; title = "{Create Database}"; ObjectID = "dhd-je-Doc"; Note = "#bc-ignore!";</note>
+      </trans-unit>
+      <trans-unit id="h6C-CG-RVI.normalTitle" xml:space="preserve">
+        <source>Save Database</source>
+        <target state="translated">保存資料庫</target>
+        <note>Class = "UIButton"; normalTitle = "Save Database"; ObjectID = "h6C-CG-RVI"; Note = "Action: save the new database (will show a file picker dialog).";</note>
+      </trans-unit>
+      <trans-unit id="pvt-FS-0Yx.placeholder" xml:space="preserve">
+        <source>No Key File</source>
+        <target state="translated">沒有金鑰檔案</target>
+        <note>Class = "UITextField"; placeholder = "No Key File"; ObjectID = "pvt-FS-0Yx"; Note = "Placeholder: don't use key file (should match the No Key File option in key file picker).";</note>
+      </trans-unit>
+      <trans-unit id="uHk-Yt-mBh.placeholder" xml:space="preserve">
+        <source>Password</source>
+        <target state="translated">密碼</target>
+        <note>Class = "UITextField"; placeholder = "Password"; ObjectID = "uHk-Yt-mBh"; Note = "Placeholder: master password of the database";</note>
+      </trans-unit>
+      <trans-unit id="wiB-ZM-ePr.placeholder" xml:space="preserve" translate="no">
+        <source>{No Hardware Key}</source>
+        <target state="needs-translation">{No Hardware Key}</target>
+        <note>Class = "UITextField"; placeholder = "{No Hardware Key}"; ObjectID = "wiB-ZM-ePr";</note>
       </trans-unit>
     </body>
   </file>
-  <file original="KeePassium/database/Base.lproj/ChangeMasterKeyVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
+  <file original="KeePassium/database/Base.lproj/DatabaseKeyChangerVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A5201i"/>
     </header>
     <body>
       <trans-unit id="JKD-iF-iwA.title" xml:space="preserve">
@@ -1153,11 +1214,16 @@ You can manage and cancel your subscriptions by going to your account settings o
         <target state="needs-translation">{Database file name}</target>
         <note>Class = "UILabel"; text = "{Database file name}"; ObjectID = "lzF-lh-Cod"; Note = "#bc-ignore!";</note>
       </trans-unit>
+      <trans-unit id="o5v-tf-bLd.placeholder" xml:space="preserve" translate="no">
+        <source>{No Hardware Key}</source>
+        <target state="needs-translation">{No Hardware Key}</target>
+        <note>Class = "UITextField"; placeholder = "{No Hardware Key}"; ObjectID = "o5v-tf-bLd";</note>
+      </trans-unit>
     </body>
   </file>
-  <file original="KeePassium/database/Base.lproj/ChooseDatabaseVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
+  <file original="KeePassium/database/Base.lproj/DatabasePickerVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A5201i"/>
     </header>
     <body>
       <trans-unit id="2o3-sG-Pcm.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" xml:space="preserve">
@@ -1217,133 +1283,9 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
     </body>
   </file>
-  <file original="KeePassium/database/Base.lproj/DatabaseCreatorVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
+  <file original="KeePassium/database/entry/Base.lproj/EntryFieldViewerVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
-    </header>
-    <body>
-      <trans-unit id="2iK-ct-ygq.text" xml:space="preserve">
-        <source>Database File Name</source>
-        <target state="translated">資料庫檔案名</target>
-        <note>Class = "UILabel"; text = "Database File Name"; ObjectID = "2iK-ct-ygq";</note>
-      </trans-unit>
-      <trans-unit id="VjQ-di-Ilx.text" xml:space="preserve">
-        <source>Master Key</source>
-        <target state="translated">主密碼</target>
-        <note>Class = "UILabel"; text = "Master Key"; ObjectID = "VjQ-di-Ilx"; Note = "Common title for the password/key file fields.";</note>
-      </trans-unit>
-      <trans-unit id="XNL-lc-2Ti.placeholder" xml:space="preserve">
-        <source>e.g. MyPasswords</source>
-        <target state="translated">例如:我的密碼</target>
-        <note>Class = "UITextField"; placeholder = "e.g. MyPasswords"; ObjectID = "XNL-lc-2Ti"; Note = "Default name for a new database.";</note>
-      </trans-unit>
-      <trans-unit id="XNL-lc-2Ti.text" xml:space="preserve">
-        <source>MyPasswords</source>
-        <target state="translated">我的密碼</target>
-        <note>Class = "UITextField"; text = "MyPasswords"; ObjectID = "XNL-lc-2Ti"; Note = "Default name for a new database.";</note>
-      </trans-unit>
-      <trans-unit id="XVR-1N-ywy.text" xml:space="preserve">
-        <source>Will use kdbx4 format (Argon2+ChaCha20)</source>
-        <target state="translated">將使用 kdbx4 格式(Argon2+ChaCha20)</target>
-        <note>Class = "UILabel"; text = "Will use kdbx4 format (Argon2+ChaCha20)"; ObjectID = "XVR-1N-ywy"; Note = "Hint about the default format of new databases.";</note>
-      </trans-unit>
-      <trans-unit id="bNa-R0-f67.accessibilityLabel" xml:space="preserve">
-        <source>Show Diagnostics</source>
-        <target state="translated">顯示診斷結果</target>
-        <note>Class = "UIButton"; accessibilityLabel = "Show Diagnostics"; ObjectID = "bNa-R0-f67";</note>
-      </trans-unit>
-      <trans-unit id="dhd-je-Doc.title" xml:space="preserve" translate="no">
-        <source>{Create Database}</source>
-        <target state="needs-translation">{Create Database}</target>
-        <note>Class = "UINavigationItem"; title = "{Create Database}"; ObjectID = "dhd-je-Doc"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="h6C-CG-RVI.normalTitle" xml:space="preserve">
-        <source>Save Database</source>
-        <target state="translated">保存資料庫</target>
-        <note>Class = "UIButton"; normalTitle = "Save Database"; ObjectID = "h6C-CG-RVI"; Note = "Action: save the new database (will show a file picker dialog).";</note>
-      </trans-unit>
-      <trans-unit id="pvt-FS-0Yx.placeholder" xml:space="preserve">
-        <source>No Key File</source>
-        <target state="translated">沒有金鑰檔案</target>
-        <note>Class = "UITextField"; placeholder = "No Key File"; ObjectID = "pvt-FS-0Yx"; Note = "Placeholder: don't use key file (should match the No Key File option in key file picker).";</note>
-      </trans-unit>
-      <trans-unit id="uHk-Yt-mBh.placeholder" xml:space="preserve">
-        <source>Password</source>
-        <target state="translated">密碼</target>
-        <note>Class = "UITextField"; placeholder = "Password"; ObjectID = "uHk-Yt-mBh"; Note = "Placeholder: master password of the database";</note>
-      </trans-unit>
-      <trans-unit id="wb0-s2-V8n.text" xml:space="preserve" translate="no">
-        <source>{Error message}</source>
-        <target state="needs-translation">{Error message}</target>
-        <note>Class = "UILabel"; text = "{Error message}"; ObjectID = "wb0-s2-V8n"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="KeePassium/database/Base.lproj/UnlockDatabaseVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
-    </header>
-    <body>
-      <trans-unit id="APT-2C-WiG.normalTitle" xml:space="preserve" translate="no">
-        <source>{news}</source>
-        <target state="needs-translation">{news}</target>
-        <note>Class = "UIButton"; normalTitle = "{news}"; ObjectID = "APT-2C-WiG"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="CuN-tE-lAG.placeholder" xml:space="preserve">
-        <source>Password</source>
-        <target state="translated">密碼</target>
-        <note>Class = "UITextField"; placeholder = "Password"; ObjectID = "CuN-tE-lAG"; Note = "Placeholder: database password";</note>
-      </trans-unit>
-      <trans-unit id="K3Y-ON-C19.text" xml:space="preserve">
-        <source>Will use the remembered master key.</source>
-        <target state="translated">將會使用記住的主密碼。</target>
-        <note>Class = "UILabel"; text = "Will use the remembered master key."; ObjectID = "K3Y-ON-C19"; Note = "Hint shown below the Unlock button, when not asking for master password/key file.";</note>
-      </trans-unit>
-      <trans-unit id="LsQ-5N-nP3.text" xml:space="preserve" translate="no">
-        <source>{Database file name}</source>
-        <target state="needs-translation">{Database file name}</target>
-        <note>Class = "UILabel"; text = "{Database file name}"; ObjectID = "LsQ-5N-nP3"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="d2U-7y-vCm.text" xml:space="preserve" translate="no">
-        <source>{Error message}</source>
-        <target state="needs-translation">{Error message}</target>
-        <note>Class = "UILabel"; text = "{Error message}"; ObjectID = "d2U-7y-vCm"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="eAa-Z5-pdq.title" xml:space="preserve">
-        <source>Unlock Database</source>
-        <target state="translated">解鎖資料庫</target>
-        <note>Class = "UIViewController"; title = "Unlock Database"; ObjectID = "eAa-Z5-pdq"; Note = "Title of the database unlocker dialog.";</note>
-      </trans-unit>
-      <trans-unit id="epu-yU-Lyg.text" xml:space="preserve">
-        <source>Database was closed by a timer.</source>
-        <target state="translated">資料庫已經被計時器關閉。</target>
-        <note>Class = "UILabel"; text = "Database was closed by a timer."; ObjectID = "epu-yU-Lyg"; Note = "Notification message shown by database lock timer.";</note>
-      </trans-unit>
-      <trans-unit id="gji-1x-co5.normalTitle" xml:space="preserve">
-        <source>Lock Database</source>
-        <target state="translated">鎖定資料庫</target>
-        <note>Class = "UIButton"; normalTitle = "Lock Database"; ObjectID = "gji-1x-co5";</note>
-      </trans-unit>
-      <trans-unit id="l45-hq-1lr.normalTitle" xml:space="preserve">
-        <source>Unlock</source>
-        <target state="translated">解鎖</target>
-        <note>Class = "UIButton"; normalTitle = "Unlock"; ObjectID = "l45-hq-1lr";</note>
-      </trans-unit>
-      <trans-unit id="mYY-hP-3vH.placeholder" xml:space="preserve">
-        <source>No Key File</source>
-        <target state="translated">沒有金鑰檔案</target>
-        <note>Class = "UITextField"; placeholder = "No Key File"; ObjectID = "mYY-hP-3vH"; Note = "Placeholder: don't use key file (should match the No Key File option in key file picker).";</note>
-      </trans-unit>
-      <trans-unit id="nrD-QC-R8N.accessibilityLabel" xml:space="preserve">
-        <source>Show Diagnostics</source>
-        <target state="translated">顯示診斷結果</target>
-        <note>Class = "UIButton"; accessibilityLabel = "Show Diagnostics"; ObjectID = "nrD-QC-R8N"; Note = "Action to show detailed diagnostics about the current error.";</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="KeePassium/database/entry/Base.lproj/ViewEntryFieldsVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A5201i"/>
     </header>
     <body>
       <trans-unit id="1r1-bD-3m7.text" xml:space="preserve" translate="no">
@@ -1413,9 +1355,9 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
     </body>
   </file>
-  <file original="KeePassium/database/entry/Base.lproj/ViewEntryFilesVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
+  <file original="KeePassium/database/entry/Base.lproj/EntryFileViewerVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A5201i"/>
     </header>
     <body>
       <trans-unit id="Kbg-2Y-UcU.text" xml:space="preserve" translate="no">
@@ -1440,9 +1382,9 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
     </body>
   </file>
-  <file original="KeePassium/database/entry/Base.lproj/ViewEntryHistoryVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
+  <file original="KeePassium/database/entry/Base.lproj/EntryHistoryViewerVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A5201i"/>
     </header>
     <body>
       <trans-unit id="E9b-9K-I4D.text" xml:space="preserve" translate="no">
@@ -1450,10 +1392,20 @@ You can manage and cancel your subscriptions by going to your account settings o
         <target state="needs-translation">{Timestamp}</target>
         <note>Class = "UILabel"; text = "{Timestamp}"; ObjectID = "E9b-9K-I4D"; Note = "#bc-ignore!";</note>
       </trans-unit>
+      <trans-unit id="Ehv-N1-EYK.text" xml:space="preserve" translate="no">
+        <source>{Title}</source>
+        <target state="needs-translation">{Title}</target>
+        <note>Class = "UILabel"; text = "{Title}"; ObjectID = "Ehv-N1-EYK";</note>
+      </trans-unit>
       <trans-unit id="RUE-Cg-Lxv.text" xml:space="preserve" translate="no">
         <source>{History Entry Title}</source>
         <target state="needs-translation">{History Entry Title}</target>
         <note>Class = "UILabel"; text = "{History Entry Title}"; ObjectID = "RUE-Cg-Lxv"; Note = "#bc-ignore!";</note>
+      </trans-unit>
+      <trans-unit id="bKw-7a-38Q.text" xml:space="preserve" translate="no">
+        <source>{Subtitle}</source>
+        <target state="needs-translation">{Subtitle}</target>
+        <note>Class = "UILabel"; text = "{Subtitle}"; ObjectID = "bKw-7a-38Q";</note>
       </trans-unit>
       <trans-unit id="bPL-8Z-oet.text" xml:space="preserve" translate="no">
         <source>{History Entry Subtitle}</source>
@@ -1465,23 +1417,23 @@ You can manage and cancel your subscriptions by going to your account settings o
         <target state="translated">沒有以前的版本</target>
         <note>Class = "UILabel"; text = "There are no previous versions"; ObjectID = "bzL-mr-Hrz"; Note = "Placeholder text shown when the entry does not have previous versions/revisions (has never been changed)";</note>
       </trans-unit>
+      <trans-unit id="dDj-Ye-gUX.text" xml:space="preserve" translate="no">
+        <source>{Title}</source>
+        <target state="needs-translation">{Title}</target>
+        <note>Class = "UILabel"; text = "{Title}"; ObjectID = "dDj-Ye-gUX";</note>
+      </trans-unit>
+      <trans-unit id="zAd-iY-AKq.text" xml:space="preserve" translate="no">
+        <source>{Value}</source>
+        <target state="needs-translation">{Value}</target>
+        <note>Class = "UILabel"; text = "{Value}"; ObjectID = "zAd-iY-AKq";</note>
+      </trans-unit>
     </body>
   </file>
-  <file original="KeePassium/database/entry/Base.lproj/ViewEntryVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
+  <file original="KeePassium/database/entry/Base.lproj/EntryViewerPagesVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A5201i"/>
     </header>
     <body>
-      <trans-unit id="1XK-tJ-aQW.text" xml:space="preserve" translate="no">
-        <source>{Entry Title}</source>
-        <target state="needs-translation">{Entry Title}</target>
-        <note>Class = "UILabel"; text = "{Entry Title}"; ObjectID = "1XK-tJ-aQW"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="dT5-IW-ZsZ.text" xml:space="preserve" translate="no">
-        <source>{Timestamp}</source>
-        <target state="needs-translation">{Timestamp}</target>
-        <note>Class = "UILabel"; text = "{Timestamp}"; ObjectID = "dT5-IW-ZsZ"; Note = "#bc-ignore!";</note>
-      </trans-unit>
       <trans-unit id="g9A-4w-Dsa.segmentTitles[0]" xml:space="preserve">
         <source>General</source>
         <target state="translated">一般</target>
@@ -1501,7 +1453,7 @@ You can manage and cancel your subscriptions by going to your account settings o
   </file>
   <file original="KeePassium/database/entry/edit/Base.lproj/EntryFieldEditorVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A5201i"/>
     </header>
     <body>
       <trans-unit id="0pb-xb-fuf.text" xml:space="preserve">
@@ -1626,9 +1578,31 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
     </body>
   </file>
+  <file original="KeePassium/database/expiry-date/Base.lproj/ExpiryDateEditorVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A5201i"/>
+    </header>
+    <body>
+      <trans-unit id="GWy-pa-ObH.normalTitle" xml:space="preserve" translate="no">
+        <source>{Presets}</source>
+        <target state="needs-translation">{Presets}</target>
+        <note>Class = "UIButton"; normalTitle = "{Presets}"; ObjectID = "GWy-pa-ObH";</note>
+      </trans-unit>
+      <trans-unit id="l3J-dw-rb1.text" xml:space="preserve" translate="no">
+        <source>{In 6 months}</source>
+        <target state="needs-translation">{In 6 months}</target>
+        <note>Class = "UILabel"; text = "{In 6 months}"; ObjectID = "l3J-dw-rb1";</note>
+      </trans-unit>
+      <trans-unit id="rMO-s6-jEi.text" xml:space="preserve" translate="no">
+        <source>{Never}</source>
+        <target state="needs-translation">{Never}</target>
+        <note>Class = "UILabel"; text = "{Never}"; ObjectID = "rMO-s6-jEi";</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="KeePassium/database/group/Base.lproj/GroupEditorVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A5201i"/>
     </header>
     <body>
       <trans-unit id="W6c-47-p86.title" xml:space="preserve" translate="no">
@@ -1648,9 +1622,9 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
     </body>
   </file>
-  <file original="KeePassium/database/group/Base.lproj/ViewGroupVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
+  <file original="KeePassium/database/group/Base.lproj/GroupViewerVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A5201i"/>
     </header>
     <body>
       <trans-unit id="5Db-9q-PM7.text" xml:space="preserve" translate="no">
@@ -1667,11 +1641,6 @@ You can manage and cancel your subscriptions by going to your account settings o
         <source>Lock Database</source>
         <target state="translated">鎖定資料庫</target>
         <note>Class = "UIBarButtonItem"; 9KV-rC-1XL.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Lock Database"; ObjectID = "9KV-rC-1XL";</note>
-      </trans-unit>
-      <trans-unit id="A8h-F7-ipn.text" xml:space="preserve" translate="no">
-        <source>{Group subtitle}</source>
-        <target state="needs-translation">{Group subtitle}</target>
-        <note>Class = "UILabel"; text = "{Group subtitle}"; ObjectID = "A8h-F7-ipn"; Note = "#bc-ignore!";</note>
       </trans-unit>
       <trans-unit id="M5a-Ld-ZXd.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" xml:space="preserve">
         <source>Sort Order</source>
@@ -1708,16 +1677,28 @@ You can manage and cancel your subscriptions by going to your account settings o
         <target state="needs-translation">{nItems}</target>
         <note>Class = "UILabel"; text = "{nItems}"; ObjectID = "ttY-yZ-yRg"; Note = "#bc-ignore!";</note>
       </trans-unit>
-      <trans-unit id="yQP-VD-gVT.text" xml:space="preserve" translate="no">
-        <source>{Group Title}</source>
-        <target state="needs-translation">{Group Title}</target>
-        <note>Class = "UILabel"; text = "{Group Title}"; ObjectID = "yQP-VD-gVT"; Note = "#bc-ignore!";</note>
+    </body>
+  </file>
+  <file original="KeePassium/database/hardware-key/Base.lproj/HardwareKeyPicker.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A5201i"/>
+    </header>
+    <body>
+      <trans-unit id="fH6-bS-mDZ.title" xml:space="preserve">
+        <source>Choose Hardware Key</source>
+        <target state="translated">選擇硬體金鑰</target>
+        <note>Class = "UITableViewController"; title = "Choose Hardware Key"; ObjectID = "fH6-bS-mDZ"; Note = "Title of the hardware key selector (e.g. for YubiKey)";</note>
+      </trans-unit>
+      <trans-unit id="v2F-pa-TaY.text" xml:space="preserve" translate="no">
+        <source>{Title}</source>
+        <target state="needs-translation">{Title}</target>
+        <note>Class = "UILabel"; text = "{Title}"; ObjectID = "v2F-pa-TaY"; Note = "#bc-ignore!";</note>
       </trans-unit>
     </body>
   </file>
   <file original="KeePassium/database/icon/Base.lproj/ItemIconPicker.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A5201i"/>
     </header>
     <body>
       <trans-unit id="H8v-gf-kff.title" xml:space="preserve">
@@ -1734,13 +1715,18 @@ You can manage and cancel your subscriptions by going to your account settings o
   </file>
   <file original="KeePassium/database/key-file/Base.lproj/KeyFilePickerVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A5201i"/>
     </header>
     <body>
       <trans-unit id="9UZ-FK-v73.text" xml:space="preserve">
         <source>No Key File</source>
         <target state="translated">沒有金鑰檔案</target>
         <note>Class = "UILabel"; text = "No Key File"; ObjectID = "9UZ-FK-v73";</note>
+      </trans-unit>
+      <trans-unit id="BGv-TX-maE.text" xml:space="preserve">
+        <source>Use key file without adding it to the list</source>
+        <target state="needs-translation">Use key file without adding it to the list</target>
+        <note>Class = "UILabel"; text = "Use key file without adding it to the list"; ObjectID = "BGv-TX-maE"; Note = "Explanation for the \"Key File/Browse\" action.";</note>
       </trans-unit>
       <trans-unit id="Lod-RE-tcd.title" xml:space="preserve">
         <source>Add Key File</source>
@@ -1751,6 +1737,11 @@ You can manage and cancel your subscriptions by going to your account settings o
         <source>Add Key File</source>
         <target state="translated">添加金鑰檔案</target>
         <note>Class = "UIButton"; normalTitle = "Add Key File"; ObjectID = "Omh-Sn-jl2";</note>
+      </trans-unit>
+      <trans-unit id="XiA-k9-5wr.text" xml:space="preserve">
+        <source>Browse…</source>
+        <target state="needs-translation">Browse…</target>
+        <note>Class = "UILabel"; text = "Browse…"; ObjectID = "XiA-k9-5wr"; Note = "Action to open a file selection dialog";</note>
       </trans-unit>
       <trans-unit id="jCW-yW-0I5.text" xml:space="preserve" translate="no">
         <source>{Database File Name}</source>
@@ -1776,7 +1767,7 @@ You can manage and cancel your subscriptions by going to your account settings o
   </file>
   <file original="KeePassium/database/relocation/Base.lproj/DestinationGroupPickerVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A5201i"/>
     </header>
     <body>
       <trans-unit id="Ypt-ow-bC3.text" xml:space="preserve" translate="no">
@@ -1796,9 +1787,61 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
     </body>
   </file>
+  <file original="KeePassium/database/unlocker/Base.lproj/DatabaseUnlockerVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A5201i"/>
+    </header>
+    <body>
+      <trans-unit id="CuN-tE-lAG.placeholder" xml:space="preserve">
+        <source>Password</source>
+        <target state="translated">密碼</target>
+        <note>Class = "UITextField"; placeholder = "Password"; ObjectID = "CuN-tE-lAG"; Note = "Placeholder: database password";</note>
+      </trans-unit>
+      <trans-unit id="IDJ-gO-5kR.placeholder" xml:space="preserve" translate="no">
+        <source>{No Hardware Key}</source>
+        <target state="needs-translation">{No Hardware Key}</target>
+        <note>Class = "UITextField"; placeholder = "{No Hardware Key}"; ObjectID = "IDJ-gO-5kR";</note>
+      </trans-unit>
+      <trans-unit id="K3Y-ON-C19.text" xml:space="preserve">
+        <source>Will use the remembered master key.</source>
+        <target state="translated">將會使用記住的主密碼。</target>
+        <note>Class = "UILabel"; text = "Will use the remembered master key."; ObjectID = "K3Y-ON-C19"; Note = "Hint shown below the Unlock button, when not asking for master password/key file.";</note>
+      </trans-unit>
+      <trans-unit id="LsQ-5N-nP3.text" xml:space="preserve" translate="no">
+        <source>{Database file name}</source>
+        <target state="needs-translation">{Database file name}</target>
+        <note>Class = "UILabel"; text = "{Database file name}"; ObjectID = "LsQ-5N-nP3"; Note = "#bc-ignore!";</note>
+      </trans-unit>
+      <trans-unit id="eAa-Z5-pdq.title" xml:space="preserve">
+        <source>Unlock Database</source>
+        <target state="translated">解鎖資料庫</target>
+        <note>Class = "UIViewController"; title = "Unlock Database"; ObjectID = "eAa-Z5-pdq"; Note = "Title of the database unlocker dialog.";</note>
+      </trans-unit>
+      <trans-unit id="epu-yU-Lyg.text" xml:space="preserve">
+        <source>Database was closed by a timer.</source>
+        <target state="translated">資料庫已經被計時器關閉。</target>
+        <note>Class = "UILabel"; text = "Database was closed by a timer."; ObjectID = "epu-yU-Lyg"; Note = "Notification message shown by database lock timer.";</note>
+      </trans-unit>
+      <trans-unit id="gji-1x-co5.normalTitle" xml:space="preserve">
+        <source>Lock Database</source>
+        <target state="translated">鎖定資料庫</target>
+        <note>Class = "UIButton"; normalTitle = "Lock Database"; ObjectID = "gji-1x-co5";</note>
+      </trans-unit>
+      <trans-unit id="l45-hq-1lr.normalTitle" xml:space="preserve">
+        <source>Unlock</source>
+        <target state="translated">解鎖</target>
+        <note>Class = "UIButton"; normalTitle = "Unlock"; ObjectID = "l45-hq-1lr";</note>
+      </trans-unit>
+      <trans-unit id="mYY-hP-3vH.placeholder" xml:space="preserve">
+        <source>No Key File</source>
+        <target state="translated">沒有金鑰檔案</target>
+        <note>Class = "UITextField"; placeholder = "No Key File"; ObjectID = "mYY-hP-3vH"; Note = "Placeholder: don't use key file (should match the No Key File option in key file picker).";</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="KeePassium/en.lproj/InfoPlist.strings" source-language="en" target-language="zh-Hant" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A5201i"/>
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName" xml:space="preserve">
@@ -1850,7 +1893,7 @@ You can manage and cancel your subscriptions by going to your account settings o
   </file>
   <file original="KeePassium/en.lproj/Localizable.strings" source-language="en" target-language="zh-Hant" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A5201i"/>
     </header>
     <body>
       <trans-unit id="Add Database" xml:space="preserve">
@@ -1932,6 +1975,16 @@ You can manage and cancel your subscriptions by going to your account settings o
         <source>Text Size</source>
         <target state="translated">文字大小</target>
         <note>Title of a setting option: font size</note>
+      </trans-unit>
+      <trans-unit id="[AutoFill/Premium/Upgrade/Manual/text] To upgrade, please manually open KeePassium from your home screen." xml:space="preserve">
+        <source>To upgrade, please manually open KeePassium from your home screen.</source>
+        <target state="translated">如果要升級，請從主屏幕右上角+號中, 手動打開升級介面。</target>
+        <note>Message shown when AutoFill cannot automatically open the main app for upgrading to a premium version.</note>
+      </trans-unit>
+      <trans-unit id="[AutoFill/Premium/Upgrade/Manual/title] Premium Upgrade" xml:space="preserve">
+        <source>Premium Upgrade</source>
+        <target state="translated">升級進階版</target>
+        <note>Title of a message related to upgrading to the premium version</note>
       </trans-unit>
       <trans-unit id="[BiometricAuthType] Face ID" xml:space="preserve">
         <source>Face ID</source>
@@ -2035,6 +2088,11 @@ You can manage and cancel your subscriptions by going to your account settings o
  請確保您有備份檔案!</target>
         <note>Message to confirm deletion of a database file. (This deletes the file itself)</note>
       </trans-unit>
+      <trans-unit id="[Database/Loading/ReadOnly/text]" xml:space="preserve">
+        <source>The database is read-only</source>
+        <target state="needs-translation">The database is read-only</target>
+        <note>Message shown if current database cannot be edited</note>
+      </trans-unit>
       <trans-unit id="[Database/Loading/Status] Loading..." xml:space="preserve">
         <source>Loading...</source>
         <target state="translated">載入中...</target>
@@ -2107,15 +2165,15 @@ You can manage and cancel your subscriptions by going to your account settings o
         <target state="translated">正在保存...</target>
         <note>Status message: saving a database</note>
       </trans-unit>
+      <trans-unit id="[Database/Unlock/wrongPassword/question]" xml:space="preserve">
+        <source>Forgot your password?</source>
+        <target state="translated">忘記了您的密碼？</target>
+        <note>Message shown when user enters an invalid database password</note>
+      </trans-unit>
       <trans-unit id="[Database/Unlock] Key file error: %@" xml:space="preserve">
         <source>Key file error: %@</source>
         <target state="translated">金鑰檔案異常: %@</target>
         <note>Error message related to key file. [errorDetails: String]</note>
-      </trans-unit>
-      <trans-unit id="[Database/Unlock] YubiKey" xml:space="preserve">
-        <source>YubiKey</source>
-        <target state="translated">YubiKey</target>
-        <note>Action/button to setup YubiKey key component</note>
       </trans-unit>
       <trans-unit id="[Diagnostics] Diagnostic log has been copied to clipboard." xml:space="preserve">
         <source>Diagnostic log has been copied to clipboard.</source>
@@ -2126,6 +2184,36 @@ You can manage and cancel your subscriptions by going to your account settings o
         <source>Choose</source>
         <target state="translated">選擇</target>
         <note>Action: choose a username from a list</note>
+      </trans-unit>
+      <trans-unit id="[Entry/Attachment/Photo/defaultName]" xml:space="preserve">
+        <source>Photo</source>
+        <target state="needs-translation">Photo</target>
+        <note>Default name for a photo attachment</note>
+      </trans-unit>
+      <trans-unit id="[Entry/Attachment/add]" xml:space="preserve">
+        <source>Add File</source>
+        <target state="translated">新增檔案</target>
+        <note>Action/button to add a file to entry attachments</note>
+      </trans-unit>
+      <trans-unit id="[Entry/Attachment/chooseFile]" xml:space="preserve">
+        <source>Choose File</source>
+        <target state="needs-translation">Choose File</target>
+        <note>Action/button to pick a file from a list</note>
+      </trans-unit>
+      <trans-unit id="[Entry/Attachment/choosePhoto]" xml:space="preserve">
+        <source>Choose Photo</source>
+        <target state="needs-translation">Choose Photo</target>
+        <note>Action/button to select an (existing) photo from Photo Library</note>
+      </trans-unit>
+      <trans-unit id="[Entry/Attachment/takePhoto]" xml:space="preserve">
+        <source>Take Photo</source>
+        <target state="needs-translation">Take Photo</target>
+        <note>Action/button to take a new photo from camera</note>
+      </trans-unit>
+      <trans-unit id="[Entry/Attachments/preview]" xml:space="preserve">
+        <source>Preview</source>
+        <target state="needs-translation">Preview</target>
+        <note>Action to preview one or several attached documents or images</note>
       </trans-unit>
       <trans-unit id="[Entry/Attachments/title] Attached Files" xml:space="preserve">
         <source>Attached Files</source>
@@ -2327,6 +2415,11 @@ You can manage and cancel your subscriptions by going to your account settings o
         <target state="translated">移除</target>
         <note>Action/button to remove a file from the app (the file remains, but the app forgets about it)</note>
       </trans-unit>
+      <trans-unit id="[Generic/Presets]" xml:space="preserve">
+        <source>Presets</source>
+        <target state="needs-translation">Presets</target>
+        <note>Title of a list with predefined quick-choice values (for example: 'Presets: 1 week, 1 months, 1 year')</note>
+      </trans-unit>
       <trans-unit id="[Generic/title] Error" xml:space="preserve">
         <source>Error</source>
         <target state="translated">錯誤</target>
@@ -2376,6 +2469,11 @@ You can manage and cancel your subscriptions by going to your account settings o
         <source>Delete</source>
         <target state="translated">刪除</target>
         <note>Action/button to delete an item (destroys the item/file)</note>
+      </trans-unit>
+      <trans-unit id="[Generic] Delete All" xml:space="preserve">
+        <source>Delete All</source>
+        <target state="needs-translation">Delete All</target>
+        <note>Action/button to delete all relevant/selected items</note>
       </trans-unit>
       <trans-unit id="[Generic] Discard" xml:space="preserve">
         <source>Discard</source>
@@ -2442,6 +2540,11 @@ You can manage and cancel your subscriptions by going to your account settings o
         <target state="translated">替換</target>
         <note>Action/button to replace an item with another one</note>
       </trans-unit>
+      <trans-unit id="[Generic] Restore" xml:space="preserve">
+        <source>Restore</source>
+        <target state="needs-translation">Restore</target>
+        <note>Action/button to restore a backup/archived item in its original place</note>
+      </trans-unit>
       <trans-unit id="[Generic] Share" xml:space="preserve">
         <source>Share</source>
         <target state="translated">分享</target>
@@ -2492,6 +2595,11 @@ You can manage and cancel your subscriptions by going to your account settings o
         <target state="translated">硬體金鑰不支持自動填充。</target>
         <note>A notification that hardware keys (e.g. YubiKey) cannot be used in AutoFill (the OS does not allow the AutoFill to use NFC/MFI).</note>
       </trans-unit>
+      <trans-unit id="[HardwareKey/Field/title]" xml:space="preserve">
+        <source>Hardware Key</source>
+        <target state="translated">硬體金鑰</target>
+        <note>Name of an input field which shows selected hardware key</note>
+      </trans-unit>
       <trans-unit id="[HardwareKey/NFC/OS too old]" xml:space="preserve">
         <source>NFC requires iOS 13 or later.</source>
         <target state="translated">NFC 需要 iOS 13 或更高版本。</target>
@@ -2511,6 +2619,11 @@ You can manage and cancel your subscriptions by going to your account settings o
         <source>Help</source>
         <target state="translated">幫助</target>
         <note>Generic title of in-app help article</note>
+      </trans-unit>
+      <trans-unit id="[Item/History/Restored]" xml:space="preserve">
+        <source>Previous version restored</source>
+        <target state="needs-translation">Previous version restored</target>
+        <note>Notification that an archived/historical item (e.g entry) has been successfully restored</note>
       </trans-unit>
       <trans-unit id="[ItemCategory] Default (KeePass)" xml:space="preserve">
         <source>Default (KeePass)</source>
@@ -2533,6 +2646,11 @@ You can manage and cancel your subscriptions by going to your account settings o
         <target state="translated">刪除金鑰文件?
  請確保您有備份檔案!</target>
         <note>Message to confirm deletion of a key file.</note>
+      </trans-unit>
+      <trans-unit id="[KeyFile/Field/title]" xml:space="preserve">
+        <source>Key File</source>
+        <target state="translated">金鑰檔案</target>
+        <note>Name of an input field which shows selected key file</note>
       </trans-unit>
       <trans-unit id="[KeyFile/Remove/Confirm/text] Remove key file from the list?&#10; The file will remain intact and you can add it again later." xml:space="preserve">
         <source>Remove key file from the list?
@@ -2834,10 +2952,20 @@ You can manage and cancel your subscriptions by going to your account settings o
         <target state="translated">測試版本</target>
         <note>Status: special premium for beta-testing environment is active</note>
       </trans-unit>
+      <trans-unit id="[Premium/status] Current version: %@" xml:space="preserve">
+        <source>Current version: %@</source>
+        <target state="needs-translation">Current version: %@</target>
+        <note>Status: current version of the app. For example: `Current version: 1.23`. Should be similar to the `Licensed version` string. [version: String]</note>
+      </trans-unit>
       <trans-unit id="[Premium/status] Expired %@ ago. Please renew." xml:space="preserve">
         <source>Expired %@ ago. Please renew.</source>
         <target state="translated">已經到期 %@ 天, 請續訂。</target>
         <note>Status: premium subscription has expired. For example: `Expired 1 day ago`. [timeFormatted: String, includes the time unit (day, hour, minute)]</note>
+      </trans-unit>
+      <trans-unit id="[Premium/status] Licensed version: %@" xml:space="preserve">
+        <source>Licensed version: %@</source>
+        <target state="needs-translation">Licensed version: %@</target>
+        <note>Status: licensed premium version of the app. For example: `Licensed version: 1.23`. [version: String]</note>
       </trans-unit>
       <trans-unit id="[Premium/status] Next renewal on %@" xml:space="preserve">
         <source>Next renewal on %@</source>
@@ -2913,6 +3041,11 @@ You can manage and cancel your subscriptions by going to your account settings o
         <source>Show Password</source>
         <target state="translated">顯示密碼</target>
         <note>Action/button to make password visible as plain-text</note>
+      </trans-unit>
+      <trans-unit id="[Repeat Password/Field/title]" xml:space="preserve">
+        <source>Repeat Password</source>
+        <target state="translated">請重複輸入密碼</target>
+        <note>Name of an input field for entering the password again</note>
       </trans-unit>
       <trans-unit id="[Settings/AppLock/Biometric/title] Use %@" xml:space="preserve">
         <source>Use %@</source>
@@ -3009,6 +3142,56 @@ You can manage and cancel your subscriptions by going to your account settings o
         <target state="translated">(請在此處描述問題)</target>
         <note>Template text of a bug report email</note>
       </trans-unit>
+      <trans-unit id="[TipBox/callToAction/1]" xml:space="preserve">
+        <source>Help us make KeePassium better!</source>
+        <target state="needs-translation">Help us make KeePassium better!</target>
+        <note>Call to action in the Donations screen.</note>
+      </trans-unit>
+      <trans-unit id="[TipBox/callToAction/2]" xml:space="preserve">
+        <source>Help us keep KeePassium shiny!</source>
+        <target state="needs-translation">Help us keep KeePassium shiny!</target>
+        <note>Call to action in the Donations screen.</note>
+      </trans-unit>
+      <trans-unit id="[TipBox/callToAction/3]" xml:space="preserve">
+        <source>Help us keep KeePassium free!</source>
+        <target state="needs-translation">Help us keep KeePassium free!</target>
+        <note>Call to action in the Donations screen. (free = gratis)</note>
+      </trans-unit>
+      <trans-unit id="[TipBox/description/1]" xml:space="preserve">
+        <source>Do you like KeePassium?</source>
+        <target state="needs-translation">Do you like KeePassium?</target>
+        <note>Text in the Donations screen.</note>
+      </trans-unit>
+      <trans-unit id="[TipBox/description/2]" xml:space="preserve">
+        <source>KeePassium is a free open-source app. You trust it with your most sensitive information. There are no ads, no spying, no nonsense — we respect you.</source>
+        <target state="needs-translation">KeePassium is a free open-source app. You trust it with your most sensitive information. There are no ads, no spying, no nonsense — we respect you.</target>
+        <note>Text in the Donations screen.</note>
+      </trans-unit>
+      <trans-unit id="[TipBox/description/3]" xml:space="preserve">
+        <source>Do you like KeePassium but don't need the premium features?</source>
+        <target state="needs-translation">Do you like KeePassium but don't need the premium features?</target>
+        <note>Text in the Donations screen.</note>
+      </trans-unit>
+      <trans-unit id="[TipBox/thankYou]" xml:space="preserve">
+        <source>Thank you!</source>
+        <target state="needs-translation">Thank you!</target>
+        <note>Notification after a successful donation.</note>
+      </trans-unit>
+      <trans-unit id="[TipBox/title/1]" xml:space="preserve">
+        <source>Tip Jar</source>
+        <target state="needs-translation">Tip Jar</target>
+        <note>Title of the tip box/donation screen.</note>
+      </trans-unit>
+      <trans-unit id="[TipBox/title/2]" xml:space="preserve">
+        <source>Donations</source>
+        <target state="needs-translation">Donations</target>
+        <note>Title of the tip box/donation screen.</note>
+      </trans-unit>
+      <trans-unit id="[TipBox/title/3]" xml:space="preserve">
+        <source>Support KeePassium</source>
+        <target state="needs-translation">Support KeePassium</target>
+        <note>Call to action, title of the tip box/donation screen.</note>
+      </trans-unit>
       <trans-unit id="[YubiKey] Don't use YubiKey" xml:space="preserve">
         <source>Without YubiKey</source>
         <target state="translated">不使用YubiKey</target>
@@ -3031,9 +3214,9 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
     </body>
   </file>
-  <file original="KeePassium/general/Base.lproj/AboutVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
+  <file original="KeePassium/general/about/Base.lproj/AboutVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A5201i"/>
     </header>
     <body>
       <trans-unit id="0mb-N7-JBa.headerTitle" xml:space="preserve" translate="no">
@@ -3320,7 +3503,7 @@ You can manage and cancel your subscriptions by going to your account settings o
   </file>
   <file original="KeePassium/general/Base.lproj/FileInfoVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A5201i"/>
     </header>
     <body>
       <trans-unit id="Cu8-bv-TEu.title" xml:space="preserve">
@@ -3357,7 +3540,7 @@ You can manage and cancel your subscriptions by going to your account settings o
   </file>
   <file original="KeePassium/general/Base.lproj/PasscodeInputVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A5201i"/>
     </header>
     <body>
       <trans-unit id="3mQ-t6-0ty.text" xml:space="preserve" translate="no">
@@ -3392,38 +3575,9 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
     </body>
   </file>
-  <file original="KeePassium/general/Base.lproj/WelcomeVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
-    </header>
-    <body>
-      <trans-unit id="1Nc-wz-Yqq.title" xml:space="preserve">
-        <source>Welcome</source>
-        <target state="translated">歡迎使用</target>
-        <note>Class = "UIViewController"; title = "Welcome"; ObjectID = "1Nc-wz-Yqq"; Note = "Onboarding screen shown on first launch";</note>
-      </trans-unit>
-      <trans-unit id="4wh-8O-5Ch.normalTitle" xml:space="preserve">
-        <source>Create New Database</source>
-        <target state="translated">新建資料庫</target>
-        <note>Class = "UIButton"; normalTitle = "Create New Database"; ObjectID = "4wh-8O-5Ch";</note>
-      </trans-unit>
-      <trans-unit id="PgB-6p-H0t.text" xml:space="preserve">
-        <source>KeePassium stores your passwords, credit cards and other information in an encrypted file (database). 
-You can have multiple databases, for example to separate work, family and personal accounts.</source>
-        <target state="translated">KeePassium 可以將您的密碼、信用卡和其他訊息 加密的保存(資料庫)。
-您可以擁有多個資料庫, 比如區分: 公司用、家庭用以及私人用。</target>
-        <note>Class = "UILabel"; text = "KeePassium stores your passwords, credit cards and other information in an encrypted file (database). \nYou can have multiple databases, for example to separate work, family and personal accounts."; ObjectID = "PgB-6p-H0t";</note>
-      </trans-unit>
-      <trans-unit id="ZKW-2f-Xkz.normalTitle" xml:space="preserve">
-        <source>Add Existing Database</source>
-        <target state="translated">添加現有資料庫</target>
-        <note>Class = "UIButton"; normalTitle = "Add Existing Database"; ObjectID = "ZKW-2f-Xkz";</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="KeePassium/general/changelog/Base.lproj/AppHistoryViewerVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A5201i"/>
     </header>
     <body>
       <trans-unit id="9Zh-Kk-7yq.title" xml:space="preserve">
@@ -3450,7 +3604,7 @@ You can have multiple databases, for example to separate work, family and person
   </file>
   <file original="KeePassium/general/diagnostics/Base.lproj/DiagnosticsViewerVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A5201i"/>
     </header>
     <body>
       <trans-unit id="Bti-aV-bQB.title" xml:space="preserve" translate="no">
@@ -3475,9 +3629,38 @@ You can have multiple databases, for example to separate work, family and person
       </trans-unit>
     </body>
   </file>
+  <file original="KeePassium/general/onboarding/Base.lproj/WelcomeVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A5201i"/>
+    </header>
+    <body>
+      <trans-unit id="1Nc-wz-Yqq.title" xml:space="preserve">
+        <source>Welcome</source>
+        <target state="translated">歡迎使用</target>
+        <note>Class = "UIViewController"; title = "Welcome"; ObjectID = "1Nc-wz-Yqq"; Note = "Onboarding screen shown on first launch";</note>
+      </trans-unit>
+      <trans-unit id="4wh-8O-5Ch.normalTitle" xml:space="preserve">
+        <source>Create New Database</source>
+        <target state="translated">新建資料庫</target>
+        <note>Class = "UIButton"; normalTitle = "Create New Database"; ObjectID = "4wh-8O-5Ch";</note>
+      </trans-unit>
+      <trans-unit id="PgB-6p-H0t.text" xml:space="preserve">
+        <source>KeePassium stores your passwords, credit cards and other information in an encrypted file (database). 
+You can have multiple databases, for example to separate work, family and personal accounts.</source>
+        <target state="translated">KeePassium 可以將您的密碼、信用卡和其他訊息 加密的保存(資料庫)。
+您可以擁有多個資料庫, 比如區分: 公司用、家庭用以及私人用。</target>
+        <note>Class = "UILabel"; text = "KeePassium stores your passwords, credit cards and other information in an encrypted file (database). \nYou can have multiple databases, for example to separate work, family and personal accounts."; ObjectID = "PgB-6p-H0t";</note>
+      </trans-unit>
+      <trans-unit id="ZKW-2f-Xkz.normalTitle" xml:space="preserve">
+        <source>Add Existing Database</source>
+        <target state="translated">添加現有資料庫</target>
+        <note>Class = "UIButton"; normalTitle = "Add Existing Database"; ObjectID = "ZKW-2f-Xkz";</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="KeePassium/general/password-generator/Base.lproj/PasswordGeneratorVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A5201i"/>
     </header>
     <body>
       <trans-unit id="5Xu-cN-kSg.text" xml:space="preserve">
@@ -3529,7 +3712,7 @@ You can have multiple databases, for example to separate work, family and person
   </file>
   <file original="KeePassium/premium/Base.lproj/PricingPlanPickerVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A5201i"/>
     </header>
     <body>
       <trans-unit id="0wQ-G1-ZOk.text" xml:space="preserve" translate="no">
@@ -3604,61 +3787,9 @@ You can have multiple databases, for example to separate work, family and person
       </trans-unit>
     </body>
   </file>
-  <file original="KeePassium/settings/appearance/Base.lproj/SettingsAppearanceVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
+  <file original="KeePassium/settings/app-protection/Base.lproj/SettingsAppLockVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
-    </header>
-    <body>
-      <trans-unit id="4Yu-VJ-n8p.text" xml:space="preserve">
-        <source>Database Icons</source>
-        <target state="translated">資料庫圖示</target>
-        <note>Class = "UILabel"; text = "Database Icons"; ObjectID = "4Yu-VJ-n8p"; Note = "Section in settings: icons for database";</note>
-      </trans-unit>
-      <trans-unit id="4mh-X8-Byq.title" xml:space="preserve">
-        <source>Appearance</source>
-        <target state="translated">界面外觀</target>
-        <note>Class = "UITableViewController"; title = "Appearance"; ObjectID = "4mh-X8-Byq"; Note = "Settings for user interface appearance (text size, icons, etc)";</note>
-      </trans-unit>
-      <trans-unit id="5U9-NZ-sJe.accessibilityLabel" xml:space="preserve">
-        <source>Reset text size to default</source>
-        <target state="translated">重置文字大小為默認值</target>
-        <note>Class = "UIButton"; accessibilityLabel = "Reset text size to default"; ObjectID = "5U9-NZ-sJe"; Note = "Action: set text size to standard size";</note>
-      </trans-unit>
-      <trans-unit id="Lh3-CB-Urp.footerTitle" xml:space="preserve">
-        <source>Hide passwords and other protected fields behind asterisks (recommended).</source>
-        <target state="translated">隱藏密碼與其他受保護的字段在星號後面（推薦）。</target>
-        <note>Class = "UITableViewSection"; footerTitle = "Hide passwords and other protected fields behind asterisks (recommended)."; ObjectID = "Lh3-CB-Urp";</note>
-      </trans-unit>
-      <trans-unit id="Lh3-CB-Urp.headerTitle" xml:space="preserve">
-        <source>Protected Fields</source>
-        <target state="translated">受保護的字段</target>
-        <note>Class = "UITableViewSection"; headerTitle = "Protected Fields"; ObjectID = "Lh3-CB-Urp";</note>
-      </trans-unit>
-      <trans-unit id="MsA-Cd-czb.headerTitle" xml:space="preserve">
-        <source>Entry Viewer</source>
-        <target state="translated">項目檢視</target>
-        <note>Class = "UITableViewSection"; headerTitle = "Entry Viewer"; ObjectID = "MsA-Cd-czb";</note>
-      </trans-unit>
-      <trans-unit id="QbO-y9-3wb.text" xml:space="preserve" translate="no">
-        <source>{Text size}</source>
-        <target state="needs-translation">{Text size}</target>
-        <note>Class = "UILabel"; text = "{Text size}"; ObjectID = "QbO-y9-3wb"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="fSx-Do-lgu.text" xml:space="preserve">
-        <source>App Icon</source>
-        <target state="translated">應用程式圖示</target>
-        <note>Class = "UILabel"; text = "App Icon"; ObjectID = "fSx-Do-lgu"; Note = "Section in settings: icon for the app";</note>
-      </trans-unit>
-      <trans-unit id="usg-hF-eLK.text" xml:space="preserve">
-        <source>Hide Passwords</source>
-        <target state="translated">隱藏密碼</target>
-        <note>Class = "UILabel"; text = "Hide Passwords"; ObjectID = "usg-hF-eLK";</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="KeePassium/settings/appLock/Base.lproj/SettingsAppLockVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A5201i"/>
     </header>
     <body>
       <trans-unit id="5Dg-KX-m7a.footerTitle" xml:space="preserve">
@@ -3728,9 +3859,9 @@ You can have multiple databases, for example to separate work, family and person
       </trans-unit>
     </body>
   </file>
-  <file original="KeePassium/settings/appLock/Base.lproj/SettingsAppTimeoutVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
+  <file original="KeePassium/settings/app-protection/Base.lproj/SettingsAppTimeoutVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A5201i"/>
     </header>
     <body>
       <trans-unit id="5MH-wG-EYd.title" xml:space="preserve">
@@ -3750,9 +3881,61 @@ You can have multiple databases, for example to separate work, family and person
       </trans-unit>
     </body>
   </file>
+  <file original="KeePassium/settings/appearance/Base.lproj/SettingsAppearanceVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A5201i"/>
+    </header>
+    <body>
+      <trans-unit id="4Yu-VJ-n8p.text" xml:space="preserve">
+        <source>Database Icons</source>
+        <target state="translated">資料庫圖示</target>
+        <note>Class = "UILabel"; text = "Database Icons"; ObjectID = "4Yu-VJ-n8p"; Note = "Section in settings: icons for database";</note>
+      </trans-unit>
+      <trans-unit id="4mh-X8-Byq.title" xml:space="preserve">
+        <source>Appearance</source>
+        <target state="translated">界面外觀</target>
+        <note>Class = "UITableViewController"; title = "Appearance"; ObjectID = "4mh-X8-Byq"; Note = "Settings for user interface appearance (text size, icons, etc)";</note>
+      </trans-unit>
+      <trans-unit id="5U9-NZ-sJe.accessibilityLabel" xml:space="preserve">
+        <source>Reset text size to default</source>
+        <target state="translated">重置文字大小為默認值</target>
+        <note>Class = "UIButton"; accessibilityLabel = "Reset text size to default"; ObjectID = "5U9-NZ-sJe"; Note = "Action: set text size to standard size";</note>
+      </trans-unit>
+      <trans-unit id="Lh3-CB-Urp.footerTitle" xml:space="preserve">
+        <source>Hide passwords and other protected fields behind asterisks (recommended).</source>
+        <target state="translated">隱藏密碼與其他受保護的字段在星號後面（推薦）。</target>
+        <note>Class = "UITableViewSection"; footerTitle = "Hide passwords and other protected fields behind asterisks (recommended)."; ObjectID = "Lh3-CB-Urp";</note>
+      </trans-unit>
+      <trans-unit id="Lh3-CB-Urp.headerTitle" xml:space="preserve">
+        <source>Protected Fields</source>
+        <target state="translated">受保護的字段</target>
+        <note>Class = "UITableViewSection"; headerTitle = "Protected Fields"; ObjectID = "Lh3-CB-Urp";</note>
+      </trans-unit>
+      <trans-unit id="MsA-Cd-czb.headerTitle" xml:space="preserve">
+        <source>Entry Viewer</source>
+        <target state="translated">項目檢視</target>
+        <note>Class = "UITableViewSection"; headerTitle = "Entry Viewer"; ObjectID = "MsA-Cd-czb";</note>
+      </trans-unit>
+      <trans-unit id="QbO-y9-3wb.text" xml:space="preserve" translate="no">
+        <source>{Text size}</source>
+        <target state="needs-translation">{Text size}</target>
+        <note>Class = "UILabel"; text = "{Text size}"; ObjectID = "QbO-y9-3wb"; Note = "#bc-ignore!";</note>
+      </trans-unit>
+      <trans-unit id="fSx-Do-lgu.text" xml:space="preserve">
+        <source>App Icon</source>
+        <target state="translated">應用程式圖示</target>
+        <note>Class = "UILabel"; text = "App Icon"; ObjectID = "fSx-Do-lgu"; Note = "Section in settings: icon for the app";</note>
+      </trans-unit>
+      <trans-unit id="usg-hF-eLK.text" xml:space="preserve">
+        <source>Hide Passwords</source>
+        <target state="translated">隱藏密碼</target>
+        <note>Class = "UILabel"; text = "Hide Passwords"; ObjectID = "usg-hF-eLK";</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="KeePassium/settings/autoFill/Base.lproj/SettingsAutoFillVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A5201i"/>
     </header>
     <body>
       <trans-unit id="7SF-2E-uTg.text" xml:space="preserve">
@@ -3824,7 +4007,7 @@ You can have multiple databases, for example to separate work, family and person
   </file>
   <file original="KeePassium/settings/backup/Base.lproj/SettingsBackupTimeoutPickerVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A5201i"/>
     </header>
     <body>
       <trans-unit id="P5f-gZ-frj.text" xml:space="preserve" translate="no">
@@ -3841,7 +4024,7 @@ You can have multiple databases, for example to separate work, family and person
   </file>
   <file original="KeePassium/settings/backup/Base.lproj/SettingsBackupVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A5201i"/>
     </header>
     <body>
       <trans-unit id="B3L-Dk-Uq3.footerTitle" xml:space="preserve">
@@ -3911,9 +4094,188 @@ You can have multiple databases, for example to separate work, family and person
       </trans-unit>
     </body>
   </file>
-  <file original="KeePassium/settings/Base.lproj/SettingsClipboardTimeoutVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
+  <file original="KeePassium/settings/Base.lproj/SettingsSearchVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A5201i"/>
+    </header>
+    <body>
+      <trans-unit id="DJr-hC-DMT.footerTitle" xml:space="preserve">
+        <source>After opening a database, automatically show the search field.</source>
+        <target state="translated">打開資料庫時自動顯示搜尋欄位。</target>
+        <note>Class = "UITableViewSection"; footerTitle = "After opening a database, automatically show the search field."; ObjectID = "DJr-hC-DMT"; Note = "A section in search-related settings: what happens when the app is just started or database is just opened.";</note>
+      </trans-unit>
+      <trans-unit id="Io8-uP-3lF.headerTitle" xml:space="preserve">
+        <source>Search Scope</source>
+        <target state="translated">搜尋範圍</target>
+        <note>Class = "UITableViewSection"; headerTitle = "Search Scope"; ObjectID = "Io8-uP-3lF"; Note = "A section in search-related settings: which fields to include in search.";</note>
+      </trans-unit>
+      <trans-unit id="LrQ-5g-wj0.text" xml:space="preserve">
+        <source>Search in Protected Values</source>
+        <target state="translated">搜尋受保護的值</target>
+        <note>Class = "UILabel"; text = "Search in Protected Values"; ObjectID = "LrQ-5g-wj0"; Note = "An switch in settings: whether to include protected field values in search procedure.";</note>
+      </trans-unit>
+      <trans-unit id="RZt-EW-TGN.title" xml:space="preserve">
+        <source>Search</source>
+        <target state="translated">搜尋</target>
+        <note>Class = "UITableViewController"; title = "Search"; ObjectID = "RZt-EW-TGN"; Note = "Section title in settings";</note>
+      </trans-unit>
+      <trans-unit id="cCm-E4-L3m.text" xml:space="preserve">
+        <source>Search in Field Names</source>
+        <target state="translated">搜索字段名稱</target>
+        <note>Class = "UILabel"; text = "Search in Field Names"; ObjectID = "cCm-E4-L3m"; Note = "An switch in settings: whether to include entry field names in search procedure.";</note>
+      </trans-unit>
+      <trans-unit id="q0v-f7-D4Y.text" xml:space="preserve">
+        <source>Start with Search</source>
+        <target state="translated">進入時自動開啟搜索欄位</target>
+        <note>Class = "UILabel"; text = "Start with Search"; ObjectID = "q0v-f7-D4Y";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="KeePassium/settings/Base.lproj/SettingsVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A5201i"/>
+    </header>
+    <body>
+      <trans-unit id="9yn-W3-FDl.headerTitle" xml:space="preserve">
+        <source>Start</source>
+        <target state="translated">啟動時</target>
+        <note>Class = "UITableViewSection"; headerTitle = "Start"; ObjectID = "9yn-W3-FDl"; Note = "Section in settings: settings that define what happens when the app is started.";</note>
+      </trans-unit>
+      <trans-unit id="32P-LG-SHa.text" xml:space="preserve">
+        <source>Appearance</source>
+        <target state="translated">界面外觀</target>
+        <note>Class = "UILabel"; text = "Appearance"; ObjectID = "32P-LG-SHa"; Note = "Section in settings: visual style of app elements";</note>
+      </trans-unit>
+      <trans-unit id="756-sL-G2t.text" xml:space="preserve">
+        <source>Auto-open the Previous Database</source>
+        <target state="translated">自動開啟上次使用的資料庫</target>
+        <note>Class = "UILabel"; text = "Auto-open the Previous Database"; ObjectID = "756-sL-G2t"; Note = "Option in settings: whether to open the last used database automatically on start.";</note>
+      </trans-unit>
+      <trans-unit id="A5N-B3-t3t.headerTitle" xml:space="preserve">
+        <source>Premium</source>
+        <target state="translated">進階版</target>
+        <note>Class = "UITableViewSection"; headerTitle = "Premium"; ObjectID = "A5N-B3-t3t";</note>
+      </trans-unit>
+      <trans-unit id="Bk0-Xf-O7B.title" xml:space="preserve">
+        <source>Settings</source>
+        <target state="translated">設置</target>
+        <note>Class = "UINavigationItem"; title = "Settings"; ObjectID = "Bk0-Xf-O7B";</note>
+      </trans-unit>
+      <trans-unit id="DNo-Rs-0EP.text" xml:space="preserve">
+        <source>About KeePassium</source>
+        <target state="translated">關於 KeePassium</target>
+        <note>Class = "UILabel"; text = "About KeePassium"; ObjectID = "DNo-Rs-0EP";</note>
+      </trans-unit>
+      <trans-unit id="FHp-ns-ke9.text" xml:space="preserve">
+        <source>Master keys, key files</source>
+        <target state="translated">主金鑰, 金鑰文件</target>
+        <note>Class = "UILabel"; text = "Master keys, key files"; ObjectID = "FHp-ns-ke9"; Note = "Subtitle/details for `Data Protection`";</note>
+      </trans-unit>
+      <trans-unit id="GC2-NL-1vB.text" xml:space="preserve" translate="no">
+        <source>{Tip Box}</source>
+        <target state="needs-translation">{Tip Box}</target>
+        <note>Class = "UILabel"; text = "{Tip Box}"; ObjectID = "GC2-NL-1vB"; Note = "Action";</note>
+      </trans-unit>
+      <trans-unit id="GLr-Uf-Kln.text" xml:space="preserve">
+        <source>Search</source>
+        <target state="translated">搜尋</target>
+        <note>Class = "UILabel"; text = "Search"; ObjectID = "GLr-Uf-Kln"; Note = "Section title in settings";</note>
+      </trans-unit>
+      <trans-unit id="HCe-A3-eG6.text" xml:space="preserve">
+        <source>Premium Version</source>
+        <target state="translated">進階版本</target>
+        <note>Class = "UILabel"; text = "Premium Version"; ObjectID = "HCe-A3-eG6"; Note = "Status shown on premium tier";</note>
+      </trans-unit>
+      <trans-unit id="HjD-9G-X8p.headerTitle" xml:space="preserve">
+        <source>Backup</source>
+        <target state="translated">備份</target>
+        <note>Class = "UITableViewSection"; headerTitle = "Backup"; ObjectID = "HjD-9G-X8p";</note>
+      </trans-unit>
+      <trans-unit id="LHz-DF-ZST.text" xml:space="preserve" translate="no">
+        <source>{Renews on 1 Jan 1970}</source>
+        <target state="needs-translation">{Renews on 1 Jan 1970}</target>
+        <note>Class = "UILabel"; text = "{Renews on 1 Jan 1970}"; ObjectID = "LHz-DF-ZST"; Note = "#bc-ignore!";</note>
+      </trans-unit>
+      <trans-unit id="PpA-oZ-kr2.text" xml:space="preserve">
+        <source>Diagnostic Log</source>
+        <target state="translated">診斷日誌</target>
+        <note>Class = "UILabel"; text = "Diagnostic Log"; ObjectID = "PpA-oZ-kr2"; Note = "Action: show diagnostic log";</note>
+      </trans-unit>
+      <trans-unit id="QlM-VS-hle.text" xml:space="preserve">
+        <source>Contact Us</source>
+        <target state="translated">聯繫我們</target>
+        <note>Class = "UILabel"; text = "Contact Us"; ObjectID = "QlM-VS-hle"; Note = "Action";</note>
+      </trans-unit>
+      <trans-unit id="RNK-fS-Fvx.text" xml:space="preserve">
+        <source>Suggestions? Problems? Let us know!</source>
+        <target state="translated">建議? 問題? 讓我們知道!</target>
+        <note>Class = "UILabel"; text = "Suggestions? Problems? Let us know!"; ObjectID = "RNK-fS-Fvx"; Note = "Subtitle for `Contact Us`. Keep it short.";</note>
+      </trans-unit>
+      <trans-unit id="RlK-RW-8Ld.text" xml:space="preserve">
+        <source>What's New</source>
+        <target state="translated">更新了什麼</target>
+        <note>Class = "UILabel"; text = "What's New"; ObjectID = "RlK-RW-8Ld"; Note = "Action: open app history page (change log)";</note>
+      </trans-unit>
+      <trans-unit id="SrV-ib-V2E.text" xml:space="preserve" translate="no">
+        <source>{App Lock, Touch ID, timeout}</source>
+        <target state="needs-translation">{App Lock, Touch ID, timeout}</target>
+        <note>Class = "UILabel"; text = "{App Lock, Touch ID, timeout}"; ObjectID = "SrV-ib-V2E"; Note = "#bc-ignore!";</note>
+      </trans-unit>
+      <trans-unit id="T2Z-oa-zJR.text" xml:space="preserve">
+        <source>AutoFill Passwords</source>
+        <target state="translated">自動填寫密碼</target>
+        <note>Class = "UILabel"; text = "AutoFill Passwords"; ObjectID = "T2Z-oa-zJR";</note>
+      </trans-unit>
+      <trans-unit id="UNl-Hc-Ref.text" xml:space="preserve">
+        <source>Data Protection</source>
+        <target state="translated">資料保護</target>
+        <note>Class = "UILabel"; text = "Data Protection"; ObjectID = "UNl-Hc-Ref"; Note = "Settings section: protection of databases, their keys and data inside them";</note>
+      </trans-unit>
+      <trans-unit id="VTG-VH-iv4.text" xml:space="preserve" translate="no">
+        <source>{Support KeePassium}</source>
+        <target state="needs-translation">{Support KeePassium}</target>
+        <note>Class = "UILabel"; text = "{Support KeePassium}"; ObjectID = "VTG-VH-iv4";</note>
+      </trans-unit>
+      <trans-unit id="abS-AH-iFO.text" xml:space="preserve">
+        <source>App Protection</source>
+        <target state="translated">應用保護</target>
+        <note>Class = "UILabel"; text = "App Protection"; ObjectID = "abS-AH-iFO"; Note = "Settings section: protection of the app from unauthorized access";</note>
+      </trans-unit>
+      <trans-unit id="cBS-jW-dHU.headerTitle" xml:space="preserve">
+        <source>Support</source>
+        <target state="translated">支持</target>
+        <note>Class = "UITableViewSection"; headerTitle = "Support"; ObjectID = "cBS-jW-dHU";</note>
+      </trans-unit>
+      <trans-unit id="coD-Om-Vfm.text" xml:space="preserve">
+        <source>Database Backup</source>
+        <target state="translated">資料庫備份</target>
+        <note>Class = "UILabel"; text = "Database Backup"; ObjectID = "coD-Om-Vfm"; Note = "Settings section";</note>
+      </trans-unit>
+      <trans-unit id="hui-xG-chj.headerTitle" xml:space="preserve">
+        <source>Access Control</source>
+        <target state="translated">存取控制</target>
+        <note>Class = "UITableViewSection"; headerTitle = "Access Control"; ObjectID = "hui-xG-chj";</note>
+      </trans-unit>
+      <trans-unit id="oxG-N8-1ld.text" xml:space="preserve">
+        <source>Upgrade to Premium</source>
+        <target state="translated">升級到進階版</target>
+        <note>Class = "UILabel"; text = "Upgrade to Premium"; ObjectID = "oxG-N8-1ld";</note>
+      </trans-unit>
+      <trans-unit id="qhK-lw-bGy.text" xml:space="preserve">
+        <source>For expert troubleshooting</source>
+        <target state="translated">用於給作者排除故障</target>
+        <note>Class = "UILabel"; text = "For expert troubleshooting"; ObjectID = "qhK-lw-bGy"; Note = "Subtitle for `Diagnostic Log`. Keep it short.";</note>
+      </trans-unit>
+      <trans-unit id="zUh-Sn-3ya.text" xml:space="preserve">
+        <source>Manage Subscriptions</source>
+        <target state="translated">管理訂閱</target>
+        <note>Class = "UILabel"; text = "Manage Subscriptions"; ObjectID = "zUh-Sn-3ya"; Note = "Action: open AppStore subscription management page";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="KeePassium/settings/data-protection/Base.lproj/SettingsClipboardTimeoutVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A5201i"/>
     </header>
     <body>
       <trans-unit id="MGj-Cs-cx5.text" xml:space="preserve" translate="no">
@@ -3928,9 +4290,9 @@ You can have multiple databases, for example to separate work, family and person
       </trans-unit>
     </body>
   </file>
-  <file original="KeePassium/settings/Base.lproj/SettingsDatabaseTimeoutVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
+  <file original="KeePassium/settings/data-protection/Base.lproj/SettingsDatabaseTimeoutVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A5201i"/>
     </header>
     <body>
       <trans-unit id="26a-m8-zQP.title" xml:space="preserve">
@@ -3950,9 +4312,9 @@ You can have multiple databases, for example to separate work, family and person
       </trans-unit>
     </body>
   </file>
-  <file original="KeePassium/settings/Base.lproj/SettingsDataProtectionVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
+  <file original="KeePassium/settings/data-protection/Base.lproj/SettingsDataProtectionVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A5201i"/>
     </header>
     <body>
       <trans-unit id="3uV-Zs-RRo.normalTitle" xml:space="preserve">
@@ -4091,9 +4453,9 @@ You can have multiple databases, for example to separate work, family and person
       </trans-unit>
     </body>
   </file>
-  <file original="KeePassium/settings/Base.lproj/SettingsFileSortingVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
+  <file original="KeePassium/settings/file-sorting/Base.lproj/SettingsFileSortingVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A5201i"/>
     </header>
     <body>
       <trans-unit id="87L-KA-IeR.title" xml:space="preserve">
@@ -4113,9 +4475,9 @@ You can have multiple databases, for example to separate work, family and person
       </trans-unit>
     </body>
   </file>
-  <file original="KeePassium/settings/Base.lproj/SettingsItemListVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
+  <file original="KeePassium/settings/group-list/Base.lproj/SettingsItemListVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A5201i"/>
     </header>
     <body>
       <trans-unit id="Gyy-12-KPC.title" xml:space="preserve">
@@ -4127,190 +4489,6 @@ You can have multiple databases, for example to separate work, family and person
         <source>{Title}</source>
         <target state="needs-translation">{Title}</target>
         <note>Class = "UILabel"; text = "{Title}"; ObjectID = "Tg9-yL-fCJ"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="KeePassium/settings/Base.lproj/SettingsSearchVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
-    </header>
-    <body>
-      <trans-unit id="DJr-hC-DMT.footerTitle" xml:space="preserve">
-        <source>After opening a database, automatically show the search field.</source>
-        <target state="translated">打開資料庫時自動顯示搜尋欄位。</target>
-        <note>Class = "UITableViewSection"; footerTitle = "After opening a database, automatically show the search field."; ObjectID = "DJr-hC-DMT"; Note = "A section in search-related settings: what happens when the app is just started or database is just opened.";</note>
-      </trans-unit>
-      <trans-unit id="Io8-uP-3lF.headerTitle" xml:space="preserve">
-        <source>Search Scope</source>
-        <target state="translated">搜尋範圍</target>
-        <note>Class = "UITableViewSection"; headerTitle = "Search Scope"; ObjectID = "Io8-uP-3lF"; Note = "A section in search-related settings: which fields to include in search.";</note>
-      </trans-unit>
-      <trans-unit id="LrQ-5g-wj0.text" xml:space="preserve">
-        <source>Search in Protected Values</source>
-        <target state="translated">搜尋受保護的值</target>
-        <note>Class = "UILabel"; text = "Search in Protected Values"; ObjectID = "LrQ-5g-wj0"; Note = "An switch in settings: whether to include protected field values in search procedure.";</note>
-      </trans-unit>
-      <trans-unit id="RZt-EW-TGN.title" xml:space="preserve">
-        <source>Search</source>
-        <target state="translated">搜尋</target>
-        <note>Class = "UITableViewController"; title = "Search"; ObjectID = "RZt-EW-TGN"; Note = "Section title in settings";</note>
-      </trans-unit>
-      <trans-unit id="cCm-E4-L3m.text" xml:space="preserve">
-        <source>Search in Field Names</source>
-        <target state="translated">搜索字段名稱</target>
-        <note>Class = "UILabel"; text = "Search in Field Names"; ObjectID = "cCm-E4-L3m"; Note = "An switch in settings: whether to include entry field names in search procedure.";</note>
-      </trans-unit>
-      <trans-unit id="q0v-f7-D4Y.text" xml:space="preserve">
-        <source>Start with Search</source>
-        <target state="translated">進入時自動開啟搜索欄位</target>
-        <note>Class = "UILabel"; text = "Start with Search"; ObjectID = "q0v-f7-D4Y";</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="KeePassium/settings/Base.lproj/SettingsVC.storyboard" source-language="en" target-language="zh-Hant" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
-    </header>
-    <body>
-      <trans-unit id="9yn-W3-FDl.headerTitle" xml:space="preserve">
-        <source>Start</source>
-        <target state="translated">啟動時</target>
-        <note>Class = "UITableViewSection"; headerTitle = "Start"; ObjectID = "9yn-W3-FDl"; Note = "Section in settings: settings that define what happens when the app is started.";</note>
-      </trans-unit>
-      <trans-unit id="32P-LG-SHa.text" xml:space="preserve">
-        <source>Appearance</source>
-        <target state="translated">界面外觀</target>
-        <note>Class = "UILabel"; text = "Appearance"; ObjectID = "32P-LG-SHa"; Note = "Section in settings: visual style of app elements";</note>
-      </trans-unit>
-      <trans-unit id="756-sL-G2t.text" xml:space="preserve">
-        <source>Auto-open the Previous Database</source>
-        <target state="translated">自動開啟上次使用的資料庫</target>
-        <note>Class = "UILabel"; text = "Auto-open the Previous Database"; ObjectID = "756-sL-G2t"; Note = "Option in settings: whether to open the last used database automatically on start.";</note>
-      </trans-unit>
-      <trans-unit id="A5N-B3-t3t.headerTitle" xml:space="preserve">
-        <source>Premium</source>
-        <target state="translated">進階版</target>
-        <note>Class = "UITableViewSection"; headerTitle = "Premium"; ObjectID = "A5N-B3-t3t";</note>
-      </trans-unit>
-      <trans-unit id="Bk0-Xf-O7B.title" xml:space="preserve">
-        <source>Settings</source>
-        <target state="translated">設置</target>
-        <note>Class = "UINavigationItem"; title = "Settings"; ObjectID = "Bk0-Xf-O7B";</note>
-      </trans-unit>
-      <trans-unit id="DNo-Rs-0EP.text" xml:space="preserve">
-        <source>About KeePassium</source>
-        <target state="translated">關於 KeePassium</target>
-        <note>Class = "UILabel"; text = "About KeePassium"; ObjectID = "DNo-Rs-0EP";</note>
-      </trans-unit>
-      <trans-unit id="FHp-ns-ke9.text" xml:space="preserve">
-        <source>Master keys, key files</source>
-        <target state="translated">主金鑰, 金鑰文件</target>
-        <note>Class = "UILabel"; text = "Master keys, key files"; ObjectID = "FHp-ns-ke9"; Note = "Subtitle/details for `Data Protection`";</note>
-      </trans-unit>
-      <trans-unit id="GLr-Uf-Kln.text" xml:space="preserve">
-        <source>Search</source>
-        <target state="translated">搜尋</target>
-        <note>Class = "UILabel"; text = "Search"; ObjectID = "GLr-Uf-Kln"; Note = "Section title in settings";</note>
-      </trans-unit>
-      <trans-unit id="HCe-A3-eG6.text" xml:space="preserve">
-        <source>Premium Version</source>
-        <target state="translated">進階版本</target>
-        <note>Class = "UILabel"; text = "Premium Version"; ObjectID = "HCe-A3-eG6"; Note = "Status shown on premium tier";</note>
-      </trans-unit>
-      <trans-unit id="HYe-lP-dCp.text" xml:space="preserve">
-        <source>Rate KeePassium on the App Store</source>
-        <target state="translated">在App Store 上給 KeePassium 評分。</target>
-        <note>Class = "UILabel"; text = "Rate KeePassium on the App Store"; ObjectID = "HYe-lP-dCp"; Note = "Subtitle for `Review KeePassium`";</note>
-      </trans-unit>
-      <trans-unit id="HjD-9G-X8p.headerTitle" xml:space="preserve">
-        <source>Backup</source>
-        <target state="translated">備份</target>
-        <note>Class = "UITableViewSection"; headerTitle = "Backup"; ObjectID = "HjD-9G-X8p";</note>
-      </trans-unit>
-      <trans-unit id="LHz-DF-ZST.text" xml:space="preserve" translate="no">
-        <source>{Renews on 1 Jan 1970}</source>
-        <target state="needs-translation">{Renews on 1 Jan 1970}</target>
-        <note>Class = "UILabel"; text = "{Renews on 1 Jan 1970}"; ObjectID = "LHz-DF-ZST"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="PpA-oZ-kr2.text" xml:space="preserve">
-        <source>Diagnostic Log</source>
-        <target state="translated">診斷日誌</target>
-        <note>Class = "UILabel"; text = "Diagnostic Log"; ObjectID = "PpA-oZ-kr2"; Note = "Action: show diagnostic log";</note>
-      </trans-unit>
-      <trans-unit id="QlM-VS-hle.text" xml:space="preserve">
-        <source>Contact Us</source>
-        <target state="translated">聯繫我們</target>
-        <note>Class = "UILabel"; text = "Contact Us"; ObjectID = "QlM-VS-hle"; Note = "Action";</note>
-      </trans-unit>
-      <trans-unit id="RNK-fS-Fvx.text" xml:space="preserve">
-        <source>Suggestions? Problems? Let us know!</source>
-        <target state="translated">建議? 問題? 讓我們知道!</target>
-        <note>Class = "UILabel"; text = "Suggestions? Problems? Let us know!"; ObjectID = "RNK-fS-Fvx"; Note = "Subtitle for `Contact Us`. Keep it short.";</note>
-      </trans-unit>
-      <trans-unit id="RlK-RW-8Ld.text" xml:space="preserve">
-        <source>What's New</source>
-        <target state="translated">更新了什麼</target>
-        <note>Class = "UILabel"; text = "What's New"; ObjectID = "RlK-RW-8Ld"; Note = "Action: open app history page (change log)";</note>
-      </trans-unit>
-      <trans-unit id="SrV-ib-V2E.text" xml:space="preserve" translate="no">
-        <source>{App Lock, Touch ID, timeout}</source>
-        <target state="needs-translation">{App Lock, Touch ID, timeout}</target>
-        <note>Class = "UILabel"; text = "{App Lock, Touch ID, timeout}"; ObjectID = "SrV-ib-V2E"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="T2Z-oa-zJR.text" xml:space="preserve">
-        <source>AutoFill Passwords</source>
-        <target state="translated">自動填寫密碼</target>
-        <note>Class = "UILabel"; text = "AutoFill Passwords"; ObjectID = "T2Z-oa-zJR";</note>
-      </trans-unit>
-      <trans-unit id="UNl-Hc-Ref.text" xml:space="preserve">
-        <source>Data Protection</source>
-        <target state="translated">資料保護</target>
-        <note>Class = "UILabel"; text = "Data Protection"; ObjectID = "UNl-Hc-Ref"; Note = "Settings section: protection of databases, their keys and data inside them";</note>
-      </trans-unit>
-      <trans-unit id="WM2-qq-lMN.text" xml:space="preserve" translate="no">
-        <source>{Upgrade subtitle}</source>
-        <target state="needs-translation">{Upgrade subtitle}</target>
-        <note>Class = "UILabel"; text = "{Upgrade subtitle}"; ObjectID = "WM2-qq-lMN"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="abS-AH-iFO.text" xml:space="preserve">
-        <source>App Protection</source>
-        <target state="translated">應用保護</target>
-        <note>Class = "UILabel"; text = "App Protection"; ObjectID = "abS-AH-iFO"; Note = "Settings section: protection of the app from unauthorized access";</note>
-      </trans-unit>
-      <trans-unit id="c5H-hS-sU3.text" xml:space="preserve">
-        <source>Review KeePassium</source>
-        <target state="translated">評價 KeePassium</target>
-        <note>Class = "UILabel"; text = "Review KeePassium"; ObjectID = "c5H-hS-sU3"; Note = "Action: write an app review on the App Store";</note>
-      </trans-unit>
-      <trans-unit id="cBS-jW-dHU.headerTitle" xml:space="preserve">
-        <source>Support</source>
-        <target state="translated">支持</target>
-        <note>Class = "UITableViewSection"; headerTitle = "Support"; ObjectID = "cBS-jW-dHU";</note>
-      </trans-unit>
-      <trans-unit id="coD-Om-Vfm.text" xml:space="preserve">
-        <source>Database Backup</source>
-        <target state="translated">資料庫備份</target>
-        <note>Class = "UILabel"; text = "Database Backup"; ObjectID = "coD-Om-Vfm"; Note = "Settings section";</note>
-      </trans-unit>
-      <trans-unit id="hui-xG-chj.headerTitle" xml:space="preserve">
-        <source>Access Control</source>
-        <target state="translated">存取控制</target>
-        <note>Class = "UITableViewSection"; headerTitle = "Access Control"; ObjectID = "hui-xG-chj";</note>
-      </trans-unit>
-      <trans-unit id="oxG-N8-1ld.text" xml:space="preserve">
-        <source>Upgrade to Premium</source>
-        <target state="translated">升級到進階版</target>
-        <note>Class = "UILabel"; text = "Upgrade to Premium"; ObjectID = "oxG-N8-1ld";</note>
-      </trans-unit>
-      <trans-unit id="qhK-lw-bGy.text" xml:space="preserve">
-        <source>For expert troubleshooting</source>
-        <target state="translated">用於給作者排除故障</target>
-        <note>Class = "UILabel"; text = "For expert troubleshooting"; ObjectID = "qhK-lw-bGy"; Note = "Subtitle for `Diagnostic Log`. Keep it short.";</note>
-      </trans-unit>
-      <trans-unit id="zUh-Sn-3ya.text" xml:space="preserve">
-        <source>Manage Subscriptions</source>
-        <target state="translated">管理訂閱</target>
-        <note>Class = "UILabel"; text = "Manage Subscriptions"; ObjectID = "zUh-Sn-3ya"; Note = "Action: open AppStore subscription management page";</note>
       </trans-unit>
     </body>
   </file>
