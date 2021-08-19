@@ -15,17 +15,17 @@
         <target state="final">Закрыть</target>
         <note>Class = "UIBarButtonItem"; title = "Close"; ObjectID = "ebS-pB-Qan";</note>
       </trans-unit>
-      <trans-unit id="kmV-si-Nrg.text" xml:space="preserve" approved="yes">
+      <trans-unit id="kmV-si-Nrg.text" xml:space="preserve">
         <source>It seems that AutoFill did not close correctly the last time. 
 
 This can happen with large databases or memory-demanding database settings (Argon2).
 
 Please contact us if you need help with this.</source>
-        <target state="final">Похоже, Автозаполнение было неожиданно прервано в прошлый раз.
+        <target state="translated">Похоже, Автозаполнение было неожиданно прервано в прошлый раз.
 
 Это может происходить с большими базами паролей, или когда настройки шифрования требуют больших объёмов памяти (Argon2).
 
-Напишите нам, если Вам нужна помощь с этим.</target>
+Напишите нам, если вам нужна помощь с этим.</target>
         <note>Class = "UILabel"; text = "It seems that AutoFill did not close correctly the last time. \n\nThis can happen with large databases or memory-demanding database settings (Argon2).\n\nPlease contact us if you need help with this."; ObjectID = "kmV-si-Nrg";</note>
       </trans-unit>
       <trans-unit id="zvf-PV-5l4.title" xml:space="preserve" approved="yes">
@@ -733,9 +733,9 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <target state="translated">%@, группа</target>
         <note>VoiceOver description of a group [groupTitle: String, itemCount: Int]</note>
       </trans-unit>
-      <trans-unit id="[HardwareKey/AutoFill/NotAvailable] Hardware keys are not available in AutoFill." xml:space="preserve" approved="yes">
+      <trans-unit id="[HardwareKey/AutoFill/NotAvailable] Hardware keys are not available in AutoFill." xml:space="preserve">
         <source>Hardware keys are not available in AutoFill.</source>
-        <target state="final">Аппаратные ключи недоступны в Автозаполнении.</target>
+        <target state="translated">Аппаратные ключи недоступны в автозаполнении.</target>
         <note>A notification that hardware keys (e.g. YubiKey) cannot be used in AutoFill (the OS does not allow the AutoFill to use NFC/MFI).</note>
       </trans-unit>
       <trans-unit id="[HardwareKey/Field/title]" xml:space="preserve">
@@ -814,12 +814,12 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="[Premium/Benefits/Negative/header] " xml:space="preserve" approved="yes">
         <source>What you are missing</source>
-        <target state="final">Что Вы упускаете</target>
+        <target state="final">Что вы упускаете</target>
         <note>List of premium benefits/advantages</note>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/Positive/header] " xml:space="preserve" approved="yes">
         <source>What you get</source>
-        <target state="final">Что Вы получите</target>
+        <target state="final">Что вы получите</target>
         <note>List of premium benefits/advantages</note>
       </trans-unit>
       <trans-unit id="[Premium/CallToAction/buyNow]" xml:space="preserve">
@@ -933,9 +933,9 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
 Subscription automatically renews unless it is canceled at least 24 hours before the end of the current period. Your account will be charged for renewal within 24 hours prior to the end of the current period.
 
 You can manage and cancel your subscriptions by going to your account settings on the App Store after purchase.</source>
-        <target state="translated">Оплата будет снята с Вашего аккаунта Apple ID после подтверждения покупки. 
+        <target state="translated">Оплата будет снята с вашего аккаунта Apple ID после подтверждения покупки. 
 
-Подписка автоматически возобновляется, если не отменена минимум за 24 часа до конца текущего периода. Плата за продление подписки будет снята с Вашего счёта в течение суток до окончания текущего периода. 
+Подписка автоматически возобновляется, если не отменена минимум за 24 часа до конца текущего периода. Плата за продление подписки будет снята с вашего аккаунта в течение суток до окончания текущего периода. 
 
 Вы можете изменить или отменить подписки, зайдя в настройки своего аккаунта в App Store после покупки.</target>
         <note>Subscription conditions</note>
@@ -1117,7 +1117,7 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
       <trans-unit id="[YubiKey] Touch the key" xml:space="preserve">
         <source>Touch the key</source>
-        <target state="translated">Прикоснитесь к ключу</target>
+        <target state="translated">Коснитесь ключа</target>
         <note>Call for action: touch the sides of YubiKey 5Ci to continue</note>
       </trans-unit>
       <trans-unit id="[YubiKey] Use YubiKey Slot %d" xml:space="preserve" approved="yes">
@@ -1236,9 +1236,9 @@ You can manage and cancel your subscriptions by going to your account settings o
         <target state="final">Нет ни одной базы паролей</target>
         <note>Class = "UILabel"; text = "No database files"; ObjectID = "5Md-DB-C5P"; Note = "Placeholder shown when there are no database files available";</note>
       </trans-unit>
-      <trans-unit id="R68-cy-5mz.text" xml:space="preserve" approved="yes">
+      <trans-unit id="R68-cy-5mz.text" xml:space="preserve">
         <source>Protect KeePassium from unauthorized access.</source>
-        <target state="final">Защищает KeePassium от посторонних глаз.</target>
+        <target state="translated">Защищает KeePassium от неавторизованного доступа.</target>
         <note>Class = "UILabel"; text = "Protect KeePassium from unauthorized access."; ObjectID = "R68-cy-5mz"; Note = "Explanation for the `Enable AppLock` button.";</note>
       </trans-unit>
       <trans-unit id="UI0-Lh-wTj.title" xml:space="preserve" approved="yes">
@@ -1725,7 +1725,7 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
       <trans-unit id="BGv-TX-maE.text" xml:space="preserve">
         <source>Use key file without adding it to the list</source>
-        <target state="translated">Использовать ключевой файл не добавляя его в список</target>
+        <target state="translated">Использовать ключевой файл, не добавляя его в список</target>
         <note>Class = "UILabel"; text = "Use key file without adding it to the list"; ObjectID = "BGv-TX-maE"; Note = "Explanation for the \"Key File/Browse\" action.";</note>
       </trans-unit>
       <trans-unit id="Lod-RE-tcd.title" xml:space="preserve" approved="yes">
@@ -1866,7 +1866,7 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
       <trans-unit id="NFCReaderUsageDescription" xml:space="preserve">
         <source>KeePassium needs access to NFC to communicate with your YubiKey.</source>
-        <target state="translated">Приложению нужен доступ к NFC для связи с вашим YubiKey.</target>
+        <target state="translated">Приложению нужен доступ к NFC для связи с YubiKey.</target>
         <note>Privacy - NFC Scan Usage Description</note>
       </trans-unit>
       <trans-unit id="NSCameraUsageDescription" xml:space="preserve">
@@ -1881,12 +1881,12 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
       <trans-unit id="NSPhotoLibraryAddUsageDescription" xml:space="preserve" approved="yes">
         <source>KeePassium needs permission to export files to your Photo Library.</source>
-        <target state="final">KeePassium нужно разрешение на сохранение файлов в Вашей медиатеке.</target>
+        <target state="final">KeePassium нужно разрешение на сохранение файлов в медиатеке.</target>
         <note>Privacy - Photo Library Additions Usage Description</note>
       </trans-unit>
       <trans-unit id="NSPhotoLibraryUsageDescription" xml:space="preserve">
         <source>KeePassium needs access to the Photos library to add custom icons to groups and entries</source>
-        <target state="translated">Приложению нужен доступ к фотографиям, чтобы добавить пользовательские значки к группам и записям</target>
+        <target state="translated">Приложению нужен доступ к фотографиям, чтобы добавлять свои значки к группам и записям</target>
         <note/>
       </trans-unit>
     </body>
@@ -2130,7 +2130,7 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
       <trans-unit id="[Database/Opened/Warning/lastEdited] Database was last edited by: %@" xml:space="preserve" approved="yes">
         <source>Database was last edited by: %@</source>
-        <target state="final">Последние изменения в базе паролей были сделаны: %@</target>
+        <target state="final">База паролей была изменена: %@</target>
         <note>Status message: name of the app that was last to write/create the database file. [lastUsedAppName: String]</note>
       </trans-unit>
       <trans-unit id="[Database/Opened/Warning/title] Your database is ready, but there was an issue." xml:space="preserve" approved="yes">
@@ -2365,9 +2365,9 @@ You can manage and cancel your subscriptions by going to your account settings o
         <target state="translated">Исключить из резервной копии iCloud/iTunes</target>
         <note>Title of a setting: is the file exluded from iCloud/iTunes backup. For example: `Exclude From Backup: &lt;Yes&gt;`</note>
       </trans-unit>
-      <trans-unit id="[General/DestinationGroup/title] Choose a Destination" xml:space="preserve" approved="yes">
+      <trans-unit id="[General/DestinationGroup/title] Choose a Destination" xml:space="preserve">
         <source>Choose a Destination</source>
-        <target state="final">Выберите, куда сохранить</target>
+        <target state="translated">Выберите место назначения</target>
         <note>Title of the dialog for picking the destination group for move/copy operations</note>
       </trans-unit>
       <trans-unit id="[Generic/ConfirmDelete/title] Are you sure?" xml:space="preserve" approved="yes">
@@ -2590,9 +2590,9 @@ You can manage and cancel your subscriptions by going to your account settings o
         <target state="translated">%@, группа</target>
         <note>VoiceOver description of a group [groupTitle: String, itemCount: Int]</note>
       </trans-unit>
-      <trans-unit id="[HardwareKey/AutoFill/NotAvailable] Hardware keys are not available in AutoFill." xml:space="preserve" approved="yes">
+      <trans-unit id="[HardwareKey/AutoFill/NotAvailable] Hardware keys are not available in AutoFill." xml:space="preserve">
         <source>Hardware keys are not available in AutoFill.</source>
-        <target state="final">Аппаратные ключи недоступны в Автозаполнении.</target>
+        <target state="translated">Аппаратные ключи недоступны в автозаполнении.</target>
         <note>A notification that hardware keys (e.g. YubiKey) cannot be used in AutoFill (the OS does not allow the AutoFill to use NFC/MFI).</note>
       </trans-unit>
       <trans-unit id="[HardwareKey/Field/title]" xml:space="preserve">
@@ -2684,9 +2684,9 @@ You can manage and cancel your subscriptions by going to your account settings o
         <target state="final">Просмотр без следов</target>
         <note>Title of a premium feature</note>
       </trans-unit>
-      <trans-unit id="[Premium/Benefits/CustomAppIcon/details]" xml:space="preserve" approved="yes">
+      <trans-unit id="[Premium/Benefits/CustomAppIcon/details]" xml:space="preserve">
         <source>Make KeePassium look unique, familiar, or disguise it as a calculator — the choice is yours.</source>
-        <target state="final">Сделайте иконку приложения уникальной, привычной — или вообще замаскируйте KeePassium под калькулятор.</target>
+        <target state="translated">Сделайте значок приложения уникальным или привычным — или вообще замаскируйте KeePassium под калькулятор.</target>
         <note>Explanation of a premium feature</note>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/CustomAppIcon/title]" xml:space="preserve" approved="yes">
@@ -2726,12 +2726,12 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
       <trans-unit id="[Premium/Benefits/Negative/header] " xml:space="preserve" approved="yes">
         <source>What you are missing</source>
-        <target state="final">Что Вы упускаете</target>
+        <target state="final">Что вы упускаете</target>
         <note>List of premium benefits/advantages</note>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/Positive/header] " xml:space="preserve" approved="yes">
         <source>What you get</source>
-        <target state="final">Что Вы получите</target>
+        <target state="final">Что вы получите</target>
         <note>List of premium benefits/advantages</note>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/ViewFieldReferences/details]" xml:space="preserve">
@@ -2855,9 +2855,9 @@ You can manage and cancel your subscriptions by going to your account settings o
 Subscription automatically renews unless it is canceled at least 24 hours before the end of the current period. Your account will be charged for renewal within 24 hours prior to the end of the current period.
 
 You can manage and cancel your subscriptions by going to your account settings on the App Store after purchase.</source>
-        <target state="translated">Оплата будет снята с Вашего аккаунта Apple ID после подтверждения покупки. 
+        <target state="translated">Оплата будет снята с вашего аккаунта Apple ID после подтверждения покупки. 
 
-Подписка автоматически возобновляется, если не отменена минимум за 24 часа до конца текущего периода. Плата за продление подписки будет снята с Вашего счёта в течение суток до окончания текущего периода. 
+Подписка автоматически возобновляется, если не отменена минимум за 24 часа до конца текущего периода. Плата за продление подписки будет снята с вашего аккаунта в течение суток до окончания текущего периода. 
 
 Вы можете изменить или отменить подписки, зайдя в настройки своего аккаунта в App Store после покупки.</target>
         <note>Subscription conditions</note>
@@ -2979,7 +2979,7 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
       <trans-unit id="[Premium/usage] App being useful: %@/month, that is around %@/year." xml:space="preserve" approved="yes">
         <source>App being useful: %1$@/month, that is around %2$@/year.</source>
-        <target state="final">Приложение полезно %1$@/месяц, т.е. около %2$@/год.</target>
+        <target state="final">Приложение полезно %1$@ в месяц, т.е. около %2$@ в год.</target>
         <note>Status: how long the app has been used during some time period. For example: `App being useful: 1hr/month, about 12hr/year`. [monthlyUsage: String, annualUsage: String — already include the time unit (hours, minutes)]</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/CustomAppIcons/title]" xml:space="preserve" approved="yes">
@@ -3054,7 +3054,7 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
       <trans-unit id="[Settings/AppLock/LockOnLaunch/description]" xml:space="preserve">
         <source>Ensures KeePassium is locked after you force-close the app or restart the device.</source>
-        <target state="translated">Гарантирует, что KeePassium будет заблокирован после принудительного закрытия приложения или перезагрузки устройства.</target>
+        <target state="translated">KeePassium будет заблокирован после принудительного закрытия приложения или перезагрузки устройства.</target>
         <note>Explanation for the `Lock on App Launch` setting</note>
       </trans-unit>
       <trans-unit id="[Settings/AppLock/LockOnLaunch/title]" xml:space="preserve">
@@ -3144,7 +3144,7 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
       <trans-unit id="[TipBox/callToAction/1]" xml:space="preserve">
         <source>Help us make KeePassium better!</source>
-        <target state="translated">Помогите нам сделать KeePassium лучше!</target>
+        <target state="translated">Помогите сделать KeePassium лучше!</target>
         <note>Call to action in the Donations screen.</note>
       </trans-unit>
       <trans-unit id="[TipBox/callToAction/2]" xml:space="preserve">
@@ -3164,7 +3164,7 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
       <trans-unit id="[TipBox/description/2]" xml:space="preserve">
         <source>KeePassium is a free open-source app. You trust it with your most sensitive information. There are no ads, no spying, no nonsense — we respect you.</source>
-        <target state="translated">KeePassium — бесплатное приложение с открытым исходным кодом. Вы доверяете ему самую важную информацию. В нём нет рекламы, шпионских модулей, ничего лишнего — мы уважаем Вас.</target>
+        <target state="translated">KeePassium — бесплатное приложение с открытым исходным кодом. Вы доверяете ему самую важную информацию. В нём нет рекламы, шпионских модулей, ничего лишнего — мы уважаем вас.</target>
         <note>Text in the Donations screen.</note>
       </trans-unit>
       <trans-unit id="[TipBox/description/3]" xml:space="preserve">
@@ -3204,7 +3204,7 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
       <trans-unit id="[YubiKey] Touch the key" xml:space="preserve">
         <source>Touch the key</source>
-        <target state="translated">Прикоснитесь к ключу</target>
+        <target state="translated">Коснитесь ключа</target>
         <note>Call for action: touch the sides of YubiKey 5Ci to continue</note>
       </trans-unit>
       <trans-unit id="[YubiKey] Use YubiKey Slot %d" xml:space="preserve" approved="yes">
@@ -3251,7 +3251,7 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
       <trans-unit id="9wt-nj-TZW.text" xml:space="preserve" approved="yes">
         <source>KeePassium does not collect any personal or analytical data nor share it with anyone.</source>
-        <target state="final">KeePassium не собирает и никуда не отправляет никаких персональных данных.</target>
+        <target state="final">KeePassium не собирает и никуда не отправляет никакие персональные данные.</target>
         <note>Class = "UILabel"; text = "KeePassium does not collect any personal or analytical data nor share it with anyone."; ObjectID = "9wt-nj-TZW";</note>
       </trans-unit>
       <trans-unit id="AMd-x7-PDa.text" xml:space="preserve" approved="yes">
@@ -3842,9 +3842,9 @@ You can have multiple databases, for example to separate work, family and person
         <target state="final">Защита приложения</target>
         <note>Class = "UITableViewController"; title = "App Protection"; ObjectID = "U5m-je-MhO";</note>
       </trans-unit>
-      <trans-unit id="aBx-Ee-bMk.footerTitle" xml:space="preserve" approved="yes">
+      <trans-unit id="aBx-Ee-bMk.footerTitle" xml:space="preserve">
         <source>Protect KeePassium from unauthorized access.</source>
-        <target state="final">Защищает KeePassium от посторонних глаз.</target>
+        <target state="translated">Защищает KeePassium от неавторизованного доступа.</target>
         <note>Class = "UITableViewSection"; footerTitle = "Protect KeePassium from unauthorized access."; ObjectID = "aBx-Ee-bMk"; Note = "Explanation for the `Enable AppLock` option.";</note>
       </trans-unit>
       <trans-unit id="m50-fl-4tu.footerTitle" xml:space="preserve" approved="yes">
@@ -3950,7 +3950,7 @@ You can have multiple databases, for example to separate work, family and person
       </trans-unit>
       <trans-unit id="UzV-Ht-rGx.text" xml:space="preserve" approved="yes">
         <source>Tap "AutoFill Passwords"</source>
-        <target state="final">Нажмите "Автозаполнять пароли"</target>
+        <target state="final">Нажмите "Автозаполнение паролей"</target>
         <note>Class = "UILabel"; text = "Tap \"AutoFill Passwords\""; ObjectID = "UzV-Ht-rGx"; Note = "Step 3. Must match system's translation.";</note>
       </trans-unit>
       <trans-unit id="WDb-aU-Mmf.text" xml:space="preserve">
@@ -3990,7 +3990,7 @@ You can have multiple databases, for example to separate work, family and person
       </trans-unit>
       <trans-unit id="jYl-ks-dFG.footerTitle" xml:space="preserve">
         <source>When AutoFill finds only one, perfectly matching, entry – this entry will be pasted automatically.</source>
-        <target state="translated">Когда Автозаполнение находит только одну, идеально подходящую, запись, эта запись будет выбрана автоматически.</target>
+        <target state="translated">Когда автозаполнение находит только одну, идеально подходящую, запись, она будет выбрана автоматически.</target>
         <note>Class = "UITableViewSection"; footerTitle = "When AutoFill finds only one, perfectly matching, entry – this entry will be pasted automatically."; ObjectID = "jYl-ks-dFG";</note>
       </trans-unit>
       <trans-unit id="jYl-ks-dFG.headerTitle" xml:space="preserve">
@@ -4295,9 +4295,9 @@ You can have multiple databases, for example to separate work, family and person
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A5201i"/>
     </header>
     <body>
-      <trans-unit id="26a-m8-zQP.title" xml:space="preserve" approved="yes">
+      <trans-unit id="26a-m8-zQP.title" xml:space="preserve">
         <source>Database Timeout</source>
-        <target state="final">Задержка до закрытия баз</target>
+        <target state="translated">Задержка закрытия баз</target>
         <note>Class = "UITableViewController"; title = "Database Timeout"; ObjectID = "26a-m8-zQP"; Note = "Title of a list of database timeouts, linked to Settings/Data Protection/Database Timeout.";</note>
       </trans-unit>
       <trans-unit id="Beo-Vy-wZ8.text" xml:space="preserve" translate="no">
@@ -4441,9 +4441,9 @@ You can have multiple databases, for example to separate work, family and person
         <target state="final">Кешировать вычисленные ключи шифрования</target>
         <note>Class = "UILabel"; text = "Cache Derived Encryption Keys"; ObjectID = "siQ-LK-GXZ"; Note = "Setting: preserve (cache) calculated database keys";</note>
       </trans-unit>
-      <trans-unit id="weX-SZ-IDB.text" xml:space="preserve" approved="yes">
+      <trans-unit id="weX-SZ-IDB.text" xml:space="preserve">
         <source>Database Timeout</source>
-        <target state="final">Задержка до закрытия баз</target>
+        <target state="translated">Задержка закрытия баз</target>
         <note>Class = "UILabel"; text = "Database Timeout"; ObjectID = "weX-SZ-IDB";</note>
       </trans-unit>
       <trans-unit id="xPd-ot-oqe.text" xml:space="preserve" translate="no">
