@@ -99,7 +99,7 @@ Por favor, entre em contato conosco se precisar de ajuda com isto.</target>
       </trans-unit>
       <trans-unit id="enW-gs-tra.normalTitle" xml:space="preserve">
         <source>Add Database</source>
-        <target state="translated">Adicionar Banco de Dados</target>
+        <target state="translated">Adicionar banco de dados</target>
         <note>Class = "UIButton"; normalTitle = "Add Database"; ObjectID = "enW-gs-tra";</note>
       </trans-unit>
       <trans-unit id="pIl-6L-Msp.text" xml:space="preserve">
@@ -131,7 +131,7 @@ Por favor, entre em contato conosco se precisar de ajuda com isto.</target>
       </trans-unit>
       <trans-unit id="NSFaceIDUsageDescription" xml:space="preserve">
         <source>Use FaceID to unlock KeePassium</source>
-        <target state="translated">Use FaceID para desbloquear KeePassium</target>
+        <target state="translated">Use Face ID para desbloquear KeePassium</target>
         <note>Privacy - Face ID Usage Description</note>
       </trans-unit>
     </body>
@@ -143,7 +143,7 @@ Por favor, entre em contato conosco se precisar de ajuda com isto.</target>
     <body>
       <trans-unit id="Add Database" xml:space="preserve">
         <source>Add Database</source>
-        <target state="translated">Adicionar Banco de Dados</target>
+        <target state="translated">Adicionar banco de dados</target>
         <note>Action/button to add database to the app</note>
       </trans-unit>
       <trans-unit id="Choose Database" xml:space="preserve">
@@ -153,7 +153,7 @@ Por favor, entre em contato conosco se precisar de ajuda com isto.</target>
       </trans-unit>
       <trans-unit id="Import Database" xml:space="preserve">
         <source>Import Database</source>
-        <target state="translated">Importar Banco de Dados</target>
+        <target state="translated">Importar banco de dados</target>
         <note>Action/button</note>
       </trans-unit>
       <trans-unit id="KeePass database should not be used as key file. Please pick a different file." xml:space="preserve">
@@ -533,6 +533,11 @@ Como resultado, tanto o Preenchimento Automático quanto o aplicativo principal 
         <target state="translated">Há alterações não salvas</target>
         <note>Title of a notification when the user tries to close a document with unsaved changes</note>
       </trans-unit>
+      <trans-unit id="[Generic/File/Save as]" xml:space="preserve">
+        <source>Save as…</source>
+        <target state="translated">Salvar como…</target>
+        <note>Action/button to save data to a different file</note>
+      </trans-unit>
       <trans-unit id="[Generic/File/title] Export Error" xml:space="preserve">
         <source>Export Error</source>
         <target state="translated">Falha ao exportar</target>
@@ -562,6 +567,11 @@ Como resultado, tanto o Preenchimento Automático quanto o aplicativo principal 
         <source>Presets</source>
         <target state="translated">Predefinições</target>
         <note>Title of a list with predefined quick-choice values (for example: 'Presets: 1 week, 1 months, 1 year')</note>
+      </trans-unit>
+      <trans-unit id="[Generic/Search/title]" xml:space="preserve">
+        <source>Search</source>
+        <target state="translated">Busca</target>
+        <note>Title of a search field (a noun, not verb)</note>
       </trans-unit>
       <trans-unit id="[Generic/title] Error" xml:space="preserve">
         <source>Error</source>
@@ -687,6 +697,11 @@ Como resultado, tanto o Preenchimento Automático quanto o aplicativo principal 
         <source>Restore</source>
         <target state="translated">Restaurar</target>
         <note>Action/button to restore a backup/archived item in its original place</note>
+      </trans-unit>
+      <trans-unit id="[Generic] Reveal in Finder" xml:space="preserve">
+        <source>Reveal in Finder</source>
+        <target state="translated">Mostrar no Finder</target>
+        <note>Action/button to open Finder (macOS file manager) and highlight a given file</note>
       </trans-unit>
       <trans-unit id="[Generic] Share" xml:space="preserve">
         <source>Share</source>
@@ -1057,7 +1072,7 @@ Após a compra, você pode gerenciar e cancelar suas assinaturas nas configuraç
       </trans-unit>
       <trans-unit id="[PremiumFeature/LongDBTimeouts/title] Long Database Timeouts" xml:space="preserve">
         <source>Long Database Timeouts</source>
-        <target state="translated">Bancos de Dados Abertos por Mais Tempo</target>
+        <target state="translated">Bancos de dados abertos por mais tempo</target>
         <note>Title of a premium feature: ability to set long delays in Database Lock Timeout settings (In Title Case)</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/MultiDB/description] Easily switch between databases in the premium version." xml:space="preserve">
@@ -1067,7 +1082,7 @@ Após a compra, você pode gerenciar e cancelar suas assinaturas nas configuraç
       </trans-unit>
       <trans-unit id="[PremiumFeature/MultiDB/title] Multiple Databases" xml:space="preserve">
         <source>Multiple Databases</source>
-        <target state="translated">Vários Bancos de Dados</target>
+        <target state="translated">Vários bancos de dados</target>
         <note>Title of a premium feature: ability to use multiple databases (In Title Case)</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/Preview/description] Preview images and documents directly in the app, in the premium version." xml:space="preserve">
@@ -1164,7 +1179,7 @@ Após a compra, você pode gerenciar e cancelar suas assinaturas nas configuraç
       </trans-unit>
       <trans-unit id="h6C-CG-RVI.normalTitle" xml:space="preserve">
         <source>Save Database</source>
-        <target state="translated">Salvar Banco de Dados</target>
+        <target state="translated">Salvar banco de dados</target>
         <note>Class = "UIButton"; normalTitle = "Save Database"; ObjectID = "h6C-CG-RVI"; Note = "Action: save the new database (will show a file picker dialog).";</note>
       </trans-unit>
       <trans-unit id="pvt-FS-0Yx.placeholder" xml:space="preserve">
@@ -1243,7 +1258,7 @@ Após a compra, você pode gerenciar e cancelar suas assinaturas nas configuraç
       </trans-unit>
       <trans-unit id="UI0-Lh-wTj.title" xml:space="preserve">
         <source>Databases</source>
-        <target state="translated">Bancos de Dados</target>
+        <target state="translated">Bancos de dados</target>
         <note>Class = "UINavigationItem"; title = "Databases"; ObjectID = "UI0-Lh-wTj"; Note = "Title of the database picker list";</note>
       </trans-unit>
       <trans-unit id="hmv-DA-BgM.normalTitle" xml:space="preserve">
@@ -1263,7 +1278,7 @@ Após a compra, você pode gerenciar e cancelar suas assinaturas nas configuraç
       </trans-unit>
       <trans-unit id="qPq-UR-uZs.title" xml:space="preserve">
         <source>Add Database</source>
-        <target state="translated">Adicionar Banco de Dados</target>
+        <target state="translated">Adicionar banco de dados</target>
         <note>Class = "UIBarButtonItem"; title = "Add Database"; ObjectID = "qPq-UR-uZs"; Note = "Action: add database (either an existing file or create a new one)";</note>
       </trans-unit>
       <trans-unit id="rWy-ey-805.text" xml:space="preserve" translate="no">
@@ -1814,7 +1829,7 @@ Após a compra, você pode gerenciar e cancelar suas assinaturas nas configuraç
       </trans-unit>
       <trans-unit id="eAa-Z5-pdq.title" xml:space="preserve">
         <source>Unlock Database</source>
-        <target state="translated">Desbloquear Banco de Dados</target>
+        <target state="translated">Desbloquear banco de dados</target>
         <note>Class = "UIViewController"; title = "Unlock Database"; ObjectID = "eAa-Z5-pdq"; Note = "Title of the database unlocker dialog.";</note>
       </trans-unit>
       <trans-unit id="epu-yU-Lyg.text" xml:space="preserve">
@@ -1876,7 +1891,7 @@ Após a compra, você pode gerenciar e cancelar suas assinaturas nas configuraç
       </trans-unit>
       <trans-unit id="NSFaceIDUsageDescription" xml:space="preserve">
         <source>Use FaceID to unlock KeePassium</source>
-        <target state="translated">Use FaceID para desbloquear KeePassium</target>
+        <target state="translated">Use Face ID para desbloquear KeePassium</target>
         <note>Privacy - Face ID Usage Description</note>
       </trans-unit>
       <trans-unit id="NSPhotoLibraryAddUsageDescription" xml:space="preserve">
@@ -1898,7 +1913,7 @@ Após a compra, você pode gerenciar e cancelar suas assinaturas nas configuraç
     <body>
       <trans-unit id="Add Database" xml:space="preserve">
         <source>Add Database</source>
-        <target state="translated">Adicionar Banco de Dados</target>
+        <target state="translated">Adicionar banco de dados</target>
         <note>Action/button to add database to the app</note>
       </trans-unit>
       <trans-unit id="Choose Database" xml:space="preserve">
@@ -1908,7 +1923,7 @@ Após a compra, você pode gerenciar e cancelar suas assinaturas nas configuraç
       </trans-unit>
       <trans-unit id="Import Database" xml:space="preserve">
         <source>Import Database</source>
-        <target state="translated">Importar Banco de Dados</target>
+        <target state="translated">Importar banco de dados</target>
         <note>Action/button</note>
       </trans-unit>
       <trans-unit id="KeePass database should not be used as key file. Please pick a different file." xml:space="preserve">
@@ -2165,6 +2180,41 @@ Após a compra, você pode gerenciar e cancelar suas assinaturas nas configuraç
         <target state="translated">Salvando...</target>
         <note>Status message: saving a database</note>
       </trans-unit>
+      <trans-unit id="[Database/SyncConflict/Cancel/description]" xml:space="preserve">
+        <source>Cancel saving, leave target file intact.</source>
+        <target state="translated">Não salvar, deixar o arquivo de destino intacto.</target>
+        <note>Explanation of the database sync conflict `Cancel` option.</note>
+      </trans-unit>
+      <trans-unit id="[Database/SyncConflict/Merge/action]" xml:space="preserve">
+        <source>Merge</source>
+        <target state="translated">Mesclar</target>
+        <note>Action: combine changes in two conflicting databases.</note>
+      </trans-unit>
+      <trans-unit id="[Database/SyncConflict/Merge/description]" xml:space="preserve">
+        <source>Combine changes before saving.</source>
+        <target state="translated">Combinar as alterações de ambos e salvar.</target>
+        <note>Explanation of the database sync conflict `Merge` option.</note>
+      </trans-unit>
+      <trans-unit id="[Database/SyncConflict/Overwrite/description]" xml:space="preserve">
+        <source>Overwrite target file with the local version.</source>
+        <target state="translated">Substituir o arquivo de destino pela versão local.</target>
+        <note>Explanation of the database sync conflict `Overwrite` option.</note>
+      </trans-unit>
+      <trans-unit id="[Database/SyncConflict/SaveAs/description]" xml:space="preserve">
+        <source>Save changes to another file.</source>
+        <target state="translated">Salvar alterações em outro arquivo.</target>
+        <note>Explanation of the database sync conflict `Save as` option.</note>
+      </trans-unit>
+      <trans-unit id="[Database/SyncConflict/description]" xml:space="preserve">
+        <source>The database has changed since it was loaded in KeePassium.</source>
+        <target state="translated">O banco de dados foi editado desde que foi carregado no KeePassium.</target>
+        <note>Message shown in case of database sync conflict.</note>
+      </trans-unit>
+      <trans-unit id="[Database/SyncConflict/title]" xml:space="preserve">
+        <source>Sync Conflict</source>
+        <target state="translated">Conflito de sincronização</target>
+        <note>Title of a message shown when saving to a database that has already been modified elsewhere.</note>
+      </trans-unit>
       <trans-unit id="[Database/Unlock/wrongPassword/question]" xml:space="preserve">
         <source>Forgot your password?</source>
         <target state="translated">Esqueceu sua senha?</target>
@@ -2390,6 +2440,11 @@ Após a compra, você pode gerenciar e cancelar suas assinaturas nas configuraç
         <target state="translated">Há alterações não salvas</target>
         <note>Title of a notification when the user tries to close a document with unsaved changes</note>
       </trans-unit>
+      <trans-unit id="[Generic/File/Save as]" xml:space="preserve">
+        <source>Save as…</source>
+        <target state="translated">Salvar como…</target>
+        <note>Action/button to save data to a different file</note>
+      </trans-unit>
       <trans-unit id="[Generic/File/title] Export Error" xml:space="preserve">
         <source>Export Error</source>
         <target state="translated">Falha ao exportar</target>
@@ -2419,6 +2474,11 @@ Após a compra, você pode gerenciar e cancelar suas assinaturas nas configuraç
         <source>Presets</source>
         <target state="translated">Predefinições</target>
         <note>Title of a list with predefined quick-choice values (for example: 'Presets: 1 week, 1 months, 1 year')</note>
+      </trans-unit>
+      <trans-unit id="[Generic/Search/title]" xml:space="preserve">
+        <source>Search</source>
+        <target state="translated">Busca</target>
+        <note>Title of a search field (a noun, not verb)</note>
       </trans-unit>
       <trans-unit id="[Generic/title] Error" xml:space="preserve">
         <source>Error</source>
@@ -2545,6 +2605,11 @@ Após a compra, você pode gerenciar e cancelar suas assinaturas nas configuraç
         <target state="translated">Restaurar</target>
         <note>Action/button to restore a backup/archived item in its original place</note>
       </trans-unit>
+      <trans-unit id="[Generic] Reveal in Finder" xml:space="preserve">
+        <source>Reveal in Finder</source>
+        <target state="translated">Mostrar no Finder</target>
+        <note>Action/button to open Finder (macOS file manager) and highlight a given file</note>
+      </trans-unit>
       <trans-unit id="[Generic] Share" xml:space="preserve">
         <source>Share</source>
         <target state="translated">Compartilhar</target>
@@ -2658,6 +2723,16 @@ Após a compra, você pode gerenciar e cancelar suas assinaturas nas configuraç
         <target state="translated">Esquecer esse arquivo de chave?
  O arquivo permanecerá intacto e você poderá adicioná-lo de novo depois.</target>
         <note>Message to confirm removal of a key file from the app. (This keeps the file, but removes its reference from the app.)</note>
+      </trans-unit>
+      <trans-unit id="[Menu/About/title]" xml:space="preserve">
+        <source>About %@</source>
+        <target state="translated">Sobre %@</target>
+        <note>Menu title. For example: `About KeePassium`. [appName: String]</note>
+      </trans-unit>
+      <trans-unit id="[Menu/Preferences/title]" xml:space="preserve">
+        <source>Preferences…</source>
+        <target state="translated">Preferências…</target>
+        <note>Menu title: app settings</note>
       </trans-unit>
       <trans-unit id="[OTP/Scan/InvalidData]" xml:space="preserve">
         <source>This QR code is not suitable for OTP setup.</source>
@@ -3014,7 +3089,7 @@ Após a compra, você pode gerenciar e cancelar suas assinaturas nas configuraç
       </trans-unit>
       <trans-unit id="[PremiumFeature/LongDBTimeouts/title] Long Database Timeouts" xml:space="preserve">
         <source>Long Database Timeouts</source>
-        <target state="translated">Bancos de Dados Abertos por Mais Tempo</target>
+        <target state="translated">Bancos de dados abertos por mais tempo</target>
         <note>Title of a premium feature: ability to set long delays in Database Lock Timeout settings (In Title Case)</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/MultiDB/description] Easily switch between databases in the premium version." xml:space="preserve">
@@ -3024,7 +3099,7 @@ Após a compra, você pode gerenciar e cancelar suas assinaturas nas configuraç
       </trans-unit>
       <trans-unit id="[PremiumFeature/MultiDB/title] Multiple Databases" xml:space="preserve">
         <source>Multiple Databases</source>
-        <target state="translated">Vários Bancos de Dados</target>
+        <target state="translated">Vários bancos de dados</target>
         <note>Title of a premium feature: ability to use multiple databases (In Title Case)</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/Preview/description] Preview images and documents directly in the app, in the premium version." xml:space="preserve">
@@ -3653,7 +3728,7 @@ Você pode ter vários bancos de dados; por exemplo, para trabalho, família e u
       </trans-unit>
       <trans-unit id="ZKW-2f-Xkz.normalTitle" xml:space="preserve">
         <source>Add Existing Database</source>
-        <target state="translated">Adicionar Banco de Dados Existente</target>
+        <target state="translated">Adicionar banco de dados existente</target>
         <note>Class = "UIButton"; normalTitle = "Add Existing Database"; ObjectID = "ZKW-2f-Xkz";</note>
       </trans-unit>
     </body>
@@ -4089,7 +4164,7 @@ Você pode ter vários bancos de dados; por exemplo, para trabalho, família e u
       </trans-unit>
       <trans-unit id="nSy-3u-0xW.title" xml:space="preserve">
         <source>Database Backup</source>
-        <target state="translated">Cópias de segurança de bancos de dados</target>
+        <target state="translated">Cópias de segurança</target>
         <note>Class = "UITableViewController"; title = "Database Backup"; ObjectID = "nSy-3u-0xW";</note>
       </trans-unit>
     </body>
@@ -4248,7 +4323,7 @@ Você pode ter vários bancos de dados; por exemplo, para trabalho, família e u
       </trans-unit>
       <trans-unit id="coD-Om-Vfm.text" xml:space="preserve">
         <source>Database Backup</source>
-        <target state="translated">Cópias de segurança de bancos de dados</target>
+        <target state="translated">Cópias de segurança</target>
         <note>Class = "UILabel"; text = "Database Backup"; ObjectID = "coD-Om-Vfm"; Note = "Settings section";</note>
       </trans-unit>
       <trans-unit id="hui-xG-chj.headerTitle" xml:space="preserve">
@@ -4297,7 +4372,7 @@ Você pode ter vários bancos de dados; por exemplo, para trabalho, família e u
     <body>
       <trans-unit id="26a-m8-zQP.title" xml:space="preserve">
         <source>Database Timeout</source>
-        <target state="translated">Limite de tempo p/ BD</target>
+        <target state="translated">Limite de tempo aberto</target>
         <note>Class = "UITableViewController"; title = "Database Timeout"; ObjectID = "26a-m8-zQP"; Note = "Title of a list of database timeouts, linked to Settings/Data Protection/Database Timeout.";</note>
       </trans-unit>
       <trans-unit id="Beo-Vy-wZ8.text" xml:space="preserve" translate="no">
@@ -4443,7 +4518,7 @@ Você pode ter vários bancos de dados; por exemplo, para trabalho, família e u
       </trans-unit>
       <trans-unit id="weX-SZ-IDB.text" xml:space="preserve">
         <source>Database Timeout</source>
-        <target state="translated">Limite de tempo p/ BD</target>
+        <target state="translated">Limite de tempo aberto</target>
         <note>Class = "UILabel"; text = "Database Timeout"; ObjectID = "weX-SZ-IDB";</note>
       </trans-unit>
       <trans-unit id="xPd-ot-oqe.text" xml:space="preserve" translate="no">

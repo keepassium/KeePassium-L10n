@@ -533,6 +533,11 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <target state="translated">保存していない変更があります</target>
         <note>Title of a notification when the user tries to close a document with unsaved changes</note>
       </trans-unit>
+      <trans-unit id="[Generic/File/Save as]" xml:space="preserve">
+        <source>Save as…</source>
+        <target state="translated">別名で保存...</target>
+        <note>Action/button to save data to a different file</note>
+      </trans-unit>
       <trans-unit id="[Generic/File/title] Export Error" xml:space="preserve">
         <source>Export Error</source>
         <target state="translated">共有エラー</target>
@@ -562,6 +567,11 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <source>Presets</source>
         <target state="translated">プリセット</target>
         <note>Title of a list with predefined quick-choice values (for example: 'Presets: 1 week, 1 months, 1 year')</note>
+      </trans-unit>
+      <trans-unit id="[Generic/Search/title]" xml:space="preserve">
+        <source>Search</source>
+        <target state="translated">検索</target>
+        <note>Title of a search field (a noun, not verb)</note>
       </trans-unit>
       <trans-unit id="[Generic/title] Error" xml:space="preserve">
         <source>Error</source>
@@ -687,6 +697,11 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <source>Restore</source>
         <target state="translated">復元</target>
         <note>Action/button to restore a backup/archived item in its original place</note>
+      </trans-unit>
+      <trans-unit id="[Generic] Reveal in Finder" xml:space="preserve">
+        <source>Reveal in Finder</source>
+        <target state="translated">Finderで表示</target>
+        <note>Action/button to open Finder (macOS file manager) and highlight a given file</note>
       </trans-unit>
       <trans-unit id="[Generic] Share" xml:space="preserve">
         <source>Share</source>
@@ -2164,6 +2179,41 @@ You can manage and cancel your subscriptions by going to your account settings o
         <target state="translated">保存中...</target>
         <note>Status message: saving a database</note>
       </trans-unit>
+      <trans-unit id="[Database/SyncConflict/Cancel/description]" xml:space="preserve">
+        <source>Cancel saving, leave target file intact.</source>
+        <target state="translated">保存をキャンセルします。ファイルは変更されません。</target>
+        <note>Explanation of the database sync conflict `Cancel` option.</note>
+      </trans-unit>
+      <trans-unit id="[Database/SyncConflict/Merge/action]" xml:space="preserve">
+        <source>Merge</source>
+        <target state="translated">結合</target>
+        <note>Action: combine changes in two conflicting databases.</note>
+      </trans-unit>
+      <trans-unit id="[Database/SyncConflict/Merge/description]" xml:space="preserve">
+        <source>Combine changes before saving.</source>
+        <target state="translated">保存する前に変更を結合します。</target>
+        <note>Explanation of the database sync conflict `Merge` option.</note>
+      </trans-unit>
+      <trans-unit id="[Database/SyncConflict/Overwrite/description]" xml:space="preserve">
+        <source>Overwrite target file with the local version.</source>
+        <target state="translated">現在の内容でファイルを上書きします。</target>
+        <note>Explanation of the database sync conflict `Overwrite` option.</note>
+      </trans-unit>
+      <trans-unit id="[Database/SyncConflict/SaveAs/description]" xml:space="preserve">
+        <source>Save changes to another file.</source>
+        <target state="translated">別のファイルに保存します。</target>
+        <note>Explanation of the database sync conflict `Save as` option.</note>
+      </trans-unit>
+      <trans-unit id="[Database/SyncConflict/description]" xml:space="preserve">
+        <source>The database has changed since it was loaded in KeePassium.</source>
+        <target state="translated">KeePassiumが読み込んだ後にデータベースが変更されました。</target>
+        <note>Message shown in case of database sync conflict.</note>
+      </trans-unit>
+      <trans-unit id="[Database/SyncConflict/title]" xml:space="preserve">
+        <source>Sync Conflict</source>
+        <target state="translated">同期の競合</target>
+        <note>Title of a message shown when saving to a database that has already been modified elsewhere.</note>
+      </trans-unit>
       <trans-unit id="[Database/Unlock/wrongPassword/question]" xml:space="preserve">
         <source>Forgot your password?</source>
         <target state="translated">パスワードをお忘れですか？</target>
@@ -2389,6 +2439,11 @@ You can manage and cancel your subscriptions by going to your account settings o
         <target state="translated">保存していない変更があります</target>
         <note>Title of a notification when the user tries to close a document with unsaved changes</note>
       </trans-unit>
+      <trans-unit id="[Generic/File/Save as]" xml:space="preserve">
+        <source>Save as…</source>
+        <target state="translated">別名で保存...</target>
+        <note>Action/button to save data to a different file</note>
+      </trans-unit>
       <trans-unit id="[Generic/File/title] Export Error" xml:space="preserve">
         <source>Export Error</source>
         <target state="translated">共有エラー</target>
@@ -2418,6 +2473,11 @@ You can manage and cancel your subscriptions by going to your account settings o
         <source>Presets</source>
         <target state="translated">プリセット</target>
         <note>Title of a list with predefined quick-choice values (for example: 'Presets: 1 week, 1 months, 1 year')</note>
+      </trans-unit>
+      <trans-unit id="[Generic/Search/title]" xml:space="preserve">
+        <source>Search</source>
+        <target state="translated">検索</target>
+        <note>Title of a search field (a noun, not verb)</note>
       </trans-unit>
       <trans-unit id="[Generic/title] Error" xml:space="preserve">
         <source>Error</source>
@@ -2544,6 +2604,11 @@ You can manage and cancel your subscriptions by going to your account settings o
         <target state="translated">復元</target>
         <note>Action/button to restore a backup/archived item in its original place</note>
       </trans-unit>
+      <trans-unit id="[Generic] Reveal in Finder" xml:space="preserve">
+        <source>Reveal in Finder</source>
+        <target state="translated">Finderで表示</target>
+        <note>Action/button to open Finder (macOS file manager) and highlight a given file</note>
+      </trans-unit>
       <trans-unit id="[Generic] Share" xml:space="preserve">
         <source>Share</source>
         <target state="translated">共有</target>
@@ -2656,6 +2721,16 @@ You can manage and cancel your subscriptions by going to your account settings o
  The file will remain intact and you can add it again later.</source>
         <target state="translated">キーファイルを一覧から削除しますか？ファイルの本体はそのまま残りますので、後で再度追加できます。</target>
         <note>Message to confirm removal of a key file from the app. (This keeps the file, but removes its reference from the app.)</note>
+      </trans-unit>
+      <trans-unit id="[Menu/About/title]" xml:space="preserve">
+        <source>About %@</source>
+        <target state="translated">%@について</target>
+        <note>Menu title. For example: `About KeePassium`. [appName: String]</note>
+      </trans-unit>
+      <trans-unit id="[Menu/Preferences/title]" xml:space="preserve">
+        <source>Preferences…</source>
+        <target state="translated">環境設定...</target>
+        <note>Menu title: app settings</note>
       </trans-unit>
       <trans-unit id="[OTP/Scan/InvalidData]" xml:space="preserve">
         <source>This QR code is not suitable for OTP setup.</source>

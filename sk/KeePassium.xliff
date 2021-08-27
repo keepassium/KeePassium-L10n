@@ -533,6 +533,11 @@ Z tohoto dôvodu je nutné dať súhlas k prístupu samotne aplikácii KeePassiu
         <target state="translated">Máte neuložené zmeny</target>
         <note>Title of a notification when the user tries to close a document with unsaved changes</note>
       </trans-unit>
+      <trans-unit id="[Generic/File/Save as]" xml:space="preserve">
+        <source>Save as…</source>
+        <target state="translated">Uložiť ako…</target>
+        <note>Action/button to save data to a different file</note>
+      </trans-unit>
       <trans-unit id="[Generic/File/title] Export Error" xml:space="preserve">
         <source>Export Error</source>
         <target state="translated">Chyba exportu</target>
@@ -562,6 +567,11 @@ Z tohoto dôvodu je nutné dať súhlas k prístupu samotne aplikácii KeePassiu
         <source>Presets</source>
         <target state="needs-translation">Presets</target>
         <note>Title of a list with predefined quick-choice values (for example: 'Presets: 1 week, 1 months, 1 year')</note>
+      </trans-unit>
+      <trans-unit id="[Generic/Search/title]" xml:space="preserve">
+        <source>Search</source>
+        <target state="translated">Vyhľadávanie</target>
+        <note>Title of a search field (a noun, not verb)</note>
       </trans-unit>
       <trans-unit id="[Generic/title] Error" xml:space="preserve">
         <source>Error</source>
@@ -687,6 +697,11 @@ Z tohoto dôvodu je nutné dať súhlas k prístupu samotne aplikácii KeePassiu
         <source>Restore</source>
         <target state="needs-translation">Restore</target>
         <note>Action/button to restore a backup/archived item in its original place</note>
+      </trans-unit>
+      <trans-unit id="[Generic] Reveal in Finder" xml:space="preserve">
+        <source>Reveal in Finder</source>
+        <target state="translated">Zobraziť vo Finderi</target>
+        <note>Action/button to open Finder (macOS file manager) and highlight a given file</note>
       </trans-unit>
       <trans-unit id="[Generic] Share" xml:space="preserve">
         <source>Share</source>
@@ -2165,9 +2180,44 @@ Svoje predplatné môžete spravovať alebo zrušiť po vykonaní nákupu v nast
         <target state="translated">Ukladanie...</target>
         <note>Status message: saving a database</note>
       </trans-unit>
+      <trans-unit id="[Database/SyncConflict/Cancel/description]" xml:space="preserve">
+        <source>Cancel saving, leave target file intact.</source>
+        <target state="needs-translation">Cancel saving, leave target file intact.</target>
+        <note>Explanation of the database sync conflict `Cancel` option.</note>
+      </trans-unit>
+      <trans-unit id="[Database/SyncConflict/Merge/action]" xml:space="preserve">
+        <source>Merge</source>
+        <target state="needs-translation">Merge</target>
+        <note>Action: combine changes in two conflicting databases.</note>
+      </trans-unit>
+      <trans-unit id="[Database/SyncConflict/Merge/description]" xml:space="preserve">
+        <source>Combine changes before saving.</source>
+        <target state="needs-translation">Combine changes before saving.</target>
+        <note>Explanation of the database sync conflict `Merge` option.</note>
+      </trans-unit>
+      <trans-unit id="[Database/SyncConflict/Overwrite/description]" xml:space="preserve">
+        <source>Overwrite target file with the local version.</source>
+        <target state="needs-translation">Overwrite target file with the local version.</target>
+        <note>Explanation of the database sync conflict `Overwrite` option.</note>
+      </trans-unit>
+      <trans-unit id="[Database/SyncConflict/SaveAs/description]" xml:space="preserve">
+        <source>Save changes to another file.</source>
+        <target state="needs-translation">Save changes to another file.</target>
+        <note>Explanation of the database sync conflict `Save as` option.</note>
+      </trans-unit>
+      <trans-unit id="[Database/SyncConflict/description]" xml:space="preserve">
+        <source>The database has changed since it was loaded in KeePassium.</source>
+        <target state="needs-translation">The database has changed since it was loaded in KeePassium.</target>
+        <note>Message shown in case of database sync conflict.</note>
+      </trans-unit>
+      <trans-unit id="[Database/SyncConflict/title]" xml:space="preserve">
+        <source>Sync Conflict</source>
+        <target state="needs-translation">Sync Conflict</target>
+        <note>Title of a message shown when saving to a database that has already been modified elsewhere.</note>
+      </trans-unit>
       <trans-unit id="[Database/Unlock/wrongPassword/question]" xml:space="preserve">
         <source>Forgot your password?</source>
-        <target state="needs-translation">Forgot your password?</target>
+        <target state="translated">Zabudli ste heslo?</target>
         <note>Message shown when user enters an invalid database password</note>
       </trans-unit>
       <trans-unit id="[Database/Unlock] Key file error: %@" xml:space="preserve">
@@ -2390,6 +2440,11 @@ Svoje predplatné môžete spravovať alebo zrušiť po vykonaní nákupu v nast
         <target state="translated">Máte neuložené zmeny</target>
         <note>Title of a notification when the user tries to close a document with unsaved changes</note>
       </trans-unit>
+      <trans-unit id="[Generic/File/Save as]" xml:space="preserve">
+        <source>Save as…</source>
+        <target state="translated">Uložiť ako…</target>
+        <note>Action/button to save data to a different file</note>
+      </trans-unit>
       <trans-unit id="[Generic/File/title] Export Error" xml:space="preserve">
         <source>Export Error</source>
         <target state="translated">Chyba exportu</target>
@@ -2419,6 +2474,11 @@ Svoje predplatné môžete spravovať alebo zrušiť po vykonaní nákupu v nast
         <source>Presets</source>
         <target state="needs-translation">Presets</target>
         <note>Title of a list with predefined quick-choice values (for example: 'Presets: 1 week, 1 months, 1 year')</note>
+      </trans-unit>
+      <trans-unit id="[Generic/Search/title]" xml:space="preserve">
+        <source>Search</source>
+        <target state="translated">Vyhľadávanie</target>
+        <note>Title of a search field (a noun, not verb)</note>
       </trans-unit>
       <trans-unit id="[Generic/title] Error" xml:space="preserve">
         <source>Error</source>
@@ -2545,6 +2605,11 @@ Svoje predplatné môžete spravovať alebo zrušiť po vykonaní nákupu v nast
         <target state="needs-translation">Restore</target>
         <note>Action/button to restore a backup/archived item in its original place</note>
       </trans-unit>
+      <trans-unit id="[Generic] Reveal in Finder" xml:space="preserve">
+        <source>Reveal in Finder</source>
+        <target state="translated">Zobraziť vo Finderi</target>
+        <note>Action/button to open Finder (macOS file manager) and highlight a given file</note>
+      </trans-unit>
       <trans-unit id="[Generic] Share" xml:space="preserve">
         <source>Share</source>
         <target state="translated">Zdieľať</target>
@@ -2658,6 +2723,16 @@ Svoje predplatné môžete spravovať alebo zrušiť po vykonaní nákupu v nast
         <target state="translated">Odobrať súbor s kľúčom zo zoznamu?
  Súbor zostane neporušený a neskôr ho budete môcť znova pridať.</target>
         <note>Message to confirm removal of a key file from the app. (This keeps the file, but removes its reference from the app.)</note>
+      </trans-unit>
+      <trans-unit id="[Menu/About/title]" xml:space="preserve">
+        <source>About %@</source>
+        <target state="translated">O aplikácii %@</target>
+        <note>Menu title. For example: `About KeePassium`. [appName: String]</note>
+      </trans-unit>
+      <trans-unit id="[Menu/Preferences/title]" xml:space="preserve">
+        <source>Preferences…</source>
+        <target state="translated">Nastavenia…</target>
+        <note>Menu title: app settings</note>
       </trans-unit>
       <trans-unit id="[OTP/Scan/InvalidData]" xml:space="preserve">
         <source>This QR code is not suitable for OTP setup.</source>
