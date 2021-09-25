@@ -314,7 +314,7 @@
         <source>Attachments of some entries are missing data. This is a sign of database corruption, most likely by the last used app (%1$@). KeePassium will preserve the empty attachments, but cannot restore them. You should restore your database from a backup copy. 
 
 Missing attachments: %2$@</source>
-        <target state="translated">Os anexos de algumas entradas estão faltando. Isso é sinal de corrupção no banco de dados, provavelmente causada pelo último aplicativo que o salvou (%1$@). KeePassium preservará os anexos vazios, mas não pode recuperá-los. Você deve restaurar o banco de dados a partir de uma cópia de segurança. 
+        <target state="translated">Os anexos de algumas entradas estão faltando. Isso é sinal de corrupção no banco de dados, provavelmente causada pelo último app que o salvou (%1$@). KeePassium preservará os anexos vazios, mas não pode recuperá-los. Você deve restaurar o banco de dados a partir de uma cópia de segurança. 
 
 Anexos faltando: %2$@</target>
         <note>A warning about missing attachments after loading the database. [lastUsedAppName: String, attachmentNames: String]</note>
@@ -342,7 +342,7 @@ Anexos faltando: %2$@</target>
       <trans-unit id="[Database2/Loading/Warning/unusedAttachments]" xml:space="preserve">
         <source>The database contains some attachments that are not used in any entry. Most likely, they have been forgotten by the last used app (%@). However, this can also be a sign of data corruption. 
 Please make sure to have a backup of your database before changing anything.</source>
-        <target state="translated">O banco de dados tem anexos que não pertencem a nenhuma entrada. Provavelmente foram esquecidos pelo último aplicativo que o salvou (%@). Todavia, também pode ser sinal de corrupção no banco de dados. 
+        <target state="translated">O banco de dados tem anexos que não pertencem a nenhuma entrada. Provavelmente foram esquecidos pelo último app que o salvou (%@). Todavia, também pode ser sinal de corrupção no banco de dados. 
 Faça uma cópia de segurança desse banco de dados antes de modifica-lo.</target>
         <note>A warning about unused attachments after loading the database. [lastUsedAppName: String]</note>
       </trans-unit>
@@ -448,12 +448,12 @@ Faça uma cópia de segurança desse banco de dados antes de modifica-lo.</targe
       </trans-unit>
       <trans-unit id="[FileAccessError/FileProvider/NotFound/generic]" xml:space="preserve">
         <source>Storage provider is not available. Please check whether it is installed and logged in to your account.</source>
-        <target state="translated">Serviço de armazenamento indisponível. Verifique se o aplicativo deste está instalado e conectado à sua conta.</target>
+        <target state="translated">Serviço de armazenamento indisponível. Verifique se o app deste está instalado e conectado à sua conta.</target>
         <note>Error message: storage provider app was logged out or uninstalled.</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/FileProvider/NotFound/other]" xml:space="preserve">
         <source>%@ is not available. Please check whether it is installed and logged in to your account.</source>
-        <target state="translated">%@ não está disponível. Por favor, verifique se esse aplicativo está instalado e conectado à sua conta.</target>
+        <target state="translated">%@ não está disponível. Por favor, verifique se esse app está instalado e conectado à sua conta.</target>
         <note>Error message: storage provider app was logged out or uninstalled [fileProviderName: String].</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/FileProvider/NotFound/smbShare]" xml:space="preserve">
@@ -770,7 +770,7 @@ Isso pode ocorrer com bancos de dados muito grandes ou com configurações exage
       </trans-unit>
       <trans-unit id="[Settings/AppLockTimeout/description] After leaving the app" xml:space="preserve">
         <source>After leaving the app</source>
-        <target state="translated">Após sair do aplicativo</target>
+        <target state="translated">Após sair do app</target>
         <note>A description/subtitle for Settings/AppLock/Timeout options that trigger when the app is minimized. For example: 'AppLock Timeout: 3 seconds (After leaving the app)</note>
       </trans-unit>
       <trans-unit id="[Settings/AppLockTimeout/fullTitle] Immediately" xml:space="preserve">
@@ -810,7 +810,7 @@ Isso pode ocorrer com bancos de dados muito grandes ou com configurações exage
       </trans-unit>
       <trans-unit id="[Settings/DatabaseLockTimeout/description] When leaving the app" xml:space="preserve">
         <source>When leaving the app</source>
-        <target state="translated">Ao sair do aplicativo</target>
+        <target state="translated">Ao sair do app</target>
         <note>A description/subtitle for the 'DatabaseLockTimeout: Immediately'.</note>
       </trans-unit>
       <trans-unit id="[Settings/DatabaseLockTimeout/fullTitle] Immediately" xml:space="preserve">
@@ -865,7 +865,7 @@ Isso pode ocorrer com bancos de dados muito grandes ou com configurações exage
       </trans-unit>
       <trans-unit id="[URLReference/Location] Cloud storage / Another app" xml:space="preserve">
         <source>Cloud storage / Another app</source>
-        <target state="translated">Nuvem/Outro aplicativo</target>
+        <target state="translated">Nuvem/Outro app</target>
         <note>Human-readable file location. The file is situated either online / in cloud storage, or on the same device, but in some other app. Example: 'File Location: Cloud storage / Another app'</note>
       </trans-unit>
       <trans-unit id="[URLReference/Location] Internal backup" xml:space="preserve">

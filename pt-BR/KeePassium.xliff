@@ -198,12 +198,12 @@ Por favor, entre em contato conosco se precisar de ajuda com isto.</target>
       </trans-unit>
       <trans-unit id="[AppLock/changePasscode]" xml:space="preserve">
         <source>Change Passcode</source>
-        <target state="translated">Mudar senha do aplicativo</target>
+        <target state="translated">Mudar senha do app</target>
         <note>Action/button to modify the existing AppLock passcode.</note>
       </trans-unit>
       <trans-unit id="[AppLock/passcodeUpdated/title]" xml:space="preserve">
         <source>Passcode updated successfully.</source>
-        <target state="translated">Senha do aplicativo atualizada com sucesso.</target>
+        <target state="translated">Senha do app atualizada com sucesso.</target>
         <note>Notification that the modified AppLock passcode has been saved.</note>
       </trans-unit>
       <trans-unit id="[AppLock/savePasscode]" xml:space="preserve">
@@ -237,11 +237,11 @@ Por favor, entre em contato conosco se precisar de ajuda com isto.</target>
 Why? Behind the scenes, the system treats AutoFill as a separate app, independent from the main KeePassium process. For security reasons, an app cannot simply access any external files – unless you explicitly link these files to that app. Thus the system guarantees that the app can only access the few files you allowed it to.
 
 As a result, both AutoFill and the main KeePassium app need to be given their own permissions for each external file. Luckily, this is a one-time procedure.</source>
-        <target state="translated">O Preenchimento Automático precisa ser autorizado a acessar os arquivos que você já tem no aplicativo principal do KeePassium.
+        <target state="translated">O Preenchimento Automático precisa ser autorizado a acessar os arquivos que você já tem no app principal do KeePassium.
 
-Por quê? Por trás das cenas, o sistema trata o Preenchimento Automático como um aplicativo separado, independente do KeePassium principal. Por segurança, um aplicativo não pode acessar arquivos externos, a menos que você vincule explicitamente esses arquivos a ele. Assim, o sistema garante que o aplicativo só possa acessar os poucos arquivos que você autorizou.
+Por quê? Por trás das cenas, o sistema trata o Preenchimento Automático como um app separado, independente do KeePassium principal. Por segurança, um app não pode acessar arquivos externos, a menos que você vincule explicitamente esses arquivos a ele. Assim, o sistema garante que o app só possa acessar os poucos arquivos que você autorizou.
 
-Como resultado, tanto o Preenchimento Automático quanto o aplicativo principal do KeePassium precisam ser autorizados separadamente para cada arquivo externo. Felizmente, você só precisa fazer isso uma vez para cada arquivo.</target>
+Como resultado, tanto o Preenchimento Automático quanto o app principal do KeePassium precisam ser autorizados separadamente para cada arquivo externo. Felizmente, você só precisa fazer isso uma vez para cada arquivo.</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="[BiometricAuthType] Face ID" xml:space="preserve">
@@ -460,7 +460,7 @@ Como resultado, tanto o Preenchimento Automático quanto o aplicativo principal 
       </trans-unit>
       <trans-unit id="[File/PermissionDenied] Try to remove the file from the app, then add it again." xml:space="preserve">
         <source>Try to remove the file from the app, then add it again.</source>
-        <target state="translated">Tente retirar o arquivo do aplicativo e adicioná-lo de novo.</target>
+        <target state="translated">Tente retirar o arquivo do app e adicioná-lo de novo.</target>
         <note>A suggestion shown after specific file errors (either databases or key files).</note>
       </trans-unit>
       <trans-unit id="[File/Re-add/title]" xml:space="preserve">
@@ -948,7 +948,7 @@ Como resultado, tanto o Preenchimento Automático quanto o aplicativo principal 
 Subscription automatically renews unless it is canceled at least 24 hours before the end of the current period. Your account will be charged for renewal within 24 hours prior to the end of the current period.
 
 You can manage and cancel your subscriptions by going to your account settings on the App Store after purchase.</source>
-        <target state="translated">O valor será cobrado de seu Apple ID imediatamente ao confirmar a compra dentro do aplicativo.
+        <target state="translated">O valor será cobrado de seu Apple ID imediatamente ao confirmar a compra dentro do app.
 
 Assinaturas possuem renovação automática, a menos que canceladas até 24 horas antes do fim do período vigente. A renovação da assinatura será cobrada durante as últimas 24 horas do período de assinatura vigente.
 
@@ -1087,7 +1087,7 @@ Após a compra, você pode gerenciar e cancelar suas assinaturas nas configuraç
       </trans-unit>
       <trans-unit id="[PremiumFeature/Preview/description] Preview images and documents directly in the app, in the premium version." xml:space="preserve">
         <source>Preview images and documents directly in the app, in the premium version.</source>
-        <target state="translated">Visualize imagens e documentos sem sair do aplicativo, na versão Premium.</target>
+        <target state="translated">Visualize imagens e documentos sem sair do app, na versão Premium.</target>
         <note>Description/advertisement for the `Preview Attachments` premium feature</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/Preview/title] Preview Attachments" xml:space="preserve">
@@ -1263,7 +1263,7 @@ Após a compra, você pode gerenciar e cancelar suas assinaturas nas configuraç
       </trans-unit>
       <trans-unit id="hmv-DA-BgM.normalTitle" xml:space="preserve">
         <source>Enable AppLock</source>
-        <target state="translated">Ativar senha do aplicativo</target>
+        <target state="translated">Ativar senha do app</target>
         <note>Class = "UIButton"; normalTitle = "Enable AppLock"; ObjectID = "hmv-DA-BgM";</note>
       </trans-unit>
       <trans-unit id="lnO-nD-gvh.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" xml:space="preserve">
@@ -1881,7 +1881,7 @@ Após a compra, você pode gerenciar e cancelar suas assinaturas nas configuraç
       </trans-unit>
       <trans-unit id="NFCReaderUsageDescription" xml:space="preserve">
         <source>KeePassium needs access to NFC to communicate with your YubiKey.</source>
-        <target state="translated">KeePassium precisa ter acesso ao NFC para se comunicar com a YubiKey.</target>
+        <target state="translated">KeePassium precisa de acesso ao NFC para se comunicar com a YubiKey.</target>
         <note>Privacy - NFC Scan Usage Description</note>
       </trans-unit>
       <trans-unit id="NSCameraUsageDescription" xml:space="preserve">
@@ -1901,7 +1901,7 @@ Após a compra, você pode gerenciar e cancelar suas assinaturas nas configuraç
       </trans-unit>
       <trans-unit id="NSPhotoLibraryUsageDescription" xml:space="preserve">
         <source>KeePassium needs access to the Photos library to add custom icons to groups and entries</source>
-        <target state="translated">KeePassium precisa acessar a fototeca para adicionar ícones personalizados a grupos e entradas</target>
+        <target state="translated">KeePassium precisa acessar a biblioteca de fotos para adicionar ícones personalizados a grupos e entradas</target>
         <note/>
       </trans-unit>
     </body>
@@ -1968,12 +1968,12 @@ Após a compra, você pode gerenciar e cancelar suas assinaturas nas configuraç
       </trans-unit>
       <trans-unit id="[AppLock/changePasscode]" xml:space="preserve">
         <source>Change Passcode</source>
-        <target state="translated">Mudar senha do aplicativo</target>
+        <target state="translated">Mudar senha do app</target>
         <note>Action/button to modify the existing AppLock passcode.</note>
       </trans-unit>
       <trans-unit id="[AppLock/passcodeUpdated/title]" xml:space="preserve">
         <source>Passcode updated successfully.</source>
-        <target state="translated">Senha do aplicativo atualizada com sucesso.</target>
+        <target state="translated">Senha do app atualizada com sucesso.</target>
         <note>Notification that the modified AppLock passcode has been saved.</note>
       </trans-unit>
       <trans-unit id="[AppLock/savePasscode]" xml:space="preserve">
@@ -2362,7 +2362,7 @@ Após a compra, você pode gerenciar e cancelar suas assinaturas nas configuraç
       </trans-unit>
       <trans-unit id="[File/PermissionDenied] Try to remove the file from the app, then add it again." xml:space="preserve">
         <source>Try to remove the file from the app, then add it again.</source>
-        <target state="translated">Tente retirar o arquivo do aplicativo e adicioná-lo de novo.</target>
+        <target state="translated">Tente retirar o arquivo do app e adicioná-lo de novo.</target>
         <note>A suggestion shown after specific file errors (either databases or key files).</note>
       </trans-unit>
       <trans-unit id="[File/Re-add/title]" xml:space="preserve">
@@ -2751,7 +2751,7 @@ Após a compra, você pode gerenciar e cancelar suas assinaturas nas configuraç
       </trans-unit>
       <trans-unit id="[Premium/Benefits/AttachmentPreview/details]" xml:space="preserve">
         <source>Preview attached files directly in KeePassium and leave no traces in other apps. (Works with images, documents, archives and more.)</source>
-        <target state="translated">Abra anexos diretamente no KeePassium sem deixar vestígios em outros aplicativos. (Funciona com imagens, documentos, arquivos e mais.)</target>
+        <target state="translated">Abra anexos diretamente no KeePassium sem deixar vestígios em outros apps. (Funciona com imagens, documentos, arquivos e mais.)</target>
         <note>Explanation of the premium feature</note>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/AttachmentPreview/title]" xml:space="preserve">
@@ -2766,7 +2766,7 @@ Após a compra, você pode gerenciar e cancelar suas assinaturas nas configuraç
       </trans-unit>
       <trans-unit id="[Premium/Benefits/CustomAppIcon/title]" xml:space="preserve">
         <source>Change app icon</source>
-        <target state="translated">Mude o ícone do aplicativo</target>
+        <target state="translated">Mude o ícone do app</target>
         <note>Title of a premium feature</note>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/DatabaseTimeout/details]" xml:space="preserve">
@@ -2930,7 +2930,7 @@ Após a compra, você pode gerenciar e cancelar suas assinaturas nas configuraç
 Subscription automatically renews unless it is canceled at least 24 hours before the end of the current period. Your account will be charged for renewal within 24 hours prior to the end of the current period.
 
 You can manage and cancel your subscriptions by going to your account settings on the App Store after purchase.</source>
-        <target state="translated">O valor será cobrado de seu Apple ID imediatamente ao confirmar a compra dentro do aplicativo.
+        <target state="translated">O valor será cobrado de seu Apple ID imediatamente ao confirmar a compra dentro do app.
 
 Assinaturas possuem renovação automática, a menos que canceladas até 24 horas antes do fim do período vigente. A renovação da assinatura será cobrada durante as últimas 24 horas do período de assinatura vigente.
 
@@ -3054,7 +3054,7 @@ Após a compra, você pode gerenciar e cancelar suas assinaturas nas configuraç
       </trans-unit>
       <trans-unit id="[Premium/usage] App being useful: %@/month, that is around %@/year." xml:space="preserve">
         <source>App being useful: %1$@/month, that is around %2$@/year.</source>
-        <target state="translated">Aplicativo sendo útil: %1$@/mês, aproximadamente %2$@/ano.</target>
+        <target state="translated">App sendo útil: %1$@/mês, aproximadamente %2$@/ano.</target>
         <note>Status: how long the app has been used during some time period. For example: `App being useful: 1hr/month, about 12hr/year`. [monthlyUsage: String, annualUsage: String — already include the time unit (hours, minutes)]</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/CustomAppIcons/title]" xml:space="preserve">
@@ -3104,7 +3104,7 @@ Após a compra, você pode gerenciar e cancelar suas assinaturas nas configuraç
       </trans-unit>
       <trans-unit id="[PremiumFeature/Preview/description] Preview images and documents directly in the app, in the premium version." xml:space="preserve">
         <source>Preview images and documents directly in the app, in the premium version.</source>
-        <target state="translated">Visualize imagens e documentos sem sair do aplicativo, na versão Premium.</target>
+        <target state="translated">Visualize imagens e documentos sem sair do app, na versão Premium.</target>
         <note>Description/advertisement for the `Preview Attachments` premium feature</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/Preview/title] Preview Attachments" xml:space="preserve">
@@ -3139,12 +3139,12 @@ Após a compra, você pode gerenciar e cancelar suas assinaturas nas configuraç
       </trans-unit>
       <trans-unit id="[Settings/AppLock/subtitle] App Lock, %@, timeout" xml:space="preserve">
         <source>App Lock, %@, timeout</source>
-        <target state="translated">Bloqueio do aplicativo, %@, limite de tempo</target>
+        <target state="translated">Bloqueio do app, %@, limite de tempo</target>
         <note>Settings: subtitle of the `App Protection` section. biometryTypeName will be either 'Touch ID' or 'Face ID'. [biometryTypeName: String]</note>
       </trans-unit>
       <trans-unit id="[Settings/AppLock/subtitle] App Lock, passcode, timeout" xml:space="preserve">
         <source>App Lock, passcode, timeout</source>
-        <target state="translated">Bloqueio do aplicativo, senha, limite de tempo</target>
+        <target state="translated">Bloqueio do app, senha, limite de tempo</target>
         <note>Settings: subtitle of the `App Protection` section when biometric auth is not available.</note>
       </trans-unit>
       <trans-unit id="[Settings/Backup/Delete/title] Delete all backup files?" xml:space="preserve">
@@ -3189,7 +3189,7 @@ Após a compra, você pode gerenciar e cancelar suas assinaturas nas configuraç
       </trans-unit>
       <trans-unit id="[Settings/DatabaseLockTimeout/description] If you are not interacting with the app for some time, the database will be closed for your safety. To open it, you will need to enter its master password again." xml:space="preserve">
         <source>If you are not interacting with the app for some time, the database will be closed for your safety. To open it, you will need to enter its master password again.</source>
-        <target state="translated">Se você não interagir com o aplicativo por certo tempo, o banco de dados será fechado para sua segurança. Para abri-lo, será preciso a senha-mestra novamente.</target>
+        <target state="translated">Se você não interagir com o app por certo tempo, o banco de dados será fechado para sua segurança. Para abri-lo, será preciso a senha-mestra novamente.</target>
         <note>Description of the Database Lock Timeout</note>
       </trans-unit>
       <trans-unit id="[Settings/FileLists/Backup/title] Backup" xml:space="preserve">
@@ -3869,12 +3869,12 @@ Você pode ter vários bancos de dados; por exemplo, para trabalho, família e u
     <body>
       <trans-unit id="5Dg-KX-m7a.footerTitle" xml:space="preserve">
         <source>If you enter a wrong AppLock passcode, KeePassium will close all databases and clear all master keys from the keychain.</source>
-        <target state="translated">Se você errar a senha do aplicativo, KeePassium fechará todos os bancos de dados e apagará todas as senhas-mestras das chaves do sistema.</target>
+        <target state="translated">Se você errar a senha do app, KeePassium fechará todos os bancos de dados e apagará todas as senhas-mestras das chaves do sistema.</target>
         <note>Class = "UITableViewSection"; footerTitle = "If you enter a wrong AppLock passcode, KeePassium will close all databases and clear all master keys from the keychain."; ObjectID = "5Dg-KX-m7a"; Note = "AppLock settings section: what to do when the user enters a wrong AppLock passcode.";</note>
       </trans-unit>
       <trans-unit id="5Dg-KX-m7a.headerTitle" xml:space="preserve">
         <source>Wrong Passcode</source>
-        <target state="translated">Senha de aplicativo errada</target>
+        <target state="translated">Senha de app errada</target>
         <note>Class = "UITableViewSection"; headerTitle = "Wrong Passcode"; ObjectID = "5Dg-KX-m7a"; Note = "AppLock settings section: what to do when the user enters a wrong AppLock passcode.";</note>
       </trans-unit>
       <trans-unit id="6Pk-35-Fx6.text" xml:space="preserve">
@@ -3884,7 +3884,7 @@ Você pode ter vários bancos de dados; por exemplo, para trabalho, família e u
       </trans-unit>
       <trans-unit id="7ae-8I-LiQ.footerTitle" xml:space="preserve">
         <source>Allows biometric authentication as a quick (but less secure) alternative to AppLock passcode.</source>
-        <target state="translated">Permite autenticação biométrica como alternativa rápida (mas menos segura) à senha do aplicativo.</target>
+        <target state="translated">Permite autenticação biométrica como alternativa rápida (mas menos segura) à senha do app.</target>
         <note>Class = "UITableViewSection"; footerTitle = "Allows biometric authentication as a quick (but less secure) alternative to AppLock passcode."; ObjectID = "7ae-8I-LiQ"; Note = "AppLock settings section: biometric auth (Touch ID/Face ID)";</note>
       </trans-unit>
       <trans-unit id="7ae-8I-LiQ.headerTitle" xml:space="preserve">
@@ -3909,7 +3909,7 @@ Você pode ter vários bancos de dados; por exemplo, para trabalho, família e u
       </trans-unit>
       <trans-unit id="IS1-Lb-MFy.text" xml:space="preserve">
         <source>Enable AppLock</source>
-        <target state="translated">Ativar senha do aplicativo</target>
+        <target state="translated">Ativar senha do app</target>
         <note>Class = "UILabel"; text = "Enable AppLock"; ObjectID = "IS1-Lb-MFy";</note>
       </trans-unit>
       <trans-unit id="U5m-je-MhO.title" xml:space="preserve">
@@ -3924,7 +3924,7 @@ Você pode ter vários bancos de dados; por exemplo, para trabalho, família e u
       </trans-unit>
       <trans-unit id="m50-fl-4tu.footerTitle" xml:space="preserve">
         <source>The app will automatically lock up after this time.</source>
-        <target state="translated">O aplicativo será bloqueado automaticamente após este tempo.</target>
+        <target state="translated">O app será bloqueado automaticamente após este tempo.</target>
         <note>Class = "UITableViewSection"; footerTitle = "The app will automatically lock up after this time."; ObjectID = "m50-fl-4tu";</note>
       </trans-unit>
       <trans-unit id="wzW-GR-02W.text" xml:space="preserve" translate="no">
@@ -4213,7 +4213,7 @@ Você pode ter vários bancos de dados; por exemplo, para trabalho, família e u
     <body>
       <trans-unit id="9yn-W3-FDl.headerTitle" xml:space="preserve">
         <source>Start</source>
-        <target state="translated">Abertura do aplicativo</target>
+        <target state="translated">Abertura do app</target>
         <note>Class = "UITableViewSection"; headerTitle = "Start"; ObjectID = "9yn-W3-FDl"; Note = "Section in settings: settings that define what happens when the app is started.";</note>
       </trans-unit>
       <trans-unit id="32P-LG-SHa.text" xml:space="preserve">
@@ -4313,7 +4313,7 @@ Você pode ter vários bancos de dados; por exemplo, para trabalho, família e u
       </trans-unit>
       <trans-unit id="abS-AH-iFO.text" xml:space="preserve">
         <source>App Protection</source>
-        <target state="translated">Proteção do aplicativo</target>
+        <target state="translated">Proteção do app</target>
         <note>Class = "UILabel"; text = "App Protection"; ObjectID = "abS-AH-iFO"; Note = "Settings section: protection of the app from unauthorized access";</note>
       </trans-unit>
       <trans-unit id="cBS-jW-dHU.headerTitle" xml:space="preserve">
