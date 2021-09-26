@@ -208,7 +208,7 @@ Please contact us if you need help with this.</source>
       </trans-unit>
       <trans-unit id="[AppLock/savePasscode]" xml:space="preserve">
         <source>Save Passcode</source>
-        <target state="translated">保存應用解鎖密碼</target>
+        <target state="translated">儲存應用解鎖密碼</target>
         <note>Action/button to save new or edited AppLock passcode.</note>
       </trans-unit>
       <trans-unit id="[AppLock] Unlock" xml:space="preserve">
@@ -281,7 +281,7 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="[Database/CustomIcon/add]" xml:space="preserve">
         <source>Add Custom Icon</source>
-        <target state="needs-translation">Add Custom Icon</target>
+        <target state="translated">添加自定義圖示</target>
         <note>Action: add/import an image as a custom icon</note>
       </trans-unit>
       <trans-unit id="[Database/Delete/Confirm/text] Delete database file?&#10; Make sure you have a backup." xml:space="preserve">
@@ -293,7 +293,7 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="[Database/Loading/ReadOnly/text]" xml:space="preserve">
         <source>The database is read-only</source>
-        <target state="needs-translation">The database is read-only</target>
+        <target state="translated">資料庫僅供讀取</target>
         <note>Message shown if current database cannot be edited</note>
       </trans-unit>
       <trans-unit id="[Database/Loading/Status] Loading..." xml:space="preserve">
@@ -321,10 +321,25 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <target state="translated">打開資料庫</target>
         <note>Action/button</note>
       </trans-unit>
-      <trans-unit id="[Database/Opened/action] Close" xml:space="preserve">
-        <source>Close</source>
-        <target state="translated">關閉</target>
-        <note>Action/button to close current database (for example, when leaving the root group). NOTE: closing does not necessarily lock the database.</note>
+      <trans-unit id="[Database/Opened/Warning/action] Close Database" xml:space="preserve">
+        <source>Close Database</source>
+        <target state="translated">關閉資料庫</target>
+        <note>Action: lock database</note>
+      </trans-unit>
+      <trans-unit id="[Database/Opened/Warning/action] Ignore and Continue" xml:space="preserve">
+        <source>Ignore and Continue</source>
+        <target state="translated">忽略並繼續</target>
+        <note>Action: ignore warnings and proceed to work with the database</note>
+      </trans-unit>
+      <trans-unit id="[Database/Opened/Warning/lastEdited] Database was last edited by: %@" xml:space="preserve">
+        <source>Database was last edited by: %@</source>
+        <target state="translated">資料庫最後由 %@ 編輯。</target>
+        <note>Status message: name of the app that was last to write/create the database file. [lastUsedAppName: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database/Opened/Warning/title] Your database is ready, but there was an issue." xml:space="preserve">
+        <source>Your database is ready, but there was an issue.</source>
+        <target state="translated">您的資料庫已經準備就緒, 但還有點問題。</target>
+        <note>Title of a warning message, shown after opening a problematic database</note>
       </trans-unit>
       <trans-unit id="[Database/Opened/action] Lock Database" xml:space="preserve">
         <source>Lock Database</source>
@@ -365,7 +380,7 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="[Entry/Attachment/Photo/defaultName]" xml:space="preserve">
         <source>Photo</source>
-        <target state="needs-translation">Photo</target>
+        <target state="translated">照片</target>
         <note>Default name for a photo attachment</note>
       </trans-unit>
       <trans-unit id="[Entry/Attachment/add]" xml:space="preserve">
@@ -375,17 +390,17 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="[Entry/Attachment/chooseFile]" xml:space="preserve">
         <source>Choose File</source>
-        <target state="needs-translation">Choose File</target>
+        <target state="translated">選擇檔案</target>
         <note>Action/button to pick a file from a list</note>
       </trans-unit>
       <trans-unit id="[Entry/Attachment/choosePhoto]" xml:space="preserve">
         <source>Choose Photo</source>
-        <target state="needs-translation">Choose Photo</target>
+        <target state="translated">照片圖庫</target>
         <note>Action/button to select an (existing) photo from Photo Library</note>
       </trans-unit>
       <trans-unit id="[Entry/Attachment/takePhoto]" xml:space="preserve">
         <source>Take Photo</source>
-        <target state="needs-translation">Take Photo</target>
+        <target state="translated">拍照</target>
         <note>Action/button to take a new photo from camera</note>
       </trans-unit>
       <trans-unit id="[Entry/Attachments/title] Attached Files" xml:space="preserve">
@@ -530,12 +545,12 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="[Generic/Edit/Aborting/title] There are unsaved changes" xml:space="preserve">
         <source>There are unsaved changes</source>
-        <target state="translated">此處有未存檔的變更</target>
+        <target state="translated">此處有尚未儲存的變更</target>
         <note>Title of a notification when the user tries to close a document with unsaved changes</note>
       </trans-unit>
       <trans-unit id="[Generic/File/Save as]" xml:space="preserve">
         <source>Save as…</source>
-        <target state="needs-translation">Save as…</target>
+        <target state="translated">另存新檔…</target>
         <note>Action/button to save data to a different file</note>
       </trans-unit>
       <trans-unit id="[Generic/File/title] Export Error" xml:space="preserve">
@@ -565,7 +580,7 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="[Generic/Presets]" xml:space="preserve">
         <source>Presets</source>
-        <target state="needs-translation">Presets</target>
+        <target state="translated">預設值</target>
         <note>Title of a list with predefined quick-choice values (for example: 'Presets: 1 week, 1 months, 1 year')</note>
       </trans-unit>
       <trans-unit id="[Generic/Search/title]" xml:space="preserve">
@@ -625,7 +640,7 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="[Generic] Delete All" xml:space="preserve">
         <source>Delete All</source>
-        <target state="needs-translation">Delete All</target>
+        <target state="translated">刪除所有</target>
         <note>Action/button to delete all relevant/selected items</note>
       </trans-unit>
       <trans-unit id="[Generic] Discard" xml:space="preserve">
@@ -695,12 +710,12 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="[Generic] Restore" xml:space="preserve">
         <source>Restore</source>
-        <target state="needs-translation">Restore</target>
+        <target state="translated">還原</target>
         <note>Action/button to restore a backup/archived item in its original place</note>
       </trans-unit>
       <trans-unit id="[Generic] Reveal in Finder" xml:space="preserve">
         <source>Reveal in Finder</source>
-        <target state="needs-translation">Reveal in Finder</target>
+        <target state="translated">在 Finder 中顯示</target>
         <note>Action/button to open Finder (macOS file manager) and highlight a given file</note>
       </trans-unit>
       <trans-unit id="[Generic] Share" xml:space="preserve">
@@ -780,17 +795,17 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="[Item/History/Restored]" xml:space="preserve">
         <source>Previous version restored</source>
-        <target state="needs-translation">Previous version restored</target>
+        <target state="translated">先前的版本已經還原</target>
         <note>Notification that an archived/historical item (e.g entry) has been successfully restored</note>
       </trans-unit>
       <trans-unit id="[ItemIconPicker/CustomIcons]" xml:space="preserve">
         <source>Custom Icons</source>
-        <target state="needs-translation">Custom Icons</target>
+        <target state="translated">自定義圖示</target>
         <note>Title of a list with custom (user-imported) icons for groups and entries</note>
       </trans-unit>
       <trans-unit id="[ItemIconPicker/StandardIcons]" xml:space="preserve">
         <source>Standard Icons</source>
-        <target state="needs-translation">Standard Icons</target>
+        <target state="translated">默認圖示</target>
         <note>Title of a list with standard/default icons for groups and entries</note>
       </trans-unit>
       <trans-unit id="[KeyFile/Delete/Confirm/text] Delete key file?&#10; Make sure you have a backup." xml:space="preserve">
@@ -814,17 +829,17 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="[OTP/Scan/InvalidData]" xml:space="preserve">
         <source>This QR code is not suitable for OTP setup.</source>
-        <target state="needs-translation">This QR code is not suitable for OTP setup.</target>
+        <target state="translated">此 QR code 無法用於 OTP 設定。</target>
         <note>Error shown when scanned QR code cannot be used for OTP</note>
       </trans-unit>
       <trans-unit id="[OTP/Scan/OverwriteWarning]" xml:space="preserve">
         <source>One-time password is already configured for this entry. Do you want to overwrite it?</source>
-        <target state="needs-translation">One-time password is already configured for this entry. Do you want to overwrite it?</target>
+        <target state="translated">此項目已經設定了一次性密碼，您要覆蓋它嗎？</target>
         <note>Message to confirm user intentions</note>
       </trans-unit>
       <trans-unit id="[OTP/Setup]" xml:space="preserve">
         <source>Setup one-time password (OTP)</source>
-        <target state="needs-translation">Setup one-time password (OTP)</target>
+        <target state="translated">一次性密碼 (OTP)</target>
         <note>Call for action. Acronym `OTP` should not be translated.</note>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/Negative/header] " xml:space="preserve">
@@ -919,7 +934,7 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="[Premium/Price Plan/Conditions/subscription as purchase]" xml:space="preserve">
         <source>Subscription as a purchase</source>
-        <target state="translated">視為購買的訂閱</target>
+        <target state="translated">訂閱即購買</target>
         <note>What's included in a subscription plan. By subscribing for a certain period, the user receives a permanent license for a version of the app. More info: https://keepassium.com/articles/perpetual-fallback-license/</note>
       </trans-unit>
       <trans-unit id="[Premium/Price Plan/Conditions/updates and bug fixes]" xml:space="preserve">
@@ -957,7 +972,7 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
       <trans-unit id="[Premium/Trial/trial then price]" xml:space="preserve">
         <source>%1$@ free, then %2$@</source>
-        <target state="translated">%1$@ 天免費，之後 %2$@</target>
+        <target state="translated">%1$@ 免費，之後 %2$@</target>
         <note>Trial conditions. For example `30 days free, then $1 per month`</note>
       </trans-unit>
       <trans-unit id="[Premium/Upgrade/Deferred/text] Thank you! You can use KeePassium while purchase is awaiting approval." xml:space="preserve">
@@ -1179,7 +1194,7 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
       <trans-unit id="h6C-CG-RVI.normalTitle" xml:space="preserve">
         <source>Save Database</source>
-        <target state="translated">保存資料庫</target>
+        <target state="translated">儲存資料庫</target>
         <note>Class = "UIButton"; normalTitle = "Save Database"; ObjectID = "h6C-CG-RVI"; Note = "Action: save the new database (will show a file picker dialog).";</note>
       </trans-unit>
       <trans-unit id="pvt-FS-0Yx.placeholder" xml:space="preserve">
@@ -1672,6 +1687,11 @@ You can manage and cancel your subscriptions by going to your account settings o
         <target state="translated">這個群組是空的</target>
         <note>Class = "UILabel"; text = "This group is empty"; ObjectID = "QXa-eN-7am";</note>
       </trans-unit>
+      <trans-unit id="RAn-LR-hxd.text" xml:space="preserve" translate="no">
+        <source>{OTPValue}</source>
+        <target state="needs-translation">{OTPValue}</target>
+        <note>Class = "UILabel"; text = "{OTPValue}"; ObjectID = "RAn-LR-hxd";</note>
+      </trans-unit>
       <trans-unit id="qkh-6K-yQW.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" xml:space="preserve">
         <source>Change Master Key</source>
         <target state="translated">變更主金鑰</target>
@@ -1691,6 +1711,11 @@ You can manage and cancel your subscriptions by going to your account settings o
         <source>{nItems}</source>
         <target state="needs-translation">{nItems}</target>
         <note>Class = "UILabel"; text = "{nItems}"; ObjectID = "ttY-yZ-yRg"; Note = "#bc-ignore!";</note>
+      </trans-unit>
+      <trans-unit id="x2j-8N-gU5.normalTitle" xml:space="preserve" translate="no">
+        <source>{OTP}</source>
+        <target state="needs-translation">{OTP}</target>
+        <note>Class = "UIButton"; normalTitle = "{OTP}"; ObjectID = "x2j-8N-gU5";</note>
       </trans-unit>
     </body>
   </file>
@@ -1740,7 +1765,7 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
       <trans-unit id="BGv-TX-maE.text" xml:space="preserve">
         <source>Use key file without adding it to the list</source>
-        <target state="needs-translation">Use key file without adding it to the list</target>
+        <target state="translated">使用金鑰檔案，但不保存到列表中。</target>
         <note>Class = "UILabel"; text = "Use key file without adding it to the list"; ObjectID = "BGv-TX-maE"; Note = "Explanation for the \"Key File/Browse\" action.";</note>
       </trans-unit>
       <trans-unit id="Lod-RE-tcd.title" xml:space="preserve">
@@ -1755,7 +1780,7 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
       <trans-unit id="XiA-k9-5wr.text" xml:space="preserve">
         <source>Browse…</source>
-        <target state="needs-translation">Browse…</target>
+        <target state="translated">瀏覽…</target>
         <note>Class = "UILabel"; text = "Browse…"; ObjectID = "XiA-k9-5wr"; Note = "Action to open a file selection dialog";</note>
       </trans-unit>
       <trans-unit id="jCW-yW-0I5.text" xml:space="preserve" translate="no">
@@ -1901,14 +1926,14 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
       <trans-unit id="NSPhotoLibraryUsageDescription" xml:space="preserve">
         <source>KeePassium needs access to the Photos library to add custom icons to groups and entries</source>
-        <target state="needs-translation">KeePassium needs access to the Photos library to add custom icons to groups and entries</target>
+        <target state="translated">向群組與項目添加自定義圖示，KeePassium 需要取用您的照片圖庫權限。</target>
         <note/>
       </trans-unit>
     </body>
   </file>
   <file original="KeePassium/en.lproj/Localizable.strings" source-language="en" target-language="zh-Hant" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A5201i"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A233"/>
     </header>
     <body>
       <trans-unit id="Add Database" xml:space="preserve">
@@ -1978,7 +2003,7 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
       <trans-unit id="[AppLock/savePasscode]" xml:space="preserve">
         <source>Save Passcode</source>
-        <target state="translated">保存應用解鎖密碼</target>
+        <target state="translated">儲存應用解鎖密碼</target>
         <note>Action/button to save new or edited AppLock passcode.</note>
       </trans-unit>
       <trans-unit id="[AppLock] Unlock" xml:space="preserve">
@@ -2093,7 +2118,7 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
       <trans-unit id="[Database/CustomIcon/add]" xml:space="preserve">
         <source>Add Custom Icon</source>
-        <target state="needs-translation">Add Custom Icon</target>
+        <target state="translated">添加自定義圖示</target>
         <note>Action: add/import an image as a custom icon</note>
       </trans-unit>
       <trans-unit id="[Database/Delete/Confirm/text] Delete database file?&#10; Make sure you have a backup." xml:space="preserve">
@@ -2105,7 +2130,7 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
       <trans-unit id="[Database/Loading/ReadOnly/text]" xml:space="preserve">
         <source>The database is read-only</source>
-        <target state="needs-translation">The database is read-only</target>
+        <target state="translated">資料庫僅供讀取</target>
         <note>Message shown if current database cannot be edited</note>
       </trans-unit>
       <trans-unit id="[Database/Loading/Status] Loading..." xml:space="preserve">
@@ -2153,11 +2178,6 @@ You can manage and cancel your subscriptions by going to your account settings o
         <target state="translated">您的資料庫已經準備就緒, 但還有點問題。</target>
         <note>Title of a warning message, shown after opening a problematic database</note>
       </trans-unit>
-      <trans-unit id="[Database/Opened/action] Close" xml:space="preserve">
-        <source>Close</source>
-        <target state="translated">關閉</target>
-        <note>Action/button to close current database (for example, when leaving the root group). NOTE: closing does not necessarily lock the database.</note>
-      </trans-unit>
       <trans-unit id="[Database/Opened/action] Lock Database" xml:space="preserve">
         <source>Lock Database</source>
         <target state="translated">鎖定資料庫</target>
@@ -2180,39 +2200,54 @@ You can manage and cancel your subscriptions by going to your account settings o
         <target state="translated">正在保存...</target>
         <note>Status message: saving a database</note>
       </trans-unit>
+      <trans-unit id="[Database/Switch/action]" xml:space="preserve">
+        <source>Switch Database</source>
+        <target state="translated">切換資料庫</target>
+        <note>Action/button to switch from current to some other database.</note>
+      </trans-unit>
       <trans-unit id="[Database/SyncConflict/Cancel/description]" xml:space="preserve">
         <source>Cancel saving, leave target file intact.</source>
-        <target state="needs-translation">Cancel saving, leave target file intact.</target>
+        <target state="translated">取消儲存，保持資料不變。</target>
         <note>Explanation of the database sync conflict `Cancel` option.</note>
       </trans-unit>
       <trans-unit id="[Database/SyncConflict/Merge/action]" xml:space="preserve">
         <source>Merge</source>
-        <target state="needs-translation">Merge</target>
+        <target state="translated">合併</target>
         <note>Action: combine changes in two conflicting databases.</note>
       </trans-unit>
       <trans-unit id="[Database/SyncConflict/Merge/description]" xml:space="preserve">
         <source>Combine changes before saving.</source>
-        <target state="needs-translation">Combine changes before saving.</target>
+        <target state="translated">合併修改並存儲。</target>
         <note>Explanation of the database sync conflict `Merge` option.</note>
       </trans-unit>
       <trans-unit id="[Database/SyncConflict/Overwrite/description]" xml:space="preserve">
         <source>Overwrite target file with the local version.</source>
-        <target state="needs-translation">Overwrite target file with the local version.</target>
+        <target state="translated">使用本機版本覆寫檔案。</target>
         <note>Explanation of the database sync conflict `Overwrite` option.</note>
       </trans-unit>
       <trans-unit id="[Database/SyncConflict/SaveAs/description]" xml:space="preserve">
         <source>Save changes to another file.</source>
-        <target state="needs-translation">Save changes to another file.</target>
+        <target state="translated">儲存本機修改後的版本至新的檔案。</target>
         <note>Explanation of the database sync conflict `Save as` option.</note>
+      </trans-unit>
+      <trans-unit id="[Database/SyncConflict/currentVersion]" xml:space="preserve">
+        <source>Current version</source>
+        <target state="translated">雲端服務中當前的版本</target>
+        <note>Title: the current (on-server) database version in case of sync conflict.</note>
       </trans-unit>
       <trans-unit id="[Database/SyncConflict/description]" xml:space="preserve">
         <source>The database has changed since it was loaded in KeePassium.</source>
-        <target state="needs-translation">The database has changed since it was loaded in KeePassium.</target>
+        <target state="translated">雲端服務中的資料庫在 KeePassium 載入資料庫後產生了變動。</target>
         <note>Message shown in case of database sync conflict.</note>
+      </trans-unit>
+      <trans-unit id="[Database/SyncConflict/loadedVersion]" xml:space="preserve">
+        <source>Loaded version</source>
+        <target state="translated">本機載入的版本</target>
+        <note>Title: the loaded (on-device) database version in case of sync conflict.</note>
       </trans-unit>
       <trans-unit id="[Database/SyncConflict/title]" xml:space="preserve">
         <source>Sync Conflict</source>
-        <target state="needs-translation">Sync Conflict</target>
+        <target state="translated">同步衝突</target>
         <note>Title of a message shown when saving to a database that has already been modified elsewhere.</note>
       </trans-unit>
       <trans-unit id="[Database/Unlock/wrongPassword/question]" xml:space="preserve">
@@ -2237,7 +2272,7 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
       <trans-unit id="[Entry/Attachment/Photo/defaultName]" xml:space="preserve">
         <source>Photo</source>
-        <target state="needs-translation">Photo</target>
+        <target state="translated">照片</target>
         <note>Default name for a photo attachment</note>
       </trans-unit>
       <trans-unit id="[Entry/Attachment/add]" xml:space="preserve">
@@ -2247,22 +2282,22 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
       <trans-unit id="[Entry/Attachment/chooseFile]" xml:space="preserve">
         <source>Choose File</source>
-        <target state="needs-translation">Choose File</target>
+        <target state="translated">選擇檔案</target>
         <note>Action/button to pick a file from a list</note>
       </trans-unit>
       <trans-unit id="[Entry/Attachment/choosePhoto]" xml:space="preserve">
         <source>Choose Photo</source>
-        <target state="needs-translation">Choose Photo</target>
+        <target state="translated">照片圖庫</target>
         <note>Action/button to select an (existing) photo from Photo Library</note>
       </trans-unit>
       <trans-unit id="[Entry/Attachment/takePhoto]" xml:space="preserve">
         <source>Take Photo</source>
-        <target state="needs-translation">Take Photo</target>
+        <target state="translated">拍照</target>
         <note>Action/button to take a new photo from camera</note>
       </trans-unit>
       <trans-unit id="[Entry/Attachments/preview]" xml:space="preserve">
         <source>Preview</source>
-        <target state="needs-translation">Preview</target>
+        <target state="translated">預覽</target>
         <note>Action to preview one or several attached documents or images</note>
       </trans-unit>
       <trans-unit id="[Entry/Attachments/title] Attached Files" xml:space="preserve">
@@ -2437,12 +2472,12 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
       <trans-unit id="[Generic/Edit/Aborting/title] There are unsaved changes" xml:space="preserve">
         <source>There are unsaved changes</source>
-        <target state="translated">此處有未存檔的變更</target>
+        <target state="translated">此處有尚未儲存的變更</target>
         <note>Title of a notification when the user tries to close a document with unsaved changes</note>
       </trans-unit>
       <trans-unit id="[Generic/File/Save as]" xml:space="preserve">
         <source>Save as…</source>
-        <target state="needs-translation">Save as…</target>
+        <target state="translated">另存新檔…</target>
         <note>Action/button to save data to a different file</note>
       </trans-unit>
       <trans-unit id="[Generic/File/title] Export Error" xml:space="preserve">
@@ -2472,7 +2507,7 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
       <trans-unit id="[Generic/Presets]" xml:space="preserve">
         <source>Presets</source>
-        <target state="needs-translation">Presets</target>
+        <target state="translated">預設值</target>
         <note>Title of a list with predefined quick-choice values (for example: 'Presets: 1 week, 1 months, 1 year')</note>
       </trans-unit>
       <trans-unit id="[Generic/Search/title]" xml:space="preserve">
@@ -2532,7 +2567,7 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
       <trans-unit id="[Generic] Delete All" xml:space="preserve">
         <source>Delete All</source>
-        <target state="needs-translation">Delete All</target>
+        <target state="translated">刪除所有</target>
         <note>Action/button to delete all relevant/selected items</note>
       </trans-unit>
       <trans-unit id="[Generic] Discard" xml:space="preserve">
@@ -2602,12 +2637,12 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
       <trans-unit id="[Generic] Restore" xml:space="preserve">
         <source>Restore</source>
-        <target state="needs-translation">Restore</target>
+        <target state="translated">還原</target>
         <note>Action/button to restore a backup/archived item in its original place</note>
       </trans-unit>
       <trans-unit id="[Generic] Reveal in Finder" xml:space="preserve">
         <source>Reveal in Finder</source>
-        <target state="needs-translation">Reveal in Finder</target>
+        <target state="translated">在 Finder 中顯示</target>
         <note>Action/button to open Finder (macOS file manager) and highlight a given file</note>
       </trans-unit>
       <trans-unit id="[Generic] Share" xml:space="preserve">
@@ -2687,7 +2722,7 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
       <trans-unit id="[Item/History/Restored]" xml:space="preserve">
         <source>Previous version restored</source>
-        <target state="needs-translation">Previous version restored</target>
+        <target state="translated">先前的版本已經還原</target>
         <note>Notification that an archived/historical item (e.g entry) has been successfully restored</note>
       </trans-unit>
       <trans-unit id="[ItemCategory] Default (KeePass)" xml:space="preserve">
@@ -2697,12 +2732,12 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
       <trans-unit id="[ItemIconPicker/CustomIcons]" xml:space="preserve">
         <source>Custom Icons</source>
-        <target state="needs-translation">Custom Icons</target>
+        <target state="translated">自定義圖示</target>
         <note>Title of a list with custom (user-imported) icons for groups and entries</note>
       </trans-unit>
       <trans-unit id="[ItemIconPicker/StandardIcons]" xml:space="preserve">
         <source>Standard Icons</source>
-        <target state="needs-translation">Standard Icons</target>
+        <target state="translated">默認圖示</target>
         <note>Title of a list with standard/default icons for groups and entries</note>
       </trans-unit>
       <trans-unit id="[KeyFile/Delete/Confirm/text] Delete key file?&#10; Make sure you have a backup." xml:space="preserve">
@@ -2726,27 +2761,27 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
       <trans-unit id="[Menu/About/title]" xml:space="preserve">
         <source>About %@</source>
-        <target state="needs-translation">About %@</target>
+        <target state="translated">關於 %@</target>
         <note>Menu title. For example: `About KeePassium`. [appName: String]</note>
       </trans-unit>
       <trans-unit id="[Menu/Preferences/title]" xml:space="preserve">
         <source>Preferences…</source>
-        <target state="needs-translation">Preferences…</target>
+        <target state="translated">偏好設定…</target>
         <note>Menu title: app settings</note>
       </trans-unit>
       <trans-unit id="[OTP/Scan/InvalidData]" xml:space="preserve">
         <source>This QR code is not suitable for OTP setup.</source>
-        <target state="needs-translation">This QR code is not suitable for OTP setup.</target>
+        <target state="translated">此 QR code 無法用於 OTP 設定。</target>
         <note>Error shown when scanned QR code cannot be used for OTP</note>
       </trans-unit>
       <trans-unit id="[OTP/Scan/OverwriteWarning]" xml:space="preserve">
         <source>One-time password is already configured for this entry. Do you want to overwrite it?</source>
-        <target state="needs-translation">One-time password is already configured for this entry. Do you want to overwrite it?</target>
+        <target state="translated">此項目已經設定了一次性密碼，您要覆蓋它嗎？</target>
         <note>Message to confirm user intentions</note>
       </trans-unit>
       <trans-unit id="[OTP/Setup]" xml:space="preserve">
         <source>Setup one-time password (OTP)</source>
-        <target state="needs-translation">Setup one-time password (OTP)</target>
+        <target state="translated">一次性密碼 (OTP)</target>
         <note>Call for action. Acronym `OTP` should not be translated.</note>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/AttachmentPreview/details]" xml:space="preserve">
@@ -2901,7 +2936,7 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
       <trans-unit id="[Premium/Price Plan/Conditions/subscription as purchase]" xml:space="preserve">
         <source>Subscription as a purchase</source>
-        <target state="translated">視為購買的訂閱</target>
+        <target state="translated">訂閱即購買</target>
         <note>What's included in a subscription plan. By subscribing for a certain period, the user receives a permanent license for a version of the app. More info: https://keepassium.com/articles/perpetual-fallback-license/</note>
       </trans-unit>
       <trans-unit id="[Premium/Price Plan/Conditions/updates and bug fixes]" xml:space="preserve">
@@ -2939,7 +2974,7 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
       <trans-unit id="[Premium/Trial/trial then price]" xml:space="preserve">
         <source>%1$@ free, then %2$@</source>
-        <target state="translated">%1$@ 天免費，之後 %2$@</target>
+        <target state="translated">%1$@ 免費，之後 %2$@</target>
         <note>Trial conditions. For example `30 days free, then $1 per month`</note>
       </trans-unit>
       <trans-unit id="[Premium/Upgrade/Deferred/text] Thank you! You can use KeePassium while purchase is awaiting approval." xml:space="preserve">
@@ -3029,7 +3064,7 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
       <trans-unit id="[Premium/status] Current version: %@" xml:space="preserve">
         <source>Current version: %@</source>
-        <target state="needs-translation">Current version: %@</target>
+        <target state="translated">當前的版本：%@</target>
         <note>Status: current version of the app. For example: `Current version: 1.23`. Should be similar to the `Licensed version` string. [version: String]</note>
       </trans-unit>
       <trans-unit id="[Premium/status] Expired %@ ago. Please renew." xml:space="preserve">
@@ -3039,7 +3074,7 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
       <trans-unit id="[Premium/status] Licensed version: %@" xml:space="preserve">
         <source>Licensed version: %@</source>
-        <target state="needs-translation">Licensed version: %@</target>
+        <target state="translated">購買的版本：%@</target>
         <note>Status: licensed premium version of the app. For example: `Licensed version: 1.23`. [version: String]</note>
       </trans-unit>
       <trans-unit id="[Premium/status] Next renewal on %@" xml:space="preserve">
@@ -3219,52 +3254,52 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
       <trans-unit id="[TipBox/callToAction/1]" xml:space="preserve">
         <source>Help us make KeePassium better!</source>
-        <target state="needs-translation">Help us make KeePassium better!</target>
+        <target state="translated">幫助我們使 KeePassium 成為更好的應用程式！</target>
         <note>Call to action in the Donations screen.</note>
       </trans-unit>
       <trans-unit id="[TipBox/callToAction/2]" xml:space="preserve">
         <source>Help us keep KeePassium shiny!</source>
-        <target state="needs-translation">Help us keep KeePassium shiny!</target>
+        <target state="translated">幫助我們使 KeePassium 成為更好的應用程式！</target>
         <note>Call to action in the Donations screen.</note>
       </trans-unit>
       <trans-unit id="[TipBox/callToAction/3]" xml:space="preserve">
         <source>Help us keep KeePassium free!</source>
-        <target state="needs-translation">Help us keep KeePassium free!</target>
+        <target state="translated">幫助我們使 KeePassium 持續免費！</target>
         <note>Call to action in the Donations screen. (free = gratis)</note>
       </trans-unit>
       <trans-unit id="[TipBox/description/1]" xml:space="preserve">
         <source>Do you like KeePassium?</source>
-        <target state="needs-translation">Do you like KeePassium?</target>
+        <target state="translated">您喜歡 KeePassium 嗎？</target>
         <note>Text in the Donations screen.</note>
       </trans-unit>
       <trans-unit id="[TipBox/description/2]" xml:space="preserve">
         <source>KeePassium is a free open-source app. You trust it with your most sensitive information. There are no ads, no spying, no nonsense — we respect you.</source>
-        <target state="needs-translation">KeePassium is a free open-source app. You trust it with your most sensitive information. There are no ads, no spying, no nonsense — we respect you.</target>
+        <target state="translated">KeePassium 是一個免費開放原始碼的應用程序，無廣告，無監視，嚴肅的，您信任它並將最敏感的資料交給它 - 我們尊敬您。</target>
         <note>Text in the Donations screen.</note>
       </trans-unit>
       <trans-unit id="[TipBox/description/3]" xml:space="preserve">
         <source>Do you like KeePassium but don't need the premium features?</source>
-        <target state="needs-translation">Do you like KeePassium but don't need the premium features?</target>
+        <target state="translated">您喜歡 KeePassium，但是不想要進階版功能嗎？</target>
         <note>Text in the Donations screen.</note>
       </trans-unit>
       <trans-unit id="[TipBox/thankYou]" xml:space="preserve">
         <source>Thank you!</source>
-        <target state="needs-translation">Thank you!</target>
+        <target state="translated">感謝您！</target>
         <note>Notification after a successful donation.</note>
       </trans-unit>
       <trans-unit id="[TipBox/title/1]" xml:space="preserve">
         <source>Tip Jar</source>
-        <target state="needs-translation">Tip Jar</target>
+        <target state="translated">支持 KeePassium</target>
         <note>Title of the tip box/donation screen.</note>
       </trans-unit>
       <trans-unit id="[TipBox/title/2]" xml:space="preserve">
         <source>Donations</source>
-        <target state="needs-translation">Donations</target>
+        <target state="translated">贊助</target>
         <note>Title of the tip box/donation screen.</note>
       </trans-unit>
       <trans-unit id="[TipBox/title/3]" xml:space="preserve">
         <source>Support KeePassium</source>
-        <target state="needs-translation">Support KeePassium</target>
+        <target state="translated">支持 KeePassium</target>
         <note>Call to action, title of the tip box/donation screen.</note>
       </trans-unit>
       <trans-unit id="[YubiKey] Don't use YubiKey" xml:space="preserve">
@@ -3526,7 +3561,7 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
       <trans-unit id="r7M-Gb-1Xd.text" xml:space="preserve">
         <source>Toast-Swift by Charles Scalesse</source>
-        <target state="needs-translation">Toast-Swift by Charles Scalesse</target>
+        <target state="translated">Toast-Swift 來自 Charles Scalesse</target>
         <note>Class = "UILabel"; text = "Toast-Swift by Charles Scalesse"; ObjectID = "r7M-Gb-1Xd";</note>
       </trans-unit>
       <trans-unit id="rDJ-4G-8Oz.text" xml:space="preserve">
@@ -3973,7 +4008,7 @@ You can have multiple databases, for example to separate work, family and person
       </trans-unit>
       <trans-unit id="5U9-NZ-sJe.accessibilityLabel" xml:space="preserve">
         <source>Reset text size to default</source>
-        <target state="translated">重置文字大小為默認值</target>
+        <target state="translated">重置文字大小為預設值</target>
         <note>Class = "UIButton"; accessibilityLabel = "Reset text size to default"; ObjectID = "5U9-NZ-sJe"; Note = "Action: set text size to standard size";</note>
       </trans-unit>
       <trans-unit id="Lh3-CB-Urp.footerTitle" xml:space="preserve">

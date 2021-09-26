@@ -321,10 +321,25 @@ Säkerställ att du har en backup.</target>
         <target state="translated">Öppna databas</target>
         <note>Action/button</note>
       </trans-unit>
-      <trans-unit id="[Database/Opened/action] Close" xml:space="preserve">
-        <source>Close</source>
-        <target state="translated">Stäng</target>
-        <note>Action/button to close current database (for example, when leaving the root group). NOTE: closing does not necessarily lock the database.</note>
+      <trans-unit id="[Database/Opened/Warning/action] Close Database" xml:space="preserve">
+        <source>Close Database</source>
+        <target state="translated">Stäng databas</target>
+        <note>Action: lock database</note>
+      </trans-unit>
+      <trans-unit id="[Database/Opened/Warning/action] Ignore and Continue" xml:space="preserve">
+        <source>Ignore and Continue</source>
+        <target state="translated">Ignorera och fortsätt</target>
+        <note>Action: ignore warnings and proceed to work with the database</note>
+      </trans-unit>
+      <trans-unit id="[Database/Opened/Warning/lastEdited] Database was last edited by: %@" xml:space="preserve">
+        <source>Database was last edited by: %@</source>
+        <target state="translated">Databasen redigerades senast av: %@</target>
+        <note>Status message: name of the app that was last to write/create the database file. [lastUsedAppName: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database/Opened/Warning/title] Your database is ready, but there was an issue." xml:space="preserve">
+        <source>Your database is ready, but there was an issue.</source>
+        <target state="translated">Din databas är färdig, men det uppstod ett problem.</target>
+        <note>Title of a warning message, shown after opening a problematic database</note>
       </trans-unit>
       <trans-unit id="[Database/Opened/action] Lock Database" xml:space="preserve">
         <source>Lock Database</source>
@@ -1672,6 +1687,11 @@ Du kan hantera och avsluta din prenumeration genom att gå till Kontoinställnin
         <target state="translated">Denna grupp är tom</target>
         <note>Class = "UILabel"; text = "This group is empty"; ObjectID = "QXa-eN-7am";</note>
       </trans-unit>
+      <trans-unit id="RAn-LR-hxd.text" xml:space="preserve" translate="no">
+        <source>{OTPValue}</source>
+        <target state="needs-translation">{OTPValue}</target>
+        <note>Class = "UILabel"; text = "{OTPValue}"; ObjectID = "RAn-LR-hxd";</note>
+      </trans-unit>
       <trans-unit id="qkh-6K-yQW.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" xml:space="preserve">
         <source>Change Master Key</source>
         <target state="translated">Ändra huvudnyckel</target>
@@ -1692,11 +1712,16 @@ Du kan hantera och avsluta din prenumeration genom att gå till Kontoinställnin
         <target state="needs-translation">{nItems}</target>
         <note>Class = "UILabel"; text = "{nItems}"; ObjectID = "ttY-yZ-yRg"; Note = "#bc-ignore!";</note>
       </trans-unit>
+      <trans-unit id="x2j-8N-gU5.normalTitle" xml:space="preserve" translate="no">
+        <source>{OTP}</source>
+        <target state="needs-translation">{OTP}</target>
+        <note>Class = "UIButton"; normalTitle = "{OTP}"; ObjectID = "x2j-8N-gU5";</note>
+      </trans-unit>
     </body>
   </file>
   <file original="KeePassium/database/hardware-key/Base.lproj/HardwareKeyPicker.storyboard" source-language="en" target-language="sv" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A5201i"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A233"/>
     </header>
     <body>
       <trans-unit id="fH6-bS-mDZ.title" xml:space="preserve">
@@ -2153,11 +2178,6 @@ Säkerställ att du har en backup.</target>
         <target state="translated">Din databas är färdig, men det uppstod ett problem.</target>
         <note>Title of a warning message, shown after opening a problematic database</note>
       </trans-unit>
-      <trans-unit id="[Database/Opened/action] Close" xml:space="preserve">
-        <source>Close</source>
-        <target state="translated">Stäng</target>
-        <note>Action/button to close current database (for example, when leaving the root group). NOTE: closing does not necessarily lock the database.</note>
-      </trans-unit>
       <trans-unit id="[Database/Opened/action] Lock Database" xml:space="preserve">
         <source>Lock Database</source>
         <target state="translated">Lås databas</target>
@@ -2179,6 +2199,11 @@ Filen kommer inte raderas, och du kan lägga till den igen vid ett senare tillf�
         <source>Saving...</source>
         <target state="translated">Sparar...</target>
         <note>Status message: saving a database</note>
+      </trans-unit>
+      <trans-unit id="[Database/Switch/action]" xml:space="preserve">
+        <source>Switch Database</source>
+        <target state="needs-translation">Switch Database</target>
+        <note>Action/button to switch from current to some other database.</note>
       </trans-unit>
       <trans-unit id="[Database/SyncConflict/Cancel/description]" xml:space="preserve">
         <source>Cancel saving, leave target file intact.</source>
@@ -2205,10 +2230,20 @@ Filen kommer inte raderas, och du kan lägga till den igen vid ett senare tillf�
         <target state="needs-translation">Save changes to another file.</target>
         <note>Explanation of the database sync conflict `Save as` option.</note>
       </trans-unit>
+      <trans-unit id="[Database/SyncConflict/currentVersion]" xml:space="preserve">
+        <source>Current version</source>
+        <target state="needs-translation">Current version</target>
+        <note>Title: the current (on-server) database version in case of sync conflict.</note>
+      </trans-unit>
       <trans-unit id="[Database/SyncConflict/description]" xml:space="preserve">
         <source>The database has changed since it was loaded in KeePassium.</source>
         <target state="needs-translation">The database has changed since it was loaded in KeePassium.</target>
         <note>Message shown in case of database sync conflict.</note>
+      </trans-unit>
+      <trans-unit id="[Database/SyncConflict/loadedVersion]" xml:space="preserve">
+        <source>Loaded version</source>
+        <target state="needs-translation">Loaded version</target>
+        <note>Title: the loaded (on-device) database version in case of sync conflict.</note>
       </trans-unit>
       <trans-unit id="[Database/SyncConflict/title]" xml:space="preserve">
         <source>Sync Conflict</source>
