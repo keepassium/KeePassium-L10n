@@ -237,9 +237,9 @@
  Stellen Sie sicher, dass Sie ein Backup haben.</target>
         <note>Message to confirm deletion of a database file. (This deletes the file itself)</note>
       </trans-unit>
-      <trans-unit id="[Database/LesserTargetFormat/warning]" xml:space="preserve">
+      <trans-unit id="[Database/LesserTargetFormat/warning]" xml:space="preserve" approved="yes">
         <source>This is an older database format, some data might be lost.</source>
-        <target state="needs-translation">This is an older database format, some data might be lost.</target>
+        <target state="final">Dies ist ein älteres Datenbankformat, wodurch einige Daten verloren gehen können.</target>
         <note>Notification when user tries to copy data from KDBX to older KDB database.</note>
       </trans-unit>
       <trans-unit id="[Database/Load/Error] Cannot find database file" xml:space="preserve">
@@ -374,9 +374,9 @@
         <target state="translated">Speichern...</target>
         <note>Status message: saving a database</note>
       </trans-unit>
-      <trans-unit id="[Database/Settings/FileAccess/title]" xml:space="preserve">
+      <trans-unit id="[Database/Settings/FileAccess/title]" xml:space="preserve" approved="yes">
         <source>File Access</source>
-        <target state="needs-translation">File Access</target>
+        <target state="final">Dateizugriff</target>
         <note>Title of settings section (read-only, backup-able, etc)</note>
       </trans-unit>
       <trans-unit id="[Database/Settings/ReadOnly/title]" xml:space="preserve">
@@ -384,9 +384,9 @@
         <target state="translated">Nur Lesen</target>
         <note>File setting title, whether the file can be modified (yes/no).</note>
       </trans-unit>
-      <trans-unit id="[Database/Settings/title]" xml:space="preserve">
+      <trans-unit id="[Database/Settings/title]" xml:space="preserve" approved="yes">
         <source>Database Settings</source>
-        <target state="needs-translation">Database Settings</target>
+        <target state="final">Datenbankeinstellungen</target>
         <note>Title of database-related settings screen</note>
       </trans-unit>
       <trans-unit id="[Database/Switch/action]" xml:space="preserve">
@@ -1912,14 +1912,14 @@ Sie können Ihre Abonnements verwalten und kündigen, indem Sie nach dem Kauf Ih
         <target state="translated">Vorschau des Anhangs</target>
         <note>Title of a premium feature: ability to preview some attached files directly in the app (In Title Case)</note>
       </trans-unit>
-      <trans-unit id="[PremiumFeature/QuickAutoFill/description]" xml:space="preserve">
+      <trans-unit id="[PremiumFeature/QuickAutoFill/description]" xml:space="preserve" approved="yes">
         <source>Fill out login forms with a single tap, without even opening KeePassium.</source>
-        <target state="needs-translation">Fill out login forms with a single tap, without even opening KeePassium.</target>
+        <target state="final">Füllen Sie Anmeldeformulare mit einem einzigen Fingertipp aus, ohne KeePassium überhaupt zu öffnen.</target>
         <note>Description/call to action for the `Quick AutoFill` premium feature.</note>
       </trans-unit>
-      <trans-unit id="[PremiumFeature/QuickAutoFill/title]" xml:space="preserve">
+      <trans-unit id="[PremiumFeature/QuickAutoFill/title]" xml:space="preserve" approved="yes">
         <source>Quick AutoFill</source>
-        <target state="needs-translation">Quick AutoFill</target>
+        <target state="final">Schnelles autom. Ausfüllen</target>
         <note>Title of a premium feature: show relevant AutoFill entries right under the input field</note>
       </trans-unit>
       <trans-unit id="[Progress/CancellationReason/lowMemory]" xml:space="preserve">
@@ -1934,14 +1934,14 @@ Dies kann bei größeren Datenbanken oder zu ehrgeizigen Datenbankeinstellungen 
         <target state="translated">Von Benutzer abgebrochen</target>
         <note>Explanation/notification when a long-running operation was cancelled by user</note>
       </trans-unit>
-      <trans-unit id="[QuickAutoFill/description]" xml:space="preserve">
+      <trans-unit id="[QuickAutoFill/description]" xml:space="preserve" approved="yes">
         <source>Quick AutoFill shows relevant entries right next to the password field, without opening KeePassium.</source>
-        <target state="needs-translation">Quick AutoFill shows relevant entries right next to the password field, without opening KeePassium.</target>
+        <target state="final">Schnelles autom. Ausfüllen zeigt relevante Einträge direkt neben dem Passwortfeld an, ohne KeePassium zu öffnen.</target>
         <note>Description of the Quick AutoFill feature.</note>
       </trans-unit>
-      <trans-unit id="[QuickAutoFill/title]" xml:space="preserve">
+      <trans-unit id="[QuickAutoFill/title]" xml:space="preserve" approved="yes">
         <source>Quick AutoFill</source>
-        <target state="needs-translation">Quick AutoFill</target>
+        <target state="final">Schnelles autom. Ausfüllen</target>
         <note>Name of a feature that shows relevant entries directly next to the login/password forms.</note>
       </trans-unit>
       <trans-unit id="[Repeat Password/Field/title]" xml:space="preserve">
@@ -2004,19 +2004,19 @@ Dies kann bei größeren Datenbanken oder zu ehrgeizigen Datenbankeinstellungen 
         <target state="translated">Nie</target>
         <note>An option in Settings. Will be shown as 'App Lock: Timeout: Never'</note>
       </trans-unit>
-      <trans-unit id="[Settings/AutoFill/Activate/action]" xml:space="preserve">
+      <trans-unit id="[Settings/AutoFill/Activate/action]" xml:space="preserve" approved="yes">
         <source>Activate AutoFill</source>
-        <target state="needs-translation">Activate AutoFill</target>
+        <target state="final">Autom. Ausfüllen aktivieren</target>
         <note>Action that opens system settings or instructions</note>
       </trans-unit>
-      <trans-unit id="[Settings/AutoFill/Activate/description]" xml:space="preserve">
+      <trans-unit id="[Settings/AutoFill/Activate/description]" xml:space="preserve" approved="yes">
         <source>Before first use, you need to activate AutoFill in system settings.</source>
-        <target state="needs-translation">Before first use, you need to activate AutoFill in system settings.</target>
+        <target state="final">Vor der ersten Verwendung müssen Sie das automatische Ausfüllen in den Systemeinstellungen aktivieren.</target>
         <note>Description for the AutoFill setup instructions</note>
       </trans-unit>
-      <trans-unit id="[Settings/AutoFill/Setup Guide/title]" xml:space="preserve">
+      <trans-unit id="[Settings/AutoFill/Setup Guide/title]" xml:space="preserve" approved="yes">
         <source>AutoFill Setup Guide</source>
-        <target state="needs-translation">AutoFill Setup Guide</target>
+        <target state="final">Setup-Leitfaden für autom. Ausfüllen</target>
         <note>Title of a help article on how to activate AutoFill.</note>
       </trans-unit>
       <trans-unit id="[Settings/Backup/Delete/title] Delete all backup files?" xml:space="preserve">

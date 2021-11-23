@@ -239,7 +239,7 @@
       </trans-unit>
       <trans-unit id="[Database/LesserTargetFormat/warning]" xml:space="preserve">
         <source>This is an older database format, some data might be lost.</source>
-        <target state="needs-translation">This is an older database format, some data might be lost.</target>
+        <target state="translated">これは古いデータベース形式です。一部のデータが失われる可能性があります。</target>
         <note>Notification when user tries to copy data from KDBX to older KDB database.</note>
       </trans-unit>
       <trans-unit id="[Database/Load/Error] Cannot find database file" xml:space="preserve">
@@ -376,17 +376,17 @@
       </trans-unit>
       <trans-unit id="[Database/Settings/FileAccess/title]" xml:space="preserve">
         <source>File Access</source>
-        <target state="needs-translation">File Access</target>
+        <target state="translated">ファイルアクセス</target>
         <note>Title of settings section (read-only, backup-able, etc)</note>
       </trans-unit>
       <trans-unit id="[Database/Settings/ReadOnly/title]" xml:space="preserve">
         <source>Read Only</source>
-        <target state="needs-translation">Read Only</target>
+        <target state="translated">読み出しのみ</target>
         <note>File setting title, whether the file can be modified (yes/no).</note>
       </trans-unit>
       <trans-unit id="[Database/Settings/title]" xml:space="preserve">
         <source>Database Settings</source>
-        <target state="needs-translation">Database Settings</target>
+        <target state="translated">データベース設定</target>
         <note>Title of database-related settings screen</note>
       </trans-unit>
       <trans-unit id="[Database/Switch/action]" xml:space="preserve">
@@ -1913,12 +1913,12 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
       <trans-unit id="[PremiumFeature/QuickAutoFill/description]" xml:space="preserve">
         <source>Fill out login forms with a single tap, without even opening KeePassium.</source>
-        <target state="needs-translation">Fill out login forms with a single tap, without even opening KeePassium.</target>
+        <target state="translated">KeePassiumを開くことなく、1回のタップでログインフォームに入力します。</target>
         <note>Description/call to action for the `Quick AutoFill` premium feature.</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/QuickAutoFill/title]" xml:space="preserve">
         <source>Quick AutoFill</source>
-        <target state="needs-translation">Quick AutoFill</target>
+        <target state="translated">クイック自動入力</target>
         <note>Title of a premium feature: show relevant AutoFill entries right under the input field</note>
       </trans-unit>
       <trans-unit id="[Progress/CancellationReason/lowMemory]" xml:space="preserve">
@@ -1935,12 +1935,12 @@ This can happen with larger databases or too ambitious database settings (Argon2
       </trans-unit>
       <trans-unit id="[QuickAutoFill/description]" xml:space="preserve">
         <source>Quick AutoFill shows relevant entries right next to the password field, without opening KeePassium.</source>
-        <target state="needs-translation">Quick AutoFill shows relevant entries right next to the password field, without opening KeePassium.</target>
+        <target state="translated">クイック自動入力は、KeePassiumを開くことなく関連エントリをパスワード入力時に表示します。</target>
         <note>Description of the Quick AutoFill feature.</note>
       </trans-unit>
       <trans-unit id="[QuickAutoFill/title]" xml:space="preserve">
         <source>Quick AutoFill</source>
-        <target state="needs-translation">Quick AutoFill</target>
+        <target state="translated">クイック自動入力</target>
         <note>Name of a feature that shows relevant entries directly next to the login/password forms.</note>
       </trans-unit>
       <trans-unit id="[Repeat Password/Field/title]" xml:space="preserve">
@@ -2005,17 +2005,17 @@ This can happen with larger databases or too ambitious database settings (Argon2
       </trans-unit>
       <trans-unit id="[Settings/AutoFill/Activate/action]" xml:space="preserve">
         <source>Activate AutoFill</source>
-        <target state="needs-translation">Activate AutoFill</target>
+        <target state="translated">自動入力をオン</target>
         <note>Action that opens system settings or instructions</note>
       </trans-unit>
       <trans-unit id="[Settings/AutoFill/Activate/description]" xml:space="preserve">
         <source>Before first use, you need to activate AutoFill in system settings.</source>
-        <target state="needs-translation">Before first use, you need to activate AutoFill in system settings.</target>
+        <target state="translated">利用するにあたり、まず自動入力をオンにする必要があります。</target>
         <note>Description for the AutoFill setup instructions</note>
       </trans-unit>
       <trans-unit id="[Settings/AutoFill/Setup Guide/title]" xml:space="preserve">
         <source>AutoFill Setup Guide</source>
-        <target state="needs-translation">AutoFill Setup Guide</target>
+        <target state="translated">自動入力設定ガイド</target>
         <note>Title of a help article on how to activate AutoFill.</note>
       </trans-unit>
       <trans-unit id="[Settings/Backup/Delete/title] Delete all backup files?" xml:space="preserve">
@@ -2150,17 +2150,17 @@ This can happen with larger databases or too ambitious database settings (Argon2
       </trans-unit>
       <trans-unit id="[SortBy/DateCreated]" xml:space="preserve">
         <source>Date Created</source>
-        <target state="needs-translation">Date Created</target>
+        <target state="translated">作成日</target>
         <note>List sorting option. Example: 'Sort by: Date Created'</note>
       </trans-unit>
       <trans-unit id="[SortBy/DateModified]" xml:space="preserve">
         <source>Date Modified</source>
-        <target state="needs-translation">Date Modified</target>
+        <target state="translated">変更日</target>
         <note>List sorting option. Example: 'Sort by: Date Modified'</note>
       </trans-unit>
       <trans-unit id="[SortBy/FileName]" xml:space="preserve">
         <source>Name</source>
-        <target state="needs-translation">Name</target>
+        <target state="translated">名前</target>
         <note>List sorting option (for file names). Example: 'Sort by: Name'</note>
       </trans-unit>
       <trans-unit id="[SortBy/ItemTitle]" xml:space="preserve">
@@ -2175,7 +2175,7 @@ This can happen with larger databases or too ambitious database settings (Argon2
       </trans-unit>
       <trans-unit id="[SortBy]" xml:space="preserve">
         <source>Sort By</source>
-        <target state="needs-translation">Sort By</target>
+        <target state="translated">並び替え</target>
         <note>Title of a sort options list. Example: 'Sort by: Name'</note>
       </trans-unit>
       <trans-unit id="[Support/template] (Please describe the problem here)" xml:space="preserve">

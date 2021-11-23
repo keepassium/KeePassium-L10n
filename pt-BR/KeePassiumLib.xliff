@@ -132,7 +132,7 @@
       </trans-unit>
       <trans-unit id="[ChallengeResponseError] notAvailableInAutoFill" xml:space="preserve">
         <source>Hardware keys are not available in AutoFill.</source>
-        <target state="translated">As chaves físicas não estão disponíveis com o preenchimento automático.</target>
+        <target state="translated">As chaves físicas não são compatíveis com o Preenchimento Automático.</target>
         <note>Error message when trying to use challenge-response hardware in AutoFill.</note>
       </trans-unit>
       <trans-unit id="[ChallengeResponseError] notSupportedByDatabaseFormat" xml:space="preserve">
@@ -239,7 +239,7 @@
       </trans-unit>
       <trans-unit id="[Database/LesserTargetFormat/warning]" xml:space="preserve">
         <source>This is an older database format, some data might be lost.</source>
-        <target state="needs-translation">This is an older database format, some data might be lost.</target>
+        <target state="translated">Alguns dados podem ser perdidos pois o banco de dados de destino está em um formato mais antigo.</target>
         <note>Notification when user tries to copy data from KDBX to older KDB database.</note>
       </trans-unit>
       <trans-unit id="[Database/Load/Error] Cannot find database file" xml:space="preserve">
@@ -376,17 +376,17 @@
       </trans-unit>
       <trans-unit id="[Database/Settings/FileAccess/title]" xml:space="preserve">
         <source>File Access</source>
-        <target state="needs-translation">File Access</target>
+        <target state="translated">Acesso ao arquivo</target>
         <note>Title of settings section (read-only, backup-able, etc)</note>
       </trans-unit>
       <trans-unit id="[Database/Settings/ReadOnly/title]" xml:space="preserve">
         <source>Read Only</source>
-        <target state="needs-translation">Read Only</target>
+        <target state="translated">Apenas leitura</target>
         <note>File setting title, whether the file can be modified (yes/no).</note>
       </trans-unit>
       <trans-unit id="[Database/Settings/title]" xml:space="preserve">
         <source>Database Settings</source>
-        <target state="needs-translation">Database Settings</target>
+        <target state="translated">Ajustes do banco de dados</target>
         <note>Title of database-related settings screen</note>
       </trans-unit>
       <trans-unit id="[Database/Switch/action]" xml:space="preserve">
@@ -1437,7 +1437,7 @@ Faça uma cópia de segurança desse banco de dados antes de modifica-lo.</targe
       </trans-unit>
       <trans-unit id="[HardwareKey/AutoFill/NotAvailable] Hardware keys are not available in AutoFill." xml:space="preserve">
         <source>Hardware keys are not available in AutoFill.</source>
-        <target state="translated">As chaves físicas não estão disponíveis com o preenchimento automático.</target>
+        <target state="translated">As chaves físicas não são compatíveis com o Preenchimento Automático.</target>
         <note>A notification that hardware keys (e.g. YubiKey) cannot be used in AutoFill (the OS does not allow the AutoFill to use NFC/MFI).</note>
       </trans-unit>
       <trans-unit id="[HardwareKey/Field/title]" xml:space="preserve">
@@ -1914,12 +1914,12 @@ Após a compra, você pode gerenciar e cancelar suas assinaturas nas configuraç
       </trans-unit>
       <trans-unit id="[PremiumFeature/QuickAutoFill/description]" xml:space="preserve">
         <source>Fill out login forms with a single tap, without even opening KeePassium.</source>
-        <target state="needs-translation">Fill out login forms with a single tap, without even opening KeePassium.</target>
+        <target state="translated">Faça login com um só toque, sem nem abrir o KeePassium.</target>
         <note>Description/call to action for the `Quick AutoFill` premium feature.</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/QuickAutoFill/title]" xml:space="preserve">
         <source>Quick AutoFill</source>
-        <target state="needs-translation">Quick AutoFill</target>
+        <target state="translated">Preenchimento Automático Expresso</target>
         <note>Title of a premium feature: show relevant AutoFill entries right under the input field</note>
       </trans-unit>
       <trans-unit id="[Progress/CancellationReason/lowMemory]" xml:space="preserve">
@@ -1936,12 +1936,12 @@ Isso pode ocorrer com bancos de dados muito grandes ou com configurações exage
       </trans-unit>
       <trans-unit id="[QuickAutoFill/description]" xml:space="preserve">
         <source>Quick AutoFill shows relevant entries right next to the password field, without opening KeePassium.</source>
-        <target state="needs-translation">Quick AutoFill shows relevant entries right next to the password field, without opening KeePassium.</target>
+        <target state="translated">Mostra entradas relevantes junto aos campos de senha, sem precisar abrir o KeePassium.</target>
         <note>Description of the Quick AutoFill feature.</note>
       </trans-unit>
       <trans-unit id="[QuickAutoFill/title]" xml:space="preserve">
         <source>Quick AutoFill</source>
-        <target state="needs-translation">Quick AutoFill</target>
+        <target state="translated">Modo Expresso</target>
         <note>Name of a feature that shows relevant entries directly next to the login/password forms.</note>
       </trans-unit>
       <trans-unit id="[Repeat Password/Field/title]" xml:space="preserve">
@@ -2006,17 +2006,17 @@ Isso pode ocorrer com bancos de dados muito grandes ou com configurações exage
       </trans-unit>
       <trans-unit id="[Settings/AutoFill/Activate/action]" xml:space="preserve">
         <source>Activate AutoFill</source>
-        <target state="needs-translation">Activate AutoFill</target>
+        <target state="translated">Ativar Preenchimento Automático</target>
         <note>Action that opens system settings or instructions</note>
       </trans-unit>
       <trans-unit id="[Settings/AutoFill/Activate/description]" xml:space="preserve">
         <source>Before first use, you need to activate AutoFill in system settings.</source>
-        <target state="needs-translation">Before first use, you need to activate AutoFill in system settings.</target>
+        <target state="translated">Antes do primeiro uso, você deve ativar o Preenchimento Automático nos Ajustes do sistema.</target>
         <note>Description for the AutoFill setup instructions</note>
       </trans-unit>
       <trans-unit id="[Settings/AutoFill/Setup Guide/title]" xml:space="preserve">
         <source>AutoFill Setup Guide</source>
-        <target state="needs-translation">AutoFill Setup Guide</target>
+        <target state="translated">Como ativar o Preenchimento Automático</target>
         <note>Title of a help article on how to activate AutoFill.</note>
       </trans-unit>
       <trans-unit id="[Settings/Backup/Delete/title] Delete all backup files?" xml:space="preserve">
@@ -2151,17 +2151,17 @@ Isso pode ocorrer com bancos de dados muito grandes ou com configurações exage
       </trans-unit>
       <trans-unit id="[SortBy/DateCreated]" xml:space="preserve">
         <source>Date Created</source>
-        <target state="needs-translation">Date Created</target>
+        <target state="translated">Data de criação</target>
         <note>List sorting option. Example: 'Sort by: Date Created'</note>
       </trans-unit>
       <trans-unit id="[SortBy/DateModified]" xml:space="preserve">
         <source>Date Modified</source>
-        <target state="needs-translation">Date Modified</target>
+        <target state="translated">Data de modificação</target>
         <note>List sorting option. Example: 'Sort by: Date Modified'</note>
       </trans-unit>
       <trans-unit id="[SortBy/FileName]" xml:space="preserve">
         <source>Name</source>
-        <target state="needs-translation">Name</target>
+        <target state="translated">Nome</target>
         <note>List sorting option (for file names). Example: 'Sort by: Name'</note>
       </trans-unit>
       <trans-unit id="[SortBy/ItemTitle]" xml:space="preserve">
@@ -2176,7 +2176,7 @@ Isso pode ocorrer com bancos de dados muito grandes ou com configurações exage
       </trans-unit>
       <trans-unit id="[SortBy]" xml:space="preserve">
         <source>Sort By</source>
-        <target state="needs-translation">Sort By</target>
+        <target state="translated">Ordenar por</target>
         <note>Title of a sort options list. Example: 'Sort by: Name'</note>
       </trans-unit>
       <trans-unit id="[Support/template] (Please describe the problem here)" xml:space="preserve">
