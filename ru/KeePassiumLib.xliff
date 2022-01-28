@@ -272,6 +272,13 @@
         <target state="final">Неизвестный формат базы</target>
         <note>Error message</note>
       </trans-unit>
+      <trans-unit id="[Database/Loading/FromCache/text]" xml:space="preserve">
+        <source>The database is unreachable.
+This is its latest local copy.</source>
+        <target state="translated">База паролей недоступна. 
+Это её последняя локальная версия.</target>
+        <note>Message shown after we show a cached local database instead of the (unavailable) original database.</note>
+      </trans-unit>
       <trans-unit id="[Database/Loading/ReadOnly/text]" xml:space="preserve">
         <source>The database is read-only</source>
         <target state="translated">База паролей доступна только для чтения</target>
@@ -373,6 +380,26 @@
         <source>Saving...</source>
         <target state="final">Сохранение...</target>
         <note>Status message: saving a database</note>
+      </trans-unit>
+      <trans-unit id="[Database/Settings/ConsiderFileUnreachable/title]" xml:space="preserve">
+        <source>Consider File Unreachable</source>
+        <target state="translated">Считать файл недоступным</target>
+        <note>File settings parameter: time after which file will be considered unreachable. Example: `Consider File Unreachable: in 10 seconds`.)</note>
+      </trans-unit>
+      <trans-unit id="[Database/Settings/FallbackStrategy/ShowError/title]" xml:space="preserve">
+        <source>Show Error</source>
+        <target state="translated">Показать ошибку</target>
+        <note>Title: what to do when (remote) file cannot be loaded. (For example: `If File is Unreachable: Show Error`.)</note>
+      </trans-unit>
+      <trans-unit id="[Database/Settings/FallbackStrategy/UseCache/title]" xml:space="preserve">
+        <source>Use Local Copy</source>
+        <target state="translated">Использовать локальную версию</target>
+        <note>Title: what to do when (remote) file cannot be loaded. (For example: `If File is Unreachable: Use Local Copy`.)</note>
+      </trans-unit>
+      <trans-unit id="[Database/Settings/FallbackStrategy/title]" xml:space="preserve">
+        <source>If File is Unreachable</source>
+        <target state="translated">Если файл недоступен</target>
+        <note>File settings parameter: what to do when (remote) file cannot be loaded. (For example: `If File is Unreachable: Use Local Copy`.)</note>
       </trans-unit>
       <trans-unit id="[Database/Settings/FileAccess/title]" xml:space="preserve">
         <source>File Access</source>
