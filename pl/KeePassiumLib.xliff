@@ -239,7 +239,7 @@
       </trans-unit>
       <trans-unit id="[Database/LesserTargetFormat/warning]" xml:space="preserve">
         <source>This is an older database format, some data might be lost.</source>
-        <target state="needs-translation">This is an older database format, some data might be lost.</target>
+        <target state="translated">To jest starszy format bazy danych, niektóre dane mogą zostać utracone.</target>
         <note>Notification when user tries to copy data from KDBX to older KDB database.</note>
       </trans-unit>
       <trans-unit id="[Database/Load/Error] Cannot find database file" xml:space="preserve">
@@ -275,8 +275,8 @@
       <trans-unit id="[Database/Loading/FromCache/text]" xml:space="preserve">
         <source>The database is unreachable.
 This is its latest local copy.</source>
-        <target state="needs-translation">The database is unreachable.
-This is its latest local copy.</target>
+        <target state="translated">Baza danych jest nieosiągalna.
+To jest jej najnowsza kopia lokalna.</target>
         <note>Message shown after we show a cached local database instead of the (unavailable) original database.</note>
       </trans-unit>
       <trans-unit id="[Database/Loading/ReadOnly/text]" xml:space="preserve">
@@ -388,32 +388,32 @@ This is its latest local copy.</target>
       </trans-unit>
       <trans-unit id="[Database/Settings/FallbackStrategy/ShowError/title]" xml:space="preserve">
         <source>Show Error</source>
-        <target state="needs-translation">Show Error</target>
+        <target state="translated">Pokaż błąd</target>
         <note>Title: what to do when (remote) file cannot be loaded. (For example: `If File is Unreachable: Show Error`.)</note>
       </trans-unit>
       <trans-unit id="[Database/Settings/FallbackStrategy/UseCache/title]" xml:space="preserve">
         <source>Use Local Copy</source>
-        <target state="needs-translation">Use Local Copy</target>
+        <target state="translated">Użyj kopii lokalnej</target>
         <note>Title: what to do when (remote) file cannot be loaded. (For example: `If File is Unreachable: Use Local Copy`.)</note>
       </trans-unit>
       <trans-unit id="[Database/Settings/FallbackStrategy/title]" xml:space="preserve">
         <source>If File is Unreachable</source>
-        <target state="needs-translation">If File is Unreachable</target>
+        <target state="translated">Jeśli plik jest nieosiągalny</target>
         <note>File settings parameter: what to do when (remote) file cannot be loaded. (For example: `If File is Unreachable: Use Local Copy`.)</note>
       </trans-unit>
       <trans-unit id="[Database/Settings/FileAccess/title]" xml:space="preserve">
         <source>File Access</source>
-        <target state="needs-translation">File Access</target>
+        <target state="translated">Dostęp do pliku</target>
         <note>Title of settings section (read-only, backup-able, etc)</note>
       </trans-unit>
       <trans-unit id="[Database/Settings/ReadOnly/title]" xml:space="preserve">
         <source>Read Only</source>
-        <target state="needs-translation">Read Only</target>
+        <target state="translated">Tylko do odczytu</target>
         <note>File setting title, whether the file can be modified (yes/no).</note>
       </trans-unit>
       <trans-unit id="[Database/Settings/title]" xml:space="preserve">
         <source>Database Settings</source>
-        <target state="needs-translation">Database Settings</target>
+        <target state="translated">Ustawienia bazy danych</target>
         <note>Title of database-related settings screen</note>
       </trans-unit>
       <trans-unit id="[Database/Switch/action]" xml:space="preserve">
@@ -1946,7 +1946,7 @@ Po zakupie możesz zarządzać i anulować subskrypcję przechodząc do ustawie�
       </trans-unit>
       <trans-unit id="[PremiumFeature/QuickAutoFill/title]" xml:space="preserve">
         <source>Quick AutoFill</source>
-        <target state="needs-translation">Quick AutoFill</target>
+        <target state="translated">Szybkie autouzupełnianie</target>
         <note>Title of a premium feature: show relevant AutoFill entries right under the input field</note>
       </trans-unit>
       <trans-unit id="[Progress/CancellationReason/lowMemory]" xml:space="preserve">
@@ -1968,7 +1968,7 @@ Może się to zdarzyć przy dużych bazach lub zbyt wygórowanych ustawieniach b
       </trans-unit>
       <trans-unit id="[QuickAutoFill/title]" xml:space="preserve">
         <source>Quick AutoFill</source>
-        <target state="needs-translation">Quick AutoFill</target>
+        <target state="translated">Szybkie autouzupełnianie</target>
         <note>Name of a feature that shows relevant entries directly next to the login/password forms.</note>
       </trans-unit>
       <trans-unit id="[Repeat Password/Field/title]" xml:space="preserve">
@@ -2033,7 +2033,7 @@ Może się to zdarzyć przy dużych bazach lub zbyt wygórowanych ustawieniach b
       </trans-unit>
       <trans-unit id="[Settings/AutoFill/Activate/action]" xml:space="preserve">
         <source>Activate AutoFill</source>
-        <target state="needs-translation">Activate AutoFill</target>
+        <target state="translated">Aktywuj autouzupełnianie</target>
         <note>Action that opens system settings or instructions</note>
       </trans-unit>
       <trans-unit id="[Settings/AutoFill/Activate/description]" xml:space="preserve">
@@ -2178,17 +2178,17 @@ Może się to zdarzyć przy dużych bazach lub zbyt wygórowanych ustawieniach b
       </trans-unit>
       <trans-unit id="[SortBy/DateCreated]" xml:space="preserve">
         <source>Date Created</source>
-        <target state="needs-translation">Date Created</target>
+        <target state="translated">Daty utworzenia</target>
         <note>List sorting option. Example: 'Sort by: Date Created'</note>
       </trans-unit>
       <trans-unit id="[SortBy/DateModified]" xml:space="preserve">
         <source>Date Modified</source>
-        <target state="needs-translation">Date Modified</target>
+        <target state="translated">Daty modyfikacji</target>
         <note>List sorting option. Example: 'Sort by: Date Modified'</note>
       </trans-unit>
       <trans-unit id="[SortBy/FileName]" xml:space="preserve">
         <source>Name</source>
-        <target state="needs-translation">Name</target>
+        <target state="translated">Nazwy</target>
         <note>List sorting option (for file names). Example: 'Sort by: Name'</note>
       </trans-unit>
       <trans-unit id="[SortBy/ItemTitle]" xml:space="preserve">
@@ -2203,7 +2203,7 @@ Może się to zdarzyć przy dużych bazach lub zbyt wygórowanych ustawieniach b
       </trans-unit>
       <trans-unit id="[SortBy]" xml:space="preserve">
         <source>Sort By</source>
-        <target state="needs-translation">Sort By</target>
+        <target state="translated">Sortuj według</target>
         <note>Title of a sort options list. Example: 'Sort by: Name'</note>
       </trans-unit>
       <trans-unit id="[Support/template] (Please describe the problem here)" xml:space="preserve">
