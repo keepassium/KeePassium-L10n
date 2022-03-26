@@ -2210,6 +2210,11 @@ This can happen with larger databases or too ambitious database settings (Argon2
         <target state="translated">(請在此處描述問題)</target>
         <note>Template text of a bug report email</note>
       </trans-unit>
+      <trans-unit id="[TOTP/FieldName]" xml:space="preserve">
+        <source>One-time password (TOTP)</source>
+        <target state="needs-translation">One-time password (TOTP)</target>
+        <note>Name of an entry field. Acronym `TOTP` should not be translated.</note>
+      </trans-unit>
       <trans-unit id="[TipBox/callToAction/1]" xml:space="preserve">
         <source>Help us make KeePassium better!</source>
         <target state="translated">幫助我們使 KeePassium 成為更好的應用程式！</target>

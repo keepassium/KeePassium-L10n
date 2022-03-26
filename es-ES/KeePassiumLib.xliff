@@ -2211,6 +2211,11 @@ Esto puede ocurrir con bases de datos muy grandes o configuraciones muy exigente
         <target state="translated">(Por favor, describe aquí el problema)</target>
         <note>Template text of a bug report email</note>
       </trans-unit>
+      <trans-unit id="[TOTP/FieldName]" xml:space="preserve">
+        <source>One-time password (TOTP)</source>
+        <target state="translated">Contraseña de un solo uso (TOTP)</target>
+        <note>Name of an entry field. Acronym `TOTP` should not be translated.</note>
+      </trans-unit>
       <trans-unit id="[TipBox/callToAction/1]" xml:space="preserve">
         <source>Help us make KeePassium better!</source>
         <target state="translated">¡Ayúdanos a mejorar KeePassium!</target>
