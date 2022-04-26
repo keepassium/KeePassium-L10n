@@ -30,6 +30,11 @@
         <target state="translated">Sicherungsdateien anzeigen</target>
         <note>Settings switch: whether to include backup copies in the file list</note>
       </trans-unit>
+      <trans-unit id="[About/CopyrightAuthor]" xml:space="preserve">
+        <source>©Andrei Popleteev</source>
+        <target state="translated">©Andrei Popleteev</target>
+        <note>Copyright notice</note>
+      </trans-unit>
       <trans-unit id="[Accessibility] Double tap to copy to clipboard" xml:space="preserve" approved="yes">
         <source>Double tap to copy to clipboard</source>
         <target state="final">Doppeltippen, um in die Zwischenablage zu kopieren</target>
@@ -275,8 +280,8 @@
       <trans-unit id="[Database/Loading/FromCache/text]" xml:space="preserve">
         <source>The database is unreachable.
 This is its latest local copy.</source>
-        <target state="needs-translation">The database is unreachable.
-This is its latest local copy.</target>
+        <target state="translated">Die Datenbank ist unerreichbar.
+Dies ist ihre letzte lokale Kopie.</target>
         <note>Message shown after we show a cached local database instead of the (unavailable) original database.</note>
       </trans-unit>
       <trans-unit id="[Database/Loading/ReadOnly/text]" xml:space="preserve" approved="yes">
@@ -383,22 +388,22 @@ This is its latest local copy.</target>
       </trans-unit>
       <trans-unit id="[Database/Settings/ConsiderFileUnreachable/title]" xml:space="preserve">
         <source>Consider File Unreachable</source>
-        <target state="needs-translation">Consider File Unreachable</target>
+        <target state="translated">Datei als unerreichbar betrachten</target>
         <note>File settings parameter: time after which file will be considered unreachable. Example: `Consider File Unreachable: in 10 seconds`.)</note>
       </trans-unit>
       <trans-unit id="[Database/Settings/FallbackStrategy/ShowError/title]" xml:space="preserve">
         <source>Show Error</source>
-        <target state="needs-translation">Show Error</target>
+        <target state="translated">Fehler anzeigen</target>
         <note>Title: what to do when (remote) file cannot be loaded. (For example: `If File is Unreachable: Show Error`.)</note>
       </trans-unit>
       <trans-unit id="[Database/Settings/FallbackStrategy/UseCache/title]" xml:space="preserve">
         <source>Use Local Copy</source>
-        <target state="needs-translation">Use Local Copy</target>
+        <target state="translated">Lokale Kopie verwenden</target>
         <note>Title: what to do when (remote) file cannot be loaded. (For example: `If File is Unreachable: Use Local Copy`.)</note>
       </trans-unit>
       <trans-unit id="[Database/Settings/FallbackStrategy/title]" xml:space="preserve">
         <source>If File is Unreachable</source>
-        <target state="needs-translation">If File is Unreachable</target>
+        <target state="translated">Wenn die Datei unerreichbar ist</target>
         <note>File settings parameter: what to do when (remote) file cannot be loaded. (For example: `If File is Unreachable: Use Local Copy`.)</note>
       </trans-unit>
       <trans-unit id="[Database/Settings/FileAccess/title]" xml:space="preserve" approved="yes">
@@ -1462,6 +1467,11 @@ Bitte stellen Sie sicher, dass Sie eine Sicherung Ihrer Datenbank haben, bevor S
         <target state="translated">Keine Sortierung</target>
         <note>An option in Group Viewer settings. Example: 'Sort Order: No Sorting'</note>
       </trans-unit>
+      <trans-unit id="[HOTP/FieldName]" xml:space="preserve">
+        <source>One-Time Password (HOTP)</source>
+        <target state="translated">Einmalpasswort (HOTP)</target>
+        <note>Name of an entry field. Acronym `HOTP` should not be translated.</note>
+      </trans-unit>
       <trans-unit id="[HardwareKey/AutoFill/NotAvailable] Hardware keys are not available in AutoFill." xml:space="preserve">
         <source>Hardware keys are not available in AutoFill.</source>
         <target state="translated">Hardwareschlüssel sind in AutoFill nicht verfügbar.</target>
@@ -1560,6 +1570,11 @@ Bitte stellen Sie sicher, dass Sie eine Sicherung Ihrer Datenbank haben, bevor S
         <source>File Info</source>
         <target state="translated">Datei-Information</target>
         <note>Menu item: show information about file (name, size, dates)</note>
+      </trans-unit>
+      <trans-unit id="[OTP/FieldName]" xml:space="preserve">
+        <source>One-Time Password</source>
+        <target state="translated">Einmalpasswort</target>
+        <note>Name of an entry field</note>
       </trans-unit>
       <trans-unit id="[OTP/Scan/InvalidData]" xml:space="preserve" approved="yes">
         <source>This QR code is not suitable for OTP setup.</source>
@@ -2212,7 +2227,7 @@ Dies kann bei größeren Datenbanken oder zu ehrgeizigen Datenbankeinstellungen 
         <note>Template text of a bug report email</note>
       </trans-unit>
       <trans-unit id="[TOTP/FieldName]" xml:space="preserve">
-        <source>One-time password (TOTP)</source>
+        <source>One-Time Password (TOTP)</source>
         <target state="translated">Einmalpasswort (TOTP)</target>
         <note>Name of an entry field. Acronym `TOTP` should not be translated.</note>
       </trans-unit>

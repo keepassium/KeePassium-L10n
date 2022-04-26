@@ -30,6 +30,11 @@
         <target state="translated">Pokaż kopie zapasowe</target>
         <note>Settings switch: whether to include backup copies in the file list</note>
       </trans-unit>
+      <trans-unit id="[About/CopyrightAuthor]" xml:space="preserve">
+        <source>©Andrei Popleteev</source>
+        <target state="translated">©Andrei Popleteev</target>
+        <note>Copyright notice</note>
+      </trans-unit>
       <trans-unit id="[Accessibility] Double tap to copy to clipboard" xml:space="preserve">
         <source>Double tap to copy to clipboard</source>
         <target state="translated">Dotknij dwukrotnie aby skopiować</target>
@@ -1462,6 +1467,11 @@ Przed zmianą czegokolwiek upewnij się, że masz kopię zapasową bazy.</target
         <target state="translated">Bez sortowania</target>
         <note>An option in Group Viewer settings. Example: 'Sort Order: No Sorting'</note>
       </trans-unit>
+      <trans-unit id="[HOTP/FieldName]" xml:space="preserve">
+        <source>One-Time Password (HOTP)</source>
+        <target state="translated">Hasło jednorazowe (HOTP)</target>
+        <note>Name of an entry field. Acronym `HOTP` should not be translated.</note>
+      </trans-unit>
       <trans-unit id="[HardwareKey/AutoFill/NotAvailable] Hardware keys are not available in AutoFill." xml:space="preserve">
         <source>Hardware keys are not available in AutoFill.</source>
         <target state="translated">Klucz sprzętowy nie jest dostępny dla Autouzupełniania.</target>
@@ -1560,6 +1570,11 @@ Przed zmianą czegokolwiek upewnij się, że masz kopię zapasową bazy.</target
         <source>File Info</source>
         <target state="translated">Informacje o pliku</target>
         <note>Menu item: show information about file (name, size, dates)</note>
+      </trans-unit>
+      <trans-unit id="[OTP/FieldName]" xml:space="preserve">
+        <source>One-Time Password</source>
+        <target state="translated">Hasło jednorazowe</target>
+        <note>Name of an entry field</note>
       </trans-unit>
       <trans-unit id="[OTP/Scan/InvalidData]" xml:space="preserve">
         <source>This QR code is not suitable for OTP setup.</source>
@@ -2212,7 +2227,7 @@ Może się to zdarzyć przy dużych bazach lub zbyt wygórowanych ustawieniach b
         <note>Template text of a bug report email</note>
       </trans-unit>
       <trans-unit id="[TOTP/FieldName]" xml:space="preserve">
-        <source>One-time password (TOTP)</source>
+        <source>One-Time Password (TOTP)</source>
         <target state="translated">Hasło jednorazowe (TOTP)</target>
         <note>Name of an entry field. Acronym `TOTP` should not be translated.</note>
       </trans-unit>
