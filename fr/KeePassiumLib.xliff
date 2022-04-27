@@ -35,6 +35,11 @@
         <target state="translated">©Andrei Popleteev</target>
         <note>Copyright notice</note>
       </trans-unit>
+      <trans-unit id="[About/altTitle]" xml:space="preserve">
+        <source>About KeePassium</source>
+        <target state="translated">À propos de KeePassium</target>
+        <note>Menu item that shows info about KeePassium app</note>
+      </trans-unit>
       <trans-unit id="[Accessibility] Double tap to copy to clipboard" xml:space="preserve" approved="yes">
         <source>Double tap to copy to clipboard</source>
         <target state="final">Appuyez deux fois pour copier dans le presse-papiers</target>
@@ -105,6 +110,11 @@
         <target state="final">Taille du texte</target>
         <note>Title of a setting option: font size</note>
       </trans-unit>
+      <trans-unit id="[Appearance/title]" xml:space="preserve" approved="yes">
+        <source>Appearance</source>
+        <target state="final">Aspect</target>
+        <note>Group of settings for user interface appearance (text size, icons, etc)</note>
+      </trans-unit>
       <trans-unit id="[AutoFill/Premium/Upgrade/Manual/text] To upgrade, please manually open KeePassium from your home screen." xml:space="preserve">
         <source>To upgrade, please manually open KeePassium from your home screen.</source>
         <target state="translated">Pour mettre à jour, veuillez ouvrir manuellement KeePassium à partir de votre écran d'accueil.</target>
@@ -174,6 +184,11 @@
         <source>Copied</source>
         <target state="translated">Copié</target>
         <note>Notification: an item has been copied to clipboard</note>
+      </trans-unit>
+      <trans-unit id="[ContactUs/subtitle]" xml:space="preserve">
+        <source>Suggestions? Problems? Let us know!</source>
+        <target state="translated">Des suggestions ? Des problèmes ? Faites-le nous savoir !</target>
+        <note>Subtitle for `Contact Us`. Keep it short.</note>
       </trans-unit>
       <trans-unit id="[CryptoError] AES decryption error (code %d)" xml:space="preserve">
         <source>AES decryption error (code %d)</source>
@@ -760,6 +775,16 @@ Veuillez vous assurer d'avoir une sauvegarde de votre base de données avant de 
         <source>Invalid password or key file</source>
         <target state="translated">Mot de passe ou clé de fichier incorrect</target>
         <note>Error message: user provided a wrong master key for decryption.</note>
+      </trans-unit>
+      <trans-unit id="[DiagLog/subtitle]" xml:space="preserve">
+        <source>For expert troubleshooting</source>
+        <target state="translated">Résolution de problèmes pour expert</target>
+        <note>Subtitle for `Diagnostic Log`. Keep it short.</note>
+      </trans-unit>
+      <trans-unit id="[DiagLog/title]" xml:space="preserve">
+        <source>Diagnostic Log</source>
+        <target state="translated">Journal de diagnostic</target>
+        <note>Title of the diagnostic info screen</note>
       </trans-unit>
       <trans-unit id="[Diagnostics] Diagnostic log has been copied to clipboard." xml:space="preserve">
         <source>Diagnostic log has been copied to clipboard.</source>
@@ -1765,6 +1790,11 @@ Veuillez vous assurer d'avoir une sauvegarde de votre base de données avant de 
         <target state="translated">Populaire</target>
         <note>Marks the default pricing plan</note>
       </trans-unit>
+      <trans-unit id="[Premium/Status/title]" xml:space="preserve">
+        <source>Premium Version</source>
+        <target state="translated">Version Premium</target>
+        <note>Status when the user has a premium version</note>
+      </trans-unit>
       <trans-unit id="[Premium/Subscription/Legal/text]" xml:space="preserve">
         <source>Payment will be charged to your Apple ID account at the confirmation of purchase.
 
@@ -2015,6 +2045,11 @@ Cela peut se produire avec des bases de données volumineuse ou des paramètres 
         <target state="translated">Verrouillage de l'application, mot de passe, délai de verrouillage</target>
         <note>Settings: subtitle of the `App Protection` section when biometric auth is not available.</note>
       </trans-unit>
+      <trans-unit id="[Settings/AppLock/title]" xml:space="preserve">
+        <source>App Protection</source>
+        <target state="translated">Protection des applications</target>
+        <note>Settings section: protection of the app from unauthorized access</note>
+      </trans-unit>
       <trans-unit id="[Settings/AppLockTimeout/description] After last interaction" xml:space="preserve">
         <source>After last interaction</source>
         <target state="translated">Après la dernière interaction</target>
@@ -2055,10 +2090,30 @@ Cela peut se produire avec des bases de données volumineuse ou des paramètres 
         <target state="translated">Avant la première utilisation, vous devez activer le remplissage automatique dans les paramètres du système.</target>
         <note>Description for the AutoFill setup instructions</note>
       </trans-unit>
+      <trans-unit id="[Settings/AutoFill/CopyOTP/title]" xml:space="preserve">
+        <source>Copy OTP to Clipboard</source>
+        <target state="translated">Copier OTP dans le presse-papiers</target>
+        <note>Title of an option: copy one-time password to clipboard when using AutoFill</note>
+      </trans-unit>
       <trans-unit id="[Settings/AutoFill/Setup Guide/title]" xml:space="preserve">
         <source>AutoFill Setup Guide</source>
         <target state="translated">Guide pour configurer le remplissage automatique</target>
         <note>Title of a help article on how to activate AutoFill.</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AutoFill/UsePerfectMatch/title]" xml:space="preserve">
+        <source>Fill-In Perfect Result Automatically</source>
+        <target state="translated">Remplir le résultat parfait automatiquement</target>
+        <note>Title of an option: automatically use the single best match found by AutoFill search</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AutoFill/title]" xml:space="preserve">
+        <source>AutoFill Passwords</source>
+        <target state="translated">Remplissage automatique des mots de passe</target>
+        <note>Title of AutoFill settings screen</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AutoOpenPreviousDatabase/title]" xml:space="preserve">
+        <source>Auto-Open Previous Database</source>
+        <target state="translated">Ouvrir automatiquement la base de données précédente</target>
+        <note>Option in settings: whether to open the last used database automatically on start.</note>
       </trans-unit>
       <trans-unit id="[Settings/Backup/Delete/title] Delete all backup files?" xml:space="preserve">
         <source>Delete all backup files?</source>
@@ -2114,6 +2169,21 @@ Cela peut se produire avec des bases de données volumineuse ou des paramètres 
         <source>Never</source>
         <target state="translated">Jamais</target>
         <note>An option in Settings. Will be shown as 'Clipboard Timeout: Never'</note>
+      </trans-unit>
+      <trans-unit id="[Settings/DataProtection/subtitle]" xml:space="preserve">
+        <source>Master keys, key files</source>
+        <target state="translated">Clés principales, fichiers de clés</target>
+        <note>Subtitle for `Data Protection` section in settings</note>
+      </trans-unit>
+      <trans-unit id="[Settings/DataProtection/title]" xml:space="preserve">
+        <source>Data Protection</source>
+        <target state="translated">Protection des données</target>
+        <note>Settings section: protection of databases, their keys and data inside them</note>
+      </trans-unit>
+      <trans-unit id="[Settings/DatabaseBackup/title]" xml:space="preserve">
+        <source>Database Backup</source>
+        <target state="translated">Sauvegarde de base de données</target>
+        <note>Title of a settings section: backup of databases</note>
       </trans-unit>
       <trans-unit id="[Settings/DatabaseLockTimeout/description] If you are not interacting with the app for some time, the database will be closed for your safety. To open it, you will need to enter its master password again." xml:space="preserve">
         <source>If you are not interacting with the app for some time, the database will be closed for your safety. To open it, you will need to enter its master password again.</source>
@@ -2189,6 +2259,11 @@ Cela peut se produire avec des bases de données volumineuse ou des paramètres 
         <source>List Settings</source>
         <target state="translated">Paramètres de la liste</target>
         <note>Title of list view configuration screen</note>
+      </trans-unit>
+      <trans-unit id="[Settings/Search/title]" xml:space="preserve">
+        <source>Search</source>
+        <target state="translated">Recherche</target>
+        <note>Section title in settings</note>
       </trans-unit>
       <trans-unit id="[SortBy/DateCreated]" xml:space="preserve">
         <source>Date Created</source>

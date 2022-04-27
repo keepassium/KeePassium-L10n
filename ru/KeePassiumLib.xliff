@@ -32,8 +32,13 @@
       </trans-unit>
       <trans-unit id="[About/CopyrightAuthor]" xml:space="preserve">
         <source>©Andrei Popleteev</source>
-        <target state="translated">©Андрей Поплетеев</target>
+        <target state="translated">© Андрей Поплетеев</target>
         <note>Copyright notice</note>
+      </trans-unit>
+      <trans-unit id="[About/altTitle]" xml:space="preserve" approved="yes">
+        <source>About KeePassium</source>
+        <target state="final">О программе</target>
+        <note>Menu item that shows info about KeePassium app</note>
       </trans-unit>
       <trans-unit id="[Accessibility] Double tap to copy to clipboard" xml:space="preserve">
         <source>Double tap to copy to clipboard</source>
@@ -105,6 +110,11 @@
         <target state="translated">Размер текста</target>
         <note>Title of a setting option: font size</note>
       </trans-unit>
+      <trans-unit id="[Appearance/title]" xml:space="preserve">
+        <source>Appearance</source>
+        <target state="translated">Внешний вид</target>
+        <note>Group of settings for user interface appearance (text size, icons, etc)</note>
+      </trans-unit>
       <trans-unit id="[AutoFill/Premium/Upgrade/Manual/text] To upgrade, please manually open KeePassium from your home screen." xml:space="preserve" approved="yes">
         <source>To upgrade, please manually open KeePassium from your home screen.</source>
         <target state="final">Чтобы включить премиум-доступ, откройте основное приложение KeePassium.</target>
@@ -174,6 +184,11 @@
         <source>Copied</source>
         <target state="final">Скопировано</target>
         <note>Notification: an item has been copied to clipboard</note>
+      </trans-unit>
+      <trans-unit id="[ContactUs/subtitle]" xml:space="preserve" approved="yes">
+        <source>Suggestions? Problems? Let us know!</source>
+        <target state="final">Идеи? Вопросы? Расскажите нам!</target>
+        <note>Subtitle for `Contact Us`. Keep it short.</note>
       </trans-unit>
       <trans-unit id="[CryptoError] AES decryption error (code %d)" xml:space="preserve" approved="yes">
         <source>AES decryption error (code %d)</source>
@@ -761,6 +776,16 @@ Please make sure to have a backup of your database before changing anything.</so
         <source>Invalid password or key file</source>
         <target state="final">Неверный пароль или ключевой файл</target>
         <note>Error message: user provided a wrong master key for decryption.</note>
+      </trans-unit>
+      <trans-unit id="[DiagLog/subtitle]" xml:space="preserve" approved="yes">
+        <source>For expert troubleshooting</source>
+        <target state="final">Для решения проблем</target>
+        <note>Subtitle for `Diagnostic Log`. Keep it short.</note>
+      </trans-unit>
+      <trans-unit id="[DiagLog/title]" xml:space="preserve" approved="yes">
+        <source>Diagnostic Log</source>
+        <target state="final">Диагностика</target>
+        <note>Title of the diagnostic info screen</note>
       </trans-unit>
       <trans-unit id="[Diagnostics] Diagnostic log has been copied to clipboard." xml:space="preserve" approved="yes">
         <source>Diagnostic log has been copied to clipboard.</source>
@@ -1766,6 +1791,11 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="translated">Популярный</target>
         <note>Marks the default pricing plan</note>
       </trans-unit>
+      <trans-unit id="[Premium/Status/title]" xml:space="preserve" approved="yes">
+        <source>Premium Version</source>
+        <target state="final">Полная версия</target>
+        <note>Status when the user has a premium version</note>
+      </trans-unit>
       <trans-unit id="[Premium/Subscription/Legal/text]" xml:space="preserve">
         <source>Payment will be charged to your Apple ID account at the confirmation of purchase.
 
@@ -2016,6 +2046,11 @@ This can happen with larger databases or too ambitious database settings (Argon2
         <target state="final">Блокировка приложения, код доступа, задержки</target>
         <note>Settings: subtitle of the `App Protection` section when biometric auth is not available.</note>
       </trans-unit>
+      <trans-unit id="[Settings/AppLock/title]" xml:space="preserve" approved="yes">
+        <source>App Protection</source>
+        <target state="final">Защита приложения</target>
+        <note>Settings section: protection of the app from unauthorized access</note>
+      </trans-unit>
       <trans-unit id="[Settings/AppLockTimeout/description] After last interaction" xml:space="preserve" approved="yes">
         <source>After last interaction</source>
         <target state="final">После бездействия</target>
@@ -2056,10 +2091,30 @@ This can happen with larger databases or too ambitious database settings (Argon2
         <target state="translated">Вначале нужно включить Автозаполнение в системных настройках.</target>
         <note>Description for the AutoFill setup instructions</note>
       </trans-unit>
+      <trans-unit id="[Settings/AutoFill/CopyOTP/title]" xml:space="preserve">
+        <source>Copy OTP to Clipboard</source>
+        <target state="translated">Копировать одноразовый пароль</target>
+        <note>Title of an option: copy one-time password to clipboard when using AutoFill</note>
+      </trans-unit>
       <trans-unit id="[Settings/AutoFill/Setup Guide/title]" xml:space="preserve">
         <source>AutoFill Setup Guide</source>
         <target state="translated">Руководство по настройке Автозаполнения</target>
         <note>Title of a help article on how to activate AutoFill.</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AutoFill/UsePerfectMatch/title]" xml:space="preserve">
+        <source>Fill-In Perfect Result Automatically</source>
+        <target state="translated">Автоматически подставлять идеальный вариант</target>
+        <note>Title of an option: automatically use the single best match found by AutoFill search</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AutoFill/title]" xml:space="preserve" approved="yes">
+        <source>AutoFill Passwords</source>
+        <target state="final">Автозаполнение паролей</target>
+        <note>Title of AutoFill settings screen</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AutoOpenPreviousDatabase/title]" xml:space="preserve">
+        <source>Auto-Open Previous Database</source>
+        <target state="translated">Автоматически открывать предыдущую базу</target>
+        <note>Option in settings: whether to open the last used database automatically on start.</note>
       </trans-unit>
       <trans-unit id="[Settings/Backup/Delete/title] Delete all backup files?" xml:space="preserve" approved="yes">
         <source>Delete all backup files?</source>
@@ -2115,6 +2170,21 @@ This can happen with larger databases or too ambitious database settings (Argon2
         <source>Never</source>
         <target state="final">Никогда</target>
         <note>An option in Settings. Will be shown as 'Clipboard Timeout: Never'</note>
+      </trans-unit>
+      <trans-unit id="[Settings/DataProtection/subtitle]" xml:space="preserve" approved="yes">
+        <source>Master keys, key files</source>
+        <target state="final">Мастер-ключи, ключевые файлы</target>
+        <note>Subtitle for `Data Protection` section in settings</note>
+      </trans-unit>
+      <trans-unit id="[Settings/DataProtection/title]" xml:space="preserve" approved="yes">
+        <source>Data Protection</source>
+        <target state="final">Защита данных</target>
+        <note>Settings section: protection of databases, their keys and data inside them</note>
+      </trans-unit>
+      <trans-unit id="[Settings/DatabaseBackup/title]" xml:space="preserve" approved="yes">
+        <source>Database Backup</source>
+        <target state="final">Резервирование</target>
+        <note>Title of a settings section: backup of databases</note>
       </trans-unit>
       <trans-unit id="[Settings/DatabaseLockTimeout/description] If you are not interacting with the app for some time, the database will be closed for your safety. To open it, you will need to enter its master password again." xml:space="preserve" approved="yes">
         <source>If you are not interacting with the app for some time, the database will be closed for your safety. To open it, you will need to enter its master password again.</source>
@@ -2190,6 +2260,11 @@ This can happen with larger databases or too ambitious database settings (Argon2
         <source>List Settings</source>
         <target state="final">Вид списка</target>
         <note>Title of list view configuration screen</note>
+      </trans-unit>
+      <trans-unit id="[Settings/Search/title]" xml:space="preserve">
+        <source>Search</source>
+        <target state="translated">Поиск</target>
+        <note>Section title in settings</note>
       </trans-unit>
       <trans-unit id="[SortBy/DateCreated]" xml:space="preserve">
         <source>Date Created</source>

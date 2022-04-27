@@ -950,6 +950,11 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.3" build-num="13E113"/>
     </header>
     <body>
+      <trans-unit id="[AppHistory/title]" xml:space="preserve">
+        <source>What's New</source>
+        <target state="translated">更新了什麼</target>
+        <note>Title of the app history (changelog) screen</note>
+      </trans-unit>
       <trans-unit id="[Database/Create/TemplateEntry/notes] You can also store some notes, if you like." xml:space="preserve">
         <source>You can also store some notes, if you like.</source>
         <target state="translated">如果您願意, 您也可以填寫一些備註。</target>
@@ -1403,10 +1408,10 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.3" build-num="13E113"/>
     </header>
     <body>
-      <trans-unit id="9Zh-Kk-7yq.title" xml:space="preserve">
-        <source>What's New</source>
-        <target state="translated">更新了什麼</target>
-        <note>Class = "UITableViewController"; title = "What's New"; ObjectID = "9Zh-Kk-7yq"; Note = "Title of the app version history screen";</note>
+      <trans-unit id="9Zh-Kk-7yq.title" xml:space="preserve" translate="no">
+        <source>{What's New}</source>
+        <target state="needs-translation">{What's New}</target>
+        <note>Class = "UITableViewController"; title = "{What's New}"; ObjectID = "9Zh-Kk-7yq";</note>
       </trans-unit>
       <trans-unit id="D5J-1z-JKZ.text" xml:space="preserve" translate="no">
         <source>{Detail}</source>
@@ -1434,11 +1439,6 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <source>{Contact Support}</source>
         <target state="needs-translation">{Contact Support}</target>
         <note>Class = "UIBarButtonItem"; title = "{Contact Support}"; ObjectID = "Bti-aV-bQB"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="Ura-k4-GXq.title" xml:space="preserve">
-        <source>Diagnostics</source>
-        <target state="translated">診斷訊息</target>
-        <note>Class = "UINavigationItem"; title = "Diagnostics"; ObjectID = "Ura-k4-GXq";</note>
       </trans-unit>
       <trans-unit id="VTC-44-cgF.text" xml:space="preserve" translate="no">
         <source>{file:line:function}</source>
@@ -1660,10 +1660,10 @@ You can have multiple databases, for example to separate work, family and person
         <target state="translated">啟用應用解鎖密碼</target>
         <note>Class = "UILabel"; text = "Enable AppLock"; ObjectID = "IS1-Lb-MFy";</note>
       </trans-unit>
-      <trans-unit id="U5m-je-MhO.title" xml:space="preserve">
-        <source>App Protection</source>
-        <target state="translated">應用保護</target>
-        <note>Class = "UITableViewController"; title = "App Protection"; ObjectID = "U5m-je-MhO";</note>
+      <trans-unit id="U5m-je-MhO.title" xml:space="preserve" translate="no">
+        <source>{App Protection}</source>
+        <target state="needs-translation">{App Protection}</target>
+        <note>Class = "UITableViewController"; title = "{App Protection}"; ObjectID = "U5m-je-MhO";</note>
       </trans-unit>
       <trans-unit id="aBx-Ee-bMk.footerTitle" xml:space="preserve">
         <source>Protect KeePassium from unauthorized access.</source>
@@ -1714,10 +1714,10 @@ You can have multiple databases, for example to separate work, family and person
         <target state="translated">資料庫圖示</target>
         <note>Class = "UILabel"; text = "Database Icons"; ObjectID = "4Yu-VJ-n8p"; Note = "Section in settings: icons for database";</note>
       </trans-unit>
-      <trans-unit id="4mh-X8-Byq.title" xml:space="preserve">
-        <source>Appearance</source>
-        <target state="translated">界面外觀</target>
-        <note>Class = "UITableViewController"; title = "Appearance"; ObjectID = "4mh-X8-Byq"; Note = "Settings for user interface appearance (text size, icons, etc)";</note>
+      <trans-unit id="4mh-X8-Byq.title" xml:space="preserve" translate="no">
+        <source>{Appearance}</source>
+        <target state="needs-translation">{Appearance}</target>
+        <note>Class = "UITableViewController"; title = "{Appearance}"; ObjectID = "4mh-X8-Byq";</note>
       </trans-unit>
       <trans-unit id="5U9-NZ-sJe.accessibilityLabel" xml:space="preserve">
         <source>Reset text size to default</source>
@@ -1766,10 +1766,10 @@ You can have multiple databases, for example to separate work, family and person
         <target state="needs-translation">{Quick AutoFill description}</target>
         <note>Class = "UITableViewSection"; footerTitle = "{Quick AutoFill description}"; ObjectID = "KaG-pD-D9z";</note>
       </trans-unit>
-      <trans-unit id="WDb-aU-Mmf.text" xml:space="preserve">
-        <source>Fill-in the perfect result automatically</source>
-        <target state="translated">自動填入合適的結果</target>
-        <note>Class = "UILabel"; text = "Fill-in the perfect result automatically"; ObjectID = "WDb-aU-Mmf"; Note = "Title of an option: copy one-time password to clipboard when using AutoFill";</note>
+      <trans-unit id="WDb-aU-Mmf.text" xml:space="preserve" translate="no">
+        <source>{Fill-in the perfect result automatically}</source>
+        <target state="needs-translation">{Fill-in the perfect result automatically}</target>
+        <note>Class = "UILabel"; text = "{Fill-in the perfect result automatically}"; ObjectID = "WDb-aU-Mmf";</note>
       </trans-unit>
       <trans-unit id="Wq1-wJ-wCR.text" xml:space="preserve" translate="no">
         <source>{Quick AutoFill}</source>
@@ -1791,15 +1791,15 @@ You can have multiple databases, for example to separate work, family and person
         <target state="needs-translation">{Setup instructions}</target>
         <note>Class = "UILabel"; text = "{Setup instructions}"; ObjectID = "aSq-s6-gVc";</note>
       </trans-unit>
-      <trans-unit id="ei6-22-NXN.title" xml:space="preserve">
-        <source>AutoFill</source>
-        <target state="translated">自動填入功能</target>
-        <note>Class = "UITableViewController"; title = "AutoFill"; ObjectID = "ei6-22-NXN";</note>
+      <trans-unit id="ei6-22-NXN.title" xml:space="preserve" translate="no">
+        <source>{AutoFill}</source>
+        <target state="needs-translation">{AutoFill}</target>
+        <note>Class = "UITableViewController"; title = "{AutoFill}"; ObjectID = "ei6-22-NXN";</note>
       </trans-unit>
-      <trans-unit id="go1-Nt-isQ.text" xml:space="preserve">
-        <source>Copy OTP to clipboard</source>
-        <target state="translated">複製 一次性密碼OTP 到剪貼板</target>
-        <note>Class = "UILabel"; text = "Copy OTP to clipboard"; ObjectID = "go1-Nt-isQ"; Note = "Title of an option: copy one-time password to clipboard when using AutoFill";</note>
+      <trans-unit id="go1-Nt-isQ.text" xml:space="preserve" translate="no">
+        <source>{Copy OTP to clipboard}</source>
+        <target state="needs-translation">{Copy OTP to clipboard}</target>
+        <note>Class = "UILabel"; text = "{Copy OTP to clipboard}"; ObjectID = "go1-Nt-isQ";</note>
       </trans-unit>
       <trans-unit id="jYl-ks-dFG.footerTitle" xml:space="preserve">
         <source>When AutoFill finds only one, perfectly matching, entry – this entry will be pasted automatically.</source>
@@ -1895,10 +1895,10 @@ You can have multiple databases, for example to separate work, family and person
         <target state="translated">在保存資料庫時, KeePassium 會自動創建一個副本, 以防萬一。</target>
         <note>Class = "UITableViewSection"; footerTitle = "Before saving a database, KeePassium will automatically make a copy, just in case."; ObjectID = "nBI-OF-9iV"; Note = "Explanation for the `Make Backup Copies` option";</note>
       </trans-unit>
-      <trans-unit id="nSy-3u-0xW.title" xml:space="preserve">
-        <source>Database Backup</source>
-        <target state="translated">資料庫備份</target>
-        <note>Class = "UITableViewController"; title = "Database Backup"; ObjectID = "nSy-3u-0xW";</note>
+      <trans-unit id="nSy-3u-0xW.title" xml:space="preserve" translate="no">
+        <source>{Database Backup}</source>
+        <target state="needs-translation">{Database Backup}</target>
+        <note>Class = "UITableViewController"; title = "{Database Backup}"; ObjectID = "nSy-3u-0xW";</note>
       </trans-unit>
     </body>
   </file>
@@ -1922,10 +1922,10 @@ You can have multiple databases, for example to separate work, family and person
         <target state="translated">搜尋受保護的值</target>
         <note>Class = "UILabel"; text = "Search in Protected Values"; ObjectID = "LrQ-5g-wj0"; Note = "An switch in settings: whether to include protected field values in search procedure.";</note>
       </trans-unit>
-      <trans-unit id="RZt-EW-TGN.title" xml:space="preserve">
-        <source>Search</source>
-        <target state="translated">搜尋</target>
-        <note>Class = "UITableViewController"; title = "Search"; ObjectID = "RZt-EW-TGN"; Note = "Section title in settings";</note>
+      <trans-unit id="RZt-EW-TGN.title" xml:space="preserve" translate="no">
+        <source>{Search}</source>
+        <target state="needs-translation">{Search}</target>
+        <note>Class = "UITableViewController"; title = "{Search}"; ObjectID = "RZt-EW-TGN";</note>
       </trans-unit>
       <trans-unit id="cCm-E4-L3m.text" xml:space="preserve">
         <source>Search in Field Names</source>
@@ -1949,15 +1949,15 @@ You can have multiple databases, for example to separate work, family and person
         <target state="translated">啟動時</target>
         <note>Class = "UITableViewSection"; headerTitle = "Start"; ObjectID = "9yn-W3-FDl"; Note = "Section in settings: settings that define what happens when the app is started.";</note>
       </trans-unit>
-      <trans-unit id="32P-LG-SHa.text" xml:space="preserve">
-        <source>Appearance</source>
-        <target state="translated">界面外觀</target>
-        <note>Class = "UILabel"; text = "Appearance"; ObjectID = "32P-LG-SHa"; Note = "Section in settings: visual style of app elements";</note>
+      <trans-unit id="32P-LG-SHa.text" xml:space="preserve" translate="no">
+        <source>{Appearance}</source>
+        <target state="needs-translation">{Appearance}</target>
+        <note>Class = "UILabel"; text = "{Appearance}"; ObjectID = "32P-LG-SHa";</note>
       </trans-unit>
-      <trans-unit id="756-sL-G2t.text" xml:space="preserve">
-        <source>Auto-open the Previous Database</source>
-        <target state="translated">自動開啟上次使用的資料庫</target>
-        <note>Class = "UILabel"; text = "Auto-open the Previous Database"; ObjectID = "756-sL-G2t"; Note = "Option in settings: whether to open the last used database automatically on start.";</note>
+      <trans-unit id="756-sL-G2t.text" xml:space="preserve" translate="no">
+        <source>{Auto-Open Previous Database}</source>
+        <target state="needs-translation">{Auto-Open Previous Database}</target>
+        <note>Class = "UILabel"; text = "{Auto-Open Previous Database}"; ObjectID = "756-sL-G2t";</note>
       </trans-unit>
       <trans-unit id="A5N-B3-t3t.headerTitle" xml:space="preserve">
         <source>Premium</source>
@@ -1969,30 +1969,30 @@ You can have multiple databases, for example to separate work, family and person
         <target state="translated">設置</target>
         <note>Class = "UINavigationItem"; title = "Settings"; ObjectID = "Bk0-Xf-O7B";</note>
       </trans-unit>
-      <trans-unit id="DNo-Rs-0EP.text" xml:space="preserve">
-        <source>About KeePassium</source>
-        <target state="translated">關於 KeePassium</target>
-        <note>Class = "UILabel"; text = "About KeePassium"; ObjectID = "DNo-Rs-0EP";</note>
+      <trans-unit id="DNo-Rs-0EP.text" xml:space="preserve" translate="no">
+        <source>{About KeePassium}</source>
+        <target state="needs-translation">{About KeePassium}</target>
+        <note>Class = "UILabel"; text = "{About KeePassium}"; ObjectID = "DNo-Rs-0EP";</note>
       </trans-unit>
-      <trans-unit id="FHp-ns-ke9.text" xml:space="preserve">
-        <source>Master keys, key files</source>
-        <target state="translated">主金鑰, 金鑰文件</target>
-        <note>Class = "UILabel"; text = "Master keys, key files"; ObjectID = "FHp-ns-ke9"; Note = "Subtitle/details for `Data Protection`";</note>
+      <trans-unit id="FHp-ns-ke9.text" xml:space="preserve" translate="no">
+        <source>{Master keys, key files}</source>
+        <target state="needs-translation">{Master keys, key files}</target>
+        <note>Class = "UILabel"; text = "{Master keys, key files}"; ObjectID = "FHp-ns-ke9";</note>
       </trans-unit>
       <trans-unit id="GC2-NL-1vB.text" xml:space="preserve" translate="no">
         <source>{Tip Box}</source>
         <target state="needs-translation">{Tip Box}</target>
         <note>Class = "UILabel"; text = "{Tip Box}"; ObjectID = "GC2-NL-1vB"; Note = "Action";</note>
       </trans-unit>
-      <trans-unit id="GLr-Uf-Kln.text" xml:space="preserve">
-        <source>Search</source>
-        <target state="translated">搜尋</target>
-        <note>Class = "UILabel"; text = "Search"; ObjectID = "GLr-Uf-Kln"; Note = "Section title in settings";</note>
+      <trans-unit id="GLr-Uf-Kln.text" xml:space="preserve" translate="no">
+        <source>{Search}</source>
+        <target state="needs-translation">{Search}</target>
+        <note>Class = "UILabel"; text = "{Search}"; ObjectID = "GLr-Uf-Kln"; Note = "Section title in settings";</note>
       </trans-unit>
-      <trans-unit id="HCe-A3-eG6.text" xml:space="preserve">
-        <source>Premium Version</source>
-        <target state="translated">進階版本</target>
-        <note>Class = "UILabel"; text = "Premium Version"; ObjectID = "HCe-A3-eG6"; Note = "Status shown on premium tier";</note>
+      <trans-unit id="HCe-A3-eG6.text" xml:space="preserve" translate="no">
+        <source>{Premium Version}</source>
+        <target state="needs-translation">{Premium Version}</target>
+        <note>Class = "UILabel"; text = "{Premium Version}"; ObjectID = "HCe-A3-eG6";</note>
       </trans-unit>
       <trans-unit id="HjD-9G-X8p.headerTitle" xml:space="preserve">
         <source>Backup</source>
@@ -2004,80 +2004,80 @@ You can have multiple databases, for example to separate work, family and person
         <target state="needs-translation">{Renews on 1 Jan 1970}</target>
         <note>Class = "UILabel"; text = "{Renews on 1 Jan 1970}"; ObjectID = "LHz-DF-ZST"; Note = "#bc-ignore!";</note>
       </trans-unit>
-      <trans-unit id="PpA-oZ-kr2.text" xml:space="preserve">
-        <source>Diagnostic Log</source>
-        <target state="translated">診斷日誌</target>
-        <note>Class = "UILabel"; text = "Diagnostic Log"; ObjectID = "PpA-oZ-kr2"; Note = "Action: show diagnostic log";</note>
+      <trans-unit id="PpA-oZ-kr2.text" xml:space="preserve" translate="no">
+        <source>{Diagnostic Log}</source>
+        <target state="needs-translation">{Diagnostic Log}</target>
+        <note>Class = "UILabel"; text = "{Diagnostic Log}"; ObjectID = "PpA-oZ-kr2";</note>
       </trans-unit>
-      <trans-unit id="QlM-VS-hle.text" xml:space="preserve">
-        <source>Contact Us</source>
-        <target state="translated">聯繫我們</target>
-        <note>Class = "UILabel"; text = "Contact Us"; ObjectID = "QlM-VS-hle"; Note = "Action";</note>
+      <trans-unit id="QlM-VS-hle.text" xml:space="preserve" translate="no">
+        <source>{Contact Us}</source>
+        <target state="needs-translation">{Contact Us}</target>
+        <note>Class = "UILabel"; text = "{Contact Us}"; ObjectID = "QlM-VS-hle"; Note = "Action";</note>
       </trans-unit>
-      <trans-unit id="RNK-fS-Fvx.text" xml:space="preserve">
-        <source>Suggestions? Problems? Let us know!</source>
-        <target state="translated">建議? 問題? 讓我們知道!</target>
-        <note>Class = "UILabel"; text = "Suggestions? Problems? Let us know!"; ObjectID = "RNK-fS-Fvx"; Note = "Subtitle for `Contact Us`. Keep it short.";</note>
+      <trans-unit id="RNK-fS-Fvx.text" xml:space="preserve" translate="no">
+        <source>{Suggestions? Problems? Let us know!}</source>
+        <target state="needs-translation">{Suggestions? Problems? Let us know!}</target>
+        <note>Class = "UILabel"; text = "{Suggestions? Problems? Let us know!}"; ObjectID = "RNK-fS-Fvx";</note>
       </trans-unit>
-      <trans-unit id="RlK-RW-8Ld.text" xml:space="preserve">
-        <source>What's New</source>
-        <target state="translated">更新了什麼</target>
-        <note>Class = "UILabel"; text = "What's New"; ObjectID = "RlK-RW-8Ld"; Note = "Action: open app history page (change log)";</note>
+      <trans-unit id="RlK-RW-8Ld.text" xml:space="preserve" translate="no">
+        <source>{What's New}</source>
+        <target state="needs-translation">{What's New}</target>
+        <note>Class = "UILabel"; text = "{What's New}"; ObjectID = "RlK-RW-8Ld";</note>
       </trans-unit>
       <trans-unit id="SrV-ib-V2E.text" xml:space="preserve" translate="no">
         <source>{App Lock, Touch ID, timeout}</source>
         <target state="needs-translation">{App Lock, Touch ID, timeout}</target>
         <note>Class = "UILabel"; text = "{App Lock, Touch ID, timeout}"; ObjectID = "SrV-ib-V2E"; Note = "#bc-ignore!";</note>
       </trans-unit>
-      <trans-unit id="T2Z-oa-zJR.text" xml:space="preserve">
-        <source>AutoFill Passwords</source>
-        <target state="translated">自動填寫密碼</target>
-        <note>Class = "UILabel"; text = "AutoFill Passwords"; ObjectID = "T2Z-oa-zJR";</note>
+      <trans-unit id="T2Z-oa-zJR.text" xml:space="preserve" translate="no">
+        <source>{AutoFill Passwords}</source>
+        <target state="needs-translation">{AutoFill Passwords}</target>
+        <note>Class = "UILabel"; text = "{AutoFill Passwords}"; ObjectID = "T2Z-oa-zJR";</note>
       </trans-unit>
-      <trans-unit id="UNl-Hc-Ref.text" xml:space="preserve">
-        <source>Data Protection</source>
-        <target state="translated">資料保護</target>
-        <note>Class = "UILabel"; text = "Data Protection"; ObjectID = "UNl-Hc-Ref"; Note = "Settings section: protection of databases, their keys and data inside them";</note>
+      <trans-unit id="UNl-Hc-Ref.text" xml:space="preserve" translate="no">
+        <source>{Data Protection}</source>
+        <target state="needs-translation">{Data Protection}</target>
+        <note>Class = "UILabel"; text = "{Data Protection}"; ObjectID = "UNl-Hc-Ref";</note>
       </trans-unit>
       <trans-unit id="VTG-VH-iv4.text" xml:space="preserve" translate="no">
         <source>{Support KeePassium}</source>
         <target state="needs-translation">{Support KeePassium}</target>
         <note>Class = "UILabel"; text = "{Support KeePassium}"; ObjectID = "VTG-VH-iv4";</note>
       </trans-unit>
-      <trans-unit id="abS-AH-iFO.text" xml:space="preserve">
-        <source>App Protection</source>
-        <target state="translated">應用保護</target>
-        <note>Class = "UILabel"; text = "App Protection"; ObjectID = "abS-AH-iFO"; Note = "Settings section: protection of the app from unauthorized access";</note>
+      <trans-unit id="abS-AH-iFO.text" xml:space="preserve" translate="no">
+        <source>{App Protection}</source>
+        <target state="needs-translation">{App Protection}</target>
+        <note>Class = "UILabel"; text = "{App Protection}"; ObjectID = "abS-AH-iFO";</note>
       </trans-unit>
       <trans-unit id="cBS-jW-dHU.headerTitle" xml:space="preserve">
         <source>Support</source>
         <target state="translated">支持</target>
         <note>Class = "UITableViewSection"; headerTitle = "Support"; ObjectID = "cBS-jW-dHU";</note>
       </trans-unit>
-      <trans-unit id="coD-Om-Vfm.text" xml:space="preserve">
-        <source>Database Backup</source>
-        <target state="translated">資料庫備份</target>
-        <note>Class = "UILabel"; text = "Database Backup"; ObjectID = "coD-Om-Vfm"; Note = "Settings section";</note>
+      <trans-unit id="coD-Om-Vfm.text" xml:space="preserve" translate="no">
+        <source>{Database Backup}</source>
+        <target state="needs-translation">{Database Backup}</target>
+        <note>Class = "UILabel"; text = "{Database Backup}"; ObjectID = "coD-Om-Vfm"; Note = "Settings section";</note>
       </trans-unit>
       <trans-unit id="hui-xG-chj.headerTitle" xml:space="preserve">
         <source>Access Control</source>
         <target state="translated">存取控制</target>
         <note>Class = "UITableViewSection"; headerTitle = "Access Control"; ObjectID = "hui-xG-chj";</note>
       </trans-unit>
-      <trans-unit id="oxG-N8-1ld.text" xml:space="preserve">
-        <source>Upgrade to Premium</source>
-        <target state="translated">升級到進階版</target>
-        <note>Class = "UILabel"; text = "Upgrade to Premium"; ObjectID = "oxG-N8-1ld";</note>
+      <trans-unit id="oxG-N8-1ld.text" xml:space="preserve" translate="no">
+        <source>{Upgrade to Premium}</source>
+        <target state="needs-translation">{Upgrade to Premium}</target>
+        <note>Class = "UILabel"; text = "{Upgrade to Premium}"; ObjectID = "oxG-N8-1ld";</note>
       </trans-unit>
-      <trans-unit id="qhK-lw-bGy.text" xml:space="preserve">
-        <source>For expert troubleshooting</source>
-        <target state="translated">用於給作者排除故障</target>
-        <note>Class = "UILabel"; text = "For expert troubleshooting"; ObjectID = "qhK-lw-bGy"; Note = "Subtitle for `Diagnostic Log`. Keep it short.";</note>
+      <trans-unit id="qhK-lw-bGy.text" xml:space="preserve" translate="no">
+        <source>{For expert troubleshooting}</source>
+        <target state="needs-translation">{For expert troubleshooting}</target>
+        <note>Class = "UILabel"; text = "{For expert troubleshooting}"; ObjectID = "qhK-lw-bGy";</note>
       </trans-unit>
-      <trans-unit id="zUh-Sn-3ya.text" xml:space="preserve">
-        <source>Manage Subscriptions</source>
-        <target state="translated">管理訂閱</target>
-        <note>Class = "UILabel"; text = "Manage Subscriptions"; ObjectID = "zUh-Sn-3ya"; Note = "Action: open AppStore subscription management page";</note>
+      <trans-unit id="zUh-Sn-3ya.text" xml:space="preserve" translate="no">
+        <source>{Manage Subscriptions}</source>
+        <target state="needs-translation">{Manage Subscriptions}</target>
+        <note>Class = "UILabel"; text = "{Manage Subscriptions}"; ObjectID = "zUh-Sn-3ya"; Note = "Action: open AppStore subscription management page";</note>
       </trans-unit>
     </body>
   </file>
@@ -2149,10 +2149,10 @@ You can have multiple databases, for example to separate work, family and person
         <target state="translated">記住主金鑰</target>
         <note>Class = "UILabel"; text = "Remember Master Keys"; ObjectID = "INJ-Cy-Tfo";</note>
       </trans-unit>
-      <trans-unit id="IZZ-aM-g2i.title" xml:space="preserve">
-        <source>Data Protection</source>
-        <target state="translated">資料保護</target>
-        <note>Class = "UITableViewController"; title = "Data Protection"; ObjectID = "IZZ-aM-g2i";</note>
+      <trans-unit id="IZZ-aM-g2i.title" xml:space="preserve" translate="no">
+        <source>{Data Protection}</source>
+        <target state="needs-translation">{Data Protection}</target>
+        <note>Class = "UITableViewController"; title = "{Data Protection}"; ObjectID = "IZZ-aM-g2i";</note>
       </trans-unit>
       <trans-unit id="JHl-o7-xHI.text" xml:space="preserve">
         <source>Remember Key Files</source>

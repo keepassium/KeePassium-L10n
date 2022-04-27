@@ -35,6 +35,11 @@
         <target state="translated">©Andrei Popleteev</target>
         <note>Copyright notice</note>
       </trans-unit>
+      <trans-unit id="[About/altTitle]" xml:space="preserve">
+        <source>About KeePassium</source>
+        <target state="translated">Info su KeePassium</target>
+        <note>Menu item that shows info about KeePassium app</note>
+      </trans-unit>
       <trans-unit id="[Accessibility] Double tap to copy to clipboard" xml:space="preserve" approved="yes">
         <source>Double tap to copy to clipboard</source>
         <target state="final">Toccare due volte per copiare negli appunti</target>
@@ -105,6 +110,11 @@
         <target state="final">Dimensione del testo</target>
         <note>Title of a setting option: font size</note>
       </trans-unit>
+      <trans-unit id="[Appearance/title]" xml:space="preserve">
+        <source>Appearance</source>
+        <target state="translated">Aspetto</target>
+        <note>Group of settings for user interface appearance (text size, icons, etc)</note>
+      </trans-unit>
       <trans-unit id="[AutoFill/Premium/Upgrade/Manual/text] To upgrade, please manually open KeePassium from your home screen." xml:space="preserve">
         <source>To upgrade, please manually open KeePassium from your home screen.</source>
         <target state="translated">Per aggiornare, apri manualmente KeePassium dalla schermata iniziale.</target>
@@ -174,6 +184,11 @@
         <source>Copied</source>
         <target state="translated">Copiato</target>
         <note>Notification: an item has been copied to clipboard</note>
+      </trans-unit>
+      <trans-unit id="[ContactUs/subtitle]" xml:space="preserve">
+        <source>Suggestions? Problems? Let us know!</source>
+        <target state="translated">Suggerimenti? Problemi? Facci sapere!</target>
+        <note>Subtitle for `Contact Us`. Keep it short.</note>
       </trans-unit>
       <trans-unit id="[CryptoError] AES decryption error (code %d)" xml:space="preserve">
         <source>AES decryption error (code %d)</source>
@@ -761,6 +776,16 @@ Assicurati di avere un backup del database prima di fare qualsiasi modifica.</ta
         <source>Invalid password or key file</source>
         <target state="translated">Password o file chiave non validi</target>
         <note>Error message: user provided a wrong master key for decryption.</note>
+      </trans-unit>
+      <trans-unit id="[DiagLog/subtitle]" xml:space="preserve">
+        <source>For expert troubleshooting</source>
+        <target state="translated">Risoluzione dei problemi per esperti</target>
+        <note>Subtitle for `Diagnostic Log`. Keep it short.</note>
+      </trans-unit>
+      <trans-unit id="[DiagLog/title]" xml:space="preserve">
+        <source>Diagnostic Log</source>
+        <target state="translated">Log Diagnostico</target>
+        <note>Title of the diagnostic info screen</note>
       </trans-unit>
       <trans-unit id="[Diagnostics] Diagnostic log has been copied to clipboard." xml:space="preserve">
         <source>Diagnostic log has been copied to clipboard.</source>
@@ -1766,6 +1791,11 @@ Assicurati di avere un backup del database prima di fare qualsiasi modifica.</ta
         <target state="final">Popolare</target>
         <note>Marks the default pricing plan</note>
       </trans-unit>
+      <trans-unit id="[Premium/Status/title]" xml:space="preserve">
+        <source>Premium Version</source>
+        <target state="translated">Versione Premium</target>
+        <note>Status when the user has a premium version</note>
+      </trans-unit>
       <trans-unit id="[Premium/Subscription/Legal/text]" xml:space="preserve">
         <source>Payment will be charged to your Apple ID account at the confirmation of purchase.
 
@@ -2016,6 +2046,11 @@ Ciò può accadere con database di grandi dimensioni o con impostazioni database
         <target state="translated">Blocco app, codice di accesso, timeout</target>
         <note>Settings: subtitle of the `App Protection` section when biometric auth is not available.</note>
       </trans-unit>
+      <trans-unit id="[Settings/AppLock/title]" xml:space="preserve">
+        <source>App Protection</source>
+        <target state="translated">Protezione App</target>
+        <note>Settings section: protection of the app from unauthorized access</note>
+      </trans-unit>
       <trans-unit id="[Settings/AppLockTimeout/description] After last interaction" xml:space="preserve">
         <source>After last interaction</source>
         <target state="translated">Dopo l'ultima interazione</target>
@@ -2056,10 +2091,30 @@ Ciò può accadere con database di grandi dimensioni o con impostazioni database
         <target state="translated">Prima del primo utilizzo, è necessario attivare il riempimento automatico nelle impostazioni di sistema.</target>
         <note>Description for the AutoFill setup instructions</note>
       </trans-unit>
+      <trans-unit id="[Settings/AutoFill/CopyOTP/title]" xml:space="preserve">
+        <source>Copy OTP to Clipboard</source>
+        <target state="translated">Copia OTP negli appunti</target>
+        <note>Title of an option: copy one-time password to clipboard when using AutoFill</note>
+      </trans-unit>
       <trans-unit id="[Settings/AutoFill/Setup Guide/title]" xml:space="preserve">
         <source>AutoFill Setup Guide</source>
         <target state="translated">Guida alla configurazione del riempimento automatico</target>
         <note>Title of a help article on how to activate AutoFill.</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AutoFill/UsePerfectMatch/title]" xml:space="preserve">
+        <source>Fill-In Perfect Result Automatically</source>
+        <target state="translated">Compila automaticamente il risultato perfetto</target>
+        <note>Title of an option: automatically use the single best match found by AutoFill search</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AutoFill/title]" xml:space="preserve">
+        <source>AutoFill Passwords</source>
+        <target state="translated">AutoRiempimento Password</target>
+        <note>Title of AutoFill settings screen</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AutoOpenPreviousDatabase/title]" xml:space="preserve">
+        <source>Auto-Open Previous Database</source>
+        <target state="translated">Apri automaticamente il database precedente</target>
+        <note>Option in settings: whether to open the last used database automatically on start.</note>
       </trans-unit>
       <trans-unit id="[Settings/Backup/Delete/title] Delete all backup files?" xml:space="preserve">
         <source>Delete all backup files?</source>
@@ -2115,6 +2170,21 @@ Ciò può accadere con database di grandi dimensioni o con impostazioni database
         <source>Never</source>
         <target state="translated">Mai</target>
         <note>An option in Settings. Will be shown as 'Clipboard Timeout: Never'</note>
+      </trans-unit>
+      <trans-unit id="[Settings/DataProtection/subtitle]" xml:space="preserve">
+        <source>Master keys, key files</source>
+        <target state="translated">Chiavi Master, file chiave</target>
+        <note>Subtitle for `Data Protection` section in settings</note>
+      </trans-unit>
+      <trans-unit id="[Settings/DataProtection/title]" xml:space="preserve">
+        <source>Data Protection</source>
+        <target state="translated">Protezione dei dati</target>
+        <note>Settings section: protection of databases, their keys and data inside them</note>
+      </trans-unit>
+      <trans-unit id="[Settings/DatabaseBackup/title]" xml:space="preserve">
+        <source>Database Backup</source>
+        <target state="translated">Backup Database</target>
+        <note>Title of a settings section: backup of databases</note>
       </trans-unit>
       <trans-unit id="[Settings/DatabaseLockTimeout/description] If you are not interacting with the app for some time, the database will be closed for your safety. To open it, you will need to enter its master password again." xml:space="preserve">
         <source>If you are not interacting with the app for some time, the database will be closed for your safety. To open it, you will need to enter its master password again.</source>
@@ -2190,6 +2260,11 @@ Ciò può accadere con database di grandi dimensioni o con impostazioni database
         <source>List Settings</source>
         <target state="translated">Impostazioni Elenco</target>
         <note>Title of list view configuration screen</note>
+      </trans-unit>
+      <trans-unit id="[Settings/Search/title]" xml:space="preserve" approved="yes">
+        <source>Search</source>
+        <target state="final">Cerca</target>
+        <note>Section title in settings</note>
       </trans-unit>
       <trans-unit id="[SortBy/DateCreated]" xml:space="preserve">
         <source>Date Created</source>
