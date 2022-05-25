@@ -1329,43 +1329,6 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
     </body>
   </file>
-  <file original="KeePassium/general/Base.lproj/FileInfoVC.storyboard" source-language="en" target-language="ja" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.3" build-num="13E113"/>
-    </header>
-    <body>
-      <trans-unit id="Cu8-bv-TEu.title" xml:space="preserve">
-        <source>File Info</source>
-        <target state="translated">ファイルの情報</target>
-        <note>Class = "UITableViewController"; title = "File Info"; ObjectID = "Cu8-bv-TEu";</note>
-      </trans-unit>
-      <trans-unit id="DWC-wm-aMy.normalTitle" xml:space="preserve">
-        <source>Export</source>
-        <target state="translated">共有</target>
-        <note>Class = "UIButton"; normalTitle = "Export"; ObjectID = "DWC-wm-aMy";</note>
-      </trans-unit>
-      <trans-unit id="NlK-W5-RAo.normalTitle" xml:space="preserve" translate="no">
-        <source>{Delete/Remove}</source>
-        <target state="needs-translation">{Delete/Remove}</target>
-        <note>Class = "UIButton"; normalTitle = "{Delete/Remove}"; ObjectID = "NlK-W5-RAo"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="UOt-iw-18Z.text" xml:space="preserve" translate="no">
-        <source>{Field Name}</source>
-        <target state="needs-translation">{Field Name}</target>
-        <note>Class = "UILabel"; text = "{Field Name}"; ObjectID = "UOt-iw-18Z"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="WTs-93-75r.text" xml:space="preserve" translate="no">
-        <source>{Switch title}</source>
-        <target state="needs-translation">{Switch title}</target>
-        <note>Class = "UILabel"; text = "{Switch title}"; ObjectID = "WTs-93-75r"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="qlF-up-4bN.text" xml:space="preserve" translate="no">
-        <source>{Field Value Il1O0}</source>
-        <target state="needs-translation">{Field Value Il1O0}</target>
-        <note>Class = "UILabel"; text = "{Field Value Il1O0}"; ObjectID = "qlF-up-4bN"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="KeePassium/general/Base.lproj/PasscodeInputVC.storyboard" source-language="en" target-language="ja" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.4" build-num="13F17a"/>
@@ -1449,6 +1412,28 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <source>{Diagnostic message}</source>
         <target state="needs-translation">{Diagnostic message}</target>
         <note>Class = "UILabel"; text = "{Diagnostic message}"; ObjectID = "vlS-RX-RUW"; Note = "#bc-ignore!";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="KeePassium/general/file-info/Base.lproj/FileInfoVC.storyboard" source-language="en" target-language="ja" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.4" build-num="13F17a"/>
+    </header>
+    <body>
+      <trans-unit id="Cu8-bv-TEu.title" xml:space="preserve" translate="no">
+        <source>{File Info}</source>
+        <target state="needs-translation">{File Info}</target>
+        <note>Class = "UITableViewController"; title = "{File Info}"; ObjectID = "Cu8-bv-TEu";</note>
+      </trans-unit>
+      <trans-unit id="bds-qf-tv8.text" xml:space="preserve" translate="no">
+        <source>{Field Value}</source>
+        <target state="needs-translation">{Field Value}</target>
+        <note>Class = "UILabel"; text = "{Field Value}"; ObjectID = "bds-qf-tv8";</note>
+      </trans-unit>
+      <trans-unit id="nFy-Ox-yrc.text" xml:space="preserve" translate="no">
+        <source>{Field Name}</source>
+        <target state="needs-translation">{Field Name}</target>
+        <note>Class = "UILabel"; text = "{Field Name}"; ObjectID = "nFy-Ox-yrc";</note>
       </trans-unit>
     </body>
   </file>
@@ -1862,7 +1847,7 @@ You can have multiple databases, for example to separate work, family and person
       </trans-unit>
       <trans-unit id="Qs6-uS-gdS.text" xml:space="preserve">
         <source>Exclude Backup Files from System Backup</source>
-        <target state="translated">システムバックアップからデータベースを除外</target>
+        <target state="translated">システムバックアップから除外</target>
         <note>Class = "UILabel"; text = "Exclude Backup Files from System Backup"; ObjectID = "Qs6-uS-gdS"; Note = "Settings option, on/off";</note>
       </trans-unit>
       <trans-unit id="RXF-mN-5RB.normalTitle" xml:space="preserve" translate="no">
@@ -1882,7 +1867,7 @@ You can have multiple databases, for example to separate work, family and person
       </trans-unit>
       <trans-unit id="fst-lq-BDl.footerTitle" xml:space="preserve">
         <source>Defines whether backup databases created by KeePassium should be excluded from iCloud/iTunes backup. Applies to all the existing and future backup files.</source>
-        <target state="translated">KeePassiumのデータベースのバックアップを iCloud/iTunes バックアップから除外します。現在および今後のすべてのバックアップに適用されます。</target>
+        <target state="translated">KeePassiumのデータベースをiCloud/iTunesバックアップの対象から除外します。現在および今後のすべてのバックアップに適用されます。</target>
         <note>Class = "UITableViewSection"; footerTitle = "Defines whether backup databases created by KeePassium should be excluded from iCloud/iTunes backup. Applies to all the existing and future backup files."; ObjectID = "fst-lq-BDl"; Note = "Section header, refers to Apple's backup services (https://support.apple.com/HT203977)";</note>
       </trans-unit>
       <trans-unit id="fst-lq-BDl.headerTitle" xml:space="preserve">
@@ -1929,7 +1914,7 @@ You can have multiple databases, for example to separate work, family and person
       </trans-unit>
       <trans-unit id="cCm-E4-L3m.text" xml:space="preserve">
         <source>Search in Field Names</source>
-        <target state="translated">フィールド名で検索</target>
+        <target state="translated">フィールド名を検索</target>
         <note>Class = "UILabel"; text = "Search in Field Names"; ObjectID = "cCm-E4-L3m"; Note = "An switch in settings: whether to include entry field names in search procedure.";</note>
       </trans-unit>
       <trans-unit id="q0v-f7-D4Y.text" xml:space="preserve">

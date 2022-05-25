@@ -1034,6 +1034,11 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="translated">ยกเว้นจากการสำรองข้อมูลด้วย iCloud/iTunes</target>
         <note>Title of a setting: is the file exluded from iCloud/iTunes backup. For example: `Exclude From Backup: &lt;Yes&gt;`</note>
       </trans-unit>
+      <trans-unit id="[FileInfo/title]" xml:space="preserve">
+        <source>File Info</source>
+        <target state="translated">รายละเอียดไฟล์</target>
+        <note>Title of a dialog with file details (name, size, dates)</note>
+      </trans-unit>
       <trans-unit id="[FileKeeper] Failed to delete file. Reason: %@" xml:space="preserve">
         <source>Failed to delete file. Reason: %@</source>
         <target state="translated">ไม่สามารถลบไฟล์ด้วยเหตุผล: %@</target>

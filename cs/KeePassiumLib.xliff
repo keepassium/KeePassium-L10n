@@ -259,7 +259,7 @@
       </trans-unit>
       <trans-unit id="[Database/LesserTargetFormat/warning]" xml:space="preserve">
         <source>This is an older database format, some data might be lost.</source>
-        <target state="needs-translation">This is an older database format, some data might be lost.</target>
+        <target state="translated">Formát této databáze je zastaralý, některá data mohou být ztracena.</target>
         <note>Notification when user tries to copy data from KDBX to older KDB database.</note>
       </trans-unit>
       <trans-unit id="[Database/Load/Error] Cannot find database file" xml:space="preserve">
@@ -295,8 +295,8 @@
       <trans-unit id="[Database/Loading/FromCache/text]" xml:space="preserve">
         <source>The database is unreachable.
 This is its latest local copy.</source>
-        <target state="needs-translation">The database is unreachable.
-This is its latest local copy.</target>
+        <target state="translated">Databáze je nedostupná.
+Toto je její nejnovější lokální kopie.</target>
         <note>Message shown after we show a cached local database instead of the (unavailable) original database.</note>
       </trans-unit>
       <trans-unit id="[Database/Loading/ReadOnly/text]" xml:space="preserve">
@@ -403,42 +403,42 @@ Soubor nebude ostraněn a můžete jej znovu přidat později.</target>
       </trans-unit>
       <trans-unit id="[Database/Settings/ConsiderFileUnreachable/title]" xml:space="preserve">
         <source>Consider File Unreachable</source>
-        <target state="needs-translation">Consider File Unreachable</target>
+        <target state="translated">Považovat soubor za nedostupný</target>
         <note>File settings parameter: time after which file will be considered unreachable. Example: `Consider File Unreachable: in 10 seconds`.)</note>
       </trans-unit>
       <trans-unit id="[Database/Settings/FallbackStrategy/ShowError/title]" xml:space="preserve">
         <source>Show Error</source>
-        <target state="needs-translation">Show Error</target>
+        <target state="translated">Zobrazit chybu</target>
         <note>Title: what to do when (remote) file cannot be loaded. (For example: `If File is Unreachable: Show Error`.)</note>
       </trans-unit>
       <trans-unit id="[Database/Settings/FallbackStrategy/UseCache/title]" xml:space="preserve">
         <source>Use Local Copy</source>
-        <target state="needs-translation">Use Local Copy</target>
+        <target state="translated">Použít lokální kopii</target>
         <note>Title: what to do when (remote) file cannot be loaded. (For example: `If File is Unreachable: Use Local Copy`.)</note>
       </trans-unit>
       <trans-unit id="[Database/Settings/FallbackStrategy/title]" xml:space="preserve">
         <source>If File is Unreachable</source>
-        <target state="needs-translation">If File is Unreachable</target>
+        <target state="translated">Pokud je soubor nedostupný</target>
         <note>File settings parameter: what to do when (remote) file cannot be loaded. (For example: `If File is Unreachable: Use Local Copy`.)</note>
       </trans-unit>
       <trans-unit id="[Database/Settings/FileAccess/title]" xml:space="preserve">
         <source>File Access</source>
-        <target state="needs-translation">File Access</target>
+        <target state="translated">Přístup k souboru</target>
         <note>Title of settings section (read-only, backup-able, etc)</note>
       </trans-unit>
       <trans-unit id="[Database/Settings/ReadOnly/title]" xml:space="preserve">
         <source>Read Only</source>
-        <target state="needs-translation">Read Only</target>
+        <target state="translated">Pouze pro čtení</target>
         <note>File setting title, whether the file can be modified (yes/no).</note>
       </trans-unit>
       <trans-unit id="[Database/Settings/title]" xml:space="preserve">
         <source>Database Settings</source>
-        <target state="needs-translation">Database Settings</target>
+        <target state="translated">Nastavení Databáze</target>
         <note>Title of database-related settings screen</note>
       </trans-unit>
       <trans-unit id="[Database/Switch/action]" xml:space="preserve">
         <source>Switch Database</source>
-        <target state="needs-translation">Switch Database</target>
+        <target state="translated">Změnit Databázi</target>
         <note>Action/button to switch from current to some other database.</note>
       </trans-unit>
       <trans-unit id="[Database/SyncConflict/Cancel/description]" xml:space="preserve">
@@ -468,7 +468,7 @@ Soubor nebude ostraněn a můžete jej znovu přidat později.</target>
       </trans-unit>
       <trans-unit id="[Database/SyncConflict/currentVersion]" xml:space="preserve">
         <source>Current version</source>
-        <target state="needs-translation">Current version</target>
+        <target state="translated">Aktuální verze</target>
         <note>Title: the current (on-server) database version in case of sync conflict.</note>
       </trans-unit>
       <trans-unit id="[Database/SyncConflict/description]" xml:space="preserve">
@@ -478,7 +478,7 @@ Soubor nebude ostraněn a můžete jej znovu přidat později.</target>
       </trans-unit>
       <trans-unit id="[Database/SyncConflict/loadedVersion]" xml:space="preserve">
         <source>Loaded version</source>
-        <target state="needs-translation">Loaded version</target>
+        <target state="translated">Lokální verze</target>
         <note>Title: the loaded (on-device) database version in case of sync conflict.</note>
       </trans-unit>
       <trans-unit id="[Database/SyncConflict/title]" xml:space="preserve">
@@ -1031,6 +1031,11 @@ Prosím ujistěte se, že máte zálohu vaší databáze před nedávnou změnou
         <source>Exclude From iCloud/iTunes Backup</source>
         <target state="translated">Vyloučit ze zálohy iCloudu/iTunes</target>
         <note>Title of a setting: is the file exluded from iCloud/iTunes backup. For example: `Exclude From Backup: &lt;Yes&gt;`</note>
+      </trans-unit>
+      <trans-unit id="[FileInfo/title]" xml:space="preserve">
+        <source>File Info</source>
+        <target state="translated">Informace o souboru</target>
+        <note>Title of a dialog with file details (name, size, dates)</note>
       </trans-unit>
       <trans-unit id="[FileKeeper] Failed to delete file. Reason: %@" xml:space="preserve">
         <source>Failed to delete file. Reason: %@</source>
@@ -1986,12 +1991,12 @@ Své předplatné můžete spravovat v nastavení účtu v App Store.</target>
       </trans-unit>
       <trans-unit id="[PremiumFeature/QuickAutoFill/description]" xml:space="preserve">
         <source>Fill out login forms with a single tap, without even opening KeePassium.</source>
-        <target state="needs-translation">Fill out login forms with a single tap, without even opening KeePassium.</target>
+        <target state="translated">Vyplňujte přihlašovací formuláře jediným klepnutím, dokonce i bez otevření KeePassium.</target>
         <note>Description/call to action for the `Quick AutoFill` premium feature.</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/QuickAutoFill/title]" xml:space="preserve">
         <source>Quick AutoFill</source>
-        <target state="needs-translation">Quick AutoFill</target>
+        <target state="translated">Automatické Vyplňování</target>
         <note>Title of a premium feature: show relevant AutoFill entries right under the input field</note>
       </trans-unit>
       <trans-unit id="[Progress/CancellationReason/lowMemory]" xml:space="preserve">
@@ -2008,12 +2013,12 @@ To se může stát s velkými databázemi nebo s příliš ambiciózním nastave
       </trans-unit>
       <trans-unit id="[QuickAutoFill/description]" xml:space="preserve">
         <source>Quick AutoFill shows relevant entries right next to the password field, without opening KeePassium.</source>
-        <target state="needs-translation">Quick AutoFill shows relevant entries right next to the password field, without opening KeePassium.</target>
+        <target state="translated">Automatické Vyplňování zobrazí relevantní položky vedle pole s heslem bez otevření KeePassium.</target>
         <note>Description of the Quick AutoFill feature.</note>
       </trans-unit>
       <trans-unit id="[QuickAutoFill/title]" xml:space="preserve">
         <source>Quick AutoFill</source>
-        <target state="needs-translation">Quick AutoFill</target>
+        <target state="translated">Automatické Vyplňování</target>
         <note>Name of a feature that shows relevant entries directly next to the login/password forms.</note>
       </trans-unit>
       <trans-unit id="[Repeat Password/Field/title]" xml:space="preserve">
@@ -2083,12 +2088,12 @@ To se může stát s velkými databázemi nebo s příliš ambiciózním nastave
       </trans-unit>
       <trans-unit id="[Settings/AutoFill/Activate/action]" xml:space="preserve">
         <source>Activate AutoFill</source>
-        <target state="needs-translation">Activate AutoFill</target>
+        <target state="translated">Aktivovat Automatické Vyplňování</target>
         <note>Action that opens system settings or instructions</note>
       </trans-unit>
       <trans-unit id="[Settings/AutoFill/Activate/description]" xml:space="preserve">
         <source>Before first use, you need to activate AutoFill in system settings.</source>
-        <target state="needs-translation">Before first use, you need to activate AutoFill in system settings.</target>
+        <target state="translated">Před prvním použitím je třeba aktivovat Automatické vyplňování v nastavení systému.</target>
         <note>Description for the AutoFill setup instructions</note>
       </trans-unit>
       <trans-unit id="[Settings/AutoFill/CopyOTP/title]" xml:space="preserve">
@@ -2098,7 +2103,7 @@ To se může stát s velkými databázemi nebo s příliš ambiciózním nastave
       </trans-unit>
       <trans-unit id="[Settings/AutoFill/Setup Guide/title]" xml:space="preserve">
         <source>AutoFill Setup Guide</source>
-        <target state="needs-translation">AutoFill Setup Guide</target>
+        <target state="translated">Nastavení Automatického Vyplňování</target>
         <note>Title of a help article on how to activate AutoFill.</note>
       </trans-unit>
       <trans-unit id="[Settings/AutoFill/UsePerfectMatch/title]" xml:space="preserve">
@@ -2268,17 +2273,17 @@ To se může stát s velkými databázemi nebo s příliš ambiciózním nastave
       </trans-unit>
       <trans-unit id="[SortBy/DateCreated]" xml:space="preserve">
         <source>Date Created</source>
-        <target state="needs-translation">Date Created</target>
+        <target state="translated">Datum Vytvoření</target>
         <note>List sorting option. Example: 'Sort by: Date Created'</note>
       </trans-unit>
       <trans-unit id="[SortBy/DateModified]" xml:space="preserve">
         <source>Date Modified</source>
-        <target state="needs-translation">Date Modified</target>
+        <target state="translated">Datum Změny</target>
         <note>List sorting option. Example: 'Sort by: Date Modified'</note>
       </trans-unit>
       <trans-unit id="[SortBy/FileName]" xml:space="preserve">
         <source>Name</source>
-        <target state="needs-translation">Name</target>
+        <target state="translated">Název</target>
         <note>List sorting option (for file names). Example: 'Sort by: Name'</note>
       </trans-unit>
       <trans-unit id="[SortBy/ItemTitle]" xml:space="preserve">
@@ -2293,7 +2298,7 @@ To se může stát s velkými databázemi nebo s příliš ambiciózním nastave
       </trans-unit>
       <trans-unit id="[SortBy]" xml:space="preserve">
         <source>Sort By</source>
-        <target state="needs-translation">Sort By</target>
+        <target state="translated">Seřadit dle</target>
         <note>Title of a sort options list. Example: 'Sort by: Name'</note>
       </trans-unit>
       <trans-unit id="[Support/template] (Please describe the problem here)" xml:space="preserve">

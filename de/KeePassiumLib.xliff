@@ -1032,6 +1032,11 @@ Bitte stellen Sie sicher, dass Sie eine Sicherung Ihrer Datenbank haben, bevor S
         <target state="final">Von iCloud/iTunes-Backup ausschließen</target>
         <note>Title of a setting: is the file exluded from iCloud/iTunes backup. For example: `Exclude From Backup: &lt;Yes&gt;`</note>
       </trans-unit>
+      <trans-unit id="[FileInfo/title]" xml:space="preserve">
+        <source>File Info</source>
+        <target state="translated">Datei-Information</target>
+        <note>Title of a dialog with file details (name, size, dates)</note>
+      </trans-unit>
       <trans-unit id="[FileKeeper] Failed to delete file. Reason: %@" xml:space="preserve">
         <source>Failed to delete file. Reason: %@</source>
         <target state="translated">Fehler beim Löschen der Datei. Grund: %@</target>
@@ -2183,7 +2188,7 @@ Dies kann bei größeren Datenbanken oder zu ehrgeizigen Datenbankeinstellungen 
       </trans-unit>
       <trans-unit id="[Settings/DatabaseBackup/title]" xml:space="preserve">
         <source>Database Backup</source>
-        <target state="translated">Datenbank-Backup</target>
+        <target state="translated">Datenbankbackup</target>
         <note>Title of a settings section: backup of databases</note>
       </trans-unit>
       <trans-unit id="[Settings/DatabaseLockTimeout/description] If you are not interacting with the app for some time, the database will be closed for your safety. To open it, you will need to enter its master password again." xml:space="preserve">
