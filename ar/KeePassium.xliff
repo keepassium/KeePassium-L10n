@@ -571,9 +571,9 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <note>Class = "UISwitch"; accessibilityLabel = "In-memory Protection"; ObjectID = "eox-My-Hns"; Note = "Equivalent to KeePass' own `Enable in-memory protection' for custom entry fields.";</note>
       </trans-unit>
       <trans-unit id="kN4-4o-MBS.text" xml:space="preserve" translate="no">
-        <source>{Field Name}</source>
-        <target state="needs-translation">{Field Name}</target>
-        <note>Class = "UILabel"; text = "{Field Name}"; ObjectID = "kN4-4o-MBS"; Note = "#bc-ignore!";</note>
+        <source>{Password}</source>
+        <target state="needs-translation">{Password}</target>
+        <note>Class = "UILabel"; text = "{Password}"; ObjectID = "kN4-4o-MBS"; Note = "#bc-ignore!";</note>
       </trans-unit>
       <trans-unit id="l3s-Bv-fA1.title" xml:space="preserve">
         <source>Edit Entry</source>
@@ -604,16 +604,6 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <source>{Button}</source>
         <target state="needs-translation">{Button}</target>
         <note>Class = "UIButton"; normalTitle = "{Button}"; ObjectID = "yxs-MK-Ca2"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="z2C-wo-jYf.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" xml:space="preserve">
-        <source>Randomize password</source>
-        <target state="translated">إنشاء كلمة مرور عشوائية</target>
-        <note>Class = "UIButton"; z2C-wo-jYf.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Randomize password"; ObjectID = "z2C-wo-jYf"; Note = "Action/button to generate new password";</note>
-      </trans-unit>
-      <trans-unit id="z2C-wo-jYf.normalTitle" xml:space="preserve">
-        <source>Randomize</source>
-        <target state="translated">عشوائي</target>
-        <note>Class = "UIButton"; normalTitle = "Randomize"; ObjectID = "z2C-wo-jYf"; Note = "Action/button to generate new password";</note>
       </trans-unit>
       <trans-unit id="zr2-BH-wQ3.text" xml:space="preserve" translate="no">
         <source>{Field Value}</source>
@@ -1082,6 +1072,11 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <target state="translated">لا تجمع KeePassium أي بيانات شخصية أو تحليلية ولا تشاركها مع أي شخص.</target>
         <note>Class = "UILabel"; text = "KeePassium does not collect any personal or analytical data nor share it with anyone."; ObjectID = "9wt-nj-TZW";</note>
       </trans-unit>
+      <trans-unit id="86n-Hc-6m7.text" xml:space="preserve">
+        <source>CC BY 3.0</source>
+        <target state="translated">CC BY 4.0</target>
+        <note>Class = "UILabel"; text = "CC BY 3.0"; ObjectID = "86n-Hc-6m7";</note>
+      </trans-unit>
       <trans-unit id="AMd-x7-PDa.text" xml:space="preserve">
         <source>Do you like what you see?</source>
         <target state="translated">هل يعجبك ما تراه؟</target>
@@ -1261,6 +1256,11 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <source>{info@keepassium.com}</source>
         <target state="needs-translation">{info@keepassium.com}</target>
         <note>Class = "UILabel"; text = "{info@keepassium.com}"; ObjectID = "kae-Kb-5ZU"; Note = "#bc-ignore!";</note>
+      </trans-unit>
+      <trans-unit id="kvO-9B-1Sy.text" xml:space="preserve">
+        <source>Passphrase wordlists by EFF</source>
+        <target state="needs-translation">Passphrase wordlists by EFF</target>
+        <note>Class = "UILabel"; text = "Passphrase wordlists by EFF"; ObjectID = "kvO-9B-1Sy";</note>
       </trans-unit>
       <trans-unit id="lht-LP-o0Y.text" xml:space="preserve">
         <source>MIT license</source>
@@ -1463,58 +1463,6 @@ You can have multiple databases, for example to separate work, family and person
         <source>Add Existing Database</source>
         <target state="translated">إضافة قاعدة بيانات موجودة</target>
         <note>Class = "UIButton"; normalTitle = "Add Existing Database"; ObjectID = "ZKW-2f-Xkz";</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="KeePassium/general/password-generator/Base.lproj/PasswordGeneratorVC.storyboard" source-language="en" target-language="ar" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.4" build-num="13F17a"/>
-    </header>
-    <body>
-      <trans-unit id="5Xu-cN-kSg.text" xml:space="preserve">
-        <source>Look-Alike Characters (1Il…)</source>
-        <target state="translated">خانات تبدو متشابهة (1Il…)</target>
-        <note>Class = "UILabel"; text = "Look-Alike Characters (1Il…)"; ObjectID = "5Xu-cN-kSg"; Note = "Symbols to include in generated passwords.";</note>
-      </trans-unit>
-      <trans-unit id="Hxj-CB-VE7.text" xml:space="preserve">
-        <source>Password Length</source>
-        <target state="translated">طول كلمة المرور</target>
-        <note>Class = "UILabel"; text = "Password Length"; ObjectID = "Hxj-CB-VE7"; Note = "Label of the control that specifies the length of the password to be generated";</note>
-      </trans-unit>
-      <trans-unit id="Mwu-Lk-3MU.text" xml:space="preserve">
-        <source>Special Symbols (@#$…)</source>
-        <target state="translated">الرُموز الخاصة (@#$…)</target>
-        <note>Class = "UILabel"; text = "Special Symbols (@#$…)"; ObjectID = "Mwu-Lk-3MU"; Note = "Symbols to include in generated passwords.";</note>
-      </trans-unit>
-      <trans-unit id="O7Z-bK-bJa.title" xml:space="preserve">
-        <source>Randomizer</source>
-        <target state="translated">بطريقة عشوائية</target>
-        <note>Class = "UINavigationItem"; title = "Randomizer"; ObjectID = "O7Z-bK-bJa"; Note = "Title of the password generator screen.";</note>
-      </trans-unit>
-      <trans-unit id="Rwu-qh-8ON.text" xml:space="preserve">
-        <source>Lower Case Letters (abc…)</source>
-        <target state="translated">أحرف صغيرة (abc…)</target>
-        <note>Class = "UILabel"; text = "Lower Case Letters (abc…)"; ObjectID = "Rwu-qh-8ON"; Note = "Symbols to include in generated passwords. Don't translate the letters.";</note>
-      </trans-unit>
-      <trans-unit id="iRk-FV-7U8.text" xml:space="preserve">
-        <source>Digits (123…)</source>
-        <target state="translated">اعداد (123…)</target>
-        <note>Class = "UILabel"; text = "Digits (123…)"; ObjectID = "iRk-FV-7U8"; Note = "Symbols to include in generated passwords. Don't translate the digits.";</note>
-      </trans-unit>
-      <trans-unit id="tS0-00-bHP.text" xml:space="preserve" translate="no">
-        <source>{123}</source>
-        <target state="needs-translation">{123}</target>
-        <note>Class = "UILabel"; text = "{123}"; ObjectID = "tS0-00-bHP"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="x93-rB-nNr.text" xml:space="preserve">
-        <source>Upper Case Letters (ABC…)</source>
-        <target state="translated">أحرف كبيرة (ABC…)</target>
-        <note>Class = "UILabel"; text = "Upper Case Letters (ABC…)"; ObjectID = "x93-rB-nNr"; Note = "Symbols to include in generated passwords. Don't translate the letters.";</note>
-      </trans-unit>
-      <trans-unit id="ylv-a4-bLZ.text" xml:space="preserve" translate="no">
-        <source>{Generated Pa$$word}</source>
-        <target state="needs-translation">{Generated Pa$$word}</target>
-        <note>Class = "UILabel"; text = "{Generated Pa$$word}"; ObjectID = "ylv-a4-bLZ"; Note = "#bc-ignore!";</note>
       </trans-unit>
     </body>
   </file>

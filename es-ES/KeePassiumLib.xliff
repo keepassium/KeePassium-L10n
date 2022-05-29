@@ -40,6 +40,11 @@
         <target state="final">Acerca de KeePassium</target>
         <note>Menu item that shows info about KeePassium app</note>
       </trans-unit>
+      <trans-unit id="[Accessibility/activateToListen]" xml:space="preserve">
+        <source>Activate to listen.</source>
+        <target state="needs-translation">Activate to listen.</target>
+        <note>Call to action: perform accessibilty `activate` action to listen to text/content.</note>
+      </trans-unit>
       <trans-unit id="[Accessibility] Double tap to copy to clipboard" xml:space="preserve" approved="yes">
         <source>Double tap to copy to clipboard</source>
         <target state="final">Toque dos veces para copiar al portapapeles</target>
@@ -1620,6 +1625,181 @@ El archivo permanecerá intacto y lo podrá agregar nuevamente más tarde.</targ
         <source>Setup one-time password (OTP)</source>
         <target state="final">Configurar contraseña de un solo uso (OTP)</target>
         <note>Call for action. Acronym `OTP` should not be translated.</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/CannotGenerateText/title]" xml:space="preserve">
+        <source>Cannot generate text</source>
+        <target state="needs-translation">Cannot generate text</target>
+        <note>Error message from the random text generator.</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/CustomSet/Empty/title]" xml:space="preserve">
+        <source>Empty</source>
+        <target state="needs-translation">Empty</target>
+        <note>Description of an empty character set for password generator. 'Empty' as 'there are no characters'.</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/CustomSet/title]" xml:space="preserve">
+        <source>Custom characters</source>
+        <target state="needs-translation">Custom characters</target>
+        <note>User-defined set of characters for password generator.</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/DesiredLengthTooShort/title]" xml:space="preserve">
+        <source>Increase the length parameter to at least %d.</source>
+        <target state="needs-translation">Increase the length parameter to at least %d.</target>
+        <note>Error message/call to action from the random text generator.</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/Generate/action]" xml:space="preserve">
+        <source>Generate</source>
+        <target state="needs-translation">Generate</target>
+        <note>Action/button: generate random text/password/phrase</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/GeneratedText/title]" xml:space="preserve">
+        <source>Generated text</source>
+        <target state="needs-translation">Generated text</target>
+        <note>Description of randomly generated text/password/phrase</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/InclusionCondition/allowed]" xml:space="preserve">
+        <source>Allowed</source>
+        <target state="needs-translation">Allowed</target>
+        <note>Inclusion criterion for a password generator. For example: `Digits: Allowed`</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/InclusionCondition/excluded]" xml:space="preserve">
+        <source>Excluded</source>
+        <target state="needs-translation">Excluded</target>
+        <note>Inclusion criterion for a password generator. For example: `Uppercase Letters: Excluded`</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/InclusionCondition/required]" xml:space="preserve">
+        <source>Required</source>
+        <target state="needs-translation">Required</target>
+        <note>Inclusion criterion for a password generator. For example: `Special Symbols: Required`</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/Length/title]" xml:space="preserve">
+        <source>Length</source>
+        <target state="needs-translation">Length</target>
+        <note>Length (number of characters) of the random text to generate</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/MaxConsecutive/description]" xml:space="preserve">
+        <source>Maximum number of identical characters repeating consecutively.</source>
+        <target state="needs-translation">Maximum number of identical characters repeating consecutively.</target>
+        <note>Description of a password generator parameter. For example, the digit in 'abc222def'.</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/MaxConsecutiveNotSatisfiable/title]" xml:space="preserve">
+        <source>Increase the limit on maximum number of identical elements repeating consecutively.</source>
+        <target state="needs-translation">Increase the limit on maximum number of identical elements repeating consecutively.</target>
+        <note>Error message/call to action from the random text generator.</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/Mode/Basic/title]" xml:space="preserve">
+        <source>Basic</source>
+        <target state="needs-translation">Basic</target>
+        <note>One of the operation modes of the random text generator</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/Mode/Expert/title]" xml:space="preserve">
+        <source>Expert</source>
+        <target state="needs-translation">Expert</target>
+        <note>One of the operation modes of the random text generator</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/Mode/Passphrase/title]" xml:space="preserve">
+        <source>Passphrase</source>
+        <target state="needs-translation">Passphrase</target>
+        <note>One of the operation modes of the random text generator, where it generates random phrases.</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/Mode/title]" xml:space="preserve">
+        <source>Mode</source>
+        <target state="needs-translation">Mode</target>
+        <note>Operation mode of the random text generator (for example, `Basic`, `Expert`, `Passphrase`)</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/NotEnoughElementsToSample/title]" xml:space="preserve">
+        <source>Need more elements to pick from.</source>
+        <target state="needs-translation">Need more elements to pick from.</target>
+        <note>Error message from the random text generator.</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/PasswordLength/title]" xml:space="preserve">
+        <source>Password Length</source>
+        <target state="needs-translation">Password Length</target>
+        <note>Length (number of characters) of the password to generate</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/RequiredSetCompletelyExcluded/title]" xml:space="preserve">
+        <source>One of the character sets is both required and excluded.</source>
+        <target state="needs-translation">One of the character sets is both required and excluded.</target>
+        <note>Error message from the random text generator. `required` and `excluded` are as in [PasswordGenerator/InclusionCondition/required] and [PasswordGenerator/InclusionCondition/excluded]</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/Set/Digits/title]" xml:space="preserve">
+        <source>Digits</source>
+        <target state="needs-translation">Digits</target>
+        <note>Title for digits (like '123')</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/Set/Lookalikes/title]" xml:space="preserve">
+        <source>Look-alike characters</source>
+        <target state="needs-translation">Look-alike characters</target>
+        <note>Title for look-alike symbols (like '1lI', that is: digit `1`, small `L`, capital `i`).</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/Set/Lowercase/title]" xml:space="preserve">
+        <source>Lowercase letters</source>
+        <target state="needs-translation">Lowercase letters</target>
+        <note>Title for lowercase letters (like 'abc')</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/Set/Specials/title]" xml:space="preserve">
+        <source>Special symbols</source>
+        <target state="needs-translation">Special symbols</target>
+        <note>Title for special symbols (like '@#$')</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/Set/Uppercase/title]" xml:space="preserve">
+        <source>Uppercase letters</source>
+        <target state="needs-translation">Uppercase letters</target>
+        <note>Title for uppercase letters (like 'ABC')</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/SpaceCharacter/name]" xml:space="preserve">
+        <source>Space</source>
+        <target state="needs-translation">Space</target>
+        <note>Name of the space character. https://en.wikipedia.org/wiki/Space_(punctuation)</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/Word Separtor/title]" xml:space="preserve">
+        <source>Separator</source>
+        <target state="needs-translation">Separator</target>
+        <note>Character to be inserted between words of a passphrase.</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/WordCase/lowerCase]" xml:space="preserve">
+        <source>lowercase</source>
+        <target state="needs-translation">lowercase</target>
+        <note>Word capitalization style. Written in that style, if possible.</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/WordCase/titleCase]" xml:space="preserve">
+        <source>Title Case</source>
+        <target state="needs-translation">Title Case</target>
+        <note>Word capitalization style: first letters of significant words capitalized. Written in that style, if possible.</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/WordCase/title]" xml:space="preserve">
+        <source>Case</source>
+        <target state="needs-translation">Case</target>
+        <note>Case of letters in a word (e.g. UPPER, lower, Title Case)</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/WordCase/upperCase]" xml:space="preserve">
+        <source>UPPERCASE</source>
+        <target state="needs-translation">UPPERCASE</target>
+        <note>Word capitalization style. Written in that style, if possible.</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/WordCount/title]" xml:space="preserve">
+        <source>Words</source>
+        <target state="needs-translation">Words</target>
+        <note>Number of words in a generated passphrase. In context: 'Words: 5'</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/Wordlist/EFFLarge/title]" xml:space="preserve">
+        <source>EFF Large Wordlist (7776 words)</source>
+        <target state="needs-translation">EFF Large Wordlist (7776 words)</target>
+        <note>Name of a wordlist for passphrase generator. `EFF` is an organization name.</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/Wordlist/EFFShort/title]" xml:space="preserve">
+        <source>EFF Short Wordlist (1296 words)</source>
+        <target state="needs-translation">EFF Short Wordlist (1296 words)</target>
+        <note>Name of a wordlist for passphrase generator. `EFF` is an organization name.</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/Wordlist/title]" xml:space="preserve">
+        <source>Wordlist</source>
+        <target state="needs-translation">Wordlist</target>
+        <note>List of words to be used for a passphrase.</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/title]" xml:space="preserve">
+        <source>Random Generator</source>
+        <target state="needs-translation">Random Generator</target>
+        <note>Title of the random text/password/username generator dialog.</note>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/AttachmentPreview/details]" xml:space="preserve" approved="yes">
         <source>Preview attached files directly in KeePassium and leave no traces in other apps. (Works with images, documents, archives and more.)</source>

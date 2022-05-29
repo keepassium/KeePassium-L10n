@@ -40,6 +40,11 @@
         <target state="final">О программе</target>
         <note>Menu item that shows info about KeePassium app</note>
       </trans-unit>
+      <trans-unit id="[Accessibility/activateToListen]" xml:space="preserve">
+        <source>Activate to listen.</source>
+        <target state="translated">Активировать для прослушивания.</target>
+        <note>Call to action: perform accessibilty `activate` action to listen to text/content.</note>
+      </trans-unit>
       <trans-unit id="[Accessibility] Double tap to copy to clipboard" xml:space="preserve">
         <source>Double tap to copy to clipboard</source>
         <target state="translated">Нажмите дважды, чтобы скопировать в буфер обмена</target>
@@ -1620,6 +1625,181 @@ Please make sure to have a backup of your database before changing anything.</so
         <source>Setup one-time password (OTP)</source>
         <target state="translated">Настроить одноразовый пароль (OTP)</target>
         <note>Call for action. Acronym `OTP` should not be translated.</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/CannotGenerateText/title]" xml:space="preserve">
+        <source>Cannot generate text</source>
+        <target state="translated">Невозможно сгенерировать текст</target>
+        <note>Error message from the random text generator.</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/CustomSet/Empty/title]" xml:space="preserve">
+        <source>Empty</source>
+        <target state="translated">Пусто</target>
+        <note>Description of an empty character set for password generator. 'Empty' as 'there are no characters'.</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/CustomSet/title]" xml:space="preserve">
+        <source>Custom characters</source>
+        <target state="translated">Пользовательские символы</target>
+        <note>User-defined set of characters for password generator.</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/DesiredLengthTooShort/title]" xml:space="preserve">
+        <source>Increase the length parameter to at least %d.</source>
+        <target state="translated">Увеличьте длину хотя бы до %d.</target>
+        <note>Error message/call to action from the random text generator.</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/Generate/action]" xml:space="preserve">
+        <source>Generate</source>
+        <target state="translated">Сгенерировать</target>
+        <note>Action/button: generate random text/password/phrase</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/GeneratedText/title]" xml:space="preserve">
+        <source>Generated text</source>
+        <target state="translated">Сгенерированный текст</target>
+        <note>Description of randomly generated text/password/phrase</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/InclusionCondition/allowed]" xml:space="preserve">
+        <source>Allowed</source>
+        <target state="translated">Разрешено</target>
+        <note>Inclusion criterion for a password generator. For example: `Digits: Allowed`</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/InclusionCondition/excluded]" xml:space="preserve">
+        <source>Excluded</source>
+        <target state="translated">Исключено</target>
+        <note>Inclusion criterion for a password generator. For example: `Uppercase Letters: Excluded`</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/InclusionCondition/required]" xml:space="preserve">
+        <source>Required</source>
+        <target state="translated">Обязательно</target>
+        <note>Inclusion criterion for a password generator. For example: `Special Symbols: Required`</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/Length/title]" xml:space="preserve">
+        <source>Length</source>
+        <target state="translated">Длина</target>
+        <note>Length (number of characters) of the random text to generate</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/MaxConsecutive/description]" xml:space="preserve">
+        <source>Maximum number of identical characters repeating consecutively.</source>
+        <target state="translated">Максимальное количество последовательных одинаковых символов.</target>
+        <note>Description of a password generator parameter. For example, the digit in 'abc222def'.</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/MaxConsecutiveNotSatisfiable/title]" xml:space="preserve">
+        <source>Increase the limit on maximum number of identical elements repeating consecutively.</source>
+        <target state="translated">Увеличьте максимальное количество повторяющихся одинаковых элементов.</target>
+        <note>Error message/call to action from the random text generator.</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/Mode/Basic/title]" xml:space="preserve">
+        <source>Basic</source>
+        <target state="translated">Простой</target>
+        <note>One of the operation modes of the random text generator</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/Mode/Expert/title]" xml:space="preserve">
+        <source>Expert</source>
+        <target state="translated">Экспертный</target>
+        <note>One of the operation modes of the random text generator</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/Mode/Passphrase/title]" xml:space="preserve">
+        <source>Passphrase</source>
+        <target state="translated">Парольная фраза</target>
+        <note>One of the operation modes of the random text generator, where it generates random phrases.</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/Mode/title]" xml:space="preserve">
+        <source>Mode</source>
+        <target state="translated">Режим</target>
+        <note>Operation mode of the random text generator (for example, `Basic`, `Expert`, `Passphrase`)</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/NotEnoughElementsToSample/title]" xml:space="preserve">
+        <source>Need more elements to pick from.</source>
+        <target state="translated">Нужно больше элементов для выбора.</target>
+        <note>Error message from the random text generator.</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/PasswordLength/title]" xml:space="preserve">
+        <source>Password Length</source>
+        <target state="translated">Длина пароля</target>
+        <note>Length (number of characters) of the password to generate</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/RequiredSetCompletelyExcluded/title]" xml:space="preserve">
+        <source>One of the character sets is both required and excluded.</source>
+        <target state="translated">Один из наборов символов - обязательный и в то же время исключённый.</target>
+        <note>Error message from the random text generator. `required` and `excluded` are as in [PasswordGenerator/InclusionCondition/required] and [PasswordGenerator/InclusionCondition/excluded]</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/Set/Digits/title]" xml:space="preserve">
+        <source>Digits</source>
+        <target state="translated">Цифры</target>
+        <note>Title for digits (like '123')</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/Set/Lookalikes/title]" xml:space="preserve">
+        <source>Look-alike characters</source>
+        <target state="translated">Похожие символы</target>
+        <note>Title for look-alike symbols (like '1lI', that is: digit `1`, small `L`, capital `i`).</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/Set/Lowercase/title]" xml:space="preserve">
+        <source>Lowercase letters</source>
+        <target state="translated">Строчные буквы</target>
+        <note>Title for lowercase letters (like 'abc')</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/Set/Specials/title]" xml:space="preserve">
+        <source>Special symbols</source>
+        <target state="translated">Специальные символы</target>
+        <note>Title for special symbols (like '@#$')</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/Set/Uppercase/title]" xml:space="preserve">
+        <source>Uppercase letters</source>
+        <target state="translated">Прописные буквы</target>
+        <note>Title for uppercase letters (like 'ABC')</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/SpaceCharacter/name]" xml:space="preserve">
+        <source>Space</source>
+        <target state="translated">Пробел</target>
+        <note>Name of the space character. https://en.wikipedia.org/wiki/Space_(punctuation)</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/Word Separtor/title]" xml:space="preserve">
+        <source>Separator</source>
+        <target state="translated">Разделитель</target>
+        <note>Character to be inserted between words of a passphrase.</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/WordCase/lowerCase]" xml:space="preserve">
+        <source>lowercase</source>
+        <target state="translated">нижний регистр</target>
+        <note>Word capitalization style. Written in that style, if possible.</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/WordCase/titleCase]" xml:space="preserve">
+        <source>Title Case</source>
+        <target state="translated">Первая Заглавная</target>
+        <note>Word capitalization style: first letters of significant words capitalized. Written in that style, if possible.</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/WordCase/title]" xml:space="preserve">
+        <source>Case</source>
+        <target state="translated">Регистр букв</target>
+        <note>Case of letters in a word (e.g. UPPER, lower, Title Case)</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/WordCase/upperCase]" xml:space="preserve">
+        <source>UPPERCASE</source>
+        <target state="translated">ВЕРХНИЙ РЕГИСТР</target>
+        <note>Word capitalization style. Written in that style, if possible.</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/WordCount/title]" xml:space="preserve">
+        <source>Words</source>
+        <target state="translated">Слов</target>
+        <note>Number of words in a generated passphrase. In context: 'Words: 5'</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/Wordlist/EFFLarge/title]" xml:space="preserve">
+        <source>EFF Large Wordlist (7776 words)</source>
+        <target state="translated">Большой список EFF (7776 слов)</target>
+        <note>Name of a wordlist for passphrase generator. `EFF` is an organization name.</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/Wordlist/EFFShort/title]" xml:space="preserve">
+        <source>EFF Short Wordlist (1296 words)</source>
+        <target state="translated">Малый список EFF (1296 слов)</target>
+        <note>Name of a wordlist for passphrase generator. `EFF` is an organization name.</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/Wordlist/title]" xml:space="preserve">
+        <source>Wordlist</source>
+        <target state="translated">Список слов</target>
+        <note>List of words to be used for a passphrase.</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/title]" xml:space="preserve">
+        <source>Random Generator</source>
+        <target state="translated">Генератор паролей</target>
+        <note>Title of the random text/password/username generator dialog.</note>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/AttachmentPreview/details]" xml:space="preserve" approved="yes">
         <source>Preview attached files directly in KeePassium and leave no traces in other apps. (Works with images, documents, archives and more.)</source>
