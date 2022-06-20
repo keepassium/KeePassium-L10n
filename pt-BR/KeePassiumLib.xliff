@@ -25,6 +25,11 @@
         <target state="translated">Um banco de dados do KeePass não pode ser usado como arquivo de chave. Por favor, escolha um arquivo diferente.</target>
         <note>Warning message when the user tries to use a database as a key file</note>
       </trans-unit>
+      <trans-unit id="No database files" xml:space="preserve">
+        <source>No database files</source>
+        <target state="translated">Nenhum arquivo de banco de dados</target>
+        <note>Placeholder shown when there are no database files available</note>
+      </trans-unit>
       <trans-unit id="Show Backup Files" xml:space="preserve">
         <source>Show Backup Files</source>
         <target state="translated">Mostrar cópias de segurança</target>
@@ -1666,6 +1671,11 @@ Faça uma cópia de segurança desse banco de dados antes de modifica-lo.</targe
         <target state="translated">Excluído</target>
         <note>Inclusion criterion for a password generator. For example: `Uppercase Letters: Excluded`</note>
       </trans-unit>
+      <trans-unit id="[PasswordGenerator/InclusionCondition/inactive]" xml:space="preserve">
+        <source>Inactive</source>
+        <target state="translated">Ignorado</target>
+        <note>Inclusion criterion for a password generator — a disabled/inactive one that won't be taken into account. For example: `Uppercase Letters: Inactive`</note>
+      </trans-unit>
       <trans-unit id="[PasswordGenerator/InclusionCondition/required]" xml:space="preserve">
         <source>Required</source>
         <target state="translated">Necessário</target>
@@ -2205,6 +2215,16 @@ Isso pode ocorrer com bancos de dados muito grandes ou com configurações exage
         <source>Repeat Password</source>
         <target state="translated">Repita a senha</target>
         <note>Name of an input field for entering the password again</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AppLoc/Activate/callToAction]" xml:space="preserve">
+        <source>Activate App Protection</source>
+        <target state="translated">Ative a proteção do aplicativo</target>
+        <note>Call to action (protect the app from unauthorized access)</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AppLock/Activate/description]" xml:space="preserve">
+        <source>Protect KeePassium from unauthorized access.</source>
+        <target state="translated">Proteja KeePassium contra acesso não autorizado.</target>
+        <note>Description of `Activate app protection` call to action.</note>
       </trans-unit>
       <trans-unit id="[Settings/AppLock/Biometric/title] Use %@" xml:space="preserve">
         <source>Use %@</source>

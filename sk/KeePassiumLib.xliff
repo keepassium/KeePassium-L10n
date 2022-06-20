@@ -25,6 +25,11 @@
         <target state="translated">KeePass databáza by nemala byť použitá ako súbor s kľúčom. Prosím, vyberte iný súbor.</target>
         <note>Warning message when the user tries to use a database as a key file</note>
       </trans-unit>
+      <trans-unit id="No database files" xml:space="preserve">
+        <source>No database files</source>
+        <target state="translated">Žiadne databázové súbory</target>
+        <note>Placeholder shown when there are no database files available</note>
+      </trans-unit>
       <trans-unit id="Show Backup Files" xml:space="preserve">
         <source>Show Backup Files</source>
         <target state="translated">Zobraziť záložné súbory</target>
@@ -1666,6 +1671,11 @@ Predtým, ako niečo zmeníte, nezabudnite si prosím zálohovať svoju databáz
         <target state="translated">Vylúčené</target>
         <note>Inclusion criterion for a password generator. For example: `Uppercase Letters: Excluded`</note>
       </trans-unit>
+      <trans-unit id="[PasswordGenerator/InclusionCondition/inactive]" xml:space="preserve">
+        <source>Inactive</source>
+        <target state="translated">Neaktívne</target>
+        <note>Inclusion criterion for a password generator — a disabled/inactive one that won't be taken into account. For example: `Uppercase Letters: Inactive`</note>
+      </trans-unit>
       <trans-unit id="[PasswordGenerator/InclusionCondition/required]" xml:space="preserve">
         <source>Required</source>
         <target state="translated">Povinné</target>
@@ -2205,6 +2215,16 @@ Toto sa môže stať pri veľkých databázach alebo s príliš ambicióznym nas
         <source>Repeat Password</source>
         <target state="translated">Zopakujte heslo</target>
         <note>Name of an input field for entering the password again</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AppLoc/Activate/callToAction]" xml:space="preserve">
+        <source>Activate App Protection</source>
+        <target state="translated">Zapnúť zámok</target>
+        <note>Call to action (protect the app from unauthorized access)</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AppLock/Activate/description]" xml:space="preserve">
+        <source>Protect KeePassium from unauthorized access.</source>
+        <target state="translated">Chráňte KeePassium pred neoprávneným prístupom.</target>
+        <note>Description of `Activate app protection` call to action.</note>
       </trans-unit>
       <trans-unit id="[Settings/AppLock/Biometric/title] Use %@" xml:space="preserve">
         <source>Use %@</source>

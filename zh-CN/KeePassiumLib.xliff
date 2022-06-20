@@ -25,6 +25,11 @@
         <target state="translated">KeePass数据库文件不应该当作密钥文件使用。 请选择其他文件。</target>
         <note>Warning message when the user tries to use a database as a key file</note>
       </trans-unit>
+      <trans-unit id="No database files" xml:space="preserve">
+        <source>No database files</source>
+        <target state="translated">没有数据库文件</target>
+        <note>Placeholder shown when there are no database files available</note>
+      </trans-unit>
       <trans-unit id="Show Backup Files" xml:space="preserve">
         <source>Show Backup Files</source>
         <target state="translated">显示备份文件</target>
@@ -1666,6 +1671,11 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="needs-translation">Excluded</target>
         <note>Inclusion criterion for a password generator. For example: `Uppercase Letters: Excluded`</note>
       </trans-unit>
+      <trans-unit id="[PasswordGenerator/InclusionCondition/inactive]" xml:space="preserve">
+        <source>Inactive</source>
+        <target state="needs-translation">Inactive</target>
+        <note>Inclusion criterion for a password generator — a disabled/inactive one that won't be taken into account. For example: `Uppercase Letters: Inactive`</note>
+      </trans-unit>
       <trans-unit id="[PasswordGenerator/InclusionCondition/required]" xml:space="preserve">
         <source>Required</source>
         <target state="needs-translation">Required</target>
@@ -2205,6 +2215,16 @@ This can happen with larger databases or too ambitious database settings (Argon2
         <source>Repeat Password</source>
         <target state="translated">重复密码</target>
         <note>Name of an input field for entering the password again</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AppLoc/Activate/callToAction]" xml:space="preserve">
+        <source>Activate App Protection</source>
+        <target state="translated">启用应用解锁密码</target>
+        <note>Call to action (protect the app from unauthorized access)</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AppLock/Activate/description]" xml:space="preserve">
+        <source>Protect KeePassium from unauthorized access.</source>
+        <target state="translated">保护KeePassium免受未经授权的访问。</target>
+        <note>Description of `Activate app protection` call to action.</note>
       </trans-unit>
       <trans-unit id="[Settings/AppLock/Biometric/title] Use %@" xml:space="preserve">
         <source>Use %@</source>

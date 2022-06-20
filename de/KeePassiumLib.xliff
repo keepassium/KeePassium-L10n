@@ -25,6 +25,11 @@
         <target state="translated">Eine KeePass Datenbank sollte nicht als Schlüsseldatei verwendet werden. Bitte wählen Sie eine andere Datei.</target>
         <note>Warning message when the user tries to use a database as a key file</note>
       </trans-unit>
+      <trans-unit id="No database files" xml:space="preserve">
+        <source>No database files</source>
+        <target state="translated">Keine Datenbank</target>
+        <note>Placeholder shown when there are no database files available</note>
+      </trans-unit>
       <trans-unit id="Show Backup Files" xml:space="preserve">
         <source>Show Backup Files</source>
         <target state="translated">Sicherungsdateien anzeigen</target>
@@ -1633,42 +1638,47 @@ Bitte stellen Sie sicher, dass Sie eine Sicherung Ihrer Datenbank haben, bevor S
       </trans-unit>
       <trans-unit id="[PasswordGenerator/CustomSet/Empty/title]" xml:space="preserve">
         <source>Empty</source>
-        <target state="needs-translation">Empty</target>
+        <target state="translated">Leer</target>
         <note>Description of an empty character set for password generator. 'Empty' as 'there are no characters'.</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/CustomSet/title]" xml:space="preserve">
         <source>Custom characters</source>
-        <target state="needs-translation">Custom characters</target>
+        <target state="translated">Eigene Zeichen</target>
         <note>User-defined set of characters for password generator.</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/DesiredLengthTooShort/title]" xml:space="preserve">
         <source>Increase the length parameter to at least %d.</source>
-        <target state="needs-translation">Increase the length parameter to at least %d.</target>
+        <target state="translated">Ändern Sie die Passwortlänge auf %d oder mehr Zeichen.</target>
         <note>Error message/call to action from the random text generator.</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/Generate/action]" xml:space="preserve">
         <source>Generate</source>
-        <target state="needs-translation">Generate</target>
+        <target state="translated">Erzeugen</target>
         <note>Action/button: generate random text/password/phrase</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/GeneratedText/title]" xml:space="preserve">
         <source>Generated text</source>
-        <target state="needs-translation">Generated text</target>
+        <target state="translated">Erzeugter Text</target>
         <note>Description of randomly generated text/password/phrase</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/InclusionCondition/allowed]" xml:space="preserve">
         <source>Allowed</source>
-        <target state="needs-translation">Allowed</target>
+        <target state="translated">Zulässig</target>
         <note>Inclusion criterion for a password generator. For example: `Digits: Allowed`</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/InclusionCondition/excluded]" xml:space="preserve">
         <source>Excluded</source>
-        <target state="needs-translation">Excluded</target>
+        <target state="translated">Ausgeschlossen</target>
         <note>Inclusion criterion for a password generator. For example: `Uppercase Letters: Excluded`</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/InclusionCondition/inactive]" xml:space="preserve">
+        <source>Inactive</source>
+        <target state="needs-translation">Inactive</target>
+        <note>Inclusion criterion for a password generator — a disabled/inactive one that won't be taken into account. For example: `Uppercase Letters: Inactive`</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/InclusionCondition/required]" xml:space="preserve">
         <source>Required</source>
-        <target state="needs-translation">Required</target>
+        <target state="translated">Erforderlich</target>
         <note>Inclusion criterion for a password generator. For example: `Special Symbols: Required`</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/Length/title]" xml:space="preserve">
@@ -1688,12 +1698,12 @@ Bitte stellen Sie sicher, dass Sie eine Sicherung Ihrer Datenbank haben, bevor S
       </trans-unit>
       <trans-unit id="[PasswordGenerator/Mode/Basic/title]" xml:space="preserve">
         <source>Basic</source>
-        <target state="needs-translation">Basic</target>
+        <target state="translated">Standard</target>
         <note>One of the operation modes of the random text generator</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/Mode/Expert/title]" xml:space="preserve">
         <source>Expert</source>
-        <target state="needs-translation">Expert</target>
+        <target state="translated">Erweitert</target>
         <note>One of the operation modes of the random text generator</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/Mode/Passphrase/title]" xml:space="preserve">
@@ -1718,7 +1728,7 @@ Bitte stellen Sie sicher, dass Sie eine Sicherung Ihrer Datenbank haben, bevor S
       </trans-unit>
       <trans-unit id="[PasswordGenerator/RequiredSetCompletelyExcluded/title]" xml:space="preserve">
         <source>One of the character sets is both required and excluded.</source>
-        <target state="needs-translation">One of the character sets is both required and excluded.</target>
+        <target state="translated">Einer der Zeichensätze ist sowohl erforderlich als auch ausgeschlossen.</target>
         <note>Error message from the random text generator. `required` and `excluded` are as in [PasswordGenerator/InclusionCondition/required] and [PasswordGenerator/InclusionCondition/excluded]</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/Set/Digits/title]" xml:space="preserve">
@@ -1783,12 +1793,12 @@ Bitte stellen Sie sicher, dass Sie eine Sicherung Ihrer Datenbank haben, bevor S
       </trans-unit>
       <trans-unit id="[PasswordGenerator/Wordlist/EFFLarge/title]" xml:space="preserve">
         <source>EFF Large Wordlist (7776 words)</source>
-        <target state="needs-translation">EFF Large Wordlist (7776 words)</target>
+        <target state="translated">Große EFF-Wortliste (7.776 Wörter)</target>
         <note>Name of a wordlist for passphrase generator. `EFF` is an organization name.</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/Wordlist/EFFShort/title]" xml:space="preserve">
         <source>EFF Short Wordlist (1296 words)</source>
-        <target state="needs-translation">EFF Short Wordlist (1296 words)</target>
+        <target state="translated">Kurze EFF-Wortliste (1.296 Wörter)</target>
         <note>Name of a wordlist for passphrase generator. `EFF` is an organization name.</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/Wordlist/title]" xml:space="preserve">
@@ -2205,6 +2215,16 @@ Dies kann bei größeren Datenbanken oder zu ehrgeizigen Datenbankeinstellungen 
         <source>Repeat Password</source>
         <target state="translated">Passwort bestätigen</target>
         <note>Name of an input field for entering the password again</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AppLoc/Activate/callToAction]" xml:space="preserve">
+        <source>Activate App Protection</source>
+        <target state="translated">Appsperre aktivieren</target>
+        <note>Call to action (protect the app from unauthorized access)</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AppLock/Activate/description]" xml:space="preserve">
+        <source>Protect KeePassium from unauthorized access.</source>
+        <target state="translated">Schützen Sie KeePassium vor unbefugten Zugriffen.</target>
+        <note>Description of `Activate app protection` call to action.</note>
       </trans-unit>
       <trans-unit id="[Settings/AppLock/Biometric/title] Use %@" xml:space="preserve">
         <source>Use %@</source>

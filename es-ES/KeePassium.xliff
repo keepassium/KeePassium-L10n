@@ -275,25 +275,15 @@ Como resultado, tanto la aplicación «Autorrelleno», como la aplicación princ
         <target state="final">Ayuda</target>
         <note>Class = "UIBarButtonItem"; 2o3-sG-Pcm.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Help"; ObjectID = "2o3-sG-Pcm"; Note = "Action: show help pages (at the moment shows the About screen)";</note>
       </trans-unit>
-      <trans-unit id="5Md-DB-C5P.text" xml:space="preserve" approved="yes">
-        <source>No database files</source>
-        <target state="final">No hay archivos de base de datos</target>
-        <note>Class = "UILabel"; text = "No database files"; ObjectID = "5Md-DB-C5P"; Note = "Placeholder shown when there are no database files available";</note>
-      </trans-unit>
-      <trans-unit id="R68-cy-5mz.text" xml:space="preserve" approved="yes">
-        <source>Protect KeePassium from unauthorized access.</source>
-        <target state="final">Proteja a KeePassium de accesos no autorizados.</target>
-        <note>Class = "UILabel"; text = "Protect KeePassium from unauthorized access."; ObjectID = "R68-cy-5mz"; Note = "Explanation for the `Enable AppLock` button.";</note>
-      </trans-unit>
       <trans-unit id="UI0-Lh-wTj.title" xml:space="preserve" approved="yes">
         <source>Databases</source>
         <target state="final">Bases de datos</target>
         <note>Class = "UINavigationItem"; title = "Databases"; ObjectID = "UI0-Lh-wTj"; Note = "Title of the database picker list";</note>
       </trans-unit>
-      <trans-unit id="hmv-DA-BgM.normalTitle" xml:space="preserve" approved="yes">
-        <source>Enable AppLock</source>
-        <target state="final">Habilitar AppLock</target>
-        <note>Class = "UIButton"; normalTitle = "Enable AppLock"; ObjectID = "hmv-DA-BgM";</note>
+      <trans-unit id="XJs-ol-dGz.title" xml:space="preserve" translate="no">
+        <source>{PassGen}</source>
+        <target state="needs-translation">{PassGen}</target>
+        <note>Class = "UIBarButtonItem"; title = "{PassGen}"; ObjectID = "XJs-ol-dGz";</note>
       </trans-unit>
       <trans-unit id="lnO-nD-gvh.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" xml:space="preserve" approved="yes">
         <source>Sort Order</source>
@@ -319,11 +309,6 @@ Como resultado, tanto la aplicación «Autorrelleno», como la aplicación princ
         <source>{File Attributes}</source>
         <target state="needs-translation">{File Attributes}</target>
         <note>Class = "UILabel"; text = "{File Attributes}"; ObjectID = "y2W-10-GnE"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="zIk-Pe-sKK.accessibilityLabel" xml:space="preserve" approved="yes">
-        <source>Close</source>
-        <target state="final">Cerrar</target>
-        <note>Class = "UIButton"; accessibilityLabel = "Close"; ObjectID = "zIk-Pe-sKK";</note>
       </trans-unit>
     </body>
   </file>
@@ -730,7 +715,7 @@ Como resultado, tanto la aplicación «Autorrelleno», como la aplicación princ
     <body>
       <trans-unit id="fH6-bS-mDZ.title" xml:space="preserve" approved="yes">
         <source>Choose Hardware Key</source>
-        <target state="final">Elegir clave de hardware</target>
+        <target state="final">Seleccionar clave de hardware</target>
         <note>Class = "UITableViewController"; title = "Choose Hardware Key"; ObjectID = "fH6-bS-mDZ"; Note = "Title of the hardware key selector (e.g. for YubiKey)";</note>
       </trans-unit>
       <trans-unit id="v2F-pa-TaY.text" xml:space="preserve" translate="no">
@@ -1259,7 +1244,7 @@ Como resultado, tanto la aplicación «Autorrelleno», como la aplicación princ
       </trans-unit>
       <trans-unit id="kvO-9B-1Sy.text" xml:space="preserve">
         <source>Passphrase wordlists by EFF</source>
-        <target state="needs-translation">Passphrase wordlists by EFF</target>
+        <target state="translated">Listas de palabras de la EFF</target>
         <note>Class = "UILabel"; text = "Passphrase wordlists by EFF"; ObjectID = "kvO-9B-1Sy";</note>
       </trans-unit>
       <trans-unit id="lht-LP-o0Y.text" xml:space="preserve" approved="yes">
