@@ -21,9 +21,9 @@
 This can happen with large databases or memory-demanding database settings (Argon2).
 
 Please contact us if you need help with this.</source>
-        <target state="translated">Il semble que le remplissage automatique ne s'est pas terminé correctement la dernière fois. 
+        <target state="translated">Il semblerait que le remplissage automatique ne se soit pas terminé correctement à la dernière utilisation. 
 
-Cela peut se produire avec les bases de données volumineuse ou les paramètres de base de données exigeants en mémoire (Argon2).
+Cela peut se produire avec les bases de données volumineuses ou des paramètres exigeants en mémoire (Argon2).
 
 Veuillez nous contacter si vous avez besoin d'aide à ce sujet.</target>
         <note>Class = "UILabel"; text = "It seems that AutoFill did not close correctly the last time. \n\nThis can happen with large databases or memory-demanding database settings (Argon2).\n\nPlease contact us if you need help with this."; ObjectID = "kmV-si-Nrg";</note>
@@ -367,11 +367,6 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
         <target state="needs-translation">{Field Name}</target>
         <note>Class = "UILabel"; text = "{Field Name}"; ObjectID = "pBf-im-hEw"; Note = "#bc-ignore!";</note>
       </trans-unit>
-      <trans-unit id="vLP-Zc-bUc.text" xml:space="preserve">
-        <source>Copied</source>
-        <target state="translated">Copié</target>
-        <note>Class = "UILabel"; text = "Copied"; ObjectID = "vLP-Zc-bUc"; Note = "Confirmation message: field value has been copied to clipboard.";</note>
-      </trans-unit>
       <trans-unit id="weL-29-hO1.text" xml:space="preserve" translate="no">
         <source>{ViewableFieldCell}</source>
         <target state="needs-translation">{ViewableFieldCell}</target>
@@ -683,7 +678,7 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
       </trans-unit>
       <trans-unit id="qkh-6K-yQW.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" xml:space="preserve">
         <source>Change Master Key</source>
-        <target state="translated">Modifier la clé maître</target>
+        <target state="translated">Modifier la clé principale</target>
         <note>Class = "UIBarButtonItem"; qkh-6K-yQW.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Change Master Key"; ObjectID = "qkh-6K-yQW";</note>
       </trans-unit>
       <trans-unit id="rF3-mC-kj1.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" xml:space="preserve">
@@ -759,12 +754,12 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
       </trans-unit>
       <trans-unit id="Lod-RE-tcd.title" xml:space="preserve">
         <source>Add Key File</source>
-        <target state="translated">Ajouter un fichier clé</target>
+        <target state="translated">Ajouter un fichier-clé</target>
         <note>Class = "UIBarButtonItem"; title = "Add Key File"; ObjectID = "Lod-RE-tcd";</note>
       </trans-unit>
       <trans-unit id="Omh-Sn-jl2.normalTitle" xml:space="preserve">
         <source>Add Key File</source>
-        <target state="translated">Ajouter un fichier clé</target>
+        <target state="translated">Ajouter un fichier-clé</target>
         <note>Class = "UIButton"; normalTitle = "Add Key File"; ObjectID = "Omh-Sn-jl2";</note>
       </trans-unit>
       <trans-unit id="XiA-k9-5wr.text" xml:space="preserve">
@@ -789,7 +784,7 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
       </trans-unit>
       <trans-unit id="r85-yz-wYI.title" xml:space="preserve">
         <source>Key Files</source>
-        <target state="translated">Fichiers clés</target>
+        <target state="translated">Fichiers-clé</target>
         <note>Class = "UINavigationItem"; title = "Key Files"; ObjectID = "r85-yz-wYI";</note>
       </trans-unit>
     </body>
@@ -848,7 +843,7 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
       </trans-unit>
       <trans-unit id="epu-yU-Lyg.text" xml:space="preserve">
         <source>Database was closed by a timer.</source>
-        <target state="translated">La base de données a été fermée par un minuteur.</target>
+        <target state="translated">La base de données a été fermée par le minuteur.</target>
         <note>Class = "UILabel"; text = "Database was closed by a timer."; ObjectID = "epu-yU-Lyg"; Note = "Notification message shown by database lock timer.";</note>
       </trans-unit>
       <trans-unit id="gji-1x-co5.normalTitle" xml:space="preserve">
@@ -1042,10 +1037,10 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
         <target state="translated">Ionicons par Ionic</target>
         <note>Class = "UILabel"; text = "Ionicons by Ionic"; ObjectID = "9lh-fA-Xgx";</note>
       </trans-unit>
-      <trans-unit id="9wt-nj-TZW.text" xml:space="preserve">
-        <source>KeePassium does not collect any personal or analytical data nor share it with anyone.</source>
-        <target state="translated">KeePassium ne recueille aucune donnée personnelle ou analytique ni ne la partage avec quiconque.</target>
-        <note>Class = "UILabel"; text = "KeePassium does not collect any personal or analytical data nor share it with anyone."; ObjectID = "9wt-nj-TZW";</note>
+      <trans-unit id="9wt-nj-TZW.text" xml:space="preserve" translate="no">
+        <source>{Privacy policy summary}</source>
+        <target state="needs-translation">{Privacy policy summary}</target>
+        <note>Class = "UILabel"; text = "{Privacy policy summary}"; ObjectID = "9wt-nj-TZW";</note>
       </trans-unit>
       <trans-unit id="86n-Hc-6m7.text" xml:space="preserve">
         <source>CC BY 3.0</source>
@@ -1234,7 +1229,7 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
       </trans-unit>
       <trans-unit id="kvO-9B-1Sy.text" xml:space="preserve">
         <source>Passphrase wordlists by EFF</source>
-        <target state="needs-translation">Passphrase wordlists by EFF</target>
+        <target state="translated">Liste de mots EFF pour phrases secrètes</target>
         <note>Class = "UILabel"; text = "Passphrase wordlists by EFF"; ObjectID = "kvO-9B-1Sy";</note>
       </trans-unit>
       <trans-unit id="lht-LP-o0Y.text" xml:space="preserve">
@@ -1525,7 +1520,7 @@ Vous pouvez avoir plusieurs bases de données, par exemple pour séparer le trav
     <body>
       <trans-unit id="5Dg-KX-m7a.footerTitle" xml:space="preserve">
         <source>If you enter a wrong AppLock passcode, KeePassium will close all databases and clear all master keys from the keychain.</source>
-        <target state="translated">Si vous entrez un mauvais code d'accès AppLock, KeePassium fermera toutes les bases de données et effacera toutes les clés maîtresses du trousseau.</target>
+        <target state="translated">Si vous entrez un mauvais code d'accès AppLock, KeePassium fermera toutes les bases de données et effacera toutes les clés principales du trousseau.</target>
         <note>Class = "UITableViewSection"; footerTitle = "If you enter a wrong AppLock passcode, KeePassium will close all databases and clear all master keys from the keychain."; ObjectID = "5Dg-KX-m7a"; Note = "AppLock settings section: what to do when the user enters a wrong AppLock passcode.";</note>
       </trans-unit>
       <trans-unit id="5Dg-KX-m7a.headerTitle" xml:space="preserve">
@@ -1907,6 +1902,11 @@ Vous pouvez avoir plusieurs bases de données, par exemple pour séparer le trav
         <target state="translated">Sauvegarde</target>
         <note>Class = "UITableViewSection"; headerTitle = "Backup"; ObjectID = "HjD-9G-X8p";</note>
       </trans-unit>
+      <trans-unit id="K9j-xG-abD.headerTitle" xml:space="preserve">
+        <source>Network Access</source>
+        <target state="needs-translation">Network Access</target>
+        <note>Class = "UITableViewSection"; headerTitle = "Network Access"; ObjectID = "K9j-xG-abD";</note>
+      </trans-unit>
       <trans-unit id="LHz-DF-ZST.text" xml:space="preserve" translate="no">
         <source>{Renews on 1 Jan 1970}</source>
         <target state="needs-translation">{Renews on 1 Jan 1970}</target>
@@ -1921,6 +1921,11 @@ Vous pouvez avoir plusieurs bases de données, par exemple pour séparer le trav
         <source>{Contact Us}</source>
         <target state="needs-translation">{Contact Us}</target>
         <note>Class = "UILabel"; text = "{Contact Us}"; ObjectID = "QlM-VS-hle"; Note = "Action";</note>
+      </trans-unit>
+      <trans-unit id="RJA-kR-Obv.text" xml:space="preserve" translate="no">
+        <source>{Off}</source>
+        <target state="needs-translation">{Off}</target>
+        <note>Class = "UILabel"; text = "{Off}"; ObjectID = "RJA-kR-Obv";</note>
       </trans-unit>
       <trans-unit id="RNK-fS-Fvx.text" xml:space="preserve" translate="no">
         <source>{Suggestions? Problems? Let us know!}</source>
@@ -1982,6 +1987,11 @@ Vous pouvez avoir plusieurs bases de données, par exemple pour séparer le trav
         <target state="needs-translation">{For expert troubleshooting}</target>
         <note>Class = "UILabel"; text = "{For expert troubleshooting}"; ObjectID = "qhK-lw-bGy";</note>
       </trans-unit>
+      <trans-unit id="tPJ-l5-dpS.text" xml:space="preserve" translate="no">
+        <source>{Network access}</source>
+        <target state="needs-translation">{Network access}</target>
+        <note>Class = "UILabel"; text = "{Network access}"; ObjectID = "tPJ-l5-dpS"; Note = "Settings section";</note>
+      </trans-unit>
       <trans-unit id="zUh-Sn-3ya.text" xml:space="preserve" translate="no">
         <source>{Manage Subscriptions}</source>
         <target state="needs-translation">{Manage Subscriptions}</target>
@@ -2013,7 +2023,7 @@ Vous pouvez avoir plusieurs bases de données, par exemple pour séparer le trav
     <body>
       <trans-unit id="26a-m8-zQP.title" xml:space="preserve">
         <source>Database Timeout</source>
-        <target state="translated">Expiration de la session de base de données</target>
+        <target state="translated">Délai de réponse de la base de données dépassé</target>
         <note>Class = "UITableViewController"; title = "Database Timeout"; ObjectID = "26a-m8-zQP"; Note = "Title of a list of database timeouts, linked to Settings/Data Protection/Database Timeout.";</note>
       </trans-unit>
       <trans-unit id="Beo-Vy-wZ8.text" xml:space="preserve" translate="no">
@@ -2074,7 +2084,7 @@ Vous pouvez avoir plusieurs bases de données, par exemple pour séparer le trav
       </trans-unit>
       <trans-unit id="Mxu-GP-FmN.headerTitle" xml:space="preserve">
         <source>Key Files</source>
-        <target state="translated">Fichiers clés</target>
+        <target state="translated">Fichiers-clé</target>
         <note>Class = "UITableViewSection"; headerTitle = "Key Files"; ObjectID = "Mxu-GP-FmN";</note>
       </trans-unit>
       <trans-unit id="SSu-Sr-MCg.text" xml:space="preserve">
@@ -2159,7 +2169,7 @@ Vous pouvez avoir plusieurs bases de données, par exemple pour séparer le trav
       </trans-unit>
       <trans-unit id="weX-SZ-IDB.text" xml:space="preserve">
         <source>Database Timeout</source>
-        <target state="translated">Expiration de la session de base de données</target>
+        <target state="translated">Délai de réponse de la base de données dépassé</target>
         <note>Class = "UILabel"; text = "Database Timeout"; ObjectID = "weX-SZ-IDB";</note>
       </trans-unit>
       <trans-unit id="xPd-ot-oqe.text" xml:space="preserve" translate="no">

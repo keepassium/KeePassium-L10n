@@ -367,11 +367,6 @@ Detta leder till att både Autofyll och huvudappen för KeePassium behöver ges 
         <target state="needs-translation">{Field Name}</target>
         <note>Class = "UILabel"; text = "{Field Name}"; ObjectID = "pBf-im-hEw"; Note = "#bc-ignore!";</note>
       </trans-unit>
-      <trans-unit id="vLP-Zc-bUc.text" xml:space="preserve">
-        <source>Copied</source>
-        <target state="translated">Kopierad</target>
-        <note>Class = "UILabel"; text = "Copied"; ObjectID = "vLP-Zc-bUc"; Note = "Confirmation message: field value has been copied to clipboard.";</note>
-      </trans-unit>
       <trans-unit id="weL-29-hO1.text" xml:space="preserve" translate="no">
         <source>{ViewableFieldCell}</source>
         <target state="needs-translation">{ViewableFieldCell}</target>
@@ -1042,10 +1037,10 @@ Detta leder till att både Autofyll och huvudappen för KeePassium behöver ges 
         <target state="translated">Ionicons av Ionic</target>
         <note>Class = "UILabel"; text = "Ionicons by Ionic"; ObjectID = "9lh-fA-Xgx";</note>
       </trans-unit>
-      <trans-unit id="9wt-nj-TZW.text" xml:space="preserve">
-        <source>KeePassium does not collect any personal or analytical data nor share it with anyone.</source>
-        <target state="translated">KeePassium samlar inte in personlig eller analytisk data vare sig för eget eller tredje parts bruk.</target>
-        <note>Class = "UILabel"; text = "KeePassium does not collect any personal or analytical data nor share it with anyone."; ObjectID = "9wt-nj-TZW";</note>
+      <trans-unit id="9wt-nj-TZW.text" xml:space="preserve" translate="no">
+        <source>{Privacy policy summary}</source>
+        <target state="needs-translation">{Privacy policy summary}</target>
+        <note>Class = "UILabel"; text = "{Privacy policy summary}"; ObjectID = "9wt-nj-TZW";</note>
       </trans-unit>
       <trans-unit id="86n-Hc-6m7.text" xml:space="preserve">
         <source>CC BY 3.0</source>
@@ -1907,6 +1902,11 @@ Du kan ha flera databaser, till exempel för att dela upp konton för arbete, fa
         <target state="translated">Backup</target>
         <note>Class = "UITableViewSection"; headerTitle = "Backup"; ObjectID = "HjD-9G-X8p";</note>
       </trans-unit>
+      <trans-unit id="K9j-xG-abD.headerTitle" xml:space="preserve">
+        <source>Network Access</source>
+        <target state="translated">Nätverksåtkomst</target>
+        <note>Class = "UITableViewSection"; headerTitle = "Network Access"; ObjectID = "K9j-xG-abD";</note>
+      </trans-unit>
       <trans-unit id="LHz-DF-ZST.text" xml:space="preserve" translate="no">
         <source>{Renews on 1 Jan 1970}</source>
         <target state="needs-translation">{Renews on 1 Jan 1970}</target>
@@ -1921,6 +1921,11 @@ Du kan ha flera databaser, till exempel för att dela upp konton för arbete, fa
         <source>{Contact Us}</source>
         <target state="needs-translation">{Contact Us}</target>
         <note>Class = "UILabel"; text = "{Contact Us}"; ObjectID = "QlM-VS-hle"; Note = "Action";</note>
+      </trans-unit>
+      <trans-unit id="RJA-kR-Obv.text" xml:space="preserve" translate="no">
+        <source>{Off}</source>
+        <target state="needs-translation">{Off}</target>
+        <note>Class = "UILabel"; text = "{Off}"; ObjectID = "RJA-kR-Obv";</note>
       </trans-unit>
       <trans-unit id="RNK-fS-Fvx.text" xml:space="preserve" translate="no">
         <source>{Suggestions? Problems? Let us know!}</source>
@@ -1981,6 +1986,11 @@ Du kan ha flera databaser, till exempel för att dela upp konton för arbete, fa
         <source>{For expert troubleshooting}</source>
         <target state="needs-translation">{For expert troubleshooting}</target>
         <note>Class = "UILabel"; text = "{For expert troubleshooting}"; ObjectID = "qhK-lw-bGy";</note>
+      </trans-unit>
+      <trans-unit id="tPJ-l5-dpS.text" xml:space="preserve" translate="no">
+        <source>{Network access}</source>
+        <target state="needs-translation">{Network access}</target>
+        <note>Class = "UILabel"; text = "{Network access}"; ObjectID = "tPJ-l5-dpS"; Note = "Settings section";</note>
       </trans-unit>
       <trans-unit id="zUh-Sn-3ya.text" xml:space="preserve" translate="no">
         <source>{Manage Subscriptions}</source>

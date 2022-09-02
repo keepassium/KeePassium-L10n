@@ -47,7 +47,7 @@
       </trans-unit>
       <trans-unit id="[Accessibility/activateToListen]" xml:space="preserve">
         <source>Activate to listen.</source>
-        <target state="needs-translation">Activate to listen.</target>
+        <target state="translated">تنشيط للاستماع.</target>
         <note>Call to action: perform accessibilty `activate` action to listen to text/content.</note>
       </trans-unit>
       <trans-unit id="[Accessibility] Double tap to copy to clipboard" xml:space="preserve">
@@ -853,6 +853,16 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="translated">اسم الحقل</target>
         <note>Default name of a newly created entry field</note>
       </trans-unit>
+      <trans-unit id="[Entry/Field/CopyReference/acknowledgement]" xml:space="preserve">
+        <source>Field reference copied to clipboard</source>
+        <target state="needs-translation">Field reference copied to clipboard</target>
+        <note>Notification: a reference to an entry field has been copied to clipboard</note>
+      </trans-unit>
+      <trans-unit id="[Entry/Field/CopyReference/action]" xml:space="preserve">
+        <source>Copy Field Reference</source>
+        <target state="needs-translation">Copy Field Reference</target>
+        <note>Action: copy a reference to the selected entry field to clipboard</note>
+      </trans-unit>
       <trans-unit id="[Entry/Field/name] Notes" xml:space="preserve">
         <source>Notes</source>
         <target state="translated">المُلاحظات</target>
@@ -957,6 +967,11 @@ Please make sure to have a backup of your database before changing anything.</so
         <source>USB drive is disconnected.</source>
         <target state="translated">وحدة USB غير مُتَّصلة.</target>
         <note>Error message: there is no USB drive connected to the device.</note>
+      </trans-unit>
+      <trans-unit id="[FileAccessError/NetworkAccessDenied/generic]" xml:space="preserve">
+        <source>Network access is blocked by the settings.</source>
+        <target state="needs-translation">Network access is blocked by the settings.</target>
+        <note>Error message: network access is forbidden by system or app settings.</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/NoResponse/genericFileProvider]" xml:space="preserve">
         <source>Storage provider does not respond.</source>
@@ -1237,6 +1252,16 @@ Please make sure to have a backup of your database before changing anything.</so
         <source>Choose a Destination</source>
         <target state="translated">اختر وجهة</target>
         <note>Title of the dialog for picking the destination group for move/copy operations</note>
+      </trans-unit>
+      <trans-unit id="[General/Feature/Off]" xml:space="preserve">
+        <source>Off</source>
+        <target state="needs-translation">Off</target>
+        <note>Feature status: disabled/inactive. Keep it short, possibly abbreviated.</note>
+      </trans-unit>
+      <trans-unit id="[General/Feature/On]" xml:space="preserve">
+        <source>On</source>
+        <target state="needs-translation">On</target>
+        <note>Feature status: enabled/active. Keep it short, possibly abbreviated.</note>
       </trans-unit>
       <trans-unit id="[Generic/ConfirmDelete/title] Are you sure?" xml:space="preserve">
         <source>Are you sure?</source>
@@ -1634,182 +1659,182 @@ Please make sure to have a backup of your database before changing anything.</so
       </trans-unit>
       <trans-unit id="[PasswordGenerator/CannotGenerateText/title]" xml:space="preserve">
         <source>Cannot generate text</source>
-        <target state="needs-translation">Cannot generate text</target>
+        <target state="translated">يَتَعَذَّرُ تَوليدُ النَّص</target>
         <note>Error message from the random text generator.</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/CustomSet/Empty/title]" xml:space="preserve">
         <source>Empty</source>
-        <target state="needs-translation">Empty</target>
+        <target state="translated">فَارِغة</target>
         <note>Description of an empty character set for password generator. 'Empty' as 'there are no characters'.</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/CustomSet/title]" xml:space="preserve">
         <source>Custom characters</source>
-        <target state="needs-translation">Custom characters</target>
+        <target state="translated">رُمُوزٌ مُخَصَّصَة</target>
         <note>User-defined set of characters for password generator.</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/DesiredLengthTooShort/title]" xml:space="preserve">
         <source>Increase the length parameter to at least %d.</source>
-        <target state="needs-translation">Increase the length parameter to at least %d.</target>
+        <target state="translated">زِدْ الطُول إلَى %d عَلَى الأقل.</target>
         <note>Error message/call to action from the random text generator.</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/Generate/action]" xml:space="preserve">
         <source>Generate</source>
-        <target state="needs-translation">Generate</target>
+        <target state="translated">تَوليد</target>
         <note>Action/button: generate random text/password/phrase</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/GeneratedText/title]" xml:space="preserve">
         <source>Generated text</source>
-        <target state="needs-translation">Generated text</target>
+        <target state="translated">النَّص المُوَلَّد</target>
         <note>Description of randomly generated text/password/phrase</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/InclusionCondition/allowed]" xml:space="preserve">
         <source>Allowed</source>
-        <target state="needs-translation">Allowed</target>
+        <target state="translated">مَسمُوح</target>
         <note>Inclusion criterion for a password generator. For example: `Digits: Allowed`</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/InclusionCondition/excluded]" xml:space="preserve">
         <source>Excluded</source>
-        <target state="needs-translation">Excluded</target>
+        <target state="translated">مُستَبعَد</target>
         <note>Inclusion criterion for a password generator. For example: `Uppercase Letters: Excluded`</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/InclusionCondition/inactive]" xml:space="preserve">
         <source>Inactive</source>
-        <target state="needs-translation">Inactive</target>
+        <target state="translated">غَيرُ مُفَعَّلة</target>
         <note>Inclusion criterion for a password generator — a disabled/inactive one that won't be taken into account. For example: `Uppercase Letters: Inactive`</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/InclusionCondition/required]" xml:space="preserve">
         <source>Required</source>
-        <target state="needs-translation">Required</target>
+        <target state="translated">مُتَطَلَّب</target>
         <note>Inclusion criterion for a password generator. For example: `Special Symbols: Required`</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/Length/title]" xml:space="preserve">
         <source>Length</source>
-        <target state="needs-translation">Length</target>
+        <target state="translated">الطُّول</target>
         <note>Length (number of characters) of the random text to generate</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/MaxConsecutive/description]" xml:space="preserve">
         <source>Maximum number of identical characters repeating consecutively.</source>
-        <target state="needs-translation">Maximum number of identical characters repeating consecutively.</target>
+        <target state="translated">الحدُّ الأقصى لعدد الرموز المتطابقة المتكررة على التوالي.</target>
         <note>Description of a password generator parameter. For example, the digit in 'abc222def'.</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/MaxConsecutiveNotSatisfiable/title]" xml:space="preserve">
         <source>Increase the limit on maximum number of identical elements repeating consecutively.</source>
-        <target state="needs-translation">Increase the limit on maximum number of identical elements repeating consecutively.</target>
+        <target state="translated">زِدْ الحد الأقصى لعدد العناصر المتطابقة المُتكررة بشكل متتالي.</target>
         <note>Error message/call to action from the random text generator.</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/Mode/Basic/title]" xml:space="preserve">
         <source>Basic</source>
-        <target state="needs-translation">Basic</target>
+        <target state="translated">تَقليديّ</target>
         <note>One of the operation modes of the random text generator</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/Mode/Expert/title]" xml:space="preserve">
         <source>Expert</source>
-        <target state="needs-translation">Expert</target>
+        <target state="translated">مُتَقَدِّم</target>
         <note>One of the operation modes of the random text generator</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/Mode/Passphrase/title]" xml:space="preserve">
         <source>Passphrase</source>
-        <target state="needs-translation">Passphrase</target>
+        <target state="translated">عِبارَة سِرِيَّة</target>
         <note>One of the operation modes of the random text generator, where it generates random phrases.</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/Mode/title]" xml:space="preserve">
         <source>Mode</source>
-        <target state="needs-translation">Mode</target>
+        <target state="translated">النَّمَط</target>
         <note>Operation mode of the random text generator (for example, `Basic`, `Expert`, `Passphrase`)</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/NotEnoughElementsToSample/title]" xml:space="preserve">
         <source>Need more elements to pick from.</source>
-        <target state="needs-translation">Need more elements to pick from.</target>
+        <target state="translated">بِحاجةٍ إلَى مَزيدٍ مِنَ العَناصِرِ لِلاِنتِقاءِ مِنها.</target>
         <note>Error message from the random text generator.</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/PasswordLength/title]" xml:space="preserve">
         <source>Password Length</source>
-        <target state="needs-translation">Password Length</target>
+        <target state="translated">طُولُ كَلِمَةِ المُرور</target>
         <note>Length (number of characters) of the password to generate</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/RequiredSetCompletelyExcluded/title]" xml:space="preserve">
         <source>One of the character sets is both required and excluded.</source>
-        <target state="needs-translation">One of the character sets is both required and excluded.</target>
+        <target state="translated">أحَدُ مَجموعاتِ الرُّموز مَطلوبَةٌ وَمُستَبعَدَةٌ فِي الوَقتِ نَفسِه.</target>
         <note>Error message from the random text generator. `required` and `excluded` are as in [PasswordGenerator/InclusionCondition/required] and [PasswordGenerator/InclusionCondition/excluded]</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/Set/Digits/title]" xml:space="preserve">
         <source>Digits</source>
-        <target state="needs-translation">Digits</target>
+        <target state="translated">أرقام</target>
         <note>Title for digits (like '123')</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/Set/Lookalikes/title]" xml:space="preserve">
         <source>Look-alike characters</source>
-        <target state="needs-translation">Look-alike characters</target>
+        <target state="translated">رُمُوزٌ مُشابِهَةُ المَظهَر</target>
         <note>Title for look-alike symbols (like '1lI', that is: digit `1`, small `L`, capital `i`).</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/Set/Lowercase/title]" xml:space="preserve">
         <source>Lowercase letters</source>
-        <target state="needs-translation">Lowercase letters</target>
+        <target state="translated">حُرُوفٌ صَغيرَة</target>
         <note>Title for lowercase letters (like 'abc')</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/Set/Specials/title]" xml:space="preserve">
         <source>Special symbols</source>
-        <target state="needs-translation">Special symbols</target>
+        <target state="translated">رُمُوزٌ الخاصَّة</target>
         <note>Title for special symbols (like '@#$')</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/Set/Uppercase/title]" xml:space="preserve">
         <source>Uppercase letters</source>
-        <target state="needs-translation">Uppercase letters</target>
+        <target state="translated">حُرُوفٌ كَبيرَة</target>
         <note>Title for uppercase letters (like 'ABC')</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/SpaceCharacter/name]" xml:space="preserve">
         <source>Space</source>
-        <target state="needs-translation">Space</target>
+        <target state="translated">فَراغ</target>
         <note>Name of the space character. https://en.wikipedia.org/wiki/Space_(punctuation)</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/Word Separtor/title]" xml:space="preserve">
         <source>Separator</source>
-        <target state="needs-translation">Separator</target>
+        <target state="translated">فَاصِل</target>
         <note>Character to be inserted between words of a passphrase.</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/WordCase/lowerCase]" xml:space="preserve">
         <source>lowercase</source>
-        <target state="needs-translation">lowercase</target>
+        <target state="translated">صَغيرَة</target>
         <note>Word capitalization style. Written in that style, if possible.</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/WordCase/titleCase]" xml:space="preserve">
         <source>Title Case</source>
-        <target state="needs-translation">Title Case</target>
+        <target state="translated">حالَةُ العُنوان</target>
         <note>Word capitalization style: first letters of significant words capitalized. Written in that style, if possible.</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/WordCase/title]" xml:space="preserve">
         <source>Case</source>
-        <target state="needs-translation">Case</target>
+        <target state="translated">الحالَة</target>
         <note>Case of letters in a word (e.g. UPPER, lower, Title Case)</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/WordCase/upperCase]" xml:space="preserve">
         <source>UPPERCASE</source>
-        <target state="needs-translation">UPPERCASE</target>
+        <target state="translated">كَبيرَة</target>
         <note>Word capitalization style. Written in that style, if possible.</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/WordCount/title]" xml:space="preserve">
         <source>Words</source>
-        <target state="needs-translation">Words</target>
+        <target state="translated">كَلِمات</target>
         <note>Number of words in a generated passphrase. In context: 'Words: 5'</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/Wordlist/EFFLarge/title]" xml:space="preserve">
         <source>EFF Large Wordlist (7776 words)</source>
-        <target state="needs-translation">EFF Large Wordlist (7776 words)</target>
+        <target state="translated">قائمة كلمات EFF الكبيرة (7776 كلمة)</target>
         <note>Name of a wordlist for passphrase generator. `EFF` is an organization name.</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/Wordlist/EFFShort/title]" xml:space="preserve">
         <source>EFF Short Wordlist (1296 words)</source>
-        <target state="needs-translation">EFF Short Wordlist (1296 words)</target>
+        <target state="translated">قائمة كلمات EFF القصيرة (1296 كلمة)</target>
         <note>Name of a wordlist for passphrase generator. `EFF` is an organization name.</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/Wordlist/title]" xml:space="preserve">
         <source>Wordlist</source>
-        <target state="needs-translation">Wordlist</target>
+        <target state="translated">قَائِمَةُ الكَلِمات</target>
         <note>List of words to be used for a passphrase.</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/title]" xml:space="preserve">
         <source>Random Generator</source>
-        <target state="needs-translation">Random Generator</target>
+        <target state="translated">المُوَلِّدُ العَشوائِيّ</target>
         <note>Title of the random text/password/username generator dialog.</note>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/AttachmentPreview/details]" xml:space="preserve">
@@ -2190,6 +2215,23 @@ You can manage and cancel your subscriptions by going to your account settings o
         <target state="translated">ملء تلقائي سريع</target>
         <note>Title of a premium feature: show relevant AutoFill entries right under the input field</note>
       </trans-unit>
+      <trans-unit id="[PrivacyPolicy/Offline/text]" xml:space="preserve">
+        <source>KeePassium does not collect any personal or analytical data nor share it with anyone.</source>
+        <target state="translated">لا تجمع KeePassium أي بيانات شخصية أو تحليلية ولا تشاركها مع أي شخص.</target>
+        <note>A brief summary of the privacy policy (for offline mode)</note>
+      </trans-unit>
+      <trans-unit id="[PrivacyPolicy/Online/text]" xml:space="preserve">
+        <source>KeePassium does not collect any personal or analytical data.
+Some features may involve data exchange with external services (on your request and for the sole purpose of making these services available to you). Such an exchange is governed by the privacy policy of the respective service.</source>
+        <target state="needs-translation">KeePassium does not collect any personal or analytical data.
+Some features may involve data exchange with external services (on your request and for the sole purpose of making these services available to you). Such an exchange is governed by the privacy policy of the respective service.</target>
+        <note>A brief summary of the privacy policy (for online mode)</note>
+      </trans-unit>
+      <trans-unit id="[PrivacyPolicy/title]" xml:space="preserve">
+        <source>Privacy Policy</source>
+        <target state="translated">سياسة الخصوصية</target>
+        <note>Section: privacy policy</note>
+      </trans-unit>
       <trans-unit id="[Progress/CancellationReason/lowMemory]" xml:space="preserve">
         <source>Not enough memory to continue.
 This can happen with larger databases or too ambitious database settings (Argon2 memory parameter).</source>
@@ -2211,6 +2253,41 @@ This can happen with larger databases or too ambitious database settings (Argon2
         <source>Quick AutoFill</source>
         <target state="translated">ملء تلقائي سريع</target>
         <note>Name of a feature that shows relevant entries directly next to the login/password forms.</note>
+      </trans-unit>
+      <trans-unit id="[RemoteConnection/AllowUntrusted/title]" xml:space="preserve">
+        <source>Allow Untrusted Certificate</source>
+        <target state="needs-translation">Allow Untrusted Certificate</target>
+        <note>Network security setting</note>
+      </trans-unit>
+      <trans-unit id="[RemoteConnection/Connection/title]" xml:space="preserve">
+        <source>Connection</source>
+        <target state="needs-translation">Connection</target>
+        <note>Network connection. For example `Connection: WebDAV` or `Connection: MyCloud`.</note>
+      </trans-unit>
+      <trans-unit id="[RemoteConnection/Credentials]" xml:space="preserve">
+        <source>Credentials</source>
+        <target state="needs-translation">Credentials</target>
+        <note>Title of a section: username, password, etc</note>
+      </trans-unit>
+      <trans-unit id="[RemoteConnection/Error/AuthenticationFailed/title]" xml:space="preserve">
+        <source>Authentication failed</source>
+        <target state="needs-translation">Authentication failed</target>
+        <note>Error message: user credentials rejected by the server</note>
+      </trans-unit>
+      <trans-unit id="[RemoteConnection/FileURL]" xml:space="preserve">
+        <source>File URL</source>
+        <target state="needs-translation">File URL</target>
+        <note>Network address of a file</note>
+      </trans-unit>
+      <trans-unit id="[RemoteConnection/connectToServer]" xml:space="preserve">
+        <source>Connect to Server</source>
+        <target state="needs-translation">Connect to Server</target>
+        <note>Action: connect to a network server</note>
+      </trans-unit>
+      <trans-unit id="[RemoteConnection/title]" xml:space="preserve">
+        <source>Remote Connection</source>
+        <target state="needs-translation">Remote Connection</target>
+        <note>Title: connection to a network storage</note>
       </trans-unit>
       <trans-unit id="[Repeat Password/Field/title]" xml:space="preserve">
         <source>Repeat Password</source>
@@ -2466,6 +2543,31 @@ This can happen with larger databases or too ambitious database settings (Argon2
         <source>List Settings</source>
         <target state="translated">إعدادات القوائم</target>
         <note>Title of list view configuration screen</note>
+      </trans-unit>
+      <trans-unit id="[Settings/NetworkAccess/title]" xml:space="preserve">
+        <source>Network Access</source>
+        <target state="needs-translation">Network Access</target>
+        <note>Settings section: how/whether the app is allowed to use networks/Internet</note>
+      </trans-unit>
+      <trans-unit id="[Settings/NetworkAccessMode/Offline/description]" xml:space="preserve">
+        <source>Maximum privacy</source>
+        <target state="needs-translation">Maximum privacy</target>
+        <note>Description of the `Stay Offline` mode.</note>
+      </trans-unit>
+      <trans-unit id="[Settings/NetworkAccessMode/Offline/title]" xml:space="preserve">
+        <source>Stay Offline</source>
+        <target state="needs-translation">Stay Offline</target>
+        <note>Setting option: the app should work offline</note>
+      </trans-unit>
+      <trans-unit id="[Settings/NetworkAccessMode/Online/description]" xml:space="preserve">
+        <source>Maximum functionality</source>
+        <target state="needs-translation">Maximum functionality</target>
+        <note>Description of the `Allow Network Access` mode.</note>
+      </trans-unit>
+      <trans-unit id="[Settings/NetworkAccessMode/Online/title]" xml:space="preserve">
+        <source>Allow Network Access</source>
+        <target state="needs-translation">Allow Network Access</target>
+        <note>Setting option: the app is permitted to use online features</note>
       </trans-unit>
       <trans-unit id="[Settings/Search/title]" xml:space="preserve">
         <source>Search</source>

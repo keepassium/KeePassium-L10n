@@ -32,7 +32,7 @@
       </trans-unit>
       <trans-unit id="Show Backup Files" xml:space="preserve">
         <source>Show Backup Files</source>
-        <target state="translated">Sicherungsdateien anzeigen</target>
+        <target state="translated">Gesicherte Dateien anzeigen</target>
         <note>Settings switch: whether to include backup copies in the file list</note>
       </trans-unit>
       <trans-unit id="[About/CopyrightAuthor]" xml:space="preserve">
@@ -47,7 +47,7 @@
       </trans-unit>
       <trans-unit id="[Accessibility/activateToListen]" xml:space="preserve">
         <source>Activate to listen.</source>
-        <target state="needs-translation">Activate to listen.</target>
+        <target state="translated">Zum Anhören aktivieren.</target>
         <note>Call to action: perform accessibilty `activate` action to listen to text/content.</note>
       </trans-unit>
       <trans-unit id="[Accessibility] Double tap to copy to clipboard" xml:space="preserve" approved="yes">
@@ -852,6 +852,16 @@ Bitte stellen Sie sicher, dass Sie eine Sicherung Ihrer Datenbank haben, bevor S
         <target state="translated">Feldname</target>
         <note>Default name of a newly created entry field</note>
       </trans-unit>
+      <trans-unit id="[Entry/Field/CopyReference/acknowledgement]" xml:space="preserve" approved="yes">
+        <source>Field reference copied to clipboard</source>
+        <target state="final">Feldreferenz in Zwischenablage kopiert</target>
+        <note>Notification: a reference to an entry field has been copied to clipboard</note>
+      </trans-unit>
+      <trans-unit id="[Entry/Field/CopyReference/action]" xml:space="preserve" approved="yes">
+        <source>Copy Field Reference</source>
+        <target state="final">Feldreferenz kopieren</target>
+        <note>Action: copy a reference to the selected entry field to clipboard</note>
+      </trans-unit>
       <trans-unit id="[Entry/Field/name] Notes" xml:space="preserve">
         <source>Notes</source>
         <target state="translated">Kommentare</target>
@@ -956,6 +966,11 @@ Bitte stellen Sie sicher, dass Sie eine Sicherung Ihrer Datenbank haben, bevor S
         <source>USB drive is disconnected.</source>
         <target state="final">USB-Laufwerk nicht verbunden.</target>
         <note>Error message: there is no USB drive connected to the device.</note>
+      </trans-unit>
+      <trans-unit id="[FileAccessError/NetworkAccessDenied/generic]" xml:space="preserve" approved="yes">
+        <source>Network access is blocked by the settings.</source>
+        <target state="final">Netzwerkzugriff wird durch Einstellungen blockiert.</target>
+        <note>Error message: network access is forbidden by system or app settings.</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/NoResponse/genericFileProvider]" xml:space="preserve" approved="yes">
         <source>Storage provider does not respond.</source>
@@ -1236,6 +1251,16 @@ Bitte stellen Sie sicher, dass Sie eine Sicherung Ihrer Datenbank haben, bevor S
         <source>Choose a Destination</source>
         <target state="translated">Speicherort wählen</target>
         <note>Title of the dialog for picking the destination group for move/copy operations</note>
+      </trans-unit>
+      <trans-unit id="[General/Feature/Off]" xml:space="preserve">
+        <source>Off</source>
+        <target state="translated">Aus</target>
+        <note>Feature status: disabled/inactive. Keep it short, possibly abbreviated.</note>
+      </trans-unit>
+      <trans-unit id="[General/Feature/On]" xml:space="preserve">
+        <source>On</source>
+        <target state="translated">Ein</target>
+        <note>Feature status: enabled/active. Keep it short, possibly abbreviated.</note>
       </trans-unit>
       <trans-unit id="[Generic/ConfirmDelete/title] Are you sure?" xml:space="preserve">
         <source>Are you sure?</source>
@@ -1633,7 +1658,7 @@ Bitte stellen Sie sicher, dass Sie eine Sicherung Ihrer Datenbank haben, bevor S
       </trans-unit>
       <trans-unit id="[PasswordGenerator/CannotGenerateText/title]" xml:space="preserve">
         <source>Cannot generate text</source>
-        <target state="needs-translation">Cannot generate text</target>
+        <target state="translated">Nachricht kann nicht generiert werden</target>
         <note>Error message from the random text generator.</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/CustomSet/Empty/title]" xml:space="preserve">
@@ -1673,7 +1698,7 @@ Bitte stellen Sie sicher, dass Sie eine Sicherung Ihrer Datenbank haben, bevor S
       </trans-unit>
       <trans-unit id="[PasswordGenerator/InclusionCondition/inactive]" xml:space="preserve">
         <source>Inactive</source>
-        <target state="needs-translation">Inactive</target>
+        <target state="translated">Inaktiv</target>
         <note>Inclusion criterion for a password generator — a disabled/inactive one that won't be taken into account. For example: `Uppercase Letters: Inactive`</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/InclusionCondition/required]" xml:space="preserve">
@@ -1688,12 +1713,12 @@ Bitte stellen Sie sicher, dass Sie eine Sicherung Ihrer Datenbank haben, bevor S
       </trans-unit>
       <trans-unit id="[PasswordGenerator/MaxConsecutive/description]" xml:space="preserve">
         <source>Maximum number of identical characters repeating consecutively.</source>
-        <target state="needs-translation">Maximum number of identical characters repeating consecutively.</target>
+        <target state="translated">Maximale Anzahl sich wiederholender identischer Zeichen.</target>
         <note>Description of a password generator parameter. For example, the digit in 'abc222def'.</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/MaxConsecutiveNotSatisfiable/title]" xml:space="preserve">
         <source>Increase the limit on maximum number of identical elements repeating consecutively.</source>
-        <target state="needs-translation">Increase the limit on maximum number of identical elements repeating consecutively.</target>
+        <target state="translated">Erhöhe das Limit für die maximale Anzahl identischer sich wiederholender Elemente.</target>
         <note>Error message/call to action from the random text generator.</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/Mode/Basic/title]" xml:space="preserve">
@@ -1718,7 +1743,7 @@ Bitte stellen Sie sicher, dass Sie eine Sicherung Ihrer Datenbank haben, bevor S
       </trans-unit>
       <trans-unit id="[PasswordGenerator/NotEnoughElementsToSample/title]" xml:space="preserve">
         <source>Need more elements to pick from.</source>
-        <target state="needs-translation">Need more elements to pick from.</target>
+        <target state="translated">Mehr Elemente zur Auswahl werden benötigt.</target>
         <note>Error message from the random text generator.</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/PasswordLength/title]" xml:space="preserve">
@@ -2189,6 +2214,23 @@ Sie können Ihre Abonnements verwalten und kündigen, indem Sie nach dem Kauf Ih
         <target state="final">Schnelles autom. Ausfüllen</target>
         <note>Title of a premium feature: show relevant AutoFill entries right under the input field</note>
       </trans-unit>
+      <trans-unit id="[PrivacyPolicy/Offline/text]" xml:space="preserve">
+        <source>KeePassium does not collect any personal or analytical data nor share it with anyone.</source>
+        <target state="translated">KeePassium sammelt weder persönliche oder analytische Daten, noch teilt irgendwelche Daten mit Dritten.</target>
+        <note>A brief summary of the privacy policy (for offline mode)</note>
+      </trans-unit>
+      <trans-unit id="[PrivacyPolicy/Online/text]" xml:space="preserve" approved="yes">
+        <source>KeePassium does not collect any personal or analytical data.
+Some features may involve data exchange with external services (on your request and for the sole purpose of making these services available to you). Such an exchange is governed by the privacy policy of the respective service.</source>
+        <target state="final">KeePassium sammelt keine persönlichen oder analytischen Daten.
+Bei einigen Funktionen kann es zu einem Datenaustausch mit externen Diensten kommen (auf Ihre Anfrage hin und ausschließlich zu dem Zweck, Ihnen diese Dienste zur Verfügung zu stellen). Ein solcher Austausch unterliegt den Datenschutzrichtlinien des jeweiligen Dienstes.</target>
+        <note>A brief summary of the privacy policy (for online mode)</note>
+      </trans-unit>
+      <trans-unit id="[PrivacyPolicy/title]" xml:space="preserve">
+        <source>Privacy Policy</source>
+        <target state="translated">Datenschutzerklärung</target>
+        <note>Section: privacy policy</note>
+      </trans-unit>
       <trans-unit id="[Progress/CancellationReason/lowMemory]" xml:space="preserve">
         <source>Not enough memory to continue.
 This can happen with larger databases or too ambitious database settings (Argon2 memory parameter).</source>
@@ -2210,6 +2252,41 @@ Dies kann bei größeren Datenbanken oder zu ehrgeizigen Datenbankeinstellungen 
         <source>Quick AutoFill</source>
         <target state="final">Schnelles autom. Ausfüllen</target>
         <note>Name of a feature that shows relevant entries directly next to the login/password forms.</note>
+      </trans-unit>
+      <trans-unit id="[RemoteConnection/AllowUntrusted/title]" xml:space="preserve" approved="yes">
+        <source>Allow Untrusted Certificate</source>
+        <target state="final">Nicht vertrauenswürdiges Zertifikat zulassen</target>
+        <note>Network security setting</note>
+      </trans-unit>
+      <trans-unit id="[RemoteConnection/Connection/title]" xml:space="preserve">
+        <source>Connection</source>
+        <target state="translated">Verbindung</target>
+        <note>Network connection. For example `Connection: WebDAV` or `Connection: MyCloud`.</note>
+      </trans-unit>
+      <trans-unit id="[RemoteConnection/Credentials]" xml:space="preserve">
+        <source>Credentials</source>
+        <target state="translated">Anmeldedaten</target>
+        <note>Title of a section: username, password, etc</note>
+      </trans-unit>
+      <trans-unit id="[RemoteConnection/Error/AuthenticationFailed/title]" xml:space="preserve">
+        <source>Authentication failed</source>
+        <target state="translated">Anmeldung fehlgeschlagen</target>
+        <note>Error message: user credentials rejected by the server</note>
+      </trans-unit>
+      <trans-unit id="[RemoteConnection/FileURL]" xml:space="preserve" approved="yes">
+        <source>File URL</source>
+        <target state="final">Datei-URL</target>
+        <note>Network address of a file</note>
+      </trans-unit>
+      <trans-unit id="[RemoteConnection/connectToServer]" xml:space="preserve" approved="yes">
+        <source>Connect to Server</source>
+        <target state="final">Mit Server verbinden</target>
+        <note>Action: connect to a network server</note>
+      </trans-unit>
+      <trans-unit id="[RemoteConnection/title]" xml:space="preserve" approved="yes">
+        <source>Remote Connection</source>
+        <target state="final">Remote-Verbindung</target>
+        <note>Title: connection to a network storage</note>
       </trans-unit>
       <trans-unit id="[Repeat Password/Field/title]" xml:space="preserve">
         <source>Repeat Password</source>
@@ -2465,6 +2542,31 @@ Dies kann bei größeren Datenbanken oder zu ehrgeizigen Datenbankeinstellungen 
         <source>List Settings</source>
         <target state="translated">Listeneinstellungen</target>
         <note>Title of list view configuration screen</note>
+      </trans-unit>
+      <trans-unit id="[Settings/NetworkAccess/title]" xml:space="preserve">
+        <source>Network Access</source>
+        <target state="translated">Netzwerkzugriff</target>
+        <note>Settings section: how/whether the app is allowed to use networks/Internet</note>
+      </trans-unit>
+      <trans-unit id="[Settings/NetworkAccessMode/Offline/description]" xml:space="preserve">
+        <source>Maximum privacy</source>
+        <target state="translated">Maximaler Datenschutz</target>
+        <note>Description of the `Stay Offline` mode.</note>
+      </trans-unit>
+      <trans-unit id="[Settings/NetworkAccessMode/Offline/title]" xml:space="preserve">
+        <source>Stay Offline</source>
+        <target state="translated">Offline bleiben</target>
+        <note>Setting option: the app should work offline</note>
+      </trans-unit>
+      <trans-unit id="[Settings/NetworkAccessMode/Online/description]" xml:space="preserve">
+        <source>Maximum functionality</source>
+        <target state="translated">Maximale Funktionalität</target>
+        <note>Description of the `Allow Network Access` mode.</note>
+      </trans-unit>
+      <trans-unit id="[Settings/NetworkAccessMode/Online/title]" xml:space="preserve">
+        <source>Allow Network Access</source>
+        <target state="translated">Netzwerkzugriff erlauben</target>
+        <note>Setting option: the app is permitted to use online features</note>
       </trans-unit>
       <trans-unit id="[Settings/Search/title]" xml:space="preserve">
         <source>Search</source>
