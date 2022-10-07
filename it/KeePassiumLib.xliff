@@ -22,7 +22,7 @@
       </trans-unit>
       <trans-unit id="KeePass database should not be used as key file. Please pick a different file." xml:space="preserve">
         <source>KeePass database should not be used as key file. Please pick a different file.</source>
-        <target state="translated">Il database di KeePass non deve essere utilizzato come file chiave. Scegliere un file diverso.</target>
+        <target state="translated">Il database di KeePass non dovrebbe essere utilizzato come file chiave. Scegliere un file diverso.</target>
         <note>Warning message when the user tries to use a database as a key file</note>
       </trans-unit>
       <trans-unit id="No database files" xml:space="preserve">
@@ -279,7 +279,7 @@
       </trans-unit>
       <trans-unit id="[Database/Load/Error] Cannot find key file" xml:space="preserve">
         <source>Cannot find key file</source>
-        <target state="translated">Key file non trovato</target>
+        <target state="translated">File chiave non trovato</target>
         <note>Error message</note>
       </trans-unit>
       <trans-unit id="[Database/Load/Error] Cannot open database file" xml:space="preserve">
@@ -289,7 +289,7 @@
       </trans-unit>
       <trans-unit id="[Database/Load/Error] Cannot open key file" xml:space="preserve">
         <source>Cannot open key file</source>
-        <target state="translated">Non è possibile aprire key file</target>
+        <target state="translated">Impossibile aprire il file chiave</target>
         <note>Error message</note>
       </trans-unit>
       <trans-unit id="[Database/Load/Error] Please provide at least a password or a key file" xml:space="preserve">
@@ -305,8 +305,8 @@
       <trans-unit id="[Database/Loading/FromCache/text]" xml:space="preserve">
         <source>The database is unreachable.
 This is its latest local copy.</source>
-        <target state="needs-translation">The database is unreachable.
-This is its latest local copy.</target>
+        <target state="translated">Il database non è raggiungibile.
+Questa è l'ultima copia locale.</target>
         <note>Message shown after we show a cached local database instead of the (unavailable) original database.</note>
       </trans-unit>
       <trans-unit id="[Database/Loading/ReadOnly/text]" xml:space="preserve">
@@ -391,7 +391,7 @@ This is its latest local copy.</target>
       </trans-unit>
       <trans-unit id="[Database/Progress] Loading key file..." xml:space="preserve">
         <source>Loading key file...</source>
-        <target state="translated">Caricamento key file...</target>
+        <target state="translated">Caricamento file chiave...</target>
         <note>Progress status</note>
       </trans-unit>
       <trans-unit id="[Database/Remove/Confirm/text] Remove database from the list?&#10; The file will remain intact and you can add it again later." xml:space="preserve">
@@ -413,22 +413,22 @@ This is its latest local copy.</target>
       </trans-unit>
       <trans-unit id="[Database/Settings/ConsiderFileUnreachable/title]" xml:space="preserve">
         <source>Consider File Unreachable</source>
-        <target state="needs-translation">Consider File Unreachable</target>
+        <target state="translated">Considera non raggiungibile</target>
         <note>File settings parameter: time after which file will be considered unreachable. Example: `Consider File Unreachable: in 10 seconds`.)</note>
       </trans-unit>
       <trans-unit id="[Database/Settings/FallbackStrategy/ShowError/title]" xml:space="preserve">
         <source>Show Error</source>
-        <target state="needs-translation">Show Error</target>
+        <target state="translated">Mostra errore</target>
         <note>Title: what to do when (remote) file cannot be loaded. (For example: `If File is Unreachable: Show Error`.)</note>
       </trans-unit>
       <trans-unit id="[Database/Settings/FallbackStrategy/UseCache/title]" xml:space="preserve">
         <source>Use Local Copy</source>
-        <target state="needs-translation">Use Local Copy</target>
+        <target state="translated">Usa copia locale</target>
         <note>Title: what to do when (remote) file cannot be loaded. (For example: `If File is Unreachable: Use Local Copy`.)</note>
       </trans-unit>
       <trans-unit id="[Database/Settings/FallbackStrategy/title]" xml:space="preserve">
         <source>If File is Unreachable</source>
-        <target state="needs-translation">If File is Unreachable</target>
+        <target state="translated">Se il file non è raggiungibile</target>
         <note>File settings parameter: what to do when (remote) file cannot be loaded. (For example: `If File is Unreachable: Use Local Copy`.)</note>
       </trans-unit>
       <trans-unit id="[Database/Settings/FileAccess/title]" xml:space="preserve">
@@ -854,12 +854,12 @@ Assicurati di avere un backup del database prima di fare qualsiasi modifica.</ta
       </trans-unit>
       <trans-unit id="[Entry/Field/CopyReference/acknowledgement]" xml:space="preserve">
         <source>Field reference copied to clipboard</source>
-        <target state="needs-translation">Field reference copied to clipboard</target>
+        <target state="translated">Campo copiato negli appunti</target>
         <note>Notification: a reference to an entry field has been copied to clipboard</note>
       </trans-unit>
       <trans-unit id="[Entry/Field/CopyReference/action]" xml:space="preserve">
         <source>Copy Field Reference</source>
-        <target state="needs-translation">Copy Field Reference</target>
+        <target state="translated">Copia campo negli appunti</target>
         <note>Action: copy a reference to the selected entry field to clipboard</note>
       </trans-unit>
       <trans-unit id="[Entry/Field/name] Notes" xml:space="preserve">
@@ -969,7 +969,7 @@ Assicurati di avere un backup del database prima di fare qualsiasi modifica.</ta
       </trans-unit>
       <trans-unit id="[FileAccessError/NetworkAccessDenied/generic]" xml:space="preserve">
         <source>Network access is blocked by the settings.</source>
-        <target state="needs-translation">Network access is blocked by the settings.</target>
+        <target state="translated">L'accesso alla rete è bloccato dalle impostazioni.</target>
         <note>Error message: network access is forbidden by system or app settings.</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/NoResponse/genericFileProvider]" xml:space="preserve" approved="yes">
@@ -1254,12 +1254,12 @@ Assicurati di avere un backup del database prima di fare qualsiasi modifica.</ta
       </trans-unit>
       <trans-unit id="[General/Feature/Off]" xml:space="preserve">
         <source>Off</source>
-        <target state="needs-translation">Off</target>
+        <target state="translated">Non attivo</target>
         <note>Feature status: disabled/inactive. Keep it short, possibly abbreviated.</note>
       </trans-unit>
       <trans-unit id="[General/Feature/On]" xml:space="preserve">
         <source>On</source>
-        <target state="needs-translation">On</target>
+        <target state="translated">Attivo</target>
         <note>Feature status: enabled/active. Keep it short, possibly abbreviated.</note>
       </trans-unit>
       <trans-unit id="[Generic/ConfirmDelete/title] Are you sure?" xml:space="preserve">
@@ -1698,7 +1698,7 @@ Assicurati di avere un backup del database prima di fare qualsiasi modifica.</ta
       </trans-unit>
       <trans-unit id="[PasswordGenerator/InclusionCondition/inactive]" xml:space="preserve">
         <source>Inactive</source>
-        <target state="needs-translation">Inactive</target>
+        <target state="translated">Non attivo</target>
         <note>Inclusion criterion for a password generator — a disabled/inactive one that won't be taken into account. For example: `Uppercase Letters: Inactive`</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/InclusionCondition/required]" xml:space="preserve">
@@ -2222,8 +2222,8 @@ Potete gestire e annullare gli abbonamenti nelle impostazioni del vostro account
       <trans-unit id="[PrivacyPolicy/Online/text]" xml:space="preserve">
         <source>KeePassium does not collect any personal or analytical data.
 Some features may involve data exchange with external services (on your request and for the sole purpose of making these services available to you). Such an exchange is governed by the privacy policy of the respective service.</source>
-        <target state="needs-translation">KeePassium does not collect any personal or analytical data.
-Some features may involve data exchange with external services (on your request and for the sole purpose of making these services available to you). Such an exchange is governed by the privacy policy of the respective service.</target>
+        <target state="translated">KeePassium non raccoglie dati personali o analitici.
+Alcune funzionalità possono comportare lo scambio di dati con servizi esterni (su richiesta e al solo scopo di rendere disponibili questi servizi). Tale scambio è regolato dalla privacy policy del rispettivo servizio.</target>
         <note>A brief summary of the privacy policy (for online mode)</note>
       </trans-unit>
       <trans-unit id="[PrivacyPolicy/title]" xml:space="preserve">
@@ -2255,37 +2255,37 @@ Ciò può accadere con database di grandi dimensioni o con impostazioni database
       </trans-unit>
       <trans-unit id="[RemoteConnection/AllowUntrusted/title]" xml:space="preserve">
         <source>Allow Untrusted Certificate</source>
-        <target state="needs-translation">Allow Untrusted Certificate</target>
+        <target state="translated">Accetta certificati non verificati</target>
         <note>Network security setting</note>
       </trans-unit>
       <trans-unit id="[RemoteConnection/Connection/title]" xml:space="preserve">
         <source>Connection</source>
-        <target state="needs-translation">Connection</target>
+        <target state="translated">Connessione</target>
         <note>Network connection. For example `Connection: WebDAV` or `Connection: MyCloud`.</note>
       </trans-unit>
       <trans-unit id="[RemoteConnection/Credentials]" xml:space="preserve">
         <source>Credentials</source>
-        <target state="needs-translation">Credentials</target>
+        <target state="translated">Credenziali</target>
         <note>Title of a section: username, password, etc</note>
       </trans-unit>
       <trans-unit id="[RemoteConnection/Error/AuthenticationFailed/title]" xml:space="preserve">
         <source>Authentication failed</source>
-        <target state="needs-translation">Authentication failed</target>
+        <target state="translated">Autenticazione non riuscita</target>
         <note>Error message: user credentials rejected by the server</note>
       </trans-unit>
       <trans-unit id="[RemoteConnection/FileURL]" xml:space="preserve">
         <source>File URL</source>
-        <target state="needs-translation">File URL</target>
+        <target state="translated">URL del file</target>
         <note>Network address of a file</note>
       </trans-unit>
       <trans-unit id="[RemoteConnection/connectToServer]" xml:space="preserve">
         <source>Connect to Server</source>
-        <target state="needs-translation">Connect to Server</target>
+        <target state="translated">Connetti al server</target>
         <note>Action: connect to a network server</note>
       </trans-unit>
       <trans-unit id="[RemoteConnection/title]" xml:space="preserve">
         <source>Remote Connection</source>
-        <target state="needs-translation">Remote Connection</target>
+        <target state="translated">Connessione remota</target>
         <note>Title: connection to a network storage</note>
       </trans-unit>
       <trans-unit id="[Repeat Password/Field/title]" xml:space="preserve">
@@ -2420,7 +2420,7 @@ Ciò può accadere con database di grandi dimensioni o con impostazioni database
       </trans-unit>
       <trans-unit id="[Settings/ClearKeyFileAssociations/Cleared/text] Associations between key files and databases have been removed." xml:space="preserve">
         <source>Associations between key files and databases have been removed.</source>
-        <target state="translated">Le associazioni tra file chiave e database sono stati rimosse.</target>
+        <target state="translated">Le associazioni tra file chiave e database sono state rimosse.</target>
         <note>Text of the success message for `Clear Key File Associations` button</note>
       </trans-unit>
       <trans-unit id="[Settings/ClearKeyFileAssociations/Cleared/title] Cleared" xml:space="preserve">
@@ -2545,27 +2545,27 @@ Ciò può accadere con database di grandi dimensioni o con impostazioni database
       </trans-unit>
       <trans-unit id="[Settings/NetworkAccess/title]" xml:space="preserve">
         <source>Network Access</source>
-        <target state="needs-translation">Network Access</target>
+        <target state="translated">Accesso alla rete</target>
         <note>Settings section: how/whether the app is allowed to use networks/Internet</note>
       </trans-unit>
       <trans-unit id="[Settings/NetworkAccessMode/Offline/description]" xml:space="preserve">
         <source>Maximum privacy</source>
-        <target state="needs-translation">Maximum privacy</target>
+        <target state="translated">Privacy massima</target>
         <note>Description of the `Stay Offline` mode.</note>
       </trans-unit>
       <trans-unit id="[Settings/NetworkAccessMode/Offline/title]" xml:space="preserve">
         <source>Stay Offline</source>
-        <target state="needs-translation">Stay Offline</target>
+        <target state="translated">Resta offline</target>
         <note>Setting option: the app should work offline</note>
       </trans-unit>
       <trans-unit id="[Settings/NetworkAccessMode/Online/description]" xml:space="preserve">
         <source>Maximum functionality</source>
-        <target state="needs-translation">Maximum functionality</target>
+        <target state="translated">Funzionalità massima</target>
         <note>Description of the `Allow Network Access` mode.</note>
       </trans-unit>
       <trans-unit id="[Settings/NetworkAccessMode/Online/title]" xml:space="preserve">
         <source>Allow Network Access</source>
-        <target state="needs-translation">Allow Network Access</target>
+        <target state="translated">Consenti accesso alla rete</target>
         <note>Setting option: the app is permitted to use online features</note>
       </trans-unit>
       <trans-unit id="[Settings/Search/title]" xml:space="preserve" approved="yes">

@@ -235,7 +235,7 @@ Como resultado, tanto o Preenchimento Automático quanto o app principal do KeeP
     <body>
       <trans-unit id="JKD-iF-iwA.title" xml:space="preserve">
         <source>Change Master Key</source>
-        <target state="translated">Mudar Chave-Mestra</target>
+        <target state="translated">Mudar chave-mestra</target>
         <note>Class = "UINavigationItem"; title = "Change Master Key"; ObjectID = "JKD-iF-iwA"; Note = "Title of the dialog for changing the database's master key.";</note>
       </trans-unit>
       <trans-unit id="M9Q-v8-e6Q.placeholder" xml:space="preserve">
@@ -678,7 +678,7 @@ Como resultado, tanto o Preenchimento Automático quanto o app principal do KeeP
       </trans-unit>
       <trans-unit id="qkh-6K-yQW.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" xml:space="preserve">
         <source>Change Master Key</source>
-        <target state="translated">Mudar Chave-Mestra</target>
+        <target state="translated">Mudar chave-mestra</target>
         <note>Class = "UIBarButtonItem"; qkh-6K-yQW.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Change Master Key"; ObjectID = "qkh-6K-yQW";</note>
       </trans-unit>
       <trans-unit id="rF3-mC-kj1.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" xml:space="preserve">
@@ -1520,7 +1520,7 @@ Você pode ter vários bancos de dados; por exemplo, para trabalho, família e u
     <body>
       <trans-unit id="5Dg-KX-m7a.footerTitle" xml:space="preserve">
         <source>If you enter a wrong AppLock passcode, KeePassium will close all databases and clear all master keys from the keychain.</source>
-        <target state="translated">Se você errar a senha do app, KeePassium fechará todos os bancos de dados e apagará todas as senhas-mestras das chaves do sistema.</target>
+        <target state="translated">Se você errar a senha do app, KeePassium fechará todos os bancos de dados e apagará todas as chaves-mestras das chaves do sistema.</target>
         <note>Class = "UITableViewSection"; footerTitle = "If you enter a wrong AppLock passcode, KeePassium will close all databases and clear all master keys from the keychain."; ObjectID = "5Dg-KX-m7a"; Note = "AppLock settings section: what to do when the user enters a wrong AppLock passcode.";</note>
       </trans-unit>
       <trans-unit id="5Dg-KX-m7a.headerTitle" xml:space="preserve">
@@ -2052,9 +2052,9 @@ Você pode ter vários bancos de dados; por exemplo, para trabalho, família e u
         <source>Once you unlock a database, its master key can be stored in device's secure keychain. The next time, KeePassium will use that key so you won't have to type your full master password again. 
 
 (Master keys are automatically cleared on database timeout.)</source>
-        <target state="translated">Ao desbloquear um banco de dados, sua senha-mestra pode ser salva nas chaves do sistema deste dispositivo. Na próxima vez, KeePassium usará a senha-mestra salva para que você não precise digitá-la de novo.
+        <target state="translated">Ao desbloquear um banco de dados, a chave-mestra dele pode ser salva nas chaves do sistema deste dispositivo. Nos desbloqueios seguintes, KeePassium a usará para que você não precise digitar de novo a senha do banco de dados.
 
-(Senhas-mestras são automaticamente apagadas das chaves do sistema quando o tempo de permanência aberto do banco de dados expira.)</target>
+(Chaves-mestras são automaticamente apagadas das chaves do sistema quando o tempo de permanência aberto do banco de dados expira.)</target>
         <note>Class = "UITableViewSection"; footerTitle = "Once you unlock a database, its master key can be stored in device's secure keychain. The next time, KeePassium will use that key so you won't have to type your full master password again. \n\n(Master keys are automatically cleared on database timeout.)"; ObjectID = "Faj-km-pM5";</note>
       </trans-unit>
       <trans-unit id="Faj-km-pM5.headerTitle" xml:space="preserve">

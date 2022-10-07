@@ -326,7 +326,7 @@ Esta é a última cópia local disponível.</target>
       </trans-unit>
       <trans-unit id="[Database/MasterKey/RememberYourPassword/title]" xml:space="preserve">
         <source>Remember your database password</source>
-        <target state="translated">Lembre-se da sua senha-mestra</target>
+        <target state="translated">Lembre-se da senha do seu banco de dados</target>
         <note>Imperative/recommendation: title of a warning when changing database password.</note>
       </trans-unit>
       <trans-unit id="[Database/MasterKey/changed] Master key successfully changed" xml:space="preserve">
@@ -784,7 +784,7 @@ Faça uma cópia de segurança desse banco de dados antes de modifica-lo.</targe
       </trans-unit>
       <trans-unit id="[DatabaseError] Invalid password or key file" xml:space="preserve">
         <source>Invalid password or key file</source>
-        <target state="translated">Senha ou arquivo de chave inválidos</target>
+        <target state="translated">Senha ou arquivo de chave inválido(s)</target>
         <note>Error message: user provided a wrong master key for decryption.</note>
       </trans-unit>
       <trans-unit id="[DiagLog/subtitle]" xml:space="preserve">
@@ -1858,7 +1858,7 @@ Faça uma cópia de segurança desse banco de dados antes de modifica-lo.</targe
       </trans-unit>
       <trans-unit id="[Premium/Benefits/DatabaseTimeout/details]" xml:space="preserve">
         <source>Tired of typing your master password? Keep your database open longer and unlock it with one tap.</source>
-        <target state="translated">Cansado de digitar a senha-mestra? Deixe seu banco de dados aberto por mais tempo e o desbloqueie com um toque.</target>
+        <target state="translated">Cansado de digitar a senha do banco de dados? Deixe-o aberto por mais tempo e o desbloqueie com um toque.</target>
         <note>Explanation of the premium feature</note>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/DatabaseTimeout/title]" xml:space="preserve">
@@ -2176,7 +2176,7 @@ Após a compra, você pode gerenciar e cancelar suas assinaturas nas configuraç
       </trans-unit>
       <trans-unit id="[PremiumFeature/LongDBTimeouts/description] Save time entering your complex master passwords — keep your database open longer in the premium version." xml:space="preserve">
         <source>Save time entering your complex master passwords — keep your database open longer in the premium version.</source>
-        <target state="translated">Ganhe tempo ao inserir suas senhas-mestras complexas — deixe seu banco de dados aberto por mais tempo na versão Premium.</target>
+        <target state="translated">Ganhe tempo em vez de repetir as senhas complicadas dos seus bancos de dados — deixe-os abertos por mais tempo na versão Premium.</target>
         <note>Description/advertisement for the `Long Database Timeouts` premium feature</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/LongDBTimeouts/title] Long Database Timeouts" xml:space="preserve">
@@ -2470,7 +2470,7 @@ Isso pode ocorrer com bancos de dados muito grandes ou com configurações exage
       </trans-unit>
       <trans-unit id="[Settings/DatabaseLockTimeout/description] If you are not interacting with the app for some time, the database will be closed for your safety. To open it, you will need to enter its master password again." xml:space="preserve">
         <source>If you are not interacting with the app for some time, the database will be closed for your safety. To open it, you will need to enter its master password again.</source>
-        <target state="translated">Se você não interagir com o app por certo tempo, o banco de dados será fechado para sua segurança. Para abri-lo, será preciso a senha-mestra novamente.</target>
+        <target state="translated">Se você não interagir com o aplicativo por certo tempo, o banco de dados será fechado para sua segurança. Para abri-lo, será preciso a senha deste novamente.</target>
         <note>Description of the Database Lock Timeout</note>
       </trans-unit>
       <trans-unit id="[Settings/DatabaseLockTimeout/description] When leaving the app" xml:space="preserve">
