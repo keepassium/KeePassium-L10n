@@ -868,6 +868,16 @@ Sonuç olarak, hem Otomatik Doldurma hem de KeePassium uygulaması veritabanın�
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="14.2" build-num="14C18"/>
     </header>
     <body>
+      <trans-unit id="CFBundleDisplayName" xml:space="preserve" approved="yes">
+        <source>KeePassium Pro</source>
+        <target state="final">KeePassium Pro</target>
+        <note>Bundle display name</note>
+      </trans-unit>
+      <trans-unit id="CFBundleName" xml:space="preserve" approved="yes">
+        <source>KeePassium Pro</source>
+        <target state="final">KeePassium Pro</target>
+        <note>Bundle name</note>
+      </trans-unit>
       <trans-unit id="KeePass Database (kdb)" xml:space="preserve">
         <source>KeePass Database (kdb)</source>
         <target state="translated">KeePass Veritabanı (kdb)</target>
@@ -1428,6 +1438,11 @@ You can have multiple databases, for example to separate work, family and person
         <target state="translated">KeePassium şifrelerinizi, kredi kartlarınızı ve diğer bilgilerinizi şifrelenmiş bir dosyada (veritabanı) saklar. Birden fazla veritabanınız olabilir. Ör: işi, aileyi, kişisel bilgilerinizi ayrı ayrı tutmak için.</target>
         <note>Class = "UILabel"; text = "KeePassium stores your passwords, credit cards and other information in an encrypted file (database). \nYou can have multiple databases, for example to separate work, family and personal accounts."; ObjectID = "PgB-6p-H0t";</note>
       </trans-unit>
+      <trans-unit id="QE2-z7-uZe.normalTitle" xml:space="preserve" translate="no">
+        <source>{Connect to server}</source>
+        <target state="needs-translation">{Connect to server}</target>
+        <note>Class = "UIButton"; normalTitle = "{Connect to server}"; ObjectID = "QE2-z7-uZe";</note>
+      </trans-unit>
       <trans-unit id="ZKW-2f-Xkz.normalTitle" xml:space="preserve">
         <source>Add Existing Database</source>
         <target state="translated">Varolan Bir Veritabanını Ekle</target>
@@ -1809,6 +1824,11 @@ You can have multiple databases, for example to separate work, family and person
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="14.2" build-num="14C18"/>
     </header>
     <body>
+      <trans-unit id="1LC-s7-Kdl.text" xml:space="preserve">
+        <source>Search in Passwords</source>
+        <target state="needs-translation">Search in Passwords</target>
+        <note>Class = "UILabel"; text = "Search in Passwords"; ObjectID = "1LC-s7-Kdl"; Note = "An switch in settings: whether to include protected field values in search procedure.";</note>
+      </trans-unit>
       <trans-unit id="DJr-hC-DMT.footerTitle" xml:space="preserve">
         <source>After opening a database, automatically show the search field.</source>
         <target state="translated">Bir veritabanı açıldığında, hemen arama çubuğuna git.</target>

@@ -23,7 +23,7 @@ This can happen with large databases or memory-demanding database settings (Argo
 Please contact us if you need help with this.</source>
         <target state="translated">Het lijkt erop dat AutoFill de laatste keer niet juist is afgesloten. 
 
-Dit kan gebeuren bij grote databanken of geheugensluprende databankinstellingen (Argon2).
+Dit kan gebeuren bij grote databanken of geheugenslurpende databankinstellingen (Argon2).
 
 Neem contact met ons op als je hulp nodig hebt.</target>
         <note>Class = "UILabel"; text = "It seems that AutoFill did not close correctly the last time. \n\nThis can happen with large databases or memory-demanding database settings (Argon2).\n\nPlease contact us if you need help with this."; ObjectID = "kmV-si-Nrg";</note>
@@ -250,7 +250,7 @@ Als gevolg hiervan moeten zowel AutoFill als de KeePassium-app hun eigen machtig
       </trans-unit>
       <trans-unit id="hYP-f0-K1s.placeholder" xml:space="preserve">
         <source>New Password</source>
-        <target state="translated">Wachtwoord</target>
+        <target state="translated">Nieuw wachtwoord</target>
         <note>Class = "UITextField"; placeholder = "New Password"; ObjectID = "hYP-f0-K1s"; Note = "Placeholder: text field for changing the master password";</note>
       </trans-unit>
       <trans-unit id="lzF-lh-Cod.text" xml:space="preserve" translate="no">
@@ -272,7 +272,7 @@ Als gevolg hiervan moeten zowel AutoFill als de KeePassium-app hun eigen machtig
     <body>
       <trans-unit id="2o3-sG-Pcm.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" xml:space="preserve">
         <source>Help</source>
-        <target state="translated">Hulp</target>
+        <target state="translated">Help</target>
         <note>Class = "UIBarButtonItem"; 2o3-sG-Pcm.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Help"; ObjectID = "2o3-sG-Pcm"; Note = "Action: show help pages (at the moment shows the About screen)";</note>
       </trans-unit>
       <trans-unit id="UI0-Lh-wTj.title" xml:space="preserve">
@@ -512,7 +512,7 @@ Als gevolg hiervan moeten zowel AutoFill als de KeePassium-app hun eigen machtig
       </trans-unit>
       <trans-unit id="CcF-c8-r4M.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" xml:space="preserve">
         <source>Custom field editor</source>
-        <target state="translated">Aangepastveldbewerker</target>
+        <target state="translated">Bewerker voor aangepaste velden</target>
         <note>Class = "UITableViewCell"; CcF-c8-r4M.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Custom field editor"; ObjectID = "CcF-c8-r4M";</note>
       </trans-unit>
       <trans-unit id="HGI-xq-zUf.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" xml:space="preserve">
@@ -868,6 +868,16 @@ Als gevolg hiervan moeten zowel AutoFill als de KeePassium-app hun eigen machtig
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="14.2" build-num="14C18"/>
     </header>
     <body>
+      <trans-unit id="CFBundleDisplayName" xml:space="preserve" approved="yes">
+        <source>KeePassium Pro</source>
+        <target state="final">KeePassium Pro</target>
+        <note>Bundle display name</note>
+      </trans-unit>
+      <trans-unit id="CFBundleName" xml:space="preserve" approved="yes">
+        <source>KeePassium Pro</source>
+        <target state="final">KeePassium Pro</target>
+        <note>Bundle name</note>
+      </trans-unit>
       <trans-unit id="KeePass Database (kdb)" xml:space="preserve">
         <source>KeePass Database (kdb)</source>
         <target state="translated">KeePass-databank (kdb)</target>
@@ -1429,6 +1439,11 @@ You can have multiple databases, for example to separate work, family and person
 Je kunt beschikken over meerdere databanken, bijvoorbeeld om werk, familie en persoonlijke accounts te scheiden.</target>
         <note>Class = "UILabel"; text = "KeePassium stores your passwords, credit cards and other information in an encrypted file (database). \nYou can have multiple databases, for example to separate work, family and personal accounts."; ObjectID = "PgB-6p-H0t";</note>
       </trans-unit>
+      <trans-unit id="QE2-z7-uZe.normalTitle" xml:space="preserve" translate="no">
+        <source>{Connect to server}</source>
+        <target state="needs-translation">{Connect to server}</target>
+        <note>Class = "UIButton"; normalTitle = "{Connect to server}"; ObjectID = "QE2-z7-uZe";</note>
+      </trans-unit>
       <trans-unit id="ZKW-2f-Xkz.normalTitle" xml:space="preserve">
         <source>Add Existing Database</source>
         <target state="translated">Voeg bestaande databank toe</target>
@@ -1810,6 +1825,11 @@ Je kunt beschikken over meerdere databanken, bijvoorbeeld om werk, familie en pe
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="14.2" build-num="14C18"/>
     </header>
     <body>
+      <trans-unit id="1LC-s7-Kdl.text" xml:space="preserve">
+        <source>Search in Passwords</source>
+        <target state="translated">Zoeken in wachtwoorden</target>
+        <note>Class = "UILabel"; text = "Search in Passwords"; ObjectID = "1LC-s7-Kdl"; Note = "An switch in settings: whether to include protected field values in search procedure.";</note>
+      </trans-unit>
       <trans-unit id="DJr-hC-DMT.footerTitle" xml:space="preserve">
         <source>After opening a database, automatically show the search field.</source>
         <target state="translated">Toon automatisch het zoekveld na het openen van een databank.</target>

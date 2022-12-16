@@ -154,7 +154,7 @@ Why? Behind the scenes, the system treats AutoFill as a separate app, independen
 As a result, both AutoFill and the main KeePassium app need to be given their own permissions for each external file. Luckily, this is a one-time procedure.</source>
         <target state="translated">自動入力は、メインアプリ内のファイルに勝手にはアクセスできません。
 
-なぜか。自動入力は、メインアプリとは別のアプリとして扱われており、安全のため、外部のファイルにアクセスできない仕組みになっています。ユーザーが明示的に指定したファイルに限定されるのです。こうすることで、ユーザーが許可したファイルにしかアプリがアクセスできないことが保証されています。
+なぜか。自動入力はメインアプリとは別のアプリとして扱われており、安全のため外部のファイルに直接はアクセスできない仕組みになっているためです――ユーザーが明示的に指定しない限りは。この指定を通して、ユーザーが意図したファイルだけにしかアプリがアクセスできないことが保証されています。
 
 その結果、メインアプリと自動入力はそれぞれ別々にファイルアクセスの許可を必要とします。ただ、これは一度すれば済む手続きです。</target>
         <note>No comment provided by engineer.</note>
@@ -235,7 +235,7 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
     <body>
       <trans-unit id="JKD-iF-iwA.title" xml:space="preserve">
         <source>Change Master Key</source>
-        <target state="translated">マスターキーを変更</target>
+        <target state="translated">マスターキーの変更</target>
         <note>Class = "UINavigationItem"; title = "Change Master Key"; ObjectID = "JKD-iF-iwA"; Note = "Title of the dialog for changing the database's master key.";</note>
       </trans-unit>
       <trans-unit id="M9Q-v8-e6Q.placeholder" xml:space="preserve">
@@ -391,7 +391,7 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="W86-tp-bfF.text" xml:space="preserve">
         <source>There are no attached files</source>
-        <target state="translated">添付ファイルがありません</target>
+        <target state="translated">添付ファイルはありません</target>
         <note>Class = "UILabel"; text = "There are no attached files"; ObjectID = "W86-tp-bfF"; Note = "Placeholder shown when there are no attached files in the entry.";</note>
       </trans-unit>
       <trans-unit id="WUw-Hm-GLz.text" xml:space="preserve" translate="no">
@@ -678,7 +678,7 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="qkh-6K-yQW.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" xml:space="preserve">
         <source>Change Master Key</source>
-        <target state="translated">マスターキーを変更</target>
+        <target state="translated">マスターキーの変更</target>
         <note>Class = "UIBarButtonItem"; qkh-6K-yQW.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Change Master Key"; ObjectID = "qkh-6K-yQW";</note>
       </trans-unit>
       <trans-unit id="rF3-mC-kj1.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" xml:space="preserve">
@@ -727,7 +727,7 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
     <body>
       <trans-unit id="H8v-gf-kff.title" xml:space="preserve">
         <source>Choose Icon</source>
-        <target state="translated">アイコンを選択</target>
+        <target state="translated">アイコンの選択</target>
         <note>Class = "UINavigationItem"; title = "Choose Icon"; ObjectID = "H8v-gf-kff";</note>
       </trans-unit>
       <trans-unit id="jvB-IX-QoY.text" xml:space="preserve" translate="no">
@@ -868,6 +868,16 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="14.2" build-num="14C18"/>
     </header>
     <body>
+      <trans-unit id="CFBundleDisplayName" xml:space="preserve" approved="yes">
+        <source>KeePassium Pro</source>
+        <target state="final">KeePassium Pro</target>
+        <note>Bundle display name</note>
+      </trans-unit>
+      <trans-unit id="CFBundleName" xml:space="preserve" approved="yes">
+        <source>KeePassium Pro</source>
+        <target state="final">KeePassium Pro</target>
+        <note>Bundle name</note>
+      </trans-unit>
       <trans-unit id="KeePass Database (kdb)" xml:space="preserve">
         <source>KeePass Database (kdb)</source>
         <target state="translated">KeePassデータベース (kdb)</target>
@@ -1414,7 +1424,7 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
     <body>
       <trans-unit id="1Nc-wz-Yqq.title" xml:space="preserve">
         <source>Welcome</source>
-        <target state="translated">ようこそ</target>
+        <target state="translated">はじめに</target>
         <note>Class = "UIViewController"; title = "Welcome"; ObjectID = "1Nc-wz-Yqq"; Note = "Onboarding screen shown on first launch";</note>
       </trans-unit>
       <trans-unit id="4wh-8O-5Ch.normalTitle" xml:space="preserve">
@@ -1428,6 +1438,11 @@ You can have multiple databases, for example to separate work, family and person
         <target state="translated">パスワードやクレジットカード、その他の情報は、暗号化されたファイル (データベース) に保存します。 
 複数のデータベースを持つことが可能で、仕事・家族・個人などに分割できます。</target>
         <note>Class = "UILabel"; text = "KeePassium stores your passwords, credit cards and other information in an encrypted file (database). \nYou can have multiple databases, for example to separate work, family and personal accounts."; ObjectID = "PgB-6p-H0t";</note>
+      </trans-unit>
+      <trans-unit id="QE2-z7-uZe.normalTitle" xml:space="preserve" translate="no">
+        <source>{Connect to server}</source>
+        <target state="needs-translation">{Connect to server}</target>
+        <note>Class = "UIButton"; normalTitle = "{Connect to server}"; ObjectID = "QE2-z7-uZe";</note>
       </trans-unit>
       <trans-unit id="ZKW-2f-Xkz.normalTitle" xml:space="preserve">
         <source>Add Existing Database</source>
@@ -1810,6 +1825,11 @@ You can have multiple databases, for example to separate work, family and person
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="14.2" build-num="14C18"/>
     </header>
     <body>
+      <trans-unit id="1LC-s7-Kdl.text" xml:space="preserve">
+        <source>Search in Passwords</source>
+        <target state="needs-translation">Search in Passwords</target>
+        <note>Class = "UILabel"; text = "Search in Passwords"; ObjectID = "1LC-s7-Kdl"; Note = "An switch in settings: whether to include protected field values in search procedure.";</note>
+      </trans-unit>
       <trans-unit id="DJr-hC-DMT.footerTitle" xml:space="preserve">
         <source>After opening a database, automatically show the search field.</source>
         <target state="translated">データベースを開いた後、自動的に検索欄を表示します。</target>

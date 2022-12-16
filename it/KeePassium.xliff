@@ -89,7 +89,7 @@ Se hai bisogno di aiuto, contattaci pure.</target>
       </trans-unit>
       <trans-unit id="P0M-N3-ynf.text" xml:space="preserve">
         <source>Please re-add databases and key files you want to use with the AutoFill feature.</source>
-        <target state="translated">Si prega di ri-aggiungere i database e i file chiave che si desidera utilizzare con la funzione AutoFill.</target>
+        <target state="translated">Si prega di aggiungere nuovamente i database e i file chiave che si desidera utilizzare con la funzione Inserimento automatico.</target>
         <note>Class = "UILabel"; text = "Please re-add databases and key files you want to use with the AutoFill feature."; ObjectID = "P0M-N3-ynf";</note>
       </trans-unit>
       <trans-unit id="UAW-0G-N5G.text" xml:space="preserve" translate="no">
@@ -104,7 +104,7 @@ Se hai bisogno di aiuto, contattaci pure.</target>
       </trans-unit>
       <trans-unit id="pIl-6L-Msp.text" xml:space="preserve">
         <source>AutoFill Setup</source>
-        <target state="translated">Configurazione AutoFill</target>
+        <target state="translated">Configurazione Inserimento automatico</target>
         <note>Class = "UILabel"; text = "AutoFill Setup"; ObjectID = "pIl-6L-Msp";</note>
       </trans-unit>
       <trans-unit id="rzY-Ci-bd9.title" xml:space="preserve">
@@ -121,12 +121,12 @@ Se hai bisogno di aiuto, contattaci pure.</target>
     <body>
       <trans-unit id="CFBundleDisplayName" xml:space="preserve">
         <source>KeePassium AutoFill</source>
-        <target state="translated">Autoriempimento di KeePassium</target>
+        <target state="translated">Inserimento automatico di KeePassium</target>
         <note>Bundle display name</note>
       </trans-unit>
       <trans-unit id="CFBundleName" xml:space="preserve">
         <source>KeePassium AutoFill</source>
-        <target state="translated">Autoriempimento di KeePassium</target>
+        <target state="translated">Inserimento automatico di KeePassium</target>
         <note>Bundle name</note>
       </trans-unit>
       <trans-unit id="NSFaceIDUsageDescription" xml:space="preserve">
@@ -868,6 +868,16 @@ Di conseguenza, sia AutoFill che l'app principale di KeePassium devono avere le 
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="14.2" build-num="14C18"/>
     </header>
     <body>
+      <trans-unit id="CFBundleDisplayName" xml:space="preserve" approved="yes">
+        <source>KeePassium Pro</source>
+        <target state="final">KeePassium Pro</target>
+        <note>Bundle display name</note>
+      </trans-unit>
+      <trans-unit id="CFBundleName" xml:space="preserve" approved="yes">
+        <source>KeePassium Pro</source>
+        <target state="final">KeePassium Pro</target>
+        <note>Bundle name</note>
+      </trans-unit>
       <trans-unit id="KeePass Database (kdb)" xml:space="preserve">
         <source>KeePass Database (kdb)</source>
         <target state="translated">Database di KeePass (kdb)</target>
@@ -1229,7 +1239,7 @@ Di conseguenza, sia AutoFill che l'app principale di KeePassium devono avere le 
       </trans-unit>
       <trans-unit id="kvO-9B-1Sy.text" xml:space="preserve">
         <source>Passphrase wordlists by EFF</source>
-        <target state="needs-translation">Passphrase wordlists by EFF</target>
+        <target state="translated">Lista delle passphrase dell'EFF</target>
         <note>Class = "UILabel"; text = "Passphrase wordlists by EFF"; ObjectID = "kvO-9B-1Sy";</note>
       </trans-unit>
       <trans-unit id="lht-LP-o0Y.text" xml:space="preserve">
@@ -1428,6 +1438,11 @@ You can have multiple databases, for example to separate work, family and person
         <target state="translated">KeePassium memorizza le tue password, carte di credito e altre informazioni in un file crittografato (database). 
 Puoi gestire più database, ad esempio per separare gli account di lavoro, famiglia e personale.</target>
         <note>Class = "UILabel"; text = "KeePassium stores your passwords, credit cards and other information in an encrypted file (database). \nYou can have multiple databases, for example to separate work, family and personal accounts."; ObjectID = "PgB-6p-H0t";</note>
+      </trans-unit>
+      <trans-unit id="QE2-z7-uZe.normalTitle" xml:space="preserve" translate="no">
+        <source>{Connect to server}</source>
+        <target state="needs-translation">{Connect to server}</target>
+        <note>Class = "UIButton"; normalTitle = "{Connect to server}"; ObjectID = "QE2-z7-uZe";</note>
       </trans-unit>
       <trans-unit id="ZKW-2f-Xkz.normalTitle" xml:space="preserve">
         <source>Add Existing Database</source>
@@ -1810,6 +1825,11 @@ Puoi gestire più database, ad esempio per separare gli account di lavoro, famig
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="14.2" build-num="14C18"/>
     </header>
     <body>
+      <trans-unit id="1LC-s7-Kdl.text" xml:space="preserve">
+        <source>Search in Passwords</source>
+        <target state="translated">Ricerca nelle password</target>
+        <note>Class = "UILabel"; text = "Search in Passwords"; ObjectID = "1LC-s7-Kdl"; Note = "An switch in settings: whether to include protected field values in search procedure.";</note>
+      </trans-unit>
       <trans-unit id="DJr-hC-DMT.footerTitle" xml:space="preserve" approved="yes">
         <source>After opening a database, automatically show the search field.</source>
         <target state="final">Dopo l'apertura di un database, mostra automaticamente il campo di ricerca.</target>

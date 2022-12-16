@@ -668,7 +668,7 @@ Como resultado, tanto o Preenchimento Automático quanto o app principal do KeeP
       </trans-unit>
       <trans-unit id="QXa-eN-7am.text" xml:space="preserve">
         <source>This group is empty</source>
-        <target state="translated">Este grupo está vazio</target>
+        <target state="translated">Esse grupo está vazio</target>
         <note>Class = "UILabel"; text = "This group is empty"; ObjectID = "QXa-eN-7am";</note>
       </trans-unit>
       <trans-unit id="RAn-LR-hxd.text" xml:space="preserve" translate="no">
@@ -868,6 +868,16 @@ Como resultado, tanto o Preenchimento Automático quanto o app principal do KeeP
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="14.2" build-num="14C18"/>
     </header>
     <body>
+      <trans-unit id="CFBundleDisplayName" xml:space="preserve" approved="yes">
+        <source>KeePassium Pro</source>
+        <target state="final">KeePassium Pro</target>
+        <note>Bundle display name</note>
+      </trans-unit>
+      <trans-unit id="CFBundleName" xml:space="preserve" approved="yes">
+        <source>KeePassium Pro</source>
+        <target state="final">KeePassium Pro</target>
+        <note>Bundle name</note>
+      </trans-unit>
       <trans-unit id="KeePass Database (kdb)" xml:space="preserve">
         <source>KeePass Database (kdb)</source>
         <target state="translated">Banco de dados KeePass (kdb)</target>
@@ -977,7 +987,7 @@ Como resultado, tanto o Preenchimento Automático quanto o app principal do KeeP
       </trans-unit>
       <trans-unit id="[Entry/Files/Add] This database supports only one attachment per entry, and there is already one." xml:space="preserve">
         <source>This database supports only one attachment per entry, and there is already one.</source>
-        <target state="translated">Este banco de dados suporta apenas um anexo por entrada, e esta já tem um.</target>
+        <target state="translated">Esse banco de dados suporta apenas um anexo por entrada, e esta já tem um.</target>
         <note>Explanation for replacing the only attachment of KeePass1 entry</note>
       </trans-unit>
       <trans-unit id="[Entry/Files/Rename/title] Rename File" xml:space="preserve">
@@ -1429,6 +1439,11 @@ You can have multiple databases, for example to separate work, family and person
 Você pode ter vários bancos de dados; por exemplo, para trabalho, família e uso pessoal.</target>
         <note>Class = "UILabel"; text = "KeePassium stores your passwords, credit cards and other information in an encrypted file (database). \nYou can have multiple databases, for example to separate work, family and personal accounts."; ObjectID = "PgB-6p-H0t";</note>
       </trans-unit>
+      <trans-unit id="QE2-z7-uZe.normalTitle" xml:space="preserve" translate="no">
+        <source>{Connect to server}</source>
+        <target state="needs-translation">{Connect to server}</target>
+        <note>Class = "UIButton"; normalTitle = "{Connect to server}"; ObjectID = "QE2-z7-uZe";</note>
+      </trans-unit>
       <trans-unit id="ZKW-2f-Xkz.normalTitle" xml:space="preserve">
         <source>Add Existing Database</source>
         <target state="translated">Adicionar banco de dados existente</target>
@@ -1575,7 +1590,7 @@ Você pode ter vários bancos de dados; por exemplo, para trabalho, família e u
       </trans-unit>
       <trans-unit id="m50-fl-4tu.footerTitle" xml:space="preserve">
         <source>The app will automatically lock up after this time.</source>
-        <target state="translated">O app será bloqueado automaticamente após este tempo.</target>
+        <target state="translated">O app será bloqueado automaticamente após esse tempo.</target>
         <note>Class = "UITableViewSection"; footerTitle = "The app will automatically lock up after this time."; ObjectID = "m50-fl-4tu";</note>
       </trans-unit>
       <trans-unit id="wzW-GR-02W.text" xml:space="preserve" translate="no">
@@ -1810,6 +1825,11 @@ Você pode ter vários bancos de dados; por exemplo, para trabalho, família e u
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="14.2" build-num="14C18"/>
     </header>
     <body>
+      <trans-unit id="1LC-s7-Kdl.text" xml:space="preserve">
+        <source>Search in Passwords</source>
+        <target state="translated">Pesquisar senhas</target>
+        <note>Class = "UILabel"; text = "Search in Passwords"; ObjectID = "1LC-s7-Kdl"; Note = "An switch in settings: whether to include protected field values in search procedure.";</note>
+      </trans-unit>
       <trans-unit id="DJr-hC-DMT.footerTitle" xml:space="preserve">
         <source>After opening a database, automatically show the search field.</source>
         <target state="translated">Ao abrir um banco de dados, mostrar automaticamente o campo de busca.</target>

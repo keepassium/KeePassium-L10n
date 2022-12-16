@@ -21,11 +21,11 @@
 This can happen with large databases or memory-demanding database settings (Argon2).
 
 Please contact us if you need help with this.</source>
-        <target state="translated">Il semblerait que le remplissage automatique ne se soit pas terminé correctement à la dernière utilisation. 
+        <target state="translated">Il semble que Remplissage automatique ne se soit pas correctement fermé lors de sa dernière utilisation.
 
-Cela peut se produire avec les bases de données volumineuses ou des paramètres exigeants en mémoire (Argon2).
+Cela peut se produire avec des bases de données volumineuses ou des paramètres de base de données exigeants en mémoire (Argon2).
 
-Veuillez nous contacter si vous avez besoin d'aide à ce sujet.</target>
+Veuillez nous contacter si vous avez besoin d'aide à sujet.</target>
         <note>Class = "UILabel"; text = "It seems that AutoFill did not close correctly the last time. \n\nThis can happen with large databases or memory-demanding database settings (Argon2).\n\nPlease contact us if you need help with this."; ObjectID = "kmV-si-Nrg";</note>
       </trans-unit>
       <trans-unit id="zvf-PV-5l4.title" xml:space="preserve">
@@ -72,7 +72,7 @@ Veuillez nous contacter si vous avez besoin d'aide à ce sujet.</target>
       </trans-unit>
       <trans-unit id="yLY-eZ-iAh.text" xml:space="preserve">
         <source>Related Entries</source>
-        <target state="translated">Entrées liées</target>
+        <target state="translated">Entrées connexes</target>
         <note>Class = "UILabel"; text = "Related Entries"; ObjectID = "yLY-eZ-iAh"; Note = "Title of a list of entries similar to (but not exactly matching) the search query.";</note>
       </trans-unit>
     </body>
@@ -89,7 +89,7 @@ Veuillez nous contacter si vous avez besoin d'aide à ce sujet.</target>
       </trans-unit>
       <trans-unit id="P0M-N3-ynf.text" xml:space="preserve">
         <source>Please re-add databases and key files you want to use with the AutoFill feature.</source>
-        <target state="translated">Veuillez ajouter à nouveau les bases de données et les fichiers clés que vous souhaitez utiliser avec la fonction Remplissage automatique.</target>
+        <target state="translated">Veuillez ajouter à nouveau les bases de données et les fichiers clés que vous voulez utiliser avec la fonctionnalité Remplissage automatique.</target>
         <note>Class = "UILabel"; text = "Please re-add databases and key files you want to use with the AutoFill feature."; ObjectID = "P0M-N3-ynf";</note>
       </trans-unit>
       <trans-unit id="UAW-0G-N5G.text" xml:space="preserve" translate="no">
@@ -99,12 +99,12 @@ Veuillez nous contacter si vous avez besoin d'aide à ce sujet.</target>
       </trans-unit>
       <trans-unit id="enW-gs-tra.normalTitle" xml:space="preserve">
         <source>Add Database</source>
-        <target state="translated">Ajouter une base de données</target>
+        <target state="translated">Ajouter base de données</target>
         <note>Class = "UIButton"; normalTitle = "Add Database"; ObjectID = "enW-gs-tra";</note>
       </trans-unit>
       <trans-unit id="pIl-6L-Msp.text" xml:space="preserve">
         <source>AutoFill Setup</source>
-        <target state="translated">AutoFill Setup</target>
+        <target state="translated">Configuration du Remplissage automatique</target>
         <note>Class = "UILabel"; text = "AutoFill Setup"; ObjectID = "pIl-6L-Msp";</note>
       </trans-unit>
       <trans-unit id="rzY-Ci-bd9.title" xml:space="preserve">
@@ -131,7 +131,7 @@ Veuillez nous contacter si vous avez besoin d'aide à ce sujet.</target>
       </trans-unit>
       <trans-unit id="NSFaceIDUsageDescription" xml:space="preserve">
         <source>Use FaceID to unlock KeePassium</source>
-        <target state="translated">Utilisez FaceID pour déverrouiller KeePassium</target>
+        <target state="translated">Utilisez Face ID pour déverrouiller KeePassium</target>
         <note>Privacy - Face ID Usage Description</note>
       </trans-unit>
     </body>
@@ -143,7 +143,7 @@ Veuillez nous contacter si vous avez besoin d'aide à ce sujet.</target>
     <body>
       <trans-unit id="[AutoFill/Search/callerID]" xml:space="preserve">
         <source>Caller ID: %@</source>
-        <target state="translated">ID de l'appelant : %@</target>
+        <target state="translated">ID d'appel : %@</target>
         <note>An identifier of the app that called AutoFill. The term is intentionally similar to https://ru.wikipedia.org/wiki/Caller_ID. [callerID: String]</note>
       </trans-unit>
       <trans-unit id="[AutoFill/Setup/footer]" xml:space="preserve">
@@ -152,11 +152,11 @@ Veuillez nous contacter si vous avez besoin d'aide à ce sujet.</target>
 Why? Behind the scenes, the system treats AutoFill as a separate app, independent from the main KeePassium process. For security reasons, an app cannot simply access any external files – unless you explicitly link these files to that app. Thus the system guarantees that the app can only access the few files you allowed it to.
 
 As a result, both AutoFill and the main KeePassium app need to be given their own permissions for each external file. Luckily, this is a one-time procedure.</source>
-        <target state="translated">Le remplissage automatique ne peut pas accéder automatiquement aux fichiers que vous avez déjà dans l'application principale KeePassium.
+        <target state="translated">Le Remplissage automatique ne peut pas accéder automatiquement aux fichiers que vous avez déjà dans l'application principale KeePassium.
 
-Pourquoi ? En coulisse, le système traite le remplissage automatique comme une application séparée, indépendante du processus principal de KeePassium. Pour des raisons de sécurité, une application ne peut pas simplement accéder à des fichiers externes, à moins que vous ne liez explicitement ces fichiers à cette application. Ainsi, le système garantit que l'application ne peut accéder qu'aux quelques fichiers que vous avez autorisés.
+Pourquoi ? En coulisses, le système traite la fonction de Remplissage automatique comme une application distincte, indépendante du processus principal de KeePassium. Pour des raisons de sécurité, une application ne peut simplement pas accéder à des fichiers externes – sauf si vous liez explicitement ces fichiers à cette application. Ainsi, le système garantit que l'application ne peut accéder qu'aux quelques fichiers dont vous avez autorisé l'accès.
 
-En conséquence, le remplissage automatique et l'application principale KeePassium doivent avoir leurs propres permissions pour chaque fichier externe. Heureusement, il s'agit d'une procédure unique.</target>
+Par conséquent, la fonction de Remplissage automatique et l'application principale KeePassium doivent avoir leurs propres autorisations pour chaque fichier externe. Heureusement, il s'agit d'une procédure unique.</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="[ProtectedTextField] Show Password" xml:space="preserve">
@@ -166,7 +166,7 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
       </trans-unit>
       <trans-unit id="[QuickAutoFill/Activate/callToAction]" xml:space="preserve">
         <source>Activate Quick AutoFill</source>
-        <target state="translated">Activer le remplissage automatique rapide</target>
+        <target state="translated">Activer le Remplissage automatique rapide</target>
         <note>Call to action, invites the user to enable the Quick AutoFill feature</note>
       </trans-unit>
     </body>
@@ -183,22 +183,22 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
       </trans-unit>
       <trans-unit id="VjQ-di-Ilx.text" xml:space="preserve">
         <source>Master Key</source>
-        <target state="translated">Clé maîtresse</target>
+        <target state="translated">Clé principale</target>
         <note>Class = "UILabel"; text = "Master Key"; ObjectID = "VjQ-di-Ilx"; Note = "Common title for the password/key file fields.";</note>
       </trans-unit>
       <trans-unit id="XNL-lc-2Ti.placeholder" xml:space="preserve">
         <source>e.g. MyPasswords</source>
-        <target state="translated">Ex: mon mot de passe</target>
+        <target state="translated">Exemple : mes mots de passe</target>
         <note>Class = "UITextField"; placeholder = "e.g. MyPasswords"; ObjectID = "XNL-lc-2Ti"; Note = "Default name for a new database.";</note>
       </trans-unit>
       <trans-unit id="XNL-lc-2Ti.text" xml:space="preserve">
         <source>MyPasswords</source>
-        <target state="translated">MonMotsDePasse</target>
+        <target state="translated">Mes mots de passe</target>
         <note>Class = "UITextField"; text = "MyPasswords"; ObjectID = "XNL-lc-2Ti"; Note = "Default name for a new database.";</note>
       </trans-unit>
       <trans-unit id="XVR-1N-ywy.text" xml:space="preserve">
         <source>Will use kdbx4 format (Argon2+ChaCha20)</source>
-        <target state="translated">Utilisera le format kdbx4 (Argon2+ChaChaCha20)</target>
+        <target state="translated">Utilisera le format kdbx4 (Argon2+ChaCha20)</target>
         <note>Class = "UILabel"; text = "Will use kdbx4 format (Argon2+ChaCha20)"; ObjectID = "XVR-1N-ywy"; Note = "Hint about the default format of new databases.";</note>
       </trans-unit>
       <trans-unit id="dhd-je-Doc.title" xml:space="preserve" translate="no">
@@ -213,7 +213,7 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
       </trans-unit>
       <trans-unit id="pvt-FS-0Yx.placeholder" xml:space="preserve">
         <source>No Key File</source>
-        <target state="translated">Aucun fichier-clé</target>
+        <target state="translated">Aucun fichier clé</target>
         <note>Class = "UITextField"; placeholder = "No Key File"; ObjectID = "pvt-FS-0Yx"; Note = "Placeholder: don't use key file (should match the No Key File option in key file picker).";</note>
       </trans-unit>
       <trans-unit id="uHk-Yt-mBh.placeholder" xml:space="preserve">
@@ -235,17 +235,17 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
     <body>
       <trans-unit id="JKD-iF-iwA.title" xml:space="preserve">
         <source>Change Master Key</source>
-        <target state="translated">Modifier la clé maître</target>
+        <target state="translated">Modifier la clé principale</target>
         <note>Class = "UINavigationItem"; title = "Change Master Key"; ObjectID = "JKD-iF-iwA"; Note = "Title of the dialog for changing the database's master key.";</note>
       </trans-unit>
       <trans-unit id="M9Q-v8-e6Q.placeholder" xml:space="preserve">
         <source>No Key File</source>
-        <target state="translated">Aucun fichier-clé</target>
+        <target state="translated">Aucun fichier clé</target>
         <note>Class = "UITextField"; placeholder = "No Key File"; ObjectID = "M9Q-v8-e6Q"; Note = "Placeholder: don't use key file (should match the No Key File option in key file picker).";</note>
       </trans-unit>
       <trans-unit id="SHG-X2-fHH.placeholder" xml:space="preserve">
         <source>Repeat Password</source>
-        <target state="translated">Répéter le mot de passe</target>
+        <target state="translated">Répétez le mot de passe</target>
         <note>Class = "UITextField"; placeholder = "Repeat Password"; ObjectID = "SHG-X2-fHH"; Note = "Placeholder: the second text field for changing the master password";</note>
       </trans-unit>
       <trans-unit id="hYP-f0-K1s.placeholder" xml:space="preserve">
@@ -287,7 +287,7 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
       </trans-unit>
       <trans-unit id="lnO-nD-gvh.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" xml:space="preserve">
         <source>Sort Order</source>
-        <target state="translated">Ordre de tri</target>
+        <target state="translated">Trier par</target>
         <note>Class = "UIBarButtonItem"; lnO-nD-gvh.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Sort Order"; ObjectID = "lnO-nD-gvh"; Note = "Action: show sorting settings of database files";</note>
       </trans-unit>
       <trans-unit id="oee-CI-r2x.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" xml:space="preserve">
@@ -297,7 +297,7 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
       </trans-unit>
       <trans-unit id="qPq-UR-uZs.title" xml:space="preserve">
         <source>Add Database</source>
-        <target state="translated">Ajouter une base de données</target>
+        <target state="translated">Ajouter base de données</target>
         <note>Class = "UIBarButtonItem"; title = "Add Database"; ObjectID = "qPq-UR-uZs"; Note = "Action: add database (either an existing file or create a new one)";</note>
       </trans-unit>
       <trans-unit id="rWy-ey-805.text" xml:space="preserve" translate="no">
@@ -329,7 +329,7 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
       </trans-unit>
       <trans-unit id="6Mx-Oh-6m0.accessibilityHint" xml:space="preserve">
         <source>Expands a text field to its full height</source>
-        <target state="translated">Agrandir le champ de texte à sa pleine hauteur</target>
+        <target state="translated">Développe un champ de texte sur toute sa hauteur</target>
         <note>Class = "UIButton"; accessibilityHint = "Expands a text field to its full height"; ObjectID = "6Mx-Oh-6m0";</note>
       </trans-unit>
       <trans-unit id="6Mx-Oh-6m0.accessibilityLabel" xml:space="preserve">
@@ -391,7 +391,7 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
       </trans-unit>
       <trans-unit id="W86-tp-bfF.text" xml:space="preserve">
         <source>There are no attached files</source>
-        <target state="translated">Il n'y a aucun fichier joint</target>
+        <target state="translated">Il n'y a pas de fichiers joints</target>
         <note>Class = "UILabel"; text = "There are no attached files"; ObjectID = "W86-tp-bfF"; Note = "Placeholder shown when there are no attached files in the entry.";</note>
       </trans-unit>
       <trans-unit id="WUw-Hm-GLz.text" xml:space="preserve" translate="no">
@@ -532,7 +532,7 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
       </trans-unit>
       <trans-unit id="ecN-Xd-ff5.accessibilityLabel" xml:space="preserve" approved="yes">
         <source>Custom field name</source>
-        <target state="final">Valeur du champ personnalisé</target>
+        <target state="final">Nom de champ personnalisé</target>
         <note>Class = "UITextField"; accessibilityLabel = "Custom field name"; ObjectID = "ecN-Xd-ff5";</note>
       </trans-unit>
       <trans-unit id="ecN-Xd-ff5.placeholder" xml:space="preserve">
@@ -710,7 +710,7 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
     <body>
       <trans-unit id="fH6-bS-mDZ.title" xml:space="preserve">
         <source>Choose Hardware Key</source>
-        <target state="translated">Choisir votre clé matérielle</target>
+        <target state="translated">Choix de la clef matérielle</target>
         <note>Class = "UITableViewController"; title = "Choose Hardware Key"; ObjectID = "fH6-bS-mDZ"; Note = "Title of the hardware key selector (e.g. for YubiKey)";</note>
       </trans-unit>
       <trans-unit id="v2F-pa-TaY.text" xml:space="preserve" translate="no">
@@ -744,22 +744,22 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
     <body>
       <trans-unit id="9UZ-FK-v73.text" xml:space="preserve">
         <source>No Key File</source>
-        <target state="translated">Aucun fichier-clé</target>
+        <target state="translated">Aucun fichier clé</target>
         <note>Class = "UILabel"; text = "No Key File"; ObjectID = "9UZ-FK-v73";</note>
       </trans-unit>
       <trans-unit id="BGv-TX-maE.text" xml:space="preserve">
         <source>Use key file without adding it to the list</source>
-        <target state="translated">Utiliser un fichier-clé sans l'ajouter à la liste</target>
+        <target state="translated">Utiliser un fichier clé sans l'ajouter à la liste</target>
         <note>Class = "UILabel"; text = "Use key file without adding it to the list"; ObjectID = "BGv-TX-maE"; Note = "Explanation for the \"Key File/Browse\" action.";</note>
       </trans-unit>
       <trans-unit id="Lod-RE-tcd.title" xml:space="preserve">
         <source>Add Key File</source>
-        <target state="translated">Ajouter un fichier-clé</target>
+        <target state="translated">Ajouter un fichier clé</target>
         <note>Class = "UIBarButtonItem"; title = "Add Key File"; ObjectID = "Lod-RE-tcd";</note>
       </trans-unit>
       <trans-unit id="Omh-Sn-jl2.normalTitle" xml:space="preserve">
         <source>Add Key File</source>
-        <target state="translated">Ajouter un fichier-clé</target>
+        <target state="translated">Ajouter un fichier clé</target>
         <note>Class = "UIButton"; normalTitle = "Add Key File"; ObjectID = "Omh-Sn-jl2";</note>
       </trans-unit>
       <trans-unit id="XiA-k9-5wr.text" xml:space="preserve">
@@ -784,7 +784,7 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
       </trans-unit>
       <trans-unit id="r85-yz-wYI.title" xml:space="preserve">
         <source>Key Files</source>
-        <target state="translated">Fichiers-clé</target>
+        <target state="translated">Fichiers clés</target>
         <note>Class = "UINavigationItem"; title = "Key Files"; ObjectID = "r85-yz-wYI";</note>
       </trans-unit>
     </body>
@@ -843,7 +843,7 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
       </trans-unit>
       <trans-unit id="epu-yU-Lyg.text" xml:space="preserve">
         <source>Database was closed by a timer.</source>
-        <target state="translated">La base de données a été fermée par le minuteur.</target>
+        <target state="translated">La base de données a été fermée par un minuteur.</target>
         <note>Class = "UILabel"; text = "Database was closed by a timer."; ObjectID = "epu-yU-Lyg"; Note = "Notification message shown by database lock timer.";</note>
       </trans-unit>
       <trans-unit id="gji-1x-co5.normalTitle" xml:space="preserve">
@@ -858,7 +858,7 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
       </trans-unit>
       <trans-unit id="mYY-hP-3vH.placeholder" xml:space="preserve">
         <source>No Key File</source>
-        <target state="translated">Aucun fichier-clé</target>
+        <target state="translated">Aucun fichier clé</target>
         <note>Class = "UITextField"; placeholder = "No Key File"; ObjectID = "mYY-hP-3vH"; Note = "Placeholder: don't use key file (should match the No Key File option in key file picker).";</note>
       </trans-unit>
     </body>
@@ -868,6 +868,16 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="14.2" build-num="14C18"/>
     </header>
     <body>
+      <trans-unit id="CFBundleDisplayName" xml:space="preserve" approved="yes">
+        <source>KeePassium Pro</source>
+        <target state="final">KeePassium Pro</target>
+        <note>Bundle display name</note>
+      </trans-unit>
+      <trans-unit id="CFBundleName" xml:space="preserve" approved="yes">
+        <source>KeePassium Pro</source>
+        <target state="final">KeePassium Pro</target>
+        <note>Bundle name</note>
+      </trans-unit>
       <trans-unit id="KeePass Database (kdb)" xml:space="preserve">
         <source>KeePass Database (kdb)</source>
         <target state="translated">Base de données KeePass (kdb)</target>
@@ -880,17 +890,17 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
       </trans-unit>
       <trans-unit id="NFCReaderUsageDescription" xml:space="preserve">
         <source>KeePassium needs access to NFC to communicate with your YubiKey.</source>
-        <target state="translated">KeePassium nécessite d'accéder au NFC pour communiquer avec votre Yubikey.</target>
+        <target state="translated">KeePassium a besoin d'un accès au NFC pour communiquer avec votre YubiKey.</target>
         <note>Privacy - NFC Scan Usage Description</note>
       </trans-unit>
       <trans-unit id="NSCameraUsageDescription" xml:space="preserve">
         <source>KeePassium needs the camera to scan QR codes.</source>
-        <target state="translated">KeePassium a besoin de la caméra pour scanner les codes QR.</target>
+        <target state="translated">KeePassium a besoin de l'appareil photo pour scanner les codes QR.</target>
         <note>Privacy - Camera Usage Description</note>
       </trans-unit>
       <trans-unit id="NSFaceIDUsageDescription" xml:space="preserve">
         <source>Use FaceID to unlock KeePassium</source>
-        <target state="translated">Utilisez FaceID pour déverrouiller KeePassium</target>
+        <target state="translated">Utilisez Face ID pour déverrouiller KeePassium</target>
         <note>Privacy - Face ID Usage Description</note>
       </trans-unit>
       <trans-unit id="NSPhotoLibraryAddUsageDescription" xml:space="preserve">
@@ -912,27 +922,27 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
     <body>
       <trans-unit id="[AppHistory/title]" xml:space="preserve">
         <source>What's New</source>
-        <target state="translated">Les nouveautés</target>
+        <target state="translated">Nouveautés</target>
         <note>Title of the app history (changelog) screen</note>
       </trans-unit>
       <trans-unit id="[Database/Create/TemplateEntry/notes] You can also store some notes, if you like." xml:space="preserve">
         <source>You can also store some notes, if you like.</source>
-        <target state="translated">Vous pouvez également stocker des notes, si vous le souhaitez.</target>
+        <target state="translated">Si vous le souhaitez, vous pouvez également enregistrer quelques notes.</target>
         <note>Note for a sample entry</note>
       </trans-unit>
       <trans-unit id="[Database/Create/TemplateEntry/password] pa$$word" xml:space="preserve">
         <source>pa$$word</source>
-        <target state="translated">pa$$word</target>
+        <target state="translated">Mot de pa$$e</target>
         <note>Password for a sample entry. Translation is optional.</note>
       </trans-unit>
       <trans-unit id="[Database/Create/TemplateEntry/title] Sample Entry" xml:space="preserve">
         <source>Sample Entry</source>
-        <target state="translated">Échantillon d'entrée</target>
+        <target state="translated">Exemple d'entrée</target>
         <note>Title for a sample entry</note>
       </trans-unit>
       <trans-unit id="[Database/Create/TemplateEntry/userName] john.smith" xml:space="preserve">
         <source>john.smith</source>
-        <target state="translated">françois.pignon</target>
+        <target state="translated">jean.dupont</target>
         <note>User name for a sample entry. Set it to a typical person name for your language ( https://en.wikipedia.org/wiki/List_of_placeholder_names_by_language).</note>
       </trans-unit>
       <trans-unit id="[Database/Create/TemplateGroup/title] Email" xml:space="preserve">
@@ -942,7 +952,7 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
       </trans-unit>
       <trans-unit id="[Database/Create/TemplateGroup/title] Finance" xml:space="preserve">
         <source>Finance</source>
-        <target state="translated">Finance</target>
+        <target state="translated">Finances</target>
         <note>Predefined group in a new database</note>
       </trans-unit>
       <trans-unit id="[Database/Create/TemplateGroup/title] General" xml:space="preserve">
@@ -967,7 +977,7 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
       </trans-unit>
       <trans-unit id="[Database/Create] Please enter a password or choose a key file." xml:space="preserve">
         <source>Please enter a password or choose a key file.</source>
-        <target state="translated">Veuillez entrer un mot de passe ou choisir un fichier de clé.</target>
+        <target state="translated">Veuillez entrer un mot de passe ou choisir un fichier clé.</target>
         <note>Hint shown when both password and key file are empty.</note>
       </trans-unit>
       <trans-unit id="[Entry/Files/Add] Replace existing attachment?" xml:space="preserve">
@@ -982,7 +992,7 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
       </trans-unit>
       <trans-unit id="[Entry/Files/Rename/title] Rename File" xml:space="preserve">
         <source>Rename File</source>
-        <target state="translated">Renommer Le Fichier</target>
+        <target state="translated">Renommer le fichier</target>
         <note>Title of a dialog for renaming an attached file</note>
       </trans-unit>
       <trans-unit id="[Menu/About/title]" xml:space="preserve">
@@ -1044,12 +1054,12 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
       </trans-unit>
       <trans-unit id="86n-Hc-6m7.text" xml:space="preserve">
         <source>CC BY 3.0</source>
-        <target state="translated">CC PAR 3.0</target>
+        <target state="translated">CC BY 3.0</target>
         <note>Class = "UILabel"; text = "CC BY 3.0"; ObjectID = "86n-Hc-6m7";</note>
       </trans-unit>
       <trans-unit id="AMd-x7-PDa.text" xml:space="preserve">
         <source>Do you like what you see?</source>
-        <target state="translated">Vous aimez ce que vous voyez ?</target>
+        <target state="translated">Aimez-vous ce que vous voyez ?</target>
         <note>Class = "UILabel"; text = "Do you like what you see?"; ObjectID = "AMd-x7-PDa"; Note = "First part of the 'Do you like what you see? / Leave an App Store review.\"";</note>
       </trans-unit>
       <trans-unit id="AWg-lI-BfC.text" xml:space="preserve">
@@ -1109,7 +1119,7 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
       </trans-unit>
       <trans-unit id="OaP-Bl-5vR.text" xml:space="preserve">
         <source>TPInAppReceipt by Pavel Tikhonenko</source>
-        <target state="translated">TPInAppReceipt de Pavel Tikhonenko</target>
+        <target state="translated">TPInAppReceipt par Pavel Tikhonenko</target>
         <note>Class = "UILabel"; text = "TPInAppReceipt by Pavel Tikhonenko"; ObjectID = "OaP-Bl-5vR";</note>
       </trans-unit>
       <trans-unit id="QV5-N8-NRt.text" xml:space="preserve">
@@ -1134,7 +1144,7 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
       </trans-unit>
       <trans-unit id="TOl-DA-gYc.text" xml:space="preserve">
         <source>Contact Support</source>
-        <target state="translated">Contacter le support technique</target>
+        <target state="translated">Contactez l'assistance technique</target>
         <note>Class = "UILabel"; text = "Contact Support"; ObjectID = "TOl-DA-gYc"; Note = "Action: contact us";</note>
       </trans-unit>
       <trans-unit id="VuB-ng-Uii.text" xml:space="preserve" approved="yes">
@@ -1199,7 +1209,7 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
       </trans-unit>
       <trans-unit id="hVm-qH-TAI.text" xml:space="preserve">
         <source>CC BY 3.0</source>
-        <target state="translated">CC PAR 3.0</target>
+        <target state="translated">CC BY 3.0</target>
         <note>Class = "UILabel"; text = "CC BY 3.0"; ObjectID = "hVm-qH-TAI";</note>
       </trans-unit>
       <trans-unit id="hW0-fR-mIf.text" xml:space="preserve" approved="yes">
@@ -1229,7 +1239,7 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
       </trans-unit>
       <trans-unit id="kvO-9B-1Sy.text" xml:space="preserve">
         <source>Passphrase wordlists by EFF</source>
-        <target state="translated">Liste de mots EFF pour phrases secrètes</target>
+        <target state="translated">Listes de phrase de passe par EFF</target>
         <note>Class = "UILabel"; text = "Passphrase wordlists by EFF"; ObjectID = "kvO-9B-1Sy";</note>
       </trans-unit>
       <trans-unit id="lht-LP-o0Y.text" xml:space="preserve">
@@ -1249,12 +1259,12 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
       </trans-unit>
       <trans-unit id="r7M-Gb-1Xd.text" xml:space="preserve">
         <source>Toast-Swift by Charles Scalesse</source>
-        <target state="translated">Toast-Swift développé par Charles Scalesse</target>
+        <target state="translated">Toast-Swift par Charles Scalesse</target>
         <note>Class = "UILabel"; text = "Toast-Swift by Charles Scalesse"; ObjectID = "r7M-Gb-1Xd";</note>
       </trans-unit>
       <trans-unit id="rDJ-4G-8Oz.text" xml:space="preserve">
         <source>Argon2 by Daniel Dinu, Dmitry Khovratovich, Jean-Philippe Aumasson, and Samuel Neves</source>
-        <target state="translated">Argon2 de Daniel Dinu, Dmitry Khovratovich, Jean-Philippe Aumasson, et Samuel Neves</target>
+        <target state="translated">Argon2 par Daniel Dinu, Dmitry Khovratovich, Jean-Philippe Aumasson et Samuel Neves</target>
         <note>Class = "UILabel"; text = "Argon2 by Daniel Dinu, Dmitry Khovratovich, Jean-Philippe Aumasson, and Samuel Neves"; ObjectID = "rDJ-4G-8Oz";</note>
       </trans-unit>
       <trans-unit id="sCk-Se-Vvo.text" xml:space="preserve">
@@ -1274,12 +1284,12 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
       </trans-unit>
       <trans-unit id="tOr-N9-2UY.text" xml:space="preserve">
         <source>Feather icons by Cole Bemis</source>
-        <target state="translated">Icônes plume par Cole Bemis</target>
+        <target state="translated">Feather icons par Cole Bemis</target>
         <note>Class = "UILabel"; text = "Feather icons by Cole Bemis"; ObjectID = "tOr-N9-2UY";</note>
       </trans-unit>
       <trans-unit id="uiw-Qh-pNp.text" xml:space="preserve">
         <source>Leave an App Store review.</source>
-        <target state="translated">Laisser un avis sur l'App Store.</target>
+        <target state="translated">Laissez un avis sur l'App Store</target>
         <note>Class = "UILabel"; text = "Leave an App Store review."; ObjectID = "uiw-Qh-pNp"; Note = "Second part of the 'Do you like what you see? / Leave an App Store review.\"";</note>
       </trans-unit>
       <trans-unit id="vDg-fF-8ty.text" xml:space="preserve" translate="no">
@@ -1311,7 +1321,7 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
       </trans-unit>
       <trans-unit id="P3J-3c-ucU.title" xml:space="preserve">
         <source>Unlock KeePassium</source>
-        <target state="translated">Débloquer KeePassium</target>
+        <target state="translated">Déverrouiller KeePassium</target>
         <note>Class = "UINavigationItem"; title = "Unlock KeePassium"; ObjectID = "P3J-3c-ucU";</note>
       </trans-unit>
       <trans-unit id="ZTd-Zj-qAs.placeholder" xml:space="preserve">
@@ -1414,24 +1424,29 @@ En conséquence, le remplissage automatique et l'application principale KeePassi
     <body>
       <trans-unit id="1Nc-wz-Yqq.title" xml:space="preserve">
         <source>Welcome</source>
-        <target state="translated">Bienvenu(e)</target>
+        <target state="translated">Bienvenue</target>
         <note>Class = "UIViewController"; title = "Welcome"; ObjectID = "1Nc-wz-Yqq"; Note = "Onboarding screen shown on first launch";</note>
       </trans-unit>
       <trans-unit id="4wh-8O-5Ch.normalTitle" xml:space="preserve">
         <source>Create New Database</source>
-        <target state="translated">Créer une nouvelle base de données</target>
+        <target state="translated">Créer nouvelle base de données</target>
         <note>Class = "UIButton"; normalTitle = "Create New Database"; ObjectID = "4wh-8O-5Ch";</note>
       </trans-unit>
       <trans-unit id="PgB-6p-H0t.text" xml:space="preserve">
         <source>KeePassium stores your passwords, credit cards and other information in an encrypted file (database). 
 You can have multiple databases, for example to separate work, family and personal accounts.</source>
-        <target state="translated">KeePassium stocke vos mots de passe, cartes de crédit et autres informations dans un fichier crypté (base de données). 
+        <target state="translated">KeePassium stocke vos mots de passe, cartes de crédit et autres informations dans un fichier chiffré (base de données). 
 Vous pouvez avoir plusieurs bases de données, par exemple pour séparer le travail, la famille et les comptes personnels.</target>
         <note>Class = "UILabel"; text = "KeePassium stores your passwords, credit cards and other information in an encrypted file (database). \nYou can have multiple databases, for example to separate work, family and personal accounts."; ObjectID = "PgB-6p-H0t";</note>
       </trans-unit>
+      <trans-unit id="QE2-z7-uZe.normalTitle" xml:space="preserve" translate="no">
+        <source>{Connect to server}</source>
+        <target state="needs-translation">{Connect to server}</target>
+        <note>Class = "UIButton"; normalTitle = "{Connect to server}"; ObjectID = "QE2-z7-uZe";</note>
+      </trans-unit>
       <trans-unit id="ZKW-2f-Xkz.normalTitle" xml:space="preserve">
         <source>Add Existing Database</source>
-        <target state="translated">Ajouter une base de données existante</target>
+        <target state="translated">Ajouter base de données existante</target>
         <note>Class = "UIButton"; normalTitle = "Add Existing Database"; ObjectID = "ZKW-2f-Xkz";</note>
       </trans-unit>
     </body>
@@ -1473,7 +1488,7 @@ Vous pouvez avoir plusieurs bases de données, par exemple pour séparer le trav
       </trans-unit>
       <trans-unit id="NSz-U1-2ye.normalTitle" xml:space="preserve">
         <source>Terms and Conditions</source>
-        <target state="translated">Conditions générales</target>
+        <target state="translated">Termes et conditions</target>
         <note>Class = "UIButton"; normalTitle = "Terms and Conditions"; ObjectID = "NSz-U1-2ye";</note>
       </trans-unit>
       <trans-unit id="cEd-4Y-m9a.text" xml:space="preserve" translate="no">
@@ -1535,12 +1550,12 @@ Vous pouvez avoir plusieurs bases de données, par exemple pour séparer le trav
       </trans-unit>
       <trans-unit id="7ae-8I-LiQ.footerTitle" xml:space="preserve">
         <source>Allows biometric authentication as a quick (but less secure) alternative to AppLock passcode.</source>
-        <target state="translated">Permet l'authentification biométrique en tant qu'alternative rapide (mais moins sécurisée) au code d'accès AppLock.</target>
+        <target state="translated">Permet l'authentification biométrique comme une alternative rapide (mais moins sûre) au code d'accès AppLock.</target>
         <note>Class = "UITableViewSection"; footerTitle = "Allows biometric authentication as a quick (but less secure) alternative to AppLock passcode."; ObjectID = "7ae-8I-LiQ"; Note = "AppLock settings section: biometric auth (Touch ID/Face ID)";</note>
       </trans-unit>
       <trans-unit id="7ae-8I-LiQ.headerTitle" xml:space="preserve">
         <source>Biometrics</source>
-        <target state="translated">Biométriques</target>
+        <target state="translated">Biométrie</target>
         <note>Class = "UITableViewSection"; headerTitle = "Biometrics"; ObjectID = "7ae-8I-LiQ"; Note = "AppLock settings section: biometric auth (Touch ID/Face ID)";</note>
       </trans-unit>
       <trans-unit id="Ef4-Jw-xeO.text" xml:space="preserve">
@@ -1560,7 +1575,7 @@ Vous pouvez avoir plusieurs bases de données, par exemple pour séparer le trav
       </trans-unit>
       <trans-unit id="IS1-Lb-MFy.text" xml:space="preserve">
         <source>Enable AppLock</source>
-        <target state="translated">Activer le verrou d'applications</target>
+        <target state="translated">Activer AppLock</target>
         <note>Class = "UILabel"; text = "Enable AppLock"; ObjectID = "IS1-Lb-MFy";</note>
       </trans-unit>
       <trans-unit id="U5m-je-MhO.title" xml:space="preserve" translate="no">
@@ -1570,12 +1585,12 @@ Vous pouvez avoir plusieurs bases de données, par exemple pour séparer le trav
       </trans-unit>
       <trans-unit id="aBx-Ee-bMk.footerTitle" xml:space="preserve">
         <source>Protect KeePassium from unauthorized access.</source>
-        <target state="translated">Protéger KeePassium contre les accès non autorisés.</target>
+        <target state="translated">Protège KeePassium des accès non autorisés.</target>
         <note>Class = "UITableViewSection"; footerTitle = "Protect KeePassium from unauthorized access."; ObjectID = "aBx-Ee-bMk"; Note = "Explanation for the `Enable AppLock` option.";</note>
       </trans-unit>
       <trans-unit id="m50-fl-4tu.footerTitle" xml:space="preserve">
         <source>The app will automatically lock up after this time.</source>
-        <target state="translated">L'application se verrouille automatiquement après ce délai.</target>
+        <target state="translated">L'application va se verrouiller automatiquement après ce délai.</target>
         <note>Class = "UITableViewSection"; footerTitle = "The app will automatically lock up after this time."; ObjectID = "m50-fl-4tu";</note>
       </trans-unit>
       <trans-unit id="wzW-GR-02W.text" xml:space="preserve" translate="no">
@@ -1629,7 +1644,7 @@ Vous pouvez avoir plusieurs bases de données, par exemple pour séparer le trav
       </trans-unit>
       <trans-unit id="Lh3-CB-Urp.footerTitle" xml:space="preserve">
         <source>Hide passwords and other protected fields behind asterisks (recommended).</source>
-        <target state="translated">Masquer les mots de passe et les autres champs protégés derrière des astérisques (recommandé).</target>
+        <target state="translated">Masque les mots de passes et autres champs protégés par des astérisques (recommandé).</target>
         <note>Class = "UITableViewSection"; footerTitle = "Hide passwords and other protected fields behind asterisks (recommended)."; ObjectID = "Lh3-CB-Urp";</note>
       </trans-unit>
       <trans-unit id="Lh3-CB-Urp.headerTitle" xml:space="preserve">
@@ -1649,7 +1664,7 @@ Vous pouvez avoir plusieurs bases de données, par exemple pour séparer le trav
       </trans-unit>
       <trans-unit id="fSx-Do-lgu.text" xml:space="preserve">
         <source>App Icon</source>
-        <target state="translated">Icône d'application</target>
+        <target state="translated">Icône de l'application</target>
         <note>Class = "UILabel"; text = "App Icon"; ObjectID = "fSx-Do-lgu"; Note = "Section in settings: icon for the app";</note>
       </trans-unit>
       <trans-unit id="usg-hF-eLK.text" xml:space="preserve">
@@ -1681,12 +1696,12 @@ Vous pouvez avoir plusieurs bases de données, par exemple pour séparer le trav
       </trans-unit>
       <trans-unit id="XYL-1l-Jx6.footerTitle" xml:space="preserve">
         <source>When AutoFill inserts the username and password, it can also copy the one-time password (OTP) for you.</source>
-        <target state="translated">Lorsque le remplissage automatique insère le nom d'utilisateur et le mot de passe, il peut également copier le mot de passe unique (OTP) pour vous.</target>
+        <target state="translated">Lorsque le Remplissage automatique insère le nom d'utilisateur et le mot de passe, il peut également copier le mot de passe à usage unique (OTP) pour vous.</target>
         <note>Class = "UITableViewSection"; footerTitle = "When AutoFill inserts the username and password, it can also copy the one-time password (OTP) for you."; ObjectID = "XYL-1l-Jx6";</note>
       </trans-unit>
-      <trans-unit id="XYL-1l-Jx6.headerTitle" xml:space="preserve" approved="yes">
+      <trans-unit id="XYL-1l-Jx6.headerTitle" xml:space="preserve">
         <source>One-time passwords</source>
-        <target state="final">Mot de passe à usage unique (OTP)</target>
+        <target state="translated">Mots de passe à usage unique (OTP)</target>
         <note>Class = "UITableViewSection"; headerTitle = "One-time passwords"; ObjectID = "XYL-1l-Jx6";</note>
       </trans-unit>
       <trans-unit id="aSq-s6-gVc.text" xml:space="preserve" translate="no">
@@ -1706,7 +1721,7 @@ Vous pouvez avoir plusieurs bases de données, par exemple pour séparer le trav
       </trans-unit>
       <trans-unit id="jYl-ks-dFG.footerTitle" xml:space="preserve">
         <source>When AutoFill finds only one, perfectly matching, entry – this entry will be pasted automatically.</source>
-        <target state="translated">Lorsque le remplissage automatique ne trouve qu'une seule entrée, parfaitement correspondante, cette entrée sera collée automatiquement.</target>
+        <target state="translated">Lorsque le Remplissage automatique ne trouve qu'une seule entrée parfaitement correspondante, cette entrée sera collée automatiquement.</target>
         <note>Class = "UITableViewSection"; footerTitle = "When AutoFill finds only one, perfectly matching, entry – this entry will be pasted automatically."; ObjectID = "jYl-ks-dFG";</note>
       </trans-unit>
       <trans-unit id="jYl-ks-dFG.headerTitle" xml:space="preserve">
@@ -1810,6 +1825,11 @@ Vous pouvez avoir plusieurs bases de données, par exemple pour séparer le trav
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="14.2" build-num="14C18"/>
     </header>
     <body>
+      <trans-unit id="1LC-s7-Kdl.text" xml:space="preserve">
+        <source>Search in Passwords</source>
+        <target state="translated">Rechercher dans les mots de passe</target>
+        <note>Class = "UILabel"; text = "Search in Passwords"; ObjectID = "1LC-s7-Kdl"; Note = "An switch in settings: whether to include protected field values in search procedure.";</note>
+      </trans-unit>
       <trans-unit id="DJr-hC-DMT.footerTitle" xml:space="preserve">
         <source>After opening a database, automatically show the search field.</source>
         <target state="translated">Après l'ouverture d'une base de données, afficher automatiquement le champ de recherche.</target>
@@ -1849,7 +1869,7 @@ Vous pouvez avoir plusieurs bases de données, par exemple pour séparer le trav
     <body>
       <trans-unit id="9yn-W3-FDl.headerTitle" xml:space="preserve">
         <source>Start</source>
-        <target state="translated">Démarrer</target>
+        <target state="translated">Au démarrage</target>
         <note>Class = "UITableViewSection"; headerTitle = "Start"; ObjectID = "9yn-W3-FDl"; Note = "Section in settings: settings that define what happens when the app is started.";</note>
       </trans-unit>
       <trans-unit id="32P-LG-SHa.text" xml:space="preserve" translate="no">
@@ -1904,7 +1924,7 @@ Vous pouvez avoir plusieurs bases de données, par exemple pour séparer le trav
       </trans-unit>
       <trans-unit id="K9j-xG-abD.headerTitle" xml:space="preserve">
         <source>Network Access</source>
-        <target state="needs-translation">Network Access</target>
+        <target state="translated">Accès réseau</target>
         <note>Class = "UITableViewSection"; headerTitle = "Network Access"; ObjectID = "K9j-xG-abD";</note>
       </trans-unit>
       <trans-unit id="LHz-DF-ZST.text" xml:space="preserve" translate="no">
@@ -1964,7 +1984,7 @@ Vous pouvez avoir plusieurs bases de données, par exemple pour séparer le trav
       </trans-unit>
       <trans-unit id="cBS-jW-dHU.headerTitle" xml:space="preserve">
         <source>Support</source>
-        <target state="translated">Assistance technique</target>
+        <target state="translated">Assistance</target>
         <note>Class = "UITableViewSection"; headerTitle = "Support"; ObjectID = "cBS-jW-dHU";</note>
       </trans-unit>
       <trans-unit id="coD-Om-Vfm.text" xml:space="preserve" translate="no">
@@ -1974,7 +1994,7 @@ Vous pouvez avoir plusieurs bases de données, par exemple pour séparer le trav
       </trans-unit>
       <trans-unit id="hui-xG-chj.headerTitle" xml:space="preserve">
         <source>Access Control</source>
-        <target state="translated">Contrôle des accès</target>
+        <target state="translated">Contrôle d'accès</target>
         <note>Class = "UITableViewSection"; headerTitle = "Access Control"; ObjectID = "hui-xG-chj";</note>
       </trans-unit>
       <trans-unit id="oxG-N8-1ld.text" xml:space="preserve" translate="no">
@@ -2011,7 +2031,7 @@ Vous pouvez avoir plusieurs bases de données, par exemple pour séparer le trav
       </trans-unit>
       <trans-unit id="iJJ-jv-hhP.title" xml:space="preserve">
         <source>Clipboard Timeout</source>
-        <target state="translated">Délai de purge du presse-papiers</target>
+        <target state="translated">Délai d'expiration du presse-papiers</target>
         <note>Class = "UITableViewController"; title = "Clipboard Timeout"; ObjectID = "iJJ-jv-hhP"; Note = "TItle of a list of options, when to delete clipboard content. Alternative title \"Clear Clipboard\"";</note>
       </trans-unit>
     </body>
@@ -2023,7 +2043,7 @@ Vous pouvez avoir plusieurs bases de données, par exemple pour séparer le trav
     <body>
       <trans-unit id="26a-m8-zQP.title" xml:space="preserve">
         <source>Database Timeout</source>
-        <target state="translated">Délai de réponse de la base de données dépassé</target>
+        <target state="translated">Délai d'expiration de la base de données</target>
         <note>Class = "UITableViewController"; title = "Database Timeout"; ObjectID = "26a-m8-zQP"; Note = "Title of a list of database timeouts, linked to Settings/Data Protection/Database Timeout.";</note>
       </trans-unit>
       <trans-unit id="Beo-Vy-wZ8.text" xml:space="preserve" translate="no">
@@ -2079,17 +2099,17 @@ Vous pouvez avoir plusieurs bases de données, par exemple pour séparer le trav
       </trans-unit>
       <trans-unit id="Mxu-GP-FmN.footerTitle" xml:space="preserve">
         <source>Remember and automatically select the last used key file for each database. Clearing the associations does not affect the files.</source>
-        <target state="translated">Mémoriser et sélectionner automatiquement le dernier fichier de clé utilisé pour chaque base de données. Effacer les associations n'affecte pas les fichiers.</target>
+        <target state="translated">Mémoriser et sélectionner automatiquement le dernier fichier clé utilisé pour chaque base de données. Effacer les associations n'affecte pas les fichiers.</target>
         <note>Class = "UITableViewSection"; footerTitle = "Remember and automatically select the last used key file for each database. Clearing the associations does not affect the files."; ObjectID = "Mxu-GP-FmN";</note>
       </trans-unit>
       <trans-unit id="Mxu-GP-FmN.headerTitle" xml:space="preserve">
         <source>Key Files</source>
-        <target state="translated">Fichiers-clé</target>
+        <target state="translated">Fichiers clés</target>
         <note>Class = "UITableViewSection"; headerTitle = "Key Files"; ObjectID = "Mxu-GP-FmN";</note>
       </trans-unit>
       <trans-unit id="SSu-Sr-MCg.text" xml:space="preserve">
         <source>Clipboard Timeout</source>
-        <target state="translated">Délai de purge du presse-papiers</target>
+        <target state="translated">Délai d'expiration du presse-papiers</target>
         <note>Class = "UILabel"; text = "Clipboard Timeout"; ObjectID = "SSu-Sr-MCg";</note>
       </trans-unit>
       <trans-unit id="YL6-U9-FM6.text" xml:space="preserve">
@@ -2099,7 +2119,7 @@ Vous pouvez avoir plusieurs bases de données, par exemple pour séparer le trav
       </trans-unit>
       <trans-unit id="Zqb-p5-Ft8.footerTitle" xml:space="preserve">
         <source>Cached keys allow KeePassium to skip key derivation and YubiKey scans whenever possible. </source>
-        <target state="translated">Les clés mises en cache permettent à KeePassium de ne pas avoir à dériver les clés et à YubiKey de les scanner dès que possible. </target>
+        <target state="translated">Les clés mises en cache permettent à KeePassium d'éviter, dans la mesure du possible, la dérivation des clés et les analyses YubiKey.</target>
         <note>Class = "UITableViewSection"; footerTitle = "Cached keys allow KeePassium to skip key derivation and YubiKey scans whenever possible. "; ObjectID = "Zqb-p5-Ft8"; Note = "Section title: advanced/expert settings";</note>
       </trans-unit>
       <trans-unit id="Zqb-p5-Ft8.headerTitle" xml:space="preserve" approved="yes">
@@ -2114,12 +2134,12 @@ Vous pouvez avoir plusieurs bases de données, par exemple pour séparer le trav
       </trans-unit>
       <trans-unit id="e1v-nv-Mst.normalTitle" xml:space="preserve">
         <source>Clear Master Keys</source>
-        <target state="translated">Effacer les clés maîtresses</target>
+        <target state="translated">Effacer les clés principales</target>
         <note>Class = "UIButton"; normalTitle = "Clear Master Keys"; ObjectID = "e1v-nv-Mst";</note>
       </trans-unit>
       <trans-unit id="e6Y-AP-hag.footerTitle" xml:space="preserve">
         <source>Hide passwords and other protected fields behind asterisks (recommended).</source>
-        <target state="translated">Masquer les mots de passe et les autres champs protégés derrière des astérisques (recommandé).</target>
+        <target state="translated">Masquer les mots de passe et autres champs protégés par des astérisques (recommandé).</target>
         <note>Class = "UITableViewSection"; footerTitle = "Hide passwords and other protected fields behind asterisks (recommended)."; ObjectID = "e6Y-AP-hag";</note>
       </trans-unit>
       <trans-unit id="e6Y-AP-hag.headerTitle" xml:space="preserve">
@@ -2129,32 +2149,32 @@ Vous pouvez avoir plusieurs bases de données, par exemple pour séparer le trav
       </trans-unit>
       <trans-unit id="g9a-rJ-4WJ.footerTitle" xml:space="preserve">
         <source>Use Universal Clipboard to copy and paste between your Apple devices. On external devices, this clipboard is cleared after two minutes.</source>
-        <target state="translated">Utilisez le Presse-papiers universel pour copier et coller entre vos appareils Apple. Sur les appareils externes, ce presse-papiers est effacé après deux minutes.</target>
+        <target state="translated">Utilisez le Presse-papiers universel pour copier et coller entre vos appareils Apple. Sur les appareils externes, ce presse-papiers est effacé au bout de deux minutes.</target>
         <note>Class = "UITableViewSection"; footerTitle = "Use Universal Clipboard to copy and paste between your Apple devices. On external devices, this clipboard is cleared after two minutes."; ObjectID = "g9a-rJ-4WJ";</note>
       </trans-unit>
       <trans-unit id="gTm-F6-EDQ.text" xml:space="preserve">
         <source>Clear Master Keys on Timeout</source>
-        <target state="translated">Effacer la clé primaire en cas d'expiration</target>
+        <target state="translated">Effacer les clés principales à l'expiration du délai</target>
         <note>Class = "UILabel"; text = "Clear Master Keys on Timeout"; ObjectID = "gTm-F6-EDQ";</note>
       </trans-unit>
       <trans-unit id="hnI-Q8-Ixm.footerTitle" xml:space="preserve">
         <source>When you copy anything, KeePassium will automatically clear your clipboard (pasteboard) after some time.</source>
-        <target state="translated">Lorsque vous copiez du texte depuis une entrée, l'application effacera automatiquement votre presse-papiers après un certain délai.</target>
+        <target state="translated">Lorsque vous copiez quelque chose, KeePassium effacera automatiquement votre presse-papiers après un certain temps.</target>
         <note>Class = "UITableViewSection"; footerTitle = "When you copy anything, KeePassium will automatically clear your clipboard (pasteboard) after some time."; ObjectID = "hnI-Q8-Ixm";</note>
       </trans-unit>
       <trans-unit id="hnI-Q8-Ixm.headerTitle" xml:space="preserve">
         <source>Clipboard</source>
-        <target state="translated">Presse-papier</target>
+        <target state="translated">Presse-papiers</target>
         <note>Class = "UITableViewSection"; headerTitle = "Clipboard"; ObjectID = "hnI-Q8-Ixm";</note>
       </trans-unit>
       <trans-unit id="neJ-eG-TV7.footerTitle" xml:space="preserve">
         <source>Database timeout closes any opened databases and clears any remembered master keys after some time.</source>
-        <target state="translated">Le délai de réponse de la base de données dépassé, ferme toutes les bases de données ouvertes et efface les clés maîtresses mémorisées après un certain temps.</target>
+        <target state="translated">Le délai d'expiration de la base de données ferme toutes les bases de données ouvertes et efface toutes les clés principales mémorisées après un certain temps.</target>
         <note>Class = "UITableViewSection"; footerTitle = "Database timeout closes any opened databases and clears any remembered master keys after some time."; ObjectID = "neJ-eG-TV7";</note>
       </trans-unit>
       <trans-unit id="neJ-eG-TV7.headerTitle" xml:space="preserve">
         <source>Automatic Lock</source>
-        <target state="translated">Verrouiller automatiquement</target>
+        <target state="translated">Verrouillage automatique</target>
         <note>Class = "UITableViewSection"; headerTitle = "Automatic Lock"; ObjectID = "neJ-eG-TV7";</note>
       </trans-unit>
       <trans-unit id="pid-k2-idJ.text" xml:space="preserve">
@@ -2169,7 +2189,7 @@ Vous pouvez avoir plusieurs bases de données, par exemple pour séparer le trav
       </trans-unit>
       <trans-unit id="weX-SZ-IDB.text" xml:space="preserve">
         <source>Database Timeout</source>
-        <target state="translated">Délai de réponse de la base de données dépassé</target>
+        <target state="translated">Délai d'expiration de la base de données</target>
         <note>Class = "UILabel"; text = "Database Timeout"; ObjectID = "weX-SZ-IDB";</note>
       </trans-unit>
       <trans-unit id="xPd-ot-oqe.text" xml:space="preserve" translate="no">

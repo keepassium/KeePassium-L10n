@@ -4,23 +4,23 @@
     <body>
       <trans-unit id="Title" maxwidth="30">
         <source>KeePassium Password Manager</source>
+        <target state="translated">KeePassium - KeePass pour iOS</target>
         <note>Please keep `KeePassium` as the first word. If this is difficult with the natural word order, feel free to use punctuation, for example: "KeePassium - Password Manager"</note>
-        <target state="translated">KeePassium</target>
       </trans-unit>
       <trans-unit id="Subtitle 1" maxwidth="30">
         <source>Respects your privacy</source>
+        <target state="translated">Respecte votre vie privée</target>
         <note>One-line app description/subtitle</note>
-        <target state="translated">Protégez votre vie privée</target>
       </trans-unit>
       <trans-unit id="Description/Intro">
         <source>KeePassium keeps your passwords safe. It delivers the security of KeePass databases with a clean, easy to use interface.</source>
+        <target state="translated">KeePassium garde vos mots de passe en sécurité. Il fournit la sécurité des bases de données de KeePass, avec une interface agréable et simple à utiliser.</target>
         <note/>
-        <target state="translated">KeePassium garde vos mots de passe en sécurité. Accéder de manière sécurisée aux bases de données de KeePass dans une interface agréable et simple à utiliser.</target>
       </trans-unit>
       <trans-unit id="Description/MainFeatures/title">
         <source>MAIN FEATURES</source>
+        <target state="translated">PRINCIPALES FONCTIONNALITÉS</target>
         <note>Section header, capitalized</note>
-        <target state="translated">FONCTIONNALITÉS PRINCIPALES</target>
       </trans-unit>
       <trans-unit id="Description/MainFeatures/text">
         <source>• Automatic sync — keep your database in your favorite cloud or offline.
@@ -33,8 +33,8 @@
 • Remplissage automatique — connectez-vous à n'importe quel service en quelques clics.
 • Touch ID / Face ID — gagnez du temps.
 • Plusieurs bases de données — partagez vos mots de passe avec votre équipe ou votre famille.
-• Pièces jointes — ayez toujours sur vous vos scans de passeports et vos clés serveurs.
-• Tranquillité d'esprit — sentez-vous libre de lire notre code source, il est libre.</target>
+• Pièces jointes — gardez votre passeport et vos clés de serveur toujours avec vous.
+• Tranquillité d'esprit — n'hésitez pas à consulter notre code source, il est libre.</target>
         <note>Please keep the bullet points (followed by one space)</note>
       </trans-unit>
       <trans-unit id="Description/AntiFeatures/title">
@@ -48,12 +48,12 @@
 • No coffee maker
 • No analytics
 • No ads</source>
+        <target state="translated">• Pas de navigateur dans l'application.
+• Pas de visualiseur VNC/SSH.
+• Pas de café (pas d'usine à gaz).
+• Pas d'analyse de vos données.
+• Pas d'annonces / publicités.</target>
         <note>Please keep the bullet points (followed by one space)</note>
-        <target state="translated">• Pas de navigateur dans l'application
-• Pas de visualiseur VNC/SSH
-• Pas de cafetière
-• Pas d'analyse
-• Pas d'annonces</target>
       </trans-unit>
       <trans-unit id="Description/AutomaticSync/title">
         <source>AUTOMATIC SYNC</source>
@@ -76,22 +76,22 @@ There is no setup: pick your database through the familiar Files interface — a
 • ...and more!
 
 Should a password manager have full access to your corporate file server? Of course not! All the networking is automatically performed by the original storage provider app. This way, KeePassium knows only about few specific databases, not your whole server.</source>
-        <note>Please keep the bullet points (followed by one space)</note>
-        <target state="translated">KeePassium peut travailler à la fois hors ligne et avec votre fournisseur de cloud favori.
+        <target state="translated">KeePassium peut à la fois fonctionner hors ligne et avec votre fournisseur de cloud préféré.
 
-Il n'y a pas de configuration : choisissez votre base de données à travers votre interface de fichiers habituelle — et c'est tout. En intégrant l'application Fichiers, KeePassium prend en charge presque tous les fournisseurs de stockage, incluant :
+Il n'y a pas de configuration : choisissez votre base de données depuis votre interface habituelle dans Fichiers — et c'est tout. En s'intégrant à l'application Fichiers, KeePassium prend en charge presque tous les fournisseurs de stockage, y compris :
 
-• iCloud Drive,
-• OneDrive,
-• Dropbox,
-• Box,
-• pCloud,
-• Google Drive,
-• NextCloud (avec hiccups),
-• WebDAV et SFTP (via une application tierce),
+• iCloud Drive ;
+• OneDrive ;
+• Dropbox ;
+• Box ;
+• pCloud ;
+• Google Drive ;
+• NextCloud (avec hiccups) ;
+• WebDAV et SFTP (via une application tierce) ;
 • … et plus encore !
 
-Un gestionnaire de mots de passe devrait-il avoir un accès complet à votre serveur de fichiers d'entreprise ? Bien sûr que non ! Tous les réseaux sont automatiquement exécutés par l'application du fournisseur de stockage original. De cette façon, KeePassium ne connaît que quelques bases de données spécifiques, pas tout votre serveur.</target>
+Un gestionnaire de mots de passe devrait-il avoir un accès complet à votre serveur de fichiers d'entreprise ? Bien sûr que non ! Toute la mise en réseau est automatiquement exécutée par l'application d'origine du fournisseur de stockage. De cette façon, KeePassium ne connaît que les bases de données spécifiques, et non pas l'intégralité de votre serveur.</target>
+        <note>Please keep the bullet points (followed by one space)</note>
       </trans-unit>
       <trans-unit id="Description/More/title">
         <source>WHAT ELSE CAN IT DO?</source>
@@ -106,13 +106,12 @@ Un gestionnaire de mots de passe devrait-il avoir un accès complet à votre ser
 • View and edit custom fields
 • View custom icons
 • And more! See for yourself, it's free.</source>
-        <note>Please keep the bullet points (followed by one space)</note>
-        <target state="translated">• Lire et écrire tous les formats de base de données (kdb, kdbx3, kdbx4 — incluant Argon2/ChaCha20)
-• Afficher les mots de passe temps uniques (TOTP)
-• Afficher les groupes et entrées supprimés (Corbeille)
-• Afficher les révisions précédentes d'une entrée
-• Afficher et éditer les champs personnalisés
-• Afficher les icônes personnalisées
+        <target state="translated">• Lire et écrire tous les formats de base de données (kdb, kdbx3, kdbx4 — incluant Argon2/ChaCha20).
+• Afficher les mots de passe à usage unique basés sur le temps (TOTP).
+• Afficher les groupes et entrées supprimés (Corbeille).
+• Afficher les révisions précédentes d'une entrée.
+• Afficher et éditer les champs personnalisés.
+• Afficher les icônes personnalisées.
 • Et plus ! Voyez par vous-même, c'est gratuit.</target>
         <note>Please keep the bullet points (followed by one space)</note>
       </trans-unit>
@@ -128,8 +127,8 @@ Un gestionnaire de mots de passe devrait-il avoir un accès complet à votre ser
       </trans-unit>
       <trans-unit id="Description/CommercialAndOpen/title">
         <source>COMMERCIAL AND OPEN</source>
+        <target state="translated">PAYANT ET OUVERT</target>
         <note>Section header, capitalized: the app is both a commercial and open source project</note>
-        <target state="translated">COMMERCIAL ET OUVERT</target>
       </trans-unit>
       <trans-unit id="Description/CommercialAndOpen/text">
         <source>KeePassium is a commercial open source app. Here, "open source" is the transparency you need from a password manager. The "commercial" part, in turn, gives you:
@@ -137,12 +136,12 @@ Un gestionnaire de mots de passe devrait-il avoir un accès complet à votre ser
 • A great well-polished interface
 • Responsive support that cares
 • Future updates and improvements</source>
-        <note>Please keep the bullet points (followed by one space)</note>
-        <target state="translated">KeePassium est une application commerciale open source. Ici, "open source" est la transparence dont vous avez besoin d'un gestionnaire de mots de passe. La partie "commerciale", à son tour, vous donne :
+        <target state="translated">KeePassium est une application payante open source. Le fait qu'elle soit « open source » vous garantit la transparence dont vous avez besoin de la part d'un gestionnaire de mots de passe. Quant à la partie « payante », elle vous donne accès à :
 
-• Une interface bien polie
-• Un support réactif et consciencieux
-• Des mises à jour futures et des améliorations</target>
+• une interface sobre et claire ;
+• un support réactif et consciencieux ;
+• des améliorations et mises à jour futures.</target>
+        <note>Please keep the bullet points (followed by one space)</note>
       </trans-unit>
       <trans-unit id="Description/Freemium/title">
         <source>FREE vs PREMIUM</source>
@@ -160,22 +159,22 @@ With the premium version, you can:
 • View attachments in the app, without leaving a trace in the system.
 • Email your questions and get answers directly from the developer.
 • Keep KeePassium shiny and available to people who need security but cannot afford it yet.</source>
-        <target state="translated">Il n'y a pas de « période d'essai ». La version gratuite est toujours entièrement fonctionnelle. Vous pouvez afficher et modifier, utiliser Touch ID / Face ID, rechercher et utiliser le remplissage automatique — mais seulement avec une base de données à la fois.
+        <target state="translated">Il n'y a pas de « période d'essai ». La version gratuite est toujours entièrement fonctionnelle. Vous pouvez afficher/modifier, utiliser Touch ID/Face ID, rechercher et utiliser le remplissage automatique — mais seulement avec une seule base de données à la fois.
 
-Vous pouvez installer KeePassium gratuitement pour les membres de votre famille. S'ils utilisent à peine l'application, cela ne les dérangera pas d'acheter la version premium. 
+Vous pouvez installer la version gratuite de KeePassium pour les membres de votre famille. Ils pourront parfaitement utiliser l'application sans être dérangés ou contraints de passer à la version Premium.
 
-Avec la version premium, vous pouvez :
-• Basculer rapidement entre plusieurs bases de données.
-• Débloquer les bases de données en un seul clic et les maintenir ouvertes aussi longtemps que vous en avez besoin.
-• Afficher les pièces jointes dans l'application, sans laisser de trace dans le système.
-• Envoyer vos questions par e-mail et obtenez des réponses directement du développeur.
-• Garder KeePassium brillant et à la disposition des personnes qui ont besoin de sécurité mais qui ne peuvent pas encore se le permettre.</target>
+Avec la version Premium, vous pouvez :
+• basculer rapidement entre plusieurs bases de données ;
+• débloquer les bases de données en un seul clic et les maintenir ouvertes aussi longtemps que vous en avez besoin ;
+• afficher les pièces jointes dans l'application, sans laisser de trace dans le système ;
+• envoyer vos questions par courriel et obtenir directement des réponses du développeur ;
+• garder KeePassium au top et à disposition des personnes qui ont besoin de sécurité, mais qui ne peuvent pas encore se le permettre.</target>
         <note>Please keep the bullet points (followed by one space)</note>
       </trans-unit>
       <trans-unit id="Description/Contact/text">
         <source>Talk to us at info@keepassium.com, /r/KeePassium on Reddit, @KeePassium on Twitter and GitHub.</source>
+        <target state="translated">Discutez avec nous via info@keepassium.com, /r/KeePassium sur Reddit, @KeePassium sur Twitter et GitHub.</target>
         <note/>
-        <target state="translated">Parlez-nous via info@keepassium.com, /r/KeePassium sur Reddit, @KeePassium sur Twitter et GitHub.</target>
       </trans-unit>
       <trans-unit id="Description/Footer/text">
         <source>* Premium version is available as an in-app purchase, either as a subscription or a one-time payment. 
@@ -183,12 +182,12 @@ Avec la version premium, vous pouvez :
 * You can manage and cancel your subscriptions by going to your account settings on the App Store after purchase.
 * Privacy policy: https://keepassium.com/privacy/app
 * Terms of Use: https://keepassium.com/terms/app</source>
+        <target state="translated">* La version Premium est disponible sous forme d'achat dans l'application, que ce soit sous forme d'un abonnement ou d'un paiement unique.
+* Le paiement sera facturé sur votre compte Apple ID lors de la confirmation de l'achat (dans l'application). L'abonnement se renouvelle automatiquement sauf s'il est annulé au moins 24 heures avant la fin de la période en cours. Votre compte sera facturé pour le renouvellement dans les 24 heures précédant la fin de la période en cours.
+* Vous pouvez gérer et annuler vos abonnements en vous rendant dans les paramètres de votre compte sur l'App Store après l'achat.
+* Politique de confidentialité : https://keepassium.com/privacy/app
+* Conditions d'utilisation : https://keepassium.com/terms/app</target>
         <note>Mandatory legalese required by Apple. Asterisks instead of bullet points.</note>
-        <target state="translated">• La version Premium est disponible sous forme d'achat dans l'application, que ce soit sous forme d'abonnement ou de paiement unique. 
-• Le paiement sera facturé sur votre compte Apple ID lors de la confirmation de l'achat (in-app). L'abonnement se renouvelle automatiquement sauf s'il est annulé au moins 24 heures avant la fin de la période en cours. Votre compte sera facturé pour le renouvellement dans les 24 heures précédant la fin de la période en cours. 
-• Vous pouvez gérer et annuler vos abonnements en vous rendant dans les paramètres de votre compte sur l'App Store après l'achat.
-• Politique de confidentialité : https://keepassium.com/privacy/app
-• Conditions d'utilisation : https://keepassium.com/terms/app</target>
       </trans-unit>
       <trans-unit id="Subtitle Pro" approved="yes">
         <source>Lifetime license</source>
@@ -197,16 +196,16 @@ Avec la version premium, vous pouvez :
       </trans-unit>
       <trans-unit id="Description/Intro Pro" approved="yes">
         <source>KeePassium Pro is the full version of KeePassium Password Manager. This app offers a lifetime license as a one-time purchase.</source>
-        <target state="final">KeePassium Pro est la version complète de KeePassium Password Manager. Cette application offre une licence à vie sous la forme d'un achat unique.</target>
+        <target state="final">KeePassium Pro est la version complète de KeePassium - KeePass pour iOS. Cette application offre une licence à vie sous la forme d'un achat unique.</target>
       </trans-unit>
       <trans-unit id="Benefits of the Pro version" approved="yes">
         <source>• All premium features (current and future)
 • Lifetime email support
 • No in-app purchases</source>
+        <target state="final">• Toutes les fonctionnalités Premium (actuelles et futures).
+• Assistance à vie par courriel.
+• Aucun achat dans l'application.</target>
         <note>Please keep the bullet points (followed by one space)</note>
-        <target state="final">• Toutes les fonctionnalités premium (actuelles et futures)
-• Assistance à vie par e-mail
-• Aucun achat dans l'application</target>
       </trans-unit>
     </body>
   </file>

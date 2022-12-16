@@ -868,6 +868,16 @@ Como resultado, tanto la aplicación «Autorrelleno», como la aplicación princ
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="14.2" build-num="14C18"/>
     </header>
     <body>
+      <trans-unit id="CFBundleDisplayName" xml:space="preserve" approved="yes">
+        <source>KeePassium Pro</source>
+        <target state="final">KeePassium Pro</target>
+        <note>Bundle display name</note>
+      </trans-unit>
+      <trans-unit id="CFBundleName" xml:space="preserve" approved="yes">
+        <source>KeePassium Pro</source>
+        <target state="final">KeePassium Pro</target>
+        <note>Bundle name</note>
+      </trans-unit>
       <trans-unit id="KeePass Database (kdb)" xml:space="preserve" approved="yes">
         <source>KeePass Database (kdb)</source>
         <target state="final">Base de datos KeePass (kdb)</target>
@@ -1429,6 +1439,11 @@ You can have multiple databases, for example to separate work, family and person
 Puedes tener múltiples bases de datos, p.ej. para separar cuentas de trabajo, familiares y personales.</target>
         <note>Class = "UILabel"; text = "KeePassium stores your passwords, credit cards and other information in an encrypted file (database). \nYou can have multiple databases, for example to separate work, family and personal accounts."; ObjectID = "PgB-6p-H0t";</note>
       </trans-unit>
+      <trans-unit id="QE2-z7-uZe.normalTitle" xml:space="preserve" translate="no">
+        <source>{Connect to server}</source>
+        <target state="needs-translation">{Connect to server}</target>
+        <note>Class = "UIButton"; normalTitle = "{Connect to server}"; ObjectID = "QE2-z7-uZe";</note>
+      </trans-unit>
       <trans-unit id="ZKW-2f-Xkz.normalTitle" xml:space="preserve" approved="yes">
         <source>Add Existing Database</source>
         <target state="final">Añadir base de datos existente</target>
@@ -1810,6 +1825,11 @@ Puedes tener múltiples bases de datos, p.ej. para separar cuentas de trabajo, f
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="14.2" build-num="14C18"/>
     </header>
     <body>
+      <trans-unit id="1LC-s7-Kdl.text" xml:space="preserve">
+        <source>Search in Passwords</source>
+        <target state="needs-translation">Search in Passwords</target>
+        <note>Class = "UILabel"; text = "Search in Passwords"; ObjectID = "1LC-s7-Kdl"; Note = "An switch in settings: whether to include protected field values in search procedure.";</note>
+      </trans-unit>
       <trans-unit id="DJr-hC-DMT.footerTitle" xml:space="preserve" approved="yes">
         <source>After opening a database, automatically show the search field.</source>
         <target state="final">Mostrar automáticamente el campo de búsqueda tras abrir una base de datos.</target>
