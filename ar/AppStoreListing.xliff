@@ -4,23 +4,23 @@
     <body>
       <trans-unit id="Title" maxwidth="30">
         <source>KeePassium Password Manager</source>
-        <note>Please keep `KeePassium` as the first word. If this is difficult with the natural word order, feel free to use punctuation, for example: "KeePassium - Password Manager"</note>
         <target state="translated">مدير كلِمات المُرور KeePassium</target>
+        <note>Please keep `KeePassium` as the first word. If this is difficult with the natural word order, feel free to use punctuation, for example: "KeePassium - Password Manager"</note>
       </trans-unit>
       <trans-unit id="Subtitle 1" maxwidth="30">
         <source>Respects your privacy</source>
-        <note>One-line app description/subtitle</note>
         <target state="translated">يُقدِّر خصوصيتك</target>
+        <note>One-line app description/subtitle</note>
       </trans-unit>
       <trans-unit id="Description/Intro">
         <source>KeePassium keeps your passwords safe. It delivers the security of KeePass databases with a clean, easy to use interface.</source>
-        <note/>
         <target state="translated">Keepassium يُحافظ على كلمات المرور الخاصة بك بشكل آمن. يدعم قواعد بيانات KeePass الآمنة مع واجهة مستخدم مُنظمة ومَرنة.</target>
+        <note/>
       </trans-unit>
       <trans-unit id="Description/MainFeatures/title">
         <source>MAIN FEATURES</source>
-        <note>Section header, capitalized</note>
         <target state="translated">الميزات الرئيسة</target>
+        <note>Section header, capitalized</note>
       </trans-unit>
       <trans-unit id="Description/MainFeatures/text">
         <source>• Automatic sync — keep your database in your favorite cloud or offline.
@@ -29,18 +29,18 @@
 • Multiple databases — to share passwords with your team or family.
 • Attached files — passport scans and server keys, always with you.
 • Peace of mind — feel free to check our source code, it's open.</source>
-        <note>Please keep the bullet points (followed by one space)</note>
         <target state="translated">• المزامنة التلقائية - حافظ على قاعدة البيانات الخاصة بك في خدمة التخزين السحابية المفضلة لديك أو محلياً بغير اتصال انترنت.
 • تعبئة كلمة المرور تلقائياً - تسجيل الدخول إلى أي خدمة خلال خطوات قليلة.
 • مُعرف بصمة اليد / مُعرف الوجه - وفر وقتك.
 • قواعد بيانات متعددة - لمشاركة كلمات المرور مع فريقك أو عائلتك.
 • إرفاق الملفات - صور جوازات السفر ومفاتيح الخوادم، دائما معك.
 • راحة البال - لا تتردد في التحقق من شفرة المصدر الخاصة بنا، إنها مفتوحة.</target>
+        <note>Please keep the bullet points (followed by one space)</note>
       </trans-unit>
       <trans-unit id="Description/AntiFeatures/title">
         <source>ANTI-FEATURES</source>
-        <note>Section header, capitalized: features that are explicitly excluded</note>
         <target state="translated">الميزات المضادة</target>
+        <note>Section header, capitalized: features that are explicitly excluded</note>
       </trans-unit>
       <trans-unit id="Description/AntiFeatures/text">
         <source>• No in-app browser
@@ -48,17 +48,17 @@
 • No coffee maker
 • No analytics
 • No ads</source>
-        <note>Please keep the bullet points (followed by one space)</note>
         <target state="translated">• لا يوجد متصفح داخل التطبيق
 • لا عارض VNC/SSH
 • لا صانع قهوة
 • لا تحليلات
 • لا إعلانات</target>
+        <note>Please keep the bullet points (followed by one space)</note>
       </trans-unit>
       <trans-unit id="Description/AutomaticSync/title">
         <source>AUTOMATIC SYNC</source>
-        <note>Section header, capitalized</note>
         <target state="translated">المُزامنة التلقائية</target>
+        <note>Section header, capitalized</note>
       </trans-unit>
       <trans-unit id="Description/AutomaticSync/text">
         <source>KeePassium can work both offline and with your favorite cloud provider. 
@@ -76,7 +76,6 @@ There is no setup: pick your database through the familiar Files interface — a
 • ...and more!
 
 Should a password manager have full access to your corporate file server? Of course not! All the networking is automatically performed by the original storage provider app. This way, KeePassium knows only about few specific databases, not your whole server.</source>
-        <note>Please keep the bullet points (followed by one space)</note>
         <target state="translated">KeePassium يمكن أن يعمل دون اتصال بالانترنت(مَحَلياً) ومع موفر الخدمة السحابية المفضل لديك.
 
 لا يوجد إعداد: اين تريد قاعدة البيانات الخاصة بك من خلال واجهة الملفات المألوفة. من خلال التكامل مع تطبيق مدير الملفات، يدعم KeePassium تقريبا جميع مزودي خدمات التخزين، بما في ذلك:
@@ -92,11 +91,12 @@ Should a password manager have full access to your corporate file server? Of cou
 • . .والمزيد!
 
 هل يجب أن يكون لمدير كلمة المرور الوصول الكامل إلى خادم ملفات الشركة الخاص بك؟ بالطبع لا! يتم تشغيل جميع الاتصالات تلقائياً بواسطة تطبيق موفر خدمة التخزين الأصلي. بهذه الطريقة، لا يعرف KeePassium سوى القليل من قواعد البيانات المحددة، وليس الخادم بأكمله.</target>
+        <note>Please keep the bullet points (followed by one space)</note>
       </trans-unit>
       <trans-unit id="Description/More/title">
         <source>WHAT ELSE CAN IT DO?</source>
-        <note>Section header, capitalized: additional list of features</note>
         <target state="translated">ماذا يتيح لي ايضاً؟</target>
+        <note>Section header, capitalized: additional list of features</note>
       </trans-unit>
       <trans-unit id="Description/More/text">
         <source>• Read and write all database formats (kdb, kdbx3, kdbx4 — including Argon2/ChaCha20)
@@ -106,7 +106,6 @@ Should a password manager have full access to your corporate file server? Of cou
 • View and edit custom fields
 • View custom icons
 • And more! See for yourself, it's free.</source>
-        <note>Please keep the bullet points (followed by one space)</note>
         <target state="translated">• قراءة وكتابة جميع صيغ قاعدة البيانات (kdb, kdbx3, kdbx4 - بما في ذلك Argon2/ChaCha20)
 • عرض كلمات المرور المبنية على الوقت، الاستخدام لمرة واحدة (TOTP)
 • عرض المجموعات أوالسجلات المحذوفة (سلة المحذوفات)
@@ -114,21 +113,22 @@ Should a password manager have full access to your corporate file server? Of cou
 • عرض وتعديل الحقول المخصصة.
 • عرض الأيقونات المخصصة.
 • وأكثر! انظر لنفسك، إنها مجانية.</target>
+        <note>Please keep the bullet points (followed by one space)</note>
       </trans-unit>
       <trans-unit id="Description/Privacy/title">
         <source>PRIVACY</source>
-        <note>Section header, capitalized: privacy policy</note>
         <target state="translated">الخصوصية</target>
+        <note>Section header, capitalized: privacy policy</note>
       </trans-unit>
       <trans-unit id="Description/Privacy/text">
         <source>This app does not collect any personal data. We sell the app, not its users.</source>
-        <note/>
         <target state="translated">هذا التطبيق لا يجمع أي معلومات شخصية. نحن نبيع التطبيق، وليس مُستخدميه.</target>
+        <note/>
       </trans-unit>
       <trans-unit id="Description/CommercialAndOpen/title">
         <source>COMMERCIAL AND OPEN</source>
-        <note>Section header, capitalized: the app is both a commercial and open source project</note>
         <target state="translated">تجاري ومفتوح</target>
+        <note>Section header, capitalized: the app is both a commercial and open source project</note>
       </trans-unit>
       <trans-unit id="Description/CommercialAndOpen/text">
         <source>KeePassium is a commercial open source app. Here, "open source" is the transparency you need from a password manager. The "commercial" part, in turn, gives you:
@@ -136,17 +136,17 @@ Should a password manager have full access to your corporate file server? Of cou
 • A great well-polished interface
 • Responsive support that cares
 • Future updates and improvements</source>
-        <note>Please keep the bullet points (followed by one space)</note>
         <target state="translated">KeePassium تطبيق تجاري مفتوح المصدر. هنا، "مفتوح المصدر" هو الشفافية التي تحتاجها من مدير كلمة المرور. الجزء "التجاري" يعطيك بدوره:
 
 • واجهة رائعة جداً
 • الدعم المتجاوب المُهتم
 • التحديثات والتحسينات المستقبلية</target>
+        <note>Please keep the bullet points (followed by one space)</note>
       </trans-unit>
       <trans-unit id="Description/Freemium/title">
         <source>FREE vs PREMIUM</source>
-        <note>Section header, capitalized: a comparison of free and premium version.</note>
         <target state="translated">النسخة المجانية ضد المدفوعة(المميزة)</target>
+        <note>Section header, capitalized: a comparison of free and premium version.</note>
       </trans-unit>
       <trans-unit id="Description/Freemium/text">
         <source>There is no "trial period". The free version is always completely functional. You can view and edit, use Touch ID / Face ID, search and AutoFill — but only with one database at a time.
@@ -159,7 +159,6 @@ With the premium version, you can:
 • View attachments in the app, without leaving a trace in the system.
 • Email your questions and get answers directly from the developer.
 • Keep KeePassium shiny and available to people who need security but cannot afford it yet.</source>
-        <note>Please keep the bullet points (followed by one space)</note>
         <target state="translated">لا توجد "فترة تجريبية". الإصدار المجاني يعمل دائماً بشكل كامل. يمكنك عرض وتعديل، واستخدام معرف بصمة اليد / معرف الوجه والبحث والملء التلقائي - ولكن فقط مع قاعدة بيانات واحدة في الوقت الواحد.
 
 يمكنك تثبيت KeePassium مجاناً لأفراد عائلتك. إذا كانوا بالكاد يستخدمون التطبيق، فلن يغريهم شراء النسخة المدفوعة
@@ -169,11 +168,12 @@ With the premium version, you can:
 • عرض المرفقات في التطبيق، دون ترك أثر في النظام.
 • إرسال بريد إلكتروني لأسئلتك والحصول على إجابات مباشرة من المطور.
 • يبقى KeePassium مشرقا ومتاحا للأشخاص الذين يحتاجون إلى الأمن ولكنهم لا يستطيعون تحمل تكاليفه حتى الآن.</target>
+        <note>Please keep the bullet points (followed by one space)</note>
       </trans-unit>
       <trans-unit id="Description/Contact/text">
         <source>Talk to us at info@keepassium.com, /r/KeePassium on Reddit, @KeePassium on Twitter and GitHub.</source>
-        <note/>
         <target state="translated">تواصل معنا عبر info@keepassium.com أو /r/KeePassium على Reddit أو @KeePassium على تويتر و GitHub.</target>
+        <note/>
       </trans-unit>
       <trans-unit id="Description/Footer/text">
         <source>* Premium version is available as an in-app purchase, either as a subscription or a one-time payment. 
@@ -181,17 +181,17 @@ With the premium version, you can:
 * You can manage and cancel your subscriptions by going to your account settings on the App Store after purchase.
 * Privacy policy: https://keepassium.com/privacy/app
 * Terms of Use: https://keepassium.com/terms/app</source>
-        <note>Mandatory legalese required by Apple. Asterisks instead of bullet points.</note>
         <target state="translated">*النسخة المدفوعة متوفرة كشراء داخل التطبيق، سواءً اشتراك أو الدفع مرة واحدة.
 *سوف يتم اقتطاع المبلغ من حساب Apple ID عند تأكيد الشراء. يتجدد الاشتراك تلقائيًا إلا إذا قمت بالإلغاء في غضون 24 ساعة على الأقل قبل انتهاء فترة الاشتراك الحالية. وسوف يتم خصم المبلغ من حسابك نظير التجديد في غضون فترة 24 ساعة قبل نهاية الفترة المحددة.
 *يمكنك إدارة اشتراكاتك وإلغائها بالذهاب إلى إعدادات الحساب في App Store بعد الاشتراك.
 *سياسة الخصوصية: https://keepassium.com/privacy/app
 *شروط الاستخدام: https://keepassium.com/terms/app</target>
+        <note>Mandatory legalese required by Apple. Asterisks instead of bullet points.</note>
       </trans-unit>
       <trans-unit id="Subtitle Pro">
         <source>Lifetime license</source>
-        <note>Subtitle for the Pro version</note>
         <target state="translated">ترخيص مدى الحياة</target>
+        <note>Subtitle for the Pro version</note>
       </trans-unit>
       <trans-unit id="Description/Intro Pro">
         <source>KeePassium Pro is the full version of KeePassium Password Manager. This app offers a lifetime license as a one-time purchase.</source>
@@ -201,10 +201,10 @@ With the premium version, you can:
         <source>• All premium features (current and future)
 • Lifetime email support
 • No in-app purchases</source>
-        <note>Please keep the bullet points (followed by one space)</note>
         <target state="translated">• جميع الميزات المميزة (الحالية والمستقبلية)
 • دعم البريد الإلكتروني مدى الحياة
 • لا مشتريات في التطبيق</target>
+        <note>Please keep the bullet points (followed by one space)</note>
       </trans-unit>
     </body>
   </file>

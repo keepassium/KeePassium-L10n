@@ -4,23 +4,23 @@
     <body>
       <trans-unit id="Title" maxwidth="30">
         <source>KeePassium Password Manager</source>
-        <note>Please keep `KeePassium` as the first word. If this is difficult with the natural word order, feel free to use punctuation, for example: "KeePassium - Password Manager"</note>
         <target state="translated">KeePassium - ตัวจัดการรหัสผ่าน</target>
+        <note>Please keep `KeePassium` as the first word. If this is difficult with the natural word order, feel free to use punctuation, for example: "KeePassium - Password Manager"</note>
       </trans-unit>
       <trans-unit id="Subtitle 1" maxwidth="30">
         <source>Respects your privacy</source>
-        <note>One-line app description/subtitle</note>
         <target state="translated">เคารพความเป็นส่วนตัวของคุณ</target>
+        <note>One-line app description/subtitle</note>
       </trans-unit>
       <trans-unit id="Description/Intro">
         <source>KeePassium keeps your passwords safe. It delivers the security of KeePass databases with a clean, easy to use interface.</source>
-        <note/>
         <target state="translated">KeePassium จะช่วยปกป้องรหัสของคุณให้ปลอดภัย ด้วยการรักษาความปลอดภัยแบบฐานข้อมูล KeePass ที่มีอินเตอร์เฟซใช้งานง่าย และสะอาดตา</target>
+        <note/>
       </trans-unit>
       <trans-unit id="Description/MainFeatures/title">
         <source>MAIN FEATURES</source>
-        <note>Section header, capitalized</note>
         <target state="translated">คุณสมบัติหลัก</target>
+        <note>Section header, capitalized</note>
       </trans-unit>
       <trans-unit id="Description/MainFeatures/text">
         <source>• Automatic sync — keep your database in your favorite cloud or offline.
@@ -29,18 +29,18 @@
 • Multiple databases — to share passwords with your team or family.
 • Attached files — passport scans and server keys, always with you.
 • Peace of mind — feel free to check our source code, it's open.</source>
-        <note>Please keep the bullet points (followed by one space)</note>
         <target state="translated">• ซิงค์อัตโนมัติ — เก็บฐานข้อมูลของคุณให้อยู่บนคลาวด์หรือในเครื่องก็ได้
 • การป้อนรหัสผ่านอัตโนมัติ — ล็อกอินบริการต่าง ๆ โดยการแตะจอไม่กี่ครั้ง
 • Touch ID / Face ID — ประหยัดเวลา
 • เก็บฐานข้อมูลได้หลายฐาน — เอาไว้แชร์รหัสผ่านให้ทีมงานหรือครอบครัวก็ได้
 • ไฟล์แนบ — ไม่ว่าจะสำเนาพาสพอร์ต หรือรหัสเข้าเซิร์ฟเวอร์ จะอยู่กับคุณตลอดเวลา
 • สบายใจได้ — แอปของเรามีซอร์สโค้ดให้เข้าไปดูได้</target>
+        <note>Please keep the bullet points (followed by one space)</note>
       </trans-unit>
       <trans-unit id="Description/AntiFeatures/title">
         <source>ANTI-FEATURES</source>
-        <note>Section header, capitalized: features that are explicitly excluded</note>
         <target state="translated">คุณสมบัติที่ไม่มี</target>
+        <note>Section header, capitalized: features that are explicitly excluded</note>
       </trans-unit>
       <trans-unit id="Description/AntiFeatures/text">
         <source>• No in-app browser
@@ -48,17 +48,17 @@
 • No coffee maker
 • No analytics
 • No ads</source>
-        <note>Please keep the bullet points (followed by one space)</note>
         <target state="translated">• ไม่มีเบราเซอร์ในแอป
 • ไม่มี VNC/SSH viewer
 • ไม่มีฟีเจอร์ที่ไม่เกี่ยวข้อง
 • ไม่มีการวิเคราะห์ข้อมูล
 • ไม่มีโฆษณา</target>
+        <note>Please keep the bullet points (followed by one space)</note>
       </trans-unit>
       <trans-unit id="Description/AutomaticSync/title">
         <source>AUTOMATIC SYNC</source>
-        <note>Section header, capitalized</note>
         <target state="translated">ซิงค์อัตโนมัติ</target>
+        <note>Section header, capitalized</note>
       </trans-unit>
       <trans-unit id="Description/AutomaticSync/text">
         <source>KeePassium can work both offline and with your favorite cloud provider. 
@@ -76,7 +76,6 @@ There is no setup: pick your database through the familiar Files interface — a
 • ...and more!
 
 Should a password manager have full access to your corporate file server? Of course not! All the networking is automatically performed by the original storage provider app. This way, KeePassium knows only about few specific databases, not your whole server.</source>
-        <note>Please keep the bullet points (followed by one space)</note>
         <target state="translated">KeePassium สามารถใช้งานแบบออฟไลน์ หรือใช้คลาวด์ที่คุณชอบก็ได้
 
 ไม่ต้องทำอะไรทั้งนั้น: วางไฟล์ฐานข้อมูลของคุณไว้ที่ไหนก็ได้ในเครื่อง โดยตัวแอปจะเชื่อมเข้ากับแอปจัดการไฟล์เอง เพราะ KeePassium รองรับระบบจัดเก็บข้อมูลได้หลายตัว เช่น:
@@ -92,11 +91,12 @@ Should a password manager have full access to your corporate file server? Of cou
 • ...และอื่น ๆ
 
 คิดว่าควรให้ตัวจัดการรหัสผ่านสามารถเข้าถึงไฟล์ในเซิร์ฟเวอร์ขององค์กรได้เต็มรูปแบบหรือ? แน่นอนว่าไม่ได้! เพราะระบบจัดเก็บข้อมูลทุกอย่างจะทำงานด้วยตัวของมันเองอยู่แล้ว เพราะนี่แหละ KeePassium จะใช้งานแค่เฉพาะฐานอย่างเดียว ไม่ใช่ทั้งเซิร์ฟเวอร์สักหน่อย</target>
+        <note>Please keep the bullet points (followed by one space)</note>
       </trans-unit>
       <trans-unit id="Description/More/title">
         <source>WHAT ELSE CAN IT DO?</source>
-        <note>Section header, capitalized: additional list of features</note>
         <target state="translated">ทำอะไรอย่างอื่นได้อีกบ้าง?</target>
+        <note>Section header, capitalized: additional list of features</note>
       </trans-unit>
       <trans-unit id="Description/More/text">
         <source>• Read and write all database formats (kdb, kdbx3, kdbx4 — including Argon2/ChaCha20)
@@ -106,7 +106,6 @@ Should a password manager have full access to your corporate file server? Of cou
 • View and edit custom fields
 • View custom icons
 • And more! See for yourself, it's free.</source>
-        <note>Please keep the bullet points (followed by one space)</note>
         <target state="translated">• อ่านและเขียนฐานข้อมูลได้ทุกฟอร์แมท (kdb, kdbx3, kdbx4 — ที่ใช้ Argon2/ChaCha20)
 • ดู time-based one-time passwords (TOTP)
 • ดูกลุ่มและรายการที่ลบไปแล้ว (ถังขยะ)
@@ -114,21 +113,22 @@ Should a password manager have full access to your corporate file server? Of cou
 • ดูและแก้ไขช่องรายการที่กำหนดเองได้
 • ดูไอคอนที่กำหนดเองได้
 • ยังมีอีก! มาดูเอาเอง โหลดฟรี</target>
+        <note>Please keep the bullet points (followed by one space)</note>
       </trans-unit>
       <trans-unit id="Description/Privacy/title">
         <source>PRIVACY</source>
-        <note>Section header, capitalized: privacy policy</note>
         <target state="translated">ความเป็นส่วนตัว</target>
+        <note>Section header, capitalized: privacy policy</note>
       </trans-unit>
       <trans-unit id="Description/Privacy/text">
         <source>This app does not collect any personal data. We sell the app, not its users.</source>
-        <note/>
         <target state="translated">แอปนี้ไม่เก็บข้อมูลส่วนตัวใด ๆ เพราะเราขายแอป ไม่ใช่ตัวผู้ใช้งาน</target>
+        <note/>
       </trans-unit>
       <trans-unit id="Description/CommercialAndOpen/title">
         <source>COMMERCIAL AND OPEN</source>
-        <note>Section header, capitalized: the app is both a commercial and open source project</note>
         <target state="translated">เป็นทั้งเชิงพาณิชย์และโอเพนซอร์ส</target>
+        <note>Section header, capitalized: the app is both a commercial and open source project</note>
       </trans-unit>
       <trans-unit id="Description/CommercialAndOpen/text">
         <source>KeePassium is a commercial open source app. Here, "open source" is the transparency you need from a password manager. The "commercial" part, in turn, gives you:
@@ -136,17 +136,17 @@ Should a password manager have full access to your corporate file server? Of cou
 • A great well-polished interface
 • Responsive support that cares
 • Future updates and improvements</source>
-        <note>Please keep the bullet points (followed by one space)</note>
         <target state="translated">KeePassium เป็นแอปโอเพนซอร์สเชิงพาณิชย์ คำว่า "โอเพนซอร์ส" คือความโปร่งใสที่คุณต้องการจากตัวจัดการรหัสผ่าน และส่วน "เชิงพาณิชย์" คือส่วนที่ทำให้คุณมี:
 
 • อินเตอร์เฟซหน้าใช้งานที่ขัดเกลามาเป็นอย่างดี
 • การช่วยเหลือที่มาพร้อมกับความใส่ใจ
 • การอัพเดตและการพัฒนาในอนาคต</target>
+        <note>Please keep the bullet points (followed by one space)</note>
       </trans-unit>
       <trans-unit id="Description/Freemium/title">
         <source>FREE vs PREMIUM</source>
-        <note>Section header, capitalized: a comparison of free and premium version.</note>
         <target state="translated">ฟรี vs พรีเมียม</target>
+        <note>Section header, capitalized: a comparison of free and premium version.</note>
       </trans-unit>
       <trans-unit id="Description/Freemium/text">
         <source>There is no "trial period". The free version is always completely functional. You can view and edit, use Touch ID / Face ID, search and AutoFill — but only with one database at a time.
@@ -159,7 +159,6 @@ With the premium version, you can:
 • View attachments in the app, without leaving a trace in the system.
 • Email your questions and get answers directly from the developer.
 • Keep KeePassium shiny and available to people who need security but cannot afford it yet.</source>
-        <note>Please keep the bullet points (followed by one space)</note>
         <target state="translated">ไม่มี "ระยะเวลาทดลองใช้งาน" — เวอร์ชันฟรีจะสามารถใช้งานได้เต็มรูปแบบ คุณสามารถดูและแก้ไข, ใช้ Touch ID / Face ID ได้, ค้นหาและป้อนรหัสผ่านอัตโนมัติ — แต่จะสามารถใช้งานได้ทีละฐานข้อมูล
 
 คุณสามารถติดตั้ง KeePassium แบบฟรีให้สมาชิกครอบครัวคุณได้ หากพวกเขาไม่ค่อยได้ใช้งาน ก็ไม่จำเป็นต้องไปรบกวนให้เขาซื้อพรีเมียมก็ได้
@@ -170,11 +169,12 @@ With the premium version, you can:
 • ดูไฟล์แนบในแอปโดยที่ไม่ทิ้งร่องรอยไว้ในระบบ
 • ส่งอีเมลถามหาและตอบคำถามจากนักพัฒนาได้โดยตรง
 • ช่วยให้ KeePassium ใช้งานดีอยู่เสมอ และช่วยให้ผู้คนอื่นที่ต้องการความปลอดภัย แต่ยังไม่มีเงินซื้อ ก็สามารถใช้แอปได้</target>
+        <note>Please keep the bullet points (followed by one space)</note>
       </trans-unit>
       <trans-unit id="Description/Contact/text">
         <source>Talk to us at info@keepassium.com, /r/KeePassium on Reddit, @KeePassium on Twitter and GitHub.</source>
-        <note/>
         <target state="translated">คุยกับเราได้ที่อีเมล info@keepassium.com, /r/KeePassium บน Reddit, @KeePassium บน Twitter และ GitHub</target>
+        <note/>
       </trans-unit>
       <trans-unit id="Description/Footer/text">
         <source>* Premium version is available as an in-app purchase, either as a subscription or a one-time payment. 
@@ -182,17 +182,17 @@ With the premium version, you can:
 * You can manage and cancel your subscriptions by going to your account settings on the App Store after purchase.
 * Privacy policy: https://keepassium.com/privacy/app
 * Terms of Use: https://keepassium.com/terms/app</source>
-        <note>Mandatory legalese required by Apple. Asterisks instead of bullet points.</note>
         <target state="translated">* เวอร์ชันพรีเมียมจะอยู่ในการซื้อภายในแอป ทั้งรูปแบบสมัครรับหรือจ่ายครั้งเดียว
 * การชำระเงินจะเรียกเก็บไปยังบัญชี Apple ID ขณะที่ยืนยันการซื้อ (ภายในแอป) การสมัครรับจะต่ออายุให้อัตโนมัติจนกว่าจะขอยกเลิกก่อนเวลาสิ้นสุดรอบใช้งานปัจจุบันอย่างน้อย 24 ชั่วโมง บัญชีของคุณจะถูกเรียกเก็บเงินเพื่อต่ออายุภายใน 24 ชั่วโมงก่อนเวลาสิ้นสุดของรอบใช้งานปัจจุบัน
 * คุณสามารถจัดการและยกเลิกการสมัครรับของคุณได้โดยเข้าไปที่ตั้งค่าบัญชีของคุณใน App Store หลังจากทำการซื้อเรียบร้อยแล้ว
 * นโยบายความเป็นส่วนตัว: https://keepassium.com/privacy/app
 * ข้อกำหนดการใช้งาน: https://keepassium.com/terms/app</target>
+        <note>Mandatory legalese required by Apple. Asterisks instead of bullet points.</note>
       </trans-unit>
       <trans-unit id="Subtitle Pro">
         <source>Lifetime license</source>
-        <note>Subtitle for the Pro version</note>
         <target state="translated">สิทธิ์ใช้งานตลอดชีพ</target>
+        <note>Subtitle for the Pro version</note>
       </trans-unit>
       <trans-unit id="Description/Intro Pro">
         <source>KeePassium Pro is the full version of KeePassium Password Manager. This app offers a lifetime license as a one-time purchase.</source>
@@ -202,10 +202,10 @@ With the premium version, you can:
         <source>• All premium features (current and future)
 • Lifetime email support
 • No in-app purchases</source>
-        <note>Please keep the bullet points (followed by one space)</note>
         <target state="translated">• มีคุณสมบัติพรีเมียมทุกอย่าง (ทั้งปัจจุบันและอนาคต)
 • การช่วยเหลือทางอีเมลตลอดการใช้งาน
 • ไม่มีการซื้อภายในแอป</target>
+        <note>Please keep the bullet points (followed by one space)</note>
       </trans-unit>
     </body>
   </file>
