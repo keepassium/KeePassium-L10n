@@ -272,9 +272,9 @@
         <target state="final">Dies ist ein älteres Datenbankformat, wodurch einige Daten verloren gehen können.</target>
         <note>Notification when user tries to copy data from KDBX to older KDB database.</note>
       </trans-unit>
-      <trans-unit id="[Database/Load/Error/encryptedByIntune]" xml:space="preserve">
+      <trans-unit id="[Database/Load/Error/encryptedByIntune]" xml:space="preserve" approved="yes">
         <source>This database is protected by your corporate IT policies and Microsoft Intune.</source>
-        <target state="needs-translation">This database is protected by your corporate IT policies and Microsoft Intune.</target>
+        <target state="final">Diese Datenbank ist durch Ihre unternehmenseigenen IT-Richtlinien und Microsoft Intune geschützt.</target>
         <note>Error message</note>
       </trans-unit>
       <trans-unit id="[Database/Load/Error] Cannot find database file" xml:space="preserve">
@@ -297,9 +297,9 @@
         <target state="translated">Schlüsseldatei kann nicht geöffnet werden</target>
         <note>Error message</note>
       </trans-unit>
-      <trans-unit id="[Database/Load/Error] Incorrect database format" xml:space="preserve">
+      <trans-unit id="[Database/Load/Error] Incorrect database format" xml:space="preserve" approved="yes">
         <source>Incorrect database format: %@.</source>
-        <target state="needs-translation">Incorrect database format: %@.</target>
+        <target state="final">Falsches Datenbankformat: %@.</target>
         <note>Error message, when the real file format is recognized. For example: 'Incorrect database format: JPEG.'</note>
       </trans-unit>
       <trans-unit id="[Database/Load/Error] Please provide at least a password or a key file" xml:space="preserve">
@@ -404,9 +404,9 @@ Dies ist ihre letzte lokale Kopie.</target>
         <target state="translated">Schlüsseldatei wird geladen...</target>
         <note>Progress status</note>
       </trans-unit>
-      <trans-unit id="[Database/RecommendRemote/callToAction]" xml:space="preserve">
+      <trans-unit id="[Database/RecommendRemote/callToAction]" xml:space="preserve" approved="yes">
         <source>Try connecting to your remote storage directly from KeePassium.</source>
-        <target state="needs-translation">Try connecting to your remote storage directly from KeePassium.</target>
+        <target state="final">Versuchen Sie, sich direkt von KeePassium aus mit Ihrem Remote-Speicher zu verbinden.</target>
         <note>Suggested solution/call to action when intermediate sync app fails.</note>
       </trans-unit>
       <trans-unit id="[Database/Remove/Confirm/text] Remove database from the list?&#10; The file will remain intact and you can add it again later." xml:space="preserve">
@@ -430,6 +430,11 @@ Dies ist ihre letzte lokale Kopie.</target>
         <source>Consider File Unreachable</source>
         <target state="translated">Datei als unerreichbar betrachten</target>
         <note>File settings parameter: time after which file will be considered unreachable. Example: `Consider File Unreachable: in 10 seconds`.)</note>
+      </trans-unit>
+      <trans-unit id="[Database/Settings/FallbackStrategy/ReAddFile/title]" xml:space="preserve">
+        <source>Re-add File</source>
+        <target state="needs-translation">Re-add File</target>
+        <note>Title: what to do when a cloud-stored file cannot be loaded. (For example: `If File is Unreachable: Re-add File`.)</note>
       </trans-unit>
       <trans-unit id="[Database/Settings/FallbackStrategy/ShowError/title]" xml:space="preserve">
         <source>Show Error</source>
@@ -1277,9 +1282,9 @@ Bitte stellen Sie sicher, dass Sie eine Sicherung Ihrer Datenbank haben, bevor S
         <target state="translated">Ein</target>
         <note>Feature status: enabled/active. Keep it short, possibly abbreviated.</note>
       </trans-unit>
-      <trans-unit id="[General/FileList/Empty/title]" xml:space="preserve">
+      <trans-unit id="[General/FileList/Empty/title]" xml:space="preserve" approved="yes">
         <source>Folder is empty</source>
-        <target state="needs-translation">Folder is empty</target>
+        <target state="final">Ordner ist leer</target>
         <note>Placeholder for folders without files</note>
       </trans-unit>
       <trans-unit id="[Generic/ConfirmDelete/title] Are you sure?" xml:space="preserve">
@@ -1512,14 +1517,14 @@ Bitte stellen Sie sicher, dass Sie eine Sicherung Ihrer Datenbank haben, bevor S
         <target state="translated">Neue Gruppe</target>
         <note>Default name of a new group</note>
       </trans-unit>
-      <trans-unit id="[Group/RecycleBin/Empty/action]" xml:space="preserve">
+      <trans-unit id="[Group/RecycleBin/Empty/action]" xml:space="preserve" approved="yes">
         <source>Empty Recycle Bin</source>
-        <target state="needs-translation">Empty Recycle Bin</target>
+        <target state="final">Papierkorb leeren</target>
         <note>Action/button to delete everything inside the Recycle Bin</note>
       </trans-unit>
-      <trans-unit id="[Group/RecycleBin/Empty/confirmTitle]" xml:space="preserve">
+      <trans-unit id="[Group/RecycleBin/Empty/confirmTitle]" xml:space="preserve" approved="yes">
         <source>Permanently delete everything in the Recycle Bin?</source>
-        <target state="needs-translation">Permanently delete everything in the Recycle Bin?</target>
+        <target state="final">Alles im Papierkorb endgültig löschen?</target>
         <note>Title of the confirmation dialog for `Empty Recycle Bin` action</note>
       </trans-unit>
       <trans-unit id="[Group/a11y/description]" xml:space="preserve" approved="yes">
@@ -1666,9 +1671,9 @@ Bitte stellen Sie sicher, dass Sie eine Sicherung Ihrer Datenbank haben, bevor S
         <target state="translated">Datei-Information</target>
         <note>Menu item: show information about file (name, size, dates)</note>
       </trans-unit>
-      <trans-unit id="[OTP/CopiedToClipboard/title]" xml:space="preserve">
+      <trans-unit id="[OTP/CopiedToClipboard/title]" xml:space="preserve" approved="yes">
         <source>One-time password copied to clipboard</source>
-        <target state="needs-translation">One-time password copied to clipboard</target>
+        <target state="final">Einmalpasswort in die Zwischenablage kopiert</target>
         <note>Notification next to the OTP code which was copied to clipboard</note>
       </trans-unit>
       <trans-unit id="[OTP/FieldName]" xml:space="preserve">
@@ -1691,9 +1696,9 @@ Bitte stellen Sie sicher, dass Sie eine Sicherung Ihrer Datenbank haben, bevor S
         <target state="final">Einmalpasswort einrichten (OTP)</target>
         <note>Call for action. Acronym `OTP` should not be translated.</note>
       </trans-unit>
-      <trans-unit id="[OTP/Title/sentenceCase]" xml:space="preserve">
+      <trans-unit id="[OTP/Title/sentenceCase]" xml:space="preserve" approved="yes">
         <source>One-time password</source>
-        <target state="needs-translation">One-time password</target>
+        <target state="final">Einmalpasswort</target>
         <note>Description of an OTP code; sentence case.</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/CannotGenerateText/title]" xml:space="preserve">
@@ -1886,9 +1891,9 @@ Bitte stellen Sie sicher, dass Sie eine Sicherung Ihrer Datenbank haben, bevor S
         <target state="translated">Vorschau ohne Spuren zu hinterlassen</target>
         <note>Title of a premium feature</note>
       </trans-unit>
-      <trans-unit id="[Premium/Benefits/BusinessClouds/title]" xml:space="preserve">
+      <trans-unit id="[Premium/Benefits/BusinessClouds/title]" xml:space="preserve" approved="yes">
         <source>Sync with corporate storage</source>
-        <target state="needs-translation">Sync with corporate storage</target>
+        <target state="final">Synchronisierung mit Unternehmensspeicher</target>
         <note>Title of a premium feature</note>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/CustomAppIcon/details]" xml:space="preserve" approved="yes">
@@ -2194,14 +2199,14 @@ Sie können Ihre Abonnements verwalten und kündigen, indem Sie nach dem Kauf Ih
         <target state="translated">App ist nützlich: %1$@/Monat, das sind etwa %2$@/Jahr.</target>
         <note>Status: how long the app has been used during some time period. For example: `App being useful: 1hr/month, about 12hr/year`. [monthlyUsage: String, annualUsage: String — already include the time unit (hours, minutes)]</note>
       </trans-unit>
-      <trans-unit id="[PremiumFeature/BusinessClouds/description]" xml:space="preserve">
+      <trans-unit id="[PremiumFeature/BusinessClouds/description]" xml:space="preserve" approved="yes">
         <source>Connect directly to enterprise storage accounts, such as OneDrive for Business.</source>
-        <target state="needs-translation">Connect directly to enterprise storage accounts, such as OneDrive for Business.</target>
+        <target state="final">Verbinden Sie sich direkt mit Speicherkonten von Unternehmen, wie etwa OneDrive for Business.</target>
         <note>Description/call to action for the `Business Cloud Storage` premium feature.</note>
       </trans-unit>
-      <trans-unit id="[PremiumFeature/BusinessClouds/title]" xml:space="preserve">
+      <trans-unit id="[PremiumFeature/BusinessClouds/title]" xml:space="preserve" approved="yes">
         <source>Corporate cloud storage</source>
-        <target state="needs-translation">Corporate cloud storage</target>
+        <target state="final">Cloud-Speicher für Unternehmen</target>
         <note>Title of a premium feature: access to company's cloud accounts like 'OneDrive for Business'</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/CustomAppIcons/title]" xml:space="preserve" approved="yes">
@@ -2333,19 +2338,19 @@ Dies kann bei größeren Datenbanken oder zu ehrgeizigen Datenbankeinstellungen 
         <target state="final">Datei-URL</target>
         <note>Network address of a file</note>
       </trans-unit>
-      <trans-unit id="[RemoteConnection/SignIn/OneDrive/action]" xml:space="preserve">
+      <trans-unit id="[RemoteConnection/SignIn/OneDrive/action]" xml:space="preserve" approved="yes">
         <source>Sign in to OneDrive</source>
-        <target state="needs-translation">Sign in to OneDrive</target>
+        <target state="final">Bei OneDrive anmelden</target>
         <note>Action: authenticate to OneDrive account</note>
       </trans-unit>
-      <trans-unit id="[RemoteConnection/SignIn/PrivateMode/description]" xml:space="preserve">
+      <trans-unit id="[RemoteConnection/SignIn/PrivateMode/description]" xml:space="preserve" approved="yes">
         <source>Open sign-in page in private web browser mode</source>
-        <target state="needs-translation">Open sign-in page in private web browser mode</target>
+        <target state="final">Anmeldeseite im privaten Webbrowser-Modus öffnen</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
-      <trans-unit id="[RemoteConnection/SignIn/PrivateMode/title]" xml:space="preserve">
+      <trans-unit id="[RemoteConnection/SignIn/PrivateMode/title]" xml:space="preserve" approved="yes">
         <source>Private mode</source>
-        <target state="needs-translation">Private mode</target>
+        <target state="final">Privater Modus</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="[RemoteConnection/connectToServer]" xml:space="preserve" approved="yes">
@@ -2613,9 +2618,9 @@ Dies kann bei größeren Datenbanken oder zu ehrgeizigen Datenbankeinstellungen 
         <target state="translated">Listeneinstellungen</target>
         <note>Title of list view configuration screen</note>
       </trans-unit>
-      <trans-unit id="[Settings/NetworkAccess/Confirmation/text]" xml:space="preserve">
+      <trans-unit id="[Settings/NetworkAccess/Confirmation/text]" xml:space="preserve" approved="yes">
         <source>Allow KeePassium to make network connections to external services?</source>
-        <target state="needs-translation">Allow KeePassium to make network connections to external services?</target>
+        <target state="final">KeePassium erlauben, Netzwerkverbindungen zu externen Diensten herzustellen?</target>
         <note>Confirmation dialog message</note>
       </trans-unit>
       <trans-unit id="[Settings/NetworkAccess/title]" xml:space="preserve">
@@ -2678,9 +2683,9 @@ Dies kann bei größeren Datenbanken oder zu ehrgeizigen Datenbankeinstellungen 
         <target state="translated">Sortieren nach</target>
         <note>Title of a sort options list. Example: 'Sort by: Name'</note>
       </trans-unit>
-      <trans-unit id="[StorageService/OneDriveForBusiness/title]" xml:space="preserve">
+      <trans-unit id="[StorageService/OneDriveForBusiness/title]" xml:space="preserve" approved="yes">
         <source>OneDrive for Business</source>
-        <target state="needs-translation">OneDrive for Business</target>
+        <target state="final">OneDrive for Business</target>
         <note>Name of a cloud storage service. Must match Microsoft's translation, see  https://partner.microsoft.com/solutions/onedrive-for-business</note>
       </trans-unit>
       <trans-unit id="[Support/template] (Please describe the problem here)" xml:space="preserve">
@@ -2743,9 +2748,9 @@ Dies kann bei größeren Datenbanken oder zu ehrgeizigen Datenbankeinstellungen 
         <target state="final">Unterstützen Sie KeePassium</target>
         <note>Call to action, title of the tip box/donation screen.</note>
       </trans-unit>
-      <trans-unit id="[URLReference/Location/RemoteServer]" xml:space="preserve">
+      <trans-unit id="[URLReference/Location/RemoteServer]" xml:space="preserve" approved="yes">
         <source>Remote server</source>
-        <target state="needs-translation">Remote server</target>
+        <target state="final">Remote-Server</target>
         <note>Human-readable file location. Example: 'File Location: Remote server'</note>
       </trans-unit>
       <trans-unit id="[URLReference/Location] Cloud storage / Another app" xml:space="preserve">

@@ -274,7 +274,7 @@
       </trans-unit>
       <trans-unit id="[Database/Load/Error/encryptedByIntune]" xml:space="preserve">
         <source>This database is protected by your corporate IT policies and Microsoft Intune.</source>
-        <target state="needs-translation">This database is protected by your corporate IT policies and Microsoft Intune.</target>
+        <target state="translated">このデータベースは、企業の IT ポリシーと Microsoft Intune によって保護されています。</target>
         <note>Error message</note>
       </trans-unit>
       <trans-unit id="[Database/Load/Error] Cannot find database file" xml:space="preserve">
@@ -299,7 +299,7 @@
       </trans-unit>
       <trans-unit id="[Database/Load/Error] Incorrect database format" xml:space="preserve">
         <source>Incorrect database format: %@.</source>
-        <target state="needs-translation">Incorrect database format: %@.</target>
+        <target state="translated">不正なデータベース形式: %@.</target>
         <note>Error message, when the real file format is recognized. For example: 'Incorrect database format: JPEG.'</note>
       </trans-unit>
       <trans-unit id="[Database/Load/Error] Please provide at least a password or a key file" xml:space="preserve">
@@ -406,7 +406,7 @@ This is its latest local copy.</source>
       </trans-unit>
       <trans-unit id="[Database/RecommendRemote/callToAction]" xml:space="preserve">
         <source>Try connecting to your remote storage directly from KeePassium.</source>
-        <target state="needs-translation">Try connecting to your remote storage directly from KeePassium.</target>
+        <target state="translated">KeePassiumから直接リモートストレージに接続してみてください。</target>
         <note>Suggested solution/call to action when intermediate sync app fails.</note>
       </trans-unit>
       <trans-unit id="[Database/Remove/Confirm/text] Remove database from the list?&#10; The file will remain intact and you can add it again later." xml:space="preserve">
@@ -430,6 +430,11 @@ This is its latest local copy.</source>
         <source>Consider File Unreachable</source>
         <target state="translated">アクセスを試行</target>
         <note>File settings parameter: time after which file will be considered unreachable. Example: `Consider File Unreachable: in 10 seconds`.)</note>
+      </trans-unit>
+      <trans-unit id="[Database/Settings/FallbackStrategy/ReAddFile/title]" xml:space="preserve">
+        <source>Re-add File</source>
+        <target state="translated">ファイルを再追加</target>
+        <note>Title: what to do when a cloud-stored file cannot be loaded. (For example: `If File is Unreachable: Re-add File`.)</note>
       </trans-unit>
       <trans-unit id="[Database/Settings/FallbackStrategy/ShowError/title]" xml:space="preserve">
         <source>Show Error</source>
@@ -1279,7 +1284,7 @@ Please make sure to have a backup of your database before changing anything.</so
       </trans-unit>
       <trans-unit id="[General/FileList/Empty/title]" xml:space="preserve">
         <source>Folder is empty</source>
-        <target state="needs-translation">Folder is empty</target>
+        <target state="translated">フォルダが空です</target>
         <note>Placeholder for folders without files</note>
       </trans-unit>
       <trans-unit id="[Generic/ConfirmDelete/title] Are you sure?" xml:space="preserve">
@@ -1514,12 +1519,12 @@ Please make sure to have a backup of your database before changing anything.</so
       </trans-unit>
       <trans-unit id="[Group/RecycleBin/Empty/action]" xml:space="preserve">
         <source>Empty Recycle Bin</source>
-        <target state="needs-translation">Empty Recycle Bin</target>
+        <target state="translated">ゴミ箱を空にする</target>
         <note>Action/button to delete everything inside the Recycle Bin</note>
       </trans-unit>
       <trans-unit id="[Group/RecycleBin/Empty/confirmTitle]" xml:space="preserve">
         <source>Permanently delete everything in the Recycle Bin?</source>
-        <target state="needs-translation">Permanently delete everything in the Recycle Bin?</target>
+        <target state="translated">ゴミ箱の内容を完全に削除しますか？</target>
         <note>Title of the confirmation dialog for `Empty Recycle Bin` action</note>
       </trans-unit>
       <trans-unit id="[Group/a11y/description]" xml:space="preserve">
@@ -1667,7 +1672,7 @@ Please make sure to have a backup of your database before changing anything.</so
       </trans-unit>
       <trans-unit id="[OTP/CopiedToClipboard/title]" xml:space="preserve">
         <source>One-time password copied to clipboard</source>
-        <target state="needs-translation">One-time password copied to clipboard</target>
+        <target state="translated">ワンタイムパスワードをクリップボードにコピーしました</target>
         <note>Notification next to the OTP code which was copied to clipboard</note>
       </trans-unit>
       <trans-unit id="[OTP/FieldName]" xml:space="preserve">
@@ -1692,7 +1697,7 @@ Please make sure to have a backup of your database before changing anything.</so
       </trans-unit>
       <trans-unit id="[OTP/Title/sentenceCase]" xml:space="preserve">
         <source>One-time password</source>
-        <target state="needs-translation">One-time password</target>
+        <target state="translated">ワンタイムパスワード</target>
         <note>Description of an OTP code; sentence case.</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/CannotGenerateText/title]" xml:space="preserve">
@@ -1887,7 +1892,7 @@ Please make sure to have a backup of your database before changing anything.</so
       </trans-unit>
       <trans-unit id="[Premium/Benefits/BusinessClouds/title]" xml:space="preserve">
         <source>Sync with corporate storage</source>
-        <target state="needs-translation">Sync with corporate storage</target>
+        <target state="translated">企業ストレージと同期</target>
         <note>Title of a premium feature</note>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/CustomAppIcon/details]" xml:space="preserve">
@@ -2195,12 +2200,12 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
       <trans-unit id="[PremiumFeature/BusinessClouds/description]" xml:space="preserve">
         <source>Connect directly to enterprise storage accounts, such as OneDrive for Business.</source>
-        <target state="needs-translation">Connect directly to enterprise storage accounts, such as OneDrive for Business.</target>
+        <target state="translated">OneDrive for Businessなどの企業ストレージに直接接続します。</target>
         <note>Description/call to action for the `Business Cloud Storage` premium feature.</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/BusinessClouds/title]" xml:space="preserve">
         <source>Corporate cloud storage</source>
-        <target state="needs-translation">Corporate cloud storage</target>
+        <target state="translated">企業向けクラウドストレージ</target>
         <note>Title of a premium feature: access to company's cloud accounts like 'OneDrive for Business'</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/CustomAppIcons/title]" xml:space="preserve">
@@ -2334,17 +2339,17 @@ This can happen with larger databases or too ambitious database settings (Argon2
       </trans-unit>
       <trans-unit id="[RemoteConnection/SignIn/OneDrive/action]" xml:space="preserve">
         <source>Sign in to OneDrive</source>
-        <target state="needs-translation">Sign in to OneDrive</target>
+        <target state="translated">OneDriveにサインイン</target>
         <note>Action: authenticate to OneDrive account</note>
       </trans-unit>
       <trans-unit id="[RemoteConnection/SignIn/PrivateMode/description]" xml:space="preserve">
         <source>Open sign-in page in private web browser mode</source>
-        <target state="needs-translation">Open sign-in page in private web browser mode</target>
+        <target state="translated">プライベートウェブブラウザモードでサインインページを開く</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="[RemoteConnection/SignIn/PrivateMode/title]" xml:space="preserve">
         <source>Private mode</source>
-        <target state="needs-translation">Private mode</target>
+        <target state="translated">プライベートモード</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="[RemoteConnection/connectToServer]" xml:space="preserve">
@@ -2614,7 +2619,7 @@ This can happen with larger databases or too ambitious database settings (Argon2
       </trans-unit>
       <trans-unit id="[Settings/NetworkAccess/Confirmation/text]" xml:space="preserve">
         <source>Allow KeePassium to make network connections to external services?</source>
-        <target state="needs-translation">Allow KeePassium to make network connections to external services?</target>
+        <target state="translated">KeePassium に外部サービスへのネットワーク接続を許可しますか？</target>
         <note>Confirmation dialog message</note>
       </trans-unit>
       <trans-unit id="[Settings/NetworkAccess/title]" xml:space="preserve">
@@ -2679,7 +2684,7 @@ This can happen with larger databases or too ambitious database settings (Argon2
       </trans-unit>
       <trans-unit id="[StorageService/OneDriveForBusiness/title]" xml:space="preserve">
         <source>OneDrive for Business</source>
-        <target state="needs-translation">OneDrive for Business</target>
+        <target state="translated">OneDrive for Business</target>
         <note>Name of a cloud storage service. Must match Microsoft's translation, see  https://partner.microsoft.com/solutions/onedrive-for-business</note>
       </trans-unit>
       <trans-unit id="[Support/template] (Please describe the problem here)" xml:space="preserve">
@@ -2744,7 +2749,7 @@ This can happen with larger databases or too ambitious database settings (Argon2
       </trans-unit>
       <trans-unit id="[URLReference/Location/RemoteServer]" xml:space="preserve">
         <source>Remote server</source>
-        <target state="needs-translation">Remote server</target>
+        <target state="translated">リモートサーバー</target>
         <note>Human-readable file location. Example: 'File Location: Remote server'</note>
       </trans-unit>
       <trans-unit id="[URLReference/Location] Cloud storage / Another app" xml:space="preserve">

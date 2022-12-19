@@ -274,7 +274,7 @@
       </trans-unit>
       <trans-unit id="[Database/Load/Error/encryptedByIntune]" xml:space="preserve">
         <source>This database is protected by your corporate IT policies and Microsoft Intune.</source>
-        <target state="translated">Deze database wordt beschermd door het IT-beleid van uw bedrijf en Microsoft Intune.</target>
+        <target state="translated">Deze databank is beveiligd door het zakelijke it-beleid en Microsoft Intune.</target>
         <note>Error message</note>
       </trans-unit>
       <trans-unit id="[Database/Load/Error] Cannot find database file" xml:space="preserve">
@@ -299,7 +299,7 @@
       </trans-unit>
       <trans-unit id="[Database/Load/Error] Incorrect database format" xml:space="preserve">
         <source>Incorrect database format: %@.</source>
-        <target state="translated">Onjuist database formaat: %@.</target>
+        <target state="translated">Onjuist databankformaat: %@.</target>
         <note>Error message, when the real file format is recognized. For example: 'Incorrect database format: JPEG.'</note>
       </trans-unit>
       <trans-unit id="[Database/Load/Error] Please provide at least a password or a key file" xml:space="preserve">
@@ -430,6 +430,11 @@ Dit is de nieuwste lokale kopie.</target>
         <source>Consider File Unreachable</source>
         <target state="translated">Beschouw bestand als ontoegankelijk</target>
         <note>File settings parameter: time after which file will be considered unreachable. Example: `Consider File Unreachable: in 10 seconds`.)</note>
+      </trans-unit>
+      <trans-unit id="[Database/Settings/FallbackStrategy/ReAddFile/title]" xml:space="preserve">
+        <source>Re-add File</source>
+        <target state="translated">Bestand opnieuw toevoegen</target>
+        <note>Title: what to do when a cloud-stored file cannot be loaded. (For example: `If File is Unreachable: Re-add File`.)</note>
       </trans-unit>
       <trans-unit id="[Database/Settings/FallbackStrategy/ShowError/title]" xml:space="preserve">
         <source>Show Error</source>

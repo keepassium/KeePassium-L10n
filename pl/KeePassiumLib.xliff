@@ -431,6 +431,11 @@ To jest jej najnowsza kopia lokalna.</target>
         <target state="needs-translation">Consider File Unreachable</target>
         <note>File settings parameter: time after which file will be considered unreachable. Example: `Consider File Unreachable: in 10 seconds`.)</note>
       </trans-unit>
+      <trans-unit id="[Database/Settings/FallbackStrategy/ReAddFile/title]" xml:space="preserve">
+        <source>Re-add File</source>
+        <target state="needs-translation">Re-add File</target>
+        <note>Title: what to do when a cloud-stored file cannot be loaded. (For example: `If File is Unreachable: Re-add File`.)</note>
+      </trans-unit>
       <trans-unit id="[Database/Settings/FallbackStrategy/ShowError/title]" xml:space="preserve">
         <source>Show Error</source>
         <target state="translated">Pokaż błąd</target>

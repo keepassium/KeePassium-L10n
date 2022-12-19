@@ -274,7 +274,7 @@ Säkerställ att du har en backup.</target>
       </trans-unit>
       <trans-unit id="[Database/Load/Error/encryptedByIntune]" xml:space="preserve">
         <source>This database is protected by your corporate IT policies and Microsoft Intune.</source>
-        <target state="needs-translation">This database is protected by your corporate IT policies and Microsoft Intune.</target>
+        <target state="translated">Denna databas skyddas av ditt företags IT-policyer och Microsoft Intune.</target>
         <note>Error message</note>
       </trans-unit>
       <trans-unit id="[Database/Load/Error] Cannot find database file" xml:space="preserve">
@@ -299,7 +299,7 @@ Säkerställ att du har en backup.</target>
       </trans-unit>
       <trans-unit id="[Database/Load/Error] Incorrect database format" xml:space="preserve">
         <source>Incorrect database format: %@.</source>
-        <target state="needs-translation">Incorrect database format: %@.</target>
+        <target state="translated">Felaktigt format på databasen: %@.</target>
         <note>Error message, when the real file format is recognized. For example: 'Incorrect database format: JPEG.'</note>
       </trans-unit>
       <trans-unit id="[Database/Load/Error] Please provide at least a password or a key file" xml:space="preserve">
@@ -406,7 +406,7 @@ Detta är den senaste lokala kopian.</target>
       </trans-unit>
       <trans-unit id="[Database/RecommendRemote/callToAction]" xml:space="preserve">
         <source>Try connecting to your remote storage directly from KeePassium.</source>
-        <target state="needs-translation">Try connecting to your remote storage directly from KeePassium.</target>
+        <target state="translated">Försök ansluta till din lagringsplats direkt från KeePassium.</target>
         <note>Suggested solution/call to action when intermediate sync app fails.</note>
       </trans-unit>
       <trans-unit id="[Database/Remove/Confirm/text] Remove database from the list?&#10; The file will remain intact and you can add it again later." xml:space="preserve">
@@ -430,6 +430,11 @@ Filen kommer inte raderas, och du kan lägga till den igen vid ett senare tillf�
         <source>Consider File Unreachable</source>
         <target state="translated">Anse fil otillgänglig</target>
         <note>File settings parameter: time after which file will be considered unreachable. Example: `Consider File Unreachable: in 10 seconds`.)</note>
+      </trans-unit>
+      <trans-unit id="[Database/Settings/FallbackStrategy/ReAddFile/title]" xml:space="preserve">
+        <source>Re-add File</source>
+        <target state="needs-translation">Re-add File</target>
+        <note>Title: what to do when a cloud-stored file cannot be loaded. (For example: `If File is Unreachable: Re-add File`.)</note>
       </trans-unit>
       <trans-unit id="[Database/Settings/FallbackStrategy/ShowError/title]" xml:space="preserve">
         <source>Show Error</source>
@@ -1279,7 +1284,7 @@ Säkerställ att du har en backup på din databas innan du ändrar vidtar åtgä
       </trans-unit>
       <trans-unit id="[General/FileList/Empty/title]" xml:space="preserve">
         <source>Folder is empty</source>
-        <target state="needs-translation">Folder is empty</target>
+        <target state="translated">Mappen är tom</target>
         <note>Placeholder for folders without files</note>
       </trans-unit>
       <trans-unit id="[Generic/ConfirmDelete/title] Are you sure?" xml:space="preserve">
@@ -1514,12 +1519,12 @@ Säkerställ att du har en backup på din databas innan du ändrar vidtar åtgä
       </trans-unit>
       <trans-unit id="[Group/RecycleBin/Empty/action]" xml:space="preserve">
         <source>Empty Recycle Bin</source>
-        <target state="needs-translation">Empty Recycle Bin</target>
+        <target state="translated">Töm papperskorgen</target>
         <note>Action/button to delete everything inside the Recycle Bin</note>
       </trans-unit>
       <trans-unit id="[Group/RecycleBin/Empty/confirmTitle]" xml:space="preserve">
         <source>Permanently delete everything in the Recycle Bin?</source>
-        <target state="needs-translation">Permanently delete everything in the Recycle Bin?</target>
+        <target state="translated">Radera allt i papperskorgen permanent?</target>
         <note>Title of the confirmation dialog for `Empty Recycle Bin` action</note>
       </trans-unit>
       <trans-unit id="[Group/a11y/description]" xml:space="preserve" approved="yes">
@@ -1668,7 +1673,7 @@ Se till att du har en säkerhetskopia.</target>
       </trans-unit>
       <trans-unit id="[OTP/CopiedToClipboard/title]" xml:space="preserve">
         <source>One-time password copied to clipboard</source>
-        <target state="needs-translation">One-time password copied to clipboard</target>
+        <target state="translated">Engångslösenord kopierat till urklipp</target>
         <note>Notification next to the OTP code which was copied to clipboard</note>
       </trans-unit>
       <trans-unit id="[OTP/FieldName]" xml:space="preserve">
@@ -1693,7 +1698,7 @@ Se till att du har en säkerhetskopia.</target>
       </trans-unit>
       <trans-unit id="[OTP/Title/sentenceCase]" xml:space="preserve">
         <source>One-time password</source>
-        <target state="needs-translation">One-time password</target>
+        <target state="translated">Engångslösenord</target>
         <note>Description of an OTP code; sentence case.</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/CannotGenerateText/title]" xml:space="preserve">
@@ -1888,7 +1893,7 @@ Se till att du har en säkerhetskopia.</target>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/BusinessClouds/title]" xml:space="preserve">
         <source>Sync with corporate storage</source>
-        <target state="needs-translation">Sync with corporate storage</target>
+        <target state="translated">Synkronisera med företagslagring</target>
         <note>Title of a premium feature</note>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/CustomAppIcon/details]" xml:space="preserve">
@@ -2196,12 +2201,12 @@ Du kan hantera och avsluta din prenumeration genom att gå till Kontoinställnin
       </trans-unit>
       <trans-unit id="[PremiumFeature/BusinessClouds/description]" xml:space="preserve">
         <source>Connect directly to enterprise storage accounts, such as OneDrive for Business.</source>
-        <target state="needs-translation">Connect directly to enterprise storage accounts, such as OneDrive for Business.</target>
+        <target state="translated">Anslut direkt till företagskonton för lagring, till exempel OneDrive for Business.</target>
         <note>Description/call to action for the `Business Cloud Storage` premium feature.</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/BusinessClouds/title]" xml:space="preserve">
         <source>Corporate cloud storage</source>
-        <target state="needs-translation">Corporate cloud storage</target>
+        <target state="translated">Företagslagring i molnet</target>
         <note>Title of a premium feature: access to company's cloud accounts like 'OneDrive for Business'</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/CustomAppIcons/title]" xml:space="preserve">
@@ -2335,17 +2340,17 @@ Detta kan hända med stora databaser eller för högt ställda databasinställni
       </trans-unit>
       <trans-unit id="[RemoteConnection/SignIn/OneDrive/action]" xml:space="preserve">
         <source>Sign in to OneDrive</source>
-        <target state="needs-translation">Sign in to OneDrive</target>
+        <target state="translated">Logga in på OneDrive</target>
         <note>Action: authenticate to OneDrive account</note>
       </trans-unit>
       <trans-unit id="[RemoteConnection/SignIn/PrivateMode/description]" xml:space="preserve">
         <source>Open sign-in page in private web browser mode</source>
-        <target state="needs-translation">Open sign-in page in private web browser mode</target>
+        <target state="translated">Öppna inloggnignssidan i privat webbläsarläge</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="[RemoteConnection/SignIn/PrivateMode/title]" xml:space="preserve">
         <source>Private mode</source>
-        <target state="needs-translation">Private mode</target>
+        <target state="translated">Privat läge</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="[RemoteConnection/connectToServer]" xml:space="preserve">
@@ -2615,7 +2620,7 @@ Detta kan hända med stora databaser eller för högt ställda databasinställni
       </trans-unit>
       <trans-unit id="[Settings/NetworkAccess/Confirmation/text]" xml:space="preserve">
         <source>Allow KeePassium to make network connections to external services?</source>
-        <target state="needs-translation">Allow KeePassium to make network connections to external services?</target>
+        <target state="translated">Tillåt KeePassium att göra nätverskanslutningar till externa tjänster?</target>
         <note>Confirmation dialog message</note>
       </trans-unit>
       <trans-unit id="[Settings/NetworkAccess/title]" xml:space="preserve">
@@ -2680,7 +2685,7 @@ Detta kan hända med stora databaser eller för högt ställda databasinställni
       </trans-unit>
       <trans-unit id="[StorageService/OneDriveForBusiness/title]" xml:space="preserve">
         <source>OneDrive for Business</source>
-        <target state="needs-translation">OneDrive for Business</target>
+        <target state="translated">OneDrive for Business</target>
         <note>Name of a cloud storage service. Must match Microsoft's translation, see  https://partner.microsoft.com/solutions/onedrive-for-business</note>
       </trans-unit>
       <trans-unit id="[Support/template] (Please describe the problem here)" xml:space="preserve">
@@ -2745,7 +2750,7 @@ Detta kan hända med stora databaser eller för högt ställda databasinställni
       </trans-unit>
       <trans-unit id="[URLReference/Location/RemoteServer]" xml:space="preserve">
         <source>Remote server</source>
-        <target state="needs-translation">Remote server</target>
+        <target state="translated">Fjärrserver</target>
         <note>Human-readable file location. Example: 'File Location: Remote server'</note>
       </trans-unit>
       <trans-unit id="[URLReference/Location] Cloud storage / Another app" xml:space="preserve">
