@@ -152,11 +152,11 @@ Se hai bisogno di aiuto, contattaci pure.</target>
 Why? Behind the scenes, the system treats AutoFill as a separate app, independent from the main KeePassium process. For security reasons, an app cannot simply access any external files – unless you explicitly link these files to that app. Thus the system guarantees that the app can only access the few files you allowed it to.
 
 As a result, both AutoFill and the main KeePassium app need to be given their own permissions for each external file. Luckily, this is a one-time procedure.</source>
-        <target state="translated">L'AutoFill non può accedere automaticamente ai file che hai già nell'app principale di KeePassium
+        <target state="translated">L'AutoFill non può accedere automaticamente ai file che hai già nell'app principale di KeePassium.
 
 Perché? Dietro le quinte, il sistema tratta AutoFill come un'app separata, indipendente dal processo principale di KeePassium. Per ragioni di sicurezza, un’app non può semplicemente accedere a qualsiasi file esterno – a meno che non si colleghino esplicitamente questi file all'app. Pertanto, il sistema garantisce che l'applicazione possa accedere solo ai file che hai autorizzato.
 
-Di conseguenza, sia AutoFill che l'app principale di KeePassium devono avere le autorizzazioni necessarie per ogni file esterno. Fortunatamente si tratta di una procedura da eseguire una tantum.</target>
+Di conseguenza, sia AutoFill che l'app principale di KeePassium devono avere le autorizzazioni necessarie per ogni file esterno. Fortunatamente si tratta di una procedura da eseguire una sola volta.</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="[ProtectedTextField] Show Password" xml:space="preserve">
@@ -183,7 +183,7 @@ Di conseguenza, sia AutoFill che l'app principale di KeePassium devono avere le 
       </trans-unit>
       <trans-unit id="VjQ-di-Ilx.text" xml:space="preserve">
         <source>Master Key</source>
-        <target state="translated">Chiave Master</target>
+        <target state="translated">Chiave Principale</target>
         <note>Class = "UILabel"; text = "Master Key"; ObjectID = "VjQ-di-Ilx"; Note = "Common title for the password/key file fields.";</note>
       </trans-unit>
       <trans-unit id="XNL-lc-2Ti.placeholder" xml:space="preserve">
@@ -287,7 +287,7 @@ Di conseguenza, sia AutoFill che l'app principale di KeePassium devono avere le 
       </trans-unit>
       <trans-unit id="lnO-nD-gvh.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" xml:space="preserve">
         <source>Sort Order</source>
-        <target state="translated">Ordinamento</target>
+        <target state="translated">Ordine</target>
         <note>Class = "UIBarButtonItem"; lnO-nD-gvh.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Sort Order"; ObjectID = "lnO-nD-gvh"; Note = "Action: show sorting settings of database files";</note>
       </trans-unit>
       <trans-unit id="oee-CI-r2x.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" xml:space="preserve">
@@ -391,7 +391,7 @@ Di conseguenza, sia AutoFill che l'app principale di KeePassium devono avere le 
       </trans-unit>
       <trans-unit id="W86-tp-bfF.text" xml:space="preserve">
         <source>There are no attached files</source>
-        <target state="translated">Nessun allegato</target>
+        <target state="translated">Nessun file allegato</target>
         <note>Class = "UILabel"; text = "There are no attached files"; ObjectID = "W86-tp-bfF"; Note = "Placeholder shown when there are no attached files in the entry.";</note>
       </trans-unit>
       <trans-unit id="WUw-Hm-GLz.text" xml:space="preserve" translate="no">
@@ -512,12 +512,12 @@ Di conseguenza, sia AutoFill che l'app principale di KeePassium devono avere le 
       </trans-unit>
       <trans-unit id="CcF-c8-r4M.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" xml:space="preserve">
         <source>Custom field editor</source>
-        <target state="translated">Editor di campi personalizzati</target>
+        <target state="translated">Editor campo personalizzato</target>
         <note>Class = "UITableViewCell"; CcF-c8-r4M.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Custom field editor"; ObjectID = "CcF-c8-r4M";</note>
       </trans-unit>
       <trans-unit id="HGI-xq-zUf.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" xml:space="preserve">
         <source>Add Custom Field</source>
-        <target state="translated">Aggiungere Campo Personalizzato</target>
+        <target state="translated">Aggiungi Campo Personalizzato</target>
         <note>Class = "UIBarButtonItem"; HGI-xq-zUf.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Add Custom Field"; ObjectID = "HGI-xq-zUf";</note>
       </trans-unit>
       <trans-unit id="HcW-rc-pdR.normalTitle" xml:space="preserve">
@@ -557,7 +557,7 @@ Di conseguenza, sia AutoFill che l'app principale di KeePassium devono avere le 
       </trans-unit>
       <trans-unit id="l3s-Bv-fA1.title" xml:space="preserve">
         <source>Edit Entry</source>
-        <target state="translated">Modifica voce</target>
+        <target state="translated">Modifica Voce</target>
         <note>Class = "UINavigationItem"; title = "Edit Entry"; ObjectID = "l3s-Bv-fA1";</note>
       </trans-unit>
       <trans-unit id="mGc-If-zfn.accessibilityLabel" xml:space="preserve" approved="yes">
@@ -658,7 +658,7 @@ Di conseguenza, sia AutoFill che l'app principale di KeePassium devono avere le 
       </trans-unit>
       <trans-unit id="M5a-Ld-ZXd.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" xml:space="preserve">
         <source>Sort Order</source>
-        <target state="translated">Ordinamento</target>
+        <target state="translated">Ordine</target>
         <note>Class = "UIBarButtonItem"; M5a-Ld-ZXd.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Sort Order"; ObjectID = "M5a-Ld-ZXd";</note>
       </trans-unit>
       <trans-unit id="OjW-aR-wD3.text" xml:space="preserve" translate="no">
@@ -678,7 +678,7 @@ Di conseguenza, sia AutoFill che l'app principale di KeePassium devono avere le 
       </trans-unit>
       <trans-unit id="qkh-6K-yQW.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" xml:space="preserve">
         <source>Change Master Key</source>
-        <target state="translated">Modifica la Chiave Principale</target>
+        <target state="translated">Cambia la Chiave Principale</target>
         <note>Class = "UIBarButtonItem"; qkh-6K-yQW.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Change Master Key"; ObjectID = "qkh-6K-yQW";</note>
       </trans-unit>
       <trans-unit id="rF3-mC-kj1.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" xml:space="preserve">
@@ -688,7 +688,7 @@ Di conseguenza, sia AutoFill che l'app principale di KeePassium devono avere le 
       </trans-unit>
       <trans-unit id="tpA-i1-ah8.text" xml:space="preserve">
         <source>No entries found</source>
-        <target state="translated">Nessun elemento trovato</target>
+        <target state="translated">Nessuna voce trovata</target>
         <note>Class = "UILabel"; text = "No entries found"; ObjectID = "tpA-i1-ah8";</note>
       </trans-unit>
       <trans-unit id="ttY-yZ-yRg.text" xml:space="preserve" translate="no">
@@ -774,7 +774,7 @@ Di conseguenza, sia AutoFill che l'app principale di KeePassium devono avere le 
       </trans-unit>
       <trans-unit id="leO-vH-qBX.text" xml:space="preserve">
         <source>Use only password</source>
-        <target state="translated">Usa solo password</target>
+        <target state="translated">Usa solo la password</target>
         <note>Class = "UILabel"; text = "Use only password"; ObjectID = "leO-vH-qBX";</note>
       </trans-unit>
       <trans-unit id="pn1-Yp-Bzr.text" xml:space="preserve" translate="no">
@@ -828,7 +828,7 @@ Di conseguenza, sia AutoFill che l'app principale di KeePassium devono avere le 
       </trans-unit>
       <trans-unit id="K3Y-ON-C19.text" xml:space="preserve">
         <source>Will use the remembered master key.</source>
-        <target state="translated">Userà la chiave master memorizzata.</target>
+        <target state="translated">Userà la chiave principale memorizzata.</target>
         <note>Class = "UILabel"; text = "Will use the remembered master key."; ObjectID = "K3Y-ON-C19"; Note = "Hint shown below the Unlock button, when not asking for master password/key file.";</note>
       </trans-unit>
       <trans-unit id="LsQ-5N-nP3.text" xml:space="preserve" translate="no">
@@ -932,7 +932,7 @@ Di conseguenza, sia AutoFill che l'app principale di KeePassium devono avere le 
       </trans-unit>
       <trans-unit id="[Database/Create/TemplateEntry/password] pa$$word" xml:space="preserve">
         <source>pa$$word</source>
-        <target state="translated">paga$$word</target>
+        <target state="translated">pa$$word</target>
         <note>Password for a sample entry. Translation is optional.</note>
       </trans-unit>
       <trans-unit id="[Database/Create/TemplateEntry/title] Sample Entry" xml:space="preserve">
@@ -942,7 +942,7 @@ Di conseguenza, sia AutoFill che l'app principale di KeePassium devono avere le 
       </trans-unit>
       <trans-unit id="[Database/Create/TemplateEntry/userName] john.smith" xml:space="preserve">
         <source>john.smith</source>
-        <target state="translated">john.smith</target>
+        <target state="translated">mario.rossi</target>
         <note>User name for a sample entry. Set it to a typical person name for your language ( https://en.wikipedia.org/wiki/List_of_placeholder_names_by_language).</note>
       </trans-unit>
       <trans-unit id="[Database/Create/TemplateGroup/title] Email" xml:space="preserve">
