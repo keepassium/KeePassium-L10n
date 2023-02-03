@@ -21,7 +21,7 @@
 This can happen with large databases or memory-demanding database settings (Argon2).
 
 Please contact us if you need help with this.</source>
-        <target state="translated">Il semble que Remplissage automatique ne se soit pas correctement fermé lors de sa dernière utilisation.
+        <target state="translated">Il semblerait que la Saisie automatique ne se soit pas correctement fermée lors de sa dernière utilisation.
 
 Cela peut se produire avec des bases de données volumineuses ou des paramètres de base de données exigeants en mémoire (Argon2).
 
@@ -89,7 +89,7 @@ Veuillez nous contacter si vous avez besoin d'aide à sujet.</target>
       </trans-unit>
       <trans-unit id="P0M-N3-ynf.text" xml:space="preserve">
         <source>Please re-add databases and key files you want to use with the AutoFill feature.</source>
-        <target state="translated">Veuillez ajouter à nouveau les bases de données et les fichiers clés que vous voulez utiliser avec la fonctionnalité Remplissage automatique.</target>
+        <target state="translated">Veuillez ajouter à nouveau les bases de données et les fichiers clés que vous voulez utiliser avec la fonctionnalité de Saisie automatique.</target>
         <note>Class = "UILabel"; text = "Please re-add databases and key files you want to use with the AutoFill feature."; ObjectID = "P0M-N3-ynf";</note>
       </trans-unit>
       <trans-unit id="UAW-0G-N5G.text" xml:space="preserve" translate="no">
@@ -104,7 +104,7 @@ Veuillez nous contacter si vous avez besoin d'aide à sujet.</target>
       </trans-unit>
       <trans-unit id="pIl-6L-Msp.text" xml:space="preserve">
         <source>AutoFill Setup</source>
-        <target state="translated">Configuration du Remplissage automatique</target>
+        <target state="translated">Configuration de la Saisie automatique</target>
         <note>Class = "UILabel"; text = "AutoFill Setup"; ObjectID = "pIl-6L-Msp";</note>
       </trans-unit>
       <trans-unit id="rzY-Ci-bd9.title" xml:space="preserve">
@@ -121,12 +121,12 @@ Veuillez nous contacter si vous avez besoin d'aide à sujet.</target>
     <body>
       <trans-unit id="CFBundleDisplayName" xml:space="preserve">
         <source>KeePassium AutoFill</source>
-        <target state="translated">Remplissage automatique KeePassium</target>
+        <target state="translated">Saisie automatique KeePassium</target>
         <note>Bundle display name</note>
       </trans-unit>
       <trans-unit id="CFBundleName" xml:space="preserve">
         <source>KeePassium AutoFill</source>
-        <target state="translated">Remplissage automatique KeePassium</target>
+        <target state="translated">Saisie automatique KeePassium</target>
         <note>Bundle name</note>
       </trans-unit>
       <trans-unit id="NSFaceIDUsageDescription" xml:space="preserve">
@@ -152,11 +152,11 @@ Veuillez nous contacter si vous avez besoin d'aide à sujet.</target>
 Why? Behind the scenes, the system treats AutoFill as a separate app, independent from the main KeePassium process. For security reasons, an app cannot simply access any external files – unless you explicitly link these files to that app. Thus the system guarantees that the app can only access the few files you allowed it to.
 
 As a result, both AutoFill and the main KeePassium app need to be given their own permissions for each external file. Luckily, this is a one-time procedure.</source>
-        <target state="translated">Le Remplissage automatique ne peut pas accéder automatiquement aux fichiers que vous avez déjà dans l'application principale KeePassium.
+        <target state="translated">La Saisie automatique ne peut pas accéder automatiquement aux fichiers que vous avez déjà dans l'application principale KeePassium.
 
-Pourquoi ? En coulisses, le système traite la fonction de Remplissage automatique comme une application distincte, indépendante du processus principal de KeePassium. Pour des raisons de sécurité, une application ne peut simplement pas accéder à des fichiers externes – sauf si vous liez explicitement ces fichiers à cette application. Ainsi, le système garantit que l'application ne peut accéder qu'aux quelques fichiers dont vous avez autorisé l'accès.
+Pourquoi ? En coulisses, le système traite la fonction de Saisie automatique comme une application distincte, indépendante du processus principal de KeePassium. Pour des raisons de sécurité, une application ne peut simplement pas accéder à des fichiers externes – sauf si vous liez explicitement ces fichiers à cette application. Ainsi, le système garantit que l'application ne peut accéder qu'aux quelques fichiers dont vous avez autorisé l'accès.
 
-Par conséquent, la fonction de Remplissage automatique et l'application principale KeePassium doivent avoir leurs propres autorisations pour chaque fichier externe. Heureusement, il s'agit d'une procédure unique.</target>
+Par conséquent, la fonction de Saisie automatique et l'application principale KeePassium doivent avoir leurs propres autorisations pour chaque fichier externe. Heureusement, il s'agit d'une procédure unique.</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="[ProtectedTextField] Show Password" xml:space="preserve">
@@ -166,7 +166,7 @@ Par conséquent, la fonction de Remplissage automatique et l'application princip
       </trans-unit>
       <trans-unit id="[QuickAutoFill/Activate/callToAction]" xml:space="preserve">
         <source>Activate Quick AutoFill</source>
-        <target state="translated">Activer le Remplissage automatique rapide</target>
+        <target state="translated">Activer la Saisie automatique rapide</target>
         <note>Call to action, invites the user to enable the Quick AutoFill feature</note>
       </trans-unit>
     </body>
@@ -1024,7 +1024,7 @@ Par conséquent, la fonction de Remplissage automatique et l'application princip
       </trans-unit>
       <trans-unit id="7bL-fQ-OUc.headerTitle" xml:space="preserve">
         <source>Feedback</source>
-        <target state="translated">Retour sur expérience</target>
+        <target state="translated">Retour d'expérience</target>
         <note>Class = "UITableViewSection"; headerTitle = "Feedback"; ObjectID = "7bL-fQ-OUc"; Note = "Section: user feedback about the app";</note>
       </trans-unit>
       <trans-unit id="7cl-Fc-8Nf.text" xml:space="preserve">
@@ -1585,7 +1585,7 @@ Vous pouvez avoir plusieurs bases de données, par exemple pour séparer le trav
       </trans-unit>
       <trans-unit id="aBx-Ee-bMk.footerTitle" xml:space="preserve">
         <source>Protect KeePassium from unauthorized access.</source>
-        <target state="translated">Protège KeePassium des accès non autorisés.</target>
+        <target state="translated">Protégez KeePassium des accès non autorisés.</target>
         <note>Class = "UITableViewSection"; footerTitle = "Protect KeePassium from unauthorized access."; ObjectID = "aBx-Ee-bMk"; Note = "Explanation for the `Enable AppLock` option.";</note>
       </trans-unit>
       <trans-unit id="m50-fl-4tu.footerTitle" xml:space="preserve">
@@ -1696,7 +1696,7 @@ Vous pouvez avoir plusieurs bases de données, par exemple pour séparer le trav
       </trans-unit>
       <trans-unit id="XYL-1l-Jx6.footerTitle" xml:space="preserve">
         <source>When AutoFill inserts the username and password, it can also copy the one-time password (OTP) for you.</source>
-        <target state="translated">Lorsque le Remplissage automatique insère le nom d'utilisateur et le mot de passe, il peut également copier le mot de passe à usage unique (OTP) pour vous.</target>
+        <target state="translated">Lorsque la Saisie automatique insère le nom d'utilisateur et le mot de passe, elle peut également copier le mot de passe à usage unique (OTP) pour vous.</target>
         <note>Class = "UITableViewSection"; footerTitle = "When AutoFill inserts the username and password, it can also copy the one-time password (OTP) for you."; ObjectID = "XYL-1l-Jx6";</note>
       </trans-unit>
       <trans-unit id="XYL-1l-Jx6.headerTitle" xml:space="preserve">
@@ -1721,7 +1721,7 @@ Vous pouvez avoir plusieurs bases de données, par exemple pour séparer le trav
       </trans-unit>
       <trans-unit id="jYl-ks-dFG.footerTitle" xml:space="preserve">
         <source>When AutoFill finds only one, perfectly matching, entry – this entry will be pasted automatically.</source>
-        <target state="translated">Lorsque le Remplissage automatique ne trouve qu'une seule entrée parfaitement correspondante, cette entrée sera collée automatiquement.</target>
+        <target state="translated">Lorsque la Saisie automatique trouve une entrée unique parfaitement correspondante – cette entrée sera collée automatiquement.</target>
         <note>Class = "UITableViewSection"; footerTitle = "When AutoFill finds only one, perfectly matching, entry – this entry will be pasted automatically."; ObjectID = "jYl-ks-dFG";</note>
       </trans-unit>
       <trans-unit id="jYl-ks-dFG.headerTitle" xml:space="preserve">
@@ -2072,9 +2072,9 @@ Vous pouvez avoir plusieurs bases de données, par exemple pour séparer le trav
         <source>Once you unlock a database, its master key can be stored in device's secure keychain. The next time, KeePassium will use that key so you won't have to type your full master password again. 
 
 (Master keys are automatically cleared on database timeout.)</source>
-        <target state="translated">Une fois que vous avez déverrouillé une base de données, sa clé principale peut être stockée dans le trousseau sécurisé du périphérique. La prochaine fois, KeePassium utilisera cette clé, de sorte que vous n'aurez plus à taper votre mot de passe maître complet. 
+        <target state="translated">Une fois que vous déverrouillez une base de données, sa clé principale peut être stockée dans le trousseau sécurisé de l'appareil. La prochaine fois, KeePassium utilisera cette clé afin que vous n'ayez pas à taper votre mot de passe principal complet à nouveau.
 
-(les clés maîtresses sont automatiquement effacées lors de l'expiration de la session de base de données.)</target>
+(Les clés principales sont automatiquement effacées lors du délai d'expiration de session de la base de données).</target>
         <note>Class = "UITableViewSection"; footerTitle = "Once you unlock a database, its master key can be stored in device's secure keychain. The next time, KeePassium will use that key so you won't have to type your full master password again. \n\n(Master keys are automatically cleared on database timeout.)"; ObjectID = "Faj-km-pM5";</note>
       </trans-unit>
       <trans-unit id="Faj-km-pM5.headerTitle" xml:space="preserve">
@@ -2084,7 +2084,7 @@ Vous pouvez avoir plusieurs bases de données, par exemple pour séparer le trav
       </trans-unit>
       <trans-unit id="INJ-Cy-Tfo.text" xml:space="preserve">
         <source>Remember Master Keys</source>
-        <target state="translated">Se souvenir des clés maîtresses</target>
+        <target state="translated">Se souvenir des clés principales</target>
         <note>Class = "UILabel"; text = "Remember Master Keys"; ObjectID = "INJ-Cy-Tfo";</note>
       </trans-unit>
       <trans-unit id="IZZ-aM-g2i.title" xml:space="preserve" translate="no">
@@ -2139,7 +2139,7 @@ Vous pouvez avoir plusieurs bases de données, par exemple pour séparer le trav
       </trans-unit>
       <trans-unit id="e6Y-AP-hag.footerTitle" xml:space="preserve">
         <source>Hide passwords and other protected fields behind asterisks (recommended).</source>
-        <target state="translated">Masquer les mots de passe et autres champs protégés par des astérisques (recommandé).</target>
+        <target state="translated">Masque les mots de passe et autres champs protégés par des astérisques (recommandé).</target>
         <note>Class = "UITableViewSection"; footerTitle = "Hide passwords and other protected fields behind asterisks (recommended)."; ObjectID = "e6Y-AP-hag";</note>
       </trans-unit>
       <trans-unit id="e6Y-AP-hag.headerTitle" xml:space="preserve">
@@ -2169,7 +2169,7 @@ Vous pouvez avoir plusieurs bases de données, par exemple pour séparer le trav
       </trans-unit>
       <trans-unit id="neJ-eG-TV7.footerTitle" xml:space="preserve">
         <source>Database timeout closes any opened databases and clears any remembered master keys after some time.</source>
-        <target state="translated">Le délai d'expiration de la base de données ferme toutes les bases de données ouvertes et efface toutes les clés principales mémorisées après un certain temps.</target>
+        <target state="translated">Le délai d'expiration de session de base de données ferme toutes les bases de données ouvertes et efface toutes les clés principales mémorisées après un certain temps.</target>
         <note>Class = "UITableViewSection"; footerTitle = "Database timeout closes any opened databases and clears any remembered master keys after some time."; ObjectID = "neJ-eG-TV7";</note>
       </trans-unit>
       <trans-unit id="neJ-eG-TV7.headerTitle" xml:space="preserve">

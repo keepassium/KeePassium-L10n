@@ -27,7 +27,7 @@
       </trans-unit>
       <trans-unit id="No database files" xml:space="preserve">
         <source>No database files</source>
-        <target state="translated">Aucun fichier de base de données</target>
+        <target state="translated">Pas de fichiers de base de données</target>
         <note>Placeholder shown when there are no database files available</note>
       </trans-unit>
       <trans-unit id="Show Backup Files" xml:space="preserve">
@@ -97,7 +97,7 @@
       </trans-unit>
       <trans-unit id="[AppLock/changePasscode]" xml:space="preserve" approved="yes">
         <source>Change Passcode</source>
-        <target state="final">Changer le mot de passe</target>
+        <target state="final">Changer le code d'accès</target>
         <note>Action/button to modify the existing AppLock passcode.</note>
       </trans-unit>
       <trans-unit id="[AppLock/passcodeUpdated/title]" xml:space="preserve" approved="yes">
@@ -107,7 +107,7 @@
       </trans-unit>
       <trans-unit id="[AppLock/savePasscode]" xml:space="preserve" approved="yes">
         <source>Save Passcode</source>
-        <target state="final">Enregistrer le code d'accès</target>
+        <target state="final">Enregistrer</target>
         <note>Action/button to save new or edited AppLock passcode.</note>
       </trans-unit>
       <trans-unit id="[AppLock] Unlock" xml:space="preserve">
@@ -122,7 +122,7 @@
       </trans-unit>
       <trans-unit id="[Appearance/title]" xml:space="preserve" approved="yes">
         <source>Appearance</source>
-        <target state="final">Aspect</target>
+        <target state="final">Affichage</target>
         <note>Group of settings for user interface appearance (text size, icons, etc)</note>
       </trans-unit>
       <trans-unit id="[AutoFill/Premium/Upgrade/Manual/text] To upgrade, please manually open KeePassium from your home screen." xml:space="preserve">
@@ -157,7 +157,7 @@
       </trans-unit>
       <trans-unit id="[ChallengeResponseError] notAvailableInAutoFill" xml:space="preserve">
         <source>Hardware keys are not available in AutoFill.</source>
-        <target state="translated">Les clés matérielles ne sont pas disponibles dans le Remplissage automatique.</target>
+        <target state="translated">Les clés matérielles ne sont pas disponibles dans la Saisie automatique.</target>
         <note>Error message when trying to use challenge-response hardware in AutoFill.</note>
       </trans-unit>
       <trans-unit id="[ChallengeResponseError] notSupportedByDatabaseFormat" xml:space="preserve">
@@ -237,22 +237,22 @@
       </trans-unit>
       <trans-unit id="[CryptoError] Twofish cipher error (code %d)" xml:space="preserve">
         <source>Twofish cipher error (code %d)</source>
-        <target state="translated">Erreur Twofish cipher (code %d)</target>
+        <target state="translated">Erreur de chiffrement Twofish (code %d)</target>
         <note>Error message about Twofish cipher. [errorCode: Int]</note>
       </trans-unit>
       <trans-unit id="[Database/Add] Selected file &quot;%@&quot; does not look like a database." xml:space="preserve">
         <source>Selected file "%@" does not look like a database.</source>
-        <target state="translated">Le fichier sélectionné "%@" ne semble pas être une base de données.</target>
+        <target state="translated">Le fichier sélectionné "%@" ne ressemble pas à une base de données.</target>
         <note>Warning when trying to add a random file as a database. [fileName: String]</note>
       </trans-unit>
       <trans-unit id="[Database/Create/action] Create Database" xml:space="preserve">
         <source>Create Database</source>
-        <target state="translated">Créer une base de données</target>
+        <target state="translated">Créer base de données</target>
         <note>Action/button to create a new database</note>
       </trans-unit>
       <trans-unit id="[Database/Create/title] Create Database" xml:space="preserve">
         <source>Create Database</source>
-        <target state="translated">Créer une base de données</target>
+        <target state="translated">Créer base de données</target>
         <note>Title of a form for creating a database</note>
       </trans-unit>
       <trans-unit id="[Database/CustomIcon/add]" xml:space="preserve">
@@ -274,12 +274,12 @@ Assurez-vous d'avoir une sauvegarde.</target>
       </trans-unit>
       <trans-unit id="[Database/Load/Error/encryptedByIntune]" xml:space="preserve">
         <source>This database is protected by your corporate IT policies and Microsoft Intune.</source>
-        <target state="needs-translation">This database is protected by your corporate IT policies and Microsoft Intune.</target>
+        <target state="translated">Cette base de données est protégée par les politiques informatiques de votre entreprise et par Microsoft Intune.</target>
         <note>Error message</note>
       </trans-unit>
       <trans-unit id="[Database/Load/Error] Cannot find database file" xml:space="preserve">
         <source>Cannot find database file</source>
-        <target state="translated">Le fichier de base de données n'a pas été trouvé</target>
+        <target state="translated">Impossible de trouver le fichier de la base de données</target>
         <note>Error message</note>
       </trans-unit>
       <trans-unit id="[Database/Load/Error] Cannot find key file" xml:space="preserve">
@@ -289,17 +289,17 @@ Assurez-vous d'avoir une sauvegarde.</target>
       </trans-unit>
       <trans-unit id="[Database/Load/Error] Cannot open database file" xml:space="preserve">
         <source>Cannot open database file</source>
-        <target state="translated">Impossible d'ouvrir le fichier de base de données</target>
+        <target state="translated">Impossible d'ouvrir le fichier de la base de données</target>
         <note>Error message</note>
       </trans-unit>
       <trans-unit id="[Database/Load/Error] Cannot open key file" xml:space="preserve">
         <source>Cannot open key file</source>
-        <target state="translated">Impossible d'ouvrir le fichier de clé</target>
+        <target state="translated">Impossible d'ouvrir le fichier clé</target>
         <note>Error message</note>
       </trans-unit>
       <trans-unit id="[Database/Load/Error] Incorrect database format" xml:space="preserve">
         <source>Incorrect database format: %@.</source>
-        <target state="needs-translation">Incorrect database format: %@.</target>
+        <target state="translated">Format de la base de données incorrect : %@.</target>
         <note>Error message, when the real file format is recognized. For example: 'Incorrect database format: JPEG.'</note>
       </trans-unit>
       <trans-unit id="[Database/Load/Error] Please provide at least a password or a key file" xml:space="preserve">
@@ -315,12 +315,13 @@ Assurez-vous d'avoir une sauvegarde.</target>
       <trans-unit id="[Database/Loading/FromCache/text]" xml:space="preserve">
         <source>The database is unreachable.
 This is its latest local copy.</source>
-        <target state="translated">La base de données est inaccessible. Vous utilisez la dernière copie locale.</target>
+        <target state="translated">La base de données est inaccessible.
+Il s'agit de sa dernière copie locale.</target>
         <note>Message shown after we show a cached local database instead of the (unavailable) original database.</note>
       </trans-unit>
       <trans-unit id="[Database/Loading/ReadOnly/text]" xml:space="preserve">
         <source>The database is read-only</source>
-        <target state="translated">La base de donnée est en lecture seule</target>
+        <target state="translated">La base de données est en lecture seule</target>
         <note>Message shown if current database cannot be edited</note>
       </trans-unit>
       <trans-unit id="[Database/Loading/Status] Loading..." xml:space="preserve" approved="yes">
@@ -350,7 +351,7 @@ This is its latest local copy.</source>
       </trans-unit>
       <trans-unit id="[Database/Opened/Warning/action] Close Database" xml:space="preserve">
         <source>Close Database</source>
-        <target state="translated">Fermer base de données</target>
+        <target state="translated">Fermer la base de données</target>
         <note>Action: lock database</note>
       </trans-unit>
       <trans-unit id="[Database/Opened/Warning/action] Ignore and Continue" xml:space="preserve">
@@ -360,7 +361,7 @@ This is its latest local copy.</source>
       </trans-unit>
       <trans-unit id="[Database/Opened/Warning/lastEdited] Database was last edited by: %@" xml:space="preserve">
         <source>Database was last edited by: %@</source>
-        <target state="translated">La dernière modification de la base de données a été effectuée par : %@</target>
+        <target state="translated">Dernière édition de la base de données par : %@</target>
         <note>Status message: name of the app that was last to write/create the database file. [lastUsedAppName: String]</note>
       </trans-unit>
       <trans-unit id="[Database/Opened/Warning/title] Your database is ready, but there was an issue." xml:space="preserve">
@@ -375,7 +376,7 @@ This is its latest local copy.</source>
       </trans-unit>
       <trans-unit id="[Database/Progress/downloading]" xml:space="preserve">
         <source>Downloading database file...</source>
-        <target state="translated">Téléchargement du fichier de base de données...</target>
+        <target state="translated">Téléchargement du fichier de la base de données...</target>
         <note>Database loading status: fetching the database file from disk/cloud</note>
       </trans-unit>
       <trans-unit id="[Database/Progress/makingDatabaseBackup]" xml:space="preserve">
@@ -405,7 +406,7 @@ This is its latest local copy.</source>
       </trans-unit>
       <trans-unit id="[Database/RecommendRemote/callToAction]" xml:space="preserve">
         <source>Try connecting to your remote storage directly from KeePassium.</source>
-        <target state="needs-translation">Try connecting to your remote storage directly from KeePassium.</target>
+        <target state="translated">Essayez de vous connecter à votre stockage distant directement depuis KeePassium.</target>
         <note>Suggested solution/call to action when intermediate sync app fails.</note>
       </trans-unit>
       <trans-unit id="[Database/Remove/Confirm/text] Remove database from the list?&#10; The file will remain intact and you can add it again later." xml:space="preserve">
@@ -432,7 +433,7 @@ Le fichier restera intact et vous pourrez l'ajouter à nouveau ultérieurement.<
       </trans-unit>
       <trans-unit id="[Database/Settings/FallbackStrategy/ReAddFile/title]" xml:space="preserve">
         <source>Re-add File</source>
-        <target state="needs-translation">Re-add File</target>
+        <target state="translated">Ajouter à nouveau le fichier</target>
         <note>Title: what to do when a cloud-stored file cannot be loaded. (For example: `If File is Unreachable: Re-add File`.)</note>
       </trans-unit>
       <trans-unit id="[Database/Settings/FallbackStrategy/ShowError/title]" xml:space="preserve">
@@ -462,7 +463,7 @@ Le fichier restera intact et vous pourrez l'ajouter à nouveau ultérieurement.<
       </trans-unit>
       <trans-unit id="[Database/Settings/title]" xml:space="preserve">
         <source>Database Settings</source>
-        <target state="translated">Paramètres de la base de données</target>
+        <target state="translated">Paramètres</target>
         <note>Title of database-related settings screen</note>
       </trans-unit>
       <trans-unit id="[Database/Switch/action]" xml:space="preserve">
@@ -482,7 +483,7 @@ Le fichier restera intact et vous pourrez l'ajouter à nouveau ultérieurement.<
       </trans-unit>
       <trans-unit id="[Database/SyncConflict/Merge/description]" xml:space="preserve">
         <source>Combine changes before saving.</source>
-        <target state="translated">Combiner les modifications avant d'enregistrer.</target>
+        <target state="translated">Fusionner les modifications avant d'enregistrer.</target>
         <note>Explanation of the database sync conflict `Merge` option.</note>
       </trans-unit>
       <trans-unit id="[Database/SyncConflict/Overwrite/description]" xml:space="preserve">
@@ -537,7 +538,7 @@ Le fichier restera intact et vous pourrez l'ajouter à nouveau ultérieurement.<
       </trans-unit>
       <trans-unit id="[Database1/FormatError] Database file is corrupted." xml:space="preserve">
         <source>Database file is corrupted.</source>
-        <target state="translated">Le fichier de base de données est corrompu.</target>
+        <target state="translated">Le fichier de la base de données est corrompu.</target>
         <note>Error message</note>
       </trans-unit>
       <trans-unit id="[Database1/FormatError] Error parsing field %@. Corrupted database file?" xml:space="preserve">
@@ -547,7 +548,7 @@ Le fichier restera intact et vous pourrez l'ajouter à nouveau ultérieurement.<
       </trans-unit>
       <trans-unit id="[Database1/FormatError] Found an entry outside any group. Corrupted DB file?" xml:space="preserve">
         <source>Found an entry outside any group. Corrupted DB file?</source>
-        <target state="translated">Une entrée en dehors d'un groupe a été trouvée. Fichier BDD corrompu ?</target>
+        <target state="translated">Une entrée a été trouvée en dehors d'un groupe. Fichier BDD corrompu ?</target>
         <note>Error message</note>
       </trans-unit>
       <trans-unit id="[Database1/FormatError] Unexpected end of file. Corrupted database file?" xml:space="preserve">
@@ -617,17 +618,17 @@ Le fichier restera intact et vous pourrez l'ajouter à nouveau ultérieurement.<
       </trans-unit>
       <trans-unit id="[Database2/FormatError] Unexpected end of file. Corrupted file?" xml:space="preserve">
         <source>Unexpected end of file. Corrupted file?</source>
-        <target state="translated">Fin de fichier inattendue. Fichier corrompu?</target>
+        <target state="translated">Fin de fichier inattendue. Fichier corrompu ?</target>
         <note>Error message</note>
       </trans-unit>
       <trans-unit id="[Database2/Header2/Error] Failed to uncompress attachment data: %@" xml:space="preserve">
         <source>Failed to uncompress attachment data: %@</source>
-        <target state="translated">Impossible de décompresser les données de pièce jointe : %@</target>
+        <target state="translated">Échec de la décompression des données de la pièce jointe : %@</target>
         <note>Error message when saving a database. [reason: String]</note>
       </trans-unit>
       <trans-unit id="[Database2/Header2/Error] Header HMAC mismatch. DB file corrupt?" xml:space="preserve">
         <source>Header HMAC mismatch. DB file corrupt?</source>
-        <target state="translated">Incompatibilité HMAC de l'en-tête. Fichier de la base de données corrompu ?</target>
+        <target state="translated">Incompatibilité HMAC de l'en-tête. Fichier BDD corrompu ?</target>
         <note>Error message. HMAC = https://en.wikipedia.org/wiki/HMAC</note>
       </trans-unit>
       <trans-unit id="[Database2/Header2/Error] Header field %@ is corrupted." xml:space="preserve">
@@ -637,7 +638,7 @@ Le fichier restera intact et vous pourrez l'ajouter à nouveau ultérieurement.<
       </trans-unit>
       <trans-unit id="[Database2/Header2/Error] Header hash mismatch. DB file corrupt?" xml:space="preserve">
         <source>Header hash mismatch. DB file corrupt?</source>
-        <target state="translated">Incompatibilité de hachage de l'en-tête. Fichier de base corrompu ?</target>
+        <target state="translated">Incompatibilité de hachage de l'en-tête. Fichier BDD corrompu ?</target>
         <note>Error message</note>
       </trans-unit>
       <trans-unit id="[Database2/Header2/Error] Header reading error. DB file corrupt?" xml:space="preserve">
@@ -1078,12 +1079,12 @@ Veuillez vous assurer d'avoir une sauvegarde de votre base de données avant de 
       </trans-unit>
       <trans-unit id="[FileInfo/title]" xml:space="preserve">
         <source>File Info</source>
-        <target state="translated">Informations fichier</target>
+        <target state="translated">Informations</target>
         <note>Title of a dialog with file details (name, size, dates)</note>
       </trans-unit>
       <trans-unit id="[FileKeeper] Failed to delete file. Reason: %@" xml:space="preserve">
         <source>Failed to delete file. Reason: %@</source>
-        <target state="translated">Échec de la suppression du fichier. Raison : %@</target>
+        <target state="translated">Échec de suppression du fichier. Raison : %@</target>
         <note>Error message [reason: String]</note>
       </trans-unit>
       <trans-unit id="[FileKeeper] Failed to import file. Reason: %@" xml:space="preserve">
@@ -1283,7 +1284,7 @@ Veuillez vous assurer d'avoir une sauvegarde de votre base de données avant de 
       </trans-unit>
       <trans-unit id="[General/FileList/Empty/title]" xml:space="preserve">
         <source>Folder is empty</source>
-        <target state="needs-translation">Folder is empty</target>
+        <target state="translated">Le dossier est vide</target>
         <note>Placeholder for folders without files</note>
       </trans-unit>
       <trans-unit id="[Generic/ConfirmDelete/title] Are you sure?" xml:space="preserve">
@@ -1518,12 +1519,12 @@ Veuillez vous assurer d'avoir une sauvegarde de votre base de données avant de 
       </trans-unit>
       <trans-unit id="[Group/RecycleBin/Empty/action]" xml:space="preserve">
         <source>Empty Recycle Bin</source>
-        <target state="needs-translation">Empty Recycle Bin</target>
+        <target state="translated">Vider la corbeille</target>
         <note>Action/button to delete everything inside the Recycle Bin</note>
       </trans-unit>
       <trans-unit id="[Group/RecycleBin/Empty/confirmTitle]" xml:space="preserve">
         <source>Permanently delete everything in the Recycle Bin?</source>
-        <target state="needs-translation">Permanently delete everything in the Recycle Bin?</target>
+        <target state="translated">Supprimer définitivement tout ce qui se trouve dans la corbeille ?</target>
         <note>Title of the confirmation dialog for `Empty Recycle Bin` action</note>
       </trans-unit>
       <trans-unit id="[Group/a11y/description]" xml:space="preserve" approved="yes">
@@ -1573,7 +1574,7 @@ Veuillez vous assurer d'avoir une sauvegarde de votre base de données avant de 
       </trans-unit>
       <trans-unit id="[HardwareKey/AutoFill/NotAvailable] Hardware keys are not available in AutoFill." xml:space="preserve">
         <source>Hardware keys are not available in AutoFill.</source>
-        <target state="translated">Les clés matérielles ne sont pas disponibles dans le Remplissage automatique.</target>
+        <target state="translated">Les clés matérielles ne sont pas disponibles dans la Saisie automatique.</target>
         <note>A notification that hardware keys (e.g. YubiKey) cannot be used in AutoFill (the OS does not allow the AutoFill to use NFC/MFI).</note>
       </trans-unit>
       <trans-unit id="[HardwareKey/Field/title]" xml:space="preserve">
@@ -1647,12 +1648,12 @@ Veuillez vous assurer d'avoir une sauvegarde de votre base de données avant de 
       </trans-unit>
       <trans-unit id="[KeyFileError/Corrupted/title]" xml:space="preserve" approved="yes">
         <source>Key file is corrupted</source>
-        <target state="final">Le fichier-clé est corrompu</target>
+        <target state="final">Le fichier clé est corrompu</target>
         <note>Error message when the key file is misformatted or damaged</note>
       </trans-unit>
       <trans-unit id="[KeyFileError/UnsupportedFormat/title]" xml:space="preserve" approved="yes">
         <source>Unsupported key file format</source>
-        <target state="final">Format de fichier-clé non pris en charge</target>
+        <target state="final">Format de fichier clé non pris en charge</target>
         <note>Error message: unsupported/unknown format of a key file</note>
       </trans-unit>
       <trans-unit id="[KeychainError/generic] Keychain error (code %d) " xml:space="preserve">
@@ -1667,12 +1668,12 @@ Veuillez vous assurer d'avoir une sauvegarde de votre base de données avant de 
       </trans-unit>
       <trans-unit id="[Menu/FileInfo/title]" xml:space="preserve">
         <source>File Info</source>
-        <target state="translated">Info fichier</target>
+        <target state="translated">Informations</target>
         <note>Menu item: show information about file (name, size, dates)</note>
       </trans-unit>
       <trans-unit id="[OTP/CopiedToClipboard/title]" xml:space="preserve">
         <source>One-time password copied to clipboard</source>
-        <target state="needs-translation">One-time password copied to clipboard</target>
+        <target state="translated">Mot de passe à usage unique copié dans le presse-papiers</target>
         <note>Notification next to the OTP code which was copied to clipboard</note>
       </trans-unit>
       <trans-unit id="[OTP/FieldName]" xml:space="preserve">
@@ -1682,7 +1683,7 @@ Veuillez vous assurer d'avoir une sauvegarde de votre base de données avant de 
       </trans-unit>
       <trans-unit id="[OTP/Scan/InvalidData]" xml:space="preserve">
         <source>This QR code is not suitable for OTP setup.</source>
-        <target state="translated">Ce code QR n'est pas adapté à la configuration OTP.</target>
+        <target state="translated">Ce QR code n'est pas adapté à la configuration OTP.</target>
         <note>Error shown when scanned QR code cannot be used for OTP</note>
       </trans-unit>
       <trans-unit id="[OTP/Scan/OverwriteWarning]" xml:space="preserve">
@@ -1697,7 +1698,7 @@ Veuillez vous assurer d'avoir une sauvegarde de votre base de données avant de 
       </trans-unit>
       <trans-unit id="[OTP/Title/sentenceCase]" xml:space="preserve">
         <source>One-time password</source>
-        <target state="needs-translation">One-time password</target>
+        <target state="translated">Mot de passe à usage unique</target>
         <note>Description of an OTP code; sentence case.</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/CannotGenerateText/title]" xml:space="preserve">
@@ -1797,7 +1798,7 @@ Veuillez vous assurer d'avoir une sauvegarde de votre base de données avant de 
       </trans-unit>
       <trans-unit id="[PasswordGenerator/RequiredSetCompletelyExcluded/title]" xml:space="preserve">
         <source>One of the character sets is both required and excluded.</source>
-        <target state="translated">Un des jeux de caractères est à la fois obligatoire et exclu.</target>
+        <target state="translated">L'un des jeux de caractères est à la fois requis et exclu.</target>
         <note>Error message from the random text generator. `required` and `excluded` are as in [PasswordGenerator/InclusionCondition/required] and [PasswordGenerator/InclusionCondition/excluded]</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/Set/Digits/title]" xml:space="preserve">
@@ -1892,7 +1893,7 @@ Veuillez vous assurer d'avoir une sauvegarde de votre base de données avant de 
       </trans-unit>
       <trans-unit id="[Premium/Benefits/BusinessClouds/title]" xml:space="preserve">
         <source>Sync with corporate storage</source>
-        <target state="needs-translation">Sync with corporate storage</target>
+        <target state="translated">Synchronisation avec stockage d'entreprise</target>
         <note>Title of a premium feature</note>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/CustomAppIcon/details]" xml:space="preserve">
@@ -2022,7 +2023,7 @@ Veuillez vous assurer d'avoir une sauvegarde de votre base de données avant de 
       </trans-unit>
       <trans-unit id="[Premium/Price Plan/Conditions/full price upgrade]" xml:space="preserve" approved="yes">
         <source>Premium features added in the future would require a new purchase at full price.</source>
-        <target state="final">Les fonctionnalités premium ajoutées prochainement nécessiteront un nouvel achat au prix total.</target>
+        <target state="final">Les fonctionnalités premium ajoutées à l'avenir nécessiteront un nouvel achat au prix fort.</target>
         <note>Upgrade conditions for current-version premium purchase.</note>
       </trans-unit>
       <trans-unit id="[Premium/Price Plan/Conditions/future premium features]" xml:space="preserve">
@@ -2200,12 +2201,12 @@ Vous pouvez gérer et annuler vos abonnements depuis les paramètres du compte d
       </trans-unit>
       <trans-unit id="[PremiumFeature/BusinessClouds/description]" xml:space="preserve">
         <source>Connect directly to enterprise storage accounts, such as OneDrive for Business.</source>
-        <target state="needs-translation">Connect directly to enterprise storage accounts, such as OneDrive for Business.</target>
+        <target state="translated">Connectez-vous directement aux comptes de stockage d'entreprise, tels que OneDrive Entreprise.</target>
         <note>Description/call to action for the `Business Cloud Storage` premium feature.</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/BusinessClouds/title]" xml:space="preserve">
         <source>Corporate cloud storage</source>
-        <target state="needs-translation">Corporate cloud storage</target>
+        <target state="translated">Stockage dans le cloud d'entreprise</target>
         <note>Title of a premium feature: access to company's cloud accounts like 'OneDrive for Business'</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/CustomAppIcons/title]" xml:space="preserve">
@@ -2240,12 +2241,12 @@ Vous pouvez gérer et annuler vos abonnements depuis les paramètres du compte d
       </trans-unit>
       <trans-unit id="[PremiumFeature/LongDBTimeouts/title] Long Database Timeouts" xml:space="preserve">
         <source>Long Database Timeouts</source>
-        <target state="translated">Délai d'attente long de la base de données</target>
+        <target state="translated">Délais d'expiration longs de la base de données</target>
         <note>Title of a premium feature: ability to set long delays in Database Lock Timeout settings (In Title Case)</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/MultiDB/description] Easily switch between databases in the premium version." xml:space="preserve">
         <source>Easily switch between databases in the premium version.</source>
-        <target state="translated">Basculer facilement entre les bases de données dans la version premium.</target>
+        <target state="translated">Basculez facilement d'une base de données à l'autre dans la version premium.</target>
         <note>Description/advertisement for the `Multiple Databases` premium feature</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/MultiDB/title] Multiple Databases" xml:space="preserve">
@@ -2270,12 +2271,12 @@ Vous pouvez gérer et annuler vos abonnements depuis les paramètres du compte d
       </trans-unit>
       <trans-unit id="[PremiumFeature/QuickAutoFill/title]" xml:space="preserve">
         <source>Quick AutoFill</source>
-        <target state="translated">Remplissage automatique rapide</target>
+        <target state="translated">Saisie automatique rapide</target>
         <note>Title of a premium feature: show relevant AutoFill entries right under the input field</note>
       </trans-unit>
       <trans-unit id="[PrivacyPolicy/Offline/text]" xml:space="preserve">
         <source>KeePassium does not collect any personal or analytical data nor share it with anyone.</source>
-        <target state="translated">KeePassium ne recueille aucune donnée personnelle ou analytique ni ne la partage avec quiconque.</target>
+        <target state="translated">KeePassium ne collecte pas de données personnelles ou analytiques et ne les partage avec personne.</target>
         <note>A brief summary of the privacy policy (for offline mode)</note>
       </trans-unit>
       <trans-unit id="[PrivacyPolicy/Online/text]" xml:space="preserve">
@@ -2304,12 +2305,12 @@ Cela peut se produire avec des bases de données volumineuse ou des paramètres 
       </trans-unit>
       <trans-unit id="[QuickAutoFill/description]" xml:space="preserve">
         <source>Quick AutoFill shows relevant entries right next to the password field, without opening KeePassium.</source>
-        <target state="translated">Le remplissage automatique rapide affiche les entrées pertinentes juste à côté du champ mot de passe, sans ouvrir KeePassium.</target>
+        <target state="translated">La Saisie automatique rapide affiche les entrées pertinentes juste à côté du champ mot de passe, sans ouvrir KeePassium.</target>
         <note>Description of the Quick AutoFill feature.</note>
       </trans-unit>
       <trans-unit id="[QuickAutoFill/title]" xml:space="preserve">
         <source>Quick AutoFill</source>
-        <target state="translated">Remplissage automatique rapide</target>
+        <target state="translated">Saisie automatique rapide</target>
         <note>Name of a feature that shows relevant entries directly next to the login/password forms.</note>
       </trans-unit>
       <trans-unit id="[RemoteConnection/AllowUntrusted/title]" xml:space="preserve">
@@ -2339,17 +2340,17 @@ Cela peut se produire avec des bases de données volumineuse ou des paramètres 
       </trans-unit>
       <trans-unit id="[RemoteConnection/SignIn/OneDrive/action]" xml:space="preserve">
         <source>Sign in to OneDrive</source>
-        <target state="needs-translation">Sign in to OneDrive</target>
+        <target state="translated">Connectez-vous à OneDrive</target>
         <note>Action: authenticate to OneDrive account</note>
       </trans-unit>
       <trans-unit id="[RemoteConnection/SignIn/PrivateMode/description]" xml:space="preserve">
         <source>Open sign-in page in private web browser mode</source>
-        <target state="needs-translation">Open sign-in page in private web browser mode</target>
+        <target state="translated">Ouvrir la page de connexion en mode de navigation web privée</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="[RemoteConnection/SignIn/PrivateMode/title]" xml:space="preserve">
         <source>Private mode</source>
-        <target state="needs-translation">Private mode</target>
+        <target state="translated">Mode privé</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="[RemoteConnection/connectToServer]" xml:space="preserve">
@@ -2369,12 +2370,12 @@ Cela peut se produire avec des bases de données volumineuse ou des paramètres 
       </trans-unit>
       <trans-unit id="[Settings/AppLoc/Activate/callToAction]" xml:space="preserve">
         <source>Activate App Protection</source>
-        <target state="translated">Activer le verrou d'applications</target>
+        <target state="translated">Activer la protection de l'application</target>
         <note>Call to action (protect the app from unauthorized access)</note>
       </trans-unit>
       <trans-unit id="[Settings/AppLock/Activate/description]" xml:space="preserve">
         <source>Protect KeePassium from unauthorized access.</source>
-        <target state="translated">Protège KeePassium des accès non autorisés.</target>
+        <target state="translated">Protégez KeePassium des accès non autorisés.</target>
         <note>Description of `Activate app protection` call to action.</note>
       </trans-unit>
       <trans-unit id="[Settings/AppLock/Biometric/title] Use %@" xml:space="preserve">
@@ -2384,7 +2385,7 @@ Cela peut se produire avec des bases de données volumineuse ou des paramètres 
       </trans-unit>
       <trans-unit id="[Settings/AppLock/LockOnLaunch/description]" xml:space="preserve" approved="yes">
         <source>Ensures KeePassium is locked after you force-close the app or restart the device.</source>
-        <target state="final">S'assure que KeePassium est verrouillé après que vous ayez forcé la fermeture de l'application ou redémarré l'appareil.</target>
+        <target state="final">Garantit que KeePassium soit verrouillé après que vous ayez forcé la fermeture de l'application ou redémarré l'appareil.</target>
         <note>Explanation for the `Lock on App Launch` setting</note>
       </trans-unit>
       <trans-unit id="[Settings/AppLock/LockOnLaunch/title]" xml:space="preserve" approved="yes">
@@ -2394,7 +2395,7 @@ Cela peut se produire avec des bases de données volumineuse ou des paramètres 
       </trans-unit>
       <trans-unit id="[Settings/AppLock/subtitle] App Lock, %@, timeout" xml:space="preserve">
         <source>App Lock, %@, timeout</source>
-        <target state="translated">Verrouillage de l'application, %@, délai d'attente</target>
+        <target state="translated">AppLock, %@, délai d'expiration</target>
         <note>Settings: subtitle of the `App Protection` section. biometryTypeName will be either 'Touch ID' or 'Face ID'. [biometryTypeName: String]</note>
       </trans-unit>
       <trans-unit id="[Settings/AppLock/subtitle] App Lock, passcode, timeout" xml:space="preserve">
@@ -2404,7 +2405,7 @@ Cela peut se produire avec des bases de données volumineuse ou des paramètres 
       </trans-unit>
       <trans-unit id="[Settings/AppLock/title]" xml:space="preserve">
         <source>App Protection</source>
-        <target state="translated">Protection des applications</target>
+        <target state="translated">Protection de l'application</target>
         <note>Settings section: protection of the app from unauthorized access</note>
       </trans-unit>
       <trans-unit id="[Settings/AppLockTimeout/description] After last interaction" xml:space="preserve">
@@ -2439,12 +2440,12 @@ Cela peut se produire avec des bases de données volumineuse ou des paramètres 
       </trans-unit>
       <trans-unit id="[Settings/AutoFill/Activate/action]" xml:space="preserve">
         <source>Activate AutoFill</source>
-        <target state="translated">Activer le remplissage automatique</target>
+        <target state="translated">Activer la Saisie automatique</target>
         <note>Action that opens system settings or instructions</note>
       </trans-unit>
       <trans-unit id="[Settings/AutoFill/Activate/description]" xml:space="preserve">
         <source>Before first use, you need to activate AutoFill in system settings.</source>
-        <target state="translated">Avant la première utilisation, vous devez activer le remplissage automatique dans les paramètres du système.</target>
+        <target state="translated">Avant la première utilisation, vous devez activer Préremplir les mots de passe dans les paramètres du système.</target>
         <note>Description for the AutoFill setup instructions</note>
       </trans-unit>
       <trans-unit id="[Settings/AutoFill/CopyOTP/title]" xml:space="preserve">
@@ -2454,7 +2455,7 @@ Cela peut se produire avec des bases de données volumineuse ou des paramètres 
       </trans-unit>
       <trans-unit id="[Settings/AutoFill/Setup Guide/title]" xml:space="preserve">
         <source>AutoFill Setup Guide</source>
-        <target state="translated">Guide pour configurer le remplissage automatique</target>
+        <target state="translated">Guide de configuration de la Saisie automatique</target>
         <note>Title of a help article on how to activate AutoFill.</note>
       </trans-unit>
       <trans-unit id="[Settings/AutoFill/UsePerfectMatch/title]" xml:space="preserve">
@@ -2464,7 +2465,7 @@ Cela peut se produire avec des bases de données volumineuse ou des paramètres 
       </trans-unit>
       <trans-unit id="[Settings/AutoFill/title]" xml:space="preserve">
         <source>AutoFill Passwords</source>
-        <target state="translated">Remplissage automatique des mots de passe</target>
+        <target state="translated">Préremplir les mots de passe</target>
         <note>Title of AutoFill settings screen</note>
       </trans-unit>
       <trans-unit id="[Settings/AutoOpenPreviousDatabase/title]" xml:space="preserve">
@@ -2504,7 +2505,7 @@ Cela peut se produire avec des bases de données volumineuse ou des paramètres 
       </trans-unit>
       <trans-unit id="[Settings/ClearMasterKeys/Cleared/text] All master keys have been deleted." xml:space="preserve">
         <source>All master keys have been deleted.</source>
-        <target state="translated">Toutes les clés maîtresses ont été supprimées.</target>
+        <target state="translated">Toutes les clés principales ont été supprimées.</target>
         <note>Text of the success message for `Clear Master Keys` button</note>
       </trans-unit>
       <trans-unit id="[Settings/ClearMasterKeys/Cleared/title] Cleared" xml:space="preserve">
@@ -2619,7 +2620,7 @@ Cela peut se produire avec des bases de données volumineuse ou des paramètres 
       </trans-unit>
       <trans-unit id="[Settings/NetworkAccess/Confirmation/text]" xml:space="preserve">
         <source>Allow KeePassium to make network connections to external services?</source>
-        <target state="needs-translation">Allow KeePassium to make network connections to external services?</target>
+        <target state="translated">Autoriser KeePassium à établir des connexions réseau avec des services externes ?</target>
         <note>Confirmation dialog message</note>
       </trans-unit>
       <trans-unit id="[Settings/NetworkAccess/title]" xml:space="preserve">
