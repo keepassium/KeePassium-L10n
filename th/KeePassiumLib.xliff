@@ -47,7 +47,7 @@
       </trans-unit>
       <trans-unit id="[Accessibility/activateToListen]" xml:space="preserve">
         <source>Activate to listen.</source>
-        <target state="needs-translation">Activate to listen.</target>
+        <target state="translated">เปิดใช้งานฟังข้อความ</target>
         <note>Call to action: perform accessibilty `activate` action to listen to text/content.</note>
       </trans-unit>
       <trans-unit id="[Accessibility] Double tap to copy to clipboard" xml:space="preserve">
@@ -84,6 +84,11 @@
         <source>Numeric</source>
         <target state="translated">ตัวเลข</target>
         <note>Type of keyboard to show for App Lock passcode: digits only (PIN code).</note>
+      </trans-unit>
+      <trans-unit id="[AppLock/Passcode/pressEscForTouchID]" xml:space="preserve">
+        <source>Press Esc for Touch ID</source>
+        <target state="needs-translation">Press Esc for Touch ID</target>
+        <note>Hint/call to action about keyboard shortcut</note>
       </trans-unit>
       <trans-unit id="[AppLock/SetupPasscode/callToAction]" xml:space="preserve">
         <source>Protect KeePassium from unauthorized access</source>
@@ -274,7 +279,7 @@
       </trans-unit>
       <trans-unit id="[Database/Load/Error/encryptedByIntune]" xml:space="preserve">
         <source>This database is protected by your corporate IT policies and Microsoft Intune.</source>
-        <target state="needs-translation">This database is protected by your corporate IT policies and Microsoft Intune.</target>
+        <target state="translated">ฐานข้อมูลนี้ป้องกันโดยนโยบายไอทีขององค์กรและ Microsoft Intune</target>
         <note>Error message</note>
       </trans-unit>
       <trans-unit id="[Database/Load/Error] Cannot find database file" xml:space="preserve">
@@ -299,7 +304,7 @@
       </trans-unit>
       <trans-unit id="[Database/Load/Error] Incorrect database format" xml:space="preserve">
         <source>Incorrect database format: %@.</source>
-        <target state="needs-translation">Incorrect database format: %@.</target>
+        <target state="translated">รูปแบบฐานข้อมูลไม่ถูกต้อง: %@</target>
         <note>Error message, when the real file format is recognized. For example: 'Incorrect database format: JPEG.'</note>
       </trans-unit>
       <trans-unit id="[Database/Load/Error] Please provide at least a password or a key file" xml:space="preserve">
@@ -374,6 +379,11 @@ This is its latest local copy.</source>
         <target state="translated">ล็อกฐานข้อมูล</target>
         <note>Action/button to lock current database (the next time, it will ask for the master key).</note>
       </trans-unit>
+      <trans-unit id="[Database/Print/preparingPreview]" xml:space="preserve">
+        <source>Preparing preview…</source>
+        <target state="needs-translation">Preparing preview…</target>
+        <note>Status message: preparing database print preview.</note>
+      </trans-unit>
       <trans-unit id="[Database/Progress/downloading]" xml:space="preserve">
         <source>Downloading database file...</source>
         <target state="translated">กำลังโหลดไฟล์ฐานข้อมูล...</target>
@@ -406,7 +416,7 @@ This is its latest local copy.</source>
       </trans-unit>
       <trans-unit id="[Database/RecommendRemote/callToAction]" xml:space="preserve">
         <source>Try connecting to your remote storage directly from KeePassium.</source>
-        <target state="needs-translation">Try connecting to your remote storage directly from KeePassium.</target>
+        <target state="translated">กำลังลองเชื่อมต่อที่จัดเก็บโดยตรงจาก KeePassium</target>
         <note>Suggested solution/call to action when intermediate sync app fails.</note>
       </trans-unit>
       <trans-unit id="[Database/Remove/Confirm/text] Remove database from the list?&#10; The file will remain intact and you can add it again later." xml:space="preserve">
@@ -433,7 +443,7 @@ This is its latest local copy.</source>
       </trans-unit>
       <trans-unit id="[Database/Settings/FallbackStrategy/ReAddFile/title]" xml:space="preserve">
         <source>Re-add File</source>
-        <target state="needs-translation">Re-add File</target>
+        <target state="translated">เพิ่มไฟล์ใหม่อีกครั้ง</target>
         <note>Title: what to do when a cloud-stored file cannot be loaded. (For example: `If File is Unreachable: Re-add File`.)</note>
       </trans-unit>
       <trans-unit id="[Database/Settings/FallbackStrategy/ShowError/title]" xml:space="preserve">
@@ -874,12 +884,12 @@ Please make sure to have a backup of your database before changing anything.</so
       </trans-unit>
       <trans-unit id="[Entry/Field/CopyReference/acknowledgement]" xml:space="preserve">
         <source>Field reference copied to clipboard</source>
-        <target state="needs-translation">Field reference copied to clipboard</target>
+        <target state="translated">ช่องอ้างอิงถูกคัดลอกไปยังคลิปบอร์ดแล้ว</target>
         <note>Notification: a reference to an entry field has been copied to clipboard</note>
       </trans-unit>
       <trans-unit id="[Entry/Field/CopyReference/action]" xml:space="preserve">
         <source>Copy Field Reference</source>
-        <target state="needs-translation">Copy Field Reference</target>
+        <target state="translated">คัดลอกช่องอ้างอิง</target>
         <note>Action: copy a reference to the selected entry field to clipboard</note>
       </trans-unit>
       <trans-unit id="[Entry/Field/name] Notes" xml:space="preserve">
@@ -990,7 +1000,7 @@ Please make sure to have a backup of your database before changing anything.</so
       </trans-unit>
       <trans-unit id="[FileAccessError/NetworkAccessDenied/generic]" xml:space="preserve">
         <source>Network access is blocked by the settings.</source>
-        <target state="needs-translation">Network access is blocked by the settings.</target>
+        <target state="translated">การเข้าถึงเน็ตเวิร์คถูกบล็อคโดยการตั้งค่า</target>
         <note>Error message: network access is forbidden by system or app settings.</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/NoResponse/genericFileProvider]" xml:space="preserve">
@@ -1276,17 +1286,17 @@ Please make sure to have a backup of your database before changing anything.</so
       </trans-unit>
       <trans-unit id="[General/Feature/Off]" xml:space="preserve">
         <source>Off</source>
-        <target state="needs-translation">Off</target>
+        <target state="translated">ปิด</target>
         <note>Feature status: disabled/inactive. Keep it short, possibly abbreviated.</note>
       </trans-unit>
       <trans-unit id="[General/Feature/On]" xml:space="preserve">
         <source>On</source>
-        <target state="needs-translation">On</target>
+        <target state="translated">เปิด</target>
         <note>Feature status: enabled/active. Keep it short, possibly abbreviated.</note>
       </trans-unit>
       <trans-unit id="[General/FileList/Empty/title]" xml:space="preserve">
         <source>Folder is empty</source>
-        <target state="needs-translation">Folder is empty</target>
+        <target state="translated">โฟลเดอร์ว่างเปล่า</target>
         <note>Placeholder for folders without files</note>
       </trans-unit>
       <trans-unit id="[Generic/ConfirmDelete/title] Are you sure?" xml:space="preserve">
@@ -1459,6 +1469,11 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="translated">เขียนทับ</target>
         <note>Action/button to replace/overwrite an item</note>
       </trans-unit>
+      <trans-unit id="[Generic] Print" xml:space="preserve">
+        <source>Print</source>
+        <target state="needs-translation">Print</target>
+        <note>Action/button to print a document</note>
+      </trans-unit>
       <trans-unit id="[Generic] Rename" xml:space="preserve">
         <source>Rename</source>
         <target state="translated">เปลี่ยนชื่อ</target>
@@ -1473,6 +1488,11 @@ Please make sure to have a backup of your database before changing anything.</so
         <source>Restore</source>
         <target state="translated">คืนค่า</target>
         <note>Action/button to restore a backup/archived item in its original place</note>
+      </trans-unit>
+      <trans-unit id="[Generic] Retry" xml:space="preserve">
+        <source>Retry</source>
+        <target state="needs-translation">Retry</target>
+        <note>Action: repeat the previous (failed) action</note>
       </trans-unit>
       <trans-unit id="[Generic] Reveal in Finder" xml:space="preserve">
         <source>Reveal in Finder</source>
@@ -1521,12 +1541,12 @@ Please make sure to have a backup of your database before changing anything.</so
       </trans-unit>
       <trans-unit id="[Group/RecycleBin/Empty/action]" xml:space="preserve">
         <source>Empty Recycle Bin</source>
-        <target state="needs-translation">Empty Recycle Bin</target>
+        <target state="translated">ล้างข้อมูลในถังรีไซเคิล</target>
         <note>Action/button to delete everything inside the Recycle Bin</note>
       </trans-unit>
       <trans-unit id="[Group/RecycleBin/Empty/confirmTitle]" xml:space="preserve">
         <source>Permanently delete everything in the Recycle Bin?</source>
-        <target state="needs-translation">Permanently delete everything in the Recycle Bin?</target>
+        <target state="translated">ต้องการลบข้อมูลทุกอย่างในถังรีไซเคิลโดยถาวรหรือไม่</target>
         <note>Title of the confirmation dialog for `Empty Recycle Bin` action</note>
       </trans-unit>
       <trans-unit id="[Group/a11y/description]" xml:space="preserve">
@@ -1604,6 +1624,16 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="translated">ช่วยเหลือ</target>
         <note>Generic title of in-app help article</note>
       </trans-unit>
+      <trans-unit id="[Intune/OrgNeedsToManage]" xml:space="preserve" approved="yes">
+        <source>To protect its data, your organization needs to manage this app. To complete this action, sign in with your work or school account.</source>
+        <target state="final">เพื่อป้องกันข้อมูล องค์กรของคุณจำเป็นต้องจัดการแอปนี้ เมื่อต้องการดำเนินการนี้ให้เสร็จสมบูรณ์ ให้ลงชื่อเข้าใช้ด้วยบัญชีที่ทำงานหรือโรงเรียนของคุณ</target>
+        <note>Info message for enterprise users</note>
+      </trans-unit>
+      <trans-unit id="[Intune/PersonalVersionElsewhere]" xml:space="preserve">
+        <source>KeePassium version for personal use is available on the App Store.</source>
+        <target state="needs-translation">KeePassium version for personal use is available on the App Store.</target>
+        <note>Info message for users who accidentally installed the enterprise version.</note>
+      </trans-unit>
       <trans-unit id="[Item/History/Restored]" xml:space="preserve">
         <source>Previous version restored</source>
         <target state="translated">คืนค่าเป็นรุ่นที่ผ่านมาเรียบร้อยแล้ว</target>
@@ -1675,7 +1705,7 @@ Please make sure to have a backup of your database before changing anything.</so
       </trans-unit>
       <trans-unit id="[OTP/CopiedToClipboard/title]" xml:space="preserve">
         <source>One-time password copied to clipboard</source>
-        <target state="needs-translation">One-time password copied to clipboard</target>
+        <target state="translated">คัดลอกรหัสผ่านครั้งเดียวไปยังคลิปบอร์ดแล้ว</target>
         <note>Notification next to the OTP code which was copied to clipboard</note>
       </trans-unit>
       <trans-unit id="[OTP/FieldName]" xml:space="preserve">
@@ -1700,8 +1730,18 @@ Please make sure to have a backup of your database before changing anything.</so
       </trans-unit>
       <trans-unit id="[OTP/Title/sentenceCase]" xml:space="preserve">
         <source>One-time password</source>
-        <target state="needs-translation">One-time password</target>
+        <target state="translated">รหัสผ่านแบบครั้งเดียว</target>
         <note>Description of an OTP code; sentence case.</note>
+      </trans-unit>
+      <trans-unit id="[Org/ContactYourAdmin]" xml:space="preserve">
+        <source>Please contact your IT administrator.</source>
+        <target state="needs-translation">Please contact your IT administrator.</target>
+        <note>Suggestion/hint on how to fix an accompanying error.</note>
+      </trans-unit>
+      <trans-unit id="[Org/LicenseMissing]" xml:space="preserve">
+        <source>KeePassium could not find the enterprise account of your organization.</source>
+        <target state="needs-translation">KeePassium could not find the enterprise account of your organization.</target>
+        <note>Error message, euphemism for missing corporate license</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/CannotGenerateText/title]" xml:space="preserve">
         <source>Cannot generate text</source>
@@ -1745,7 +1785,7 @@ Please make sure to have a backup of your database before changing anything.</so
       </trans-unit>
       <trans-unit id="[PasswordGenerator/InclusionCondition/inactive]" xml:space="preserve">
         <source>Inactive</source>
-        <target state="needs-translation">Inactive</target>
+        <target state="translated">ไม่ใช้งาน</target>
         <note>Inclusion criterion for a password generator — a disabled/inactive one that won't be taken into account. For example: `Uppercase Letters: Inactive`</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/InclusionCondition/required]" xml:space="preserve">
@@ -1760,12 +1800,12 @@ Please make sure to have a backup of your database before changing anything.</so
       </trans-unit>
       <trans-unit id="[PasswordGenerator/MaxConsecutive/description]" xml:space="preserve">
         <source>Maximum number of identical characters repeating consecutively.</source>
-        <target state="needs-translation">Maximum number of identical characters repeating consecutively.</target>
+        <target state="translated">จำนวนอักขระสูงสุดที่ให้มีความซ้ำกันหลายตัวได้</target>
         <note>Description of a password generator parameter. For example, the digit in 'abc222def'.</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/MaxConsecutiveNotSatisfiable/title]" xml:space="preserve">
         <source>Increase the limit on maximum number of identical elements repeating consecutively.</source>
-        <target state="needs-translation">Increase the limit on maximum number of identical elements repeating consecutively.</target>
+        <target state="translated">ต้องไปเพิ่มจำนวนอักขระสูงสุดที่ให้ใช้ซ้ำกันได้</target>
         <note>Error message/call to action from the random text generator.</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/Mode/Basic/title]" xml:space="preserve">
@@ -1790,42 +1830,42 @@ Please make sure to have a backup of your database before changing anything.</so
       </trans-unit>
       <trans-unit id="[PasswordGenerator/NotEnoughElementsToSample/title]" xml:space="preserve">
         <source>Need more elements to pick from.</source>
-        <target state="needs-translation">Need more elements to pick from.</target>
+        <target state="translated">เพิ่มประเภทอักขระเพื่อให้เลือกใช้</target>
         <note>Error message from the random text generator.</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/PasswordLength/title]" xml:space="preserve">
         <source>Password Length</source>
-        <target state="needs-translation">Password Length</target>
+        <target state="translated">ความยาวรหัสผ่าน</target>
         <note>Length (number of characters) of the password to generate</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/RequiredSetCompletelyExcluded/title]" xml:space="preserve">
         <source>One of the character sets is both required and excluded.</source>
-        <target state="needs-translation">One of the character sets is both required and excluded.</target>
+        <target state="translated">ชุดอักขระชุดหนึ่งถูกตั้งเป็นต้องมีและเว้นไว้</target>
         <note>Error message from the random text generator. `required` and `excluded` are as in [PasswordGenerator/InclusionCondition/required] and [PasswordGenerator/InclusionCondition/excluded]</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/Set/Digits/title]" xml:space="preserve">
         <source>Digits</source>
-        <target state="needs-translation">Digits</target>
+        <target state="translated">ตัวเลข</target>
         <note>Title for digits (like '123')</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/Set/Lookalikes/title]" xml:space="preserve">
         <source>Look-alike characters</source>
-        <target state="needs-translation">Look-alike characters</target>
+        <target state="translated">ตัวอักษรที่ดูคล้ายกัน</target>
         <note>Title for look-alike symbols (like '1lI', that is: digit `1`, small `L`, capital `i`).</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/Set/Lowercase/title]" xml:space="preserve">
         <source>Lowercase letters</source>
-        <target state="needs-translation">Lowercase letters</target>
+        <target state="translated">ตัวอักษรพิมพ์เล็ก (a-z)</target>
         <note>Title for lowercase letters (like 'abc')</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/Set/Specials/title]" xml:space="preserve">
         <source>Special symbols</source>
-        <target state="needs-translation">Special symbols</target>
+        <target state="translated">สัญลักษณ์พิเศษ</target>
         <note>Title for special symbols (like '@#$')</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/Set/Uppercase/title]" xml:space="preserve">
         <source>Uppercase letters</source>
-        <target state="needs-translation">Uppercase letters</target>
+        <target state="translated">ตัวอักษรพิมพ์ใหญ่ (A-Z)</target>
         <note>Title for uppercase letters (like 'ABC')</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/SpaceCharacter/name]" xml:space="preserve">
@@ -1860,27 +1900,27 @@ Please make sure to have a backup of your database before changing anything.</so
       </trans-unit>
       <trans-unit id="[PasswordGenerator/WordCount/title]" xml:space="preserve">
         <source>Words</source>
-        <target state="needs-translation">Words</target>
+        <target state="translated">จำนวนคำ</target>
         <note>Number of words in a generated passphrase. In context: 'Words: 5'</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/Wordlist/EFFLarge/title]" xml:space="preserve">
         <source>EFF Large Wordlist (7776 words)</source>
-        <target state="needs-translation">EFF Large Wordlist (7776 words)</target>
+        <target state="translated">EFF Large Wordlist (7776 คำ)</target>
         <note>Name of a wordlist for passphrase generator. `EFF` is an organization name.</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/Wordlist/EFFShort/title]" xml:space="preserve">
         <source>EFF Short Wordlist (1296 words)</source>
-        <target state="needs-translation">EFF Short Wordlist (1296 words)</target>
+        <target state="translated">EFF Short Wordlist (1296 คำ)</target>
         <note>Name of a wordlist for passphrase generator. `EFF` is an organization name.</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/Wordlist/title]" xml:space="preserve">
         <source>Wordlist</source>
-        <target state="needs-translation">Wordlist</target>
+        <target state="translated">ชุดคำศัพท์</target>
         <note>List of words to be used for a passphrase.</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/title]" xml:space="preserve">
         <source>Random Generator</source>
-        <target state="needs-translation">Random Generator</target>
+        <target state="translated">เครื่องมือสุ่มรหัสผ่าน</target>
         <note>Title of the random text/password/username generator dialog.</note>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/AttachmentPreview/details]" xml:space="preserve">
@@ -1895,7 +1935,7 @@ Please make sure to have a backup of your database before changing anything.</so
       </trans-unit>
       <trans-unit id="[Premium/Benefits/BusinessClouds/title]" xml:space="preserve">
         <source>Sync with corporate storage</source>
-        <target state="needs-translation">Sync with corporate storage</target>
+        <target state="translated">ซิงค์กับที่จัดเก็บขององค์กร</target>
         <note>Title of a premium feature</note>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/CustomAppIcon/details]" xml:space="preserve">
@@ -2203,12 +2243,12 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
       <trans-unit id="[PremiumFeature/BusinessClouds/description]" xml:space="preserve">
         <source>Connect directly to enterprise storage accounts, such as OneDrive for Business.</source>
-        <target state="needs-translation">Connect directly to enterprise storage accounts, such as OneDrive for Business.</target>
+        <target state="translated">เชื่อมต่อโดยตรงกับบัญชีที่จัดเก็บขององค์กร เช่น OneDrive for Business</target>
         <note>Description/call to action for the `Business Cloud Storage` premium feature.</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/BusinessClouds/title]" xml:space="preserve">
         <source>Corporate cloud storage</source>
-        <target state="needs-translation">Corporate cloud storage</target>
+        <target state="translated">ที่จัดเก็บบนคลาวด์ขององค์กร</target>
         <note>Title of a premium feature: access to company's cloud accounts like 'OneDrive for Business'</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/CustomAppIcons/title]" xml:space="preserve">
@@ -2268,12 +2308,12 @@ You can manage and cancel your subscriptions by going to your account settings o
       </trans-unit>
       <trans-unit id="[PremiumFeature/QuickAutoFill/description]" xml:space="preserve">
         <source>Fill out login forms with a single tap, without even opening KeePassium.</source>
-        <target state="needs-translation">Fill out login forms with a single tap, without even opening KeePassium.</target>
+        <target state="translated">ป้อนรหัสผ่านอัตโนมัติด้วยการกดครั้งเดียว โดยไม่ต้องเปิด KeePassium</target>
         <note>Description/call to action for the `Quick AutoFill` premium feature.</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/QuickAutoFill/title]" xml:space="preserve">
         <source>Quick AutoFill</source>
-        <target state="needs-translation">Quick AutoFill</target>
+        <target state="translated">ป้อนรหัสอัตโนมัติทันที</target>
         <note>Title of a premium feature: show relevant AutoFill entries right under the input field</note>
       </trans-unit>
       <trans-unit id="[PrivacyPolicy/Offline/text]" xml:space="preserve">
@@ -2284,8 +2324,8 @@ You can manage and cancel your subscriptions by going to your account settings o
       <trans-unit id="[PrivacyPolicy/Online/text]" xml:space="preserve">
         <source>KeePassium does not collect any personal or analytical data.
 Some features may involve data exchange with external services (on your request and for the sole purpose of making these services available to you). Such an exchange is governed by the privacy policy of the respective service.</source>
-        <target state="needs-translation">KeePassium does not collect any personal or analytical data.
-Some features may involve data exchange with external services (on your request and for the sole purpose of making these services available to you). Such an exchange is governed by the privacy policy of the respective service.</target>
+        <target state="translated">KeePassium จะไม่เก็บข้อมูลส่วนตัวหรือข้อมูลเพื่อการวิเคราะห์ใด ๆ
+ฟีเจอร์บางอย่างอาจจะต้องใช้การแลกเปลี่ยนข้อมูลกับบริการอื่นภายนอก (จะขึ้นอยู่กับการยินยอมของผู้ใช้ก่อนใช้งานบริการเหล่านั้น) การแลกเปลี่ยนข้อมูลจะทำตามนโยบายความเป็นส่วนตัวตามบริการที่ใช้</target>
         <note>A brief summary of the privacy policy (for online mode)</note>
       </trans-unit>
       <trans-unit id="[PrivacyPolicy/title]" xml:space="preserve">
@@ -2307,62 +2347,72 @@ This can happen with larger databases or too ambitious database settings (Argon2
       </trans-unit>
       <trans-unit id="[QuickAutoFill/description]" xml:space="preserve">
         <source>Quick AutoFill shows relevant entries right next to the password field, without opening KeePassium.</source>
-        <target state="needs-translation">Quick AutoFill shows relevant entries right next to the password field, without opening KeePassium.</target>
+        <target state="translated">ป้อนรหัสทันทีจะแสดงรายการที่มีความสัมพันธ์กับช่องใส่รหัส โดยไม่จำเป็นต้องเปิด KeePassium</target>
         <note>Description of the Quick AutoFill feature.</note>
       </trans-unit>
       <trans-unit id="[QuickAutoFill/title]" xml:space="preserve">
         <source>Quick AutoFill</source>
-        <target state="needs-translation">Quick AutoFill</target>
+        <target state="translated">ป้อนรหัสอัตโนมัติทันที</target>
         <note>Name of a feature that shows relevant entries directly next to the login/password forms.</note>
       </trans-unit>
       <trans-unit id="[RemoteConnection/AllowUntrusted/title]" xml:space="preserve">
         <source>Allow Untrusted Certificate</source>
-        <target state="needs-translation">Allow Untrusted Certificate</target>
+        <target state="translated">อนุญาตใช้ใบอนุญาตที่ไม่น่าเชื่อถือ</target>
         <note>Network security setting</note>
       </trans-unit>
       <trans-unit id="[RemoteConnection/Connection/title]" xml:space="preserve">
         <source>Connection</source>
-        <target state="needs-translation">Connection</target>
+        <target state="translated">การเชื่อมต่อ</target>
         <note>Network connection. For example `Connection: WebDAV` or `Connection: MyCloud`.</note>
       </trans-unit>
       <trans-unit id="[RemoteConnection/Credentials]" xml:space="preserve">
         <source>Credentials</source>
-        <target state="needs-translation">Credentials</target>
+        <target state="translated">ข้อมูลยืนยันตัวตน</target>
         <note>Title of a section: username, password, etc</note>
       </trans-unit>
       <trans-unit id="[RemoteConnection/Error/AuthenticationFailed/title]" xml:space="preserve">
         <source>Authentication failed</source>
-        <target state="needs-translation">Authentication failed</target>
+        <target state="translated">การยืนยันตัวตนไม่สำเร็จ</target>
         <note>Error message: user credentials rejected by the server</note>
       </trans-unit>
       <trans-unit id="[RemoteConnection/FileURL]" xml:space="preserve">
         <source>File URL</source>
-        <target state="needs-translation">File URL</target>
+        <target state="translated">URL ของไฟล์</target>
         <note>Network address of a file</note>
+      </trans-unit>
+      <trans-unit id="[RemoteConnection/OneDrive/Folder/files]" xml:space="preserve">
+        <source>Files</source>
+        <target state="translated">ไฟล์</target>
+        <note>Name of a predefined OneDrive folder which contains user's own files</note>
+      </trans-unit>
+      <trans-unit id="[RemoteConnection/OneDrive/Folder/sharedWithMe]" xml:space="preserve">
+        <source>Shared</source>
+        <target state="needs-translation">Shared</target>
+        <note>Name of a predefined OneDrive folder which contains files shared with this user</note>
       </trans-unit>
       <trans-unit id="[RemoteConnection/SignIn/OneDrive/action]" xml:space="preserve">
         <source>Sign in to OneDrive</source>
-        <target state="needs-translation">Sign in to OneDrive</target>
+        <target state="translated">ลงชื่อเข้าใช้ OneDrive</target>
         <note>Action: authenticate to OneDrive account</note>
       </trans-unit>
       <trans-unit id="[RemoteConnection/SignIn/PrivateMode/description]" xml:space="preserve">
         <source>Open sign-in page in private web browser mode</source>
-        <target state="needs-translation">Open sign-in page in private web browser mode</target>
+        <target state="translated">เปิดหน้าลงชื่อเข้าใช้ในเบราว์เซอร์โหมดส่วนตัว</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="[RemoteConnection/SignIn/PrivateMode/title]" xml:space="preserve">
         <source>Private mode</source>
-        <target state="needs-translation">Private mode</target>
+        <target state="translated">โหมดส่วนตัว</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="[RemoteConnection/connectToServer]" xml:space="preserve">
         <source>Connect to Server</source>
-        <target state="needs-translation">Connect to Server</target>
+        <target state="translated">เชื่อมต่อกับเซิร์ฟเวอร์</target>
         <note>Action: connect to a network server</note>
       </trans-unit>
       <trans-unit id="[RemoteConnection/title]" xml:space="preserve">
         <source>Remote Connection</source>
-        <target state="needs-translation">Remote Connection</target>
+        <target state="translated">การเชื่อมต่อ</target>
         <note>Title: connection to a network storage</note>
       </trans-unit>
       <trans-unit id="[Repeat Password/Field/title]" xml:space="preserve">
@@ -2442,12 +2492,12 @@ This can happen with larger databases or too ambitious database settings (Argon2
       </trans-unit>
       <trans-unit id="[Settings/AutoFill/Activate/action]" xml:space="preserve">
         <source>Activate AutoFill</source>
-        <target state="needs-translation">Activate AutoFill</target>
+        <target state="translated">เปิดใช้ป้อนรหัสอัตโนมัติ</target>
         <note>Action that opens system settings or instructions</note>
       </trans-unit>
       <trans-unit id="[Settings/AutoFill/Activate/description]" xml:space="preserve">
         <source>Before first use, you need to activate AutoFill in system settings.</source>
-        <target state="needs-translation">Before first use, you need to activate AutoFill in system settings.</target>
+        <target state="translated">ก่อนเข้าใช้ คุณต้องเข้าไปเปิดใช้งานป้อนอัตโนมัติในการตั้งค่า</target>
         <note>Description for the AutoFill setup instructions</note>
       </trans-unit>
       <trans-unit id="[Settings/AutoFill/CopyOTP/title]" xml:space="preserve">
@@ -2457,7 +2507,7 @@ This can happen with larger databases or too ambitious database settings (Argon2
       </trans-unit>
       <trans-unit id="[Settings/AutoFill/Setup Guide/title]" xml:space="preserve">
         <source>AutoFill Setup Guide</source>
-        <target state="needs-translation">AutoFill Setup Guide</target>
+        <target state="translated">วิธีตั้งค่าการป้อนอัตโนมัติ</target>
         <note>Title of a help article on how to activate AutoFill.</note>
       </trans-unit>
       <trans-unit id="[Settings/AutoFill/UsePerfectMatch/title]" xml:space="preserve">
@@ -2622,32 +2672,32 @@ This can happen with larger databases or too ambitious database settings (Argon2
       </trans-unit>
       <trans-unit id="[Settings/NetworkAccess/Confirmation/text]" xml:space="preserve">
         <source>Allow KeePassium to make network connections to external services?</source>
-        <target state="needs-translation">Allow KeePassium to make network connections to external services?</target>
+        <target state="translated">ต้องการอนุญาตให้ KeePassium เชื่อมต่อกับบริการภายนอกหรือไม่</target>
         <note>Confirmation dialog message</note>
       </trans-unit>
       <trans-unit id="[Settings/NetworkAccess/title]" xml:space="preserve">
         <source>Network Access</source>
-        <target state="needs-translation">Network Access</target>
+        <target state="translated">การเข้าถึงเครือข่าย</target>
         <note>Settings section: how/whether the app is allowed to use networks/Internet</note>
       </trans-unit>
       <trans-unit id="[Settings/NetworkAccessMode/Offline/description]" xml:space="preserve">
         <source>Maximum privacy</source>
-        <target state="needs-translation">Maximum privacy</target>
+        <target state="translated">มีความเป็นส่วนตัวมากกว่า</target>
         <note>Description of the `Stay Offline` mode.</note>
       </trans-unit>
       <trans-unit id="[Settings/NetworkAccessMode/Offline/title]" xml:space="preserve">
         <source>Stay Offline</source>
-        <target state="needs-translation">Stay Offline</target>
+        <target state="translated">ใช้แบบออฟไลน์</target>
         <note>Setting option: the app should work offline</note>
       </trans-unit>
       <trans-unit id="[Settings/NetworkAccessMode/Online/description]" xml:space="preserve">
         <source>Maximum functionality</source>
-        <target state="needs-translation">Maximum functionality</target>
+        <target state="translated">มีความสามารถการใช้งานที่หลากหลายกว่า</target>
         <note>Description of the `Allow Network Access` mode.</note>
       </trans-unit>
       <trans-unit id="[Settings/NetworkAccessMode/Online/title]" xml:space="preserve">
         <source>Allow Network Access</source>
-        <target state="needs-translation">Allow Network Access</target>
+        <target state="translated">อนุญาตให้เข้าถึงเครือข่าย</target>
         <note>Setting option: the app is permitted to use online features</note>
       </trans-unit>
       <trans-unit id="[Settings/Search/title]" xml:space="preserve">
@@ -2687,7 +2737,7 @@ This can happen with larger databases or too ambitious database settings (Argon2
       </trans-unit>
       <trans-unit id="[StorageService/OneDriveForBusiness/title]" xml:space="preserve">
         <source>OneDrive for Business</source>
-        <target state="needs-translation">OneDrive for Business</target>
+        <target state="translated">OneDrive for Business</target>
         <note>Name of a cloud storage service. Must match Microsoft's translation, see  https://partner.microsoft.com/solutions/onedrive-for-business</note>
       </trans-unit>
       <trans-unit id="[Support/template] (Please describe the problem here)" xml:space="preserve">
@@ -2752,7 +2802,7 @@ This can happen with larger databases or too ambitious database settings (Argon2
       </trans-unit>
       <trans-unit id="[URLReference/Location/RemoteServer]" xml:space="preserve">
         <source>Remote server</source>
-        <target state="needs-translation">Remote server</target>
+        <target state="translated">เซิร์ฟเวอร์</target>
         <note>Human-readable file location. Example: 'File Location: Remote server'</note>
       </trans-unit>
       <trans-unit id="[URLReference/Location] Cloud storage / Another app" xml:space="preserve">

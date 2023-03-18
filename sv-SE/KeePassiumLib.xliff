@@ -85,6 +85,11 @@
         <target state="translated">Numerisk</target>
         <note>Type of keyboard to show for App Lock passcode: digits only (PIN code).</note>
       </trans-unit>
+      <trans-unit id="[AppLock/Passcode/pressEscForTouchID]" xml:space="preserve">
+        <source>Press Esc for Touch ID</source>
+        <target state="translated">Trysk på Esc för Touch ID</target>
+        <note>Hint/call to action about keyboard shortcut</note>
+      </trans-unit>
       <trans-unit id="[AppLock/SetupPasscode/callToAction]" xml:space="preserve">
         <source>Protect KeePassium from unauthorized access</source>
         <target state="translated">Skydda KeePassium från obehörig åtkomst</target>
@@ -374,6 +379,11 @@ Detta är den senaste lokala kopian.</target>
         <target state="translated">Lås databas</target>
         <note>Action/button to lock current database (the next time, it will ask for the master key).</note>
       </trans-unit>
+      <trans-unit id="[Database/Print/preparingPreview]" xml:space="preserve">
+        <source>Preparing preview…</source>
+        <target state="translated">Förbereder förhandsvisning…</target>
+        <note>Status message: preparing database print preview.</note>
+      </trans-unit>
       <trans-unit id="[Database/Progress/downloading]" xml:space="preserve">
         <source>Downloading database file...</source>
         <target state="translated">Laddar ner databasfil...</target>
@@ -433,7 +443,7 @@ Filen kommer inte raderas, och du kan lägga till den igen vid ett senare tillf�
       </trans-unit>
       <trans-unit id="[Database/Settings/FallbackStrategy/ReAddFile/title]" xml:space="preserve">
         <source>Re-add File</source>
-        <target state="needs-translation">Re-add File</target>
+        <target state="translated">Lägg till filen på nytt</target>
         <note>Title: what to do when a cloud-stored file cannot be loaded. (For example: `If File is Unreachable: Re-add File`.)</note>
       </trans-unit>
       <trans-unit id="[Database/Settings/FallbackStrategy/ShowError/title]" xml:space="preserve">
@@ -1457,6 +1467,11 @@ Säkerställ att du har en backup på din databas innan du ändrar vidtar åtgä
         <target state="translated">Skriv över</target>
         <note>Action/button to replace/overwrite an item</note>
       </trans-unit>
+      <trans-unit id="[Generic] Print" xml:space="preserve">
+        <source>Print</source>
+        <target state="translated">Skriv ut</target>
+        <note>Action/button to print a document</note>
+      </trans-unit>
       <trans-unit id="[Generic] Rename" xml:space="preserve">
         <source>Rename</source>
         <target state="translated">Byt namn</target>
@@ -1471,6 +1486,11 @@ Säkerställ att du har en backup på din databas innan du ändrar vidtar åtgä
         <source>Restore</source>
         <target state="translated">Återställ</target>
         <note>Action/button to restore a backup/archived item in its original place</note>
+      </trans-unit>
+      <trans-unit id="[Generic] Retry" xml:space="preserve">
+        <source>Retry</source>
+        <target state="translated">Försök igen</target>
+        <note>Action: repeat the previous (failed) action</note>
       </trans-unit>
       <trans-unit id="[Generic] Reveal in Finder" xml:space="preserve">
         <source>Reveal in Finder</source>
@@ -1602,6 +1622,16 @@ Säkerställ att du har en backup på din databas innan du ändrar vidtar åtgä
         <target state="translated">Hjälp</target>
         <note>Generic title of in-app help article</note>
       </trans-unit>
+      <trans-unit id="[Intune/OrgNeedsToManage]" xml:space="preserve">
+        <source>To protect its data, your organization needs to manage this app. To complete this action, sign in with your work or school account.</source>
+        <target state="translated">För att skydda sin data måste din organisation hantera denna app. För att slutföra, logga in med ditt arbets- eller skolkonto.</target>
+        <note>Info message for enterprise users</note>
+      </trans-unit>
+      <trans-unit id="[Intune/PersonalVersionElsewhere]" xml:space="preserve">
+        <source>KeePassium version for personal use is available on the App Store.</source>
+        <target state="translated">KeePassium-version för personligt bruk är tillgänglig på App Store.</target>
+        <note>Info message for users who accidentally installed the enterprise version.</note>
+      </trans-unit>
       <trans-unit id="[Item/History/Restored]" xml:space="preserve">
         <source>Previous version restored</source>
         <target state="translated">Föregående version återställd</target>
@@ -1700,6 +1730,16 @@ Se till att du har en säkerhetskopia.</target>
         <source>One-time password</source>
         <target state="translated">Engångslösenord</target>
         <note>Description of an OTP code; sentence case.</note>
+      </trans-unit>
+      <trans-unit id="[Org/ContactYourAdmin]" xml:space="preserve">
+        <source>Please contact your IT administrator.</source>
+        <target state="translated">Var vänlig kontakta din IT-administratör.</target>
+        <note>Suggestion/hint on how to fix an accompanying error.</note>
+      </trans-unit>
+      <trans-unit id="[Org/LicenseMissing]" xml:space="preserve">
+        <source>KeePassium could not find the enterprise account of your organization.</source>
+        <target state="translated">KeePassium kunde inte hitta enterprise-kontot för din organisation.</target>
+        <note>Error message, euphemism for missing corporate license</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/CannotGenerateText/title]" xml:space="preserve">
         <source>Cannot generate text</source>
@@ -2337,6 +2377,16 @@ Detta kan hända med stora databaser eller för högt ställda databasinställni
         <source>File URL</source>
         <target state="translated">Fil-URL</target>
         <note>Network address of a file</note>
+      </trans-unit>
+      <trans-unit id="[RemoteConnection/OneDrive/Folder/files]" xml:space="preserve">
+        <source>Files</source>
+        <target state="translated">Filer</target>
+        <note>Name of a predefined OneDrive folder which contains user's own files</note>
+      </trans-unit>
+      <trans-unit id="[RemoteConnection/OneDrive/Folder/sharedWithMe]" xml:space="preserve">
+        <source>Shared</source>
+        <target state="translated">Delat</target>
+        <note>Name of a predefined OneDrive folder which contains files shared with this user</note>
       </trans-unit>
       <trans-unit id="[RemoteConnection/SignIn/OneDrive/action]" xml:space="preserve">
         <source>Sign in to OneDrive</source>

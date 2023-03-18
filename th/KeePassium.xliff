@@ -166,7 +166,7 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="[QuickAutoFill/Activate/callToAction]" xml:space="preserve">
         <source>Activate Quick AutoFill</source>
-        <target state="needs-translation">Activate Quick AutoFill</target>
+        <target state="translated">เปิดใช้ป้อนรหัสอัตโนมัติ</target>
         <note>Call to action, invites the user to enable the Quick AutoFill feature</note>
       </trans-unit>
     </body>
@@ -868,16 +868,6 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="14.3" build-num="14E5207e"/>
     </header>
     <body>
-      <trans-unit id="CFBundleDisplayName" xml:space="preserve">
-        <source>KeePassium Pro</source>
-        <target state="needs-translation">KeePassium Pro</target>
-        <note>Bundle display name</note>
-      </trans-unit>
-      <trans-unit id="CFBundleName" xml:space="preserve">
-        <source>KeePassium Pro</source>
-        <target state="needs-translation">KeePassium Pro</target>
-        <note>Bundle name</note>
-      </trans-unit>
       <trans-unit id="KeePass Database (kdb)" xml:space="preserve">
         <source>KeePass Database (kdb)</source>
         <target state="translated">ฐานข้อมูล KeePass (kdb)</target>
@@ -1239,7 +1229,7 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="kvO-9B-1Sy.text" xml:space="preserve">
         <source>Passphrase wordlists by EFF</source>
-        <target state="needs-translation">Passphrase wordlists by EFF</target>
+        <target state="translated">ชุดคำศัพท์ โดย EFF</target>
         <note>Class = "UILabel"; text = "Passphrase wordlists by EFF"; ObjectID = "kvO-9B-1Sy";</note>
       </trans-unit>
       <trans-unit id="lht-LP-o0Y.text" xml:space="preserve">
@@ -1328,6 +1318,11 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <source>Passcode</source>
         <target state="translated">รหัสผ่าน</target>
         <note>Class = "UITextField"; placeholder = "Passcode"; ObjectID = "ZTd-Zj-qAs"; Note = "Placeholder text in the AppLock passcode field";</note>
+      </trans-unit>
+      <trans-unit id="atY-8z-wKo.text" xml:space="preserve" translate="no">
+        <source>{Press Esc for Touch ID}</source>
+        <target state="needs-translation">{Press Esc for Touch ID}</target>
+        <note>Class = "UILabel"; text = "{Press Esc for Touch ID}"; ObjectID = "atY-8z-wKo";</note>
       </trans-unit>
       <trans-unit id="f5U-FH-tld.normalTitle" xml:space="preserve" translate="no">
         <source>{Switch to passphrase}</source>
@@ -1827,7 +1822,7 @@ You can have multiple databases, for example to separate work, family and person
     <body>
       <trans-unit id="1LC-s7-Kdl.text" xml:space="preserve">
         <source>Search in Passwords</source>
-        <target state="needs-translation">Search in Passwords</target>
+        <target state="translated">ค้นหาในช่องรหัสผ่าน</target>
         <note>Class = "UILabel"; text = "Search in Passwords"; ObjectID = "1LC-s7-Kdl"; Note = "An switch in settings: whether to include protected field values in search procedure.";</note>
       </trans-unit>
       <trans-unit id="DJr-hC-DMT.footerTitle" xml:space="preserve">
@@ -1924,7 +1919,7 @@ You can have multiple databases, for example to separate work, family and person
       </trans-unit>
       <trans-unit id="K9j-xG-abD.headerTitle" xml:space="preserve">
         <source>Network Access</source>
-        <target state="needs-translation">Network Access</target>
+        <target state="translated">การเข้าถึงเครือข่าย</target>
         <note>Class = "UITableViewSection"; headerTitle = "Network Access"; ObjectID = "K9j-xG-abD";</note>
       </trans-unit>
       <trans-unit id="LHz-DF-ZST.text" xml:space="preserve" translate="no">

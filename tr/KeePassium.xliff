@@ -868,16 +868,6 @@ Sonuç olarak, hem Otomatik Doldurma hem de KeePassium uygulaması veritabanın�
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="14.3" build-num="14E5207e"/>
     </header>
     <body>
-      <trans-unit id="CFBundleDisplayName" xml:space="preserve" approved="yes">
-        <source>KeePassium Pro</source>
-        <target state="final">KeePassium Pro</target>
-        <note>Bundle display name</note>
-      </trans-unit>
-      <trans-unit id="CFBundleName" xml:space="preserve" approved="yes">
-        <source>KeePassium Pro</source>
-        <target state="final">KeePassium Pro</target>
-        <note>Bundle name</note>
-      </trans-unit>
       <trans-unit id="KeePass Database (kdb)" xml:space="preserve">
         <source>KeePass Database (kdb)</source>
         <target state="translated">KeePass Veritabanı (kdb)</target>
@@ -1328,6 +1318,11 @@ Sonuç olarak, hem Otomatik Doldurma hem de KeePassium uygulaması veritabanın�
         <source>Passcode</source>
         <target state="translated">Şifre</target>
         <note>Class = "UITextField"; placeholder = "Passcode"; ObjectID = "ZTd-Zj-qAs"; Note = "Placeholder text in the AppLock passcode field";</note>
+      </trans-unit>
+      <trans-unit id="atY-8z-wKo.text" xml:space="preserve" translate="no">
+        <source>{Press Esc for Touch ID}</source>
+        <target state="needs-translation">{Press Esc for Touch ID}</target>
+        <note>Class = "UILabel"; text = "{Press Esc for Touch ID}"; ObjectID = "atY-8z-wKo";</note>
       </trans-unit>
       <trans-unit id="f5U-FH-tld.normalTitle" xml:space="preserve" translate="no">
         <source>{Switch to passphrase}</source>

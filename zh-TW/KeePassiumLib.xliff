@@ -85,6 +85,11 @@
         <target state="translated">數字</target>
         <note>Type of keyboard to show for App Lock passcode: digits only (PIN code).</note>
       </trans-unit>
+      <trans-unit id="[AppLock/Passcode/pressEscForTouchID]" xml:space="preserve">
+        <source>Press Esc for Touch ID</source>
+        <target state="needs-translation">Press Esc for Touch ID</target>
+        <note>Hint/call to action about keyboard shortcut</note>
+      </trans-unit>
       <trans-unit id="[AppLock/SetupPasscode/callToAction]" xml:space="preserve">
         <source>Protect KeePassium from unauthorized access</source>
         <target state="translated">保護KeePassium免受未經授權的訪問</target>
@@ -372,6 +377,11 @@ This is its latest local copy.</source>
         <source>Lock Database</source>
         <target state="translated">鎖定資料庫</target>
         <note>Action/button to lock current database (the next time, it will ask for the master key).</note>
+      </trans-unit>
+      <trans-unit id="[Database/Print/preparingPreview]" xml:space="preserve">
+        <source>Preparing preview…</source>
+        <target state="needs-translation">Preparing preview…</target>
+        <note>Status message: preparing database print preview.</note>
       </trans-unit>
       <trans-unit id="[Database/Progress/downloading]" xml:space="preserve">
         <source>Downloading database file...</source>
@@ -1455,6 +1465,11 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="translated">覆寫</target>
         <note>Action/button to replace/overwrite an item</note>
       </trans-unit>
+      <trans-unit id="[Generic] Print" xml:space="preserve">
+        <source>Print</source>
+        <target state="needs-translation">Print</target>
+        <note>Action/button to print a document</note>
+      </trans-unit>
       <trans-unit id="[Generic] Rename" xml:space="preserve">
         <source>Rename</source>
         <target state="translated">重新命名</target>
@@ -1469,6 +1484,11 @@ Please make sure to have a backup of your database before changing anything.</so
         <source>Restore</source>
         <target state="translated">還原</target>
         <note>Action/button to restore a backup/archived item in its original place</note>
+      </trans-unit>
+      <trans-unit id="[Generic] Retry" xml:space="preserve">
+        <source>Retry</source>
+        <target state="needs-translation">Retry</target>
+        <note>Action: repeat the previous (failed) action</note>
       </trans-unit>
       <trans-unit id="[Generic] Reveal in Finder" xml:space="preserve">
         <source>Reveal in Finder</source>
@@ -1600,6 +1620,16 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="translated">幫助</target>
         <note>Generic title of in-app help article</note>
       </trans-unit>
+      <trans-unit id="[Intune/OrgNeedsToManage]" xml:space="preserve" approved="yes">
+        <source>To protect its data, your organization needs to manage this app. To complete this action, sign in with your work or school account.</source>
+        <target state="final">貴組織為了保護其資料，需要管理此應用程式。若要完成此動作，請使用您的工作或學校帳戶登入。</target>
+        <note>Info message for enterprise users</note>
+      </trans-unit>
+      <trans-unit id="[Intune/PersonalVersionElsewhere]" xml:space="preserve">
+        <source>KeePassium version for personal use is available on the App Store.</source>
+        <target state="needs-translation">KeePassium version for personal use is available on the App Store.</target>
+        <note>Info message for users who accidentally installed the enterprise version.</note>
+      </trans-unit>
       <trans-unit id="[Item/History/Restored]" xml:space="preserve">
         <source>Previous version restored</source>
         <target state="translated">先前的版本已經還原</target>
@@ -1698,6 +1728,16 @@ Please make sure to have a backup of your database before changing anything.</so
         <source>One-time password</source>
         <target state="needs-translation">One-time password</target>
         <note>Description of an OTP code; sentence case.</note>
+      </trans-unit>
+      <trans-unit id="[Org/ContactYourAdmin]" xml:space="preserve">
+        <source>Please contact your IT administrator.</source>
+        <target state="translated">請連絡您的 IT 系統管理員。</target>
+        <note>Suggestion/hint on how to fix an accompanying error.</note>
+      </trans-unit>
+      <trans-unit id="[Org/LicenseMissing]" xml:space="preserve">
+        <source>KeePassium could not find the enterprise account of your organization.</source>
+        <target state="needs-translation">KeePassium could not find the enterprise account of your organization.</target>
+        <note>Error message, euphemism for missing corporate license</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/CannotGenerateText/title]" xml:space="preserve">
         <source>Cannot generate text</source>
@@ -2335,6 +2375,16 @@ This can happen with larger databases or too ambitious database settings (Argon2
         <source>File URL</source>
         <target state="needs-translation">File URL</target>
         <note>Network address of a file</note>
+      </trans-unit>
+      <trans-unit id="[RemoteConnection/OneDrive/Folder/files]" xml:space="preserve">
+        <source>Files</source>
+        <target state="translated">檔案</target>
+        <note>Name of a predefined OneDrive folder which contains user's own files</note>
+      </trans-unit>
+      <trans-unit id="[RemoteConnection/OneDrive/Folder/sharedWithMe]" xml:space="preserve">
+        <source>Shared</source>
+        <target state="needs-translation">Shared</target>
+        <note>Name of a predefined OneDrive folder which contains files shared with this user</note>
       </trans-unit>
       <trans-unit id="[RemoteConnection/SignIn/OneDrive/action]" xml:space="preserve">
         <source>Sign in to OneDrive</source>

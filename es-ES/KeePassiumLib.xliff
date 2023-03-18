@@ -85,6 +85,11 @@
         <target state="final">Numérico</target>
         <note>Type of keyboard to show for App Lock passcode: digits only (PIN code).</note>
       </trans-unit>
+      <trans-unit id="[AppLock/Passcode/pressEscForTouchID]" xml:space="preserve">
+        <source>Press Esc for Touch ID</source>
+        <target state="needs-translation">Press Esc for Touch ID</target>
+        <note>Hint/call to action about keyboard shortcut</note>
+      </trans-unit>
       <trans-unit id="[AppLock/SetupPasscode/callToAction]" xml:space="preserve" approved="yes">
         <source>Protect KeePassium from unauthorized access</source>
         <target state="final">Protege KeePassium de accesos no autorizados</target>
@@ -373,6 +378,11 @@ Esta es su última copia local.</target>
         <source>Lock Database</source>
         <target state="final">Bloquear base de datos</target>
         <note>Action/button to lock current database (the next time, it will ask for the master key).</note>
+      </trans-unit>
+      <trans-unit id="[Database/Print/preparingPreview]" xml:space="preserve">
+        <source>Preparing preview…</source>
+        <target state="needs-translation">Preparing preview…</target>
+        <note>Status message: preparing database print preview.</note>
       </trans-unit>
       <trans-unit id="[Database/Progress/downloading]" xml:space="preserve" approved="yes">
         <source>Downloading database file...</source>
@@ -1457,6 +1467,11 @@ Asegúrese de tener una copia de seguridad de su base de datos antes de hacer ca
         <target state="final">Sobreescribir</target>
         <note>Action/button to replace/overwrite an item</note>
       </trans-unit>
+      <trans-unit id="[Generic] Print" xml:space="preserve">
+        <source>Print</source>
+        <target state="needs-translation">Print</target>
+        <note>Action/button to print a document</note>
+      </trans-unit>
       <trans-unit id="[Generic] Rename" xml:space="preserve" approved="yes">
         <source>Rename</source>
         <target state="final">Cambiar nombre</target>
@@ -1471,6 +1486,11 @@ Asegúrese de tener una copia de seguridad de su base de datos antes de hacer ca
         <source>Restore</source>
         <target state="final">Restaurar</target>
         <note>Action/button to restore a backup/archived item in its original place</note>
+      </trans-unit>
+      <trans-unit id="[Generic] Retry" xml:space="preserve">
+        <source>Retry</source>
+        <target state="needs-translation">Retry</target>
+        <note>Action: repeat the previous (failed) action</note>
       </trans-unit>
       <trans-unit id="[Generic] Reveal in Finder" xml:space="preserve" approved="yes">
         <source>Reveal in Finder</source>
@@ -1602,6 +1622,16 @@ Asegúrese de tener una copia de seguridad de su base de datos antes de hacer ca
         <target state="final">Ayuda</target>
         <note>Generic title of in-app help article</note>
       </trans-unit>
+      <trans-unit id="[Intune/OrgNeedsToManage]" xml:space="preserve" approved="yes">
+        <source>To protect its data, your organization needs to manage this app. To complete this action, sign in with your work or school account.</source>
+        <target state="final">Para proteger sus datos propios, la organización debe administrar esta aplicación. Inicie sesión con la cuenta profesional o educativa para completar esta acción.</target>
+        <note>Info message for enterprise users</note>
+      </trans-unit>
+      <trans-unit id="[Intune/PersonalVersionElsewhere]" xml:space="preserve">
+        <source>KeePassium version for personal use is available on the App Store.</source>
+        <target state="needs-translation">KeePassium version for personal use is available on the App Store.</target>
+        <note>Info message for users who accidentally installed the enterprise version.</note>
+      </trans-unit>
       <trans-unit id="[Item/History/Restored]" xml:space="preserve" approved="yes">
         <source>Previous version restored</source>
         <target state="final">Versión previa recuperada</target>
@@ -1700,6 +1730,16 @@ El archivo permanecerá intacto y lo podrá agregar nuevamente más tarde.</targ
         <source>One-time password</source>
         <target state="needs-translation">One-time password</target>
         <note>Description of an OTP code; sentence case.</note>
+      </trans-unit>
+      <trans-unit id="[Org/ContactYourAdmin]" xml:space="preserve">
+        <source>Please contact your IT administrator.</source>
+        <target state="translated">Póngase en contacto con el administrador de TI.</target>
+        <note>Suggestion/hint on how to fix an accompanying error.</note>
+      </trans-unit>
+      <trans-unit id="[Org/LicenseMissing]" xml:space="preserve">
+        <source>KeePassium could not find the enterprise account of your organization.</source>
+        <target state="needs-translation">KeePassium could not find the enterprise account of your organization.</target>
+        <note>Error message, euphemism for missing corporate license</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/CannotGenerateText/title]" xml:space="preserve">
         <source>Cannot generate text</source>
@@ -2337,6 +2377,16 @@ Esto puede ocurrir con bases de datos muy grandes o configuraciones muy exigente
         <source>File URL</source>
         <target state="needs-translation">File URL</target>
         <note>Network address of a file</note>
+      </trans-unit>
+      <trans-unit id="[RemoteConnection/OneDrive/Folder/files]" xml:space="preserve" approved="yes">
+        <source>Files</source>
+        <target state="final">Archivos</target>
+        <note>Name of a predefined OneDrive folder which contains user's own files</note>
+      </trans-unit>
+      <trans-unit id="[RemoteConnection/OneDrive/Folder/sharedWithMe]" xml:space="preserve">
+        <source>Shared</source>
+        <target state="needs-translation">Shared</target>
+        <note>Name of a predefined OneDrive folder which contains files shared with this user</note>
       </trans-unit>
       <trans-unit id="[RemoteConnection/SignIn/OneDrive/action]" xml:space="preserve">
         <source>Sign in to OneDrive</source>
