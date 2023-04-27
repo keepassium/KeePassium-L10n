@@ -1716,13 +1716,33 @@ Soubor zůstane neporušený a později jej budete moci znovu přidat.</target>
         <target state="translated">Tento QR kód není vhodný pro nastavení OTP.</target>
         <note>Error shown when scanned QR code cannot be used for OTP</note>
       </trans-unit>
+      <trans-unit id="[OTP/Scan/InvalidSecretCode]" xml:space="preserve">
+        <source>Entered secret code is not suitable for OTP setup.</source>
+        <target state="needs-translation">Entered secret code is not suitable for OTP setup.</target>
+        <note>Error shown when a manually entered OTP secret is misformatted.</note>
+      </trans-unit>
       <trans-unit id="[OTP/Scan/OverwriteWarning]" xml:space="preserve">
         <source>One-time password is already configured for this entry. Do you want to overwrite it?</source>
         <target state="translated">Jednorázové heslo je již pro tuto položku nakonfigurováno. Chcete ji přepsat?</target>
         <note>Message to confirm user intentions</note>
       </trans-unit>
+      <trans-unit id="[OTP/Setup/EnterManually]" xml:space="preserve">
+        <source>Enter manually</source>
+        <target state="needs-translation">Enter manually</target>
+        <note>Button/action: proceed with manual OTP setup</note>
+      </trans-unit>
+      <trans-unit id="[OTP/Setup/EnterSecretCode/callToAction]" xml:space="preserve">
+        <source>Enter Secret Code</source>
+        <target state="needs-translation">Enter Secret Code</target>
+        <note>Call to action: type in the secret key for OTP setup.</note>
+      </trans-unit>
+      <trans-unit id="[OTP/Setup/ScanQRCode]" xml:space="preserve">
+        <source>Scan QR code</source>
+        <target state="needs-translation">Scan QR code</target>
+        <note>Button/action: proceed with QR code based OTP setup</note>
+      </trans-unit>
       <trans-unit id="[OTP/Setup]" xml:space="preserve">
-        <source>Setup one-time password (OTP)</source>
+        <source>Set up one-time password (OTP)</source>
         <target state="translated">Nastavit jednorázové heslo (OTP)</target>
         <note>Call for action. Acronym `OTP` should not be translated.</note>
       </trans-unit>

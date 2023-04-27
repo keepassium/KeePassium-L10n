@@ -486,9 +486,9 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <note>Class = "UILabel"; text = "In-memory Protection"; ObjectID = "0pb-xb-fuf"; Note = "Label for a switch, equivalent to KeePass' own `Enable in-memory protection` for custom entry fields.";</note>
       </trans-unit>
       <trans-unit id="1Nq-zk-w7B.normalTitle" xml:space="preserve" translate="no">
-        <source>{Scan QR code to setup OTP}</source>
-        <target state="needs-translation">{Scan QR code to setup OTP}</target>
-        <note>Class = "UIButton"; normalTitle = "{Scan QR code to setup OTP}"; ObjectID = "1Nq-zk-w7B";</note>
+        <source>{Set up OTP}</source>
+        <target state="needs-translation">{Set up OTP}</target>
+        <note>Class = "UIButton"; normalTitle = "{Set up OTP}"; ObjectID = "1Nq-zk-w7B";</note>
       </trans-unit>
       <trans-unit id="7iU-ut-hd7.accessibilityLabel" xml:space="preserve">
         <source>Custom field value</source>
@@ -1097,6 +1097,11 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <target state="translated">GPL license</target>
         <note>Class = "UILabel"; text = "LGPL license"; ObjectID = "JjJ-GT-eoX";</note>
       </trans-unit>
+      <trans-unit id="KWA-h1-ddu.text" xml:space="preserve">
+        <source>MIT license</source>
+        <target state="translated">MIT license</target>
+        <note>Class = "UILabel"; text = "MIT license"; ObjectID = "KWA-h1-ddu";</note>
+      </trans-unit>
       <trans-unit id="Kdg-Hz-XOQ.text" xml:space="preserve">
         <source>Fancy deboss pattern by Daniel Beaton</source>
         <target state="translated">Fancy deboss pattern by Daniel Beaton</target>
@@ -1296,6 +1301,11 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <source>System settings icon by Vicons Design</source>
         <target state="translated">System settings icon by Vicons Design</target>
         <note>Class = "UILabel"; text = "System settings icon by Vicons Design"; ObjectID = "wYr-Ya-qAP";</note>
+      </trans-unit>
+      <trans-unit id="y9Z-rr-JL8.text" xml:space="preserve">
+        <source>SwiftDomainParser by Dashlane</source>
+        <target state="needs-translation">SwiftDomainParser by Dashlane</target>
+        <note>Class = "UILabel"; text = "SwiftDomainParser by Dashlane"; ObjectID = "y9Z-rr-JL8";</note>
       </trans-unit>
     </body>
   </file>

@@ -1716,13 +1716,33 @@ Przed zmianą czegokolwiek upewnij się, że masz kopię zapasową bazy.</target
         <target state="translated">Tego kodu QR nie można użyć dla OTP.</target>
         <note>Error shown when scanned QR code cannot be used for OTP</note>
       </trans-unit>
+      <trans-unit id="[OTP/Scan/InvalidSecretCode]" xml:space="preserve">
+        <source>Entered secret code is not suitable for OTP setup.</source>
+        <target state="needs-translation">Entered secret code is not suitable for OTP setup.</target>
+        <note>Error shown when a manually entered OTP secret is misformatted.</note>
+      </trans-unit>
       <trans-unit id="[OTP/Scan/OverwriteWarning]" xml:space="preserve">
         <source>One-time password is already configured for this entry. Do you want to overwrite it?</source>
         <target state="translated">Hasło jednorazowe jest już ustawione dla tego wpisu. Czy chcesz go nadpisać?</target>
         <note>Message to confirm user intentions</note>
       </trans-unit>
+      <trans-unit id="[OTP/Setup/EnterManually]" xml:space="preserve">
+        <source>Enter manually</source>
+        <target state="needs-translation">Enter manually</target>
+        <note>Button/action: proceed with manual OTP setup</note>
+      </trans-unit>
+      <trans-unit id="[OTP/Setup/EnterSecretCode/callToAction]" xml:space="preserve">
+        <source>Enter Secret Code</source>
+        <target state="needs-translation">Enter Secret Code</target>
+        <note>Call to action: type in the secret key for OTP setup.</note>
+      </trans-unit>
+      <trans-unit id="[OTP/Setup/ScanQRCode]" xml:space="preserve">
+        <source>Scan QR code</source>
+        <target state="needs-translation">Scan QR code</target>
+        <note>Button/action: proceed with QR code based OTP setup</note>
+      </trans-unit>
       <trans-unit id="[OTP/Setup]" xml:space="preserve">
-        <source>Setup one-time password (OTP)</source>
+        <source>Set up one-time password (OTP)</source>
         <target state="translated">Ustaw hasło jednorazowe (OTP)</target>
         <note>Call for action. Acronym `OTP` should not be translated.</note>
       </trans-unit>
@@ -2675,7 +2695,7 @@ Może się to zdarzyć przy dużych bazach lub zbyt wygórowanych ustawieniach b
       </trans-unit>
       <trans-unit id="[Settings/NetworkAccess/title]" xml:space="preserve">
         <source>Network Access</source>
-        <target state="needs-translation">Network Access</target>
+        <target state="translated">Dostęp do sieci</target>
         <note>Settings section: how/whether the app is allowed to use networks/Internet</note>
       </trans-unit>
       <trans-unit id="[Settings/NetworkAccessMode/Offline/description]" xml:space="preserve">

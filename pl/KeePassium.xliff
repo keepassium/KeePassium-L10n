@@ -486,9 +486,9 @@ W rezultacie zarówno Autouzupełnianie, jak i główna aplikacja KeePassium, mu
         <note>Class = "UILabel"; text = "In-memory Protection"; ObjectID = "0pb-xb-fuf"; Note = "Label for a switch, equivalent to KeePass' own `Enable in-memory protection` for custom entry fields.";</note>
       </trans-unit>
       <trans-unit id="1Nq-zk-w7B.normalTitle" xml:space="preserve" translate="no">
-        <source>{Scan QR code to setup OTP}</source>
-        <target state="needs-translation">{Scan QR code to setup OTP}</target>
-        <note>Class = "UIButton"; normalTitle = "{Scan QR code to setup OTP}"; ObjectID = "1Nq-zk-w7B";</note>
+        <source>{Set up OTP}</source>
+        <target state="needs-translation">{Set up OTP}</target>
+        <note>Class = "UIButton"; normalTitle = "{Set up OTP}"; ObjectID = "1Nq-zk-w7B";</note>
       </trans-unit>
       <trans-unit id="7iU-ut-hd7.accessibilityLabel" xml:space="preserve">
         <source>Custom field value</source>
@@ -1097,6 +1097,11 @@ W rezultacie zarówno Autouzupełnianie, jak i główna aplikacja KeePassium, mu
         <target state="translated">Licencja LGPL</target>
         <note>Class = "UILabel"; text = "LGPL license"; ObjectID = "JjJ-GT-eoX";</note>
       </trans-unit>
+      <trans-unit id="KWA-h1-ddu.text" xml:space="preserve">
+        <source>MIT license</source>
+        <target state="translated">Licencja MIT</target>
+        <note>Class = "UILabel"; text = "MIT license"; ObjectID = "KWA-h1-ddu";</note>
+      </trans-unit>
       <trans-unit id="Kdg-Hz-XOQ.text" xml:space="preserve">
         <source>Fancy deboss pattern by Daniel Beaton</source>
         <target state="translated">Ozdobny tłoczny wzór - Daniel Beaton</target>
@@ -1229,7 +1234,7 @@ W rezultacie zarówno Autouzupełnianie, jak i główna aplikacja KeePassium, mu
       </trans-unit>
       <trans-unit id="kvO-9B-1Sy.text" xml:space="preserve">
         <source>Passphrase wordlists by EFF</source>
-        <target state="needs-translation">Passphrase wordlists by EFF</target>
+        <target state="translated">Listy haseł według EFF</target>
         <note>Class = "UILabel"; text = "Passphrase wordlists by EFF"; ObjectID = "kvO-9B-1Sy";</note>
       </trans-unit>
       <trans-unit id="lht-LP-o0Y.text" xml:space="preserve">
@@ -1296,6 +1301,11 @@ W rezultacie zarówno Autouzupełnianie, jak i główna aplikacja KeePassium, mu
         <source>System settings icon by Vicons Design</source>
         <target state="translated">Ikony ustawień systemowych - Vicons Design</target>
         <note>Class = "UILabel"; text = "System settings icon by Vicons Design"; ObjectID = "wYr-Ya-qAP";</note>
+      </trans-unit>
+      <trans-unit id="y9Z-rr-JL8.text" xml:space="preserve">
+        <source>SwiftDomainParser by Dashlane</source>
+        <target state="needs-translation">SwiftDomainParser by Dashlane</target>
+        <note>Class = "UILabel"; text = "SwiftDomainParser by Dashlane"; ObjectID = "y9Z-rr-JL8";</note>
       </trans-unit>
     </body>
   </file>
@@ -1822,7 +1832,7 @@ Możesz posiadać wiele baz, na przykład oddzielnie dla kont służbowych, rodz
     <body>
       <trans-unit id="1LC-s7-Kdl.text" xml:space="preserve">
         <source>Search in Passwords</source>
-        <target state="needs-translation">Search in Passwords</target>
+        <target state="translated">Szukaj w hasłach</target>
         <note>Class = "UILabel"; text = "Search in Passwords"; ObjectID = "1LC-s7-Kdl"; Note = "An switch in settings: whether to include protected field values in search procedure.";</note>
       </trans-unit>
       <trans-unit id="DJr-hC-DMT.footerTitle" xml:space="preserve">
@@ -1919,7 +1929,7 @@ Możesz posiadać wiele baz, na przykład oddzielnie dla kont służbowych, rodz
       </trans-unit>
       <trans-unit id="K9j-xG-abD.headerTitle" xml:space="preserve">
         <source>Network Access</source>
-        <target state="needs-translation">Network Access</target>
+        <target state="translated">Dostęp do sieci</target>
         <note>Class = "UITableViewSection"; headerTitle = "Network Access"; ObjectID = "K9j-xG-abD";</note>
       </trans-unit>
       <trans-unit id="LHz-DF-ZST.text" xml:space="preserve" translate="no">
@@ -2179,7 +2189,7 @@ Możesz posiadać wiele baz, na przykład oddzielnie dla kont służbowych, rodz
       </trans-unit>
       <trans-unit id="siQ-LK-GXZ.text" xml:space="preserve">
         <source>Cache Derived Encryption Keys</source>
-        <target state="needs-translation">Cache Derived Encryption Keys</target>
+        <target state="translated">Klucze szyfrowania pamięci podręcznej</target>
         <note>Class = "UILabel"; text = "Cache Derived Encryption Keys"; ObjectID = "siQ-LK-GXZ"; Note = "Setting: preserve (cache) calculated database keys";</note>
       </trans-unit>
       <trans-unit id="weX-SZ-IDB.text" xml:space="preserve">
