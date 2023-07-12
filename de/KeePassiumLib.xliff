@@ -15,11 +15,6 @@
         <target state="translated">Datenbank auswählen</target>
         <note>Title of a window where the user selects a file to be opened/added to the app</note>
       </trans-unit>
-      <trans-unit id="Import Database" xml:space="preserve">
-        <source>Import Database</source>
-        <target state="translated">Datenbank importieren</target>
-        <note>Action/button</note>
-      </trans-unit>
       <trans-unit id="KeePass database should not be used as key file. Please pick a different file." xml:space="preserve">
         <source>KeePass database should not be used as key file. Please pick a different file.</source>
         <target state="translated">Eine KeePass Datenbank sollte nicht als Schlüsseldatei verwendet werden. Bitte wählen Sie eine andere Datei.</target>
@@ -85,9 +80,9 @@
         <target state="translated">Numerisch</target>
         <note>Type of keyboard to show for App Lock passcode: digits only (PIN code).</note>
       </trans-unit>
-      <trans-unit id="[AppLock/Passcode/pressEscForTouchID]" xml:space="preserve">
+      <trans-unit id="[AppLock/Passcode/pressEscForTouchID]" xml:space="preserve" approved="yes">
         <source>Press Esc for Touch ID</source>
-        <target state="needs-translation">Press Esc for Touch ID</target>
+        <target state="final">Für Touch ID ESC drücken</target>
         <note>Hint/call to action about keyboard shortcut</note>
       </trans-unit>
       <trans-unit id="[AppLock/SetupPasscode/callToAction]" xml:space="preserve" approved="yes">
@@ -441,9 +436,9 @@ Dies ist ihre letzte lokale Kopie.</target>
         <target state="translated">Datei als unerreichbar betrachten</target>
         <note>File settings parameter: time after which file will be considered unreachable. Example: `Consider File Unreachable: in 10 seconds`.)</note>
       </trans-unit>
-      <trans-unit id="[Database/Settings/FallbackStrategy/ReAddFile/title]" xml:space="preserve">
+      <trans-unit id="[Database/Settings/FallbackStrategy/ReAddFile/title]" xml:space="preserve" approved="yes">
         <source>Re-add File</source>
-        <target state="needs-translation">Re-add File</target>
+        <target state="final">Datei erneut hinzufügen</target>
         <note>Title: what to do when a cloud-stored file cannot be loaded. (For example: `If File is Unreachable: Re-add File`.)</note>
       </trans-unit>
       <trans-unit id="[Database/Settings/FallbackStrategy/ShowError/title]" xml:space="preserve">
@@ -1027,6 +1022,16 @@ Bitte stellen Sie sicher, dass Sie eine Sicherung Ihrer Datenbank haben, bevor S
         <target state="final">Verwenden Sie die Export-Option, um die Datei an einem anderen Ort zu speichern.</target>
         <note>Suggestion for error recovery</note>
       </trans-unit>
+      <trans-unit id="[FileAccessError/PermissionRequired/reason]" xml:space="preserve" approved="yes">
+        <source>KeePassium needs your permission to access '%@'.</source>
+        <target state="final">KeePassium benötigt Ihre Erlaubnis für den Zugriff auf '%@'.</target>
+        <note>Error message for file with an expired access permission [fileName: String].</note>
+      </trans-unit>
+      <trans-unit id="[FileAccessError/PermissionRequired/recoveryAction]" xml:space="preserve" approved="yes">
+        <source>Select the file again to allow access</source>
+        <target state="final">Wählen Sie die Datei erneut aus, um den Zugriff zu erlauben</target>
+        <note>Action/button for error recovery</note>
+      </trans-unit>
       <trans-unit id="[FileAccessError/Timeout/genericFileProvider]" xml:space="preserve" approved="yes">
         <source>Storage provider does not respond.</source>
         <target state="final">Speicheranbieter reagiert nicht.</target>
@@ -1141,6 +1146,11 @@ Bitte stellen Sie sicher, dass Sie eine Sicherung Ihrer Datenbank haben, bevor S
         <source>Google Drive</source>
         <target state="translated">Google Drive</target>
         <note>Localized name of the storage service: Google Drive (https://drive.google.com)</note>
+      </trans-unit>
+      <trans-unit id="[FileProvider/MagentaCloud/name]" xml:space="preserve" approved="yes">
+        <source>MagentaCLOUD</source>
+        <target state="final">MagentaCLOUD</target>
+        <note>Localized name of the storage service: MagentaCLOUD (https://www.telekom.de/zubuchoptionen/magenta-cloud)</note>
       </trans-unit>
       <trans-unit id="[FileProvider/Mega.nz/name]" xml:space="preserve">
         <source>MEGA.nz</source>
@@ -1437,6 +1447,11 @@ Bitte stellen Sie sicher, dass Sie eine Sicherung Ihrer Datenbank haben, bevor S
         <target state="translated">Exportieren</target>
         <note>Action/button to export an item to another app</note>
       </trans-unit>
+      <trans-unit id="[Generic] Fix this" xml:space="preserve" approved="yes">
+        <source>Fix this</source>
+        <target state="final">Beheben</target>
+        <note>Action/button shown below error messages. Tapping the button will start the fixing/repairing workflow described in the error message.</note>
+      </trans-unit>
       <trans-unit id="[Generic] Learn more" xml:space="preserve" approved="yes">
         <source>Learn more…</source>
         <target state="final">Mehr erfahren …</target>
@@ -1627,9 +1642,9 @@ Bitte stellen Sie sicher, dass Sie eine Sicherung Ihrer Datenbank haben, bevor S
         <target state="final">Um die eigenen Daten zu schützen, muss Ihre Organisation diese App verwalten. Melden Sie sich mit Ihrem Geschäfts-, Schul- oder Unikonto an, um diese Aktion abzuschließen.</target>
         <note>Info message for enterprise users</note>
       </trans-unit>
-      <trans-unit id="[Intune/PersonalVersionElsewhere]" xml:space="preserve">
+      <trans-unit id="[Intune/PersonalVersionElsewhere]" xml:space="preserve" approved="yes">
         <source>KeePassium version for personal use is available on the App Store.</source>
-        <target state="needs-translation">KeePassium version for personal use is available on the App Store.</target>
+        <target state="final">Die KeePassium-Version für den persönlichen Gebrauch ist erhältlich im App Store.</target>
         <note>Info message for users who accidentally installed the enterprise version.</note>
       </trans-unit>
       <trans-unit id="[Item/History/Restored]" xml:space="preserve" approved="yes">
@@ -1716,9 +1731,9 @@ Bitte stellen Sie sicher, dass Sie eine Sicherung Ihrer Datenbank haben, bevor S
         <target state="final">Dieser QR-Code ist nicht für die OTP-Einrichtung geeignet.</target>
         <note>Error shown when scanned QR code cannot be used for OTP</note>
       </trans-unit>
-      <trans-unit id="[OTP/Scan/InvalidSecretCode]" xml:space="preserve">
+      <trans-unit id="[OTP/Scan/InvalidSecretCode]" xml:space="preserve" approved="yes">
         <source>Entered secret code is not suitable for OTP setup.</source>
-        <target state="needs-translation">Entered secret code is not suitable for OTP setup.</target>
+        <target state="final">Dieser Geheimcode ist nicht für die OTP-Einrichtung geeignet.</target>
         <note>Error shown when a manually entered OTP secret is misformatted.</note>
       </trans-unit>
       <trans-unit id="[OTP/Scan/OverwriteWarning]" xml:space="preserve" approved="yes">
@@ -1726,14 +1741,14 @@ Bitte stellen Sie sicher, dass Sie eine Sicherung Ihrer Datenbank haben, bevor S
         <target state="final">Für diesen Eintrag ist bereits ein Einmalpasswort festgelegt. Möchten Sie es überschreiben?</target>
         <note>Message to confirm user intentions</note>
       </trans-unit>
-      <trans-unit id="[OTP/Setup/EnterManually]" xml:space="preserve">
+      <trans-unit id="[OTP/Setup/EnterManually]" xml:space="preserve" approved="yes">
         <source>Enter manually</source>
-        <target state="needs-translation">Enter manually</target>
+        <target state="final">Manuell eingeben</target>
         <note>Button/action: proceed with manual OTP setup</note>
       </trans-unit>
-      <trans-unit id="[OTP/Setup/EnterSecretCode/callToAction]" xml:space="preserve">
+      <trans-unit id="[OTP/Setup/EnterSecretCode/callToAction]" xml:space="preserve" approved="yes">
         <source>Enter Secret Code</source>
-        <target state="needs-translation">Enter Secret Code</target>
+        <target state="final">Geheimcode eingeben</target>
         <note>Call to action: type in the secret key for OTP setup.</note>
       </trans-unit>
       <trans-unit id="[OTP/Setup/ScanQRCode]" xml:space="preserve">
@@ -1756,9 +1771,9 @@ Bitte stellen Sie sicher, dass Sie eine Sicherung Ihrer Datenbank haben, bevor S
         <target state="translated">Wenden Sie sich an Ihren IT-Administrator.</target>
         <note>Suggestion/hint on how to fix an accompanying error.</note>
       </trans-unit>
-      <trans-unit id="[Org/LicenseMissing]" xml:space="preserve">
+      <trans-unit id="[Org/LicenseMissing]" xml:space="preserve" approved="yes">
         <source>KeePassium could not find the enterprise account of your organization.</source>
-        <target state="needs-translation">KeePassium could not find the enterprise account of your organization.</target>
+        <target state="final">KeePassium konnte das Unternehmenskonto Ihrer Organisation nicht finden.</target>
         <note>Error message, euphemism for missing corporate license</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/CannotGenerateText/title]" xml:space="preserve">
@@ -1926,9 +1941,9 @@ Bitte stellen Sie sicher, dass Sie eine Sicherung Ihrer Datenbank haben, bevor S
         <target state="translated">Große EFF-Wortliste (7.776 Wörter)</target>
         <note>Name of a wordlist for passphrase generator. `EFF` is an organization name.</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/Wordlist/EFFShort/title]" xml:space="preserve">
-        <source>EFF Short Wordlist (1296 words)</source>
-        <target state="translated">Kurze EFF-Wortliste (1.296 Wörter)</target>
+      <trans-unit id="[PasswordGenerator/Wordlist/EFFShort/title]" xml:space="preserve" approved="yes">
+        <source>EFF Short Wordlist #%d (1296 words)</source>
+        <target state="final">Kurze EFF-Wortliste #%d (1.296 Wörter)</target>
         <note>Name of a wordlist for passphrase generator. `EFF` is an organization name.</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/Wordlist/title]" xml:space="preserve">
@@ -2413,6 +2428,11 @@ Dies kann bei größeren Datenbanken oder zu ehrgeizigen Datenbankeinstellungen 
         <target state="final">Bei OneDrive anmelden</target>
         <note>Action: authenticate to OneDrive account</note>
       </trans-unit>
+      <trans-unit id="[RemoteConnection/SignIn/OneDrive/authorizationRequried]" xml:space="preserve" approved="yes">
+        <source>OneDrive needs you to sign in again.</source>
+        <target state="final">Sie müssen sich erneut bei OneDrive anmelden.</target>
+        <note>Error description: the user should manually sign in to their OneDrive account</note>
+      </trans-unit>
       <trans-unit id="[RemoteConnection/SignIn/PrivateMode/description]" xml:space="preserve" approved="yes">
         <source>Open sign-in page in private web browser mode</source>
         <target state="final">Anmeldeseite im privaten Webbrowser-Modus öffnen</target>
@@ -2527,6 +2547,11 @@ Dies kann bei größeren Datenbanken oder zu ehrgeizigen Datenbankeinstellungen 
         <source>AutoFill Setup Guide</source>
         <target state="final">Setup-Leitfaden für autom. Ausfüllen</target>
         <note>Title of a help article on how to activate AutoFill.</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AutoFill/UnavailableInIntune/description]" xml:space="preserve" approved="yes">
+        <source>AutoFill is not available in KeePassium for Intune.</source>
+        <target state="final">Automatisch ausfüllen ist in KeePassium für Intune nicht verfügbar.</target>
+        <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="[Settings/AutoFill/UsePerfectMatch/title]" xml:space="preserve">
         <source>Fill-In Perfect Result Automatically</source>

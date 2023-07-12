@@ -15,11 +15,6 @@
         <target state="translated">데이터베이스 선택</target>
         <note>Title of a window where the user selects a file to be opened/added to the app</note>
       </trans-unit>
-      <trans-unit id="Import Database" xml:space="preserve">
-        <source>Import Database</source>
-        <target state="translated">데이터베이스 가져오기</target>
-        <note>Action/button</note>
-      </trans-unit>
       <trans-unit id="KeePass database should not be used as key file. Please pick a different file." xml:space="preserve">
         <source>KeePass database should not be used as key file. Please pick a different file.</source>
         <target state="translated">KeePass 데이터베이스 파일은 키 파일로 사용될 수 없습니다. 다른 파일을 선택해주세요.</target>
@@ -1026,6 +1021,16 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="translated">내보내기 옵션을 사용하여 다른 위치에 파일을 저장하세요.</target>
         <note>Suggestion for error recovery</note>
       </trans-unit>
+      <trans-unit id="[FileAccessError/PermissionRequired/reason]" xml:space="preserve">
+        <source>KeePassium needs your permission to access '%@'.</source>
+        <target state="needs-translation">KeePassium needs your permission to access '%@'.</target>
+        <note>Error message for file with an expired access permission [fileName: String].</note>
+      </trans-unit>
+      <trans-unit id="[FileAccessError/PermissionRequired/recoveryAction]" xml:space="preserve">
+        <source>Select the file again to allow access</source>
+        <target state="needs-translation">Select the file again to allow access</target>
+        <note>Action/button for error recovery</note>
+      </trans-unit>
       <trans-unit id="[FileAccessError/Timeout/genericFileProvider]" xml:space="preserve">
         <source>Storage provider does not respond.</source>
         <target state="translated">저장 공간 제공자가 응답이 없습니다.</target>
@@ -1140,6 +1145,11 @@ Please make sure to have a backup of your database before changing anything.</so
         <source>Google Drive</source>
         <target state="translated">Google 드라이브</target>
         <note>Localized name of the storage service: Google Drive (https://drive.google.com)</note>
+      </trans-unit>
+      <trans-unit id="[FileProvider/MagentaCloud/name]" xml:space="preserve">
+        <source>MagentaCLOUD</source>
+        <target state="needs-translation">MagentaCLOUD</target>
+        <note>Localized name of the storage service: MagentaCLOUD (https://www.telekom.de/zubuchoptionen/magenta-cloud)</note>
       </trans-unit>
       <trans-unit id="[FileProvider/Mega.nz/name]" xml:space="preserve">
         <source>MEGA.nz</source>
@@ -1435,6 +1445,11 @@ Please make sure to have a backup of your database before changing anything.</so
         <source>Export</source>
         <target state="translated">내보내기</target>
         <note>Action/button to export an item to another app</note>
+      </trans-unit>
+      <trans-unit id="[Generic] Fix this" xml:space="preserve">
+        <source>Fix this</source>
+        <target state="needs-translation">Fix this</target>
+        <note>Action/button shown below error messages. Tapping the button will start the fixing/repairing workflow described in the error message.</note>
       </trans-unit>
       <trans-unit id="[Generic] Learn more" xml:space="preserve">
         <source>Learn more…</source>
@@ -1926,8 +1941,8 @@ Please make sure to have a backup of your database before changing anything.</so
         <note>Name of a wordlist for passphrase generator. `EFF` is an organization name.</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/Wordlist/EFFShort/title]" xml:space="preserve">
-        <source>EFF Short Wordlist (1296 words)</source>
-        <target state="needs-translation">EFF Short Wordlist (1296 words)</target>
+        <source>EFF Short Wordlist #%d (1296 words)</source>
+        <target state="needs-translation">EFF Short Wordlist #%d (1296 words)</target>
         <note>Name of a wordlist for passphrase generator. `EFF` is an organization name.</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/Wordlist/title]" xml:space="preserve">
@@ -2412,6 +2427,11 @@ This can happen with larger databases or too ambitious database settings (Argon2
         <target state="needs-translation">Sign in to OneDrive</target>
         <note>Action: authenticate to OneDrive account</note>
       </trans-unit>
+      <trans-unit id="[RemoteConnection/SignIn/OneDrive/authorizationRequried]" xml:space="preserve">
+        <source>OneDrive needs you to sign in again.</source>
+        <target state="needs-translation">OneDrive needs you to sign in again.</target>
+        <note>Error description: the user should manually sign in to their OneDrive account</note>
+      </trans-unit>
       <trans-unit id="[RemoteConnection/SignIn/PrivateMode/description]" xml:space="preserve">
         <source>Open sign-in page in private web browser mode</source>
         <target state="needs-translation">Open sign-in page in private web browser mode</target>
@@ -2526,6 +2546,11 @@ This can happen with larger databases or too ambitious database settings (Argon2
         <source>AutoFill Setup Guide</source>
         <target state="needs-translation">AutoFill Setup Guide</target>
         <note>Title of a help article on how to activate AutoFill.</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AutoFill/UnavailableInIntune/description]" xml:space="preserve">
+        <source>AutoFill is not available in KeePassium for Intune.</source>
+        <target state="needs-translation">AutoFill is not available in KeePassium for Intune.</target>
+        <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="[Settings/AutoFill/UsePerfectMatch/title]" xml:space="preserve">
         <source>Fill-In Perfect Result Automatically</source>

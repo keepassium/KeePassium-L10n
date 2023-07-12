@@ -15,11 +15,6 @@
         <target state="translated">Scegli database</target>
         <note>Title of a window where the user selects a file to be opened/added to the app</note>
       </trans-unit>
-      <trans-unit id="Import Database" xml:space="preserve">
-        <source>Import Database</source>
-        <target state="translated">Importa Database</target>
-        <note>Action/button</note>
-      </trans-unit>
       <trans-unit id="KeePass database should not be used as key file. Please pick a different file." xml:space="preserve">
         <source>KeePass database should not be used as key file. Please pick a different file.</source>
         <target state="translated">Il database di KeePass non dovrebbe essere utilizzato come file chiave. Scegli un file diverso.</target>
@@ -1027,6 +1022,16 @@ Assicurati di avere una copia del database prima di fare qualsiasi modifica.</ta
         <target state="translated">Utilizza l'opzione Esporta per salvare il file da un'altra parte.</target>
         <note>Suggestion for error recovery</note>
       </trans-unit>
+      <trans-unit id="[FileAccessError/PermissionRequired/reason]" xml:space="preserve">
+        <source>KeePassium needs your permission to access '%@'.</source>
+        <target state="translated">KeePassium richiede il tuo permesso per accedere a '%@'.</target>
+        <note>Error message for file with an expired access permission [fileName: String].</note>
+      </trans-unit>
+      <trans-unit id="[FileAccessError/PermissionRequired/recoveryAction]" xml:space="preserve">
+        <source>Select the file again to allow access</source>
+        <target state="translated">Seleziona di nuovo il file per consentire l'accesso</target>
+        <note>Action/button for error recovery</note>
+      </trans-unit>
       <trans-unit id="[FileAccessError/Timeout/genericFileProvider]" xml:space="preserve">
         <source>Storage provider does not respond.</source>
         <target state="translated">Il fornitore di spazio di archiviazione non risponde.</target>
@@ -1141,6 +1146,11 @@ Assicurati di avere una copia del database prima di fare qualsiasi modifica.</ta
         <source>Google Drive</source>
         <target state="translated">Google Drive</target>
         <note>Localized name of the storage service: Google Drive (https://drive.google.com)</note>
+      </trans-unit>
+      <trans-unit id="[FileProvider/MagentaCloud/name]" xml:space="preserve">
+        <source>MagentaCLOUD</source>
+        <target state="translated">MagentaCLOUD</target>
+        <note>Localized name of the storage service: MagentaCLOUD (https://www.telekom.de/zubuchoptionen/magenta-cloud)</note>
       </trans-unit>
       <trans-unit id="[FileProvider/Mega.nz/name]" xml:space="preserve">
         <source>MEGA.nz</source>
@@ -1436,6 +1446,11 @@ Assicurati di avere una copia del database prima di fare qualsiasi modifica.</ta
         <source>Export</source>
         <target state="translated">Esporta</target>
         <note>Action/button to export an item to another app</note>
+      </trans-unit>
+      <trans-unit id="[Generic] Fix this" xml:space="preserve">
+        <source>Fix this</source>
+        <target state="translated">Risolvi</target>
+        <note>Action/button shown below error messages. Tapping the button will start the fixing/repairing workflow described in the error message.</note>
       </trans-unit>
       <trans-unit id="[Generic] Learn more" xml:space="preserve" approved="yes">
         <source>Learn more…</source>
@@ -1927,8 +1942,8 @@ Il file rimarrà intatto e potrai aggiungerlo di nuovo in seguito.</target>
         <note>Name of a wordlist for passphrase generator. `EFF` is an organization name.</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/Wordlist/EFFShort/title]" xml:space="preserve">
-        <source>EFF Short Wordlist (1296 words)</source>
-        <target state="translated">Lista vocaboli EFF breve (1296 parole)</target>
+        <source>EFF Short Wordlist #%d (1296 words)</source>
+        <target state="translated">Dizionario EEF breve #%d (1296 parole)</target>
         <note>Name of a wordlist for passphrase generator. `EFF` is an organization name.</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/Wordlist/title]" xml:space="preserve">
@@ -2413,6 +2428,11 @@ Può succedere con database di grandi dimensioni o con impostazioni database tro
         <target state="translated">Accedi a OneDrive</target>
         <note>Action: authenticate to OneDrive account</note>
       </trans-unit>
+      <trans-unit id="[RemoteConnection/SignIn/OneDrive/authorizationRequried]" xml:space="preserve">
+        <source>OneDrive needs you to sign in again.</source>
+        <target state="translated">OneDrive richiede di nuovo l'accesso.</target>
+        <note>Error description: the user should manually sign in to their OneDrive account</note>
+      </trans-unit>
       <trans-unit id="[RemoteConnection/SignIn/PrivateMode/description]" xml:space="preserve">
         <source>Open sign-in page in private web browser mode</source>
         <target state="translated">Apri la pagina di accesso in un pannello privato</target>
@@ -2527,6 +2547,11 @@ Può succedere con database di grandi dimensioni o con impostazioni database tro
         <source>AutoFill Setup Guide</source>
         <target state="translated">Guida per l'inserimento automatico</target>
         <note>Title of a help article on how to activate AutoFill.</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AutoFill/UnavailableInIntune/description]" xml:space="preserve">
+        <source>AutoFill is not available in KeePassium for Intune.</source>
+        <target state="translated">L'inserimento automatico non è disponibile in KeePassium per Intune.</target>
+        <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="[Settings/AutoFill/UsePerfectMatch/title]" xml:space="preserve">
         <source>Fill-In Perfect Result Automatically</source>

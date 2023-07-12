@@ -841,11 +841,6 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <target state="translated">ปลดล็อกฐานข้อมูล</target>
         <note>Class = "UIViewController"; title = "Unlock Database"; ObjectID = "eAa-Z5-pdq"; Note = "Title of the database unlocker dialog.";</note>
       </trans-unit>
-      <trans-unit id="epu-yU-Lyg.text" xml:space="preserve">
-        <source>Database was closed by a timer.</source>
-        <target state="translated">ฐานข้อมูลถูกปิดโดยการตั้งเวลา</target>
-        <note>Class = "UILabel"; text = "Database was closed by a timer."; ObjectID = "epu-yU-Lyg"; Note = "Notification message shown by database lock timer.";</note>
-      </trans-unit>
       <trans-unit id="gji-1x-co5.normalTitle" xml:space="preserve">
         <source>Lock Database</source>
         <target state="translated">ล็อกฐานข้อมูล</target>
@@ -1187,11 +1182,6 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <target state="needs-translation">{©2021 Andrei Popleteev}</target>
         <note>Class = "UILabel"; text = "{©2021 Andrei Popleteev}"; ObjectID = "bmf-Ed-H4x";</note>
       </trans-unit>
-      <trans-unit id="dMv-Zw-y7y.text" xml:space="preserve">
-        <source>MIT license</source>
-        <target state="translated">ใบอนุญาต MIT</target>
-        <note>Class = "UILabel"; text = "MIT license"; ObjectID = "dMv-Zw-y7y";</note>
-      </trans-unit>
       <trans-unit id="daJ-ma-jhe.text" xml:space="preserve">
         <source>MIT license</source>
         <target state="translated">ใบอนุญาต MIT</target>
@@ -1292,11 +1282,6 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <target state="needs-translation">{v1.0.123}</target>
         <note>Class = "UILabel"; text = "{v1.0.123}"; ObjectID = "vDg-fF-8ty"; Note = "#bc-ignore!";</note>
       </trans-unit>
-      <trans-unit id="vg0-6M-OIq.text" xml:space="preserve">
-        <source>KeyboardLayoutConstraint by James Tang</source>
-        <target state="translated">KeyboardLayoutConstraint โดย James Tang</target>
-        <note>Class = "UILabel"; text = "KeyboardLayoutConstraint by James Tang"; ObjectID = "vg0-6M-OIq";</note>
-      </trans-unit>
       <trans-unit id="wYr-Ya-qAP.text" xml:space="preserve">
         <source>System settings icon by Vicons Design</source>
         <target state="translated">ไอคอนการตั้งค่าโดย Vicons Design</target>
@@ -1375,28 +1360,6 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <source>{Perpetual license status}</source>
         <target state="needs-translation">{Perpetual license status}</target>
         <note>Class = "UILabel"; text = "{Perpetual license status}"; ObjectID = "f1G-Tl-xxh"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="KeePassium/general/diagnostics/Base.lproj/DiagnosticsViewerVC.storyboard" source-language="en" target-language="th" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="14.3" build-num="14E222b"/>
-    </header>
-    <body>
-      <trans-unit id="Bti-aV-bQB.title" xml:space="preserve" translate="no">
-        <source>{Contact Support}</source>
-        <target state="needs-translation">{Contact Support}</target>
-        <note>Class = "UIBarButtonItem"; title = "{Contact Support}"; ObjectID = "Bti-aV-bQB"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="VTC-44-cgF.text" xml:space="preserve" translate="no">
-        <source>{file:line:function}</source>
-        <target state="needs-translation">{file:line:function}</target>
-        <note>Class = "UILabel"; text = "{file:line:function}"; ObjectID = "VTC-44-cgF"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="vlS-RX-RUW.text" xml:space="preserve" translate="no">
-        <source>{Diagnostic message}</source>
-        <target state="needs-translation">{Diagnostic message}</target>
-        <note>Class = "UILabel"; text = "{Diagnostic message}"; ObjectID = "vlS-RX-RUW"; Note = "#bc-ignore!";</note>
       </trans-unit>
     </body>
   </file>
