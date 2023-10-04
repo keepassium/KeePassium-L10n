@@ -159,6 +159,41 @@ Varför? Bakom kulisserna hanterar systemet Auotfyll som en separat app, som är
 Detta leder till att både Autofyll och huvudappen för KeePassium behöver ges tillstånd för varje extern fil som ska användas. Som tur är behöver detta bara göras en gång.</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
+      <trans-unit id="[PasswordQuality/LevelWithEntropy/description]" xml:space="preserve">
+        <source>%1$@ (%2$@ of entropy)</source>
+        <target state="translated">%1$@ (%2$@ av entropi)</target>
+        <note>Password quality description. For example: `Very good (234 bits of entropy)`. [level: String, formattedBitCount: String]</note>
+      </trans-unit>
+      <trans-unit id="[PasswordQuality/Level] Almost good" xml:space="preserve">
+        <source>Almost good</source>
+        <target state="translated">Nästan bra</target>
+        <note>Almost good password quality</note>
+      </trans-unit>
+      <trans-unit id="[PasswordQuality/Level] Good" xml:space="preserve">
+        <source>Good</source>
+        <target state="translated">Bra</target>
+        <note>Good password quality</note>
+      </trans-unit>
+      <trans-unit id="[PasswordQuality/Level] Very good" xml:space="preserve">
+        <source>Very good</source>
+        <target state="translated">Mycket bra</target>
+        <note>Very good password quality</note>
+      </trans-unit>
+      <trans-unit id="[PasswordQuality/Level] Very weak" xml:space="preserve">
+        <source>Very weak</source>
+        <target state="translated">Mycket svagt</target>
+        <note>Very weak password quality</note>
+      </trans-unit>
+      <trans-unit id="[PasswordQuality/Level] Weak" xml:space="preserve">
+        <source>Weak</source>
+        <target state="translated">Svagt</target>
+        <note>Weak password quality</note>
+      </trans-unit>
+      <trans-unit id="[PasswordQuality/description]" xml:space="preserve">
+        <source>Password quality: %@</source>
+        <target state="translated">Lösenordsstyrka: %@</target>
+        <note>Password quality description. For example: `Password quality: Weak`. [level: String]</note>
+      </trans-unit>
       <trans-unit id="[ProtectedTextField] Show Password" xml:space="preserve">
         <source>Show Password</source>
         <target state="translated">Visa lösenord</target>
@@ -520,11 +555,6 @@ Detta leder till att både Autofyll och huvudappen för KeePassium behöver ges 
         <target state="translated">Lägg till eget fält</target>
         <note>Class = "UIBarButtonItem"; HGI-xq-zUf.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Add Custom Field"; ObjectID = "HGI-xq-zUf";</note>
       </trans-unit>
-      <trans-unit id="HcW-rc-pdR.normalTitle" xml:space="preserve">
-        <source>Change Icon</source>
-        <target state="translated">Byt ikon</target>
-        <note>Class = "UIButton"; normalTitle = "Change Icon"; ObjectID = "HcW-rc-pdR";</note>
-      </trans-unit>
       <trans-unit id="Ro2-Xv-zrw.text" xml:space="preserve" translate="no">
         <source>{Field Value}</source>
         <target state="needs-translation">{Field Value}</target>
@@ -651,11 +681,6 @@ Detta leder till att både Autofyll och huvudappen för KeePassium behöver ges 
         <target state="needs-translation">{Group Name}</target>
         <note>Class = "UILabel"; text = "{Group Name}"; ObjectID = "7uR-HK-1Dd"; Note = "#bc-ignore!";</note>
       </trans-unit>
-      <trans-unit id="9KV-rC-1XL.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" xml:space="preserve">
-        <source>Lock Database</source>
-        <target state="translated">Lås databas</target>
-        <note>Class = "UIBarButtonItem"; 9KV-rC-1XL.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Lock Database"; ObjectID = "9KV-rC-1XL";</note>
-      </trans-unit>
       <trans-unit id="M5a-Ld-ZXd.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" xml:space="preserve">
         <source>Sort Order</source>
         <target state="translated">Sortering</target>
@@ -675,11 +700,6 @@ Detta leder till att både Autofyll och huvudappen för KeePassium behöver ges 
         <source>{OTPValue}</source>
         <target state="needs-translation">{OTPValue}</target>
         <note>Class = "UILabel"; text = "{OTPValue}"; ObjectID = "RAn-LR-hxd";</note>
-      </trans-unit>
-      <trans-unit id="qkh-6K-yQW.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" xml:space="preserve">
-        <source>Change Master Key</source>
-        <target state="translated">Ändra huvudnyckel</target>
-        <note>Class = "UIBarButtonItem"; qkh-6K-yQW.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Change Master Key"; ObjectID = "qkh-6K-yQW";</note>
       </trans-unit>
       <trans-unit id="rF3-mC-kj1.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" xml:space="preserve">
         <source>Settings</source>
@@ -990,10 +1010,110 @@ Detta leder till att både Autofyll och huvudappen för KeePassium behöver ges 
         <target state="translated">Inställningar…</target>
         <note>Menu title: app settings</note>
       </trans-unit>
+      <trans-unit id="[PasswordAudit/Action/Exclude]" xml:space="preserve">
+        <source>Exclude From Audit</source>
+        <target state="translated">Exkludera från granskning</target>
+        <note>Action to skip selected item/items in future password audits.</note>
+      </trans-unit>
+      <trans-unit id="[PasswordAudit/Auditing/status]" xml:space="preserve">
+        <source>Auditing passwords</source>
+        <target state="translated">Granska lösenord</target>
+        <note>Status message: password audit in progress</note>
+      </trans-unit>
+      <trans-unit id="[PasswordAudit/Error/text]" xml:space="preserve">
+        <source>An error occured while communicating with the HIBP service. %@</source>
+        <target state="translated">Ett fel uppstod vid kommunikation med HIBP-tjänsten. %@</target>
+        <note>Error message after a failed password audit request [message: String].</note>
+      </trans-unit>
+      <trans-unit id="[PasswordAudit/ExposureCount/description]" xml:space="preserve">
+        <source>The number shows how many times the password has been found in known data leaks.</source>
+        <target state="translated">Siffran anger hur många gånger lösenordet har dykt upp i kända dataläckor.</target>
+        <note>Description of the password audit results, where a number appears next to each password.</note>
+      </trans-unit>
+      <trans-unit id="[PasswordAudit/Intro/text]" xml:space="preserve">
+        <source>Password audit checks your passwords against an online database of leaked passwords in a secure and private way.
+
+KeePassium will send information calculated from your passwords — a kind of a partial checksum — to the [Have I Been Pwned](https://haveibeenpwned.com) service. The service will return detailed information about compromised passwords with similar checksums. The app will then compare the detailed checksums locally on the device and detect which of your passwords are at risk.
+
+Your actual passwords are never shared with the online service.
+[Learn more…](%@)</source>
+        <target state="translated">Lösenordsgranskning kontrollerar dina lösenord mot en databas med läckta lösenord på ett säkert och anonymt sätt.
+
+KeePassium skickar information framräknad från dina lösenord — en sorts partiell checksumma — till tjänsten [Have I Been Pwned](https://haveibeenpwned.com). Tjänsten rapporterar detaljerad information om komprommeterade lösenord med liknande checksummor. Appen kommer sen jämföra de partiella checksummorna lokalt på din enhet för att avgöra vilka av dina lösenord som innebär en risk.
+
+Dina faktiska lösenord delas aldrig med tjänsten.
+[Läs mer…](%@)</target>
+        <note>Description of the Password Audit function.</note>
+      </trans-unit>
+      <trans-unit id="[PasswordAudit/Results/allGood]" xml:space="preserve">
+        <source>Good news! None of your passwords have appeared in known data leaks.</source>
+        <target state="translated">Fantastiskt! Inga av dina lösenord har förekommit i kända dataläckor.</target>
+        <note>Result of a password audit.</note>
+      </trans-unit>
+      <trans-unit id="[PasswordAudit/Results/title]" xml:space="preserve">
+        <source>Compromised Passwords</source>
+        <target state="translated">Komprometterade lösenord</target>
+        <note>Title of a list with passwords that are known to have been exposed in online breaches.</note>
+      </trans-unit>
+      <trans-unit id="[PasswordAudit/Start/action]" xml:space="preserve">
+        <source>Start Audit</source>
+        <target state="translated">Starta granskning</target>
+        <note>Action/button: intiate password audit</note>
+      </trans-unit>
+      <trans-unit id="[PasswordAudit/title]" xml:space="preserve">
+        <source>Password Audit</source>
+        <target state="translated">Lösenordsgranskning</target>
+        <note>Title of a screen to check which passwords are known to be compromised.</note>
+      </trans-unit>
+      <trans-unit id="[PasswordQuality/LevelWithEntropy/description]" xml:space="preserve">
+        <source>%1$@ (%2$@ of entropy)</source>
+        <target state="translated">%1$@ (%2$@ av entropi)</target>
+        <note>Password quality description. For example: `Very good (234 bits of entropy)`. [level: String, formattedBitCount: String]</note>
+      </trans-unit>
+      <trans-unit id="[PasswordQuality/Level] Almost good" xml:space="preserve">
+        <source>Almost good</source>
+        <target state="translated">Nästan bra</target>
+        <note>Almost good password quality</note>
+      </trans-unit>
+      <trans-unit id="[PasswordQuality/Level] Good" xml:space="preserve">
+        <source>Good</source>
+        <target state="translated">Bra</target>
+        <note>Good password quality</note>
+      </trans-unit>
+      <trans-unit id="[PasswordQuality/Level] Very good" xml:space="preserve">
+        <source>Very good</source>
+        <target state="translated">Mycket bra</target>
+        <note>Very good password quality</note>
+      </trans-unit>
+      <trans-unit id="[PasswordQuality/Level] Very weak" xml:space="preserve">
+        <source>Very weak</source>
+        <target state="translated">Mycket svagt</target>
+        <note>Very weak password quality</note>
+      </trans-unit>
+      <trans-unit id="[PasswordQuality/Level] Weak" xml:space="preserve">
+        <source>Weak</source>
+        <target state="translated">Svagt</target>
+        <note>Weak password quality</note>
+      </trans-unit>
+      <trans-unit id="[PasswordQuality/description]" xml:space="preserve">
+        <source>Password quality: %@</source>
+        <target state="translated">Lösenordsstyrka: %@</target>
+        <note>Password quality description. For example: `Password quality: Weak`. [level: String]</note>
+      </trans-unit>
       <trans-unit id="[ProtectedTextField] Show Password" xml:space="preserve">
         <source>Show Password</source>
         <target state="translated">Visa lösenord</target>
         <note>Action/button to make password visible as plain-text</note>
+      </trans-unit>
+      <trans-unit id="[Selection/Delete/confirmation]" xml:space="preserve">
+        <source>Delete selection?</source>
+        <target state="translated">Radera markering?</target>
+        <note>Title of the confirmation dialog for `Delete` action for several items</note>
+      </trans-unit>
+      <trans-unit id="[Selection/ExcludeFromAudit/confirmation]" xml:space="preserve">
+        <source>Exclude selection from password audit?</source>
+        <target state="translated">Exkludera markering från lösenordsgranskning?</target>
+        <note>Title of the confirmation dialog for `Exclude from audit` action for several items</note>
       </trans-unit>
     </body>
   </file>
@@ -1067,6 +1187,11 @@ Detta leder till att både Autofyll och huvudappen för KeePassium behöver ges 
         <target state="translated">Custom permissive license</target>
         <note>Class = "UILabel"; text = "Custom permissive license"; ObjectID = "EWy-OI-IxL";</note>
       </trans-unit>
+      <trans-unit id="Erq-Zz-P0N.text" xml:space="preserve">
+        <source>MIT license</source>
+        <target state="translated">MIT-licens</target>
+        <note>Class = "UILabel"; text = "MIT license"; ObjectID = "Erq-Zz-P0N";</note>
+      </trans-unit>
       <trans-unit id="Ha8-Qv-0qg.text" xml:space="preserve">
         <source>ChaCha20 &amp; Salsa20 implementation by D. J. Bernstein</source>
         <target state="translated">ChaCha20 &amp; Salsa20 implementation av D. J. Bernstein</target>
@@ -1131,6 +1256,11 @@ Detta leder till att både Autofyll och huvudappen för KeePassium behöver ges 
         <source>Linecons by Andrian Valeanu</source>
         <target state="translated">Linecons av Andrian Valeanu</target>
         <note>Class = "UILabel"; text = "Linecons by Andrian Valeanu"; ObjectID = "SOX-Re-yl9";</note>
+      </trans-unit>
+      <trans-unit id="SUh-L1-IvF.text" xml:space="preserve">
+        <source>zxcvbn-ios by Dropbox</source>
+        <target state="translated">zxcvbn-ios av Dropbox</target>
+        <note>Class = "UILabel"; text = "zxcvbn-ios by Dropbox"; ObjectID = "SUh-L1-IvF";</note>
       </trans-unit>
       <trans-unit id="TOl-DA-gYc.text" xml:space="preserve">
         <source>Contact Support</source>
@@ -1610,6 +1740,16 @@ Du kan ha flera databaser, till exempel för att dela upp konton för arbete, fa
         <target state="translated">Återställ till standard-textstorlek</target>
         <note>Class = "UIButton"; accessibilityLabel = "Reset text size to default"; ObjectID = "5U9-NZ-sJe"; Note = "Action: set text size to standard size";</note>
       </trans-unit>
+      <trans-unit id="Fdn-Dx-Gop.configuration.title" xml:space="preserve" translate="no">
+        <source>{Restore Defaults}</source>
+        <target state="needs-translation">{Restore Defaults}</target>
+        <note>Class = "UIButton"; configuration.title = "{Restore Defaults}"; ObjectID = "Fdn-Dx-Gop";</note>
+      </trans-unit>
+      <trans-unit id="Fdn-Dx-Gop.normalTitle" xml:space="preserve" translate="no">
+        <source>{Restore Defaults}</source>
+        <target state="needs-translation">{Restore Defaults}</target>
+        <note>Class = "UIButton"; normalTitle = "{Restore Defaults}"; ObjectID = "Fdn-Dx-Gop";</note>
+      </trans-unit>
       <trans-unit id="Lh3-CB-Urp.footerTitle" xml:space="preserve">
         <source>Hide passwords and other protected fields behind asterisks (recommended).</source>
         <target state="translated">Dölj lösenord och andra skyddade fält med asterisker (rekommenderas).</target>
@@ -1625,10 +1765,20 @@ Du kan ha flera databaser, till exempel för att dela upp konton för arbete, fa
         <target state="translated">Kontoöversikt</target>
         <note>Class = "UITableViewSection"; headerTitle = "Entry Viewer"; ObjectID = "MsA-Cd-czb";</note>
       </trans-unit>
+      <trans-unit id="O1w-EU-vrn.text" xml:space="preserve" translate="no">
+        <source>{Subtitle}</source>
+        <target state="needs-translation">{Subtitle}</target>
+        <note>Class = "UILabel"; text = "{Subtitle}"; ObjectID = "O1w-EU-vrn";</note>
+      </trans-unit>
       <trans-unit id="QbO-y9-3wb.text" xml:space="preserve" translate="no">
         <source>{Text size}</source>
         <target state="needs-translation">{Text size}</target>
         <note>Class = "UILabel"; text = "{Text size}"; ObjectID = "QbO-y9-3wb"; Note = "#bc-ignore!";</note>
+      </trans-unit>
+      <trans-unit id="TEx-Hv-9VE.text" xml:space="preserve" translate="no">
+        <source>{Font}</source>
+        <target state="needs-translation">{Font}</target>
+        <note>Class = "UILabel"; text = "{Font}"; ObjectID = "TEx-Hv-9VE"; Note = "Section in settings: icons for database";</note>
       </trans-unit>
       <trans-unit id="fSx-Do-lgu.text" xml:space="preserve">
         <source>App Icon</source>

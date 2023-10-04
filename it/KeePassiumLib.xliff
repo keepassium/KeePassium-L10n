@@ -115,6 +115,16 @@
         <target state="translated">Sblocca</target>
         <note>Action/button to unlock the App Lock with passcode</note>
       </trans-unit>
+      <trans-unit id="[Appearance/DefaultFont/shortTitle]" xml:space="preserve">
+        <source>Default</source>
+        <target state="translated">Predefinito</target>
+        <note>Short name of the default/system font. For example: `Font: Default`</note>
+      </trans-unit>
+      <trans-unit id="[Appearance/Font/title]" xml:space="preserve">
+        <source>Font</source>
+        <target state="translated">Tipo di carattere</target>
+        <note>Title of a setting option: font</note>
+      </trans-unit>
       <trans-unit id="[Appearance/TextSize/title]" xml:space="preserve">
         <source>Text Size</source>
         <target state="translated">Dimensione testo</target>
@@ -255,6 +265,33 @@
         <target state="translated">Crea database</target>
         <note>Title of a form for creating a database</note>
       </trans-unit>
+      <trans-unit id="[Database/CustomIcon/DownloadFavicon/action]" xml:space="preserve">
+        <source>Download Favicon</source>
+        <target state="translated">Scarica Favicon</target>
+        <note>Action: download icon of a website</note>
+      </trans-unit>
+      <trans-unit id="[Database/CustomIcon/DownloadFavicons/action]" xml:space="preserve">
+        <source>Download Favicons</source>
+        <target state="translated">Scarica Favicon</target>
+        <note>Action/button to download favicons of websites mentioned in selected entries.</note>
+      </trans-unit>
+      <trans-unit id="[Database/CustomIcon/DownloadFavicons/stats]" xml:space="preserve">
+        <source>Entries processed: %1$d
+Icons updated: %2$d</source>
+        <target state="translated">Voci processate: %1$d
+Icone aggiornate: %2$d</target>
+        <note>Report of favicon download results.</note>
+      </trans-unit>
+      <trans-unit id="[Database/CustomIcon/DownloadFavicons/status]" xml:space="preserve">
+        <source>Downloading favicons</source>
+        <target state="translated">Scaricamento favicon</target>
+        <note>Status message: multiple website favicons are being downloaded</note>
+      </trans-unit>
+      <trans-unit id="[Database/CustomIcon/DownloadOneFavicon/status]" xml:space="preserve">
+        <source>Downloading favicon</source>
+        <target state="translated">Scaricamento favicon</target>
+        <note>Status message: a website favicon is being downloaded</note>
+      </trans-unit>
       <trans-unit id="[Database/CustomIcon/add]" xml:space="preserve">
         <source>Add Custom Icon</source>
         <target state="translated">Aggiungi icona personalizzata</target>
@@ -266,6 +303,26 @@
         <target state="translated">Eliminare il file database?
 Assicurati di avere una copia di sicurezza.</target>
         <note>Message to confirm deletion of a database file. (This deletes the file itself)</note>
+      </trans-unit>
+      <trans-unit id="[Database/FormatVersion/Conversion/allDataPreserved]" xml:space="preserve">
+        <source>All your data will be preserved.</source>
+        <target state="translated">Tutti i tuoi dati saranno conservati.</target>
+        <note>Info message when changing database file format.</note>
+      </trans-unit>
+      <trans-unit id="[Database/FormatVersion/Upgrade/text]" xml:space="preserve">
+        <source>KeePassium needs to upgrade your database file format (from %1$@ to %2$@). You might need to update other apps that use this database.</source>
+        <target state="translated">KeePassium deve aggiornare il formato del file del database (da %1$@ ad %2$@). Potrebbe essere necessario aggiornare altre applicazioni che utilizzano questo database.</target>
+        <note>Info message when the app needs to change database file format. [oldFormat, newFormat: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database/FormatVersion/Upgrade/title]" xml:space="preserve">
+        <source>Before we continue</source>
+        <target state="translated">Prima di continuare</target>
+        <note>Title of an info message when the app needs to change database file format.</note>
+      </trans-unit>
+      <trans-unit id="[Database/Item/Edited/state]" xml:space="preserve">
+        <source>Edited</source>
+        <target state="translated">Modificato</target>
+        <note>Status of a database item (entry or group) after it was edited.</note>
       </trans-unit>
       <trans-unit id="[Database/LesserTargetFormat/warning]" xml:space="preserve">
         <source>This is an older database format, some data might be lost.</source>
@@ -329,6 +386,11 @@ Questa è la copia locale più recente.</target>
         <target state="translated">Carico...</target>
         <note>Status message: loading a database</note>
       </trans-unit>
+      <trans-unit id="[Database/MasterKey/Change/action]" xml:space="preserve">
+        <source>Change Master Key</source>
+        <target state="translated">Modifica chiave principale</target>
+        <note>Action/button: change master key of a database.</note>
+      </trans-unit>
       <trans-unit id="[Database/MasterKey/RememberYourPassword/text]" xml:space="preserve">
         <source>If you ever forget it, you won't be able to access your data. There is no password reset option.</source>
         <target state="translated">Se la dimentichi, non sarai in grado di accedere ai tuoi dati. Non è possibile reimpostare la password.</target>
@@ -374,6 +436,11 @@ Questa è la copia locale più recente.</target>
         <target state="translated">Blocca database</target>
         <note>Action/button to lock current database (the next time, it will ask for the master key).</note>
       </trans-unit>
+      <trans-unit id="[Database/Operations/title]" xml:space="preserve">
+        <source>Database Operations</source>
+        <target state="translated">Attività database</target>
+        <note>Title of a list with database-related actions (e.g. lock database, change master key, etc)</note>
+      </trans-unit>
       <trans-unit id="[Database/Print/preparingPreview]" xml:space="preserve">
         <source>Preparing preview…</source>
         <target state="translated">Preparazione anteprima…</target>
@@ -414,12 +481,22 @@ Questa è la copia locale più recente.</target>
         <target state="translated">Prova a connetterti al tuo archivio remoto direttamente da KeePassium.</target>
         <note>Suggested solution/call to action when intermediate sync app fails.</note>
       </trans-unit>
+      <trans-unit id="[Database/Reload/action]" xml:space="preserve">
+        <source>Reload Database</source>
+        <target state="translated">Ricarica database</target>
+        <note>Action/button</note>
+      </trans-unit>
       <trans-unit id="[Database/Remove/Confirm/text] Remove database from the list?&#10; The file will remain intact and you can add it again later." xml:space="preserve">
         <source>Remove database from the list?
  The file will remain intact and you can add it again later.</source>
         <target state="translated">Rimuovere il database dalla lista?
 Il file rimarrà intatto e potrai aggiungerlo di nuovo in seguito.</target>
         <note>Message to confirm removal of database file from the app. (This keeps the file, but removes its reference from the app.)</note>
+      </trans-unit>
+      <trans-unit id="[Database/Save/action] Save Database" xml:space="preserve">
+        <source>Save Database</source>
+        <target state="translated">Salva database</target>
+        <note>Action/button to save the current database.</note>
       </trans-unit>
       <trans-unit id="[Database/Saving/Status] Done" xml:space="preserve">
         <source>Done</source>
@@ -827,6 +904,11 @@ Assicurati di avere una copia del database prima di fare qualsiasi modifica.</ta
         <target state="translated">Il registro diagnostico è stato copiato negli appunti.</target>
         <note>Notification/confirmation message</note>
       </trans-unit>
+      <trans-unit id="[EditEntry/Icon/change]" xml:space="preserve">
+        <source>Change Icon</source>
+        <target state="translated">Cambia icona</target>
+        <note>Action: select a different icon for an item</note>
+      </trans-unit>
       <trans-unit id="[EditEntry/UserName/choose]" xml:space="preserve">
         <source>Choose</source>
         <target state="translated">Scegli</target>
@@ -886,6 +968,11 @@ Assicurati di avere una copia del database prima di fare qualsiasi modifica.</ta
         <source>Copy Field Reference</source>
         <target state="translated">Copia riferimento campo</target>
         <note>Action: copy a reference to the selected entry field to clipboard</note>
+      </trans-unit>
+      <trans-unit id="[Entry/Field/name] Icon" xml:space="preserve">
+        <source>Icon</source>
+        <target state="translated">Icona</target>
+        <note>Name of an entry field</note>
       </trans-unit>
       <trans-unit id="[Entry/Field/name] Notes" xml:space="preserve">
         <source>Notes</source>
@@ -1307,10 +1394,25 @@ Assicurati di avere una copia del database prima di fare qualsiasi modifica.</ta
         <target state="translated">La cartella è vuota</target>
         <note>Placeholder for folders without files</note>
       </trans-unit>
+      <trans-unit id="[Generic/Action/SelectItems]" xml:space="preserve">
+        <source>Select</source>
+        <target state="translated">Seleziona</target>
+        <note>Action/button to select some items in a list.</note>
+      </trans-unit>
       <trans-unit id="[Generic/ConfirmDelete/title] Are you sure?" xml:space="preserve">
         <source>Are you sure?</source>
         <target state="translated">Confermi?</target>
         <note>Message to confirm deletion of an item.</note>
+      </trans-unit>
+      <trans-unit id="[Generic/Count/Bits]" translate="no" xml:space="preserve">
+        <source>[Generic/Count/Bits]</source>
+        <target state="needs-translation">[Generic/Count/Bits]</target>
+        <note>Number of bits. For example: '123 bits of entropy'. IMPORTANT: Please fill out all the plural forms. (Key in .stringsdict)</note>
+      </trans-unit>
+      <trans-unit id="[Generic/Count/EntriesSelected]" translate="no" xml:space="preserve">
+        <source>[Generic/Count/EntriesSelected]</source>
+        <target state="needs-translation">[Generic/Count/EntriesSelected]</target>
+        <note>Number of entries selected. For example: 'No entries selected', '1 entry selected'. IMPORTANT: Please fill out all the plural forms. (Key in .stringsdict)</note>
       </trans-unit>
       <trans-unit id="[Generic/Directory/Recently Deleted/name]" xml:space="preserve">
         <source>Recently Deleted</source>
@@ -2016,6 +2118,11 @@ Il file rimarrà intatto e potrai aggiungerlo di nuovo in seguito.</target>
         <target state="translated">Cosa ti perdi</target>
         <note>List of premium benefits/advantages</note>
       </trans-unit>
+      <trans-unit id="[Premium/Benefits/PasswordAudit/title]" xml:space="preserve">
+        <source>Check your passwords</source>
+        <target state="translated">Verifica le tue password</target>
+        <note>Title of a premium feature</note>
+      </trans-unit>
       <trans-unit id="[Premium/Benefits/Positive/header] " xml:space="preserve">
         <source>What you get</source>
         <target state="translated">Cosa ottieni</target>
@@ -2328,6 +2435,16 @@ Puoi gestire e disdire gli abbonamenti nelle impostazioni del tuo account sull'A
         <source>Multiple Databases</source>
         <target state="translated">Database multipli</target>
         <note>Title of a premium feature: ability to use multiple databases (In Title Case)</note>
+      </trans-unit>
+      <trans-unit id="[PremiumFeature/PasswordAudit/description]" xml:space="preserve">
+        <source>Find out if any of your passwords have been exposed in a known data breach.</source>
+        <target state="translated">Scopri se una qualsiasi delle tue password è stata esposta in una violazione di dati nota.</target>
+        <note>Description/call to action for the `Password Audit` premium feature.</note>
+      </trans-unit>
+      <trans-unit id="[PremiumFeature/PasswordAudit/title]" xml:space="preserve">
+        <source>Password audit</source>
+        <target state="translated">Ispezione password</target>
+        <note>Title of a premium feature: discover which passwords are known to be compromized</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/Preview/description] Preview images and documents directly in the app, in the premium version." xml:space="preserve">
         <source>Preview images and documents directly in the app, in the premium version.</source>
@@ -2743,6 +2860,11 @@ Può succedere con database di grandi dimensioni o con impostazioni database tro
         <target state="translated">Consenti accesso alla rete</target>
         <note>Setting option: the app is permitted to use online features</note>
       </trans-unit>
+      <trans-unit id="[Settings/RestoreDefaults/action]" xml:space="preserve">
+        <source>Restore Defaults</source>
+        <target state="translated">Ripristina predefiniti</target>
+        <note>Action/button which resets some settings to their default state.</note>
+      </trans-unit>
       <trans-unit id="[Settings/Search/title]" xml:space="preserve" approved="yes">
         <source>Search</source>
         <target state="final">Cerca</target>
@@ -2887,6 +3009,29 @@ Può succedere con database di grandi dimensioni o con impostazioni database tro
         <source>Use YubiKey Slot %d</source>
         <target state="translated">Usa slot Yubikey %d</target>
         <note>Selector choice: use YubiKey to encrypt/decrypt database. For example: `Use YubiKey Slot 1`. [slotID: Int]</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="KeePassiumLib/en.lproj/Localizable.stringsdict" source-language="en" target-language="it" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="14.3" build-num="14E222b"/>
+    </header>
+    <body>
+      <trans-unit id="/[Generic/Count/Bits]:dict/GenericCountBits:dict/one:dict/:string">
+        <source>%d bit</source>
+        <target state="translated">%d bit</target>
+      </trans-unit>
+      <trans-unit id="/[Generic/Count/Bits]:dict/GenericCountBits:dict/other:dict/:string">
+        <source>%d bits</source>
+        <target state="translated">%d bits</target>
+      </trans-unit>
+      <trans-unit id="/[Generic/Count/EntriesSelected]:dict/GenericCountEntriesSelected:dict/one:dict/:string">
+        <source>%d entry selected</source>
+        <target state="translated">%d voce selezionata</target>
+      </trans-unit>
+      <trans-unit id="/[Generic/Count/EntriesSelected]:dict/GenericCountEntriesSelected:dict/other:dict/:string">
+        <source>%d entries selected</source>
+        <target state="translated">%d voci selezionate</target>
       </trans-unit>
     </body>
   </file>
