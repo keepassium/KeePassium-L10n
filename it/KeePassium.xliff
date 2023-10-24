@@ -166,17 +166,17 @@ Di conseguenza, sia l'inserimento automatico che l'app principale di KeePassium 
       </trans-unit>
       <trans-unit id="[PasswordQuality/Level] Almost good" xml:space="preserve">
         <source>Almost good</source>
-        <target state="translated">Quasi buono</target>
+        <target state="translated">Quasi buona</target>
         <note>Almost good password quality</note>
       </trans-unit>
       <trans-unit id="[PasswordQuality/Level] Good" xml:space="preserve">
         <source>Good</source>
-        <target state="translated">Buono</target>
+        <target state="translated">Buona</target>
         <note>Good password quality</note>
       </trans-unit>
       <trans-unit id="[PasswordQuality/Level] Very good" xml:space="preserve">
         <source>Very good</source>
-        <target state="translated">Ottimo</target>
+        <target state="translated">Ottima</target>
         <note>Very good password quality</note>
       </trans-unit>
       <trans-unit id="[PasswordQuality/Level] Very weak" xml:space="preserve">
@@ -191,7 +191,7 @@ Di conseguenza, sia l'inserimento automatico che l'app principale di KeePassium 
       </trans-unit>
       <trans-unit id="[PasswordQuality/description]" xml:space="preserve">
         <source>Password quality: %@</source>
-        <target state="translated">Robustezza della password: %@</target>
+        <target state="translated">Qualità password: %@</target>
         <note>Password quality description. For example: `Password quality: Weak`. [level: String]</note>
       </trans-unit>
       <trans-unit id="[ProtectedTextField] Show Password" xml:space="preserve">
@@ -1037,12 +1037,12 @@ KeePassium will send information calculated from your passwords — a kind of a 
 
 Your actual passwords are never shared with the online service.
 [Learn more…](%@)</source>
-        <target state="translated">L'ispezione dell password controlla la presenza delle tue password all'interno di un database online di password compromesse, in modo sicuro e privato.
+        <target state="translated">L'ispezione password verifica in modo sicuro e privato la presenza delle tue password all'interno di un database online di password compromesse.
 
-KeePassium invierà informazioni calcolate dalle tue password — una sorta di checksum parziale — al servizio [Have I Been Pwned](https://haveibeenpwned.com). Il servizio restituirà informazioni dettagliate sulle password compromesse con checksum simili. L'app confronterà quindi i checksum dettagliati localmente sul dispositivo e individuerà quali password sono a rischio.
+KeePassium invierà informazioni calcolate dalle tue password, una sorta di checksum parziale, al servizio [Have I Been Pwned](https://haveibeenpwned.com). Il servizio restituirà informazioni dettagliate sulle password compromesse con checksum simili. L'app confronterà poi i checksum dettagliati localmente sul dispositivo e individuerà quali delle tue password sono a rischio.
 
-Le tue password non vengono mai condivise con il servizio online.
-[Per saperne di più…](%@)</target>
+Le tue password effettive non vengono mai condivise con il servizio online.
+[Scopri di più…](%@)</target>
         <note>Description of the Password Audit function.</note>
       </trans-unit>
       <trans-unit id="[PasswordAudit/Results/allGood]" xml:space="preserve">
@@ -1072,17 +1072,17 @@ Le tue password non vengono mai condivise con il servizio online.
       </trans-unit>
       <trans-unit id="[PasswordQuality/Level] Almost good" xml:space="preserve">
         <source>Almost good</source>
-        <target state="translated">Quasi buono</target>
+        <target state="translated">Quasi buona</target>
         <note>Almost good password quality</note>
       </trans-unit>
       <trans-unit id="[PasswordQuality/Level] Good" xml:space="preserve">
         <source>Good</source>
-        <target state="translated">Buono</target>
+        <target state="translated">Buona</target>
         <note>Good password quality</note>
       </trans-unit>
       <trans-unit id="[PasswordQuality/Level] Very good" xml:space="preserve">
         <source>Very good</source>
-        <target state="translated">Ottimo</target>
+        <target state="translated">Ottima</target>
         <note>Very good password quality</note>
       </trans-unit>
       <trans-unit id="[PasswordQuality/Level] Very weak" xml:space="preserve">
@@ -1097,7 +1097,7 @@ Le tue password non vengono mai condivise con il servizio online.
       </trans-unit>
       <trans-unit id="[PasswordQuality/description]" xml:space="preserve">
         <source>Password quality: %@</source>
-        <target state="translated">Robustezza della password: %@</target>
+        <target state="translated">Qualità password: %@</target>
         <note>Password quality description. For example: `Password quality: Weak`. [level: String]</note>
       </trans-unit>
       <trans-unit id="[ProtectedTextField] Show Password" xml:space="preserve">
@@ -1107,12 +1107,12 @@ Le tue password non vengono mai condivise con il servizio online.
       </trans-unit>
       <trans-unit id="[Selection/Delete/confirmation]" xml:space="preserve">
         <source>Delete selection?</source>
-        <target state="translated">Eliminare gli elementi selezionati?</target>
+        <target state="translated">Eliminare la selezione?</target>
         <note>Title of the confirmation dialog for `Delete` action for several items</note>
       </trans-unit>
       <trans-unit id="[Selection/ExcludeFromAudit/confirmation]" xml:space="preserve">
         <source>Exclude selection from password audit?</source>
-        <target state="translated">Escludi la selezione dall'ispezione delle password?</target>
+        <target state="translated">Escludere la selezione dall'ispezione password?</target>
         <note>Title of the confirmation dialog for `Exclude from audit` action for several items</note>
       </trans-unit>
     </body>

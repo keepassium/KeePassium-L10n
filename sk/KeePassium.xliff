@@ -161,37 +161,37 @@ Z tohoto dôvodu je nutné dať súhlas k prístupu samotne aplikácii KeePassiu
       </trans-unit>
       <trans-unit id="[PasswordQuality/LevelWithEntropy/description]" xml:space="preserve">
         <source>%1$@ (%2$@ of entropy)</source>
-        <target state="needs-translation">%1$@ (%2$@ of entropy)</target>
+        <target state="translated">%1$@ (%2$@ entropie)</target>
         <note>Password quality description. For example: `Very good (234 bits of entropy)`. [level: String, formattedBitCount: String]</note>
       </trans-unit>
       <trans-unit id="[PasswordQuality/Level] Almost good" xml:space="preserve">
         <source>Almost good</source>
-        <target state="needs-translation">Almost good</target>
+        <target state="translated">Takmer dobré</target>
         <note>Almost good password quality</note>
       </trans-unit>
       <trans-unit id="[PasswordQuality/Level] Good" xml:space="preserve">
         <source>Good</source>
-        <target state="needs-translation">Good</target>
+        <target state="translated">Dobré</target>
         <note>Good password quality</note>
       </trans-unit>
       <trans-unit id="[PasswordQuality/Level] Very good" xml:space="preserve">
         <source>Very good</source>
-        <target state="needs-translation">Very good</target>
+        <target state="translated">Veľmi dobré</target>
         <note>Very good password quality</note>
       </trans-unit>
       <trans-unit id="[PasswordQuality/Level] Very weak" xml:space="preserve">
         <source>Very weak</source>
-        <target state="needs-translation">Very weak</target>
+        <target state="translated">Veľmi slabé</target>
         <note>Very weak password quality</note>
       </trans-unit>
       <trans-unit id="[PasswordQuality/Level] Weak" xml:space="preserve">
         <source>Weak</source>
-        <target state="needs-translation">Weak</target>
+        <target state="translated">Slabé</target>
         <note>Weak password quality</note>
       </trans-unit>
       <trans-unit id="[PasswordQuality/description]" xml:space="preserve">
         <source>Password quality: %@</source>
-        <target state="needs-translation">Password quality: %@</target>
+        <target state="translated">Kvalita hesla: %@</target>
         <note>Password quality description. For example: `Password quality: Weak`. [level: String]</note>
       </trans-unit>
       <trans-unit id="[ProtectedTextField] Show Password" xml:space="preserve">
@@ -1012,22 +1012,22 @@ Z tohoto dôvodu je nutné dať súhlas k prístupu samotne aplikácii KeePassiu
       </trans-unit>
       <trans-unit id="[PasswordAudit/Action/Exclude]" xml:space="preserve">
         <source>Exclude From Audit</source>
-        <target state="needs-translation">Exclude From Audit</target>
+        <target state="translated">Vylúčiť z auditu</target>
         <note>Action to skip selected item/items in future password audits.</note>
       </trans-unit>
       <trans-unit id="[PasswordAudit/Auditing/status]" xml:space="preserve">
         <source>Auditing passwords</source>
-        <target state="needs-translation">Auditing passwords</target>
+        <target state="translated">Auditovanie hesiel</target>
         <note>Status message: password audit in progress</note>
       </trans-unit>
       <trans-unit id="[PasswordAudit/Error/text]" xml:space="preserve">
         <source>An error occured while communicating with the HIBP service. %@</source>
-        <target state="needs-translation">An error occured while communicating with the HIBP service. %@</target>
+        <target state="translated">Pri komunikácii so službou HIBP sa vyskytla chyba. %@</target>
         <note>Error message after a failed password audit request [message: String].</note>
       </trans-unit>
       <trans-unit id="[PasswordAudit/ExposureCount/description]" xml:space="preserve">
         <source>The number shows how many times the password has been found in known data leaks.</source>
-        <target state="needs-translation">The number shows how many times the password has been found in known data leaks.</target>
+        <target state="translated">Číslo ukazuje, koľkokrát bolo heslo nájdené pri známych únikoch údajov.</target>
         <note>Description of the password audit results, where a number appears next to each password.</note>
       </trans-unit>
       <trans-unit id="[PasswordAudit/Intro/text]" xml:space="preserve">
@@ -1037,67 +1037,62 @@ KeePassium will send information calculated from your passwords — a kind of a 
 
 Your actual passwords are never shared with the online service.
 [Learn more…](%@)</source>
-        <target state="needs-translation">Password audit checks your passwords against an online database of leaked passwords in a secure and private way.
-
-KeePassium will send information calculated from your passwords — a kind of a partial checksum — to the [Have I Been Pwned](https://haveibeenpwned.com) service. The service will return detailed information about compromised passwords with similar checksums. The app will then compare the detailed checksums locally on the device and detect which of your passwords are at risk.
-
-Your actual passwords are never shared with the online service.
-[Learn more…](%@)</target>
+        <target state="translated">Audit hesiel kontroluje bezpečným a privátnym spôsobom vaše heslá oproti online databáze uniknutých hesiel.</target>
         <note>Description of the Password Audit function.</note>
       </trans-unit>
       <trans-unit id="[PasswordAudit/Results/allGood]" xml:space="preserve">
         <source>Good news! None of your passwords have appeared in known data leaks.</source>
-        <target state="needs-translation">Good news! None of your passwords have appeared in known data leaks.</target>
+        <target state="translated">Dobré správy! Žiadne z vašich hesiel sa neobjavilo v známych únikoch údajov.</target>
         <note>Result of a password audit.</note>
       </trans-unit>
       <trans-unit id="[PasswordAudit/Results/title]" xml:space="preserve">
         <source>Compromised Passwords</source>
-        <target state="needs-translation">Compromised Passwords</target>
+        <target state="translated">Prelomené heslá</target>
         <note>Title of a list with passwords that are known to have been exposed in online breaches.</note>
       </trans-unit>
       <trans-unit id="[PasswordAudit/Start/action]" xml:space="preserve">
         <source>Start Audit</source>
-        <target state="needs-translation">Start Audit</target>
+        <target state="translated">Spustiť Audit</target>
         <note>Action/button: intiate password audit</note>
       </trans-unit>
       <trans-unit id="[PasswordAudit/title]" xml:space="preserve">
         <source>Password Audit</source>
-        <target state="needs-translation">Password Audit</target>
+        <target state="translated">Audit Hesiel</target>
         <note>Title of a screen to check which passwords are known to be compromised.</note>
       </trans-unit>
       <trans-unit id="[PasswordQuality/LevelWithEntropy/description]" xml:space="preserve">
         <source>%1$@ (%2$@ of entropy)</source>
-        <target state="needs-translation">%1$@ (%2$@ of entropy)</target>
+        <target state="translated">%1$@ (%2$@ entropie)</target>
         <note>Password quality description. For example: `Very good (234 bits of entropy)`. [level: String, formattedBitCount: String]</note>
       </trans-unit>
       <trans-unit id="[PasswordQuality/Level] Almost good" xml:space="preserve">
         <source>Almost good</source>
-        <target state="needs-translation">Almost good</target>
+        <target state="translated">Takmer dobré</target>
         <note>Almost good password quality</note>
       </trans-unit>
       <trans-unit id="[PasswordQuality/Level] Good" xml:space="preserve">
         <source>Good</source>
-        <target state="needs-translation">Good</target>
+        <target state="translated">Dobré</target>
         <note>Good password quality</note>
       </trans-unit>
       <trans-unit id="[PasswordQuality/Level] Very good" xml:space="preserve">
         <source>Very good</source>
-        <target state="needs-translation">Very good</target>
+        <target state="translated">Veľmi dobré</target>
         <note>Very good password quality</note>
       </trans-unit>
       <trans-unit id="[PasswordQuality/Level] Very weak" xml:space="preserve">
         <source>Very weak</source>
-        <target state="needs-translation">Very weak</target>
+        <target state="translated">Veľmi slabé</target>
         <note>Very weak password quality</note>
       </trans-unit>
       <trans-unit id="[PasswordQuality/Level] Weak" xml:space="preserve">
         <source>Weak</source>
-        <target state="needs-translation">Weak</target>
+        <target state="translated">Slabé</target>
         <note>Weak password quality</note>
       </trans-unit>
       <trans-unit id="[PasswordQuality/description]" xml:space="preserve">
         <source>Password quality: %@</source>
-        <target state="needs-translation">Password quality: %@</target>
+        <target state="translated">Kvalita hesla: %@</target>
         <note>Password quality description. For example: `Password quality: Weak`. [level: String]</note>
       </trans-unit>
       <trans-unit id="[ProtectedTextField] Show Password" xml:space="preserve">
@@ -1107,12 +1102,12 @@ Your actual passwords are never shared with the online service.
       </trans-unit>
       <trans-unit id="[Selection/Delete/confirmation]" xml:space="preserve">
         <source>Delete selection?</source>
-        <target state="needs-translation">Delete selection?</target>
+        <target state="translated">Odstrániť výber?</target>
         <note>Title of the confirmation dialog for `Delete` action for several items</note>
       </trans-unit>
       <trans-unit id="[Selection/ExcludeFromAudit/confirmation]" xml:space="preserve">
         <source>Exclude selection from password audit?</source>
-        <target state="needs-translation">Exclude selection from password audit?</target>
+        <target state="translated">Vylúčiť výber z auditu hesiel?</target>
         <note>Title of the confirmation dialog for `Exclude from audit` action for several items</note>
       </trans-unit>
     </body>
@@ -1259,7 +1254,7 @@ Your actual passwords are never shared with the online service.
       </trans-unit>
       <trans-unit id="SUh-L1-IvF.text" xml:space="preserve">
         <source>zxcvbn-ios by Dropbox</source>
-        <target state="needs-translation">zxcvbn-ios by Dropbox</target>
+        <target state="translated">zxcvbn-ios by Dropbox</target>
         <note>Class = "UILabel"; text = "zxcvbn-ios by Dropbox"; ObjectID = "SUh-L1-IvF";</note>
       </trans-unit>
       <trans-unit id="TOl-DA-gYc.text" xml:space="preserve">

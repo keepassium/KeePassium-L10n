@@ -122,7 +122,7 @@
       </trans-unit>
       <trans-unit id="[Appearance/Font/title]" xml:space="preserve">
         <source>Font</source>
-        <target state="translated">Tipo di carattere</target>
+        <target state="translated">Font</target>
         <note>Title of a setting option: font</note>
       </trans-unit>
       <trans-unit id="[Appearance/TextSize/title]" xml:space="preserve">
@@ -187,12 +187,12 @@
       </trans-unit>
       <trans-unit id="[Cipher/Progress] Decrypting" xml:space="preserve">
         <source>Decrypting</source>
-        <target state="translated">Decifrazione</target>
+        <target state="translated">Decifrazione in corso</target>
         <note>Progress status</note>
       </trans-unit>
       <trans-unit id="[Cipher/Progress] Encrypting" xml:space="preserve">
         <source>Encrypting</source>
-        <target state="translated">Cifratura</target>
+        <target state="translated">Cifratura in corso</target>
         <note>Progress status</note>
       </trans-unit>
       <trans-unit id="[Clipboard/Copy/namedValue]" xml:space="preserve" approved="yes">
@@ -267,12 +267,12 @@
       </trans-unit>
       <trans-unit id="[Database/CustomIcon/DownloadFavicon/action]" xml:space="preserve">
         <source>Download Favicon</source>
-        <target state="translated">Scarica Favicon</target>
+        <target state="translated">Scarica favicon</target>
         <note>Action: download icon of a website</note>
       </trans-unit>
       <trans-unit id="[Database/CustomIcon/DownloadFavicons/action]" xml:space="preserve">
         <source>Download Favicons</source>
-        <target state="translated">Scarica Favicon</target>
+        <target state="translated">Scarica favicon</target>
         <note>Action/button to download favicons of websites mentioned in selected entries.</note>
       </trans-unit>
       <trans-unit id="[Database/CustomIcon/DownloadFavicons/stats]" xml:space="preserve">
@@ -284,12 +284,12 @@ Icone aggiornate: %2$d</target>
       </trans-unit>
       <trans-unit id="[Database/CustomIcon/DownloadFavicons/status]" xml:space="preserve">
         <source>Downloading favicons</source>
-        <target state="translated">Scaricamento favicon</target>
+        <target state="translated">Scarico favicon</target>
         <note>Status message: multiple website favicons are being downloaded</note>
       </trans-unit>
       <trans-unit id="[Database/CustomIcon/DownloadOneFavicon/status]" xml:space="preserve">
         <source>Downloading favicon</source>
-        <target state="translated">Scaricamento favicon</target>
+        <target state="translated">Scarico favicon</target>
         <note>Status message: a website favicon is being downloaded</note>
       </trans-unit>
       <trans-unit id="[Database/CustomIcon/add]" xml:space="preserve">
@@ -311,7 +311,7 @@ Assicurati di avere una copia di sicurezza.</target>
       </trans-unit>
       <trans-unit id="[Database/FormatVersion/Upgrade/text]" xml:space="preserve">
         <source>KeePassium needs to upgrade your database file format (from %1$@ to %2$@). You might need to update other apps that use this database.</source>
-        <target state="translated">KeePassium deve aggiornare il formato del file del database (da %1$@ ad %2$@). Potrebbe essere necessario aggiornare altre applicazioni che utilizzano questo database.</target>
+        <target state="translated">KeePassium deve aggiornare il formato del file del database (da %1$@ a %2$@). Potrebbe essere necessario aggiornare altre applicazioni che utilizzano questo database.</target>
         <note>Info message when the app needs to change database file format. [oldFormat, newFormat: String]</note>
       </trans-unit>
       <trans-unit id="[Database/FormatVersion/Upgrade/title]" xml:space="preserve">
@@ -438,12 +438,12 @@ Questa è la copia locale più recente.</target>
       </trans-unit>
       <trans-unit id="[Database/Operations/title]" xml:space="preserve">
         <source>Database Operations</source>
-        <target state="translated">Attività database</target>
+        <target state="translated">Operazioni database</target>
         <note>Title of a list with database-related actions (e.g. lock database, change master key, etc)</note>
       </trans-unit>
       <trans-unit id="[Database/Print/preparingPreview]" xml:space="preserve">
         <source>Preparing preview…</source>
-        <target state="translated">Preparazione anteprima…</target>
+        <target state="translated">Preparo anteprima…</target>
         <note>Status message: preparing database print preview.</note>
       </trans-unit>
       <trans-unit id="[Database/Progress/downloading]" xml:space="preserve">
@@ -2438,7 +2438,7 @@ Puoi gestire e disdire gli abbonamenti nelle impostazioni del tuo account sull'A
       </trans-unit>
       <trans-unit id="[PremiumFeature/PasswordAudit/description]" xml:space="preserve">
         <source>Find out if any of your passwords have been exposed in a known data breach.</source>
-        <target state="translated">Scopri se una qualsiasi delle tue password è stata esposta in una violazione di dati nota.</target>
+        <target state="translated">Scopri se le tue password sono state esposte in una violazione di dati nota.</target>
         <note>Description/call to action for the `Password Audit` premium feature.</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/PasswordAudit/title]" xml:space="preserve">
