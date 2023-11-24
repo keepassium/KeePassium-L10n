@@ -304,6 +304,51 @@ Icons updated: %2$d</target>
 تأكد من أن يكون لديك نسخة احتياطية.</target>
         <note>Message to confirm deletion of a database file. (This deletes the file itself)</note>
       </trans-unit>
+      <trans-unit id="[Database/EncryptionSettings/Change/action]" xml:space="preserve">
+        <source>Change Encryption Settings</source>
+        <target state="needs-translation">Change Encryption Settings</target>
+        <note>Action to modify database encryption settings.</note>
+      </trans-unit>
+      <trans-unit id="[Database/EncryptionSettings/dataCipher]" xml:space="preserve">
+        <source>Encryption Algorithm</source>
+        <target state="needs-translation">Encryption Algorithm</target>
+        <note>Parameter name in database encryption settings. Example: 'Encryption Algorithm: AES-256'</note>
+      </trans-unit>
+      <trans-unit id="[Database/EncryptionSettings/iterations]" xml:space="preserve">
+        <source>Transform Rounds</source>
+        <target state="needs-translation">Transform Rounds</target>
+        <note>Parameter name in database encryption settings. Defines the number of times/iterations a calculation (transform) should be executed. Example: 'Transform Rounds: 100'</note>
+      </trans-unit>
+      <trans-unit id="[Database/EncryptionSettings/kdf]" xml:space="preserve">
+        <source>Key Derivation Function</source>
+        <target state="translated">دالة اشتقاق المفتاح</target>
+        <note>Parameter name in database encryption settings. This is a term, see https://en.wikipedia.org/wiki/Key_derivation_function. Example: 'Key Derivation Function: Argon2'</note>
+      </trans-unit>
+      <trans-unit id="[Database/EncryptionSettings/memoryAutoFillWarning]" xml:space="preserve">
+        <source>High memory requirements can make this database incompatible with Password AutoFill.</source>
+        <target state="needs-translation">High memory requirements can make this database incompatible with Password AutoFill.</target>
+        <note>Warning for too high value of the `Memory usage` parameter in database encryption settings.</note>
+      </trans-unit>
+      <trans-unit id="[Database/EncryptionSettings/memory]" xml:space="preserve">
+        <source>Memory Usage</source>
+        <target state="needs-translation">Memory Usage</target>
+        <note>Parameter name in database encryption settings. Defines the amount of memory that should be used by an algorithm. Example: 'Memory Usage: 16 MB'</note>
+      </trans-unit>
+      <trans-unit id="[Database/EncryptionSettings/reset]" xml:space="preserve">
+        <source>Reset to Recommended Settings</source>
+        <target state="needs-translation">Reset to Recommended Settings</target>
+        <note>Action/button button in database encryption settings. Resets the settings to recommended values.</note>
+      </trans-unit>
+      <trans-unit id="[Database/EncryptionSettings/threads]" xml:space="preserve">
+        <source>Parallelism</source>
+        <target state="needs-translation">Parallelism</target>
+        <note>Parameter name in database encryption settings. Defines the number of computations to run in parallel/simultaneously. Example: 'Parallelism: 2 threads'</note>
+      </trans-unit>
+      <trans-unit id="[Database/EncryptionSettings/title]" xml:space="preserve">
+        <source>Encryption Settings</source>
+        <target state="needs-translation">Encryption Settings</target>
+        <note>Title: database encryption settings.</note>
+      </trans-unit>
       <trans-unit id="[Database/FormatVersion/Conversion/allDataPreserved]" xml:space="preserve">
         <source>All your data will be preserved.</source>
         <target state="needs-translation">All your data will be preserved.</target>
@@ -1415,6 +1460,11 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="needs-translation">[Generic/Count/EntriesSelected]</target>
         <note>Number of entries selected. For example: 'No entries selected', '1 entry selected'. IMPORTANT: Please fill out all the plural forms. (Key in .stringsdict)</note>
       </trans-unit>
+      <trans-unit id="[Generic/Count/Threads]" translate="no" xml:space="preserve">
+        <source>[Generic/Count/Threads]</source>
+        <target state="needs-translation">[Generic/Count/Threads]</target>
+        <note>Number of computation threads. For example: '4 threads'. IMPORTANT: Please fill out all the plural forms. (Key in .stringsdict)</note>
+      </trans-unit>
       <trans-unit id="[Generic/Directory/Recently Deleted/name]" xml:space="preserve">
         <source>Recently Deleted</source>
         <target state="translated">سلة المحذوفات</target>
@@ -1469,6 +1519,11 @@ Please make sure to have a backup of your database before changing anything.</so
         <source>Search</source>
         <target state="translated">البحث</target>
         <note>Title of a search field (a noun, not verb)</note>
+      </trans-unit>
+      <trans-unit id="[Generic/WarningWithIcon/template]" xml:space="preserve">
+        <source>⚠️ %@</source>
+        <target state="translated">⚠️ %@</target>
+        <note>Warning message template. Swap the icon and message for right-to-left languages.</note>
       </trans-unit>
       <trans-unit id="[Generic/title] Error" xml:space="preserve">
         <source>Error</source>
@@ -2831,6 +2886,11 @@ This can happen with larger databases or too ambitious database settings (Argon2
         <target state="translated">إعدادات القوائم</target>
         <note>Title of list view configuration screen</note>
       </trans-unit>
+      <trans-unit id="[Settings/Managed/notification]" xml:space="preserve">
+        <source>This setting is managed by your organization.</source>
+        <target state="needs-translation">This setting is managed by your organization.</target>
+        <note>Notification when corporate user tries to change an app setting controlled by organization's IT department.</note>
+      </trans-unit>
       <trans-unit id="[Settings/NetworkAccess/Confirmation/text]" xml:space="preserve">
         <source>Allow KeePassium to make network connections to external services?</source>
         <target state="needs-translation">Allow KeePassium to make network connections to external services?</target>
@@ -3065,6 +3125,30 @@ This can happen with larger databases or too ambitious database settings (Argon2
       <trans-unit id="/[Generic/Count/EntriesSelected]:dict/GenericCountEntriesSelected:dict/other:dict/:string">
         <source>%d entries selected</source>
         <target state="needs-translation">%d entries selected</target>
+      </trans-unit>
+      <trans-unit id="/[Generic/Count/Threads]:dict/GenericCountThreads:dict/zero:dict/:string">
+        <source>%d threads</source>
+        <target state="needs-translation">%d threads</target>
+      </trans-unit>
+      <trans-unit id="/[Generic/Count/Threads]:dict/GenericCountThreads:dict/one:dict/:string">
+        <source>%d thread</source>
+        <target state="needs-translation">%d thread</target>
+      </trans-unit>
+      <trans-unit id="/[Generic/Count/Threads]:dict/GenericCountThreads:dict/two:dict/:string">
+        <source>%d threads</source>
+        <target state="needs-translation">%d threads</target>
+      </trans-unit>
+      <trans-unit id="/[Generic/Count/Threads]:dict/GenericCountThreads:dict/few:dict/:string">
+        <source>%d threads</source>
+        <target state="needs-translation">%d threads</target>
+      </trans-unit>
+      <trans-unit id="/[Generic/Count/Threads]:dict/GenericCountThreads:dict/many:dict/:string">
+        <source>%d threads</source>
+        <target state="needs-translation">%d threads</target>
+      </trans-unit>
+      <trans-unit id="/[Generic/Count/Threads]:dict/GenericCountThreads:dict/other:dict/:string">
+        <source>%d threads</source>
+        <target state="needs-translation">%d threads</target>
       </trans-unit>
     </body>
   </file>
