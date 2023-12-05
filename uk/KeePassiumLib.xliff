@@ -40,9 +40,9 @@
         <target state="translated">Про KeePassium</target>
         <note>Menu item that shows info about KeePassium app</note>
       </trans-unit>
-      <trans-unit id="[Accessibility/activateToListen]" xml:space="preserve">
+      <trans-unit id="[Accessibility/activateToListen]" xml:space="preserve" approved="yes">
         <source>Activate to listen.</source>
-        <target state="needs-translation">Activate to listen.</target>
+        <target state="final">Активуйте, щоб слухати.</target>
         <note>Call to action: perform accessibilty `activate` action to listen to text/content.</note>
       </trans-unit>
       <trans-unit id="[Accessibility] Double tap to copy to clipboard" xml:space="preserve">
@@ -80,9 +80,9 @@
         <target state="translated">Цифровий</target>
         <note>Type of keyboard to show for App Lock passcode: digits only (PIN code).</note>
       </trans-unit>
-      <trans-unit id="[AppLock/Passcode/pressEscForTouchID]" xml:space="preserve">
+      <trans-unit id="[AppLock/Passcode/pressEscForTouchID]" xml:space="preserve" approved="yes">
         <source>Press Esc for Touch ID</source>
-        <target state="needs-translation">Press Esc for Touch ID</target>
+        <target state="final">Натисніть Esc для Touch ID</target>
         <note>Hint/call to action about keyboard shortcut</note>
       </trans-unit>
       <trans-unit id="[AppLock/SetupPasscode/callToAction]" xml:space="preserve">
@@ -115,14 +115,14 @@
         <target state="translated">Розблокувати</target>
         <note>Action/button to unlock the App Lock with passcode</note>
       </trans-unit>
-      <trans-unit id="[Appearance/DefaultFont/shortTitle]" xml:space="preserve">
+      <trans-unit id="[Appearance/DefaultFont/shortTitle]" xml:space="preserve" approved="yes">
         <source>Default</source>
-        <target state="needs-translation">Default</target>
+        <target state="final">За замовчуванням</target>
         <note>Short name of the default/system font. For example: `Font: Default`</note>
       </trans-unit>
-      <trans-unit id="[Appearance/Font/title]" xml:space="preserve">
+      <trans-unit id="[Appearance/Font/title]" xml:space="preserve" approved="yes">
         <source>Font</source>
-        <target state="needs-translation">Font</target>
+        <target state="final">Шрифт</target>
         <note>Title of a setting option: font</note>
       </trans-unit>
       <trans-unit id="[Appearance/TextSize/title]" xml:space="preserve">
@@ -265,31 +265,31 @@
         <target state="translated">Створити базу паролів</target>
         <note>Title of a form for creating a database</note>
       </trans-unit>
-      <trans-unit id="[Database/CustomIcon/DownloadFavicon/action]" xml:space="preserve">
+      <trans-unit id="[Database/CustomIcon/DownloadFavicon/action]" xml:space="preserve" approved="yes">
         <source>Download Favicon</source>
-        <target state="needs-translation">Download Favicon</target>
+        <target state="final">Завантажити значок сайту</target>
         <note>Action: download icon of a website</note>
       </trans-unit>
-      <trans-unit id="[Database/CustomIcon/DownloadFavicons/action]" xml:space="preserve">
+      <trans-unit id="[Database/CustomIcon/DownloadFavicons/action]" xml:space="preserve" approved="yes">
         <source>Download Favicons</source>
-        <target state="needs-translation">Download Favicons</target>
+        <target state="final">Завантажити значки сайтів</target>
         <note>Action/button to download favicons of websites mentioned in selected entries.</note>
       </trans-unit>
-      <trans-unit id="[Database/CustomIcon/DownloadFavicons/stats]" xml:space="preserve">
+      <trans-unit id="[Database/CustomIcon/DownloadFavicons/stats]" xml:space="preserve" approved="yes">
         <source>Entries processed: %1$d
 Icons updated: %2$d</source>
-        <target state="needs-translation">Entries processed: %1$d
-Icons updated: %2$d</target>
+        <target state="final">Опрацьовано записів: %1$d
+Оновлено значків: %2$d</target>
         <note>Report of favicon download results.</note>
       </trans-unit>
-      <trans-unit id="[Database/CustomIcon/DownloadFavicons/status]" xml:space="preserve">
+      <trans-unit id="[Database/CustomIcon/DownloadFavicons/status]" xml:space="preserve" approved="yes">
         <source>Downloading favicons</source>
-        <target state="needs-translation">Downloading favicons</target>
+        <target state="final">Завантаження значків сайтів</target>
         <note>Status message: multiple website favicons are being downloaded</note>
       </trans-unit>
-      <trans-unit id="[Database/CustomIcon/DownloadOneFavicon/status]" xml:space="preserve">
+      <trans-unit id="[Database/CustomIcon/DownloadOneFavicon/status]" xml:space="preserve" approved="yes">
         <source>Downloading favicon</source>
-        <target state="needs-translation">Downloading favicon</target>
+        <target state="final">Завантаження значка сайту</target>
         <note>Status message: a website favicon is being downloaded</note>
       </trans-unit>
       <trans-unit id="[Database/CustomIcon/add]" xml:space="preserve">
@@ -304,19 +304,19 @@ Icons updated: %2$d</target>
 Переконайтеся, що у вас є резервна копія.</target>
         <note>Message to confirm deletion of a database file. (This deletes the file itself)</note>
       </trans-unit>
-      <trans-unit id="[Database/EncryptionSettings/Change/action]" xml:space="preserve">
+      <trans-unit id="[Database/EncryptionSettings/Change/action]" xml:space="preserve" approved="yes">
         <source>Change Encryption Settings</source>
-        <target state="needs-translation">Change Encryption Settings</target>
+        <target state="final">Змінити параметри шифрування</target>
         <note>Action to modify database encryption settings.</note>
       </trans-unit>
-      <trans-unit id="[Database/EncryptionSettings/dataCipher]" xml:space="preserve">
+      <trans-unit id="[Database/EncryptionSettings/dataCipher]" xml:space="preserve" approved="yes">
         <source>Encryption Algorithm</source>
-        <target state="needs-translation">Encryption Algorithm</target>
+        <target state="final">Алгоритм шифрування</target>
         <note>Parameter name in database encryption settings. Example: 'Encryption Algorithm: AES-256'</note>
       </trans-unit>
-      <trans-unit id="[Database/EncryptionSettings/iterations]" xml:space="preserve">
+      <trans-unit id="[Database/EncryptionSettings/iterations]" xml:space="preserve" approved="yes">
         <source>Transform Rounds</source>
-        <target state="needs-translation">Transform Rounds</target>
+        <target state="final">Цикли перетворення</target>
         <note>Parameter name in database encryption settings. Defines the number of times/iterations a calculation (transform) should be executed. Example: 'Transform Rounds: 100'</note>
       </trans-unit>
       <trans-unit id="[Database/EncryptionSettings/kdf]" xml:space="preserve">
@@ -324,49 +324,49 @@ Icons updated: %2$d</target>
         <target state="translated">Функція формування ключа</target>
         <note>Parameter name in database encryption settings. This is a term, see https://en.wikipedia.org/wiki/Key_derivation_function. Example: 'Key Derivation Function: Argon2'</note>
       </trans-unit>
-      <trans-unit id="[Database/EncryptionSettings/memoryAutoFillWarning]" xml:space="preserve">
+      <trans-unit id="[Database/EncryptionSettings/memoryAutoFillWarning]" xml:space="preserve" approved="yes">
         <source>High memory requirements can make this database incompatible with Password AutoFill.</source>
-        <target state="needs-translation">High memory requirements can make this database incompatible with Password AutoFill.</target>
+        <target state="final">Високі вимоги до пам’яті можуть зробити цю базу даних несумісною з функцією автозаповнення паролів.</target>
         <note>Warning for too high value of the `Memory usage` parameter in database encryption settings.</note>
       </trans-unit>
-      <trans-unit id="[Database/EncryptionSettings/memory]" xml:space="preserve">
+      <trans-unit id="[Database/EncryptionSettings/memory]" xml:space="preserve" approved="yes">
         <source>Memory Usage</source>
-        <target state="needs-translation">Memory Usage</target>
+        <target state="final">Використання пам’яті</target>
         <note>Parameter name in database encryption settings. Defines the amount of memory that should be used by an algorithm. Example: 'Memory Usage: 16 MB'</note>
       </trans-unit>
-      <trans-unit id="[Database/EncryptionSettings/reset]" xml:space="preserve">
+      <trans-unit id="[Database/EncryptionSettings/reset]" xml:space="preserve" approved="yes">
         <source>Reset to Recommended Settings</source>
-        <target state="needs-translation">Reset to Recommended Settings</target>
+        <target state="final">Скинути до рекомендованих налаштувань</target>
         <note>Action/button button in database encryption settings. Resets the settings to recommended values.</note>
       </trans-unit>
-      <trans-unit id="[Database/EncryptionSettings/threads]" xml:space="preserve">
+      <trans-unit id="[Database/EncryptionSettings/threads]" xml:space="preserve" approved="yes">
         <source>Parallelism</source>
-        <target state="needs-translation">Parallelism</target>
+        <target state="final">Паралелізм</target>
         <note>Parameter name in database encryption settings. Defines the number of computations to run in parallel/simultaneously. Example: 'Parallelism: 2 threads'</note>
       </trans-unit>
-      <trans-unit id="[Database/EncryptionSettings/title]" xml:space="preserve">
+      <trans-unit id="[Database/EncryptionSettings/title]" xml:space="preserve" approved="yes">
         <source>Encryption Settings</source>
-        <target state="needs-translation">Encryption Settings</target>
+        <target state="final">Налаштування шифрування</target>
         <note>Title: database encryption settings.</note>
       </trans-unit>
-      <trans-unit id="[Database/FormatVersion/Conversion/allDataPreserved]" xml:space="preserve">
+      <trans-unit id="[Database/FormatVersion/Conversion/allDataPreserved]" xml:space="preserve" approved="yes">
         <source>All your data will be preserved.</source>
-        <target state="needs-translation">All your data will be preserved.</target>
+        <target state="final">Усі ваші дані буде збережено.</target>
         <note>Info message when changing database file format.</note>
       </trans-unit>
-      <trans-unit id="[Database/FormatVersion/Upgrade/text]" xml:space="preserve">
+      <trans-unit id="[Database/FormatVersion/Upgrade/text]" xml:space="preserve" approved="yes">
         <source>KeePassium needs to upgrade your database file format (from %1$@ to %2$@). You might need to update other apps that use this database.</source>
-        <target state="needs-translation">KeePassium needs to upgrade your database file format (from %1$@ to %2$@). You might need to update other apps that use this database.</target>
+        <target state="final">KeePassium необхідно оновити формат файлу бази даних (з %1$@ на %2$@). Можливо, вам доведеться оновити інші застосунки, які використовують цю базу даних.</target>
         <note>Info message when the app needs to change database file format. [oldFormat, newFormat: String]</note>
       </trans-unit>
-      <trans-unit id="[Database/FormatVersion/Upgrade/title]" xml:space="preserve">
+      <trans-unit id="[Database/FormatVersion/Upgrade/title]" xml:space="preserve" approved="yes">
         <source>Before we continue</source>
-        <target state="needs-translation">Before we continue</target>
+        <target state="final">Перш ніж продовжити,</target>
         <note>Title of an info message when the app needs to change database file format.</note>
       </trans-unit>
-      <trans-unit id="[Database/Item/Edited/state]" xml:space="preserve">
+      <trans-unit id="[Database/Item/Edited/state]" xml:space="preserve" approved="yes">
         <source>Edited</source>
-        <target state="needs-translation">Edited</target>
+        <target state="final">Відредаговано</target>
         <note>Status of a database item (entry or group) after it was edited.</note>
       </trans-unit>
       <trans-unit id="[Database/LesserTargetFormat/warning]" xml:space="preserve">
@@ -374,9 +374,9 @@ Icons updated: %2$d</target>
         <target state="translated">Це старий формат бази даних, деякі дані можуть бути втрачені.</target>
         <note>Notification when user tries to copy data from KDBX to older KDB database.</note>
       </trans-unit>
-      <trans-unit id="[Database/Load/Error/encryptedByIntune]" xml:space="preserve">
+      <trans-unit id="[Database/Load/Error/encryptedByIntune]" xml:space="preserve" approved="yes">
         <source>This database is protected by your corporate IT policies and Microsoft Intune.</source>
-        <target state="needs-translation">This database is protected by your corporate IT policies and Microsoft Intune.</target>
+        <target state="final">Ця база даних захищена корпоративними IT-політиками й Microsoft Intune.</target>
         <note>Error message</note>
       </trans-unit>
       <trans-unit id="[Database/Load/Error] Cannot find database file" xml:space="preserve">
@@ -399,9 +399,9 @@ Icons updated: %2$d</target>
         <target state="translated">Не вдалося відкрити файл-ключ</target>
         <note>Error message</note>
       </trans-unit>
-      <trans-unit id="[Database/Load/Error] Incorrect database format" xml:space="preserve">
+      <trans-unit id="[Database/Load/Error] Incorrect database format" xml:space="preserve" approved="yes">
         <source>Incorrect database format: %@.</source>
-        <target state="needs-translation">Incorrect database format: %@.</target>
+        <target state="final">Неправильний формат бази даних: %@.</target>
         <note>Error message, when the real file format is recognized. For example: 'Incorrect database format: JPEG.'</note>
       </trans-unit>
       <trans-unit id="[Database/Load/Error] Please provide at least a password or a key file" xml:space="preserve">
@@ -481,14 +481,14 @@ This is its latest local copy.</source>
         <target state="translated">Заблокувати базу</target>
         <note>Action/button to lock current database (the next time, it will ask for the master key).</note>
       </trans-unit>
-      <trans-unit id="[Database/Operations/title]" xml:space="preserve">
+      <trans-unit id="[Database/Operations/title]" xml:space="preserve" approved="yes">
         <source>Database Operations</source>
-        <target state="needs-translation">Database Operations</target>
+        <target state="final">Операції з базою даних</target>
         <note>Title of a list with database-related actions (e.g. lock database, change master key, etc)</note>
       </trans-unit>
-      <trans-unit id="[Database/Print/preparingPreview]" xml:space="preserve">
+      <trans-unit id="[Database/Print/preparingPreview]" xml:space="preserve" approved="yes">
         <source>Preparing preview…</source>
-        <target state="needs-translation">Preparing preview…</target>
+        <target state="final">Підготовка до попереднього перегляду…</target>
         <note>Status message: preparing database print preview.</note>
       </trans-unit>
       <trans-unit id="[Database/Progress/downloading]" xml:space="preserve">
@@ -521,14 +521,14 @@ This is its latest local copy.</source>
         <target state="translated">Завантаження файл-ключа...</target>
         <note>Progress status</note>
       </trans-unit>
-      <trans-unit id="[Database/RecommendRemote/callToAction]" xml:space="preserve">
+      <trans-unit id="[Database/RecommendRemote/callToAction]" xml:space="preserve" approved="yes">
         <source>Try connecting to your remote storage directly from KeePassium.</source>
-        <target state="needs-translation">Try connecting to your remote storage directly from KeePassium.</target>
+        <target state="final">Спробуйте підключитися до віддаленого сховища безпосередньо з KeePassium.</target>
         <note>Suggested solution/call to action when intermediate sync app fails.</note>
       </trans-unit>
-      <trans-unit id="[Database/Reload/action]" xml:space="preserve">
+      <trans-unit id="[Database/Reload/action]" xml:space="preserve" approved="yes">
         <source>Reload Database</source>
-        <target state="needs-translation">Reload Database</target>
+        <target state="final">Перезавантажити базу даних</target>
         <note>Action/button</note>
       </trans-unit>
       <trans-unit id="[Database/Remove/Confirm/text] Remove database from the list?&#10; The file will remain intact and you can add it again later." xml:space="preserve">
@@ -558,9 +558,9 @@ This is its latest local copy.</source>
         <target state="translated">Вважати файл недоступним</target>
         <note>File settings parameter: time after which file will be considered unreachable. Example: `Consider File Unreachable: in 10 seconds`.)</note>
       </trans-unit>
-      <trans-unit id="[Database/Settings/FallbackStrategy/ReAddFile/title]" xml:space="preserve">
+      <trans-unit id="[Database/Settings/FallbackStrategy/ReAddFile/title]" xml:space="preserve" approved="yes">
         <source>Re-add File</source>
-        <target state="needs-translation">Re-add File</target>
+        <target state="final">Повторно додати файл</target>
         <note>Title: what to do when a cloud-stored file cannot be loaded. (For example: `If File is Unreachable: Re-add File`.)</note>
       </trans-unit>
       <trans-unit id="[Database/Settings/FallbackStrategy/ShowError/title]" xml:space="preserve">
@@ -1004,19 +1004,19 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="translated">Назва поля</target>
         <note>Default name of a newly created entry field</note>
       </trans-unit>
-      <trans-unit id="[Entry/Field/CopyReference/acknowledgement]" xml:space="preserve">
+      <trans-unit id="[Entry/Field/CopyReference/acknowledgement]" xml:space="preserve" approved="yes">
         <source>Field reference copied to clipboard</source>
-        <target state="needs-translation">Field reference copied to clipboard</target>
+        <target state="final">Посилання на поле скопійовано в буфер обміну</target>
         <note>Notification: a reference to an entry field has been copied to clipboard</note>
       </trans-unit>
-      <trans-unit id="[Entry/Field/CopyReference/action]" xml:space="preserve">
+      <trans-unit id="[Entry/Field/CopyReference/action]" xml:space="preserve" approved="yes">
         <source>Copy Field Reference</source>
-        <target state="needs-translation">Copy Field Reference</target>
+        <target state="final">Скопіювати посилання на поле</target>
         <note>Action: copy a reference to the selected entry field to clipboard</note>
       </trans-unit>
-      <trans-unit id="[Entry/Field/name] Icon" xml:space="preserve">
+      <trans-unit id="[Entry/Field/name] Icon" xml:space="preserve" approved="yes">
         <source>Icon</source>
-        <target state="needs-translation">Icon</target>
+        <target state="final">Значок</target>
         <note>Name of an entry field</note>
       </trans-unit>
       <trans-unit id="[Entry/Field/name] Notes" xml:space="preserve">
@@ -1124,9 +1124,9 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="translated">USB-накопичувач не підключено.</target>
         <note>Error message: there is no USB drive connected to the device.</note>
       </trans-unit>
-      <trans-unit id="[FileAccessError/NetworkAccessDenied/generic]" xml:space="preserve">
+      <trans-unit id="[FileAccessError/NetworkAccessDenied/generic]" xml:space="preserve" approved="yes">
         <source>Network access is blocked by the settings.</source>
-        <target state="needs-translation">Network access is blocked by the settings.</target>
+        <target state="final">Доступ до мережі заблоковано в налаштуваннях.</target>
         <note>Error message: network access is forbidden by system or app settings.</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/NoResponse/genericFileProvider]" xml:space="preserve">
@@ -1154,14 +1154,14 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="translated">Використовуйте функцію експорту, щоб зберегти файл в іншому місці.</target>
         <note>Suggestion for error recovery</note>
       </trans-unit>
-      <trans-unit id="[FileAccessError/PermissionRequired/reason]" xml:space="preserve">
+      <trans-unit id="[FileAccessError/PermissionRequired/reason]" xml:space="preserve" approved="yes">
         <source>KeePassium needs your permission to access '%@'.</source>
-        <target state="needs-translation">KeePassium needs your permission to access '%@'.</target>
+        <target state="final">KeePassium потрібен дозвіл на доступ до «%@».</target>
         <note>Error message for file with an expired access permission [fileName: String].</note>
       </trans-unit>
-      <trans-unit id="[FileAccessError/PermissionRequired/recoveryAction]" xml:space="preserve">
+      <trans-unit id="[FileAccessError/PermissionRequired/recoveryAction]" xml:space="preserve" approved="yes">
         <source>Select the file again to allow access</source>
-        <target state="needs-translation">Select the file again to allow access</target>
+        <target state="final">Виберіть файл знову, щоб надати доступ</target>
         <note>Action/button for error recovery</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/Timeout/genericFileProvider]" xml:space="preserve">
@@ -1279,9 +1279,9 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="translated">Google Drive</target>
         <note>Localized name of the storage service: Google Drive (https://drive.google.com)</note>
       </trans-unit>
-      <trans-unit id="[FileProvider/MagentaCloud/name]" xml:space="preserve">
+      <trans-unit id="[FileProvider/MagentaCloud/name]" xml:space="preserve" approved="yes">
         <source>MagentaCLOUD</source>
-        <target state="needs-translation">MagentaCLOUD</target>
+        <target state="final">MagentaCLOUD</target>
         <note>Localized name of the storage service: MagentaCLOUD (https://www.telekom.de/zubuchoptionen/magenta-cloud)</note>
       </trans-unit>
       <trans-unit id="[FileProvider/Mega.nz/name]" xml:space="preserve">
@@ -1424,24 +1424,24 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="translated">Виберіть місце призначення</target>
         <note>Title of the dialog for picking the destination group for move/copy operations</note>
       </trans-unit>
-      <trans-unit id="[General/Feature/Off]" xml:space="preserve">
+      <trans-unit id="[General/Feature/Off]" xml:space="preserve" approved="yes">
         <source>Off</source>
-        <target state="needs-translation">Off</target>
+        <target state="final">Вимк.</target>
         <note>Feature status: disabled/inactive. Keep it short, possibly abbreviated.</note>
       </trans-unit>
-      <trans-unit id="[General/Feature/On]" xml:space="preserve">
+      <trans-unit id="[General/Feature/On]" xml:space="preserve" approved="yes">
         <source>On</source>
-        <target state="needs-translation">On</target>
+        <target state="final">Увімк.</target>
         <note>Feature status: enabled/active. Keep it short, possibly abbreviated.</note>
       </trans-unit>
-      <trans-unit id="[General/FileList/Empty/title]" xml:space="preserve">
+      <trans-unit id="[General/FileList/Empty/title]" xml:space="preserve" approved="yes">
         <source>Folder is empty</source>
-        <target state="needs-translation">Folder is empty</target>
+        <target state="final">Папка порожня</target>
         <note>Placeholder for folders without files</note>
       </trans-unit>
-      <trans-unit id="[Generic/Action/SelectItems]" xml:space="preserve">
+      <trans-unit id="[Generic/Action/SelectItems]" xml:space="preserve" approved="yes">
         <source>Select</source>
-        <target state="needs-translation">Select</target>
+        <target state="final">Вибрати</target>
         <note>Action/button to select some items in a list.</note>
       </trans-unit>
       <trans-unit id="[Generic/ConfirmDelete/title] Are you sure?" xml:space="preserve">
@@ -1604,9 +1604,9 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="translated">Експорт</target>
         <note>Action/button to export an item to another app</note>
       </trans-unit>
-      <trans-unit id="[Generic] Fix this" xml:space="preserve">
+      <trans-unit id="[Generic] Fix this" xml:space="preserve" approved="yes">
         <source>Fix this</source>
-        <target state="needs-translation">Fix this</target>
+        <target state="final">Виправити це</target>
         <note>Action/button shown below error messages. Tapping the button will start the fixing/repairing workflow described in the error message.</note>
       </trans-unit>
       <trans-unit id="[Generic] Learn more" xml:space="preserve">
@@ -1639,9 +1639,9 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="translated">Перезаписати</target>
         <note>Action/button to replace/overwrite an item</note>
       </trans-unit>
-      <trans-unit id="[Generic] Print" xml:space="preserve">
+      <trans-unit id="[Generic] Print" xml:space="preserve" approved="yes">
         <source>Print</source>
-        <target state="needs-translation">Print</target>
+        <target state="final">Друкувати</target>
         <note>Action/button to print a document</note>
       </trans-unit>
       <trans-unit id="[Generic] Rename" xml:space="preserve">
@@ -1659,9 +1659,9 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="translated">Відновити</target>
         <note>Action/button to restore a backup/archived item in its original place</note>
       </trans-unit>
-      <trans-unit id="[Generic] Retry" xml:space="preserve">
+      <trans-unit id="[Generic] Retry" xml:space="preserve" approved="yes">
         <source>Retry</source>
-        <target state="needs-translation">Retry</target>
+        <target state="final">Повторити спробу</target>
         <note>Action: repeat the previous (failed) action</note>
       </trans-unit>
       <trans-unit id="[Generic] Reveal in Finder" xml:space="preserve">
@@ -1709,20 +1709,25 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="translated">Нова група</target>
         <note>Default name of a new group</note>
       </trans-unit>
-      <trans-unit id="[Group/RecycleBin/Empty/action]" xml:space="preserve">
+      <trans-unit id="[Group/RecycleBin/Empty/action]" xml:space="preserve" approved="yes">
         <source>Empty Recycle Bin</source>
-        <target state="needs-translation">Empty Recycle Bin</target>
+        <target state="final">Очистити кошик</target>
         <note>Action/button to delete everything inside the Recycle Bin</note>
       </trans-unit>
-      <trans-unit id="[Group/RecycleBin/Empty/confirmTitle]" xml:space="preserve">
+      <trans-unit id="[Group/RecycleBin/Empty/confirmTitle]" xml:space="preserve" approved="yes">
         <source>Permanently delete everything in the Recycle Bin?</source>
-        <target state="needs-translation">Permanently delete everything in the Recycle Bin?</target>
+        <target state="final">Очистити кошик без можливості відновлення?</target>
         <note>Title of the confirmation dialog for `Empty Recycle Bin` action</note>
       </trans-unit>
       <trans-unit id="[Group/a11y/description]" xml:space="preserve">
         <source>%@, Group</source>
         <target state="translated">%@, група</target>
         <note>VoiceOver description of a group [groupTitle: String, itemCount: Int]</note>
+      </trans-unit>
+      <trans-unit id="[GroupEditor/Name/placeholder]" xml:space="preserve">
+        <source>Group Name</source>
+        <target state="translated">Назва групи</target>
+        <note>Title of an input field for group name</note>
       </trans-unit>
       <trans-unit id="[GroupSortOrder/longTitle] By Creation Date (New..Old)" xml:space="preserve">
         <source>By Creation Date (New..Old)</source>
@@ -1794,20 +1799,85 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="translated">Довідка</target>
         <note>Generic title of in-app help article</note>
       </trans-unit>
-      <trans-unit id="[Intune/OrgNeedsToManage]" xml:space="preserve">
+      <trans-unit id="[Intune/OrgNeedsToManage]" xml:space="preserve" approved="yes">
         <source>To protect its data, your organization needs to manage this app. To complete this action, sign in with your work or school account.</source>
-        <target state="needs-translation">To protect its data, your organization needs to manage this app. To complete this action, sign in with your work or school account.</target>
+        <target state="final">Щоб захистити свої дані, ваша організація має керувати цим застосунком. Для завершення цієї дії ввійдіть у свій робочий або навчальний обліковий запис.</target>
         <note>Info message for enterprise users</note>
       </trans-unit>
-      <trans-unit id="[Intune/PersonalVersionElsewhere]" xml:space="preserve">
+      <trans-unit id="[Intune/PersonalVersionElsewhere]" xml:space="preserve" approved="yes">
         <source>KeePassium version for personal use is available on the App Store.</source>
-        <target state="needs-translation">KeePassium version for personal use is available on the App Store.</target>
+        <target state="final">Версія KeePassium для особистого використання доступна в App Store.</target>
         <note>Info message for users who accidentally installed the enterprise version.</note>
       </trans-unit>
       <trans-unit id="[Item/History/Restored]" xml:space="preserve">
         <source>Previous version restored</source>
         <target state="translated">Попередня версія відновлена</target>
         <note>Notification that an archived/historical item (e.g entry) has been successfully restored</note>
+      </trans-unit>
+      <trans-unit id="[Item/Properties/Advanced/title]" xml:space="preserve">
+        <source>Advanced</source>
+        <target state="translated">Додатково</target>
+        <note>Title of a list with advanced/expert-level properties of a database item (e.g. entry)</note>
+      </trans-unit>
+      <trans-unit id="[Item/Properties/AutoFill/KeePassXC/title]" xml:space="preserve" approved="yes">
+        <source>Password AutoFill (KeePassXC)</source>
+        <target state="final">Автозаповнення паролів (KeePassXC)</target>
+        <note>Title of a setting: whether the item (e.g. entry) should be used in AutoFill feature. App-specific setting for KeePassXC.</note>
+      </trans-unit>
+      <trans-unit id="[Item/Properties/AutoFill/allowed]" xml:space="preserve" approved="yes">
+        <source>Allowed</source>
+        <target state="final">Дозволені</target>
+        <note>Possible value of the `Password AutoFill` setting. For example: 'Password AutoFill: Allowed'</note>
+      </trans-unit>
+      <trans-unit id="[Item/Properties/AutoFill/disabled]" xml:space="preserve" approved="yes">
+        <source>Disabled</source>
+        <target state="final">Вимкнено</target>
+        <note>Possible value of the `Password AutoFill` setting. For example: 'Password AutoFill: Disabled'</note>
+      </trans-unit>
+      <trans-unit id="[Item/Properties/AutoFill/title]" xml:space="preserve" approved="yes">
+        <source>Password AutoFill</source>
+        <target state="final">Автозаповнення паролів</target>
+        <note>Title of a setting: whether the item (e.g. entry) should be used in AutoFill feature</note>
+      </trans-unit>
+      <trans-unit id="[Item/Properties/PasswordAudit/allowed]" xml:space="preserve" approved="yes">
+        <source>Allowed</source>
+        <target state="final">Дозволені</target>
+        <note>Possible value of the `Password Audit` setting. For example: 'Password Audit: Allowed'</note>
+      </trans-unit>
+      <trans-unit id="[Item/Properties/PasswordAudit/disabled]" xml:space="preserve" approved="yes">
+        <source>Disabled</source>
+        <target state="final">Вимкнено</target>
+        <note>Possible value of the `Password Audit` setting. For example: 'Password Audit: Disabled'</note>
+      </trans-unit>
+      <trans-unit id="[Item/Properties/PasswordAudit/title]" xml:space="preserve" approved="yes">
+        <source>Password Audit</source>
+        <target state="final">Перевірка паролів</target>
+        <note>Title of a setting: whether the item (e.g. entry) should be included in password audit</note>
+      </trans-unit>
+      <trans-unit id="[Item/Properties/Search/allowed]" xml:space="preserve" approved="yes">
+        <source>Allowed</source>
+        <target state="final">Дозволені</target>
+        <note>Possible value of the `Search` setting. Example: 'Search: Allowed'</note>
+      </trans-unit>
+      <trans-unit id="[Item/Properties/Search/disabled]" xml:space="preserve" approved="yes">
+        <source>Disabled</source>
+        <target state="final">Вимкнено</target>
+        <note>Possible value of the `Search` setting, when the item should be excluded from search results. Example: 'Search: Disabled'</note>
+      </trans-unit>
+      <trans-unit id="[Item/Properties/Search/title] Search" xml:space="preserve">
+        <source>Search</source>
+        <target state="translated">Пошук</target>
+        <note>Title of a setting: whether the item (e.g. entry) should be considered during search. Example: 'Search: Allowed'</note>
+      </trans-unit>
+      <trans-unit id="[Item/Properties/inheritedValue]" xml:space="preserve" approved="yes">
+        <source>Inherit from parent group (%@)</source>
+        <target state="final">Успадкувати від головної групи (%@)</target>
+        <note>Default value of an item property. For example: 'Password Audit: Inherit from parent group (Allowed)'. [inheritedValue: String]</note>
+      </trans-unit>
+      <trans-unit id="[Item/Properties/title]" xml:space="preserve" approved="yes">
+        <source>Properties</source>
+        <target state="final">Властивості</target>
+        <note>Title of a list with item (e.g. entry) properties/settings, such as searchability, auto-typing, etc</note>
       </trans-unit>
       <trans-unit id="[ItemCategory] Default (KeePass)" xml:space="preserve">
         <source>Default (KeePass)</source>
@@ -1873,9 +1943,9 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="translated">Відомості про файл</target>
         <note>Menu item: show information about file (name, size, dates)</note>
       </trans-unit>
-      <trans-unit id="[OTP/CopiedToClipboard/title]" xml:space="preserve">
+      <trans-unit id="[OTP/CopiedToClipboard/title]" xml:space="preserve" approved="yes">
         <source>One-time password copied to clipboard</source>
-        <target state="needs-translation">One-time password copied to clipboard</target>
+        <target state="final">Одноразовий пароль скопійовано в буфер обміну</target>
         <note>Notification next to the OTP code which was copied to clipboard</note>
       </trans-unit>
       <trans-unit id="[OTP/FieldName]" xml:space="preserve">
@@ -1888,9 +1958,9 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="translated">Цей QR-код не підходить для налаштування одноразового пароля (OTP).</target>
         <note>Error shown when scanned QR code cannot be used for OTP</note>
       </trans-unit>
-      <trans-unit id="[OTP/Scan/InvalidSecretCode]" xml:space="preserve">
+      <trans-unit id="[OTP/Scan/InvalidSecretCode]" xml:space="preserve" approved="yes">
         <source>Entered secret code is not suitable for OTP setup.</source>
-        <target state="needs-translation">Entered secret code is not suitable for OTP setup.</target>
+        <target state="final">Введений секретний код не підходить для налаштування одноразового пароля.</target>
         <note>Error shown when a manually entered OTP secret is misformatted.</note>
       </trans-unit>
       <trans-unit id="[OTP/Scan/OverwriteWarning]" xml:space="preserve">
@@ -1898,19 +1968,19 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="translated">Одноразовий пароль вже налаштований для цього запису. Замінити його?</target>
         <note>Message to confirm user intentions</note>
       </trans-unit>
-      <trans-unit id="[OTP/Setup/EnterManually]" xml:space="preserve">
+      <trans-unit id="[OTP/Setup/EnterManually]" xml:space="preserve" approved="yes">
         <source>Enter manually</source>
-        <target state="needs-translation">Enter manually</target>
+        <target state="final">Ввести вручну</target>
         <note>Button/action: proceed with manual OTP setup</note>
       </trans-unit>
-      <trans-unit id="[OTP/Setup/EnterSecretCode/callToAction]" xml:space="preserve">
+      <trans-unit id="[OTP/Setup/EnterSecretCode/callToAction]" xml:space="preserve" approved="yes">
         <source>Enter Secret Code</source>
-        <target state="needs-translation">Enter Secret Code</target>
+        <target state="final">Введіть секретний код</target>
         <note>Call to action: type in the secret key for OTP setup.</note>
       </trans-unit>
-      <trans-unit id="[OTP/Setup/ScanQRCode]" xml:space="preserve">
+      <trans-unit id="[OTP/Setup/ScanQRCode]" xml:space="preserve" approved="yes">
         <source>Scan QR code</source>
-        <target state="needs-translation">Scan QR code</target>
+        <target state="final">Відсканувати QR-код</target>
         <note>Button/action: proceed with QR code based OTP setup</note>
       </trans-unit>
       <trans-unit id="[OTP/Setup]" xml:space="preserve">
@@ -1918,9 +1988,9 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="translated">Налаштувати одноразовий пароль (OTP)</target>
         <note>Call for action. Acronym `OTP` should not be translated.</note>
       </trans-unit>
-      <trans-unit id="[OTP/Title/sentenceCase]" xml:space="preserve">
+      <trans-unit id="[OTP/Title/sentenceCase]" xml:space="preserve" approved="yes">
         <source>One-time password</source>
-        <target state="needs-translation">One-time password</target>
+        <target state="final">Одноразовий пароль</target>
         <note>Description of an OTP code; sentence case.</note>
       </trans-unit>
       <trans-unit id="[Org/ContactYourAdmin]" xml:space="preserve">
@@ -1928,189 +1998,189 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="translated">Зв'яжіться з системним адміністратором за допомогою.</target>
         <note>Suggestion/hint on how to fix an accompanying error.</note>
       </trans-unit>
-      <trans-unit id="[Org/LicenseMissing]" xml:space="preserve">
+      <trans-unit id="[Org/LicenseMissing]" xml:space="preserve" approved="yes">
         <source>KeePassium could not find the enterprise account of your organization.</source>
-        <target state="needs-translation">KeePassium could not find the enterprise account of your organization.</target>
+        <target state="final">KeePassium не вдалося знайти корпоративний обліковий запис вашої організації.</target>
         <note>Error message, euphemism for missing corporate license</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/CannotGenerateText/title]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/CannotGenerateText/title]" xml:space="preserve" approved="yes">
         <source>Cannot generate text</source>
-        <target state="needs-translation">Cannot generate text</target>
+        <target state="final">Не вдалося згенерувати текст</target>
         <note>Error message from the random text generator.</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/CustomSet/Empty/title]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/CustomSet/Empty/title]" xml:space="preserve" approved="yes">
         <source>Empty</source>
-        <target state="needs-translation">Empty</target>
+        <target state="final">Порожньо</target>
         <note>Description of an empty character set for password generator. 'Empty' as 'there are no characters'.</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/CustomSet/title]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/CustomSet/title]" xml:space="preserve" approved="yes">
         <source>Custom characters</source>
-        <target state="needs-translation">Custom characters</target>
+        <target state="final">Користувацькі символи</target>
         <note>User-defined set of characters for password generator.</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/DesiredLengthTooShort/title]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/DesiredLengthTooShort/title]" xml:space="preserve" approved="yes">
         <source>Increase the length parameter to at least %d.</source>
-        <target state="needs-translation">Increase the length parameter to at least %d.</target>
+        <target state="final">Збільште параметр довжини принаймні до %d.</target>
         <note>Error message/call to action from the random text generator.</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/Generate/action]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/Generate/action]" xml:space="preserve" approved="yes">
         <source>Generate</source>
-        <target state="needs-translation">Generate</target>
+        <target state="final">Згенерувати</target>
         <note>Action/button: generate random text/password/phrase</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/GeneratedText/title]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/GeneratedText/title]" xml:space="preserve" approved="yes">
         <source>Generated text</source>
-        <target state="needs-translation">Generated text</target>
+        <target state="final">Згенерований текст</target>
         <note>Description of randomly generated text/password/phrase</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/InclusionCondition/allowed]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/InclusionCondition/allowed]" xml:space="preserve" approved="yes">
         <source>Allowed</source>
-        <target state="needs-translation">Allowed</target>
+        <target state="final">Дозволені</target>
         <note>Inclusion criterion for a password generator. For example: `Digits: Allowed`</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/InclusionCondition/excluded]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/InclusionCondition/excluded]" xml:space="preserve" approved="yes">
         <source>Excluded</source>
-        <target state="needs-translation">Excluded</target>
+        <target state="final">Виключені</target>
         <note>Inclusion criterion for a password generator. For example: `Uppercase Letters: Excluded`</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/InclusionCondition/inactive]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/InclusionCondition/inactive]" xml:space="preserve" approved="yes">
         <source>Inactive</source>
-        <target state="needs-translation">Inactive</target>
+        <target state="final">Неактивні</target>
         <note>Inclusion criterion for a password generator — a disabled/inactive one that won't be taken into account. For example: `Uppercase Letters: Inactive`</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/InclusionCondition/required]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/InclusionCondition/required]" xml:space="preserve" approved="yes">
         <source>Required</source>
-        <target state="needs-translation">Required</target>
+        <target state="final">Обов’язкові</target>
         <note>Inclusion criterion for a password generator. For example: `Special Symbols: Required`</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/Length/title]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/Length/title]" xml:space="preserve" approved="yes">
         <source>Length</source>
-        <target state="needs-translation">Length</target>
+        <target state="final">Довжина</target>
         <note>Length (number of characters) of the random text to generate</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/MaxConsecutive/description]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/MaxConsecutive/description]" xml:space="preserve" approved="yes">
         <source>Maximum number of identical characters repeating consecutively.</source>
-        <target state="needs-translation">Maximum number of identical characters repeating consecutively.</target>
+        <target state="final">Максимальна кількість ідентичних символів, що стоять один біля одного.</target>
         <note>Description of a password generator parameter. For example, the digit in 'abc222def'.</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/MaxConsecutiveNotSatisfiable/title]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/MaxConsecutiveNotSatisfiable/title]" xml:space="preserve" approved="yes">
         <source>Increase the limit on maximum number of identical elements repeating consecutively.</source>
-        <target state="needs-translation">Increase the limit on maximum number of identical elements repeating consecutively.</target>
+        <target state="final">Збільште максимальну кількість ідентичних символів, що стоять один біля одного.</target>
         <note>Error message/call to action from the random text generator.</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/Mode/Basic/title]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/Mode/Basic/title]" xml:space="preserve" approved="yes">
         <source>Basic</source>
-        <target state="needs-translation">Basic</target>
+        <target state="final">Базовий</target>
         <note>One of the operation modes of the random text generator</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/Mode/Expert/title]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/Mode/Expert/title]" xml:space="preserve" approved="yes">
         <source>Expert</source>
-        <target state="needs-translation">Expert</target>
+        <target state="final">Експертний</target>
         <note>One of the operation modes of the random text generator</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/Mode/Passphrase/title]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/Mode/Passphrase/title]" xml:space="preserve" approved="yes">
         <source>Passphrase</source>
-        <target state="needs-translation">Passphrase</target>
+        <target state="final">Кодова фраза</target>
         <note>One of the operation modes of the random text generator, where it generates random phrases.</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/Mode/title]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/Mode/title]" xml:space="preserve" approved="yes">
         <source>Mode</source>
-        <target state="needs-translation">Mode</target>
+        <target state="final">Режим</target>
         <note>Operation mode of the random text generator (for example, `Basic`, `Expert`, `Passphrase`)</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/NotEnoughElementsToSample/title]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/NotEnoughElementsToSample/title]" xml:space="preserve" approved="yes">
         <source>Need more elements to pick from.</source>
-        <target state="needs-translation">Need more elements to pick from.</target>
+        <target state="final">Потрібно більше елементів для вибору.</target>
         <note>Error message from the random text generator.</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/PasswordLength/title]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/PasswordLength/title]" xml:space="preserve" approved="yes">
         <source>Password Length</source>
-        <target state="needs-translation">Password Length</target>
+        <target state="final">Довжина пароля</target>
         <note>Length (number of characters) of the password to generate</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/RequiredSetCompletelyExcluded/title]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/RequiredSetCompletelyExcluded/title]" xml:space="preserve" approved="yes">
         <source>One of the character sets is both required and excluded.</source>
-        <target state="needs-translation">One of the character sets is both required and excluded.</target>
+        <target state="final">Один із наборів символів вказано одночасно як обов’язковий і виключений.</target>
         <note>Error message from the random text generator. `required` and `excluded` are as in [PasswordGenerator/InclusionCondition/required] and [PasswordGenerator/InclusionCondition/excluded]</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/Set/Digits/title]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/Set/Digits/title]" xml:space="preserve" approved="yes">
         <source>Digits</source>
-        <target state="needs-translation">Digits</target>
+        <target state="final">Цифри</target>
         <note>Title for digits (like '123')</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/Set/Lookalikes/title]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/Set/Lookalikes/title]" xml:space="preserve" approved="yes">
         <source>Look-alike characters</source>
-        <target state="needs-translation">Look-alike characters</target>
+        <target state="final">Схожі символи</target>
         <note>Title for look-alike symbols (like '1lI', that is: digit `1`, small `L`, capital `i`).</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/Set/Lowercase/title]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/Set/Lowercase/title]" xml:space="preserve" approved="yes">
         <source>Lowercase letters</source>
-        <target state="needs-translation">Lowercase letters</target>
+        <target state="final">Малі літери</target>
         <note>Title for lowercase letters (like 'abc')</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/Set/Specials/title]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/Set/Specials/title]" xml:space="preserve" approved="yes">
         <source>Special symbols</source>
-        <target state="needs-translation">Special symbols</target>
+        <target state="final">Спеціальні символи</target>
         <note>Title for special symbols (like '@#$')</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/Set/Uppercase/title]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/Set/Uppercase/title]" xml:space="preserve" approved="yes">
         <source>Uppercase letters</source>
-        <target state="needs-translation">Uppercase letters</target>
+        <target state="final">Великі літери</target>
         <note>Title for uppercase letters (like 'ABC')</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/SpaceCharacter/name]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/SpaceCharacter/name]" xml:space="preserve" approved="yes">
         <source>Space</source>
-        <target state="needs-translation">Space</target>
+        <target state="final">Пробіл</target>
         <note>Name of the space character. https://en.wikipedia.org/wiki/Space_(punctuation)</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/Word Separtor/title]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/Word Separtor/title]" xml:space="preserve" approved="yes">
         <source>Separator</source>
-        <target state="needs-translation">Separator</target>
+        <target state="final">Розділювач</target>
         <note>Character to be inserted between words of a passphrase.</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/WordCase/lowerCase]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/WordCase/lowerCase]" xml:space="preserve" approved="yes">
         <source>lowercase</source>
-        <target state="needs-translation">lowercase</target>
+        <target state="final">нижній регістр</target>
         <note>Word capitalization style. Written in that style, if possible.</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/WordCase/titleCase]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/WordCase/titleCase]" xml:space="preserve" approved="yes">
         <source>Title Case</source>
-        <target state="needs-translation">Title Case</target>
+        <target state="final">Кожне Слово з Великої</target>
         <note>Word capitalization style: first letters of significant words capitalized. Written in that style, if possible.</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/WordCase/title]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/WordCase/title]" xml:space="preserve" approved="yes">
         <source>Case</source>
-        <target state="needs-translation">Case</target>
+        <target state="final">Регістр</target>
         <note>Case of letters in a word (e.g. UPPER, lower, Title Case)</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/WordCase/upperCase]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/WordCase/upperCase]" xml:space="preserve" approved="yes">
         <source>UPPERCASE</source>
-        <target state="needs-translation">UPPERCASE</target>
+        <target state="final">УСІ ВЕЛИКІ</target>
         <note>Word capitalization style. Written in that style, if possible.</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/WordCount/title]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/WordCount/title]" xml:space="preserve" approved="yes">
         <source>Words</source>
-        <target state="needs-translation">Words</target>
+        <target state="final">Слова</target>
         <note>Number of words in a generated passphrase. In context: 'Words: 5'</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/Wordlist/EFFLarge/title]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/Wordlist/EFFLarge/title]" xml:space="preserve" approved="yes">
         <source>EFF Large Wordlist (7776 words)</source>
-        <target state="needs-translation">EFF Large Wordlist (7776 words)</target>
+        <target state="final">Великий список слів EFF (7776 слів)</target>
         <note>Name of a wordlist for passphrase generator. `EFF` is an organization name.</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/Wordlist/EFFShort/title]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/Wordlist/EFFShort/title]" xml:space="preserve" approved="yes">
         <source>EFF Short Wordlist #%d (1296 words)</source>
-        <target state="needs-translation">EFF Short Wordlist #%d (1296 words)</target>
+        <target state="final">Короткий список слів EFF #%d (1296 слів)</target>
         <note>Name of a wordlist for passphrase generator. `EFF` is an organization name.</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/Wordlist/title]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/Wordlist/title]" xml:space="preserve" approved="yes">
         <source>Wordlist</source>
-        <target state="needs-translation">Wordlist</target>
+        <target state="final">Список слів</target>
         <note>List of words to be used for a passphrase.</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/title]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/title]" xml:space="preserve" approved="yes">
         <source>Random Generator</source>
-        <target state="needs-translation">Random Generator</target>
+        <target state="final">Випадковий генератор</target>
         <note>Title of the random text/password/username generator dialog.</note>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/AttachmentPreview/details]" xml:space="preserve">
@@ -2123,9 +2193,9 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="translated">Перегляд без слідів</target>
         <note>Title of a premium feature</note>
       </trans-unit>
-      <trans-unit id="[Premium/Benefits/BusinessClouds/title]" xml:space="preserve">
+      <trans-unit id="[Premium/Benefits/BusinessClouds/title]" xml:space="preserve" approved="yes">
         <source>Sync with corporate storage</source>
-        <target state="needs-translation">Sync with corporate storage</target>
+        <target state="final">Синхронізувати з корпоративним сховищем</target>
         <note>Title of a premium feature</note>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/CustomAppIcon/details]" xml:space="preserve">
@@ -2173,9 +2243,9 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="translated">Що ви втрачаєте</target>
         <note>List of premium benefits/advantages</note>
       </trans-unit>
-      <trans-unit id="[Premium/Benefits/PasswordAudit/title]" xml:space="preserve">
+      <trans-unit id="[Premium/Benefits/PasswordAudit/title]" xml:space="preserve" approved="yes">
         <source>Check your passwords</source>
-        <target state="needs-translation">Check your passwords</target>
+        <target state="final">Перевірте паролі</target>
         <note>Title of a premium feature</note>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/Positive/header] " xml:space="preserve">
@@ -2436,14 +2506,14 @@ You can manage and cancel your subscriptions by going to your account settings o
         <target state="translated">Додаток корисно %1$@ на місяць, тобто близько %2$@ в рік.</target>
         <note>Status: how long the app has been used during some time period. For example: `App being useful: 1hr/month, about 12hr/year`. [monthlyUsage: String, annualUsage: String — already include the time unit (hours, minutes)]</note>
       </trans-unit>
-      <trans-unit id="[PremiumFeature/BusinessClouds/description]" xml:space="preserve">
+      <trans-unit id="[PremiumFeature/BusinessClouds/description]" xml:space="preserve" approved="yes">
         <source>Connect directly to enterprise storage accounts, such as OneDrive for Business.</source>
-        <target state="needs-translation">Connect directly to enterprise storage accounts, such as OneDrive for Business.</target>
+        <target state="final">Підключіться безпосередньо до облікових записів корпоративного сховища, як-от OneDrive для бізнесу.</target>
         <note>Description/call to action for the `Business Cloud Storage` premium feature.</note>
       </trans-unit>
-      <trans-unit id="[PremiumFeature/BusinessClouds/title]" xml:space="preserve">
+      <trans-unit id="[PremiumFeature/BusinessClouds/title]" xml:space="preserve" approved="yes">
         <source>Corporate cloud storage</source>
-        <target state="needs-translation">Corporate cloud storage</target>
+        <target state="final">Корпоративне хмарне сховище</target>
         <note>Title of a premium feature: access to company's cloud accounts like 'OneDrive for Business'</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/CustomAppIcons/title]" xml:space="preserve">
@@ -2491,14 +2561,14 @@ You can manage and cancel your subscriptions by going to your account settings o
         <target state="translated">Декілька баз паролів</target>
         <note>Title of a premium feature: ability to use multiple databases (In Title Case)</note>
       </trans-unit>
-      <trans-unit id="[PremiumFeature/PasswordAudit/description]" xml:space="preserve">
+      <trans-unit id="[PremiumFeature/PasswordAudit/description]" xml:space="preserve" approved="yes">
         <source>Find out if any of your passwords have been exposed in a known data breach.</source>
-        <target state="needs-translation">Find out if any of your passwords have been exposed in a known data breach.</target>
+        <target state="final">З’ясуйте, чи ваші паролі не було розкрито під час відомого витоку даних.</target>
         <note>Description/call to action for the `Password Audit` premium feature.</note>
       </trans-unit>
-      <trans-unit id="[PremiumFeature/PasswordAudit/title]" xml:space="preserve">
+      <trans-unit id="[PremiumFeature/PasswordAudit/title]" xml:space="preserve" approved="yes">
         <source>Password audit</source>
-        <target state="needs-translation">Password audit</target>
+        <target state="final">Перевірка паролів</target>
         <note>Title of a premium feature: discover which passwords are known to be compromized</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/Preview/description] Preview images and documents directly in the app, in the premium version." xml:space="preserve">
@@ -2526,11 +2596,11 @@ You can manage and cancel your subscriptions by going to your account settings o
         <target state="translated">KeePassium не збирає і нікуди не відправляє жодних персональних даних.</target>
         <note>A brief summary of the privacy policy (for offline mode)</note>
       </trans-unit>
-      <trans-unit id="[PrivacyPolicy/Online/text]" xml:space="preserve">
+      <trans-unit id="[PrivacyPolicy/Online/text]" xml:space="preserve" approved="yes">
         <source>KeePassium does not collect any personal or analytical data.
 Some features may involve data exchange with external services (on your request and for the sole purpose of making these services available to you). Such an exchange is governed by the privacy policy of the respective service.</source>
-        <target state="needs-translation">KeePassium does not collect any personal or analytical data.
-Some features may involve data exchange with external services (on your request and for the sole purpose of making these services available to you). Such an exchange is governed by the privacy policy of the respective service.</target>
+        <target state="final">KeePassium не збирає персональних або аналітичних даних.
+Деякі функції можуть включати обмін даними із зовнішніми сервісами (на ваш запит і лише для того, щоб зробити ці сервіси доступними для вас). Такий обмін регулюється політикою конфіденційності відповідного сервісу.</target>
         <note>A brief summary of the privacy policy (for online mode)</note>
       </trans-unit>
       <trans-unit id="[PrivacyPolicy/title]" xml:space="preserve">
@@ -2560,69 +2630,69 @@ This can happen with larger databases or too ambitious database settings (Argon2
         <target state="translated">Швидке автозаповнення</target>
         <note>Name of a feature that shows relevant entries directly next to the login/password forms.</note>
       </trans-unit>
-      <trans-unit id="[RemoteConnection/AllowUntrusted/title]" xml:space="preserve">
+      <trans-unit id="[RemoteConnection/AllowUntrusted/title]" xml:space="preserve" approved="yes">
         <source>Allow Untrusted Certificate</source>
-        <target state="needs-translation">Allow Untrusted Certificate</target>
+        <target state="final">Дозволити ненадійний сертифікат</target>
         <note>Network security setting</note>
       </trans-unit>
-      <trans-unit id="[RemoteConnection/Connection/title]" xml:space="preserve">
+      <trans-unit id="[RemoteConnection/Connection/title]" xml:space="preserve" approved="yes">
         <source>Connection</source>
-        <target state="needs-translation">Connection</target>
+        <target state="final">Підключення</target>
         <note>Network connection. For example `Connection: WebDAV` or `Connection: MyCloud`.</note>
       </trans-unit>
-      <trans-unit id="[RemoteConnection/Credentials]" xml:space="preserve">
+      <trans-unit id="[RemoteConnection/Credentials]" xml:space="preserve" approved="yes">
         <source>Credentials</source>
-        <target state="needs-translation">Credentials</target>
+        <target state="final">Облікові дані</target>
         <note>Title of a section: username, password, etc</note>
       </trans-unit>
-      <trans-unit id="[RemoteConnection/Error/AuthenticationFailed/title]" xml:space="preserve">
+      <trans-unit id="[RemoteConnection/Error/AuthenticationFailed/title]" xml:space="preserve" approved="yes">
         <source>Authentication failed</source>
-        <target state="needs-translation">Authentication failed</target>
+        <target state="final">Помилка автентифікації</target>
         <note>Error message: user credentials rejected by the server</note>
       </trans-unit>
-      <trans-unit id="[RemoteConnection/FileURL]" xml:space="preserve">
+      <trans-unit id="[RemoteConnection/FileURL]" xml:space="preserve" approved="yes">
         <source>File URL</source>
-        <target state="needs-translation">File URL</target>
+        <target state="final">URL-адреса файлу</target>
         <note>Network address of a file</note>
       </trans-unit>
-      <trans-unit id="[RemoteConnection/OneDrive/Folder/files]" xml:space="preserve">
+      <trans-unit id="[RemoteConnection/OneDrive/Folder/files]" xml:space="preserve" approved="yes">
         <source>Files</source>
-        <target state="translated">Файли</target>
+        <target state="final">Файли</target>
         <note>Name of a predefined OneDrive folder which contains user's own files</note>
       </trans-unit>
-      <trans-unit id="[RemoteConnection/OneDrive/Folder/sharedWithMe]" xml:space="preserve">
+      <trans-unit id="[RemoteConnection/OneDrive/Folder/sharedWithMe]" xml:space="preserve" approved="yes">
         <source>Shared</source>
-        <target state="needs-translation">Shared</target>
+        <target state="final">Спільні</target>
         <note>Name of a predefined OneDrive folder which contains files shared with this user</note>
       </trans-unit>
-      <trans-unit id="[RemoteConnection/SignIn/OneDrive/action]" xml:space="preserve">
+      <trans-unit id="[RemoteConnection/SignIn/OneDrive/action]" xml:space="preserve" approved="yes">
         <source>Sign in to OneDrive</source>
-        <target state="needs-translation">Sign in to OneDrive</target>
+        <target state="final">Увійти у OneDrive</target>
         <note>Action: authenticate to OneDrive account</note>
       </trans-unit>
-      <trans-unit id="[RemoteConnection/SignIn/OneDrive/authorizationRequried]" xml:space="preserve">
+      <trans-unit id="[RemoteConnection/SignIn/OneDrive/authorizationRequried]" xml:space="preserve" approved="yes">
         <source>OneDrive needs you to sign in again.</source>
-        <target state="needs-translation">OneDrive needs you to sign in again.</target>
+        <target state="final">Необхідно повторно ввійти у OneDrive.</target>
         <note>Error description: the user should manually sign in to their OneDrive account</note>
       </trans-unit>
-      <trans-unit id="[RemoteConnection/SignIn/PrivateMode/description]" xml:space="preserve">
+      <trans-unit id="[RemoteConnection/SignIn/PrivateMode/description]" xml:space="preserve" approved="yes">
         <source>Open sign-in page in private web browser mode</source>
-        <target state="needs-translation">Open sign-in page in private web browser mode</target>
+        <target state="final">Відкрити сторінку входу в браузері в режимі інкогніто</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
-      <trans-unit id="[RemoteConnection/SignIn/PrivateMode/title]" xml:space="preserve">
+      <trans-unit id="[RemoteConnection/SignIn/PrivateMode/title]" xml:space="preserve" approved="yes">
         <source>Private mode</source>
-        <target state="needs-translation">Private mode</target>
+        <target state="final">Режим інкогніто</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
-      <trans-unit id="[RemoteConnection/connectToServer]" xml:space="preserve">
+      <trans-unit id="[RemoteConnection/connectToServer]" xml:space="preserve" approved="yes">
         <source>Connect to Server</source>
-        <target state="needs-translation">Connect to Server</target>
+        <target state="final">Підключитися до сервера</target>
         <note>Action: connect to a network server</note>
       </trans-unit>
-      <trans-unit id="[RemoteConnection/title]" xml:space="preserve">
+      <trans-unit id="[RemoteConnection/title]" xml:space="preserve" approved="yes">
         <source>Remote Connection</source>
-        <target state="needs-translation">Remote Connection</target>
+        <target state="final">Віддалене підключення</target>
         <note>Title: connection to a network storage</note>
       </trans-unit>
       <trans-unit id="[Repeat Password/Field/title]" xml:space="preserve">
@@ -2720,9 +2790,9 @@ This can happen with larger databases or too ambitious database settings (Argon2
         <target state="translated">Інструкція з налаштування Автозаповнення</target>
         <note>Title of a help article on how to activate AutoFill.</note>
       </trans-unit>
-      <trans-unit id="[Settings/AutoFill/UnavailableInIntune/description]" xml:space="preserve">
+      <trans-unit id="[Settings/AutoFill/UnavailableInIntune/description]" xml:space="preserve" approved="yes">
         <source>AutoFill is not available in KeePassium for Intune.</source>
-        <target state="needs-translation">AutoFill is not available in KeePassium for Intune.</target>
+        <target state="final">Автозаповнення недоступне в KeePassium для Intune.</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="[Settings/AutoFill/UsePerfectMatch/title]" xml:space="preserve">
@@ -2885,44 +2955,44 @@ This can happen with larger databases or too ambitious database settings (Argon2
         <target state="translated">Вид списку</target>
         <note>Title of list view configuration screen</note>
       </trans-unit>
-      <trans-unit id="[Settings/Managed/notification]" xml:space="preserve">
+      <trans-unit id="[Settings/Managed/notification]" xml:space="preserve" approved="yes">
         <source>This setting is managed by your organization.</source>
-        <target state="needs-translation">This setting is managed by your organization.</target>
+        <target state="final">Цим параметром керує ваша організація.</target>
         <note>Notification when corporate user tries to change an app setting controlled by organization's IT department.</note>
       </trans-unit>
-      <trans-unit id="[Settings/NetworkAccess/Confirmation/text]" xml:space="preserve">
+      <trans-unit id="[Settings/NetworkAccess/Confirmation/text]" xml:space="preserve" approved="yes">
         <source>Allow KeePassium to make network connections to external services?</source>
-        <target state="needs-translation">Allow KeePassium to make network connections to external services?</target>
+        <target state="final">Дозволити KeePassium здійснювати мережеві підключення до зовнішніх сервісів?</target>
         <note>Confirmation dialog message</note>
       </trans-unit>
-      <trans-unit id="[Settings/NetworkAccess/title]" xml:space="preserve">
+      <trans-unit id="[Settings/NetworkAccess/title]" xml:space="preserve" approved="yes">
         <source>Network Access</source>
-        <target state="needs-translation">Network Access</target>
+        <target state="final">Доступ до мережі</target>
         <note>Settings section: how/whether the app is allowed to use networks/Internet</note>
       </trans-unit>
-      <trans-unit id="[Settings/NetworkAccessMode/Offline/description]" xml:space="preserve">
+      <trans-unit id="[Settings/NetworkAccessMode/Offline/description]" xml:space="preserve" approved="yes">
         <source>Maximum privacy</source>
-        <target state="needs-translation">Maximum privacy</target>
+        <target state="final">Максимальна конфіденційність</target>
         <note>Description of the `Stay Offline` mode.</note>
       </trans-unit>
-      <trans-unit id="[Settings/NetworkAccessMode/Offline/title]" xml:space="preserve">
+      <trans-unit id="[Settings/NetworkAccessMode/Offline/title]" xml:space="preserve" approved="yes">
         <source>Stay Offline</source>
-        <target state="needs-translation">Stay Offline</target>
+        <target state="final">Залишатися в автономному режимі</target>
         <note>Setting option: the app should work offline</note>
       </trans-unit>
-      <trans-unit id="[Settings/NetworkAccessMode/Online/description]" xml:space="preserve">
+      <trans-unit id="[Settings/NetworkAccessMode/Online/description]" xml:space="preserve" approved="yes">
         <source>Maximum functionality</source>
-        <target state="needs-translation">Maximum functionality</target>
+        <target state="final">Максимальна функціональність</target>
         <note>Description of the `Allow Network Access` mode.</note>
       </trans-unit>
-      <trans-unit id="[Settings/NetworkAccessMode/Online/title]" xml:space="preserve">
+      <trans-unit id="[Settings/NetworkAccessMode/Online/title]" xml:space="preserve" approved="yes">
         <source>Allow Network Access</source>
-        <target state="needs-translation">Allow Network Access</target>
+        <target state="final">Дозволити доступ до мережі</target>
         <note>Setting option: the app is permitted to use online features</note>
       </trans-unit>
-      <trans-unit id="[Settings/RestoreDefaults/action]" xml:space="preserve">
+      <trans-unit id="[Settings/RestoreDefaults/action]" xml:space="preserve" approved="yes">
         <source>Restore Defaults</source>
-        <target state="needs-translation">Restore Defaults</target>
+        <target state="final">Відновити налаштування за замовчуванням</target>
         <note>Action/button which resets some settings to their default state.</note>
       </trans-unit>
       <trans-unit id="[Settings/Search/title]" xml:space="preserve">
@@ -2960,9 +3030,9 @@ This can happen with larger databases or too ambitious database settings (Argon2
         <target state="translated">Сортувати за</target>
         <note>Title of a sort options list. Example: 'Sort by: Name'</note>
       </trans-unit>
-      <trans-unit id="[StorageService/OneDriveForBusiness/title]" xml:space="preserve">
+      <trans-unit id="[StorageService/OneDriveForBusiness/title]" xml:space="preserve" approved="yes">
         <source>OneDrive for Business</source>
-        <target state="needs-translation">OneDrive for Business</target>
+        <target state="final">OneDrive для бізнесу</target>
         <note>Name of a cloud storage service. Must match Microsoft's translation, see  https://partner.microsoft.com/solutions/onedrive-for-business</note>
       </trans-unit>
       <trans-unit id="[Support/template] (Please describe the problem here)" xml:space="preserve">
@@ -3025,9 +3095,9 @@ This can happen with larger databases or too ambitious database settings (Argon2
         <target state="translated">Підтримайте KeePassium</target>
         <note>Call to action, title of the tip box/donation screen.</note>
       </trans-unit>
-      <trans-unit id="[URLReference/Location/RemoteServer]" xml:space="preserve">
+      <trans-unit id="[URLReference/Location/RemoteServer]" xml:space="preserve" approved="yes">
         <source>Remote server</source>
-        <target state="needs-translation">Remote server</target>
+        <target state="final">Віддалений сервер</target>
         <note>Human-readable file location. Example: 'File Location: Remote server'</note>
       </trans-unit>
       <trans-unit id="[URLReference/Location] Cloud storage / Another app" xml:space="preserve">
@@ -3079,51 +3149,51 @@ This can happen with larger databases or too ambitious database settings (Argon2
     <body>
       <trans-unit id="/[Generic/Count/Bits]:dict/GenericCountBits:dict/one:dict/:string">
         <source>%d bit</source>
-        <target state="needs-translation">%d bit</target>
+        <target state="final">%d біт</target>
       </trans-unit>
       <trans-unit id="/[Generic/Count/Bits]:dict/GenericCountBits:dict/few:dict/:string">
         <source>%d bits</source>
-        <target state="needs-translation">%d bits</target>
+        <target state="final">%d біти</target>
       </trans-unit>
       <trans-unit id="/[Generic/Count/Bits]:dict/GenericCountBits:dict/many:dict/:string">
         <source>%d bits</source>
-        <target state="needs-translation">%d bits</target>
+        <target state="final">%d бітів</target>
       </trans-unit>
       <trans-unit id="/[Generic/Count/Bits]:dict/GenericCountBits:dict/other:dict/:string">
         <source>%d bits</source>
-        <target state="needs-translation">%d bits</target>
+        <target state="final">%d біта</target>
       </trans-unit>
       <trans-unit id="/[Generic/Count/EntriesSelected]:dict/GenericCountEntriesSelected:dict/one:dict/:string">
         <source>%d entry selected</source>
-        <target state="needs-translation">%d entry selected</target>
+        <target state="final">Вибрано %d запис</target>
       </trans-unit>
       <trans-unit id="/[Generic/Count/EntriesSelected]:dict/GenericCountEntriesSelected:dict/few:dict/:string">
         <source>%d entries selected</source>
-        <target state="needs-translation">%d entries selected</target>
+        <target state="final">Вибрано %d записи</target>
       </trans-unit>
       <trans-unit id="/[Generic/Count/EntriesSelected]:dict/GenericCountEntriesSelected:dict/many:dict/:string">
         <source>%d entries selected</source>
-        <target state="needs-translation">%d entries selected</target>
+        <target state="final">Вибрано %d записів</target>
       </trans-unit>
       <trans-unit id="/[Generic/Count/EntriesSelected]:dict/GenericCountEntriesSelected:dict/other:dict/:string">
         <source>%d entries selected</source>
-        <target state="needs-translation">%d entries selected</target>
+        <target state="final">Вибрано %d запису</target>
       </trans-unit>
       <trans-unit id="/[Generic/Count/Threads]:dict/GenericCountThreads:dict/one:dict/:string">
         <source>%d thread</source>
-        <target state="needs-translation">%d thread</target>
+        <target state="final">%d потік</target>
       </trans-unit>
       <trans-unit id="/[Generic/Count/Threads]:dict/GenericCountThreads:dict/few:dict/:string">
         <source>%d threads</source>
-        <target state="needs-translation">%d threads</target>
+        <target state="final">%d потоки</target>
       </trans-unit>
       <trans-unit id="/[Generic/Count/Threads]:dict/GenericCountThreads:dict/many:dict/:string">
         <source>%d threads</source>
-        <target state="needs-translation">%d threads</target>
+        <target state="final">%d потоків</target>
       </trans-unit>
       <trans-unit id="/[Generic/Count/Threads]:dict/GenericCountThreads:dict/other:dict/:string">
         <source>%d threads</source>
-        <target state="needs-translation">%d threads</target>
+        <target state="translated">%d потоку</target>
       </trans-unit>
     </body>
   </file>

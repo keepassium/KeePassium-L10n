@@ -1724,6 +1724,11 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="translated">%@, группа</target>
         <note>VoiceOver description of a group [groupTitle: String, itemCount: Int]</note>
       </trans-unit>
+      <trans-unit id="[GroupEditor/Name/placeholder]" xml:space="preserve" approved="yes">
+        <source>Group Name</source>
+        <target state="final">Название группы</target>
+        <note>Title of an input field for group name</note>
+      </trans-unit>
       <trans-unit id="[GroupSortOrder/longTitle] By Creation Date (New..Old)" xml:space="preserve" approved="yes">
         <source>By Creation Date (New..Old)</source>
         <target state="final">По дате создания (новые..старые)</target>
@@ -1808,6 +1813,71 @@ Please make sure to have a backup of your database before changing anything.</so
         <source>Previous version restored</source>
         <target state="translated">Предыдущая версия восстановлена</target>
         <note>Notification that an archived/historical item (e.g entry) has been successfully restored</note>
+      </trans-unit>
+      <trans-unit id="[Item/Properties/Advanced/title]" xml:space="preserve">
+        <source>Advanced</source>
+        <target state="translated">Дополнительно</target>
+        <note>Title of a list with advanced/expert-level properties of a database item (e.g. entry)</note>
+      </trans-unit>
+      <trans-unit id="[Item/Properties/AutoFill/KeePassXC/title]" xml:space="preserve">
+        <source>Password AutoFill (KeePassXC)</source>
+        <target state="translated">Автозаполнение паролей (KeePassXC)</target>
+        <note>Title of a setting: whether the item (e.g. entry) should be used in AutoFill feature. App-specific setting for KeePassXC.</note>
+      </trans-unit>
+      <trans-unit id="[Item/Properties/AutoFill/allowed]" xml:space="preserve">
+        <source>Allowed</source>
+        <target state="translated">Разрешено</target>
+        <note>Possible value of the `Password AutoFill` setting. For example: 'Password AutoFill: Allowed'</note>
+      </trans-unit>
+      <trans-unit id="[Item/Properties/AutoFill/disabled]" xml:space="preserve">
+        <source>Disabled</source>
+        <target state="translated">Отключено</target>
+        <note>Possible value of the `Password AutoFill` setting. For example: 'Password AutoFill: Disabled'</note>
+      </trans-unit>
+      <trans-unit id="[Item/Properties/AutoFill/title]" xml:space="preserve">
+        <source>Password AutoFill</source>
+        <target state="translated">Автозаполнение паролей</target>
+        <note>Title of a setting: whether the item (e.g. entry) should be used in AutoFill feature</note>
+      </trans-unit>
+      <trans-unit id="[Item/Properties/PasswordAudit/allowed]" xml:space="preserve">
+        <source>Allowed</source>
+        <target state="translated">Разрешён</target>
+        <note>Possible value of the `Password Audit` setting. For example: 'Password Audit: Allowed'</note>
+      </trans-unit>
+      <trans-unit id="[Item/Properties/PasswordAudit/disabled]" xml:space="preserve">
+        <source>Disabled</source>
+        <target state="translated">Отключён</target>
+        <note>Possible value of the `Password Audit` setting. For example: 'Password Audit: Disabled'</note>
+      </trans-unit>
+      <trans-unit id="[Item/Properties/PasswordAudit/title]" xml:space="preserve">
+        <source>Password Audit</source>
+        <target state="translated">Аудит паролей</target>
+        <note>Title of a setting: whether the item (e.g. entry) should be included in password audit</note>
+      </trans-unit>
+      <trans-unit id="[Item/Properties/Search/allowed]" xml:space="preserve">
+        <source>Allowed</source>
+        <target state="translated">Разрешён</target>
+        <note>Possible value of the `Search` setting. Example: 'Search: Allowed'</note>
+      </trans-unit>
+      <trans-unit id="[Item/Properties/Search/disabled]" xml:space="preserve">
+        <source>Disabled</source>
+        <target state="translated">Отключён</target>
+        <note>Possible value of the `Search` setting, when the item should be excluded from search results. Example: 'Search: Disabled'</note>
+      </trans-unit>
+      <trans-unit id="[Item/Properties/Search/title] Search" xml:space="preserve">
+        <source>Search</source>
+        <target state="translated">Поиск</target>
+        <note>Title of a setting: whether the item (e.g. entry) should be considered during search. Example: 'Search: Allowed'</note>
+      </trans-unit>
+      <trans-unit id="[Item/Properties/inheritedValue]" xml:space="preserve">
+        <source>Inherit from parent group (%@)</source>
+        <target state="translated">Наследовать от родительской группы (%@)</target>
+        <note>Default value of an item property. For example: 'Password Audit: Inherit from parent group (Allowed)'. [inheritedValue: String]</note>
+      </trans-unit>
+      <trans-unit id="[Item/Properties/title]" xml:space="preserve">
+        <source>Properties</source>
+        <target state="translated">Свойства</target>
+        <note>Title of a list with item (e.g. entry) properties/settings, such as searchability, auto-typing, etc</note>
       </trans-unit>
       <trans-unit id="[ItemCategory] Default (KeePass)" xml:space="preserve" approved="yes">
         <source>Default (KeePass)</source>
@@ -2585,9 +2655,9 @@ This can happen with larger databases or too ambitious database settings (Argon2
         <target state="translated">URL файла</target>
         <note>Network address of a file</note>
       </trans-unit>
-      <trans-unit id="[RemoteConnection/OneDrive/Folder/files]" xml:space="preserve" approved="yes">
+      <trans-unit id="[RemoteConnection/OneDrive/Folder/files]" xml:space="preserve">
         <source>Files</source>
-        <target state="final">Файлы</target>
+        <target state="translated">Файлы</target>
         <note>Name of a predefined OneDrive folder which contains user's own files</note>
       </trans-unit>
       <trans-unit id="[RemoteConnection/OneDrive/Folder/sharedWithMe]" xml:space="preserve">

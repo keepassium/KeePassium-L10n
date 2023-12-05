@@ -493,20 +493,25 @@ Como resultado, tanto la aplicación «Autorrelleno», como la aplicación princ
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.0.1" build-num="15A507"/>
     </header>
     <body>
-      <trans-unit id="g9A-4w-Dsa.segmentTitles[0]" xml:space="preserve" approved="yes">
-        <source>General</source>
-        <target state="final">General</target>
-        <note>Class = "UISegmentedControl"; g9A-4w-Dsa.segmentTitles[0] = "General"; ObjectID = "g9A-4w-Dsa";</note>
+      <trans-unit id="g9A-4w-Dsa.segmentTitles[0]" xml:space="preserve" translate="no">
+        <source>{General}</source>
+        <target state="needs-translation">{General}</target>
+        <note>Class = "UISegmentedControl"; g9A-4w-Dsa.segmentTitles[0] = "{General}"; ObjectID = "g9A-4w-Dsa";</note>
       </trans-unit>
-      <trans-unit id="g9A-4w-Dsa.segmentTitles[1]" xml:space="preserve" approved="yes">
-        <source>Files</source>
-        <target state="final">Archivos</target>
-        <note>Class = "UISegmentedControl"; g9A-4w-Dsa.segmentTitles[1] = "Files"; ObjectID = "g9A-4w-Dsa";</note>
+      <trans-unit id="g9A-4w-Dsa.segmentTitles[1]" xml:space="preserve" translate="no">
+        <source>{Files}</source>
+        <target state="needs-translation">{Files}</target>
+        <note>Class = "UISegmentedControl"; g9A-4w-Dsa.segmentTitles[1] = "{Files}"; ObjectID = "g9A-4w-Dsa";</note>
       </trans-unit>
-      <trans-unit id="g9A-4w-Dsa.segmentTitles[2]" xml:space="preserve" approved="yes">
-        <source>History</source>
-        <target state="final">Historial</target>
-        <note>Class = "UISegmentedControl"; g9A-4w-Dsa.segmentTitles[2] = "History"; ObjectID = "g9A-4w-Dsa";</note>
+      <trans-unit id="g9A-4w-Dsa.segmentTitles[2]" xml:space="preserve" translate="no">
+        <source>{History}</source>
+        <target state="needs-translation">{History}</target>
+        <note>Class = "UISegmentedControl"; g9A-4w-Dsa.segmentTitles[2] = "{History}"; ObjectID = "g9A-4w-Dsa";</note>
+      </trans-unit>
+      <trans-unit id="g9A-4w-Dsa.segmentTitles[3]" xml:space="preserve" translate="no">
+        <source>{Extra}</source>
+        <target state="needs-translation">{Extra}</target>
+        <note>Class = "UISegmentedControl"; g9A-4w-Dsa.segmentTitles[3] = "{Extra}"; ObjectID = "g9A-4w-Dsa";</note>
       </trans-unit>
     </body>
   </file>
@@ -641,28 +646,6 @@ Como resultado, tanto la aplicación «Autorrelleno», como la aplicación princ
         <source>{Never}</source>
         <target state="needs-translation">{Never}</target>
         <note>Class = "UILabel"; text = "{Never}"; ObjectID = "rMO-s6-jEi";</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="KeePassium/database/group/Base.lproj/GroupEditorVC.storyboard" source-language="en" target-language="es" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="14.3" build-num="14E222b"/>
-    </header>
-    <body>
-      <trans-unit id="W6c-47-p86.title" xml:space="preserve" translate="no">
-        <source>{Create/Edit Group}</source>
-        <target state="needs-translation">{Create/Edit Group}</target>
-        <note>Class = "UIViewController"; title = "{Create/Edit Group}"; ObjectID = "W6c-47-p86"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="jea-zX-9LD.placeholder" xml:space="preserve" approved="yes">
-        <source>Group Name</source>
-        <target state="final">Nombre del grupo</target>
-        <note>Class = "UITextField"; placeholder = "Group Name"; ObjectID = "jea-zX-9LD";</note>
-      </trans-unit>
-      <trans-unit id="vz5-tj-l9g.normalTitle" xml:space="preserve" approved="yes">
-        <source>Change Icon</source>
-        <target state="final">Cambiar icono</target>
-        <note>Class = "UIButton"; normalTitle = "Change Icon"; ObjectID = "vz5-tj-l9g";</note>
       </trans-unit>
     </body>
   </file>
@@ -960,9 +943,9 @@ Como resultado, tanto la aplicación «Autorrelleno», como la aplicación princ
         <target state="final">Finanzas</target>
         <note>Predefined group in a new database</note>
       </trans-unit>
-      <trans-unit id="[Database/Create/TemplateGroup/title] General" xml:space="preserve" approved="yes">
+      <trans-unit id="[Database/Create/TemplateGroup/title] General" xml:space="preserve">
         <source>General</source>
-        <target state="final">General</target>
+        <target state="translated">General</target>
         <note>Predefined group in a new database</note>
       </trans-unit>
       <trans-unit id="[Database/Create/TemplateGroup/title] Internet" xml:space="preserve" approved="yes">
@@ -999,6 +982,26 @@ Como resultado, tanto la aplicación «Autorrelleno», como la aplicación princ
         <source>Rename File</source>
         <target state="final">Cambiar nombre del archivo</target>
         <note>Title of a dialog for renaming an attached file</note>
+      </trans-unit>
+      <trans-unit id="[Entry/Tab/Files/title]" xml:space="preserve">
+        <source>Files</source>
+        <target state="translated">Archivos</target>
+        <note>Title of entry viewer's tab with files attached to the entry</note>
+      </trans-unit>
+      <trans-unit id="[Entry/Tab/General/title]" xml:space="preserve">
+        <source>General</source>
+        <target state="translated">General</target>
+        <note>Title of entry viewer's tab with the entry's main information</note>
+      </trans-unit>
+      <trans-unit id="[Entry/Tab/History/title]" xml:space="preserve">
+        <source>History</source>
+        <target state="translated">Historial</target>
+        <note>Title of entry viewer's tab with previous revisions of the entry</note>
+      </trans-unit>
+      <trans-unit id="[Entry/Tab/More/title]" xml:space="preserve">
+        <source>More</source>
+        <target state="translated">Más</target>
+        <note>Title of entry viewer's tab with advanced/secondary properties</note>
       </trans-unit>
       <trans-unit id="[Menu/About/title]" xml:space="preserve" approved="yes">
         <source>About %@</source>
