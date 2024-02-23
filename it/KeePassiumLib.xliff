@@ -105,9 +105,9 @@
         <target state="translated">Codice di accesso cambiato con successo.</target>
         <note>Notification that the modified AppLock passcode has been saved.</note>
       </trans-unit>
-      <trans-unit id="[AppLock/savePasscode]" xml:space="preserve" approved="yes">
+      <trans-unit id="[AppLock/savePasscode]" xml:space="preserve">
         <source>Save Passcode</source>
-        <target state="final">Salva codice di accesso</target>
+        <target state="translated">Salva codice</target>
         <note>Action/button to save new or edited AppLock passcode.</note>
       </trans-unit>
       <trans-unit id="[AppLock] Unlock" xml:space="preserve">
@@ -187,12 +187,12 @@
       </trans-unit>
       <trans-unit id="[Cipher/Progress] Decrypting" xml:space="preserve">
         <source>Decrypting</source>
-        <target state="translated">Decifrazione in corso</target>
+        <target state="translated">Decrittazione in corso</target>
         <note>Progress status</note>
       </trans-unit>
       <trans-unit id="[Cipher/Progress] Encrypting" xml:space="preserve">
         <source>Encrypting</source>
-        <target state="translated">Cifratura in corso</target>
+        <target state="translated">Criptazione in corso</target>
         <note>Progress status</note>
       </trans-unit>
       <trans-unit id="[Clipboard/Copy/namedValue]" xml:space="preserve" approved="yes">
@@ -212,12 +212,12 @@
       </trans-unit>
       <trans-unit id="[CryptoError] AES decryption error (code %d)" xml:space="preserve">
         <source>AES decryption error (code %d)</source>
-        <target state="translated">Errore decifrazione AES (codice %d)</target>
+        <target state="translated">Errore decrittazione AES (codice %d)</target>
         <note>Error message about AES cipher. [errorCode: Int]</note>
       </trans-unit>
       <trans-unit id="[CryptoError] AES encryption error (code %d)" xml:space="preserve">
         <source>AES encryption error (code %d)</source>
-        <target state="translated">Errore cifratura AES (codice %d)</target>
+        <target state="translated">Errore crittografia AES (codice %d)</target>
         <note>Error message about AES cipher. [errorCode: Int]</note>
       </trans-unit>
       <trans-unit id="[CryptoError] AES initialization error (code %d)" xml:space="preserve">
@@ -306,47 +306,47 @@ Assicurati di avere una copia di sicurezza.</target>
       </trans-unit>
       <trans-unit id="[Database/EncryptionSettings/Change/action]" xml:space="preserve">
         <source>Change Encryption Settings</source>
-        <target state="needs-translation">Change Encryption Settings</target>
+        <target state="translated">Modifica impostazioni di crittografia</target>
         <note>Action to modify database encryption settings.</note>
       </trans-unit>
       <trans-unit id="[Database/EncryptionSettings/dataCipher]" xml:space="preserve">
         <source>Encryption Algorithm</source>
-        <target state="needs-translation">Encryption Algorithm</target>
+        <target state="translated">Algoritmo crittografico</target>
         <note>Parameter name in database encryption settings. Example: 'Encryption Algorithm: AES-256'</note>
       </trans-unit>
       <trans-unit id="[Database/EncryptionSettings/iterations]" xml:space="preserve">
         <source>Transform Rounds</source>
-        <target state="needs-translation">Transform Rounds</target>
+        <target state="translated">Cicli trasformativi</target>
         <note>Parameter name in database encryption settings. Defines the number of times/iterations a calculation (transform) should be executed. Example: 'Transform Rounds: 100'</note>
       </trans-unit>
       <trans-unit id="[Database/EncryptionSettings/kdf]" xml:space="preserve">
         <source>Key Derivation Function</source>
-        <target state="translated">Funzione di derivazione chiave</target>
+        <target state="translated">Funzione di derivazione di chiave</target>
         <note>Parameter name in database encryption settings. This is a term, see https://en.wikipedia.org/wiki/Key_derivation_function. Example: 'Key Derivation Function: Argon2'</note>
       </trans-unit>
       <trans-unit id="[Database/EncryptionSettings/memoryAutoFillWarning]" xml:space="preserve">
         <source>High memory requirements can make this database incompatible with Password AutoFill.</source>
-        <target state="needs-translation">High memory requirements can make this database incompatible with Password AutoFill.</target>
+        <target state="translated">Un elevato consumo di memoria potrebbe rendere questo database incompatibile con l'inserimento automatico.</target>
         <note>Warning for too high value of the `Memory usage` parameter in database encryption settings.</note>
       </trans-unit>
       <trans-unit id="[Database/EncryptionSettings/memory]" xml:space="preserve">
         <source>Memory Usage</source>
-        <target state="needs-translation">Memory Usage</target>
+        <target state="translated">Memoria utilizzata</target>
         <note>Parameter name in database encryption settings. Defines the amount of memory that should be used by an algorithm. Example: 'Memory Usage: 16 MB'</note>
       </trans-unit>
       <trans-unit id="[Database/EncryptionSettings/reset]" xml:space="preserve">
         <source>Reset to Recommended Settings</source>
-        <target state="needs-translation">Reset to Recommended Settings</target>
+        <target state="translated">Ripristina impostazioni predefinite</target>
         <note>Action/button button in database encryption settings. Resets the settings to recommended values.</note>
       </trans-unit>
       <trans-unit id="[Database/EncryptionSettings/threads]" xml:space="preserve">
         <source>Parallelism</source>
-        <target state="needs-translation">Parallelism</target>
+        <target state="translated">Parallelismo</target>
         <note>Parameter name in database encryption settings. Defines the number of computations to run in parallel/simultaneously. Example: 'Parallelism: 2 threads'</note>
       </trans-unit>
       <trans-unit id="[Database/EncryptionSettings/title]" xml:space="preserve">
         <source>Encryption Settings</source>
-        <target state="needs-translation">Encryption Settings</target>
+        <target state="translated">Impostazioni di crittografia</target>
         <note>Title: database encryption settings.</note>
       </trans-unit>
       <trans-unit id="[Database/FormatVersion/Conversion/allDataPreserved]" xml:space="preserve">
@@ -542,6 +542,11 @@ Il file rimarrà intatto e potrai aggiungerlo di nuovo in seguito.</target>
         <source>Save Database</source>
         <target state="translated">Salva database</target>
         <note>Action/button to save the current database.</note>
+      </trans-unit>
+      <trans-unit id="[Database/SaveToServer/action]" xml:space="preserve">
+        <source>Save To Server</source>
+        <target state="translated">Salva sul server</target>
+        <note>Action/button to save file to a remote server.</note>
       </trans-unit>
       <trans-unit id="[Database/Saving/Status] Done" xml:space="preserve">
         <source>Done</source>
@@ -871,7 +876,7 @@ Assicurati di avere una copia del database prima di fare qualsiasi modifica.</ta
       </trans-unit>
       <trans-unit id="[Database2/Progress] Writing encrypted blocks" xml:space="preserve">
         <source>Writing encrypted blocks</source>
-        <target state="translated">Scrivo blocchi cifrati</target>
+        <target state="translated">Scrivo blocchi criptati</target>
         <note>Progress bar status</note>
       </trans-unit>
       <trans-unit id="[Database2/Saving/Error] Data compression error: %@" xml:space="preserve">
@@ -1014,6 +1019,11 @@ Assicurati di avere una copia del database prima di fare qualsiasi modifica.</ta
         <target state="translated">Copia riferimento campo</target>
         <note>Action: copy a reference to the selected entry field to clipboard</note>
       </trans-unit>
+      <trans-unit id="[Entry/Field/LargeType/action]" xml:space="preserve">
+        <source>Show in Large Type</source>
+        <target state="translated">Mostra con testo grande</target>
+        <note>Action: display text using large font</note>
+      </trans-unit>
       <trans-unit id="[Entry/Field/name] Icon" xml:space="preserve">
         <source>Icon</source>
         <target state="translated">Icona</target>
@@ -1042,6 +1052,11 @@ Assicurati di avere una copia del database prima di fare qualsiasi modifica.</ta
       <trans-unit id="[Entry/Field/name] User Name" xml:space="preserve">
         <source>User Name</source>
         <target state="translated">Nome utente</target>
+        <note>Name of an entry field</note>
+      </trans-unit>
+      <trans-unit id="[Entry/Field/tags] Tags" xml:space="preserve">
+        <source>Tags</source>
+        <target state="translated">Tag</target>
         <note>Name of an entry field</note>
       </trans-unit>
       <trans-unit id="[Entry/Files/Add] Loading attachment file" xml:space="preserve">
@@ -1123,6 +1138,11 @@ Assicurati di avere una copia del database prima di fare qualsiasi modifica.</ta
         <source>USB drive is disconnected.</source>
         <target state="translated">L'unità USB è disconnessa.</target>
         <note>Error message: there is no USB drive connected to the device.</note>
+      </trans-unit>
+      <trans-unit id="[FileAccessError/ManagedAccessDenied/title]" xml:space="preserve">
+        <source>Access to this storage is disabled by your oganization.</source>
+        <target state="translated">L'accesso a questo archivio è impedito dalla tua istituzione.</target>
+        <note>Error message: organization's IT administrator has forbidden access to a data storage location.</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/NetworkAccessDenied/generic]" xml:space="preserve">
         <source>Network access is blocked by the settings.</source>
@@ -1264,6 +1284,11 @@ Assicurati di avere una copia del database prima di fare qualsiasi modifica.</ta
         <target state="translated">Boxcryptor</target>
         <note>Localized name of the storage service: Boxcryptor (https://boxcryptor.com)</note>
       </trans-unit>
+      <trans-unit id="[FileProvider/Cryptomator/name]" xml:space="preserve">
+        <source>Cryptomator</source>
+        <target state="translated">Cryptomator</target>
+        <note>Localized name of the storage service: Cryptomator (https://cryptomator.org)</note>
+      </trans-unit>
       <trans-unit id="[FileProvider/Dropbox/name]" xml:space="preserve">
         <source>Dropbox</source>
         <target state="translated">Dropbox</target>
@@ -1309,6 +1334,11 @@ Assicurati di avere una copia del database prima di fare qualsiasi modifica.</ta
         <target state="translated">OneDrive</target>
         <note>Localized name of the storage service: OneDrive (https://onedrive.com)</note>
       </trans-unit>
+      <trans-unit id="[FileProvider/ProtonDrive/name]" xml:space="preserve">
+        <source>Proton Drive</source>
+        <target state="translated">Proton Drive</target>
+        <note>Localized name of the storage service: Proton Drive (https://proton.me/drive)</note>
+      </trans-unit>
       <trans-unit id="[FileProvider/Readdle Documents/name]" xml:space="preserve">
         <source>Documents by Readdle</source>
         <target state="translated">Documents di Readdle</target>
@@ -1349,9 +1379,9 @@ Assicurati di avere una copia del database prima di fare qualsiasi modifica.</ta
         <target state="translated">Tresorit</target>
         <note>Localized name of the storage service: Tresorit (https://tresorit.com)</note>
       </trans-unit>
-      <trans-unit id="[FileProvider/USB drive/name]" xml:space="preserve" approved="yes">
+      <trans-unit id="[FileProvider/USB drive/name]" xml:space="preserve">
         <source>USB drive</source>
-        <target state="final">Memoria USB</target>
+        <target state="translated">Memoria USB</target>
         <note>Localized name of the storage service: local USB drive (native iOS integration)</note>
       </trans-unit>
       <trans-unit id="[FileProvider/Yandex.Disk/name]" xml:space="preserve">
@@ -1513,6 +1543,11 @@ Assicurati di avere una copia del database prima di fare qualsiasi modifica.</ta
         <source>Presets</source>
         <target state="translated">Predefinite</target>
         <note>Title of a list with predefined quick-choice values (for example: 'Presets: 1 week, 1 months, 1 year')</note>
+      </trans-unit>
+      <trans-unit id="[Generic/RefreshList/action]" xml:space="preserve">
+        <source>Refresh List</source>
+        <target state="translated">Ricarica lista</target>
+        <note>Action: refresh list of items, usually files</note>
       </trans-unit>
       <trans-unit id="[Generic/Search/title]" xml:space="preserve" approved="yes">
         <source>Search</source>
@@ -1689,6 +1724,11 @@ Assicurati di avere una copia del database prima di fare qualsiasi modifica.</ta
         <target state="translated">Mostra di più</target>
         <note>Checkbox/Button to show a text field in its full size</note>
       </trans-unit>
+      <trans-unit id="[Generic] Skip" xml:space="preserve" approved="yes">
+        <source>Skip</source>
+        <target state="final">Salta</target>
+        <note>Action/button to skip the current step and proceed with the next one</note>
+      </trans-unit>
       <trans-unit id="[Group/Create/action] Create Group" xml:space="preserve">
         <source>Create Group</source>
         <target state="translated">Crea gruppo</target>
@@ -1821,7 +1861,7 @@ Assicurati di avere una copia del database prima di fare qualsiasi modifica.</ta
       </trans-unit>
       <trans-unit id="[Item/Properties/AutoFill/KeePassXC/title]" xml:space="preserve">
         <source>Password AutoFill (KeePassXC)</source>
-        <target state="needs-translation">Password AutoFill (KeePassXC)</target>
+        <target state="translated">Inserimento automatico (KeePassXC)</target>
         <note>Title of a setting: whether the item (e.g. entry) should be used in AutoFill feature. App-specific setting for KeePassXC.</note>
       </trans-unit>
       <trans-unit id="[Item/Properties/AutoFill/allowed]" xml:space="preserve">
@@ -1831,12 +1871,12 @@ Assicurati di avere una copia del database prima di fare qualsiasi modifica.</ta
       </trans-unit>
       <trans-unit id="[Item/Properties/AutoFill/disabled]" xml:space="preserve">
         <source>Disabled</source>
-        <target state="needs-translation">Disabled</target>
+        <target state="translated">Disattivato</target>
         <note>Possible value of the `Password AutoFill` setting. For example: 'Password AutoFill: Disabled'</note>
       </trans-unit>
       <trans-unit id="[Item/Properties/AutoFill/title]" xml:space="preserve">
         <source>Password AutoFill</source>
-        <target state="needs-translation">Password AutoFill</target>
+        <target state="translated">Inserimento automatico</target>
         <note>Title of a setting: whether the item (e.g. entry) should be used in AutoFill feature</note>
       </trans-unit>
       <trans-unit id="[Item/Properties/PasswordAudit/allowed]" xml:space="preserve">
@@ -1846,7 +1886,7 @@ Assicurati di avere una copia del database prima di fare qualsiasi modifica.</ta
       </trans-unit>
       <trans-unit id="[Item/Properties/PasswordAudit/disabled]" xml:space="preserve">
         <source>Disabled</source>
-        <target state="needs-translation">Disabled</target>
+        <target state="translated">Disattivato</target>
         <note>Possible value of the `Password Audit` setting. For example: 'Password Audit: Disabled'</note>
       </trans-unit>
       <trans-unit id="[Item/Properties/PasswordAudit/title]" xml:space="preserve">
@@ -1861,7 +1901,7 @@ Assicurati di avere una copia del database prima di fare qualsiasi modifica.</ta
       </trans-unit>
       <trans-unit id="[Item/Properties/Search/disabled]" xml:space="preserve">
         <source>Disabled</source>
-        <target state="needs-translation">Disabled</target>
+        <target state="translated">Disattivato</target>
         <note>Possible value of the `Search` setting, when the item should be excluded from search results. Example: 'Search: Disabled'</note>
       </trans-unit>
       <trans-unit id="[Item/Properties/Search/title] Search" xml:space="preserve" approved="yes">
@@ -1871,12 +1911,12 @@ Assicurati di avere una copia del database prima di fare qualsiasi modifica.</ta
       </trans-unit>
       <trans-unit id="[Item/Properties/inheritedValue]" xml:space="preserve">
         <source>Inherit from parent group (%@)</source>
-        <target state="needs-translation">Inherit from parent group (%@)</target>
+        <target state="translated">Eredita dal gruppo genitore</target>
         <note>Default value of an item property. For example: 'Password Audit: Inherit from parent group (Allowed)'. [inheritedValue: String]</note>
       </trans-unit>
       <trans-unit id="[Item/Properties/title]" xml:space="preserve">
         <source>Properties</source>
-        <target state="needs-translation">Properties</target>
+        <target state="translated">Proprietà</target>
         <note>Title of a list with item (e.g. entry) properties/settings, such as searchability, auto-typing, etc</note>
       </trans-unit>
       <trans-unit id="[ItemCategory] Default (KeePass)" xml:space="preserve">
@@ -1899,6 +1939,16 @@ Assicurati di avere una copia del database prima di fare qualsiasi modifica.</ta
         <target state="translated">Elaboro la chiave principale</target>
         <note>Status message: processing of the master key is in progress</note>
       </trans-unit>
+      <trans-unit id="[KeyFile/Create/action]" xml:space="preserve">
+        <source>Create Key File</source>
+        <target state="translated">Crea file chiave</target>
+        <note>Action: create new key file.</note>
+      </trans-unit>
+      <trans-unit id="[KeyFile/Create/defaultName]" xml:space="preserve">
+        <source>keyfile.dat</source>
+        <target state="translated">filechiave.dat</target>
+        <note>Default name for new key files. Should match the `key file` term in the glossary.</note>
+      </trans-unit>
       <trans-unit id="[KeyFile/Delete/Confirm/text] Delete key file?&#10; Make sure you have a backup." xml:space="preserve">
         <source>Delete key file?
  Make sure you have a backup.</source>
@@ -1911,12 +1961,32 @@ Assicurati di avere una copia.</target>
         <target state="translated">File chiave</target>
         <note>Name of an input field which shows selected key file</note>
       </trans-unit>
+      <trans-unit id="[KeyFile/Import/actionDescription]" xml:space="preserve">
+        <source>Add file to the app</source>
+        <target state="translated">Aggiungi file all'app</target>
+        <note>Description of the `Import Key File` action.</note>
+      </trans-unit>
+      <trans-unit id="[KeyFile/Import/action]" xml:space="preserve">
+        <source>Import Key File</source>
+        <target state="translated">Importa file chiave</target>
+        <note>Action: import/add a key file into the app. `Key file` is a glossary term.</note>
+      </trans-unit>
       <trans-unit id="[KeyFile/Remove/Confirm/text] Remove key file from the list?&#10; The file will remain intact and you can add it again later." xml:space="preserve">
         <source>Remove key file from the list?
  The file will remain intact and you can add it again later.</source>
         <target state="translated">Rimuovere file chiave dalla lista?
 Il file rimarrà intatto e potrai aggiungerlo di nuovo in seguito.</target>
         <note>Message to confirm removal of a key file from the app. (This keeps the file, but removes its reference from the app.)</note>
+      </trans-unit>
+      <trans-unit id="[KeyFile/Use/actionDescription]" xml:space="preserve">
+        <source>Use without adding</source>
+        <target state="translated">Usa senza aggiungere</target>
+        <note>Description of the `Select Key File` action.</note>
+      </trans-unit>
+      <trans-unit id="[KeyFile/Use/action]" xml:space="preserve">
+        <source>Select Key File</source>
+        <target state="translated">Seleziona file chiave</target>
+        <note>Action: use a key file at its storage location, without importing to the app.</note>
       </trans-unit>
       <trans-unit id="[KeyFileError/Corrupted/title]" xml:space="preserve" approved="yes">
         <source>Key file is corrupted</source>
@@ -2000,7 +2070,7 @@ Il file rimarrà intatto e potrai aggiungerlo di nuovo in seguito.</target>
       </trans-unit>
       <trans-unit id="[Org/LicenseMissing]" xml:space="preserve">
         <source>KeePassium could not find the enterprise account of your organization.</source>
-        <target state="translated">KeePassium non ha trovato l'account aziendale della tua organizzazione.</target>
+        <target state="translated">KeePassium non ha trovato l'account aziendale della tua istituzione.</target>
         <note>Error message, euphemism for missing corporate license</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/CannotGenerateText/title]" xml:space="preserve">
@@ -2268,9 +2338,9 @@ Il file rimarrà intatto e potrai aggiungerlo di nuovo in seguito.</target>
         <target state="final">Acquista ora</target>
         <note>Call to action</note>
       </trans-unit>
-      <trans-unit id="[Premium/CallToAction/free]" xml:space="preserve" approved="yes">
+      <trans-unit id="[Premium/CallToAction/free]" xml:space="preserve">
         <source>Continue Testing</source>
-        <target state="final">Continua a testare</target>
+        <target state="translated">Continua prova</target>
         <note>Call to action: continue using the free version</note>
       </trans-unit>
       <trans-unit id="[Premium/CallToAction/startTrial]" xml:space="preserve">
@@ -2957,7 +3027,7 @@ Può succedere con database di grandi dimensioni o con impostazioni database tro
       </trans-unit>
       <trans-unit id="[Settings/Managed/notification]" xml:space="preserve">
         <source>This setting is managed by your organization.</source>
-        <target state="needs-translation">This setting is managed by your organization.</target>
+        <target state="translated">Questa impostazione è gestita dalla tua istituzione.</target>
         <note>Notification when corporate user tries to change an app setting controlled by organization's IT department.</note>
       </trans-unit>
       <trans-unit id="[Settings/NetworkAccess/Confirmation/text]" xml:space="preserve">
@@ -3165,11 +3235,11 @@ Può succedere con database di grandi dimensioni o con impostazioni database tro
       </trans-unit>
       <trans-unit id="/[Generic/Count/Threads]:dict/GenericCountThreads:dict/one:dict/:string">
         <source>%d thread</source>
-        <target state="needs-translation">%d thread</target>
+        <target state="translated">%d thread</target>
       </trans-unit>
       <trans-unit id="/[Generic/Count/Threads]:dict/GenericCountThreads:dict/other:dict/:string">
         <source>%d threads</source>
-        <target state="needs-translation">%d threads</target>
+        <target state="translated">%d thread</target>
       </trans-unit>
     </body>
   </file>

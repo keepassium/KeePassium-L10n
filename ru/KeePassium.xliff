@@ -82,6 +82,16 @@ Please contact us if you need help with this.</source>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.2" build-num="15C500b"/>
     </header>
     <body>
+      <trans-unit id="DKP-uL-37z.configuration.title" xml:space="preserve" translate="no">
+        <source>{Connect to server}</source>
+        <target state="needs-translation">{Connect to server}</target>
+        <note>Class = "UIButton"; configuration.title = "{Connect to server}"; ObjectID = "DKP-uL-37z";</note>
+      </trans-unit>
+      <trans-unit id="DKP-uL-37z.normalTitle" xml:space="preserve" translate="no">
+        <source>{Connect to server}</source>
+        <target state="needs-translation">{Connect to server}</target>
+        <note>Class = "UIButton"; normalTitle = "{Connect to server}"; ObjectID = "DKP-uL-37z";</note>
+      </trans-unit>
       <trans-unit id="Gck-9R-sGq.normalTitle" xml:space="preserve">
         <source>Skip</source>
         <target state="translated">Пропустить</target>
@@ -96,6 +106,11 @@ Please contact us if you need help with this.</source>
         <source>{Footer text}</source>
         <target state="needs-translation">{Footer text}</target>
         <note>Class = "UITextView"; text = "{Footer text}"; ObjectID = "UAW-0G-N5G"; Note = "#bc-ignore!";</note>
+      </trans-unit>
+      <trans-unit id="enW-gs-tra.configuration.title" xml:space="preserve" approved="yes">
+        <source>Add Database</source>
+        <target state="final">Добавить базу паролей</target>
+        <note>Class = "UIButton"; configuration.title = "Add Database"; ObjectID = "enW-gs-tra";</note>
       </trans-unit>
       <trans-unit id="enW-gs-tra.normalTitle" xml:space="preserve" approved="yes">
         <source>Add Database</source>
@@ -216,6 +231,16 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <target state="final">Файл базы паролей</target>
         <note>Class = "UILabel"; text = "Database File Name"; ObjectID = "2iK-ct-ygq";</note>
       </trans-unit>
+      <trans-unit id="6gJ-zZ-l4s.configuration.title" xml:space="preserve" translate="no">
+        <source>{Save to Server}</source>
+        <target state="needs-translation">{Save to Server}</target>
+        <note>Class = "UIButton"; configuration.title = "{Save to Server}"; ObjectID = "6gJ-zZ-l4s";</note>
+      </trans-unit>
+      <trans-unit id="6gJ-zZ-l4s.normalTitle" xml:space="preserve" translate="no">
+        <source>{Send to Server}</source>
+        <target state="needs-translation">{Send to Server}</target>
+        <note>Class = "UIButton"; normalTitle = "{Send to Server}"; ObjectID = "6gJ-zZ-l4s";</note>
+      </trans-unit>
       <trans-unit id="VjQ-di-Ilx.text" xml:space="preserve" approved="yes">
         <source>Master Key</source>
         <target state="final">Мастер-ключ</target>
@@ -231,15 +256,15 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <target state="final">МоиПароли</target>
         <note>Class = "UITextField"; text = "MyPasswords"; ObjectID = "XNL-lc-2Ti"; Note = "Default name for a new database.";</note>
       </trans-unit>
-      <trans-unit id="XVR-1N-ywy.text" xml:space="preserve" approved="yes">
-        <source>Will use kdbx4 format (Argon2+ChaCha20)</source>
-        <target state="final">Используя формат kdbx4 (Argon2+ChaCha20)</target>
-        <note>Class = "UILabel"; text = "Will use kdbx4 format (Argon2+ChaCha20)"; ObjectID = "XVR-1N-ywy"; Note = "Hint about the default format of new databases.";</note>
-      </trans-unit>
       <trans-unit id="dhd-je-Doc.title" xml:space="preserve" translate="no">
         <source>{Create Database}</source>
         <target state="needs-translation">{Create Database}</target>
         <note>Class = "UINavigationItem"; title = "{Create Database}"; ObjectID = "dhd-je-Doc"; Note = "#bc-ignore!";</note>
+      </trans-unit>
+      <trans-unit id="h6C-CG-RVI.configuration.title" xml:space="preserve" approved="yes">
+        <source>Save Database</source>
+        <target state="final">Сохранить базу паролей</target>
+        <note>Class = "UIButton"; configuration.title = "Save Database"; ObjectID = "h6C-CG-RVI"; Note = "Action: save the new database (will show a file picker dialog).";</note>
       </trans-unit>
       <trans-unit id="h6C-CG-RVI.normalTitle" xml:space="preserve" approved="yes">
         <source>Save Database</source>
@@ -377,6 +402,11 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <target state="needs-translation">{ViewableFieldCell}</target>
         <note>Class = "UILabel"; text = "{ViewableFieldCell}"; ObjectID = "46A-ga-B85"; Note = "#bc-ignore!";</note>
       </trans-unit>
+      <trans-unit id="B10-Sf-FMR.text" xml:space="preserve" translate="no">
+        <source>{Field Value}</source>
+        <target state="needs-translation">{Field Value}</target>
+        <note>Class = "UITextView"; text = "{Field Value}"; ObjectID = "B10-Sf-FMR"; Note = "#bc-ignore!";</note>
+      </trans-unit>
       <trans-unit id="L5V-vy-3To.text" xml:space="preserve" translate="no">
         <source>{ViewableFieldCell}</source>
         <target state="needs-translation">{ViewableFieldCell}</target>
@@ -386,6 +416,11 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <source>{Field Value}</source>
         <target state="needs-translation">{Field Value}</target>
         <note>Class = "UITextView"; text = "{Field Value}"; ObjectID = "Lyz-4O-dvw"; Note = "#bc-ignore!";</note>
+      </trans-unit>
+      <trans-unit id="Wky-nB-Nyy.text" xml:space="preserve" translate="no">
+        <source>{GenericTextCell}</source>
+        <target state="needs-translation">{GenericTextCell}</target>
+        <note>Class = "UILabel"; text = "{GenericTextCell}"; ObjectID = "Wky-nB-Nyy"; Note = "#bc-ignore!";</note>
       </trans-unit>
       <trans-unit id="jZZ-fa-lax.text" xml:space="preserve" translate="no">
         <source>{Field Name}</source>
@@ -560,10 +595,20 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <target state="final">Добавить поле</target>
         <note>Class = "UIBarButtonItem"; HGI-xq-zUf.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Add Custom Field"; ObjectID = "HGI-xq-zUf";</note>
       </trans-unit>
+      <trans-unit id="MCF-pf-BwZ.text" xml:space="preserve" translate="no">
+        <source>{Field Value}</source>
+        <target state="needs-translation">{Field Value}</target>
+        <note>Class = "UITextField"; text = "{Field Value}"; ObjectID = "MCF-pf-BwZ"; Note = "#bc-ignore!";</note>
+      </trans-unit>
       <trans-unit id="Ro2-Xv-zrw.text" xml:space="preserve" translate="no">
         <source>{Field Value}</source>
         <target state="needs-translation">{Field Value}</target>
         <note>Class = "UITextField"; text = "{Field Value}"; ObjectID = "Ro2-Xv-zrw"; Note = "#bc-ignore!";</note>
+      </trans-unit>
+      <trans-unit id="bcH-X1-BtY.text" xml:space="preserve" translate="no">
+        <source>{Field Name}</source>
+        <target state="needs-translation">{Field Name}</target>
+        <note>Class = "UILabel"; text = "{Field Name}"; ObjectID = "bcH-X1-BtY"; Note = "#bc-ignore!";</note>
       </trans-unit>
       <trans-unit id="ecN-Xd-ff5.accessibilityLabel" xml:space="preserve">
         <source>Custom field name</source>
@@ -750,25 +795,10 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <target state="final">Без ключевого файла</target>
         <note>Class = "UILabel"; text = "No Key File"; ObjectID = "9UZ-FK-v73";</note>
       </trans-unit>
-      <trans-unit id="BGv-TX-maE.text" xml:space="preserve">
-        <source>Use key file without adding it to the list</source>
-        <target state="translated">Использовать ключевой файл, не добавляя его в список</target>
-        <note>Class = "UILabel"; text = "Use key file without adding it to the list"; ObjectID = "BGv-TX-maE"; Note = "Explanation for the \"Key File/Browse\" action.";</note>
-      </trans-unit>
       <trans-unit id="Lod-RE-tcd.title" xml:space="preserve" approved="yes">
         <source>Add Key File</source>
         <target state="final">Добавить ключевой файл</target>
         <note>Class = "UIBarButtonItem"; title = "Add Key File"; ObjectID = "Lod-RE-tcd";</note>
-      </trans-unit>
-      <trans-unit id="Omh-Sn-jl2.normalTitle" xml:space="preserve" approved="yes">
-        <source>Add Key File</source>
-        <target state="final">Добавить ключевой файл</target>
-        <note>Class = "UIButton"; normalTitle = "Add Key File"; ObjectID = "Omh-Sn-jl2";</note>
-      </trans-unit>
-      <trans-unit id="XiA-k9-5wr.text" xml:space="preserve">
-        <source>Browse…</source>
-        <target state="translated">Обзор…</target>
-        <note>Class = "UILabel"; text = "Browse…"; ObjectID = "XiA-k9-5wr"; Note = "Action to open a file selection dialog";</note>
       </trans-unit>
       <trans-unit id="jCW-yW-0I5.text" xml:space="preserve" translate="no">
         <source>{Database File Name}</source>
@@ -1013,6 +1043,86 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <target state="translated">Настройки…</target>
         <note>Menu title: app settings</note>
       </trans-unit>
+      <trans-unit id="[Onboarding/AddExistingDatabase/action]" xml:space="preserve">
+        <source>Add Existing Database</source>
+        <target state="translated">Добавить свою базу</target>
+        <note>Action/button</note>
+      </trans-unit>
+      <trans-unit id="[Onboarding/AppProtection/activate]" xml:space="preserve">
+        <source>Activate App Protection</source>
+        <target state="translated">Активировать защиту приложения</target>
+        <note>Action/button to set up the App Protection feature. Not a call to action.</note>
+      </trans-unit>
+      <trans-unit id="[Onboarding/AppProtection/text1]" xml:space="preserve">
+        <source>KeePassium is your vault. App protection ensures that only you can open it.</source>
+        <target state="translated">KeePassium — это ваше банковское хранилище. Блокировка приложения гарантирует, что только вы сможете открыть его.</target>
+        <note>Text in the App Protection onboarding screen.</note>
+      </trans-unit>
+      <trans-unit id="[Onboarding/AppProtection/title]" xml:space="preserve">
+        <source>For Your Eyes Only</source>
+        <target state="translated">Только для ваших глаз</target>
+        <note>Title of the App Protection onboarding screen</note>
+      </trans-unit>
+      <trans-unit id="[Onboarding/CreateNewDatabase/action]" xml:space="preserve">
+        <source>Create New Database</source>
+        <target state="translated">Создать новую базу</target>
+        <note>Action/button</note>
+      </trans-unit>
+      <trans-unit id="[Onboarding/DataEncryption/text1]" xml:space="preserve">
+        <source>Your safe box is an encrypted database.</source>
+        <target state="translated">Ваш сейф — это зашифрованная база паролей.</target>
+        <note>Text in the Data Encryption intro screen</note>
+      </trans-unit>
+      <trans-unit id="[Onboarding/DataEncryption/text2]" xml:space="preserve">
+        <source>You can keep databases in your favorite cloud or locally on device.</source>
+        <target state="translated">Вы можете хранить базы в своём любимом облаке или локально на устройстве.</target>
+        <note>Text in the Data Encryption intro screen</note>
+      </trans-unit>
+      <trans-unit id="[Onboarding/DataEncryption/title]" xml:space="preserve">
+        <source>Data Encryption</source>
+        <target state="translated">Шифрование данных</target>
+        <note>Title of the Data Encryption intro screen</note>
+      </trans-unit>
+      <trans-unit id="[Onboarding/Intro/text1]" xml:space="preserve">
+        <source>KeePassium keeps your passwords and other sensitive info securely encrypted.</source>
+        <target state="translated">KeePassium защищает ваши пароли и другую важную информацию надёжным шифрованием.</target>
+        <note>Text in the introductory onboarding screen.</note>
+      </trans-unit>
+      <trans-unit id="[Onboarding/Intro/text2]" xml:space="preserve">
+        <source>There are no ads and no tracking.</source>
+        <target state="translated">Без рекламы и слежки.</target>
+        <note>Text in the introductory onboarding screen.</note>
+      </trans-unit>
+      <trans-unit id="[Onboarding/Intro/text3]" xml:space="preserve">
+        <source>We don't know anything about you.</source>
+        <target state="translated">Мы ничего о вас не знаем.</target>
+        <note>Text in the introductory onboarding screen.</note>
+      </trans-unit>
+      <trans-unit id="[Onboarding/Intro/text4]" xml:space="preserve">
+        <source>Your data belongs to you.</source>
+        <target state="translated">Ваши данные принадлежат вам.</target>
+        <note>Text in the introductory onboarding screen.</note>
+      </trans-unit>
+      <trans-unit id="[Onboarding/Intro/title]" xml:space="preserve">
+        <source>Welcome</source>
+        <target state="translated">Добро пожаловать</target>
+        <note>Title of the introductory onboarding screen.</note>
+      </trans-unit>
+      <trans-unit id="[Onboarding/Security/text1]" xml:space="preserve">
+        <source>Your info is encrypted in a safe box (database). Safe boxes are stored in a vault (KeePassium).</source>
+        <target state="translated">Ваша информация сохраняется в зашифрованный сейф (базу паролей). Сейфы находятся банковском хранилище (KeePassium).</target>
+        <note>Text in the Security intro screen</note>
+      </trans-unit>
+      <trans-unit id="[Onboarding/Security/text2]" xml:space="preserve">
+        <source>The vault and safe boxes have different keys and only you will know them.</source>
+        <target state="translated">Хранилище и сейфы имеют разные ключи, и только вы будете их знать.</target>
+        <note>Text in the Security intro screen</note>
+      </trans-unit>
+      <trans-unit id="[Onboarding/Security/title]" xml:space="preserve">
+        <source>Maximum Security</source>
+        <target state="translated">Максимальная надёжность</target>
+        <note>Title of the Security intro screen</note>
+      </trans-unit>
       <trans-unit id="[PasswordAudit/Action/Exclude]" xml:space="preserve">
         <source>Exclude From Audit</source>
         <target state="translated">Исключить из аудита</target>
@@ -1117,6 +1227,51 @@ KeePassium отправит сервису [Have I Been Pwned](https://haveibeen
         <source>Exclude selection from password audit?</source>
         <target state="translated">Исключить выбранное из аудита паролей?</target>
         <note>Title of the confirmation dialog for `Exclude from audit` action for several items</note>
+      </trans-unit>
+      <trans-unit id="[Tags/Create/action]" xml:space="preserve">
+        <source>Create Tag</source>
+        <target state="translated">Создать тег</target>
+        <note>Action/button to create a new item tag</note>
+      </trans-unit>
+      <trans-unit id="[Tags/Create/placeholder]" xml:space="preserve">
+        <source>Enter tag name</source>
+        <target state="translated">Введите название тега</target>
+        <note>Call to action/hint inside a text input</note>
+      </trans-unit>
+      <trans-unit id="[Tags/Create/title]" xml:space="preserve">
+        <source>New Tag</source>
+        <target state="translated">Новый тег</target>
+        <note>Title of the tag creation dialog</note>
+      </trans-unit>
+      <trans-unit id="[Tags/None/placeholder]" xml:space="preserve">
+        <source>There are no tags in the database, add some.</source>
+        <target state="translated">В этой базе нет тегов, вы можете их добавить.</target>
+        <note>Status message with a call to action</note>
+      </trans-unit>
+      <trans-unit id="[Tags/Search/emptyResult]" xml:space="preserve">
+        <source>No suitable tags found.</source>
+        <target state="translated">Подходящих тегов не найдено.</target>
+        <note>Status message: tag search result is empty</note>
+      </trans-unit>
+      <trans-unit id="[Tags/Section/All]" xml:space="preserve">
+        <source>All Tags</source>
+        <target state="translated">Все теги</target>
+        <note>Title of a list with all the tags existing in the database.</note>
+      </trans-unit>
+      <trans-unit id="[Tags/Section/Inherited]" xml:space="preserve">
+        <source>Inherited Tags</source>
+        <target state="translated">Унаследованные теги</target>
+        <note>Title of a list with tags used by parent groups.</note>
+      </trans-unit>
+      <trans-unit id="[Tags/Section/Selected]" xml:space="preserve">
+        <source>Selected Tags</source>
+        <target state="translated">Выбранные теги</target>
+        <note>Title of a list with tags chosen by the user for a specific entry or group.</note>
+      </trans-unit>
+      <trans-unit id="[Tags/UsageCount/title]" xml:space="preserve">
+        <source>Usage count</source>
+        <target state="translated">Упоминаний</target>
+        <note>Title: the number of times a tag is encountered in the database.</note>
       </trans-unit>
     </body>
   </file>
@@ -1469,33 +1624,6 @@ KeePassium отправит сервису [Have I Been Pwned](https://haveibeen
       </trans-unit>
     </body>
   </file>
-  <file original="KeePassium/general/changelog/Base.lproj/AppHistoryViewerVC.storyboard" source-language="en" target-language="ru" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.0.1" build-num="15A507"/>
-    </header>
-    <body>
-      <trans-unit id="9Zh-Kk-7yq.title" xml:space="preserve" translate="no">
-        <source>{What's New}</source>
-        <target state="needs-translation">{What's New}</target>
-        <note>Class = "UITableViewController"; title = "{What's New}"; ObjectID = "9Zh-Kk-7yq";</note>
-      </trans-unit>
-      <trans-unit id="D5J-1z-JKZ.text" xml:space="preserve" translate="no">
-        <source>{Detail}</source>
-        <target state="needs-translation">{Detail}</target>
-        <note>Class = "UILabel"; text = "{Detail}"; ObjectID = "D5J-1z-JKZ"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="b92-Zs-oKL.text" xml:space="preserve" translate="no">
-        <source>{Title}</source>
-        <target state="needs-translation">{Title}</target>
-        <note>Class = "UILabel"; text = "{Title}"; ObjectID = "b92-Zs-oKL"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="f1G-Tl-xxh.text" xml:space="preserve" translate="no">
-        <source>{Perpetual license status}</source>
-        <target state="needs-translation">{Perpetual license status}</target>
-        <note>Class = "UILabel"; text = "{Perpetual license status}"; ObjectID = "f1G-Tl-xxh"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="KeePassium/general/file-info/Base.lproj/FileInfoVC.storyboard" source-language="en" target-language="ru" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.2" build-num="15C500b"/>
@@ -1515,40 +1643,6 @@ KeePassium отправит сервису [Have I Been Pwned](https://haveibeen
         <source>{Field Name}</source>
         <target state="needs-translation">{Field Name}</target>
         <note>Class = "UILabel"; text = "{Field Name}"; ObjectID = "nFy-Ox-yrc";</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="KeePassium/general/onboarding/Base.lproj/WelcomeVC.storyboard" source-language="en" target-language="ru" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.0.1" build-num="15A507"/>
-    </header>
-    <body>
-      <trans-unit id="1Nc-wz-Yqq.title" xml:space="preserve" approved="yes">
-        <source>Welcome</source>
-        <target state="final">Добро пожаловать</target>
-        <note>Class = "UIViewController"; title = "Welcome"; ObjectID = "1Nc-wz-Yqq"; Note = "Onboarding screen shown on first launch";</note>
-      </trans-unit>
-      <trans-unit id="4wh-8O-5Ch.normalTitle" xml:space="preserve" approved="yes">
-        <source>Create New Database</source>
-        <target state="final">Создать новую базу</target>
-        <note>Class = "UIButton"; normalTitle = "Create New Database"; ObjectID = "4wh-8O-5Ch";</note>
-      </trans-unit>
-      <trans-unit id="PgB-6p-H0t.text" xml:space="preserve" approved="yes">
-        <source>KeePassium stores your passwords, credit cards and other information in an encrypted file (database). 
-You can have multiple databases, for example to separate work, family and personal accounts.</source>
-        <target state="final">KeePassium хранит пароли и другую важную информацию в зашифрованном файле (базе паролей). 
-Можно использовать несколько баз — например, чтобы разделить рабочие, семейные и личные аккаунты.</target>
-        <note>Class = "UILabel"; text = "KeePassium stores your passwords, credit cards and other information in an encrypted file (database). \nYou can have multiple databases, for example to separate work, family and personal accounts."; ObjectID = "PgB-6p-H0t";</note>
-      </trans-unit>
-      <trans-unit id="QE2-z7-uZe.normalTitle" xml:space="preserve" translate="no">
-        <source>{Connect to server}</source>
-        <target state="needs-translation">{Connect to server}</target>
-        <note>Class = "UIButton"; normalTitle = "{Connect to server}"; ObjectID = "QE2-z7-uZe";</note>
-      </trans-unit>
-      <trans-unit id="ZKW-2f-Xkz.normalTitle" xml:space="preserve" approved="yes">
-        <source>Add Existing Database</source>
-        <target state="final">Добавить свою базу</target>
-        <note>Class = "UIButton"; normalTitle = "Add Existing Database"; ObjectID = "ZKW-2f-Xkz";</note>
       </trans-unit>
     </body>
   </file>
