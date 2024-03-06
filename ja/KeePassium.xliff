@@ -735,9 +735,9 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <note>Class = "UIBarButtonItem"; rF3-mC-kj1.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Settings"; ObjectID = "rF3-mC-kj1";</note>
       </trans-unit>
       <trans-unit id="tpA-i1-ah8.text" xml:space="preserve">
-        <source>No entries found</source>
-        <target state="translated">エントリーが見つかりません</target>
-        <note>Class = "UILabel"; text = "No entries found"; ObjectID = "tpA-i1-ah8";</note>
+        <source>No entries or groups found</source>
+        <target state="needs-translation">No entries or groups found</target>
+        <note>Class = "UILabel"; text = "No entries or groups found"; ObjectID = "tpA-i1-ah8";</note>
       </trans-unit>
       <trans-unit id="ttY-yZ-yRg.text" xml:space="preserve" translate="no">
         <source>{nItems}</source>
@@ -748,23 +748,6 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <source>{OTP}</source>
         <target state="needs-translation">{OTP}</target>
         <note>Class = "UIButton"; normalTitle = "{OTP}"; ObjectID = "x2j-8N-gU5";</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="KeePassium/database/hardware-key/Base.lproj/HardwareKeyPicker.storyboard" source-language="en" target-language="ja" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.2" build-num="15C500b"/>
-    </header>
-    <body>
-      <trans-unit id="fH6-bS-mDZ.title" xml:space="preserve">
-        <source>Choose Hardware Key</source>
-        <target state="translated">ハードウェアキーの選択</target>
-        <note>Class = "UITableViewController"; title = "Choose Hardware Key"; ObjectID = "fH6-bS-mDZ"; Note = "Title of the hardware key selector (e.g. for YubiKey)";</note>
-      </trans-unit>
-      <trans-unit id="v2F-pa-TaY.text" xml:space="preserve" translate="no">
-        <source>{Title}</source>
-        <target state="needs-translation">{Title}</target>
-        <note>Class = "UILabel"; text = "{Title}"; ObjectID = "v2F-pa-TaY"; Note = "#bc-ignore!";</note>
       </trans-unit>
     </body>
   </file>
@@ -992,6 +975,11 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <source>OS</source>
         <target state="translated">OS</target>
         <note>Predefined `Operating system` group in a new database</note>
+      </trans-unit>
+      <trans-unit id="[Database/Create/orgRequiresStronger]" xml:space="preserve">
+        <source>Your organization requires a more complex database password.</source>
+        <target state="needs-translation">Your organization requires a more complex database password.</target>
+        <note>Notification for business users when they set up too weak database password.</note>
       </trans-unit>
       <trans-unit id="[Database/Create] Please enter a password or choose a key file." xml:space="preserve">
         <source>Please enter a password or choose a key file.</source>

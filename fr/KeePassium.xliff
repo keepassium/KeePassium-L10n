@@ -735,9 +735,9 @@ Par conséquent, la fonction de Saisie automatique et l'application principale K
         <note>Class = "UIBarButtonItem"; rF3-mC-kj1.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Settings"; ObjectID = "rF3-mC-kj1";</note>
       </trans-unit>
       <trans-unit id="tpA-i1-ah8.text" xml:space="preserve">
-        <source>No entries found</source>
-        <target state="translated">Aucune entrée trouvée</target>
-        <note>Class = "UILabel"; text = "No entries found"; ObjectID = "tpA-i1-ah8";</note>
+        <source>No entries or groups found</source>
+        <target state="translated">Aucune entrée ou groupe trouvé</target>
+        <note>Class = "UILabel"; text = "No entries or groups found"; ObjectID = "tpA-i1-ah8";</note>
       </trans-unit>
       <trans-unit id="ttY-yZ-yRg.text" xml:space="preserve" translate="no">
         <source>{nItems}</source>
@@ -748,23 +748,6 @@ Par conséquent, la fonction de Saisie automatique et l'application principale K
         <source>{OTP}</source>
         <target state="needs-translation">{OTP}</target>
         <note>Class = "UIButton"; normalTitle = "{OTP}"; ObjectID = "x2j-8N-gU5";</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="KeePassium/database/hardware-key/Base.lproj/HardwareKeyPicker.storyboard" source-language="en" target-language="fr" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.2" build-num="15C500b"/>
-    </header>
-    <body>
-      <trans-unit id="fH6-bS-mDZ.title" xml:space="preserve">
-        <source>Choose Hardware Key</source>
-        <target state="translated">Choix de la clef matérielle</target>
-        <note>Class = "UITableViewController"; title = "Choose Hardware Key"; ObjectID = "fH6-bS-mDZ"; Note = "Title of the hardware key selector (e.g. for YubiKey)";</note>
-      </trans-unit>
-      <trans-unit id="v2F-pa-TaY.text" xml:space="preserve" translate="no">
-        <source>{Title}</source>
-        <target state="needs-translation">{Title}</target>
-        <note>Class = "UILabel"; text = "{Title}"; ObjectID = "v2F-pa-TaY"; Note = "#bc-ignore!";</note>
       </trans-unit>
     </body>
   </file>
@@ -993,6 +976,11 @@ Par conséquent, la fonction de Saisie automatique et l'application principale K
         <target state="translated">Système d'exploitation</target>
         <note>Predefined `Operating system` group in a new database</note>
       </trans-unit>
+      <trans-unit id="[Database/Create/orgRequiresStronger]" xml:space="preserve">
+        <source>Your organization requires a more complex database password.</source>
+        <target state="translated">Votre organisation a besoin d'un mot de passe de base de données plus complexe.</target>
+        <note>Notification for business users when they set up too weak database password.</note>
+      </trans-unit>
       <trans-unit id="[Database/Create] Please enter a password or choose a key file." xml:space="preserve">
         <source>Please enter a password or choose a key file.</source>
         <target state="translated">Veuillez entrer un mot de passe ou choisir un fichier clé.</target>
@@ -1055,12 +1043,12 @@ Par conséquent, la fonction de Saisie automatique et l'application principale K
       </trans-unit>
       <trans-unit id="[Onboarding/AppProtection/text1]" xml:space="preserve">
         <source>KeePassium is your vault. App protection ensures that only you can open it.</source>
-        <target state="needs-translation">KeePassium is your vault. App protection ensures that only you can open it.</target>
+        <target state="translated">KeePassium est votre coffre-fort. La protection de l'application garantit que vous seul(e) pouvez l'ouvrir.</target>
         <note>Text in the App Protection onboarding screen.</note>
       </trans-unit>
       <trans-unit id="[Onboarding/AppProtection/title]" xml:space="preserve">
         <source>For Your Eyes Only</source>
-        <target state="needs-translation">For Your Eyes Only</target>
+        <target state="translated">Strictement confidentiel</target>
         <note>Title of the App Protection onboarding screen</note>
       </trans-unit>
       <trans-unit id="[Onboarding/CreateNewDatabase/action]" xml:space="preserve">
@@ -1070,57 +1058,57 @@ Par conséquent, la fonction de Saisie automatique et l'application principale K
       </trans-unit>
       <trans-unit id="[Onboarding/DataEncryption/text1]" xml:space="preserve">
         <source>Your safe box is an encrypted database.</source>
-        <target state="needs-translation">Your safe box is an encrypted database.</target>
+        <target state="translated">Votre coffre-fort est une base de données chiffrée.</target>
         <note>Text in the Data Encryption intro screen</note>
       </trans-unit>
       <trans-unit id="[Onboarding/DataEncryption/text2]" xml:space="preserve">
         <source>You can keep databases in your favorite cloud or locally on device.</source>
-        <target state="needs-translation">You can keep databases in your favorite cloud or locally on device.</target>
+        <target state="translated">Vous pouvez conserver les bases de données dans votre nuage favori ou localement sur votre appareil.</target>
         <note>Text in the Data Encryption intro screen</note>
       </trans-unit>
       <trans-unit id="[Onboarding/DataEncryption/title]" xml:space="preserve">
         <source>Data Encryption</source>
-        <target state="needs-translation">Data Encryption</target>
+        <target state="translated">Chiffrement des données</target>
         <note>Title of the Data Encryption intro screen</note>
       </trans-unit>
       <trans-unit id="[Onboarding/Intro/text1]" xml:space="preserve">
         <source>KeePassium keeps your passwords and other sensitive info securely encrypted.</source>
-        <target state="needs-translation">KeePassium keeps your passwords and other sensitive info securely encrypted.</target>
+        <target state="translated">KeePassium conserve vos mots de passe et autres informations sensibles de manière sécurisée.</target>
         <note>Text in the introductory onboarding screen.</note>
       </trans-unit>
       <trans-unit id="[Onboarding/Intro/text2]" xml:space="preserve">
         <source>There are no ads and no tracking.</source>
-        <target state="needs-translation">There are no ads and no tracking.</target>
+        <target state="translated">Il n'y a aucune publicité et aucun suivi.</target>
         <note>Text in the introductory onboarding screen.</note>
       </trans-unit>
       <trans-unit id="[Onboarding/Intro/text3]" xml:space="preserve">
         <source>We don't know anything about you.</source>
-        <target state="needs-translation">We don't know anything about you.</target>
+        <target state="translated">Nous ne savons rien à votre sujet.</target>
         <note>Text in the introductory onboarding screen.</note>
       </trans-unit>
       <trans-unit id="[Onboarding/Intro/text4]" xml:space="preserve">
         <source>Your data belongs to you.</source>
-        <target state="needs-translation">Your data belongs to you.</target>
+        <target state="translated">Vos données vous appartiennent.</target>
         <note>Text in the introductory onboarding screen.</note>
       </trans-unit>
       <trans-unit id="[Onboarding/Intro/title]" xml:space="preserve">
         <source>Welcome</source>
-        <target state="needs-translation">Welcome</target>
+        <target state="translated">Bienvenue</target>
         <note>Title of the introductory onboarding screen.</note>
       </trans-unit>
       <trans-unit id="[Onboarding/Security/text1]" xml:space="preserve">
         <source>Your info is encrypted in a safe box (database). Safe boxes are stored in a vault (KeePassium).</source>
-        <target state="needs-translation">Your info is encrypted in a safe box (database). Safe boxes are stored in a vault (KeePassium).</target>
+        <target state="translated">Vos informations sont chiffrées dans une boîte sécurisée (base de données). Les boîtes sécurisées sont stockées dans un coffre-fort (KeePassium).</target>
         <note>Text in the Security intro screen</note>
       </trans-unit>
       <trans-unit id="[Onboarding/Security/text2]" xml:space="preserve">
         <source>The vault and safe boxes have different keys and only you will know them.</source>
-        <target state="needs-translation">The vault and safe boxes have different keys and only you will know them.</target>
+        <target state="translated">Le coffre-fort et les boîtes sécurisées ont des clés différentes et vous seul(e) les connaissez.</target>
         <note>Text in the Security intro screen</note>
       </trans-unit>
       <trans-unit id="[Onboarding/Security/title]" xml:space="preserve">
         <source>Maximum Security</source>
-        <target state="needs-translation">Maximum Security</target>
+        <target state="translated">Sécurité maximale</target>
         <note>Title of the Security intro screen</note>
       </trans-unit>
       <trans-unit id="[PasswordAudit/Action/Exclude]" xml:space="preserve">
@@ -1230,47 +1218,47 @@ Vos mots de passe réels ne sont jamais partagés avec le service en ligne.
       </trans-unit>
       <trans-unit id="[Tags/Create/action]" xml:space="preserve">
         <source>Create Tag</source>
-        <target state="needs-translation">Create Tag</target>
+        <target state="translated">Créer une étiquette</target>
         <note>Action/button to create a new item tag</note>
       </trans-unit>
       <trans-unit id="[Tags/Create/placeholder]" xml:space="preserve">
         <source>Enter tag name</source>
-        <target state="needs-translation">Enter tag name</target>
+        <target state="translated">Saisissez le nom de l'étiquette</target>
         <note>Call to action/hint inside a text input</note>
       </trans-unit>
       <trans-unit id="[Tags/Create/title]" xml:space="preserve">
         <source>New Tag</source>
-        <target state="needs-translation">New Tag</target>
+        <target state="translated">Nouvelle étiquette</target>
         <note>Title of the tag creation dialog</note>
       </trans-unit>
       <trans-unit id="[Tags/None/placeholder]" xml:space="preserve">
         <source>There are no tags in the database, add some.</source>
-        <target state="needs-translation">There are no tags in the database, add some.</target>
+        <target state="translated">Il n'y a aucune étiquette dans la base de données. Ajoutez-en une.</target>
         <note>Status message with a call to action</note>
       </trans-unit>
       <trans-unit id="[Tags/Search/emptyResult]" xml:space="preserve">
         <source>No suitable tags found.</source>
-        <target state="needs-translation">No suitable tags found.</target>
+        <target state="translated">Aucune étiquette adéquate n'a été trouvée.</target>
         <note>Status message: tag search result is empty</note>
       </trans-unit>
       <trans-unit id="[Tags/Section/All]" xml:space="preserve">
         <source>All Tags</source>
-        <target state="needs-translation">All Tags</target>
+        <target state="translated">Toutes les étiquettes</target>
         <note>Title of a list with all the tags existing in the database.</note>
       </trans-unit>
       <trans-unit id="[Tags/Section/Inherited]" xml:space="preserve">
         <source>Inherited Tags</source>
-        <target state="needs-translation">Inherited Tags</target>
+        <target state="translated">Étiquettes héritées</target>
         <note>Title of a list with tags used by parent groups.</note>
       </trans-unit>
       <trans-unit id="[Tags/Section/Selected]" xml:space="preserve">
         <source>Selected Tags</source>
-        <target state="needs-translation">Selected Tags</target>
+        <target state="translated">Étiquettes sélectionnées</target>
         <note>Title of a list with tags chosen by the user for a specific entry or group.</note>
       </trans-unit>
       <trans-unit id="[Tags/UsageCount/title]" xml:space="preserve">
         <source>Usage count</source>
-        <target state="needs-translation">Usage count</target>
+        <target state="translated">Nombre d'utilisations</target>
         <note>Title: the number of times a tag is encountered in the database.</note>
       </trans-unit>
     </body>

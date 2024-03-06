@@ -80,6 +80,11 @@
         <target state="translated">Numerická</target>
         <note>Type of keyboard to show for App Lock passcode: digits only (PIN code).</note>
       </trans-unit>
+      <trans-unit id="[AppLock/Passcode/orgRequiresStonger]" xml:space="preserve">
+        <source>Your organization requires a more complex passcode.</source>
+        <target state="needs-translation">Your organization requires a more complex passcode.</target>
+        <note>Notification for business users when they set up too weak app protection passcode.</note>
+      </trans-unit>
       <trans-unit id="[AppLock/Passcode/pressEscForTouchID]" xml:space="preserve">
         <source>Press Esc for Touch ID</source>
         <target state="needs-translation">Press Esc for Touch ID</target>
@@ -1140,8 +1145,8 @@ Prosím ujistěte se, že máte zálohu vaší databáze před nedávnou změnou
         <note>Error message: there is no USB drive connected to the device.</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/ManagedAccessDenied/title]" xml:space="preserve">
-        <source>Access to this storage is disabled by your oganization.</source>
-        <target state="needs-translation">Access to this storage is disabled by your oganization.</target>
+        <source>Access to this storage is disabled by your organization.</source>
+        <target state="needs-translation">Access to this storage is disabled by your organization.</target>
         <note>Error message: organization's IT administrator has forbidden access to a data storage location.</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/NetworkAccessDenied/generic]" xml:space="preserve">
@@ -1819,6 +1824,16 @@ Prosím ujistěte se, že máte zálohu vaší databáze před nedávnou změnou
         <target state="translated">Hardwarový klíč</target>
         <note>Name of an input field which shows selected hardware key</note>
       </trans-unit>
+      <trans-unit id="[HardwareKey/Interface/LightningViaUSBAdapter]" xml:space="preserve">
+        <source>Lightning (via USB adapter)</source>
+        <target state="needs-translation">Lightning (via USB adapter)</target>
+        <note>Connector type for older Apple devices, used through a USB adapter. https://en.wikipedia.org/wiki/Lightning_(connector)</note>
+      </trans-unit>
+      <trans-unit id="[HardwareKey/LightningOverUSB/RequiresAdapter]" xml:space="preserve">
+        <source>Requires Apple USB-C to Lightning adapter</source>
+        <target state="needs-translation">Requires Apple USB-C to Lightning adapter</target>
+        <note>A notice for hardware keys that need an adapter for physical connection to device.</note>
+      </trans-unit>
       <trans-unit id="[HardwareKey/NFC/OS too old]" xml:space="preserve">
         <source>NFC requires iOS 13 or later.</source>
         <target state="translated">NFC vyžaduje iOS 13 nebo novější.</target>
@@ -1828,6 +1843,21 @@ Prosím ujistěte se, že máte zálohu vaší databáze před nedávnou změnou
         <source>No Hardware Key</source>
         <target state="translated">Žádný hardwarový klíč</target>
         <note>Master key/unlock option: don't use hardware keys</note>
+      </trans-unit>
+      <trans-unit id="[HardwareKey/Picker/title]" xml:space="preserve">
+        <source>Hardware Keys</source>
+        <target state="translated">Hardwarové klíče</target>
+        <note>Title of a list with possible hardware key connections</note>
+      </trans-unit>
+      <trans-unit id="[HardwareKey/USB/chalRespNotSupported]" xml:space="preserve">
+        <source>This device does not support challenge-response over USB connection.</source>
+        <target state="needs-translation">This device does not support challenge-response over USB connection.</target>
+        <note>Information notice. 'Challenge-response' is a glossary term.</note>
+      </trans-unit>
+      <trans-unit id="[HardwareKey/USB/iPadAppOnMac]" xml:space="preserve">
+        <source>USB is not available, because this is an iPad app running on macOS. Use the native Mac app instead.</source>
+        <target state="needs-translation">USB is not available, because this is an iPad app running on macOS. Use the native Mac app instead.</target>
+        <note>Information notice</note>
       </trans-unit>
       <trans-unit id="[HardwareKey/YubiKey/Slot] YubiKey Slot #%d" xml:space="preserve">
         <source>YubiKey Slot %d</source>

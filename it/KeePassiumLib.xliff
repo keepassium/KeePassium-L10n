@@ -80,6 +80,11 @@
         <target state="translated">Numerica</target>
         <note>Type of keyboard to show for App Lock passcode: digits only (PIN code).</note>
       </trans-unit>
+      <trans-unit id="[AppLock/Passcode/orgRequiresStonger]" xml:space="preserve">
+        <source>Your organization requires a more complex passcode.</source>
+        <target state="needs-translation">Your organization requires a more complex passcode.</target>
+        <note>Notification for business users when they set up too weak app protection passcode.</note>
+      </trans-unit>
       <trans-unit id="[AppLock/Passcode/pressEscForTouchID]" xml:space="preserve">
         <source>Press Esc for Touch ID</source>
         <target state="translated">Premi Esc per Touch ID</target>
@@ -1071,7 +1076,7 @@ Assicurati di avere una copia del database prima di fare qualsiasi modifica.</ta
       </trans-unit>
       <trans-unit id="[Entry/History] Creation Date" xml:space="preserve">
         <source>Creation Date</source>
-        <target state="translated">Data creazione</target>
+        <target state="translated">Data di creazione</target>
         <note>Title of a field with entry creation date and time</note>
       </trans-unit>
       <trans-unit id="[Entry/History] Expiry Date" xml:space="preserve">
@@ -1086,7 +1091,7 @@ Assicurati di avere una copia del database prima di fare qualsiasi modifica.</ta
       </trans-unit>
       <trans-unit id="[Entry/History] Last Modification Date" xml:space="preserve">
         <source>Last Modification Date</source>
-        <target state="translated">Data ultima modifica</target>
+        <target state="translated">Data di ultima modifica</target>
         <note>Title of a field with entry's last modification date and time</note>
       </trans-unit>
       <trans-unit id="[Entry/History] Previous Versions" xml:space="preserve">
@@ -1140,7 +1145,7 @@ Assicurati di avere una copia del database prima di fare qualsiasi modifica.</ta
         <note>Error message: there is no USB drive connected to the device.</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/ManagedAccessDenied/title]" xml:space="preserve">
-        <source>Access to this storage is disabled by your oganization.</source>
+        <source>Access to this storage is disabled by your organization.</source>
         <target state="translated">L'accesso a questo archivio è impedito dalla tua istituzione.</target>
         <note>Error message: organization's IT administrator has forbidden access to a data storage location.</note>
       </trans-unit>
@@ -1211,7 +1216,7 @@ Assicurati di avere una copia del database prima di fare qualsiasi modifica.</ta
       </trans-unit>
       <trans-unit id="[FileInfo/Field/title] Creation Date" xml:space="preserve">
         <source>Creation Date</source>
-        <target state="translated">Data creazione</target>
+        <target state="translated">Data di creazione</target>
         <note>Field title</note>
       </trans-unit>
       <trans-unit id="[FileInfo/Field/title] File Location" xml:space="preserve">
@@ -1231,7 +1236,7 @@ Assicurati di avere una copia del database prima di fare qualsiasi modifica.</ta
       </trans-unit>
       <trans-unit id="[FileInfo/Field/title] Last Modification Date" xml:space="preserve">
         <source>Last Modification Date</source>
-        <target state="translated">Data ultima modifica</target>
+        <target state="translated">Data di ultima modifica</target>
         <note>Field title</note>
       </trans-unit>
       <trans-unit id="[FileInfo/Field/valueError] Error" xml:space="preserve">
@@ -1416,22 +1421,22 @@ Assicurati di avere una copia del database prima di fare qualsiasi modifica.</ta
       </trans-unit>
       <trans-unit id="[FilesSortOrder/longTitle] Creation Date (Oldest First)" xml:space="preserve">
         <source>Creation Date (Oldest First)</source>
-        <target state="translated">Data creazione (meno recenti prima)</target>
+        <target state="translated">Data di creazione (meno recenti prima)</target>
         <note>A sorting option for a list of files, by file creation date. Example: 'Sort Order: Creation Date (Oldest First)'</note>
       </trans-unit>
       <trans-unit id="[FilesSortOrder/longTitle] Creation Date (Recent First)" xml:space="preserve">
         <source>Creation Date (Recent First)</source>
-        <target state="translated">Data creazione (più recenti prima)</target>
+        <target state="translated">Data di creazione (più recenti prima)</target>
         <note>A sorting option for a list of files, by file creation date. Example: 'Sort Order: Creation Date (Recent First)'</note>
       </trans-unit>
       <trans-unit id="[FilesSortOrder/longTitle] Modification Date (Oldest First)" xml:space="preserve">
         <source>Modification Date (Oldest First)</source>
-        <target state="translated">Data modifica (meno recenti prima)</target>
+        <target state="translated">Data di modifica (meno recenti prima)</target>
         <note>A sorting option for a list of files, by file's last modification date. Example: 'Sort Order: Modification Date (Oldest First)'</note>
       </trans-unit>
       <trans-unit id="[FilesSortOrder/longTitle] Modification Date (Recent First)" xml:space="preserve">
         <source>Modification Date (Recent First)</source>
-        <target state="translated">Data modifica (più recenti prima)</target>
+        <target state="translated">Data di modifica (più recenti prima)</target>
         <note>A sorting option for a list of files, by file's last modification date. Example: 'Sort Order: Modification Date (Recent First)'</note>
       </trans-unit>
       <trans-unit id="[FilesSortOrder/longTitle] Name (A..Z)" xml:space="preserve">
@@ -1771,22 +1776,22 @@ Assicurati di avere una copia del database prima di fare qualsiasi modifica.</ta
       </trans-unit>
       <trans-unit id="[GroupSortOrder/longTitle] By Creation Date (New..Old)" xml:space="preserve">
         <source>By Creation Date (New..Old)</source>
-        <target state="translated">Per data creazione (più recenti prima)</target>
+        <target state="translated">Per data di creazione (più recenti prima)</target>
         <note>An option in Group Viewer settings. Example: 'Sort Order: By Creation Date (New..Old)'</note>
       </trans-unit>
       <trans-unit id="[GroupSortOrder/longTitle] By Creation Date (Old..New)" xml:space="preserve">
         <source>By Creation Date (Old..New)</source>
-        <target state="translated">Per data creazione (meno recenti prima)</target>
+        <target state="translated">Per data di creazione (meno recenti prima)</target>
         <note>An option in Group Viewer settings. Example: 'Sort Order: By Creation Date (Old..New)'</note>
       </trans-unit>
       <trans-unit id="[GroupSortOrder/longTitle] By Modification Date (New..Old)" xml:space="preserve">
         <source>By Modification Date (New..Old)</source>
-        <target state="translated">Per data modifica (più recenti prima)</target>
+        <target state="translated">Per data di modifica (più recenti prima)</target>
         <note>An option in Group Viewer settings. Example: 'Sort Order: By Modification Date (New..Old)'</note>
       </trans-unit>
       <trans-unit id="[GroupSortOrder/longTitle] By Modification Date (Old..New)" xml:space="preserve">
         <source>By Modification Date (Old..New)</source>
-        <target state="translated">Per data modifica (meno recenti prima)</target>
+        <target state="translated">Per data di modifica (meno recenti prima)</target>
         <note>An option in Group Viewer settings. Example: 'Sort Order: By Modification Date (Old..New)'</note>
       </trans-unit>
       <trans-unit id="[GroupSortOrder/longTitle] By Title (A..Z)" xml:space="preserve">
@@ -1819,6 +1824,16 @@ Assicurati di avere una copia del database prima di fare qualsiasi modifica.</ta
         <target state="translated">Chiave fisica</target>
         <note>Name of an input field which shows selected hardware key</note>
       </trans-unit>
+      <trans-unit id="[HardwareKey/Interface/LightningViaUSBAdapter]" xml:space="preserve">
+        <source>Lightning (via USB adapter)</source>
+        <target state="needs-translation">Lightning (via USB adapter)</target>
+        <note>Connector type for older Apple devices, used through a USB adapter. https://en.wikipedia.org/wiki/Lightning_(connector)</note>
+      </trans-unit>
+      <trans-unit id="[HardwareKey/LightningOverUSB/RequiresAdapter]" xml:space="preserve">
+        <source>Requires Apple USB-C to Lightning adapter</source>
+        <target state="needs-translation">Requires Apple USB-C to Lightning adapter</target>
+        <note>A notice for hardware keys that need an adapter for physical connection to device.</note>
+      </trans-unit>
       <trans-unit id="[HardwareKey/NFC/OS too old]" xml:space="preserve">
         <source>NFC requires iOS 13 or later.</source>
         <target state="translated">NFC richiede iOS 13 o versioni successive.</target>
@@ -1828,6 +1843,21 @@ Assicurati di avere una copia del database prima di fare qualsiasi modifica.</ta
         <source>No Hardware Key</source>
         <target state="translated">Nessuna chiave fisica</target>
         <note>Master key/unlock option: don't use hardware keys</note>
+      </trans-unit>
+      <trans-unit id="[HardwareKey/Picker/title]" xml:space="preserve">
+        <source>Hardware Keys</source>
+        <target state="translated">Chiavi fisiche</target>
+        <note>Title of a list with possible hardware key connections</note>
+      </trans-unit>
+      <trans-unit id="[HardwareKey/USB/chalRespNotSupported]" xml:space="preserve">
+        <source>This device does not support challenge-response over USB connection.</source>
+        <target state="needs-translation">This device does not support challenge-response over USB connection.</target>
+        <note>Information notice. 'Challenge-response' is a glossary term.</note>
+      </trans-unit>
+      <trans-unit id="[HardwareKey/USB/iPadAppOnMac]" xml:space="preserve">
+        <source>USB is not available, because this is an iPad app running on macOS. Use the native Mac app instead.</source>
+        <target state="needs-translation">USB is not available, because this is an iPad app running on macOS. Use the native Mac app instead.</target>
+        <note>Information notice</note>
       </trans-unit>
       <trans-unit id="[HardwareKey/YubiKey/Slot] YubiKey Slot #%d" xml:space="preserve" approved="yes">
         <source>YubiKey Slot %d</source>
@@ -1866,7 +1896,7 @@ Assicurati di avere una copia del database prima di fare qualsiasi modifica.</ta
       </trans-unit>
       <trans-unit id="[Item/Properties/AutoFill/allowed]" xml:space="preserve">
         <source>Allowed</source>
-        <target state="translated">Consentiti</target>
+        <target state="translated">Consentito</target>
         <note>Possible value of the `Password AutoFill` setting. For example: 'Password AutoFill: Allowed'</note>
       </trans-unit>
       <trans-unit id="[Item/Properties/AutoFill/disabled]" xml:space="preserve">
@@ -1881,12 +1911,12 @@ Assicurati di avere una copia del database prima di fare qualsiasi modifica.</ta
       </trans-unit>
       <trans-unit id="[Item/Properties/PasswordAudit/allowed]" xml:space="preserve">
         <source>Allowed</source>
-        <target state="translated">Consentiti</target>
+        <target state="translated">Consentita</target>
         <note>Possible value of the `Password Audit` setting. For example: 'Password Audit: Allowed'</note>
       </trans-unit>
       <trans-unit id="[Item/Properties/PasswordAudit/disabled]" xml:space="preserve">
         <source>Disabled</source>
-        <target state="translated">Disattivato</target>
+        <target state="translated">Disattivata</target>
         <note>Possible value of the `Password Audit` setting. For example: 'Password Audit: Disabled'</note>
       </trans-unit>
       <trans-unit id="[Item/Properties/PasswordAudit/title]" xml:space="preserve">
@@ -1896,12 +1926,12 @@ Assicurati di avere una copia del database prima di fare qualsiasi modifica.</ta
       </trans-unit>
       <trans-unit id="[Item/Properties/Search/allowed]" xml:space="preserve">
         <source>Allowed</source>
-        <target state="translated">Consentiti</target>
+        <target state="translated">Consentita</target>
         <note>Possible value of the `Search` setting. Example: 'Search: Allowed'</note>
       </trans-unit>
       <trans-unit id="[Item/Properties/Search/disabled]" xml:space="preserve">
         <source>Disabled</source>
-        <target state="translated">Disattivato</target>
+        <target state="translated">Disattivata</target>
         <note>Possible value of the `Search` setting, when the item should be excluded from search results. Example: 'Search: Disabled'</note>
       </trans-unit>
       <trans-unit id="[Item/Properties/Search/title] Search" xml:space="preserve" approved="yes">
@@ -1911,7 +1941,7 @@ Assicurati di avere una copia del database prima di fare qualsiasi modifica.</ta
       </trans-unit>
       <trans-unit id="[Item/Properties/inheritedValue]" xml:space="preserve">
         <source>Inherit from parent group (%@)</source>
-        <target state="translated">Eredita dal gruppo genitore</target>
+        <target state="translated">Eredita dal gruppo genitore (%@)</target>
         <note>Default value of an item property. For example: 'Password Audit: Inherit from parent group (Allowed)'. [inheritedValue: String]</note>
       </trans-unit>
       <trans-unit id="[Item/Properties/title]" xml:space="preserve">
@@ -2982,7 +3012,7 @@ Può succedere con database di grandi dimensioni o con impostazioni database tro
       </trans-unit>
       <trans-unit id="[Settings/EntryListDetail/longTitle] Last Modified Date" xml:space="preserve">
         <source>Last Modified Date</source>
-        <target state="translated">Data ultima modifica</target>
+        <target state="translated">Data di ultima modifica</target>
         <note>An option in Group Viewer settings. Refers fo the most recent time when the entry was modified. Will be shown as 'Entry Subtitle: Last Modified Date'.</note>
       </trans-unit>
       <trans-unit id="[Settings/EntryListDetail/longTitle] None" xml:space="preserve">
@@ -3072,12 +3102,12 @@ Può succedere con database di grandi dimensioni o con impostazioni database tro
       </trans-unit>
       <trans-unit id="[SortBy/DateCreated]" xml:space="preserve">
         <source>Date Created</source>
-        <target state="translated">Data creazione</target>
+        <target state="translated">Data di creazione</target>
         <note>List sorting option. Example: 'Sort by: Date Created'</note>
       </trans-unit>
       <trans-unit id="[SortBy/DateModified]" xml:space="preserve">
         <source>Date Modified</source>
-        <target state="translated">Data modifica</target>
+        <target state="translated">Data di modifica</target>
         <note>List sorting option. Example: 'Sort by: Date Modified'</note>
       </trans-unit>
       <trans-unit id="[SortBy/FileName]" xml:space="preserve">
