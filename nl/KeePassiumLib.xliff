@@ -80,9 +80,9 @@
         <target state="translated">Numeriek</target>
         <note>Type of keyboard to show for App Lock passcode: digits only (PIN code).</note>
       </trans-unit>
-      <trans-unit id="[AppLock/Passcode/orgRequiresStonger]" xml:space="preserve">
+      <trans-unit id="[AppLock/Passcode/orgRequiresStonger]" xml:space="preserve" approved="yes">
         <source>Your organization requires a more complex passcode.</source>
-        <target state="translated">Je organisatie vereist een complexere toegangscode.</target>
+        <target state="final">Je organisatie vereist een complexere toegangscode.</target>
         <note>Notification for business users when they set up too weak app protection passcode.</note>
       </trans-unit>
       <trans-unit id="[AppLock/Passcode/pressEscForTouchID]" xml:space="preserve">
@@ -548,9 +548,9 @@ Dit is de nieuwste lokale kopie.</target>
         <target state="translated">Sla databank op</target>
         <note>Action/button to save the current database.</note>
       </trans-unit>
-      <trans-unit id="[Database/SaveToServer/action]" xml:space="preserve">
+      <trans-unit id="[Database/SaveToServer/action]" xml:space="preserve" approved="yes">
         <source>Save To Server</source>
-        <target state="translated">Sla op server op</target>
+        <target state="final">Sla op server op</target>
         <note>Action/button to save file to a remote server.</note>
       </trans-unit>
       <trans-unit id="[Database/Saving/Status] Done" xml:space="preserve">
@@ -1024,9 +1024,9 @@ Zorg ervoor dat je een back-up van je databank hebt voordat je iets aanpast.</ta
         <target state="translated">Kopieer veldverwijzing</target>
         <note>Action: copy a reference to the selected entry field to clipboard</note>
       </trans-unit>
-      <trans-unit id="[Entry/Field/LargeType/action]" xml:space="preserve">
+      <trans-unit id="[Entry/Field/LargeType/action]" xml:space="preserve" approved="yes">
         <source>Show in Large Type</source>
-        <target state="translated">Geef weer in grote letters</target>
+        <target state="final">Geef weer in grote letters</target>
         <note>Action: display text using large font</note>
       </trans-unit>
       <trans-unit id="[Entry/Field/name] Icon" xml:space="preserve">
@@ -1059,9 +1059,9 @@ Zorg ervoor dat je een back-up van je databank hebt voordat je iets aanpast.</ta
         <target state="translated">Gebruikersnaam</target>
         <note>Name of an entry field</note>
       </trans-unit>
-      <trans-unit id="[Entry/Field/tags] Tags" xml:space="preserve">
+      <trans-unit id="[Entry/Field/tags] Tags" xml:space="preserve" approved="yes">
         <source>Tags</source>
-        <target state="translated">Tags</target>
+        <target state="final">Tags</target>
         <note>Name of an entry field</note>
       </trans-unit>
       <trans-unit id="[Entry/Files/Add] Loading attachment file" xml:space="preserve">
@@ -1144,9 +1144,9 @@ Zorg ervoor dat je een back-up van je databank hebt voordat je iets aanpast.</ta
         <target state="translated">USB-schijf is niet verbonden.</target>
         <note>Error message: there is no USB drive connected to the device.</note>
       </trans-unit>
-      <trans-unit id="[FileAccessError/ManagedAccessDenied/title]" xml:space="preserve">
+      <trans-unit id="[FileAccessError/ManagedAccessDenied/title]" xml:space="preserve" approved="yes">
         <source>Access to this storage is disabled by your organization.</source>
-        <target state="translated">De toegang tot deze opslag is uitgeschakeld door je organisatie.</target>
+        <target state="final">De toegang tot deze opslag is uitgeschakeld door je organisatie.</target>
         <note>Error message: organization's IT administrator has forbidden access to a data storage location.</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/NetworkAccessDenied/generic]" xml:space="preserve">
@@ -1549,9 +1549,9 @@ Zorg ervoor dat je een back-up van je databank hebt voordat je iets aanpast.</ta
         <target state="translated">Voorinstellingen</target>
         <note>Title of a list with predefined quick-choice values (for example: 'Presets: 1 week, 1 months, 1 year')</note>
       </trans-unit>
-      <trans-unit id="[Generic/RefreshList/action]" xml:space="preserve">
+      <trans-unit id="[Generic/RefreshList/action]" xml:space="preserve" approved="yes">
         <source>Refresh List</source>
-        <target state="translated">Vernieuw lijst</target>
+        <target state="final">Vernieuw lijst</target>
         <note>Action: refresh list of items, usually files</note>
       </trans-unit>
       <trans-unit id="[Generic/Search/title]" xml:space="preserve">
@@ -1824,14 +1824,14 @@ Zorg ervoor dat je een back-up van je databank hebt voordat je iets aanpast.</ta
         <target state="translated">Hardwarematige sleutel</target>
         <note>Name of an input field which shows selected hardware key</note>
       </trans-unit>
-      <trans-unit id="[HardwareKey/Interface/LightningViaUSBAdapter]" xml:space="preserve">
+      <trans-unit id="[HardwareKey/Interface/LightningViaUSBAdapter]" xml:space="preserve" approved="yes">
         <source>Lightning (via USB adapter)</source>
-        <target state="translated">Lightning (via USB-adapter)</target>
+        <target state="final">Lightning (via USB-adapter)</target>
         <note>Connector type for older Apple devices, used through a USB adapter. https://en.wikipedia.org/wiki/Lightning_(connector)</note>
       </trans-unit>
-      <trans-unit id="[HardwareKey/LightningOverUSB/RequiresAdapter]" xml:space="preserve">
+      <trans-unit id="[HardwareKey/LightningOverUSB/RequiresAdapter]" xml:space="preserve" approved="yes">
         <source>Requires Apple USB-C to Lightning adapter</source>
-        <target state="translated">Vereist een Apple USB-C-naar-Lightning-adapter</target>
+        <target state="final">Vereist een Apple USB-C-naar-Lightning-adapter</target>
         <note>A notice for hardware keys that need an adapter for physical connection to device.</note>
       </trans-unit>
       <trans-unit id="[HardwareKey/NFC/OS too old]" xml:space="preserve">
@@ -1849,14 +1849,14 @@ Zorg ervoor dat je een back-up van je databank hebt voordat je iets aanpast.</ta
         <target state="translated">Hardwarematige sleutels</target>
         <note>Title of a list with possible hardware key connections</note>
       </trans-unit>
-      <trans-unit id="[HardwareKey/USB/chalRespNotSupported]" xml:space="preserve">
+      <trans-unit id="[HardwareKey/USB/chalRespNotSupported]" xml:space="preserve" approved="yes">
         <source>This device does not support challenge-response over USB connection.</source>
-        <target state="translated">Dit apparaat ondersteunt geen actie-authenticatie via USB-verbinding.</target>
+        <target state="final">Dit apparaat ondersteunt geen actie-authenticatie via USB-verbinding.</target>
         <note>Information notice. 'Challenge-response' is a glossary term.</note>
       </trans-unit>
-      <trans-unit id="[HardwareKey/USB/iPadAppOnMac]" xml:space="preserve">
+      <trans-unit id="[HardwareKey/USB/iPadAppOnMac]" xml:space="preserve" approved="yes">
         <source>USB is not available, because this is an iPad app running on macOS. Use the native Mac app instead.</source>
-        <target state="translated">USB is niet beschikbaar, omdat dit een iPad-app is die wordt uitgevoerd op macOS. Gebruik in plaats daarvan de Mac-app.</target>
+        <target state="final">USB is niet beschikbaar, omdat dit een iPad-app is die wordt uitgevoerd op macOS. Gebruik in plaats daarvan de Mac-app.</target>
         <note>Information notice</note>
       </trans-unit>
       <trans-unit id="[HardwareKey/YubiKey/Slot] YubiKey Slot #%d" xml:space="preserve">
@@ -1969,14 +1969,14 @@ Zorg ervoor dat je een back-up van je databank hebt voordat je iets aanpast.</ta
         <target state="translated">Bezig met verwerken van hoofdsleutel</target>
         <note>Status message: processing of the master key is in progress</note>
       </trans-unit>
-      <trans-unit id="[KeyFile/Create/action]" xml:space="preserve">
+      <trans-unit id="[KeyFile/Create/action]" xml:space="preserve" approved="yes">
         <source>Create Key File</source>
-        <target state="translated">Maak sleutelbestand</target>
+        <target state="final">Maak sleutelbestand</target>
         <note>Action: create new key file.</note>
       </trans-unit>
-      <trans-unit id="[KeyFile/Create/defaultName]" xml:space="preserve">
+      <trans-unit id="[KeyFile/Create/defaultName]" xml:space="preserve" approved="yes">
         <source>keyfile.dat</source>
-        <target state="translated">sleutelbestand.dat</target>
+        <target state="final">sleutelbestand.dat</target>
         <note>Default name for new key files. Should match the `key file` term in the glossary.</note>
       </trans-unit>
       <trans-unit id="[KeyFile/Delete/Confirm/text] Delete key file?&#10; Make sure you have a backup." xml:space="preserve">
@@ -1991,14 +1991,14 @@ Zorg ervoor dat je een back-up van je databank hebt voordat je iets aanpast.</ta
         <target state="translated">Sleutelbestand</target>
         <note>Name of an input field which shows selected key file</note>
       </trans-unit>
-      <trans-unit id="[KeyFile/Import/actionDescription]" xml:space="preserve">
+      <trans-unit id="[KeyFile/Import/actionDescription]" xml:space="preserve" approved="yes">
         <source>Add file to the app</source>
-        <target state="translated">Voeg een bestand toe aan de app</target>
+        <target state="final">Voeg een bestand toe aan de app</target>
         <note>Description of the `Import Key File` action.</note>
       </trans-unit>
-      <trans-unit id="[KeyFile/Import/action]" xml:space="preserve">
+      <trans-unit id="[KeyFile/Import/action]" xml:space="preserve" approved="yes">
         <source>Import Key File</source>
-        <target state="translated">Importeer sleutelbestand</target>
+        <target state="final">Importeer sleutelbestand</target>
         <note>Action: import/add a key file into the app. `Key file` is a glossary term.</note>
       </trans-unit>
       <trans-unit id="[KeyFile/Remove/Confirm/text] Remove key file from the list?&#10; The file will remain intact and you can add it again later." xml:space="preserve">
@@ -2008,14 +2008,14 @@ Zorg ervoor dat je een back-up van je databank hebt voordat je iets aanpast.</ta
  De sleutel blijft bewaard en je kunt deze later weer toevoegen.</target>
         <note>Message to confirm removal of a key file from the app. (This keeps the file, but removes its reference from the app.)</note>
       </trans-unit>
-      <trans-unit id="[KeyFile/Use/actionDescription]" xml:space="preserve">
+      <trans-unit id="[KeyFile/Use/actionDescription]" xml:space="preserve" approved="yes">
         <source>Use without adding</source>
-        <target state="translated">Gebruik zonder toevoegen</target>
+        <target state="final">Gebruik zonder toevoegen</target>
         <note>Description of the `Select Key File` action.</note>
       </trans-unit>
-      <trans-unit id="[KeyFile/Use/action]" xml:space="preserve">
+      <trans-unit id="[KeyFile/Use/action]" xml:space="preserve" approved="yes">
         <source>Select Key File</source>
-        <target state="translated">Selecteer sleutelbestand</target>
+        <target state="final">Selecteer sleutelbestand</target>
         <note>Action: use a key file at its storage location, without importing to the app.</note>
       </trans-unit>
       <trans-unit id="[KeyFileError/Corrupted/title]" xml:space="preserve" approved="yes">
