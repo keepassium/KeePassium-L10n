@@ -174,15 +174,20 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
 В результате и Автозаполнение, и основное приложение должны получить "отдельные приглашения" для работы с каждым внешним файлом. К счастью, эта процедура нужна только один раз.</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
+      <trans-unit id="[PasswordGenerator/Wordlist/Import/menuAction]" xml:space="preserve">
+        <source>Import Wordlist…</source>
+        <target state="translated">Импортировать список слов…</target>
+        <note>Menu action to add a user-provided word list file to the app.</note>
+      </trans-unit>
+      <trans-unit id="[PasswordQuality/LevelWithApproximateEntropy/description]" xml:space="preserve">
+        <source>%1$@ (~%2$@ of entropy)</source>
+        <target state="translated">%1$@ (~%2$@ энтропии)</target>
+        <note>Password quality description. Note the tilda that refers to an estimated/approximate value. For example: `Very good (~123 bits of entropy)`. [level: String, formattedBitCount: String]</note>
+      </trans-unit>
       <trans-unit id="[PasswordQuality/LevelWithEntropy/description]" xml:space="preserve">
         <source>%1$@ (%2$@ of entropy)</source>
         <target state="translated">%1$@ (%2$@ энтропии)</target>
         <note>Password quality description. For example: `Very good (234 bits of entropy)`. [level: String, formattedBitCount: String]</note>
-      </trans-unit>
-      <trans-unit id="[PasswordQuality/Level] Almost good" xml:space="preserve">
-        <source>Almost good</source>
-        <target state="translated">Почти хороший</target>
-        <note>Almost good password quality</note>
       </trans-unit>
       <trans-unit id="[PasswordQuality/Level] Good" xml:space="preserve">
         <source>Good</source>
@@ -1166,15 +1171,20 @@ KeePassium отправит сервису [Have I Been Pwned](https://haveibeen
         <target state="translated">Аудит паролей</target>
         <note>Title of a screen to check which passwords are known to be compromised.</note>
       </trans-unit>
+      <trans-unit id="[PasswordGenerator/Wordlist/Import/menuAction]" xml:space="preserve">
+        <source>Import Wordlist…</source>
+        <target state="translated">Импортировать список слов…</target>
+        <note>Menu action to add a user-provided word list file to the app.</note>
+      </trans-unit>
+      <trans-unit id="[PasswordQuality/LevelWithApproximateEntropy/description]" xml:space="preserve">
+        <source>%1$@ (~%2$@ of entropy)</source>
+        <target state="translated">%1$@ (~%2$@ энтропии)</target>
+        <note>Password quality description. Note the tilda that refers to an estimated/approximate value. For example: `Very good (~123 bits of entropy)`. [level: String, formattedBitCount: String]</note>
+      </trans-unit>
       <trans-unit id="[PasswordQuality/LevelWithEntropy/description]" xml:space="preserve">
         <source>%1$@ (%2$@ of entropy)</source>
         <target state="translated">%1$@ (%2$@ энтропии)</target>
         <note>Password quality description. For example: `Very good (234 bits of entropy)`. [level: String, formattedBitCount: String]</note>
-      </trans-unit>
-      <trans-unit id="[PasswordQuality/Level] Almost good" xml:space="preserve">
-        <source>Almost good</source>
-        <target state="translated">Почти хороший</target>
-        <note>Almost good password quality</note>
       </trans-unit>
       <trans-unit id="[PasswordQuality/Level] Good" xml:space="preserve">
         <source>Good</source>
@@ -1500,7 +1510,7 @@ KeePassium отправит сервису [Have I Been Pwned](https://haveibeen
       </trans-unit>
       <trans-unit id="kvO-9B-1Sy.text" xml:space="preserve">
         <source>Passphrase wordlists by EFF</source>
-        <target state="translated">Списки парольных фраз от EFF</target>
+        <target state="translated">Списки парольных слов от EFF</target>
         <note>Class = "UILabel"; text = "Passphrase wordlists by EFF"; ObjectID = "kvO-9B-1Sy";</note>
       </trans-unit>
       <trans-unit id="lht-LP-o0Y.text" xml:space="preserve" approved="yes">
@@ -2236,28 +2246,6 @@ KeePassium отправит сервису [Have I Been Pwned](https://haveibeen
         <source>Clipboard Timeout</source>
         <target state="final">Очистка буфера обмена</target>
         <note>Class = "UITableViewController"; title = "Clipboard Timeout"; ObjectID = "iJJ-jv-hhP"; Note = "TItle of a list of options, when to delete clipboard content. Alternative title \"Clear Clipboard\"";</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="KeePassium/settings/data-protection/Base.lproj/SettingsDatabaseTimeoutVC.storyboard" source-language="en" target-language="ru" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.2" build-num="15C500b"/>
-    </header>
-    <body>
-      <trans-unit id="26a-m8-zQP.title" xml:space="preserve">
-        <source>Database Timeout</source>
-        <target state="translated">Задержка закрытия баз</target>
-        <note>Class = "UITableViewController"; title = "Database Timeout"; ObjectID = "26a-m8-zQP"; Note = "Title of a list of database timeouts, linked to Settings/Data Protection/Database Timeout.";</note>
-      </trans-unit>
-      <trans-unit id="Beo-Vy-wZ8.text" xml:space="preserve" translate="no">
-        <source>{Subtitle}</source>
-        <target state="needs-translation">{Subtitle}</target>
-        <note>Class = "UILabel"; text = "{Subtitle}"; ObjectID = "Beo-Vy-wZ8"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="DOf-Bp-iIT.text" xml:space="preserve" translate="no">
-        <source>{Title}</source>
-        <target state="needs-translation">{Title}</target>
-        <note>Class = "UILabel"; text = "{Title}"; ObjectID = "DOf-Bp-iIT"; Note = "#bc-ignore!";</note>
       </trans-unit>
     </body>
   </file>

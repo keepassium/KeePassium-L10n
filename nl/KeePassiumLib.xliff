@@ -369,6 +369,11 @@ Pictogrammen bijgewerkt: %2$d</target>
         <target state="translated">Voordat we verdergaan</target>
         <note>Title of an info message when the app needs to change database file format.</note>
       </trans-unit>
+      <trans-unit id="[Database/IconSet/System/title]" xml:space="preserve">
+        <source>System</source>
+        <target state="translated">Systeem</target>
+        <note>Title of an icon collection: icons provided by the system</note>
+      </trans-unit>
       <trans-unit id="[Database/Item/Edited/state]" xml:space="preserve">
         <source>Edited</source>
         <target state="translated">Bewerkt</target>
@@ -496,6 +501,11 @@ Dit is de nieuwste lokale kopie.</target>
         <target state="translated">Bezig met maken van voorvertoning…</target>
         <note>Status message: preparing database print preview.</note>
       </trans-unit>
+      <trans-unit id="[Database/Progress/checkingDatabaseForModifications]" xml:space="preserve">
+        <source>Checking database for modifications…</source>
+        <target state="needs-translation">Checking database for modifications…</target>
+        <note>Database loading/saving status: checking whether our database was modified from another device.</note>
+      </trans-unit>
       <trans-unit id="[Database/Progress/downloading]" xml:space="preserve">
         <source>Downloading database file...</source>
         <target state="translated">Bezig met ophalen van databankbestand...</target>
@@ -511,10 +521,20 @@ Dit is de nieuwste lokale kopie.</target>
         <target state="final">Veldverwijzingen oplossen …</target>
         <note>Database loading/saving status: replacing field references with their values</note>
       </trans-unit>
+      <trans-unit id="[Database/Progress/resolvingSyncConflict]" xml:space="preserve">
+        <source>Resolving a sync conflict…</source>
+        <target state="needs-translation">Resolving a sync conflict…</target>
+        <note>Database saving status: deciding how to handle conflicting changes.</note>
+      </trans-unit>
       <trans-unit id="[Database/Progress/resolving]" xml:space="preserve">
         <source>Contacting storage provider...</source>
         <target state="translated">Bezig met verbinden met opslagdienst...</target>
         <note>Progress status</note>
+      </trans-unit>
+      <trans-unit id="[Database/Progress/writingDatabaseFile]" xml:space="preserve">
+        <source>Writing database file…</source>
+        <target state="needs-translation">Writing database file…</target>
+        <note>Database saving status</note>
       </trans-unit>
       <trans-unit id="[Database/Progress] Done" xml:space="preserve">
         <source>Done</source>
@@ -903,11 +923,6 @@ Zorg ervoor dat je een back-up van je databank hebt voordat je iets aanpast.</ta
         <source>Nil value in %@</source>
         <target state="translated">Nil-waarde in %@</target>
         <note>Error message about XML parsing. [tag: String]</note>
-      </trans-unit>
-      <trans-unit id="[Database2/Xml2/ParsingError] Not a KeePass XML" xml:space="preserve">
-        <source>Not a KeePass XML</source>
-        <target state="translated">Geen KeePass-XML</target>
-        <note>Error message about XML parsing</note>
       </trans-unit>
       <trans-unit id="[Database2/Xml2/ParsingError] Unexpected tag '%@'" xml:space="preserve">
         <source>Unexpected tag '%@'</source>
@@ -1364,6 +1379,11 @@ Zorg ervoor dat je een back-up van je databank hebt voordat je iets aanpast.</ta
         <target state="translated">Seafile Pro</target>
         <note>Localized name of the storage app: Seafile Pro (https://apps.apple.com/us/app/seafile-pro/id639202512)</note>
       </trans-unit>
+      <trans-unit id="[FileProvider/Secure ShellFish/name]" xml:space="preserve">
+        <source>Secure ShellFish</source>
+        <target state="translated">Secure ShellFish</target>
+        <note>Localized name of the storage app: Secure ShellFish (https://apps.apple.com/app/ssh-files-secure-shellfish/id1336634154)</note>
+      </trans-unit>
       <trans-unit id="[FileProvider/Stratospherix FileBrowser/name]" xml:space="preserve" approved="yes">
         <source>FileBrowser</source>
         <target state="final">FileBrowser</target>
@@ -1819,6 +1839,11 @@ Zorg ervoor dat je een back-up van je databank hebt voordat je iets aanpast.</ta
         <target state="translated">Hardwarematige sleutels zijn niet beschikbaar in AutoFill.</target>
         <note>A notification that hardware keys (e.g. YubiKey) cannot be used in AutoFill (the OS does not allow the AutoFill to use NFC/MFI).</note>
       </trans-unit>
+      <trans-unit id="[HardwareKey/AutoFill/TheseNotAvailable]" xml:space="preserve">
+        <source>These hardware keys are not available in AutoFill.</source>
+        <target state="translated">Hardwarematige sleutels zijn niet beschikbaar in automatisch aanvullen.</target>
+        <note>Information notice for a list of hardware keys.</note>
+      </trans-unit>
       <trans-unit id="[HardwareKey/Field/title]" xml:space="preserve">
         <source>Hardware Key</source>
         <target state="translated">Hardwarematige sleutel</target>
@@ -2103,6 +2128,11 @@ Zorg ervoor dat je een back-up van je databank hebt voordat je iets aanpast.</ta
         <target state="translated">KeePassium kan het bedrijfsaccount van uw organisatie niet vinden.</target>
         <note>Error message, euphemism for missing corporate license</note>
       </trans-unit>
+      <trans-unit id="[PasswordGenerator/Accept/action]" xml:space="preserve">
+        <source>Accept</source>
+        <target state="translated">Accepteer</target>
+        <note>Action/button: accept/use the generated password</note>
+      </trans-unit>
       <trans-unit id="[PasswordGenerator/CannotGenerateText/title]" xml:space="preserve">
         <source>Cannot generate text</source>
         <target state="translated">Er kan geen tekst worden gegenereerd</target>
@@ -2272,6 +2302,11 @@ Zorg ervoor dat je een back-up van je databank hebt voordat je iets aanpast.</ta
         <source>EFF Short Wordlist #%d (1296 words)</source>
         <target state="translated">EFF korte woordenlijst #%d (1296 woorden)</target>
         <note>Name of a wordlist for passphrase generator. `EFF` is an organization name.</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/Wordlist/ImportError/reason]" xml:space="preserve">
+        <source>File could not be imported because of a problem in line %1$d (%2$@)</source>
+        <target state="needs-translation">File could not be imported because of a problem in line %1$d (%2$@)</target>
+        <note>Error message when importing a text file [lineNumber: Int, problemDescription: String]</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/Wordlist/title]" xml:space="preserve">
         <source>Wordlist</source>
@@ -2745,6 +2780,11 @@ Dit kan gebeuren bij grotere databanken of te ambitieuze databankinstellingen (A
         <target state="translated">Inloggegevens</target>
         <note>Title of a section: username, password, etc</note>
       </trans-unit>
+      <trans-unit id="[RemoteConnection/Direct/description]" xml:space="preserve">
+        <source>KeePassium will communicate directly with your online storage. This ensures reliable file transfer.</source>
+        <target state="needs-translation">KeePassium will communicate directly with your online storage. This ensures reliable file transfer.</target>
+        <note>Description of the `Direct connection` sync method.</note>
+      </trans-unit>
       <trans-unit id="[RemoteConnection/Error/AuthenticationFailed/title]" xml:space="preserve">
         <source>Authentication failed</source>
         <target state="translated">Authenticatie mislukt</target>
@@ -2755,6 +2795,16 @@ Dit kan gebeuren bij grotere databanken of te ambitieuze databankinstellingen (A
         <target state="translated">Bestandsurl</target>
         <note>Network address of a file</note>
       </trans-unit>
+      <trans-unit id="[RemoteConnection/GoogleDrive/Folder/myDrive]" xml:space="preserve">
+        <source>My Drive</source>
+        <target state="translated">Mijn Drive</target>
+        <note>Name of a predefined Google Drive folder which contains user's own files</note>
+      </trans-unit>
+      <trans-unit id="[RemoteConnection/GoogleDrive/Folder/sharedWithMe]" xml:space="preserve">
+        <source>Shared With Me</source>
+        <target state="translated">Gedeeld met mij</target>
+        <note>Name of a predefined GoogleDrive folder which contains files shared with this user</note>
+      </trans-unit>
       <trans-unit id="[RemoteConnection/OneDrive/Folder/files]" xml:space="preserve">
         <source>Files</source>
         <target state="translated">Bestanden</target>
@@ -2764,6 +2814,31 @@ Dit kan gebeuren bij grotere databanken of te ambitieuze databankinstellingen (A
         <source>Shared</source>
         <target state="translated">Gedeeld</target>
         <note>Name of a predefined OneDrive folder which contains files shared with this user</note>
+      </trans-unit>
+      <trans-unit id="[RemoteConnection/ServerURL]" xml:space="preserve">
+        <source>Server URL</source>
+        <target state="needs-translation">Server URL</target>
+        <note>Network address of a WebDAV server</note>
+      </trans-unit>
+      <trans-unit id="[RemoteConnection/SignIn/Dropbox/action]" xml:space="preserve">
+        <source>Sign in to Dropbox</source>
+        <target state="translated">Meld u aan bij Dropbox</target>
+        <note>Action: authenticate to Dropbox account</note>
+      </trans-unit>
+      <trans-unit id="[RemoteConnection/SignIn/Dropbox/authorizationRequried]" xml:space="preserve">
+        <source>Dropbox needs you to sign in again.</source>
+        <target state="translated">U moet opnieuw inloggen bij Dropbox.</target>
+        <note>Error description: the user should manually sign in to their Dropbox account</note>
+      </trans-unit>
+      <trans-unit id="[RemoteConnection/SignIn/GoogleDrive/action]" xml:space="preserve">
+        <source>Sign in to Google Drive</source>
+        <target state="needs-translation">Sign in to Google Drive</target>
+        <note>Action: authenticate to Google Drive account</note>
+      </trans-unit>
+      <trans-unit id="[RemoteConnection/SignIn/GoogleDrive/authorizationRequried]" xml:space="preserve">
+        <source>Google Drive needs you to sign in again.</source>
+        <target state="needs-translation">Google Drive needs you to sign in again.</target>
+        <note>Error description: the user should manually sign in to their Google Drive account</note>
       </trans-unit>
       <trans-unit id="[RemoteConnection/SignIn/OneDrive/action]" xml:space="preserve">
         <source>Sign in to OneDrive</source>
@@ -2784,6 +2859,11 @@ Dit kan gebeuren bij grotere databanken of te ambitieuze databankinstellingen (A
         <source>Private mode</source>
         <target state="translated">Prive modus</target>
         <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="[RemoteConnection/ViaFilesApp/description]" xml:space="preserve">
+        <source>KeePassium will assign file synchronization to the app of your storage provider. Some apps work better than others.</source>
+        <target state="needs-translation">KeePassium will assign file synchronization to the app of your storage provider. Some apps work better than others.</target>
+        <note>Description of the `Integration via Files app` sync method.</note>
       </trans-unit>
       <trans-unit id="[RemoteConnection/connectToServer]" xml:space="preserve">
         <source>Connect to Server</source>
@@ -2965,6 +3045,11 @@ Dit kan gebeuren bij grotere databanken of te ambitieuze databankinstellingen (A
         <target state="translated">Nooit</target>
         <note>An option in Settings. Will be shown as 'Clipboard Timeout: Never'</note>
       </trans-unit>
+      <trans-unit id="[Settings/DataProtection/LockOnReboot/title]" xml:space="preserve">
+        <source>Lock on Device Restart</source>
+        <target state="needs-translation">Lock on Device Restart</target>
+        <note>Setting switch: whether to lock databases after device reboot.</note>
+      </trans-unit>
       <trans-unit id="[Settings/DataProtection/subtitle]" xml:space="preserve">
         <source>Master keys, key files</source>
         <target state="translated">Hoofdsleutels, sleutelbestanden</target>
@@ -3010,10 +3095,15 @@ Dit kan gebeuren bij grotere databanken of te ambitieuze databankinstellingen (A
         <target state="translated">Nooit</target>
         <note>An option in Settings. Will be shown as 'Database Lock: Timeout: Never'</note>
       </trans-unit>
+      <trans-unit id="[Settings/DatabaseLockTimeout/title]" xml:space="preserve">
+        <source>Database Timeout</source>
+        <target state="translated">Databanktime-out</target>
+        <note>Title of a setting: the time after which databases will be locked.</note>
+      </trans-unit>
       <trans-unit id="[Settings/EntryListDetail/longTitle] Last Modified Date" xml:space="preserve">
         <source>Last Modified Date</source>
         <target state="translated">Laatst gewijzigd op</target>
-        <note>An option in Group Viewer settings. Refers fo the most recent time when the entry was modified. Will be shown as 'Entry Subtitle: Last Modified Date'.</note>
+        <note>An option in Group Viewer settings. Refers to the most recent time when the entry was modified. Will be shown as 'Entry Subtitle: Last Modified Date'.</note>
       </trans-unit>
       <trans-unit id="[Settings/EntryListDetail/longTitle] None" xml:space="preserve">
         <source>None</source>
@@ -3029,6 +3119,11 @@ Dit kan gebeuren bij grotere databanken of te ambitieuze databankinstellingen (A
         <source>Password</source>
         <target state="translated">Wachtwoord</target>
         <note>An option in Group Viewer settings. Will be shown as 'Entry Subtitle: Password'.</note>
+      </trans-unit>
+      <trans-unit id="[Settings/EntryListDetail/longTitle] Tags" xml:space="preserve" approved="yes">
+        <source>Tags</source>
+        <target state="final">Tags</target>
+        <note>An option in Group Viewer settings. Refers to the tags field of the entry. Will be shown as 'Entry Subtitle: Tags'.</note>
       </trans-unit>
       <trans-unit id="[Settings/EntryListDetail/longTitle] URL" xml:space="preserve">
         <source>URL</source>
@@ -3130,10 +3225,30 @@ Dit kan gebeuren bij grotere databanken of te ambitieuze databankinstellingen (A
         <target state="translated">Sorteer op</target>
         <note>Title of a sort options list. Example: 'Sort by: Name'</note>
       </trans-unit>
+      <trans-unit id="[StorageService/DropboxBusiness/title]" xml:space="preserve">
+        <source>Dropbox Business</source>
+        <target state="translated">Dropbox Business</target>
+        <note>Name of a cloud storage service</note>
+      </trans-unit>
+      <trans-unit id="[StorageService/DropboxPro/title]" xml:space="preserve">
+        <source>Dropbox Pro</source>
+        <target state="translated">Dropbox Pro</target>
+        <note>Name of a cloud storage service</note>
+      </trans-unit>
+      <trans-unit id="[StorageService/GoogleWorkspace/title]" xml:space="preserve">
+        <source>Google Workspace</source>
+        <target state="translated">Google Workspace</target>
+        <note>Name of a cloud storage service</note>
+      </trans-unit>
       <trans-unit id="[StorageService/OneDriveForBusiness/title]" xml:space="preserve">
         <source>OneDrive for Business</source>
         <target state="translated">OneDrive voor bedrijven</target>
         <note>Name of a cloud storage service. Must match Microsoft's translation, see  https://partner.microsoft.com/solutions/onedrive-for-business</note>
+      </trans-unit>
+      <trans-unit id="[StorageService/OtherServices/title]" xml:space="preserve">
+        <source>Other Services</source>
+        <target state="needs-translation">Other Services</target>
+        <note>Title of a file storage service option (for example: Dropbox, OneDrive, Other Services)</note>
       </trans-unit>
       <trans-unit id="[Support/template] (Please describe the problem here)" xml:space="preserve">
         <source>(Please describe the problem here)</source>

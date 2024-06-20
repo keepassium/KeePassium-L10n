@@ -80,9 +80,9 @@
         <target state="translated">Numerická</target>
         <note>Type of keyboard to show for App Lock passcode: digits only (PIN code).</note>
       </trans-unit>
-      <trans-unit id="[AppLock/Passcode/orgRequiresStonger]" xml:space="preserve">
+      <trans-unit id="[AppLock/Passcode/orgRequiresStonger]" xml:space="preserve" approved="yes">
         <source>Your organization requires a more complex passcode.</source>
-        <target state="needs-translation">Your organization requires a more complex passcode.</target>
+        <target state="final">Vaša organizácia vyžaduje zložitejší kód aplikácie.</target>
         <note>Notification for business users when they set up too weak app protection passcode.</note>
       </trans-unit>
       <trans-unit id="[AppLock/Passcode/pressEscForTouchID]" xml:space="preserve">
@@ -309,19 +309,19 @@ Aktualizované ikony: %2$d</target>
  Uistite sa, že máte zálohu.</target>
         <note>Message to confirm deletion of a database file. (This deletes the file itself)</note>
       </trans-unit>
-      <trans-unit id="[Database/EncryptionSettings/Change/action]" xml:space="preserve">
+      <trans-unit id="[Database/EncryptionSettings/Change/action]" xml:space="preserve" approved="yes">
         <source>Change Encryption Settings</source>
-        <target state="needs-translation">Change Encryption Settings</target>
+        <target state="final">Zmeniť nastavenia šifrovania</target>
         <note>Action to modify database encryption settings.</note>
       </trans-unit>
-      <trans-unit id="[Database/EncryptionSettings/dataCipher]" xml:space="preserve">
+      <trans-unit id="[Database/EncryptionSettings/dataCipher]" xml:space="preserve" approved="yes">
         <source>Encryption Algorithm</source>
-        <target state="needs-translation">Encryption Algorithm</target>
+        <target state="final">Algoritmus šifrovania</target>
         <note>Parameter name in database encryption settings. Example: 'Encryption Algorithm: AES-256'</note>
       </trans-unit>
-      <trans-unit id="[Database/EncryptionSettings/iterations]" xml:space="preserve">
+      <trans-unit id="[Database/EncryptionSettings/iterations]" xml:space="preserve" approved="yes">
         <source>Transform Rounds</source>
-        <target state="needs-translation">Transform Rounds</target>
+        <target state="final">Transformačné kolá</target>
         <note>Parameter name in database encryption settings. Defines the number of times/iterations a calculation (transform) should be executed. Example: 'Transform Rounds: 100'</note>
       </trans-unit>
       <trans-unit id="[Database/EncryptionSettings/kdf]" xml:space="preserve">
@@ -329,29 +329,29 @@ Aktualizované ikony: %2$d</target>
         <target state="translated">Funkcia pre vytvorenie kľúča</target>
         <note>Parameter name in database encryption settings. This is a term, see https://en.wikipedia.org/wiki/Key_derivation_function. Example: 'Key Derivation Function: Argon2'</note>
       </trans-unit>
-      <trans-unit id="[Database/EncryptionSettings/memoryAutoFillWarning]" xml:space="preserve">
+      <trans-unit id="[Database/EncryptionSettings/memoryAutoFillWarning]" xml:space="preserve" approved="yes">
         <source>High memory requirements can make this database incompatible with Password AutoFill.</source>
-        <target state="needs-translation">High memory requirements can make this database incompatible with Password AutoFill.</target>
+        <target state="final">Veľké požiadavky na pamäť môžu spôsobiť, že táto databáza nebude kompatibilná s funkciou automatického vyplňovania hesla.</target>
         <note>Warning for too high value of the `Memory usage` parameter in database encryption settings.</note>
       </trans-unit>
-      <trans-unit id="[Database/EncryptionSettings/memory]" xml:space="preserve">
+      <trans-unit id="[Database/EncryptionSettings/memory]" xml:space="preserve" approved="yes">
         <source>Memory Usage</source>
-        <target state="needs-translation">Memory Usage</target>
+        <target state="final">Využitie pamäte</target>
         <note>Parameter name in database encryption settings. Defines the amount of memory that should be used by an algorithm. Example: 'Memory Usage: 16 MB'</note>
       </trans-unit>
-      <trans-unit id="[Database/EncryptionSettings/reset]" xml:space="preserve">
+      <trans-unit id="[Database/EncryptionSettings/reset]" xml:space="preserve" approved="yes">
         <source>Reset to Recommended Settings</source>
-        <target state="needs-translation">Reset to Recommended Settings</target>
+        <target state="final">Obnovenie odporúčaných nastavení</target>
         <note>Action/button button in database encryption settings. Resets the settings to recommended values.</note>
       </trans-unit>
-      <trans-unit id="[Database/EncryptionSettings/threads]" xml:space="preserve">
+      <trans-unit id="[Database/EncryptionSettings/threads]" xml:space="preserve" approved="yes">
         <source>Parallelism</source>
-        <target state="needs-translation">Parallelism</target>
+        <target state="final">Paralelnosť</target>
         <note>Parameter name in database encryption settings. Defines the number of computations to run in parallel/simultaneously. Example: 'Parallelism: 2 threads'</note>
       </trans-unit>
-      <trans-unit id="[Database/EncryptionSettings/title]" xml:space="preserve">
+      <trans-unit id="[Database/EncryptionSettings/title]" xml:space="preserve" approved="yes">
         <source>Encryption Settings</source>
-        <target state="needs-translation">Encryption Settings</target>
+        <target state="final">Nastavenia šifrovania</target>
         <note>Title: database encryption settings.</note>
       </trans-unit>
       <trans-unit id="[Database/FormatVersion/Conversion/allDataPreserved]" xml:space="preserve">
@@ -368,6 +368,11 @@ Aktualizované ikony: %2$d</target>
         <source>Before we continue</source>
         <target state="translated">Skôr ako budeme pokračovať</target>
         <note>Title of an info message when the app needs to change database file format.</note>
+      </trans-unit>
+      <trans-unit id="[Database/IconSet/System/title]" xml:space="preserve" approved="yes">
+        <source>System</source>
+        <target state="final">Systém</target>
+        <note>Title of an icon collection: icons provided by the system</note>
       </trans-unit>
       <trans-unit id="[Database/Item/Edited/state]" xml:space="preserve">
         <source>Edited</source>
@@ -496,6 +501,11 @@ Toto je jej posledná lokálna kópia.</target>
         <target state="translated">Pripravuje sa ukážka…</target>
         <note>Status message: preparing database print preview.</note>
       </trans-unit>
+      <trans-unit id="[Database/Progress/checkingDatabaseForModifications]" xml:space="preserve" approved="yes">
+        <source>Checking database for modifications…</source>
+        <target state="final">Kontrolujú sa zmeny v databáze…</target>
+        <note>Database loading/saving status: checking whether our database was modified from another device.</note>
+      </trans-unit>
       <trans-unit id="[Database/Progress/downloading]" xml:space="preserve">
         <source>Downloading database file...</source>
         <target state="translated">Sťahuje sa databázový súbor...</target>
@@ -511,10 +521,20 @@ Toto je jej posledná lokálna kópia.</target>
         <target state="translated">Riešenie odkazov na pole…</target>
         <note>Database loading/saving status: replacing field references with their values</note>
       </trans-unit>
+      <trans-unit id="[Database/Progress/resolvingSyncConflict]" xml:space="preserve" approved="yes">
+        <source>Resolving a sync conflict…</source>
+        <target state="final">Riešenie konfliktu synchronizácie…</target>
+        <note>Database saving status: deciding how to handle conflicting changes.</note>
+      </trans-unit>
       <trans-unit id="[Database/Progress/resolving]" xml:space="preserve">
         <source>Contacting storage provider...</source>
         <target state="translated">Kontaktuje sa poskytovateľ úložiska...</target>
         <note>Progress status</note>
+      </trans-unit>
+      <trans-unit id="[Database/Progress/writingDatabaseFile]" xml:space="preserve" approved="yes">
+        <source>Writing database file…</source>
+        <target state="final">Zápis súboru databázy…</target>
+        <note>Database saving status</note>
       </trans-unit>
       <trans-unit id="[Database/Progress] Done" xml:space="preserve">
         <source>Done</source>
@@ -548,9 +568,9 @@ Toto je jej posledná lokálna kópia.</target>
         <target state="translated">Uložiť databázu</target>
         <note>Action/button to save the current database.</note>
       </trans-unit>
-      <trans-unit id="[Database/SaveToServer/action]" xml:space="preserve">
+      <trans-unit id="[Database/SaveToServer/action]" xml:space="preserve" approved="yes">
         <source>Save To Server</source>
-        <target state="needs-translation">Save To Server</target>
+        <target state="final">Uložiť na server</target>
         <note>Action/button to save file to a remote server.</note>
       </trans-unit>
       <trans-unit id="[Database/Saving/Status] Done" xml:space="preserve">
@@ -904,11 +924,6 @@ Predtým, ako niečo zmeníte, nezabudnite si prosím zálohovať svoju databáz
         <target state="translated">Nulová hodnota v %@</target>
         <note>Error message about XML parsing. [tag: String]</note>
       </trans-unit>
-      <trans-unit id="[Database2/Xml2/ParsingError] Not a KeePass XML" xml:space="preserve">
-        <source>Not a KeePass XML</source>
-        <target state="translated">Nie je to KeePass XML</target>
-        <note>Error message about XML parsing</note>
-      </trans-unit>
       <trans-unit id="[Database2/Xml2/ParsingError] Unexpected tag '%@'" xml:space="preserve">
         <source>Unexpected tag '%@'</source>
         <target state="translated">Neočakávaný štítok '%@'</target>
@@ -1024,9 +1039,9 @@ Predtým, ako niečo zmeníte, nezabudnite si prosím zálohovať svoju databáz
         <target state="translated">Kopírovať odkaz na pole</target>
         <note>Action: copy a reference to the selected entry field to clipboard</note>
       </trans-unit>
-      <trans-unit id="[Entry/Field/LargeType/action]" xml:space="preserve">
+      <trans-unit id="[Entry/Field/LargeType/action]" xml:space="preserve" approved="yes">
         <source>Show in Large Type</source>
-        <target state="needs-translation">Show in Large Type</target>
+        <target state="final">Zobraziť vo veľkom písme</target>
         <note>Action: display text using large font</note>
       </trans-unit>
       <trans-unit id="[Entry/Field/name] Icon" xml:space="preserve">
@@ -1059,9 +1074,9 @@ Predtým, ako niečo zmeníte, nezabudnite si prosím zálohovať svoju databáz
         <target state="translated">Užívateľské meno</target>
         <note>Name of an entry field</note>
       </trans-unit>
-      <trans-unit id="[Entry/Field/tags] Tags" xml:space="preserve">
+      <trans-unit id="[Entry/Field/tags] Tags" xml:space="preserve" approved="yes">
         <source>Tags</source>
-        <target state="needs-translation">Tags</target>
+        <target state="final">Štítky</target>
         <note>Name of an entry field</note>
       </trans-unit>
       <trans-unit id="[Entry/Files/Add] Loading attachment file" xml:space="preserve">
@@ -1144,9 +1159,9 @@ Predtým, ako niečo zmeníte, nezabudnite si prosím zálohovať svoju databáz
         <target state="translated">USB disk je odpojený.</target>
         <note>Error message: there is no USB drive connected to the device.</note>
       </trans-unit>
-      <trans-unit id="[FileAccessError/ManagedAccessDenied/title]" xml:space="preserve">
+      <trans-unit id="[FileAccessError/ManagedAccessDenied/title]" xml:space="preserve" approved="yes">
         <source>Access to this storage is disabled by your organization.</source>
-        <target state="needs-translation">Access to this storage is disabled by your organization.</target>
+        <target state="final">Prístup k tomuto úložisku je zakázaný vašou organizáciou.</target>
         <note>Error message: organization's IT administrator has forbidden access to a data storage location.</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/NetworkAccessDenied/generic]" xml:space="preserve">
@@ -1364,6 +1379,11 @@ Predtým, ako niečo zmeníte, nezabudnite si prosím zálohovať svoju databáz
         <target state="translated">Seafile Pro</target>
         <note>Localized name of the storage app: Seafile Pro (https://apps.apple.com/us/app/seafile-pro/id639202512)</note>
       </trans-unit>
+      <trans-unit id="[FileProvider/Secure ShellFish/name]" xml:space="preserve">
+        <source>Secure ShellFish</source>
+        <target state="translated">Secure ShellFish</target>
+        <note>Localized name of the storage app: Secure ShellFish (https://apps.apple.com/app/ssh-files-secure-shellfish/id1336634154)</note>
+      </trans-unit>
       <trans-unit id="[FileProvider/Stratospherix FileBrowser/name]" xml:space="preserve">
         <source>FileBrowser</source>
         <target state="translated">FileBrowser</target>
@@ -1549,9 +1569,9 @@ Predtým, ako niečo zmeníte, nezabudnite si prosím zálohovať svoju databáz
         <target state="translated">Prednastavené</target>
         <note>Title of a list with predefined quick-choice values (for example: 'Presets: 1 week, 1 months, 1 year')</note>
       </trans-unit>
-      <trans-unit id="[Generic/RefreshList/action]" xml:space="preserve">
+      <trans-unit id="[Generic/RefreshList/action]" xml:space="preserve" approved="yes">
         <source>Refresh List</source>
-        <target state="needs-translation">Refresh List</target>
+        <target state="final">Obnoviť zoznam</target>
         <note>Action: refresh list of items, usually files</note>
       </trans-unit>
       <trans-unit id="[Generic/Search/title]" xml:space="preserve">
@@ -1819,19 +1839,24 @@ Predtým, ako niečo zmeníte, nezabudnite si prosím zálohovať svoju databáz
         <target state="translated">Hardvérové ​​kľúče nie sú dostupné pre automatické vyplňovanie.</target>
         <note>A notification that hardware keys (e.g. YubiKey) cannot be used in AutoFill (the OS does not allow the AutoFill to use NFC/MFI).</note>
       </trans-unit>
+      <trans-unit id="[HardwareKey/AutoFill/TheseNotAvailable]" xml:space="preserve" approved="yes">
+        <source>These hardware keys are not available in AutoFill.</source>
+        <target state="final">Tieto hardvérové ​​kľúče nie sú dostupné pre automatické vyplňovanie.</target>
+        <note>Information notice for a list of hardware keys.</note>
+      </trans-unit>
       <trans-unit id="[HardwareKey/Field/title]" xml:space="preserve">
         <source>Hardware Key</source>
         <target state="translated">Hardvérový kľúč</target>
         <note>Name of an input field which shows selected hardware key</note>
       </trans-unit>
-      <trans-unit id="[HardwareKey/Interface/LightningViaUSBAdapter]" xml:space="preserve">
+      <trans-unit id="[HardwareKey/Interface/LightningViaUSBAdapter]" xml:space="preserve" approved="yes">
         <source>Lightning (via USB adapter)</source>
-        <target state="needs-translation">Lightning (via USB adapter)</target>
+        <target state="final">Lightning (prostredníctvom USB adaptéra)</target>
         <note>Connector type for older Apple devices, used through a USB adapter. https://en.wikipedia.org/wiki/Lightning_(connector)</note>
       </trans-unit>
-      <trans-unit id="[HardwareKey/LightningOverUSB/RequiresAdapter]" xml:space="preserve">
+      <trans-unit id="[HardwareKey/LightningOverUSB/RequiresAdapter]" xml:space="preserve" approved="yes">
         <source>Requires Apple USB-C to Lightning adapter</source>
-        <target state="needs-translation">Requires Apple USB-C to Lightning adapter</target>
+        <target state="final">Vyžaduje adaptér Apple USB-C to Lightning</target>
         <note>A notice for hardware keys that need an adapter for physical connection to device.</note>
       </trans-unit>
       <trans-unit id="[HardwareKey/NFC/OS too old]" xml:space="preserve">
@@ -1849,14 +1874,14 @@ Predtým, ako niečo zmeníte, nezabudnite si prosím zálohovať svoju databáz
         <target state="translated">Hardvérové ​​kľúče</target>
         <note>Title of a list with possible hardware key connections</note>
       </trans-unit>
-      <trans-unit id="[HardwareKey/USB/chalRespNotSupported]" xml:space="preserve">
+      <trans-unit id="[HardwareKey/USB/chalRespNotSupported]" xml:space="preserve" approved="yes">
         <source>This device does not support challenge-response over USB connection.</source>
-        <target state="needs-translation">This device does not support challenge-response over USB connection.</target>
+        <target state="final">Toto zariadenie nepodporuje reakciu na výzvu cez pripojenie USB.</target>
         <note>Information notice. 'Challenge-response' is a glossary term.</note>
       </trans-unit>
-      <trans-unit id="[HardwareKey/USB/iPadAppOnMac]" xml:space="preserve">
+      <trans-unit id="[HardwareKey/USB/iPadAppOnMac]" xml:space="preserve" approved="yes">
         <source>USB is not available, because this is an iPad app running on macOS. Use the native Mac app instead.</source>
-        <target state="needs-translation">USB is not available, because this is an iPad app running on macOS. Use the native Mac app instead.</target>
+        <target state="final">USB nie je k dispozícii, pretože ide o aplikáciu pre iPad spustenú v systéme macOS. Namiesto toho použite natívnu aplikáciu pre Mac.</target>
         <note>Information notice</note>
       </trans-unit>
       <trans-unit id="[HardwareKey/YubiKey/Slot] YubiKey Slot #%d" xml:space="preserve">
@@ -1889,9 +1914,9 @@ Predtým, ako niečo zmeníte, nezabudnite si prosím zálohovať svoju databáz
         <target state="translated">Pokročilé</target>
         <note>Title of a list with advanced/expert-level properties of a database item (e.g. entry)</note>
       </trans-unit>
-      <trans-unit id="[Item/Properties/AutoFill/KeePassXC/title]" xml:space="preserve">
+      <trans-unit id="[Item/Properties/AutoFill/KeePassXC/title]" xml:space="preserve" approved="yes">
         <source>Password AutoFill (KeePassXC)</source>
-        <target state="needs-translation">Password AutoFill (KeePassXC)</target>
+        <target state="final">Automatické vypĺňanie hesla (KeePassXC)</target>
         <note>Title of a setting: whether the item (e.g. entry) should be used in AutoFill feature. App-specific setting for KeePassXC.</note>
       </trans-unit>
       <trans-unit id="[Item/Properties/AutoFill/allowed]" xml:space="preserve">
@@ -1899,14 +1924,14 @@ Predtým, ako niečo zmeníte, nezabudnite si prosím zálohovať svoju databáz
         <target state="translated">Povolené</target>
         <note>Possible value of the `Password AutoFill` setting. For example: 'Password AutoFill: Allowed'</note>
       </trans-unit>
-      <trans-unit id="[Item/Properties/AutoFill/disabled]" xml:space="preserve">
+      <trans-unit id="[Item/Properties/AutoFill/disabled]" xml:space="preserve" approved="yes">
         <source>Disabled</source>
-        <target state="needs-translation">Disabled</target>
+        <target state="final">Vypnuté</target>
         <note>Possible value of the `Password AutoFill` setting. For example: 'Password AutoFill: Disabled'</note>
       </trans-unit>
-      <trans-unit id="[Item/Properties/AutoFill/title]" xml:space="preserve">
+      <trans-unit id="[Item/Properties/AutoFill/title]" xml:space="preserve" approved="yes">
         <source>Password AutoFill</source>
-        <target state="needs-translation">Password AutoFill</target>
+        <target state="final">Automatické vypĺňanie hesiel</target>
         <note>Title of a setting: whether the item (e.g. entry) should be used in AutoFill feature</note>
       </trans-unit>
       <trans-unit id="[Item/Properties/PasswordAudit/allowed]" xml:space="preserve">
@@ -1914,9 +1939,9 @@ Predtým, ako niečo zmeníte, nezabudnite si prosím zálohovať svoju databáz
         <target state="translated">Povolené</target>
         <note>Possible value of the `Password Audit` setting. For example: 'Password Audit: Allowed'</note>
       </trans-unit>
-      <trans-unit id="[Item/Properties/PasswordAudit/disabled]" xml:space="preserve">
+      <trans-unit id="[Item/Properties/PasswordAudit/disabled]" xml:space="preserve" approved="yes">
         <source>Disabled</source>
-        <target state="needs-translation">Disabled</target>
+        <target state="final">Vypnuté</target>
         <note>Possible value of the `Password Audit` setting. For example: 'Password Audit: Disabled'</note>
       </trans-unit>
       <trans-unit id="[Item/Properties/PasswordAudit/title]" xml:space="preserve">
@@ -1929,9 +1954,9 @@ Predtým, ako niečo zmeníte, nezabudnite si prosím zálohovať svoju databáz
         <target state="translated">Povolené</target>
         <note>Possible value of the `Search` setting. Example: 'Search: Allowed'</note>
       </trans-unit>
-      <trans-unit id="[Item/Properties/Search/disabled]" xml:space="preserve">
+      <trans-unit id="[Item/Properties/Search/disabled]" xml:space="preserve" approved="yes">
         <source>Disabled</source>
-        <target state="needs-translation">Disabled</target>
+        <target state="final">Vypnuté</target>
         <note>Possible value of the `Search` setting, when the item should be excluded from search results. Example: 'Search: Disabled'</note>
       </trans-unit>
       <trans-unit id="[Item/Properties/Search/title] Search" xml:space="preserve">
@@ -1939,14 +1964,14 @@ Predtým, ako niečo zmeníte, nezabudnite si prosím zálohovať svoju databáz
         <target state="translated">Vyhľadávanie</target>
         <note>Title of a setting: whether the item (e.g. entry) should be considered during search. Example: 'Search: Allowed'</note>
       </trans-unit>
-      <trans-unit id="[Item/Properties/inheritedValue]" xml:space="preserve">
+      <trans-unit id="[Item/Properties/inheritedValue]" xml:space="preserve" approved="yes">
         <source>Inherit from parent group (%@)</source>
-        <target state="needs-translation">Inherit from parent group (%@)</target>
+        <target state="final">Dediť z rodičovskej skupiny (%@)</target>
         <note>Default value of an item property. For example: 'Password Audit: Inherit from parent group (Allowed)'. [inheritedValue: String]</note>
       </trans-unit>
-      <trans-unit id="[Item/Properties/title]" xml:space="preserve">
+      <trans-unit id="[Item/Properties/title]" xml:space="preserve" approved="yes">
         <source>Properties</source>
-        <target state="needs-translation">Properties</target>
+        <target state="final">Vlastnosti</target>
         <note>Title of a list with item (e.g. entry) properties/settings, such as searchability, auto-typing, etc</note>
       </trans-unit>
       <trans-unit id="[ItemCategory] Default (KeePass)" xml:space="preserve">
@@ -1969,14 +1994,14 @@ Predtým, ako niečo zmeníte, nezabudnite si prosím zálohovať svoju databáz
         <target state="translated">Spracováva sa hlavný kľúč</target>
         <note>Status message: processing of the master key is in progress</note>
       </trans-unit>
-      <trans-unit id="[KeyFile/Create/action]" xml:space="preserve">
+      <trans-unit id="[KeyFile/Create/action]" xml:space="preserve" approved="yes">
         <source>Create Key File</source>
-        <target state="needs-translation">Create Key File</target>
+        <target state="final">Vytvoriť súbor s kľúčom</target>
         <note>Action: create new key file.</note>
       </trans-unit>
-      <trans-unit id="[KeyFile/Create/defaultName]" xml:space="preserve">
+      <trans-unit id="[KeyFile/Create/defaultName]" xml:space="preserve" approved="yes">
         <source>keyfile.dat</source>
-        <target state="needs-translation">keyfile.dat</target>
+        <target state="final">keyfile.dat</target>
         <note>Default name for new key files. Should match the `key file` term in the glossary.</note>
       </trans-unit>
       <trans-unit id="[KeyFile/Delete/Confirm/text] Delete key file?&#10; Make sure you have a backup." xml:space="preserve">
@@ -1991,14 +2016,14 @@ Predtým, ako niečo zmeníte, nezabudnite si prosím zálohovať svoju databáz
         <target state="translated">Súbor s kľúčom</target>
         <note>Name of an input field which shows selected key file</note>
       </trans-unit>
-      <trans-unit id="[KeyFile/Import/actionDescription]" xml:space="preserve">
+      <trans-unit id="[KeyFile/Import/actionDescription]" xml:space="preserve" approved="yes">
         <source>Add file to the app</source>
-        <target state="needs-translation">Add file to the app</target>
+        <target state="final">Pridať súbor do aplikácie</target>
         <note>Description of the `Import Key File` action.</note>
       </trans-unit>
-      <trans-unit id="[KeyFile/Import/action]" xml:space="preserve">
+      <trans-unit id="[KeyFile/Import/action]" xml:space="preserve" approved="yes">
         <source>Import Key File</source>
-        <target state="needs-translation">Import Key File</target>
+        <target state="final">Importovať súbor s kľúčom</target>
         <note>Action: import/add a key file into the app. `Key file` is a glossary term.</note>
       </trans-unit>
       <trans-unit id="[KeyFile/Remove/Confirm/text] Remove key file from the list?&#10; The file will remain intact and you can add it again later." xml:space="preserve">
@@ -2008,14 +2033,14 @@ Predtým, ako niečo zmeníte, nezabudnite si prosím zálohovať svoju databáz
  Súbor zostane neporušený a neskôr ho budete môcť znova pridať.</target>
         <note>Message to confirm removal of a key file from the app. (This keeps the file, but removes its reference from the app.)</note>
       </trans-unit>
-      <trans-unit id="[KeyFile/Use/actionDescription]" xml:space="preserve">
+      <trans-unit id="[KeyFile/Use/actionDescription]" xml:space="preserve" approved="yes">
         <source>Use without adding</source>
-        <target state="needs-translation">Use without adding</target>
+        <target state="final">Použiť bez pridania</target>
         <note>Description of the `Select Key File` action.</note>
       </trans-unit>
-      <trans-unit id="[KeyFile/Use/action]" xml:space="preserve">
+      <trans-unit id="[KeyFile/Use/action]" xml:space="preserve" approved="yes">
         <source>Select Key File</source>
-        <target state="needs-translation">Select Key File</target>
+        <target state="final">Vyberte súbor s kľúčom</target>
         <note>Action: use a key file at its storage location, without importing to the app.</note>
       </trans-unit>
       <trans-unit id="[KeyFileError/Corrupted/title]" xml:space="preserve">
@@ -2102,6 +2127,11 @@ Predtým, ako niečo zmeníte, nezabudnite si prosím zálohovať svoju databáz
         <source>KeePassium could not find the enterprise account of your organization.</source>
         <target state="translated">KeePassium nenašlo podnikový účet vašej organizácie.</target>
         <note>Error message, euphemism for missing corporate license</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/Accept/action]" xml:space="preserve" approved="yes">
+        <source>Accept</source>
+        <target state="final">Prijať</target>
+        <note>Action/button: accept/use the generated password</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/CannotGenerateText/title]" xml:space="preserve">
         <source>Cannot generate text</source>
@@ -2272,6 +2302,11 @@ Predtým, ako niečo zmeníte, nezabudnite si prosím zálohovať svoju databáz
         <source>EFF Short Wordlist #%d (1296 words)</source>
         <target state="translated">EFF Krátky zoznam slov #%d (1296 slov)</target>
         <note>Name of a wordlist for passphrase generator. `EFF` is an organization name.</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/Wordlist/ImportError/reason]" xml:space="preserve" approved="yes">
+        <source>File could not be imported because of a problem in line %1$d (%2$@)</source>
+        <target state="final">Súbor nebolo možné importovať z dôvodu problému v riadku %1$d (%2$@)</target>
+        <note>Error message when importing a text file [lineNumber: Int, problemDescription: String]</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/Wordlist/title]" xml:space="preserve">
         <source>Wordlist</source>
@@ -2745,6 +2780,11 @@ Toto sa môže stať pri veľkých databázach alebo s príliš ambicióznym nas
         <target state="translated">Nastavenia prístupu</target>
         <note>Title of a section: username, password, etc</note>
       </trans-unit>
+      <trans-unit id="[RemoteConnection/Direct/description]" xml:space="preserve" approved="yes">
+        <source>KeePassium will communicate directly with your online storage. This ensures reliable file transfer.</source>
+        <target state="final">KeePassium bude komunikovať priamo s vaším online úložiskom. Tým sa zabezpečí spoľahlivý prenos súborov.</target>
+        <note>Description of the `Direct connection` sync method.</note>
+      </trans-unit>
       <trans-unit id="[RemoteConnection/Error/AuthenticationFailed/title]" xml:space="preserve">
         <source>Authentication failed</source>
         <target state="translated">Overenie zlyhalo</target>
@@ -2755,6 +2795,16 @@ Toto sa môže stať pri veľkých databázach alebo s príliš ambicióznym nas
         <target state="translated">Adresa URL súboru</target>
         <note>Network address of a file</note>
       </trans-unit>
+      <trans-unit id="[RemoteConnection/GoogleDrive/Folder/myDrive]" xml:space="preserve" approved="yes">
+        <source>My Drive</source>
+        <target state="final">Môj disk</target>
+        <note>Name of a predefined Google Drive folder which contains user's own files</note>
+      </trans-unit>
+      <trans-unit id="[RemoteConnection/GoogleDrive/Folder/sharedWithMe]" xml:space="preserve" approved="yes">
+        <source>Shared With Me</source>
+        <target state="final">Zdieľané so mnou</target>
+        <note>Name of a predefined GoogleDrive folder which contains files shared with this user</note>
+      </trans-unit>
       <trans-unit id="[RemoteConnection/OneDrive/Folder/files]" xml:space="preserve">
         <source>Files</source>
         <target state="translated">Súbory</target>
@@ -2764,6 +2814,31 @@ Toto sa môže stať pri veľkých databázach alebo s príliš ambicióznym nas
         <source>Shared</source>
         <target state="translated">Zdieľané</target>
         <note>Name of a predefined OneDrive folder which contains files shared with this user</note>
+      </trans-unit>
+      <trans-unit id="[RemoteConnection/ServerURL]" xml:space="preserve" approved="yes">
+        <source>Server URL</source>
+        <target state="final">URL servera</target>
+        <note>Network address of a WebDAV server</note>
+      </trans-unit>
+      <trans-unit id="[RemoteConnection/SignIn/Dropbox/action]" xml:space="preserve" approved="yes">
+        <source>Sign in to Dropbox</source>
+        <target state="final">Prihlásiť sa do služby Dropbox</target>
+        <note>Action: authenticate to Dropbox account</note>
+      </trans-unit>
+      <trans-unit id="[RemoteConnection/SignIn/Dropbox/authorizationRequried]" xml:space="preserve" approved="yes">
+        <source>Dropbox needs you to sign in again.</source>
+        <target state="final">Dropbox vyžaduje, aby ste sa opätovne prihlásili.</target>
+        <note>Error description: the user should manually sign in to their Dropbox account</note>
+      </trans-unit>
+      <trans-unit id="[RemoteConnection/SignIn/GoogleDrive/action]" xml:space="preserve" approved="yes">
+        <source>Sign in to Google Drive</source>
+        <target state="final">Prihláste sa do služby Disk Google</target>
+        <note>Action: authenticate to Google Drive account</note>
+      </trans-unit>
+      <trans-unit id="[RemoteConnection/SignIn/GoogleDrive/authorizationRequried]" xml:space="preserve" approved="yes">
+        <source>Google Drive needs you to sign in again.</source>
+        <target state="final">Disk Google vyžaduje, aby ste sa opätovne prihlásili.</target>
+        <note>Error description: the user should manually sign in to their Google Drive account</note>
       </trans-unit>
       <trans-unit id="[RemoteConnection/SignIn/OneDrive/action]" xml:space="preserve">
         <source>Sign in to OneDrive</source>
@@ -2784,6 +2859,11 @@ Toto sa môže stať pri veľkých databázach alebo s príliš ambicióznym nas
         <source>Private mode</source>
         <target state="translated">Súkromný režim</target>
         <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="[RemoteConnection/ViaFilesApp/description]" xml:space="preserve" approved="yes">
+        <source>KeePassium will assign file synchronization to the app of your storage provider. Some apps work better than others.</source>
+        <target state="final">KeePassium priradí synchronizáciu súborov aplikácii poskytovateľa úložiska. Niektoré aplikácie fungujú lepšie ako iné.</target>
+        <note>Description of the `Integration via Files app` sync method.</note>
       </trans-unit>
       <trans-unit id="[RemoteConnection/connectToServer]" xml:space="preserve">
         <source>Connect to Server</source>
@@ -2965,6 +3045,11 @@ Toto sa môže stať pri veľkých databázach alebo s príliš ambicióznym nas
         <target state="translated">Nikdy</target>
         <note>An option in Settings. Will be shown as 'Clipboard Timeout: Never'</note>
       </trans-unit>
+      <trans-unit id="[Settings/DataProtection/LockOnReboot/title]" xml:space="preserve" approved="yes">
+        <source>Lock on Device Restart</source>
+        <target state="final">Zamknúť pri reštarte zariadenia</target>
+        <note>Setting switch: whether to lock databases after device reboot.</note>
+      </trans-unit>
       <trans-unit id="[Settings/DataProtection/subtitle]" xml:space="preserve">
         <source>Master keys, key files</source>
         <target state="translated">Hlavné kľúče, súbory s kľúčom</target>
@@ -3010,10 +3095,15 @@ Toto sa môže stať pri veľkých databázach alebo s príliš ambicióznym nas
         <target state="translated">Nikdy</target>
         <note>An option in Settings. Will be shown as 'Database Lock: Timeout: Never'</note>
       </trans-unit>
+      <trans-unit id="[Settings/DatabaseLockTimeout/title]" xml:space="preserve">
+        <source>Database Timeout</source>
+        <target state="translated">Časový limit databázy</target>
+        <note>Title of a setting: the time after which databases will be locked.</note>
+      </trans-unit>
       <trans-unit id="[Settings/EntryListDetail/longTitle] Last Modified Date" xml:space="preserve">
         <source>Last Modified Date</source>
         <target state="translated">Dátum poslednej úpravy</target>
-        <note>An option in Group Viewer settings. Refers fo the most recent time when the entry was modified. Will be shown as 'Entry Subtitle: Last Modified Date'.</note>
+        <note>An option in Group Viewer settings. Refers to the most recent time when the entry was modified. Will be shown as 'Entry Subtitle: Last Modified Date'.</note>
       </trans-unit>
       <trans-unit id="[Settings/EntryListDetail/longTitle] None" xml:space="preserve">
         <source>None</source>
@@ -3029,6 +3119,11 @@ Toto sa môže stať pri veľkých databázach alebo s príliš ambicióznym nas
         <source>Password</source>
         <target state="translated">Heslo</target>
         <note>An option in Group Viewer settings. Will be shown as 'Entry Subtitle: Password'.</note>
+      </trans-unit>
+      <trans-unit id="[Settings/EntryListDetail/longTitle] Tags" xml:space="preserve" approved="yes">
+        <source>Tags</source>
+        <target state="final">Štítky</target>
+        <note>An option in Group Viewer settings. Refers to the tags field of the entry. Will be shown as 'Entry Subtitle: Tags'.</note>
       </trans-unit>
       <trans-unit id="[Settings/EntryListDetail/longTitle] URL" xml:space="preserve">
         <source>URL</source>
@@ -3055,9 +3150,9 @@ Toto sa môže stať pri veľkých databázach alebo s príliš ambicióznym nas
         <target state="translated">Nastavenia zoznamu</target>
         <note>Title of list view configuration screen</note>
       </trans-unit>
-      <trans-unit id="[Settings/Managed/notification]" xml:space="preserve">
+      <trans-unit id="[Settings/Managed/notification]" xml:space="preserve" approved="yes">
         <source>This setting is managed by your organization.</source>
-        <target state="needs-translation">This setting is managed by your organization.</target>
+        <target state="final">Toto nastavenie spravuje vaša organizácia.</target>
         <note>Notification when corporate user tries to change an app setting controlled by organization's IT department.</note>
       </trans-unit>
       <trans-unit id="[Settings/NetworkAccess/Confirmation/text]" xml:space="preserve">
@@ -3130,10 +3225,30 @@ Toto sa môže stať pri veľkých databázach alebo s príliš ambicióznym nas
         <target state="translated">Zoradiť podľa</target>
         <note>Title of a sort options list. Example: 'Sort by: Name'</note>
       </trans-unit>
+      <trans-unit id="[StorageService/DropboxBusiness/title]" xml:space="preserve">
+        <source>Dropbox Business</source>
+        <target state="translated">Dropbox Business</target>
+        <note>Name of a cloud storage service</note>
+      </trans-unit>
+      <trans-unit id="[StorageService/DropboxPro/title]" xml:space="preserve">
+        <source>Dropbox Pro</source>
+        <target state="translated">Dropbox Pro</target>
+        <note>Name of a cloud storage service</note>
+      </trans-unit>
+      <trans-unit id="[StorageService/GoogleWorkspace/title]" xml:space="preserve" approved="yes">
+        <source>Google Workspace</source>
+        <target state="final">Google Workspace</target>
+        <note>Name of a cloud storage service</note>
+      </trans-unit>
       <trans-unit id="[StorageService/OneDriveForBusiness/title]" xml:space="preserve">
         <source>OneDrive for Business</source>
         <target state="translated">OneDrive pre firmy</target>
         <note>Name of a cloud storage service. Must match Microsoft's translation, see  https://partner.microsoft.com/solutions/onedrive-for-business</note>
+      </trans-unit>
+      <trans-unit id="[StorageService/OtherServices/title]" xml:space="preserve" approved="yes">
+        <source>Other Services</source>
+        <target state="final">Ostatné služby</target>
+        <note>Title of a file storage service option (for example: Dropbox, OneDrive, Other Services)</note>
       </trans-unit>
       <trans-unit id="[Support/template] (Please describe the problem here)" xml:space="preserve">
         <source>(Please describe the problem here)</source>
@@ -3281,19 +3396,19 @@ Toto sa môže stať pri veľkých databázach alebo s príliš ambicióznym nas
       </trans-unit>
       <trans-unit id="/[Generic/Count/Threads]:dict/GenericCountThreads:dict/one:dict/:string">
         <source>%d thread</source>
-        <target state="needs-translation">%d thread</target>
+        <target state="final">%d vlákno</target>
       </trans-unit>
       <trans-unit id="/[Generic/Count/Threads]:dict/GenericCountThreads:dict/few:dict/:string">
         <source>%d threads</source>
-        <target state="needs-translation">%d threads</target>
+        <target state="final">%d vlákna</target>
       </trans-unit>
       <trans-unit id="/[Generic/Count/Threads]:dict/GenericCountThreads:dict/many:dict/:string">
         <source>%d threads</source>
-        <target state="needs-translation">%d threads</target>
+        <target state="final">%d vlákna</target>
       </trans-unit>
       <trans-unit id="/[Generic/Count/Threads]:dict/GenericCountThreads:dict/other:dict/:string">
         <source>%d threads</source>
-        <target state="needs-translation">%d threads</target>
+        <target state="final">%d vlákien</target>
       </trans-unit>
     </body>
   </file>

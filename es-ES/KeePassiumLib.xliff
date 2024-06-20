@@ -80,14 +80,14 @@
         <target state="final">Numérico</target>
         <note>Type of keyboard to show for App Lock passcode: digits only (PIN code).</note>
       </trans-unit>
-      <trans-unit id="[AppLock/Passcode/orgRequiresStonger]" xml:space="preserve">
+      <trans-unit id="[AppLock/Passcode/orgRequiresStonger]" xml:space="preserve" approved="yes">
         <source>Your organization requires a more complex passcode.</source>
-        <target state="needs-translation">Your organization requires a more complex passcode.</target>
+        <target state="final">Su organización requiere un código de acceso más complejo.</target>
         <note>Notification for business users when they set up too weak app protection passcode.</note>
       </trans-unit>
-      <trans-unit id="[AppLock/Passcode/pressEscForTouchID]" xml:space="preserve">
+      <trans-unit id="[AppLock/Passcode/pressEscForTouchID]" xml:space="preserve" approved="yes">
         <source>Press Esc for Touch ID</source>
-        <target state="needs-translation">Press Esc for Touch ID</target>
+        <target state="final">Pulse Esc para Touch ID</target>
         <note>Hint/call to action about keyboard shortcut</note>
       </trans-unit>
       <trans-unit id="[AppLock/SetupPasscode/callToAction]" xml:space="preserve" approved="yes">
@@ -120,14 +120,14 @@
         <target state="final">Desbloquear</target>
         <note>Action/button to unlock the App Lock with passcode</note>
       </trans-unit>
-      <trans-unit id="[Appearance/DefaultFont/shortTitle]" xml:space="preserve">
+      <trans-unit id="[Appearance/DefaultFont/shortTitle]" xml:space="preserve" approved="yes">
         <source>Default</source>
-        <target state="needs-translation">Default</target>
+        <target state="final">Por defecto</target>
         <note>Short name of the default/system font. For example: `Font: Default`</note>
       </trans-unit>
-      <trans-unit id="[Appearance/Font/title]" xml:space="preserve">
+      <trans-unit id="[Appearance/Font/title]" xml:space="preserve" approved="yes">
         <source>Font</source>
-        <target state="needs-translation">Font</target>
+        <target state="final">Fuente</target>
         <note>Title of a setting option: font</note>
       </trans-unit>
       <trans-unit id="[Appearance/TextSize/title]" xml:space="preserve" approved="yes">
@@ -270,31 +270,31 @@
         <target state="final">Crear base de datos</target>
         <note>Title of a form for creating a database</note>
       </trans-unit>
-      <trans-unit id="[Database/CustomIcon/DownloadFavicon/action]" xml:space="preserve">
+      <trans-unit id="[Database/CustomIcon/DownloadFavicon/action]" xml:space="preserve" approved="yes">
         <source>Download Favicon</source>
-        <target state="needs-translation">Download Favicon</target>
+        <target state="final">Descargar Favicon</target>
         <note>Action: download icon of a website</note>
       </trans-unit>
-      <trans-unit id="[Database/CustomIcon/DownloadFavicons/action]" xml:space="preserve">
+      <trans-unit id="[Database/CustomIcon/DownloadFavicons/action]" xml:space="preserve" approved="yes">
         <source>Download Favicons</source>
-        <target state="needs-translation">Download Favicons</target>
+        <target state="final">Descargar Favicons</target>
         <note>Action/button to download favicons of websites mentioned in selected entries.</note>
       </trans-unit>
-      <trans-unit id="[Database/CustomIcon/DownloadFavicons/stats]" xml:space="preserve">
+      <trans-unit id="[Database/CustomIcon/DownloadFavicons/stats]" xml:space="preserve" approved="yes">
         <source>Entries processed: %1$d
 Icons updated: %2$d</source>
-        <target state="needs-translation">Entries processed: %1$d
-Icons updated: %2$d</target>
+        <target state="final">Entradas procesadas: %1$d
+Iconos actualizados: %2$d</target>
         <note>Report of favicon download results.</note>
       </trans-unit>
-      <trans-unit id="[Database/CustomIcon/DownloadFavicons/status]" xml:space="preserve">
+      <trans-unit id="[Database/CustomIcon/DownloadFavicons/status]" xml:space="preserve" approved="yes">
         <source>Downloading favicons</source>
-        <target state="needs-translation">Downloading favicons</target>
+        <target state="final">Descargando favicons</target>
         <note>Status message: multiple website favicons are being downloaded</note>
       </trans-unit>
-      <trans-unit id="[Database/CustomIcon/DownloadOneFavicon/status]" xml:space="preserve">
+      <trans-unit id="[Database/CustomIcon/DownloadOneFavicon/status]" xml:space="preserve" approved="yes">
         <source>Downloading favicon</source>
-        <target state="needs-translation">Downloading favicon</target>
+        <target state="final">Descargando favicon</target>
         <note>Status message: a website favicon is being downloaded</note>
       </trans-unit>
       <trans-unit id="[Database/CustomIcon/add]" xml:space="preserve" approved="yes">
@@ -309,19 +309,19 @@ Icons updated: %2$d</target>
  Asegúrese de que tiene una copia de seguridad.</target>
         <note>Message to confirm deletion of a database file. (This deletes the file itself)</note>
       </trans-unit>
-      <trans-unit id="[Database/EncryptionSettings/Change/action]" xml:space="preserve">
+      <trans-unit id="[Database/EncryptionSettings/Change/action]" xml:space="preserve" approved="yes">
         <source>Change Encryption Settings</source>
-        <target state="needs-translation">Change Encryption Settings</target>
+        <target state="final">Cambiar la configuración de cifrado</target>
         <note>Action to modify database encryption settings.</note>
       </trans-unit>
-      <trans-unit id="[Database/EncryptionSettings/dataCipher]" xml:space="preserve">
+      <trans-unit id="[Database/EncryptionSettings/dataCipher]" xml:space="preserve" approved="yes">
         <source>Encryption Algorithm</source>
-        <target state="needs-translation">Encryption Algorithm</target>
+        <target state="final">Algoritmo de cifrado</target>
         <note>Parameter name in database encryption settings. Example: 'Encryption Algorithm: AES-256'</note>
       </trans-unit>
-      <trans-unit id="[Database/EncryptionSettings/iterations]" xml:space="preserve">
+      <trans-unit id="[Database/EncryptionSettings/iterations]" xml:space="preserve" approved="yes">
         <source>Transform Rounds</source>
-        <target state="needs-translation">Transform Rounds</target>
+        <target state="final">Rondas de transformación</target>
         <note>Parameter name in database encryption settings. Defines the number of times/iterations a calculation (transform) should be executed. Example: 'Transform Rounds: 100'</note>
       </trans-unit>
       <trans-unit id="[Database/EncryptionSettings/kdf]" xml:space="preserve" approved="yes">
@@ -329,49 +329,54 @@ Icons updated: %2$d</target>
         <target state="final">Función de derivación de clave</target>
         <note>Parameter name in database encryption settings. This is a term, see https://en.wikipedia.org/wiki/Key_derivation_function. Example: 'Key Derivation Function: Argon2'</note>
       </trans-unit>
-      <trans-unit id="[Database/EncryptionSettings/memoryAutoFillWarning]" xml:space="preserve">
+      <trans-unit id="[Database/EncryptionSettings/memoryAutoFillWarning]" xml:space="preserve" approved="yes">
         <source>High memory requirements can make this database incompatible with Password AutoFill.</source>
-        <target state="needs-translation">High memory requirements can make this database incompatible with Password AutoFill.</target>
+        <target state="final">Los elevados requisitos de memoria pueden hacer que esta base de datos sea incompatible con el Autorrelleno de contraseñas.</target>
         <note>Warning for too high value of the `Memory usage` parameter in database encryption settings.</note>
       </trans-unit>
-      <trans-unit id="[Database/EncryptionSettings/memory]" xml:space="preserve">
+      <trans-unit id="[Database/EncryptionSettings/memory]" xml:space="preserve" approved="yes">
         <source>Memory Usage</source>
-        <target state="needs-translation">Memory Usage</target>
+        <target state="final">Uso de memoria</target>
         <note>Parameter name in database encryption settings. Defines the amount of memory that should be used by an algorithm. Example: 'Memory Usage: 16 MB'</note>
       </trans-unit>
-      <trans-unit id="[Database/EncryptionSettings/reset]" xml:space="preserve">
+      <trans-unit id="[Database/EncryptionSettings/reset]" xml:space="preserve" approved="yes">
         <source>Reset to Recommended Settings</source>
-        <target state="needs-translation">Reset to Recommended Settings</target>
+        <target state="final">Restablecer a los ajustes recomendados</target>
         <note>Action/button button in database encryption settings. Resets the settings to recommended values.</note>
       </trans-unit>
-      <trans-unit id="[Database/EncryptionSettings/threads]" xml:space="preserve">
+      <trans-unit id="[Database/EncryptionSettings/threads]" xml:space="preserve" approved="yes">
         <source>Parallelism</source>
-        <target state="needs-translation">Parallelism</target>
+        <target state="final">Paralelismo</target>
         <note>Parameter name in database encryption settings. Defines the number of computations to run in parallel/simultaneously. Example: 'Parallelism: 2 threads'</note>
       </trans-unit>
-      <trans-unit id="[Database/EncryptionSettings/title]" xml:space="preserve">
+      <trans-unit id="[Database/EncryptionSettings/title]" xml:space="preserve" approved="yes">
         <source>Encryption Settings</source>
-        <target state="needs-translation">Encryption Settings</target>
+        <target state="final">Configuración de cifrado</target>
         <note>Title: database encryption settings.</note>
       </trans-unit>
-      <trans-unit id="[Database/FormatVersion/Conversion/allDataPreserved]" xml:space="preserve">
+      <trans-unit id="[Database/FormatVersion/Conversion/allDataPreserved]" xml:space="preserve" approved="yes">
         <source>All your data will be preserved.</source>
-        <target state="needs-translation">All your data will be preserved.</target>
+        <target state="final">Todos sus datos se conservarán.</target>
         <note>Info message when changing database file format.</note>
       </trans-unit>
-      <trans-unit id="[Database/FormatVersion/Upgrade/text]" xml:space="preserve">
+      <trans-unit id="[Database/FormatVersion/Upgrade/text]" xml:space="preserve" approved="yes">
         <source>KeePassium needs to upgrade your database file format (from %1$@ to %2$@). You might need to update other apps that use this database.</source>
-        <target state="needs-translation">KeePassium needs to upgrade your database file format (from %1$@ to %2$@). You might need to update other apps that use this database.</target>
+        <target state="final">KeePassium necesita mejorar el formato del archivo de su base de datos (de %1$@ a %2$@). Puede que necesite actualizar otras aplicaciones que utilicen esta base de datos.</target>
         <note>Info message when the app needs to change database file format. [oldFormat, newFormat: String]</note>
       </trans-unit>
-      <trans-unit id="[Database/FormatVersion/Upgrade/title]" xml:space="preserve">
+      <trans-unit id="[Database/FormatVersion/Upgrade/title]" xml:space="preserve" approved="yes">
         <source>Before we continue</source>
-        <target state="needs-translation">Before we continue</target>
+        <target state="final">Antes de continuar</target>
         <note>Title of an info message when the app needs to change database file format.</note>
       </trans-unit>
-      <trans-unit id="[Database/Item/Edited/state]" xml:space="preserve">
+      <trans-unit id="[Database/IconSet/System/title]" xml:space="preserve" approved="yes">
+        <source>System</source>
+        <target state="final">Sistema</target>
+        <note>Title of an icon collection: icons provided by the system</note>
+      </trans-unit>
+      <trans-unit id="[Database/Item/Edited/state]" xml:space="preserve" approved="yes">
         <source>Edited</source>
-        <target state="needs-translation">Edited</target>
+        <target state="final">Editado</target>
         <note>Status of a database item (entry or group) after it was edited.</note>
       </trans-unit>
       <trans-unit id="[Database/LesserTargetFormat/warning]" xml:space="preserve" approved="yes">
@@ -379,9 +384,9 @@ Icons updated: %2$d</target>
         <target state="final">Formato de base de datos antiguo, algunos datos podrían perderse.</target>
         <note>Notification when user tries to copy data from KDBX to older KDB database.</note>
       </trans-unit>
-      <trans-unit id="[Database/Load/Error/encryptedByIntune]" xml:space="preserve">
+      <trans-unit id="[Database/Load/Error/encryptedByIntune]" xml:space="preserve" approved="yes">
         <source>This database is protected by your corporate IT policies and Microsoft Intune.</source>
-        <target state="needs-translation">This database is protected by your corporate IT policies and Microsoft Intune.</target>
+        <target state="final">Esta base de datos está protegida por sus políticas de TI corporativas y Microsoft Intune.</target>
         <note>Error message</note>
       </trans-unit>
       <trans-unit id="[Database/Load/Error] Cannot find database file" xml:space="preserve" approved="yes">
@@ -404,9 +409,9 @@ Icons updated: %2$d</target>
         <target state="final">No se pudo abrir el archivo de clave</target>
         <note>Error message</note>
       </trans-unit>
-      <trans-unit id="[Database/Load/Error] Incorrect database format" xml:space="preserve">
+      <trans-unit id="[Database/Load/Error] Incorrect database format" xml:space="preserve" approved="yes">
         <source>Incorrect database format: %@.</source>
-        <target state="needs-translation">Incorrect database format: %@.</target>
+        <target state="final">Formato incorrecto de la base de datos: %@.</target>
         <note>Error message, when the real file format is recognized. For example: 'Incorrect database format: JPEG.'</note>
       </trans-unit>
       <trans-unit id="[Database/Load/Error] Please provide at least a password or a key file" xml:space="preserve" approved="yes">
@@ -486,15 +491,20 @@ Esta es su última copia local.</target>
         <target state="final">Bloquear base de datos</target>
         <note>Action/button to lock current database (the next time, it will ask for the master key).</note>
       </trans-unit>
-      <trans-unit id="[Database/Operations/title]" xml:space="preserve">
+      <trans-unit id="[Database/Operations/title]" xml:space="preserve" approved="yes">
         <source>Database Operations</source>
-        <target state="needs-translation">Database Operations</target>
+        <target state="final">Operaciones de bases de datos</target>
         <note>Title of a list with database-related actions (e.g. lock database, change master key, etc)</note>
       </trans-unit>
-      <trans-unit id="[Database/Print/preparingPreview]" xml:space="preserve">
+      <trans-unit id="[Database/Print/preparingPreview]" xml:space="preserve" approved="yes">
         <source>Preparing preview…</source>
-        <target state="needs-translation">Preparing preview…</target>
+        <target state="final">Preparando vista previa…</target>
         <note>Status message: preparing database print preview.</note>
+      </trans-unit>
+      <trans-unit id="[Database/Progress/checkingDatabaseForModifications]" xml:space="preserve" approved="yes">
+        <source>Checking database for modifications…</source>
+        <target state="final">Comprobando de la base de datos en busca de modificaciones…</target>
+        <note>Database loading/saving status: checking whether our database was modified from another device.</note>
       </trans-unit>
       <trans-unit id="[Database/Progress/downloading]" xml:space="preserve" approved="yes">
         <source>Downloading database file...</source>
@@ -511,10 +521,20 @@ Esta es su última copia local.</target>
         <target state="final">Resolviendo referencias de campo…</target>
         <note>Database loading/saving status: replacing field references with their values</note>
       </trans-unit>
+      <trans-unit id="[Database/Progress/resolvingSyncConflict]" xml:space="preserve" approved="yes">
+        <source>Resolving a sync conflict…</source>
+        <target state="final">Resolviendo un conflicto de sincronización…</target>
+        <note>Database saving status: deciding how to handle conflicting changes.</note>
+      </trans-unit>
       <trans-unit id="[Database/Progress/resolving]" xml:space="preserve" approved="yes">
         <source>Contacting storage provider...</source>
         <target state="final">Contactando con el proveedor de almacenamiento...</target>
         <note>Progress status</note>
+      </trans-unit>
+      <trans-unit id="[Database/Progress/writingDatabaseFile]" xml:space="preserve" approved="yes">
+        <source>Writing database file…</source>
+        <target state="final">Escribiendo archivo de base de datos...</target>
+        <note>Database saving status</note>
       </trans-unit>
       <trans-unit id="[Database/Progress] Done" xml:space="preserve" approved="yes">
         <source>Done</source>
@@ -526,14 +546,14 @@ Esta es su última copia local.</target>
         <target state="final">Cargando archivo de clave ...</target>
         <note>Progress status</note>
       </trans-unit>
-      <trans-unit id="[Database/RecommendRemote/callToAction]" xml:space="preserve">
+      <trans-unit id="[Database/RecommendRemote/callToAction]" xml:space="preserve" approved="yes">
         <source>Try connecting to your remote storage directly from KeePassium.</source>
-        <target state="needs-translation">Try connecting to your remote storage directly from KeePassium.</target>
+        <target state="final">Intente conectarse a su almacenamiento remoto directamente desde KeePassium.</target>
         <note>Suggested solution/call to action when intermediate sync app fails.</note>
       </trans-unit>
-      <trans-unit id="[Database/Reload/action]" xml:space="preserve">
+      <trans-unit id="[Database/Reload/action]" xml:space="preserve" approved="yes">
         <source>Reload Database</source>
-        <target state="needs-translation">Reload Database</target>
+        <target state="final">Volver a cargar base de datos</target>
         <note>Action/button</note>
       </trans-unit>
       <trans-unit id="[Database/Remove/Confirm/text] Remove database from the list?&#10; The file will remain intact and you can add it again later." xml:space="preserve" approved="yes">
@@ -548,9 +568,9 @@ Esta es su última copia local.</target>
         <target state="final">Guardar base de datos</target>
         <note>Action/button to save the current database.</note>
       </trans-unit>
-      <trans-unit id="[Database/SaveToServer/action]" xml:space="preserve">
+      <trans-unit id="[Database/SaveToServer/action]" xml:space="preserve" approved="yes">
         <source>Save To Server</source>
-        <target state="needs-translation">Save To Server</target>
+        <target state="final">Guardar en servidor</target>
         <note>Action/button to save file to a remote server.</note>
       </trans-unit>
       <trans-unit id="[Database/Saving/Status] Done" xml:space="preserve" approved="yes">
@@ -568,9 +588,9 @@ Esta es su última copia local.</target>
         <target state="final">Considerar archivo no disponible</target>
         <note>File settings parameter: time after which file will be considered unreachable. Example: `Consider File Unreachable: in 10 seconds`.)</note>
       </trans-unit>
-      <trans-unit id="[Database/Settings/FallbackStrategy/ReAddFile/title]" xml:space="preserve">
+      <trans-unit id="[Database/Settings/FallbackStrategy/ReAddFile/title]" xml:space="preserve" approved="yes">
         <source>Re-add File</source>
-        <target state="needs-translation">Re-add File</target>
+        <target state="final">Volver a añadir archivo</target>
         <note>Title: what to do when a cloud-stored file cannot be loaded. (For example: `If File is Unreachable: Re-add File`.)</note>
       </trans-unit>
       <trans-unit id="[Database/Settings/FallbackStrategy/ShowError/title]" xml:space="preserve" approved="yes">
@@ -904,11 +924,6 @@ Asegúrese de tener una copia de seguridad de su base de datos antes de hacer ca
         <target state="final">Valor Nil en %@</target>
         <note>Error message about XML parsing. [tag: String]</note>
       </trans-unit>
-      <trans-unit id="[Database2/Xml2/ParsingError] Not a KeePass XML" xml:space="preserve" approved="yes">
-        <source>Not a KeePass XML</source>
-        <target state="final">No es un XML de KeePass</target>
-        <note>Error message about XML parsing</note>
-      </trans-unit>
       <trans-unit id="[Database2/Xml2/ParsingError] Unexpected tag '%@'" xml:space="preserve" approved="yes">
         <source>Unexpected tag '%@'</source>
         <target state="final">Etiqueta inesperada «%@»</target>
@@ -1014,24 +1029,24 @@ Asegúrese de tener una copia de seguridad de su base de datos antes de hacer ca
         <target state="final">Nombre del campo</target>
         <note>Default name of a newly created entry field</note>
       </trans-unit>
-      <trans-unit id="[Entry/Field/CopyReference/acknowledgement]" xml:space="preserve">
+      <trans-unit id="[Entry/Field/CopyReference/acknowledgement]" xml:space="preserve" approved="yes">
         <source>Field reference copied to clipboard</source>
-        <target state="needs-translation">Field reference copied to clipboard</target>
+        <target state="final">Referencia de campo copiada en el portapapeles</target>
         <note>Notification: a reference to an entry field has been copied to clipboard</note>
       </trans-unit>
-      <trans-unit id="[Entry/Field/CopyReference/action]" xml:space="preserve">
+      <trans-unit id="[Entry/Field/CopyReference/action]" xml:space="preserve" approved="yes">
         <source>Copy Field Reference</source>
-        <target state="needs-translation">Copy Field Reference</target>
+        <target state="final">Copiar referencia de campo</target>
         <note>Action: copy a reference to the selected entry field to clipboard</note>
       </trans-unit>
-      <trans-unit id="[Entry/Field/LargeType/action]" xml:space="preserve">
+      <trans-unit id="[Entry/Field/LargeType/action]" xml:space="preserve" approved="yes">
         <source>Show in Large Type</source>
-        <target state="needs-translation">Show in Large Type</target>
+        <target state="final">Mostrar en letra grande</target>
         <note>Action: display text using large font</note>
       </trans-unit>
-      <trans-unit id="[Entry/Field/name] Icon" xml:space="preserve">
+      <trans-unit id="[Entry/Field/name] Icon" xml:space="preserve" approved="yes">
         <source>Icon</source>
-        <target state="needs-translation">Icon</target>
+        <target state="final">Icono</target>
         <note>Name of an entry field</note>
       </trans-unit>
       <trans-unit id="[Entry/Field/name] Notes" xml:space="preserve" approved="yes">
@@ -1059,9 +1074,9 @@ Asegúrese de tener una copia de seguridad de su base de datos antes de hacer ca
         <target state="final">Nombre de usuario</target>
         <note>Name of an entry field</note>
       </trans-unit>
-      <trans-unit id="[Entry/Field/tags] Tags" xml:space="preserve">
+      <trans-unit id="[Entry/Field/tags] Tags" xml:space="preserve" approved="yes">
         <source>Tags</source>
-        <target state="needs-translation">Tags</target>
+        <target state="final">Etiquetas</target>
         <note>Name of an entry field</note>
       </trans-unit>
       <trans-unit id="[Entry/Files/Add] Loading attachment file" xml:space="preserve" approved="yes">
@@ -1144,14 +1159,14 @@ Asegúrese de tener una copia de seguridad de su base de datos antes de hacer ca
         <target state="final">El dispositivo USB está desconectado.</target>
         <note>Error message: there is no USB drive connected to the device.</note>
       </trans-unit>
-      <trans-unit id="[FileAccessError/ManagedAccessDenied/title]" xml:space="preserve">
+      <trans-unit id="[FileAccessError/ManagedAccessDenied/title]" xml:space="preserve" approved="yes">
         <source>Access to this storage is disabled by your organization.</source>
-        <target state="needs-translation">Access to this storage is disabled by your organization.</target>
+        <target state="final">El acceso a este almacenamiento está deshabilitado por su organización.</target>
         <note>Error message: organization's IT administrator has forbidden access to a data storage location.</note>
       </trans-unit>
-      <trans-unit id="[FileAccessError/NetworkAccessDenied/generic]" xml:space="preserve">
+      <trans-unit id="[FileAccessError/NetworkAccessDenied/generic]" xml:space="preserve" approved="yes">
         <source>Network access is blocked by the settings.</source>
-        <target state="needs-translation">Network access is blocked by the settings.</target>
+        <target state="final">El acceso a la red está bloqueado por los ajustes.</target>
         <note>Error message: network access is forbidden by system or app settings.</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/NoResponse/genericFileProvider]" xml:space="preserve" approved="yes">
@@ -1179,14 +1194,14 @@ Asegúrese de tener una copia de seguridad de su base de datos antes de hacer ca
         <target state="final">Utilice la opción Exportar para guardar el archivo en otra ubicación.</target>
         <note>Suggestion for error recovery</note>
       </trans-unit>
-      <trans-unit id="[FileAccessError/PermissionRequired/reason]" xml:space="preserve">
+      <trans-unit id="[FileAccessError/PermissionRequired/reason]" xml:space="preserve" approved="yes">
         <source>KeePassium needs your permission to access '%@'.</source>
-        <target state="needs-translation">KeePassium needs your permission to access '%@'.</target>
+        <target state="final">KeePassium necesita su permiso para acceder a «%@».</target>
         <note>Error message for file with an expired access permission [fileName: String].</note>
       </trans-unit>
-      <trans-unit id="[FileAccessError/PermissionRequired/recoveryAction]" xml:space="preserve">
+      <trans-unit id="[FileAccessError/PermissionRequired/recoveryAction]" xml:space="preserve" approved="yes">
         <source>Select the file again to allow access</source>
-        <target state="needs-translation">Select the file again to allow access</target>
+        <target state="final">Seleccione de nuevo el archivo para permitir el acceso</target>
         <note>Action/button for error recovery</note>
       </trans-unit>
       <trans-unit id="[FileAccessError/Timeout/genericFileProvider]" xml:space="preserve" approved="yes">
@@ -1289,9 +1304,9 @@ Asegúrese de tener una copia de seguridad de su base de datos antes de hacer ca
         <target state="final">Boxcryptor</target>
         <note>Localized name of the storage service: Boxcryptor (https://boxcryptor.com)</note>
       </trans-unit>
-      <trans-unit id="[FileProvider/Cryptomator/name]" xml:space="preserve">
+      <trans-unit id="[FileProvider/Cryptomator/name]" xml:space="preserve" approved="yes">
         <source>Cryptomator</source>
-        <target state="translated">Cryptomator</target>
+        <target state="final">Cryptomator</target>
         <note>Localized name of the storage service: Cryptomator (https://cryptomator.org)</note>
       </trans-unit>
       <trans-unit id="[FileProvider/Dropbox/name]" xml:space="preserve" approved="yes">
@@ -1309,9 +1324,9 @@ Asegúrese de tener una copia de seguridad de su base de datos antes de hacer ca
         <target state="final">Google Drive</target>
         <note>Localized name of the storage service: Google Drive (https://drive.google.com)</note>
       </trans-unit>
-      <trans-unit id="[FileProvider/MagentaCloud/name]" xml:space="preserve">
+      <trans-unit id="[FileProvider/MagentaCloud/name]" xml:space="preserve" approved="yes">
         <source>MagentaCLOUD</source>
-        <target state="needs-translation">MagentaCLOUD</target>
+        <target state="final">MagentaCLUD</target>
         <note>Localized name of the storage service: MagentaCLOUD (https://www.telekom.de/zubuchoptionen/magenta-cloud)</note>
       </trans-unit>
       <trans-unit id="[FileProvider/Mega.nz/name]" xml:space="preserve" approved="yes">
@@ -1339,9 +1354,9 @@ Asegúrese de tener una copia de seguridad de su base de datos antes de hacer ca
         <target state="final">OneDrive</target>
         <note>Localized name of the storage service: OneDrive (https://onedrive.com)</note>
       </trans-unit>
-      <trans-unit id="[FileProvider/ProtonDrive/name]" xml:space="preserve">
+      <trans-unit id="[FileProvider/ProtonDrive/name]" xml:space="preserve" approved="yes">
         <source>Proton Drive</source>
-        <target state="translated">Proton Drive</target>
+        <target state="final">Proton Drive</target>
         <note>Localized name of the storage service: Proton Drive (https://proton.me/drive)</note>
       </trans-unit>
       <trans-unit id="[FileProvider/Readdle Documents/name]" xml:space="preserve" approved="yes">
@@ -1363,6 +1378,11 @@ Asegúrese de tener una copia de seguridad de su base de datos antes de hacer ca
         <source>Seafile Pro</source>
         <target state="final">Seafile Pro</target>
         <note>Localized name of the storage app: Seafile Pro (https://apps.apple.com/us/app/seafile-pro/id639202512)</note>
+      </trans-unit>
+      <trans-unit id="[FileProvider/Secure ShellFish/name]" xml:space="preserve" approved="yes">
+        <source>Secure ShellFish</source>
+        <target state="final">Secure ShellFish</target>
+        <note>Localized name of the storage app: Secure ShellFish (https://apps.apple.com/app/ssh-files-secure-shellfish/id1336634154)</note>
       </trans-unit>
       <trans-unit id="[FileProvider/Stratospherix FileBrowser/name]" xml:space="preserve" approved="yes">
         <source>FileBrowser</source>
@@ -1459,24 +1479,24 @@ Asegúrese de tener una copia de seguridad de su base de datos antes de hacer ca
         <target state="final">Elija un destino</target>
         <note>Title of the dialog for picking the destination group for move/copy operations</note>
       </trans-unit>
-      <trans-unit id="[General/Feature/Off]" xml:space="preserve">
+      <trans-unit id="[General/Feature/Off]" xml:space="preserve" approved="yes">
         <source>Off</source>
-        <target state="needs-translation">Off</target>
+        <target state="final">Desactivado</target>
         <note>Feature status: disabled/inactive. Keep it short, possibly abbreviated.</note>
       </trans-unit>
-      <trans-unit id="[General/Feature/On]" xml:space="preserve">
+      <trans-unit id="[General/Feature/On]" xml:space="preserve" approved="yes">
         <source>On</source>
-        <target state="needs-translation">On</target>
+        <target state="final">Activado</target>
         <note>Feature status: enabled/active. Keep it short, possibly abbreviated.</note>
       </trans-unit>
-      <trans-unit id="[General/FileList/Empty/title]" xml:space="preserve">
+      <trans-unit id="[General/FileList/Empty/title]" xml:space="preserve" approved="yes">
         <source>Folder is empty</source>
-        <target state="needs-translation">Folder is empty</target>
+        <target state="final">La carpeta está vacía</target>
         <note>Placeholder for folders without files</note>
       </trans-unit>
-      <trans-unit id="[Generic/Action/SelectItems]" xml:space="preserve">
+      <trans-unit id="[Generic/Action/SelectItems]" xml:space="preserve" approved="yes">
         <source>Select</source>
-        <target state="needs-translation">Select</target>
+        <target state="final">Seleccionar</target>
         <note>Action/button to select some items in a list.</note>
       </trans-unit>
       <trans-unit id="[Generic/ConfirmDelete/title] Are you sure?" xml:space="preserve" approved="yes">
@@ -1549,9 +1569,9 @@ Asegúrese de tener una copia de seguridad de su base de datos antes de hacer ca
         <target state="final">Preajustes</target>
         <note>Title of a list with predefined quick-choice values (for example: 'Presets: 1 week, 1 months, 1 year')</note>
       </trans-unit>
-      <trans-unit id="[Generic/RefreshList/action]" xml:space="preserve">
+      <trans-unit id="[Generic/RefreshList/action]" xml:space="preserve" approved="yes">
         <source>Refresh List</source>
-        <target state="needs-translation">Refresh List</target>
+        <target state="final">Recargar la lista</target>
         <note>Action: refresh list of items, usually files</note>
       </trans-unit>
       <trans-unit id="[Generic/Search/title]" xml:space="preserve" approved="yes">
@@ -1644,9 +1664,9 @@ Asegúrese de tener una copia de seguridad de su base de datos antes de hacer ca
         <target state="final">Exportar</target>
         <note>Action/button to export an item to another app</note>
       </trans-unit>
-      <trans-unit id="[Generic] Fix this" xml:space="preserve">
+      <trans-unit id="[Generic] Fix this" xml:space="preserve" approved="yes">
         <source>Fix this</source>
-        <target state="needs-translation">Fix this</target>
+        <target state="final">Solucionar</target>
         <note>Action/button shown below error messages. Tapping the button will start the fixing/repairing workflow described in the error message.</note>
       </trans-unit>
       <trans-unit id="[Generic] Learn more" xml:space="preserve" approved="yes">
@@ -1679,9 +1699,9 @@ Asegúrese de tener una copia de seguridad de su base de datos antes de hacer ca
         <target state="final">Sobreescribir</target>
         <note>Action/button to replace/overwrite an item</note>
       </trans-unit>
-      <trans-unit id="[Generic] Print" xml:space="preserve">
+      <trans-unit id="[Generic] Print" xml:space="preserve" approved="yes">
         <source>Print</source>
-        <target state="needs-translation">Print</target>
+        <target state="final">Imprimir</target>
         <note>Action/button to print a document</note>
       </trans-unit>
       <trans-unit id="[Generic] Rename" xml:space="preserve" approved="yes">
@@ -1699,9 +1719,9 @@ Asegúrese de tener una copia de seguridad de su base de datos antes de hacer ca
         <target state="final">Restaurar</target>
         <note>Action/button to restore a backup/archived item in its original place</note>
       </trans-unit>
-      <trans-unit id="[Generic] Retry" xml:space="preserve">
+      <trans-unit id="[Generic] Retry" xml:space="preserve" approved="yes">
         <source>Retry</source>
-        <target state="needs-translation">Retry</target>
+        <target state="final">Reintentar</target>
         <note>Action: repeat the previous (failed) action</note>
       </trans-unit>
       <trans-unit id="[Generic] Reveal in Finder" xml:space="preserve" approved="yes">
@@ -1754,14 +1774,14 @@ Asegúrese de tener una copia de seguridad de su base de datos antes de hacer ca
         <target state="final">Nuevo grupo</target>
         <note>Default name of a new group</note>
       </trans-unit>
-      <trans-unit id="[Group/RecycleBin/Empty/action]" xml:space="preserve">
+      <trans-unit id="[Group/RecycleBin/Empty/action]" xml:space="preserve" approved="yes">
         <source>Empty Recycle Bin</source>
-        <target state="needs-translation">Empty Recycle Bin</target>
+        <target state="final">Vaciar la papelera de reciclaje</target>
         <note>Action/button to delete everything inside the Recycle Bin</note>
       </trans-unit>
-      <trans-unit id="[Group/RecycleBin/Empty/confirmTitle]" xml:space="preserve">
+      <trans-unit id="[Group/RecycleBin/Empty/confirmTitle]" xml:space="preserve" approved="yes">
         <source>Permanently delete everything in the Recycle Bin?</source>
-        <target state="needs-translation">Permanently delete everything in the Recycle Bin?</target>
+        <target state="final">¿Eliminar permanentemente todo lo que hay en la Papelera de reciclaje?</target>
         <note>Title of the confirmation dialog for `Empty Recycle Bin` action</note>
       </trans-unit>
       <trans-unit id="[Group/a11y/description]" xml:space="preserve" approved="yes">
@@ -1819,19 +1839,24 @@ Asegúrese de tener una copia de seguridad de su base de datos antes de hacer ca
         <target state="final">Las claves de hardware no están disponibles con Autorrelleno.</target>
         <note>A notification that hardware keys (e.g. YubiKey) cannot be used in AutoFill (the OS does not allow the AutoFill to use NFC/MFI).</note>
       </trans-unit>
+      <trans-unit id="[HardwareKey/AutoFill/TheseNotAvailable]" xml:space="preserve" approved="yes">
+        <source>These hardware keys are not available in AutoFill.</source>
+        <target state="final">Estos seguros electrónicos no están disponibles en Autorrelleno.</target>
+        <note>Information notice for a list of hardware keys.</note>
+      </trans-unit>
       <trans-unit id="[HardwareKey/Field/title]" xml:space="preserve" approved="yes">
         <source>Hardware Key</source>
         <target state="final">Seguro electrónico</target>
         <note>Name of an input field which shows selected hardware key</note>
       </trans-unit>
-      <trans-unit id="[HardwareKey/Interface/LightningViaUSBAdapter]" xml:space="preserve">
+      <trans-unit id="[HardwareKey/Interface/LightningViaUSBAdapter]" xml:space="preserve" approved="yes">
         <source>Lightning (via USB adapter)</source>
-        <target state="needs-translation">Lightning (via USB adapter)</target>
+        <target state="final">Lightning (mediante adaptador USB)</target>
         <note>Connector type for older Apple devices, used through a USB adapter. https://en.wikipedia.org/wiki/Lightning_(connector)</note>
       </trans-unit>
-      <trans-unit id="[HardwareKey/LightningOverUSB/RequiresAdapter]" xml:space="preserve">
+      <trans-unit id="[HardwareKey/LightningOverUSB/RequiresAdapter]" xml:space="preserve" approved="yes">
         <source>Requires Apple USB-C to Lightning adapter</source>
-        <target state="needs-translation">Requires Apple USB-C to Lightning adapter</target>
+        <target state="final">Requiere adaptador Apple de USB-C a Lightning</target>
         <note>A notice for hardware keys that need an adapter for physical connection to device.</note>
       </trans-unit>
       <trans-unit id="[HardwareKey/NFC/OS too old]" xml:space="preserve" approved="yes">
@@ -1849,14 +1874,14 @@ Asegúrese de tener una copia de seguridad de su base de datos antes de hacer ca
         <target state="final">Claves de hardware</target>
         <note>Title of a list with possible hardware key connections</note>
       </trans-unit>
-      <trans-unit id="[HardwareKey/USB/chalRespNotSupported]" xml:space="preserve">
+      <trans-unit id="[HardwareKey/USB/chalRespNotSupported]" xml:space="preserve" approved="yes">
         <source>This device does not support challenge-response over USB connection.</source>
-        <target state="needs-translation">This device does not support challenge-response over USB connection.</target>
+        <target state="final">Este dispositivo no admite desafío-respuesta a través de la conexión USB.</target>
         <note>Information notice. 'Challenge-response' is a glossary term.</note>
       </trans-unit>
-      <trans-unit id="[HardwareKey/USB/iPadAppOnMac]" xml:space="preserve">
+      <trans-unit id="[HardwareKey/USB/iPadAppOnMac]" xml:space="preserve" approved="yes">
         <source>USB is not available, because this is an iPad app running on macOS. Use the native Mac app instead.</source>
-        <target state="needs-translation">USB is not available, because this is an iPad app running on macOS. Use the native Mac app instead.</target>
+        <target state="final">USB no está disponible, ya que se trata de una aplicación para iPad que funciona en macOS. Utilice en su lugar la aplicación nativa para Mac.</target>
         <note>Information notice</note>
       </trans-unit>
       <trans-unit id="[HardwareKey/YubiKey/Slot] YubiKey Slot #%d" xml:space="preserve" approved="yes">
@@ -1874,9 +1899,9 @@ Asegúrese de tener una copia de seguridad de su base de datos antes de hacer ca
         <target state="final">Para proteger sus datos propios, la organización debe administrar esta aplicación. Inicie sesión con la cuenta profesional o educativa para completar esta acción.</target>
         <note>Info message for enterprise users</note>
       </trans-unit>
-      <trans-unit id="[Intune/PersonalVersionElsewhere]" xml:space="preserve">
+      <trans-unit id="[Intune/PersonalVersionElsewhere]" xml:space="preserve" approved="yes">
         <source>KeePassium version for personal use is available on the App Store.</source>
-        <target state="needs-translation">KeePassium version for personal use is available on the App Store.</target>
+        <target state="final">La versión KeePassium para uso personal está disponible en la App Store.</target>
         <note>Info message for users who accidentally installed the enterprise version.</note>
       </trans-unit>
       <trans-unit id="[Item/History/Restored]" xml:space="preserve" approved="yes">
@@ -1889,9 +1914,9 @@ Asegúrese de tener una copia de seguridad de su base de datos antes de hacer ca
         <target state="final">Avanzado</target>
         <note>Title of a list with advanced/expert-level properties of a database item (e.g. entry)</note>
       </trans-unit>
-      <trans-unit id="[Item/Properties/AutoFill/KeePassXC/title]" xml:space="preserve">
+      <trans-unit id="[Item/Properties/AutoFill/KeePassXC/title]" xml:space="preserve" approved="yes">
         <source>Password AutoFill (KeePassXC)</source>
-        <target state="needs-translation">Password AutoFill (KeePassXC)</target>
+        <target state="final">Autorrelleno de contraseñas (KeePassXC)</target>
         <note>Title of a setting: whether the item (e.g. entry) should be used in AutoFill feature. App-specific setting for KeePassXC.</note>
       </trans-unit>
       <trans-unit id="[Item/Properties/AutoFill/allowed]" xml:space="preserve">
@@ -1899,14 +1924,14 @@ Asegúrese de tener una copia de seguridad de su base de datos antes de hacer ca
         <target state="translated">Permitidos</target>
         <note>Possible value of the `Password AutoFill` setting. For example: 'Password AutoFill: Allowed'</note>
       </trans-unit>
-      <trans-unit id="[Item/Properties/AutoFill/disabled]" xml:space="preserve">
+      <trans-unit id="[Item/Properties/AutoFill/disabled]" xml:space="preserve" approved="yes">
         <source>Disabled</source>
-        <target state="needs-translation">Disabled</target>
+        <target state="final">Deshabilitado</target>
         <note>Possible value of the `Password AutoFill` setting. For example: 'Password AutoFill: Disabled'</note>
       </trans-unit>
-      <trans-unit id="[Item/Properties/AutoFill/title]" xml:space="preserve">
+      <trans-unit id="[Item/Properties/AutoFill/title]" xml:space="preserve" approved="yes">
         <source>Password AutoFill</source>
-        <target state="needs-translation">Password AutoFill</target>
+        <target state="final">Autorrelleno de contraseña</target>
         <note>Title of a setting: whether the item (e.g. entry) should be used in AutoFill feature</note>
       </trans-unit>
       <trans-unit id="[Item/Properties/PasswordAudit/allowed]" xml:space="preserve">
@@ -1914,14 +1939,14 @@ Asegúrese de tener una copia de seguridad de su base de datos antes de hacer ca
         <target state="translated">Permitidos</target>
         <note>Possible value of the `Password Audit` setting. For example: 'Password Audit: Allowed'</note>
       </trans-unit>
-      <trans-unit id="[Item/Properties/PasswordAudit/disabled]" xml:space="preserve">
+      <trans-unit id="[Item/Properties/PasswordAudit/disabled]" xml:space="preserve" approved="yes">
         <source>Disabled</source>
-        <target state="needs-translation">Disabled</target>
+        <target state="final">Deshabilitado</target>
         <note>Possible value of the `Password Audit` setting. For example: 'Password Audit: Disabled'</note>
       </trans-unit>
-      <trans-unit id="[Item/Properties/PasswordAudit/title]" xml:space="preserve">
+      <trans-unit id="[Item/Properties/PasswordAudit/title]" xml:space="preserve" approved="yes">
         <source>Password Audit</source>
-        <target state="needs-translation">Password Audit</target>
+        <target state="final">Auditoría de contraseñas</target>
         <note>Title of a setting: whether the item (e.g. entry) should be included in password audit</note>
       </trans-unit>
       <trans-unit id="[Item/Properties/Search/allowed]" xml:space="preserve">
@@ -1929,9 +1954,9 @@ Asegúrese de tener una copia de seguridad de su base de datos antes de hacer ca
         <target state="translated">Permitidos</target>
         <note>Possible value of the `Search` setting. Example: 'Search: Allowed'</note>
       </trans-unit>
-      <trans-unit id="[Item/Properties/Search/disabled]" xml:space="preserve">
+      <trans-unit id="[Item/Properties/Search/disabled]" xml:space="preserve" approved="yes">
         <source>Disabled</source>
-        <target state="needs-translation">Disabled</target>
+        <target state="final">Deshabilitado</target>
         <note>Possible value of the `Search` setting, when the item should be excluded from search results. Example: 'Search: Disabled'</note>
       </trans-unit>
       <trans-unit id="[Item/Properties/Search/title] Search" xml:space="preserve" approved="yes">
@@ -1939,14 +1964,14 @@ Asegúrese de tener una copia de seguridad de su base de datos antes de hacer ca
         <target state="final">Buscar</target>
         <note>Title of a setting: whether the item (e.g. entry) should be considered during search. Example: 'Search: Allowed'</note>
       </trans-unit>
-      <trans-unit id="[Item/Properties/inheritedValue]" xml:space="preserve">
+      <trans-unit id="[Item/Properties/inheritedValue]" xml:space="preserve" approved="yes">
         <source>Inherit from parent group (%@)</source>
-        <target state="needs-translation">Inherit from parent group (%@)</target>
+        <target state="final">Heredar del grupo principal (%@)</target>
         <note>Default value of an item property. For example: 'Password Audit: Inherit from parent group (Allowed)'. [inheritedValue: String]</note>
       </trans-unit>
-      <trans-unit id="[Item/Properties/title]" xml:space="preserve">
+      <trans-unit id="[Item/Properties/title]" xml:space="preserve" approved="yes">
         <source>Properties</source>
-        <target state="needs-translation">Properties</target>
+        <target state="final">Propiedades</target>
         <note>Title of a list with item (e.g. entry) properties/settings, such as searchability, auto-typing, etc</note>
       </trans-unit>
       <trans-unit id="[ItemCategory] Default (KeePass)" xml:space="preserve" approved="yes">
@@ -1969,14 +1994,14 @@ Asegúrese de tener una copia de seguridad de su base de datos antes de hacer ca
         <target state="final">Procesando la clave maestra</target>
         <note>Status message: processing of the master key is in progress</note>
       </trans-unit>
-      <trans-unit id="[KeyFile/Create/action]" xml:space="preserve">
+      <trans-unit id="[KeyFile/Create/action]" xml:space="preserve" approved="yes">
         <source>Create Key File</source>
-        <target state="needs-translation">Create Key File</target>
+        <target state="final">Crear Archivo de clave</target>
         <note>Action: create new key file.</note>
       </trans-unit>
-      <trans-unit id="[KeyFile/Create/defaultName]" xml:space="preserve">
+      <trans-unit id="[KeyFile/Create/defaultName]" xml:space="preserve" approved="yes">
         <source>keyfile.dat</source>
-        <target state="needs-translation">keyfile.dat</target>
+        <target state="final">keyfile.dat</target>
         <note>Default name for new key files. Should match the `key file` term in the glossary.</note>
       </trans-unit>
       <trans-unit id="[KeyFile/Delete/Confirm/text] Delete key file?&#10; Make sure you have a backup." xml:space="preserve" approved="yes">
@@ -1991,14 +2016,14 @@ Asegúrese de tener una copia de seguridad de su base de datos antes de hacer ca
         <target state="final">Archivo de clave</target>
         <note>Name of an input field which shows selected key file</note>
       </trans-unit>
-      <trans-unit id="[KeyFile/Import/actionDescription]" xml:space="preserve">
+      <trans-unit id="[KeyFile/Import/actionDescription]" xml:space="preserve" approved="yes">
         <source>Add file to the app</source>
-        <target state="needs-translation">Add file to the app</target>
+        <target state="final">Añadir archivo a la aplicación</target>
         <note>Description of the `Import Key File` action.</note>
       </trans-unit>
-      <trans-unit id="[KeyFile/Import/action]" xml:space="preserve">
+      <trans-unit id="[KeyFile/Import/action]" xml:space="preserve" approved="yes">
         <source>Import Key File</source>
-        <target state="needs-translation">Import Key File</target>
+        <target state="final">Importar Archivo de clave</target>
         <note>Action: import/add a key file into the app. `Key file` is a glossary term.</note>
       </trans-unit>
       <trans-unit id="[KeyFile/Remove/Confirm/text] Remove key file from the list?&#10; The file will remain intact and you can add it again later." xml:space="preserve" approved="yes">
@@ -2008,14 +2033,14 @@ Asegúrese de tener una copia de seguridad de su base de datos antes de hacer ca
 El archivo permanecerá intacto y lo podrá agregar nuevamente más tarde.</target>
         <note>Message to confirm removal of a key file from the app. (This keeps the file, but removes its reference from the app.)</note>
       </trans-unit>
-      <trans-unit id="[KeyFile/Use/actionDescription]" xml:space="preserve">
+      <trans-unit id="[KeyFile/Use/actionDescription]" xml:space="preserve" approved="yes">
         <source>Use without adding</source>
-        <target state="needs-translation">Use without adding</target>
+        <target state="final">Utilizar sin añadir</target>
         <note>Description of the `Select Key File` action.</note>
       </trans-unit>
-      <trans-unit id="[KeyFile/Use/action]" xml:space="preserve">
+      <trans-unit id="[KeyFile/Use/action]" xml:space="preserve" approved="yes">
         <source>Select Key File</source>
-        <target state="needs-translation">Select Key File</target>
+        <target state="final">Seleccionar Archivo de clave</target>
         <note>Action: use a key file at its storage location, without importing to the app.</note>
       </trans-unit>
       <trans-unit id="[KeyFileError/Corrupted/title]" xml:space="preserve" approved="yes">
@@ -2043,9 +2068,9 @@ El archivo permanecerá intacto y lo podrá agregar nuevamente más tarde.</targ
         <target state="final">Información de archivo</target>
         <note>Menu item: show information about file (name, size, dates)</note>
       </trans-unit>
-      <trans-unit id="[OTP/CopiedToClipboard/title]" xml:space="preserve">
+      <trans-unit id="[OTP/CopiedToClipboard/title]" xml:space="preserve" approved="yes">
         <source>One-time password copied to clipboard</source>
-        <target state="needs-translation">One-time password copied to clipboard</target>
+        <target state="final">Contraseña única copiada en el portapapeles</target>
         <note>Notification next to the OTP code which was copied to clipboard</note>
       </trans-unit>
       <trans-unit id="[OTP/FieldName]" xml:space="preserve" approved="yes">
@@ -2058,9 +2083,9 @@ El archivo permanecerá intacto y lo podrá agregar nuevamente más tarde.</targ
         <target state="final">Este código QR no es adecuado para la configuración OTP.</target>
         <note>Error shown when scanned QR code cannot be used for OTP</note>
       </trans-unit>
-      <trans-unit id="[OTP/Scan/InvalidSecretCode]" xml:space="preserve">
+      <trans-unit id="[OTP/Scan/InvalidSecretCode]" xml:space="preserve" approved="yes">
         <source>Entered secret code is not suitable for OTP setup.</source>
-        <target state="needs-translation">Entered secret code is not suitable for OTP setup.</target>
+        <target state="final">El código secreto introducido no es adecuado para la configuración OTP.</target>
         <note>Error shown when a manually entered OTP secret is misformatted.</note>
       </trans-unit>
       <trans-unit id="[OTP/Scan/OverwriteWarning]" xml:space="preserve" approved="yes">
@@ -2068,19 +2093,19 @@ El archivo permanecerá intacto y lo podrá agregar nuevamente más tarde.</targ
         <target state="final">Ya hay configurada una contraseña de un solo uso para esta entrada. ¿Desea sobrescribirla?</target>
         <note>Message to confirm user intentions</note>
       </trans-unit>
-      <trans-unit id="[OTP/Setup/EnterManually]" xml:space="preserve">
+      <trans-unit id="[OTP/Setup/EnterManually]" xml:space="preserve" approved="yes">
         <source>Enter manually</source>
-        <target state="needs-translation">Enter manually</target>
+        <target state="final">Introducir manualmente</target>
         <note>Button/action: proceed with manual OTP setup</note>
       </trans-unit>
-      <trans-unit id="[OTP/Setup/EnterSecretCode/callToAction]" xml:space="preserve">
+      <trans-unit id="[OTP/Setup/EnterSecretCode/callToAction]" xml:space="preserve" approved="yes">
         <source>Enter Secret Code</source>
-        <target state="needs-translation">Enter Secret Code</target>
+        <target state="final">Introduzca el código secreto</target>
         <note>Call to action: type in the secret key for OTP setup.</note>
       </trans-unit>
-      <trans-unit id="[OTP/Setup/ScanQRCode]" xml:space="preserve">
+      <trans-unit id="[OTP/Setup/ScanQRCode]" xml:space="preserve" approved="yes">
         <source>Scan QR code</source>
-        <target state="needs-translation">Scan QR code</target>
+        <target state="final">Escanear código QR</target>
         <note>Button/action: proceed with QR code based OTP setup</note>
       </trans-unit>
       <trans-unit id="[OTP/Setup]" xml:space="preserve" approved="yes">
@@ -2088,9 +2113,9 @@ El archivo permanecerá intacto y lo podrá agregar nuevamente más tarde.</targ
         <target state="final">Configurar contraseña de un solo uso (OTP)</target>
         <note>Call for action. Acronym `OTP` should not be translated.</note>
       </trans-unit>
-      <trans-unit id="[OTP/Title/sentenceCase]" xml:space="preserve">
+      <trans-unit id="[OTP/Title/sentenceCase]" xml:space="preserve" approved="yes">
         <source>One-time password</source>
-        <target state="needs-translation">One-time password</target>
+        <target state="final">Contraseña de un solo uso</target>
         <note>Description of an OTP code; sentence case.</note>
       </trans-unit>
       <trans-unit id="[Org/ContactYourAdmin]" xml:space="preserve">
@@ -2098,10 +2123,15 @@ El archivo permanecerá intacto y lo podrá agregar nuevamente más tarde.</targ
         <target state="translated">Póngase en contacto con el administrador de TI.</target>
         <note>Suggestion/hint on how to fix an accompanying error.</note>
       </trans-unit>
-      <trans-unit id="[Org/LicenseMissing]" xml:space="preserve">
+      <trans-unit id="[Org/LicenseMissing]" xml:space="preserve" approved="yes">
         <source>KeePassium could not find the enterprise account of your organization.</source>
-        <target state="needs-translation">KeePassium could not find the enterprise account of your organization.</target>
+        <target state="final">KeePassium no ha podido encontrar la cuenta de empresa de su organización.</target>
         <note>Error message, euphemism for missing corporate license</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/Accept/action]" xml:space="preserve" approved="yes">
+        <source>Accept</source>
+        <target state="final">Aceptar</target>
+        <note>Action/button: accept/use the generated password</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/CannotGenerateText/title]" xml:space="preserve">
         <source>Cannot generate text</source>
@@ -2273,6 +2303,11 @@ El archivo permanecerá intacto y lo podrá agregar nuevamente más tarde.</targ
         <target state="translated">Lista corta de la EFF n.º%d (1296 palabras)</target>
         <note>Name of a wordlist for passphrase generator. `EFF` is an organization name.</note>
       </trans-unit>
+      <trans-unit id="[PasswordGenerator/Wordlist/ImportError/reason]" xml:space="preserve" approved="yes">
+        <source>File could not be imported because of a problem in line %1$d (%2$@)</source>
+        <target state="final">No se ha podido importar el archivo debido a un problema en la línea %1$d (%2$@)</target>
+        <note>Error message when importing a text file [lineNumber: Int, problemDescription: String]</note>
+      </trans-unit>
       <trans-unit id="[PasswordGenerator/Wordlist/title]" xml:space="preserve">
         <source>Wordlist</source>
         <target state="translated">Lista de palabras</target>
@@ -2293,9 +2328,9 @@ El archivo permanecerá intacto y lo podrá agregar nuevamente más tarde.</targ
         <target state="final">Vista previa sin dejar rastro</target>
         <note>Title of a premium feature</note>
       </trans-unit>
-      <trans-unit id="[Premium/Benefits/BusinessClouds/title]" xml:space="preserve">
+      <trans-unit id="[Premium/Benefits/BusinessClouds/title]" xml:space="preserve" approved="yes">
         <source>Sync with corporate storage</source>
-        <target state="needs-translation">Sync with corporate storage</target>
+        <target state="final">Sincronizar con almacenamiento corporativo</target>
         <note>Title of a premium feature</note>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/CustomAppIcon/details]" xml:space="preserve" approved="yes">
@@ -2343,9 +2378,9 @@ El archivo permanecerá intacto y lo podrá agregar nuevamente más tarde.</targ
         <target state="final">Lo que se está perdiendo</target>
         <note>List of premium benefits/advantages</note>
       </trans-unit>
-      <trans-unit id="[Premium/Benefits/PasswordAudit/title]" xml:space="preserve">
+      <trans-unit id="[Premium/Benefits/PasswordAudit/title]" xml:space="preserve" approved="yes">
         <source>Check your passwords</source>
-        <target state="needs-translation">Check your passwords</target>
+        <target state="final">Compruebe sus contraseñas</target>
         <note>Title of a premium feature</note>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/Positive/header] " xml:space="preserve" approved="yes">
@@ -2606,14 +2641,14 @@ Puede gestionar y cancelar sus suscripciones accediendo a los ajustes de su cuen
         <target state="final">En uso: %1$@/month, que es alrededor de %2$@/year.</target>
         <note>Status: how long the app has been used during some time period. For example: `App being useful: 1hr/month, about 12hr/year`. [monthlyUsage: String, annualUsage: String — already include the time unit (hours, minutes)]</note>
       </trans-unit>
-      <trans-unit id="[PremiumFeature/BusinessClouds/description]" xml:space="preserve">
+      <trans-unit id="[PremiumFeature/BusinessClouds/description]" xml:space="preserve" approved="yes">
         <source>Connect directly to enterprise storage accounts, such as OneDrive for Business.</source>
-        <target state="needs-translation">Connect directly to enterprise storage accounts, such as OneDrive for Business.</target>
+        <target state="final">Conéctese directamente a cuentas de almacenamiento empresariales, como OneDrive para la Empresa.</target>
         <note>Description/call to action for the `Business Cloud Storage` premium feature.</note>
       </trans-unit>
-      <trans-unit id="[PremiumFeature/BusinessClouds/title]" xml:space="preserve">
+      <trans-unit id="[PremiumFeature/BusinessClouds/title]" xml:space="preserve" approved="yes">
         <source>Corporate cloud storage</source>
-        <target state="needs-translation">Corporate cloud storage</target>
+        <target state="final">Almacenamiento corporativo en la nube</target>
         <note>Title of a premium feature: access to company's cloud accounts like 'OneDrive for Business'</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/CustomAppIcons/title]" xml:space="preserve" approved="yes">
@@ -2661,14 +2696,14 @@ Puede gestionar y cancelar sus suscripciones accediendo a los ajustes de su cuen
         <target state="final">Múltiples bases de datos</target>
         <note>Title of a premium feature: ability to use multiple databases (In Title Case)</note>
       </trans-unit>
-      <trans-unit id="[PremiumFeature/PasswordAudit/description]" xml:space="preserve">
+      <trans-unit id="[PremiumFeature/PasswordAudit/description]" xml:space="preserve" approved="yes">
         <source>Find out if any of your passwords have been exposed in a known data breach.</source>
-        <target state="needs-translation">Find out if any of your passwords have been exposed in a known data breach.</target>
+        <target state="final">Averigüe si alguna de sus contraseñas ha quedado expuesta en una violación de datos conocida.</target>
         <note>Description/call to action for the `Password Audit` premium feature.</note>
       </trans-unit>
-      <trans-unit id="[PremiumFeature/PasswordAudit/title]" xml:space="preserve">
+      <trans-unit id="[PremiumFeature/PasswordAudit/title]" xml:space="preserve" approved="yes">
         <source>Password audit</source>
-        <target state="needs-translation">Password audit</target>
+        <target state="final">Auditoría de contraseñas</target>
         <note>Title of a premium feature: discover which passwords are known to be compromized</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/Preview/description] Preview images and documents directly in the app, in the premium version." xml:space="preserve" approved="yes">
@@ -2696,11 +2731,11 @@ Puede gestionar y cancelar sus suscripciones accediendo a los ajustes de su cuen
         <target state="translated">KeePassium no recopila datos personales o analíticos ni los comparte con nadie.</target>
         <note>A brief summary of the privacy policy (for offline mode)</note>
       </trans-unit>
-      <trans-unit id="[PrivacyPolicy/Online/text]" xml:space="preserve">
+      <trans-unit id="[PrivacyPolicy/Online/text]" xml:space="preserve" approved="yes">
         <source>KeePassium does not collect any personal or analytical data.
 Some features may involve data exchange with external services (on your request and for the sole purpose of making these services available to you). Such an exchange is governed by the privacy policy of the respective service.</source>
-        <target state="needs-translation">KeePassium does not collect any personal or analytical data.
-Some features may involve data exchange with external services (on your request and for the sole purpose of making these services available to you). Such an exchange is governed by the privacy policy of the respective service.</target>
+        <target state="final">KeePassium no recopila datos personales ni analíticos.
+Algunas funciones pueden implicar el intercambio de datos con servicios externos (a petición suya y con el único fin de poner estos servicios a su disposición). Dicho intercambio se rige por la política de privacidad del servicio correspondiente.</target>
         <note>A brief summary of the privacy policy (for online mode)</note>
       </trans-unit>
       <trans-unit id="[PrivacyPolicy/title]" xml:space="preserve" approved="yes">
@@ -2730,69 +2765,114 @@ Esto puede ocurrir con bases de datos muy grandes o configuraciones muy exigente
         <target state="final">«Autorrelleno» rápido</target>
         <note>Name of a feature that shows relevant entries directly next to the login/password forms.</note>
       </trans-unit>
-      <trans-unit id="[RemoteConnection/AllowUntrusted/title]" xml:space="preserve">
+      <trans-unit id="[RemoteConnection/AllowUntrusted/title]" xml:space="preserve" approved="yes">
         <source>Allow Untrusted Certificate</source>
-        <target state="needs-translation">Allow Untrusted Certificate</target>
+        <target state="final">Permitir certificado no fiable</target>
         <note>Network security setting</note>
       </trans-unit>
-      <trans-unit id="[RemoteConnection/Connection/title]" xml:space="preserve">
+      <trans-unit id="[RemoteConnection/Connection/title]" xml:space="preserve" approved="yes">
         <source>Connection</source>
-        <target state="needs-translation">Connection</target>
+        <target state="final">Conexión</target>
         <note>Network connection. For example `Connection: WebDAV` or `Connection: MyCloud`.</note>
       </trans-unit>
-      <trans-unit id="[RemoteConnection/Credentials]" xml:space="preserve">
+      <trans-unit id="[RemoteConnection/Credentials]" xml:space="preserve" approved="yes">
         <source>Credentials</source>
-        <target state="needs-translation">Credentials</target>
+        <target state="final">Credenciales</target>
         <note>Title of a section: username, password, etc</note>
       </trans-unit>
-      <trans-unit id="[RemoteConnection/Error/AuthenticationFailed/title]" xml:space="preserve">
+      <trans-unit id="[RemoteConnection/Direct/description]" xml:space="preserve" approved="yes">
+        <source>KeePassium will communicate directly with your online storage. This ensures reliable file transfer.</source>
+        <target state="final">KeePassium se comunicará directamente con su almacenamiento online. Esto garantiza una transferencia de archivos fiable.</target>
+        <note>Description of the `Direct connection` sync method.</note>
+      </trans-unit>
+      <trans-unit id="[RemoteConnection/Error/AuthenticationFailed/title]" xml:space="preserve" approved="yes">
         <source>Authentication failed</source>
-        <target state="needs-translation">Authentication failed</target>
+        <target state="final">Error en la autenticación</target>
         <note>Error message: user credentials rejected by the server</note>
       </trans-unit>
-      <trans-unit id="[RemoteConnection/FileURL]" xml:space="preserve">
+      <trans-unit id="[RemoteConnection/FileURL]" xml:space="preserve" approved="yes">
         <source>File URL</source>
-        <target state="needs-translation">File URL</target>
+        <target state="final">URL del archivo</target>
         <note>Network address of a file</note>
+      </trans-unit>
+      <trans-unit id="[RemoteConnection/GoogleDrive/Folder/myDrive]" xml:space="preserve">
+        <source>My Drive</source>
+        <target state="translated">Mi unidad</target>
+        <note>Name of a predefined Google Drive folder which contains user's own files</note>
+      </trans-unit>
+      <trans-unit id="[RemoteConnection/GoogleDrive/Folder/sharedWithMe]" xml:space="preserve">
+        <source>Shared With Me</source>
+        <target state="translated">Compartido conmigo</target>
+        <note>Name of a predefined GoogleDrive folder which contains files shared with this user</note>
       </trans-unit>
       <trans-unit id="[RemoteConnection/OneDrive/Folder/files]" xml:space="preserve">
         <source>Files</source>
         <target state="translated">Archivos</target>
         <note>Name of a predefined OneDrive folder which contains user's own files</note>
       </trans-unit>
-      <trans-unit id="[RemoteConnection/OneDrive/Folder/sharedWithMe]" xml:space="preserve">
+      <trans-unit id="[RemoteConnection/OneDrive/Folder/sharedWithMe]" xml:space="preserve" approved="yes">
         <source>Shared</source>
-        <target state="needs-translation">Shared</target>
+        <target state="final">Compartido</target>
         <note>Name of a predefined OneDrive folder which contains files shared with this user</note>
       </trans-unit>
-      <trans-unit id="[RemoteConnection/SignIn/OneDrive/action]" xml:space="preserve">
+      <trans-unit id="[RemoteConnection/ServerURL]" xml:space="preserve" approved="yes">
+        <source>Server URL</source>
+        <target state="final">URL del servidor</target>
+        <note>Network address of a WebDAV server</note>
+      </trans-unit>
+      <trans-unit id="[RemoteConnection/SignIn/Dropbox/action]" xml:space="preserve" approved="yes">
+        <source>Sign in to Dropbox</source>
+        <target state="final">Iniciar sesión en Dropbox</target>
+        <note>Action: authenticate to Dropbox account</note>
+      </trans-unit>
+      <trans-unit id="[RemoteConnection/SignIn/Dropbox/authorizationRequried]" xml:space="preserve" approved="yes">
+        <source>Dropbox needs you to sign in again.</source>
+        <target state="final">Dropbox necesita que inicie sesión de nuevo.</target>
+        <note>Error description: the user should manually sign in to their Dropbox account</note>
+      </trans-unit>
+      <trans-unit id="[RemoteConnection/SignIn/GoogleDrive/action]" xml:space="preserve" approved="yes">
+        <source>Sign in to Google Drive</source>
+        <target state="final">Iniciar sesión en Google Drive</target>
+        <note>Action: authenticate to Google Drive account</note>
+      </trans-unit>
+      <trans-unit id="[RemoteConnection/SignIn/GoogleDrive/authorizationRequried]" xml:space="preserve" approved="yes">
+        <source>Google Drive needs you to sign in again.</source>
+        <target state="final">Google Drive necesita que inicie sesión de nuevo.</target>
+        <note>Error description: the user should manually sign in to their Google Drive account</note>
+      </trans-unit>
+      <trans-unit id="[RemoteConnection/SignIn/OneDrive/action]" xml:space="preserve" approved="yes">
         <source>Sign in to OneDrive</source>
-        <target state="needs-translation">Sign in to OneDrive</target>
+        <target state="final">Iniciar sesión en OneDrive</target>
         <note>Action: authenticate to OneDrive account</note>
       </trans-unit>
-      <trans-unit id="[RemoteConnection/SignIn/OneDrive/authorizationRequried]" xml:space="preserve">
+      <trans-unit id="[RemoteConnection/SignIn/OneDrive/authorizationRequried]" xml:space="preserve" approved="yes">
         <source>OneDrive needs you to sign in again.</source>
-        <target state="needs-translation">OneDrive needs you to sign in again.</target>
+        <target state="final">OneDrive necesita que inicie sesión de nuevo.</target>
         <note>Error description: the user should manually sign in to their OneDrive account</note>
       </trans-unit>
-      <trans-unit id="[RemoteConnection/SignIn/PrivateMode/description]" xml:space="preserve">
+      <trans-unit id="[RemoteConnection/SignIn/PrivateMode/description]" xml:space="preserve" approved="yes">
         <source>Open sign-in page in private web browser mode</source>
-        <target state="needs-translation">Open sign-in page in private web browser mode</target>
+        <target state="final">Abrir la página de inicio de sesión en modo de navegador web privado</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
-      <trans-unit id="[RemoteConnection/SignIn/PrivateMode/title]" xml:space="preserve">
+      <trans-unit id="[RemoteConnection/SignIn/PrivateMode/title]" xml:space="preserve" approved="yes">
         <source>Private mode</source>
-        <target state="needs-translation">Private mode</target>
+        <target state="final">Modo privado</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
-      <trans-unit id="[RemoteConnection/connectToServer]" xml:space="preserve">
+      <trans-unit id="[RemoteConnection/ViaFilesApp/description]" xml:space="preserve" approved="yes">
+        <source>KeePassium will assign file synchronization to the app of your storage provider. Some apps work better than others.</source>
+        <target state="final">KeePassium asignará la sincronización de archivos a la aplicación de su proveedor de almacenamiento. Algunas aplicaciones funcionan mejor que otras.</target>
+        <note>Description of the `Integration via Files app` sync method.</note>
+      </trans-unit>
+      <trans-unit id="[RemoteConnection/connectToServer]" xml:space="preserve" approved="yes">
         <source>Connect to Server</source>
-        <target state="needs-translation">Connect to Server</target>
+        <target state="final">Conectar al servidor</target>
         <note>Action: connect to a network server</note>
       </trans-unit>
-      <trans-unit id="[RemoteConnection/title]" xml:space="preserve">
+      <trans-unit id="[RemoteConnection/title]" xml:space="preserve" approved="yes">
         <source>Remote Connection</source>
-        <target state="needs-translation">Remote Connection</target>
+        <target state="final">Conexión remota</target>
         <note>Title: connection to a network storage</note>
       </trans-unit>
       <trans-unit id="[Repeat Password/Field/title]" xml:space="preserve" approved="yes">
@@ -2890,9 +2970,9 @@ Esto puede ocurrir con bases de datos muy grandes o configuraciones muy exigente
         <target state="final">Guía de configuración de «Autorrelleno»</target>
         <note>Title of a help article on how to activate AutoFill.</note>
       </trans-unit>
-      <trans-unit id="[Settings/AutoFill/UnavailableInIntune/description]" xml:space="preserve">
+      <trans-unit id="[Settings/AutoFill/UnavailableInIntune/description]" xml:space="preserve" approved="yes">
         <source>AutoFill is not available in KeePassium for Intune.</source>
-        <target state="needs-translation">AutoFill is not available in KeePassium for Intune.</target>
+        <target state="final">El Autorrelleno no está disponible en KeePassium para Intune.</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="[Settings/AutoFill/UsePerfectMatch/title]" xml:space="preserve" approved="yes">
@@ -2965,6 +3045,11 @@ Esto puede ocurrir con bases de datos muy grandes o configuraciones muy exigente
         <target state="final">Nunca</target>
         <note>An option in Settings. Will be shown as 'Clipboard Timeout: Never'</note>
       </trans-unit>
+      <trans-unit id="[Settings/DataProtection/LockOnReboot/title]" xml:space="preserve" approved="yes">
+        <source>Lock on Device Restart</source>
+        <target state="final">Bloquear al reiniciar el dispositivo</target>
+        <note>Setting switch: whether to lock databases after device reboot.</note>
+      </trans-unit>
       <trans-unit id="[Settings/DataProtection/subtitle]" xml:space="preserve" approved="yes">
         <source>Master keys, key files</source>
         <target state="final">Claves maestras, archivos de claves</target>
@@ -3010,10 +3095,15 @@ Esto puede ocurrir con bases de datos muy grandes o configuraciones muy exigente
         <target state="final">Nunca</target>
         <note>An option in Settings. Will be shown as 'Database Lock: Timeout: Never'</note>
       </trans-unit>
+      <trans-unit id="[Settings/DatabaseLockTimeout/title]" xml:space="preserve" approved="yes">
+        <source>Database Timeout</source>
+        <target state="final">Tiempo de espera de la base de datos</target>
+        <note>Title of a setting: the time after which databases will be locked.</note>
+      </trans-unit>
       <trans-unit id="[Settings/EntryListDetail/longTitle] Last Modified Date" xml:space="preserve" approved="yes">
         <source>Last Modified Date</source>
         <target state="final">Fecha de la última modificación</target>
-        <note>An option in Group Viewer settings. Refers fo the most recent time when the entry was modified. Will be shown as 'Entry Subtitle: Last Modified Date'.</note>
+        <note>An option in Group Viewer settings. Refers to the most recent time when the entry was modified. Will be shown as 'Entry Subtitle: Last Modified Date'.</note>
       </trans-unit>
       <trans-unit id="[Settings/EntryListDetail/longTitle] None" xml:space="preserve" approved="yes">
         <source>None</source>
@@ -3029,6 +3119,11 @@ Esto puede ocurrir con bases de datos muy grandes o configuraciones muy exigente
         <source>Password</source>
         <target state="final">Contraseña</target>
         <note>An option in Group Viewer settings. Will be shown as 'Entry Subtitle: Password'.</note>
+      </trans-unit>
+      <trans-unit id="[Settings/EntryListDetail/longTitle] Tags" xml:space="preserve" approved="yes">
+        <source>Tags</source>
+        <target state="final">Etiquetas</target>
+        <note>An option in Group Viewer settings. Refers to the tags field of the entry. Will be shown as 'Entry Subtitle: Tags'.</note>
       </trans-unit>
       <trans-unit id="[Settings/EntryListDetail/longTitle] URL" xml:space="preserve" approved="yes">
         <source>URL</source>
@@ -3055,44 +3150,44 @@ Esto puede ocurrir con bases de datos muy grandes o configuraciones muy exigente
         <target state="final">Ajustes de lista</target>
         <note>Title of list view configuration screen</note>
       </trans-unit>
-      <trans-unit id="[Settings/Managed/notification]" xml:space="preserve">
+      <trans-unit id="[Settings/Managed/notification]" xml:space="preserve" approved="yes">
         <source>This setting is managed by your organization.</source>
-        <target state="needs-translation">This setting is managed by your organization.</target>
+        <target state="final">Este ajuste está administrado por su organización.</target>
         <note>Notification when corporate user tries to change an app setting controlled by organization's IT department.</note>
       </trans-unit>
-      <trans-unit id="[Settings/NetworkAccess/Confirmation/text]" xml:space="preserve">
+      <trans-unit id="[Settings/NetworkAccess/Confirmation/text]" xml:space="preserve" approved="yes">
         <source>Allow KeePassium to make network connections to external services?</source>
-        <target state="needs-translation">Allow KeePassium to make network connections to external services?</target>
+        <target state="final">¿Permitir que KeePassium establezca conexiones de red con servicios externos?</target>
         <note>Confirmation dialog message</note>
       </trans-unit>
-      <trans-unit id="[Settings/NetworkAccess/title]" xml:space="preserve">
+      <trans-unit id="[Settings/NetworkAccess/title]" xml:space="preserve" approved="yes">
         <source>Network Access</source>
-        <target state="needs-translation">Network Access</target>
+        <target state="final">Acceso a la red</target>
         <note>Settings section: how/whether the app is allowed to use networks/Internet</note>
       </trans-unit>
-      <trans-unit id="[Settings/NetworkAccessMode/Offline/description]" xml:space="preserve">
+      <trans-unit id="[Settings/NetworkAccessMode/Offline/description]" xml:space="preserve" approved="yes">
         <source>Maximum privacy</source>
-        <target state="needs-translation">Maximum privacy</target>
+        <target state="final">Máxima privacidad</target>
         <note>Description of the `Stay Offline` mode.</note>
       </trans-unit>
-      <trans-unit id="[Settings/NetworkAccessMode/Offline/title]" xml:space="preserve">
+      <trans-unit id="[Settings/NetworkAccessMode/Offline/title]" xml:space="preserve" approved="yes">
         <source>Stay Offline</source>
-        <target state="needs-translation">Stay Offline</target>
+        <target state="final">Permanecer desconectado</target>
         <note>Setting option: the app should work offline</note>
       </trans-unit>
-      <trans-unit id="[Settings/NetworkAccessMode/Online/description]" xml:space="preserve">
+      <trans-unit id="[Settings/NetworkAccessMode/Online/description]" xml:space="preserve" approved="yes">
         <source>Maximum functionality</source>
-        <target state="needs-translation">Maximum functionality</target>
+        <target state="final">Máxima funcionalidad</target>
         <note>Description of the `Allow Network Access` mode.</note>
       </trans-unit>
-      <trans-unit id="[Settings/NetworkAccessMode/Online/title]" xml:space="preserve">
+      <trans-unit id="[Settings/NetworkAccessMode/Online/title]" xml:space="preserve" approved="yes">
         <source>Allow Network Access</source>
-        <target state="needs-translation">Allow Network Access</target>
+        <target state="final">Permitir el acceso a la red</target>
         <note>Setting option: the app is permitted to use online features</note>
       </trans-unit>
-      <trans-unit id="[Settings/RestoreDefaults/action]" xml:space="preserve">
+      <trans-unit id="[Settings/RestoreDefaults/action]" xml:space="preserve" approved="yes">
         <source>Restore Defaults</source>
-        <target state="needs-translation">Restore Defaults</target>
+        <target state="final">Restaurar valores predeterminados</target>
         <note>Action/button which resets some settings to their default state.</note>
       </trans-unit>
       <trans-unit id="[Settings/Search/title]" xml:space="preserve" approved="yes">
@@ -3130,10 +3225,30 @@ Esto puede ocurrir con bases de datos muy grandes o configuraciones muy exigente
         <target state="final">Ordenar por</target>
         <note>Title of a sort options list. Example: 'Sort by: Name'</note>
       </trans-unit>
-      <trans-unit id="[StorageService/OneDriveForBusiness/title]" xml:space="preserve">
+      <trans-unit id="[StorageService/DropboxBusiness/title]" xml:space="preserve">
+        <source>Dropbox Business</source>
+        <target state="translated">Dropbox Business</target>
+        <note>Name of a cloud storage service</note>
+      </trans-unit>
+      <trans-unit id="[StorageService/DropboxPro/title]" xml:space="preserve">
+        <source>Dropbox Pro</source>
+        <target state="translated">Dropbox Pro</target>
+        <note>Name of a cloud storage service</note>
+      </trans-unit>
+      <trans-unit id="[StorageService/GoogleWorkspace/title]" xml:space="preserve">
+        <source>Google Workspace</source>
+        <target state="translated">Google Workspace</target>
+        <note>Name of a cloud storage service</note>
+      </trans-unit>
+      <trans-unit id="[StorageService/OneDriveForBusiness/title]" xml:space="preserve" approved="yes">
         <source>OneDrive for Business</source>
-        <target state="needs-translation">OneDrive for Business</target>
+        <target state="final">OneDrive para la Empresa</target>
         <note>Name of a cloud storage service. Must match Microsoft's translation, see  https://partner.microsoft.com/solutions/onedrive-for-business</note>
+      </trans-unit>
+      <trans-unit id="[StorageService/OtherServices/title]" xml:space="preserve" approved="yes">
+        <source>Other Services</source>
+        <target state="final">Otros servicios</target>
+        <note>Title of a file storage service option (for example: Dropbox, OneDrive, Other Services)</note>
       </trans-unit>
       <trans-unit id="[Support/template] (Please describe the problem here)" xml:space="preserve" approved="yes">
         <source>(Please describe the problem here)</source>
@@ -3195,9 +3310,9 @@ Esto puede ocurrir con bases de datos muy grandes o configuraciones muy exigente
         <target state="final">Apoya a KeePassium</target>
         <note>Call to action, title of the tip box/donation screen.</note>
       </trans-unit>
-      <trans-unit id="[URLReference/Location/RemoteServer]" xml:space="preserve">
+      <trans-unit id="[URLReference/Location/RemoteServer]" xml:space="preserve" approved="yes">
         <source>Remote server</source>
-        <target state="needs-translation">Remote server</target>
+        <target state="final">Servidor remoto</target>
         <note>Human-readable file location. Example: 'File Location: Remote server'</note>
       </trans-unit>
       <trans-unit id="[URLReference/Location] Cloud storage / Another app" xml:space="preserve" approved="yes">
@@ -3249,27 +3364,27 @@ Esto puede ocurrir con bases de datos muy grandes o configuraciones muy exigente
     <body>
       <trans-unit id="/[Generic/Count/Bits]:dict/GenericCountBits:dict/one:dict/:string">
         <source>%d bit</source>
-        <target state="needs-translation">%d bit</target>
+        <target state="final">%d bit</target>
       </trans-unit>
       <trans-unit id="/[Generic/Count/Bits]:dict/GenericCountBits:dict/other:dict/:string">
         <source>%d bits</source>
-        <target state="needs-translation">%d bits</target>
+        <target state="final">%d bits</target>
       </trans-unit>
       <trans-unit id="/[Generic/Count/EntriesSelected]:dict/GenericCountEntriesSelected:dict/one:dict/:string">
         <source>%d entry selected</source>
-        <target state="needs-translation">%d entry selected</target>
+        <target state="final">%d entrada seleccionada</target>
       </trans-unit>
       <trans-unit id="/[Generic/Count/EntriesSelected]:dict/GenericCountEntriesSelected:dict/other:dict/:string">
         <source>%d entries selected</source>
-        <target state="needs-translation">%d entries selected</target>
+        <target state="final">%d entradas seleccionadas</target>
       </trans-unit>
       <trans-unit id="/[Generic/Count/Threads]:dict/GenericCountThreads:dict/one:dict/:string">
         <source>%d thread</source>
-        <target state="needs-translation">%d thread</target>
+        <target state="final">%d hilo</target>
       </trans-unit>
       <trans-unit id="/[Generic/Count/Threads]:dict/GenericCountThreads:dict/other:dict/:string">
         <source>%d threads</source>
-        <target state="needs-translation">%d threads</target>
+        <target state="final">%d hilos</target>
       </trans-unit>
     </body>
   </file>

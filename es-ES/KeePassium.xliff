@@ -174,39 +174,44 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
 Como resultado, tanto la aplicación «Autorrelleno», como la aplicación principal de KeePassium deben recibir sus propios permisos para cada archivo externo. Afortunadamente, solo se necesita hacerlo una vez por cada nueva base de datos.</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
-      <trans-unit id="[PasswordQuality/LevelWithEntropy/description]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/Wordlist/Import/menuAction]" xml:space="preserve" approved="yes">
+        <source>Import Wordlist…</source>
+        <target state="final">Importar lista de palabras…</target>
+        <note>Menu action to add a user-provided word list file to the app.</note>
+      </trans-unit>
+      <trans-unit id="[PasswordQuality/LevelWithApproximateEntropy/description]" xml:space="preserve" approved="yes">
+        <source>%1$@ (~%2$@ of entropy)</source>
+        <target state="final">%1$@ (~%2$@ de entropía)</target>
+        <note>Password quality description. Note the tilda that refers to an estimated/approximate value. For example: `Very good (~123 bits of entropy)`. [level: String, formattedBitCount: String]</note>
+      </trans-unit>
+      <trans-unit id="[PasswordQuality/LevelWithEntropy/description]" xml:space="preserve" approved="yes">
         <source>%1$@ (%2$@ of entropy)</source>
-        <target state="needs-translation">%1$@ (%2$@ of entropy)</target>
+        <target state="final">%1$@ (%2$@ de entropía)</target>
         <note>Password quality description. For example: `Very good (234 bits of entropy)`. [level: String, formattedBitCount: String]</note>
       </trans-unit>
-      <trans-unit id="[PasswordQuality/Level] Almost good" xml:space="preserve">
-        <source>Almost good</source>
-        <target state="needs-translation">Almost good</target>
-        <note>Almost good password quality</note>
-      </trans-unit>
-      <trans-unit id="[PasswordQuality/Level] Good" xml:space="preserve">
+      <trans-unit id="[PasswordQuality/Level] Good" xml:space="preserve" approved="yes">
         <source>Good</source>
-        <target state="needs-translation">Good</target>
+        <target state="final">Buena</target>
         <note>Good password quality</note>
       </trans-unit>
-      <trans-unit id="[PasswordQuality/Level] Very good" xml:space="preserve">
+      <trans-unit id="[PasswordQuality/Level] Very good" xml:space="preserve" approved="yes">
         <source>Very good</source>
-        <target state="needs-translation">Very good</target>
+        <target state="final">Muy buena</target>
         <note>Very good password quality</note>
       </trans-unit>
-      <trans-unit id="[PasswordQuality/Level] Very weak" xml:space="preserve">
+      <trans-unit id="[PasswordQuality/Level] Very weak" xml:space="preserve" approved="yes">
         <source>Very weak</source>
-        <target state="needs-translation">Very weak</target>
+        <target state="final">Muy débil</target>
         <note>Very weak password quality</note>
       </trans-unit>
-      <trans-unit id="[PasswordQuality/Level] Weak" xml:space="preserve">
+      <trans-unit id="[PasswordQuality/Level] Weak" xml:space="preserve" approved="yes">
         <source>Weak</source>
-        <target state="needs-translation">Weak</target>
+        <target state="final">Débil</target>
         <note>Weak password quality</note>
       </trans-unit>
-      <trans-unit id="[PasswordQuality/description]" xml:space="preserve">
+      <trans-unit id="[PasswordQuality/description]" xml:space="preserve" approved="yes">
         <source>Password quality: %@</source>
-        <target state="needs-translation">Password quality: %@</target>
+        <target state="final">Calidad de la contraseña: %@</target>
         <note>Password quality description. For example: `Password quality: Weak`. [level: String]</note>
       </trans-unit>
       <trans-unit id="[ProtectedTextField] Show Password" xml:space="preserve" approved="yes">
@@ -734,9 +739,9 @@ Como resultado, tanto la aplicación «Autorrelleno», como la aplicación princ
         <target state="final">Ajustes</target>
         <note>Class = "UIBarButtonItem"; rF3-mC-kj1.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Settings"; ObjectID = "rF3-mC-kj1";</note>
       </trans-unit>
-      <trans-unit id="tpA-i1-ah8.text" xml:space="preserve">
+      <trans-unit id="tpA-i1-ah8.text" xml:space="preserve" approved="yes">
         <source>No entries or groups found</source>
-        <target state="needs-translation">No entries or groups found</target>
+        <target state="final">No se han encontrado entradas ni grupos</target>
         <note>Class = "UILabel"; text = "No entries or groups found"; ObjectID = "tpA-i1-ah8";</note>
       </trans-unit>
       <trans-unit id="ttY-yZ-yRg.text" xml:space="preserve" translate="no">
@@ -976,9 +981,9 @@ Como resultado, tanto la aplicación «Autorrelleno», como la aplicación princ
         <target state="final">Sistema operativo</target>
         <note>Predefined `Operating system` group in a new database</note>
       </trans-unit>
-      <trans-unit id="[Database/Create/orgRequiresStronger]" xml:space="preserve">
+      <trans-unit id="[Database/Create/orgRequiresStronger]" xml:space="preserve" approved="yes">
         <source>Your organization requires a more complex database password.</source>
-        <target state="needs-translation">Your organization requires a more complex database password.</target>
+        <target state="final">Su organización requiere una contraseña de base de datos más compleja.</target>
         <note>Notification for business users when they set up too weak database password.</note>
       </trans-unit>
       <trans-unit id="[Database/Create] Please enter a password or choose a key file." xml:space="preserve" approved="yes">
@@ -1041,14 +1046,14 @@ Como resultado, tanto la aplicación «Autorrelleno», como la aplicación princ
         <target state="translated">Activada protección de aplicaciones</target>
         <note>Action/button to set up the App Protection feature. Not a call to action.</note>
       </trans-unit>
-      <trans-unit id="[Onboarding/AppProtection/text1]" xml:space="preserve">
+      <trans-unit id="[Onboarding/AppProtection/text1]" xml:space="preserve" approved="yes">
         <source>KeePassium is your vault. App protection ensures that only you can open it.</source>
-        <target state="needs-translation">KeePassium is your vault. App protection ensures that only you can open it.</target>
+        <target state="final">KeePassium es su cámara acorazada. La protección de la aplicación garantiza que solo usted pueda abrirla.</target>
         <note>Text in the App Protection onboarding screen.</note>
       </trans-unit>
-      <trans-unit id="[Onboarding/AppProtection/title]" xml:space="preserve">
+      <trans-unit id="[Onboarding/AppProtection/title]" xml:space="preserve" approved="yes">
         <source>For Your Eyes Only</source>
-        <target state="needs-translation">For Your Eyes Only</target>
+        <target state="final">Solo para sus ojos</target>
         <note>Title of the App Protection onboarding screen</note>
       </trans-unit>
       <trans-unit id="[Onboarding/CreateNewDatabase/action]" xml:space="preserve">
@@ -1056,149 +1061,154 @@ Como resultado, tanto la aplicación «Autorrelleno», como la aplicación princ
         <target state="translated">Crear base de datos nueva</target>
         <note>Action/button</note>
       </trans-unit>
-      <trans-unit id="[Onboarding/DataEncryption/text1]" xml:space="preserve">
+      <trans-unit id="[Onboarding/DataEncryption/text1]" xml:space="preserve" approved="yes">
         <source>Your safe box is an encrypted database.</source>
-        <target state="needs-translation">Your safe box is an encrypted database.</target>
+        <target state="final">Su caja fuerte es una base de datos cifrada.</target>
         <note>Text in the Data Encryption intro screen</note>
       </trans-unit>
-      <trans-unit id="[Onboarding/DataEncryption/text2]" xml:space="preserve">
+      <trans-unit id="[Onboarding/DataEncryption/text2]" xml:space="preserve" approved="yes">
         <source>You can keep databases in your favorite cloud or locally on device.</source>
-        <target state="needs-translation">You can keep databases in your favorite cloud or locally on device.</target>
+        <target state="final">Puede guardar las bases de datos en su nube favorita o localmente en el dispositivo.</target>
         <note>Text in the Data Encryption intro screen</note>
       </trans-unit>
-      <trans-unit id="[Onboarding/DataEncryption/title]" xml:space="preserve">
+      <trans-unit id="[Onboarding/DataEncryption/title]" xml:space="preserve" approved="yes">
         <source>Data Encryption</source>
-        <target state="needs-translation">Data Encryption</target>
+        <target state="final">Cifrado de datos</target>
         <note>Title of the Data Encryption intro screen</note>
       </trans-unit>
-      <trans-unit id="[Onboarding/Intro/text1]" xml:space="preserve">
+      <trans-unit id="[Onboarding/Intro/text1]" xml:space="preserve" approved="yes">
         <source>KeePassium keeps your passwords and other sensitive info securely encrypted.</source>
-        <target state="needs-translation">KeePassium keeps your passwords and other sensitive info securely encrypted.</target>
+        <target state="final">KeePassium mantiene sus contraseñas y otra información sensible cifrada de forma segura.</target>
         <note>Text in the introductory onboarding screen.</note>
       </trans-unit>
-      <trans-unit id="[Onboarding/Intro/text2]" xml:space="preserve">
+      <trans-unit id="[Onboarding/Intro/text2]" xml:space="preserve" approved="yes">
         <source>There are no ads and no tracking.</source>
-        <target state="needs-translation">There are no ads and no tracking.</target>
+        <target state="final">No hay anuncios ni seguimiento.</target>
         <note>Text in the introductory onboarding screen.</note>
       </trans-unit>
-      <trans-unit id="[Onboarding/Intro/text3]" xml:space="preserve">
+      <trans-unit id="[Onboarding/Intro/text3]" xml:space="preserve" approved="yes">
         <source>We don't know anything about you.</source>
-        <target state="needs-translation">We don't know anything about you.</target>
+        <target state="final">No sabemos nada de usted.</target>
         <note>Text in the introductory onboarding screen.</note>
       </trans-unit>
-      <trans-unit id="[Onboarding/Intro/text4]" xml:space="preserve">
+      <trans-unit id="[Onboarding/Intro/text4]" xml:space="preserve" approved="yes">
         <source>Your data belongs to you.</source>
-        <target state="needs-translation">Your data belongs to you.</target>
+        <target state="final">Sus datos le pertenecen.</target>
         <note>Text in the introductory onboarding screen.</note>
       </trans-unit>
-      <trans-unit id="[Onboarding/Intro/title]" xml:space="preserve">
+      <trans-unit id="[Onboarding/Intro/title]" xml:space="preserve" approved="yes">
         <source>Welcome</source>
-        <target state="needs-translation">Welcome</target>
+        <target state="final">Le damos la bienvenida</target>
         <note>Title of the introductory onboarding screen.</note>
       </trans-unit>
-      <trans-unit id="[Onboarding/Security/text1]" xml:space="preserve">
+      <trans-unit id="[Onboarding/Security/text1]" xml:space="preserve" approved="yes">
         <source>Your info is encrypted in a safe box (database). Safe boxes are stored in a vault (KeePassium).</source>
-        <target state="needs-translation">Your info is encrypted in a safe box (database). Safe boxes are stored in a vault (KeePassium).</target>
+        <target state="final">Su información se cifra en una caja fuerte (base de datos). Las cajas fuertes se almacenan en una cámara acorazada (KeePassium).</target>
         <note>Text in the Security intro screen</note>
       </trans-unit>
-      <trans-unit id="[Onboarding/Security/text2]" xml:space="preserve">
+      <trans-unit id="[Onboarding/Security/text2]" xml:space="preserve" approved="yes">
         <source>The vault and safe boxes have different keys and only you will know them.</source>
-        <target state="needs-translation">The vault and safe boxes have different keys and only you will know them.</target>
+        <target state="final">La cámara acorazada y las cajas fuertes tienen claves diferentes y solo usted las conocerá.</target>
         <note>Text in the Security intro screen</note>
       </trans-unit>
-      <trans-unit id="[Onboarding/Security/title]" xml:space="preserve">
+      <trans-unit id="[Onboarding/Security/title]" xml:space="preserve" approved="yes">
         <source>Maximum Security</source>
-        <target state="needs-translation">Maximum Security</target>
+        <target state="final">Máxima seguridad</target>
         <note>Title of the Security intro screen</note>
       </trans-unit>
-      <trans-unit id="[PasswordAudit/Action/Exclude]" xml:space="preserve">
+      <trans-unit id="[PasswordAudit/Action/Exclude]" xml:space="preserve" approved="yes">
         <source>Exclude From Audit</source>
-        <target state="needs-translation">Exclude From Audit</target>
+        <target state="final">Excluir de la auditoría</target>
         <note>Action to skip selected item/items in future password audits.</note>
       </trans-unit>
-      <trans-unit id="[PasswordAudit/Auditing/status]" xml:space="preserve">
+      <trans-unit id="[PasswordAudit/Auditing/status]" xml:space="preserve" approved="yes">
         <source>Auditing passwords</source>
-        <target state="needs-translation">Auditing passwords</target>
+        <target state="final">Auditoría de contraseñas</target>
         <note>Status message: password audit in progress</note>
       </trans-unit>
-      <trans-unit id="[PasswordAudit/Error/text]" xml:space="preserve">
+      <trans-unit id="[PasswordAudit/Error/text]" xml:space="preserve" approved="yes">
         <source>An error occured while communicating with the HIBP service. %@</source>
-        <target state="needs-translation">An error occured while communicating with the HIBP service. %@</target>
+        <target state="final">Se ha producido un error al comunicarse con el servicio HIBP. %@</target>
         <note>Error message after a failed password audit request [message: String].</note>
       </trans-unit>
-      <trans-unit id="[PasswordAudit/ExposureCount/description]" xml:space="preserve">
+      <trans-unit id="[PasswordAudit/ExposureCount/description]" xml:space="preserve" approved="yes">
         <source>The number shows how many times the password has been found in known data leaks.</source>
-        <target state="needs-translation">The number shows how many times the password has been found in known data leaks.</target>
+        <target state="final">El número muestra cuántas veces se ha encontrado la contraseña en filtraciones de datos conocidas.</target>
         <note>Description of the password audit results, where a number appears next to each password.</note>
       </trans-unit>
-      <trans-unit id="[PasswordAudit/Intro/text]" xml:space="preserve">
+      <trans-unit id="[PasswordAudit/Intro/text]" xml:space="preserve" approved="yes">
         <source>Password audit checks your passwords against an online database of leaked passwords in a secure and private way.
 
 KeePassium will send information calculated from your passwords — a kind of a partial checksum — to the [Have I Been Pwned](https://haveibeenpwned.com) service. The service will return detailed information about compromised passwords with similar checksums. The app will then compare the detailed checksums locally on the device and detect which of your passwords are at risk.
 
 Your actual passwords are never shared with the online service.
 [Learn more…](%@)</source>
-        <target state="needs-translation">Password audit checks your passwords against an online database of leaked passwords in a secure and private way.
+        <target state="final">La auditoría de contraseñas coteja sus contraseñas con una base de datos online de contraseñas filtradas de forma segura y privada.
 
-KeePassium will send information calculated from your passwords — a kind of a partial checksum — to the [Have I Been Pwned](https://haveibeenpwned.com) service. The service will return detailed information about compromised passwords with similar checksums. The app will then compare the detailed checksums locally on the device and detect which of your passwords are at risk.
+KeePassium enviará la información calculada a partir de sus contraseñas —una especie de suma de comprobación parcial— al servicio [Have I Been Pwned](https://haveibeenpwned.com). El servicio devolverá información detallada sobre contraseñas comprometidas con sumas de comprobación similares. La aplicación comparará entonces las sumas de comprobación detalladas localmente en el dispositivo y detectará cuáles de sus contraseñas están en peligro.
 
-Your actual passwords are never shared with the online service.
-[Learn more…](%@)</target>
+Sus contraseñas reales nunca se comparten con el servicio online.
+[Más información…](%@)</target>
         <note>Description of the Password Audit function.</note>
       </trans-unit>
-      <trans-unit id="[PasswordAudit/Results/allGood]" xml:space="preserve">
+      <trans-unit id="[PasswordAudit/Results/allGood]" xml:space="preserve" approved="yes">
         <source>Good news! None of your passwords have appeared in known data leaks.</source>
-        <target state="needs-translation">Good news! None of your passwords have appeared in known data leaks.</target>
+        <target state="final">Buenas noticias. Ninguna de sus contraseñas ha aparecido en filtraciones de datos conocidas.</target>
         <note>Result of a password audit.</note>
       </trans-unit>
-      <trans-unit id="[PasswordAudit/Results/title]" xml:space="preserve">
+      <trans-unit id="[PasswordAudit/Results/title]" xml:space="preserve" approved="yes">
         <source>Compromised Passwords</source>
-        <target state="needs-translation">Compromised Passwords</target>
+        <target state="final">Contraseñas comprometidas</target>
         <note>Title of a list with passwords that are known to have been exposed in online breaches.</note>
       </trans-unit>
-      <trans-unit id="[PasswordAudit/Start/action]" xml:space="preserve">
+      <trans-unit id="[PasswordAudit/Start/action]" xml:space="preserve" approved="yes">
         <source>Start Audit</source>
-        <target state="needs-translation">Start Audit</target>
+        <target state="final">Iniciar auditoría</target>
         <note>Action/button: intiate password audit</note>
       </trans-unit>
-      <trans-unit id="[PasswordAudit/title]" xml:space="preserve">
+      <trans-unit id="[PasswordAudit/title]" xml:space="preserve" approved="yes">
         <source>Password Audit</source>
-        <target state="needs-translation">Password Audit</target>
+        <target state="final">Auditoría de contraseñas</target>
         <note>Title of a screen to check which passwords are known to be compromised.</note>
       </trans-unit>
-      <trans-unit id="[PasswordQuality/LevelWithEntropy/description]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/Wordlist/Import/menuAction]" xml:space="preserve" approved="yes">
+        <source>Import Wordlist…</source>
+        <target state="final">Importar lista de palabras…</target>
+        <note>Menu action to add a user-provided word list file to the app.</note>
+      </trans-unit>
+      <trans-unit id="[PasswordQuality/LevelWithApproximateEntropy/description]" xml:space="preserve" approved="yes">
+        <source>%1$@ (~%2$@ of entropy)</source>
+        <target state="final">%1$@ (~%2$@ de entropía)</target>
+        <note>Password quality description. Note the tilda that refers to an estimated/approximate value. For example: `Very good (~123 bits of entropy)`. [level: String, formattedBitCount: String]</note>
+      </trans-unit>
+      <trans-unit id="[PasswordQuality/LevelWithEntropy/description]" xml:space="preserve" approved="yes">
         <source>%1$@ (%2$@ of entropy)</source>
-        <target state="needs-translation">%1$@ (%2$@ of entropy)</target>
+        <target state="final">%1$@ (%2$@ de entropía)</target>
         <note>Password quality description. For example: `Very good (234 bits of entropy)`. [level: String, formattedBitCount: String]</note>
       </trans-unit>
-      <trans-unit id="[PasswordQuality/Level] Almost good" xml:space="preserve">
-        <source>Almost good</source>
-        <target state="needs-translation">Almost good</target>
-        <note>Almost good password quality</note>
-      </trans-unit>
-      <trans-unit id="[PasswordQuality/Level] Good" xml:space="preserve">
+      <trans-unit id="[PasswordQuality/Level] Good" xml:space="preserve" approved="yes">
         <source>Good</source>
-        <target state="needs-translation">Good</target>
+        <target state="final">Buena</target>
         <note>Good password quality</note>
       </trans-unit>
-      <trans-unit id="[PasswordQuality/Level] Very good" xml:space="preserve">
+      <trans-unit id="[PasswordQuality/Level] Very good" xml:space="preserve" approved="yes">
         <source>Very good</source>
-        <target state="needs-translation">Very good</target>
+        <target state="final">Muy buena</target>
         <note>Very good password quality</note>
       </trans-unit>
-      <trans-unit id="[PasswordQuality/Level] Very weak" xml:space="preserve">
+      <trans-unit id="[PasswordQuality/Level] Very weak" xml:space="preserve" approved="yes">
         <source>Very weak</source>
-        <target state="needs-translation">Very weak</target>
+        <target state="final">Muy débil</target>
         <note>Very weak password quality</note>
       </trans-unit>
-      <trans-unit id="[PasswordQuality/Level] Weak" xml:space="preserve">
+      <trans-unit id="[PasswordQuality/Level] Weak" xml:space="preserve" approved="yes">
         <source>Weak</source>
-        <target state="needs-translation">Weak</target>
+        <target state="final">Débil</target>
         <note>Weak password quality</note>
       </trans-unit>
-      <trans-unit id="[PasswordQuality/description]" xml:space="preserve">
+      <trans-unit id="[PasswordQuality/description]" xml:space="preserve" approved="yes">
         <source>Password quality: %@</source>
-        <target state="needs-translation">Password quality: %@</target>
+        <target state="final">Calidad de la contraseña: %@</target>
         <note>Password quality description. For example: `Password quality: Weak`. [level: String]</note>
       </trans-unit>
       <trans-unit id="[ProtectedTextField] Show Password" xml:space="preserve" approved="yes">
@@ -1206,59 +1216,59 @@ Your actual passwords are never shared with the online service.
         <target state="final">Mostrar contraseña</target>
         <note>Action/button to make password visible as plain-text</note>
       </trans-unit>
-      <trans-unit id="[Selection/Delete/confirmation]" xml:space="preserve">
+      <trans-unit id="[Selection/Delete/confirmation]" xml:space="preserve" approved="yes">
         <source>Delete selection?</source>
-        <target state="needs-translation">Delete selection?</target>
+        <target state="final">¿Eliminar la selección?</target>
         <note>Title of the confirmation dialog for `Delete` action for several items</note>
       </trans-unit>
-      <trans-unit id="[Selection/ExcludeFromAudit/confirmation]" xml:space="preserve">
+      <trans-unit id="[Selection/ExcludeFromAudit/confirmation]" xml:space="preserve" approved="yes">
         <source>Exclude selection from password audit?</source>
-        <target state="needs-translation">Exclude selection from password audit?</target>
+        <target state="final">¿Excluir la selección de la auditoría de contraseñas?</target>
         <note>Title of the confirmation dialog for `Exclude from audit` action for several items</note>
       </trans-unit>
-      <trans-unit id="[Tags/Create/action]" xml:space="preserve">
+      <trans-unit id="[Tags/Create/action]" xml:space="preserve" approved="yes">
         <source>Create Tag</source>
-        <target state="needs-translation">Create Tag</target>
+        <target state="final">Crear etiqueta</target>
         <note>Action/button to create a new item tag</note>
       </trans-unit>
-      <trans-unit id="[Tags/Create/placeholder]" xml:space="preserve">
+      <trans-unit id="[Tags/Create/placeholder]" xml:space="preserve" approved="yes">
         <source>Enter tag name</source>
-        <target state="needs-translation">Enter tag name</target>
+        <target state="final">Introduzca el nombre de la etiqueta</target>
         <note>Call to action/hint inside a text input</note>
       </trans-unit>
-      <trans-unit id="[Tags/Create/title]" xml:space="preserve">
+      <trans-unit id="[Tags/Create/title]" xml:space="preserve" approved="yes">
         <source>New Tag</source>
-        <target state="needs-translation">New Tag</target>
+        <target state="final">Nueva etiqueta</target>
         <note>Title of the tag creation dialog</note>
       </trans-unit>
-      <trans-unit id="[Tags/None/placeholder]" xml:space="preserve">
+      <trans-unit id="[Tags/None/placeholder]" xml:space="preserve" approved="yes">
         <source>There are no tags in the database, add some.</source>
-        <target state="needs-translation">There are no tags in the database, add some.</target>
+        <target state="final">No hay etiquetas en la base de datos, añada algunas.</target>
         <note>Status message with a call to action</note>
       </trans-unit>
-      <trans-unit id="[Tags/Search/emptyResult]" xml:space="preserve">
+      <trans-unit id="[Tags/Search/emptyResult]" xml:space="preserve" approved="yes">
         <source>No suitable tags found.</source>
-        <target state="needs-translation">No suitable tags found.</target>
+        <target state="final">No se han encontrado etiquetas adecuadas.</target>
         <note>Status message: tag search result is empty</note>
       </trans-unit>
-      <trans-unit id="[Tags/Section/All]" xml:space="preserve">
+      <trans-unit id="[Tags/Section/All]" xml:space="preserve" approved="yes">
         <source>All Tags</source>
-        <target state="needs-translation">All Tags</target>
+        <target state="final">Todas las etiquetas</target>
         <note>Title of a list with all the tags existing in the database.</note>
       </trans-unit>
-      <trans-unit id="[Tags/Section/Inherited]" xml:space="preserve">
+      <trans-unit id="[Tags/Section/Inherited]" xml:space="preserve" approved="yes">
         <source>Inherited Tags</source>
-        <target state="needs-translation">Inherited Tags</target>
+        <target state="final">Etiquetas heredadas</target>
         <note>Title of a list with tags used by parent groups.</note>
       </trans-unit>
-      <trans-unit id="[Tags/Section/Selected]" xml:space="preserve">
+      <trans-unit id="[Tags/Section/Selected]" xml:space="preserve" approved="yes">
         <source>Selected Tags</source>
-        <target state="needs-translation">Selected Tags</target>
+        <target state="final">Etiquetas seleccionadas</target>
         <note>Title of a list with tags chosen by the user for a specific entry or group.</note>
       </trans-unit>
-      <trans-unit id="[Tags/UsageCount/title]" xml:space="preserve">
+      <trans-unit id="[Tags/UsageCount/title]" xml:space="preserve" approved="yes">
         <source>Usage count</source>
-        <target state="needs-translation">Usage count</target>
+        <target state="final">Recuento de uso</target>
         <note>Title: the number of times a tag is encountered in the database.</note>
       </trans-unit>
     </body>
@@ -1403,9 +1413,9 @@ Your actual passwords are never shared with the online service.
         <target state="final">Linecons por Andrian Valeanu</target>
         <note>Class = "UILabel"; text = "Linecons by Andrian Valeanu"; ObjectID = "SOX-Re-yl9";</note>
       </trans-unit>
-      <trans-unit id="SUh-L1-IvF.text" xml:space="preserve">
+      <trans-unit id="SUh-L1-IvF.text" xml:space="preserve" approved="yes">
         <source>zxcvbn-ios by Dropbox</source>
-        <target state="needs-translation">zxcvbn-ios by Dropbox</target>
+        <target state="final">zxcvbn-ios de Dropbox</target>
         <note>Class = "UILabel"; text = "zxcvbn-ios by Dropbox"; ObjectID = "SUh-L1-IvF";</note>
       </trans-unit>
       <trans-unit id="TOl-DA-gYc.text" xml:space="preserve" approved="yes">
@@ -1563,9 +1573,9 @@ Your actual passwords are never shared with the online service.
         <target state="final">Icono de ajustes del sistema por Vicons Design</target>
         <note>Class = "UILabel"; text = "System settings icon by Vicons Design"; ObjectID = "wYr-Ya-qAP";</note>
       </trans-unit>
-      <trans-unit id="y9Z-rr-JL8.text" xml:space="preserve">
+      <trans-unit id="y9Z-rr-JL8.text" xml:space="preserve" approved="yes">
         <source>SwiftDomainParser by Dashlane</source>
-        <target state="needs-translation">SwiftDomainParser by Dashlane</target>
+        <target state="final">SwiftDomainParser de Dashlane</target>
         <note>Class = "UILabel"; text = "SwiftDomainParser by Dashlane"; ObjectID = "y9Z-rr-JL8";</note>
       </trans-unit>
     </body>
@@ -2028,9 +2038,9 @@ Your actual passwords are never shared with the online service.
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.3" build-num="15E204a"/>
     </header>
     <body>
-      <trans-unit id="1LC-s7-Kdl.text" xml:space="preserve">
+      <trans-unit id="1LC-s7-Kdl.text" xml:space="preserve" approved="yes">
         <source>Search in Passwords</source>
-        <target state="needs-translation">Search in Passwords</target>
+        <target state="final">Buscar en Contraseñas</target>
         <note>Class = "UILabel"; text = "Search in Passwords"; ObjectID = "1LC-s7-Kdl"; Note = "An switch in settings: whether to include protected field values in search procedure.";</note>
       </trans-unit>
       <trans-unit id="DJr-hC-DMT.footerTitle" xml:space="preserve" approved="yes">
@@ -2125,9 +2135,9 @@ Your actual passwords are never shared with the online service.
         <target state="final">Copia de seguridad</target>
         <note>Class = "UITableViewSection"; headerTitle = "Backup"; ObjectID = "HjD-9G-X8p";</note>
       </trans-unit>
-      <trans-unit id="K9j-xG-abD.headerTitle" xml:space="preserve">
+      <trans-unit id="K9j-xG-abD.headerTitle" xml:space="preserve" approved="yes">
         <source>Network Access</source>
-        <target state="needs-translation">Network Access</target>
+        <target state="final">Acceso a la red</target>
         <note>Class = "UITableViewSection"; headerTitle = "Network Access"; ObjectID = "K9j-xG-abD";</note>
       </trans-unit>
       <trans-unit id="LHz-DF-ZST.text" xml:space="preserve" translate="no">
@@ -2236,28 +2246,6 @@ Your actual passwords are never shared with the online service.
         <source>Clipboard Timeout</source>
         <target state="final">Tiempo de espera del portapapeles</target>
         <note>Class = "UITableViewController"; title = "Clipboard Timeout"; ObjectID = "iJJ-jv-hhP"; Note = "TItle of a list of options, when to delete clipboard content. Alternative title \"Clear Clipboard\"";</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="KeePassium/settings/data-protection/Base.lproj/SettingsDatabaseTimeoutVC.storyboard" source-language="en" target-language="es" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.2" build-num="15C500b"/>
-    </header>
-    <body>
-      <trans-unit id="26a-m8-zQP.title" xml:space="preserve" approved="yes">
-        <source>Database Timeout</source>
-        <target state="final">Tiempo de espera de la base de datos</target>
-        <note>Class = "UITableViewController"; title = "Database Timeout"; ObjectID = "26a-m8-zQP"; Note = "Title of a list of database timeouts, linked to Settings/Data Protection/Database Timeout.";</note>
-      </trans-unit>
-      <trans-unit id="Beo-Vy-wZ8.text" xml:space="preserve" translate="no">
-        <source>{Subtitle}</source>
-        <target state="needs-translation">{Subtitle}</target>
-        <note>Class = "UILabel"; text = "{Subtitle}"; ObjectID = "Beo-Vy-wZ8"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="DOf-Bp-iIT.text" xml:space="preserve" translate="no">
-        <source>{Title}</source>
-        <target state="needs-translation">{Title}</target>
-        <note>Class = "UILabel"; text = "{Title}"; ObjectID = "DOf-Bp-iIT"; Note = "#bc-ignore!";</note>
       </trans-unit>
     </body>
   </file>

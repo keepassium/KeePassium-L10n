@@ -174,15 +174,20 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
 因此，需要为自动填充和KeePassium应用程序赋予所需的数据库文件以及密钥文件权限。 幸运的是，这只要设置一次。</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
+      <trans-unit id="[PasswordGenerator/Wordlist/Import/menuAction]" xml:space="preserve">
+        <source>Import Wordlist…</source>
+        <target state="needs-translation">Import Wordlist…</target>
+        <note>Menu action to add a user-provided word list file to the app.</note>
+      </trans-unit>
+      <trans-unit id="[PasswordQuality/LevelWithApproximateEntropy/description]" xml:space="preserve">
+        <source>%1$@ (~%2$@ of entropy)</source>
+        <target state="needs-translation">%1$@ (~%2$@ of entropy)</target>
+        <note>Password quality description. Note the tilda that refers to an estimated/approximate value. For example: `Very good (~123 bits of entropy)`. [level: String, formattedBitCount: String]</note>
+      </trans-unit>
       <trans-unit id="[PasswordQuality/LevelWithEntropy/description]" xml:space="preserve">
         <source>%1$@ (%2$@ of entropy)</source>
         <target state="translated">%1$@ (%2$@ 熵值)</target>
         <note>Password quality description. For example: `Very good (234 bits of entropy)`. [level: String, formattedBitCount: String]</note>
-      </trans-unit>
-      <trans-unit id="[PasswordQuality/Level] Almost good" xml:space="preserve">
-        <source>Almost good</source>
-        <target state="translated">不错</target>
-        <note>Almost good password quality</note>
       </trans-unit>
       <trans-unit id="[PasswordQuality/Level] Good" xml:space="preserve">
         <source>Good</source>
@@ -736,7 +741,7 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="tpA-i1-ah8.text" xml:space="preserve">
         <source>No entries or groups found</source>
-        <target state="needs-translation">No entries or groups found</target>
+        <target state="translated">未找到条目或组</target>
         <note>Class = "UILabel"; text = "No entries or groups found"; ObjectID = "tpA-i1-ah8";</note>
       </trans-unit>
       <trans-unit id="ttY-yZ-yRg.text" xml:space="preserve" translate="no">
@@ -978,7 +983,7 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="[Database/Create/orgRequiresStronger]" xml:space="preserve">
         <source>Your organization requires a more complex database password.</source>
-        <target state="needs-translation">Your organization requires a more complex database password.</target>
+        <target state="translated">您的组织需要更复杂的数据库密码。</target>
         <note>Notification for business users when they set up too weak database password.</note>
       </trans-unit>
       <trans-unit id="[Database/Create] Please enter a password or choose a key file." xml:space="preserve">
@@ -1043,12 +1048,12 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="[Onboarding/AppProtection/text1]" xml:space="preserve">
         <source>KeePassium is your vault. App protection ensures that only you can open it.</source>
-        <target state="needs-translation">KeePassium is your vault. App protection ensures that only you can open it.</target>
+        <target state="translated">KeePassium 是您的保险库。应用保护确保您只能打开它。</target>
         <note>Text in the App Protection onboarding screen.</note>
       </trans-unit>
       <trans-unit id="[Onboarding/AppProtection/title]" xml:space="preserve">
         <source>For Your Eyes Only</source>
-        <target state="needs-translation">For Your Eyes Only</target>
+        <target state="translated">仅有您能打开</target>
         <note>Title of the App Protection onboarding screen</note>
       </trans-unit>
       <trans-unit id="[Onboarding/CreateNewDatabase/action]" xml:space="preserve">
@@ -1058,57 +1063,57 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="[Onboarding/DataEncryption/text1]" xml:space="preserve">
         <source>Your safe box is an encrypted database.</source>
-        <target state="needs-translation">Your safe box is an encrypted database.</target>
+        <target state="translated">您的保险箱是一个加密的数据库。</target>
         <note>Text in the Data Encryption intro screen</note>
       </trans-unit>
       <trans-unit id="[Onboarding/DataEncryption/text2]" xml:space="preserve">
         <source>You can keep databases in your favorite cloud or locally on device.</source>
-        <target state="needs-translation">You can keep databases in your favorite cloud or locally on device.</target>
+        <target state="translated">您可以在您最所选的云端服务器或本地设备上保存数据库。</target>
         <note>Text in the Data Encryption intro screen</note>
       </trans-unit>
       <trans-unit id="[Onboarding/DataEncryption/title]" xml:space="preserve">
         <source>Data Encryption</source>
-        <target state="needs-translation">Data Encryption</target>
+        <target state="translated">数据加密</target>
         <note>Title of the Data Encryption intro screen</note>
       </trans-unit>
       <trans-unit id="[Onboarding/Intro/text1]" xml:space="preserve">
         <source>KeePassium keeps your passwords and other sensitive info securely encrypted.</source>
-        <target state="needs-translation">KeePassium keeps your passwords and other sensitive info securely encrypted.</target>
+        <target state="translated">KeePassium 将您的密码和其他敏感信息安全地加密存储。</target>
         <note>Text in the introductory onboarding screen.</note>
       </trans-unit>
       <trans-unit id="[Onboarding/Intro/text2]" xml:space="preserve">
         <source>There are no ads and no tracking.</source>
-        <target state="needs-translation">There are no ads and no tracking.</target>
+        <target state="translated">没有广告，也没有活动跟踪。</target>
         <note>Text in the introductory onboarding screen.</note>
       </trans-unit>
       <trans-unit id="[Onboarding/Intro/text3]" xml:space="preserve">
         <source>We don't know anything about you.</source>
-        <target state="needs-translation">We don't know anything about you.</target>
+        <target state="translated">我们对您一无所知。</target>
         <note>Text in the introductory onboarding screen.</note>
       </trans-unit>
       <trans-unit id="[Onboarding/Intro/text4]" xml:space="preserve">
         <source>Your data belongs to you.</source>
-        <target state="needs-translation">Your data belongs to you.</target>
+        <target state="translated">您的数据属于您自己。</target>
         <note>Text in the introductory onboarding screen.</note>
       </trans-unit>
       <trans-unit id="[Onboarding/Intro/title]" xml:space="preserve">
         <source>Welcome</source>
-        <target state="needs-translation">Welcome</target>
+        <target state="translated">欢迎使用</target>
         <note>Title of the introductory onboarding screen.</note>
       </trans-unit>
       <trans-unit id="[Onboarding/Security/text1]" xml:space="preserve">
         <source>Your info is encrypted in a safe box (database). Safe boxes are stored in a vault (KeePassium).</source>
-        <target state="needs-translation">Your info is encrypted in a safe box (database). Safe boxes are stored in a vault (KeePassium).</target>
+        <target state="translated">您的信息被加密在保险箱中 (数据库)；保险箱则被存储在保险库中 (KeePassium)。</target>
         <note>Text in the Security intro screen</note>
       </trans-unit>
       <trans-unit id="[Onboarding/Security/text2]" xml:space="preserve">
         <source>The vault and safe boxes have different keys and only you will know them.</source>
-        <target state="needs-translation">The vault and safe boxes have different keys and only you will know them.</target>
+        <target state="translated">保险箱和保险库分别对应不同的密钥，只有您知道它们。</target>
         <note>Text in the Security intro screen</note>
       </trans-unit>
       <trans-unit id="[Onboarding/Security/title]" xml:space="preserve">
         <source>Maximum Security</source>
-        <target state="needs-translation">Maximum Security</target>
+        <target state="translated">最强的安全性</target>
         <note>Title of the Security intro screen</note>
       </trans-unit>
       <trans-unit id="[PasswordAudit/Action/Exclude]" xml:space="preserve">
@@ -1166,15 +1171,20 @@ KeePassium 会将从您的密码中计算出的信息（部分校验和）发送
         <target state="translated">密码检查器</target>
         <note>Title of a screen to check which passwords are known to be compromised.</note>
       </trans-unit>
+      <trans-unit id="[PasswordGenerator/Wordlist/Import/menuAction]" xml:space="preserve">
+        <source>Import Wordlist…</source>
+        <target state="needs-translation">Import Wordlist…</target>
+        <note>Menu action to add a user-provided word list file to the app.</note>
+      </trans-unit>
+      <trans-unit id="[PasswordQuality/LevelWithApproximateEntropy/description]" xml:space="preserve">
+        <source>%1$@ (~%2$@ of entropy)</source>
+        <target state="needs-translation">%1$@ (~%2$@ of entropy)</target>
+        <note>Password quality description. Note the tilda that refers to an estimated/approximate value. For example: `Very good (~123 bits of entropy)`. [level: String, formattedBitCount: String]</note>
+      </trans-unit>
       <trans-unit id="[PasswordQuality/LevelWithEntropy/description]" xml:space="preserve">
         <source>%1$@ (%2$@ of entropy)</source>
         <target state="translated">%1$@ (%2$@ 熵值)</target>
         <note>Password quality description. For example: `Very good (234 bits of entropy)`. [level: String, formattedBitCount: String]</note>
-      </trans-unit>
-      <trans-unit id="[PasswordQuality/Level] Almost good" xml:space="preserve">
-        <source>Almost good</source>
-        <target state="translated">不错</target>
-        <note>Almost good password quality</note>
       </trans-unit>
       <trans-unit id="[PasswordQuality/Level] Good" xml:space="preserve">
         <source>Good</source>
@@ -1218,47 +1228,47 @@ KeePassium 会将从您的密码中计算出的信息（部分校验和）发送
       </trans-unit>
       <trans-unit id="[Tags/Create/action]" xml:space="preserve">
         <source>Create Tag</source>
-        <target state="needs-translation">Create Tag</target>
+        <target state="translated">创建标签</target>
         <note>Action/button to create a new item tag</note>
       </trans-unit>
       <trans-unit id="[Tags/Create/placeholder]" xml:space="preserve">
         <source>Enter tag name</source>
-        <target state="needs-translation">Enter tag name</target>
+        <target state="translated">输入标签名称</target>
         <note>Call to action/hint inside a text input</note>
       </trans-unit>
       <trans-unit id="[Tags/Create/title]" xml:space="preserve">
         <source>New Tag</source>
-        <target state="needs-translation">New Tag</target>
+        <target state="translated">新建标签</target>
         <note>Title of the tag creation dialog</note>
       </trans-unit>
       <trans-unit id="[Tags/None/placeholder]" xml:space="preserve">
         <source>There are no tags in the database, add some.</source>
-        <target state="needs-translation">There are no tags in the database, add some.</target>
+        <target state="translated">数据库中没有标签，请添加一些。</target>
         <note>Status message with a call to action</note>
       </trans-unit>
       <trans-unit id="[Tags/Search/emptyResult]" xml:space="preserve">
         <source>No suitable tags found.</source>
-        <target state="needs-translation">No suitable tags found.</target>
+        <target state="translated">未找到合适的标签。</target>
         <note>Status message: tag search result is empty</note>
       </trans-unit>
       <trans-unit id="[Tags/Section/All]" xml:space="preserve">
         <source>All Tags</source>
-        <target state="needs-translation">All Tags</target>
+        <target state="translated">所有标签</target>
         <note>Title of a list with all the tags existing in the database.</note>
       </trans-unit>
       <trans-unit id="[Tags/Section/Inherited]" xml:space="preserve">
         <source>Inherited Tags</source>
-        <target state="needs-translation">Inherited Tags</target>
+        <target state="translated">继承的标签</target>
         <note>Title of a list with tags used by parent groups.</note>
       </trans-unit>
       <trans-unit id="[Tags/Section/Selected]" xml:space="preserve">
         <source>Selected Tags</source>
-        <target state="needs-translation">Selected Tags</target>
+        <target state="translated">所选标签</target>
         <note>Title of a list with tags chosen by the user for a specific entry or group.</note>
       </trans-unit>
       <trans-unit id="[Tags/UsageCount/title]" xml:space="preserve">
         <source>Usage count</source>
-        <target state="needs-translation">Usage count</target>
+        <target state="translated">使用次数</target>
         <note>Title: the number of times a tag is encountered in the database.</note>
       </trans-unit>
     </body>
@@ -2236,28 +2246,6 @@ KeePassium 会将从您的密码中计算出的信息（部分校验和）发送
         <source>Clipboard Timeout</source>
         <target state="translated">剪贴板超时</target>
         <note>Class = "UITableViewController"; title = "Clipboard Timeout"; ObjectID = "iJJ-jv-hhP"; Note = "TItle of a list of options, when to delete clipboard content. Alternative title \"Clear Clipboard\"";</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="KeePassium/settings/data-protection/Base.lproj/SettingsDatabaseTimeoutVC.storyboard" source-language="en" target-language="zh-Hans" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.2" build-num="15C500b"/>
-    </header>
-    <body>
-      <trans-unit id="26a-m8-zQP.title" xml:space="preserve">
-        <source>Database Timeout</source>
-        <target state="translated">数据库自动锁定</target>
-        <note>Class = "UITableViewController"; title = "Database Timeout"; ObjectID = "26a-m8-zQP"; Note = "Title of a list of database timeouts, linked to Settings/Data Protection/Database Timeout.";</note>
-      </trans-unit>
-      <trans-unit id="Beo-Vy-wZ8.text" xml:space="preserve" translate="no">
-        <source>{Subtitle}</source>
-        <target state="needs-translation">{Subtitle}</target>
-        <note>Class = "UILabel"; text = "{Subtitle}"; ObjectID = "Beo-Vy-wZ8"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="DOf-Bp-iIT.text" xml:space="preserve" translate="no">
-        <source>{Title}</source>
-        <target state="needs-translation">{Title}</target>
-        <note>Class = "UILabel"; text = "{Title}"; ObjectID = "DOf-Bp-iIT"; Note = "#bc-ignore!";</note>
       </trans-unit>
     </body>
   </file>

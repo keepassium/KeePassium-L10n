@@ -369,6 +369,11 @@ Icons updated: %2$d</source>
         <target state="translated">続ける前に</target>
         <note>Title of an info message when the app needs to change database file format.</note>
       </trans-unit>
+      <trans-unit id="[Database/IconSet/System/title]" xml:space="preserve">
+        <source>System</source>
+        <target state="needs-translation">System</target>
+        <note>Title of an icon collection: icons provided by the system</note>
+      </trans-unit>
       <trans-unit id="[Database/Item/Edited/state]" xml:space="preserve">
         <source>Edited</source>
         <target state="translated">編集済み</target>
@@ -496,6 +501,11 @@ This is its latest local copy.</source>
         <target state="translated">プレビューを準備中...</target>
         <note>Status message: preparing database print preview.</note>
       </trans-unit>
+      <trans-unit id="[Database/Progress/checkingDatabaseForModifications]" xml:space="preserve">
+        <source>Checking database for modifications…</source>
+        <target state="needs-translation">Checking database for modifications…</target>
+        <note>Database loading/saving status: checking whether our database was modified from another device.</note>
+      </trans-unit>
       <trans-unit id="[Database/Progress/downloading]" xml:space="preserve">
         <source>Downloading database file...</source>
         <target state="translated">データベースをダウンロード中...</target>
@@ -511,10 +521,20 @@ This is its latest local copy.</source>
         <target state="translated">フィールド参照を解決しています…</target>
         <note>Database loading/saving status: replacing field references with their values</note>
       </trans-unit>
+      <trans-unit id="[Database/Progress/resolvingSyncConflict]" xml:space="preserve">
+        <source>Resolving a sync conflict…</source>
+        <target state="needs-translation">Resolving a sync conflict…</target>
+        <note>Database saving status: deciding how to handle conflicting changes.</note>
+      </trans-unit>
       <trans-unit id="[Database/Progress/resolving]" xml:space="preserve">
         <source>Contacting storage provider...</source>
         <target state="translated">ストレージに接続中...</target>
         <note>Progress status</note>
+      </trans-unit>
+      <trans-unit id="[Database/Progress/writingDatabaseFile]" xml:space="preserve">
+        <source>Writing database file…</source>
+        <target state="needs-translation">Writing database file…</target>
+        <note>Database saving status</note>
       </trans-unit>
       <trans-unit id="[Database/Progress] Done" xml:space="preserve">
         <source>Done</source>
@@ -903,11 +923,6 @@ Please make sure to have a backup of your database before changing anything.</so
         <source>Nil value in %@</source>
         <target state="translated">%@ に値が無い</target>
         <note>Error message about XML parsing. [tag: String]</note>
-      </trans-unit>
-      <trans-unit id="[Database2/Xml2/ParsingError] Not a KeePass XML" xml:space="preserve">
-        <source>Not a KeePass XML</source>
-        <target state="translated">KeePass XMLではありません</target>
-        <note>Error message about XML parsing</note>
       </trans-unit>
       <trans-unit id="[Database2/Xml2/ParsingError] Unexpected tag '%@'" xml:space="preserve">
         <source>Unexpected tag '%@'</source>
@@ -1364,6 +1379,11 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="translated">Seafile Pro</target>
         <note>Localized name of the storage app: Seafile Pro (https://apps.apple.com/us/app/seafile-pro/id639202512)</note>
       </trans-unit>
+      <trans-unit id="[FileProvider/Secure ShellFish/name]" xml:space="preserve">
+        <source>Secure ShellFish</source>
+        <target state="needs-translation">Secure ShellFish</target>
+        <note>Localized name of the storage app: Secure ShellFish (https://apps.apple.com/app/ssh-files-secure-shellfish/id1336634154)</note>
+      </trans-unit>
       <trans-unit id="[FileProvider/Stratospherix FileBrowser/name]" xml:space="preserve">
         <source>FileBrowser</source>
         <target state="translated">Stratospherix FileBrowser</target>
@@ -1819,6 +1839,11 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="translated">ハードウェアキーは自動入力では使用できません。</target>
         <note>A notification that hardware keys (e.g. YubiKey) cannot be used in AutoFill (the OS does not allow the AutoFill to use NFC/MFI).</note>
       </trans-unit>
+      <trans-unit id="[HardwareKey/AutoFill/TheseNotAvailable]" xml:space="preserve">
+        <source>These hardware keys are not available in AutoFill.</source>
+        <target state="needs-translation">These hardware keys are not available in AutoFill.</target>
+        <note>Information notice for a list of hardware keys.</note>
+      </trans-unit>
       <trans-unit id="[HardwareKey/Field/title]" xml:space="preserve">
         <source>Hardware Key</source>
         <target state="translated">ハードウェアキー</target>
@@ -2102,6 +2127,11 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="translated">KeePassiumはあなたの組織の企業アカウントを見つけられませんでした。</target>
         <note>Error message, euphemism for missing corporate license</note>
       </trans-unit>
+      <trans-unit id="[PasswordGenerator/Accept/action]" xml:space="preserve">
+        <source>Accept</source>
+        <target state="needs-translation">Accept</target>
+        <note>Action/button: accept/use the generated password</note>
+      </trans-unit>
       <trans-unit id="[PasswordGenerator/CannotGenerateText/title]" xml:space="preserve">
         <source>Cannot generate text</source>
         <target state="translated">テキストを生成できません</target>
@@ -2271,6 +2301,11 @@ Please make sure to have a backup of your database before changing anything.</so
         <source>EFF Short Wordlist #%d (1296 words)</source>
         <target state="translated">EFFのショートワードリスト #%d (1296個)</target>
         <note>Name of a wordlist for passphrase generator. `EFF` is an organization name.</note>
+      </trans-unit>
+      <trans-unit id="[PasswordGenerator/Wordlist/ImportError/reason]" xml:space="preserve">
+        <source>File could not be imported because of a problem in line %1$d (%2$@)</source>
+        <target state="needs-translation">File could not be imported because of a problem in line %1$d (%2$@)</target>
+        <note>Error message when importing a text file [lineNumber: Int, problemDescription: String]</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/Wordlist/title]" xml:space="preserve">
         <source>Wordlist</source>
@@ -2744,6 +2779,11 @@ This can happen with larger databases or too ambitious database settings (Argon2
         <target state="translated">アカウント</target>
         <note>Title of a section: username, password, etc</note>
       </trans-unit>
+      <trans-unit id="[RemoteConnection/Direct/description]" xml:space="preserve">
+        <source>KeePassium will communicate directly with your online storage. This ensures reliable file transfer.</source>
+        <target state="needs-translation">KeePassium will communicate directly with your online storage. This ensures reliable file transfer.</target>
+        <note>Description of the `Direct connection` sync method.</note>
+      </trans-unit>
       <trans-unit id="[RemoteConnection/Error/AuthenticationFailed/title]" xml:space="preserve">
         <source>Authentication failed</source>
         <target state="translated">認証失敗</target>
@@ -2754,6 +2794,16 @@ This can happen with larger databases or too ambitious database settings (Argon2
         <target state="translated">ファイルのURL</target>
         <note>Network address of a file</note>
       </trans-unit>
+      <trans-unit id="[RemoteConnection/GoogleDrive/Folder/myDrive]" xml:space="preserve">
+        <source>My Drive</source>
+        <target state="needs-translation">My Drive</target>
+        <note>Name of a predefined Google Drive folder which contains user's own files</note>
+      </trans-unit>
+      <trans-unit id="[RemoteConnection/GoogleDrive/Folder/sharedWithMe]" xml:space="preserve">
+        <source>Shared With Me</source>
+        <target state="needs-translation">Shared With Me</target>
+        <note>Name of a predefined GoogleDrive folder which contains files shared with this user</note>
+      </trans-unit>
       <trans-unit id="[RemoteConnection/OneDrive/Folder/files]" xml:space="preserve">
         <source>Files</source>
         <target state="translated">ファイル</target>
@@ -2763,6 +2813,31 @@ This can happen with larger databases or too ambitious database settings (Argon2
         <source>Shared</source>
         <target state="translated">共有</target>
         <note>Name of a predefined OneDrive folder which contains files shared with this user</note>
+      </trans-unit>
+      <trans-unit id="[RemoteConnection/ServerURL]" xml:space="preserve">
+        <source>Server URL</source>
+        <target state="needs-translation">Server URL</target>
+        <note>Network address of a WebDAV server</note>
+      </trans-unit>
+      <trans-unit id="[RemoteConnection/SignIn/Dropbox/action]" xml:space="preserve">
+        <source>Sign in to Dropbox</source>
+        <target state="needs-translation">Sign in to Dropbox</target>
+        <note>Action: authenticate to Dropbox account</note>
+      </trans-unit>
+      <trans-unit id="[RemoteConnection/SignIn/Dropbox/authorizationRequried]" xml:space="preserve">
+        <source>Dropbox needs you to sign in again.</source>
+        <target state="needs-translation">Dropbox needs you to sign in again.</target>
+        <note>Error description: the user should manually sign in to their Dropbox account</note>
+      </trans-unit>
+      <trans-unit id="[RemoteConnection/SignIn/GoogleDrive/action]" xml:space="preserve">
+        <source>Sign in to Google Drive</source>
+        <target state="needs-translation">Sign in to Google Drive</target>
+        <note>Action: authenticate to Google Drive account</note>
+      </trans-unit>
+      <trans-unit id="[RemoteConnection/SignIn/GoogleDrive/authorizationRequried]" xml:space="preserve">
+        <source>Google Drive needs you to sign in again.</source>
+        <target state="needs-translation">Google Drive needs you to sign in again.</target>
+        <note>Error description: the user should manually sign in to their Google Drive account</note>
       </trans-unit>
       <trans-unit id="[RemoteConnection/SignIn/OneDrive/action]" xml:space="preserve">
         <source>Sign in to OneDrive</source>
@@ -2783,6 +2858,11 @@ This can happen with larger databases or too ambitious database settings (Argon2
         <source>Private mode</source>
         <target state="translated">プライベートモード</target>
         <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="[RemoteConnection/ViaFilesApp/description]" xml:space="preserve">
+        <source>KeePassium will assign file synchronization to the app of your storage provider. Some apps work better than others.</source>
+        <target state="needs-translation">KeePassium will assign file synchronization to the app of your storage provider. Some apps work better than others.</target>
+        <note>Description of the `Integration via Files app` sync method.</note>
       </trans-unit>
       <trans-unit id="[RemoteConnection/connectToServer]" xml:space="preserve">
         <source>Connect to Server</source>
@@ -2964,6 +3044,11 @@ This can happen with larger databases or too ambitious database settings (Argon2
         <target state="translated">しない</target>
         <note>An option in Settings. Will be shown as 'Clipboard Timeout: Never'</note>
       </trans-unit>
+      <trans-unit id="[Settings/DataProtection/LockOnReboot/title]" xml:space="preserve">
+        <source>Lock on Device Restart</source>
+        <target state="needs-translation">Lock on Device Restart</target>
+        <note>Setting switch: whether to lock databases after device reboot.</note>
+      </trans-unit>
       <trans-unit id="[Settings/DataProtection/subtitle]" xml:space="preserve">
         <source>Master keys, key files</source>
         <target state="translated">マスターキー、キーファイル</target>
@@ -3009,10 +3094,15 @@ This can happen with larger databases or too ambitious database settings (Argon2
         <target state="translated">しない</target>
         <note>An option in Settings. Will be shown as 'Database Lock: Timeout: Never'</note>
       </trans-unit>
+      <trans-unit id="[Settings/DatabaseLockTimeout/title]" xml:space="preserve">
+        <source>Database Timeout</source>
+        <target state="translated">データベースのタイムアウト</target>
+        <note>Title of a setting: the time after which databases will be locked.</note>
+      </trans-unit>
       <trans-unit id="[Settings/EntryListDetail/longTitle] Last Modified Date" xml:space="preserve">
         <source>Last Modified Date</source>
         <target state="translated">変更日</target>
-        <note>An option in Group Viewer settings. Refers fo the most recent time when the entry was modified. Will be shown as 'Entry Subtitle: Last Modified Date'.</note>
+        <note>An option in Group Viewer settings. Refers to the most recent time when the entry was modified. Will be shown as 'Entry Subtitle: Last Modified Date'.</note>
       </trans-unit>
       <trans-unit id="[Settings/EntryListDetail/longTitle] None" xml:space="preserve">
         <source>None</source>
@@ -3028,6 +3118,11 @@ This can happen with larger databases or too ambitious database settings (Argon2
         <source>Password</source>
         <target state="translated">パスワード</target>
         <note>An option in Group Viewer settings. Will be shown as 'Entry Subtitle: Password'.</note>
+      </trans-unit>
+      <trans-unit id="[Settings/EntryListDetail/longTitle] Tags" xml:space="preserve">
+        <source>Tags</source>
+        <target state="needs-translation">Tags</target>
+        <note>An option in Group Viewer settings. Refers to the tags field of the entry. Will be shown as 'Entry Subtitle: Tags'.</note>
       </trans-unit>
       <trans-unit id="[Settings/EntryListDetail/longTitle] URL" xml:space="preserve">
         <source>URL</source>
@@ -3129,10 +3224,30 @@ This can happen with larger databases or too ambitious database settings (Argon2
         <target state="translated">並び替え</target>
         <note>Title of a sort options list. Example: 'Sort by: Name'</note>
       </trans-unit>
+      <trans-unit id="[StorageService/DropboxBusiness/title]" xml:space="preserve">
+        <source>Dropbox Business</source>
+        <target state="needs-translation">Dropbox Business</target>
+        <note>Name of a cloud storage service</note>
+      </trans-unit>
+      <trans-unit id="[StorageService/DropboxPro/title]" xml:space="preserve">
+        <source>Dropbox Pro</source>
+        <target state="needs-translation">Dropbox Pro</target>
+        <note>Name of a cloud storage service</note>
+      </trans-unit>
+      <trans-unit id="[StorageService/GoogleWorkspace/title]" xml:space="preserve">
+        <source>Google Workspace</source>
+        <target state="needs-translation">Google Workspace</target>
+        <note>Name of a cloud storage service</note>
+      </trans-unit>
       <trans-unit id="[StorageService/OneDriveForBusiness/title]" xml:space="preserve">
         <source>OneDrive for Business</source>
         <target state="translated">OneDrive for Business</target>
         <note>Name of a cloud storage service. Must match Microsoft's translation, see  https://partner.microsoft.com/solutions/onedrive-for-business</note>
+      </trans-unit>
+      <trans-unit id="[StorageService/OtherServices/title]" xml:space="preserve">
+        <source>Other Services</source>
+        <target state="needs-translation">Other Services</target>
+        <note>Title of a file storage service option (for example: Dropbox, OneDrive, Other Services)</note>
       </trans-unit>
       <trans-unit id="[Support/template] (Please describe the problem here)" xml:space="preserve">
         <source>(Please describe the problem here)</source>
