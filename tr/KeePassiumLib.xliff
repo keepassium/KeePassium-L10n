@@ -120,6 +120,16 @@
         <target state="translated">Kilidi aç</target>
         <note>Action/button to unlock the App Lock with passcode</note>
       </trans-unit>
+      <trans-unit id="[Appearance/AppIcon/title]" xml:space="preserve">
+        <source>App Icon</source>
+        <target state="translated">Uygulama Simgesi</target>
+        <note>Section in settings: icon for the app</note>
+      </trans-unit>
+      <trans-unit id="[Appearance/DatabaseIcons/title]" xml:space="preserve">
+        <source>Database Icons</source>
+        <target state="translated">Veritabanı simgeleri</target>
+        <note>Section in settings: icons for database</note>
+      </trans-unit>
       <trans-unit id="[Appearance/DefaultFont/shortTitle]" xml:space="preserve">
         <source>Default</source>
         <target state="needs-translation">Default</target>
@@ -265,11 +275,6 @@
         <target state="translated">Veritabanı Oluştur</target>
         <note>Action/button to create a new database</note>
       </trans-unit>
-      <trans-unit id="[Database/Create/title] Create Database" xml:space="preserve">
-        <source>Create Database</source>
-        <target state="translated">Veritabanı Oluştur</target>
-        <note>Title of a form for creating a database</note>
-      </trans-unit>
       <trans-unit id="[Database/CustomIcon/DownloadFavicon/action]" xml:space="preserve">
         <source>Download Favicon</source>
         <target state="needs-translation">Download Favicon</target>
@@ -354,6 +359,11 @@ Icons updated: %2$d</target>
         <target state="needs-translation">Encryption Settings</target>
         <note>Title: database encryption settings.</note>
       </trans-unit>
+      <trans-unit id="[Database/Entry/LinkedDatabase/message]" xml:space="preserve">
+        <source>This entry points to another database.</source>
+        <target state="needs-translation">This entry points to another database.</target>
+        <note>Info message for entries that contain information for opening a different database.</note>
+      </trans-unit>
       <trans-unit id="[Database/FormatVersion/Conversion/allDataPreserved]" xml:space="preserve">
         <source>All your data will be preserved.</source>
         <target state="needs-translation">All your data will be preserved.</target>
@@ -383,6 +393,16 @@ Icons updated: %2$d</target>
         <source>This is an older database format, some data might be lost.</source>
         <target state="needs-translation">This is an older database format, some data might be lost.</target>
         <note>Notification when user tries to copy data from KDBX to older KDB database.</note>
+      </trans-unit>
+      <trans-unit id="[Database/List/LocalMissing/message]" xml:space="preserve">
+        <source>If some local files are not listed, launch the main KeePassium app first.</source>
+        <target state="needs-translation">If some local files are not listed, launch the main KeePassium app first.</target>
+        <note>Recommendation for solving a problem with a list of files.</note>
+      </trans-unit>
+      <trans-unit id="[Database/List/title]" xml:space="preserve">
+        <source>Databases</source>
+        <target state="translated">Veritabanları</target>
+        <note>Title of the database picker list</note>
       </trans-unit>
       <trans-unit id="[Database/Load/Error/encryptedByIntune]" xml:space="preserve">
         <source>This database is protected by your corporate IT policies and Microsoft Intune.</source>
@@ -460,6 +480,16 @@ This is its latest local copy.</target>
         <source>Master key successfully changed</source>
         <target state="translated">Ana anahtar başarıyla değiştirildi</target>
         <note>Notification after changing database master key</note>
+      </trans-unit>
+      <trans-unit id="[Database/MasterKey/title]" xml:space="preserve">
+        <source>Master Key</source>
+        <target state="translated">Ana Anahtar</target>
+        <note>Glossary term: noun, a master key for encrypting the database</note>
+      </trans-unit>
+      <trans-unit id="[Database/New/title]" xml:space="preserve">
+        <source>New Database</source>
+        <target state="needs-translation">New Database</target>
+        <note>Title of database creation dialog</note>
       </trans-unit>
       <trans-unit id="[Database/Open/action] Open Database" xml:space="preserve">
         <source>Open Database</source>
@@ -1027,6 +1057,11 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="translated">Alan Adı</target>
         <note>Default name of a newly created entry field</note>
       </trans-unit>
+      <trans-unit id="[Entry/Edit/action]" xml:space="preserve">
+        <source>Edit Entry</source>
+        <target state="translated">Kayıt Düzenle</target>
+        <note>Action/button to modify an entry</note>
+      </trans-unit>
       <trans-unit id="[Entry/Field/CopyReference/acknowledgement]" xml:space="preserve">
         <source>Field reference copied to clipboard</source>
         <target state="needs-translation">Field reference copied to clipboard</target>
@@ -1107,6 +1142,11 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="translated">Son Değişiklik Tarihi</target>
         <note>Title of a field with entry's last modification date and time</note>
       </trans-unit>
+      <trans-unit id="[Entry/History] Modification Date" xml:space="preserve">
+        <source>Modification Date</source>
+        <target state="needs-translation">Modification Date</target>
+        <note>Title of a field with entry's modification date and time</note>
+      </trans-unit>
       <trans-unit id="[Entry/History] Previous Versions" xml:space="preserve">
         <source>Previous Versions</source>
         <target state="translated">Önceki Versiyonlar</target>
@@ -1116,6 +1156,11 @@ Please make sure to have a backup of your database before changing anything.</so
         <source>New Entry</source>
         <target state="translated">Yeni Kayıt</target>
         <note>Default title of a new entry</note>
+      </trans-unit>
+      <trans-unit id="[Entry/title]" xml:space="preserve">
+        <source>Entry</source>
+        <target state="translated">Girdi</target>
+        <note>Glossary term: noun, an entry in database.</note>
       </trans-unit>
       <trans-unit id="[File/In Trash/warning]" xml:space="preserve">
         <source>'%@' is located in Recently Deleted and might be deleted soon. To preserve your data, move the file to a more permanent location.</source>
@@ -1216,6 +1261,21 @@ Please make sure to have a backup of your database before changing anything.</so
         <source>Internal KeePassium error, please tell us about it.</source>
         <target state="translated">KeePassium bir hatayla karşılaştı, lütfen bunun hakkında bize bilgi verin.</target>
         <note>Error message shown when there's internal inconsistency in KeePassium.</note>
+      </trans-unit>
+      <trans-unit id="[FileInfo/Attributes/Hidden/title]" xml:space="preserve">
+        <source>Hidden</source>
+        <target state="needs-translation">Hidden</target>
+        <note>Title of a setting: is the file hidden</note>
+      </trans-unit>
+      <trans-unit id="[FileInfo/Attributes/Hidden/warning]" xml:space="preserve">
+        <source>Hidden files are less visible to a casual user, but don't improve data security.</source>
+        <target state="needs-translation">Hidden files are less visible to a casual user, but don't improve data security.</target>
+        <note>Warning message for 'hidden' files.</note>
+      </trans-unit>
+      <trans-unit id="[FileInfo/Attributes/header]" xml:space="preserve">
+        <source>File Attributes</source>
+        <target state="needs-translation">File Attributes</target>
+        <note>Section header for attributes of a file (e.g. hidden, excluded from backup, etc)</note>
       </trans-unit>
       <trans-unit id="[FileInfo/Backup/header]" xml:space="preserve">
         <source>Backup</source>
@@ -1437,41 +1497,6 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="translated">Sync.com</target>
         <note>Localized name of the storage service: Sync.com (https://sync.com)</note>
       </trans-unit>
-      <trans-unit id="[FilesSortOrder/longTitle] Creation Date (Oldest First)" xml:space="preserve">
-        <source>Creation Date (Oldest First)</source>
-        <target state="translated">Oluşturma Tarihi (En Eski En Önce)</target>
-        <note>A sorting option for a list of files, by file creation date. Example: 'Sort Order: Creation Date (Oldest First)'</note>
-      </trans-unit>
-      <trans-unit id="[FilesSortOrder/longTitle] Creation Date (Recent First)" xml:space="preserve">
-        <source>Creation Date (Recent First)</source>
-        <target state="translated">Oluşturma Tarihi (En Yeni En Önce)</target>
-        <note>A sorting option for a list of files, by file creation date. Example: 'Sort Order: Creation Date (Recent First)'</note>
-      </trans-unit>
-      <trans-unit id="[FilesSortOrder/longTitle] Modification Date (Oldest First)" xml:space="preserve">
-        <source>Modification Date (Oldest First)</source>
-        <target state="translated">Değiştirilme tarihi (En Eski En Önce)</target>
-        <note>A sorting option for a list of files, by file's last modification date. Example: 'Sort Order: Modification Date (Oldest First)'</note>
-      </trans-unit>
-      <trans-unit id="[FilesSortOrder/longTitle] Modification Date (Recent First)" xml:space="preserve">
-        <source>Modification Date (Recent First)</source>
-        <target state="translated">Değiştirilme Tarihi (En Yeni En Önce)</target>
-        <note>A sorting option for a list of files, by file's last modification date. Example: 'Sort Order: Modification Date (Recent First)'</note>
-      </trans-unit>
-      <trans-unit id="[FilesSortOrder/longTitle] Name (A..Z)" xml:space="preserve">
-        <source>Name (A..Z)</source>
-        <target state="translated">İsim (A...Z)</target>
-        <note>A sorting option for a list of files, by file name. Example: 'Sort Order: Name (A..Z)'</note>
-      </trans-unit>
-      <trans-unit id="[FilesSortOrder/longTitle] Name (Z..A)" xml:space="preserve">
-        <source>Name (Z..A)</source>
-        <target state="translated">İsim (Z...A)</target>
-        <note>A sorting option for a list of files, by file name. Example: 'Sort Order: Name (Z..A)'</note>
-      </trans-unit>
-      <trans-unit id="[FilesSortOrder/longTitle] No Sorting" xml:space="preserve">
-        <source>No Sorting</source>
-        <target state="translated">Sıralama yok</target>
-        <note>A sorting option for a list of files. Example: 'Sort Order: No Sorting'</note>
-      </trans-unit>
       <trans-unit id="[General/DestinationGroup/title] Choose a Destination" xml:space="preserve">
         <source>Choose a Destination</source>
         <target state="translated">Bir Klasör Seçin</target>
@@ -1492,6 +1517,11 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="needs-translation">Folder is empty</target>
         <note>Placeholder for folders without files</note>
       </trans-unit>
+      <trans-unit id="[Generic/Action/ReorderItems]" xml:space="preserve">
+        <source>Reorder</source>
+        <target state="needs-translation">Reorder</target>
+        <note>Action/button to change the order of items in a list (move them higher/lower).</note>
+      </trans-unit>
       <trans-unit id="[Generic/Action/SelectItems]" xml:space="preserve">
         <source>Select</source>
         <target state="needs-translation">Select</target>
@@ -1511,6 +1541,11 @@ Please make sure to have a backup of your database before changing anything.</so
         <source>[Generic/Count/EntriesSelected]</source>
         <target state="needs-translation">[Generic/Count/EntriesSelected]</target>
         <note>Number of entries selected. For example: 'No entries selected', '1 entry selected'. IMPORTANT: Please fill out all the plural forms. (Key in .stringsdict)</note>
+      </trans-unit>
+      <trans-unit id="[Generic/Count/ItemsSelected]" translate="no" xml:space="preserve">
+        <source>[Generic/Count/ItemsSelected]</source>
+        <target state="needs-translation">[Generic/Count/ItemsSelected]</target>
+        <note>Number of list items selected. For example: 'No items selected', '1 entry selected'. IMPORTANT: Please fill out all the plural forms. (Key in .stringsdict)</note>
       </trans-unit>
       <trans-unit id="[Generic/Count/Threads]" translate="no" xml:space="preserve">
         <source>[Generic/Count/Threads]</source>
@@ -1576,6 +1611,16 @@ Please make sure to have a backup of your database before changing anything.</so
         <source>Search</source>
         <target state="translated">Arama</target>
         <note>Title of a search field (a noun, not verb)</note>
+      </trans-unit>
+      <trans-unit id="[Generic/Tools/title]" xml:space="preserve">
+        <source>Tools</source>
+        <target state="needs-translation">Tools</target>
+        <note>Title of a menu with various utilities</note>
+      </trans-unit>
+      <trans-unit id="[Generic/ViewOptions/title]" xml:space="preserve">
+        <source>View Options</source>
+        <target state="translated">Görüntü Seçenekleri</target>
+        <note>Title of a screen/list view configuration: sort order, visible items, etc</note>
       </trans-unit>
       <trans-unit id="[Generic/WarningWithIcon/template]" xml:space="preserve" approved="yes">
         <source>⚠️ %@</source>
@@ -1757,20 +1802,25 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="translated">Grup Oluştur</target>
         <note>Action/button to create a new sub-group in the current group</note>
       </trans-unit>
-      <trans-unit id="[Group/Create/title] Create Group" xml:space="preserve">
-        <source>Create Group</source>
-        <target state="translated">Grup Oluştur</target>
-        <note>Title of a form for creating a group</note>
-      </trans-unit>
       <trans-unit id="[Group/Edit/title] Edit Group" xml:space="preserve">
         <source>Edit Group</source>
         <target state="translated">Grubu Düzenle</target>
         <note>Title of a form for editing a group</note>
       </trans-unit>
+      <trans-unit id="[Group/Menu/a11y/title]" xml:space="preserve">
+        <source>Group Menu</source>
+        <target state="needs-translation">Group Menu</target>
+        <note>VoiceOver description of a menu with group-related actions</note>
+      </trans-unit>
       <trans-unit id="[Group/New/defaultName] New Group" xml:space="preserve">
         <source>New Group</source>
         <target state="translated">Yeni Grup</target>
         <note>Default name of a new group</note>
+      </trans-unit>
+      <trans-unit id="[Group/Notes/title]" xml:space="preserve">
+        <source>Notes</source>
+        <target state="translated">Notlar</target>
+        <note>Title for the Notes field in group editor</note>
       </trans-unit>
       <trans-unit id="[Group/RecycleBin/Empty/action]" xml:space="preserve">
         <source>Empty Recycle Bin</source>
@@ -1782,50 +1832,50 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="needs-translation">Permanently delete everything in the Recycle Bin?</target>
         <note>Title of the confirmation dialog for `Empty Recycle Bin` action</note>
       </trans-unit>
+      <trans-unit id="[Group/Smart/Create/action]" xml:space="preserve">
+        <source>Create Smart Group</source>
+        <target state="needs-translation">Create Smart Group</target>
+        <note>Action/button to create a new Smart Group</note>
+      </trans-unit>
+      <trans-unit id="[Group/Smart/New/defaultName]" xml:space="preserve">
+        <source>New Smart Group</source>
+        <target state="needs-translation">New Smart Group</target>
+        <note>Default name of a new smart group</note>
+      </trans-unit>
+      <trans-unit id="[Group/Smart/Query/title]" xml:space="preserve">
+        <source>Smart Group Filter</source>
+        <target state="needs-translation">Smart Group Filter</target>
+        <note>Title for the Smart Group search conditions in group editor</note>
+      </trans-unit>
+      <trans-unit id="[Group/Smart/a11y/description]" xml:space="preserve">
+        <source>%@, Smart group</source>
+        <target state="needs-translation">%@, Smart group</target>
+        <note>VoiceOver description of a smart group [groupTitle: String]</note>
+      </trans-unit>
+      <trans-unit id="[Group/Smart/about]" xml:space="preserve">
+        <source>About smart groups…</source>
+        <target state="needs-translation">About smart groups…</target>
+        <note>Action/button to show a help article</note>
+      </trans-unit>
+      <trans-unit id="[Group/Smart/title]" xml:space="preserve">
+        <source>Smart Group</source>
+        <target state="needs-translation">Smart Group</target>
+        <note>Glossary term: noun, a smart group in database.</note>
+      </trans-unit>
       <trans-unit id="[Group/a11y/description]" xml:space="preserve">
         <source>%@, Group</source>
         <target state="translated">%@, Grup</target>
         <note>VoiceOver description of a group [groupTitle: String, itemCount: Int]</note>
       </trans-unit>
+      <trans-unit id="[Group/title]" xml:space="preserve">
+        <source>Group</source>
+        <target state="translated">Grup</target>
+        <note>Glossary term: noun, a group in database.</note>
+      </trans-unit>
       <trans-unit id="[GroupEditor/Name/placeholder]" xml:space="preserve">
         <source>Group Name</source>
         <target state="translated">Grup Adı</target>
         <note>Title of an input field for group name</note>
-      </trans-unit>
-      <trans-unit id="[GroupSortOrder/longTitle] By Creation Date (New..Old)" xml:space="preserve">
-        <source>By Creation Date (New..Old)</source>
-        <target state="translated">Oluşturma tarihine göre (Yeniden Eskiye)</target>
-        <note>An option in Group Viewer settings. Example: 'Sort Order: By Creation Date (New..Old)'</note>
-      </trans-unit>
-      <trans-unit id="[GroupSortOrder/longTitle] By Creation Date (Old..New)" xml:space="preserve">
-        <source>By Creation Date (Old..New)</source>
-        <target state="translated">Oluşturma tarihine göre (Eskiden Yeniye)</target>
-        <note>An option in Group Viewer settings. Example: 'Sort Order: By Creation Date (Old..New)'</note>
-      </trans-unit>
-      <trans-unit id="[GroupSortOrder/longTitle] By Modification Date (New..Old)" xml:space="preserve">
-        <source>By Modification Date (New..Old)</source>
-        <target state="translated">Değiştirilme tarihine göre (Yeniden Eskiye)</target>
-        <note>An option in Group Viewer settings. Example: 'Sort Order: By Modification Date (New..Old)'</note>
-      </trans-unit>
-      <trans-unit id="[GroupSortOrder/longTitle] By Modification Date (Old..New)" xml:space="preserve">
-        <source>By Modification Date (Old..New)</source>
-        <target state="translated">Değiştirilme tarihine göre (Eskiden Yeniye)</target>
-        <note>An option in Group Viewer settings. Example: 'Sort Order: By Modification Date (Old..New)'</note>
-      </trans-unit>
-      <trans-unit id="[GroupSortOrder/longTitle] By Title (A..Z)" xml:space="preserve">
-        <source>By Title (A..Z)</source>
-        <target state="translated">Başlığa göre (A...Z)</target>
-        <note>An option in Group Viewer settings. Example: 'Sort Order: By Title (A..Z)'</note>
-      </trans-unit>
-      <trans-unit id="[GroupSortOrder/longTitle] By Title (Z..A)" xml:space="preserve">
-        <source>By Title (Z..A)</source>
-        <target state="translated">Başlığa göre (Z...A)</target>
-        <note>An option in Group Viewer settings. Example: 'Sort Order: By Title (Z..A)'</note>
-      </trans-unit>
-      <trans-unit id="[GroupSortOrder/longTitle] No Sorting" xml:space="preserve">
-        <source>No Sorting</source>
-        <target state="translated">Sıralama yok</target>
-        <note>An option in Group Viewer settings. Example: 'Sort Order: No Sorting'</note>
       </trans-unit>
       <trans-unit id="[HOTP/FieldName]" xml:space="preserve">
         <source>One-Time Password (HOTP)</source>
@@ -2317,39 +2367,9 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="needs-translation">Random Generator</target>
         <note>Title of the random text/password/username generator dialog.</note>
       </trans-unit>
-      <trans-unit id="[Premium/Benefits/AttachmentPreview/details]" xml:space="preserve">
-        <source>Preview attached files directly in KeePassium and leave no traces in other apps. (Works with images, documents, archives and more.)</source>
-        <target state="translated">Ekli dosyaları doğrudan KeePassium'un içinde görüntüleyin ve diğer uygulamalara iz bırakmayın. (Fotoğraflar, dökümanlar, arşivler ve daha birçok belgeye uyumludur.)</target>
-        <note>Explanation of the premium feature</note>
-      </trans-unit>
-      <trans-unit id="[Premium/Benefits/AttachmentPreview/title]" xml:space="preserve">
-        <source>Preview without a trace</source>
-        <target state="translated">İz Bırakmadan Görüntüle</target>
-        <note>Title of a premium feature</note>
-      </trans-unit>
       <trans-unit id="[Premium/Benefits/BusinessClouds/title]" xml:space="preserve">
         <source>Sync with corporate storage</source>
         <target state="needs-translation">Sync with corporate storage</target>
-        <note>Title of a premium feature</note>
-      </trans-unit>
-      <trans-unit id="[Premium/Benefits/CustomAppIcon/details]" xml:space="preserve">
-        <source>Make KeePassium look unique, familiar, or disguise it as a calculator — the choice is yours.</source>
-        <target state="translated">KeePassium'u eşsiz benzersiz, keyfinize göre görünecek şekilde dizayn edin. Hesap Makinesi gibi gözükmesini dahi sağlayabilirsiniz. Seçim sizin.</target>
-        <note>Explanation of a premium feature</note>
-      </trans-unit>
-      <trans-unit id="[Premium/Benefits/CustomAppIcon/title]" xml:space="preserve">
-        <source>Change app icon</source>
-        <target state="translated">Uygulama Simgesini Değiştir</target>
-        <note>Title of a premium feature</note>
-      </trans-unit>
-      <trans-unit id="[Premium/Benefits/DatabaseTimeout/details]" xml:space="preserve">
-        <source>Tired of typing your master password? Keep your database open longer and unlock it with one tap.</source>
-        <target state="translated">Ana şifrenizi girmekten bıktınız mı? Veritabanınızı daha uzun süre açık tutun ve tek dokunuşla kilidini açın.</target>
-        <note>Explanation of the premium feature</note>
-      </trans-unit>
-      <trans-unit id="[Premium/Benefits/DatabaseTimeout/title]" xml:space="preserve">
-        <source>Save your time</source>
-        <target state="translated">Zaman Kazanın</target>
         <note>Title of a premium feature</note>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/HardwareKeys/details]" xml:space="preserve">
@@ -2360,6 +2380,16 @@ Please make sure to have a backup of your database before changing anything.</so
       <trans-unit id="[Premium/Benefits/HardwareKeys/title]" xml:space="preserve">
         <source>Use hardware keys</source>
         <target state="translated">Donanım Anahtarı Kullanın</target>
+        <note>Title of a premium feature</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Benefits/LinkedDatabases/details]" xml:space="preserve">
+        <source>Open another database in one step — using credentials stored in an entry.</source>
+        <target state="needs-translation">Open another database in one step — using credentials stored in an entry.</target>
+        <note>Explanation of the premium feature</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Benefits/LinkedDatabases/title]" xml:space="preserve">
+        <source>Open linked databases</source>
+        <target state="needs-translation">Open linked databases</target>
         <note>Title of a premium feature</note>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/MultiDB/details]" xml:space="preserve">
@@ -2386,16 +2416,6 @@ Please make sure to have a backup of your database before changing anything.</so
         <source>What you get</source>
         <target state="translated">Avantajlarınız</target>
         <note>List of premium benefits/advantages</note>
-      </trans-unit>
-      <trans-unit id="[Premium/Benefits/ViewFieldReferences/details]" xml:space="preserve">
-        <source>Use field references to show information from other entries, instead of creating multiple copies of the same information.</source>
-        <target state="translated">Aynı bilgilerin birden çok kopyasını oluşturmak yerine, diğer girdilerden gelen bilgileri göstermek için alan referanslarını kullanın.</target>
-        <note>Explanation of a premium feature</note>
-      </trans-unit>
-      <trans-unit id="[Premium/Benefits/ViewFieldReferences/title]" xml:space="preserve">
-        <source>Show field references</source>
-        <target state="translated">Alan referanslarını göster</target>
-        <note>Title of a premium feature</note>
       </trans-unit>
       <trans-unit id="[Premium/CallToAction/buyNow]" xml:space="preserve">
         <source>Buy Now</source>
@@ -2646,11 +2666,6 @@ You can manage and cancel your subscriptions by going to your account settings o
         <target state="needs-translation">Corporate cloud storage</target>
         <note>Title of a premium feature: access to company's cloud accounts like 'OneDrive for Business'</note>
       </trans-unit>
-      <trans-unit id="[PremiumFeature/CustomAppIcons/title]" xml:space="preserve">
-        <source>Custom App Icons</source>
-        <target state="translated">Özelleştirilebilir Uygulama Simgeleri</target>
-        <note>Title of a premium feature: ability to change the app icon</note>
-      </trans-unit>
       <trans-unit id="[PremiumFeature/Generic/description]" xml:space="preserve">
         <source>Upgrade to Premium and enjoy KeePassium at its best.</source>
         <target state="translated">Premium'a geçin ve KeePassium'un tüm avantajlarından yararlanın.</target>
@@ -2671,15 +2686,15 @@ You can manage and cancel your subscriptions by going to your account settings o
         <target state="translated">Donanım Anahtarları</target>
         <note>Title of a premium feature: ability use hardware keys (e.g. YubiKey) for encryption (In Title Case)</note>
       </trans-unit>
-      <trans-unit id="[PremiumFeature/LongDBTimeouts/description] Save time entering your complex master passwords — keep your database open longer in the premium version." xml:space="preserve">
-        <source>Save time entering your complex master passwords — keep your database open longer in the premium version.</source>
-        <target state="translated">Karmaşık ana şifrelerinizi girerken zaman kazanın; premium sürümde veritabanınızı daha uzun süre açık tutun.</target>
-        <note>Description/advertisement for the `Long Database Timeouts` premium feature</note>
+      <trans-unit id="[PremiumFeature/LinkedDatabases/description]" xml:space="preserve">
+        <source>Upgrade to premium and open linked databases in one step.</source>
+        <target state="needs-translation">Upgrade to premium and open linked databases in one step.</target>
+        <note>Description/advertisement for the `Linked Databases` premium feature</note>
       </trans-unit>
-      <trans-unit id="[PremiumFeature/LongDBTimeouts/title] Long Database Timeouts" xml:space="preserve">
-        <source>Long Database Timeouts</source>
-        <target state="translated">Uzun Süreli Veritabanı Zaman Aşımları</target>
-        <note>Title of a premium feature: ability to set long delays in Database Lock Timeout settings (In Title Case)</note>
+      <trans-unit id="[PremiumFeature/LinkedDatabases/title]" xml:space="preserve">
+        <source>Linked Databases</source>
+        <target state="needs-translation">Linked Databases</target>
+        <note>Title of a premium feature: ability to open databases referenced in another database (In Title Case)</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/MultiDB/description] Easily switch between databases in the premium version." xml:space="preserve">
         <source>Easily switch between databases in the premium version.</source>
@@ -2700,16 +2715,6 @@ You can manage and cancel your subscriptions by going to your account settings o
         <source>Password audit</source>
         <target state="needs-translation">Password audit</target>
         <note>Title of a premium feature: discover which passwords are known to be compromized</note>
-      </trans-unit>
-      <trans-unit id="[PremiumFeature/Preview/description] Preview images and documents directly in the app, in the premium version." xml:space="preserve">
-        <source>Preview images and documents directly in the app, in the premium version.</source>
-        <target state="translated">Premium sürümde görüntüleri ve belgeleri doğrudan uygulamada önizleyin.</target>
-        <note>Description/advertisement for the `Preview Attachments` premium feature</note>
-      </trans-unit>
-      <trans-unit id="[PremiumFeature/Preview/title] Preview Attachments" xml:space="preserve">
-        <source>Preview Attachments</source>
-        <target state="translated">Bağlılıkları Önizle</target>
-        <note>Title of a premium feature: ability to preview some attached files directly in the app (In Title Case)</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/QuickAutoFill/description]" xml:space="preserve">
         <source>Fill out login forms with a single tap, without even opening KeePassium.</source>
@@ -3094,40 +3099,10 @@ This can happen with larger databases or too ambitious database settings (Argon2
         <target state="translated">Veritabanı Zamanaşımı</target>
         <note>Title of a setting: the time after which databases will be locked.</note>
       </trans-unit>
-      <trans-unit id="[Settings/EntryListDetail/longTitle] Last Modified Date" xml:space="preserve">
-        <source>Last Modified Date</source>
-        <target state="translated">Son Değiştirilme Tarihi</target>
-        <note>An option in Group Viewer settings. Refers to the most recent time when the entry was modified. Will be shown as 'Entry Subtitle: Last Modified Date'.</note>
-      </trans-unit>
       <trans-unit id="[Settings/EntryListDetail/longTitle] None" xml:space="preserve">
         <source>None</source>
         <target state="translated">Hiç biri</target>
         <note>An option in Group Viewer settings. Will be shown as 'Entry Subtitle: None', meanining that no entry details will be shown in any lists.</note>
-      </trans-unit>
-      <trans-unit id="[Settings/EntryListDetail/longTitle] Notes" xml:space="preserve">
-        <source>Notes</source>
-        <target state="translated">Notlar</target>
-        <note>An option in Group Viewer settings. Refers to comments/notes field of the entry. Will be shown as 'Entry Subtitle: Notes'.</note>
-      </trans-unit>
-      <trans-unit id="[Settings/EntryListDetail/longTitle] Password" xml:space="preserve">
-        <source>Password</source>
-        <target state="translated">Şifre</target>
-        <note>An option in Group Viewer settings. Will be shown as 'Entry Subtitle: Password'.</note>
-      </trans-unit>
-      <trans-unit id="[Settings/EntryListDetail/longTitle] Tags" xml:space="preserve">
-        <source>Tags</source>
-        <target state="needs-translation">Tags</target>
-        <note>An option in Group Viewer settings. Refers to the tags field of the entry. Will be shown as 'Entry Subtitle: Tags'.</note>
-      </trans-unit>
-      <trans-unit id="[Settings/EntryListDetail/longTitle] URL" xml:space="preserve">
-        <source>URL</source>
-        <target state="translated">URL</target>
-        <note>An option in Group Viewer settings. Will be shown as 'Entry Subtitle: URL'.</note>
-      </trans-unit>
-      <trans-unit id="[Settings/EntryListDetail/longTitle] User Name" xml:space="preserve">
-        <source>User Name</source>
-        <target state="translated">Kullanıcı Adı</target>
-        <note>An option in Group Viewer settings. It refers to login information rather than person's name. Will be shown as 'Entry Subtitle: User Name'.</note>
       </trans-unit>
       <trans-unit id="[Settings/GroupViewer] Entry Subtitle" xml:space="preserve">
         <source>Entry Subtitle</source>
@@ -3189,35 +3164,25 @@ This can happen with larger databases or too ambitious database settings (Argon2
         <target state="translated">Arama</target>
         <note>Section title in settings</note>
       </trans-unit>
-      <trans-unit id="[SortBy/DateCreated]" xml:space="preserve">
-        <source>Date Created</source>
-        <target state="needs-translation">Date Created</target>
-        <note>List sorting option. Example: 'Sort by: Date Created'</note>
-      </trans-unit>
-      <trans-unit id="[SortBy/DateModified]" xml:space="preserve">
-        <source>Date Modified</source>
-        <target state="needs-translation">Date Modified</target>
-        <note>List sorting option. Example: 'Sort by: Date Modified'</note>
+      <trans-unit id="[Settings/title]" xml:space="preserve">
+        <source>Settings</source>
+        <target state="translated">Ayarlar</target>
+        <note>Title of the app settings screen</note>
       </trans-unit>
       <trans-unit id="[SortBy/FileName]" xml:space="preserve">
         <source>Name</source>
         <target state="needs-translation">Name</target>
         <note>List sorting option (for file names). Example: 'Sort by: Name'</note>
       </trans-unit>
-      <trans-unit id="[SortBy/ItemTitle]" xml:space="preserve">
-        <source>Title</source>
-        <target state="translated">Başlık</target>
-        <note>List sorting option (for groups and entries). Example: 'Sort by: Title'</note>
-      </trans-unit>
       <trans-unit id="[SortBy/None]" xml:space="preserve">
         <source>None</source>
         <target state="translated">Hiç biri</target>
         <note>List sorting option, when no sorting is selected. Example: 'Sort by: None'</note>
       </trans-unit>
-      <trans-unit id="[SortBy]" xml:space="preserve">
-        <source>Sort By</source>
-        <target state="needs-translation">Sort By</target>
-        <note>Title of a sort options list. Example: 'Sort by: Name'</note>
+      <trans-unit id="[SortOrder/Custom]" xml:space="preserve">
+        <source>Custom</source>
+        <target state="needs-translation">Custom</target>
+        <note>List sorting option, when items are manually ordered by the user. Example: 'Sort order: Custom'</note>
       </trans-unit>
       <trans-unit id="[StorageService/DropboxBusiness/title]" xml:space="preserve">
         <source>Dropbox Business</source>
@@ -3288,11 +3253,6 @@ This can happen with larger databases or too ambitious database settings (Argon2
         <source>Thank you!</source>
         <target state="translated">Teşekkür ederiz!</target>
         <note>Notification after a successful donation.</note>
-      </trans-unit>
-      <trans-unit id="[TipBox/title/1]" xml:space="preserve">
-        <source>Tip Jar</source>
-        <target state="translated">Tip Box</target>
-        <note>Title of the tip box/donation screen.</note>
       </trans-unit>
       <trans-unit id="[TipBox/title/2]" xml:space="preserve">
         <source>Donations</source>
@@ -3371,6 +3331,14 @@ This can happen with larger databases or too ambitious database settings (Argon2
       <trans-unit id="/[Generic/Count/EntriesSelected]:dict/GenericCountEntriesSelected:dict/other:dict/:string">
         <source>%d entries selected</source>
         <target state="needs-translation">%d entries selected</target>
+      </trans-unit>
+      <trans-unit id="/[Generic/Count/ItemsSelected]:dict/GenericCountItemsSelected:dict/one:dict/:string">
+        <source>%d item selected</source>
+        <target state="needs-translation">%d item selected</target>
+      </trans-unit>
+      <trans-unit id="/[Generic/Count/ItemsSelected]:dict/GenericCountItemsSelected:dict/other:dict/:string">
+        <source>%d items selected</source>
+        <target state="needs-translation">%d items selected</target>
       </trans-unit>
       <trans-unit id="/[Generic/Count/Threads]:dict/GenericCountThreads:dict/one:dict/:string">
         <source>%d thread</source>

@@ -161,6 +161,26 @@ Please contact us if you need help with this.</source>
         <target state="translated">Caller ID: %@</target>
         <note>An identifier of the app that called AutoFill. The term is intentionally similar to https://ru.wikipedia.org/wiki/Caller_ID. [callerID: String]</note>
       </trans-unit>
+      <trans-unit id="[AutoFill/Setup/UncheckKeychain/allowFillingFrom]" xml:space="preserve">
+        <source>Allow filling from:</source>
+        <target state="translated">Разрешить заполнение с:</target>
+        <note>Must match Apple's translation, as found in iOS 15 Settings → Passwords → AutoFill Passwords. If unsure, leave untranslated.</note>
+      </trans-unit>
+      <trans-unit id="[AutoFill/Setup/UncheckKeychain/callToAction]" xml:space="preserve">
+        <source>Uncheck Keychain</source>
+        <target state="translated">Отключите Связку ключей</target>
+        <note>Call to action: deselect the `Keychain` option. Keychain is a glossary term.</note>
+      </trans-unit>
+      <trans-unit id="[AutoFill/Setup/UncheckKeychain/message]" xml:space="preserve">
+        <source>To make KeePassium your default password manager, uncheck Keychain.</source>
+        <target state="translated">Чтобы сделать KeePassium своим основным менеджером паролей, снимите флажок со Связки ключей.</target>
+        <note>Instruction to deselect the `Keychain` option. Keychain is a glossary term.</note>
+      </trans-unit>
+      <trans-unit id="[AutoFill/Setup/UncheckKeychain/usePasswordsAndPasskeysFrom]" xml:space="preserve">
+        <source>Use passwords and passkeys from:</source>
+        <target state="translated">Использовать пароли и ключи входа от:</target>
+        <note>Must match Apple's translation, as found in iOS 17 Settings → Passwords → Password Options. If unsure, leave untranslated.</note>
+      </trans-unit>
       <trans-unit id="[AutoFill/Setup/footer]" xml:space="preserve" approved="yes">
         <source>The AutoFill cannot automatically access the files you already have in the main KeePassium app.
 
@@ -173,6 +193,11 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
 
 В результате и Автозаполнение, и основное приложение должны получить "отдельные приглашения" для работы с каждым внешним файлом. К счастью, эта процедура нужна только один раз.</target>
         <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="[Generic/Keychain/title]" xml:space="preserve" approved="yes">
+        <source>Keychain</source>
+        <target state="final">Связка ключей</target>
+        <note>Apple Keychain software; is a glossary term.</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/Wordlist/Import/menuAction]" xml:space="preserve">
         <source>Import Wordlist…</source>
@@ -298,11 +323,6 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.3" build-num="15E204a"/>
     </header>
     <body>
-      <trans-unit id="JKD-iF-iwA.title" xml:space="preserve" approved="yes">
-        <source>Change Master Key</source>
-        <target state="final">Сменить мастер-ключ</target>
-        <note>Class = "UINavigationItem"; title = "Change Master Key"; ObjectID = "JKD-iF-iwA"; Note = "Title of the dialog for changing the database's master key.";</note>
-      </trans-unit>
       <trans-unit id="M9Q-v8-e6Q.placeholder" xml:space="preserve" approved="yes">
         <source>No Key File</source>
         <target state="final">Без ключевого файла</target>
@@ -335,35 +355,15 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.3" build-num="15E204a"/>
     </header>
     <body>
-      <trans-unit id="2o3-sG-Pcm.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" xml:space="preserve" approved="yes">
-        <source>Help</source>
-        <target state="final">Справка</target>
-        <note>Class = "UIBarButtonItem"; 2o3-sG-Pcm.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Help"; ObjectID = "2o3-sG-Pcm"; Note = "Action: show help pages (at the moment shows the About screen)";</note>
-      </trans-unit>
-      <trans-unit id="UI0-Lh-wTj.title" xml:space="preserve" approved="yes">
-        <source>Databases</source>
-        <target state="final">Базы паролей</target>
-        <note>Class = "UINavigationItem"; title = "Databases"; ObjectID = "UI0-Lh-wTj"; Note = "Title of the database picker list";</note>
+      <trans-unit id="UI0-Lh-wTj.title" xml:space="preserve" translate="no">
+        <source>{Databases}</source>
+        <target state="needs-translation">{Databases}</target>
+        <note>Class = "UINavigationItem"; title = "{Databases}"; ObjectID = "UI0-Lh-wTj";</note>
       </trans-unit>
       <trans-unit id="XJs-ol-dGz.title" xml:space="preserve" translate="no">
         <source>{PassGen}</source>
         <target state="needs-translation">{PassGen}</target>
         <note>Class = "UIBarButtonItem"; title = "{PassGen}"; ObjectID = "XJs-ol-dGz";</note>
-      </trans-unit>
-      <trans-unit id="lnO-nD-gvh.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" xml:space="preserve" approved="yes">
-        <source>Sort Order</source>
-        <target state="final">Сортировка</target>
-        <note>Class = "UIBarButtonItem"; lnO-nD-gvh.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Sort Order"; ObjectID = "lnO-nD-gvh"; Note = "Action: show sorting settings of database files";</note>
-      </trans-unit>
-      <trans-unit id="oee-CI-r2x.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" xml:space="preserve" approved="yes">
-        <source>Settings</source>
-        <target state="final">Настройки</target>
-        <note>Class = "UIBarButtonItem"; oee-CI-r2x.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Settings"; ObjectID = "oee-CI-r2x"; Note = "Action: show app settings";</note>
-      </trans-unit>
-      <trans-unit id="qPq-UR-uZs.title" xml:space="preserve" approved="yes">
-        <source>Add Database</source>
-        <target state="final">Добавить базу паролей</target>
-        <note>Class = "UIBarButtonItem"; title = "Add Database"; ObjectID = "qPq-UR-uZs"; Note = "Action: add database (either an existing file or create a new one)";</note>
       </trans-unit>
       <trans-unit id="rWy-ey-805.text" xml:space="preserve" translate="no">
         <source>{Database File Name}</source>
@@ -640,11 +640,6 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <target state="needs-translation">{Password}</target>
         <note>Class = "UILabel"; text = "{Password}"; ObjectID = "kN4-4o-MBS"; Note = "#bc-ignore!";</note>
       </trans-unit>
-      <trans-unit id="l3s-Bv-fA1.title" xml:space="preserve" approved="yes">
-        <source>Edit Entry</source>
-        <target state="final">Изменить запись</target>
-        <note>Class = "UINavigationItem"; title = "Edit Entry"; ObjectID = "l3s-Bv-fA1";</note>
-      </trans-unit>
       <trans-unit id="mGc-If-zfn.accessibilityLabel" xml:space="preserve">
         <source>Entry title</source>
         <target state="translated">Название записи</target>
@@ -714,11 +709,6 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <target state="needs-translation">{Group Name}</target>
         <note>Class = "UILabel"; text = "{Group Name}"; ObjectID = "7uR-HK-1Dd"; Note = "#bc-ignore!";</note>
       </trans-unit>
-      <trans-unit id="M5a-Ld-ZXd.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" xml:space="preserve" approved="yes">
-        <source>Sort Order</source>
-        <target state="final">Сортировка</target>
-        <note>Class = "UIBarButtonItem"; M5a-Ld-ZXd.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Sort Order"; ObjectID = "M5a-Ld-ZXd";</note>
-      </trans-unit>
       <trans-unit id="OjW-aR-wD3.text" xml:space="preserve" translate="no">
         <source>{Entry Title}</source>
         <target state="needs-translation">{Entry Title}</target>
@@ -733,11 +723,6 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <source>{OTPValue}</source>
         <target state="needs-translation">{OTPValue}</target>
         <note>Class = "UILabel"; text = "{OTPValue}"; ObjectID = "RAn-LR-hxd";</note>
-      </trans-unit>
-      <trans-unit id="rF3-mC-kj1.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" xml:space="preserve" approved="yes">
-        <source>Settings</source>
-        <target state="final">Настройки</target>
-        <note>Class = "UIBarButtonItem"; rF3-mC-kj1.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Settings"; ObjectID = "rF3-mC-kj1";</note>
       </trans-unit>
       <trans-unit id="tpA-i1-ah8.text" xml:space="preserve">
         <source>No entries or groups found</source>
@@ -1056,6 +1041,26 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <target state="translated">Только для ваших глаз</target>
         <note>Title of the App Protection onboarding screen</note>
       </trans-unit>
+      <trans-unit id="[Onboarding/AutoFill/activate]" xml:space="preserve">
+        <source>Activate AutoFill</source>
+        <target state="translated">Включить Автозаполнение</target>
+        <note>Action/button to set up the Password AutoFill feature. Not a call to action.</note>
+      </trans-unit>
+      <trans-unit id="[Onboarding/AutoFill/text1]" xml:space="preserve">
+        <source>With AutoFill you can breeze through sign-in pages with a single button press.</source>
+        <target state="translated">С помощью Автозаполнения вы можете пройти страницы для ввода паролей всего в одно нажатие.</target>
+        <note>Text in the Password AutoFill onboarding screen.</note>
+      </trans-unit>
+      <trans-unit id="[Onboarding/AutoFill/text2]" xml:space="preserve">
+        <source>To start, activate Password AutoFill in system settings.</source>
+        <target state="translated">Чтобы начать, активируйте Автозаполнение паролей в системных настройках.</target>
+        <note>Text in the Password AutoFill onboarding screen.</note>
+      </trans-unit>
+      <trans-unit id="[Onboarding/AutoFill/title]" xml:space="preserve">
+        <source>Password AutoFill</source>
+        <target state="translated">Автозаполнение паролей</target>
+        <note>Title of the Password AutoFill onboarding screen</note>
+      </trans-unit>
       <trans-unit id="[Onboarding/CreateNewDatabase/action]" xml:space="preserve">
         <source>Create New Database</source>
         <target state="translated">Создать новую базу</target>
@@ -1240,6 +1245,16 @@ KeePassium отправит сервису [Have I Been Pwned](https://haveibeen
         <source>New Tag</source>
         <target state="translated">Новый тег</target>
         <note>Title of the tag creation dialog</note>
+      </trans-unit>
+      <trans-unit id="[Tags/Delete/Confirm/message]" xml:space="preserve">
+        <source>Delete this tag from all groups and entries?</source>
+        <target state="translated">Удалить этот тег из всех групп и записей?</target>
+        <note>Question to confirm global deletion</note>
+      </trans-unit>
+      <trans-unit id="[Tags/Edit/title]" xml:space="preserve">
+        <source>Edit Tag</source>
+        <target state="translated">Изменить тег</target>
+        <note>Title of a dialog for editing a tag</note>
       </trans-unit>
       <trans-unit id="[Tags/None/placeholder]" xml:space="preserve">
         <source>There are no tags in the database, add some.</source>
@@ -1820,10 +1835,10 @@ KeePassium отправит сервису [Have I Been Pwned](https://haveibeen
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.3" build-num="15E204a"/>
     </header>
     <body>
-      <trans-unit id="4Yu-VJ-n8p.text" xml:space="preserve">
-        <source>Database Icons</source>
-        <target state="translated">Значки базы данных</target>
-        <note>Class = "UILabel"; text = "Database Icons"; ObjectID = "4Yu-VJ-n8p"; Note = "Section in settings: icons for database";</note>
+      <trans-unit id="4Yu-VJ-n8p.text" xml:space="preserve" translate="no">
+        <source>{Database Icons}</source>
+        <target state="needs-translation">{Database Icons}</target>
+        <note>Class = "UILabel"; text = "{Database Icons}"; ObjectID = "4Yu-VJ-n8p"; Note = "Section in settings: icons for database";</note>
       </trans-unit>
       <trans-unit id="4mh-X8-Byq.title" xml:space="preserve" translate="no">
         <source>{Appearance}</source>
@@ -1875,10 +1890,10 @@ KeePassium отправит сервису [Have I Been Pwned](https://haveibeen
         <target state="needs-translation">{Font}</target>
         <note>Class = "UILabel"; text = "{Font}"; ObjectID = "TEx-Hv-9VE"; Note = "Section in settings: icons for database";</note>
       </trans-unit>
-      <trans-unit id="fSx-Do-lgu.text" xml:space="preserve">
-        <source>App Icon</source>
-        <target state="translated">Значок приложения</target>
-        <note>Class = "UILabel"; text = "App Icon"; ObjectID = "fSx-Do-lgu"; Note = "Section in settings: icon for the app";</note>
+      <trans-unit id="fSx-Do-lgu.text" xml:space="preserve" translate="no">
+        <source>{App Icon}</source>
+        <target state="needs-translation">{App Icon}</target>
+        <note>Class = "UILabel"; text = "{App Icon}"; ObjectID = "fSx-Do-lgu"; Note = "Section in settings: icon for the app";</note>
       </trans-unit>
       <trans-unit id="usg-hF-eLK.text" xml:space="preserve">
         <source>Hide Passwords</source>
@@ -1918,9 +1933,9 @@ KeePassium отправит сервису [Have I Been Pwned](https://haveibeen
         <note>Class = "UITableViewSection"; headerTitle = "One-time passwords"; ObjectID = "XYL-1l-Jx6";</note>
       </trans-unit>
       <trans-unit id="aSq-s6-gVc.text" xml:space="preserve" translate="no">
-        <source>{Setup instructions}</source>
-        <target state="needs-translation">{Setup instructions}</target>
-        <note>Class = "UILabel"; text = "{Setup instructions}"; ObjectID = "aSq-s6-gVc";</note>
+        <source>{Activate AutoFill}</source>
+        <target state="needs-translation">{Activate AutoFill}</target>
+        <note>Class = "UILabel"; text = "{Activate AutoFill}"; ObjectID = "aSq-s6-gVc";</note>
       </trans-unit>
       <trans-unit id="ei6-22-NXN.title" xml:space="preserve" translate="no">
         <source>{AutoFill}</source>
@@ -2100,10 +2115,10 @@ KeePassium отправит сервису [Have I Been Pwned](https://haveibeen
         <target state="final">Премиум</target>
         <note>Class = "UITableViewSection"; headerTitle = "Premium"; ObjectID = "A5N-B3-t3t";</note>
       </trans-unit>
-      <trans-unit id="Bk0-Xf-O7B.title" xml:space="preserve" approved="yes">
-        <source>Settings</source>
-        <target state="final">Настройки</target>
-        <note>Class = "UINavigationItem"; title = "Settings"; ObjectID = "Bk0-Xf-O7B";</note>
+      <trans-unit id="Bk0-Xf-O7B.title" xml:space="preserve" translate="no">
+        <source>{Settings}</source>
+        <target state="needs-translation">{Settings}</target>
+        <note>Class = "UINavigationItem"; title = "{Settings}"; ObjectID = "Bk0-Xf-O7B";</note>
       </trans-unit>
       <trans-unit id="DNo-Rs-0EP.text" xml:space="preserve" translate="no">
         <source>{About KeePassium}</source>

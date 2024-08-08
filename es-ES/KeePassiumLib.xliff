@@ -120,6 +120,16 @@
         <target state="final">Desbloquear</target>
         <note>Action/button to unlock the App Lock with passcode</note>
       </trans-unit>
+      <trans-unit id="[Appearance/AppIcon/title]" xml:space="preserve" approved="yes">
+        <source>App Icon</source>
+        <target state="final">Icono de la aplicación</target>
+        <note>Section in settings: icon for the app</note>
+      </trans-unit>
+      <trans-unit id="[Appearance/DatabaseIcons/title]" xml:space="preserve" approved="yes">
+        <source>Database Icons</source>
+        <target state="final">Iconos de base de datos</target>
+        <note>Section in settings: icons for database</note>
+      </trans-unit>
       <trans-unit id="[Appearance/DefaultFont/shortTitle]" xml:space="preserve" approved="yes">
         <source>Default</source>
         <target state="final">Por defecto</target>
@@ -265,11 +275,6 @@
         <target state="final">Crear base de datos</target>
         <note>Action/button to create a new database</note>
       </trans-unit>
-      <trans-unit id="[Database/Create/title] Create Database" xml:space="preserve" approved="yes">
-        <source>Create Database</source>
-        <target state="final">Crear base de datos</target>
-        <note>Title of a form for creating a database</note>
-      </trans-unit>
       <trans-unit id="[Database/CustomIcon/DownloadFavicon/action]" xml:space="preserve" approved="yes">
         <source>Download Favicon</source>
         <target state="final">Descargar Favicon</target>
@@ -354,6 +359,11 @@ Iconos actualizados: %2$d</target>
         <target state="final">Configuración de cifrado</target>
         <note>Title: database encryption settings.</note>
       </trans-unit>
+      <trans-unit id="[Database/Entry/LinkedDatabase/message]" xml:space="preserve" approved="yes">
+        <source>This entry points to another database.</source>
+        <target state="final">Esta entrada apunta a otra base de datos.</target>
+        <note>Info message for entries that contain information for opening a different database.</note>
+      </trans-unit>
       <trans-unit id="[Database/FormatVersion/Conversion/allDataPreserved]" xml:space="preserve" approved="yes">
         <source>All your data will be preserved.</source>
         <target state="final">Todos sus datos se conservarán.</target>
@@ -383,6 +393,16 @@ Iconos actualizados: %2$d</target>
         <source>This is an older database format, some data might be lost.</source>
         <target state="final">Formato de base de datos antiguo, algunos datos podrían perderse.</target>
         <note>Notification when user tries to copy data from KDBX to older KDB database.</note>
+      </trans-unit>
+      <trans-unit id="[Database/List/LocalMissing/message]" xml:space="preserve" approved="yes">
+        <source>If some local files are not listed, launch the main KeePassium app first.</source>
+        <target state="final">Si algunos archivos locales no aparecen en la lista, primero inicia la aplicación principal de KeePassium.</target>
+        <note>Recommendation for solving a problem with a list of files.</note>
+      </trans-unit>
+      <trans-unit id="[Database/List/title]" xml:space="preserve" approved="yes">
+        <source>Databases</source>
+        <target state="final">Bases de datos</target>
+        <note>Title of the database picker list</note>
       </trans-unit>
       <trans-unit id="[Database/Load/Error/encryptedByIntune]" xml:space="preserve" approved="yes">
         <source>This database is protected by your corporate IT policies and Microsoft Intune.</source>
@@ -460,6 +480,16 @@ Esta es su última copia local.</target>
         <source>Master key successfully changed</source>
         <target state="final">Clave maestra cambiada correctamente</target>
         <note>Notification after changing database master key</note>
+      </trans-unit>
+      <trans-unit id="[Database/MasterKey/title]" xml:space="preserve" approved="yes">
+        <source>Master Key</source>
+        <target state="final">Clave maestra</target>
+        <note>Glossary term: noun, a master key for encrypting the database</note>
+      </trans-unit>
+      <trans-unit id="[Database/New/title]" xml:space="preserve" approved="yes">
+        <source>New Database</source>
+        <target state="final">Nueva base de datos</target>
+        <note>Title of database creation dialog</note>
       </trans-unit>
       <trans-unit id="[Database/Open/action] Open Database" xml:space="preserve" approved="yes">
         <source>Open Database</source>
@@ -1029,6 +1059,11 @@ Asegúrese de tener una copia de seguridad de su base de datos antes de hacer ca
         <target state="final">Nombre del campo</target>
         <note>Default name of a newly created entry field</note>
       </trans-unit>
+      <trans-unit id="[Entry/Edit/action]" xml:space="preserve" approved="yes">
+        <source>Edit Entry</source>
+        <target state="final">Editar entrada</target>
+        <note>Action/button to modify an entry</note>
+      </trans-unit>
       <trans-unit id="[Entry/Field/CopyReference/acknowledgement]" xml:space="preserve" approved="yes">
         <source>Field reference copied to clipboard</source>
         <target state="final">Referencia de campo copiada en el portapapeles</target>
@@ -1109,6 +1144,11 @@ Asegúrese de tener una copia de seguridad de su base de datos antes de hacer ca
         <target state="final">Fecha de la última modificación</target>
         <note>Title of a field with entry's last modification date and time</note>
       </trans-unit>
+      <trans-unit id="[Entry/History] Modification Date" xml:space="preserve" approved="yes">
+        <source>Modification Date</source>
+        <target state="final">Fecha de modificación</target>
+        <note>Title of a field with entry's modification date and time</note>
+      </trans-unit>
       <trans-unit id="[Entry/History] Previous Versions" xml:space="preserve" approved="yes">
         <source>Previous Versions</source>
         <target state="final">Versiones previas</target>
@@ -1118,6 +1158,11 @@ Asegúrese de tener una copia de seguridad de su base de datos antes de hacer ca
         <source>New Entry</source>
         <target state="final">Nueva entrada</target>
         <note>Default title of a new entry</note>
+      </trans-unit>
+      <trans-unit id="[Entry/title]" xml:space="preserve" approved="yes">
+        <source>Entry</source>
+        <target state="final">Entrada</target>
+        <note>Glossary term: noun, an entry in database.</note>
       </trans-unit>
       <trans-unit id="[File/In Trash/warning]" xml:space="preserve" approved="yes">
         <source>'%@' is located in Recently Deleted and might be deleted soon. To preserve your data, move the file to a more permanent location.</source>
@@ -1218,6 +1263,21 @@ Asegúrese de tener una copia de seguridad de su base de datos antes de hacer ca
         <source>Internal KeePassium error, please tell us about it.</source>
         <target state="final">Error interno en KeePassium, póngase en contacto con nosotros.</target>
         <note>Error message shown when there's internal inconsistency in KeePassium.</note>
+      </trans-unit>
+      <trans-unit id="[FileInfo/Attributes/Hidden/title]" xml:space="preserve" approved="yes">
+        <source>Hidden</source>
+        <target state="final">Oculto</target>
+        <note>Title of a setting: is the file hidden</note>
+      </trans-unit>
+      <trans-unit id="[FileInfo/Attributes/Hidden/warning]" xml:space="preserve" approved="yes">
+        <source>Hidden files are less visible to a casual user, but don't improve data security.</source>
+        <target state="final">Los archivos ocultos son menos visibles para un usuario ocasional, pero no mejoran la seguridad de los datos.</target>
+        <note>Warning message for 'hidden' files.</note>
+      </trans-unit>
+      <trans-unit id="[FileInfo/Attributes/header]" xml:space="preserve" approved="yes">
+        <source>File Attributes</source>
+        <target state="final">Atributos del archivo</target>
+        <note>Section header for attributes of a file (e.g. hidden, excluded from backup, etc)</note>
       </trans-unit>
       <trans-unit id="[FileInfo/Backup/header]" xml:space="preserve" approved="yes">
         <source>Backup</source>
@@ -1439,41 +1499,6 @@ Asegúrese de tener una copia de seguridad de su base de datos antes de hacer ca
         <target state="final">Sync.com</target>
         <note>Localized name of the storage service: Sync.com (https://sync.com)</note>
       </trans-unit>
-      <trans-unit id="[FilesSortOrder/longTitle] Creation Date (Oldest First)" xml:space="preserve" approved="yes">
-        <source>Creation Date (Oldest First)</source>
-        <target state="final">Fecha de creación (el más antiguo primero)</target>
-        <note>A sorting option for a list of files, by file creation date. Example: 'Sort Order: Creation Date (Oldest First)'</note>
-      </trans-unit>
-      <trans-unit id="[FilesSortOrder/longTitle] Creation Date (Recent First)" xml:space="preserve" approved="yes">
-        <source>Creation Date (Recent First)</source>
-        <target state="final">Fecha de creación (el más actual primero)</target>
-        <note>A sorting option for a list of files, by file creation date. Example: 'Sort Order: Creation Date (Recent First)'</note>
-      </trans-unit>
-      <trans-unit id="[FilesSortOrder/longTitle] Modification Date (Oldest First)" xml:space="preserve" approved="yes">
-        <source>Modification Date (Oldest First)</source>
-        <target state="final">Fecha de modificación (el más antiguo primero)</target>
-        <note>A sorting option for a list of files, by file's last modification date. Example: 'Sort Order: Modification Date (Oldest First)'</note>
-      </trans-unit>
-      <trans-unit id="[FilesSortOrder/longTitle] Modification Date (Recent First)" xml:space="preserve" approved="yes">
-        <source>Modification Date (Recent First)</source>
-        <target state="final">Fecha de modificación (el más actual primero)</target>
-        <note>A sorting option for a list of files, by file's last modification date. Example: 'Sort Order: Modification Date (Recent First)'</note>
-      </trans-unit>
-      <trans-unit id="[FilesSortOrder/longTitle] Name (A..Z)" xml:space="preserve" approved="yes">
-        <source>Name (A..Z)</source>
-        <target state="final">Nombre (A..Z)</target>
-        <note>A sorting option for a list of files, by file name. Example: 'Sort Order: Name (A..Z)'</note>
-      </trans-unit>
-      <trans-unit id="[FilesSortOrder/longTitle] Name (Z..A)" xml:space="preserve" approved="yes">
-        <source>Name (Z..A)</source>
-        <target state="final">Nombre (Z..A)</target>
-        <note>A sorting option for a list of files, by file name. Example: 'Sort Order: Name (Z..A)'</note>
-      </trans-unit>
-      <trans-unit id="[FilesSortOrder/longTitle] No Sorting" xml:space="preserve" approved="yes">
-        <source>No Sorting</source>
-        <target state="final">Sin ordenar</target>
-        <note>A sorting option for a list of files. Example: 'Sort Order: No Sorting'</note>
-      </trans-unit>
       <trans-unit id="[General/DestinationGroup/title] Choose a Destination" xml:space="preserve" approved="yes">
         <source>Choose a Destination</source>
         <target state="final">Elija un destino</target>
@@ -1494,6 +1519,11 @@ Asegúrese de tener una copia de seguridad de su base de datos antes de hacer ca
         <target state="final">La carpeta está vacía</target>
         <note>Placeholder for folders without files</note>
       </trans-unit>
+      <trans-unit id="[Generic/Action/ReorderItems]" xml:space="preserve" approved="yes">
+        <source>Reorder</source>
+        <target state="final">Reordenar</target>
+        <note>Action/button to change the order of items in a list (move them higher/lower).</note>
+      </trans-unit>
       <trans-unit id="[Generic/Action/SelectItems]" xml:space="preserve" approved="yes">
         <source>Select</source>
         <target state="final">Seleccionar</target>
@@ -1513,6 +1543,11 @@ Asegúrese de tener una copia de seguridad de su base de datos antes de hacer ca
         <source>[Generic/Count/EntriesSelected]</source>
         <target state="needs-translation">[Generic/Count/EntriesSelected]</target>
         <note>Number of entries selected. For example: 'No entries selected', '1 entry selected'. IMPORTANT: Please fill out all the plural forms. (Key in .stringsdict)</note>
+      </trans-unit>
+      <trans-unit id="[Generic/Count/ItemsSelected]" translate="no" xml:space="preserve">
+        <source>[Generic/Count/ItemsSelected]</source>
+        <target state="needs-translation">[Generic/Count/ItemsSelected]</target>
+        <note>Number of list items selected. For example: 'No items selected', '1 entry selected'. IMPORTANT: Please fill out all the plural forms. (Key in .stringsdict)</note>
       </trans-unit>
       <trans-unit id="[Generic/Count/Threads]" translate="no" xml:space="preserve">
         <source>[Generic/Count/Threads]</source>
@@ -1578,6 +1613,16 @@ Asegúrese de tener una copia de seguridad de su base de datos antes de hacer ca
         <source>Search</source>
         <target state="final">Buscar</target>
         <note>Title of a search field (a noun, not verb)</note>
+      </trans-unit>
+      <trans-unit id="[Generic/Tools/title]" xml:space="preserve" approved="yes">
+        <source>Tools</source>
+        <target state="final">Herramientas</target>
+        <note>Title of a menu with various utilities</note>
+      </trans-unit>
+      <trans-unit id="[Generic/ViewOptions/title]" xml:space="preserve">
+        <source>View Options</source>
+        <target state="translated">Opciones de visualización</target>
+        <note>Title of a screen/list view configuration: sort order, visible items, etc</note>
       </trans-unit>
       <trans-unit id="[Generic/WarningWithIcon/template]" xml:space="preserve" approved="yes">
         <source>⚠️ %@</source>
@@ -1759,20 +1804,25 @@ Asegúrese de tener una copia de seguridad de su base de datos antes de hacer ca
         <target state="final">Crear grupo</target>
         <note>Action/button to create a new sub-group in the current group</note>
       </trans-unit>
-      <trans-unit id="[Group/Create/title] Create Group" xml:space="preserve" approved="yes">
-        <source>Create Group</source>
-        <target state="final">Crear grupo</target>
-        <note>Title of a form for creating a group</note>
-      </trans-unit>
       <trans-unit id="[Group/Edit/title] Edit Group" xml:space="preserve" approved="yes">
         <source>Edit Group</source>
         <target state="final">Editar grupo</target>
         <note>Title of a form for editing a group</note>
       </trans-unit>
+      <trans-unit id="[Group/Menu/a11y/title]" xml:space="preserve" approved="yes">
+        <source>Group Menu</source>
+        <target state="final">Menú de grupo</target>
+        <note>VoiceOver description of a menu with group-related actions</note>
+      </trans-unit>
       <trans-unit id="[Group/New/defaultName] New Group" xml:space="preserve" approved="yes">
         <source>New Group</source>
         <target state="final">Nuevo grupo</target>
         <note>Default name of a new group</note>
+      </trans-unit>
+      <trans-unit id="[Group/Notes/title]" xml:space="preserve" approved="yes">
+        <source>Notes</source>
+        <target state="final">Notas</target>
+        <note>Title for the Notes field in group editor</note>
       </trans-unit>
       <trans-unit id="[Group/RecycleBin/Empty/action]" xml:space="preserve" approved="yes">
         <source>Empty Recycle Bin</source>
@@ -1784,50 +1834,50 @@ Asegúrese de tener una copia de seguridad de su base de datos antes de hacer ca
         <target state="final">¿Eliminar permanentemente todo lo que hay en la Papelera de reciclaje?</target>
         <note>Title of the confirmation dialog for `Empty Recycle Bin` action</note>
       </trans-unit>
+      <trans-unit id="[Group/Smart/Create/action]" xml:space="preserve" approved="yes">
+        <source>Create Smart Group</source>
+        <target state="final">Crear Grupo Inteligente</target>
+        <note>Action/button to create a new Smart Group</note>
+      </trans-unit>
+      <trans-unit id="[Group/Smart/New/defaultName]" xml:space="preserve" approved="yes">
+        <source>New Smart Group</source>
+        <target state="final">Nuevo Grupo inteligente</target>
+        <note>Default name of a new smart group</note>
+      </trans-unit>
+      <trans-unit id="[Group/Smart/Query/title]" xml:space="preserve" approved="yes">
+        <source>Smart Group Filter</source>
+        <target state="final">Filtro de Grupo inteligente</target>
+        <note>Title for the Smart Group search conditions in group editor</note>
+      </trans-unit>
+      <trans-unit id="[Group/Smart/a11y/description]" xml:space="preserve" approved="yes">
+        <source>%@, Smart group</source>
+        <target state="final">%@, Grupo inteligente</target>
+        <note>VoiceOver description of a smart group [groupTitle: String]</note>
+      </trans-unit>
+      <trans-unit id="[Group/Smart/about]" xml:space="preserve" approved="yes">
+        <source>About smart groups…</source>
+        <target state="final">Acerca de los grupos inteligentes…</target>
+        <note>Action/button to show a help article</note>
+      </trans-unit>
+      <trans-unit id="[Group/Smart/title]" xml:space="preserve" approved="yes">
+        <source>Smart Group</source>
+        <target state="final">Grupo inteligente</target>
+        <note>Glossary term: noun, a smart group in database.</note>
+      </trans-unit>
       <trans-unit id="[Group/a11y/description]" xml:space="preserve" approved="yes">
         <source>%@, Group</source>
         <target state="final">%@, Grupo</target>
         <note>VoiceOver description of a group [groupTitle: String, itemCount: Int]</note>
       </trans-unit>
+      <trans-unit id="[Group/title]" xml:space="preserve" approved="yes">
+        <source>Group</source>
+        <target state="final">Grupo</target>
+        <note>Glossary term: noun, a group in database.</note>
+      </trans-unit>
       <trans-unit id="[GroupEditor/Name/placeholder]" xml:space="preserve" approved="yes">
         <source>Group Name</source>
         <target state="final">Nombre del grupo</target>
         <note>Title of an input field for group name</note>
-      </trans-unit>
-      <trans-unit id="[GroupSortOrder/longTitle] By Creation Date (New..Old)" xml:space="preserve" approved="yes">
-        <source>By Creation Date (New..Old)</source>
-        <target state="final">Por fecha de creación (Nuevo..Viejo)</target>
-        <note>An option in Group Viewer settings. Example: 'Sort Order: By Creation Date (New..Old)'</note>
-      </trans-unit>
-      <trans-unit id="[GroupSortOrder/longTitle] By Creation Date (Old..New)" xml:space="preserve" approved="yes">
-        <source>By Creation Date (Old..New)</source>
-        <target state="final">Por fecha de creación (Viejo..Nuevo)</target>
-        <note>An option in Group Viewer settings. Example: 'Sort Order: By Creation Date (Old..New)'</note>
-      </trans-unit>
-      <trans-unit id="[GroupSortOrder/longTitle] By Modification Date (New..Old)" xml:space="preserve" approved="yes">
-        <source>By Modification Date (New..Old)</source>
-        <target state="final">Por fecha de modificación (Nuevo..Viejo)</target>
-        <note>An option in Group Viewer settings. Example: 'Sort Order: By Modification Date (New..Old)'</note>
-      </trans-unit>
-      <trans-unit id="[GroupSortOrder/longTitle] By Modification Date (Old..New)" xml:space="preserve" approved="yes">
-        <source>By Modification Date (Old..New)</source>
-        <target state="final">Por fecha de modificación (Viejo..Nuevo)</target>
-        <note>An option in Group Viewer settings. Example: 'Sort Order: By Modification Date (Old..New)'</note>
-      </trans-unit>
-      <trans-unit id="[GroupSortOrder/longTitle] By Title (A..Z)" xml:space="preserve" approved="yes">
-        <source>By Title (A..Z)</source>
-        <target state="final">Por título (A..Z)</target>
-        <note>An option in Group Viewer settings. Example: 'Sort Order: By Title (A..Z)'</note>
-      </trans-unit>
-      <trans-unit id="[GroupSortOrder/longTitle] By Title (Z..A)" xml:space="preserve" approved="yes">
-        <source>By Title (Z..A)</source>
-        <target state="final">Por título (Z..A)</target>
-        <note>An option in Group Viewer settings. Example: 'Sort Order: By Title (Z..A)'</note>
-      </trans-unit>
-      <trans-unit id="[GroupSortOrder/longTitle] No Sorting" xml:space="preserve" approved="yes">
-        <source>No Sorting</source>
-        <target state="final">Sin ordenar</target>
-        <note>An option in Group Viewer settings. Example: 'Sort Order: No Sorting'</note>
       </trans-unit>
       <trans-unit id="[HOTP/FieldName]" xml:space="preserve" approved="yes">
         <source>One-Time Password (HOTP)</source>
@@ -2318,39 +2368,9 @@ El archivo permanecerá intacto y lo podrá agregar nuevamente más tarde.</targ
         <target state="translated">Generador aleatorio</target>
         <note>Title of the random text/password/username generator dialog.</note>
       </trans-unit>
-      <trans-unit id="[Premium/Benefits/AttachmentPreview/details]" xml:space="preserve" approved="yes">
-        <source>Preview attached files directly in KeePassium and leave no traces in other apps. (Works with images, documents, archives and more.)</source>
-        <target state="final">Vista previa de archivos adjuntos directamente en KeePassium para no dejar rastro en otras aplicaciones. (Funciona con imágenes, documentos, archivos y más.)</target>
-        <note>Explanation of the premium feature</note>
-      </trans-unit>
-      <trans-unit id="[Premium/Benefits/AttachmentPreview/title]" xml:space="preserve" approved="yes">
-        <source>Preview without a trace</source>
-        <target state="final">Vista previa sin dejar rastro</target>
-        <note>Title of a premium feature</note>
-      </trans-unit>
       <trans-unit id="[Premium/Benefits/BusinessClouds/title]" xml:space="preserve" approved="yes">
         <source>Sync with corporate storage</source>
         <target state="final">Sincronizar con almacenamiento corporativo</target>
-        <note>Title of a premium feature</note>
-      </trans-unit>
-      <trans-unit id="[Premium/Benefits/CustomAppIcon/details]" xml:space="preserve" approved="yes">
-        <source>Make KeePassium look unique, familiar, or disguise it as a calculator — the choice is yours.</source>
-        <target state="final">Haga que KeePassium se vea único, familiar o disfrácelo como una calculadora: la elección es suya.</target>
-        <note>Explanation of a premium feature</note>
-      </trans-unit>
-      <trans-unit id="[Premium/Benefits/CustomAppIcon/title]" xml:space="preserve" approved="yes">
-        <source>Change app icon</source>
-        <target state="final">Cambiar el icono de la aplicación</target>
-        <note>Title of a premium feature</note>
-      </trans-unit>
-      <trans-unit id="[Premium/Benefits/DatabaseTimeout/details]" xml:space="preserve" approved="yes">
-        <source>Tired of typing your master password? Keep your database open longer and unlock it with one tap.</source>
-        <target state="final">¿Cansado de escribir la contraseña maestra? Mantenga la base de datos abierta durante más tiempo y desbloquéela con un toque.</target>
-        <note>Explanation of the premium feature</note>
-      </trans-unit>
-      <trans-unit id="[Premium/Benefits/DatabaseTimeout/title]" xml:space="preserve" approved="yes">
-        <source>Save your time</source>
-        <target state="final">Ahorra tiempo</target>
         <note>Title of a premium feature</note>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/HardwareKeys/details]" xml:space="preserve" approved="yes">
@@ -2361,6 +2381,16 @@ El archivo permanecerá intacto y lo podrá agregar nuevamente más tarde.</targ
       <trans-unit id="[Premium/Benefits/HardwareKeys/title]" xml:space="preserve" approved="yes">
         <source>Use hardware keys</source>
         <target state="final">Usar claves de hardware</target>
+        <note>Title of a premium feature</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Benefits/LinkedDatabases/details]" xml:space="preserve" approved="yes">
+        <source>Open another database in one step — using credentials stored in an entry.</source>
+        <target state="final">Abre otra base de datos en un solo paso, utilizando las credenciales almacenadas en una entrada.</target>
+        <note>Explanation of the premium feature</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Benefits/LinkedDatabases/title]" xml:space="preserve" approved="yes">
+        <source>Open linked databases</source>
+        <target state="final">Abrir bases de datos vinculados</target>
         <note>Title of a premium feature</note>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/MultiDB/details]" xml:space="preserve" approved="yes">
@@ -2387,16 +2417,6 @@ El archivo permanecerá intacto y lo podrá agregar nuevamente más tarde.</targ
         <source>What you get</source>
         <target state="final">Beneficios que obtiene</target>
         <note>List of premium benefits/advantages</note>
-      </trans-unit>
-      <trans-unit id="[Premium/Benefits/ViewFieldReferences/details]" xml:space="preserve" approved="yes">
-        <source>Use field references to show information from other entries, instead of creating multiple copies of the same information.</source>
-        <target state="final">Utilice referencias de campo para mostrar información de otras entradas, en lugar de crear varias copias de la misma información.</target>
-        <note>Explanation of a premium feature</note>
-      </trans-unit>
-      <trans-unit id="[Premium/Benefits/ViewFieldReferences/title]" xml:space="preserve" approved="yes">
-        <source>Show field references</source>
-        <target state="final">Mostrar referencias de campo</target>
-        <note>Title of a premium feature</note>
       </trans-unit>
       <trans-unit id="[Premium/CallToAction/buyNow]" xml:space="preserve" approved="yes">
         <source>Buy Now</source>
@@ -2651,11 +2671,6 @@ Puede gestionar y cancelar sus suscripciones accediendo a los ajustes de su cuen
         <target state="final">Almacenamiento corporativo en la nube</target>
         <note>Title of a premium feature: access to company's cloud accounts like 'OneDrive for Business'</note>
       </trans-unit>
-      <trans-unit id="[PremiumFeature/CustomAppIcons/title]" xml:space="preserve" approved="yes">
-        <source>Custom App Icons</source>
-        <target state="final">Iconos personalizados de la aplicación</target>
-        <note>Title of a premium feature: ability to change the app icon</note>
-      </trans-unit>
       <trans-unit id="[PremiumFeature/Generic/description]" xml:space="preserve" approved="yes">
         <source>Upgrade to Premium and enjoy KeePassium at its best.</source>
         <target state="final">Actualice a Premium y disfrute de KeePassium en su máxima expresión.</target>
@@ -2676,15 +2691,15 @@ Puede gestionar y cancelar sus suscripciones accediendo a los ajustes de su cuen
         <target state="final">Claves de hardware</target>
         <note>Title of a premium feature: ability use hardware keys (e.g. YubiKey) for encryption (In Title Case)</note>
       </trans-unit>
-      <trans-unit id="[PremiumFeature/LongDBTimeouts/description] Save time entering your complex master passwords — keep your database open longer in the premium version." xml:space="preserve" approved="yes">
-        <source>Save time entering your complex master passwords — keep your database open longer in the premium version.</source>
-        <target state="final">Ahorre tiempo introduciendo su contraseña maestra compleja — mantenga su base de datos abierta más tiempo con la versión premium.</target>
-        <note>Description/advertisement for the `Long Database Timeouts` premium feature</note>
+      <trans-unit id="[PremiumFeature/LinkedDatabases/description]" xml:space="preserve" approved="yes">
+        <source>Upgrade to premium and open linked databases in one step.</source>
+        <target state="final">Actualiza a Premium y abre bases de datos vinculadas en un solo paso.</target>
+        <note>Description/advertisement for the `Linked Databases` premium feature</note>
       </trans-unit>
-      <trans-unit id="[PremiumFeature/LongDBTimeouts/title] Long Database Timeouts" xml:space="preserve" approved="yes">
-        <source>Long Database Timeouts</source>
-        <target state="final">Tiempo de espera de base de datos largo</target>
-        <note>Title of a premium feature: ability to set long delays in Database Lock Timeout settings (In Title Case)</note>
+      <trans-unit id="[PremiumFeature/LinkedDatabases/title]" xml:space="preserve" approved="yes">
+        <source>Linked Databases</source>
+        <target state="final">Bases de datos vinculadas</target>
+        <note>Title of a premium feature: ability to open databases referenced in another database (In Title Case)</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/MultiDB/description] Easily switch between databases in the premium version." xml:space="preserve" approved="yes">
         <source>Easily switch between databases in the premium version.</source>
@@ -2705,16 +2720,6 @@ Puede gestionar y cancelar sus suscripciones accediendo a los ajustes de su cuen
         <source>Password audit</source>
         <target state="final">Auditoría de contraseñas</target>
         <note>Title of a premium feature: discover which passwords are known to be compromized</note>
-      </trans-unit>
-      <trans-unit id="[PremiumFeature/Preview/description] Preview images and documents directly in the app, in the premium version." xml:space="preserve" approved="yes">
-        <source>Preview images and documents directly in the app, in the premium version.</source>
-        <target state="final">Vista previa de imágenes y documentos directamente en la aplicación con la versión premium.</target>
-        <note>Description/advertisement for the `Preview Attachments` premium feature</note>
-      </trans-unit>
-      <trans-unit id="[PremiumFeature/Preview/title] Preview Attachments" xml:space="preserve" approved="yes">
-        <source>Preview Attachments</source>
-        <target state="final">Vista previa de archivos adjuntos</target>
-        <note>Title of a premium feature: ability to preview some attached files directly in the app (In Title Case)</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/QuickAutoFill/description]" xml:space="preserve" approved="yes">
         <source>Fill out login forms with a single tap, without even opening KeePassium.</source>
@@ -3100,40 +3105,10 @@ Esto puede ocurrir con bases de datos muy grandes o configuraciones muy exigente
         <target state="final">Tiempo de espera de la base de datos</target>
         <note>Title of a setting: the time after which databases will be locked.</note>
       </trans-unit>
-      <trans-unit id="[Settings/EntryListDetail/longTitle] Last Modified Date" xml:space="preserve" approved="yes">
-        <source>Last Modified Date</source>
-        <target state="final">Fecha de la última modificación</target>
-        <note>An option in Group Viewer settings. Refers to the most recent time when the entry was modified. Will be shown as 'Entry Subtitle: Last Modified Date'.</note>
-      </trans-unit>
       <trans-unit id="[Settings/EntryListDetail/longTitle] None" xml:space="preserve" approved="yes">
         <source>None</source>
         <target state="final">Ninguno</target>
         <note>An option in Group Viewer settings. Will be shown as 'Entry Subtitle: None', meanining that no entry details will be shown in any lists.</note>
-      </trans-unit>
-      <trans-unit id="[Settings/EntryListDetail/longTitle] Notes" xml:space="preserve" approved="yes">
-        <source>Notes</source>
-        <target state="final">Notas</target>
-        <note>An option in Group Viewer settings. Refers to comments/notes field of the entry. Will be shown as 'Entry Subtitle: Notes'.</note>
-      </trans-unit>
-      <trans-unit id="[Settings/EntryListDetail/longTitle] Password" xml:space="preserve" approved="yes">
-        <source>Password</source>
-        <target state="final">Contraseña</target>
-        <note>An option in Group Viewer settings. Will be shown as 'Entry Subtitle: Password'.</note>
-      </trans-unit>
-      <trans-unit id="[Settings/EntryListDetail/longTitle] Tags" xml:space="preserve" approved="yes">
-        <source>Tags</source>
-        <target state="final">Etiquetas</target>
-        <note>An option in Group Viewer settings. Refers to the tags field of the entry. Will be shown as 'Entry Subtitle: Tags'.</note>
-      </trans-unit>
-      <trans-unit id="[Settings/EntryListDetail/longTitle] URL" xml:space="preserve" approved="yes">
-        <source>URL</source>
-        <target state="final">URL</target>
-        <note>An option in Group Viewer settings. Will be shown as 'Entry Subtitle: URL'.</note>
-      </trans-unit>
-      <trans-unit id="[Settings/EntryListDetail/longTitle] User Name" xml:space="preserve" approved="yes">
-        <source>User Name</source>
-        <target state="final">Nombre de usuario</target>
-        <note>An option in Group Viewer settings. It refers to login information rather than person's name. Will be shown as 'Entry Subtitle: User Name'.</note>
       </trans-unit>
       <trans-unit id="[Settings/GroupViewer] Entry Subtitle" xml:space="preserve" approved="yes">
         <source>Entry Subtitle</source>
@@ -3195,35 +3170,25 @@ Esto puede ocurrir con bases de datos muy grandes o configuraciones muy exigente
         <target state="final">Buscar</target>
         <note>Section title in settings</note>
       </trans-unit>
-      <trans-unit id="[SortBy/DateCreated]" xml:space="preserve" approved="yes">
-        <source>Date Created</source>
-        <target state="final">Fecha de creación</target>
-        <note>List sorting option. Example: 'Sort by: Date Created'</note>
-      </trans-unit>
-      <trans-unit id="[SortBy/DateModified]" xml:space="preserve" approved="yes">
-        <source>Date Modified</source>
-        <target state="final">Fecha de modificación</target>
-        <note>List sorting option. Example: 'Sort by: Date Modified'</note>
+      <trans-unit id="[Settings/title]" xml:space="preserve" approved="yes">
+        <source>Settings</source>
+        <target state="final">Ajustes</target>
+        <note>Title of the app settings screen</note>
       </trans-unit>
       <trans-unit id="[SortBy/FileName]" xml:space="preserve" approved="yes">
         <source>Name</source>
         <target state="final">Nombre</target>
         <note>List sorting option (for file names). Example: 'Sort by: Name'</note>
       </trans-unit>
-      <trans-unit id="[SortBy/ItemTitle]" xml:space="preserve" approved="yes">
-        <source>Title</source>
-        <target state="final">Título</target>
-        <note>List sorting option (for groups and entries). Example: 'Sort by: Title'</note>
-      </trans-unit>
       <trans-unit id="[SortBy/None]" xml:space="preserve" approved="yes">
         <source>None</source>
         <target state="final">Ninguno</target>
         <note>List sorting option, when no sorting is selected. Example: 'Sort by: None'</note>
       </trans-unit>
-      <trans-unit id="[SortBy]" xml:space="preserve" approved="yes">
-        <source>Sort By</source>
-        <target state="final">Ordenar por</target>
-        <note>Title of a sort options list. Example: 'Sort by: Name'</note>
+      <trans-unit id="[SortOrder/Custom]" xml:space="preserve" approved="yes">
+        <source>Custom</source>
+        <target state="final">Personalizado</target>
+        <note>List sorting option, when items are manually ordered by the user. Example: 'Sort order: Custom'</note>
       </trans-unit>
       <trans-unit id="[StorageService/DropboxBusiness/title]" xml:space="preserve">
         <source>Dropbox Business</source>
@@ -3294,11 +3259,6 @@ Esto puede ocurrir con bases de datos muy grandes o configuraciones muy exigente
         <source>Thank you!</source>
         <target state="final">¡Gracias!</target>
         <note>Notification after a successful donation.</note>
-      </trans-unit>
-      <trans-unit id="[TipBox/title/1]" xml:space="preserve" approved="yes">
-        <source>Tip Jar</source>
-        <target state="final">Bote de propinas</target>
-        <note>Title of the tip box/donation screen.</note>
       </trans-unit>
       <trans-unit id="[TipBox/title/2]" xml:space="preserve" approved="yes">
         <source>Donations</source>
@@ -3377,6 +3337,14 @@ Esto puede ocurrir con bases de datos muy grandes o configuraciones muy exigente
       <trans-unit id="/[Generic/Count/EntriesSelected]:dict/GenericCountEntriesSelected:dict/other:dict/:string">
         <source>%d entries selected</source>
         <target state="final">%d entradas seleccionadas</target>
+      </trans-unit>
+      <trans-unit id="/[Generic/Count/ItemsSelected]:dict/GenericCountItemsSelected:dict/one:dict/:string" approved="yes">
+        <source>%d item selected</source>
+        <target state="final">%d elemento seleccionado</target>
+      </trans-unit>
+      <trans-unit id="/[Generic/Count/ItemsSelected]:dict/GenericCountItemsSelected:dict/other:dict/:string" approved="yes">
+        <source>%d items selected</source>
+        <target state="final">%d elementos seleccionados</target>
       </trans-unit>
       <trans-unit id="/[Generic/Count/Threads]:dict/GenericCountThreads:dict/one:dict/:string">
         <source>%d thread</source>

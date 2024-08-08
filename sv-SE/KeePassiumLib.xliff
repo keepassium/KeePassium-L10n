@@ -120,6 +120,16 @@
         <target state="translated">Lås upp</target>
         <note>Action/button to unlock the App Lock with passcode</note>
       </trans-unit>
+      <trans-unit id="[Appearance/AppIcon/title]" xml:space="preserve">
+        <source>App Icon</source>
+        <target state="translated">App-ikon</target>
+        <note>Section in settings: icon for the app</note>
+      </trans-unit>
+      <trans-unit id="[Appearance/DatabaseIcons/title]" xml:space="preserve">
+        <source>Database Icons</source>
+        <target state="translated">Databasikoner</target>
+        <note>Section in settings: icons for database</note>
+      </trans-unit>
       <trans-unit id="[Appearance/DefaultFont/shortTitle]" xml:space="preserve">
         <source>Default</source>
         <target state="translated">Förvalt</target>
@@ -265,11 +275,6 @@
         <target state="translated">Skapa databas</target>
         <note>Action/button to create a new database</note>
       </trans-unit>
-      <trans-unit id="[Database/Create/title] Create Database" xml:space="preserve">
-        <source>Create Database</source>
-        <target state="translated">Skapa databas</target>
-        <note>Title of a form for creating a database</note>
-      </trans-unit>
       <trans-unit id="[Database/CustomIcon/DownloadFavicon/action]" xml:space="preserve">
         <source>Download Favicon</source>
         <target state="translated">Ladda ner Favicon</target>
@@ -283,7 +288,7 @@
       <trans-unit id="[Database/CustomIcon/DownloadFavicons/stats]" xml:space="preserve">
         <source>Entries processed: %1$d
 Icons updated: %2$d</source>
-        <target state="translated">Konton bearbetade: %1$d
+        <target state="translated">Poster bearbetade: %1$d
 Ikoner uppdaterade: %2$d</target>
         <note>Report of favicon download results.</note>
       </trans-unit>
@@ -354,6 +359,11 @@ Säkerställ att du har en backup.</target>
         <target state="final">Krypteringsinställningar</target>
         <note>Title: database encryption settings.</note>
       </trans-unit>
+      <trans-unit id="[Database/Entry/LinkedDatabase/message]" xml:space="preserve" approved="yes">
+        <source>This entry points to another database.</source>
+        <target state="final">Den här posten pekar på en annan databas.</target>
+        <note>Info message for entries that contain information for opening a different database.</note>
+      </trans-unit>
       <trans-unit id="[Database/FormatVersion/Conversion/allDataPreserved]" xml:space="preserve">
         <source>All your data will be preserved.</source>
         <target state="translated">All din data kommer bevaras.</target>
@@ -383,6 +393,16 @@ Säkerställ att du har en backup.</target>
         <source>This is an older database format, some data might be lost.</source>
         <target state="translated">Det här är ett äldre databasformat, viss data kan gå förlorade.</target>
         <note>Notification when user tries to copy data from KDBX to older KDB database.</note>
+      </trans-unit>
+      <trans-unit id="[Database/List/LocalMissing/message]" xml:space="preserve" approved="yes">
+        <source>If some local files are not listed, launch the main KeePassium app first.</source>
+        <target state="final">Om några lokala filer inte anges kan du först starta KeePassium-huvudappen.</target>
+        <note>Recommendation for solving a problem with a list of files.</note>
+      </trans-unit>
+      <trans-unit id="[Database/List/title]" xml:space="preserve">
+        <source>Databases</source>
+        <target state="translated">Databaser</target>
+        <note>Title of the database picker list</note>
       </trans-unit>
       <trans-unit id="[Database/Load/Error/encryptedByIntune]" xml:space="preserve">
         <source>This database is protected by your corporate IT policies and Microsoft Intune.</source>
@@ -460,6 +480,16 @@ Detta är den senaste lokala kopian.</target>
         <source>Master key successfully changed</source>
         <target state="translated">Huvudnyckel ändrades</target>
         <note>Notification after changing database master key</note>
+      </trans-unit>
+      <trans-unit id="[Database/MasterKey/title]" xml:space="preserve">
+        <source>Master Key</source>
+        <target state="translated">Huvudnyckel</target>
+        <note>Glossary term: noun, a master key for encrypting the database</note>
+      </trans-unit>
+      <trans-unit id="[Database/New/title]" xml:space="preserve" approved="yes">
+        <source>New Database</source>
+        <target state="final">Ny databas</target>
+        <note>Title of database creation dialog</note>
       </trans-unit>
       <trans-unit id="[Database/Open/action] Open Database" xml:space="preserve">
         <source>Open Database</source>
@@ -705,7 +735,7 @@ Filen kommer inte raderas, och du kan lägga till den igen vid ett senare tillf�
       </trans-unit>
       <trans-unit id="[Database1/FormatError] Found an entry outside any group. Corrupted DB file?" xml:space="preserve">
         <source>Found an entry outside any group. Corrupted DB file?</source>
-        <target state="translated">Hittade ett konto som inte tillhör någon grupp. Är databasfilen skadad?</target>
+        <target state="translated">Hittade en post som inte tillhör någon grupp. Är databasfilen skadad?</target>
         <note>Error message</note>
       </trans-unit>
       <trans-unit id="[Database1/FormatError] Unexpected end of file. Corrupted database file?" xml:space="preserve">
@@ -842,7 +872,7 @@ Filen kommer inte raderas, och du kan lägga till den igen vid ett senare tillf�
         <source>Attachments of some entries are missing data. This is a sign of database corruption, most likely by the last used app (%1$@). KeePassium will preserve the empty attachments, but cannot restore them. You should restore your database from a backup copy. 
 
 Missing attachments: %2$@</source>
-        <target state="translated">Bilagor för vissa konton saknar data. Detta är et tecken på att databasen blivit skadad, troligen av den senaste använda appen (%1$@). KeePassium kommer behålla de tomma bilagorna, men kan inte återställa dem. Du bör återställa din databas från en backupkopia.
+        <target state="translated">Bilagor för vissa poster saknar data. Detta är ett tecken på att databasen blivit skadad, troligen av den senaste använda appen (%1$@). KeePassium kommer behålla de tomma bilagorna, men kan inte återställa dem. Du bör återställa din databas från en backupkopia.
 
 Saknade bilagor: %2$@</target>
         <note>A warning about missing attachments after loading the database. [lastUsedAppName: String, attachmentNames: String]</note>
@@ -852,9 +882,9 @@ Saknade bilagor: %2$@</target>
 
  Please review attached files in the following entries (and their history):
 %@</source>
-        <target state="translated">Några konton har bilagor utan ett namn. Det är ett tecken på tidigare skador på databasen.
+        <target state="translated">Några poster har bilagor utan ett namn. Det är ett tecken på tidigare skador på databasen.
 
-Granska bilagor för följande konton (och deras historik):
+Granska bilagor för följande poster (och deras historik):
 %@</target>
         <note>A warning about nameless attachments, shown after loading the database. [listOfEntryNames: String]</note>
       </trans-unit>
@@ -862,7 +892,7 @@ Granska bilagor för följande konton (och deras historik):
         <source>Some entries have custom field(s) with empty names. This can be a sign of data corruption. Please check these entries:
 
 %@</source>
-        <target state="translated">Några konton har anpassade fält med saknade namn. Detta kan vara ett tecken på skadad databas. Vänligen kontrollera följande konton:
+        <target state="translated">Några poster har anpassade fält med tomma namn. Detta kan vara ett tecken på skadad databas. Kontrollera följande poster:
 
 %@</target>
         <note>A warning about misformatted custom fields after loading the database. [entryPaths: String]</note>
@@ -870,8 +900,8 @@ Granska bilagor för följande konton (och deras historik):
       <trans-unit id="[Database2/Loading/Warning/unusedAttachments]" xml:space="preserve">
         <source>The database contains some attachments that are not used in any entry. Most likely, they have been forgotten by the last used app (%@). However, this can also be a sign of data corruption. 
 Please make sure to have a backup of your database before changing anything.</source>
-        <target state="translated">Databasen innehåller bilagor som inte är kopplade till något konto. Troligen har de glömts av den senast använda appen (%@). Detta kan också vara ett tecken på en skadad databas.
-Säkerställ att du har en backup på din databas innan du ändrar vidtar åtgärder.</target>
+        <target state="translated">Databasen innehåller bilagor som inte är kopplade till någon post. Troligen har de glömts av den senast använda appen (%@). Detta kan också vara ett tecken på en skadad databas.
+Säkerställ att du har en backup på din databas innan du ändrar något.</target>
         <note>A warning about unused attachments after loading the database. [lastUsedAppName: String]</note>
       </trans-unit>
       <trans-unit id="[Database2/Progress/decompressing]" xml:space="preserve">
@@ -1021,13 +1051,18 @@ Säkerställ att du har en backup på din databas innan du ändrar vidtar åtgä
       </trans-unit>
       <trans-unit id="[Entry/Create/action] Create Entry" xml:space="preserve">
         <source>Create Entry</source>
-        <target state="translated">Skapa konto</target>
+        <target state="translated">Skapa post</target>
         <note>Action/button to create a new entry in the current group</note>
       </trans-unit>
       <trans-unit id="[Entry/Edit/CreateField/defaultName] Field Name" xml:space="preserve">
         <source>Field Name</source>
         <target state="translated">Fältnamn</target>
         <note>Default name of a newly created entry field</note>
+      </trans-unit>
+      <trans-unit id="[Entry/Edit/action]" xml:space="preserve">
+        <source>Edit Entry</source>
+        <target state="translated">Redigera post</target>
+        <note>Action/button to modify an entry</note>
       </trans-unit>
       <trans-unit id="[Entry/Field/CopyReference/acknowledgement]" xml:space="preserve">
         <source>Field reference copied to clipboard</source>
@@ -1109,6 +1144,11 @@ Säkerställ att du har en backup på din databas innan du ändrar vidtar åtgä
         <target state="translated">Senast redigerad</target>
         <note>Title of a field with entry's last modification date and time</note>
       </trans-unit>
+      <trans-unit id="[Entry/History] Modification Date" xml:space="preserve" approved="yes">
+        <source>Modification Date</source>
+        <target state="final">Ändringsdatum</target>
+        <note>Title of a field with entry's modification date and time</note>
+      </trans-unit>
       <trans-unit id="[Entry/History] Previous Versions" xml:space="preserve">
         <source>Previous Versions</source>
         <target state="translated">Tidigare versioner</target>
@@ -1116,8 +1156,13 @@ Säkerställ att du har en backup på din databas innan du ändrar vidtar åtgä
       </trans-unit>
       <trans-unit id="[Entry/New/defaultTitle] New Entry" xml:space="preserve">
         <source>New Entry</source>
-        <target state="translated">Nytt konto</target>
+        <target state="translated">Ny post</target>
         <note>Default title of a new entry</note>
+      </trans-unit>
+      <trans-unit id="[Entry/title]" xml:space="preserve">
+        <source>Entry</source>
+        <target state="translated">Post</target>
+        <note>Glossary term: noun, an entry in database.</note>
       </trans-unit>
       <trans-unit id="[File/In Trash/warning]" xml:space="preserve" approved="yes">
         <source>'%@' is located in Recently Deleted and might be deleted soon. To preserve your data, move the file to a more permanent location.</source>
@@ -1218,6 +1263,21 @@ Säkerställ att du har en backup på din databas innan du ändrar vidtar åtgä
         <source>Internal KeePassium error, please tell us about it.</source>
         <target state="translated">Internt KeePassium-fel, var vänlig och rapportera det till oss.</target>
         <note>Error message shown when there's internal inconsistency in KeePassium.</note>
+      </trans-unit>
+      <trans-unit id="[FileInfo/Attributes/Hidden/title]" xml:space="preserve" approved="yes">
+        <source>Hidden</source>
+        <target state="final">Dold</target>
+        <note>Title of a setting: is the file hidden</note>
+      </trans-unit>
+      <trans-unit id="[FileInfo/Attributes/Hidden/warning]" xml:space="preserve" approved="yes">
+        <source>Hidden files are less visible to a casual user, but don't improve data security.</source>
+        <target state="final">Dolda filer är mindre synliga för vanliga användare, men förbättrar inte datasäkerheten.</target>
+        <note>Warning message for 'hidden' files.</note>
+      </trans-unit>
+      <trans-unit id="[FileInfo/Attributes/header]" xml:space="preserve" approved="yes">
+        <source>File Attributes</source>
+        <target state="final">Filattribut</target>
+        <note>Section header for attributes of a file (e.g. hidden, excluded from backup, etc)</note>
       </trans-unit>
       <trans-unit id="[FileInfo/Backup/header]" xml:space="preserve">
         <source>Backup</source>
@@ -1439,41 +1499,6 @@ Säkerställ att du har en backup på din databas innan du ändrar vidtar åtgä
         <target state="translated">Sync.com</target>
         <note>Localized name of the storage service: Sync.com (https://sync.com)</note>
       </trans-unit>
-      <trans-unit id="[FilesSortOrder/longTitle] Creation Date (Oldest First)" xml:space="preserve">
-        <source>Creation Date (Oldest First)</source>
-        <target state="translated">Skapad (Äldst först)</target>
-        <note>A sorting option for a list of files, by file creation date. Example: 'Sort Order: Creation Date (Oldest First)'</note>
-      </trans-unit>
-      <trans-unit id="[FilesSortOrder/longTitle] Creation Date (Recent First)" xml:space="preserve">
-        <source>Creation Date (Recent First)</source>
-        <target state="translated">Skapad (Yngst först)</target>
-        <note>A sorting option for a list of files, by file creation date. Example: 'Sort Order: Creation Date (Recent First)'</note>
-      </trans-unit>
-      <trans-unit id="[FilesSortOrder/longTitle] Modification Date (Oldest First)" xml:space="preserve">
-        <source>Modification Date (Oldest First)</source>
-        <target state="translated">Ändrad (Äldst först)</target>
-        <note>A sorting option for a list of files, by file's last modification date. Example: 'Sort Order: Modification Date (Oldest First)'</note>
-      </trans-unit>
-      <trans-unit id="[FilesSortOrder/longTitle] Modification Date (Recent First)" xml:space="preserve">
-        <source>Modification Date (Recent First)</source>
-        <target state="translated">Ändrad (Yngst först)</target>
-        <note>A sorting option for a list of files, by file's last modification date. Example: 'Sort Order: Modification Date (Recent First)'</note>
-      </trans-unit>
-      <trans-unit id="[FilesSortOrder/longTitle] Name (A..Z)" xml:space="preserve">
-        <source>Name (A..Z)</source>
-        <target state="translated">Namn (A..Ö)</target>
-        <note>A sorting option for a list of files, by file name. Example: 'Sort Order: Name (A..Z)'</note>
-      </trans-unit>
-      <trans-unit id="[FilesSortOrder/longTitle] Name (Z..A)" xml:space="preserve">
-        <source>Name (Z..A)</source>
-        <target state="translated">Namn (Ö..A)</target>
-        <note>A sorting option for a list of files, by file name. Example: 'Sort Order: Name (Z..A)'</note>
-      </trans-unit>
-      <trans-unit id="[FilesSortOrder/longTitle] No Sorting" xml:space="preserve">
-        <source>No Sorting</source>
-        <target state="translated">Ingen sortering</target>
-        <note>A sorting option for a list of files. Example: 'Sort Order: No Sorting'</note>
-      </trans-unit>
       <trans-unit id="[General/DestinationGroup/title] Choose a Destination" xml:space="preserve">
         <source>Choose a Destination</source>
         <target state="translated">Välj en målmapp</target>
@@ -1494,6 +1519,11 @@ Säkerställ att du har en backup på din databas innan du ändrar vidtar åtgä
         <target state="translated">Mappen är tom</target>
         <note>Placeholder for folders without files</note>
       </trans-unit>
+      <trans-unit id="[Generic/Action/ReorderItems]" xml:space="preserve" approved="yes">
+        <source>Reorder</source>
+        <target state="final">Ändra ordning</target>
+        <note>Action/button to change the order of items in a list (move them higher/lower).</note>
+      </trans-unit>
       <trans-unit id="[Generic/Action/SelectItems]" xml:space="preserve">
         <source>Select</source>
         <target state="translated">Välj</target>
@@ -1513,6 +1543,11 @@ Säkerställ att du har en backup på din databas innan du ändrar vidtar åtgä
         <source>[Generic/Count/EntriesSelected]</source>
         <target state="needs-translation">[Generic/Count/EntriesSelected]</target>
         <note>Number of entries selected. For example: 'No entries selected', '1 entry selected'. IMPORTANT: Please fill out all the plural forms. (Key in .stringsdict)</note>
+      </trans-unit>
+      <trans-unit id="[Generic/Count/ItemsSelected]" translate="no" xml:space="preserve">
+        <source>[Generic/Count/ItemsSelected]</source>
+        <target state="needs-translation">[Generic/Count/ItemsSelected]</target>
+        <note>Number of list items selected. For example: 'No items selected', '1 entry selected'. IMPORTANT: Please fill out all the plural forms. (Key in .stringsdict)</note>
       </trans-unit>
       <trans-unit id="[Generic/Count/Threads]" translate="no" xml:space="preserve">
         <source>[Generic/Count/Threads]</source>
@@ -1578,6 +1613,16 @@ Säkerställ att du har en backup på din databas innan du ändrar vidtar åtgä
         <source>Search</source>
         <target state="translated">Sök</target>
         <note>Title of a search field (a noun, not verb)</note>
+      </trans-unit>
+      <trans-unit id="[Generic/Tools/title]" xml:space="preserve" approved="yes">
+        <source>Tools</source>
+        <target state="final">Verktyg</target>
+        <note>Title of a menu with various utilities</note>
+      </trans-unit>
+      <trans-unit id="[Generic/ViewOptions/title]" xml:space="preserve">
+        <source>View Options</source>
+        <target state="translated">Visningsalternativ</target>
+        <note>Title of a screen/list view configuration: sort order, visible items, etc</note>
       </trans-unit>
       <trans-unit id="[Generic/WarningWithIcon/template]" xml:space="preserve" approved="yes">
         <source>⚠️ %@</source>
@@ -1759,20 +1804,25 @@ Säkerställ att du har en backup på din databas innan du ändrar vidtar åtgä
         <target state="translated">Skapa grupp</target>
         <note>Action/button to create a new sub-group in the current group</note>
       </trans-unit>
-      <trans-unit id="[Group/Create/title] Create Group" xml:space="preserve">
-        <source>Create Group</source>
-        <target state="translated">Skapa grupp</target>
-        <note>Title of a form for creating a group</note>
-      </trans-unit>
       <trans-unit id="[Group/Edit/title] Edit Group" xml:space="preserve">
         <source>Edit Group</source>
         <target state="translated">Redigera grupp</target>
         <note>Title of a form for editing a group</note>
       </trans-unit>
+      <trans-unit id="[Group/Menu/a11y/title]" xml:space="preserve" approved="yes">
+        <source>Group Menu</source>
+        <target state="final">Gruppmeny</target>
+        <note>VoiceOver description of a menu with group-related actions</note>
+      </trans-unit>
       <trans-unit id="[Group/New/defaultName] New Group" xml:space="preserve">
         <source>New Group</source>
         <target state="translated">Ny grupp</target>
         <note>Default name of a new group</note>
+      </trans-unit>
+      <trans-unit id="[Group/Notes/title]" xml:space="preserve">
+        <source>Notes</source>
+        <target state="translated">Anteckningar</target>
+        <note>Title for the Notes field in group editor</note>
       </trans-unit>
       <trans-unit id="[Group/RecycleBin/Empty/action]" xml:space="preserve">
         <source>Empty Recycle Bin</source>
@@ -1784,50 +1834,50 @@ Säkerställ att du har en backup på din databas innan du ändrar vidtar åtgä
         <target state="translated">Radera allt i papperskorgen permanent?</target>
         <note>Title of the confirmation dialog for `Empty Recycle Bin` action</note>
       </trans-unit>
+      <trans-unit id="[Group/Smart/Create/action]" xml:space="preserve" approved="yes">
+        <source>Create Smart Group</source>
+        <target state="final">Skapa smart grupp</target>
+        <note>Action/button to create a new Smart Group</note>
+      </trans-unit>
+      <trans-unit id="[Group/Smart/New/defaultName]" xml:space="preserve" approved="yes">
+        <source>New Smart Group</source>
+        <target state="final">Ny smart grupp</target>
+        <note>Default name of a new smart group</note>
+      </trans-unit>
+      <trans-unit id="[Group/Smart/Query/title]" xml:space="preserve" approved="yes">
+        <source>Smart Group Filter</source>
+        <target state="final">Filter för smart grupp</target>
+        <note>Title for the Smart Group search conditions in group editor</note>
+      </trans-unit>
+      <trans-unit id="[Group/Smart/a11y/description]" xml:space="preserve" approved="yes">
+        <source>%@, Smart group</source>
+        <target state="final">%@, smart grupp</target>
+        <note>VoiceOver description of a smart group [groupTitle: String]</note>
+      </trans-unit>
+      <trans-unit id="[Group/Smart/about]" xml:space="preserve" approved="yes">
+        <source>About smart groups…</source>
+        <target state="final">Om smarta grupper …</target>
+        <note>Action/button to show a help article</note>
+      </trans-unit>
+      <trans-unit id="[Group/Smart/title]" xml:space="preserve" approved="yes">
+        <source>Smart Group</source>
+        <target state="final">Smart grupp</target>
+        <note>Glossary term: noun, a smart group in database.</note>
+      </trans-unit>
       <trans-unit id="[Group/a11y/description]" xml:space="preserve" approved="yes">
         <source>%@, Group</source>
         <target state="final">%@, grupp</target>
         <note>VoiceOver description of a group [groupTitle: String, itemCount: Int]</note>
       </trans-unit>
+      <trans-unit id="[Group/title]" xml:space="preserve">
+        <source>Group</source>
+        <target state="translated">Grupp</target>
+        <note>Glossary term: noun, a group in database.</note>
+      </trans-unit>
       <trans-unit id="[GroupEditor/Name/placeholder]" xml:space="preserve">
         <source>Group Name</source>
         <target state="translated">Gruppnamn</target>
         <note>Title of an input field for group name</note>
-      </trans-unit>
-      <trans-unit id="[GroupSortOrder/longTitle] By Creation Date (New..Old)" xml:space="preserve">
-        <source>By Creation Date (New..Old)</source>
-        <target state="translated">På Skapandedatum (Ny..Gammal)</target>
-        <note>An option in Group Viewer settings. Example: 'Sort Order: By Creation Date (New..Old)'</note>
-      </trans-unit>
-      <trans-unit id="[GroupSortOrder/longTitle] By Creation Date (Old..New)" xml:space="preserve">
-        <source>By Creation Date (Old..New)</source>
-        <target state="translated">På Skapandedatum (Gammal..Ny)</target>
-        <note>An option in Group Viewer settings. Example: 'Sort Order: By Creation Date (Old..New)'</note>
-      </trans-unit>
-      <trans-unit id="[GroupSortOrder/longTitle] By Modification Date (New..Old)" xml:space="preserve">
-        <source>By Modification Date (New..Old)</source>
-        <target state="translated">På Ändringsdatum (Ny..Gammal)</target>
-        <note>An option in Group Viewer settings. Example: 'Sort Order: By Modification Date (New..Old)'</note>
-      </trans-unit>
-      <trans-unit id="[GroupSortOrder/longTitle] By Modification Date (Old..New)" xml:space="preserve">
-        <source>By Modification Date (Old..New)</source>
-        <target state="translated">På Ändringsdatum (Gammal..Ny)</target>
-        <note>An option in Group Viewer settings. Example: 'Sort Order: By Modification Date (Old..New)'</note>
-      </trans-unit>
-      <trans-unit id="[GroupSortOrder/longTitle] By Title (A..Z)" xml:space="preserve">
-        <source>By Title (A..Z)</source>
-        <target state="translated">På Titel (A..Ö)</target>
-        <note>An option in Group Viewer settings. Example: 'Sort Order: By Title (A..Z)'</note>
-      </trans-unit>
-      <trans-unit id="[GroupSortOrder/longTitle] By Title (Z..A)" xml:space="preserve">
-        <source>By Title (Z..A)</source>
-        <target state="translated">På Titel (Ö..A)</target>
-        <note>An option in Group Viewer settings. Example: 'Sort Order: By Title (Z..A)'</note>
-      </trans-unit>
-      <trans-unit id="[GroupSortOrder/longTitle] No Sorting" xml:space="preserve">
-        <source>No Sorting</source>
-        <target state="translated">Ingen sortering</target>
-        <note>An option in Group Viewer settings. Example: 'Sort Order: No Sorting'</note>
       </trans-unit>
       <trans-unit id="[HOTP/FieldName]" xml:space="preserve">
         <source>One-Time Password (HOTP)</source>
@@ -2090,7 +2140,7 @@ Se till att du har en säkerhetskopia.</target>
       </trans-unit>
       <trans-unit id="[OTP/Scan/OverwriteWarning]" xml:space="preserve">
         <source>One-time password is already configured for this entry. Do you want to overwrite it?</source>
-        <target state="translated">Engångslösenordet är redan konfigurerat för detta konto. Vill du skriva över det?</target>
+        <target state="translated">Engångslösenordet är redan konfigurerat för posten. Vill du skriva över det?</target>
         <note>Message to confirm user intentions</note>
       </trans-unit>
       <trans-unit id="[OTP/Setup/EnterManually]" xml:space="preserve">
@@ -2318,39 +2368,9 @@ Se till att du har en säkerhetskopia.</target>
         <target state="translated">Slumpgenerator</target>
         <note>Title of the random text/password/username generator dialog.</note>
       </trans-unit>
-      <trans-unit id="[Premium/Benefits/AttachmentPreview/details]" xml:space="preserve">
-        <source>Preview attached files directly in KeePassium and leave no traces in other apps. (Works with images, documents, archives and more.)</source>
-        <target state="translated">Förhandsgranska bilagor direkt i KeePassium utan att lämna några spår i andra appar. (Fungerar med bilder, dokument, arkiv och mer.)</target>
-        <note>Explanation of the premium feature</note>
-      </trans-unit>
-      <trans-unit id="[Premium/Benefits/AttachmentPreview/title]" xml:space="preserve">
-        <source>Preview without a trace</source>
-        <target state="translated">Förhandsgranska utan ett spår</target>
-        <note>Title of a premium feature</note>
-      </trans-unit>
       <trans-unit id="[Premium/Benefits/BusinessClouds/title]" xml:space="preserve">
         <source>Sync with corporate storage</source>
         <target state="translated">Synkronisera med företagslagring</target>
-        <note>Title of a premium feature</note>
-      </trans-unit>
-      <trans-unit id="[Premium/Benefits/CustomAppIcon/details]" xml:space="preserve">
-        <source>Make KeePassium look unique, familiar, or disguise it as a calculator — the choice is yours.</source>
-        <target state="translated">Gör KeePassium unikt, igenkännbart, eller få det att se ut som en kalkylator – valet är ditt.</target>
-        <note>Explanation of a premium feature</note>
-      </trans-unit>
-      <trans-unit id="[Premium/Benefits/CustomAppIcon/title]" xml:space="preserve">
-        <source>Change app icon</source>
-        <target state="translated">Ändra app-ikon</target>
-        <note>Title of a premium feature</note>
-      </trans-unit>
-      <trans-unit id="[Premium/Benefits/DatabaseTimeout/details]" xml:space="preserve">
-        <source>Tired of typing your master password? Keep your database open longer and unlock it with one tap.</source>
-        <target state="translated">Trött på att skriva in ditt huvudlösenord? Håll din databas öppen längre och lås upp den med en tryckning.</target>
-        <note>Explanation of the premium feature</note>
-      </trans-unit>
-      <trans-unit id="[Premium/Benefits/DatabaseTimeout/title]" xml:space="preserve">
-        <source>Save your time</source>
-        <target state="translated">Spara tid</target>
         <note>Title of a premium feature</note>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/HardwareKeys/details]" xml:space="preserve">
@@ -2361,6 +2381,16 @@ Se till att du har en säkerhetskopia.</target>
       <trans-unit id="[Premium/Benefits/HardwareKeys/title]" xml:space="preserve">
         <source>Use hardware keys</source>
         <target state="translated">Använd hårdvarunycklar</target>
+        <note>Title of a premium feature</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Benefits/LinkedDatabases/details]" xml:space="preserve" approved="yes">
+        <source>Open another database in one step — using credentials stored in an entry.</source>
+        <target state="final">Öppna en annan databas i ett steg med inloggningsuppgifter som lagrats i en post.</target>
+        <note>Explanation of the premium feature</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Benefits/LinkedDatabases/title]" xml:space="preserve" approved="yes">
+        <source>Open linked databases</source>
+        <target state="final">Öppna länkade databaser</target>
         <note>Title of a premium feature</note>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/MultiDB/details]" xml:space="preserve">
@@ -2387,16 +2417,6 @@ Se till att du har en säkerhetskopia.</target>
         <source>What you get</source>
         <target state="translated">Vad du får</target>
         <note>List of premium benefits/advantages</note>
-      </trans-unit>
-      <trans-unit id="[Premium/Benefits/ViewFieldReferences/details]" xml:space="preserve" approved="yes">
-        <source>Use field references to show information from other entries, instead of creating multiple copies of the same information.</source>
-        <target state="final">Använd fältreferenser för att visa information från andra poster istället för att skapa flera kopior med samma information.</target>
-        <note>Explanation of a premium feature</note>
-      </trans-unit>
-      <trans-unit id="[Premium/Benefits/ViewFieldReferences/title]" xml:space="preserve" approved="yes">
-        <source>Show field references</source>
-        <target state="final">Visa fältreferenser</target>
-        <note>Title of a premium feature</note>
       </trans-unit>
       <trans-unit id="[Premium/CallToAction/buyNow]" xml:space="preserve" approved="yes">
         <source>Buy Now</source>
@@ -2651,11 +2671,6 @@ Du kan hantera och avsluta din prenumeration genom att gå till Kontoinställnin
         <target state="translated">Företagslagring i molnet</target>
         <note>Title of a premium feature: access to company's cloud accounts like 'OneDrive for Business'</note>
       </trans-unit>
-      <trans-unit id="[PremiumFeature/CustomAppIcons/title]" xml:space="preserve">
-        <source>Custom App Icons</source>
-        <target state="translated">Valbara app-ikoner</target>
-        <note>Title of a premium feature: ability to change the app icon</note>
-      </trans-unit>
       <trans-unit id="[PremiumFeature/Generic/description]" xml:space="preserve">
         <source>Upgrade to Premium and enjoy KeePassium at its best.</source>
         <target state="translated">Uppgradera till premium och upplev KeePassium när det är som bäst.</target>
@@ -2676,15 +2691,15 @@ Du kan hantera och avsluta din prenumeration genom att gå till Kontoinställnin
         <target state="translated">Hårdvarunycklar</target>
         <note>Title of a premium feature: ability use hardware keys (e.g. YubiKey) for encryption (In Title Case)</note>
       </trans-unit>
-      <trans-unit id="[PremiumFeature/LongDBTimeouts/description] Save time entering your complex master passwords — keep your database open longer in the premium version." xml:space="preserve">
-        <source>Save time entering your complex master passwords — keep your database open longer in the premium version.</source>
-        <target state="translated">Spara tid på att ange krångliga huvudlösenord – håll dina databaser öppna längre i premiumversionen.</target>
-        <note>Description/advertisement for the `Long Database Timeouts` premium feature</note>
+      <trans-unit id="[PremiumFeature/LinkedDatabases/description]" xml:space="preserve" approved="yes">
+        <source>Upgrade to premium and open linked databases in one step.</source>
+        <target state="final">Uppgradera till Premium och öppna länkade databaser i ett steg.</target>
+        <note>Description/advertisement for the `Linked Databases` premium feature</note>
       </trans-unit>
-      <trans-unit id="[PremiumFeature/LongDBTimeouts/title] Long Database Timeouts" xml:space="preserve">
-        <source>Long Database Timeouts</source>
-        <target state="translated">Långa databastimeouts</target>
-        <note>Title of a premium feature: ability to set long delays in Database Lock Timeout settings (In Title Case)</note>
+      <trans-unit id="[PremiumFeature/LinkedDatabases/title]" xml:space="preserve" approved="yes">
+        <source>Linked Databases</source>
+        <target state="final">Länkade databaser</target>
+        <note>Title of a premium feature: ability to open databases referenced in another database (In Title Case)</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/MultiDB/description] Easily switch between databases in the premium version." xml:space="preserve">
         <source>Easily switch between databases in the premium version.</source>
@@ -2705,16 +2720,6 @@ Du kan hantera och avsluta din prenumeration genom att gå till Kontoinställnin
         <source>Password audit</source>
         <target state="translated">Lösenordsgranskning</target>
         <note>Title of a premium feature: discover which passwords are known to be compromized</note>
-      </trans-unit>
-      <trans-unit id="[PremiumFeature/Preview/description] Preview images and documents directly in the app, in the premium version." xml:space="preserve">
-        <source>Preview images and documents directly in the app, in the premium version.</source>
-        <target state="translated">Förhandsgranska bilder och dokument direkt i appen, i premiumversionen.</target>
-        <note>Description/advertisement for the `Preview Attachments` premium feature</note>
-      </trans-unit>
-      <trans-unit id="[PremiumFeature/Preview/title] Preview Attachments" xml:space="preserve">
-        <source>Preview Attachments</source>
-        <target state="translated">Förhandsgranska bilagor</target>
-        <note>Title of a premium feature: ability to preview some attached files directly in the app (In Title Case)</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/QuickAutoFill/description]" xml:space="preserve">
         <source>Fill out login forms with a single tap, without even opening KeePassium.</source>
@@ -2757,7 +2762,7 @@ Detta kan hända med stora databaser eller för högt ställda databasinställni
       </trans-unit>
       <trans-unit id="[QuickAutoFill/description]" xml:space="preserve">
         <source>Quick AutoFill shows relevant entries right next to the password field, without opening KeePassium.</source>
-        <target state="translated">Snabb Autofyll visar relevanta konton precis bredvid lösenordsfältet, utan att öppna KeePassium.</target>
+        <target state="translated">Snabb Autofyll visar relevanta poster precis bredvid lösenordsfältet, utan att öppna KeePassium.</target>
         <note>Description of the Quick AutoFill feature.</note>
       </trans-unit>
       <trans-unit id="[QuickAutoFill/title]" xml:space="preserve">
@@ -3032,7 +3037,7 @@ Detta kan hända med stora databaser eller för högt ställda databasinställni
       </trans-unit>
       <trans-unit id="[Settings/ClipboardTimeout/description] When you copy some text from an entry, the app will automatically clear your clipboard (pasteboard) after this time." xml:space="preserve">
         <source>When you copy some text from an entry, the app will automatically clear your clipboard (pasteboard) after this time.</source>
-        <target state="translated">När du kopierar något fält från ett konto kommer appen automatiskt rensa ditt urklipp efter en stund.</target>
+        <target state="translated">När du kopierar text från en post kommer appen automatiskt rensa ditt urklipp efter en stund.</target>
         <note>Description of the clipboard/pasteboard timeout.</note>
       </trans-unit>
       <trans-unit id="[Settings/ClipboardTimeout/fullTitle] Never" xml:space="preserve">
@@ -3100,44 +3105,14 @@ Detta kan hända med stora databaser eller för högt ställda databasinställni
         <target state="translated">Databastimeout</target>
         <note>Title of a setting: the time after which databases will be locked.</note>
       </trans-unit>
-      <trans-unit id="[Settings/EntryListDetail/longTitle] Last Modified Date" xml:space="preserve">
-        <source>Last Modified Date</source>
-        <target state="translated">Senaste ändringsdatum</target>
-        <note>An option in Group Viewer settings. Refers to the most recent time when the entry was modified. Will be shown as 'Entry Subtitle: Last Modified Date'.</note>
-      </trans-unit>
       <trans-unit id="[Settings/EntryListDetail/longTitle] None" xml:space="preserve">
         <source>None</source>
         <target state="translated">Inget</target>
         <note>An option in Group Viewer settings. Will be shown as 'Entry Subtitle: None', meanining that no entry details will be shown in any lists.</note>
       </trans-unit>
-      <trans-unit id="[Settings/EntryListDetail/longTitle] Notes" xml:space="preserve">
-        <source>Notes</source>
-        <target state="translated">Anteckningar</target>
-        <note>An option in Group Viewer settings. Refers to comments/notes field of the entry. Will be shown as 'Entry Subtitle: Notes'.</note>
-      </trans-unit>
-      <trans-unit id="[Settings/EntryListDetail/longTitle] Password" xml:space="preserve">
-        <source>Password</source>
-        <target state="translated">Lösenord</target>
-        <note>An option in Group Viewer settings. Will be shown as 'Entry Subtitle: Password'.</note>
-      </trans-unit>
-      <trans-unit id="[Settings/EntryListDetail/longTitle] Tags" xml:space="preserve" approved="yes">
-        <source>Tags</source>
-        <target state="final">Taggar</target>
-        <note>An option in Group Viewer settings. Refers to the tags field of the entry. Will be shown as 'Entry Subtitle: Tags'.</note>
-      </trans-unit>
-      <trans-unit id="[Settings/EntryListDetail/longTitle] URL" xml:space="preserve">
-        <source>URL</source>
-        <target state="translated">URL</target>
-        <note>An option in Group Viewer settings. Will be shown as 'Entry Subtitle: URL'.</note>
-      </trans-unit>
-      <trans-unit id="[Settings/EntryListDetail/longTitle] User Name" xml:space="preserve">
-        <source>User Name</source>
-        <target state="translated">Användarnamn</target>
-        <note>An option in Group Viewer settings. It refers to login information rather than person's name. Will be shown as 'Entry Subtitle: User Name'.</note>
-      </trans-unit>
       <trans-unit id="[Settings/GroupViewer] Entry Subtitle" xml:space="preserve">
         <source>Entry Subtitle</source>
-        <target state="translated">Visa som andra rad i kontolistan</target>
+        <target state="translated">Undertext för post</target>
         <note>Title of a settings section: which entry field to show along with entry title</note>
       </trans-unit>
       <trans-unit id="[Settings/GroupViewer] Sort Order" xml:space="preserve">
@@ -3195,35 +3170,25 @@ Detta kan hända med stora databaser eller för högt ställda databasinställni
         <target state="translated">Sök</target>
         <note>Section title in settings</note>
       </trans-unit>
-      <trans-unit id="[SortBy/DateCreated]" xml:space="preserve">
-        <source>Date Created</source>
-        <target state="translated">Skapad</target>
-        <note>List sorting option. Example: 'Sort by: Date Created'</note>
-      </trans-unit>
-      <trans-unit id="[SortBy/DateModified]" xml:space="preserve">
-        <source>Date Modified</source>
-        <target state="translated">Ändrad</target>
-        <note>List sorting option. Example: 'Sort by: Date Modified'</note>
+      <trans-unit id="[Settings/title]" xml:space="preserve">
+        <source>Settings</source>
+        <target state="translated">Inställningar</target>
+        <note>Title of the app settings screen</note>
       </trans-unit>
       <trans-unit id="[SortBy/FileName]" xml:space="preserve">
         <source>Name</source>
         <target state="translated">Namn</target>
         <note>List sorting option (for file names). Example: 'Sort by: Name'</note>
       </trans-unit>
-      <trans-unit id="[SortBy/ItemTitle]" xml:space="preserve">
-        <source>Title</source>
-        <target state="translated">Titel</target>
-        <note>List sorting option (for groups and entries). Example: 'Sort by: Title'</note>
-      </trans-unit>
       <trans-unit id="[SortBy/None]" xml:space="preserve">
         <source>None</source>
         <target state="translated">Inget</target>
         <note>List sorting option, when no sorting is selected. Example: 'Sort by: None'</note>
       </trans-unit>
-      <trans-unit id="[SortBy]" xml:space="preserve">
-        <source>Sort By</source>
-        <target state="translated">Sortera Efter</target>
-        <note>Title of a sort options list. Example: 'Sort by: Name'</note>
+      <trans-unit id="[SortOrder/Custom]" xml:space="preserve" approved="yes">
+        <source>Custom</source>
+        <target state="final">Anpassat</target>
+        <note>List sorting option, when items are manually ordered by the user. Example: 'Sort order: Custom'</note>
       </trans-unit>
       <trans-unit id="[StorageService/DropboxBusiness/title]" xml:space="preserve">
         <source>Dropbox Business</source>
@@ -3294,11 +3259,6 @@ Detta kan hända med stora databaser eller för högt ställda databasinställni
         <source>Thank you!</source>
         <target state="translated">Tack!</target>
         <note>Notification after a successful donation.</note>
-      </trans-unit>
-      <trans-unit id="[TipBox/title/1]" xml:space="preserve">
-        <source>Tip Jar</source>
-        <target state="translated">Dricks</target>
-        <note>Title of the tip box/donation screen.</note>
       </trans-unit>
       <trans-unit id="[TipBox/title/2]" xml:space="preserve">
         <source>Donations</source>
@@ -3376,7 +3336,15 @@ Detta kan hända med stora databaser eller för högt ställda databasinställni
       </trans-unit>
       <trans-unit id="/[Generic/Count/EntriesSelected]:dict/GenericCountEntriesSelected:dict/other:dict/:string">
         <source>%d entries selected</source>
-        <target state="translated">%d konton markerade</target>
+        <target state="translated">%d poster markerade</target>
+      </trans-unit>
+      <trans-unit id="/[Generic/Count/ItemsSelected]:dict/GenericCountItemsSelected:dict/one:dict/:string" approved="yes">
+        <source>%d item selected</source>
+        <target state="final">%d objekt valt</target>
+      </trans-unit>
+      <trans-unit id="/[Generic/Count/ItemsSelected]:dict/GenericCountItemsSelected:dict/other:dict/:string" approved="yes">
+        <source>%d items selected</source>
+        <target state="final">%d objekt valda</target>
       </trans-unit>
       <trans-unit id="/[Generic/Count/Threads]:dict/GenericCountThreads:dict/one:dict/:string">
         <source>%d thread</source>

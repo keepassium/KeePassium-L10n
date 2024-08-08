@@ -120,6 +120,16 @@
         <target state="translated">Ontgrendel</target>
         <note>Action/button to unlock the App Lock with passcode</note>
       </trans-unit>
+      <trans-unit id="[Appearance/AppIcon/title]" xml:space="preserve">
+        <source>App Icon</source>
+        <target state="translated">App-pictogram</target>
+        <note>Section in settings: icon for the app</note>
+      </trans-unit>
+      <trans-unit id="[Appearance/DatabaseIcons/title]" xml:space="preserve">
+        <source>Database Icons</source>
+        <target state="translated">Databankpictogrammen</target>
+        <note>Section in settings: icons for database</note>
+      </trans-unit>
       <trans-unit id="[Appearance/DefaultFont/shortTitle]" xml:space="preserve">
         <source>Default</source>
         <target state="translated">Standaard</target>
@@ -265,11 +275,6 @@
         <target state="translated">Maak databank</target>
         <note>Action/button to create a new database</note>
       </trans-unit>
-      <trans-unit id="[Database/Create/title] Create Database" xml:space="preserve">
-        <source>Create Database</source>
-        <target state="translated">Maak databank</target>
-        <note>Title of a form for creating a database</note>
-      </trans-unit>
       <trans-unit id="[Database/CustomIcon/DownloadFavicon/action]" xml:space="preserve">
         <source>Download Favicon</source>
         <target state="translated">Favicon downloaden</target>
@@ -354,6 +359,11 @@ Pictogrammen bijgewerkt: %2$d</target>
         <target state="translated">Encryptie-instellingen</target>
         <note>Title: database encryption settings.</note>
       </trans-unit>
+      <trans-unit id="[Database/Entry/LinkedDatabase/message]" xml:space="preserve" approved="yes">
+        <source>This entry points to another database.</source>
+        <target state="final">Dit item verwijst naar een andere databank.</target>
+        <note>Info message for entries that contain information for opening a different database.</note>
+      </trans-unit>
       <trans-unit id="[Database/FormatVersion/Conversion/allDataPreserved]" xml:space="preserve">
         <source>All your data will be preserved.</source>
         <target state="translated">Al uw gegevens zullen worden bewaard.</target>
@@ -383,6 +393,16 @@ Pictogrammen bijgewerkt: %2$d</target>
         <source>This is an older database format, some data might be lost.</source>
         <target state="translated">Dit is een ouder databankformaat; bepaalde gegevens gaan mogelijk verloren.</target>
         <note>Notification when user tries to copy data from KDBX to older KDB database.</note>
+      </trans-unit>
+      <trans-unit id="[Database/List/LocalMissing/message]" xml:space="preserve" approved="yes">
+        <source>If some local files are not listed, launch the main KeePassium app first.</source>
+        <target state="final">Als sommige lokale bestanden niet in de lijst staan, start dan eerst de KeePassium-app.</target>
+        <note>Recommendation for solving a problem with a list of files.</note>
+      </trans-unit>
+      <trans-unit id="[Database/List/title]" xml:space="preserve">
+        <source>Databases</source>
+        <target state="translated">Databanken</target>
+        <note>Title of the database picker list</note>
       </trans-unit>
       <trans-unit id="[Database/Load/Error/encryptedByIntune]" xml:space="preserve">
         <source>This database is protected by your corporate IT policies and Microsoft Intune.</source>
@@ -461,6 +481,16 @@ Dit is de nieuwste lokale kopie.</target>
         <target state="translated">Hoofdsleutel is gewijzigd</target>
         <note>Notification after changing database master key</note>
       </trans-unit>
+      <trans-unit id="[Database/MasterKey/title]" xml:space="preserve">
+        <source>Master Key</source>
+        <target state="translated">Hoofdsleutel</target>
+        <note>Glossary term: noun, a master key for encrypting the database</note>
+      </trans-unit>
+      <trans-unit id="[Database/New/title]" xml:space="preserve" approved="yes">
+        <source>New Database</source>
+        <target state="final">Nieuwe databank</target>
+        <note>Title of database creation dialog</note>
+      </trans-unit>
       <trans-unit id="[Database/Open/action] Open Database" xml:space="preserve">
         <source>Open Database</source>
         <target state="translated">Open databank</target>
@@ -501,9 +531,9 @@ Dit is de nieuwste lokale kopie.</target>
         <target state="translated">Bezig met maken van voorvertoning…</target>
         <note>Status message: preparing database print preview.</note>
       </trans-unit>
-      <trans-unit id="[Database/Progress/checkingDatabaseForModifications]" xml:space="preserve">
+      <trans-unit id="[Database/Progress/checkingDatabaseForModifications]" xml:space="preserve" approved="yes">
         <source>Checking database for modifications…</source>
-        <target state="needs-translation">Checking database for modifications…</target>
+        <target state="final">Databank controleren op wijzigingen…</target>
         <note>Database loading/saving status: checking whether our database was modified from another device.</note>
       </trans-unit>
       <trans-unit id="[Database/Progress/downloading]" xml:space="preserve">
@@ -521,9 +551,9 @@ Dit is de nieuwste lokale kopie.</target>
         <target state="final">Veldverwijzingen oplossen …</target>
         <note>Database loading/saving status: replacing field references with their values</note>
       </trans-unit>
-      <trans-unit id="[Database/Progress/resolvingSyncConflict]" xml:space="preserve">
+      <trans-unit id="[Database/Progress/resolvingSyncConflict]" xml:space="preserve" approved="yes">
         <source>Resolving a sync conflict…</source>
-        <target state="needs-translation">Resolving a sync conflict…</target>
+        <target state="final">Synchronisatieconflict oplossen…</target>
         <note>Database saving status: deciding how to handle conflicting changes.</note>
       </trans-unit>
       <trans-unit id="[Database/Progress/resolving]" xml:space="preserve">
@@ -531,9 +561,9 @@ Dit is de nieuwste lokale kopie.</target>
         <target state="translated">Bezig met verbinden met opslagdienst...</target>
         <note>Progress status</note>
       </trans-unit>
-      <trans-unit id="[Database/Progress/writingDatabaseFile]" xml:space="preserve">
+      <trans-unit id="[Database/Progress/writingDatabaseFile]" xml:space="preserve" approved="yes">
         <source>Writing database file…</source>
-        <target state="needs-translation">Writing database file…</target>
+        <target state="final">Databankbestand schrijven…</target>
         <note>Database saving status</note>
       </trans-unit>
       <trans-unit id="[Database/Progress] Done" xml:space="preserve">
@@ -1029,6 +1059,11 @@ Zorg ervoor dat je een back-up van je databank hebt voordat je iets aanpast.</ta
         <target state="translated">Veldnaam</target>
         <note>Default name of a newly created entry field</note>
       </trans-unit>
+      <trans-unit id="[Entry/Edit/action]" xml:space="preserve">
+        <source>Edit Entry</source>
+        <target state="translated">Bewerk item</target>
+        <note>Action/button to modify an entry</note>
+      </trans-unit>
       <trans-unit id="[Entry/Field/CopyReference/acknowledgement]" xml:space="preserve">
         <source>Field reference copied to clipboard</source>
         <target state="translated">Veldverwijzing gekopieerd naar klembord</target>
@@ -1109,6 +1144,11 @@ Zorg ervoor dat je een back-up van je databank hebt voordat je iets aanpast.</ta
         <target state="translated">Laatst gewijzigd op</target>
         <note>Title of a field with entry's last modification date and time</note>
       </trans-unit>
+      <trans-unit id="[Entry/History] Modification Date" xml:space="preserve" approved="yes">
+        <source>Modification Date</source>
+        <target state="final">Wijzigingsdatum</target>
+        <note>Title of a field with entry's modification date and time</note>
+      </trans-unit>
       <trans-unit id="[Entry/History] Previous Versions" xml:space="preserve">
         <source>Previous Versions</source>
         <target state="translated">Vorige versies</target>
@@ -1118,6 +1158,11 @@ Zorg ervoor dat je een back-up van je databank hebt voordat je iets aanpast.</ta
         <source>New Entry</source>
         <target state="translated">Nieuw item</target>
         <note>Default title of a new entry</note>
+      </trans-unit>
+      <trans-unit id="[Entry/title]" xml:space="preserve">
+        <source>Entry</source>
+        <target state="translated">Item</target>
+        <note>Glossary term: noun, an entry in database.</note>
       </trans-unit>
       <trans-unit id="[File/In Trash/warning]" xml:space="preserve" approved="yes">
         <source>'%@' is located in Recently Deleted and might be deleted soon. To preserve your data, move the file to a more permanent location.</source>
@@ -1218,6 +1263,21 @@ Zorg ervoor dat je een back-up van je databank hebt voordat je iets aanpast.</ta
         <source>Internal KeePassium error, please tell us about it.</source>
         <target state="translated">Interne KeePassium-fout. Meld dit aan ons.</target>
         <note>Error message shown when there's internal inconsistency in KeePassium.</note>
+      </trans-unit>
+      <trans-unit id="[FileInfo/Attributes/Hidden/title]" xml:space="preserve" approved="yes">
+        <source>Hidden</source>
+        <target state="final">Verborgen</target>
+        <note>Title of a setting: is the file hidden</note>
+      </trans-unit>
+      <trans-unit id="[FileInfo/Attributes/Hidden/warning]" xml:space="preserve" approved="yes">
+        <source>Hidden files are less visible to a casual user, but don't improve data security.</source>
+        <target state="final">Verborgen bestanden zijn minder zichtbaar voor een terloopse gebruiker, maar verbeteren de gegevensbeveiliging niet.</target>
+        <note>Warning message for 'hidden' files.</note>
+      </trans-unit>
+      <trans-unit id="[FileInfo/Attributes/header]" xml:space="preserve" approved="yes">
+        <source>File Attributes</source>
+        <target state="final">Bestandseigenschappen</target>
+        <note>Section header for attributes of a file (e.g. hidden, excluded from backup, etc)</note>
       </trans-unit>
       <trans-unit id="[FileInfo/Backup/header]" xml:space="preserve">
         <source>Backup</source>
@@ -1439,41 +1499,6 @@ Zorg ervoor dat je een back-up van je databank hebt voordat je iets aanpast.</ta
         <target state="translated">Sync.com</target>
         <note>Localized name of the storage service: Sync.com (https://sync.com)</note>
       </trans-unit>
-      <trans-unit id="[FilesSortOrder/longTitle] Creation Date (Oldest First)" xml:space="preserve">
-        <source>Creation Date (Oldest First)</source>
-        <target state="translated">Aanmaakdatum (oudste eerst)</target>
-        <note>A sorting option for a list of files, by file creation date. Example: 'Sort Order: Creation Date (Oldest First)'</note>
-      </trans-unit>
-      <trans-unit id="[FilesSortOrder/longTitle] Creation Date (Recent First)" xml:space="preserve">
-        <source>Creation Date (Recent First)</source>
-        <target state="translated">Aanmaakdatum (nieuwste eerst)</target>
-        <note>A sorting option for a list of files, by file creation date. Example: 'Sort Order: Creation Date (Recent First)'</note>
-      </trans-unit>
-      <trans-unit id="[FilesSortOrder/longTitle] Modification Date (Oldest First)" xml:space="preserve">
-        <source>Modification Date (Oldest First)</source>
-        <target state="translated">Wijzigingsdatum (oudste eerst)</target>
-        <note>A sorting option for a list of files, by file's last modification date. Example: 'Sort Order: Modification Date (Oldest First)'</note>
-      </trans-unit>
-      <trans-unit id="[FilesSortOrder/longTitle] Modification Date (Recent First)" xml:space="preserve">
-        <source>Modification Date (Recent First)</source>
-        <target state="translated">Wijzigingsdatum (nieuwste eerst)</target>
-        <note>A sorting option for a list of files, by file's last modification date. Example: 'Sort Order: Modification Date (Recent First)'</note>
-      </trans-unit>
-      <trans-unit id="[FilesSortOrder/longTitle] Name (A..Z)" xml:space="preserve">
-        <source>Name (A..Z)</source>
-        <target state="translated">Naam (A..Z)</target>
-        <note>A sorting option for a list of files, by file name. Example: 'Sort Order: Name (A..Z)'</note>
-      </trans-unit>
-      <trans-unit id="[FilesSortOrder/longTitle] Name (Z..A)" xml:space="preserve">
-        <source>Name (Z..A)</source>
-        <target state="translated">Naam (Z..A)</target>
-        <note>A sorting option for a list of files, by file name. Example: 'Sort Order: Name (Z..A)'</note>
-      </trans-unit>
-      <trans-unit id="[FilesSortOrder/longTitle] No Sorting" xml:space="preserve">
-        <source>No Sorting</source>
-        <target state="translated">Niet sorteren</target>
-        <note>A sorting option for a list of files. Example: 'Sort Order: No Sorting'</note>
-      </trans-unit>
       <trans-unit id="[General/DestinationGroup/title] Choose a Destination" xml:space="preserve">
         <source>Choose a Destination</source>
         <target state="translated">Kies een bestemming</target>
@@ -1494,6 +1519,11 @@ Zorg ervoor dat je een back-up van je databank hebt voordat je iets aanpast.</ta
         <target state="translated">De map is leeg</target>
         <note>Placeholder for folders without files</note>
       </trans-unit>
+      <trans-unit id="[Generic/Action/ReorderItems]" xml:space="preserve" approved="yes">
+        <source>Reorder</source>
+        <target state="final">Herordenen</target>
+        <note>Action/button to change the order of items in a list (move them higher/lower).</note>
+      </trans-unit>
       <trans-unit id="[Generic/Action/SelectItems]" xml:space="preserve">
         <source>Select</source>
         <target state="translated">Selecteer</target>
@@ -1513,6 +1543,11 @@ Zorg ervoor dat je een back-up van je databank hebt voordat je iets aanpast.</ta
         <source>[Generic/Count/EntriesSelected]</source>
         <target state="needs-translation">[Generic/Count/EntriesSelected]</target>
         <note>Number of entries selected. For example: 'No entries selected', '1 entry selected'. IMPORTANT: Please fill out all the plural forms. (Key in .stringsdict)</note>
+      </trans-unit>
+      <trans-unit id="[Generic/Count/ItemsSelected]" translate="no" xml:space="preserve">
+        <source>[Generic/Count/ItemsSelected]</source>
+        <target state="needs-translation">[Generic/Count/ItemsSelected]</target>
+        <note>Number of list items selected. For example: 'No items selected', '1 entry selected'. IMPORTANT: Please fill out all the plural forms. (Key in .stringsdict)</note>
       </trans-unit>
       <trans-unit id="[Generic/Count/Threads]" translate="no" xml:space="preserve">
         <source>[Generic/Count/Threads]</source>
@@ -1578,6 +1613,16 @@ Zorg ervoor dat je een back-up van je databank hebt voordat je iets aanpast.</ta
         <source>Search</source>
         <target state="translated">Zoek</target>
         <note>Title of a search field (a noun, not verb)</note>
+      </trans-unit>
+      <trans-unit id="[Generic/Tools/title]" xml:space="preserve" approved="yes">
+        <source>Tools</source>
+        <target state="final">Extra</target>
+        <note>Title of a menu with various utilities</note>
+      </trans-unit>
+      <trans-unit id="[Generic/ViewOptions/title]" xml:space="preserve">
+        <source>View Options</source>
+        <target state="translated">Weergaveopties</target>
+        <note>Title of a screen/list view configuration: sort order, visible items, etc</note>
       </trans-unit>
       <trans-unit id="[Generic/WarningWithIcon/template]" xml:space="preserve" approved="yes">
         <source>⚠️ %@</source>
@@ -1759,20 +1804,25 @@ Zorg ervoor dat je een back-up van je databank hebt voordat je iets aanpast.</ta
         <target state="translated">Maak groep</target>
         <note>Action/button to create a new sub-group in the current group</note>
       </trans-unit>
-      <trans-unit id="[Group/Create/title] Create Group" xml:space="preserve">
-        <source>Create Group</source>
-        <target state="translated">Maak groep</target>
-        <note>Title of a form for creating a group</note>
-      </trans-unit>
       <trans-unit id="[Group/Edit/title] Edit Group" xml:space="preserve">
         <source>Edit Group</source>
         <target state="translated">Bewerk groep</target>
         <note>Title of a form for editing a group</note>
       </trans-unit>
+      <trans-unit id="[Group/Menu/a11y/title]" xml:space="preserve" approved="yes">
+        <source>Group Menu</source>
+        <target state="final">Groepsmenu</target>
+        <note>VoiceOver description of a menu with group-related actions</note>
+      </trans-unit>
       <trans-unit id="[Group/New/defaultName] New Group" xml:space="preserve">
         <source>New Group</source>
         <target state="translated">Nieuwe groep</target>
         <note>Default name of a new group</note>
+      </trans-unit>
+      <trans-unit id="[Group/Notes/title]" xml:space="preserve">
+        <source>Notes</source>
+        <target state="translated">Notities</target>
+        <note>Title for the Notes field in group editor</note>
       </trans-unit>
       <trans-unit id="[Group/RecycleBin/Empty/action]" xml:space="preserve">
         <source>Empty Recycle Bin</source>
@@ -1784,50 +1834,50 @@ Zorg ervoor dat je een back-up van je databank hebt voordat je iets aanpast.</ta
         <target state="translated">Alles in de prullenbak permanent verwijderen?</target>
         <note>Title of the confirmation dialog for `Empty Recycle Bin` action</note>
       </trans-unit>
+      <trans-unit id="[Group/Smart/Create/action]" xml:space="preserve" approved="yes">
+        <source>Create Smart Group</source>
+        <target state="final">Slimme groep maken</target>
+        <note>Action/button to create a new Smart Group</note>
+      </trans-unit>
+      <trans-unit id="[Group/Smart/New/defaultName]" xml:space="preserve" approved="yes">
+        <source>New Smart Group</source>
+        <target state="final">Nieuwe slimme groep</target>
+        <note>Default name of a new smart group</note>
+      </trans-unit>
+      <trans-unit id="[Group/Smart/Query/title]" xml:space="preserve" approved="yes">
+        <source>Smart Group Filter</source>
+        <target state="final">Filter slimme groep</target>
+        <note>Title for the Smart Group search conditions in group editor</note>
+      </trans-unit>
+      <trans-unit id="[Group/Smart/a11y/description]" xml:space="preserve" approved="yes">
+        <source>%@, Smart group</source>
+        <target state="final">%@, slimme groep</target>
+        <note>VoiceOver description of a smart group [groupTitle: String]</note>
+      </trans-unit>
+      <trans-unit id="[Group/Smart/about]" xml:space="preserve" approved="yes">
+        <source>About smart groups…</source>
+        <target state="final">Over slimme groepen…</target>
+        <note>Action/button to show a help article</note>
+      </trans-unit>
+      <trans-unit id="[Group/Smart/title]" xml:space="preserve" approved="yes">
+        <source>Smart Group</source>
+        <target state="final">Slimme groep</target>
+        <note>Glossary term: noun, a smart group in database.</note>
+      </trans-unit>
       <trans-unit id="[Group/a11y/description]" xml:space="preserve" approved="yes">
         <source>%@, Group</source>
         <target state="final">%@, groep</target>
         <note>VoiceOver description of a group [groupTitle: String, itemCount: Int]</note>
       </trans-unit>
+      <trans-unit id="[Group/title]" xml:space="preserve">
+        <source>Group</source>
+        <target state="translated">Groep</target>
+        <note>Glossary term: noun, a group in database.</note>
+      </trans-unit>
       <trans-unit id="[GroupEditor/Name/placeholder]" xml:space="preserve">
         <source>Group Name</source>
         <target state="translated">Groepsnaam</target>
         <note>Title of an input field for group name</note>
-      </trans-unit>
-      <trans-unit id="[GroupSortOrder/longTitle] By Creation Date (New..Old)" xml:space="preserve">
-        <source>By Creation Date (New..Old)</source>
-        <target state="translated">Op aanmaakdatum (nieuw..oud)</target>
-        <note>An option in Group Viewer settings. Example: 'Sort Order: By Creation Date (New..Old)'</note>
-      </trans-unit>
-      <trans-unit id="[GroupSortOrder/longTitle] By Creation Date (Old..New)" xml:space="preserve">
-        <source>By Creation Date (Old..New)</source>
-        <target state="translated">Op aanmaakdatum (oud..nieuw)</target>
-        <note>An option in Group Viewer settings. Example: 'Sort Order: By Creation Date (Old..New)'</note>
-      </trans-unit>
-      <trans-unit id="[GroupSortOrder/longTitle] By Modification Date (New..Old)" xml:space="preserve">
-        <source>By Modification Date (New..Old)</source>
-        <target state="translated">Op wijzigingsdatum (nieuw..oud)</target>
-        <note>An option in Group Viewer settings. Example: 'Sort Order: By Modification Date (New..Old)'</note>
-      </trans-unit>
-      <trans-unit id="[GroupSortOrder/longTitle] By Modification Date (Old..New)" xml:space="preserve">
-        <source>By Modification Date (Old..New)</source>
-        <target state="translated">Op wijzigingsdatum (oud..nieuw)</target>
-        <note>An option in Group Viewer settings. Example: 'Sort Order: By Modification Date (Old..New)'</note>
-      </trans-unit>
-      <trans-unit id="[GroupSortOrder/longTitle] By Title (A..Z)" xml:space="preserve">
-        <source>By Title (A..Z)</source>
-        <target state="translated">Op naam (A..Z)</target>
-        <note>An option in Group Viewer settings. Example: 'Sort Order: By Title (A..Z)'</note>
-      </trans-unit>
-      <trans-unit id="[GroupSortOrder/longTitle] By Title (Z..A)" xml:space="preserve">
-        <source>By Title (Z..A)</source>
-        <target state="translated">Op naam (Z..A)</target>
-        <note>An option in Group Viewer settings. Example: 'Sort Order: By Title (Z..A)'</note>
-      </trans-unit>
-      <trans-unit id="[GroupSortOrder/longTitle] No Sorting" xml:space="preserve">
-        <source>No Sorting</source>
-        <target state="translated">Niet sorteren</target>
-        <note>An option in Group Viewer settings. Example: 'Sort Order: No Sorting'</note>
       </trans-unit>
       <trans-unit id="[HOTP/FieldName]" xml:space="preserve">
         <source>One-Time Password (HOTP)</source>
@@ -2303,9 +2353,9 @@ Zorg ervoor dat je een back-up van je databank hebt voordat je iets aanpast.</ta
         <target state="translated">EFF korte woordenlijst #%d (1296 woorden)</target>
         <note>Name of a wordlist for passphrase generator. `EFF` is an organization name.</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/Wordlist/ImportError/reason]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/Wordlist/ImportError/reason]" xml:space="preserve" approved="yes">
         <source>File could not be imported because of a problem in line %1$d (%2$@)</source>
-        <target state="needs-translation">File could not be imported because of a problem in line %1$d (%2$@)</target>
+        <target state="final">Bestand kon niet worden geïmporteerd vanwege een probleem op regel %1$d (%2$@)</target>
         <note>Error message when importing a text file [lineNumber: Int, problemDescription: String]</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/Wordlist/title]" xml:space="preserve">
@@ -2318,39 +2368,9 @@ Zorg ervoor dat je een back-up van je databank hebt voordat je iets aanpast.</ta
         <target state="translated">Willekeurige generator</target>
         <note>Title of the random text/password/username generator dialog.</note>
       </trans-unit>
-      <trans-unit id="[Premium/Benefits/AttachmentPreview/details]" xml:space="preserve">
-        <source>Preview attached files directly in KeePassium and leave no traces in other apps. (Works with images, documents, archives and more.)</source>
-        <target state="translated">Bekijk bijlagen direct in KeePassium en laat geen sporen achter in andere apps. (werkt met afbeeldingen, documenten, archieven en nog veel meer)</target>
-        <note>Explanation of the premium feature</note>
-      </trans-unit>
-      <trans-unit id="[Premium/Benefits/AttachmentPreview/title]" xml:space="preserve">
-        <source>Preview without a trace</source>
-        <target state="translated">Voorbeeld zonder spoor</target>
-        <note>Title of a premium feature</note>
-      </trans-unit>
       <trans-unit id="[Premium/Benefits/BusinessClouds/title]" xml:space="preserve">
         <source>Sync with corporate storage</source>
         <target state="translated">Synchroniseer met bedrijfsopslag</target>
-        <note>Title of a premium feature</note>
-      </trans-unit>
-      <trans-unit id="[Premium/Benefits/CustomAppIcon/details]" xml:space="preserve">
-        <source>Make KeePassium look unique, familiar, or disguise it as a calculator — the choice is yours.</source>
-        <target state="translated">Laat KeePassium er uniek of vertrouwd uitzien of vermom het als rekenmachine - de keuze is aan u.</target>
-        <note>Explanation of a premium feature</note>
-      </trans-unit>
-      <trans-unit id="[Premium/Benefits/CustomAppIcon/title]" xml:space="preserve">
-        <source>Change app icon</source>
-        <target state="translated">Pictogram wijzigen</target>
-        <note>Title of a premium feature</note>
-      </trans-unit>
-      <trans-unit id="[Premium/Benefits/DatabaseTimeout/details]" xml:space="preserve">
-        <source>Tired of typing your master password? Keep your database open longer and unlock it with one tap.</source>
-        <target state="translated">Ben je het zat om je hoofdwachtwoord te typen? Houd je databank langer open en ontgrendel deze met één tik.</target>
-        <note>Explanation of the premium feature</note>
-      </trans-unit>
-      <trans-unit id="[Premium/Benefits/DatabaseTimeout/title]" xml:space="preserve">
-        <source>Save your time</source>
-        <target state="translated">Bespaar tijd</target>
         <note>Title of a premium feature</note>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/HardwareKeys/details]" xml:space="preserve">
@@ -2361,6 +2381,16 @@ Zorg ervoor dat je een back-up van je databank hebt voordat je iets aanpast.</ta
       <trans-unit id="[Premium/Benefits/HardwareKeys/title]" xml:space="preserve">
         <source>Use hardware keys</source>
         <target state="translated">Gebruik hardwarematige sleutels</target>
+        <note>Title of a premium feature</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Benefits/LinkedDatabases/details]" xml:space="preserve" approved="yes">
+        <source>Open another database in one step — using credentials stored in an entry.</source>
+        <target state="final">Open een andere databank in één stap, met inloggegevens opgeslagen in een item.</target>
+        <note>Explanation of the premium feature</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Benefits/LinkedDatabases/title]" xml:space="preserve" approved="yes">
+        <source>Open linked databases</source>
+        <target state="final">Gekoppelde databank openen</target>
         <note>Title of a premium feature</note>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/MultiDB/details]" xml:space="preserve">
@@ -2387,16 +2417,6 @@ Zorg ervoor dat je een back-up van je databank hebt voordat je iets aanpast.</ta
         <source>What you get</source>
         <target state="translated">Wat je krijgt</target>
         <note>List of premium benefits/advantages</note>
-      </trans-unit>
-      <trans-unit id="[Premium/Benefits/ViewFieldReferences/details]" xml:space="preserve" approved="yes">
-        <source>Use field references to show information from other entries, instead of creating multiple copies of the same information.</source>
-        <target state="final">Gebruik veldverwijzingen om informatie van andere items weer te geven, in plaats van meerdere kopieën van dezelfde informatie te maken.</target>
-        <note>Explanation of a premium feature</note>
-      </trans-unit>
-      <trans-unit id="[Premium/Benefits/ViewFieldReferences/title]" xml:space="preserve" approved="yes">
-        <source>Show field references</source>
-        <target state="final">Veldverwijzingen tonen</target>
-        <note>Title of a premium feature</note>
       </trans-unit>
       <trans-unit id="[Premium/CallToAction/buyNow]" xml:space="preserve" approved="yes">
         <source>Buy Now</source>
@@ -2651,11 +2671,6 @@ Je kunt je abonnementen beheren en annuleren door na aankoop naar je accountinst
         <target state="translated">Zakelijke cloudopslag</target>
         <note>Title of a premium feature: access to company's cloud accounts like 'OneDrive for Business'</note>
       </trans-unit>
-      <trans-unit id="[PremiumFeature/CustomAppIcons/title]" xml:space="preserve">
-        <source>Custom App Icons</source>
-        <target state="translated">Aangepaste app-pictogrammen</target>
-        <note>Title of a premium feature: ability to change the app icon</note>
-      </trans-unit>
       <trans-unit id="[PremiumFeature/Generic/description]" xml:space="preserve">
         <source>Upgrade to Premium and enjoy KeePassium at its best.</source>
         <target state="translated">Upgrade naar premium en geniet nóg meer van KeePassium.</target>
@@ -2676,15 +2691,15 @@ Je kunt je abonnementen beheren en annuleren door na aankoop naar je accountinst
         <target state="translated">Hardwarematige sleutels</target>
         <note>Title of a premium feature: ability use hardware keys (e.g. YubiKey) for encryption (In Title Case)</note>
       </trans-unit>
-      <trans-unit id="[PremiumFeature/LongDBTimeouts/description] Save time entering your complex master passwords — keep your database open longer in the premium version." xml:space="preserve">
-        <source>Save time entering your complex master passwords — keep your database open longer in the premium version.</source>
-        <target state="translated">Bespaar tijd bij het invoeren van complexe hoofdwachtwoorden — in de Premium-versie kun je je databank langer open houden.</target>
-        <note>Description/advertisement for the `Long Database Timeouts` premium feature</note>
+      <trans-unit id="[PremiumFeature/LinkedDatabases/description]" xml:space="preserve" approved="yes">
+        <source>Upgrade to premium and open linked databases in one step.</source>
+        <target state="final">Upgrade naar premium en open gekoppelde databanken in één stap.</target>
+        <note>Description/advertisement for the `Linked Databases` premium feature</note>
       </trans-unit>
-      <trans-unit id="[PremiumFeature/LongDBTimeouts/title] Long Database Timeouts" xml:space="preserve">
-        <source>Long Database Timeouts</source>
-        <target state="translated">Lage databank-time-outs</target>
-        <note>Title of a premium feature: ability to set long delays in Database Lock Timeout settings (In Title Case)</note>
+      <trans-unit id="[PremiumFeature/LinkedDatabases/title]" xml:space="preserve" approved="yes">
+        <source>Linked Databases</source>
+        <target state="final">Gekoppelde databanken</target>
+        <note>Title of a premium feature: ability to open databases referenced in another database (In Title Case)</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/MultiDB/description] Easily switch between databases in the premium version." xml:space="preserve">
         <source>Easily switch between databases in the premium version.</source>
@@ -2705,16 +2720,6 @@ Je kunt je abonnementen beheren en annuleren door na aankoop naar je accountinst
         <source>Password audit</source>
         <target state="translated">Wachtwoordcontrole</target>
         <note>Title of a premium feature: discover which passwords are known to be compromized</note>
-      </trans-unit>
-      <trans-unit id="[PremiumFeature/Preview/description] Preview images and documents directly in the app, in the premium version." xml:space="preserve">
-        <source>Preview images and documents directly in the app, in the premium version.</source>
-        <target state="translated">In de Premium-versie kun je afbeeldingen en documenten direct voorvertonen in de app.</target>
-        <note>Description/advertisement for the `Preview Attachments` premium feature</note>
-      </trans-unit>
-      <trans-unit id="[PremiumFeature/Preview/title] Preview Attachments" xml:space="preserve">
-        <source>Preview Attachments</source>
-        <target state="translated">Bijlagen voorvertonen</target>
-        <note>Title of a premium feature: ability to preview some attached files directly in the app (In Title Case)</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/QuickAutoFill/description]" xml:space="preserve">
         <source>Fill out login forms with a single tap, without even opening KeePassium.</source>
@@ -2780,9 +2785,9 @@ Dit kan gebeuren bij grotere databanken of te ambitieuze databankinstellingen (A
         <target state="translated">Inloggegevens</target>
         <note>Title of a section: username, password, etc</note>
       </trans-unit>
-      <trans-unit id="[RemoteConnection/Direct/description]" xml:space="preserve">
+      <trans-unit id="[RemoteConnection/Direct/description]" xml:space="preserve" approved="yes">
         <source>KeePassium will communicate directly with your online storage. This ensures reliable file transfer.</source>
-        <target state="needs-translation">KeePassium will communicate directly with your online storage. This ensures reliable file transfer.</target>
+        <target state="final">KeePassium communiceert rechtstreeks met je online opslag. Dit zorgt voor betrouwbare bestandsoverdracht.</target>
         <note>Description of the `Direct connection` sync method.</note>
       </trans-unit>
       <trans-unit id="[RemoteConnection/Error/AuthenticationFailed/title]" xml:space="preserve">
@@ -2815,9 +2820,9 @@ Dit kan gebeuren bij grotere databanken of te ambitieuze databankinstellingen (A
         <target state="translated">Gedeeld</target>
         <note>Name of a predefined OneDrive folder which contains files shared with this user</note>
       </trans-unit>
-      <trans-unit id="[RemoteConnection/ServerURL]" xml:space="preserve">
+      <trans-unit id="[RemoteConnection/ServerURL]" xml:space="preserve" approved="yes">
         <source>Server URL</source>
-        <target state="needs-translation">Server URL</target>
+        <target state="final">Server-URL</target>
         <note>Network address of a WebDAV server</note>
       </trans-unit>
       <trans-unit id="[RemoteConnection/SignIn/Dropbox/action]" xml:space="preserve">
@@ -2830,14 +2835,14 @@ Dit kan gebeuren bij grotere databanken of te ambitieuze databankinstellingen (A
         <target state="translated">U moet opnieuw inloggen bij Dropbox.</target>
         <note>Error description: the user should manually sign in to their Dropbox account</note>
       </trans-unit>
-      <trans-unit id="[RemoteConnection/SignIn/GoogleDrive/action]" xml:space="preserve">
+      <trans-unit id="[RemoteConnection/SignIn/GoogleDrive/action]" xml:space="preserve" approved="yes">
         <source>Sign in to Google Drive</source>
-        <target state="needs-translation">Sign in to Google Drive</target>
+        <target state="final">Aanmelden bij Google Drive</target>
         <note>Action: authenticate to Google Drive account</note>
       </trans-unit>
-      <trans-unit id="[RemoteConnection/SignIn/GoogleDrive/authorizationRequried]" xml:space="preserve">
+      <trans-unit id="[RemoteConnection/SignIn/GoogleDrive/authorizationRequried]" xml:space="preserve" approved="yes">
         <source>Google Drive needs you to sign in again.</source>
-        <target state="needs-translation">Google Drive needs you to sign in again.</target>
+        <target state="final">Je moet je opnieuw aanmelden voor Google Drive.</target>
         <note>Error description: the user should manually sign in to their Google Drive account</note>
       </trans-unit>
       <trans-unit id="[RemoteConnection/SignIn/OneDrive/action]" xml:space="preserve">
@@ -2860,9 +2865,9 @@ Dit kan gebeuren bij grotere databanken of te ambitieuze databankinstellingen (A
         <target state="translated">Prive modus</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
-      <trans-unit id="[RemoteConnection/ViaFilesApp/description]" xml:space="preserve">
+      <trans-unit id="[RemoteConnection/ViaFilesApp/description]" xml:space="preserve" approved="yes">
         <source>KeePassium will assign file synchronization to the app of your storage provider. Some apps work better than others.</source>
-        <target state="needs-translation">KeePassium will assign file synchronization to the app of your storage provider. Some apps work better than others.</target>
+        <target state="final">KeePassium wijst bestandssynchronisatie toe aan de app van je opslagdienst. Sommige apps werken beter dan andere.</target>
         <note>Description of the `Integration via Files app` sync method.</note>
       </trans-unit>
       <trans-unit id="[RemoteConnection/connectToServer]" xml:space="preserve">
@@ -3045,9 +3050,9 @@ Dit kan gebeuren bij grotere databanken of te ambitieuze databankinstellingen (A
         <target state="translated">Nooit</target>
         <note>An option in Settings. Will be shown as 'Clipboard Timeout: Never'</note>
       </trans-unit>
-      <trans-unit id="[Settings/DataProtection/LockOnReboot/title]" xml:space="preserve">
+      <trans-unit id="[Settings/DataProtection/LockOnReboot/title]" xml:space="preserve" approved="yes">
         <source>Lock on Device Restart</source>
-        <target state="needs-translation">Lock on Device Restart</target>
+        <target state="final">Vergrendelen bij opnieuw starten van apparaat</target>
         <note>Setting switch: whether to lock databases after device reboot.</note>
       </trans-unit>
       <trans-unit id="[Settings/DataProtection/subtitle]" xml:space="preserve">
@@ -3100,40 +3105,10 @@ Dit kan gebeuren bij grotere databanken of te ambitieuze databankinstellingen (A
         <target state="translated">Databanktime-out</target>
         <note>Title of a setting: the time after which databases will be locked.</note>
       </trans-unit>
-      <trans-unit id="[Settings/EntryListDetail/longTitle] Last Modified Date" xml:space="preserve">
-        <source>Last Modified Date</source>
-        <target state="translated">Laatst gewijzigd op</target>
-        <note>An option in Group Viewer settings. Refers to the most recent time when the entry was modified. Will be shown as 'Entry Subtitle: Last Modified Date'.</note>
-      </trans-unit>
       <trans-unit id="[Settings/EntryListDetail/longTitle] None" xml:space="preserve">
         <source>None</source>
         <target state="translated">Geen</target>
         <note>An option in Group Viewer settings. Will be shown as 'Entry Subtitle: None', meanining that no entry details will be shown in any lists.</note>
-      </trans-unit>
-      <trans-unit id="[Settings/EntryListDetail/longTitle] Notes" xml:space="preserve">
-        <source>Notes</source>
-        <target state="translated">Notities</target>
-        <note>An option in Group Viewer settings. Refers to comments/notes field of the entry. Will be shown as 'Entry Subtitle: Notes'.</note>
-      </trans-unit>
-      <trans-unit id="[Settings/EntryListDetail/longTitle] Password" xml:space="preserve">
-        <source>Password</source>
-        <target state="translated">Wachtwoord</target>
-        <note>An option in Group Viewer settings. Will be shown as 'Entry Subtitle: Password'.</note>
-      </trans-unit>
-      <trans-unit id="[Settings/EntryListDetail/longTitle] Tags" xml:space="preserve" approved="yes">
-        <source>Tags</source>
-        <target state="final">Tags</target>
-        <note>An option in Group Viewer settings. Refers to the tags field of the entry. Will be shown as 'Entry Subtitle: Tags'.</note>
-      </trans-unit>
-      <trans-unit id="[Settings/EntryListDetail/longTitle] URL" xml:space="preserve">
-        <source>URL</source>
-        <target state="translated">URL</target>
-        <note>An option in Group Viewer settings. Will be shown as 'Entry Subtitle: URL'.</note>
-      </trans-unit>
-      <trans-unit id="[Settings/EntryListDetail/longTitle] User Name" xml:space="preserve">
-        <source>User Name</source>
-        <target state="translated">Gebruikersnaam</target>
-        <note>An option in Group Viewer settings. It refers to login information rather than person's name. Will be shown as 'Entry Subtitle: User Name'.</note>
       </trans-unit>
       <trans-unit id="[Settings/GroupViewer] Entry Subtitle" xml:space="preserve">
         <source>Entry Subtitle</source>
@@ -3195,35 +3170,25 @@ Dit kan gebeuren bij grotere databanken of te ambitieuze databankinstellingen (A
         <target state="translated">Zoek</target>
         <note>Section title in settings</note>
       </trans-unit>
-      <trans-unit id="[SortBy/DateCreated]" xml:space="preserve">
-        <source>Date Created</source>
-        <target state="translated">Aanmaakdatum</target>
-        <note>List sorting option. Example: 'Sort by: Date Created'</note>
-      </trans-unit>
-      <trans-unit id="[SortBy/DateModified]" xml:space="preserve">
-        <source>Date Modified</source>
-        <target state="translated">Bewerkingsdatum</target>
-        <note>List sorting option. Example: 'Sort by: Date Modified'</note>
+      <trans-unit id="[Settings/title]" xml:space="preserve">
+        <source>Settings</source>
+        <target state="translated">Instellingen</target>
+        <note>Title of the app settings screen</note>
       </trans-unit>
       <trans-unit id="[SortBy/FileName]" xml:space="preserve">
         <source>Name</source>
         <target state="translated">Naam</target>
         <note>List sorting option (for file names). Example: 'Sort by: Name'</note>
       </trans-unit>
-      <trans-unit id="[SortBy/ItemTitle]" xml:space="preserve">
-        <source>Title</source>
-        <target state="translated">Titel</target>
-        <note>List sorting option (for groups and entries). Example: 'Sort by: Title'</note>
-      </trans-unit>
       <trans-unit id="[SortBy/None]" xml:space="preserve">
         <source>None</source>
         <target state="translated">Geen</target>
         <note>List sorting option, when no sorting is selected. Example: 'Sort by: None'</note>
       </trans-unit>
-      <trans-unit id="[SortBy]" xml:space="preserve">
-        <source>Sort By</source>
-        <target state="translated">Sorteer op</target>
-        <note>Title of a sort options list. Example: 'Sort by: Name'</note>
+      <trans-unit id="[SortOrder/Custom]" xml:space="preserve" approved="yes">
+        <source>Custom</source>
+        <target state="final">Aangepast</target>
+        <note>List sorting option, when items are manually ordered by the user. Example: 'Sort order: Custom'</note>
       </trans-unit>
       <trans-unit id="[StorageService/DropboxBusiness/title]" xml:space="preserve">
         <source>Dropbox Business</source>
@@ -3245,9 +3210,9 @@ Dit kan gebeuren bij grotere databanken of te ambitieuze databankinstellingen (A
         <target state="translated">OneDrive voor bedrijven</target>
         <note>Name of a cloud storage service. Must match Microsoft's translation, see  https://partner.microsoft.com/solutions/onedrive-for-business</note>
       </trans-unit>
-      <trans-unit id="[StorageService/OtherServices/title]" xml:space="preserve">
+      <trans-unit id="[StorageService/OtherServices/title]" xml:space="preserve" approved="yes">
         <source>Other Services</source>
-        <target state="needs-translation">Other Services</target>
+        <target state="final">Andere diensten</target>
         <note>Title of a file storage service option (for example: Dropbox, OneDrive, Other Services)</note>
       </trans-unit>
       <trans-unit id="[Support/template] (Please describe the problem here)" xml:space="preserve">
@@ -3294,11 +3259,6 @@ Dit kan gebeuren bij grotere databanken of te ambitieuze databankinstellingen (A
         <source>Thank you!</source>
         <target state="translated">Bedankt!</target>
         <note>Notification after a successful donation.</note>
-      </trans-unit>
-      <trans-unit id="[TipBox/title/1]" xml:space="preserve">
-        <source>Tip Jar</source>
-        <target state="translated">Fooienpot</target>
-        <note>Title of the tip box/donation screen.</note>
       </trans-unit>
       <trans-unit id="[TipBox/title/2]" xml:space="preserve">
         <source>Donations</source>
@@ -3377,6 +3337,14 @@ Dit kan gebeuren bij grotere databanken of te ambitieuze databankinstellingen (A
       <trans-unit id="/[Generic/Count/EntriesSelected]:dict/GenericCountEntriesSelected:dict/other:dict/:string">
         <source>%d entries selected</source>
         <target state="translated">%d items geselecteerd</target>
+      </trans-unit>
+      <trans-unit id="/[Generic/Count/ItemsSelected]:dict/GenericCountItemsSelected:dict/one:dict/:string" approved="yes">
+        <source>%d item selected</source>
+        <target state="final">%d item geselecteerd</target>
+      </trans-unit>
+      <trans-unit id="/[Generic/Count/ItemsSelected]:dict/GenericCountItemsSelected:dict/other:dict/:string" approved="yes">
+        <source>%d items selected</source>
+        <target state="final">%d items geselecteerd</target>
       </trans-unit>
       <trans-unit id="/[Generic/Count/Threads]:dict/GenericCountThreads:dict/one:dict/:string">
         <source>%d thread</source>
