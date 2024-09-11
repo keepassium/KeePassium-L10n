@@ -166,14 +166,14 @@ Please contact us if you need help with this.</source>
         <target state="translated">允许的填充来源：</target>
         <note>Must match Apple's translation, as found in iOS 15 Settings → Passwords → AutoFill Passwords. If unsure, leave untranslated.</note>
       </trans-unit>
-      <trans-unit id="[AutoFill/Setup/UncheckKeychain/callToAction]" xml:space="preserve">
+      <trans-unit id="[AutoFill/Setup/UncheckKeychain/callToAction]" xml:space="preserve" approved="yes">
         <source>Uncheck Keychain</source>
-        <target state="needs-translation">Uncheck Keychain</target>
+        <target state="final">取消选中钥匙串</target>
         <note>Call to action: deselect the `Keychain` option. Keychain is a glossary term.</note>
       </trans-unit>
-      <trans-unit id="[AutoFill/Setup/UncheckKeychain/message]" xml:space="preserve">
+      <trans-unit id="[AutoFill/Setup/UncheckKeychain/message]" xml:space="preserve" approved="yes">
         <source>To make KeePassium your default password manager, uncheck Keychain.</source>
-        <target state="needs-translation">To make KeePassium your default password manager, uncheck Keychain.</target>
+        <target state="final">要使 KeePassium 成为您的默认密码管理器，请取消选中钥匙串。</target>
         <note>Instruction to deselect the `Keychain` option. Keychain is a glossary term.</note>
       </trans-unit>
       <trans-unit id="[AutoFill/Setup/UncheckKeychain/usePasswordsAndPasskeysFrom]" xml:space="preserve">
@@ -194,19 +194,19 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
 因此，需要为自动填充和KeePassium应用程序赋予所需的数据库文件以及密钥文件权限。 幸运的是，这只要设置一次。</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
-      <trans-unit id="[Generic/Keychain/title]" xml:space="preserve">
+      <trans-unit id="[Generic/Keychain/title]" xml:space="preserve" approved="yes">
         <source>Keychain</source>
-        <target state="translated">钥匙圈</target>
+        <target state="final">钥匙串</target>
         <note>Apple Keychain software; is a glossary term.</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/Wordlist/Import/menuAction]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/Wordlist/Import/menuAction]" xml:space="preserve" approved="yes">
         <source>Import Wordlist…</source>
-        <target state="needs-translation">Import Wordlist…</target>
+        <target state="final">导入词表…</target>
         <note>Menu action to add a user-provided word list file to the app.</note>
       </trans-unit>
-      <trans-unit id="[PasswordQuality/LevelWithApproximateEntropy/description]" xml:space="preserve">
+      <trans-unit id="[PasswordQuality/LevelWithApproximateEntropy/description]" xml:space="preserve" approved="yes">
         <source>%1$@ (~%2$@ of entropy)</source>
-        <target state="needs-translation">%1$@ (~%2$@ of entropy)</target>
+        <target state="final">%1$@（熵值约为 %2$@）</target>
         <note>Password quality description. Note the tilda that refers to an estimated/approximate value. For example: `Very good (~123 bits of entropy)`. [level: String, formattedBitCount: String]</note>
       </trans-unit>
       <trans-unit id="[PasswordQuality/LevelWithEntropy/description]" xml:space="preserve">
@@ -560,10 +560,10 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.3" build-num="15E204a"/>
     </header>
     <body>
-      <trans-unit id="0pb-xb-fuf.text" xml:space="preserve">
-        <source>In-memory Protection</source>
-        <target state="translated">字段保护(该字段的值同密码显示*号)</target>
-        <note>Class = "UILabel"; text = "In-memory Protection"; ObjectID = "0pb-xb-fuf"; Note = "Label for a switch, equivalent to KeePass' own `Enable in-memory protection` for custom entry fields.";</note>
+      <trans-unit id="0pb-xb-fuf.text" xml:space="preserve" translate="no">
+        <source>{Protected Field}</source>
+        <target state="needs-translation">{Protected Field}</target>
+        <note>Class = "UILabel"; text = "{Protected Field}"; ObjectID = "0pb-xb-fuf";</note>
       </trans-unit>
       <trans-unit id="1Nq-zk-w7B.normalTitle" xml:space="preserve" translate="no">
         <source>{Set up OTP}</source>
@@ -1046,14 +1046,14 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <target state="translated">激活自动填充</target>
         <note>Action/button to set up the Password AutoFill feature. Not a call to action.</note>
       </trans-unit>
-      <trans-unit id="[Onboarding/AutoFill/text1]" xml:space="preserve">
+      <trans-unit id="[Onboarding/AutoFill/text1]" xml:space="preserve" approved="yes">
         <source>With AutoFill you can breeze through sign-in pages with a single button press.</source>
-        <target state="needs-translation">With AutoFill you can breeze through sign-in pages with a single button press.</target>
+        <target state="final">使用自动填充功能，您可以一键轻松搞定登录页面。</target>
         <note>Text in the Password AutoFill onboarding screen.</note>
       </trans-unit>
-      <trans-unit id="[Onboarding/AutoFill/text2]" xml:space="preserve">
+      <trans-unit id="[Onboarding/AutoFill/text2]" xml:space="preserve" approved="yes">
         <source>To start, activate Password AutoFill in system settings.</source>
-        <target state="needs-translation">To start, activate Password AutoFill in system settings.</target>
+        <target state="final">首先，在系统设置中激活密码自动填充。</target>
         <note>Text in the Password AutoFill onboarding screen.</note>
       </trans-unit>
       <trans-unit id="[Onboarding/AutoFill/title]" xml:space="preserve">
@@ -1176,14 +1176,14 @@ KeePassium 会将从您的密码中计算出的信息（部分校验和）发送
         <target state="translated">密码检查器</target>
         <note>Title of a screen to check which passwords are known to be compromised.</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/Wordlist/Import/menuAction]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/Wordlist/Import/menuAction]" xml:space="preserve" approved="yes">
         <source>Import Wordlist…</source>
-        <target state="needs-translation">Import Wordlist…</target>
+        <target state="final">导入词表…</target>
         <note>Menu action to add a user-provided word list file to the app.</note>
       </trans-unit>
-      <trans-unit id="[PasswordQuality/LevelWithApproximateEntropy/description]" xml:space="preserve">
+      <trans-unit id="[PasswordQuality/LevelWithApproximateEntropy/description]" xml:space="preserve" approved="yes">
         <source>%1$@ (~%2$@ of entropy)</source>
-        <target state="needs-translation">%1$@ (~%2$@ of entropy)</target>
+        <target state="final">%1$@（熵值约为 %2$@）</target>
         <note>Password quality description. Note the tilda that refers to an estimated/approximate value. For example: `Very good (~123 bits of entropy)`. [level: String, formattedBitCount: String]</note>
       </trans-unit>
       <trans-unit id="[PasswordQuality/LevelWithEntropy/description]" xml:space="preserve">
@@ -1246,14 +1246,14 @@ KeePassium 会将从您的密码中计算出的信息（部分校验和）发送
         <target state="translated">新建标签</target>
         <note>Title of the tag creation dialog</note>
       </trans-unit>
-      <trans-unit id="[Tags/Delete/Confirm/message]" xml:space="preserve">
+      <trans-unit id="[Tags/Delete/Confirm/message]" xml:space="preserve" approved="yes">
         <source>Delete this tag from all groups and entries?</source>
-        <target state="needs-translation">Delete this tag from all groups and entries?</target>
+        <target state="final">是否从所有组和条目中删除此标签？</target>
         <note>Question to confirm global deletion</note>
       </trans-unit>
-      <trans-unit id="[Tags/Edit/title]" xml:space="preserve">
+      <trans-unit id="[Tags/Edit/title]" xml:space="preserve" approved="yes">
         <source>Edit Tag</source>
-        <target state="needs-translation">Edit Tag</target>
+        <target state="final">编辑标签</target>
         <note>Title of a dialog for editing a tag</note>
       </trans-unit>
       <trans-unit id="[Tags/None/placeholder]" xml:space="preserve">

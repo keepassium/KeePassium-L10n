@@ -168,12 +168,12 @@ Please contact us if you need help with this.</source>
       </trans-unit>
       <trans-unit id="[AutoFill/Setup/UncheckKeychain/callToAction]" xml:space="preserve">
         <source>Uncheck Keychain</source>
-        <target state="needs-translation">Uncheck Keychain</target>
+        <target state="translated">キーチェーンの無効化</target>
         <note>Call to action: deselect the `Keychain` option. Keychain is a glossary term.</note>
       </trans-unit>
       <trans-unit id="[AutoFill/Setup/UncheckKeychain/message]" xml:space="preserve">
         <source>To make KeePassium your default password manager, uncheck Keychain.</source>
-        <target state="needs-translation">To make KeePassium your default password manager, uncheck Keychain.</target>
+        <target state="translated">KeePassiumをデフォルトのパスワードマネージャーにするには、キーチェーンのチェックを外してください。</target>
         <note>Instruction to deselect the `Keychain` option. Keychain is a glossary term.</note>
       </trans-unit>
       <trans-unit id="[AutoFill/Setup/UncheckKeychain/usePasswordsAndPasskeysFrom]" xml:space="preserve">
@@ -201,12 +201,12 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="[PasswordGenerator/Wordlist/Import/menuAction]" xml:space="preserve">
         <source>Import Wordlist…</source>
-        <target state="needs-translation">Import Wordlist…</target>
+        <target state="translated">ワードリストを読み込む...</target>
         <note>Menu action to add a user-provided word list file to the app.</note>
       </trans-unit>
       <trans-unit id="[PasswordQuality/LevelWithApproximateEntropy/description]" xml:space="preserve">
         <source>%1$@ (~%2$@ of entropy)</source>
-        <target state="needs-translation">%1$@ (~%2$@ of entropy)</target>
+        <target state="translated">%1$@ (%2$@ のエントロピー)</target>
         <note>Password quality description. Note the tilda that refers to an estimated/approximate value. For example: `Very good (~123 bits of entropy)`. [level: String, formattedBitCount: String]</note>
       </trans-unit>
       <trans-unit id="[PasswordQuality/LevelWithEntropy/description]" xml:space="preserve">
@@ -560,10 +560,10 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.3" build-num="15E204a"/>
     </header>
     <body>
-      <trans-unit id="0pb-xb-fuf.text" xml:space="preserve">
-        <source>In-memory Protection</source>
-        <target state="translated">メモリー内保護</target>
-        <note>Class = "UILabel"; text = "In-memory Protection"; ObjectID = "0pb-xb-fuf"; Note = "Label for a switch, equivalent to KeePass' own `Enable in-memory protection` for custom entry fields.";</note>
+      <trans-unit id="0pb-xb-fuf.text" xml:space="preserve" translate="no">
+        <source>{Protected Field}</source>
+        <target state="needs-translation">{Protected Field}</target>
+        <note>Class = "UILabel"; text = "{Protected Field}"; ObjectID = "0pb-xb-fuf";</note>
       </trans-unit>
       <trans-unit id="1Nq-zk-w7B.normalTitle" xml:space="preserve" translate="no">
         <source>{Set up OTP}</source>
@@ -726,7 +726,7 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="tpA-i1-ah8.text" xml:space="preserve">
         <source>No entries or groups found</source>
-        <target state="needs-translation">No entries or groups found</target>
+        <target state="translated">見つかりませんでした</target>
         <note>Class = "UILabel"; text = "No entries or groups found"; ObjectID = "tpA-i1-ah8";</note>
       </trans-unit>
       <trans-unit id="ttY-yZ-yRg.text" xml:space="preserve" translate="no">
@@ -968,7 +968,7 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="[Database/Create/orgRequiresStronger]" xml:space="preserve">
         <source>Your organization requires a more complex database password.</source>
-        <target state="needs-translation">Your organization requires a more complex database password.</target>
+        <target state="translated">あなたの組織では、より複雑なデータベースパスワードが必要です。</target>
         <note>Notification for business users when they set up too weak database password.</note>
       </trans-unit>
       <trans-unit id="[Database/Create] Please enter a password or choose a key file." xml:space="preserve">
@@ -1008,7 +1008,7 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="[Entry/Tab/More/title]" xml:space="preserve">
         <source>More</source>
-        <target state="needs-translation">More</target>
+        <target state="translated">詳細</target>
         <note>Title of entry viewer's tab with advanced/secondary properties</note>
       </trans-unit>
       <trans-unit id="[Menu/About/title]" xml:space="preserve">
@@ -1033,12 +1033,12 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="[Onboarding/AppProtection/text1]" xml:space="preserve">
         <source>KeePassium is your vault. App protection ensures that only you can open it.</source>
-        <target state="needs-translation">KeePassium is your vault. App protection ensures that only you can open it.</target>
+        <target state="translated">KeePassiumは保管庫です。アプリを保護することで、開くことができるのはあなただけです。</target>
         <note>Text in the App Protection onboarding screen.</note>
       </trans-unit>
       <trans-unit id="[Onboarding/AppProtection/title]" xml:space="preserve">
         <source>For Your Eyes Only</source>
-        <target state="needs-translation">For Your Eyes Only</target>
+        <target state="translated">見られる人はあなただけ</target>
         <note>Title of the App Protection onboarding screen</note>
       </trans-unit>
       <trans-unit id="[Onboarding/AutoFill/activate]" xml:space="preserve">
@@ -1048,17 +1048,17 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="[Onboarding/AutoFill/text1]" xml:space="preserve">
         <source>With AutoFill you can breeze through sign-in pages with a single button press.</source>
-        <target state="needs-translation">With AutoFill you can breeze through sign-in pages with a single button press.</target>
+        <target state="translated">AutoFillを使用すると、ボタンを1回押すだけでサインインできます。</target>
         <note>Text in the Password AutoFill onboarding screen.</note>
       </trans-unit>
       <trans-unit id="[Onboarding/AutoFill/text2]" xml:space="preserve">
         <source>To start, activate Password AutoFill in system settings.</source>
-        <target state="needs-translation">To start, activate Password AutoFill in system settings.</target>
+        <target state="translated">利用するには、設定で「パスワードの自動入力」をオンにします。</target>
         <note>Text in the Password AutoFill onboarding screen.</note>
       </trans-unit>
       <trans-unit id="[Onboarding/AutoFill/title]" xml:space="preserve">
         <source>Password AutoFill</source>
-        <target state="needs-translation">Password AutoFill</target>
+        <target state="translated">パスワードの自動入力</target>
         <note>Title of the Password AutoFill onboarding screen</note>
       </trans-unit>
       <trans-unit id="[Onboarding/CreateNewDatabase/action]" xml:space="preserve">
@@ -1068,57 +1068,57 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="[Onboarding/DataEncryption/text1]" xml:space="preserve">
         <source>Your safe box is an encrypted database.</source>
-        <target state="needs-translation">Your safe box is an encrypted database.</target>
+        <target state="translated">セーフボックスは暗号化されたデータベースです。</target>
         <note>Text in the Data Encryption intro screen</note>
       </trans-unit>
       <trans-unit id="[Onboarding/DataEncryption/text2]" xml:space="preserve">
         <source>You can keep databases in your favorite cloud or locally on device.</source>
-        <target state="needs-translation">You can keep databases in your favorite cloud or locally on device.</target>
+        <target state="translated">お気に入りのクラウドまたはローカルデバイスにデータベースを保存できます。</target>
         <note>Text in the Data Encryption intro screen</note>
       </trans-unit>
       <trans-unit id="[Onboarding/DataEncryption/title]" xml:space="preserve">
         <source>Data Encryption</source>
-        <target state="needs-translation">Data Encryption</target>
+        <target state="translated">データの暗号化</target>
         <note>Title of the Data Encryption intro screen</note>
       </trans-unit>
       <trans-unit id="[Onboarding/Intro/text1]" xml:space="preserve">
         <source>KeePassium keeps your passwords and other sensitive info securely encrypted.</source>
-        <target state="needs-translation">KeePassium keeps your passwords and other sensitive info securely encrypted.</target>
+        <target state="translated">KeePassium はパスワードやその他の機密情報を安全に暗号化します。</target>
         <note>Text in the introductory onboarding screen.</note>
       </trans-unit>
       <trans-unit id="[Onboarding/Intro/text2]" xml:space="preserve">
         <source>There are no ads and no tracking.</source>
-        <target state="needs-translation">There are no ads and no tracking.</target>
+        <target state="translated">広告はなく、トラッキングもしません。</target>
         <note>Text in the introductory onboarding screen.</note>
       </trans-unit>
       <trans-unit id="[Onboarding/Intro/text3]" xml:space="preserve">
         <source>We don't know anything about you.</source>
-        <target state="needs-translation">We don't know anything about you.</target>
+        <target state="translated">あなたについて何も知ることはありません。</target>
         <note>Text in the introductory onboarding screen.</note>
       </trans-unit>
       <trans-unit id="[Onboarding/Intro/text4]" xml:space="preserve">
         <source>Your data belongs to you.</source>
-        <target state="needs-translation">Your data belongs to you.</target>
+        <target state="translated">あなたのデータはあなたのものです。</target>
         <note>Text in the introductory onboarding screen.</note>
       </trans-unit>
       <trans-unit id="[Onboarding/Intro/title]" xml:space="preserve">
         <source>Welcome</source>
-        <target state="needs-translation">Welcome</target>
+        <target state="translated">はじめに</target>
         <note>Title of the introductory onboarding screen.</note>
       </trans-unit>
       <trans-unit id="[Onboarding/Security/text1]" xml:space="preserve">
         <source>Your info is encrypted in a safe box (database). Safe boxes are stored in a vault (KeePassium).</source>
-        <target state="needs-translation">Your info is encrypted in a safe box (database). Safe boxes are stored in a vault (KeePassium).</target>
+        <target state="translated">あなたの情報はセーフボックス（データベース）で暗号化されます。セーフボックスは保管庫（KeePassium）に保存されます。</target>
         <note>Text in the Security intro screen</note>
       </trans-unit>
       <trans-unit id="[Onboarding/Security/text2]" xml:space="preserve">
         <source>The vault and safe boxes have different keys and only you will know them.</source>
-        <target state="needs-translation">The vault and safe boxes have different keys and only you will know them.</target>
+        <target state="translated">金庫室とセーフボックスには異なる鍵があり、あなただけがそれらを知っています。</target>
         <note>Text in the Security intro screen</note>
       </trans-unit>
       <trans-unit id="[Onboarding/Security/title]" xml:space="preserve">
         <source>Maximum Security</source>
-        <target state="needs-translation">Maximum Security</target>
+        <target state="translated">強固なセキュリティ</target>
         <note>Title of the Security intro screen</note>
       </trans-unit>
       <trans-unit id="[PasswordAudit/Action/Exclude]" xml:space="preserve">
@@ -1178,12 +1178,12 @@ KeePassiumは、あなたのパスワードから計算された情報（部分�
       </trans-unit>
       <trans-unit id="[PasswordGenerator/Wordlist/Import/menuAction]" xml:space="preserve">
         <source>Import Wordlist…</source>
-        <target state="needs-translation">Import Wordlist…</target>
+        <target state="translated">ワードリストを読み込む...</target>
         <note>Menu action to add a user-provided word list file to the app.</note>
       </trans-unit>
       <trans-unit id="[PasswordQuality/LevelWithApproximateEntropy/description]" xml:space="preserve">
         <source>%1$@ (~%2$@ of entropy)</source>
-        <target state="needs-translation">%1$@ (~%2$@ of entropy)</target>
+        <target state="translated">%1$@ (%2$@ のエントロピー)</target>
         <note>Password quality description. Note the tilda that refers to an estimated/approximate value. For example: `Very good (~123 bits of entropy)`. [level: String, formattedBitCount: String]</note>
       </trans-unit>
       <trans-unit id="[PasswordQuality/LevelWithEntropy/description]" xml:space="preserve">
@@ -1233,57 +1233,57 @@ KeePassiumは、あなたのパスワードから計算された情報（部分�
       </trans-unit>
       <trans-unit id="[Tags/Create/action]" xml:space="preserve">
         <source>Create Tag</source>
-        <target state="needs-translation">Create Tag</target>
+        <target state="translated">タグを作成</target>
         <note>Action/button to create a new item tag</note>
       </trans-unit>
       <trans-unit id="[Tags/Create/placeholder]" xml:space="preserve">
         <source>Enter tag name</source>
-        <target state="needs-translation">Enter tag name</target>
+        <target state="translated">タグ名を入力</target>
         <note>Call to action/hint inside a text input</note>
       </trans-unit>
       <trans-unit id="[Tags/Create/title]" xml:space="preserve">
         <source>New Tag</source>
-        <target state="needs-translation">New Tag</target>
+        <target state="translated">新規タグ</target>
         <note>Title of the tag creation dialog</note>
       </trans-unit>
       <trans-unit id="[Tags/Delete/Confirm/message]" xml:space="preserve">
         <source>Delete this tag from all groups and entries?</source>
-        <target state="needs-translation">Delete this tag from all groups and entries?</target>
+        <target state="translated">すべてのグループとエントリからこのタグを削除しますか？</target>
         <note>Question to confirm global deletion</note>
       </trans-unit>
       <trans-unit id="[Tags/Edit/title]" xml:space="preserve">
         <source>Edit Tag</source>
-        <target state="needs-translation">Edit Tag</target>
+        <target state="translated">タグを編集</target>
         <note>Title of a dialog for editing a tag</note>
       </trans-unit>
       <trans-unit id="[Tags/None/placeholder]" xml:space="preserve">
         <source>There are no tags in the database, add some.</source>
-        <target state="needs-translation">There are no tags in the database, add some.</target>
+        <target state="translated">データベースにタグがありません。追加してください。</target>
         <note>Status message with a call to action</note>
       </trans-unit>
       <trans-unit id="[Tags/Search/emptyResult]" xml:space="preserve">
         <source>No suitable tags found.</source>
-        <target state="needs-translation">No suitable tags found.</target>
+        <target state="translated">見つかりませんでした</target>
         <note>Status message: tag search result is empty</note>
       </trans-unit>
       <trans-unit id="[Tags/Section/All]" xml:space="preserve">
         <source>All Tags</source>
-        <target state="needs-translation">All Tags</target>
+        <target state="translated">すべてのタグ</target>
         <note>Title of a list with all the tags existing in the database.</note>
       </trans-unit>
       <trans-unit id="[Tags/Section/Inherited]" xml:space="preserve">
         <source>Inherited Tags</source>
-        <target state="needs-translation">Inherited Tags</target>
+        <target state="translated">継承されたタグ</target>
         <note>Title of a list with tags used by parent groups.</note>
       </trans-unit>
       <trans-unit id="[Tags/Section/Selected]" xml:space="preserve">
         <source>Selected Tags</source>
-        <target state="needs-translation">Selected Tags</target>
+        <target state="translated">選択したタグ</target>
         <note>Title of a list with tags chosen by the user for a specific entry or group.</note>
       </trans-unit>
       <trans-unit id="[Tags/UsageCount/title]" xml:space="preserve">
         <source>Usage count</source>
-        <target state="needs-translation">Usage count</target>
+        <target state="translated">使用回数</target>
         <note>Title: the number of times a tag is encountered in the database.</note>
       </trans-unit>
     </body>

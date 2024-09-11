@@ -50,6 +50,16 @@
         <target state="final">Dubbeltikken om naar klembord te kopiëren</target>
         <note>Suggestion/hint for available user action</note>
       </trans-unit>
+      <trans-unit id="[App/ResetEverything/action]" xml:space="preserve" approved="yes">
+        <source>Reset</source>
+        <target state="final">Resetten</target>
+        <note>Action which resets the app as if it was just installed.</note>
+      </trans-unit>
+      <trans-unit id="[App/ResetEverything/title]" xml:space="preserve" approved="yes">
+        <source>Reset the app?</source>
+        <target state="final">App resetten?</target>
+        <note>Confirmation message before resetting the app to just-installed state.</note>
+      </trans-unit>
       <trans-unit id="[AppLock/Biometric/Hint] Unlock KeePassium" xml:space="preserve">
         <source>Unlock KeePassium</source>
         <target state="translated">Ontgrendel KeePassium</target>
@@ -364,6 +374,26 @@ Pictogrammen bijgewerkt: %2$d</target>
         <target state="final">Dit item verwijst naar een andere databank.</target>
         <note>Info message for entries that contain information for opening a different database.</note>
       </trans-unit>
+      <trans-unit id="[Database/ExternalChange/Status/checkInProgress]" xml:space="preserve" approved="yes">
+        <source>Checking for changes…</source>
+        <target state="final">Controleren op wijzigingen…</target>
+        <note>Status message: checking if currently loaded database is the latest version</note>
+      </trans-unit>
+      <trans-unit id="[Database/ExternalChange/Status/failed]" xml:space="preserve" approved="yes">
+        <source>Refresh failed</source>
+        <target state="final">Vernieuwen mislukt</target>
+        <note>Status message: failed to check if currently loaded database is the latest version</note>
+      </trans-unit>
+      <trans-unit id="[Database/ExternalChange/Status/upToDate]" xml:space="preserve" approved="yes">
+        <source>Up to date</source>
+        <target state="final">Bijgewerkt</target>
+        <note>Status message: currently loaded database is the latest version</note>
+      </trans-unit>
+      <trans-unit id="[Database/ExternalChange/notification]" xml:space="preserve" approved="yes">
+        <source>Database file has changed. Reload?</source>
+        <target state="final">Databankbestand is gewijzigd. Opnieuw laden?</target>
+        <note>Notification message about external changes to the loaded file.</note>
+      </trans-unit>
       <trans-unit id="[Database/FormatVersion/Conversion/allDataPreserved]" xml:space="preserve">
         <source>All your data will be preserved.</source>
         <target state="translated">Al uw gegevens zullen worden bewaard.</target>
@@ -617,6 +647,26 @@ Dit is de nieuwste lokale kopie.</target>
         <source>Consider File Unreachable</source>
         <target state="translated">Beschouw bestand als ontoegankelijk</target>
         <note>File settings parameter: time after which file will be considered unreachable. Example: `Consider File Unreachable: in 10 seconds`.)</note>
+      </trans-unit>
+      <trans-unit id="[Database/Settings/ExternalChanges/dontCheck]" xml:space="preserve" approved="yes">
+        <source>Don't check</source>
+        <target state="final">Niet controleren</target>
+        <note>File settings parameter: what to do when file was changed by another app/device. (For example: `Database Modified Externally: Don't check`)</note>
+      </trans-unit>
+      <trans-unit id="[Database/Settings/ExternalChanges/notify]" xml:space="preserve" approved="yes">
+        <source>Notify</source>
+        <target state="final">Melden</target>
+        <note>File settings parameter: what to do when file was changed by another app/device. (For example: `Database Modified Externally: Notify`)</note>
+      </trans-unit>
+      <trans-unit id="[Database/Settings/ExternalChanges/reload]" xml:space="preserve" approved="yes">
+        <source>Reload Automatically</source>
+        <target state="final">Automatisch opnieuw laden</target>
+        <note>File settings parameter: what to do when file was changed by another app/device. (For example: `Database Modified Externally: Reload Automatically`)</note>
+      </trans-unit>
+      <trans-unit id="[Database/Settings/ExternalChanges/title]" xml:space="preserve" approved="yes">
+        <source>Database Modified Externally</source>
+        <target state="final">Databank extern gewijzigd</target>
+        <note>File settings parameter: what to do when file was changed by another app/device. (For example: `Database Modified Externally: Notify`)</note>
       </trans-unit>
       <trans-unit id="[Database/Settings/FallbackStrategy/ReAddFile/title]" xml:space="preserve">
         <source>Re-add File</source>
@@ -1078,6 +1128,11 @@ Zorg ervoor dat je een back-up van je databank hebt voordat je iets aanpast.</ta
         <source>Show in Large Type</source>
         <target state="final">Geef weer in grote letters</target>
         <note>Action: display text using large font</note>
+      </trans-unit>
+      <trans-unit id="[Entry/Field/Protected/title]" xml:space="preserve">
+        <source>Protected Field</source>
+        <target state="translated">Beveiligd veld</target>
+        <note>Title of a setting: whether the entry's field is protected (shown as asterisks).</note>
       </trans-unit>
       <trans-unit id="[Entry/Field/name] Icon" xml:space="preserve">
         <source>Icon</source>
@@ -1619,6 +1674,11 @@ Zorg ervoor dat je een back-up van je databank hebt voordat je iets aanpast.</ta
         <target state="final">Extra</target>
         <note>Title of a menu with various utilities</note>
       </trans-unit>
+      <trans-unit id="[Generic/ViewHelpArticle/action]" xml:space="preserve" approved="yes">
+        <source>View help article</source>
+        <target state="final">Helpartikel weergeven</target>
+        <note>Action/button to open an online support article (about a specific error)</note>
+      </trans-unit>
       <trans-unit id="[Generic/ViewOptions/title]" xml:space="preserve">
         <source>View Options</source>
         <target state="translated">Weergaveopties</target>
@@ -1834,6 +1894,16 @@ Zorg ervoor dat je een back-up van je databank hebt voordat je iets aanpast.</ta
         <target state="translated">Alles in de prullenbak permanent verwijderen?</target>
         <note>Title of the confirmation dialog for `Empty Recycle Bin` action</note>
       </trans-unit>
+      <trans-unit id="[Group/Section/Entries/title]" xml:space="preserve" approved="yes">
+        <source>Entries</source>
+        <target state="final">Items</target>
+        <note>Title of the Entries section visible while editing</note>
+      </trans-unit>
+      <trans-unit id="[Group/Section/Groups/title]" xml:space="preserve" approved="yes">
+        <source>Groups</source>
+        <target state="final">Groepen</target>
+        <note>Title of the Groups section visible while editing</note>
+      </trans-unit>
       <trans-unit id="[Group/Smart/Create/action]" xml:space="preserve" approved="yes">
         <source>Create Smart Group</source>
         <target state="final">Slimme groep maken</target>
@@ -1843,6 +1913,21 @@ Zorg ervoor dat je een back-up van je databank hebt voordat je iets aanpast.</ta
         <source>New Smart Group</source>
         <target state="final">Nieuwe slimme groep</target>
         <note>Default name of a new smart group</note>
+      </trans-unit>
+      <trans-unit id="[Group/Smart/Preset/allEntries]" xml:space="preserve" approved="yes">
+        <source>All Entries</source>
+        <target state="final">Alle items</target>
+        <note>Title of a list: all entries in the database</note>
+      </trans-unit>
+      <trans-unit id="[Group/Smart/Preset/expiredEntries]" xml:space="preserve" approved="yes">
+        <source>Expired Entries</source>
+        <target state="final">Verlopen items</target>
+        <note>Title of a list: entries that are beyond their expiration date.</note>
+      </trans-unit>
+      <trans-unit id="[Group/Smart/Preset/otpEntries]" xml:space="preserve" approved="yes">
+        <source>Entries with OTP</source>
+        <target state="final">Items met OTP</target>
+        <note>Title of a list: entries with one-time passwords (OTP)</note>
       </trans-unit>
       <trans-unit id="[Group/Smart/Query/title]" xml:space="preserve" approved="yes">
         <source>Smart Group Filter</source>
@@ -3124,6 +3209,11 @@ Dit kan gebeuren bij grotere databanken of te ambitieuze databankinstellingen (A
         <source>List Settings</source>
         <target state="translated">Lijstinstellingen</target>
         <note>Title of list view configuration screen</note>
+      </trans-unit>
+      <trans-unit id="[Settings/Managed/BlockedFeature/notification]" xml:space="preserve" approved="yes">
+        <source>This feature is blocked by your organization.</source>
+        <target state="final">Deze functie wordt geblokkeerd door uw organisatie.</target>
+        <note>Notification when corporate user tries to use a feature forbidden by organization's IT department.</note>
       </trans-unit>
       <trans-unit id="[Settings/Managed/notification]" xml:space="preserve">
         <source>This setting is managed by your organization.</source>

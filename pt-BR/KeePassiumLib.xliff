@@ -50,6 +50,16 @@
         <target state="translated">Toque duas vezes para copiar</target>
         <note>Suggestion/hint for available user action</note>
       </trans-unit>
+      <trans-unit id="[App/ResetEverything/action]" xml:space="preserve" approved="yes">
+        <source>Reset</source>
+        <target state="final">Redefinir</target>
+        <note>Action which resets the app as if it was just installed.</note>
+      </trans-unit>
+      <trans-unit id="[App/ResetEverything/title]" xml:space="preserve" approved="yes">
+        <source>Reset the app?</source>
+        <target state="final">Redefinir o aplicativo?</target>
+        <note>Confirmation message before resetting the app to just-installed state.</note>
+      </trans-unit>
       <trans-unit id="[AppLock/Biometric/Hint] Unlock KeePassium" xml:space="preserve">
         <source>Unlock KeePassium</source>
         <target state="translated">Desbloquear KeePassium</target>
@@ -359,10 +369,30 @@ Icons updated: %2$d</source>
         <target state="final">Configurações de criptografia</target>
         <note>Title: database encryption settings.</note>
       </trans-unit>
-      <trans-unit id="[Database/Entry/LinkedDatabase/message]" xml:space="preserve">
+      <trans-unit id="[Database/Entry/LinkedDatabase/message]" xml:space="preserve" approved="yes">
         <source>This entry points to another database.</source>
-        <target state="needs-translation">This entry points to another database.</target>
+        <target state="final">Esta entrada aponta para outro banco de dados.</target>
         <note>Info message for entries that contain information for opening a different database.</note>
+      </trans-unit>
+      <trans-unit id="[Database/ExternalChange/Status/checkInProgress]" xml:space="preserve" approved="yes">
+        <source>Checking for changes…</source>
+        <target state="final">Verificando alterações…</target>
+        <note>Status message: checking if currently loaded database is the latest version</note>
+      </trans-unit>
+      <trans-unit id="[Database/ExternalChange/Status/failed]" xml:space="preserve" approved="yes">
+        <source>Refresh failed</source>
+        <target state="final">Falha ao atualizar</target>
+        <note>Status message: failed to check if currently loaded database is the latest version</note>
+      </trans-unit>
+      <trans-unit id="[Database/ExternalChange/Status/upToDate]" xml:space="preserve" approved="yes">
+        <source>Up to date</source>
+        <target state="final">Atualizado</target>
+        <note>Status message: currently loaded database is the latest version</note>
+      </trans-unit>
+      <trans-unit id="[Database/ExternalChange/notification]" xml:space="preserve" approved="yes">
+        <source>Database file has changed. Reload?</source>
+        <target state="final">Arquivo de banco de dados alterado. Recarregar?</target>
+        <note>Notification message about external changes to the loaded file.</note>
       </trans-unit>
       <trans-unit id="[Database/FormatVersion/Conversion/allDataPreserved]" xml:space="preserve">
         <source>All your data will be preserved.</source>
@@ -394,9 +424,9 @@ Icons updated: %2$d</source>
         <target state="translated">Alguns dados podem ser perdidos pois o banco de dados de destino está em um formato mais antigo.</target>
         <note>Notification when user tries to copy data from KDBX to older KDB database.</note>
       </trans-unit>
-      <trans-unit id="[Database/List/LocalMissing/message]" xml:space="preserve">
+      <trans-unit id="[Database/List/LocalMissing/message]" xml:space="preserve" approved="yes">
         <source>If some local files are not listed, launch the main KeePassium app first.</source>
-        <target state="needs-translation">If some local files are not listed, launch the main KeePassium app first.</target>
+        <target state="final">Se alguns arquivos locais não forem listados, abra o aplicativo principal KeePassium primeiro.</target>
         <note>Recommendation for solving a problem with a list of files.</note>
       </trans-unit>
       <trans-unit id="[Database/List/title]" xml:space="preserve">
@@ -486,9 +516,9 @@ Esta é a última cópia local disponível.</target>
         <target state="translated">Chave-mestra</target>
         <note>Glossary term: noun, a master key for encrypting the database</note>
       </trans-unit>
-      <trans-unit id="[Database/New/title]" xml:space="preserve">
+      <trans-unit id="[Database/New/title]" xml:space="preserve" approved="yes">
         <source>New Database</source>
-        <target state="needs-translation">New Database</target>
+        <target state="final">Novo banco de dados</target>
         <note>Title of database creation dialog</note>
       </trans-unit>
       <trans-unit id="[Database/Open/action] Open Database" xml:space="preserve">
@@ -617,6 +647,26 @@ Esta é a última cópia local disponível.</target>
         <source>Consider File Unreachable</source>
         <target state="translated">Considerar arquivo inacessível</target>
         <note>File settings parameter: time after which file will be considered unreachable. Example: `Consider File Unreachable: in 10 seconds`.)</note>
+      </trans-unit>
+      <trans-unit id="[Database/Settings/ExternalChanges/dontCheck]" xml:space="preserve" approved="yes">
+        <source>Don't check</source>
+        <target state="final">Não verificar</target>
+        <note>File settings parameter: what to do when file was changed by another app/device. (For example: `Database Modified Externally: Don't check`)</note>
+      </trans-unit>
+      <trans-unit id="[Database/Settings/ExternalChanges/notify]" xml:space="preserve" approved="yes">
+        <source>Notify</source>
+        <target state="final">Notificar</target>
+        <note>File settings parameter: what to do when file was changed by another app/device. (For example: `Database Modified Externally: Notify`)</note>
+      </trans-unit>
+      <trans-unit id="[Database/Settings/ExternalChanges/reload]" xml:space="preserve" approved="yes">
+        <source>Reload Automatically</source>
+        <target state="final">Recarregar automaticamente</target>
+        <note>File settings parameter: what to do when file was changed by another app/device. (For example: `Database Modified Externally: Reload Automatically`)</note>
+      </trans-unit>
+      <trans-unit id="[Database/Settings/ExternalChanges/title]" xml:space="preserve" approved="yes">
+        <source>Database Modified Externally</source>
+        <target state="final">Banco de dados modificado externamente</target>
+        <note>File settings parameter: what to do when file was changed by another app/device. (For example: `Database Modified Externally: Notify`)</note>
       </trans-unit>
       <trans-unit id="[Database/Settings/FallbackStrategy/ReAddFile/title]" xml:space="preserve">
         <source>Re-add File</source>
@@ -1079,6 +1129,11 @@ Faça uma cópia de segurança desse banco de dados antes de modifica-lo.</targe
         <target state="final">Mostrar em tipo grande</target>
         <note>Action: display text using large font</note>
       </trans-unit>
+      <trans-unit id="[Entry/Field/Protected/title]" xml:space="preserve">
+        <source>Protected Field</source>
+        <target state="translated">Campo protegido</target>
+        <note>Title of a setting: whether the entry's field is protected (shown as asterisks).</note>
+      </trans-unit>
       <trans-unit id="[Entry/Field/name] Icon" xml:space="preserve">
         <source>Icon</source>
         <target state="translated">Ícone</target>
@@ -1144,9 +1199,9 @@ Faça uma cópia de segurança desse banco de dados antes de modifica-lo.</targe
         <target state="translated">Última modificação</target>
         <note>Title of a field with entry's last modification date and time</note>
       </trans-unit>
-      <trans-unit id="[Entry/History] Modification Date" xml:space="preserve">
+      <trans-unit id="[Entry/History] Modification Date" xml:space="preserve" approved="yes">
         <source>Modification Date</source>
-        <target state="needs-translation">Modification Date</target>
+        <target state="final">Data da modificação</target>
         <note>Title of a field with entry's modification date and time</note>
       </trans-unit>
       <trans-unit id="[Entry/History] Previous Versions" xml:space="preserve">
@@ -1264,19 +1319,19 @@ Faça uma cópia de segurança desse banco de dados antes de modifica-lo.</targe
         <target state="translated">Erro interno no KeePassium. Por favor, nos avise sobre ele.</target>
         <note>Error message shown when there's internal inconsistency in KeePassium.</note>
       </trans-unit>
-      <trans-unit id="[FileInfo/Attributes/Hidden/title]" xml:space="preserve">
+      <trans-unit id="[FileInfo/Attributes/Hidden/title]" xml:space="preserve" approved="yes">
         <source>Hidden</source>
-        <target state="needs-translation">Hidden</target>
+        <target state="final">Oculto</target>
         <note>Title of a setting: is the file hidden</note>
       </trans-unit>
-      <trans-unit id="[FileInfo/Attributes/Hidden/warning]" xml:space="preserve">
+      <trans-unit id="[FileInfo/Attributes/Hidden/warning]" xml:space="preserve" approved="yes">
         <source>Hidden files are less visible to a casual user, but don't improve data security.</source>
-        <target state="needs-translation">Hidden files are less visible to a casual user, but don't improve data security.</target>
+        <target state="final">Arquivos ocultos são menos visíveis para um usuário casual, mas não melhoram a segurança dos dados.</target>
         <note>Warning message for 'hidden' files.</note>
       </trans-unit>
-      <trans-unit id="[FileInfo/Attributes/header]" xml:space="preserve">
+      <trans-unit id="[FileInfo/Attributes/header]" xml:space="preserve" approved="yes">
         <source>File Attributes</source>
-        <target state="needs-translation">File Attributes</target>
+        <target state="final">Atributos do arquivo</target>
         <note>Section header for attributes of a file (e.g. hidden, excluded from backup, etc)</note>
       </trans-unit>
       <trans-unit id="[FileInfo/Backup/header]" xml:space="preserve">
@@ -1519,9 +1574,9 @@ Faça uma cópia de segurança desse banco de dados antes de modifica-lo.</targe
         <target state="translated">Pasta vazia</target>
         <note>Placeholder for folders without files</note>
       </trans-unit>
-      <trans-unit id="[Generic/Action/ReorderItems]" xml:space="preserve">
+      <trans-unit id="[Generic/Action/ReorderItems]" xml:space="preserve" approved="yes">
         <source>Reorder</source>
-        <target state="needs-translation">Reorder</target>
+        <target state="final">Reordenar</target>
         <note>Action/button to change the order of items in a list (move them higher/lower).</note>
       </trans-unit>
       <trans-unit id="[Generic/Action/SelectItems]" xml:space="preserve">
@@ -1614,10 +1669,15 @@ Faça uma cópia de segurança desse banco de dados antes de modifica-lo.</targe
         <target state="translated">Busca</target>
         <note>Title of a search field (a noun, not verb)</note>
       </trans-unit>
-      <trans-unit id="[Generic/Tools/title]" xml:space="preserve">
+      <trans-unit id="[Generic/Tools/title]" xml:space="preserve" approved="yes">
         <source>Tools</source>
-        <target state="needs-translation">Tools</target>
+        <target state="final">Ferramentas</target>
         <note>Title of a menu with various utilities</note>
+      </trans-unit>
+      <trans-unit id="[Generic/ViewHelpArticle/action]" xml:space="preserve" approved="yes">
+        <source>View help article</source>
+        <target state="final">Ver artigo de ajuda</target>
+        <note>Action/button to open an online support article (about a specific error)</note>
       </trans-unit>
       <trans-unit id="[Generic/ViewOptions/title]" xml:space="preserve">
         <source>View Options</source>
@@ -1809,9 +1869,9 @@ Faça uma cópia de segurança desse banco de dados antes de modifica-lo.</targe
         <target state="translated">Editar Grupo</target>
         <note>Title of a form for editing a group</note>
       </trans-unit>
-      <trans-unit id="[Group/Menu/a11y/title]" xml:space="preserve">
+      <trans-unit id="[Group/Menu/a11y/title]" xml:space="preserve" approved="yes">
         <source>Group Menu</source>
-        <target state="needs-translation">Group Menu</target>
+        <target state="final">Menu do grupo</target>
         <note>VoiceOver description of a menu with group-related actions</note>
       </trans-unit>
       <trans-unit id="[Group/New/defaultName] New Group" xml:space="preserve">
@@ -1834,34 +1894,59 @@ Faça uma cópia de segurança desse banco de dados antes de modifica-lo.</targe
         <target state="translated">Apagar permanentemente tudo na lixeira?</target>
         <note>Title of the confirmation dialog for `Empty Recycle Bin` action</note>
       </trans-unit>
-      <trans-unit id="[Group/Smart/Create/action]" xml:space="preserve">
+      <trans-unit id="[Group/Section/Entries/title]" xml:space="preserve">
+        <source>Entries</source>
+        <target state="translated">Entradas</target>
+        <note>Title of the Entries section visible while editing</note>
+      </trans-unit>
+      <trans-unit id="[Group/Section/Groups/title]" xml:space="preserve">
+        <source>Groups</source>
+        <target state="translated">Grupos</target>
+        <note>Title of the Groups section visible while editing</note>
+      </trans-unit>
+      <trans-unit id="[Group/Smart/Create/action]" xml:space="preserve" approved="yes">
         <source>Create Smart Group</source>
-        <target state="needs-translation">Create Smart Group</target>
+        <target state="final">Criar Grupo inteligente</target>
         <note>Action/button to create a new Smart Group</note>
       </trans-unit>
-      <trans-unit id="[Group/Smart/New/defaultName]" xml:space="preserve">
+      <trans-unit id="[Group/Smart/New/defaultName]" xml:space="preserve" approved="yes">
         <source>New Smart Group</source>
-        <target state="needs-translation">New Smart Group</target>
+        <target state="final">Novo Grupo inteligente</target>
         <note>Default name of a new smart group</note>
       </trans-unit>
-      <trans-unit id="[Group/Smart/Query/title]" xml:space="preserve">
+      <trans-unit id="[Group/Smart/Preset/allEntries]" xml:space="preserve">
+        <source>All Entries</source>
+        <target state="translated">Todas as entradas</target>
+        <note>Title of a list: all entries in the database</note>
+      </trans-unit>
+      <trans-unit id="[Group/Smart/Preset/expiredEntries]" xml:space="preserve">
+        <source>Expired Entries</source>
+        <target state="translated">Entradas expiradas</target>
+        <note>Title of a list: entries that are beyond their expiration date.</note>
+      </trans-unit>
+      <trans-unit id="[Group/Smart/Preset/otpEntries]" xml:space="preserve">
+        <source>Entries with OTP</source>
+        <target state="translated">Entradas com OTP</target>
+        <note>Title of a list: entries with one-time passwords (OTP)</note>
+      </trans-unit>
+      <trans-unit id="[Group/Smart/Query/title]" xml:space="preserve" approved="yes">
         <source>Smart Group Filter</source>
-        <target state="needs-translation">Smart Group Filter</target>
+        <target state="final">Filtro de Grupo inteligente</target>
         <note>Title for the Smart Group search conditions in group editor</note>
       </trans-unit>
-      <trans-unit id="[Group/Smart/a11y/description]" xml:space="preserve">
+      <trans-unit id="[Group/Smart/a11y/description]" xml:space="preserve" approved="yes">
         <source>%@, Smart group</source>
-        <target state="needs-translation">%@, Smart group</target>
+        <target state="final">%@, Grupo inteligente</target>
         <note>VoiceOver description of a smart group [groupTitle: String]</note>
       </trans-unit>
-      <trans-unit id="[Group/Smart/about]" xml:space="preserve">
+      <trans-unit id="[Group/Smart/about]" xml:space="preserve" approved="yes">
         <source>About smart groups…</source>
-        <target state="needs-translation">About smart groups…</target>
+        <target state="final">Sobre os Grupos inteligentes…</target>
         <note>Action/button to show a help article</note>
       </trans-unit>
-      <trans-unit id="[Group/Smart/title]" xml:space="preserve">
+      <trans-unit id="[Group/Smart/title]" xml:space="preserve" approved="yes">
         <source>Smart Group</source>
-        <target state="needs-translation">Smart Group</target>
+        <target state="final">Grupo inteligente</target>
         <note>Glossary term: noun, a smart group in database.</note>
       </trans-unit>
       <trans-unit id="[Group/a11y/description]" xml:space="preserve">
@@ -2383,14 +2468,14 @@ Faça uma cópia de segurança desse banco de dados antes de modifica-lo.</targe
         <target state="translated">Use chaves físicas</target>
         <note>Title of a premium feature</note>
       </trans-unit>
-      <trans-unit id="[Premium/Benefits/LinkedDatabases/details]" xml:space="preserve">
+      <trans-unit id="[Premium/Benefits/LinkedDatabases/details]" xml:space="preserve" approved="yes">
         <source>Open another database in one step — using credentials stored in an entry.</source>
-        <target state="needs-translation">Open another database in one step — using credentials stored in an entry.</target>
+        <target state="final">Abra outro banco de dados em um passo: usando as credenciais armazenadas em uma entrada.</target>
         <note>Explanation of the premium feature</note>
       </trans-unit>
-      <trans-unit id="[Premium/Benefits/LinkedDatabases/title]" xml:space="preserve">
+      <trans-unit id="[Premium/Benefits/LinkedDatabases/title]" xml:space="preserve" approved="yes">
         <source>Open linked databases</source>
-        <target state="needs-translation">Open linked databases</target>
+        <target state="final">Abrir bancos de dados vinculados</target>
         <note>Title of a premium feature</note>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/MultiDB/details]" xml:space="preserve">
@@ -2691,14 +2776,14 @@ Após a compra, você pode gerenciar e cancelar suas assinaturas nas configuraç
         <target state="translated">Chaves Físicas</target>
         <note>Title of a premium feature: ability use hardware keys (e.g. YubiKey) for encryption (In Title Case)</note>
       </trans-unit>
-      <trans-unit id="[PremiumFeature/LinkedDatabases/description]" xml:space="preserve">
+      <trans-unit id="[PremiumFeature/LinkedDatabases/description]" xml:space="preserve" approved="yes">
         <source>Upgrade to premium and open linked databases in one step.</source>
-        <target state="needs-translation">Upgrade to premium and open linked databases in one step.</target>
+        <target state="final">Atualize para a versão premium e abra bancos de dados vinculados em um passo.</target>
         <note>Description/advertisement for the `Linked Databases` premium feature</note>
       </trans-unit>
-      <trans-unit id="[PremiumFeature/LinkedDatabases/title]" xml:space="preserve">
+      <trans-unit id="[PremiumFeature/LinkedDatabases/title]" xml:space="preserve" approved="yes">
         <source>Linked Databases</source>
-        <target state="needs-translation">Linked Databases</target>
+        <target state="final">Bancos de dados vinculados</target>
         <note>Title of a premium feature: ability to open databases referenced in another database (In Title Case)</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/MultiDB/description] Easily switch between databases in the premium version." xml:space="preserve">
@@ -3125,6 +3210,11 @@ Isso pode ocorrer com bancos de dados muito grandes ou com configurações exage
         <target state="translated">Ajustes de lista</target>
         <note>Title of list view configuration screen</note>
       </trans-unit>
+      <trans-unit id="[Settings/Managed/BlockedFeature/notification]" xml:space="preserve" approved="yes">
+        <source>This feature is blocked by your organization.</source>
+        <target state="final">Este recurso está bloqueado pela sua organização.</target>
+        <note>Notification when corporate user tries to use a feature forbidden by organization's IT department.</note>
+      </trans-unit>
       <trans-unit id="[Settings/Managed/notification]" xml:space="preserve" approved="yes">
         <source>This setting is managed by your organization.</source>
         <target state="final">Esta configuração é gerenciada pela sua organização.</target>
@@ -3185,9 +3275,9 @@ Isso pode ocorrer com bancos de dados muito grandes ou com configurações exage
         <target state="translated">Nenhum</target>
         <note>List sorting option, when no sorting is selected. Example: 'Sort by: None'</note>
       </trans-unit>
-      <trans-unit id="[SortOrder/Custom]" xml:space="preserve">
+      <trans-unit id="[SortOrder/Custom]" xml:space="preserve" approved="yes">
         <source>Custom</source>
-        <target state="needs-translation">Custom</target>
+        <target state="final">Personalizado</target>
         <note>List sorting option, when items are manually ordered by the user. Example: 'Sort order: Custom'</note>
       </trans-unit>
       <trans-unit id="[StorageService/DropboxBusiness/title]" xml:space="preserve">
@@ -3340,11 +3430,11 @@ Isso pode ocorrer com bancos de dados muito grandes ou com configurações exage
       </trans-unit>
       <trans-unit id="/[Generic/Count/ItemsSelected]:dict/GenericCountItemsSelected:dict/one:dict/:string">
         <source>%d item selected</source>
-        <target state="needs-translation">%d item selected</target>
+        <target state="final">%d item selecionado</target>
       </trans-unit>
       <trans-unit id="/[Generic/Count/ItemsSelected]:dict/GenericCountItemsSelected:dict/other:dict/:string">
         <source>%d items selected</source>
-        <target state="needs-translation">%d items selected</target>
+        <target state="final">%d itens selecionados</target>
       </trans-unit>
       <trans-unit id="/[Generic/Count/Threads]:dict/GenericCountThreads:dict/one:dict/:string">
         <source>%d thread</source>

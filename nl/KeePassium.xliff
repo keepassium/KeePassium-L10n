@@ -560,10 +560,10 @@ Als gevolg hiervan moeten zowel AutoFill als de KeePassium-app hun eigen machtig
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.3" build-num="15E204a"/>
     </header>
     <body>
-      <trans-unit id="0pb-xb-fuf.text" xml:space="preserve">
-        <source>In-memory Protection</source>
-        <target state="translated">Beveilig in het geheugen</target>
-        <note>Class = "UILabel"; text = "In-memory Protection"; ObjectID = "0pb-xb-fuf"; Note = "Label for a switch, equivalent to KeePass' own `Enable in-memory protection` for custom entry fields.";</note>
+      <trans-unit id="0pb-xb-fuf.text" xml:space="preserve" translate="no">
+        <source>{Protected Field}</source>
+        <target state="needs-translation">{Protected Field}</target>
+        <note>Class = "UILabel"; text = "{Protected Field}"; ObjectID = "0pb-xb-fuf";</note>
       </trans-unit>
       <trans-unit id="1Nq-zk-w7B.normalTitle" xml:space="preserve" translate="no">
         <source>{Set up OTP}</source>

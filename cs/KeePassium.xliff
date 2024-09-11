@@ -166,14 +166,14 @@ Pokud s tímhle potřebujete pomoci, napište nám.</target>
         <target state="translated">Povolit vyplňování z:</target>
         <note>Must match Apple's translation, as found in iOS 15 Settings → Passwords → AutoFill Passwords. If unsure, leave untranslated.</note>
       </trans-unit>
-      <trans-unit id="[AutoFill/Setup/UncheckKeychain/callToAction]" xml:space="preserve">
+      <trans-unit id="[AutoFill/Setup/UncheckKeychain/callToAction]" xml:space="preserve" approved="yes">
         <source>Uncheck Keychain</source>
-        <target state="needs-translation">Uncheck Keychain</target>
+        <target state="final">Odškrtněte Klíčenku</target>
         <note>Call to action: deselect the `Keychain` option. Keychain is a glossary term.</note>
       </trans-unit>
-      <trans-unit id="[AutoFill/Setup/UncheckKeychain/message]" xml:space="preserve">
+      <trans-unit id="[AutoFill/Setup/UncheckKeychain/message]" xml:space="preserve" approved="yes">
         <source>To make KeePassium your default password manager, uncheck Keychain.</source>
-        <target state="needs-translation">To make KeePassium your default password manager, uncheck Keychain.</target>
+        <target state="final">Pokud chcete, aby byl KeePassium výchozím správcem hesel, zrušte zaškrtnutí Klíčenky.</target>
         <note>Instruction to deselect the `Keychain` option. Keychain is a glossary term.</note>
       </trans-unit>
       <trans-unit id="[AutoFill/Setup/UncheckKeychain/usePasswordsAndPasskeysFrom]" xml:space="preserve">
@@ -199,44 +199,44 @@ Z tohoto důvodu je nutné dát svolení k přístupu jak samotné aplikaci KeeP
         <target state="translated">Klíčenka</target>
         <note>Apple Keychain software; is a glossary term.</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/Wordlist/Import/menuAction]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/Wordlist/Import/menuAction]" xml:space="preserve" approved="yes">
         <source>Import Wordlist…</source>
-        <target state="needs-translation">Import Wordlist…</target>
+        <target state="final">Importovat seznam slov…</target>
         <note>Menu action to add a user-provided word list file to the app.</note>
       </trans-unit>
-      <trans-unit id="[PasswordQuality/LevelWithApproximateEntropy/description]" xml:space="preserve">
+      <trans-unit id="[PasswordQuality/LevelWithApproximateEntropy/description]" xml:space="preserve" approved="yes">
         <source>%1$@ (~%2$@ of entropy)</source>
-        <target state="needs-translation">%1$@ (~%2$@ of entropy)</target>
+        <target state="final">%1$@ (~%2$@ entropie)</target>
         <note>Password quality description. Note the tilda that refers to an estimated/approximate value. For example: `Very good (~123 bits of entropy)`. [level: String, formattedBitCount: String]</note>
       </trans-unit>
-      <trans-unit id="[PasswordQuality/LevelWithEntropy/description]" xml:space="preserve">
+      <trans-unit id="[PasswordQuality/LevelWithEntropy/description]" xml:space="preserve" approved="yes">
         <source>%1$@ (%2$@ of entropy)</source>
-        <target state="needs-translation">%1$@ (%2$@ of entropy)</target>
+        <target state="final">%1$@ (%2$@ entropie)</target>
         <note>Password quality description. For example: `Very good (234 bits of entropy)`. [level: String, formattedBitCount: String]</note>
       </trans-unit>
-      <trans-unit id="[PasswordQuality/Level] Good" xml:space="preserve">
+      <trans-unit id="[PasswordQuality/Level] Good" xml:space="preserve" approved="yes">
         <source>Good</source>
-        <target state="needs-translation">Good</target>
+        <target state="final">Dobré</target>
         <note>Good password quality</note>
       </trans-unit>
-      <trans-unit id="[PasswordQuality/Level] Very good" xml:space="preserve">
+      <trans-unit id="[PasswordQuality/Level] Very good" xml:space="preserve" approved="yes">
         <source>Very good</source>
-        <target state="needs-translation">Very good</target>
+        <target state="final">Velmi dobré</target>
         <note>Very good password quality</note>
       </trans-unit>
-      <trans-unit id="[PasswordQuality/Level] Very weak" xml:space="preserve">
+      <trans-unit id="[PasswordQuality/Level] Very weak" xml:space="preserve" approved="yes">
         <source>Very weak</source>
-        <target state="needs-translation">Very weak</target>
+        <target state="final">Velmi slabé</target>
         <note>Very weak password quality</note>
       </trans-unit>
-      <trans-unit id="[PasswordQuality/Level] Weak" xml:space="preserve">
+      <trans-unit id="[PasswordQuality/Level] Weak" xml:space="preserve" approved="yes">
         <source>Weak</source>
-        <target state="needs-translation">Weak</target>
+        <target state="final">Slabé</target>
         <note>Weak password quality</note>
       </trans-unit>
-      <trans-unit id="[PasswordQuality/description]" xml:space="preserve">
+      <trans-unit id="[PasswordQuality/description]" xml:space="preserve" approved="yes">
         <source>Password quality: %@</source>
-        <target state="needs-translation">Password quality: %@</target>
+        <target state="final">Kvalita hesla: %@</target>
         <note>Password quality description. For example: `Password quality: Weak`. [level: String]</note>
       </trans-unit>
       <trans-unit id="[ProtectedTextField] Show Password" xml:space="preserve">
@@ -560,10 +560,10 @@ Z tohoto důvodu je nutné dát svolení k přístupu jak samotné aplikaci KeeP
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.3" build-num="15E204a"/>
     </header>
     <body>
-      <trans-unit id="0pb-xb-fuf.text" xml:space="preserve">
-        <source>In-memory Protection</source>
-        <target state="translated">Ochrana paměti</target>
-        <note>Class = "UILabel"; text = "In-memory Protection"; ObjectID = "0pb-xb-fuf"; Note = "Label for a switch, equivalent to KeePass' own `Enable in-memory protection` for custom entry fields.";</note>
+      <trans-unit id="0pb-xb-fuf.text" xml:space="preserve" translate="no">
+        <source>{Protected Field}</source>
+        <target state="needs-translation">{Protected Field}</target>
+        <note>Class = "UILabel"; text = "{Protected Field}"; ObjectID = "0pb-xb-fuf";</note>
       </trans-unit>
       <trans-unit id="1Nq-zk-w7B.normalTitle" xml:space="preserve" translate="no">
         <source>{Set up OTP}</source>
@@ -724,9 +724,9 @@ Z tohoto důvodu je nutné dát svolení k přístupu jak samotné aplikaci KeeP
         <target state="needs-translation">{OTPValue}</target>
         <note>Class = "UILabel"; text = "{OTPValue}"; ObjectID = "RAn-LR-hxd";</note>
       </trans-unit>
-      <trans-unit id="tpA-i1-ah8.text" xml:space="preserve">
+      <trans-unit id="tpA-i1-ah8.text" xml:space="preserve" approved="yes">
         <source>No entries or groups found</source>
-        <target state="needs-translation">No entries or groups found</target>
+        <target state="final">Nebyly nalezeny žádné položky nebo skupiny</target>
         <note>Class = "UILabel"; text = "No entries or groups found"; ObjectID = "tpA-i1-ah8";</note>
       </trans-unit>
       <trans-unit id="ttY-yZ-yRg.text" xml:space="preserve" translate="no">
@@ -966,9 +966,9 @@ Z tohoto důvodu je nutné dát svolení k přístupu jak samotné aplikaci KeeP
         <target state="translated">Operační systém</target>
         <note>Predefined `Operating system` group in a new database</note>
       </trans-unit>
-      <trans-unit id="[Database/Create/orgRequiresStronger]" xml:space="preserve">
+      <trans-unit id="[Database/Create/orgRequiresStronger]" xml:space="preserve" approved="yes">
         <source>Your organization requires a more complex database password.</source>
-        <target state="needs-translation">Your organization requires a more complex database password.</target>
+        <target state="final">Vaše organizace vyžaduje složitější heslo k databázi.</target>
         <note>Notification for business users when they set up too weak database password.</note>
       </trans-unit>
       <trans-unit id="[Database/Create] Please enter a password or choose a key file." xml:space="preserve">
@@ -1006,9 +1006,9 @@ Z tohoto důvodu je nutné dát svolení k přístupu jak samotné aplikaci KeeP
         <target state="translated">Historie</target>
         <note>Title of entry viewer's tab with previous revisions of the entry</note>
       </trans-unit>
-      <trans-unit id="[Entry/Tab/More/title]" xml:space="preserve">
+      <trans-unit id="[Entry/Tab/More/title]" xml:space="preserve" approved="yes">
         <source>More</source>
-        <target state="needs-translation">More</target>
+        <target state="final">Další</target>
         <note>Title of entry viewer's tab with advanced/secondary properties</note>
       </trans-unit>
       <trans-unit id="[Menu/About/title]" xml:space="preserve">
@@ -1031,14 +1031,14 @@ Z tohoto důvodu je nutné dát svolení k přístupu jak samotné aplikaci KeeP
         <target state="translated">Zapnout zámek</target>
         <note>Action/button to set up the App Protection feature. Not a call to action.</note>
       </trans-unit>
-      <trans-unit id="[Onboarding/AppProtection/text1]" xml:space="preserve">
+      <trans-unit id="[Onboarding/AppProtection/text1]" xml:space="preserve" approved="yes">
         <source>KeePassium is your vault. App protection ensures that only you can open it.</source>
-        <target state="needs-translation">KeePassium is your vault. App protection ensures that only you can open it.</target>
+        <target state="final">KeePassium je váš trezor. Zabezpečení aplikace zajišťuje, že ji můžete otevřít jen vy.</target>
         <note>Text in the App Protection onboarding screen.</note>
       </trans-unit>
-      <trans-unit id="[Onboarding/AppProtection/title]" xml:space="preserve">
+      <trans-unit id="[Onboarding/AppProtection/title]" xml:space="preserve" approved="yes">
         <source>For Your Eyes Only</source>
-        <target state="needs-translation">For Your Eyes Only</target>
+        <target state="final">Pouze pro Vaše oči</target>
         <note>Title of the App Protection onboarding screen</note>
       </trans-unit>
       <trans-unit id="[Onboarding/AutoFill/activate]" xml:space="preserve">
@@ -1046,19 +1046,19 @@ Z tohoto důvodu je nutné dát svolení k přístupu jak samotné aplikaci KeeP
         <target state="translated">Aktivovat Automatické Vyplňování</target>
         <note>Action/button to set up the Password AutoFill feature. Not a call to action.</note>
       </trans-unit>
-      <trans-unit id="[Onboarding/AutoFill/text1]" xml:space="preserve">
+      <trans-unit id="[Onboarding/AutoFill/text1]" xml:space="preserve" approved="yes">
         <source>With AutoFill you can breeze through sign-in pages with a single button press.</source>
-        <target state="needs-translation">With AutoFill you can breeze through sign-in pages with a single button press.</target>
+        <target state="final">Pomocí funkce Automatické vyplňování můžete rychle procházet přihlašovací stránky jediným stisknutím tlačítka.</target>
         <note>Text in the Password AutoFill onboarding screen.</note>
       </trans-unit>
-      <trans-unit id="[Onboarding/AutoFill/text2]" xml:space="preserve">
+      <trans-unit id="[Onboarding/AutoFill/text2]" xml:space="preserve" approved="yes">
         <source>To start, activate Password AutoFill in system settings.</source>
-        <target state="needs-translation">To start, activate Password AutoFill in system settings.</target>
+        <target state="final">Pro začátek v nastavení systému aktivujte funkci Automatické vyplňování hesel.</target>
         <note>Text in the Password AutoFill onboarding screen.</note>
       </trans-unit>
-      <trans-unit id="[Onboarding/AutoFill/title]" xml:space="preserve">
+      <trans-unit id="[Onboarding/AutoFill/title]" xml:space="preserve" approved="yes">
         <source>Password AutoFill</source>
-        <target state="needs-translation">Password AutoFill</target>
+        <target state="final">Automatické vyplňování hesla</target>
         <note>Title of the Password AutoFill onboarding screen</note>
       </trans-unit>
       <trans-unit id="[Onboarding/CreateNewDatabase/action]" xml:space="preserve">
@@ -1066,154 +1066,154 @@ Z tohoto důvodu je nutné dát svolení k přístupu jak samotné aplikaci KeeP
         <target state="translated">Vytvořit novou databázi</target>
         <note>Action/button</note>
       </trans-unit>
-      <trans-unit id="[Onboarding/DataEncryption/text1]" xml:space="preserve">
+      <trans-unit id="[Onboarding/DataEncryption/text1]" xml:space="preserve" approved="yes">
         <source>Your safe box is an encrypted database.</source>
-        <target state="needs-translation">Your safe box is an encrypted database.</target>
+        <target state="final">Vaše bezpečnostní schránka je šifrovaná databáze.</target>
         <note>Text in the Data Encryption intro screen</note>
       </trans-unit>
-      <trans-unit id="[Onboarding/DataEncryption/text2]" xml:space="preserve">
+      <trans-unit id="[Onboarding/DataEncryption/text2]" xml:space="preserve" approved="yes">
         <source>You can keep databases in your favorite cloud or locally on device.</source>
-        <target state="needs-translation">You can keep databases in your favorite cloud or locally on device.</target>
+        <target state="final">Databáze můžete uchovávat ve svém oblíbeném cloudu nebo lokálně v zařízení.</target>
         <note>Text in the Data Encryption intro screen</note>
       </trans-unit>
-      <trans-unit id="[Onboarding/DataEncryption/title]" xml:space="preserve">
+      <trans-unit id="[Onboarding/DataEncryption/title]" xml:space="preserve" approved="yes">
         <source>Data Encryption</source>
-        <target state="needs-translation">Data Encryption</target>
+        <target state="final">Šifrování dat</target>
         <note>Title of the Data Encryption intro screen</note>
       </trans-unit>
-      <trans-unit id="[Onboarding/Intro/text1]" xml:space="preserve">
+      <trans-unit id="[Onboarding/Intro/text1]" xml:space="preserve" approved="yes">
         <source>KeePassium keeps your passwords and other sensitive info securely encrypted.</source>
-        <target state="needs-translation">KeePassium keeps your passwords and other sensitive info securely encrypted.</target>
+        <target state="final">KeePassium uchovává vaše hesla a další citlivé informace bezpečně zašifrované.</target>
         <note>Text in the introductory onboarding screen.</note>
       </trans-unit>
-      <trans-unit id="[Onboarding/Intro/text2]" xml:space="preserve">
+      <trans-unit id="[Onboarding/Intro/text2]" xml:space="preserve" approved="yes">
         <source>There are no ads and no tracking.</source>
-        <target state="needs-translation">There are no ads and no tracking.</target>
+        <target state="final">Nejsou zde žádné reklamy ani monitorování.</target>
         <note>Text in the introductory onboarding screen.</note>
       </trans-unit>
-      <trans-unit id="[Onboarding/Intro/text3]" xml:space="preserve">
+      <trans-unit id="[Onboarding/Intro/text3]" xml:space="preserve" approved="yes">
         <source>We don't know anything about you.</source>
-        <target state="needs-translation">We don't know anything about you.</target>
+        <target state="final">Nic o vás nevíme.</target>
         <note>Text in the introductory onboarding screen.</note>
       </trans-unit>
-      <trans-unit id="[Onboarding/Intro/text4]" xml:space="preserve">
+      <trans-unit id="[Onboarding/Intro/text4]" xml:space="preserve" approved="yes">
         <source>Your data belongs to you.</source>
-        <target state="needs-translation">Your data belongs to you.</target>
+        <target state="final">Vaše data patří vám.</target>
         <note>Text in the introductory onboarding screen.</note>
       </trans-unit>
-      <trans-unit id="[Onboarding/Intro/title]" xml:space="preserve">
+      <trans-unit id="[Onboarding/Intro/title]" xml:space="preserve" approved="yes">
         <source>Welcome</source>
-        <target state="needs-translation">Welcome</target>
+        <target state="final">Vítáme vás</target>
         <note>Title of the introductory onboarding screen.</note>
       </trans-unit>
-      <trans-unit id="[Onboarding/Security/text1]" xml:space="preserve">
+      <trans-unit id="[Onboarding/Security/text1]" xml:space="preserve" approved="yes">
         <source>Your info is encrypted in a safe box (database). Safe boxes are stored in a vault (KeePassium).</source>
-        <target state="needs-translation">Your info is encrypted in a safe box (database). Safe boxes are stored in a vault (KeePassium).</target>
+        <target state="final">Vaše informace jsou zašifrovány v bezpečnostní schránce (databázi). Bezpečnostní schránky jsou uloženy v trezoru (KeePassium).</target>
         <note>Text in the Security intro screen</note>
       </trans-unit>
-      <trans-unit id="[Onboarding/Security/text2]" xml:space="preserve">
+      <trans-unit id="[Onboarding/Security/text2]" xml:space="preserve" approved="yes">
         <source>The vault and safe boxes have different keys and only you will know them.</source>
-        <target state="needs-translation">The vault and safe boxes have different keys and only you will know them.</target>
+        <target state="final">Trezor a bezpečnostní schránky mají různé klíče, které znáte pouze vy.</target>
         <note>Text in the Security intro screen</note>
       </trans-unit>
-      <trans-unit id="[Onboarding/Security/title]" xml:space="preserve">
+      <trans-unit id="[Onboarding/Security/title]" xml:space="preserve" approved="yes">
         <source>Maximum Security</source>
-        <target state="needs-translation">Maximum Security</target>
+        <target state="final">Maximální zabezpečení</target>
         <note>Title of the Security intro screen</note>
       </trans-unit>
-      <trans-unit id="[PasswordAudit/Action/Exclude]" xml:space="preserve">
+      <trans-unit id="[PasswordAudit/Action/Exclude]" xml:space="preserve" approved="yes">
         <source>Exclude From Audit</source>
-        <target state="needs-translation">Exclude From Audit</target>
+        <target state="final">Vyloučit z auditu</target>
         <note>Action to skip selected item/items in future password audits.</note>
       </trans-unit>
-      <trans-unit id="[PasswordAudit/Auditing/status]" xml:space="preserve">
+      <trans-unit id="[PasswordAudit/Auditing/status]" xml:space="preserve" approved="yes">
         <source>Auditing passwords</source>
-        <target state="needs-translation">Auditing passwords</target>
+        <target state="final">Probíhá audit hesel</target>
         <note>Status message: password audit in progress</note>
       </trans-unit>
-      <trans-unit id="[PasswordAudit/Error/text]" xml:space="preserve">
+      <trans-unit id="[PasswordAudit/Error/text]" xml:space="preserve" approved="yes">
         <source>An error occured while communicating with the HIBP service. %@</source>
-        <target state="needs-translation">An error occured while communicating with the HIBP service. %@</target>
+        <target state="final">Při komunikaci se službou HIBP došlo k chybě. %@</target>
         <note>Error message after a failed password audit request [message: String].</note>
       </trans-unit>
-      <trans-unit id="[PasswordAudit/ExposureCount/description]" xml:space="preserve">
+      <trans-unit id="[PasswordAudit/ExposureCount/description]" xml:space="preserve" approved="yes">
         <source>The number shows how many times the password has been found in known data leaks.</source>
-        <target state="needs-translation">The number shows how many times the password has been found in known data leaks.</target>
+        <target state="final">Číslo ukazuje, kolikrát bylo heslo nalezeno ve známých únicích dat.</target>
         <note>Description of the password audit results, where a number appears next to each password.</note>
       </trans-unit>
-      <trans-unit id="[PasswordAudit/Intro/text]" xml:space="preserve">
+      <trans-unit id="[PasswordAudit/Intro/text]" xml:space="preserve" approved="yes">
         <source>Password audit checks your passwords against an online database of leaked passwords in a secure and private way.
 
 KeePassium will send information calculated from your passwords — a kind of a partial checksum — to the [Have I Been Pwned](https://haveibeenpwned.com) service. The service will return detailed information about compromised passwords with similar checksums. The app will then compare the detailed checksums locally on the device and detect which of your passwords are at risk.
 
 Your actual passwords are never shared with the online service.
 [Learn more…](%@)</source>
-        <target state="needs-translation">Password audit checks your passwords against an online database of leaked passwords in a secure and private way.
+        <target state="final">Audit hesel bezpečným a diskrétním způsobem kontroluje hesla vůči online databázi uniklých hesel.
 
-KeePassium will send information calculated from your passwords — a kind of a partial checksum — to the [Have I Been Pwned](https://haveibeenpwned.com) service. The service will return detailed information about compromised passwords with similar checksums. The app will then compare the detailed checksums locally on the device and detect which of your passwords are at risk.
+KeePassium odešle informaci vypočítanou z vašich hesel – něco jako částečný kontrolní součet – službě [Have I Been Pwned](https://haveibeenpwned.com). Služba vrátí podrobné informace o kompromitovaných heslech s podobnými kontrolními součty. Aplikace pak lokálně v zařízení porovná podrobné kontrolní součty a zjistí, která z vašich hesel jsou ohrožena.
 
-Your actual passwords are never shared with the online service.
-[Learn more…](%@)</target>
+Vaše skutečná hesla nejsou s online službou nikdy sdílena.
+[Další informace…](%@)</target>
         <note>Description of the Password Audit function.</note>
       </trans-unit>
-      <trans-unit id="[PasswordAudit/Results/allGood]" xml:space="preserve">
+      <trans-unit id="[PasswordAudit/Results/allGood]" xml:space="preserve" approved="yes">
         <source>Good news! None of your passwords have appeared in known data leaks.</source>
-        <target state="needs-translation">Good news! None of your passwords have appeared in known data leaks.</target>
+        <target state="final">Dobré zprávy! Žádné z vašich hesel se neobjevilo ve známých únicích dat.</target>
         <note>Result of a password audit.</note>
       </trans-unit>
-      <trans-unit id="[PasswordAudit/Results/title]" xml:space="preserve">
+      <trans-unit id="[PasswordAudit/Results/title]" xml:space="preserve" approved="yes">
         <source>Compromised Passwords</source>
-        <target state="needs-translation">Compromised Passwords</target>
+        <target state="final">Kompromitovaná hesla</target>
         <note>Title of a list with passwords that are known to have been exposed in online breaches.</note>
       </trans-unit>
-      <trans-unit id="[PasswordAudit/Start/action]" xml:space="preserve">
+      <trans-unit id="[PasswordAudit/Start/action]" xml:space="preserve" approved="yes">
         <source>Start Audit</source>
-        <target state="needs-translation">Start Audit</target>
+        <target state="final">Zahájit audit</target>
         <note>Action/button: intiate password audit</note>
       </trans-unit>
-      <trans-unit id="[PasswordAudit/title]" xml:space="preserve">
+      <trans-unit id="[PasswordAudit/title]" xml:space="preserve" approved="yes">
         <source>Password Audit</source>
-        <target state="needs-translation">Password Audit</target>
+        <target state="final">Audit hesel</target>
         <note>Title of a screen to check which passwords are known to be compromised.</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/Wordlist/Import/menuAction]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/Wordlist/Import/menuAction]" xml:space="preserve" approved="yes">
         <source>Import Wordlist…</source>
-        <target state="needs-translation">Import Wordlist…</target>
+        <target state="final">Importovat seznam slov…</target>
         <note>Menu action to add a user-provided word list file to the app.</note>
       </trans-unit>
-      <trans-unit id="[PasswordQuality/LevelWithApproximateEntropy/description]" xml:space="preserve">
+      <trans-unit id="[PasswordQuality/LevelWithApproximateEntropy/description]" xml:space="preserve" approved="yes">
         <source>%1$@ (~%2$@ of entropy)</source>
-        <target state="needs-translation">%1$@ (~%2$@ of entropy)</target>
+        <target state="final">%1$@ (~%2$@ entropie)</target>
         <note>Password quality description. Note the tilda that refers to an estimated/approximate value. For example: `Very good (~123 bits of entropy)`. [level: String, formattedBitCount: String]</note>
       </trans-unit>
-      <trans-unit id="[PasswordQuality/LevelWithEntropy/description]" xml:space="preserve">
+      <trans-unit id="[PasswordQuality/LevelWithEntropy/description]" xml:space="preserve" approved="yes">
         <source>%1$@ (%2$@ of entropy)</source>
-        <target state="needs-translation">%1$@ (%2$@ of entropy)</target>
+        <target state="final">%1$@ (%2$@ entropie)</target>
         <note>Password quality description. For example: `Very good (234 bits of entropy)`. [level: String, formattedBitCount: String]</note>
       </trans-unit>
-      <trans-unit id="[PasswordQuality/Level] Good" xml:space="preserve">
+      <trans-unit id="[PasswordQuality/Level] Good" xml:space="preserve" approved="yes">
         <source>Good</source>
-        <target state="needs-translation">Good</target>
+        <target state="final">Dobré</target>
         <note>Good password quality</note>
       </trans-unit>
-      <trans-unit id="[PasswordQuality/Level] Very good" xml:space="preserve">
+      <trans-unit id="[PasswordQuality/Level] Very good" xml:space="preserve" approved="yes">
         <source>Very good</source>
-        <target state="needs-translation">Very good</target>
+        <target state="final">Velmi dobré</target>
         <note>Very good password quality</note>
       </trans-unit>
-      <trans-unit id="[PasswordQuality/Level] Very weak" xml:space="preserve">
+      <trans-unit id="[PasswordQuality/Level] Very weak" xml:space="preserve" approved="yes">
         <source>Very weak</source>
-        <target state="needs-translation">Very weak</target>
+        <target state="final">Velmi slabé</target>
         <note>Very weak password quality</note>
       </trans-unit>
-      <trans-unit id="[PasswordQuality/Level] Weak" xml:space="preserve">
+      <trans-unit id="[PasswordQuality/Level] Weak" xml:space="preserve" approved="yes">
         <source>Weak</source>
-        <target state="needs-translation">Weak</target>
+        <target state="final">Slabé</target>
         <note>Weak password quality</note>
       </trans-unit>
-      <trans-unit id="[PasswordQuality/description]" xml:space="preserve">
+      <trans-unit id="[PasswordQuality/description]" xml:space="preserve" approved="yes">
         <source>Password quality: %@</source>
-        <target state="needs-translation">Password quality: %@</target>
+        <target state="final">Kvalita hesla: %@</target>
         <note>Password quality description. For example: `Password quality: Weak`. [level: String]</note>
       </trans-unit>
       <trans-unit id="[ProtectedTextField] Show Password" xml:space="preserve">
@@ -1221,69 +1221,69 @@ Your actual passwords are never shared with the online service.
         <target state="translated">Ukázat heslo</target>
         <note>Action/button to make password visible as plain-text</note>
       </trans-unit>
-      <trans-unit id="[Selection/Delete/confirmation]" xml:space="preserve">
+      <trans-unit id="[Selection/Delete/confirmation]" xml:space="preserve" approved="yes">
         <source>Delete selection?</source>
-        <target state="needs-translation">Delete selection?</target>
+        <target state="final">Odstranit výběr?</target>
         <note>Title of the confirmation dialog for `Delete` action for several items</note>
       </trans-unit>
-      <trans-unit id="[Selection/ExcludeFromAudit/confirmation]" xml:space="preserve">
+      <trans-unit id="[Selection/ExcludeFromAudit/confirmation]" xml:space="preserve" approved="yes">
         <source>Exclude selection from password audit?</source>
-        <target state="needs-translation">Exclude selection from password audit?</target>
+        <target state="final">Vyloučit výběr z auditu hesel?</target>
         <note>Title of the confirmation dialog for `Exclude from audit` action for several items</note>
       </trans-unit>
-      <trans-unit id="[Tags/Create/action]" xml:space="preserve">
+      <trans-unit id="[Tags/Create/action]" xml:space="preserve" approved="yes">
         <source>Create Tag</source>
-        <target state="needs-translation">Create Tag</target>
+        <target state="final">Vytvořit štítek</target>
         <note>Action/button to create a new item tag</note>
       </trans-unit>
-      <trans-unit id="[Tags/Create/placeholder]" xml:space="preserve">
+      <trans-unit id="[Tags/Create/placeholder]" xml:space="preserve" approved="yes">
         <source>Enter tag name</source>
-        <target state="needs-translation">Enter tag name</target>
+        <target state="final">Zadejte název štítku</target>
         <note>Call to action/hint inside a text input</note>
       </trans-unit>
-      <trans-unit id="[Tags/Create/title]" xml:space="preserve">
+      <trans-unit id="[Tags/Create/title]" xml:space="preserve" approved="yes">
         <source>New Tag</source>
-        <target state="needs-translation">New Tag</target>
+        <target state="final">Nový štítek</target>
         <note>Title of the tag creation dialog</note>
       </trans-unit>
-      <trans-unit id="[Tags/Delete/Confirm/message]" xml:space="preserve">
+      <trans-unit id="[Tags/Delete/Confirm/message]" xml:space="preserve" approved="yes">
         <source>Delete this tag from all groups and entries?</source>
-        <target state="needs-translation">Delete this tag from all groups and entries?</target>
+        <target state="final">Odstranit tento štítek ze všech skupin a záznamů?</target>
         <note>Question to confirm global deletion</note>
       </trans-unit>
-      <trans-unit id="[Tags/Edit/title]" xml:space="preserve">
+      <trans-unit id="[Tags/Edit/title]" xml:space="preserve" approved="yes">
         <source>Edit Tag</source>
-        <target state="needs-translation">Edit Tag</target>
+        <target state="final">Upravit štítek</target>
         <note>Title of a dialog for editing a tag</note>
       </trans-unit>
-      <trans-unit id="[Tags/None/placeholder]" xml:space="preserve">
+      <trans-unit id="[Tags/None/placeholder]" xml:space="preserve" approved="yes">
         <source>There are no tags in the database, add some.</source>
-        <target state="needs-translation">There are no tags in the database, add some.</target>
+        <target state="final">V databázi nejsou žádné štítky. Přidejte je.</target>
         <note>Status message with a call to action</note>
       </trans-unit>
-      <trans-unit id="[Tags/Search/emptyResult]" xml:space="preserve">
+      <trans-unit id="[Tags/Search/emptyResult]" xml:space="preserve" approved="yes">
         <source>No suitable tags found.</source>
-        <target state="needs-translation">No suitable tags found.</target>
+        <target state="final">Nebyly nalezeny žádné vhodné štítky.</target>
         <note>Status message: tag search result is empty</note>
       </trans-unit>
-      <trans-unit id="[Tags/Section/All]" xml:space="preserve">
+      <trans-unit id="[Tags/Section/All]" xml:space="preserve" approved="yes">
         <source>All Tags</source>
-        <target state="needs-translation">All Tags</target>
+        <target state="final">Všechny štítky</target>
         <note>Title of a list with all the tags existing in the database.</note>
       </trans-unit>
-      <trans-unit id="[Tags/Section/Inherited]" xml:space="preserve">
+      <trans-unit id="[Tags/Section/Inherited]" xml:space="preserve" approved="yes">
         <source>Inherited Tags</source>
-        <target state="needs-translation">Inherited Tags</target>
+        <target state="final">Převzaté štítky</target>
         <note>Title of a list with tags used by parent groups.</note>
       </trans-unit>
-      <trans-unit id="[Tags/Section/Selected]" xml:space="preserve">
+      <trans-unit id="[Tags/Section/Selected]" xml:space="preserve" approved="yes">
         <source>Selected Tags</source>
-        <target state="needs-translation">Selected Tags</target>
+        <target state="final">Vybrané štítky</target>
         <note>Title of a list with tags chosen by the user for a specific entry or group.</note>
       </trans-unit>
-      <trans-unit id="[Tags/UsageCount/title]" xml:space="preserve">
+      <trans-unit id="[Tags/UsageCount/title]" xml:space="preserve" approved="yes">
         <source>Usage count</source>
-        <target state="needs-translation">Usage count</target>
+        <target state="final">Počet použití</target>
         <note>Title: the number of times a tag is encountered in the database.</note>
       </trans-unit>
     </body>
@@ -1428,9 +1428,9 @@ Your actual passwords are never shared with the online service.
         <target state="translated">Linecons by Andrian Valeanu</target>
         <note>Class = "UILabel"; text = "Linecons by Andrian Valeanu"; ObjectID = "SOX-Re-yl9";</note>
       </trans-unit>
-      <trans-unit id="SUh-L1-IvF.text" xml:space="preserve">
+      <trans-unit id="SUh-L1-IvF.text" xml:space="preserve" approved="yes">
         <source>zxcvbn-ios by Dropbox</source>
-        <target state="needs-translation">zxcvbn-ios by Dropbox</target>
+        <target state="final">zxcvbn-ios od Dropboxu</target>
         <note>Class = "UILabel"; text = "zxcvbn-ios by Dropbox"; ObjectID = "SUh-L1-IvF";</note>
       </trans-unit>
       <trans-unit id="TOl-DA-gYc.text" xml:space="preserve">
@@ -1523,9 +1523,9 @@ Your actual passwords are never shared with the online service.
         <target state="needs-translation">{info@keepassium.com}</target>
         <note>Class = "UILabel"; text = "{info@keepassium.com}"; ObjectID = "kae-Kb-5ZU"; Note = "#bc-ignore!";</note>
       </trans-unit>
-      <trans-unit id="kvO-9B-1Sy.text" xml:space="preserve">
+      <trans-unit id="kvO-9B-1Sy.text" xml:space="preserve" approved="yes">
         <source>Passphrase wordlists by EFF</source>
-        <target state="needs-translation">Passphrase wordlists by EFF</target>
+        <target state="final">Seznam přístupových frází od EFF</target>
         <note>Class = "UILabel"; text = "Passphrase wordlists by EFF"; ObjectID = "kvO-9B-1Sy";</note>
       </trans-unit>
       <trans-unit id="lht-LP-o0Y.text" xml:space="preserve">
@@ -1588,9 +1588,9 @@ Your actual passwords are never shared with the online service.
         <target state="translated">System settings icon by Vicons Design</target>
         <note>Class = "UILabel"; text = "System settings icon by Vicons Design"; ObjectID = "wYr-Ya-qAP";</note>
       </trans-unit>
-      <trans-unit id="y9Z-rr-JL8.text" xml:space="preserve">
+      <trans-unit id="y9Z-rr-JL8.text" xml:space="preserve" approved="yes">
         <source>SwiftDomainParser by Dashlane</source>
-        <target state="needs-translation">SwiftDomainParser by Dashlane</target>
+        <target state="final">SwiftDomainParser od Dashlane</target>
         <note>Class = "UILabel"; text = "SwiftDomainParser by Dashlane"; ObjectID = "y9Z-rr-JL8";</note>
       </trans-unit>
     </body>
@@ -2053,9 +2053,9 @@ Your actual passwords are never shared with the online service.
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.3" build-num="15E204a"/>
     </header>
     <body>
-      <trans-unit id="1LC-s7-Kdl.text" xml:space="preserve">
+      <trans-unit id="1LC-s7-Kdl.text" xml:space="preserve" approved="yes">
         <source>Search in Passwords</source>
-        <target state="needs-translation">Search in Passwords</target>
+        <target state="final">Hledat v heslech</target>
         <note>Class = "UILabel"; text = "Search in Passwords"; ObjectID = "1LC-s7-Kdl"; Note = "An switch in settings: whether to include protected field values in search procedure.";</note>
       </trans-unit>
       <trans-unit id="DJr-hC-DMT.footerTitle" xml:space="preserve">
@@ -2150,9 +2150,9 @@ Your actual passwords are never shared with the online service.
         <target state="translated">Záloha</target>
         <note>Class = "UITableViewSection"; headerTitle = "Backup"; ObjectID = "HjD-9G-X8p";</note>
       </trans-unit>
-      <trans-unit id="K9j-xG-abD.headerTitle" xml:space="preserve">
+      <trans-unit id="K9j-xG-abD.headerTitle" xml:space="preserve" approved="yes">
         <source>Network Access</source>
-        <target state="needs-translation">Network Access</target>
+        <target state="final">Přístup k síti</target>
         <note>Class = "UITableViewSection"; headerTitle = "Network Access"; ObjectID = "K9j-xG-abD";</note>
       </trans-unit>
       <trans-unit id="LHz-DF-ZST.text" xml:space="preserve" translate="no">

@@ -166,14 +166,14 @@ Por favor, entre em contato conosco se precisar de ajuda com isto.</target>
         <target state="translated">Permitir preenchimento de:</target>
         <note>Must match Apple's translation, as found in iOS 15 Settings → Passwords → AutoFill Passwords. If unsure, leave untranslated.</note>
       </trans-unit>
-      <trans-unit id="[AutoFill/Setup/UncheckKeychain/callToAction]" xml:space="preserve">
+      <trans-unit id="[AutoFill/Setup/UncheckKeychain/callToAction]" xml:space="preserve" approved="yes">
         <source>Uncheck Keychain</source>
-        <target state="needs-translation">Uncheck Keychain</target>
+        <target state="final">Desmarcar Keychain</target>
         <note>Call to action: deselect the `Keychain` option. Keychain is a glossary term.</note>
       </trans-unit>
-      <trans-unit id="[AutoFill/Setup/UncheckKeychain/message]" xml:space="preserve">
+      <trans-unit id="[AutoFill/Setup/UncheckKeychain/message]" xml:space="preserve" approved="yes">
         <source>To make KeePassium your default password manager, uncheck Keychain.</source>
-        <target state="needs-translation">To make KeePassium your default password manager, uncheck Keychain.</target>
+        <target state="final">Para tornar o KeePassium seu gerenciador de senhas padrão, desmarque o Keychain.</target>
         <note>Instruction to deselect the `Keychain` option. Keychain is a glossary term.</note>
       </trans-unit>
       <trans-unit id="[AutoFill/Setup/UncheckKeychain/usePasswordsAndPasskeysFrom]" xml:space="preserve">
@@ -560,10 +560,10 @@ Como resultado, tanto o Preenchimento Automático quanto o app principal do KeeP
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.3" build-num="15E204a"/>
     </header>
     <body>
-      <trans-unit id="0pb-xb-fuf.text" xml:space="preserve">
-        <source>In-memory Protection</source>
-        <target state="translated">Proteger na memória</target>
-        <note>Class = "UILabel"; text = "In-memory Protection"; ObjectID = "0pb-xb-fuf"; Note = "Label for a switch, equivalent to KeePass' own `Enable in-memory protection` for custom entry fields.";</note>
+      <trans-unit id="0pb-xb-fuf.text" xml:space="preserve" translate="no">
+        <source>{Protected Field}</source>
+        <target state="needs-translation">{Protected Field}</target>
+        <note>Class = "UILabel"; text = "{Protected Field}"; ObjectID = "0pb-xb-fuf";</note>
       </trans-unit>
       <trans-unit id="1Nq-zk-w7B.normalTitle" xml:space="preserve" translate="no">
         <source>{Set up OTP}</source>
@@ -1046,14 +1046,14 @@ Como resultado, tanto o Preenchimento Automático quanto o app principal do KeeP
         <target state="translated">Ativar Preenchimento Automático</target>
         <note>Action/button to set up the Password AutoFill feature. Not a call to action.</note>
       </trans-unit>
-      <trans-unit id="[Onboarding/AutoFill/text1]" xml:space="preserve">
+      <trans-unit id="[Onboarding/AutoFill/text1]" xml:space="preserve" approved="yes">
         <source>With AutoFill you can breeze through sign-in pages with a single button press.</source>
-        <target state="needs-translation">With AutoFill you can breeze through sign-in pages with a single button press.</target>
+        <target state="final">Com o Preenchimento automático, você poderá abrir páginas de login com um único pressionar de botão.</target>
         <note>Text in the Password AutoFill onboarding screen.</note>
       </trans-unit>
-      <trans-unit id="[Onboarding/AutoFill/text2]" xml:space="preserve">
+      <trans-unit id="[Onboarding/AutoFill/text2]" xml:space="preserve" approved="yes">
         <source>To start, activate Password AutoFill in system settings.</source>
-        <target state="needs-translation">To start, activate Password AutoFill in system settings.</target>
+        <target state="final">Para iniciar, ative o Preenchimento Automático de Senha nas configurações do sistema.</target>
         <note>Text in the Password AutoFill onboarding screen.</note>
       </trans-unit>
       <trans-unit id="[Onboarding/AutoFill/title]" xml:space="preserve" approved="yes">

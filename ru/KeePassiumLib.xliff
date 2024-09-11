@@ -50,6 +50,16 @@
         <target state="translated">Нажмите дважды, чтобы скопировать в буфер обмена</target>
         <note>Suggestion/hint for available user action</note>
       </trans-unit>
+      <trans-unit id="[App/ResetEverything/action]" xml:space="preserve">
+        <source>Reset</source>
+        <target state="translated">Сбросить</target>
+        <note>Action which resets the app as if it was just installed.</note>
+      </trans-unit>
+      <trans-unit id="[App/ResetEverything/title]" xml:space="preserve">
+        <source>Reset the app?</source>
+        <target state="translated">Сбросить приложение?</target>
+        <note>Confirmation message before resetting the app to just-installed state.</note>
+      </trans-unit>
       <trans-unit id="[AppLock/Biometric/Hint] Unlock KeePassium" xml:space="preserve" approved="yes">
         <source>Unlock KeePassium</source>
         <target state="final">Открыть KeePassium</target>
@@ -364,6 +374,26 @@ Icons updated: %2$d</source>
         <target state="translated">Эта запись указывает на другую базу паролей.</target>
         <note>Info message for entries that contain information for opening a different database.</note>
       </trans-unit>
+      <trans-unit id="[Database/ExternalChange/Status/checkInProgress]" xml:space="preserve">
+        <source>Checking for changes…</source>
+        <target state="translated">Проверка на изменения…</target>
+        <note>Status message: checking if currently loaded database is the latest version</note>
+      </trans-unit>
+      <trans-unit id="[Database/ExternalChange/Status/failed]" xml:space="preserve">
+        <source>Refresh failed</source>
+        <target state="translated">Обновить не удалось</target>
+        <note>Status message: failed to check if currently loaded database is the latest version</note>
+      </trans-unit>
+      <trans-unit id="[Database/ExternalChange/Status/upToDate]" xml:space="preserve">
+        <source>Up to date</source>
+        <target state="translated">Последняя версия</target>
+        <note>Status message: currently loaded database is the latest version</note>
+      </trans-unit>
+      <trans-unit id="[Database/ExternalChange/notification]" xml:space="preserve">
+        <source>Database file has changed. Reload?</source>
+        <target state="translated">Файл базы был изменён извне. Обновить?</target>
+        <note>Notification message about external changes to the loaded file.</note>
+      </trans-unit>
       <trans-unit id="[Database/FormatVersion/Conversion/allDataPreserved]" xml:space="preserve">
         <source>All your data will be preserved.</source>
         <target state="translated">Все ваши данные будут сохранены.</target>
@@ -617,6 +647,26 @@ This is its latest local copy.</source>
         <source>Consider File Unreachable</source>
         <target state="translated">Считать файл недоступным</target>
         <note>File settings parameter: time after which file will be considered unreachable. Example: `Consider File Unreachable: in 10 seconds`.)</note>
+      </trans-unit>
+      <trans-unit id="[Database/Settings/ExternalChanges/dontCheck]" xml:space="preserve">
+        <source>Don't check</source>
+        <target state="translated">Не проверять</target>
+        <note>File settings parameter: what to do when file was changed by another app/device. (For example: `Database Modified Externally: Don't check`)</note>
+      </trans-unit>
+      <trans-unit id="[Database/Settings/ExternalChanges/notify]" xml:space="preserve">
+        <source>Notify</source>
+        <target state="translated">Уведомить</target>
+        <note>File settings parameter: what to do when file was changed by another app/device. (For example: `Database Modified Externally: Notify`)</note>
+      </trans-unit>
+      <trans-unit id="[Database/Settings/ExternalChanges/reload]" xml:space="preserve">
+        <source>Reload Automatically</source>
+        <target state="translated">Автоматически перезагрузить</target>
+        <note>File settings parameter: what to do when file was changed by another app/device. (For example: `Database Modified Externally: Reload Automatically`)</note>
+      </trans-unit>
+      <trans-unit id="[Database/Settings/ExternalChanges/title]" xml:space="preserve">
+        <source>Database Modified Externally</source>
+        <target state="translated">Сторонние изменения базы</target>
+        <note>File settings parameter: what to do when file was changed by another app/device. (For example: `Database Modified Externally: Notify`)</note>
       </trans-unit>
       <trans-unit id="[Database/Settings/FallbackStrategy/ReAddFile/title]" xml:space="preserve">
         <source>Re-add File</source>
@@ -1078,6 +1128,11 @@ Please make sure to have a backup of your database before changing anything.</so
         <source>Show in Large Type</source>
         <target state="translated">Показать крупным шрифтом</target>
         <note>Action: display text using large font</note>
+      </trans-unit>
+      <trans-unit id="[Entry/Field/Protected/title]" xml:space="preserve">
+        <source>Protected Field</source>
+        <target state="translated">Защищённое поле</target>
+        <note>Title of a setting: whether the entry's field is protected (shown as asterisks).</note>
       </trans-unit>
       <trans-unit id="[Entry/Field/name] Icon" xml:space="preserve">
         <source>Icon</source>
@@ -1619,6 +1674,11 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="translated">Инструменты</target>
         <note>Title of a menu with various utilities</note>
       </trans-unit>
+      <trans-unit id="[Generic/ViewHelpArticle/action]" xml:space="preserve">
+        <source>View help article</source>
+        <target state="translated">Посмотреть помощь</target>
+        <note>Action/button to open an online support article (about a specific error)</note>
+      </trans-unit>
       <trans-unit id="[Generic/ViewOptions/title]" xml:space="preserve">
         <source>View Options</source>
         <target state="translated">Параметры вида</target>
@@ -1834,6 +1894,16 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="translated">Окончательно удалить всё в Корзине?</target>
         <note>Title of the confirmation dialog for `Empty Recycle Bin` action</note>
       </trans-unit>
+      <trans-unit id="[Group/Section/Entries/title]" xml:space="preserve" approved="yes">
+        <source>Entries</source>
+        <target state="final">Записи</target>
+        <note>Title of the Entries section visible while editing</note>
+      </trans-unit>
+      <trans-unit id="[Group/Section/Groups/title]" xml:space="preserve" approved="yes">
+        <source>Groups</source>
+        <target state="final">Группы</target>
+        <note>Title of the Groups section visible while editing</note>
+      </trans-unit>
       <trans-unit id="[Group/Smart/Create/action]" xml:space="preserve">
         <source>Create Smart Group</source>
         <target state="translated">Создать смарт-группу</target>
@@ -1843,6 +1913,21 @@ Please make sure to have a backup of your database before changing anything.</so
         <source>New Smart Group</source>
         <target state="translated">Новая смарт-группа</target>
         <note>Default name of a new smart group</note>
+      </trans-unit>
+      <trans-unit id="[Group/Smart/Preset/allEntries]" xml:space="preserve" approved="yes">
+        <source>All Entries</source>
+        <target state="final">Все записи</target>
+        <note>Title of a list: all entries in the database</note>
+      </trans-unit>
+      <trans-unit id="[Group/Smart/Preset/expiredEntries]" xml:space="preserve">
+        <source>Expired Entries</source>
+        <target state="translated">Устаревшие записи</target>
+        <note>Title of a list: entries that are beyond their expiration date.</note>
+      </trans-unit>
+      <trans-unit id="[Group/Smart/Preset/otpEntries]" xml:space="preserve">
+        <source>Entries with OTP</source>
+        <target state="translated">Записи с OTP</target>
+        <note>Title of a list: entries with one-time passwords (OTP)</note>
       </trans-unit>
       <trans-unit id="[Group/Smart/Query/title]" xml:space="preserve">
         <source>Smart Group Filter</source>
@@ -3124,6 +3209,11 @@ This can happen with larger databases or too ambitious database settings (Argon2
         <source>List Settings</source>
         <target state="final">Вид списка</target>
         <note>Title of list view configuration screen</note>
+      </trans-unit>
+      <trans-unit id="[Settings/Managed/BlockedFeature/notification]" xml:space="preserve">
+        <source>This feature is blocked by your organization.</source>
+        <target state="translated">Эта функция заблокирована вашей организацией.</target>
+        <note>Notification when corporate user tries to use a feature forbidden by organization's IT department.</note>
       </trans-unit>
       <trans-unit id="[Settings/Managed/notification]" xml:space="preserve">
         <source>This setting is managed by your organization.</source>

@@ -50,6 +50,16 @@
         <target state="translated">双击复制到剪贴板</target>
         <note>Suggestion/hint for available user action</note>
       </trans-unit>
+      <trans-unit id="[App/ResetEverything/action]" xml:space="preserve" approved="yes">
+        <source>Reset</source>
+        <target state="final">重置</target>
+        <note>Action which resets the app as if it was just installed.</note>
+      </trans-unit>
+      <trans-unit id="[App/ResetEverything/title]" xml:space="preserve" approved="yes">
+        <source>Reset the app?</source>
+        <target state="final">是否重置应用？</target>
+        <note>Confirmation message before resetting the app to just-installed state.</note>
+      </trans-unit>
       <trans-unit id="[AppLock/Biometric/Hint] Unlock KeePassium" xml:space="preserve">
         <source>Unlock KeePassium</source>
         <target state="translated">解锁 KeePassium</target>
@@ -359,10 +369,30 @@ Icons updated: %2$d</source>
         <target state="translated">加密设置</target>
         <note>Title: database encryption settings.</note>
       </trans-unit>
-      <trans-unit id="[Database/Entry/LinkedDatabase/message]" xml:space="preserve">
+      <trans-unit id="[Database/Entry/LinkedDatabase/message]" xml:space="preserve" approved="yes">
         <source>This entry points to another database.</source>
-        <target state="needs-translation">This entry points to another database.</target>
+        <target state="final">此条目指向其他数据库。</target>
         <note>Info message for entries that contain information for opening a different database.</note>
+      </trans-unit>
+      <trans-unit id="[Database/ExternalChange/Status/checkInProgress]" xml:space="preserve" approved="yes">
+        <source>Checking for changes…</source>
+        <target state="final">正在检查更改…</target>
+        <note>Status message: checking if currently loaded database is the latest version</note>
+      </trans-unit>
+      <trans-unit id="[Database/ExternalChange/Status/failed]" xml:space="preserve" approved="yes">
+        <source>Refresh failed</source>
+        <target state="final">刷新失败</target>
+        <note>Status message: failed to check if currently loaded database is the latest version</note>
+      </trans-unit>
+      <trans-unit id="[Database/ExternalChange/Status/upToDate]" xml:space="preserve" approved="yes">
+        <source>Up to date</source>
+        <target state="final">最新</target>
+        <note>Status message: currently loaded database is the latest version</note>
+      </trans-unit>
+      <trans-unit id="[Database/ExternalChange/notification]" xml:space="preserve" approved="yes">
+        <source>Database file has changed. Reload?</source>
+        <target state="final">数据库文件已更改。是否重新载入？</target>
+        <note>Notification message about external changes to the loaded file.</note>
       </trans-unit>
       <trans-unit id="[Database/FormatVersion/Conversion/allDataPreserved]" xml:space="preserve">
         <source>All your data will be preserved.</source>
@@ -394,9 +424,9 @@ Icons updated: %2$d</source>
         <target state="translated">这是旧版的数据库格式，有些数据可能会丢失。</target>
         <note>Notification when user tries to copy data from KDBX to older KDB database.</note>
       </trans-unit>
-      <trans-unit id="[Database/List/LocalMissing/message]" xml:space="preserve">
+      <trans-unit id="[Database/List/LocalMissing/message]" xml:space="preserve" approved="yes">
         <source>If some local files are not listed, launch the main KeePassium app first.</source>
-        <target state="needs-translation">If some local files are not listed, launch the main KeePassium app first.</target>
+        <target state="final">如果未列出某些本地文件，请先启动 KeePassium 主应用。</target>
         <note>Recommendation for solving a problem with a list of files.</note>
       </trans-unit>
       <trans-unit id="[Database/List/title]" xml:space="preserve">
@@ -486,9 +516,9 @@ This is its latest local copy.</source>
         <target state="translated">主密码</target>
         <note>Glossary term: noun, a master key for encrypting the database</note>
       </trans-unit>
-      <trans-unit id="[Database/New/title]" xml:space="preserve">
+      <trans-unit id="[Database/New/title]" xml:space="preserve" approved="yes">
         <source>New Database</source>
-        <target state="needs-translation">New Database</target>
+        <target state="final">新建数据库</target>
         <note>Title of database creation dialog</note>
       </trans-unit>
       <trans-unit id="[Database/Open/action] Open Database" xml:space="preserve">
@@ -531,9 +561,9 @@ This is its latest local copy.</source>
         <target state="translated">正在准备预览...</target>
         <note>Status message: preparing database print preview.</note>
       </trans-unit>
-      <trans-unit id="[Database/Progress/checkingDatabaseForModifications]" xml:space="preserve">
+      <trans-unit id="[Database/Progress/checkingDatabaseForModifications]" xml:space="preserve" approved="yes">
         <source>Checking database for modifications…</source>
-        <target state="needs-translation">Checking database for modifications…</target>
+        <target state="final">正在检查数据库的修改…</target>
         <note>Database loading/saving status: checking whether our database was modified from another device.</note>
       </trans-unit>
       <trans-unit id="[Database/Progress/downloading]" xml:space="preserve">
@@ -551,9 +581,9 @@ This is its latest local copy.</source>
         <target state="translated">正在解析字段引用…</target>
         <note>Database loading/saving status: replacing field references with their values</note>
       </trans-unit>
-      <trans-unit id="[Database/Progress/resolvingSyncConflict]" xml:space="preserve">
+      <trans-unit id="[Database/Progress/resolvingSyncConflict]" xml:space="preserve" approved="yes">
         <source>Resolving a sync conflict…</source>
-        <target state="needs-translation">Resolving a sync conflict…</target>
+        <target state="final">正在解决同步冲突…</target>
         <note>Database saving status: deciding how to handle conflicting changes.</note>
       </trans-unit>
       <trans-unit id="[Database/Progress/resolving]" xml:space="preserve">
@@ -561,9 +591,9 @@ This is its latest local copy.</source>
         <target state="translated">正在联系存储提供商...</target>
         <note>Progress status</note>
       </trans-unit>
-      <trans-unit id="[Database/Progress/writingDatabaseFile]" xml:space="preserve">
+      <trans-unit id="[Database/Progress/writingDatabaseFile]" xml:space="preserve" approved="yes">
         <source>Writing database file…</source>
-        <target state="needs-translation">Writing database file…</target>
+        <target state="final">正在写入数据库文件…</target>
         <note>Database saving status</note>
       </trans-unit>
       <trans-unit id="[Database/Progress] Done" xml:space="preserve">
@@ -617,6 +647,26 @@ This is its latest local copy.</source>
         <source>Consider File Unreachable</source>
         <target state="translated">无法访问文件</target>
         <note>File settings parameter: time after which file will be considered unreachable. Example: `Consider File Unreachable: in 10 seconds`.)</note>
+      </trans-unit>
+      <trans-unit id="[Database/Settings/ExternalChanges/dontCheck]" xml:space="preserve" approved="yes">
+        <source>Don't check</source>
+        <target state="final">不检查</target>
+        <note>File settings parameter: what to do when file was changed by another app/device. (For example: `Database Modified Externally: Don't check`)</note>
+      </trans-unit>
+      <trans-unit id="[Database/Settings/ExternalChanges/notify]" xml:space="preserve" approved="yes">
+        <source>Notify</source>
+        <target state="final">通知</target>
+        <note>File settings parameter: what to do when file was changed by another app/device. (For example: `Database Modified Externally: Notify`)</note>
+      </trans-unit>
+      <trans-unit id="[Database/Settings/ExternalChanges/reload]" xml:space="preserve" approved="yes">
+        <source>Reload Automatically</source>
+        <target state="final">自动重新加载</target>
+        <note>File settings parameter: what to do when file was changed by another app/device. (For example: `Database Modified Externally: Reload Automatically`)</note>
+      </trans-unit>
+      <trans-unit id="[Database/Settings/ExternalChanges/title]" xml:space="preserve" approved="yes">
+        <source>Database Modified Externally</source>
+        <target state="final">外部修改的数据库</target>
+        <note>File settings parameter: what to do when file was changed by another app/device. (For example: `Database Modified Externally: Notify`)</note>
       </trans-unit>
       <trans-unit id="[Database/Settings/FallbackStrategy/ReAddFile/title]" xml:space="preserve">
         <source>Re-add File</source>
@@ -1079,6 +1129,11 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="translated">以大号字体显示</target>
         <note>Action: display text using large font</note>
       </trans-unit>
+      <trans-unit id="[Entry/Field/Protected/title]" xml:space="preserve" approved="yes">
+        <source>Protected Field</source>
+        <target state="final">受保护字段</target>
+        <note>Title of a setting: whether the entry's field is protected (shown as asterisks).</note>
+      </trans-unit>
       <trans-unit id="[Entry/Field/name] Icon" xml:space="preserve">
         <source>Icon</source>
         <target state="translated">图标</target>
@@ -1144,9 +1199,9 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="translated">最后修改日期</target>
         <note>Title of a field with entry's last modification date and time</note>
       </trans-unit>
-      <trans-unit id="[Entry/History] Modification Date" xml:space="preserve">
+      <trans-unit id="[Entry/History] Modification Date" xml:space="preserve" approved="yes">
         <source>Modification Date</source>
-        <target state="needs-translation">Modification Date</target>
+        <target state="final">修改日期</target>
         <note>Title of a field with entry's modification date and time</note>
       </trans-unit>
       <trans-unit id="[Entry/History] Previous Versions" xml:space="preserve">
@@ -1264,19 +1319,19 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="translated">KeePassium内部错误，请告诉我们。</target>
         <note>Error message shown when there's internal inconsistency in KeePassium.</note>
       </trans-unit>
-      <trans-unit id="[FileInfo/Attributes/Hidden/title]" xml:space="preserve">
+      <trans-unit id="[FileInfo/Attributes/Hidden/title]" xml:space="preserve" approved="yes">
         <source>Hidden</source>
-        <target state="needs-translation">Hidden</target>
+        <target state="final">隐藏</target>
         <note>Title of a setting: is the file hidden</note>
       </trans-unit>
-      <trans-unit id="[FileInfo/Attributes/Hidden/warning]" xml:space="preserve">
+      <trans-unit id="[FileInfo/Attributes/Hidden/warning]" xml:space="preserve" approved="yes">
         <source>Hidden files are less visible to a casual user, but don't improve data security.</source>
-        <target state="needs-translation">Hidden files are less visible to a casual user, but don't improve data security.</target>
+        <target state="final">对于普通用户来说，隐藏文件的可见度较低，但并不能提高数据的安全性。</target>
         <note>Warning message for 'hidden' files.</note>
       </trans-unit>
-      <trans-unit id="[FileInfo/Attributes/header]" xml:space="preserve">
+      <trans-unit id="[FileInfo/Attributes/header]" xml:space="preserve" approved="yes">
         <source>File Attributes</source>
-        <target state="needs-translation">File Attributes</target>
+        <target state="final">文件属性</target>
         <note>Section header for attributes of a file (e.g. hidden, excluded from backup, etc)</note>
       </trans-unit>
       <trans-unit id="[FileInfo/Backup/header]" xml:space="preserve">
@@ -1519,9 +1574,9 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="translated">文件夹为空</target>
         <note>Placeholder for folders without files</note>
       </trans-unit>
-      <trans-unit id="[Generic/Action/ReorderItems]" xml:space="preserve">
+      <trans-unit id="[Generic/Action/ReorderItems]" xml:space="preserve" approved="yes">
         <source>Reorder</source>
-        <target state="needs-translation">Reorder</target>
+        <target state="final">重新排序</target>
         <note>Action/button to change the order of items in a list (move them higher/lower).</note>
       </trans-unit>
       <trans-unit id="[Generic/Action/SelectItems]" xml:space="preserve">
@@ -1614,10 +1669,15 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="translated">搜索​​​​</target>
         <note>Title of a search field (a noun, not verb)</note>
       </trans-unit>
-      <trans-unit id="[Generic/Tools/title]" xml:space="preserve">
+      <trans-unit id="[Generic/Tools/title]" xml:space="preserve" approved="yes">
         <source>Tools</source>
-        <target state="needs-translation">Tools</target>
+        <target state="final">工具</target>
         <note>Title of a menu with various utilities</note>
+      </trans-unit>
+      <trans-unit id="[Generic/ViewHelpArticle/action]" xml:space="preserve" approved="yes">
+        <source>View help article</source>
+        <target state="final">查看帮助文章</target>
+        <note>Action/button to open an online support article (about a specific error)</note>
       </trans-unit>
       <trans-unit id="[Generic/ViewOptions/title]" xml:space="preserve">
         <source>View Options</source>
@@ -1809,9 +1869,9 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="translated">编辑群组</target>
         <note>Title of a form for editing a group</note>
       </trans-unit>
-      <trans-unit id="[Group/Menu/a11y/title]" xml:space="preserve">
+      <trans-unit id="[Group/Menu/a11y/title]" xml:space="preserve" approved="yes">
         <source>Group Menu</source>
-        <target state="needs-translation">Group Menu</target>
+        <target state="final">群组菜单</target>
         <note>VoiceOver description of a menu with group-related actions</note>
       </trans-unit>
       <trans-unit id="[Group/New/defaultName] New Group" xml:space="preserve">
@@ -1834,34 +1894,59 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="translated">是否永久删除回收站中的所有内容？</target>
         <note>Title of the confirmation dialog for `Empty Recycle Bin` action</note>
       </trans-unit>
-      <trans-unit id="[Group/Smart/Create/action]" xml:space="preserve">
+      <trans-unit id="[Group/Section/Entries/title]" xml:space="preserve" approved="yes">
+        <source>Entries</source>
+        <target state="final">条目</target>
+        <note>Title of the Entries section visible while editing</note>
+      </trans-unit>
+      <trans-unit id="[Group/Section/Groups/title]" xml:space="preserve" approved="yes">
+        <source>Groups</source>
+        <target state="final">群组</target>
+        <note>Title of the Groups section visible while editing</note>
+      </trans-unit>
+      <trans-unit id="[Group/Smart/Create/action]" xml:space="preserve" approved="yes">
         <source>Create Smart Group</source>
-        <target state="needs-translation">Create Smart Group</target>
+        <target state="final">创建智能群组</target>
         <note>Action/button to create a new Smart Group</note>
       </trans-unit>
-      <trans-unit id="[Group/Smart/New/defaultName]" xml:space="preserve">
+      <trans-unit id="[Group/Smart/New/defaultName]" xml:space="preserve" approved="yes">
         <source>New Smart Group</source>
-        <target state="needs-translation">New Smart Group</target>
+        <target state="final">新建智能群组</target>
         <note>Default name of a new smart group</note>
       </trans-unit>
-      <trans-unit id="[Group/Smart/Query/title]" xml:space="preserve">
+      <trans-unit id="[Group/Smart/Preset/allEntries]" xml:space="preserve" approved="yes">
+        <source>All Entries</source>
+        <target state="final">所有条目</target>
+        <note>Title of a list: all entries in the database</note>
+      </trans-unit>
+      <trans-unit id="[Group/Smart/Preset/expiredEntries]" xml:space="preserve" approved="yes">
+        <source>Expired Entries</source>
+        <target state="final">过期条目</target>
+        <note>Title of a list: entries that are beyond their expiration date.</note>
+      </trans-unit>
+      <trans-unit id="[Group/Smart/Preset/otpEntries]" xml:space="preserve" approved="yes">
+        <source>Entries with OTP</source>
+        <target state="final">带 OTP 的条目</target>
+        <note>Title of a list: entries with one-time passwords (OTP)</note>
+      </trans-unit>
+      <trans-unit id="[Group/Smart/Query/title]" xml:space="preserve" approved="yes">
         <source>Smart Group Filter</source>
-        <target state="needs-translation">Smart Group Filter</target>
+        <target state="final">智能群组筛选器</target>
         <note>Title for the Smart Group search conditions in group editor</note>
       </trans-unit>
-      <trans-unit id="[Group/Smart/a11y/description]" xml:space="preserve">
+      <trans-unit id="[Group/Smart/a11y/description]" xml:space="preserve" approved="yes">
         <source>%@, Smart group</source>
-        <target state="needs-translation">%@, Smart group</target>
+        <target state="final">%@，智能群组</target>
         <note>VoiceOver description of a smart group [groupTitle: String]</note>
       </trans-unit>
-      <trans-unit id="[Group/Smart/about]" xml:space="preserve">
+      <trans-unit id="[Group/Smart/about]" xml:space="preserve" approved="yes">
         <source>About smart groups…</source>
-        <target state="needs-translation">About smart groups…</target>
+        <target state="final">关于智能群组…</target>
         <note>Action/button to show a help article</note>
       </trans-unit>
-      <trans-unit id="[Group/Smart/title]" xml:space="preserve">
+      <trans-unit id="[Group/Smart/title]" xml:space="preserve" approved="yes">
         <source>Smart Group</source>
-        <target state="needs-translation">Smart Group</target>
+        <target state="final">智能群组</target>
         <note>Glossary term: noun, a smart group in database.</note>
       </trans-unit>
       <trans-unit id="[Group/a11y/description]" xml:space="preserve">
@@ -2248,129 +2333,129 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="translated">增加连续相同字符的最大数量。</target>
         <note>Error message/call to action from the random text generator.</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/Mode/Basic/title]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/Mode/Basic/title]" xml:space="preserve" approved="yes">
         <source>Basic</source>
-        <target state="needs-translation">Basic</target>
+        <target state="final">基础</target>
         <note>One of the operation modes of the random text generator</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/Mode/Expert/title]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/Mode/Expert/title]" xml:space="preserve" approved="yes">
         <source>Expert</source>
-        <target state="needs-translation">Expert</target>
+        <target state="final">专家</target>
         <note>One of the operation modes of the random text generator</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/Mode/Passphrase/title]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/Mode/Passphrase/title]" xml:space="preserve" approved="yes">
         <source>Passphrase</source>
-        <target state="needs-translation">Passphrase</target>
+        <target state="final">口令</target>
         <note>One of the operation modes of the random text generator, where it generates random phrases.</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/Mode/title]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/Mode/title]" xml:space="preserve" approved="yes">
         <source>Mode</source>
-        <target state="needs-translation">Mode</target>
+        <target state="final">模式</target>
         <note>Operation mode of the random text generator (for example, `Basic`, `Expert`, `Passphrase`)</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/NotEnoughElementsToSample/title]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/NotEnoughElementsToSample/title]" xml:space="preserve" approved="yes">
         <source>Need more elements to pick from.</source>
-        <target state="needs-translation">Need more elements to pick from.</target>
+        <target state="final">需要更多元素以供挑选。</target>
         <note>Error message from the random text generator.</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/PasswordLength/title]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/PasswordLength/title]" xml:space="preserve" approved="yes">
         <source>Password Length</source>
-        <target state="needs-translation">Password Length</target>
+        <target state="final">密码长度</target>
         <note>Length (number of characters) of the password to generate</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/RequiredSetCompletelyExcluded/title]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/RequiredSetCompletelyExcluded/title]" xml:space="preserve" approved="yes">
         <source>One of the character sets is both required and excluded.</source>
-        <target state="needs-translation">One of the character sets is both required and excluded.</target>
+        <target state="final">其中一个字符集既是必需又是排除。</target>
         <note>Error message from the random text generator. `required` and `excluded` are as in [PasswordGenerator/InclusionCondition/required] and [PasswordGenerator/InclusionCondition/excluded]</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/Set/Digits/title]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/Set/Digits/title]" xml:space="preserve" approved="yes">
         <source>Digits</source>
-        <target state="needs-translation">Digits</target>
+        <target state="final">位数</target>
         <note>Title for digits (like '123')</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/Set/Lookalikes/title]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/Set/Lookalikes/title]" xml:space="preserve" approved="yes">
         <source>Look-alike characters</source>
-        <target state="needs-translation">Look-alike characters</target>
+        <target state="final">相似字符</target>
         <note>Title for look-alike symbols (like '1lI', that is: digit `1`, small `L`, capital `i`).</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/Set/Lowercase/title]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/Set/Lowercase/title]" xml:space="preserve" approved="yes">
         <source>Lowercase letters</source>
-        <target state="needs-translation">Lowercase letters</target>
+        <target state="final">小写字母</target>
         <note>Title for lowercase letters (like 'abc')</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/Set/Specials/title]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/Set/Specials/title]" xml:space="preserve" approved="yes">
         <source>Special symbols</source>
-        <target state="needs-translation">Special symbols</target>
+        <target state="final">特殊符号</target>
         <note>Title for special symbols (like '@#$')</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/Set/Uppercase/title]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/Set/Uppercase/title]" xml:space="preserve" approved="yes">
         <source>Uppercase letters</source>
-        <target state="needs-translation">Uppercase letters</target>
+        <target state="final">大写字母</target>
         <note>Title for uppercase letters (like 'ABC')</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/SpaceCharacter/name]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/SpaceCharacter/name]" xml:space="preserve" approved="yes">
         <source>Space</source>
-        <target state="needs-translation">Space</target>
+        <target state="final">空格</target>
         <note>Name of the space character. https://en.wikipedia.org/wiki/Space_(punctuation)</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/Word Separtor/title]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/Word Separtor/title]" xml:space="preserve" approved="yes">
         <source>Separator</source>
-        <target state="needs-translation">Separator</target>
+        <target state="final">分隔符</target>
         <note>Character to be inserted between words of a passphrase.</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/WordCase/lowerCase]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/WordCase/lowerCase]" xml:space="preserve" approved="yes">
         <source>lowercase</source>
-        <target state="needs-translation">lowercase</target>
+        <target state="final">小写</target>
         <note>Word capitalization style. Written in that style, if possible.</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/WordCase/titleCase]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/WordCase/titleCase]" xml:space="preserve" approved="yes">
         <source>Title Case</source>
-        <target state="needs-translation">Title Case</target>
+        <target state="final">标题大小写 </target>
         <note>Word capitalization style: first letters of significant words capitalized. Written in that style, if possible.</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/WordCase/title]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/WordCase/title]" xml:space="preserve" approved="yes">
         <source>Case</source>
-        <target state="needs-translation">Case</target>
+        <target state="final">大小写</target>
         <note>Case of letters in a word (e.g. UPPER, lower, Title Case)</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/WordCase/upperCase]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/WordCase/upperCase]" xml:space="preserve" approved="yes">
         <source>UPPERCASE</source>
-        <target state="needs-translation">UPPERCASE</target>
+        <target state="final">大写</target>
         <note>Word capitalization style. Written in that style, if possible.</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/WordCount/title]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/WordCount/title]" xml:space="preserve" approved="yes">
         <source>Words</source>
-        <target state="needs-translation">Words</target>
+        <target state="final">词数</target>
         <note>Number of words in a generated passphrase. In context: 'Words: 5'</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/Wordlist/EFFLarge/title]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/Wordlist/EFFLarge/title]" xml:space="preserve" approved="yes">
         <source>EFF Large Wordlist (7776 words)</source>
-        <target state="needs-translation">EFF Large Wordlist (7776 words)</target>
+        <target state="final">EFF 大词表（7776 个单词）</target>
         <note>Name of a wordlist for passphrase generator. `EFF` is an organization name.</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/Wordlist/EFFShort/title]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/Wordlist/EFFShort/title]" xml:space="preserve" approved="yes">
         <source>EFF Short Wordlist #%d (1296 words)</source>
-        <target state="needs-translation">EFF Short Wordlist #%d (1296 words)</target>
+        <target state="final">EFF 短词表 #%d（1296 个单词）</target>
         <note>Name of a wordlist for passphrase generator. `EFF` is an organization name.</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/Wordlist/ImportError/reason]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/Wordlist/ImportError/reason]" xml:space="preserve" approved="yes">
         <source>File could not be imported because of a problem in line %1$d (%2$@)</source>
-        <target state="needs-translation">File could not be imported because of a problem in line %1$d (%2$@)</target>
+        <target state="final">无法导入文件，因为第 %1$d 行出现问题 (%2$@)</target>
         <note>Error message when importing a text file [lineNumber: Int, problemDescription: String]</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/Wordlist/title]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/Wordlist/title]" xml:space="preserve" approved="yes">
         <source>Wordlist</source>
-        <target state="needs-translation">Wordlist</target>
+        <target state="final">词表</target>
         <note>List of words to be used for a passphrase.</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/title]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/title]" xml:space="preserve" approved="yes">
         <source>Random Generator</source>
-        <target state="needs-translation">Random Generator</target>
+        <target state="final">随机生成器</target>
         <note>Title of the random text/password/username generator dialog.</note>
       </trans-unit>
-      <trans-unit id="[Premium/Benefits/BusinessClouds/title]" xml:space="preserve">
+      <trans-unit id="[Premium/Benefits/BusinessClouds/title]" xml:space="preserve" approved="yes">
         <source>Sync with corporate storage</source>
-        <target state="needs-translation">Sync with corporate storage</target>
+        <target state="final">与企业存储同步</target>
         <note>Title of a premium feature</note>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/HardwareKeys/details]" xml:space="preserve">
@@ -2383,14 +2468,14 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="translated">使用硬件密钥</target>
         <note>Title of a premium feature</note>
       </trans-unit>
-      <trans-unit id="[Premium/Benefits/LinkedDatabases/details]" xml:space="preserve">
+      <trans-unit id="[Premium/Benefits/LinkedDatabases/details]" xml:space="preserve" approved="yes">
         <source>Open another database in one step — using credentials stored in an entry.</source>
-        <target state="needs-translation">Open another database in one step — using credentials stored in an entry.</target>
+        <target state="final">使用存储在条目中的凭据，一步打开其他数据库。</target>
         <note>Explanation of the premium feature</note>
       </trans-unit>
-      <trans-unit id="[Premium/Benefits/LinkedDatabases/title]" xml:space="preserve">
+      <trans-unit id="[Premium/Benefits/LinkedDatabases/title]" xml:space="preserve" approved="yes">
         <source>Open linked databases</source>
-        <target state="needs-translation">Open linked databases</target>
+        <target state="final">打开链接的数据库</target>
         <note>Title of a premium feature</note>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/MultiDB/details]" xml:space="preserve">
@@ -2408,9 +2493,9 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="translated">您缺少的内容</target>
         <note>List of premium benefits/advantages</note>
       </trans-unit>
-      <trans-unit id="[Premium/Benefits/PasswordAudit/title]" xml:space="preserve">
+      <trans-unit id="[Premium/Benefits/PasswordAudit/title]" xml:space="preserve" approved="yes">
         <source>Check your passwords</source>
-        <target state="needs-translation">Check your passwords</target>
+        <target state="final">检查您的密码</target>
         <note>Title of a premium feature</note>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/Positive/header] " xml:space="preserve">
@@ -2661,14 +2746,14 @@ You can manage and cancel your subscriptions by going to your account settings o
         <target state="translated">程序已使用: %1$@/月, 大约%2$@/年</target>
         <note>Status: how long the app has been used during some time period. For example: `App being useful: 1hr/month, about 12hr/year`. [monthlyUsage: String, annualUsage: String — already include the time unit (hours, minutes)]</note>
       </trans-unit>
-      <trans-unit id="[PremiumFeature/BusinessClouds/description]" xml:space="preserve">
+      <trans-unit id="[PremiumFeature/BusinessClouds/description]" xml:space="preserve" approved="yes">
         <source>Connect directly to enterprise storage accounts, such as OneDrive for Business.</source>
-        <target state="needs-translation">Connect directly to enterprise storage accounts, such as OneDrive for Business.</target>
+        <target state="final">直接连接到企业存储账户，如 OneDrive for Business。</target>
         <note>Description/call to action for the `Business Cloud Storage` premium feature.</note>
       </trans-unit>
-      <trans-unit id="[PremiumFeature/BusinessClouds/title]" xml:space="preserve">
+      <trans-unit id="[PremiumFeature/BusinessClouds/title]" xml:space="preserve" approved="yes">
         <source>Corporate cloud storage</source>
-        <target state="needs-translation">Corporate cloud storage</target>
+        <target state="final">企业云存储</target>
         <note>Title of a premium feature: access to company's cloud accounts like 'OneDrive for Business'</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/Generic/description]" xml:space="preserve">
@@ -2691,14 +2776,14 @@ You can manage and cancel your subscriptions by going to your account settings o
         <target state="translated">硬件密钥</target>
         <note>Title of a premium feature: ability use hardware keys (e.g. YubiKey) for encryption (In Title Case)</note>
       </trans-unit>
-      <trans-unit id="[PremiumFeature/LinkedDatabases/description]" xml:space="preserve">
+      <trans-unit id="[PremiumFeature/LinkedDatabases/description]" xml:space="preserve" approved="yes">
         <source>Upgrade to premium and open linked databases in one step.</source>
-        <target state="needs-translation">Upgrade to premium and open linked databases in one step.</target>
+        <target state="final">升级到高级版，一步打开链接的数据库。</target>
         <note>Description/advertisement for the `Linked Databases` premium feature</note>
       </trans-unit>
-      <trans-unit id="[PremiumFeature/LinkedDatabases/title]" xml:space="preserve">
+      <trans-unit id="[PremiumFeature/LinkedDatabases/title]" xml:space="preserve" approved="yes">
         <source>Linked Databases</source>
-        <target state="needs-translation">Linked Databases</target>
+        <target state="final">链接的数据库</target>
         <note>Title of a premium feature: ability to open databases referenced in another database (In Title Case)</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/MultiDB/description] Easily switch between databases in the premium version." xml:space="preserve">
@@ -2711,24 +2796,24 @@ You can manage and cancel your subscriptions by going to your account settings o
         <target state="translated">多个数据库</target>
         <note>Title of a premium feature: ability to use multiple databases (In Title Case)</note>
       </trans-unit>
-      <trans-unit id="[PremiumFeature/PasswordAudit/description]" xml:space="preserve">
+      <trans-unit id="[PremiumFeature/PasswordAudit/description]" xml:space="preserve" approved="yes">
         <source>Find out if any of your passwords have been exposed in a known data breach.</source>
-        <target state="needs-translation">Find out if any of your passwords have been exposed in a known data breach.</target>
+        <target state="final">了解您的密码是否在已知的数据泄露中遭到泄露。</target>
         <note>Description/call to action for the `Password Audit` premium feature.</note>
       </trans-unit>
-      <trans-unit id="[PremiumFeature/PasswordAudit/title]" xml:space="preserve">
+      <trans-unit id="[PremiumFeature/PasswordAudit/title]" xml:space="preserve" approved="yes">
         <source>Password audit</source>
-        <target state="needs-translation">Password audit</target>
+        <target state="final">密码检查器</target>
         <note>Title of a premium feature: discover which passwords are known to be compromized</note>
       </trans-unit>
-      <trans-unit id="[PremiumFeature/QuickAutoFill/description]" xml:space="preserve">
+      <trans-unit id="[PremiumFeature/QuickAutoFill/description]" xml:space="preserve" approved="yes">
         <source>Fill out login forms with a single tap, without even opening KeePassium.</source>
-        <target state="needs-translation">Fill out login forms with a single tap, without even opening KeePassium.</target>
+        <target state="final">一键填写登录表单，甚至无需打开 KeePassium。</target>
         <note>Description/call to action for the `Quick AutoFill` premium feature.</note>
       </trans-unit>
-      <trans-unit id="[PremiumFeature/QuickAutoFill/title]" xml:space="preserve">
+      <trans-unit id="[PremiumFeature/QuickAutoFill/title]" xml:space="preserve" approved="yes">
         <source>Quick AutoFill</source>
-        <target state="needs-translation">Quick AutoFill</target>
+        <target state="final">快速自动填充</target>
         <note>Title of a premium feature: show relevant AutoFill entries right under the input field</note>
       </trans-unit>
       <trans-unit id="[PrivacyPolicy/Offline/text]" xml:space="preserve">
@@ -2736,11 +2821,11 @@ You can manage and cancel your subscriptions by going to your account settings o
         <target state="translated">KeePassium不会对任何个人资料收集或分析，也不会与任何人分享。</target>
         <note>A brief summary of the privacy policy (for offline mode)</note>
       </trans-unit>
-      <trans-unit id="[PrivacyPolicy/Online/text]" xml:space="preserve">
+      <trans-unit id="[PrivacyPolicy/Online/text]" xml:space="preserve" approved="yes">
         <source>KeePassium does not collect any personal or analytical data.
 Some features may involve data exchange with external services (on your request and for the sole purpose of making these services available to you). Such an exchange is governed by the privacy policy of the respective service.</source>
-        <target state="needs-translation">KeePassium does not collect any personal or analytical data.
-Some features may involve data exchange with external services (on your request and for the sole purpose of making these services available to you). Such an exchange is governed by the privacy policy of the respective service.</target>
+        <target state="final">KeePassium 不会收集任何个人或分析数据。
+某些功能可能涉及与外部服务的数据交换（根据您的请求，并且仅为了向您提供这些服务）。此类数据交换受相应服务的隐私政策约束。</target>
         <note>A brief summary of the privacy policy (for online mode)</note>
       </trans-unit>
       <trans-unit id="[PrivacyPolicy/title]" xml:space="preserve">
@@ -2760,54 +2845,54 @@ This can happen with larger databases or too ambitious database settings (Argon2
         <target state="translated">已被使用者取消</target>
         <note>Explanation/notification when a long-running operation was cancelled by user</note>
       </trans-unit>
-      <trans-unit id="[QuickAutoFill/description]" xml:space="preserve">
+      <trans-unit id="[QuickAutoFill/description]" xml:space="preserve" approved="yes">
         <source>Quick AutoFill shows relevant entries right next to the password field, without opening KeePassium.</source>
-        <target state="needs-translation">Quick AutoFill shows relevant entries right next to the password field, without opening KeePassium.</target>
+        <target state="final">快速自动填充会在密码字段旁显示相关条目，无需打开 KeePassium。</target>
         <note>Description of the Quick AutoFill feature.</note>
       </trans-unit>
-      <trans-unit id="[QuickAutoFill/title]" xml:space="preserve">
+      <trans-unit id="[QuickAutoFill/title]" xml:space="preserve" approved="yes">
         <source>Quick AutoFill</source>
-        <target state="needs-translation">Quick AutoFill</target>
+        <target state="final">快速自动填充</target>
         <note>Name of a feature that shows relevant entries directly next to the login/password forms.</note>
       </trans-unit>
-      <trans-unit id="[RemoteConnection/AllowUntrusted/title]" xml:space="preserve">
+      <trans-unit id="[RemoteConnection/AllowUntrusted/title]" xml:space="preserve" approved="yes">
         <source>Allow Untrusted Certificate</source>
-        <target state="needs-translation">Allow Untrusted Certificate</target>
+        <target state="final">允许不受信任的证书</target>
         <note>Network security setting</note>
       </trans-unit>
-      <trans-unit id="[RemoteConnection/Connection/title]" xml:space="preserve">
+      <trans-unit id="[RemoteConnection/Connection/title]" xml:space="preserve" approved="yes">
         <source>Connection</source>
-        <target state="needs-translation">Connection</target>
+        <target state="final">连接</target>
         <note>Network connection. For example `Connection: WebDAV` or `Connection: MyCloud`.</note>
       </trans-unit>
-      <trans-unit id="[RemoteConnection/Credentials]" xml:space="preserve">
+      <trans-unit id="[RemoteConnection/Credentials]" xml:space="preserve" approved="yes">
         <source>Credentials</source>
-        <target state="needs-translation">Credentials</target>
+        <target state="final">凭据</target>
         <note>Title of a section: username, password, etc</note>
       </trans-unit>
-      <trans-unit id="[RemoteConnection/Direct/description]" xml:space="preserve">
+      <trans-unit id="[RemoteConnection/Direct/description]" xml:space="preserve" approved="yes">
         <source>KeePassium will communicate directly with your online storage. This ensures reliable file transfer.</source>
-        <target state="needs-translation">KeePassium will communicate directly with your online storage. This ensures reliable file transfer.</target>
+        <target state="final">KeePassium 将直接与您的在线存储进行通信。这可以确保可靠的文件传输。</target>
         <note>Description of the `Direct connection` sync method.</note>
       </trans-unit>
-      <trans-unit id="[RemoteConnection/Error/AuthenticationFailed/title]" xml:space="preserve">
+      <trans-unit id="[RemoteConnection/Error/AuthenticationFailed/title]" xml:space="preserve" approved="yes">
         <source>Authentication failed</source>
-        <target state="needs-translation">Authentication failed</target>
+        <target state="final">身份验证失败</target>
         <note>Error message: user credentials rejected by the server</note>
       </trans-unit>
-      <trans-unit id="[RemoteConnection/FileURL]" xml:space="preserve">
+      <trans-unit id="[RemoteConnection/FileURL]" xml:space="preserve" approved="yes">
         <source>File URL</source>
-        <target state="needs-translation">File URL</target>
+        <target state="final">文件 URL</target>
         <note>Network address of a file</note>
       </trans-unit>
-      <trans-unit id="[RemoteConnection/GoogleDrive/Folder/myDrive]" xml:space="preserve">
+      <trans-unit id="[RemoteConnection/GoogleDrive/Folder/myDrive]" xml:space="preserve" approved="yes">
         <source>My Drive</source>
-        <target state="needs-translation">My Drive</target>
+        <target state="final">我的云端硬盘</target>
         <note>Name of a predefined Google Drive folder which contains user's own files</note>
       </trans-unit>
-      <trans-unit id="[RemoteConnection/GoogleDrive/Folder/sharedWithMe]" xml:space="preserve">
+      <trans-unit id="[RemoteConnection/GoogleDrive/Folder/sharedWithMe]" xml:space="preserve" approved="yes">
         <source>Shared With Me</source>
-        <target state="needs-translation">Shared With Me</target>
+        <target state="final">共享给我</target>
         <note>Name of a predefined GoogleDrive folder which contains files shared with this user</note>
       </trans-unit>
       <trans-unit id="[RemoteConnection/OneDrive/Folder/files]" xml:space="preserve">
@@ -2815,69 +2900,69 @@ This can happen with larger databases or too ambitious database settings (Argon2
         <target state="translated">文件</target>
         <note>Name of a predefined OneDrive folder which contains user's own files</note>
       </trans-unit>
-      <trans-unit id="[RemoteConnection/OneDrive/Folder/sharedWithMe]" xml:space="preserve">
+      <trans-unit id="[RemoteConnection/OneDrive/Folder/sharedWithMe]" xml:space="preserve" approved="yes">
         <source>Shared</source>
-        <target state="needs-translation">Shared</target>
+        <target state="final">共享</target>
         <note>Name of a predefined OneDrive folder which contains files shared with this user</note>
       </trans-unit>
-      <trans-unit id="[RemoteConnection/ServerURL]" xml:space="preserve">
+      <trans-unit id="[RemoteConnection/ServerURL]" xml:space="preserve" approved="yes">
         <source>Server URL</source>
-        <target state="needs-translation">Server URL</target>
+        <target state="final">服务器 URL</target>
         <note>Network address of a WebDAV server</note>
       </trans-unit>
-      <trans-unit id="[RemoteConnection/SignIn/Dropbox/action]" xml:space="preserve">
+      <trans-unit id="[RemoteConnection/SignIn/Dropbox/action]" xml:space="preserve" approved="yes">
         <source>Sign in to Dropbox</source>
-        <target state="needs-translation">Sign in to Dropbox</target>
+        <target state="final">登录 Dropbox</target>
         <note>Action: authenticate to Dropbox account</note>
       </trans-unit>
-      <trans-unit id="[RemoteConnection/SignIn/Dropbox/authorizationRequried]" xml:space="preserve">
+      <trans-unit id="[RemoteConnection/SignIn/Dropbox/authorizationRequried]" xml:space="preserve" approved="yes">
         <source>Dropbox needs you to sign in again.</source>
-        <target state="needs-translation">Dropbox needs you to sign in again.</target>
+        <target state="final">Dropbox 需要您重新登录。</target>
         <note>Error description: the user should manually sign in to their Dropbox account</note>
       </trans-unit>
-      <trans-unit id="[RemoteConnection/SignIn/GoogleDrive/action]" xml:space="preserve">
+      <trans-unit id="[RemoteConnection/SignIn/GoogleDrive/action]" xml:space="preserve" approved="yes">
         <source>Sign in to Google Drive</source>
-        <target state="needs-translation">Sign in to Google Drive</target>
+        <target state="final">登录 Google 云端硬盘</target>
         <note>Action: authenticate to Google Drive account</note>
       </trans-unit>
-      <trans-unit id="[RemoteConnection/SignIn/GoogleDrive/authorizationRequried]" xml:space="preserve">
+      <trans-unit id="[RemoteConnection/SignIn/GoogleDrive/authorizationRequried]" xml:space="preserve" approved="yes">
         <source>Google Drive needs you to sign in again.</source>
-        <target state="needs-translation">Google Drive needs you to sign in again.</target>
+        <target state="final">Google 云端硬盘需要您重新登录。</target>
         <note>Error description: the user should manually sign in to their Google Drive account</note>
       </trans-unit>
-      <trans-unit id="[RemoteConnection/SignIn/OneDrive/action]" xml:space="preserve">
+      <trans-unit id="[RemoteConnection/SignIn/OneDrive/action]" xml:space="preserve" approved="yes">
         <source>Sign in to OneDrive</source>
-        <target state="needs-translation">Sign in to OneDrive</target>
+        <target state="final">登录 OneDrive</target>
         <note>Action: authenticate to OneDrive account</note>
       </trans-unit>
-      <trans-unit id="[RemoteConnection/SignIn/OneDrive/authorizationRequried]" xml:space="preserve">
+      <trans-unit id="[RemoteConnection/SignIn/OneDrive/authorizationRequried]" xml:space="preserve" approved="yes">
         <source>OneDrive needs you to sign in again.</source>
-        <target state="needs-translation">OneDrive needs you to sign in again.</target>
+        <target state="final">OneDrive 需要您重新登录。</target>
         <note>Error description: the user should manually sign in to their OneDrive account</note>
       </trans-unit>
-      <trans-unit id="[RemoteConnection/SignIn/PrivateMode/description]" xml:space="preserve">
+      <trans-unit id="[RemoteConnection/SignIn/PrivateMode/description]" xml:space="preserve" approved="yes">
         <source>Open sign-in page in private web browser mode</source>
-        <target state="needs-translation">Open sign-in page in private web browser mode</target>
+        <target state="final">在私密网页浏览器模式中打开登录页面</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
-      <trans-unit id="[RemoteConnection/SignIn/PrivateMode/title]" xml:space="preserve">
+      <trans-unit id="[RemoteConnection/SignIn/PrivateMode/title]" xml:space="preserve" approved="yes">
         <source>Private mode</source>
-        <target state="needs-translation">Private mode</target>
+        <target state="final">私密模式</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
-      <trans-unit id="[RemoteConnection/ViaFilesApp/description]" xml:space="preserve">
+      <trans-unit id="[RemoteConnection/ViaFilesApp/description]" xml:space="preserve" approved="yes">
         <source>KeePassium will assign file synchronization to the app of your storage provider. Some apps work better than others.</source>
-        <target state="needs-translation">KeePassium will assign file synchronization to the app of your storage provider. Some apps work better than others.</target>
+        <target state="final">KeePassium 会将文件同步分配给存储提供商的应用。有些应用会比其他应用运行得更好。</target>
         <note>Description of the `Integration via Files app` sync method.</note>
       </trans-unit>
-      <trans-unit id="[RemoteConnection/connectToServer]" xml:space="preserve">
+      <trans-unit id="[RemoteConnection/connectToServer]" xml:space="preserve" approved="yes">
         <source>Connect to Server</source>
-        <target state="needs-translation">Connect to Server</target>
+        <target state="final">连接到服务器</target>
         <note>Action: connect to a network server</note>
       </trans-unit>
-      <trans-unit id="[RemoteConnection/title]" xml:space="preserve">
+      <trans-unit id="[RemoteConnection/title]" xml:space="preserve" approved="yes">
         <source>Remote Connection</source>
-        <target state="needs-translation">Remote Connection</target>
+        <target state="final">远程连接</target>
         <note>Title: connection to a network storage</note>
       </trans-unit>
       <trans-unit id="[Repeat Password/Field/title]" xml:space="preserve">
@@ -3050,9 +3135,9 @@ This can happen with larger databases or too ambitious database settings (Argon2
         <target state="translated">永不</target>
         <note>An option in Settings. Will be shown as 'Clipboard Timeout: Never'</note>
       </trans-unit>
-      <trans-unit id="[Settings/DataProtection/LockOnReboot/title]" xml:space="preserve">
+      <trans-unit id="[Settings/DataProtection/LockOnReboot/title]" xml:space="preserve" approved="yes">
         <source>Lock on Device Restart</source>
-        <target state="needs-translation">Lock on Device Restart</target>
+        <target state="final">设备重启时锁定</target>
         <note>Setting switch: whether to lock databases after device reboot.</note>
       </trans-unit>
       <trans-unit id="[Settings/DataProtection/subtitle]" xml:space="preserve">
@@ -3125,14 +3210,19 @@ This can happen with larger databases or too ambitious database settings (Argon2
         <target state="translated">列表设置</target>
         <note>Title of list view configuration screen</note>
       </trans-unit>
-      <trans-unit id="[Settings/Managed/notification]" xml:space="preserve">
+      <trans-unit id="[Settings/Managed/BlockedFeature/notification]" xml:space="preserve" approved="yes">
+        <source>This feature is blocked by your organization.</source>
+        <target state="final">此功能已被您的组织屏蔽。</target>
+        <note>Notification when corporate user tries to use a feature forbidden by organization's IT department.</note>
+      </trans-unit>
+      <trans-unit id="[Settings/Managed/notification]" xml:space="preserve" approved="yes">
         <source>This setting is managed by your organization.</source>
-        <target state="needs-translation">This setting is managed by your organization.</target>
+        <target state="final">此设置由您的组织管理。</target>
         <note>Notification when corporate user tries to change an app setting controlled by organization's IT department.</note>
       </trans-unit>
-      <trans-unit id="[Settings/NetworkAccess/Confirmation/text]" xml:space="preserve">
+      <trans-unit id="[Settings/NetworkAccess/Confirmation/text]" xml:space="preserve" approved="yes">
         <source>Allow KeePassium to make network connections to external services?</source>
-        <target state="needs-translation">Allow KeePassium to make network connections to external services?</target>
+        <target state="final">是否允许 KeePassium 与外部服务建立网络连接？</target>
         <note>Confirmation dialog message</note>
       </trans-unit>
       <trans-unit id="[Settings/NetworkAccess/title]" xml:space="preserve">
@@ -3140,29 +3230,29 @@ This can happen with larger databases or too ambitious database settings (Argon2
         <target state="translated">网络访问</target>
         <note>Settings section: how/whether the app is allowed to use networks/Internet</note>
       </trans-unit>
-      <trans-unit id="[Settings/NetworkAccessMode/Offline/description]" xml:space="preserve">
+      <trans-unit id="[Settings/NetworkAccessMode/Offline/description]" xml:space="preserve" approved="yes">
         <source>Maximum privacy</source>
-        <target state="needs-translation">Maximum privacy</target>
+        <target state="final">最大私密性</target>
         <note>Description of the `Stay Offline` mode.</note>
       </trans-unit>
-      <trans-unit id="[Settings/NetworkAccessMode/Offline/title]" xml:space="preserve">
+      <trans-unit id="[Settings/NetworkAccessMode/Offline/title]" xml:space="preserve" approved="yes">
         <source>Stay Offline</source>
-        <target state="needs-translation">Stay Offline</target>
+        <target state="final">保持离线</target>
         <note>Setting option: the app should work offline</note>
       </trans-unit>
-      <trans-unit id="[Settings/NetworkAccessMode/Online/description]" xml:space="preserve">
+      <trans-unit id="[Settings/NetworkAccessMode/Online/description]" xml:space="preserve" approved="yes">
         <source>Maximum functionality</source>
-        <target state="needs-translation">Maximum functionality</target>
+        <target state="final">最大功能性</target>
         <note>Description of the `Allow Network Access` mode.</note>
       </trans-unit>
-      <trans-unit id="[Settings/NetworkAccessMode/Online/title]" xml:space="preserve">
+      <trans-unit id="[Settings/NetworkAccessMode/Online/title]" xml:space="preserve" approved="yes">
         <source>Allow Network Access</source>
-        <target state="needs-translation">Allow Network Access</target>
+        <target state="final">允许网络访问</target>
         <note>Setting option: the app is permitted to use online features</note>
       </trans-unit>
-      <trans-unit id="[Settings/RestoreDefaults/action]" xml:space="preserve">
+      <trans-unit id="[Settings/RestoreDefaults/action]" xml:space="preserve" approved="yes">
         <source>Restore Defaults</source>
-        <target state="needs-translation">Restore Defaults</target>
+        <target state="final">恢复默认</target>
         <note>Action/button which resets some settings to their default state.</note>
       </trans-unit>
       <trans-unit id="[Settings/Search/title]" xml:space="preserve">
@@ -3175,9 +3265,9 @@ This can happen with larger databases or too ambitious database settings (Argon2
         <target state="translated">设置</target>
         <note>Title of the app settings screen</note>
       </trans-unit>
-      <trans-unit id="[SortBy/FileName]" xml:space="preserve">
+      <trans-unit id="[SortBy/FileName]" xml:space="preserve" approved="yes">
         <source>Name</source>
-        <target state="needs-translation">Name</target>
+        <target state="final">名称</target>
         <note>List sorting option (for file names). Example: 'Sort by: Name'</note>
       </trans-unit>
       <trans-unit id="[SortBy/None]" xml:space="preserve">
@@ -3185,9 +3275,9 @@ This can happen with larger databases or too ambitious database settings (Argon2
         <target state="translated">无</target>
         <note>List sorting option, when no sorting is selected. Example: 'Sort by: None'</note>
       </trans-unit>
-      <trans-unit id="[SortOrder/Custom]" xml:space="preserve">
+      <trans-unit id="[SortOrder/Custom]" xml:space="preserve" approved="yes">
         <source>Custom</source>
-        <target state="needs-translation">Custom</target>
+        <target state="final">自定义</target>
         <note>List sorting option, when items are manually ordered by the user. Example: 'Sort order: Custom'</note>
       </trans-unit>
       <trans-unit id="[StorageService/DropboxBusiness/title]" xml:space="preserve">
@@ -3200,9 +3290,9 @@ This can happen with larger databases or too ambitious database settings (Argon2
         <target state="translated">Dropbox Pro</target>
         <note>Name of a cloud storage service</note>
       </trans-unit>
-      <trans-unit id="[StorageService/GoogleWorkspace/title]" xml:space="preserve">
+      <trans-unit id="[StorageService/GoogleWorkspace/title]" xml:space="preserve" approved="yes">
         <source>Google Workspace</source>
-        <target state="needs-translation">Google Workspace</target>
+        <target state="final">Google Workspace</target>
         <note>Name of a cloud storage service</note>
       </trans-unit>
       <trans-unit id="[StorageService/OneDriveForBusiness/title]" xml:space="preserve">
@@ -3210,9 +3300,9 @@ This can happen with larger databases or too ambitious database settings (Argon2
         <target state="translated">OneDrive 商业版</target>
         <note>Name of a cloud storage service. Must match Microsoft's translation, see  https://partner.microsoft.com/solutions/onedrive-for-business</note>
       </trans-unit>
-      <trans-unit id="[StorageService/OtherServices/title]" xml:space="preserve">
+      <trans-unit id="[StorageService/OtherServices/title]" xml:space="preserve" approved="yes">
         <source>Other Services</source>
-        <target state="needs-translation">Other Services</target>
+        <target state="final">其他服务</target>
         <note>Title of a file storage service option (for example: Dropbox, OneDrive, Other Services)</note>
       </trans-unit>
       <trans-unit id="[Support/template] (Please describe the problem here)" xml:space="preserve">
@@ -3332,7 +3422,7 @@ This can happen with larger databases or too ambitious database settings (Argon2
       </trans-unit>
       <trans-unit id="/[Generic/Count/ItemsSelected]:dict/GenericCountItemsSelected:dict/other:dict/:string">
         <source>%d items selected</source>
-        <target state="needs-translation">%d items selected</target>
+        <target state="final">已选择 %d 个项目</target>
       </trans-unit>
       <trans-unit id="/[Generic/Count/Threads]:dict/GenericCountThreads:dict/other:dict/:string">
         <source>%d threads</source>
