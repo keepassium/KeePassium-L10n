@@ -156,6 +156,16 @@ Bu konuda yardıma ihtiyacınız olursa lütfen bizimle iletişime geçin.</targ
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.0" build-num="16A242"/>
     </header>
     <body>
+      <trans-unit id="[AppLock/weakPasscodeWarning]" xml:space="preserve">
+        <source>This passcode is easy to guess. Try entering a stronger one.</source>
+        <target state="needs-translation">This passcode is easy to guess. Try entering a stronger one.</target>
+        <note>Notification when user tries to set up too weak an app protection passcode.</note>
+      </trans-unit>
+      <trans-unit id="[AutoFill/InsertText/select]" xml:space="preserve">
+        <source>Select Field</source>
+        <target state="needs-translation">Select Field</target>
+        <note>Call for action to select an entry field for filling out.</note>
+      </trans-unit>
       <trans-unit id="[AutoFill/Search/callerID]" xml:space="preserve">
         <source>Caller ID: %@</source>
         <target state="translated">Caller ID: %@</target>
@@ -916,6 +926,11 @@ Sonuç olarak, hem Otomatik Doldurma hem de KeePassium uygulaması veritabanın�
         <target state="translated">Neler Değişti?</target>
         <note>Title of the app history (changelog) screen</note>
       </trans-unit>
+      <trans-unit id="[AppLock/weakPasscodeWarning]" xml:space="preserve">
+        <source>This passcode is easy to guess. Try entering a stronger one.</source>
+        <target state="needs-translation">This passcode is easy to guess. Try entering a stronger one.</target>
+        <note>Notification when user tries to set up too weak an app protection passcode.</note>
+      </trans-unit>
       <trans-unit id="[Database/Create/TemplateEntry/notes] You can also store some notes, if you like." xml:space="preserve">
         <source>You can also store some notes, if you like.</source>
         <target state="translated">İsterseniz buraya birkaç not da alabilirsiniz.</target>
@@ -971,10 +986,40 @@ Sonuç olarak, hem Otomatik Doldurma hem de KeePassium uygulaması veritabanın�
         <target state="needs-translation">Your organization requires a more complex database password.</target>
         <note>Notification for business users when they set up too weak database password.</note>
       </trans-unit>
+      <trans-unit id="[Database/Create/weakPasswordWarning]" xml:space="preserve">
+        <source>This password is easy to guess. Try entering a stronger one.</source>
+        <target state="needs-translation">This password is easy to guess. Try entering a stronger one.</target>
+        <note>Notification when user sets up too weak a database password.</note>
+      </trans-unit>
       <trans-unit id="[Database/Create] Please enter a password or choose a key file." xml:space="preserve">
         <source>Please enter a password or choose a key file.</source>
         <target state="translated">Lütfen bir şifre girin ya da anahtar dosya seçin.</target>
         <note>Hint shown when both password and key file are empty.</note>
+      </trans-unit>
+      <trans-unit id="[Database/DownloadFavicons/intro]" xml:space="preserve">
+        <source>KeePassium will contact every website in your database.</source>
+        <target state="needs-translation">KeePassium will contact every website in your database.</target>
+        <note>Description of favicon downloader feature.</note>
+      </trans-unit>
+      <trans-unit id="[Database/DownloadFavicons/warning]" xml:space="preserve">
+        <source>Doing this on a public or monitored network can expose the list of websites where you have an account.</source>
+        <target state="needs-translation">Doing this on a public or monitored network can expose the list of websites where you have an account.</target>
+        <note>Description of favicon downloader feature. 'Doing this' refers to downloading favicons.</note>
+      </trans-unit>
+      <trans-unit id="[Database/KDF/consideredWeak]" xml:space="preserve">
+        <source>%1$@ is considered weak. Use %2$@ instead.</source>
+        <target state="needs-translation">%1$@ is considered weak. Use %2$@ instead.</target>
+        <note>Warning that one key derivation function (KDF) should be preferred to another. Example: 'AES-KDF is considered weak. Use Argon2id instead.'</note>
+      </trans-unit>
+      <trans-unit id="[Database/KDF/tooSlow]" xml:space="preserve">
+        <source>These settings may be too slow for some devices.</source>
+        <target state="needs-translation">These settings may be too slow for some devices.</target>
+        <note>Notification message about encryption settings.</note>
+      </trans-unit>
+      <trans-unit id="[Database/KDF/tooWeak]" xml:space="preserve">
+        <source>Increase the settings for optimal data protection.</source>
+        <target state="needs-translation">Increase the settings for optimal data protection.</target>
+        <note>Call to action when encryption settings are too weak.</note>
       </trans-unit>
       <trans-unit id="[Entry/Files/Add] Replace existing attachment?" xml:space="preserve">
         <source>Replace existing attachment?</source>

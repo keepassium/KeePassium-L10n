@@ -10,11 +10,6 @@
         <target state="translated">Adicionar banco de dados</target>
         <note>Action/button to add database to the app</note>
       </trans-unit>
-      <trans-unit id="Choose Database" xml:space="preserve">
-        <source>Choose Database</source>
-        <target state="translated">Escolher banco de dados</target>
-        <note>Title of a window where the user selects a file to be opened/added to the app</note>
-      </trans-unit>
       <trans-unit id="KeePass database should not be used as key file. Please pick a different file." xml:space="preserve">
         <source>KeePass database should not be used as key file. Please pick a different file.</source>
         <target state="translated">Um banco de dados do KeePass não pode ser usado como arquivo de chave. Por favor, escolha um arquivo diferente.</target>
@@ -92,7 +87,7 @@
       </trans-unit>
       <trans-unit id="[AppLock/Passcode/orgRequiresStonger]" xml:space="preserve" approved="yes">
         <source>Your organization requires a more complex passcode.</source>
-        <target state="final">Sua organização requer uma senha mais complexa.</target>
+        <target state="final">Sua organização requer um código de acesso mais complexo.</target>
         <note>Notification for business users when they set up too weak app protection passcode.</note>
       </trans-unit>
       <trans-unit id="[AppLock/Passcode/pressEscForTouchID]" xml:space="preserve">
@@ -105,24 +100,24 @@
         <target state="translated">Proteja KeePassium contra acesso não autorizado</target>
         <note>Call to action in the passcode input dialog.</note>
       </trans-unit>
-      <trans-unit id="[AppLock/cancelBiometricAuth] Use Passcode" xml:space="preserve">
+      <trans-unit id="[AppLock/cancelBiometricAuth] Use Passcode" xml:space="preserve" approved="yes">
         <source>Use Passcode</source>
-        <target state="translated">Digitar o código</target>
+        <target state="final">Digitar o código de acesso</target>
         <note>Action/button to switch from TouchID/FaceID prompt to manual input of the AppLock passcode.</note>
       </trans-unit>
-      <trans-unit id="[AppLock/changePasscode]" xml:space="preserve">
+      <trans-unit id="[AppLock/changePasscode]" xml:space="preserve" approved="yes">
         <source>Change Passcode</source>
-        <target state="translated">Mudar senha do app</target>
+        <target state="final">Mudar código de acesso</target>
         <note>Action/button to modify the existing AppLock passcode.</note>
       </trans-unit>
-      <trans-unit id="[AppLock/passcodeUpdated/title]" xml:space="preserve">
+      <trans-unit id="[AppLock/passcodeUpdated/title]" xml:space="preserve" approved="yes">
         <source>Passcode updated successfully.</source>
-        <target state="translated">Senha do app atualizada com sucesso.</target>
+        <target state="final">Código de acesso atualizado com sucesso.</target>
         <note>Notification that the modified AppLock passcode has been saved.</note>
       </trans-unit>
-      <trans-unit id="[AppLock/savePasscode]" xml:space="preserve">
+      <trans-unit id="[AppLock/savePasscode]" xml:space="preserve" approved="yes">
         <source>Save Passcode</source>
-        <target state="translated">Salvar senha do app</target>
+        <target state="final">Salvar código de acesso</target>
         <note>Action/button to save new or edited AppLock passcode.</note>
       </trans-unit>
       <trans-unit id="[AppLock] Unlock" xml:space="preserve">
@@ -1094,11 +1089,6 @@ Faça uma cópia de segurança desse banco de dados antes de modifica-lo.</targe
         <target state="translated">Pré-visualizar</target>
         <note>Action to preview one or several attached documents or images</note>
       </trans-unit>
-      <trans-unit id="[Entry/Attachments/title] Attached Files" xml:space="preserve">
-        <source>Attached Files</source>
-        <target state="translated">Anexos</target>
-        <note>Title of a list with attached files</note>
-      </trans-unit>
       <trans-unit id="[Entry/Create/action] Create Entry" xml:space="preserve">
         <source>Create Entry</source>
         <target state="translated">Nova entrada</target>
@@ -1584,11 +1574,6 @@ Faça uma cópia de segurança desse banco de dados antes de modifica-lo.</targe
         <target state="translated">Selecionar</target>
         <note>Action/button to select some items in a list.</note>
       </trans-unit>
-      <trans-unit id="[Generic/ConfirmDelete/title] Are you sure?" xml:space="preserve">
-        <source>Are you sure?</source>
-        <target state="translated">Tem certeza?</target>
-        <note>Message to confirm deletion of an item.</note>
-      </trans-unit>
       <trans-unit id="[Generic/Count/Bits]" translate="no" xml:space="preserve">
         <source>[Generic/Count/Bits]</source>
         <target state="needs-translation">[Generic/Count/Bits]</target>
@@ -1613,11 +1598,6 @@ Faça uma cópia de segurança desse banco de dados antes de modifica-lo.</targe
         <source>Recently Deleted</source>
         <target state="translated">Apagados recentemente</target>
         <note>Name of the Recently Deleted (Recycle Bin) directory, as shown in the Files app</note>
-      </trans-unit>
-      <trans-unit id="[Generic/Edit/Aborting/text] Discard unsaved changes?" xml:space="preserve">
-        <source>Discard unsaved changes?</source>
-        <target state="translated">Descartar alterações não salvas?</target>
-        <note>Notification text when the user tries to close a document with unsaved changes</note>
       </trans-unit>
       <trans-unit id="[Generic/Edit/Aborting/title] There are unsaved changes" xml:space="preserve">
         <source>There are unsaved changes</source>
@@ -3000,9 +2980,9 @@ Isso pode ocorrer com bancos de dados muito grandes ou com configurações exage
         <target state="translated">Bloqueio do app, %@, limite de tempo</target>
         <note>Settings: subtitle of the `App Protection` section. biometryTypeName will be either 'Touch ID' or 'Face ID'. [biometryTypeName: String]</note>
       </trans-unit>
-      <trans-unit id="[Settings/AppLock/subtitle] App Lock, passcode, timeout" xml:space="preserve">
+      <trans-unit id="[Settings/AppLock/subtitle] App Lock, passcode, timeout" xml:space="preserve" approved="yes">
         <source>App Lock, passcode, timeout</source>
-        <target state="translated">Bloqueio do app, senha, limite de tempo</target>
+        <target state="final">Bloqueio do app, código de acesso, limite de tempo</target>
         <note>Settings: subtitle of the `App Protection` section when biometric auth is not available.</note>
       </trans-unit>
       <trans-unit id="[Settings/AppLock/title]" xml:space="preserve">

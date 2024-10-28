@@ -10,11 +10,6 @@
         <target state="translated">添加数据库</target>
         <note>Action/button to add database to the app</note>
       </trans-unit>
-      <trans-unit id="Choose Database" xml:space="preserve">
-        <source>Choose Database</source>
-        <target state="translated">关闭数据库</target>
-        <note>Title of a window where the user selects a file to be opened/added to the app</note>
-      </trans-unit>
       <trans-unit id="KeePass database should not be used as key file. Please pick a different file." xml:space="preserve">
         <source>KeePass database should not be used as key file. Please pick a different file.</source>
         <target state="translated">KeePass数据库文件不应该当作密钥文件使用。 请选择其他文件。</target>
@@ -1094,11 +1089,6 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="translated">预览</target>
         <note>Action to preview one or several attached documents or images</note>
       </trans-unit>
-      <trans-unit id="[Entry/Attachments/title] Attached Files" xml:space="preserve">
-        <source>Attached Files</source>
-        <target state="translated">附件</target>
-        <note>Title of a list with attached files</note>
-      </trans-unit>
       <trans-unit id="[Entry/Create/action] Create Entry" xml:space="preserve">
         <source>Create Entry</source>
         <target state="translated">创建新条目</target>
@@ -1584,11 +1574,6 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="translated">选择</target>
         <note>Action/button to select some items in a list.</note>
       </trans-unit>
-      <trans-unit id="[Generic/ConfirmDelete/title] Are you sure?" xml:space="preserve">
-        <source>Are you sure?</source>
-        <target state="translated">您确定吗？</target>
-        <note>Message to confirm deletion of an item.</note>
-      </trans-unit>
       <trans-unit id="[Generic/Count/Bits]" translate="no" xml:space="preserve">
         <source>[Generic/Count/Bits]</source>
         <target state="needs-translation">[Generic/Count/Bits]</target>
@@ -1613,11 +1598,6 @@ Please make sure to have a backup of your database before changing anything.</so
         <source>Recently Deleted</source>
         <target state="translated">最近删除</target>
         <note>Name of the Recently Deleted (Recycle Bin) directory, as shown in the Files app</note>
-      </trans-unit>
-      <trans-unit id="[Generic/Edit/Aborting/text] Discard unsaved changes?" xml:space="preserve">
-        <source>Discard unsaved changes?</source>
-        <target state="translated">要舍弃尚未储存的变更？</target>
-        <note>Notification text when the user tries to close a document with unsaved changes</note>
       </trans-unit>
       <trans-unit id="[Generic/Edit/Aborting/title] There are unsaved changes" xml:space="preserve">
         <source>There are unsaved changes</source>
