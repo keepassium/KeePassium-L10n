@@ -40,6 +40,11 @@
         <target state="translated">Activar para escuchar.</target>
         <note>Call to action: perform accessibilty `activate` action to listen to text/content.</note>
       </trans-unit>
+      <trans-unit id="[Accessibility/containsPasskey]" xml:space="preserve" approved="yes">
+        <source>Contains a passkey.</source>
+        <target state="final">Contiene una llave de acceso.</target>
+        <note>Accessibility notification for entries with a passkey</note>
+      </trans-unit>
       <trans-unit id="[Accessibility] Double tap to copy to clipboard" xml:space="preserve" approved="yes">
         <source>Double tap to copy to clipboard</source>
         <target state="final">Toque dos veces para copiar al portapapeles</target>
@@ -307,10 +312,20 @@ Iconos actualizados: %2$d</target>
         <target state="final">Descargando favicon</target>
         <note>Status message: a website favicon is being downloaded</note>
       </trans-unit>
+      <trans-unit id="[Database/CustomIcon/Unused/count]" xml:space="preserve" approved="yes">
+        <source>Unused icons found: %d</source>
+        <target state="final">Iconos no utilizados encontrados: %d</target>
+        <note>Notification when some custom icons are not used by any group or entry [iconCount: Int]</note>
+      </trans-unit>
       <trans-unit id="[Database/CustomIcon/add]" xml:space="preserve" approved="yes">
         <source>Add Custom Icon</source>
         <target state="final">Añadir icono personalizado</target>
         <note>Action: add/import an image as a custom icon</note>
+      </trans-unit>
+      <trans-unit id="[Database/CustomIcon/deleteUnused]" xml:space="preserve" approved="yes">
+        <source>Delete Unused Icons</source>
+        <target state="final">Eliminar iconos no usados</target>
+        <note>Action: delete unused icons</note>
       </trans-unit>
       <trans-unit id="[Database/Delete/Confirm/text] Delete database file?&#10; Make sure you have a backup." xml:space="preserve" approved="yes">
         <source>Delete database file?
@@ -369,6 +384,11 @@ Iconos actualizados: %2$d</target>
         <target state="final">Esta entrada apunta a otra base de datos.</target>
         <note>Info message for entries that contain information for opening a different database.</note>
       </trans-unit>
+      <trans-unit id="[Database/Export/PlainText/warning]" xml:space="preserve" approved="yes">
+        <source>The exported file will contain your data in plaintext, without any protection.</source>
+        <target state="final">El archivo exportado contendrá sus datos en texto plano, sin ninguna protección.</target>
+        <note>Notification message before database export.</note>
+      </trans-unit>
       <trans-unit id="[Database/ExternalChange/Status/checkInProgress]" xml:space="preserve" approved="yes">
         <source>Checking for changes…</source>
         <target state="final">Comprobando cambios…</target>
@@ -393,6 +413,11 @@ Iconos actualizados: %2$d</target>
         <source>All your data will be preserved.</source>
         <target state="final">Todos sus datos se conservarán.</target>
         <note>Info message when changing database file format.</note>
+      </trans-unit>
+      <trans-unit id="[Database/FormatVersion/PasskeysNotSupported]" xml:space="preserve" approved="yes">
+        <source>Current database format does not support passkeys.</source>
+        <target state="final">El formato actual de base de datos no admite llaves de acceso.</target>
+        <note>Error message when creating a new passkey.</note>
       </trans-unit>
       <trans-unit id="[Database/FormatVersion/Upgrade/text]" xml:space="preserve" approved="yes">
         <source>KeePassium needs to upgrade your database file format (from %1$@ to %2$@). You might need to update other apps that use this database.</source>
@@ -550,6 +575,11 @@ Esta es su última copia local.</target>
         <source>Database Operations</source>
         <target state="final">Operaciones de bases de datos</target>
         <note>Title of a list with database-related actions (e.g. lock database, change master key, etc)</note>
+      </trans-unit>
+      <trans-unit id="[Database/Passkey/Error/UnsupportedAlgorithm/description]" xml:space="preserve" approved="yes">
+        <source>Unsupported passkey algorithm</source>
+        <target state="final">Algoritmo de llave de acceso no admitido</target>
+        <note>Error message about creation of a new passkey.</note>
       </trans-unit>
       <trans-unit id="[Database/Print/preparingPreview]" xml:space="preserve" approved="yes">
         <source>Preparing preview…</source>
@@ -767,6 +797,41 @@ Esta es su última copia local.</target>
         <source>Key file error: %@</source>
         <target state="final">Error del archivo de clave: %@</target>
         <note>Error message related to key file. [errorDetails: String]</note>
+      </trans-unit>
+      <trans-unit id="[Database/UnsavedChanges/OpenAppCallToAction]" xml:space="preserve" approved="yes">
+        <source>To save changes, open the main KeePassium app.</source>
+        <target state="final">Para guardar los cambios, abra la aplicación principal de KeePassium.</target>
+        <note>Call to action shown in AutoFill module.</note>
+      </trans-unit>
+      <trans-unit id="[Database/UnsavedChanges/autoFillCrashed]" xml:space="preserve" approved="yes">
+        <source>AutoFill could not save some changes due to a technical limitation.</source>
+        <target state="final">Autorrelleno no pudo guardar algunos cambios debido a una limitación técnica.</target>
+        <note>Notification message</note>
+      </trans-unit>
+      <trans-unit id="[Database/UnsavedChanges/cannotModifyYet]" xml:space="preserve" approved="yes">
+        <source>Unfortunately, AutoFill cannot modify large databases yet. We are working to resolve this.</source>
+        <target state="final">Lamentablemente, Autorrelleno todavía no puede modificar bases de datos grandes. Estamos trabajando para resolverlo.</target>
+        <note>Notification message</note>
+      </trans-unit>
+      <trans-unit id="[Database/UnsavedChanges/saveAction]" xml:space="preserve" approved="yes">
+        <source>Save Changes</source>
+        <target state="final">Guardar cambios</target>
+        <note>Action/button to save accummulated modifications</note>
+      </trans-unit>
+      <trans-unit id="[Database/UnsavedChanges/someDatabases]" xml:space="preserve" approved="yes">
+        <source>One or more databases have unsaved changes made in AutoFill.</source>
+        <target state="final">Una o más bases de datos tienen cambios sin guardar realizados en Autorrelleno.</target>
+        <note>Notification message</note>
+      </trans-unit>
+      <trans-unit id="[Database/UnsavedChanges/thisDatabase]" xml:space="preserve" approved="yes">
+        <source>This database has unsaved changes made in AutoFill.</source>
+        <target state="final">Esta base de datos tiene cambios sin guardar realizados en Autorrelleno.</target>
+        <note>Notification message</note>
+      </trans-unit>
+      <trans-unit id="[Database/UnsavedChanges/title]" xml:space="preserve" approved="yes">
+        <source>Unsaved Changes</source>
+        <target state="final">Cambios sin guardar</target>
+        <note>Title: there are temporary changes to be saved</note>
       </trans-unit>
       <trans-unit id="[Database1/FormatError] Database file is corrupted." xml:space="preserve" approved="yes">
         <source>Database file is corrupted.</source>
@@ -1133,6 +1198,11 @@ Asegúrese de tener una copia de seguridad de su base de datos antes de hacer ca
         <source>Notes</source>
         <target state="final">Notas</target>
         <note>Name of an entry field</note>
+      </trans-unit>
+      <trans-unit id="[Entry/Field/name] Passkey" xml:space="preserve" approved="yes">
+        <source>Passkey</source>
+        <target state="final">Llave de acceso</target>
+        <note>Title of an entry field</note>
       </trans-unit>
       <trans-unit id="[Entry/Field/name] Password" xml:space="preserve" approved="yes">
         <source>Password</source>
@@ -1604,6 +1674,11 @@ Asegúrese de tener una copia de seguridad de su base de datos antes de hacer ca
         <target state="final">Hay cambios sin guardar</target>
         <note>Title of a notification when the user tries to close a document with unsaved changes</note>
       </trans-unit>
+      <trans-unit id="[Generic/File/Export/title]" xml:space="preserve" approved="yes">
+        <source>File Export</source>
+        <target state="final">Exportación de archivos</target>
+        <note>Title of a generic file export screen.</note>
+      </trans-unit>
       <trans-unit id="[Generic/File/Save as]" xml:space="preserve" approved="yes">
         <source>Save as…</source>
         <target state="final">Guardar como…</target>
@@ -1909,6 +1984,11 @@ Asegúrese de tener una copia de seguridad de su base de datos antes de hacer ca
         <target state="translated">Entradas con OTP</target>
         <note>Title of a list: entries with one-time passwords (OTP)</note>
       </trans-unit>
+      <trans-unit id="[Group/Smart/Preset/passkeyEntries]" xml:space="preserve" approved="yes">
+        <source>Entries with Passkeys</source>
+        <target state="final">Entradas con llaves de acceso</target>
+        <note>Title of a list: entries that contain passkeys</note>
+      </trans-unit>
       <trans-unit id="[Group/Smart/Query/title]" xml:space="preserve" approved="yes">
         <source>Smart Group Filter</source>
         <target state="final">Filtro de Grupo inteligente</target>
@@ -1973,11 +2053,6 @@ Asegúrese de tener una copia de seguridad de su base de datos antes de hacer ca
         <source>Requires Apple USB-C to Lightning adapter</source>
         <target state="final">Requiere adaptador Apple de USB-C a Lightning</target>
         <note>A notice for hardware keys that need an adapter for physical connection to device.</note>
-      </trans-unit>
-      <trans-unit id="[HardwareKey/NFC/OS too old]" xml:space="preserve" approved="yes">
-        <source>NFC requires iOS 13 or later.</source>
-        <target state="final">NFC requiere iOS 13 o superior.</target>
-        <note>A notification that NFC (Near Field Communication) interface is not supported by the current iOS version.</note>
       </trans-unit>
       <trans-unit id="[HardwareKey/None] No Hardware Key" xml:space="preserve" approved="yes">
         <source>No Hardware Key</source>
@@ -2182,6 +2257,21 @@ El archivo permanecerá intacto y lo podrá agregar nuevamente más tarde.</targ
         <source>File Info</source>
         <target state="final">Información de archivo</target>
         <note>Menu item: show information about file (name, size, dates)</note>
+      </trans-unit>
+      <trans-unit id="[Menu/Preferences/title]" xml:space="preserve" approved="yes">
+        <source>Preferences…</source>
+        <target state="final">Preferencias…</target>
+        <note>Menu title: app settings</note>
+      </trans-unit>
+      <trans-unit id="[Menu/Sort] Sort Files By" xml:space="preserve" approved="yes">
+        <source>Sort Files By</source>
+        <target state="final">Ordenar archivos por</target>
+        <note>Title of a menu: sort order of files in a list</note>
+      </trans-unit>
+      <trans-unit id="[Menu/Sort] Sort Items By" xml:space="preserve" approved="yes">
+        <source>Sort Items By</source>
+        <target state="final">Ordenar elementos por</target>
+        <note>Title of a menu: sort order of groups and entries in a list</note>
       </trans-unit>
       <trans-unit id="[OTP/CopiedToClipboard/title]" xml:space="preserve" approved="yes">
         <source>One-time password copied to clipboard</source>

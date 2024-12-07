@@ -10,11 +10,6 @@
         <target state="needs-translation">{Learn more}</target>
         <note>Class = "UIButton"; normalTitle = "{Learn more}"; ObjectID = "1To-fA-tCt"; Note = "#bc-ignore!";</note>
       </trans-unit>
-      <trans-unit id="ebS-pB-Qan.title" xml:space="preserve">
-        <source>Close</source>
-        <target state="translated">닫기</target>
-        <note>Class = "UIBarButtonItem"; title = "Close"; ObjectID = "ebS-pB-Qan";</note>
-      </trans-unit>
       <trans-unit id="kmV-si-Nrg.text" xml:space="preserve">
         <source>It seems that AutoFill did not close correctly the last time. 
 
@@ -27,11 +22,6 @@ Please contact us if you need help with this.</source>
 
 도움이 필요한 경우, 개발자에게 연락해주시기 바랍니다.</target>
         <note>Class = "UILabel"; text = "It seems that AutoFill did not close correctly the last time. \n\nThis can happen with large databases or memory-demanding database settings (Argon2).\n\nPlease contact us if you need help with this."; ObjectID = "kmV-si-Nrg";</note>
-      </trans-unit>
-      <trans-unit id="zvf-PV-5l4.title" xml:space="preserve">
-        <source>We are sorry</source>
-        <target state="translated">죄송합니다.</target>
-        <note>Class = "UINavigationItem"; title = "We are sorry"; ObjectID = "zvf-PV-5l4";</note>
       </trans-unit>
     </body>
   </file>
@@ -171,10 +161,15 @@ Please contact us if you need help with this.</source>
         <target state="translated">요청자 ID: %@</target>
         <note>An identifier of the app that called AutoFill. The term is intentionally similar to https://ru.wikipedia.org/wiki/Caller_ID. [callerID: String]</note>
       </trans-unit>
-      <trans-unit id="[AutoFill/Setup/UncheckKeychain/allowFillingFrom]" xml:space="preserve">
-        <source>Allow filling from:</source>
-        <target state="translated">다음에서 자동 완성 허용</target>
-        <note>Must match Apple's translation, as found in iOS 15 Settings → Passwords → AutoFill Passwords. If unsure, leave untranslated.</note>
+      <trans-unit id="[AutoFill/Search/context]" xml:space="preserve">
+        <source>Context: %@</source>
+        <target state="needs-translation">Context: %@</target>
+        <note>Status message, shows which app or webpage launched AutoFill. For example: `Context: google.com`</note>
+      </trans-unit>
+      <trans-unit id="[AutoFill/Setup/UncheckKeychain/autofillFrom]" xml:space="preserve">
+        <source>AutoFill from:</source>
+        <target state="needs-translation">AutoFill from:</target>
+        <note>Must match Apple's translation, as found in iOS 18 Settings → General → AutoFill &amp; Passwords. If unsure, leave untranslated.</note>
       </trans-unit>
       <trans-unit id="[AutoFill/Setup/UncheckKeychain/callToAction]" xml:space="preserve">
         <source>Uncheck Keychain</source>
@@ -182,9 +177,9 @@ Please contact us if you need help with this.</source>
         <note>Call to action: deselect the `Keychain` option. Keychain is a glossary term.</note>
       </trans-unit>
       <trans-unit id="[AutoFill/Setup/UncheckKeychain/message]" xml:space="preserve">
-        <source>To make KeePassium your default password manager, uncheck Keychain.</source>
-        <target state="needs-translation">To make KeePassium your default password manager, uncheck Keychain.</target>
-        <note>Instruction to deselect the `Keychain` option. Keychain is a glossary term.</note>
+        <source>To make KeePassium your default password manager, uncheck "%@".</source>
+        <target state="needs-translation">To make KeePassium your default password manager, uncheck "%@".</target>
+        <note>Instruction to deselect another app in the settings [appName: String]</note>
       </trans-unit>
       <trans-unit id="[AutoFill/Setup/UncheckKeychain/usePasswordsAndPasskeysFrom]" xml:space="preserve">
         <source>Use passwords and passkeys from:</source>
@@ -203,6 +198,26 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
 
 결과적으로, 일반 KeePassium 앱과 자동 완성 둘 다 각각의 외부 파일에 대한 권한을 가지고 있어야 합니다. 이 작업은 한 번만 진행하면 됩니다.</target>
         <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="[Database/Passkey/AddToExisting/action]" xml:space="preserve">
+        <source>Add Passkey to Existing Entry</source>
+        <target state="needs-translation">Add Passkey to Existing Entry</target>
+        <note>Action: create a passkey and add it to existing entry</note>
+      </trans-unit>
+      <trans-unit id="[Database/Passkey/AddToExisting/confirm]" xml:space="preserve">
+        <source>This entry already has a passkey. Replace it?</source>
+        <target state="needs-translation">This entry already has a passkey. Replace it?</target>
+        <note>Confirmation message before replacing an existing passkey.</note>
+      </trans-unit>
+      <trans-unit id="[Database/Passkey/Create/title]" xml:space="preserve">
+        <source>Create a Passkey?</source>
+        <target state="needs-translation">Create a Passkey?</target>
+        <note>Title of an optional dialog for creating new passkeys</note>
+      </trans-unit>
+      <trans-unit id="[Generic/ApplePasswordsApp/title]" xml:space="preserve">
+        <source>Passwords</source>
+        <target state="needs-translation">Passwords</target>
+        <note>Name of the Apple Passwords application, see https://support.apple.com/120758</note>
       </trans-unit>
       <trans-unit id="[Generic/Keychain/title]" xml:space="preserve">
         <source>Keychain</source>
@@ -365,11 +380,6 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.1" build-num="16B40"/>
     </header>
     <body>
-      <trans-unit id="UI0-Lh-wTj.title" xml:space="preserve" translate="no">
-        <source>{Databases}</source>
-        <target state="needs-translation">{Databases}</target>
-        <note>Class = "UINavigationItem"; title = "{Databases}"; ObjectID = "UI0-Lh-wTj";</note>
-      </trans-unit>
       <trans-unit id="XJs-ol-dGz.title" xml:space="preserve" translate="no">
         <source>{PassGen}</source>
         <target state="needs-translation">{PassGen}</target>
@@ -422,6 +432,16 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <target state="needs-translation">{Field Value}</target>
         <note>Class = "UITextView"; text = "{Field Value}"; ObjectID = "B10-Sf-FMR"; Note = "#bc-ignore!";</note>
       </trans-unit>
+      <trans-unit id="CNB-Sr-h0V.text" xml:space="preserve" translate="no">
+        <source>{Field Value}</source>
+        <target state="needs-translation">{Field Value}</target>
+        <note>Class = "UITextView"; text = "{Field Value}"; ObjectID = "CNB-Sr-h0V"; Note = "#bc-ignore!";</note>
+      </trans-unit>
+      <trans-unit id="DIc-nq-b21.text" xml:space="preserve" translate="no">
+        <source>{Field Name}</source>
+        <target state="needs-translation">{Field Name}</target>
+        <note>Class = "UILabel"; text = "{Field Name}"; ObjectID = "DIc-nq-b21"; Note = "#bc-ignore!";</note>
+      </trans-unit>
       <trans-unit id="L5V-vy-3To.text" xml:space="preserve" translate="no">
         <source>{ViewableFieldCell}</source>
         <target state="needs-translation">{ViewableFieldCell}</target>
@@ -431,6 +451,11 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <source>{Field Value}</source>
         <target state="needs-translation">{Field Value}</target>
         <note>Class = "UITextView"; text = "{Field Value}"; ObjectID = "Lyz-4O-dvw"; Note = "#bc-ignore!";</note>
+      </trans-unit>
+      <trans-unit id="TKN-dP-qSF.text" xml:space="preserve" translate="no">
+        <source>{Field Value}</source>
+        <target state="needs-translation">{Field Value}</target>
+        <note>Class = "UITextView"; text = "{Field Value}"; ObjectID = "TKN-dP-qSF"; Note = "#bc-ignore!";</note>
       </trans-unit>
       <trans-unit id="Wky-nB-Nyy.text" xml:space="preserve" translate="no">
         <source>{GenericTextCell}</source>
@@ -931,6 +956,171 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <target state="needs-translation">This passcode is easy to guess. Try entering a stronger one.</target>
         <note>Notification when user tries to set up too weak an app protection passcode.</note>
       </trans-unit>
+      <trans-unit id="[Credits/Item/aexml]" xml:space="preserve">
+        <source>AEXML by Marko Tadić</source>
+        <target state="needs-translation">AEXML by Marko Tadić</target>
+        <note>Item in the credits list</note>
+      </trans-unit>
+      <trans-unit id="[Credits/Item/argon2]" xml:space="preserve">
+        <source>Argon2 by Daniel Dinu, Dmitry Khovratovich, Jean-Philippe Aumasson, and Samuel Neves</source>
+        <target state="needs-translation">Argon2 by Daniel Dinu, Dmitry Khovratovich, Jean-Philippe Aumasson, and Samuel Neves</target>
+        <note>Item in the credits list</note>
+      </trans-unit>
+      <trans-unit id="[Credits/Item/base32]" xml:space="preserve">
+        <source>Base32 for Swift by Norio Nomura</source>
+        <target state="needs-translation">Base32 for Swift by Norio Nomura</target>
+        <note>Item in the credits list</note>
+      </trans-unit>
+      <trans-unit id="[Credits/Item/chaCha20]" xml:space="preserve">
+        <source>ChaCha20 &amp; Salsa20 implementation by D. J. Bernstein</source>
+        <target state="needs-translation">ChaCha20 &amp; Salsa20 implementation by D. J. Bernstein</target>
+        <note>Item in the credits list</note>
+      </trans-unit>
+      <trans-unit id="[Credits/Item/fancyDebossPattern]" xml:space="preserve">
+        <source>Fancy deboss pattern by Daniel Beaton</source>
+        <target state="needs-translation">Fancy deboss pattern by Daniel Beaton</target>
+        <note>Item in the credits list</note>
+      </trans-unit>
+      <trans-unit id="[Credits/Item/featherIcons]" xml:space="preserve">
+        <source>Feather icons by Cole Bemis</source>
+        <target state="needs-translation">Feather icons by Cole Bemis</target>
+        <note>Item in the credits list</note>
+      </trans-unit>
+      <trans-unit id="[Credits/Item/gzipSwift]" xml:space="preserve">
+        <source>GzipSwift by 1024jp</source>
+        <target state="needs-translation">GzipSwift by 1024jp</target>
+        <note>Item in the credits list</note>
+      </trans-unit>
+      <trans-unit id="[Credits/Item/icons8]" xml:space="preserve">
+        <source>Icons by Icons8</source>
+        <target state="needs-translation">Icons by Icons8</target>
+        <note>Item in the credits list</note>
+      </trans-unit>
+      <trans-unit id="[Credits/Item/ionIcons]" xml:space="preserve">
+        <source>Ionicons by Ionic</source>
+        <target state="needs-translation">Ionicons by Ionic</target>
+        <note>Item in the credits list</note>
+      </trans-unit>
+      <trans-unit id="[Credits/Item/keePassXCIcons]" xml:space="preserve">
+        <source>Icons by KeePassXC team</source>
+        <target state="needs-translation">Icons by KeePassXC team</target>
+        <note>Item in the credits list</note>
+      </trans-unit>
+      <trans-unit id="[Credits/Item/keePass]" xml:space="preserve">
+        <source>KeePass by Dominik Reichl</source>
+        <target state="needs-translation">KeePass by Dominik Reichl</target>
+        <note>Item in the credits list</note>
+      </trans-unit>
+      <trans-unit id="[Credits/Item/lineIcons]" xml:space="preserve">
+        <source>Linecons by Andrian Valeanu</source>
+        <target state="needs-translation">Linecons by Andrian Valeanu</target>
+        <note>Item in the credits list</note>
+      </trans-unit>
+      <trans-unit id="[Credits/Item/nuvolaIcons]" xml:space="preserve">
+        <source>Nuvola icons by David Vignoni</source>
+        <target state="needs-translation">Nuvola icons by David Vignoni</target>
+        <note>Item in the credits list</note>
+      </trans-unit>
+      <trans-unit id="[Credits/Item/rijndael]" xml:space="preserve">
+        <source>Rijndael implementation by Szymon Stefanek</source>
+        <target state="needs-translation">Rijndael implementation by Szymon Stefanek</target>
+        <note>Item in the credits list</note>
+      </trans-unit>
+      <trans-unit id="[Credits/Item/swiftDomainParser]" xml:space="preserve">
+        <source>SwiftDomainParser by Dashlane</source>
+        <target state="needs-translation">SwiftDomainParser by Dashlane</target>
+        <note>Item in the credits list</note>
+      </trans-unit>
+      <trans-unit id="[Credits/Item/systemSettingsIcon]" xml:space="preserve">
+        <source>System settings icon by Vicons Design</source>
+        <target state="needs-translation">System settings icon by Vicons Design</target>
+        <note>Item in the credits list</note>
+      </trans-unit>
+      <trans-unit id="[Credits/Item/toastSwift]" xml:space="preserve">
+        <source>Toast-Swift by Charles Scalesse</source>
+        <target state="needs-translation">Toast-Swift by Charles Scalesse</target>
+        <note>Item in the credits list</note>
+      </trans-unit>
+      <trans-unit id="[Credits/Item/tpInappReceipt]" xml:space="preserve">
+        <source>TPInAppReceipt by Pavel Tikhonenko</source>
+        <target state="needs-translation">TPInAppReceipt by Pavel Tikhonenko</target>
+        <note>Item in the credits list</note>
+      </trans-unit>
+      <trans-unit id="[Credits/Item/translations]" xml:space="preserve">
+        <source>Translation by KeePassium contributors</source>
+        <target state="needs-translation">Translation by KeePassium contributors</target>
+        <note>Item in the credits list</note>
+      </trans-unit>
+      <trans-unit id="[Credits/Item/twoFish]" xml:space="preserve">
+        <source>Twofish implementation by Niels Ferguson</source>
+        <target state="needs-translation">Twofish implementation by Niels Ferguson</target>
+        <note>Item in the credits list</note>
+      </trans-unit>
+      <trans-unit id="[Credits/Item/wordlists]" xml:space="preserve">
+        <source>Passphrase wordlists by EFF</source>
+        <target state="needs-translation">Passphrase wordlists by EFF</target>
+        <note>Item in the credits list</note>
+      </trans-unit>
+      <trans-unit id="[Credits/Item/yubico]" xml:space="preserve">
+        <source>Yubico Mobile iOS SDK by Yubico AB</source>
+        <target state="needs-translation">Yubico Mobile iOS SDK by Yubico AB</target>
+        <note>Item in the credits list</note>
+      </trans-unit>
+      <trans-unit id="[Credits/Item/zxcvbn]" xml:space="preserve">
+        <source>zxcvbn-ios by Dropbox</source>
+        <target state="needs-translation">zxcvbn-ios by Dropbox</target>
+        <note>Item in the credits list</note>
+      </trans-unit>
+      <trans-unit id="[Credits/License/apache2]" xml:space="preserve">
+        <source>Apache 2.0 license</source>
+        <target state="needs-translation">Apache 2.0 license</target>
+        <note>License name for credits</note>
+      </trans-unit>
+      <trans-unit id="[Credits/License/cc0]" xml:space="preserve">
+        <source>CC0 license</source>
+        <target state="needs-translation">CC0 license</target>
+        <note>License name for credits</note>
+      </trans-unit>
+      <trans-unit id="[Credits/License/ccBy3]" xml:space="preserve">
+        <source>CC BY 3.0</source>
+        <target state="needs-translation">CC BY 3.0</target>
+        <note>License name for credits</note>
+      </trans-unit>
+      <trans-unit id="[Credits/License/ccByNd]" xml:space="preserve">
+        <source>CC BY-ND 3.0</source>
+        <target state="needs-translation">CC BY-ND 3.0</target>
+        <note>License name for credits</note>
+      </trans-unit>
+      <trans-unit id="[Credits/License/customPermissiveLicense]" xml:space="preserve">
+        <source>Custom permissive license</source>
+        <target state="needs-translation">Custom permissive license</target>
+        <note>License name for credits</note>
+      </trans-unit>
+      <trans-unit id="[Credits/License/gpl]" xml:space="preserve">
+        <source>GPL license</source>
+        <target state="needs-translation">GPL license</target>
+        <note>License name for credits</note>
+      </trans-unit>
+      <trans-unit id="[Credits/License/lgpl]" xml:space="preserve">
+        <source>LGPL license</source>
+        <target state="needs-translation">LGPL license</target>
+        <note>License name for credits</note>
+      </trans-unit>
+      <trans-unit id="[Credits/License/mit]" xml:space="preserve">
+        <source>MIT license</source>
+        <target state="needs-translation">MIT license</target>
+        <note>License name for credits</note>
+      </trans-unit>
+      <trans-unit id="[Credits/License/proprietary]" xml:space="preserve">
+        <source>Proprietary license</source>
+        <target state="needs-translation">Proprietary license</target>
+        <note>License name for credits</note>
+      </trans-unit>
+      <trans-unit id="[Credits/License/publicDomain]" xml:space="preserve">
+        <source>Public Domain</source>
+        <target state="needs-translation">Public Domain</target>
+        <note>License name for credits</note>
+      </trans-unit>
       <trans-unit id="[Database/Create/TemplateEntry/notes] You can also store some notes, if you like." xml:space="preserve">
         <source>You can also store some notes, if you like.</source>
         <target state="translated">원하는 경우 메모를 추가하실 수 있습니다.</target>
@@ -997,8 +1187,8 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <note>Hint shown when both password and key file are empty.</note>
       </trans-unit>
       <trans-unit id="[Database/DownloadFavicons/intro]" xml:space="preserve">
-        <source>KeePassium will contact every website in your database.</source>
-        <target state="needs-translation">KeePassium will contact every website in your database.</target>
+        <source>KeePassium will contact websites associated with each entry.</source>
+        <target state="needs-translation">KeePassium will contact websites associated with each entry.</target>
         <note>Description of favicon downloader feature.</note>
       </trans-unit>
       <trans-unit id="[Database/DownloadFavicons/warning]" xml:space="preserve">
@@ -1055,16 +1245,6 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
         <source>More</source>
         <target state="needs-translation">More</target>
         <note>Title of entry viewer's tab with advanced/secondary properties</note>
-      </trans-unit>
-      <trans-unit id="[Menu/About/title]" xml:space="preserve">
-        <source>About %@</source>
-        <target state="translated">%@ 소개</target>
-        <note>Menu title. For example: `About KeePassium`. [appName: String]</note>
-      </trans-unit>
-      <trans-unit id="[Menu/Preferences/title]" xml:space="preserve">
-        <source>Preferences…</source>
-        <target state="translated">설정…</target>
-        <note>Menu title: app settings</note>
       </trans-unit>
       <trans-unit id="[Onboarding/AddExistingDatabase/action]" xml:space="preserve">
         <source>Add Existing Database</source>
@@ -1348,175 +1528,35 @@ Your actual passwords are never shared with the online service.
         <target state="translated">피드백</target>
         <note>Class = "UITableViewSection"; headerTitle = "Feedback"; ObjectID = "7bL-fQ-OUc"; Note = "Section: user feedback about the app";</note>
       </trans-unit>
-      <trans-unit id="7cl-Fc-8Nf.text" xml:space="preserve">
-        <source>Proprietary license</source>
-        <target state="translated">사유 라이선스</target>
-        <note>Class = "UILabel"; text = "Proprietary license"; ObjectID = "7cl-Fc-8Nf";</note>
-      </trans-unit>
-      <trans-unit id="7id-QT-w26.text" xml:space="preserve">
-        <source>Icons by Icons8</source>
-        <target state="translated">Icons ― Icons8</target>
-        <note>Class = "UILabel"; text = "Icons by Icons8"; ObjectID = "7id-QT-w26";</note>
-      </trans-unit>
-      <trans-unit id="9MZ-zt-75x.text" xml:space="preserve">
-        <source>Base32 for Swift by Norio Nomura</source>
-        <target state="translated">Swift용 Base32 ― Norio Nomura</target>
-        <note>Class = "UILabel"; text = "Base32 for Swift by Norio Nomura"; ObjectID = "9MZ-zt-75x";</note>
-      </trans-unit>
-      <trans-unit id="9lh-fA-Xgx.text" xml:space="preserve">
-        <source>Ionicons by Ionic</source>
-        <target state="translated">Ionicons ― Ionic</target>
-        <note>Class = "UILabel"; text = "Ionicons by Ionic"; ObjectID = "9lh-fA-Xgx";</note>
-      </trans-unit>
       <trans-unit id="9wt-nj-TZW.text" xml:space="preserve" translate="no">
         <source>{Privacy policy summary}</source>
         <target state="needs-translation">{Privacy policy summary}</target>
         <note>Class = "UILabel"; text = "{Privacy policy summary}"; ObjectID = "9wt-nj-TZW";</note>
-      </trans-unit>
-      <trans-unit id="86n-Hc-6m7.text" xml:space="preserve">
-        <source>CC BY 3.0</source>
-        <target state="translated">CC BY 3.0</target>
-        <note>Class = "UILabel"; text = "CC BY 3.0"; ObjectID = "86n-Hc-6m7";</note>
       </trans-unit>
       <trans-unit id="AMd-x7-PDa.text" xml:space="preserve">
         <source>Do you like what you see?</source>
         <target state="translated">앱을 만족스럽게 사용하고 있나요?</target>
         <note>Class = "UILabel"; text = "Do you like what you see?"; ObjectID = "AMd-x7-PDa"; Note = "First part of the 'Do you like what you see? / Leave an App Store review.\"";</note>
       </trans-unit>
-      <trans-unit id="AWg-lI-BfC.text" xml:space="preserve">
-        <source>MIT license</source>
-        <target state="translated">MIT 라이선스</target>
-        <note>Class = "UILabel"; text = "MIT license"; ObjectID = "AWg-lI-BfC";</note>
-      </trans-unit>
-      <trans-unit id="Aig-jg-p8B.text" xml:space="preserve">
-        <source>MIT license</source>
-        <target state="translated">MIT 라이선스</target>
-        <note>Class = "UILabel"; text = "MIT license"; ObjectID = "Aig-jg-p8B";</note>
-      </trans-unit>
-      <trans-unit id="CNI-b8-7Da.text" xml:space="preserve">
-        <source>KeePass by Dominik Reichl</source>
-        <target state="translated">KeePass ― Dominik Reichl</target>
-        <note>Class = "UILabel"; text = "KeePass by Dominik Reichl"; ObjectID = "CNI-b8-7Da";</note>
-      </trans-unit>
-      <trans-unit id="EWy-OI-IxL.text" xml:space="preserve">
-        <source>Custom permissive license</source>
-        <target state="translated">커스텀 퍼미시브 라이선스</target>
-        <note>Class = "UILabel"; text = "Custom permissive license"; ObjectID = "EWy-OI-IxL";</note>
-      </trans-unit>
-      <trans-unit id="Erq-Zz-P0N.text" xml:space="preserve">
-        <source>MIT license</source>
-        <target state="translated">MIT 라이선스</target>
-        <note>Class = "UILabel"; text = "MIT license"; ObjectID = "Erq-Zz-P0N";</note>
-      </trans-unit>
-      <trans-unit id="Ha8-Qv-0qg.text" xml:space="preserve">
-        <source>ChaCha20 &amp; Salsa20 implementation by D. J. Bernstein</source>
-        <target state="translated">ChaCha20 &amp; Salsa20 구현 ― D. J. Bernstein</target>
-        <note>Class = "UILabel"; text = "ChaCha20 &amp; Salsa20 implementation by D. J. Bernstein"; ObjectID = "Ha8-Qv-0qg";</note>
-      </trans-unit>
-      <trans-unit id="JRy-jy-KXb.text" xml:space="preserve">
-        <source>GPL license</source>
-        <target state="translated">GPL 라이선스</target>
-        <note>Class = "UILabel"; text = "GPL license"; ObjectID = "JRy-jy-KXb";</note>
-      </trans-unit>
       <trans-unit id="JbR-nf-D9o.headerTitle" xml:space="preserve">
         <source>Privacy Policy</source>
         <target state="translated">개인정보처리방침</target>
         <note>Class = "UITableViewSection"; headerTitle = "Privacy Policy"; ObjectID = "JbR-nf-D9o"; Note = "Section: privacy policy";</note>
-      </trans-unit>
-      <trans-unit id="JgR-60-OMp.text" xml:space="preserve">
-        <source>Public domain</source>
-        <target state="translated">퍼블릭 도메인</target>
-        <note>Class = "UILabel"; text = "Public domain"; ObjectID = "JgR-60-OMp";</note>
-      </trans-unit>
-      <trans-unit id="JjJ-GT-eoX.text" xml:space="preserve">
-        <source>LGPL license</source>
-        <target state="translated">LGPL 라이선스</target>
-        <note>Class = "UILabel"; text = "LGPL license"; ObjectID = "JjJ-GT-eoX";</note>
-      </trans-unit>
-      <trans-unit id="KWA-h1-ddu.text" xml:space="preserve">
-        <source>MIT license</source>
-        <target state="translated">MIT 라이선스</target>
-        <note>Class = "UILabel"; text = "MIT license"; ObjectID = "KWA-h1-ddu";</note>
-      </trans-unit>
-      <trans-unit id="Kdg-Hz-XOQ.text" xml:space="preserve">
-        <source>Fancy deboss pattern by Daniel Beaton</source>
-        <target state="translated">Fancy deboss pattern ― Daniel Beaton</target>
-        <note>Class = "UILabel"; text = "Fancy deboss pattern by Daniel Beaton"; ObjectID = "Kdg-Hz-XOQ";</note>
       </trans-unit>
       <trans-unit id="NLN-lQ-bh5.title" xml:space="preserve">
         <source>About</source>
         <target state="translated">앱 정보</target>
         <note>Class = "UITableViewController"; title = "About"; ObjectID = "NLN-lQ-bh5";</note>
       </trans-unit>
-      <trans-unit id="OaP-Bl-5vR.text" xml:space="preserve">
-        <source>TPInAppReceipt by Pavel Tikhonenko</source>
-        <target state="translated">TPInAppReceipt ― Pavel Tikhonenko</target>
-        <note>Class = "UILabel"; text = "TPInAppReceipt by Pavel Tikhonenko"; ObjectID = "OaP-Bl-5vR";</note>
-      </trans-unit>
-      <trans-unit id="QV5-N8-NRt.text" xml:space="preserve">
-        <source>Public domain</source>
-        <target state="translated">퍼블릭 도메인</target>
-        <note>Class = "UILabel"; text = "Public domain"; ObjectID = "QV5-N8-NRt";</note>
-      </trans-unit>
-      <trans-unit id="Qz4-PJ-Tra.text" xml:space="preserve">
-        <source>CC BY 3.0</source>
-        <target state="translated">CC BY 3.0</target>
-        <note>Class = "UILabel"; text = "CC BY 3.0"; ObjectID = "Qz4-PJ-Tra";</note>
-      </trans-unit>
-      <trans-unit id="Rab-wf-OQe.text" xml:space="preserve">
-        <source>MIT license</source>
-        <target state="translated">MIT 라이선스</target>
-        <note>Class = "UILabel"; text = "MIT license"; ObjectID = "Rab-wf-OQe";</note>
-      </trans-unit>
-      <trans-unit id="SOX-Re-yl9.text" xml:space="preserve">
-        <source>Linecons by Andrian Valeanu</source>
-        <target state="translated">Linecons ― Andrian Valeanu</target>
-        <note>Class = "UILabel"; text = "Linecons by Andrian Valeanu"; ObjectID = "SOX-Re-yl9";</note>
-      </trans-unit>
-      <trans-unit id="SUh-L1-IvF.text" xml:space="preserve">
-        <source>zxcvbn-ios by Dropbox</source>
-        <target state="needs-translation">zxcvbn-ios by Dropbox</target>
-        <note>Class = "UILabel"; text = "zxcvbn-ios by Dropbox"; ObjectID = "SUh-L1-IvF";</note>
-      </trans-unit>
       <trans-unit id="TOl-DA-gYc.text" xml:space="preserve">
         <source>Contact Support</source>
         <target state="translated">지원 요청하기</target>
         <note>Class = "UILabel"; text = "Contact Support"; ObjectID = "TOl-DA-gYc"; Note = "Action: contact us";</note>
       </trans-unit>
-      <trans-unit id="VuB-ng-Uii.text" xml:space="preserve">
-        <source>Nuvola icons by David Vignoni</source>
-        <target state="translated">Nuvola 아이콘 ― David Vignoni</target>
-        <note>Class = "UILabel"; text = "Nuvola icons by David Vignoni"; ObjectID = "VuB-ng-Uii";</note>
-      </trans-unit>
       <trans-unit id="Wuj-Uw-baK.text" xml:space="preserve">
         <source>KeePassium</source>
         <target state="translated">KeePassium</target>
         <note>Class = "UILabel"; text = "KeePassium"; ObjectID = "Wuj-Uw-baK";</note>
-      </trans-unit>
-      <trans-unit id="Xee-Y1-Dcw.text" xml:space="preserve">
-        <source>Yubico Mobile iOS SDK by Yubico AB</source>
-        <target state="translated">Yubico Mobile iOS SDK ― Yubico AB</target>
-        <note>Class = "UILabel"; text = "Yubico Mobile iOS SDK by Yubico AB"; ObjectID = "Xee-Y1-Dcw";</note>
-      </trans-unit>
-      <trans-unit id="Z7s-Ch-895.text" xml:space="preserve">
-        <source>MIT license</source>
-        <target state="translated">MIT 라이선스</target>
-        <note>Class = "UILabel"; text = "MIT license"; ObjectID = "Z7s-Ch-895";</note>
-      </trans-unit>
-      <trans-unit id="aqX-J9-IzD.text" xml:space="preserve">
-        <source>Translation by KeePassium contributors</source>
-        <target state="translated">한국어 번역 ― somni (@somni_somni)</target>
-        <note>Class = "UILabel"; text = "Translation by KeePassium contributors"; ObjectID = "aqX-J9-IzD"; Note = "Replace with a credit to yourself. For example: `German translation by Erika Mustermann and @JohnDoe`.";</note>
-      </trans-unit>
-      <trans-unit id="axY-gm-XNr.text" xml:space="preserve">
-        <source>Twofish implementation by Niels Ferguson</source>
-        <target state="translated">Twofish 구현 ― Niels Ferguson</target>
-        <note>Class = "UILabel"; text = "Twofish implementation by Niels Ferguson"; ObjectID = "axY-gm-XNr";</note>
-      </trans-unit>
-      <trans-unit id="bAq-tq-nuY.text" xml:space="preserve">
-        <source>MIT license</source>
-        <target state="translated">MIT 라이선스</target>
-        <note>Class = "UILabel"; text = "MIT license"; ObjectID = "bAq-tq-nuY";</note>
       </trans-unit>
       <trans-unit id="bTY-d6-puv.text" xml:space="preserve" translate="no">
         <source>Accept input from AutoFill providers</source>
@@ -1528,95 +1568,15 @@ Your actual passwords are never shared with the online service.
         <target state="needs-translation">{©2021 Andrei Popleteev}</target>
         <note>Class = "UILabel"; text = "{©2021 Andrei Popleteev}"; ObjectID = "bmf-Ed-H4x";</note>
       </trans-unit>
-      <trans-unit id="daJ-ma-jhe.text" xml:space="preserve">
-        <source>MIT license</source>
-        <target state="translated">MIT 라이선스</target>
-        <note>Class = "UILabel"; text = "MIT license"; ObjectID = "daJ-ma-jhe";</note>
-      </trans-unit>
-      <trans-unit id="hDU-6p-Bzr.text" xml:space="preserve">
-        <source>Rijndael implementation by Szymon Stefanek</source>
-        <target state="translated">Rijndael 구현 ― Szymon Stefanek</target>
-        <note>Class = "UILabel"; text = "Rijndael implementation by Szymon Stefanek"; ObjectID = "hDU-6p-Bzr";</note>
-      </trans-unit>
-      <trans-unit id="hVm-qH-TAI.text" xml:space="preserve">
-        <source>CC BY 3.0</source>
-        <target state="translated">CC BY 3.0</target>
-        <note>Class = "UILabel"; text = "CC BY 3.0"; ObjectID = "hVm-qH-TAI";</note>
-      </trans-unit>
-      <trans-unit id="hW0-fR-mIf.text" xml:space="preserve">
-        <source>Icons by KeePassXC team</source>
-        <target state="translated">아이콘 ― KeePassXC 팀</target>
-        <note>Class = "UILabel"; text = "Icons by KeePassXC team"; ObjectID = "hW0-fR-mIf";</note>
-      </trans-unit>
-      <trans-unit id="hqP-9y-rXc.text" xml:space="preserve">
-        <source>MIT license</source>
-        <target state="translated">MIT 라이선스</target>
-        <note>Class = "UILabel"; text = "MIT license"; ObjectID = "hqP-9y-rXc";</note>
-      </trans-unit>
-      <trans-unit id="ht7-pj-Dbb.text" xml:space="preserve">
-        <source>Apache 2.0 license</source>
-        <target state="translated">Apache 2.0 라이선스</target>
-        <note>Class = "UILabel"; text = "Apache 2.0 license"; ObjectID = "ht7-pj-Dbb";</note>
-      </trans-unit>
-      <trans-unit id="iKy-z5-Ox7.text" xml:space="preserve">
-        <source>CC BY-ND 3.0</source>
-        <target state="translated">CC BY-ND 3.0</target>
-        <note>Class = "UILabel"; text = "CC BY-ND 3.0"; ObjectID = "iKy-z5-Ox7";</note>
-      </trans-unit>
       <trans-unit id="kae-Kb-5ZU.text" xml:space="preserve" translate="no">
         <source>{info@keepassium.com}</source>
         <target state="needs-translation">{info@keepassium.com}</target>
         <note>Class = "UILabel"; text = "{info@keepassium.com}"; ObjectID = "kae-Kb-5ZU"; Note = "#bc-ignore!";</note>
       </trans-unit>
-      <trans-unit id="kvO-9B-1Sy.text" xml:space="preserve">
-        <source>Passphrase wordlists by EFF</source>
-        <target state="needs-translation">Passphrase wordlists by EFF</target>
-        <note>Class = "UILabel"; text = "Passphrase wordlists by EFF"; ObjectID = "kvO-9B-1Sy";</note>
-      </trans-unit>
-      <trans-unit id="lht-LP-o0Y.text" xml:space="preserve">
-        <source>MIT license</source>
-        <target state="translated">MIT 라이선스</target>
-        <note>Class = "UILabel"; text = "MIT license"; ObjectID = "lht-LP-o0Y";</note>
-      </trans-unit>
       <trans-unit id="muG-xI-muo.headerTitle" xml:space="preserve">
         <source>Credits</source>
         <target state="translated">크레딧 및 사용 라이브러리</target>
         <note>Class = "UITableViewSection"; headerTitle = "Credits"; ObjectID = "muG-xI-muo"; Note = "Section: acknowledgements and thank-you notes";</note>
-      </trans-unit>
-      <trans-unit id="o9e-qb-mMw.text" xml:space="preserve">
-        <source>CC0 license</source>
-        <target state="translated">CC0 라이선스</target>
-        <note>Class = "UILabel"; text = "CC0 license"; ObjectID = "o9e-qb-mMw";</note>
-      </trans-unit>
-      <trans-unit id="r7M-Gb-1Xd.text" xml:space="preserve">
-        <source>Toast-Swift by Charles Scalesse</source>
-        <target state="translated">Toast-Swift ― Charles Scalesse</target>
-        <note>Class = "UILabel"; text = "Toast-Swift by Charles Scalesse"; ObjectID = "r7M-Gb-1Xd";</note>
-      </trans-unit>
-      <trans-unit id="rDJ-4G-8Oz.text" xml:space="preserve">
-        <source>Argon2 by Daniel Dinu, Dmitry Khovratovich, Jean-Philippe Aumasson, and Samuel Neves</source>
-        <target state="translated">Argon2 ― Daniel Dinu, Dmitry Khovratovich, Jean-Philippe Aumasson, Samuel Neves</target>
-        <note>Class = "UILabel"; text = "Argon2 by Daniel Dinu, Dmitry Khovratovich, Jean-Philippe Aumasson, and Samuel Neves"; ObjectID = "rDJ-4G-8Oz";</note>
-      </trans-unit>
-      <trans-unit id="sCk-Se-Vvo.text" xml:space="preserve">
-        <source>MIT license</source>
-        <target state="translated">MIT 라이선스</target>
-        <note>Class = "UILabel"; text = "MIT license"; ObjectID = "sCk-Se-Vvo";</note>
-      </trans-unit>
-      <trans-unit id="sDW-ws-pQf.text" xml:space="preserve">
-        <source>GzipSwift by 1024jp</source>
-        <target state="translated">GzipSwift ― 1024jp</target>
-        <note>Class = "UILabel"; text = "GzipSwift by 1024jp"; ObjectID = "sDW-ws-pQf";</note>
-      </trans-unit>
-      <trans-unit id="sI5-AG-Y6p.text" xml:space="preserve">
-        <source>AEXML by Marko Tadić</source>
-        <target state="translated">AEXML ― Marko Tadić</target>
-        <note>Class = "UILabel"; text = "AEXML by Marko Tadić"; ObjectID = "sI5-AG-Y6p";</note>
-      </trans-unit>
-      <trans-unit id="tOr-N9-2UY.text" xml:space="preserve">
-        <source>Feather icons by Cole Bemis</source>
-        <target state="translated">Feather 아이콘 ― Cole Bemis</target>
-        <note>Class = "UILabel"; text = "Feather icons by Cole Bemis"; ObjectID = "tOr-N9-2UY";</note>
       </trans-unit>
       <trans-unit id="uiw-Qh-pNp.text" xml:space="preserve">
         <source>Leave an App Store review.</source>
@@ -1627,16 +1587,6 @@ Your actual passwords are never shared with the online service.
         <source>{v1.0.123}</source>
         <target state="needs-translation">{v1.0.123}</target>
         <note>Class = "UILabel"; text = "{v1.0.123}"; ObjectID = "vDg-fF-8ty"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="wYr-Ya-qAP.text" xml:space="preserve">
-        <source>System settings icon by Vicons Design</source>
-        <target state="translated">시스템 설정 아이콘 ― Vicons Design</target>
-        <note>Class = "UILabel"; text = "System settings icon by Vicons Design"; ObjectID = "wYr-Ya-qAP";</note>
-      </trans-unit>
-      <trans-unit id="y9Z-rr-JL8.text" xml:space="preserve">
-        <source>SwiftDomainParser by Dashlane</source>
-        <target state="needs-translation">SwiftDomainParser by Dashlane</target>
-        <note>Class = "UILabel"; text = "SwiftDomainParser by Dashlane"; ObjectID = "y9Z-rr-JL8";</note>
       </trans-unit>
     </body>
   </file>
