@@ -7,17 +7,17 @@
     <body>
       <trans-unit id="Add Database" xml:space="preserve">
         <source>Add Database</source>
-        <target state="translated">Voeg databank toe</target>
+        <target state="translated">Voeg database toe</target>
         <note>Action/button to add database to the app</note>
       </trans-unit>
       <trans-unit id="KeePass database should not be used as key file. Please pick a different file." xml:space="preserve">
         <source>KeePass database should not be used as key file. Please pick a different file.</source>
-        <target state="translated">De KeePass-databank mag niet worden gebruikt als sleutelbestand. Kies een ander bestand.</target>
+        <target state="translated">De KeePass-database mag niet worden gebruikt als sleutelbestand. Kies een ander bestand.</target>
         <note>Warning message when the user tries to use a database as a key file</note>
       </trans-unit>
       <trans-unit id="No database files" xml:space="preserve">
         <source>No database files</source>
-        <target state="translated">Geen databankbestanden</target>
+        <target state="translated">Geen databasebestanden</target>
         <note>Placeholder shown when there are no database files available</note>
       </trans-unit>
       <trans-unit id="Show Backup Files" xml:space="preserve">
@@ -137,7 +137,7 @@
       </trans-unit>
       <trans-unit id="[Appearance/DatabaseIcons/title]" xml:space="preserve">
         <source>Database Icons</source>
-        <target state="translated">Databankpictogrammen</target>
+        <target state="translated">Databasepictogrammen</target>
         <note>Section in settings: icons for database</note>
       </trans-unit>
       <trans-unit id="[Appearance/DefaultFont/shortTitle]" xml:space="preserve">
@@ -197,7 +197,7 @@
       </trans-unit>
       <trans-unit id="[ChallengeResponseError] notSupportedByDatabaseFormat" xml:space="preserve">
         <source>Hardware keys are not supported by this database format.</source>
-        <target state="translated">Hardwarematige sleutels worden niet ondersteund door dit databankformaat.</target>
+        <target state="translated">Hardwarematige sleutels worden niet ondersteund door dit databaseformaat.</target>
         <note>Error message when trying to use challenge-response with a kdb database.</note>
       </trans-unit>
       <trans-unit id="[ChallengeResponseError] notSupportedByDeviceOrSystem" xml:space="preserve">
@@ -277,12 +277,12 @@
       </trans-unit>
       <trans-unit id="[Database/Add] Selected file &quot;%@&quot; does not look like a database." xml:space="preserve">
         <source>Selected file "%@" does not look like a database.</source>
-        <target state="translated">Het geselecteerde bestand ('%@') lijkt geen databank te zijn.</target>
+        <target state="translated">Het geselecteerde bestand ('%@') lijkt geen database te zijn.</target>
         <note>Warning when trying to add a random file as a database. [fileName: String]</note>
       </trans-unit>
       <trans-unit id="[Database/Create/action] Create Database" xml:space="preserve">
         <source>Create Database</source>
-        <target state="translated">Maak databank</target>
+        <target state="translated">Maak database</target>
         <note>Action/button to create a new database</note>
       </trans-unit>
       <trans-unit id="[Database/CustomIcon/DownloadFavicon/action]" xml:space="preserve">
@@ -330,7 +330,7 @@ Pictogrammen bijgewerkt: %2$d</target>
       <trans-unit id="[Database/Delete/Confirm/text] Delete database file?&#10; Make sure you have a backup." xml:space="preserve">
         <source>Delete database file?
  Make sure you have a backup.</source>
-        <target state="translated">Verwijder databankbestand?
+        <target state="translated">Verwijder databasebestand?
  Zorg ervoor dat je een back-up hebt.</target>
         <note>Message to confirm deletion of a database file. (This deletes the file itself)</note>
       </trans-unit>
@@ -356,7 +356,7 @@ Pictogrammen bijgewerkt: %2$d</target>
       </trans-unit>
       <trans-unit id="[Database/EncryptionSettings/memoryAutoFillWarning]" xml:space="preserve">
         <source>High memory requirements can make this database incompatible with Password AutoFill.</source>
-        <target state="translated">Bij hoge geheugenvereisten kan het automatisch invullen van wachtwoorden met deze databank mogelijk niet worden gebruikt.</target>
+        <target state="translated">Bij hoge geheugenvereisten kan het automatisch invullen van wachtwoorden met deze database mogelijk niet worden gebruikt.</target>
         <note>Warning for too high value of the `Memory usage` parameter in database encryption settings.</note>
       </trans-unit>
       <trans-unit id="[Database/EncryptionSettings/memory]" xml:space="preserve">
@@ -381,7 +381,7 @@ Pictogrammen bijgewerkt: %2$d</target>
       </trans-unit>
       <trans-unit id="[Database/Entry/LinkedDatabase/message]" xml:space="preserve" approved="yes">
         <source>This entry points to another database.</source>
-        <target state="final">Dit item verwijst naar een andere databank.</target>
+        <target state="final">Dit item verwijst naar een andere database.</target>
         <note>Info message for entries that contain information for opening a different database.</note>
       </trans-unit>
       <trans-unit id="[Database/Export/PlainText/warning]" xml:space="preserve" approved="yes">
@@ -406,7 +406,7 @@ Pictogrammen bijgewerkt: %2$d</target>
       </trans-unit>
       <trans-unit id="[Database/ExternalChange/notification]" xml:space="preserve" approved="yes">
         <source>Database file has changed. Reload?</source>
-        <target state="final">Databankbestand is gewijzigd. Opnieuw laden?</target>
+        <target state="final">Databasebestand is gewijzigd. Opnieuw laden?</target>
         <note>Notification message about external changes to the loaded file.</note>
       </trans-unit>
       <trans-unit id="[Database/FormatVersion/Conversion/allDataPreserved]" xml:space="preserve">
@@ -416,7 +416,7 @@ Pictogrammen bijgewerkt: %2$d</target>
       </trans-unit>
       <trans-unit id="[Database/FormatVersion/PasskeysNotSupported]" xml:space="preserve" approved="yes">
         <source>Current database format does not support passkeys.</source>
-        <target state="final">De huidige databankindeling ondersteunt geen passkeys.</target>
+        <target state="final">De huidige databaseindeling ondersteunt geen passkeys.</target>
         <note>Error message when creating a new passkey.</note>
       </trans-unit>
       <trans-unit id="[Database/FormatVersion/Upgrade/text]" xml:space="preserve">
@@ -441,7 +441,7 @@ Pictogrammen bijgewerkt: %2$d</target>
       </trans-unit>
       <trans-unit id="[Database/LesserTargetFormat/warning]" xml:space="preserve">
         <source>This is an older database format, some data might be lost.</source>
-        <target state="translated">Dit is een ouder databankformaat; bepaalde gegevens gaan mogelijk verloren.</target>
+        <target state="translated">Dit is een ouder databaseformaat; bepaalde gegevens gaan mogelijk verloren.</target>
         <note>Notification when user tries to copy data from KDBX to older KDB database.</note>
       </trans-unit>
       <trans-unit id="[Database/List/LocalMissing/message]" xml:space="preserve" approved="yes">
@@ -451,17 +451,17 @@ Pictogrammen bijgewerkt: %2$d</target>
       </trans-unit>
       <trans-unit id="[Database/List/title]" xml:space="preserve">
         <source>Databases</source>
-        <target state="translated">Databanken</target>
+        <target state="translated">Databases</target>
         <note>Title of the database picker list</note>
       </trans-unit>
       <trans-unit id="[Database/Load/Error/encryptedByIntune]" xml:space="preserve">
         <source>This database is protected by your corporate IT policies and Microsoft Intune.</source>
-        <target state="translated">Deze databank is beveiligd door het zakelijke it-beleid en Microsoft Intune.</target>
+        <target state="translated">Deze database is beveiligd door het zakelijke it-beleid en Microsoft Intune.</target>
         <note>Error message</note>
       </trans-unit>
       <trans-unit id="[Database/Load/Error] Cannot find database file" xml:space="preserve">
         <source>Cannot find database file</source>
-        <target state="translated">Kan databankbestand niet vinden</target>
+        <target state="translated">Kan databasebestand niet vinden</target>
         <note>Error message</note>
       </trans-unit>
       <trans-unit id="[Database/Load/Error] Cannot find key file" xml:space="preserve">
@@ -471,7 +471,7 @@ Pictogrammen bijgewerkt: %2$d</target>
       </trans-unit>
       <trans-unit id="[Database/Load/Error] Cannot open database file" xml:space="preserve">
         <source>Cannot open database file</source>
-        <target state="translated">Kan databankbestand niet openen</target>
+        <target state="translated">Kan databasebestand niet openen</target>
         <note>Error message</note>
       </trans-unit>
       <trans-unit id="[Database/Load/Error] Cannot open key file" xml:space="preserve">
@@ -481,7 +481,7 @@ Pictogrammen bijgewerkt: %2$d</target>
       </trans-unit>
       <trans-unit id="[Database/Load/Error] Incorrect database format" xml:space="preserve">
         <source>Incorrect database format: %@.</source>
-        <target state="translated">Onjuist databankformaat: %@.</target>
+        <target state="translated">Onjuist databaseformaat: %@.</target>
         <note>Error message, when the real file format is recognized. For example: 'Incorrect database format: JPEG.'</note>
       </trans-unit>
       <trans-unit id="[Database/Load/Error] Please provide at least a password or a key file" xml:space="preserve">
@@ -491,19 +491,19 @@ Pictogrammen bijgewerkt: %2$d</target>
       </trans-unit>
       <trans-unit id="[Database/Load/Error] Unrecognized database format" xml:space="preserve">
         <source>Unrecognized database format</source>
-        <target state="translated">Niet-herkend databankformaat</target>
+        <target state="translated">Niet-herkend databaseformaat</target>
         <note>Error message</note>
       </trans-unit>
       <trans-unit id="[Database/Loading/FromCache/text]" xml:space="preserve">
         <source>The database is unreachable.
 This is its latest local copy.</source>
-        <target state="translated">De databank is ontoegankelijk.
+        <target state="translated">De database is ontoegankelijk.
 Dit is de nieuwste lokale kopie.</target>
         <note>Message shown after we show a cached local database instead of the (unavailable) original database.</note>
       </trans-unit>
       <trans-unit id="[Database/Loading/ReadOnly/text]" xml:space="preserve">
         <source>The database is read-only</source>
-        <target state="translated">De databank is alleen-lezen</target>
+        <target state="translated">De database is alleen-lezen</target>
         <note>Message shown if current database cannot be edited</note>
       </trans-unit>
       <trans-unit id="[Database/Loading/Status] Loading..." xml:space="preserve">
@@ -538,17 +538,17 @@ Dit is de nieuwste lokale kopie.</target>
       </trans-unit>
       <trans-unit id="[Database/New/title]" xml:space="preserve" approved="yes">
         <source>New Database</source>
-        <target state="final">Nieuwe databank</target>
+        <target state="final">Nieuwe database</target>
         <note>Title of database creation dialog</note>
       </trans-unit>
       <trans-unit id="[Database/Open/action] Open Database" xml:space="preserve">
         <source>Open Database</source>
-        <target state="translated">Open databank</target>
+        <target state="translated">Open database</target>
         <note>Action/button</note>
       </trans-unit>
       <trans-unit id="[Database/Opened/Warning/action] Close Database" xml:space="preserve">
         <source>Close Database</source>
-        <target state="translated">Sluit databank</target>
+        <target state="translated">Sluit database</target>
         <note>Action: lock database</note>
       </trans-unit>
       <trans-unit id="[Database/Opened/Warning/action] Ignore and Continue" xml:space="preserve">
@@ -558,17 +558,17 @@ Dit is de nieuwste lokale kopie.</target>
       </trans-unit>
       <trans-unit id="[Database/Opened/Warning/lastEdited] Database was last edited by: %@" xml:space="preserve">
         <source>Database was last edited by: %@</source>
-        <target state="translated">De databank is voor het laatst bewerkt door: %@</target>
+        <target state="translated">De database is voor het laatst bewerkt door: %@</target>
         <note>Status message: name of the app that was last to write/create the database file. [lastUsedAppName: String]</note>
       </trans-unit>
       <trans-unit id="[Database/Opened/Warning/title] Your database is ready, but there was an issue." xml:space="preserve">
         <source>Your database is ready, but there was an issue.</source>
-        <target state="translated">Je databank is klaar voor gebruik, maar er is een probleem.</target>
+        <target state="translated">Je database is klaar voor gebruik, maar er is een probleem.</target>
         <note>Title of a warning message, shown after opening a problematic database</note>
       </trans-unit>
       <trans-unit id="[Database/Opened/action] Lock Database" xml:space="preserve">
         <source>Lock Database</source>
-        <target state="translated">Vergrendel databank</target>
+        <target state="translated">Vergrendel database</target>
         <note>Action/button to lock current database (the next time, it will ask for the master key).</note>
       </trans-unit>
       <trans-unit id="[Database/Operations/title]" xml:space="preserve">
@@ -588,12 +588,12 @@ Dit is de nieuwste lokale kopie.</target>
       </trans-unit>
       <trans-unit id="[Database/Progress/checkingDatabaseForModifications]" xml:space="preserve" approved="yes">
         <source>Checking database for modifications…</source>
-        <target state="final">Databank controleren op wijzigingen…</target>
+        <target state="final">Database controleren op wijzigingen…</target>
         <note>Database loading/saving status: checking whether our database was modified from another device.</note>
       </trans-unit>
       <trans-unit id="[Database/Progress/downloading]" xml:space="preserve">
         <source>Downloading database file...</source>
-        <target state="translated">Bezig met ophalen van databankbestand...</target>
+        <target state="translated">Bezig met ophalen van databasebestand...</target>
         <note>Database loading status: fetching the database file from disk/cloud</note>
       </trans-unit>
       <trans-unit id="[Database/Progress/makingDatabaseBackup]" xml:space="preserve">
@@ -618,7 +618,7 @@ Dit is de nieuwste lokale kopie.</target>
       </trans-unit>
       <trans-unit id="[Database/Progress/writingDatabaseFile]" xml:space="preserve" approved="yes">
         <source>Writing database file…</source>
-        <target state="final">Databankbestand schrijven…</target>
+        <target state="final">Databasebestand schrijven…</target>
         <note>Database saving status</note>
       </trans-unit>
       <trans-unit id="[Database/Progress] Done" xml:space="preserve">
@@ -644,13 +644,13 @@ Dit is de nieuwste lokale kopie.</target>
       <trans-unit id="[Database/Remove/Confirm/text] Remove database from the list?&#10; The file will remain intact and you can add it again later." xml:space="preserve">
         <source>Remove database from the list?
  The file will remain intact and you can add it again later.</source>
-        <target state="translated">Verwijder databank uit de lijst?
+        <target state="translated">Verwijder database uit de lijst?
  Het bestand blijft intact en je kunt het later nog toevoegen.</target>
         <note>Message to confirm removal of database file from the app. (This keeps the file, but removes its reference from the app.)</note>
       </trans-unit>
       <trans-unit id="[Database/Save/action] Save Database" xml:space="preserve">
         <source>Save Database</source>
-        <target state="translated">Sla databank op</target>
+        <target state="translated">Sla database op</target>
         <note>Action/button to save the current database.</note>
       </trans-unit>
       <trans-unit id="[Database/SaveToServer/action]" xml:space="preserve" approved="yes">
@@ -690,7 +690,7 @@ Dit is de nieuwste lokale kopie.</target>
       </trans-unit>
       <trans-unit id="[Database/Settings/ExternalChanges/title]" xml:space="preserve" approved="yes">
         <source>Database Modified Externally</source>
-        <target state="final">Databank extern gewijzigd</target>
+        <target state="final">Database extern gewijzigd</target>
         <note>File settings parameter: what to do when file was changed by another app/device. (For example: `Database Modified Externally: Notify`)</note>
       </trans-unit>
       <trans-unit id="[Database/Settings/FallbackStrategy/ReAddFile/title]" xml:space="preserve">
@@ -725,12 +725,12 @@ Dit is de nieuwste lokale kopie.</target>
       </trans-unit>
       <trans-unit id="[Database/Settings/title]" xml:space="preserve">
         <source>Database Settings</source>
-        <target state="translated">Databankinstellingen</target>
+        <target state="translated">Database-instellingen</target>
         <note>Title of database-related settings screen</note>
       </trans-unit>
       <trans-unit id="[Database/Switch/action]" xml:space="preserve">
         <source>Switch Database</source>
-        <target state="translated">Andere databank openen</target>
+        <target state="translated">Andere database openen</target>
         <note>Action/button to switch from current to some other database.</note>
       </trans-unit>
       <trans-unit id="[Database/SyncConflict/Cancel/description]" xml:space="preserve">
@@ -765,7 +765,7 @@ Dit is de nieuwste lokale kopie.</target>
       </trans-unit>
       <trans-unit id="[Database/SyncConflict/description]" xml:space="preserve">
         <source>The database has changed since it was loaded in KeePassium.</source>
-        <target state="translated">De databank is veranderd sinds deze is geopend in KeePassium.</target>
+        <target state="translated">De database is veranderd sinds deze is geopend in KeePassium.</target>
         <note>Message shown in case of database sync conflict.</note>
       </trans-unit>
       <trans-unit id="[Database/SyncConflict/loadedVersion]" xml:space="preserve">
@@ -810,7 +810,7 @@ Dit is de nieuwste lokale kopie.</target>
       </trans-unit>
       <trans-unit id="[Database/UnsavedChanges/cannotModifyYet]" xml:space="preserve" approved="yes">
         <source>Unfortunately, AutoFill cannot modify large databases yet. We are working to resolve this.</source>
-        <target state="final">Automatisch invulen kan helaas nog geen grote databanken wijzigen. We werken eraan om dit op te lossen.</target>
+        <target state="final">Automatisch invulen kan helaas nog geen grote databases wijzigen. We werken eraan om dit op te lossen.</target>
         <note>Notification message</note>
       </trans-unit>
       <trans-unit id="[Database/UnsavedChanges/saveAction]" xml:space="preserve" approved="yes">
@@ -820,12 +820,12 @@ Dit is de nieuwste lokale kopie.</target>
       </trans-unit>
       <trans-unit id="[Database/UnsavedChanges/someDatabases]" xml:space="preserve" approved="yes">
         <source>One or more databases have unsaved changes made in AutoFill.</source>
-        <target state="final">Een of meer databanken hebben niet-opgeslagen wijzigingen die zijn aangebracht in Automatisch invullen.</target>
+        <target state="final">Een of meer databases hebben niet-opgeslagen wijzigingen die zijn aangebracht in Automatisch invullen.</target>
         <note>Notification message</note>
       </trans-unit>
       <trans-unit id="[Database/UnsavedChanges/thisDatabase]" xml:space="preserve" approved="yes">
         <source>This database has unsaved changes made in AutoFill.</source>
-        <target state="final">Deze databank heeft niet-opgeslagen wijzigingen die zijn aangebracht in Automatisch invullen.</target>
+        <target state="final">Deze database heeft niet-opgeslagen wijzigingen die zijn aangebracht in Automatisch invullen.</target>
         <note>Notification message</note>
       </trans-unit>
       <trans-unit id="[Database/UnsavedChanges/title]" xml:space="preserve" approved="yes">
@@ -835,27 +835,27 @@ Dit is de nieuwste lokale kopie.</target>
       </trans-unit>
       <trans-unit id="[Database1/FormatError] Database file is corrupted." xml:space="preserve">
         <source>Database file is corrupted.</source>
-        <target state="translated">Het databankbestand is beschadigd.</target>
+        <target state="translated">Het databasebestand is beschadigd.</target>
         <note>Error message</note>
       </trans-unit>
       <trans-unit id="[Database1/FormatError] Error parsing field %@. Corrupted database file?" xml:space="preserve">
         <source>Error parsing field %@. Corrupted database file?</source>
-        <target state="translated">Fout tijdens verwerken van het veld '%@'. Is het databankbestand beschadigd?</target>
+        <target state="translated">Fout tijdens verwerken van het veld '%@'. Is het databasebestand beschadigd?</target>
         <note>Error message [fieldName: String]</note>
       </trans-unit>
       <trans-unit id="[Database1/FormatError] Found an entry outside any group. Corrupted DB file?" xml:space="preserve">
         <source>Found an entry outside any group. Corrupted DB file?</source>
-        <target state="translated">Er is een item zonder groep aangetroffen. Is het databankbestand beschadigd?</target>
+        <target state="translated">Er is een item zonder groep aangetroffen. Is het databasebestand beschadigd?</target>
         <note>Error message</note>
       </trans-unit>
       <trans-unit id="[Database1/FormatError] Unexpected end of file. Corrupted database file?" xml:space="preserve">
         <source>Unexpected end of file. Corrupted database file?</source>
-        <target state="translated">Onverwachte einde van bestand. Is het databankbestand beschadigd?</target>
+        <target state="translated">Onverwachte einde van bestand. Is het databasebestand beschadigd?</target>
         <note>Error message</note>
       </trans-unit>
       <trans-unit id="[Database1/Header1/Error] Header reading error. DB file corrupt?" xml:space="preserve">
         <source>Header reading error. DB file corrupt?</source>
-        <target state="translated">Kan kop niet uitlezen. Is het databankbestand beschadigd?</target>
+        <target state="translated">Kan kop niet uitlezen. Is het databasebestand beschadigd?</target>
         <note>Error message when reading database header</note>
       </trans-unit>
       <trans-unit id="[Database1/Header1/Error] Unsupported cipher. (Code: %@)" xml:space="preserve">
@@ -865,12 +865,12 @@ Dit is de nieuwste lokale kopie.</target>
       </trans-unit>
       <trans-unit id="[Database1/Header1/Error] Unsupported database format version: %@." xml:space="preserve">
         <source>Unsupported database format version: %@.</source>
-        <target state="translated">Niet-ondersteunde databankformaatversie: %@.</target>
+        <target state="translated">Niet-ondersteunde databaseformaatversie: %@.</target>
         <note>Error message when opening a database. [version: String]</note>
       </trans-unit>
       <trans-unit id="[Database1/Header1/Error] Wrong file signature. Not a KeePass database?" xml:space="preserve">
         <source>Wrong file signature. Not a KeePass database?</source>
-        <target state="translated">Verkeerde bestandshandtekening. Is het wel een KeePass-databank?</target>
+        <target state="translated">Verkeerde bestandshandtekening. Is het wel een KeePass-database?</target>
         <note>Error message when opening a database</note>
       </trans-unit>
       <trans-unit id="[Database1/Progress] Packing the content" xml:space="preserve">
@@ -885,22 +885,22 @@ Dit is de nieuwste lokale kopie.</target>
       </trans-unit>
       <trans-unit id="[Database2/FormatError] Cannot parse database. %@" xml:space="preserve">
         <source>Cannot parse database. %@</source>
-        <target state="translated">Kan databank niet verwerken. %@</target>
+        <target state="translated">Kan database niet verwerken. %@</target>
         <note>Error message. Parsing refers to the analysis/understanding of file content. [reason: String]</note>
       </trans-unit>
       <trans-unit id="[Database2/FormatError] Corrupted database file (HMAC mismatch in block %d)" xml:space="preserve">
         <source>Corrupted database file (HMAC mismatch in block %d)</source>
-        <target state="translated">Beschadigd databankbestand (HMAC komt niet overeen in %d)</target>
+        <target state="translated">Beschadigd databasebestand (HMAC komt niet overeen in %d)</target>
         <note>Error message: HMAC value (kind of checksum) of a data block is wrong. [blockIndex: Int]</note>
       </trans-unit>
       <trans-unit id="[Database2/FormatError] Corrupted database file (block %d has negative size)" xml:space="preserve">
         <source>Corrupted database file (block %d has negative size)</source>
-        <target state="translated">Beschadigd databankbestand (blok %d heeft een negatieve grootte)</target>
+        <target state="translated">Beschadigd databasebestand (blok %d heeft een negatieve grootte)</target>
         <note>Error message [blockIndex: Int]</note>
       </trans-unit>
       <trans-unit id="[Database2/FormatError] Corrupted database file (hash mismatch in block %d)" xml:space="preserve">
         <source>Corrupted database file (hash mismatch in block %d)</source>
-        <target state="translated">Beschadigd databankbestand (hash komt niet overeen in blok %d)</target>
+        <target state="translated">Beschadigd databasebestand (hash komt niet overeen in blok %d)</target>
         <note>Error message: hash(checksum) of a data block is wrong. [blockIndex: Int]</note>
       </trans-unit>
       <trans-unit id="[Database2/FormatError] Gzip error: %@" xml:space="preserve">
@@ -925,7 +925,7 @@ Dit is de nieuwste lokale kopie.</target>
       </trans-unit>
       <trans-unit id="[Database2/Header2/Error] Header HMAC mismatch. DB file corrupt?" xml:space="preserve">
         <source>Header HMAC mismatch. DB file corrupt?</source>
-        <target state="translated">Kop HMAC komt niet overeen. Is het databankbestand beschadigd?</target>
+        <target state="translated">Kop HMAC komt niet overeen. Is het databasebestand beschadigd?</target>
         <note>Error message. HMAC = https://en.wikipedia.org/wiki/HMAC</note>
       </trans-unit>
       <trans-unit id="[Database2/Header2/Error] Header field %@ is corrupted." xml:space="preserve">
@@ -935,12 +935,12 @@ Dit is de nieuwste lokale kopie.</target>
       </trans-unit>
       <trans-unit id="[Database2/Header2/Error] Header hash mismatch. DB file corrupt?" xml:space="preserve">
         <source>Header hash mismatch. DB file corrupt?</source>
-        <target state="translated">Hash komt niet overeen in kop. Is het databankbestand beschadigd?</target>
+        <target state="translated">Hash komt niet overeen in kop. Is het databasebestand beschadigd?</target>
         <note>Error message</note>
       </trans-unit>
       <trans-unit id="[Database2/Header2/Error] Header reading error. DB file corrupt?" xml:space="preserve">
         <source>Header reading error. DB file corrupt?</source>
-        <target state="translated">Kan kop niet uitlezen. Is het databankbestand beschadigd?</target>
+        <target state="translated">Kan kop niet uitlezen. Is het databasebestand beschadigd?</target>
         <note>Error message when reading database header</note>
       </trans-unit>
       <trans-unit id="[Database2/Header2/Error] Unknown compression algorithm." xml:space="preserve">
@@ -960,7 +960,7 @@ Dit is de nieuwste lokale kopie.</target>
       </trans-unit>
       <trans-unit id="[Database2/Header2/Error] Unsupported database format version: %@." xml:space="preserve">
         <source>Unsupported database format version: %@.</source>
-        <target state="translated">Niet-ondersteunde databankformaatversie: %@.</target>
+        <target state="translated">Niet-ondersteunde databaseformaatversie: %@.</target>
         <note>Error message when opening a database. [version: String]</note>
       </trans-unit>
       <trans-unit id="[Database2/Header2/Error] Unsupported inner stream cipher (ID %d)" xml:space="preserve">
@@ -970,19 +970,19 @@ Dit is de nieuwste lokale kopie.</target>
       </trans-unit>
       <trans-unit id="[Database2/Header2/Error] Wrong file signature. Not a KeePass database?" xml:space="preserve">
         <source>Wrong file signature. Not a KeePass database?</source>
-        <target state="translated">Verkeerde bestandshandtekening. Is het wel een KeePass-databank?</target>
+        <target state="translated">Verkeerde bestandshandtekening. Is het wel een KeePass-database?</target>
         <note>Error message when opening a database</note>
       </trans-unit>
       <trans-unit id="[Database2/Loading/Error] Error unpacking database: %@" xml:space="preserve">
         <source>Error unpacking database: %@</source>
-        <target state="translated">Fout bij uitpakken van databank: %@</target>
+        <target state="translated">Fout bij uitpakken van database: %@</target>
         <note>Error message about Gzip compression algorithm. [errorMessage: String]</note>
       </trans-unit>
       <trans-unit id="[Database2/Loading/Warning/missingBinaries]" xml:space="preserve">
         <source>Attachments of some entries are missing data. This is a sign of database corruption, most likely by the last used app (%1$@). KeePassium will preserve the empty attachments, but cannot restore them. You should restore your database from a backup copy. 
 
 Missing attachments: %2$@</source>
-        <target state="translated">Er ontbreken gegevens bij de bijlagen van sommige items. Dit kan duiden op databankbeschadiging, waarschijnlijk veroorzaakt door de laatstgebruikte app (%1$@). KeePassium bewaart de lege bijlagen, maar kan ze niet herstellen. Herstel je databank vanuit een back-up. 
+        <target state="translated">Er ontbreken gegevens bij de bijlagen van sommige items. Dit kan duiden op databasebeschadiging, waarschijnlijk veroorzaakt door de laatstgebruikte app (%1$@). KeePassium bewaart de lege bijlagen, maar kan ze niet herstellen. Herstel je database vanuit een back-up. 
 
 Ontbrekende bijlagen: %2$@</target>
         <note>A warning about missing attachments after loading the database. [lastUsedAppName: String, attachmentNames: String]</note>
@@ -992,7 +992,7 @@ Ontbrekende bijlagen: %2$@</target>
 
  Please review attached files in the following entries (and their history):
 %@</source>
-        <target state="translated">De bijlagen van sommige items zijn naamloos. Dit kan duiden op eerdere databankbeschadiging.
+        <target state="translated">De bijlagen van sommige items zijn naamloos. Dit kan duiden op eerdere databasebeschadiging.
 
  Controleer de bijgevoegde bestanden van de volgende items (en hun geschiedenis):
 %@</target>
@@ -1010,13 +1010,13 @@ Ontbrekende bijlagen: %2$@</target>
       <trans-unit id="[Database2/Loading/Warning/unusedAttachments]" xml:space="preserve">
         <source>The database contains some attachments that are not used in any entry. Most likely, they have been forgotten by the last used app (%@). However, this can also be a sign of data corruption. 
 Please make sure to have a backup of your database before changing anything.</source>
-        <target state="translated">De databank bevat enkele bijlagen die niet in gebruik zijn bij een item. Waarschijnlijk zijn ze vergeten door de laatstgebruikte app (%@). Dit kan echter ook een teken van gegevensbeschadiging zijn. 
-Zorg ervoor dat je een back-up van je databank hebt voordat je iets aanpast.</target>
+        <target state="translated">De database bevat enkele bijlagen die niet in gebruik zijn bij een item. Waarschijnlijk zijn ze vergeten door de laatstgebruikte app (%@). Dit kan echter ook een teken van gegevensbeschadiging zijn. 
+Zorg ervoor dat je een back-up van je database hebt voordat je iets aanpast.</target>
         <note>A warning about unused attachments after loading the database. [lastUsedAppName: String]</note>
       </trans-unit>
       <trans-unit id="[Database2/Progress/decompressing]" xml:space="preserve">
         <source>Decompressing database</source>
-        <target state="translated">Bezig met decomprimeren van databank</target>
+        <target state="translated">Bezig met decomprimeren van database</target>
         <note>Progress bar status: un-zipping the database content</note>
       </trans-unit>
       <trans-unit id="[Database2/Progress/integrityCheck]" xml:space="preserve">
@@ -1026,17 +1026,17 @@ Zorg ervoor dat je een back-up van je databank hebt voordat je iets aanpast.</ta
       </trans-unit>
       <trans-unit id="[Database2/Progress/parsingXML]" xml:space="preserve">
         <source>Parsing database</source>
-        <target state="translated">Bezig met verwerken van databank</target>
+        <target state="translated">Bezig met verwerken van database</target>
         <note>Progress bar status: parsing decrypted XML content</note>
       </trans-unit>
       <trans-unit id="[Database2/Progress] Loading database" xml:space="preserve">
         <source>Loading database</source>
-        <target state="translated">Bezig met laden van databank</target>
+        <target state="translated">Bezig met laden van database</target>
         <note>Progress bar status</note>
       </trans-unit>
       <trans-unit id="[Database2/Progress] Reading database content" xml:space="preserve">
         <source>Reading database content</source>
-        <target state="translated">Bezig met uitlezen van databank</target>
+        <target state="translated">Bezig met uitlezen van database</target>
         <note>Progress bar status</note>
       </trans-unit>
       <trans-unit id="[Database2/Progress] Writing encrypted blocks" xml:space="preserve">
@@ -1086,12 +1086,12 @@ Zorg ervoor dat je een back-up van je databank hebt voordat je iets aanpast.</ta
       </trans-unit>
       <trans-unit id="[DatabaseError] Cannot open database" xml:space="preserve">
         <source>Cannot open database</source>
-        <target state="translated">Kan databank niet openen</target>
+        <target state="translated">Kan database niet openen</target>
         <note>Error message while opening a database</note>
       </trans-unit>
       <trans-unit id="[DatabaseError] Cannot save database" xml:space="preserve">
         <source>Cannot save database</source>
-        <target state="translated">Kan databank niet opslaan</target>
+        <target state="translated">Kan database niet opslaan</target>
         <note>Error message while saving a database</note>
       </trans-unit>
       <trans-unit id="[DatabaseError] Invalid password or key file" xml:space="preserve">
@@ -2540,17 +2540,17 @@ Zorg ervoor dat je een back-up van je databank hebt voordat je iets aanpast.</ta
       </trans-unit>
       <trans-unit id="[Premium/Benefits/LinkedDatabases/details]" xml:space="preserve" approved="yes">
         <source>Open another database in one step — using credentials stored in an entry.</source>
-        <target state="final">Open een andere databank in één stap, met inloggegevens opgeslagen in een item.</target>
+        <target state="final">Open een andere database in één stap, met inloggegevens opgeslagen in een item.</target>
         <note>Explanation of the premium feature</note>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/LinkedDatabases/title]" xml:space="preserve" approved="yes">
         <source>Open linked databases</source>
-        <target state="final">Gekoppelde databank openen</target>
+        <target state="final">Gekoppelde database openen</target>
         <note>Title of a premium feature</note>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/MultiDB/details]" xml:space="preserve">
         <source>Add multiple databases and quickly switch between them.</source>
-        <target state="translated">Voeg meerdere databanken toe en schakel snel over.</target>
+        <target state="translated">Voeg meerdere databases toe en schakel snel over.</target>
         <note>Explanation of the premium feature</note>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/MultiDB/title]" xml:space="preserve">
@@ -2848,22 +2848,22 @@ Je kunt je abonnementen beheren en annuleren door na aankoop naar je accountinst
       </trans-unit>
       <trans-unit id="[PremiumFeature/LinkedDatabases/description]" xml:space="preserve" approved="yes">
         <source>Upgrade to premium and open linked databases in one step.</source>
-        <target state="final">Upgrade naar premium en open gekoppelde databanken in één stap.</target>
+        <target state="final">Upgrade naar premium en open gekoppelde databases in één stap.</target>
         <note>Description/advertisement for the `Linked Databases` premium feature</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/LinkedDatabases/title]" xml:space="preserve" approved="yes">
         <source>Linked Databases</source>
-        <target state="final">Gekoppelde databanken</target>
+        <target state="final">Gekoppelde databases</target>
         <note>Title of a premium feature: ability to open databases referenced in another database (In Title Case)</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/MultiDB/description] Easily switch between databases in the premium version." xml:space="preserve">
         <source>Easily switch between databases in the premium version.</source>
-        <target state="translated">In de Premium-versie kun je eenvoudig schakelen tusses databanken.</target>
+        <target state="translated">In de Premium-versie kun je eenvoudig schakelen tusses databases.</target>
         <note>Description/advertisement for the `Multiple Databases` premium feature</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/MultiDB/title] Multiple Databases" xml:space="preserve">
         <source>Multiple Databases</source>
-        <target state="translated">Meerdere databanken</target>
+        <target state="translated">Meerdere databases</target>
         <note>Title of a premium feature: ability to use multiple databases (In Title Case)</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/PasswordAudit/description]" xml:space="preserve">
@@ -2907,7 +2907,7 @@ Sommige functies kunnen betrekking hebben op de uitwisseling van gegevens met ex
         <source>Not enough memory to continue.
 This can happen with larger databases or too ambitious database settings (Argon2 memory parameter).</source>
         <target state="translated">Niet genoeg geheugen om door te gaan.
-Dit kan gebeuren bij grotere databanken of te ambitieuze databankinstellingen (Argon2-geheugenparameter).</target>
+Dit kan gebeuren bij grotere databases of te ambitieuze databaseinstellingen (Argon2-geheugenparameter).</target>
         <note>Error message when a long-running operation was cancelled due to the lack of free memory (RAM).</note>
       </trans-unit>
       <trans-unit id="[Progress/CancellationReason] Cancelled by user" xml:space="preserve">
@@ -3147,7 +3147,7 @@ Dit kan gebeuren bij grotere databanken of te ambitieuze databankinstellingen (A
       </trans-unit>
       <trans-unit id="[Settings/AutoOpenPreviousDatabase/title]" xml:space="preserve">
         <source>Auto-Open Previous Database</source>
-        <target state="translated">Open automatisch de vorige databank</target>
+        <target state="translated">Open automatisch de vorige database</target>
         <note>Option in settings: whether to open the last used database automatically on start.</note>
       </trans-unit>
       <trans-unit id="[Settings/Backup/Delete/title] Delete all backup files?" xml:space="preserve">
@@ -3172,7 +3172,7 @@ Dit kan gebeuren bij grotere databanken of te ambitieuze databankinstellingen (A
       </trans-unit>
       <trans-unit id="[Settings/ClearKeyFileAssociations/Cleared/text] Associations between key files and databases have been removed." xml:space="preserve">
         <source>Associations between key files and databases have been removed.</source>
-        <target state="translated">De associaties tussen sleutelbestanden en databanken zijn verwijderd.</target>
+        <target state="translated">De associaties tussen sleutelbestanden en databases zijn verwijderd.</target>
         <note>Text of the success message for `Clear Key File Associations` button</note>
       </trans-unit>
       <trans-unit id="[Settings/ClearKeyFileAssociations/Cleared/title] Cleared" xml:space="preserve">
@@ -3222,12 +3222,12 @@ Dit kan gebeuren bij grotere databanken of te ambitieuze databankinstellingen (A
       </trans-unit>
       <trans-unit id="[Settings/DatabaseBackup/title]" xml:space="preserve">
         <source>Database Backup</source>
-        <target state="translated">Databankback-up</target>
+        <target state="translated">Databaseback-up</target>
         <note>Title of a settings section: backup of databases</note>
       </trans-unit>
       <trans-unit id="[Settings/DatabaseLockTimeout/description] If you are not interacting with the app for some time, the database will be closed for your safety. To open it, you will need to enter its master password again." xml:space="preserve">
         <source>If you are not interacting with the app for some time, the database will be closed for your safety. To open it, you will need to enter its master password again.</source>
-        <target state="translated">Als je al even niks hebt gedaan in de app, dan wordt de databank omwille van de veiligheid gesloten. Voer je hoofdwachtwoord opnieuw in om de app weer te openen.</target>
+        <target state="translated">Als je al even niks hebt gedaan in de app, dan wordt de database omwille van de veiligheid gesloten. Voer je hoofdwachtwoord opnieuw in om de app weer te openen.</target>
         <note>Description of the Database Lock Timeout</note>
       </trans-unit>
       <trans-unit id="[Settings/DatabaseLockTimeout/description] When leaving the app" xml:space="preserve">
@@ -3257,7 +3257,7 @@ Dit kan gebeuren bij grotere databanken of te ambitieuze databankinstellingen (A
       </trans-unit>
       <trans-unit id="[Settings/DatabaseLockTimeout/title]" xml:space="preserve">
         <source>Database Timeout</source>
-        <target state="translated">Databanktime-out</target>
+        <target state="translated">Databasetime-out</target>
         <note>Title of a setting: the time after which databases will be locked.</note>
       </trans-unit>
       <trans-unit id="[Settings/EntryListDetail/longTitle] None" xml:space="preserve">

@@ -163,7 +163,7 @@ Please contact us if you need help with this.</source>
       </trans-unit>
       <trans-unit id="[AutoFill/Search/context]" xml:space="preserve">
         <source>Context: %@</source>
-        <target state="needs-translation">Context: %@</target>
+        <target state="translated">上下文: %@</target>
         <note>Status message, shows which app or webpage launched AutoFill. For example: `Context: google.com`</note>
       </trans-unit>
       <trans-unit id="[AutoFill/Setup/UncheckKeychain/autofillFrom]" xml:space="preserve">
@@ -201,17 +201,17 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="[Database/Passkey/AddToExisting/action]" xml:space="preserve">
         <source>Add Passkey to Existing Entry</source>
-        <target state="needs-translation">Add Passkey to Existing Entry</target>
+        <target state="translated">添加通行密钥到现有条目</target>
         <note>Action: create a passkey and add it to existing entry</note>
       </trans-unit>
       <trans-unit id="[Database/Passkey/AddToExisting/confirm]" xml:space="preserve">
         <source>This entry already has a passkey. Replace it?</source>
-        <target state="needs-translation">This entry already has a passkey. Replace it?</target>
+        <target state="translated">此条目已经有一个通行密钥。是否要替换？</target>
         <note>Confirmation message before replacing an existing passkey.</note>
       </trans-unit>
       <trans-unit id="[Database/Passkey/Create/title]" xml:space="preserve">
         <source>Create a Passkey?</source>
-        <target state="needs-translation">Create a Passkey?</target>
+        <target state="translated">创建一个通行密钥？</target>
         <note>Title of an optional dialog for creating new passkeys</note>
       </trans-unit>
       <trans-unit id="[Generic/ApplePasswordsApp/title]" xml:space="preserve">
@@ -1188,7 +1188,7 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="[Database/DownloadFavicons/intro]" xml:space="preserve">
         <source>KeePassium will contact websites associated with each entry.</source>
-        <target state="needs-translation">KeePassium will contact websites associated with each entry.</target>
+        <target state="translated">KeePassium 将联系与每个条目相关联的网站。</target>
         <note>Description of favicon downloader feature.</note>
       </trans-unit>
       <trans-unit id="[Database/DownloadFavicons/warning]" xml:space="preserve" approved="yes">
@@ -1978,7 +1978,7 @@ KeePassium 会将从您的密码中计算出的信息（部分校验和）发送
     <body>
       <trans-unit id="B3L-Dk-Uq3.footerTitle" xml:space="preserve">
         <source>KeePassium can automatically delete old backup files to free up some storage space.</source>
-        <target state="translated">KeePassium 可以自动删除旧的备份文件帮您释放点手机文件空间。</target>
+        <target state="translated">KeePassium 可以自动删除旧的备份文件以释放部分存储空间。</target>
         <note>Class = "UITableViewSection"; footerTitle = "KeePassium can automatically delete old backup files to free up some storage space."; ObjectID = "B3L-Dk-Uq3"; Note = "Settings section of the `Keep Backup Files` option";</note>
       </trans-unit>
       <trans-unit id="B3L-Dk-Uq3.headerTitle" xml:space="preserve">

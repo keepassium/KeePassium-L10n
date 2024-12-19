@@ -42,7 +42,7 @@
       </trans-unit>
       <trans-unit id="[Accessibility/containsPasskey]" xml:space="preserve">
         <source>Contains a passkey.</source>
-        <target state="needs-translation">Contains a passkey.</target>
+        <target state="translated">包含一个通行密钥。</target>
         <note>Accessibility notification for entries with a passkey</note>
       </trans-unit>
       <trans-unit id="[Accessibility] Double tap to copy to clipboard" xml:space="preserve">
@@ -314,7 +314,7 @@ Icons updated: %2$d</source>
       </trans-unit>
       <trans-unit id="[Database/CustomIcon/Unused/count]" xml:space="preserve">
         <source>Unused icons found: %d</source>
-        <target state="needs-translation">Unused icons found: %d</target>
+        <target state="translated">找到未使用的图标： %d</target>
         <note>Notification when some custom icons are not used by any group or entry [iconCount: Int]</note>
       </trans-unit>
       <trans-unit id="[Database/CustomIcon/add]" xml:space="preserve">
@@ -324,7 +324,7 @@ Icons updated: %2$d</source>
       </trans-unit>
       <trans-unit id="[Database/CustomIcon/deleteUnused]" xml:space="preserve">
         <source>Delete Unused Icons</source>
-        <target state="needs-translation">Delete Unused Icons</target>
+        <target state="translated">删除未使用的图标</target>
         <note>Action: delete unused icons</note>
       </trans-unit>
       <trans-unit id="[Database/Delete/Confirm/text] Delete database file?&#10; Make sure you have a backup." xml:space="preserve">
@@ -386,7 +386,7 @@ Icons updated: %2$d</source>
       </trans-unit>
       <trans-unit id="[Database/Export/PlainText/warning]" xml:space="preserve">
         <source>The exported file will contain your data in plaintext, without any protection.</source>
-        <target state="needs-translation">The exported file will contain your data in plaintext, without any protection.</target>
+        <target state="translated">您的数据将导出为没有任何保护的纯文本文件。</target>
         <note>Notification message before database export.</note>
       </trans-unit>
       <trans-unit id="[Database/ExternalChange/Status/checkInProgress]" xml:space="preserve" approved="yes">
@@ -416,7 +416,7 @@ Icons updated: %2$d</source>
       </trans-unit>
       <trans-unit id="[Database/FormatVersion/PasskeysNotSupported]" xml:space="preserve">
         <source>Current database format does not support passkeys.</source>
-        <target state="needs-translation">Current database format does not support passkeys.</target>
+        <target state="translated">当前数据库格式不支持通行密钥。</target>
         <note>Error message when creating a new passkey.</note>
       </trans-unit>
       <trans-unit id="[Database/FormatVersion/Upgrade/text]" xml:space="preserve">
@@ -578,7 +578,7 @@ This is its latest local copy.</source>
       </trans-unit>
       <trans-unit id="[Database/Passkey/Error/UnsupportedAlgorithm/description]" xml:space="preserve">
         <source>Unsupported passkey algorithm</source>
-        <target state="needs-translation">Unsupported passkey algorithm</target>
+        <target state="translated">不支持的通行密钥算法</target>
         <note>Error message about creation of a new passkey.</note>
       </trans-unit>
       <trans-unit id="[Database/Print/preparingPreview]" xml:space="preserve">
@@ -800,37 +800,37 @@ This is its latest local copy.</source>
       </trans-unit>
       <trans-unit id="[Database/UnsavedChanges/OpenAppCallToAction]" xml:space="preserve">
         <source>To save changes, open the main KeePassium app.</source>
-        <target state="needs-translation">To save changes, open the main KeePassium app.</target>
+        <target state="translated">若要保存更改，请打开 KeePassium 主程序。</target>
         <note>Call to action shown in AutoFill module.</note>
       </trans-unit>
       <trans-unit id="[Database/UnsavedChanges/autoFillCrashed]" xml:space="preserve">
         <source>AutoFill could not save some changes due to a technical limitation.</source>
-        <target state="needs-translation">AutoFill could not save some changes due to a technical limitation.</target>
+        <target state="translated">由于技术限制，自动填充无法保存一些更改。</target>
         <note>Notification message</note>
       </trans-unit>
       <trans-unit id="[Database/UnsavedChanges/cannotModifyYet]" xml:space="preserve">
         <source>Unfortunately, AutoFill cannot modify large databases yet. We are working to resolve this.</source>
-        <target state="needs-translation">Unfortunately, AutoFill cannot modify large databases yet. We are working to resolve this.</target>
+        <target state="translated">不幸的是，自动填充还不能修改大型数据库。我们正在努力解决此问题。</target>
         <note>Notification message</note>
       </trans-unit>
       <trans-unit id="[Database/UnsavedChanges/saveAction]" xml:space="preserve">
         <source>Save Changes</source>
-        <target state="needs-translation">Save Changes</target>
+        <target state="translated">保存更改</target>
         <note>Action/button to save accummulated modifications</note>
       </trans-unit>
       <trans-unit id="[Database/UnsavedChanges/someDatabases]" xml:space="preserve">
         <source>One or more databases have unsaved changes made in AutoFill.</source>
-        <target state="needs-translation">One or more databases have unsaved changes made in AutoFill.</target>
+        <target state="translated">一个或多个数据库在自动填充中有未保存的更改。</target>
         <note>Notification message</note>
       </trans-unit>
       <trans-unit id="[Database/UnsavedChanges/thisDatabase]" xml:space="preserve">
         <source>This database has unsaved changes made in AutoFill.</source>
-        <target state="needs-translation">This database has unsaved changes made in AutoFill.</target>
+        <target state="translated">此数据库在自动填充中有未保存的更改。</target>
         <note>Notification message</note>
       </trans-unit>
       <trans-unit id="[Database/UnsavedChanges/title]" xml:space="preserve">
         <source>Unsaved Changes</source>
-        <target state="needs-translation">Unsaved Changes</target>
+        <target state="translated">未保存的更改</target>
         <note>Title: there are temporary changes to be saved</note>
       </trans-unit>
       <trans-unit id="[Database1/FormatError] Database file is corrupted." xml:space="preserve">
@@ -1201,7 +1201,7 @@ Please make sure to have a backup of your database before changing anything.</so
       </trans-unit>
       <trans-unit id="[Entry/Field/name] Passkey" xml:space="preserve">
         <source>Passkey</source>
-        <target state="needs-translation">Passkey</target>
+        <target state="translated">通行密钥</target>
         <note>Title of an entry field</note>
       </trans-unit>
       <trans-unit id="[Entry/Field/name] Password" xml:space="preserve">
@@ -1676,7 +1676,7 @@ Please make sure to have a backup of your database before changing anything.</so
       </trans-unit>
       <trans-unit id="[Generic/File/Export/title]" xml:space="preserve">
         <source>File Export</source>
-        <target state="needs-translation">File Export</target>
+        <target state="translated">导出文件</target>
         <note>Title of a generic file export screen.</note>
       </trans-unit>
       <trans-unit id="[Generic/File/Save as]" xml:space="preserve">
@@ -1986,7 +1986,7 @@ Please make sure to have a backup of your database before changing anything.</so
       </trans-unit>
       <trans-unit id="[Group/Smart/Preset/passkeyEntries]" xml:space="preserve">
         <source>Entries with Passkeys</source>
-        <target state="needs-translation">Entries with Passkeys</target>
+        <target state="translated">包含通行密钥的条目</target>
         <note>Title of a list: entries that contain passkeys</note>
       </trans-unit>
       <trans-unit id="[Group/Smart/Query/title]" xml:space="preserve" approved="yes">
@@ -2265,12 +2265,12 @@ Please make sure to have a backup of your database before changing anything.</so
       </trans-unit>
       <trans-unit id="[Menu/Sort] Sort Files By" xml:space="preserve">
         <source>Sort Files By</source>
-        <target state="needs-translation">Sort Files By</target>
+        <target state="translated">文件排序通过</target>
         <note>Title of a menu: sort order of files in a list</note>
       </trans-unit>
       <trans-unit id="[Menu/Sort] Sort Items By" xml:space="preserve">
         <source>Sort Items By</source>
-        <target state="needs-translation">Sort Items By</target>
+        <target state="translated">项目排序通过</target>
         <note>Title of a menu: sort order of groups and entries in a list</note>
       </trans-unit>
       <trans-unit id="[OTP/CopiedToClipboard/title]" xml:space="preserve">
@@ -3152,7 +3152,7 @@ This can happen with larger databases or too ambitious database settings (Argon2
       </trans-unit>
       <trans-unit id="[Settings/Backup/Delete/title] Delete all backup files?" xml:space="preserve">
         <source>Delete all backup files?</source>
-        <target state="translated">删除所有备份当案?</target>
+        <target state="translated">删除所有备份文件?</target>
         <note>Confirmation dialog message to delete all backup files</note>
       </trans-unit>
       <trans-unit id="[Settings/BackupKeepingDuration/shortTitle] Forever" xml:space="preserve">
@@ -3162,7 +3162,7 @@ This can happen with larger databases or too ambitious database settings (Argon2
       </trans-unit>
       <trans-unit id="[Settings/Backup] Delete ALL Backup Files (%d)" xml:space="preserve">
         <source>Delete ALL Backup Files (%d)</source>
-        <target state="translated">删除所有备份当案(%d)</target>
+        <target state="translated">删除所有备份文件(%d)</target>
         <note>Action to delete all backup files from the app. `ALL` is in capitals as a highlight. [backupFileCount: Int]</note>
       </trans-unit>
       <trans-unit id="[Settings/Backup] No Backup Files Found" xml:space="preserve">
