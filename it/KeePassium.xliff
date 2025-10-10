@@ -42,48 +42,6 @@ Se hai bisogno di aiuto, contattaci pure.</target>
       </trans-unit>
     </body>
   </file>
-  <file original="KeePassium AutoFill/controllers/Base.lproj/EntryFinderVC.storyboard" source-language="en" target-language="it" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.1" build-num="16B40"/>
-    </header>
-    <body>
-      <trans-unit id="1xY-Ij-CPq.text" xml:space="preserve" translate="no">
-        <source>{Entry Title}</source>
-        <target state="needs-translation">{Entry Title}</target>
-        <note>Class = "UILabel"; text = "{Entry Title}"; ObjectID = "1xY-Ij-CPq"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="14C-rX-ove.title" xml:space="preserve" translate="no">
-        <source>{Database Name}</source>
-        <target state="needs-translation">{Database Name}</target>
-        <note>Class = "UITableViewController"; title = "{Database Name}"; ObjectID = "14C-rX-ove"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="NSB-dG-jRN.text" xml:space="preserve" approved="yes">
-        <source>Nothing suitable found.</source>
-        <target state="final">Nessuna corrispondenza trovata.</target>
-        <note>Class = "UILabel"; text = "Nothing suitable found."; ObjectID = "NSB-dG-jRN"; Note = "Placeholder text for empty search results.";</note>
-      </trans-unit>
-      <trans-unit id="dPB-bK-tzh.title" xml:space="preserve" approved="yes">
-        <source>Lock Database</source>
-        <target state="final">Blocca database</target>
-        <note>Class = "UIBarButtonItem"; title = "Lock Database"; ObjectID = "dPB-bK-tzh"; Note = "Action ";</note>
-      </trans-unit>
-      <trans-unit id="htW-Ur-suD.text" xml:space="preserve" translate="no">
-        <source>{Footer}</source>
-        <target state="needs-translation">{Footer}</target>
-        <note>Class = "UILabel"; text = "{Footer}"; ObjectID = "htW-Ur-suD"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="weo-eb-woU.text" xml:space="preserve" translate="no">
-        <source>{Entry Subtitle}</source>
-        <target state="needs-translation">{Entry Subtitle}</target>
-        <note>Class = "UILabel"; text = "{Entry Subtitle}"; ObjectID = "weo-eb-woU"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="yLY-eZ-iAh.text" xml:space="preserve" approved="yes">
-        <source>Related Entries</source>
-        <target state="final">Voci correlate</target>
-        <note>Class = "UILabel"; text = "Related Entries"; ObjectID = "yLY-eZ-iAh"; Note = "Title of a list of entries similar to (but not exactly matching) the search query.";</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="KeePassium AutoFill/controllers/Base.lproj/FirstSetupVC.storyboard" source-language="en" target-language="it" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.4" build-num="16F6"/>
@@ -165,27 +123,62 @@ Se hai bisogno di aiuto, contattaci pure.</target>
     <body>
       <trans-unit id="[AppLock/weakPasscodeWarning]" xml:space="preserve" approved="yes">
         <source>This passcode is easy to guess. Try entering a stronger one.</source>
-        <target state="final">Questo codice è facile da indovinare. Prova a inserirne uno più forte.</target>
+        <target state="final">Questo codice è facile da indovinare. Prova a inserirne uno più complesso.</target>
         <note>Notification when user tries to set up too weak an app protection passcode.</note>
+      </trans-unit>
+      <trans-unit id="[AutoFill/AcceptAndRemember/action]" xml:space="preserve" approved="yes">
+        <source>Accept and Remember</source>
+        <target state="final">Accetta e ricorda</target>
+        <note>Action in AutoFill: choose the entry and remember it for future use on this website.</note>
+      </trans-unit>
+      <trans-unit id="[AutoFill/AllEntries/title]" xml:space="preserve" approved="yes">
+        <source>All Entries</source>
+        <target state="final">Tutte le voci</target>
+        <note>Title of a list</note>
+      </trans-unit>
+      <trans-unit id="[AutoFill/Context/Empty/title]" xml:space="preserve" approved="yes">
+        <source>Unknown</source>
+        <target state="final">Sconosciuto</target>
+        <note>Title of AutoFill context when no context is available. Usage: `Context: Unknown`</note>
+      </trans-unit>
+      <trans-unit id="[AutoFill/FoundEntries/title]" xml:space="preserve" approved="yes">
+        <source>Best Matches</source>
+        <target state="final">Migliori corrispondenze</target>
+        <note>Title of a list with search results</note>
       </trans-unit>
       <trans-unit id="[AutoFill/InsertText/select]" xml:space="preserve" approved="yes">
         <source>Select Field</source>
         <target state="final">Seleziona campo</target>
         <note>Call for action to select an entry field for filling out.</note>
       </trans-unit>
-      <trans-unit id="[AutoFill/Search/callerID]" xml:space="preserve" approved="yes">
-        <source>Caller ID: %@</source>
-        <target state="final">ID chiamante: %@</target>
-        <note>An identifier of the app that called AutoFill. The term is intentionally similar to https://ru.wikipedia.org/wiki/Caller_ID. [callerID: String]</note>
+      <trans-unit id="[AutoFill/RecentlyUsed/title]" xml:space="preserve" approved="yes">
+        <source>Recently Used</source>
+        <target state="final">Usati di recente</target>
+        <note>Section title for the recently used entry in AutoFill</note>
       </trans-unit>
-      <trans-unit id="[AutoFill/Search/context]" xml:space="preserve">
-        <source>Context: %@</source>
-        <target state="translated">Contesto: %@</target>
-        <note>Status message, shows which app or webpage launched AutoFill. For example: `Context: google.com`</note>
+      <trans-unit id="[AutoFill/RememberContext/action]" xml:space="preserve" approved="yes">
+        <source>Remember Selected Entries</source>
+        <target state="final">Ricorda le voci selezionate</target>
+        <note>Not an action, but a button to activate the same-named setting</note>
       </trans-unit>
-      <trans-unit id="[AutoFill/Setup/UncheckKeychain/autofillFrom]" xml:space="preserve">
+      <trans-unit id="[AutoFill/RememberContext/callToAction]" xml:space="preserve" approved="yes">
+        <source>Improve AutoFill suggestions</source>
+        <target state="final">Migliora i suggerimenti di Inserimento automatico</target>
+        <note>Call to action</note>
+      </trans-unit>
+      <trans-unit id="[AutoFill/RememberContext/description]" xml:space="preserve" approved="yes">
+        <source>KeePassium will remember which entry you select for each website and then suggest it automatically.</source>
+        <target state="final">KeePassium ricorderà le voci che selezioni per ogni sito web e quindi le suggerirà automaticamente.</target>
+        <note>Description of the 'Remember Selected Entries` feature</note>
+      </trans-unit>
+      <trans-unit id="[AutoFill/Search/Context/title]" xml:space="preserve" approved="yes">
+        <source>Context</source>
+        <target state="final">Contesto</target>
+        <note>Title for referring to the app or webpage that launched AutoFill. For example: `Context: google.com`</note>
+      </trans-unit>
+      <trans-unit id="[AutoFill/Setup/UncheckKeychain/autofillFrom]" xml:space="preserve" approved="yes">
         <source>AutoFill from:</source>
-        <target state="translated">Inserisci automaticamente da:</target>
+        <target state="final">Inserisci automaticamente da:</target>
         <note>Must match Apple's translation, as found in iOS 18 Settings → General → AutoFill &amp; Passwords. If unsure, leave untranslated.</note>
       </trans-unit>
       <trans-unit id="[AutoFill/Setup/UncheckKeychain/callToAction]" xml:space="preserve" approved="yes">
@@ -193,14 +186,14 @@ Se hai bisogno di aiuto, contattaci pure.</target>
         <target state="final">Deseleziona Portachiavi</target>
         <note>Call to action: deselect the `Keychain` option. Keychain is a glossary term.</note>
       </trans-unit>
-      <trans-unit id="[AutoFill/Setup/UncheckKeychain/message]" xml:space="preserve">
+      <trans-unit id="[AutoFill/Setup/UncheckKeychain/message]" xml:space="preserve" approved="yes">
         <source>To make KeePassium your default password manager, uncheck "%@".</source>
-        <target state="translated">Per assicurare che KeePassium sia il tuo gestore password di default, deseleziona "%@".</target>
+        <target state="final">Per rendere KeePassium il tuo gestore password di default, deseleziona "%@".</target>
         <note>Instruction to deselect another app in the settings [appName: String]</note>
       </trans-unit>
-      <trans-unit id="[AutoFill/Setup/UncheckKeychain/usePasswordsAndPasskeysFrom]" xml:space="preserve">
+      <trans-unit id="[AutoFill/Setup/UncheckKeychain/usePasswordsAndPasskeysFrom]" xml:space="preserve" approved="yes">
         <source>Use passwords and passkeys from:</source>
-        <target state="translated">Utilizza le password e le passkey da:</target>
+        <target state="final">Utilizza le password e le passkey da:</target>
         <note>Must match Apple's translation, as found in iOS 17 Settings → Passwords → Password Options. If unsure, leave untranslated.</note>
       </trans-unit>
       <trans-unit id="[AutoFill/Setup/footer]" xml:space="preserve" approved="yes">
@@ -211,29 +204,54 @@ Why? Behind the scenes, the system treats AutoFill as a separate app, independen
 As a result, both AutoFill and the main KeePassium app need to be given their own permissions for each external file. Luckily, this is a one-time procedure.</source>
         <target state="final">L'inserimento automatico non può accedere automaticamente ai file che hai già nell'app principale di KeePassium.
 
-Perché? Dietro le quinte, il sistema tratta l'inserimento automatico come un'app separata, indipendente dal processo principale di KeePassium. Per ragioni di sicurezza, un’app non può semplicemente accedere a qualsiasi file esterno, a meno che non si colleghino esplicitamente questi file all'app. In questo modo, il sistema garantisce che l'applicazione possa accedere solo ai file per cui ha il permesso.
+Perché? Dietro le quinte, il sistema tratta l'inserimento automatico come un'app separata, indipendente dal processo principale di KeePassium. Per ragioni di sicurezza, un’app non può semplicemente accedere a qualsiasi file esterno, a meno che il file non venga esplicitamente collegato all'app. In questo modo, il sistema si assicura che l'app abbia accesso solo ai file che tu hai autorizzato.
 
-Di conseguenza, sia l'inserimento automatico che l'app principale di KeePassium devono avere la loro autorizzazione per ogni file esterno. Per fortuna si tratta di una procedura da eseguire una sola volta.</target>
+Di conseguenza, sia l'inserimento automatico che l'app principale di KeePassium devono avere la loro autorizzazione specifica per ogni file esterno. Fortunatamente, dovrai dare questa autorizzazione una sola volta.</target>
         <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="[Database/Entry/Location/title]" xml:space="preserve" approved="yes">
+        <source>Location</source>
+        <target state="final">Posizione</target>
+        <note>Field title: name of the group that contains the entry</note>
+      </trans-unit>
+      <trans-unit id="[Database/Entry/RandomUsernames/title]" xml:space="preserve" approved="yes">
+        <source>Random Usernames</source>
+        <target state="final">Nomi utente casuali</target>
+        <note>Title of a list with randomly generated usernames</note>
+      </trans-unit>
+      <trans-unit id="[Database/Entry/SelectUsername/action]" xml:space="preserve" approved="yes">
+        <source>Select Username</source>
+        <target state="final">Seleziona nome utente</target>
+        <note>Action/button that shows a list of usernames to pick from</note>
+      </trans-unit>
+      <trans-unit id="[Database/Item/SelectNamed/action]" xml:space="preserve" approved="yes">
+        <source>Select "%@"</source>
+        <target state="final">Seleziona "%@"</target>
+        <note>Action: select item from a list/menu, with item name in quotes. For example: `Select "Sample Group"`</note>
       </trans-unit>
       <trans-unit id="[Database/Passkey/AddToExisting/action]" xml:space="preserve" approved="yes">
         <source>Add Passkey to Existing Entry</source>
-        <target state="final">Aggiungi una chiave d'accesso alla voce esistente</target>
+        <target state="final">Aggiungi una passkey alla voce esistente</target>
         <note>Action: create a passkey and add it to existing entry</note>
+      </trans-unit>
+      <trans-unit id="[Database/Passkey/AddToExisting/callToAction]" xml:space="preserve" approved="yes">
+        <source>Choose an entry for the new passkey</source>
+        <target state="final">Scegliere una voce per la nuova passkey</target>
+        <note>Call to action: select an existing entry to add a new passkey to</note>
       </trans-unit>
       <trans-unit id="[Database/Passkey/AddToExisting/confirm]" xml:space="preserve" approved="yes">
         <source>This entry already has a passkey. Replace it?</source>
-        <target state="final">Questa voce ha già una chiave d'accesso. Sostituirla?</target>
+        <target state="final">A questa voce è già stata associata una passkey. Vuoi sostituirla?</target>
         <note>Confirmation message before replacing an existing passkey.</note>
       </trans-unit>
       <trans-unit id="[Database/Passkey/Create/title]" xml:space="preserve" approved="yes">
         <source>Create a Passkey?</source>
-        <target state="final">Creare una chiave d'accesso?</target>
+        <target state="final">Creare una passkey?</target>
         <note>Title of an optional dialog for creating new passkeys</note>
       </trans-unit>
-      <trans-unit id="[Generic/ApplePasswordsApp/title]" xml:space="preserve">
+      <trans-unit id="[Generic/ApplePasswordsApp/title]" xml:space="preserve" approved="yes">
         <source>Passwords</source>
-        <target state="translated">Password</target>
+        <target state="final">Password</target>
         <note>Name of the Apple Passwords application, see https://support.apple.com/120758</note>
       </trans-unit>
       <trans-unit id="[Generic/Keychain/title]" xml:space="preserve" approved="yes">
@@ -268,7 +286,7 @@ Di conseguenza, sia l'inserimento automatico che l'app principale di KeePassium 
       </trans-unit>
       <trans-unit id="[PasswordQuality/Level] Very weak" xml:space="preserve" approved="yes">
         <source>Very weak</source>
-        <target state="final">Molto debole</target>
+        <target state="final">Pessima</target>
         <note>Very weak password quality</note>
       </trans-unit>
       <trans-unit id="[PasswordQuality/Level] Weak" xml:space="preserve" approved="yes">
@@ -290,6 +308,11 @@ Di conseguenza, sia l'inserimento automatico che l'app principale di KeePassium 
         <source>Activate Quick AutoFill</source>
         <target state="final">Attiva inserimento automatico rapido</target>
         <note>Call to action, invites the user to enable the Quick AutoFill feature</note>
+      </trans-unit>
+      <trans-unit id="[Search/EmptyResult/title]" xml:space="preserve" approved="yes">
+        <source>Nothing suitable found</source>
+        <target state="final">Nessuna corrispondenza trovata</target>
+        <note>Placeholder text for empty search results</note>
       </trans-unit>
     </body>
   </file>
@@ -392,29 +415,104 @@ Di conseguenza, sia l'inserimento automatico che l'app principale di KeePassium 
       </trans-unit>
     </body>
   </file>
-  <file original="KeePassium/database/Base.lproj/DatabasePickerVC.storyboard" source-language="en" target-language="it" datatype="plaintext">
+  <file original="KeePassium/database/entry-editor/Base.lproj/EntryFieldEditorVC.storyboard" source-language="en" target-language="it" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.4" build-num="16F6"/>
     </header>
     <body>
-      <trans-unit id="XJs-ol-dGz.title" xml:space="preserve" translate="no">
-        <source>{PassGen}</source>
-        <target state="needs-translation">{PassGen}</target>
-        <note>Class = "UIBarButtonItem"; title = "{PassGen}"; ObjectID = "XJs-ol-dGz";</note>
+      <trans-unit id="0pb-xb-fuf.text" xml:space="preserve" translate="no">
+        <source>{Protected Field}</source>
+        <target state="needs-translation">{Protected Field}</target>
+        <note>Class = "UILabel"; text = "{Protected Field}"; ObjectID = "0pb-xb-fuf";</note>
       </trans-unit>
-      <trans-unit id="rWy-ey-805.text" xml:space="preserve" translate="no">
-        <source>{Database File Name}</source>
-        <target state="needs-translation">{Database File Name}</target>
-        <note>Class = "UILabel"; text = "{Database File Name}"; ObjectID = "rWy-ey-805"; Note = "#bc-ignore!";</note>
+      <trans-unit id="7iU-ut-hd7.accessibilityLabel" xml:space="preserve" approved="yes">
+        <source>Custom field value</source>
+        <target state="final">Valore campo personalizzato</target>
+        <note>Class = "UITextView"; accessibilityLabel = "Custom field value"; ObjectID = "7iU-ut-hd7";</note>
       </trans-unit>
-      <trans-unit id="y2W-10-GnE.text" xml:space="preserve" translate="no">
-        <source>{File Attributes}</source>
-        <target state="needs-translation">{File Attributes}</target>
-        <note>Class = "UILabel"; text = "{File Attributes}"; ObjectID = "y2W-10-GnE"; Note = "#bc-ignore!";</note>
+      <trans-unit id="7iU-ut-hd7.text" xml:space="preserve" translate="no">
+        <source>{Multi-line field value. Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.}</source>
+        <target state="needs-translation">{Multi-line field value. Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.}</target>
+        <note>Class = "UITextView"; text = "{Multi-line field value. Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.}"; ObjectID = "7iU-ut-hd7";</note>
+      </trans-unit>
+      <trans-unit id="9e5-bz-qOo.text" xml:space="preserve" translate="no">
+        <source>{Multi-line field value. Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.}</source>
+        <target state="needs-translation">{Multi-line field value. Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.}</target>
+        <note>Class = "UITextView"; text = "{Multi-line field value. Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.}"; ObjectID = "9e5-bz-qOo"; Note = "#bc-ignore!";</note>
+      </trans-unit>
+      <trans-unit id="CcF-c8-r4M.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" xml:space="preserve" approved="yes">
+        <source>Custom field editor</source>
+        <target state="final">Editor campo personalizzato</target>
+        <note>Class = "UITableViewCell"; CcF-c8-r4M.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Custom field editor"; ObjectID = "CcF-c8-r4M";</note>
+      </trans-unit>
+      <trans-unit id="HGI-xq-zUf.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" xml:space="preserve" approved="yes">
+        <source>Add Custom Field</source>
+        <target state="final">Aggiungi campo personalizzato</target>
+        <note>Class = "UIBarButtonItem"; HGI-xq-zUf.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Add Custom Field"; ObjectID = "HGI-xq-zUf";</note>
+      </trans-unit>
+      <trans-unit id="MCF-pf-BwZ.text" xml:space="preserve" translate="no">
+        <source>{Field Value}</source>
+        <target state="needs-translation">{Field Value}</target>
+        <note>Class = "UITextField"; text = "{Field Value}"; ObjectID = "MCF-pf-BwZ"; Note = "#bc-ignore!";</note>
+      </trans-unit>
+      <trans-unit id="Ro2-Xv-zrw.text" xml:space="preserve" translate="no">
+        <source>{Field Value}</source>
+        <target state="needs-translation">{Field Value}</target>
+        <note>Class = "UITextField"; text = "{Field Value}"; ObjectID = "Ro2-Xv-zrw"; Note = "#bc-ignore!";</note>
+      </trans-unit>
+      <trans-unit id="bcH-X1-BtY.text" xml:space="preserve" translate="no">
+        <source>{Field Name}</source>
+        <target state="needs-translation">{Field Name}</target>
+        <note>Class = "UILabel"; text = "{Field Name}"; ObjectID = "bcH-X1-BtY"; Note = "#bc-ignore!";</note>
+      </trans-unit>
+      <trans-unit id="ecN-Xd-ff5.accessibilityLabel" xml:space="preserve" approved="yes">
+        <source>Custom field name</source>
+        <target state="final">Nome campo personalizzato</target>
+        <note>Class = "UITextField"; accessibilityLabel = "Custom field name"; ObjectID = "ecN-Xd-ff5";</note>
+      </trans-unit>
+      <trans-unit id="ecN-Xd-ff5.placeholder" xml:space="preserve" approved="yes">
+        <source>Field Name</source>
+        <target state="final">Nome campo</target>
+        <note>Class = "UITextField"; placeholder = "Field Name"; ObjectID = "ecN-Xd-ff5";</note>
+      </trans-unit>
+      <trans-unit id="ecN-Xd-ff5.text" xml:space="preserve" translate="no">
+        <source>{Field Name}</source>
+        <target state="needs-translation">{Field Name}</target>
+        <note>Class = "UITextField"; text = "{Field Name}"; ObjectID = "ecN-Xd-ff5";</note>
+      </trans-unit>
+      <trans-unit id="eox-My-Hns.accessibilityLabel" xml:space="preserve" approved="yes">
+        <source>In-memory Protection</source>
+        <target state="final">Protezione in-memoria</target>
+        <note>Class = "UISwitch"; accessibilityLabel = "In-memory Protection"; ObjectID = "eox-My-Hns"; Note = "Equivalent to KeePass' own `Enable in-memory protection' for custom entry fields.";</note>
+      </trans-unit>
+      <trans-unit id="kN4-4o-MBS.text" xml:space="preserve" translate="no">
+        <source>{Password}</source>
+        <target state="needs-translation">{Password}</target>
+        <note>Class = "UILabel"; text = "{Password}"; ObjectID = "kN4-4o-MBS"; Note = "#bc-ignore!";</note>
+      </trans-unit>
+      <trans-unit id="mGc-If-zfn.accessibilityLabel" xml:space="preserve" approved="yes">
+        <source>Entry title</source>
+        <target state="final">Titolo voce</target>
+        <note>Class = "UITextField"; accessibilityLabel = "Entry title"; ObjectID = "mGc-If-zfn";</note>
+      </trans-unit>
+      <trans-unit id="mGc-If-zfn.placeholder" xml:space="preserve" approved="yes">
+        <source>Entry Title</source>
+        <target state="final">Titolo voce</target>
+        <note>Class = "UITextField"; placeholder = "Entry Title"; ObjectID = "mGc-If-zfn";</note>
+      </trans-unit>
+      <trans-unit id="mGc-If-zfn.text" xml:space="preserve" translate="no">
+        <source>{Entry Title}</source>
+        <target state="needs-translation">{Entry Title}</target>
+        <note>Class = "UITextField"; text = "{Entry Title}"; ObjectID = "mGc-If-zfn";</note>
+      </trans-unit>
+      <trans-unit id="mYx-OE-79H.text" xml:space="preserve" translate="no">
+        <source>{Field Name}</source>
+        <target state="needs-translation">{Field Name}</target>
+        <note>Class = "UILabel"; text = "{Field Name}"; ObjectID = "mYx-OE-79H"; Note = "#bc-ignore!";</note>
       </trans-unit>
     </body>
   </file>
-  <file original="KeePassium/database/entry/Base.lproj/EntryFieldViewerVC.storyboard" source-language="en" target-language="it" datatype="plaintext">
+  <file original="KeePassium/database/entry-viewer/Base.lproj/EntryFieldViewerVC.storyboard" source-language="en" target-language="it" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.4" build-num="16F6"/>
     </header>
@@ -436,7 +534,7 @@ Di conseguenza, sia l'inserimento automatico che l'app principale di KeePassium 
       </trans-unit>
       <trans-unit id="6Mx-Oh-6m0.accessibilityLabel" xml:space="preserve" approved="yes">
         <source>Show more</source>
-        <target state="final">Mostra altro</target>
+        <target state="final">Mostra di più</target>
         <note>Class = "UIButton"; accessibilityLabel = "Show more"; ObjectID = "6Mx-Oh-6m0";</note>
       </trans-unit>
       <trans-unit id="46A-ga-B85.text" xml:space="preserve" translate="no">
@@ -506,7 +604,7 @@ Di conseguenza, sia l'inserimento automatico che l'app principale di KeePassium 
       </trans-unit>
     </body>
   </file>
-  <file original="KeePassium/database/entry/Base.lproj/EntryFileViewerVC.storyboard" source-language="en" target-language="it" datatype="plaintext">
+  <file original="KeePassium/database/entry-viewer/Base.lproj/EntryFileViewerVC.storyboard" source-language="en" target-language="it" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.4" build-num="16F6"/>
     </header>
@@ -533,7 +631,7 @@ Di conseguenza, sia l'inserimento automatico che l'app principale di KeePassium 
       </trans-unit>
     </body>
   </file>
-  <file original="KeePassium/database/entry/Base.lproj/EntryHistoryViewerVC.storyboard" source-language="en" target-language="it" datatype="plaintext">
+  <file original="KeePassium/database/entry-viewer/Base.lproj/EntryHistoryViewerVC.storyboard" source-language="en" target-language="it" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.4" build-num="16F6"/>
     </header>
@@ -580,7 +678,7 @@ Di conseguenza, sia l'inserimento automatico che l'app principale di KeePassium 
       </trans-unit>
     </body>
   </file>
-  <file original="KeePassium/database/entry/Base.lproj/EntryViewerPagesVC.storyboard" source-language="en" target-language="it" datatype="plaintext">
+  <file original="KeePassium/database/entry-viewer/Base.lproj/EntryViewerPagesVC.storyboard" source-language="en" target-language="it" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.4" build-num="16F6"/>
     </header>
@@ -607,123 +705,6 @@ Di conseguenza, sia l'inserimento automatico che l'app principale di KeePassium 
       </trans-unit>
     </body>
   </file>
-  <file original="KeePassium/database/entry/edit/Base.lproj/EntryFieldEditorVC.storyboard" source-language="en" target-language="it" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.1" build-num="16B40"/>
-    </header>
-    <body>
-      <trans-unit id="0pb-xb-fuf.text" xml:space="preserve" translate="no">
-        <source>{Protected Field}</source>
-        <target state="needs-translation">{Protected Field}</target>
-        <note>Class = "UILabel"; text = "{Protected Field}"; ObjectID = "0pb-xb-fuf";</note>
-      </trans-unit>
-      <trans-unit id="1Nq-zk-w7B.normalTitle" xml:space="preserve" translate="no">
-        <source>{Set up OTP}</source>
-        <target state="needs-translation">{Set up OTP}</target>
-        <note>Class = "UIButton"; normalTitle = "{Set up OTP}"; ObjectID = "1Nq-zk-w7B";</note>
-      </trans-unit>
-      <trans-unit id="7iU-ut-hd7.accessibilityLabel" xml:space="preserve" approved="yes">
-        <source>Custom field value</source>
-        <target state="final">Valore campo personalizzato</target>
-        <note>Class = "UITextView"; accessibilityLabel = "Custom field value"; ObjectID = "7iU-ut-hd7";</note>
-      </trans-unit>
-      <trans-unit id="7iU-ut-hd7.text" xml:space="preserve" translate="no">
-        <source>{Multi-line field value. Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.}</source>
-        <target state="needs-translation">{Multi-line field value. Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.}</target>
-        <note>Class = "UITextView"; text = "{Multi-line field value. Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.}"; ObjectID = "7iU-ut-hd7";</note>
-      </trans-unit>
-      <trans-unit id="9e5-bz-qOo.text" xml:space="preserve" translate="no">
-        <source>{Multi-line field value. Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.}</source>
-        <target state="needs-translation">{Multi-line field value. Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.}</target>
-        <note>Class = "UITextView"; text = "{Multi-line field value. Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.}"; ObjectID = "9e5-bz-qOo"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="CN9-CU-AJF.text" xml:space="preserve" translate="no">
-        <source>{Field Name}</source>
-        <target state="needs-translation">{Field Name}</target>
-        <note>Class = "UILabel"; text = "{Field Name}"; ObjectID = "CN9-CU-AJF"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="CcF-c8-r4M.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" xml:space="preserve" approved="yes">
-        <source>Custom field editor</source>
-        <target state="final">Editor campo personalizzato</target>
-        <note>Class = "UITableViewCell"; CcF-c8-r4M.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Custom field editor"; ObjectID = "CcF-c8-r4M";</note>
-      </trans-unit>
-      <trans-unit id="HGI-xq-zUf.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" xml:space="preserve" approved="yes">
-        <source>Add Custom Field</source>
-        <target state="final">Aggiungi campo personalizzato</target>
-        <note>Class = "UIBarButtonItem"; HGI-xq-zUf.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Add Custom Field"; ObjectID = "HGI-xq-zUf";</note>
-      </trans-unit>
-      <trans-unit id="MCF-pf-BwZ.text" xml:space="preserve" translate="no">
-        <source>{Field Value}</source>
-        <target state="needs-translation">{Field Value}</target>
-        <note>Class = "UITextField"; text = "{Field Value}"; ObjectID = "MCF-pf-BwZ"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="Ro2-Xv-zrw.text" xml:space="preserve" translate="no">
-        <source>{Field Value}</source>
-        <target state="needs-translation">{Field Value}</target>
-        <note>Class = "UITextField"; text = "{Field Value}"; ObjectID = "Ro2-Xv-zrw"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="bcH-X1-BtY.text" xml:space="preserve" translate="no">
-        <source>{Field Name}</source>
-        <target state="needs-translation">{Field Name}</target>
-        <note>Class = "UILabel"; text = "{Field Name}"; ObjectID = "bcH-X1-BtY"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="ecN-Xd-ff5.accessibilityLabel" xml:space="preserve" approved="yes">
-        <source>Custom field name</source>
-        <target state="final">Nome campo personalizzato</target>
-        <note>Class = "UITextField"; accessibilityLabel = "Custom field name"; ObjectID = "ecN-Xd-ff5";</note>
-      </trans-unit>
-      <trans-unit id="ecN-Xd-ff5.placeholder" xml:space="preserve" approved="yes">
-        <source>Field Name</source>
-        <target state="final">Nome campo</target>
-        <note>Class = "UITextField"; placeholder = "Field Name"; ObjectID = "ecN-Xd-ff5";</note>
-      </trans-unit>
-      <trans-unit id="ecN-Xd-ff5.text" xml:space="preserve" translate="no">
-        <source>{Field Name}</source>
-        <target state="needs-translation">{Field Name}</target>
-        <note>Class = "UITextField"; text = "{Field Name}"; ObjectID = "ecN-Xd-ff5";</note>
-      </trans-unit>
-      <trans-unit id="eox-My-Hns.accessibilityLabel" xml:space="preserve">
-        <source>In-memory Protection</source>
-        <target state="translated">Protezione in-memoria</target>
-        <note>Class = "UISwitch"; accessibilityLabel = "In-memory Protection"; ObjectID = "eox-My-Hns"; Note = "Equivalent to KeePass' own `Enable in-memory protection' for custom entry fields.";</note>
-      </trans-unit>
-      <trans-unit id="kN4-4o-MBS.text" xml:space="preserve" translate="no">
-        <source>{Password}</source>
-        <target state="needs-translation">{Password}</target>
-        <note>Class = "UILabel"; text = "{Password}"; ObjectID = "kN4-4o-MBS"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="mGc-If-zfn.accessibilityLabel" xml:space="preserve" approved="yes">
-        <source>Entry title</source>
-        <target state="final">Titolo voce</target>
-        <note>Class = "UITextField"; accessibilityLabel = "Entry title"; ObjectID = "mGc-If-zfn";</note>
-      </trans-unit>
-      <trans-unit id="mGc-If-zfn.placeholder" xml:space="preserve" approved="yes">
-        <source>Entry Title</source>
-        <target state="final">Titolo voce</target>
-        <note>Class = "UITextField"; placeholder = "Entry Title"; ObjectID = "mGc-If-zfn";</note>
-      </trans-unit>
-      <trans-unit id="mGc-If-zfn.text" xml:space="preserve" translate="no">
-        <source>{Entry Title}</source>
-        <target state="needs-translation">{Entry Title}</target>
-        <note>Class = "UITextField"; text = "{Entry Title}"; ObjectID = "mGc-If-zfn";</note>
-      </trans-unit>
-      <trans-unit id="mYx-OE-79H.text" xml:space="preserve" translate="no">
-        <source>{Field Name}</source>
-        <target state="needs-translation">{Field Name}</target>
-        <note>Class = "UILabel"; text = "{Field Name}"; ObjectID = "mYx-OE-79H"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="yxs-MK-Ca2.normalTitle" xml:space="preserve" translate="no">
-        <source>{Button}</source>
-        <target state="needs-translation">{Button}</target>
-        <note>Class = "UIButton"; normalTitle = "{Button}"; ObjectID = "yxs-MK-Ca2"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="zr2-BH-wQ3.text" xml:space="preserve" translate="no">
-        <source>{Field Value}</source>
-        <target state="needs-translation">{Field Value}</target>
-        <note>Class = "UITextField"; text = "{Field Value}"; ObjectID = "zr2-BH-wQ3"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="KeePassium/database/expiry-date/Base.lproj/ExpiryDateEditorVC.storyboard" source-language="en" target-language="it" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.4" build-num="16F6"/>
@@ -746,53 +727,6 @@ Di conseguenza, sia l'inserimento automatico che l'app principale di KeePassium 
       </trans-unit>
     </body>
   </file>
-  <file original="KeePassium/database/group/Base.lproj/GroupViewerVC.storyboard" source-language="en" target-language="it" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.1" build-num="16B40"/>
-    </header>
-    <body>
-      <trans-unit id="5Db-9q-PM7.text" xml:space="preserve" translate="no">
-        <source>{Entry Subtitle}</source>
-        <target state="needs-translation">{Entry Subtitle}</target>
-        <note>Class = "UILabel"; text = "{Entry Subtitle}"; ObjectID = "5Db-9q-PM7"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="7uR-HK-1Dd.text" xml:space="preserve" translate="no">
-        <source>{Group Name}</source>
-        <target state="needs-translation">{Group Name}</target>
-        <note>Class = "UILabel"; text = "{Group Name}"; ObjectID = "7uR-HK-1Dd"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="OjW-aR-wD3.text" xml:space="preserve" translate="no">
-        <source>{Entry Title}</source>
-        <target state="needs-translation">{Entry Title}</target>
-        <note>Class = "UILabel"; text = "{Entry Title}"; ObjectID = "OjW-aR-wD3"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="QXa-eN-7am.text" xml:space="preserve" approved="yes">
-        <source>This group is empty</source>
-        <target state="final">Questo gruppo è vuoto</target>
-        <note>Class = "UILabel"; text = "This group is empty"; ObjectID = "QXa-eN-7am";</note>
-      </trans-unit>
-      <trans-unit id="RAn-LR-hxd.text" xml:space="preserve" translate="no">
-        <source>{OTPValue}</source>
-        <target state="needs-translation">{OTPValue}</target>
-        <note>Class = "UILabel"; text = "{OTPValue}"; ObjectID = "RAn-LR-hxd";</note>
-      </trans-unit>
-      <trans-unit id="tpA-i1-ah8.text" xml:space="preserve" approved="yes">
-        <source>No entries or groups found</source>
-        <target state="final">Nessuna voce o gruppo trovati</target>
-        <note>Class = "UILabel"; text = "No entries or groups found"; ObjectID = "tpA-i1-ah8";</note>
-      </trans-unit>
-      <trans-unit id="ttY-yZ-yRg.text" xml:space="preserve" translate="no">
-        <source>{nItems}</source>
-        <target state="needs-translation">{nItems}</target>
-        <note>Class = "UILabel"; text = "{nItems}"; ObjectID = "ttY-yZ-yRg"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="x2j-8N-gU5.normalTitle" xml:space="preserve" translate="no">
-        <source>{OTP}</source>
-        <target state="needs-translation">{OTP}</target>
-        <note>Class = "UIButton"; normalTitle = "{OTP}"; ObjectID = "x2j-8N-gU5";</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="KeePassium/database/icon/Base.lproj/ItemIconPicker.storyboard" source-language="en" target-language="it" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.4" build-num="16F6"/>
@@ -807,43 +741,6 @@ Di conseguenza, sia l'inserimento automatico che l'app principale di KeePassium 
         <source>{Section title}</source>
         <target state="needs-translation">{Section title}</target>
         <note>Class = "UILabel"; text = "{Section title}"; ObjectID = "jvB-IX-QoY";</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="KeePassium/database/key-file/Base.lproj/KeyFilePickerVC.storyboard" source-language="en" target-language="it" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.1" build-num="16B40"/>
-    </header>
-    <body>
-      <trans-unit id="9UZ-FK-v73.text" xml:space="preserve" approved="yes">
-        <source>No Key File</source>
-        <target state="final">Nessun file chiave</target>
-        <note>Class = "UILabel"; text = "No Key File"; ObjectID = "9UZ-FK-v73";</note>
-      </trans-unit>
-      <trans-unit id="Lod-RE-tcd.title" xml:space="preserve" approved="yes">
-        <source>Add Key File</source>
-        <target state="final">Aggiungi file chiave</target>
-        <note>Class = "UIBarButtonItem"; title = "Add Key File"; ObjectID = "Lod-RE-tcd";</note>
-      </trans-unit>
-      <trans-unit id="jCW-yW-0I5.text" xml:space="preserve" translate="no">
-        <source>{Database File Name}</source>
-        <target state="needs-translation">{Database File Name}</target>
-        <note>Class = "UILabel"; text = "{Database File Name}"; ObjectID = "jCW-yW-0I5"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="leO-vH-qBX.text" xml:space="preserve" approved="yes">
-        <source>Use only password</source>
-        <target state="final">Usa solo la password</target>
-        <note>Class = "UILabel"; text = "Use only password"; ObjectID = "leO-vH-qBX";</note>
-      </trans-unit>
-      <trans-unit id="pn1-Yp-Bzr.text" xml:space="preserve" translate="no">
-        <source>{File Attributes}</source>
-        <target state="needs-translation">{File Attributes}</target>
-        <note>Class = "UILabel"; text = "{File Attributes}"; ObjectID = "pn1-Yp-Bzr"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="r85-yz-wYI.title" xml:space="preserve" approved="yes">
-        <source>Key Files</source>
-        <target state="final">File chiave</target>
-        <note>Class = "UINavigationItem"; title = "Key Files"; ObjectID = "r85-yz-wYI";</note>
       </trans-unit>
     </body>
   </file>
@@ -933,12 +830,12 @@ Di conseguenza, sia l'inserimento automatico che l'app principale di KeePassium 
       </trans-unit>
       <trans-unit id="NFCReaderUsageDescription" xml:space="preserve" approved="yes">
         <source>KeePassium needs access to NFC to communicate with your YubiKey.</source>
-        <target state="final">KeePassium richiede l'accesso a NFC per comunicare con la YubiKey.</target>
+        <target state="final">KeePassium richiede l'accesso al sensore NFC per comunicare con la YubiKey.</target>
         <note>Privacy - NFC Scan Usage Description</note>
       </trans-unit>
       <trans-unit id="NSCameraUsageDescription" xml:space="preserve" approved="yes">
         <source>KeePassium needs the camera to scan QR codes.</source>
-        <target state="final">KeePassium richiede l'accesso a Fotocamera per leggere i codici QR.</target>
+        <target state="final">KeePassium richiede l'accesso a Fotocamera per scansionare i codici QR.</target>
         <note>Privacy - Camera Usage Description</note>
       </trans-unit>
       <trans-unit id="NSFaceIDUsageDescription" xml:space="preserve" approved="yes">
@@ -946,15 +843,15 @@ Di conseguenza, sia l'inserimento automatico che l'app principale di KeePassium 
         <target state="final">Usa FaceID per sbloccare KeePassium</target>
         <note>Privacy - Face ID Usage Description</note>
       </trans-unit>
-      <trans-unit id="NSPhotoLibraryAddUsageDescription" xml:space="preserve">
+      <trans-unit id="NSPhotoLibraryAddUsageDescription" xml:space="preserve" approved="yes">
         <source>KeePassium needs permission to export files to your Photo Library.</source>
-        <target state="translated">KeePassium ha bisogno del permesso per esportare file in Foto.</target>
+        <target state="final">KeePassium ha bisogno del permesso per esportare file in Foto.</target>
         <note>Privacy - Photo Library Additions Usage Description</note>
       </trans-unit>
       <trans-unit id="NSPhotoLibraryUsageDescription" xml:space="preserve" approved="yes">
-        <source>KeePassium needs access to the Photos library to add custom icons to groups and entries</source>
-        <target state="final">KeePassium richiede l'accesso a Foto per aggiungere icone personalizzate a gruppi e voci</target>
-        <note/>
+        <source>KeePassium needs access to select images for custom icons and to scan QR codes for OTP setup.</source>
+        <target state="final">Per configurare OTP, KeePassium necessita dell'accesso per selezionare immagini per le icone personalizzate e per eseguire la scansione di codici QR.</target>
+        <note>Privacy - Photo Library Usage Description</note>
       </trans-unit>
     </body>
   </file>
@@ -963,6 +860,11 @@ Di conseguenza, sia l'inserimento automatico che l'app principale di KeePassium 
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.4" build-num="16F6"/>
     </header>
     <body>
+      <trans-unit id="[About/altTitle]" xml:space="preserve" approved="yes">
+        <source>About KeePassium</source>
+        <target state="final">Informazioni su KeePassium</target>
+        <note>Menu item that shows info about KeePassium app</note>
+      </trans-unit>
       <trans-unit id="[AppHistory/title]" xml:space="preserve" approved="yes">
         <source>What's New</source>
         <target state="final">Novità</target>
@@ -970,177 +872,232 @@ Di conseguenza, sia l'inserimento automatico che l'app principale di KeePassium 
       </trans-unit>
       <trans-unit id="[AppLock/weakPasscodeWarning]" xml:space="preserve" approved="yes">
         <source>This passcode is easy to guess. Try entering a stronger one.</source>
-        <target state="final">Questo codice è facile da indovinare. Prova a inserirne uno più forte.</target>
+        <target state="final">Questo codice è facile da indovinare. Prova a inserirne uno più complesso.</target>
         <note>Notification when user tries to set up too weak an app protection passcode.</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/aexml]" xml:space="preserve">
+      <trans-unit id="[Appearance/AppIcon/title]" xml:space="preserve" approved="yes">
+        <source>App Icon</source>
+        <target state="final">Icona app</target>
+        <note>Section in settings: icon for the app</note>
+      </trans-unit>
+      <trans-unit id="[Appearance/DatabaseIcons/title]" xml:space="preserve" approved="yes">
+        <source>Database Icons</source>
+        <target state="final">Icone database</target>
+        <note>Section in settings: icons for database</note>
+      </trans-unit>
+      <trans-unit id="[Appearance/DefaultFont/shortTitle]" xml:space="preserve" approved="yes">
+        <source>Default</source>
+        <target state="final">Default</target>
+        <note>Short name of the default/system font. For example: `Font: Default`</note>
+      </trans-unit>
+      <trans-unit id="[Appearance/EntryViewer/OpenLastUsedTab/title]" xml:space="preserve" approved="yes">
+        <source>Open Last Used Tab</source>
+        <target state="final">Apri l'ultima scheda utilizzata</target>
+        <note>Title of a setting: whether the Entry Viewer should open on the same tab/page when switching between entries, or switch to the first tab instead.</note>
+      </trans-unit>
+      <trans-unit id="[Appearance/EntryViewer/title]" xml:space="preserve" approved="yes">
+        <source>Entry Viewer</source>
+        <target state="final">Visualizzatore voci</target>
+        <note>Section in settings: parameters related to entry viewer component</note>
+      </trans-unit>
+      <trans-unit id="[Appearance/Font/title]" xml:space="preserve" approved="yes">
+        <source>Font</source>
+        <target state="final">Font</target>
+        <note>Title of a setting option: font</note>
+      </trans-unit>
+      <trans-unit id="[Appearance/TextSize/reset]" xml:space="preserve" approved="yes">
+        <source>Reset text size to default</source>
+        <target state="final">Ripristina dimensione testo predefinita</target>
+        <note>Action: set text size to standard size</note>
+      </trans-unit>
+      <trans-unit id="[Appearance/TextSize/title]" xml:space="preserve" approved="yes">
+        <source>Text Size</source>
+        <target state="final">Dimensione testo</target>
+        <note>Title of a setting option: font size</note>
+      </trans-unit>
+      <trans-unit id="[Appearance/title]" xml:space="preserve" approved="yes">
+        <source>Appearance</source>
+        <target state="final">Aspetto</target>
+        <note>Group of settings for user interface appearance (text size, icons, etc)</note>
+      </trans-unit>
+      <trans-unit id="[ContactUs/subtitle]" xml:space="preserve" approved="yes">
+        <source>Suggestions? Problems? Let us know!</source>
+        <target state="final">Suggerimenti? Problemi? Facci sapere!</target>
+        <note>Subtitle for `Contact Us`. Keep it short.</note>
+      </trans-unit>
+      <trans-unit id="[Credits/Item/aexml]" xml:space="preserve" approved="yes">
         <source>AEXML by Marko Tadić</source>
-        <target state="translated">AEXML di Marko Tadić</target>
+        <target state="final">AEXML di Marko Tadić</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/argon2]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/argon2]" xml:space="preserve" approved="yes">
         <source>Argon2 by Daniel Dinu, Dmitry Khovratovich, Jean-Philippe Aumasson, and Samuel Neves</source>
-        <target state="translated">Argon2 di Daniel Dinu, Dmitry Khovratovich, Jean-Philippe Aumasson e Samuel Neves</target>
+        <target state="final">Argon2 di Daniel Dinu, Dmitry Khovratovich, Jean-Philippe Aumasson e Samuel Neves</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/base32]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/base32]" xml:space="preserve" approved="yes">
         <source>Base32 for Swift by Norio Nomura</source>
-        <target state="translated">Base32 per Swift di Norio Nomura</target>
+        <target state="final">Base32 per Swift di Norio Nomura</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/chaCha20]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/chaCha20]" xml:space="preserve" approved="yes">
         <source>ChaCha20 &amp; Salsa20 implementation by D. J. Bernstein</source>
-        <target state="translated">Implementazione ChaCha20 &amp; Salsa20 di D. J. Bernstein</target>
+        <target state="final">Implementazione ChaCha20 &amp; Salsa20 di D. J. Bernstein</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/fancyDebossPattern]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/fancyDebossPattern]" xml:space="preserve" approved="yes">
         <source>Fancy deboss pattern by Daniel Beaton</source>
-        <target state="translated">Fancy deboss pattern di Daniel Beaton</target>
+        <target state="final">Fancy deboss pattern di Daniel Beaton</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/featherIcons]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/featherIcons]" xml:space="preserve" approved="yes">
         <source>Feather icons by Cole Bemis</source>
-        <target state="translated">Icone Feather di Cole Bemis</target>
+        <target state="final">Icone Feather di Cole Bemis</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/gzipSwift]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/gzipSwift]" xml:space="preserve" approved="yes">
         <source>GzipSwift by 1024jp</source>
-        <target state="translated">GzipSwift di 1024jp</target>
+        <target state="final">GzipSwift di 1024jp</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/icons8]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/icons8]" xml:space="preserve" approved="yes">
         <source>Icons by Icons8</source>
-        <target state="translated">Icone di Icons8</target>
+        <target state="final">Icone di Icons8</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/ionIcons]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/ionIcons]" xml:space="preserve" approved="yes">
         <source>Ionicons by Ionic</source>
-        <target state="translated">Ionicons di Ionic</target>
+        <target state="final">Ionicons di Ionic</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/keePassXCIcons]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/keePassXCIcons]" xml:space="preserve" approved="yes">
         <source>Icons by KeePassXC team</source>
-        <target state="translated">Icone del team KeePassXC</target>
+        <target state="final">Icone del team KeePassXC</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/keePass]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/keePass]" xml:space="preserve" approved="yes">
         <source>KeePass by Dominik Reichl</source>
-        <target state="translated">KeePass di Dominik Reichl</target>
+        <target state="final">KeePass di Dominik Reichl</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/lineIcons]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/lineIcons]" xml:space="preserve" approved="yes">
         <source>Linecons by Andrian Valeanu</source>
-        <target state="translated">Linecons di Andrian Valeanu</target>
+        <target state="final">Linecons di Andrian Valeanu</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/nuvolaIcons]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/nuvolaIcons]" xml:space="preserve" approved="yes">
         <source>Nuvola icons by David Vignoni</source>
-        <target state="translated">Icone Nuvola di David Vignoni</target>
+        <target state="final">Icone Nuvola di David Vignoni</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/rijndael]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/rijndael]" xml:space="preserve" approved="yes">
         <source>Rijndael implementation by Szymon Stefanek</source>
-        <target state="translated">Implementazione Rijndael di Szymon Stefanek</target>
+        <target state="final">Implementazione Rijndael di Szymon Stefanek</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/swiftDomainParser]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/swiftDomainParser]" xml:space="preserve" approved="yes">
         <source>SwiftDomainParser by Dashlane</source>
-        <target state="translated">SwiftDomainParser di Dashlane</target>
+        <target state="final">SwiftDomainParser di Dashlane</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/systemSettingsIcon]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/systemSettingsIcon]" xml:space="preserve" approved="yes">
         <source>System settings icon by Vicons Design</source>
-        <target state="translated">Icona Impostazioni di Sistema di Vicons Design</target>
+        <target state="final">Icona Impostazioni di Sistema di Vicons Design</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/toastSwift]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/toastSwift]" xml:space="preserve" approved="yes">
         <source>Toast-Swift by Charles Scalesse</source>
-        <target state="translated">Toast-Swift di Charles Scalesse</target>
+        <target state="final">Toast-Swift di Charles Scalesse</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/tpInappReceipt]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/tpInappReceipt]" xml:space="preserve" approved="yes">
         <source>TPInAppReceipt by Pavel Tikhonenko</source>
-        <target state="translated">TPInAppReceipt di Pavel Tikhonenko</target>
+        <target state="final">TPInAppReceipt di Pavel Tikhonenko</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/translations]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/translations]" xml:space="preserve" approved="yes">
         <source>Translation by KeePassium contributors</source>
-        <target state="translated">Traduzione dei contributori di KeePassium</target>
+        <target state="final">Traduzione dei contributori di KeePassium</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/twoFish]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/twoFish]" xml:space="preserve" approved="yes">
         <source>Twofish implementation by Niels Ferguson</source>
-        <target state="translated">Implementazione Twofish di Niels Ferguson</target>
+        <target state="final">Implementazione Twofish di Niels Ferguson</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/wordlists]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/whatsNewKit]" xml:space="preserve" approved="yes">
+        <source>WhatsNewKit by Sven Tiigi</source>
+        <target state="final">WhatsNewKit di Sven Tiigi</target>
+        <note>Item in the credits list</note>
+      </trans-unit>
+      <trans-unit id="[Credits/Item/wordlists]" xml:space="preserve" approved="yes">
         <source>Passphrase wordlists by EFF</source>
-        <target state="translated">Liste vocaboli per frasi segrete dell'EFF</target>
+        <target state="final">Liste vocaboli per frasi segrete dell'EFF</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/yubico]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/yubico]" xml:space="preserve" approved="yes">
         <source>Yubico Mobile iOS SDK by Yubico AB</source>
-        <target state="translated">SDK Yubico Mobile iOS di Yubico AB</target>
+        <target state="final">SDK Yubico Mobile iOS di Yubico AB</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/zxcvbn]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/zxcvbn]" xml:space="preserve" approved="yes">
         <source>zxcvbn-ios by Dropbox</source>
-        <target state="translated">zxcvbn-ios di Dropbox</target>
+        <target state="final">zxcvbn-ios di Dropbox</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/License/apache2]" xml:space="preserve">
+      <trans-unit id="[Credits/License/apache2]" xml:space="preserve" approved="yes">
         <source>Apache 2.0 license</source>
-        <target state="translated">Licenza Apache 2.0</target>
+        <target state="final">Licenza Apache 2.0</target>
         <note>License name for credits</note>
       </trans-unit>
-      <trans-unit id="[Credits/License/cc0]" xml:space="preserve">
+      <trans-unit id="[Credits/License/cc0]" xml:space="preserve" approved="yes">
         <source>CC0 license</source>
-        <target state="translated">Licenza CC0</target>
+        <target state="final">Licenza CC0</target>
         <note>License name for credits</note>
       </trans-unit>
-      <trans-unit id="[Credits/License/ccBy3]" xml:space="preserve">
+      <trans-unit id="[Credits/License/ccBy3]" xml:space="preserve" approved="yes">
         <source>CC BY 3.0</source>
-        <target state="translated">CC BY 3.0</target>
+        <target state="final">CC BY 3.0</target>
         <note>License name for credits</note>
       </trans-unit>
-      <trans-unit id="[Credits/License/ccByNd]" xml:space="preserve">
+      <trans-unit id="[Credits/License/ccByNd]" xml:space="preserve" approved="yes">
         <source>CC BY-ND 3.0</source>
-        <target state="translated">CC BY-ND 3.0</target>
+        <target state="final">CC BY-ND 3.0</target>
         <note>License name for credits</note>
       </trans-unit>
-      <trans-unit id="[Credits/License/customPermissiveLicense]" xml:space="preserve">
+      <trans-unit id="[Credits/License/customPermissiveLicense]" xml:space="preserve" approved="yes">
         <source>Custom permissive license</source>
-        <target state="translated">Licenza permissiva personalizzata</target>
+        <target state="final">Licenza permissiva personalizzata</target>
         <note>License name for credits</note>
       </trans-unit>
-      <trans-unit id="[Credits/License/gpl]" xml:space="preserve">
+      <trans-unit id="[Credits/License/gpl]" xml:space="preserve" approved="yes">
         <source>GPL license</source>
-        <target state="translated">Licenza GPL</target>
+        <target state="final">Licenza GPL</target>
         <note>License name for credits</note>
       </trans-unit>
-      <trans-unit id="[Credits/License/lgpl]" xml:space="preserve">
+      <trans-unit id="[Credits/License/lgpl]" xml:space="preserve" approved="yes">
         <source>LGPL license</source>
-        <target state="translated">Licenza LGPL</target>
+        <target state="final">Licenza LGPL</target>
         <note>License name for credits</note>
       </trans-unit>
-      <trans-unit id="[Credits/License/mit]" xml:space="preserve">
+      <trans-unit id="[Credits/License/mit]" xml:space="preserve" approved="yes">
         <source>MIT license</source>
-        <target state="translated">Licenza MIT</target>
+        <target state="final">Licenza MIT</target>
         <note>License name for credits</note>
       </trans-unit>
-      <trans-unit id="[Credits/License/proprietary]" xml:space="preserve">
+      <trans-unit id="[Credits/License/proprietary]" xml:space="preserve" approved="yes">
         <source>Proprietary license</source>
-        <target state="translated">Licenza proprietaria</target>
+        <target state="final">Licenza proprietaria</target>
         <note>License name for credits</note>
       </trans-unit>
-      <trans-unit id="[Credits/License/publicDomain]" xml:space="preserve">
+      <trans-unit id="[Credits/License/publicDomain]" xml:space="preserve" approved="yes">
         <source>Public Domain</source>
-        <target state="translated">Dominio pubblico</target>
+        <target state="final">Dominio pubblico</target>
         <note>License name for credits</note>
       </trans-unit>
-      <trans-unit id="[Database/Create/TemplateEntry/notes] You can also store some notes, if you like." xml:space="preserve">
+      <trans-unit id="[Database/Create/TemplateEntry/notes] You can also store some notes, if you like." xml:space="preserve" approved="yes">
         <source>You can also store some notes, if you like.</source>
-        <target state="translated">Puoi anche conservare delle note, se vuoi.</target>
+        <target state="final">Puoi anche aggiungere delle note, se vuoi.</target>
         <note>Note for a sample entry</note>
       </trans-unit>
       <trans-unit id="[Database/Create/TemplateEntry/password] pa$$word" xml:space="preserve" approved="yes">
@@ -1198,9 +1155,9 @@ Di conseguenza, sia l'inserimento automatico che l'app principale di KeePassium 
         <target state="final">Questa password è facile da indovinare. Prova a inserirne una più forte.</target>
         <note>Notification when user sets up too weak a database password.</note>
       </trans-unit>
-      <trans-unit id="[Database/Create] Please enter a password or choose a key file." xml:space="preserve">
+      <trans-unit id="[Database/Create] Please enter a password or choose a key file." xml:space="preserve" approved="yes">
         <source>Please enter a password or choose a key file.</source>
-        <target state="translated">Inserire una password o scegliere un file chiave.</target>
+        <target state="final">Inserire una password o scegliere un file chiave.</target>
         <note>Hint shown when both password and key file are empty.</note>
       </trans-unit>
       <trans-unit id="[Database/DownloadFavicons/intro]" xml:space="preserve" approved="yes">
@@ -1210,8 +1167,13 @@ Di conseguenza, sia l'inserimento automatico che l'app principale di KeePassium 
       </trans-unit>
       <trans-unit id="[Database/DownloadFavicons/warning]" xml:space="preserve" approved="yes">
         <source>Doing this on a public or monitored network can expose the list of websites where you have an account.</source>
-        <target state="final">Fare questo mentre si è connessi a una rete pubblica o monitorata può esporre la lista di siti web su cui si ha un account.</target>
+        <target state="final">Se stai usando una rete pubblica o monitorata, questa operazione potrebbe esporre la lista di siti web su cui hai un account.</target>
         <note>Description of favicon downloader feature. 'Doing this' refers to downloading favicons.</note>
+      </trans-unit>
+      <trans-unit id="[Database/Group/empty]" xml:space="preserve" approved="yes">
+        <source>This group is empty</source>
+        <target state="final">Questo gruppo è vuoto</target>
+        <note>Placeholder text in an empty group</note>
       </trans-unit>
       <trans-unit id="[Database/KDF/consideredWeak]" xml:space="preserve" approved="yes">
         <source>%1$@ is considered weak. Use %2$@ instead.</source>
@@ -1220,13 +1182,18 @@ Di conseguenza, sia l'inserimento automatico che l'app principale di KeePassium 
       </trans-unit>
       <trans-unit id="[Database/KDF/tooSlow]" xml:space="preserve" approved="yes">
         <source>These settings may be too slow for some devices.</source>
-        <target state="final">Queste impostazioni potrebbero essere troppo lente per alcuni dispositivi.</target>
+        <target state="final">Queste impostazioni potrebbero rallentare alcuni dispositivi.</target>
         <note>Notification message about encryption settings.</note>
       </trans-unit>
       <trans-unit id="[Database/KDF/tooWeak]" xml:space="preserve" approved="yes">
         <source>Increase the settings for optimal data protection.</source>
-        <target state="final">Aumenta le impostazioni per la massima protezione dei dati.</target>
+        <target state="final">Aumenta i valori per una protezione dei dati ottimale.</target>
         <note>Call to action when encryption settings are too weak.</note>
+      </trans-unit>
+      <trans-unit id="[DiagLog/subtitle]" xml:space="preserve" approved="yes">
+        <source>For expert troubleshooting</source>
+        <target state="final">Per troubleshooting avanzato</target>
+        <note>Subtitle for `Diagnostic Log`. Keep it short.</note>
       </trans-unit>
       <trans-unit id="[Entry/Files/Add] Replace existing attachment?" xml:space="preserve" approved="yes">
         <source>Replace existing attachment?</source>
@@ -1263,6 +1230,41 @@ Di conseguenza, sia l'inserimento automatico che l'app principale di KeePassium 
         <target state="final">Altro</target>
         <note>Title of entry viewer's tab with advanced/secondary properties</note>
       </trans-unit>
+      <trans-unit id="[Format/ApplePasswordsCSV]" xml:space="preserve" approved="yes">
+        <source>Apple Passwords (.csv)</source>
+        <target state="final">Password di Apple (.csv)</target>
+        <note>Name of Apple Passwords' CSV file format</note>
+      </trans-unit>
+      <trans-unit id="[Format/EnpassJSON]" xml:space="preserve" approved="yes">
+        <source>Enpass (.json)</source>
+        <target state="final">Enpass (.json)</target>
+        <note>Name of Enpass' JSON file format</note>
+      </trans-unit>
+      <trans-unit id="[Import/CSV/Error/InvalidFormat/withColumn]" xml:space="preserve" approved="yes">
+        <source>Invalid CSV format at line %1$d, column %2$d.</source>
+        <target state="final">Formato CSV non valido alla riga %1$d, colonna %2$d.</target>
+        <note>Error message when CSV parsing fails [lineNumber: Int, colNumber: Int]</note>
+      </trans-unit>
+      <trans-unit id="[Import/CSV/Error/InvalidFormat]" xml:space="preserve" approved="yes">
+        <source>Invalid CSV format at line %d.</source>
+        <target state="final">Formato CSV non valido alla riga %d.</target>
+        <note>Error message when CSV parsing fails [lineNumber: Int]</note>
+      </trans-unit>
+      <trans-unit id="[Import/Enpass/Error/CorruptedAttachment]" xml:space="preserve" approved="yes">
+        <source>Corrupted data for attachment '%1$@' in item '%2$@'.</source>
+        <target state="final">Dati danneggiati per l'allegato "%1$@" nell'elemento "%2$@".</target>
+        <note>Error message when Enpass import fails due to corrupted attachment data [attachmentName: String, itemName: String]</note>
+      </trans-unit>
+      <trans-unit id="[Import/Error/EmptyFile]" xml:space="preserve" approved="yes">
+        <source>Incoming file is empty.</source>
+        <target state="final">Il file in arrivo è vuoto.</target>
+        <note>Error shown when trying to import from an empty file</note>
+      </trans-unit>
+      <trans-unit id="[Import/JSON/ParsingError]" xml:space="preserve" approved="yes">
+        <source>Failed to parse JSON file.</source>
+        <target state="final">Analisi del file JSON non riuscita.</target>
+        <note>Error message when JSON parsing fails</note>
+      </trans-unit>
       <trans-unit id="[Onboarding/AddExistingDatabase/action]" xml:space="preserve" approved="yes">
         <source>Add Existing Database</source>
         <target state="final">Aggiungi database esistente</target>
@@ -1275,7 +1277,7 @@ Di conseguenza, sia l'inserimento automatico che l'app principale di KeePassium 
       </trans-unit>
       <trans-unit id="[Onboarding/AppProtection/text1]" xml:space="preserve" approved="yes">
         <source>KeePassium is your vault. App protection ensures that only you can open it.</source>
-        <target state="final">KeePassium è il tuo caveau. La protezione app assicura che solo tu possa aprirlo.</target>
+        <target state="final">KeePassium è il tuo caveau. La protezione app fa sì che solo tu possa aprirlo.</target>
         <note>Text in the App Protection onboarding screen.</note>
       </trans-unit>
       <trans-unit id="[Onboarding/AppProtection/title]" xml:space="preserve" approved="yes">
@@ -1290,12 +1292,12 @@ Di conseguenza, sia l'inserimento automatico che l'app principale di KeePassium 
       </trans-unit>
       <trans-unit id="[Onboarding/AutoFill/text1]" xml:space="preserve" approved="yes">
         <source>With AutoFill you can breeze through sign-in pages with a single button press.</source>
-        <target state="final">Con Inserimento automatico puoi liberarti delle schermate di accesso con un solo tasto.</target>
+        <target state="final">Grazie all'inserimento automatico, per accedere ai tuoi account basterà premere un tasto.</target>
         <note>Text in the Password AutoFill onboarding screen.</note>
       </trans-unit>
       <trans-unit id="[Onboarding/AutoFill/text2]" xml:space="preserve" approved="yes">
         <source>To start, activate Password AutoFill in system settings.</source>
-        <target state="final">Per iniziare, attiva Inserimento automatico password nelle impostazioni di sistema.</target>
+        <target state="final">Per iniziare, attiva l'inserimento automatico nelle impostazioni di sistema.</target>
         <note>Text in the Password AutoFill onboarding screen.</note>
       </trans-unit>
       <trans-unit id="[Onboarding/AutoFill/title]" xml:space="preserve" approved="yes">
@@ -1355,7 +1357,7 @@ Di conseguenza, sia l'inserimento automatico che l'app principale di KeePassium 
       </trans-unit>
       <trans-unit id="[Onboarding/Security/text2]" xml:space="preserve" approved="yes">
         <source>The vault and safe boxes have different keys and only you will know them.</source>
-        <target state="final">Il caveau e le casseforti hanno chiavi diverse e solo tu le conosci.</target>
+        <target state="final">Il caveau e le casseforti hanno chiavi diverse e solo tu sai quali sono.</target>
         <note>Text in the Security intro screen</note>
       </trans-unit>
       <trans-unit id="[Onboarding/Security/title]" xml:space="preserve" approved="yes">
@@ -1363,9 +1365,9 @@ Di conseguenza, sia l'inserimento automatico che l'app principale di KeePassium 
         <target state="final">Massima sicurezza</target>
         <note>Title of the Security intro screen</note>
       </trans-unit>
-      <trans-unit id="[PasswordAudit/Action/Exclude]" xml:space="preserve">
+      <trans-unit id="[PasswordAudit/Action/Exclude]" xml:space="preserve" approved="yes">
         <source>Exclude From Audit</source>
-        <target state="translated">Escludi dall'ispezione</target>
+        <target state="final">Escludi da ispezione</target>
         <note>Action to skip selected item/items in future password audits.</note>
       </trans-unit>
       <trans-unit id="[PasswordAudit/Auditing/status]" xml:space="preserve" approved="yes">
@@ -1445,7 +1447,7 @@ Le tue password effettive non vengono mai condivise con il servizio online.
       </trans-unit>
       <trans-unit id="[PasswordQuality/Level] Very weak" xml:space="preserve" approved="yes">
         <source>Very weak</source>
-        <target state="final">Molto debole</target>
+        <target state="final">Pessima</target>
         <note>Very weak password quality</note>
       </trans-unit>
       <trans-unit id="[PasswordQuality/Level] Weak" xml:space="preserve" approved="yes">
@@ -1458,10 +1460,95 @@ Le tue password effettive non vengono mai condivise con il servizio online.
         <target state="final">Qualità password: %@</target>
         <note>Password quality description. For example: `Password quality: Weak`. [level: String]</note>
       </trans-unit>
+      <trans-unit id="[Premium/Status/BetaTesting/title]" xml:space="preserve" approved="yes">
+        <source>Beta testing</source>
+        <target state="final">In beta</target>
+        <note>Status: special premium for beta-testing environment is active</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Status/ValidForever/title]" xml:space="preserve" approved="yes">
+        <source>Valid forever</source>
+        <target state="final">Valido per sempre</target>
+        <note>Status: validity period of once-and-forever premium</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Status/currentVersion]" xml:space="preserve" approved="yes">
+        <source>Current version: %@</source>
+        <target state="final">Versione attuale: %@</target>
+        <note>Status: current version of the app. For example: `Current version: 1.23`. Should be similar to the `Licensed version` string. [version: String]</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Status/expiredAgo]" xml:space="preserve" approved="yes">
+        <source>Expired %@ ago. Please renew.</source>
+        <target state="final">Scaduto %@ fa. Rinnovo richiesto.</target>
+        <note>Status: premium subscription has expired. For example: `Expired 1 day ago`. [timeFormatted: String, includes the time unit (day, hour, minute)]</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Status/licensedVersion]" xml:space="preserve" approved="yes">
+        <source>Licensed version: %@</source>
+        <target state="final">Versione autorizzata: %@</target>
+        <note>Status: licensed premium version of the app. For example: `Licensed version: 1.23`. [version: String]</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Status/nextRenewal]" xml:space="preserve" approved="yes">
+        <source>Next renewal on %@</source>
+        <target state="final">Prossimo rinnovo il %@</target>
+        <note>Status: scheduled renewal date of a premium subscription. For example: `Next renewal on 1 Jan 2050`. [expiryDateString: String]</note>
+      </trans-unit>
+      <trans-unit id="[Premium/Status/title]" xml:space="preserve" approved="yes">
+        <source>Premium Version</source>
+        <target state="final">Versione Premium</target>
+        <note>Status when the user has a premium version</note>
+      </trans-unit>
+      <trans-unit id="[Premium/usage] App being useful: %@/month, that is around %@/year." xml:space="preserve" approved="yes">
+        <source>App being useful: %1$@/month, that is around %2$@/year.</source>
+        <target state="final">Utilità app: %1$@/ mese, circa %2$@/anno.</target>
+        <note>Status: how long the app has been used during some time period. For example: `App being useful: 1hr/month, about 12hr/year`. [monthlyUsage: String, annualUsage: String — already include the time unit (hours, minutes)]</note>
+      </trans-unit>
       <trans-unit id="[ProtectedTextField] Show Password" xml:space="preserve" approved="yes">
         <source>Show Password</source>
         <target state="final">Mostra password</target>
         <note>Action/button to make password visible as plain-text</note>
+      </trans-unit>
+      <trans-unit id="[QRCodeScanner/CameraPermission/description]" xml:space="preserve" approved="yes">
+        <source>KeePassium needs camera access to scan QR codes.</source>
+        <target state="final">KeePassium richiede l'accesso a Fotocamera per scansionare codici QR.</target>
+        <note>Explanation why the app needs camera access permission.</note>
+      </trans-unit>
+      <trans-unit id="[QRCodeScanner/Error/CameraBusy]" xml:space="preserve" approved="yes">
+        <source>Camera is already in use.</source>
+        <target state="final">La fotocamera è già in uso.</target>
+        <note>Error message when the app cannot use the camera.</note>
+      </trans-unit>
+      <trans-unit id="[QRCodeScanner/Error/ImageCorrupted]" xml:space="preserve" approved="yes">
+        <source>Selected image is corrupted.</source>
+        <target state="final">L'immagine selezionata è danneggiata.</target>
+        <note>Error message</note>
+      </trans-unit>
+      <trans-unit id="[QRCodeScanner/Error/Internal]" xml:space="preserve" approved="yes">
+        <source>Internal error in QR code reader. Check diagnostic log for details.</source>
+        <target state="final">Errore interno nel lettore di codici QR. Per ulteriori dettagli, vedere il registro di diagnostica.</target>
+        <note>Error message with a suggested action.</note>
+      </trans-unit>
+      <trans-unit id="[QRCodeScanner/Error/NoQRCodeFound]" xml:space="preserve" approved="yes">
+        <source>Looks like there’s no QR code in that image.</source>
+        <target state="final">Sembra che l'immagine con contenga alcun codice QR.</target>
+        <note>Notification message</note>
+      </trans-unit>
+      <trans-unit id="[QRCodeScanner/Error/SourceNoAvailable]" xml:space="preserve" approved="yes">
+        <source>Image source is not available.</source>
+        <target state="final">Fonte dell'immagine non disponibile.</target>
+        <note>Error message when camera/gallery/etc is either missing or forbidden.</note>
+      </trans-unit>
+      <trans-unit id="[QRCodeScanner/Info/callToAction]" xml:space="preserve" approved="yes">
+        <source>Point the camera at a QR code.</source>
+        <target state="final">Inquadra un codice QR con la fotocamera.</target>
+        <note>Call to action/instruction for QR code scanner.</note>
+      </trans-unit>
+      <trans-unit id="[QuickAutoFill/description]" xml:space="preserve" approved="yes">
+        <source>Quick AutoFill shows relevant entries right next to the password field, without opening KeePassium.</source>
+        <target state="final">L'inserimento automatico rapido mostra le voci rilevanti di fianco ai campi password, senza aprire KeePassium.</target>
+        <note>Description of the Quick AutoFill feature.</note>
+      </trans-unit>
+      <trans-unit id="[Search/EmptyResult/title]" xml:space="preserve" approved="yes">
+        <source>Nothing suitable found</source>
+        <target state="final">Nessuna corrispondenza trovata</target>
+        <note>Placeholder text for empty search results</note>
       </trans-unit>
       <trans-unit id="[Selection/Delete/confirmation]" xml:space="preserve" approved="yes">
         <source>Delete selection?</source>
@@ -1473,14 +1560,479 @@ Le tue password effettive non vengono mai condivise con il servizio online.
         <target state="final">Escludere la selezione dall'ispezione password?</target>
         <note>Title of the confirmation dialog for `Exclude from audit` action for several items</note>
       </trans-unit>
+      <trans-unit id="[Settings/AccessControl/title]" xml:space="preserve" approved="yes">
+        <source>Access Control</source>
+        <target state="final">Protezione accesso</target>
+        <note>Title of a section in settings: parameters that protect access to data</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AppLoc/Activate/callToAction]" xml:space="preserve" approved="yes">
+        <source>Activate App Protection</source>
+        <target state="final">Attiva protezione app</target>
+        <note>Call to action (protect the app from unauthorized access)</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AppLock/Activate/description]" xml:space="preserve" approved="yes">
+        <source>Protect KeePassium from unauthorized access.</source>
+        <target state="final">Proteggi KeePassium da accessi non autorizzati.</target>
+        <note>Description of `Activate app protection` call to action.</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AppLock/Biometric/description]" xml:space="preserve" approved="yes">
+        <source>Allows biometric authentication as a quick (but less secure) alternative to passcode.</source>
+        <target state="final">Consente di utilizzare l'autenticazione biometrica come alternativa rapida (ma meno sicura) al codice di blocco.</target>
+        <note>Description of biometric unlock settings</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AppLock/Biometric/title] Use %@" xml:space="preserve" approved="yes">
+        <source>Use %@</source>
+        <target state="final">Usa %@</target>
+        <note>Settings switch: whether App Protection is allowed to use Touch ID/Face ID. Example: 'Use Touch ID'. [biometryTypeName: String]</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AppLock/LockOnLaunch/description]" xml:space="preserve" approved="yes">
+        <source>Ensures KeePassium is locked after you force-close the app or restart the device.</source>
+        <target state="final">Assicura che KeePassium venga bloccato dopo la chiusura forzata dell'app o il riavvio del dispositivo.</target>
+        <note>Explanation for the `Lock on App Launch` setting</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AppLock/LockOnLaunch/title]" xml:space="preserve" approved="yes">
+        <source>Lock on App Launch</source>
+        <target state="final">Blocca all'avvio dell'app</target>
+        <note>Setting switch: whether to lock the app after it was terminated and relaunched.</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AppLock/LockOnScreenLock/description]" xml:space="preserve" approved="yes">
+        <source>Ensures KeePassium is locked when you lock your Mac.</source>
+        <target state="final">Garantisce che KeePassium venga bloccato quando blocchi il tuo Mac.</target>
+        <note>Explanation for the `Lock on macOS Screen Lock` setting</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AppLock/LockOnScreenLock/title]" xml:space="preserve" approved="yes">
+        <source>Lock on macOS Screen Lock</source>
+        <target state="final">Blocca quando lo schermo di macOS è bloccato</target>
+        <note>Title of a yes/no setting: whether to lock app when computer screen is locked (see https://support.apple.com/en-gb/guide/mac-help/mchl8e8b6a34/mac)</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AppLock/LockOnWrongPasscode/description]" xml:space="preserve" approved="yes">
+        <source>If you enter a wrong app protection passcode, KeePassium will close all databases and clear all master keys from the keychain.</source>
+        <target state="final">Se immetti un codice errato, KeePassium chiuderà tutti i database e cancellerà tutte le chiavi principali dal portachiavi.</target>
+        <note>Description of the `Lock on Wrong Passcode` setting</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AppLock/LockOnWrongPasscode/title]" xml:space="preserve" approved="yes">
+        <source>Lock on Wrong Passcode</source>
+        <target state="final">Blocca in caso di un codice di accesso errato</target>
+        <note>Title in the settings: whether to lock databases when user enters a wrong app protection passcode.</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AppLock/PasscodeAttemptsUntilAppReset/Never/title]" xml:space="preserve" approved="yes">
+        <source>Do not reset</source>
+        <target state="final">Non reimpostare</target>
+        <note>An option in Settings. Will be shown as 'Passcode Attempts Until App Reset: Do not reset'</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AppLock/PasscodeAttemptsUntilAppReset/description]" xml:space="preserve" approved="yes">
+        <source>App reset will delete all the stored keys, settings, database backups, imported files, and links to external files. However, if app reset is triggered from AutoFill, imported files may remain due to technical limitations.</source>
+        <target state="final">Reimpostando l'app verranno eliminate tutte le chiavi memorizzate e le impostazioni, nonché tutti i backup del database, i file importati e i link a file esterni. Tuttavia, se la reimpostazione viene attivata da Inserimento automatico, i file importati potrebbero essere conservati a causa di limitazioni tecniche.</target>
+        <note>Description of the `Passcode Attempts Until App Reset` setting</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AppLock/PasscodeAttemptsUntilAppReset/title]" xml:space="preserve" approved="yes">
+        <source>Attempts Until App Reset</source>
+        <target state="final">Tentativi prima della reimpostazione dell'app</target>
+        <note>Title in the settings: number of failed passcode attempts that will reset the app into 'just installed' state.</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AppLock/Timeout/description]" xml:space="preserve" approved="yes">
+        <source>The app will automatically lock up after this time.</source>
+        <target state="final">L'app si bloccherà automaticamente dopo questo intervallo di tempo.</target>
+        <note>Description of the App Lock Timeout setting</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AppLock/Timeout/title]" xml:space="preserve" approved="yes">
+        <source>Timeout</source>
+        <target state="final">Timeout</target>
+        <note>Title for App Lock Timeout setting</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AppLock/WrongPasscode/title]" xml:space="preserve" approved="yes">
+        <source>Wrong Passcode</source>
+        <target state="final">Codice errato</target>
+        <note>Settings section: what happens if user enters incorrect App Protection passcode.</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AppLock/subtitle] App Lock, %@, timeout" xml:space="preserve" approved="yes">
+        <source>App Lock, %@, timeout</source>
+        <target state="final">Blocco app, %@, timeout</target>
+        <note>Settings: subtitle of the `App Protection` section. biometryTypeName will be either 'Touch ID' or 'Face ID'. [biometryTypeName: String]</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AppLock/subtitle] App Lock, passcode, timeout" xml:space="preserve" approved="yes">
+        <source>App Lock, passcode, timeout</source>
+        <target state="final">Blocco app, codice, timeout</target>
+        <note>Settings: subtitle of the `App Protection` section when biometric auth is not available.</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AppLock/title]" xml:space="preserve" approved="yes">
+        <source>App Protection</source>
+        <target state="final">Protezione app</target>
+        <note>Settings section: protection of the app from unauthorized access</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AppLockTimeout/AfterLeavingApp/description]" xml:space="preserve" approved="yes">
+        <source>After leaving the app</source>
+        <target state="final">Dopo aver lasciato l'app</target>
+        <note>Description of those 'App Protection Timeout' options that trigger when the app is minimized. For example: 'Timeout: 3 seconds (After leaving the app)</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AppLockTimeout/Immediately/title] " xml:space="preserve" approved="yes">
+        <source>Immediately</source>
+        <target state="final">Immediatamente</target>
+        <note>An option in Settings. Will be shown as 'App Lock: Timeout: Immediately'</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AppLockTimeout/Never/title]" xml:space="preserve" approved="yes">
+        <source>Never</source>
+        <target state="final">Mai</target>
+        <note>An option in Settings. Will be shown as 'App Lock: Timeout: Never'</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AppLockTimeout/description] After last interaction" xml:space="preserve" approved="yes">
+        <source>After last interaction</source>
+        <target state="final">Dopo ultima interazione</target>
+        <note>Description of those 'App Protection Timeout' options that trigger when the user has been idle for a while. For example: 'Timeout: 3 seconds (After last interaction)</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AutoFill/Activate/action]" xml:space="preserve" approved="yes">
+        <source>Activate AutoFill</source>
+        <target state="final">Attiva inserimento automatico</target>
+        <note>Action that opens system settings or instructions</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AutoFill/Activate/description]" xml:space="preserve" approved="yes">
+        <source>Before first use, you need to activate AutoFill in system settings.</source>
+        <target state="final">Prima di utilizzarlo, devi attivare l'inserimento automatico in Impostazioni.</target>
+        <note>Description for the AutoFill setup instructions</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AutoFill/CopyOTP/Description]" xml:space="preserve" approved="yes">
+        <source>When AutoFill inserts the username and password, it can also copy the one-time password (OTP) for you.</source>
+        <target state="final">Quando l'inserimento automatico inserisce il nome utente e la password, può anche copiare la password monouso (OTP) per te.</target>
+        <note>Description of the 'Copy OTP to Clipboard' setting</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AutoFill/CopyOTP/title]" xml:space="preserve" approved="yes">
+        <source>Copy OTP to Clipboard</source>
+        <target state="final">Copia OTP negli appunti</target>
+        <note>Title of a yes/no setting: copy one-time password to clipboard when using AutoFill</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AutoFill/RememberContext/description]" xml:space="preserve" approved="yes">
+        <source>KeePassium will remember which entry you select for each website and then suggest it automatically.</source>
+        <target state="final">KeePassium ricorderà le voci che selezioni per ogni sito web e quindi le suggerirà automaticamente.</target>
+        <note>Description of the 'Remember Selected Entries' setting.</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AutoFill/RememberContext/title]" xml:space="preserve" approved="yes">
+        <source>Remember Selected Entries</source>
+        <target state="final">Ricorda le voci selezionate</target>
+        <note>Title of a yes/no setting: remember which entry was used for AutoFill on which website.</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AutoFill/Setup Guide/title]" xml:space="preserve" approved="yes">
+        <source>AutoFill Setup Guide</source>
+        <target state="final">Guida per l'inserimento automatico</target>
+        <note>Title of a help article on how to activate AutoFill.</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AutoFill/UnavailableInIntune/description]" xml:space="preserve" approved="yes">
+        <source>AutoFill is not available in KeePassium for Intune.</source>
+        <target state="final">L'inserimento automatico non è disponibile in KeePassium per Intune.</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AutoFill/UsePerfectMatch/description]" xml:space="preserve" approved="yes">
+        <source>When AutoFill finds only one, perfectly matching, entry – this entry will be pasted automatically.</source>
+        <target state="final">Quando l'inserimento automatico trova una voce perfettamente corrispondente, questa verrà incollata automaticamente.</target>
+        <note>Description of the 'Fill-In Perfect Result Automatically' setting</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AutoFill/UsePerfectMatch/title]" xml:space="preserve" approved="yes">
+        <source>Fill-In Perfect Result Automatically</source>
+        <target state="final">Inserisci risultato perfetto in automatico</target>
+        <note>Title of a yes/no setting: automatically use the single best match found by AutoFill search</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AutoOpenPreviousDatabase/title]" xml:space="preserve" approved="yes">
+        <source>Auto-Open Previous Database</source>
+        <target state="final">Apri ultimo database</target>
+        <note>Option in settings: whether to open the last used database automatically on start.</note>
+      </trans-unit>
+      <trans-unit id="[Settings/AutoSearch/title]" xml:space="preserve" approved="yes">
+        <source>Automatic search</source>
+        <target state="final">Ricerca automatica</target>
+        <note>Title of a section in settings</note>
+      </trans-unit>
+      <trans-unit id="[Settings/ClearKeyFileAssociations/Cleared/title]" xml:space="preserve" approved="yes">
+        <source>Cleared</source>
+        <target state="final">Dimenticate</target>
+        <note>Title of the success message for `Clear Key File Associations` button</note>
+      </trans-unit>
+      <trans-unit id="[Settings/ClearKeyFileAssociations/action]" xml:space="preserve" approved="yes">
+        <source>Clear Key File Associations</source>
+        <target state="final">Dimentica file chiave associati</target>
+        <note>Action to clear/erase info about which database uses which key file</note>
+      </trans-unit>
+      <trans-unit id="[Settings/ClearMasterKeys/Cleared/title]" xml:space="preserve" approved="yes">
+        <source>Cleared</source>
+        <target state="final">Dimenticate</target>
+        <note>Title of the success message for `Clear Master Keys` button</note>
+      </trans-unit>
+      <trans-unit id="[Settings/Clipboard/Timeout/title]" xml:space="preserve" approved="yes">
+        <source>Clipboard Timeout</source>
+        <target state="final">Timeout appunti</target>
+        <note>Title of a setting: time after which clipboard will be cleared</note>
+      </trans-unit>
+      <trans-unit id="[Settings/Clipboard/title]" xml:space="preserve" approved="yes">
+        <source>Clipboard</source>
+        <target state="final">Appunti</target>
+        <note>Section title in Settings</note>
+      </trans-unit>
+      <trans-unit id="[Settings/ClipboardTimeout/Never/title]" xml:space="preserve" approved="yes">
+        <source>Never</source>
+        <target state="final">Mai</target>
+        <note>An option in Settings. Will be shown as 'Clipboard Timeout: Never'</note>
+      </trans-unit>
+      <trans-unit id="[Settings/ClipboardTimeout/description]" xml:space="preserve" approved="yes">
+        <source>When you copy anything, KeePassium will automatically clear your clipboard after some time.</source>
+        <target state="final">Quando copi qualsiasi cosa, KeePassium svuoterà automaticamente i tuoi appunti dopo un certo di tempo.</target>
+        <note>Description of the 'Clipboard Timeout' setting.</note>
+      </trans-unit>
+      <trans-unit id="[Settings/DataProtection/Advanced/title]" xml:space="preserve" approved="yes">
+        <source>Advanced</source>
+        <target state="final">Avanzate</target>
+        <note>Section title: advanced/expert settings</note>
+      </trans-unit>
+      <trans-unit id="[Settings/DataProtection/AutomaticLock/title]" xml:space="preserve" approved="yes">
+        <source>Automatic Lock</source>
+        <target state="final">Blocco automatico</target>
+        <note>Title of a section in settings</note>
+      </trans-unit>
+      <trans-unit id="[Settings/DataProtection/LockOnReboot/title]" xml:space="preserve" approved="yes">
+        <source>Lock on Device Restart</source>
+        <target state="final">Blocca al riavvio del dispositivo</target>
+        <note>Setting switch: whether to lock databases after device reboot.</note>
+      </trans-unit>
+      <trans-unit id="[Settings/DataProtection/LockOnScreenLock/title]" xml:space="preserve" approved="yes">
+        <source>Lock on macOS Screen Lock</source>
+        <target state="final">Blocca quando lo schermo di macOS è bloccato</target>
+        <note>Title of a yes/no setting: whether to lock databases when computer screen is locked (see https://support.apple.com/en-gb/guide/mac-help/mchl8e8b6a34/mac)</note>
+      </trans-unit>
+      <trans-unit id="[Settings/DataProtection/subtitle]" xml:space="preserve" approved="yes">
+        <source>Master keys, key files</source>
+        <target state="final">Chiavi principali, file chiave</target>
+        <note>Subtitle for `Data Protection` section in settings</note>
+      </trans-unit>
+      <trans-unit id="[Settings/DatabaseBackup/Active/description]" xml:space="preserve" approved="yes">
+        <source>Before saving a database, KeePassium will automatically make a copy, just in case.</source>
+        <target state="final">Prima di salvare un database, KeePassium creerà automaticamente una copia, per sicurezza.</target>
+        <note>Description of the 'Make Backup Copies' setting</note>
+      </trans-unit>
+      <trans-unit id="[Settings/DatabaseBackup/Active/title]" xml:space="preserve" approved="yes">
+        <source>Make Backup Copies</source>
+        <target state="final">Crea copie di sicurezza</target>
+        <note>Title of a yes/no setting: whether to back up databases before saving them</note>
+      </trans-unit>
+      <trans-unit id="[Settings/DatabaseBackup/DeleteAll/confirm]" xml:space="preserve" approved="yes">
+        <source>Delete all backup files?</source>
+        <target state="final">Eliminare tutte le copie di sicurezza?</target>
+        <note>Confirmation dialog message to delete all backup files</note>
+      </trans-unit>
+      <trans-unit id="[Settings/DatabaseBackup/DeleteAll/title]" xml:space="preserve" approved="yes">
+        <source>Delete ALL Backup Files (%d)</source>
+        <target state="final">Elimina TUTTE le copie di sicurezza (%d)</target>
+        <note>Action to delete all backup files from the app. `ALL` is in capitals as a highlight. [backupFileCount: Int]</note>
+      </trans-unit>
+      <trans-unit id="[Settings/DatabaseBackup/ExcludeFromSystemBackup/description]" xml:space="preserve" approved="yes">
+        <source>Defines whether backup databases created by KeePassium should be excluded from iCloud/iTunes backup. Applies to all the existing and future backup files.</source>
+        <target state="final">Specifica se le copie di sicurezza dei database create da KeePassium debbano essere escluse dal backup di iCloud/iTunes. Si applica a tutte le copie di sicurezza esistenti e future.</target>
+        <note>Description of the 'Exclude Backup Files from System Backup' setting</note>
+      </trans-unit>
+      <trans-unit id="[Settings/DatabaseBackup/ExcludeFromSystemBackup/title]" xml:space="preserve" approved="yes">
+        <source>Exclude Backup Files from System Backup</source>
+        <target state="final">Escludi le copie di sicurezza dal backup di sistema</target>
+        <note>Title of a yes/no setting: whether app's internal backup copies should be excluded from global system backup</note>
+      </trans-unit>
+      <trans-unit id="[Settings/DatabaseBackup/KeepingDuration/Forever/title]" xml:space="preserve" approved="yes">
+        <source>Forever</source>
+        <target state="final">Per sempre</target>
+        <note>Setting title: how long to keep backup copies. Example: 'Keep Backup Files: Forever'</note>
+      </trans-unit>
+      <trans-unit id="[Settings/DatabaseBackup/KeepingDuration/title]" xml:space="preserve" approved="yes">
+        <source>Keep Backup Files</source>
+        <target state="final">Conserva copie di sicurezza</target>
+        <note>Setting title: how long to keep backup copies. For example: `Keep Backup Files: 3 days`</note>
+      </trans-unit>
+      <trans-unit id="[Settings/DatabaseBackup/NoFiles/title]" xml:space="preserve" approved="yes">
+        <source>No Backup Files Found</source>
+        <target state="final">Nessuna copia di sicurezza trovata</target>
+        <note>Status message: there are no backup files to delete</note>
+      </trans-unit>
+      <trans-unit id="[Settings/DatabaseBackup/PeriodicCleanup/description]" xml:space="preserve" approved="yes">
+        <source>KeePassium can automatically delete old backup files to free up some storage space.</source>
+        <target state="final">KeePassium può eliminare automaticamente i vecchi file di backup per liberare un po' di spazio.</target>
+        <note>Description of the `Periodic Cleanup` settings</note>
+      </trans-unit>
+      <trans-unit id="[Settings/DatabaseBackup/PeriodicCleanup/title]" xml:space="preserve" approved="yes">
+        <source>Periodic Cleanup</source>
+        <target state="final">Pulizia periodica</target>
+        <note>Settings section: automatic deletion of old backup files</note>
+      </trans-unit>
+      <trans-unit id="[Settings/DatabaseBackup/ShowBackupFiles/description]" xml:space="preserve" approved="yes">
+        <source>Backup copies will appear along with the original files.</source>
+        <target state="final">Le copie di sicurezza appariranno insieme ai file originali.</target>
+        <note>Description of the 'Show Backup Files' setting</note>
+      </trans-unit>
+      <trans-unit id="[Settings/DatabaseBackup/SystemBackup/title]" xml:space="preserve" approved="yes">
+        <source>iTunes and iCloud Backup</source>
+        <target state="final">Backup di iTunes e iCloud</target>
+        <note>Section header, refers to Apple's backup services (https://support.apple.com/HT203977)</note>
+      </trans-unit>
+      <trans-unit id="[Settings/DatabaseBackup/title]" xml:space="preserve" approved="yes">
+        <source>Database Backup</source>
+        <target state="final">Backup database</target>
+        <note>Title of a settings section: backup of databases</note>
+      </trans-unit>
+      <trans-unit id="[Settings/DatabaseLockTimeout/description]" xml:space="preserve" approved="yes">
+        <source>If you are not interacting with the app for some time, the database will be closed for your safety. To open it, you will need to enter its master password again.</source>
+        <target state="final">Se non interagisci con l'app per un po' di tempo, il database verrà chiuso per la tua sicurezza. Per aprirlo, dovrai reinserire la password principale.</target>
+        <note>Description of the `Database Timeout` setting</note>
+      </trans-unit>
+      <trans-unit id="[Settings/DatabaseLockTimeout/title]" xml:space="preserve" approved="yes">
+        <source>Database Timeout</source>
+        <target state="final">Timeout database</target>
+        <note>Title of a setting: the time after which databases will be locked.</note>
+      </trans-unit>
+      <trans-unit id="[Settings/DatabaseTimeout/Immediately/description]" xml:space="preserve" approved="yes">
+        <source>When leaving the app</source>
+        <target state="final">All'uscita dall'app</target>
+        <note>A description/subtitle for the 'Database Timeout: Immediately'.</note>
+      </trans-unit>
+      <trans-unit id="[Settings/DatabaseTimeout/Immediately/title" xml:space="preserve" approved="yes">
+        <source>Immediately</source>
+        <target state="final">Immediatamente</target>
+        <note>An option in Settings. Will be shown as 'Database Timeout: Immediately'</note>
+      </trans-unit>
+      <trans-unit id="[Settings/DatabaseTimeout/Never/title]" xml:space="preserve" approved="yes">
+        <source>Never</source>
+        <target state="final">Mai</target>
+        <note>An option in Settings. Will be shown as 'Database Timeout: Never'</note>
+      </trans-unit>
+      <trans-unit id="[Settings/HidePasswords/description]" xml:space="preserve" approved="yes">
+        <source>Hide passwords and other protected fields behind asterisks (recommended).</source>
+        <target state="final">Nascondi le password e altri campi protetti con degli asterischi (consigliato).</target>
+        <note>Description of the 'Hide Passwords' setting.</note>
+      </trans-unit>
+      <trans-unit id="[Settings/HidePasswords/title]" xml:space="preserve" approved="yes">
+        <source>Hide Passwords</source>
+        <target state="final">Nascondi password</target>
+        <note>Title of a yes/no setting</note>
+      </trans-unit>
+      <trans-unit id="[Settings/KeyFiles/Remember/description]" xml:space="preserve" approved="yes">
+        <source>Remember and automatically select the last used key file for each database. Clearing the associations does not affect the files.</source>
+        <target state="final">Ricorda e seleziona automaticamente l'ultimo file chiave usato per ogni database. Dimenticare le associazioni non influisce sui file.</target>
+        <note>Description of the 'Remember Key Files' setting</note>
+      </trans-unit>
+      <trans-unit id="[Settings/KeyFiles/title]" xml:space="preserve" approved="yes">
+        <source>Key Files</source>
+        <target state="final">File chiave</target>
+        <note>Title of a section in Settings</note>
+      </trans-unit>
+      <trans-unit id="[Settings/MasterKeys/CacheDerived/description]" xml:space="preserve" approved="yes">
+        <source>Cached keys allow KeePassium to skip key derivation and YubiKey scans whenever possible.</source>
+        <target state="final">Le chiavi in cache consentono a KeePassium di saltare la derivazione delle chiavi e le scansioni di YubiKey ove possibile.</target>
+        <note>Description of the 'Cache Derived Encryption Keys' setting</note>
+      </trans-unit>
+      <trans-unit id="[Settings/MasterKeys/Clear/action]" xml:space="preserve" approved="yes">
+        <source>Clear Master Keys</source>
+        <target state="final">Dimentica chiavi principali</target>
+        <note>Action: clear/erase/delete stored master keys</note>
+      </trans-unit>
+      <trans-unit id="[Settings/MasterKeys/ClearOnTimeout/title]" xml:space="preserve" approved="yes">
+        <source>Clear Master Keys on Timeout</source>
+        <target state="final">Dimentica chiavi principali al timeout</target>
+        <note>Title of a yes/no setting.</note>
+      </trans-unit>
+      <trans-unit id="[Settings/MasterKeys/Remember/description]" xml:space="preserve" approved="yes">
+        <source>Once you unlock a database, its master key can be stored in device's secure keychain. The next time, KeePassium will use that key so you won't have to type your full master password again.</source>
+        <target state="final">Una volta sbloccato un database, la sua chiave principale può essere memorizzata nel portachiavi sicuro del dispositivo. La prossima volta, KeePassium userà quella chiave così che tu non debba inserire ancora la tua password principale.</target>
+        <note>Description of the 'Remember Master Keys' setting.</note>
+      </trans-unit>
+      <trans-unit id="[Settings/OTP/title]" xml:space="preserve" approved="yes">
+        <source>One-time passwords</source>
+        <target state="final">Password monouso</target>
+        <note>Title of a section in settings</note>
+      </trans-unit>
+      <trans-unit id="[Settings/Premium/title]" xml:space="preserve" approved="yes">
+        <source>Premium</source>
+        <target state="final">Premium</target>
+        <note>Title of a section in settings</note>
+      </trans-unit>
+      <trans-unit id="[Settings/ProtectedFields/title]" xml:space="preserve" approved="yes">
+        <source>Protected Fields</source>
+        <target state="final">Campi protetti</target>
+        <note>Title of a section in Settings</note>
+      </trans-unit>
+      <trans-unit id="[Settings/QuickUnlock/title]" xml:space="preserve" approved="yes">
+        <source>Quick Unlock</source>
+        <target state="final">Sblocco rapido</target>
+        <note>Title of a section in settings</note>
+      </trans-unit>
+      <trans-unit id="[Settings/Search/InFieldNames/title]" xml:space="preserve" approved="yes">
+        <source>Search in Field Names</source>
+        <target state="final">Cerca nei nomi dei campi</target>
+        <note>Title of a setting: whether search looks in field names</note>
+      </trans-unit>
+      <trans-unit id="[Settings/Search/InPasswords/title]" xml:space="preserve" approved="yes">
+        <source>Search in Passwords</source>
+        <target state="final">Cerca nelle password</target>
+        <note>Title of a setting: whether search looks in passwords</note>
+      </trans-unit>
+      <trans-unit id="[Settings/Search/InProtectValues/title]" xml:space="preserve" approved="yes">
+        <source>Search in Protected Values</source>
+        <target state="final">Cerca nei valori protetti</target>
+        <note>Title of a setting: whether search looks in values of protected fields</note>
+      </trans-unit>
+      <trans-unit id="[Settings/Search/Scope/title]" xml:space="preserve" approved="yes">
+        <source>Search Scope</source>
+        <target state="final">Estensione ricerca</target>
+        <note>Title of a setting: which fields to consider in search</note>
+      </trans-unit>
+      <trans-unit id="[Settings/Search/StartWithSearch/description]" xml:space="preserve" approved="yes">
+        <source>After opening a database, automatically show the search field.</source>
+        <target state="final">Dopo l'apertura di un database, mostra automaticamente il campo di ricerca.</target>
+        <note>Description of the 'Start with Search' setting.</note>
+      </trans-unit>
+      <trans-unit id="[Settings/Search/StartWithSearch/title]" xml:space="preserve" approved="yes">
+        <source>Start with Search</source>
+        <target state="final">Cerca all'avvio</target>
+        <note>Title of a setting: whether to open search field immediately after opening a database</note>
+      </trans-unit>
+      <trans-unit id="[Settings/Search/title]" xml:space="preserve" approved="yes">
+        <source>Search</source>
+        <target state="final">Cerca</target>
+        <note>Section title in settings</note>
+      </trans-unit>
+      <trans-unit id="[Settings/ShakeGestureAction/Confirm/description]" xml:space="preserve" approved="yes">
+        <source>If the app is locked, it acts without confirmation.</source>
+        <target state="final">Viene eseguito senza conferma se l'app è bloccata.</target>
+        <note>Description of the 'Ask for Confirmation' setting.</note>
+      </trans-unit>
+      <trans-unit id="[Settings/ShakeGestureAction/Confirm/title]" xml:space="preserve" approved="yes">
+        <source>Ask for Confirmation</source>
+        <target state="final">Chiedi conferma</target>
+        <note>Title for a setting: whether the app should show an 'Are you sure?' before continuing</note>
+      </trans-unit>
+      <trans-unit id="[Settings/ShakeGestureAction/title]" xml:space="preserve" approved="yes">
+        <source>When Shaken</source>
+        <target state="final">Quando si scuote il dispositivo</target>
+        <note>Title for a setting: what the app should do when the user shakes the device</note>
+      </trans-unit>
+      <trans-unit id="[Settings/Start/title]" xml:space="preserve" approved="yes">
+        <source>Start</source>
+        <target state="final">Inizia</target>
+        <note>Title of a section in settings: parameters that control what happens when the app is started.</note>
+      </trans-unit>
+      <trans-unit id="[Settings/Support/title]" xml:space="preserve" approved="yes">
+        <source>Support</source>
+        <target state="final">Supporto</target>
+        <note>Title of a section in settings: technical support and diagnostics</note>
+      </trans-unit>
+      <trans-unit id="[Settings/UniversalClipboard/description]" xml:space="preserve" approved="yes">
+        <source>Use Universal Clipboard to copy and paste between your Apple devices. On external devices, this clipboard is cleared after two minutes.</source>
+        <target state="final">Usa gli appunti condivisi per copiare e incollare tra dispositivi Apple. Sui dispositivi esterni, gli appunti vengono svuotati dopo due minuti.</target>
+        <note>Description of the 'Universal Clipboard' setting.</note>
+      </trans-unit>
+      <trans-unit id="[Settings/UniversalClipboard/title]" xml:space="preserve" approved="yes">
+        <source>Universal Clipboard</source>
+        <target state="final">Appunti condivisi</target>
+        <note>Apple's term: https://support.apple.com/102430</note>
+      </trans-unit>
       <trans-unit id="[Tags/Create/action]" xml:space="preserve" approved="yes">
         <source>Create Tag</source>
         <target state="final">Crea tag</target>
         <note>Action/button to create a new item tag</note>
       </trans-unit>
-      <trans-unit id="[Tags/Create/placeholder]" xml:space="preserve">
+      <trans-unit id="[Tags/Create/placeholder]" xml:space="preserve" approved="yes">
         <source>Enter tag name</source>
-        <target state="translated">Inserire nome tag</target>
+        <target state="final">Inserire nome tag</target>
         <note>Call to action/hint inside a text input</note>
       </trans-unit>
       <trans-unit id="[Tags/Create/title]" xml:space="preserve" approved="yes">
@@ -1523,10 +2075,80 @@ Le tue password effettive non vengono mai condivise con il servizio online.
         <target state="final">Tag selezionati</target>
         <note>Title of a list with tags chosen by the user for a specific entry or group.</note>
       </trans-unit>
-      <trans-unit id="[Tags/UsageCount/title]" xml:space="preserve">
+      <trans-unit id="[Tags/UsageCount/title]" xml:space="preserve" approved="yes">
         <source>Usage count</source>
-        <target state="translated">Conteggio</target>
+        <target state="final">N. utilizzi</target>
         <note>Title: the number of times a tag is encountered in the database.</note>
+      </trans-unit>
+      <trans-unit id="[WhatsNew/Announcement/body]" xml:space="preserve" approved="yes">
+        <source>Discover new features and improvements in KeePassium.</source>
+        <target state="final">Scopri le nuove funzionalità e i miglioramenti in KeePassium.</target>
+        <note>Call to action in What's New announcement</note>
+      </trans-unit>
+      <trans-unit id="[WhatsNew/Announcement/button]" xml:space="preserve" approved="yes">
+        <source>What's New</source>
+        <target state="final">Novità</target>
+        <note>Button which opens the What's New screen.</note>
+      </trans-unit>
+      <trans-unit id="[WhatsNew/Feature/AppScopedConnections/description]" xml:space="preserve" approved="yes">
+        <source>Protect your cloud data using app-folder-only permissions.</source>
+        <target state="final">Proteggi i tuoi dati nel cloud con le autorizzazioni limitate alla cartella dell'app.</target>
+        <note>Description of a feature highlight, a call to action.</note>
+      </trans-unit>
+      <trans-unit id="[WhatsNew/Feature/AppScopedConnections/title]" xml:space="preserve" approved="yes">
+        <source>Safer Cloud Access</source>
+        <target state="final">Accesso al cloud più sicuro</target>
+        <note>Title of a feature highlight, a noun phrase.</note>
+      </trans-unit>
+      <trans-unit id="[WhatsNew/Feature/AutoFillWithMemory/description]" xml:space="preserve" approved="yes">
+        <source>KeePassium remembers the entry you choose on each website.</source>
+        <target state="final">KeePassium ricorda le voci che scegli su ogni sito web.</target>
+        <note>Description of a feature highlight, a call to action.</note>
+      </trans-unit>
+      <trans-unit id="[WhatsNew/Feature/AutoFillWithMemory/title]" xml:space="preserve" approved="yes">
+        <source>Smarter AutoFill</source>
+        <target state="final">Inserimento automatico più intelligente</target>
+        <note>Title of a feature highlight, a noun phrase.</note>
+      </trans-unit>
+      <trans-unit id="[WhatsNew/Feature/AutoType/description]" xml:space="preserve" approved="yes">
+        <source>Quickly sign in to any app or web browser using key-press emulation.</source>
+        <target state="final">Accedi rapidamente a qualsiasi app o browser web utilizzando l'emulazione della pressione di tasti.</target>
+        <note>Description of a feature highlight, a call to action.</note>
+      </trans-unit>
+      <trans-unit id="[WhatsNew/Feature/AutoType/title]" xml:space="preserve" approved="yes">
+        <source>Password Auto-Type</source>
+        <target state="final">Completamento automatico delle password</target>
+        <note>Title of a feature highlight, a noun phrase.</note>
+      </trans-unit>
+      <trans-unit id="[WhatsNew/Feature/CreativeAutoFill/description]" xml:space="preserve" approved="yes">
+        <source>Create new entries in AutoFill with main fields pre-filled automatically.</source>
+        <target state="final">Crea nuove voci in Inserimento automatico con i campi principali precompilati automaticamente.</target>
+        <note>Description of a feature highlight, a call to action.</note>
+      </trans-unit>
+      <trans-unit id="[WhatsNew/Feature/CreativeAutoFill/title]" xml:space="preserve" approved="yes">
+        <source>Faster Sign-Ups</source>
+        <target state="final">Iscrizioni più rapide</target>
+        <note>Title of a feature highlight, a noun phrase.</note>
+      </trans-unit>
+      <trans-unit id="[WhatsNew/Feature/MoreInteractions/description]" xml:space="preserve" approved="yes">
+        <source>Drag and drop, select multiple items, and browse alphabetically.</source>
+        <target state="final">Trascina e rilascia, seleziona più elementi e sfoglia in ordine alfabetico.</target>
+        <note>Description of a feature highlight, a call to action. `Browse alphabetically` refers to a phonebook-like index with letters.</note>
+      </trans-unit>
+      <trans-unit id="[WhatsNew/Feature/MoreInteractions/title]" xml:space="preserve" approved="yes">
+        <source>More Ways to Interact</source>
+        <target state="final">Altri modi per interagire</target>
+        <note>Title of a feature highlight, a noun phrase.</note>
+      </trans-unit>
+      <trans-unit id="[WhatsNew/FullChangelog/title]" xml:space="preserve" approved="yes">
+        <source>Detailed Changelog</source>
+        <target state="final">Registro modifiche dettagliato</target>
+        <note>Title of the detailed history of app changes over time.</note>
+      </trans-unit>
+      <trans-unit id="[WhatsNew/fullTitle]" xml:space="preserve" approved="yes">
+        <source>What's New in KeePassium</source>
+        <target state="final">Novità di KeePassium</target>
+        <note>Full title for release highlights</note>
       </trans-unit>
     </body>
   </file>
@@ -1550,9 +2172,9 @@ Le tue password effettive non vengono mai condivise con il servizio online.
         <target state="needs-translation">{Privacy policy summary}</target>
         <note>Class = "UILabel"; text = "{Privacy policy summary}"; ObjectID = "9wt-nj-TZW";</note>
       </trans-unit>
-      <trans-unit id="AMd-x7-PDa.text" xml:space="preserve">
+      <trans-unit id="AMd-x7-PDa.text" xml:space="preserve" approved="yes">
         <source>Do you like what you see?</source>
-        <target state="translated">Ti piace quello che vedi?</target>
+        <target state="final">Ti trovi bene?</target>
         <note>Class = "UILabel"; text = "Do you like what you see?"; ObjectID = "AMd-x7-PDa"; Note = "First part of the 'Do you like what you see? / Leave an App Store review.\"";</note>
       </trans-unit>
       <trans-unit id="JbR-nf-D9o.headerTitle" xml:space="preserve" approved="yes">
@@ -1745,675 +2367,6 @@ Le tue password effettive non vengono mai condivise con il servizio online.
         <source>{Subprice}</source>
         <target state="needs-translation">{Subprice}</target>
         <note>Class = "UILabel"; text = "{Subprice}"; ObjectID = "zkd-iK-aqd"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="KeePassium/settings/app-protection/Base.lproj/SettingsAppLockVC.storyboard" source-language="en" target-language="it" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.1" build-num="16B40"/>
-    </header>
-    <body>
-      <trans-unit id="5Dg-KX-m7a.footerTitle" xml:space="preserve" approved="yes">
-        <source>If you enter a wrong AppLock passcode, KeePassium will close all databases and clear all master keys from the keychain.</source>
-        <target state="final">Se immetti un codice errato, KeePassium chiuderà tutti i database e cancellerà tutte le chiavi principali dal portachiavi.</target>
-        <note>Class = "UITableViewSection"; footerTitle = "If you enter a wrong AppLock passcode, KeePassium will close all databases and clear all master keys from the keychain."; ObjectID = "5Dg-KX-m7a"; Note = "AppLock settings section: what to do when the user enters a wrong AppLock passcode.";</note>
-      </trans-unit>
-      <trans-unit id="5Dg-KX-m7a.headerTitle" xml:space="preserve" approved="yes">
-        <source>Wrong Passcode</source>
-        <target state="final">Codice errato</target>
-        <note>Class = "UITableViewSection"; headerTitle = "Wrong Passcode"; ObjectID = "5Dg-KX-m7a"; Note = "AppLock settings section: what to do when the user enters a wrong AppLock passcode.";</note>
-      </trans-unit>
-      <trans-unit id="6Pk-35-Fx6.text" xml:space="preserve" approved="yes">
-        <source>Protect Databases</source>
-        <target state="final">Proteggi database</target>
-        <note>Class = "UILabel"; text = "Protect Databases"; ObjectID = "6Pk-35-Fx6";</note>
-      </trans-unit>
-      <trans-unit id="7ae-8I-LiQ.footerTitle" xml:space="preserve" approved="yes">
-        <source>Allows biometric authentication as a quick (but less secure) alternative to AppLock passcode.</source>
-        <target state="final">Consente di utilizzare l'autenticazione biometrica come alternativa rapida (ma meno sicura) al codice di blocco.</target>
-        <note>Class = "UITableViewSection"; footerTitle = "Allows biometric authentication as a quick (but less secure) alternative to AppLock passcode."; ObjectID = "7ae-8I-LiQ"; Note = "AppLock settings section: biometric auth (Touch ID/Face ID)";</note>
-      </trans-unit>
-      <trans-unit id="7ae-8I-LiQ.headerTitle" xml:space="preserve" approved="yes">
-        <source>Biometrics</source>
-        <target state="final">Biometria</target>
-        <note>Class = "UITableViewSection"; headerTitle = "Biometrics"; ObjectID = "7ae-8I-LiQ"; Note = "AppLock settings section: biometric auth (Touch ID/Face ID)";</note>
-      </trans-unit>
-      <trans-unit id="Ef4-Jw-xeO.text" xml:space="preserve" approved="yes">
-        <source>Timeout</source>
-        <target state="final">Timeout</target>
-        <note>Class = "UILabel"; text = "Timeout"; ObjectID = "Ef4-Jw-xeO"; Note = "Title for App Lock Timeout setting";</note>
-      </trans-unit>
-      <trans-unit id="FWz-EI-KaZ.text" xml:space="preserve" translate="no">
-        <source>{Detail}</source>
-        <target state="needs-translation">{Detail}</target>
-        <note>Class = "UILabel"; text = "{Detail}"; ObjectID = "FWz-EI-KaZ"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="Fez-6g-oyk.text" xml:space="preserve" translate="no">
-        <source>{Use Touch ID / Face ID}</source>
-        <target state="needs-translation">{Use Touch ID / Face ID}</target>
-        <note>Class = "UILabel"; text = "{Use Touch ID / Face ID}"; ObjectID = "Fez-6g-oyk"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="IS1-Lb-MFy.text" xml:space="preserve" approved="yes">
-        <source>Enable AppLock</source>
-        <target state="final">Abilita blocco app</target>
-        <note>Class = "UILabel"; text = "Enable AppLock"; ObjectID = "IS1-Lb-MFy";</note>
-      </trans-unit>
-      <trans-unit id="U5m-je-MhO.title" xml:space="preserve" translate="no">
-        <source>{App Protection}</source>
-        <target state="needs-translation">{App Protection}</target>
-        <note>Class = "UITableViewController"; title = "{App Protection}"; ObjectID = "U5m-je-MhO";</note>
-      </trans-unit>
-      <trans-unit id="aBx-Ee-bMk.footerTitle" xml:space="preserve" approved="yes">
-        <source>Protect KeePassium from unauthorized access.</source>
-        <target state="final">Proteggi KeePassium da accessi non autorizzati.</target>
-        <note>Class = "UITableViewSection"; footerTitle = "Protect KeePassium from unauthorized access."; ObjectID = "aBx-Ee-bMk"; Note = "Explanation for the `Enable AppLock` option.";</note>
-      </trans-unit>
-      <trans-unit id="m50-fl-4tu.footerTitle" xml:space="preserve" approved="yes">
-        <source>The app will automatically lock up after this time.</source>
-        <target state="final">L'app si bloccherà automaticamente dopo questo intervallo di tempo.</target>
-        <note>Class = "UITableViewSection"; footerTitle = "The app will automatically lock up after this time."; ObjectID = "m50-fl-4tu";</note>
-      </trans-unit>
-      <trans-unit id="wzW-GR-02W.text" xml:space="preserve" translate="no">
-        <source>{Change Passcode}</source>
-        <target state="needs-translation">{Change Passcode}</target>
-        <note>Class = "UILabel"; text = "{Change Passcode}"; ObjectID = "wzW-GR-02W"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="KeePassium/settings/app-protection/Base.lproj/SettingsAppTimeoutVC.storyboard" source-language="en" target-language="it" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.1" build-num="16B40"/>
-    </header>
-    <body>
-      <trans-unit id="5MH-wG-EYd.title" xml:space="preserve" approved="yes">
-        <source>App Lock Timeout</source>
-        <target state="final">Timeout blocco app</target>
-        <note>Class = "UITableViewController"; title = "App Lock Timeout"; ObjectID = "5MH-wG-EYd";</note>
-      </trans-unit>
-      <trans-unit id="Jto-EB-cZW.text" xml:space="preserve" translate="no">
-        <source>{Timeout Subtitle}</source>
-        <target state="needs-translation">{Timeout Subtitle}</target>
-        <note>Class = "UILabel"; text = "{Timeout Subtitle}"; ObjectID = "Jto-EB-cZW"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="h3T-Lh-kgE.text" xml:space="preserve" translate="no">
-        <source>{Timeout Title}</source>
-        <target state="needs-translation">{Timeout Title}</target>
-        <note>Class = "UILabel"; text = "{Timeout Title}"; ObjectID = "h3T-Lh-kgE"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="KeePassium/settings/appearance/Base.lproj/SettingsAppearanceVC.storyboard" source-language="en" target-language="it" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.1" build-num="16B40"/>
-    </header>
-    <body>
-      <trans-unit id="4Yu-VJ-n8p.text" xml:space="preserve" translate="no">
-        <source>{Database Icons}</source>
-        <target state="needs-translation">{Database Icons}</target>
-        <note>Class = "UILabel"; text = "{Database Icons}"; ObjectID = "4Yu-VJ-n8p"; Note = "Section in settings: icons for database";</note>
-      </trans-unit>
-      <trans-unit id="4mh-X8-Byq.title" xml:space="preserve" translate="no">
-        <source>{Appearance}</source>
-        <target state="needs-translation">{Appearance}</target>
-        <note>Class = "UITableViewController"; title = "{Appearance}"; ObjectID = "4mh-X8-Byq";</note>
-      </trans-unit>
-      <trans-unit id="5U9-NZ-sJe.accessibilityLabel" xml:space="preserve" approved="yes">
-        <source>Reset text size to default</source>
-        <target state="final">Ripristina dimensione testo predefinita</target>
-        <note>Class = "UIButton"; accessibilityLabel = "Reset text size to default"; ObjectID = "5U9-NZ-sJe"; Note = "Action: set text size to standard size";</note>
-      </trans-unit>
-      <trans-unit id="Fdn-Dx-Gop.configuration.title" xml:space="preserve" translate="no">
-        <source>{Restore Defaults}</source>
-        <target state="needs-translation">{Restore Defaults}</target>
-        <note>Class = "UIButton"; configuration.title = "{Restore Defaults}"; ObjectID = "Fdn-Dx-Gop";</note>
-      </trans-unit>
-      <trans-unit id="Fdn-Dx-Gop.normalTitle" xml:space="preserve" translate="no">
-        <source>{Restore Defaults}</source>
-        <target state="needs-translation">{Restore Defaults}</target>
-        <note>Class = "UIButton"; normalTitle = "{Restore Defaults}"; ObjectID = "Fdn-Dx-Gop";</note>
-      </trans-unit>
-      <trans-unit id="Lh3-CB-Urp.footerTitle" xml:space="preserve" approved="yes">
-        <source>Hide passwords and other protected fields behind asterisks (recommended).</source>
-        <target state="final">Nascondi le password e altri campi protetti con degli asterischi (raccomandato).</target>
-        <note>Class = "UITableViewSection"; footerTitle = "Hide passwords and other protected fields behind asterisks (recommended)."; ObjectID = "Lh3-CB-Urp";</note>
-      </trans-unit>
-      <trans-unit id="Lh3-CB-Urp.headerTitle" xml:space="preserve" approved="yes">
-        <source>Protected Fields</source>
-        <target state="final">Campi protetti</target>
-        <note>Class = "UITableViewSection"; headerTitle = "Protected Fields"; ObjectID = "Lh3-CB-Urp";</note>
-      </trans-unit>
-      <trans-unit id="MsA-Cd-czb.headerTitle" xml:space="preserve" approved="yes">
-        <source>Entry Viewer</source>
-        <target state="final">Visualizzatore voci</target>
-        <note>Class = "UITableViewSection"; headerTitle = "Entry Viewer"; ObjectID = "MsA-Cd-czb";</note>
-      </trans-unit>
-      <trans-unit id="O1w-EU-vrn.text" xml:space="preserve" translate="no">
-        <source>{Subtitle}</source>
-        <target state="needs-translation">{Subtitle}</target>
-        <note>Class = "UILabel"; text = "{Subtitle}"; ObjectID = "O1w-EU-vrn";</note>
-      </trans-unit>
-      <trans-unit id="QbO-y9-3wb.text" xml:space="preserve" translate="no">
-        <source>{Text size}</source>
-        <target state="needs-translation">{Text size}</target>
-        <note>Class = "UILabel"; text = "{Text size}"; ObjectID = "QbO-y9-3wb"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="TEx-Hv-9VE.text" xml:space="preserve" translate="no">
-        <source>{Font}</source>
-        <target state="needs-translation">{Font}</target>
-        <note>Class = "UILabel"; text = "{Font}"; ObjectID = "TEx-Hv-9VE"; Note = "Section in settings: icons for database";</note>
-      </trans-unit>
-      <trans-unit id="fSx-Do-lgu.text" xml:space="preserve" translate="no">
-        <source>{App Icon}</source>
-        <target state="needs-translation">{App Icon}</target>
-        <note>Class = "UILabel"; text = "{App Icon}"; ObjectID = "fSx-Do-lgu"; Note = "Section in settings: icon for the app";</note>
-      </trans-unit>
-      <trans-unit id="usg-hF-eLK.text" xml:space="preserve" approved="yes">
-        <source>Hide Passwords</source>
-        <target state="final">Nascondi password</target>
-        <note>Class = "UILabel"; text = "Hide Passwords"; ObjectID = "usg-hF-eLK";</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="KeePassium/settings/autoFill/Base.lproj/SettingsAutoFillVC.storyboard" source-language="en" target-language="it" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.1" build-num="16B40"/>
-    </header>
-    <body>
-      <trans-unit id="KaG-pD-D9z.footerTitle" xml:space="preserve" translate="no">
-        <source>{Quick AutoFill description}</source>
-        <target state="needs-translation">{Quick AutoFill description}</target>
-        <note>Class = "UITableViewSection"; footerTitle = "{Quick AutoFill description}"; ObjectID = "KaG-pD-D9z";</note>
-      </trans-unit>
-      <trans-unit id="WDb-aU-Mmf.text" xml:space="preserve" translate="no">
-        <source>{Fill-in the perfect result automatically}</source>
-        <target state="needs-translation">{Fill-in the perfect result automatically}</target>
-        <note>Class = "UILabel"; text = "{Fill-in the perfect result automatically}"; ObjectID = "WDb-aU-Mmf";</note>
-      </trans-unit>
-      <trans-unit id="Wq1-wJ-wCR.text" xml:space="preserve" translate="no">
-        <source>{Quick AutoFill}</source>
-        <target state="needs-translation">{Quick AutoFill}</target>
-        <note>Class = "UILabel"; text = "{Quick AutoFill}"; ObjectID = "Wq1-wJ-wCR";</note>
-      </trans-unit>
-      <trans-unit id="XYL-1l-Jx6.footerTitle" xml:space="preserve" approved="yes">
-        <source>When AutoFill inserts the username and password, it can also copy the one-time password (OTP) for you.</source>
-        <target state="final">Quando l'inserimento automatico inserisce il nome utente e la password, può anche copiare la password monouso (OTP) per te.</target>
-        <note>Class = "UITableViewSection"; footerTitle = "When AutoFill inserts the username and password, it can also copy the one-time password (OTP) for you."; ObjectID = "XYL-1l-Jx6";</note>
-      </trans-unit>
-      <trans-unit id="XYL-1l-Jx6.headerTitle" xml:space="preserve" approved="yes">
-        <source>One-time passwords</source>
-        <target state="final">Password monouso</target>
-        <note>Class = "UITableViewSection"; headerTitle = "One-time passwords"; ObjectID = "XYL-1l-Jx6";</note>
-      </trans-unit>
-      <trans-unit id="aSq-s6-gVc.text" xml:space="preserve" translate="no">
-        <source>{Activate AutoFill}</source>
-        <target state="needs-translation">{Activate AutoFill}</target>
-        <note>Class = "UILabel"; text = "{Activate AutoFill}"; ObjectID = "aSq-s6-gVc";</note>
-      </trans-unit>
-      <trans-unit id="ei6-22-NXN.title" xml:space="preserve" translate="no">
-        <source>{AutoFill}</source>
-        <target state="needs-translation">{AutoFill}</target>
-        <note>Class = "UITableViewController"; title = "{AutoFill}"; ObjectID = "ei6-22-NXN";</note>
-      </trans-unit>
-      <trans-unit id="go1-Nt-isQ.text" xml:space="preserve" translate="no">
-        <source>{Copy OTP to clipboard}</source>
-        <target state="needs-translation">{Copy OTP to clipboard}</target>
-        <note>Class = "UILabel"; text = "{Copy OTP to clipboard}"; ObjectID = "go1-Nt-isQ";</note>
-      </trans-unit>
-      <trans-unit id="jYl-ks-dFG.footerTitle" xml:space="preserve" approved="yes">
-        <source>When AutoFill finds only one, perfectly matching, entry – this entry will be pasted automatically.</source>
-        <target state="final">Quando l'inserimento automatico trova una voce perfettamente corrispondente, questa voce verrà incollata automaticamente.</target>
-        <note>Class = "UITableViewSection"; footerTitle = "When AutoFill finds only one, perfectly matching, entry – this entry will be pasted automatically."; ObjectID = "jYl-ks-dFG";</note>
-      </trans-unit>
-      <trans-unit id="jYl-ks-dFG.headerTitle" xml:space="preserve" approved="yes">
-        <source>Automatic search</source>
-        <target state="final">Ricerca automatica</target>
-        <note>Class = "UITableViewSection"; headerTitle = "Automatic search"; ObjectID = "jYl-ks-dFG";</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="KeePassium/settings/backup/Base.lproj/SettingsBackupTimeoutPickerVC.storyboard" source-language="en" target-language="it" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.1" build-num="16B40"/>
-    </header>
-    <body>
-      <trans-unit id="P5f-gZ-frj.text" xml:space="preserve" translate="no">
-        <source>{Title}</source>
-        <target state="needs-translation">{Title}</target>
-        <note>Class = "UILabel"; text = "{Title}"; ObjectID = "P5f-gZ-frj"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="atf-ra-KMC.title" xml:space="preserve" approved="yes">
-        <source>Keep Backup Files</source>
-        <target state="final">Conserva copie di sicurezza</target>
-        <note>Class = "UITableViewController"; title = "Keep Backup Files"; ObjectID = "atf-ra-KMC"; Note = "Dialog for selecting the duration of keeping the backup copies.";</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="KeePassium/settings/backup/Base.lproj/SettingsBackupVC.storyboard" source-language="en" target-language="it" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.1" build-num="16B40"/>
-    </header>
-    <body>
-      <trans-unit id="B3L-Dk-Uq3.footerTitle" xml:space="preserve" approved="yes">
-        <source>KeePassium can automatically delete old backup files to free up some storage space.</source>
-        <target state="final">KeePassium può eliminare automaticamente i vecchi file di backup per liberare spazio di archiviazione.</target>
-        <note>Class = "UITableViewSection"; footerTitle = "KeePassium can automatically delete old backup files to free up some storage space."; ObjectID = "B3L-Dk-Uq3"; Note = "Settings section of the `Keep Backup Files` option";</note>
-      </trans-unit>
-      <trans-unit id="B3L-Dk-Uq3.headerTitle" xml:space="preserve" approved="yes">
-        <source>Periodic cleanup</source>
-        <target state="final">Pulizia periodica</target>
-        <note>Class = "UITableViewSection"; headerTitle = "Periodic cleanup"; ObjectID = "B3L-Dk-Uq3"; Note = "Settings section of the `Keep Backup Files` option";</note>
-      </trans-unit>
-      <trans-unit id="BJ7-eQ-JOc.text" xml:space="preserve" approved="yes">
-        <source>Make Backup Copies</source>
-        <target state="final">Crea copie di sicurezza</target>
-        <note>Class = "UILabel"; text = "Make Backup Copies"; ObjectID = "BJ7-eQ-JOc"; Note = "Settings option: backup databases before saving them";</note>
-      </trans-unit>
-      <trans-unit id="G42-gR-eKm.text" xml:space="preserve" approved="yes">
-        <source>Keep Backup Files</source>
-        <target state="final">Conserva copie di sicurezza</target>
-        <note>Class = "UILabel"; text = "Keep Backup Files"; ObjectID = "G42-gR-eKm"; Note = "Settings option: how long to keep backup copies. Example: `Keep Backup Copies: 3 days`";</note>
-      </trans-unit>
-      <trans-unit id="PKe-6p-Ssr.text" xml:space="preserve" translate="no">
-        <source>{N days}</source>
-        <target state="needs-translation">{N days}</target>
-        <note>Class = "UILabel"; text = "{N days}"; ObjectID = "PKe-6p-Ssr"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="Qs6-uS-gdS.text" xml:space="preserve" approved="yes">
-        <source>Exclude Backup Files from System Backup</source>
-        <target state="final">Escludi le copie di sicurezza dal backup di sistema</target>
-        <note>Class = "UILabel"; text = "Exclude Backup Files from System Backup"; ObjectID = "Qs6-uS-gdS"; Note = "Settings option, on/off";</note>
-      </trans-unit>
-      <trans-unit id="RXF-mN-5RB.normalTitle" xml:space="preserve" translate="no">
-        <source>{Delete ALL Backup Files (1)}</source>
-        <target state="needs-translation">{Delete ALL Backup Files (1)}</target>
-        <note>Class = "UIButton"; normalTitle = "{Delete ALL Backup Files (1)}"; ObjectID = "RXF-mN-5RB"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="XeH-7q-aad.footerTitle" xml:space="preserve" approved="yes">
-        <source>Backup copies will appear along with the original files.</source>
-        <target state="final">Le copie di sicurezza appariranno insieme ai file originali.</target>
-        <note>Class = "UITableViewSection"; footerTitle = "Backup copies will appear along with the original files."; ObjectID = "XeH-7q-aad"; Note = "Explanation for the `Show Backup Files` option";</note>
-      </trans-unit>
-      <trans-unit id="aEK-cJ-9bc.text" xml:space="preserve" approved="yes">
-        <source>Show Backup Files</source>
-        <target state="final">Mostra copie di sicurezza</target>
-        <note>Class = "UILabel"; text = "Show Backup Files"; ObjectID = "aEK-cJ-9bc"; Note = "Settings option: whether to show backup copies in the list of database files";</note>
-      </trans-unit>
-      <trans-unit id="fst-lq-BDl.footerTitle" xml:space="preserve" approved="yes">
-        <source>Defines whether backup databases created by KeePassium should be excluded from iCloud/iTunes backup. Applies to all the existing and future backup files.</source>
-        <target state="final">Specifica se le copie di sicurezza dei database create da KeePassium debbano essere escluse dal backup di iCloud/iTunes. Si applica a tutte le copie di sicurezza esistenti e future.</target>
-        <note>Class = "UITableViewSection"; footerTitle = "Defines whether backup databases created by KeePassium should be excluded from iCloud/iTunes backup. Applies to all the existing and future backup files."; ObjectID = "fst-lq-BDl"; Note = "Section header, refers to Apple's backup services (https://support.apple.com/HT203977)";</note>
-      </trans-unit>
-      <trans-unit id="fst-lq-BDl.headerTitle" xml:space="preserve" approved="yes">
-        <source>iTunes and iCloud Backup</source>
-        <target state="final">Backup di iTunes e iCloud</target>
-        <note>Class = "UITableViewSection"; headerTitle = "iTunes and iCloud Backup"; ObjectID = "fst-lq-BDl"; Note = "Section header, refers to Apple's backup services (https://support.apple.com/HT203977)";</note>
-      </trans-unit>
-      <trans-unit id="nBI-OF-9iV.footerTitle" xml:space="preserve" approved="yes">
-        <source>Before saving a database, KeePassium will automatically make a copy, just in case.</source>
-        <target state="final">Prima di salvare un database, KeePassium creerà automaticamente una copia, per sicurezza.</target>
-        <note>Class = "UITableViewSection"; footerTitle = "Before saving a database, KeePassium will automatically make a copy, just in case."; ObjectID = "nBI-OF-9iV"; Note = "Explanation for the `Make Backup Copies` option";</note>
-      </trans-unit>
-      <trans-unit id="nSy-3u-0xW.title" xml:space="preserve" translate="no">
-        <source>{Database Backup}</source>
-        <target state="needs-translation">{Database Backup}</target>
-        <note>Class = "UITableViewController"; title = "{Database Backup}"; ObjectID = "nSy-3u-0xW";</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="KeePassium/settings/Base.lproj/SettingsSearchVC.storyboard" source-language="en" target-language="it" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.1" build-num="16B40"/>
-    </header>
-    <body>
-      <trans-unit id="1LC-s7-Kdl.text" xml:space="preserve" approved="yes">
-        <source>Search in Passwords</source>
-        <target state="final">Cerca nelle password</target>
-        <note>Class = "UILabel"; text = "Search in Passwords"; ObjectID = "1LC-s7-Kdl"; Note = "An switch in settings: whether to include protected field values in search procedure.";</note>
-      </trans-unit>
-      <trans-unit id="DJr-hC-DMT.footerTitle" xml:space="preserve" approved="yes">
-        <source>After opening a database, automatically show the search field.</source>
-        <target state="final">Dopo l'apertura di un database, mostra automaticamente il campo di ricerca.</target>
-        <note>Class = "UITableViewSection"; footerTitle = "After opening a database, automatically show the search field."; ObjectID = "DJr-hC-DMT"; Note = "A section in search-related settings: what happens when the app is just started or database is just opened.";</note>
-      </trans-unit>
-      <trans-unit id="Io8-uP-3lF.headerTitle" xml:space="preserve" approved="yes">
-        <source>Search Scope</source>
-        <target state="final">Estensione ricerca</target>
-        <note>Class = "UITableViewSection"; headerTitle = "Search Scope"; ObjectID = "Io8-uP-3lF"; Note = "A section in search-related settings: which fields to include in search.";</note>
-      </trans-unit>
-      <trans-unit id="LrQ-5g-wj0.text" xml:space="preserve" approved="yes">
-        <source>Search in Protected Values</source>
-        <target state="final">Cerca nei valori protetti</target>
-        <note>Class = "UILabel"; text = "Search in Protected Values"; ObjectID = "LrQ-5g-wj0"; Note = "An switch in settings: whether to include protected field values in search procedure.";</note>
-      </trans-unit>
-      <trans-unit id="RZt-EW-TGN.title" xml:space="preserve" translate="no">
-        <source>{Search}</source>
-        <target state="needs-translation">{Search}</target>
-        <note>Class = "UITableViewController"; title = "{Search}"; ObjectID = "RZt-EW-TGN";</note>
-      </trans-unit>
-      <trans-unit id="cCm-E4-L3m.text" xml:space="preserve" approved="yes">
-        <source>Search in Field Names</source>
-        <target state="final">Cerca nei nomi dei campi</target>
-        <note>Class = "UILabel"; text = "Search in Field Names"; ObjectID = "cCm-E4-L3m"; Note = "An switch in settings: whether to include entry field names in search procedure.";</note>
-      </trans-unit>
-      <trans-unit id="q0v-f7-D4Y.text" xml:space="preserve" approved="yes">
-        <source>Start with Search</source>
-        <target state="final">Cerca all'avvio</target>
-        <note>Class = "UILabel"; text = "Start with Search"; ObjectID = "q0v-f7-D4Y";</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="KeePassium/settings/Base.lproj/SettingsVC.storyboard" source-language="en" target-language="it" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.1" build-num="16B40"/>
-    </header>
-    <body>
-      <trans-unit id="9yn-W3-FDl.headerTitle" xml:space="preserve" approved="yes">
-        <source>Start</source>
-        <target state="final">Avvio</target>
-        <note>Class = "UITableViewSection"; headerTitle = "Start"; ObjectID = "9yn-W3-FDl"; Note = "Section in settings: settings that define what happens when the app is started.";</note>
-      </trans-unit>
-      <trans-unit id="32P-LG-SHa.text" xml:space="preserve" translate="no">
-        <source>{Appearance}</source>
-        <target state="needs-translation">{Appearance}</target>
-        <note>Class = "UILabel"; text = "{Appearance}"; ObjectID = "32P-LG-SHa";</note>
-      </trans-unit>
-      <trans-unit id="756-sL-G2t.text" xml:space="preserve" translate="no">
-        <source>{Auto-Open Previous Database}</source>
-        <target state="needs-translation">{Auto-Open Previous Database}</target>
-        <note>Class = "UILabel"; text = "{Auto-Open Previous Database}"; ObjectID = "756-sL-G2t";</note>
-      </trans-unit>
-      <trans-unit id="A5N-B3-t3t.headerTitle" xml:space="preserve" approved="yes">
-        <source>Premium</source>
-        <target state="final">Premium</target>
-        <note>Class = "UITableViewSection"; headerTitle = "Premium"; ObjectID = "A5N-B3-t3t";</note>
-      </trans-unit>
-      <trans-unit id="Bk0-Xf-O7B.title" xml:space="preserve" translate="no">
-        <source>{Settings}</source>
-        <target state="needs-translation">{Settings}</target>
-        <note>Class = "UINavigationItem"; title = "{Settings}"; ObjectID = "Bk0-Xf-O7B";</note>
-      </trans-unit>
-      <trans-unit id="DNo-Rs-0EP.text" xml:space="preserve" translate="no">
-        <source>{About KeePassium}</source>
-        <target state="needs-translation">{About KeePassium}</target>
-        <note>Class = "UILabel"; text = "{About KeePassium}"; ObjectID = "DNo-Rs-0EP";</note>
-      </trans-unit>
-      <trans-unit id="FHp-ns-ke9.text" xml:space="preserve" translate="no">
-        <source>{Master keys, key files}</source>
-        <target state="needs-translation">{Master keys, key files}</target>
-        <note>Class = "UILabel"; text = "{Master keys, key files}"; ObjectID = "FHp-ns-ke9";</note>
-      </trans-unit>
-      <trans-unit id="GC2-NL-1vB.text" xml:space="preserve" translate="no">
-        <source>{Tip Box}</source>
-        <target state="needs-translation">{Tip Box}</target>
-        <note>Class = "UILabel"; text = "{Tip Box}"; ObjectID = "GC2-NL-1vB"; Note = "Action";</note>
-      </trans-unit>
-      <trans-unit id="GLr-Uf-Kln.text" xml:space="preserve" translate="no">
-        <source>{Search}</source>
-        <target state="needs-translation">{Search}</target>
-        <note>Class = "UILabel"; text = "{Search}"; ObjectID = "GLr-Uf-Kln"; Note = "Section title in settings";</note>
-      </trans-unit>
-      <trans-unit id="HCe-A3-eG6.text" xml:space="preserve" translate="no">
-        <source>{Premium Version}</source>
-        <target state="needs-translation">{Premium Version}</target>
-        <note>Class = "UILabel"; text = "{Premium Version}"; ObjectID = "HCe-A3-eG6";</note>
-      </trans-unit>
-      <trans-unit id="HjD-9G-X8p.headerTitle" xml:space="preserve" approved="yes">
-        <source>Backup</source>
-        <target state="final">Backup</target>
-        <note>Class = "UITableViewSection"; headerTitle = "Backup"; ObjectID = "HjD-9G-X8p";</note>
-      </trans-unit>
-      <trans-unit id="K9j-xG-abD.headerTitle" xml:space="preserve" approved="yes">
-        <source>Network Access</source>
-        <target state="final">Accesso alla rete</target>
-        <note>Class = "UITableViewSection"; headerTitle = "Network Access"; ObjectID = "K9j-xG-abD";</note>
-      </trans-unit>
-      <trans-unit id="LHz-DF-ZST.text" xml:space="preserve" translate="no">
-        <source>{Renews on 1 Jan 1970}</source>
-        <target state="needs-translation">{Renews on 1 Jan 1970}</target>
-        <note>Class = "UILabel"; text = "{Renews on 1 Jan 1970}"; ObjectID = "LHz-DF-ZST"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="PpA-oZ-kr2.text" xml:space="preserve" translate="no">
-        <source>{Diagnostic Log}</source>
-        <target state="needs-translation">{Diagnostic Log}</target>
-        <note>Class = "UILabel"; text = "{Diagnostic Log}"; ObjectID = "PpA-oZ-kr2";</note>
-      </trans-unit>
-      <trans-unit id="QlM-VS-hle.text" xml:space="preserve" translate="no">
-        <source>{Contact Us}</source>
-        <target state="needs-translation">{Contact Us}</target>
-        <note>Class = "UILabel"; text = "{Contact Us}"; ObjectID = "QlM-VS-hle"; Note = "Action";</note>
-      </trans-unit>
-      <trans-unit id="RJA-kR-Obv.text" xml:space="preserve" translate="no">
-        <source>{Off}</source>
-        <target state="needs-translation">{Off}</target>
-        <note>Class = "UILabel"; text = "{Off}"; ObjectID = "RJA-kR-Obv";</note>
-      </trans-unit>
-      <trans-unit id="RNK-fS-Fvx.text" xml:space="preserve" translate="no">
-        <source>{Suggestions? Problems? Let us know!}</source>
-        <target state="needs-translation">{Suggestions? Problems? Let us know!}</target>
-        <note>Class = "UILabel"; text = "{Suggestions? Problems? Let us know!}"; ObjectID = "RNK-fS-Fvx";</note>
-      </trans-unit>
-      <trans-unit id="RlK-RW-8Ld.text" xml:space="preserve" translate="no">
-        <source>{What's New}</source>
-        <target state="needs-translation">{What's New}</target>
-        <note>Class = "UILabel"; text = "{What's New}"; ObjectID = "RlK-RW-8Ld";</note>
-      </trans-unit>
-      <trans-unit id="SrV-ib-V2E.text" xml:space="preserve" translate="no">
-        <source>{App Lock, Touch ID, timeout}</source>
-        <target state="needs-translation">{App Lock, Touch ID, timeout}</target>
-        <note>Class = "UILabel"; text = "{App Lock, Touch ID, timeout}"; ObjectID = "SrV-ib-V2E"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="T2Z-oa-zJR.text" xml:space="preserve" translate="no">
-        <source>{AutoFill Passwords}</source>
-        <target state="needs-translation">{AutoFill Passwords}</target>
-        <note>Class = "UILabel"; text = "{AutoFill Passwords}"; ObjectID = "T2Z-oa-zJR";</note>
-      </trans-unit>
-      <trans-unit id="UNl-Hc-Ref.text" xml:space="preserve" translate="no">
-        <source>{Data Protection}</source>
-        <target state="needs-translation">{Data Protection}</target>
-        <note>Class = "UILabel"; text = "{Data Protection}"; ObjectID = "UNl-Hc-Ref";</note>
-      </trans-unit>
-      <trans-unit id="VTG-VH-iv4.text" xml:space="preserve" translate="no">
-        <source>{Support KeePassium}</source>
-        <target state="needs-translation">{Support KeePassium}</target>
-        <note>Class = "UILabel"; text = "{Support KeePassium}"; ObjectID = "VTG-VH-iv4";</note>
-      </trans-unit>
-      <trans-unit id="abS-AH-iFO.text" xml:space="preserve" translate="no">
-        <source>{App Protection}</source>
-        <target state="needs-translation">{App Protection}</target>
-        <note>Class = "UILabel"; text = "{App Protection}"; ObjectID = "abS-AH-iFO";</note>
-      </trans-unit>
-      <trans-unit id="cBS-jW-dHU.headerTitle" xml:space="preserve" approved="yes">
-        <source>Support</source>
-        <target state="final">Supporto</target>
-        <note>Class = "UITableViewSection"; headerTitle = "Support"; ObjectID = "cBS-jW-dHU";</note>
-      </trans-unit>
-      <trans-unit id="coD-Om-Vfm.text" xml:space="preserve" translate="no">
-        <source>{Database Backup}</source>
-        <target state="needs-translation">{Database Backup}</target>
-        <note>Class = "UILabel"; text = "{Database Backup}"; ObjectID = "coD-Om-Vfm"; Note = "Settings section";</note>
-      </trans-unit>
-      <trans-unit id="hui-xG-chj.headerTitle" xml:space="preserve" approved="yes">
-        <source>Access Control</source>
-        <target state="final">Protezione accesso</target>
-        <note>Class = "UITableViewSection"; headerTitle = "Access Control"; ObjectID = "hui-xG-chj";</note>
-      </trans-unit>
-      <trans-unit id="oxG-N8-1ld.text" xml:space="preserve" translate="no">
-        <source>{Upgrade to Premium}</source>
-        <target state="needs-translation">{Upgrade to Premium}</target>
-        <note>Class = "UILabel"; text = "{Upgrade to Premium}"; ObjectID = "oxG-N8-1ld";</note>
-      </trans-unit>
-      <trans-unit id="qhK-lw-bGy.text" xml:space="preserve" translate="no">
-        <source>{For expert troubleshooting}</source>
-        <target state="needs-translation">{For expert troubleshooting}</target>
-        <note>Class = "UILabel"; text = "{For expert troubleshooting}"; ObjectID = "qhK-lw-bGy";</note>
-      </trans-unit>
-      <trans-unit id="tPJ-l5-dpS.text" xml:space="preserve" translate="no">
-        <source>{Network access}</source>
-        <target state="needs-translation">{Network access}</target>
-        <note>Class = "UILabel"; text = "{Network access}"; ObjectID = "tPJ-l5-dpS"; Note = "Settings section";</note>
-      </trans-unit>
-      <trans-unit id="zUh-Sn-3ya.text" xml:space="preserve" translate="no">
-        <source>{Manage Subscriptions}</source>
-        <target state="needs-translation">{Manage Subscriptions}</target>
-        <note>Class = "UILabel"; text = "{Manage Subscriptions}"; ObjectID = "zUh-Sn-3ya"; Note = "Action: open AppStore subscription management page";</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="KeePassium/settings/data-protection/Base.lproj/SettingsClipboardTimeoutVC.storyboard" source-language="en" target-language="it" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.1" build-num="16B40"/>
-    </header>
-    <body>
-      <trans-unit id="MGj-Cs-cx5.text" xml:space="preserve" translate="no">
-        <source>{Title}</source>
-        <target state="needs-translation">{Title}</target>
-        <note>Class = "UILabel"; text = "{Title}"; ObjectID = "MGj-Cs-cx5"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="iJJ-jv-hhP.title" xml:space="preserve" approved="yes">
-        <source>Clipboard Timeout</source>
-        <target state="final">Timeout appunti</target>
-        <note>Class = "UITableViewController"; title = "Clipboard Timeout"; ObjectID = "iJJ-jv-hhP"; Note = "TItle of a list of options, when to delete clipboard content. Alternative title \"Clear Clipboard\"";</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="KeePassium/settings/data-protection/Base.lproj/SettingsDataProtectionVC.storyboard" source-language="en" target-language="it" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.1" build-num="16B40"/>
-    </header>
-    <body>
-      <trans-unit id="3uV-Zs-RRo.normalTitle" xml:space="preserve" approved="yes">
-        <source>Clear Key File Associations</source>
-        <target state="final">Dimentica file chiave associati</target>
-        <note>Class = "UIButton"; normalTitle = "Clear Key File Associations"; ObjectID = "3uV-Zs-RRo";</note>
-      </trans-unit>
-      <trans-unit id="Faj-km-pM5.footerTitle" xml:space="preserve" approved="yes">
-        <source>Once you unlock a database, its master key can be stored in device's secure keychain. The next time, KeePassium will use that key so you won't have to type your full master password again. 
-
-(Master keys are automatically cleared on database timeout.)</source>
-        <target state="final">Una volta sbloccato un database, la sua chiave principale può essere memorizzata nel portachiavi sicuro del dispositivo. La prossima volta, KeePassium userà quella chiave così che tu non debba inserire ancora la tua password principale.
-
-(Le chiavi principali vengono cancellate automaticamente al timeout del database.)</target>
-        <note>Class = "UITableViewSection"; footerTitle = "Once you unlock a database, its master key can be stored in device's secure keychain. The next time, KeePassium will use that key so you won't have to type your full master password again. \n\n(Master keys are automatically cleared on database timeout.)"; ObjectID = "Faj-km-pM5";</note>
-      </trans-unit>
-      <trans-unit id="Faj-km-pM5.headerTitle" xml:space="preserve" approved="yes">
-        <source>Quick Unlock</source>
-        <target state="final">Sblocco rapido</target>
-        <note>Class = "UITableViewSection"; headerTitle = "Quick Unlock"; ObjectID = "Faj-km-pM5";</note>
-      </trans-unit>
-      <trans-unit id="INJ-Cy-Tfo.text" xml:space="preserve" approved="yes">
-        <source>Remember Master Keys</source>
-        <target state="final">Ricorda chiavi principali</target>
-        <note>Class = "UILabel"; text = "Remember Master Keys"; ObjectID = "INJ-Cy-Tfo";</note>
-      </trans-unit>
-      <trans-unit id="IZZ-aM-g2i.title" xml:space="preserve" translate="no">
-        <source>{Data Protection}</source>
-        <target state="needs-translation">{Data Protection}</target>
-        <note>Class = "UITableViewController"; title = "{Data Protection}"; ObjectID = "IZZ-aM-g2i";</note>
-      </trans-unit>
-      <trans-unit id="JHl-o7-xHI.text" xml:space="preserve" approved="yes">
-        <source>Remember Key Files</source>
-        <target state="final">Ricorda file chiave</target>
-        <note>Class = "UILabel"; text = "Remember Key Files"; ObjectID = "JHl-o7-xHI";</note>
-      </trans-unit>
-      <trans-unit id="Mxu-GP-FmN.footerTitle" xml:space="preserve" approved="yes">
-        <source>Remember and automatically select the last used key file for each database. Clearing the associations does not affect the files.</source>
-        <target state="final">Ricorda e seleziona automaticamente l'ultimo file chiave usato per ogni database. Dimenticare le associazioni non influisce sui file.</target>
-        <note>Class = "UITableViewSection"; footerTitle = "Remember and automatically select the last used key file for each database. Clearing the associations does not affect the files."; ObjectID = "Mxu-GP-FmN";</note>
-      </trans-unit>
-      <trans-unit id="Mxu-GP-FmN.headerTitle" xml:space="preserve" approved="yes">
-        <source>Key Files</source>
-        <target state="final">File chiave</target>
-        <note>Class = "UITableViewSection"; headerTitle = "Key Files"; ObjectID = "Mxu-GP-FmN";</note>
-      </trans-unit>
-      <trans-unit id="SSu-Sr-MCg.text" xml:space="preserve" approved="yes">
-        <source>Clipboard Timeout</source>
-        <target state="final">Timeout appunti</target>
-        <note>Class = "UILabel"; text = "Clipboard Timeout"; ObjectID = "SSu-Sr-MCg";</note>
-      </trans-unit>
-      <trans-unit id="YL6-U9-FM6.text" xml:space="preserve" approved="yes">
-        <source>Universal Clipboard</source>
-        <target state="final">Appunti condivisi</target>
-        <note>Class = "UILabel"; text = "Universal Clipboard"; ObjectID = "YL6-U9-FM6";</note>
-      </trans-unit>
-      <trans-unit id="Zqb-p5-Ft8.footerTitle" xml:space="preserve" approved="yes">
-        <source>Cached keys allow KeePassium to skip key derivation and YubiKey scans whenever possible. </source>
-        <target state="final">Le chiavi precaricate consentono a KeePassium di saltare la derivazione delle chiavi e le scansioni di YubiKey ove possibile.</target>
-        <note>Class = "UITableViewSection"; footerTitle = "Cached keys allow KeePassium to skip key derivation and YubiKey scans whenever possible. "; ObjectID = "Zqb-p5-Ft8"; Note = "Section title: advanced/expert settings";</note>
-      </trans-unit>
-      <trans-unit id="Zqb-p5-Ft8.headerTitle" xml:space="preserve" approved="yes">
-        <source>Advanced</source>
-        <target state="final">Avanzate</target>
-        <note>Class = "UITableViewSection"; headerTitle = "Advanced"; ObjectID = "Zqb-p5-Ft8"; Note = "Section title: advanced/expert settings";</note>
-      </trans-unit>
-      <trans-unit id="beV-Hv-Qdr.text" xml:space="preserve" translate="no">
-        <source>{Detail}</source>
-        <target state="needs-translation">{Detail}</target>
-        <note>Class = "UILabel"; text = "{Detail}"; ObjectID = "beV-Hv-Qdr"; Note = "#bc-ignore!";</note>
-      </trans-unit>
-      <trans-unit id="e1v-nv-Mst.normalTitle" xml:space="preserve" approved="yes">
-        <source>Clear Master Keys</source>
-        <target state="final">Dimentica chiavi principali</target>
-        <note>Class = "UIButton"; normalTitle = "Clear Master Keys"; ObjectID = "e1v-nv-Mst";</note>
-      </trans-unit>
-      <trans-unit id="e6Y-AP-hag.footerTitle" xml:space="preserve" approved="yes">
-        <source>Hide passwords and other protected fields behind asterisks (recommended).</source>
-        <target state="final">Nascondi le password e altri campi protetti con degli asterischi (raccomandato).</target>
-        <note>Class = "UITableViewSection"; footerTitle = "Hide passwords and other protected fields behind asterisks (recommended)."; ObjectID = "e6Y-AP-hag";</note>
-      </trans-unit>
-      <trans-unit id="e6Y-AP-hag.headerTitle" xml:space="preserve" approved="yes">
-        <source>Protected Fields</source>
-        <target state="final">Campi protetti</target>
-        <note>Class = "UITableViewSection"; headerTitle = "Protected Fields"; ObjectID = "e6Y-AP-hag";</note>
-      </trans-unit>
-      <trans-unit id="g9a-rJ-4WJ.footerTitle" xml:space="preserve" approved="yes">
-        <source>Use Universal Clipboard to copy and paste between your Apple devices. On external devices, this clipboard is cleared after two minutes.</source>
-        <target state="final">Usa gli appunti condivisi per copiare e incollare tra dispositivi Apple. Sui dispositivi esterni, questi appunti vengono svuotati dopo due minuti.</target>
-        <note>Class = "UITableViewSection"; footerTitle = "Use Universal Clipboard to copy and paste between your Apple devices. On external devices, this clipboard is cleared after two minutes."; ObjectID = "g9a-rJ-4WJ";</note>
-      </trans-unit>
-      <trans-unit id="gTm-F6-EDQ.text" xml:space="preserve" approved="yes">
-        <source>Clear Master Keys on Timeout</source>
-        <target state="final">Dimentica chiavi principali al timeout</target>
-        <note>Class = "UILabel"; text = "Clear Master Keys on Timeout"; ObjectID = "gTm-F6-EDQ";</note>
-      </trans-unit>
-      <trans-unit id="hnI-Q8-Ixm.footerTitle" xml:space="preserve" approved="yes">
-        <source>When you copy anything, KeePassium will automatically clear your clipboard (pasteboard) after some time.</source>
-        <target state="final">Quando copi qualsiasi cosa, KeePassium svuoterà automaticamente i tuoi appunti dopo un po' di tempo.</target>
-        <note>Class = "UITableViewSection"; footerTitle = "When you copy anything, KeePassium will automatically clear your clipboard (pasteboard) after some time."; ObjectID = "hnI-Q8-Ixm";</note>
-      </trans-unit>
-      <trans-unit id="hnI-Q8-Ixm.headerTitle" xml:space="preserve" approved="yes">
-        <source>Clipboard</source>
-        <target state="final">Appunti</target>
-        <note>Class = "UITableViewSection"; headerTitle = "Clipboard"; ObjectID = "hnI-Q8-Ixm";</note>
-      </trans-unit>
-      <trans-unit id="neJ-eG-TV7.footerTitle" xml:space="preserve" approved="yes">
-        <source>Database timeout closes any opened databases and clears any remembered master keys after some time.</source>
-        <target state="final">Il timeout del database chiude tutti i database aperti e dimentica qualsiasi chiave principale memorizzata dopo un po' di tempo.</target>
-        <note>Class = "UITableViewSection"; footerTitle = "Database timeout closes any opened databases and clears any remembered master keys after some time."; ObjectID = "neJ-eG-TV7";</note>
-      </trans-unit>
-      <trans-unit id="neJ-eG-TV7.headerTitle" xml:space="preserve" approved="yes">
-        <source>Automatic Lock</source>
-        <target state="final">Blocco automatico</target>
-        <note>Class = "UITableViewSection"; headerTitle = "Automatic Lock"; ObjectID = "neJ-eG-TV7";</note>
-      </trans-unit>
-      <trans-unit id="pid-k2-idJ.text" xml:space="preserve" approved="yes">
-        <source>Hide Passwords</source>
-        <target state="final">Nascondi password</target>
-        <note>Class = "UILabel"; text = "Hide Passwords"; ObjectID = "pid-k2-idJ";</note>
-      </trans-unit>
-      <trans-unit id="siQ-LK-GXZ.text" xml:space="preserve" approved="yes">
-        <source>Cache Derived Encryption Keys</source>
-        <target state="final">Precarica chiavi crittografiche derivate</target>
-        <note>Class = "UILabel"; text = "Cache Derived Encryption Keys"; ObjectID = "siQ-LK-GXZ"; Note = "Setting: preserve (cache) calculated database keys";</note>
-      </trans-unit>
-      <trans-unit id="weX-SZ-IDB.text" xml:space="preserve" approved="yes">
-        <source>Database Timeout</source>
-        <target state="final">Timeout database</target>
-        <note>Class = "UILabel"; text = "Database Timeout"; ObjectID = "weX-SZ-IDB";</note>
-      </trans-unit>
-      <trans-unit id="xPd-ot-oqe.text" xml:space="preserve" translate="no">
-        <source>{Detail}</source>
-        <target state="needs-translation">{Detail}</target>
-        <note>Class = "UILabel"; text = "{Detail}"; ObjectID = "xPd-ot-oqe"; Note = "#bc-ignore!";</note>
       </trans-unit>
     </body>
   </file>
