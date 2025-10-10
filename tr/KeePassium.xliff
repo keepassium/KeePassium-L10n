@@ -1,8 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="en.lproj/MacUtils-InfoPlist.strings" source-language="en" target-language="tr" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.4" build-num="16F6"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName" translate="no" xml:space="preserve">
+        <source>MacUtils</source>
+        <target state="needs-translation">MacUtils</target>
+        <note>Bundle name</note>
+      </trans-unit>
+      <trans-unit id="NSHumanReadableCopyright" translate="no" xml:space="preserve">
+        <source>Copyright © 2025 KeePassium Labs. All rights reserved.</source>
+        <target state="needs-translation">Copyright © 2025 KeePassium Labs. All rights reserved.</target>
+        <note>Copyright (human-readable)</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="KeePassium AutoFill/controllers/Base.lproj/CrashReportVC.storyboard" source-language="en" target-language="tr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.1" build-num="16B40"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.4" build-num="16F6"/>
     </header>
     <body>
       <trans-unit id="1To-fA-tCt.normalTitle" xml:space="preserve" translate="no">
@@ -69,7 +86,7 @@ Bu konuda yardıma ihtiyacınız olursa lütfen bizimle iletişime geçin.</targ
   </file>
   <file original="KeePassium AutoFill/controllers/Base.lproj/FirstSetupVC.storyboard" source-language="en" target-language="tr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.1" build-num="16B40"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.4" build-num="16F6"/>
     </header>
     <body>
       <trans-unit id="DKP-uL-37z.configuration.title" xml:space="preserve" translate="no">
@@ -121,7 +138,7 @@ Bu konuda yardıma ihtiyacınız olursa lütfen bizimle iletişime geçin.</targ
   </file>
   <file original="KeePassium AutoFill/en.lproj/InfoPlist.strings" source-language="en" target-language="tr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.1" build-num="16B40"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.4" build-num="16F6"/>
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName" xml:space="preserve">
@@ -143,7 +160,7 @@ Bu konuda yardıma ihtiyacınız olursa lütfen bizimle iletişime geçin.</targ
   </file>
   <file original="KeePassium AutoFill/en.lproj/Localizable.strings" source-language="en" target-language="tr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.1" build-num="16B40"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.4" build-num="16F6"/>
     </header>
     <body>
       <trans-unit id="[AppLock/weakPasscodeWarning]" xml:space="preserve">
@@ -278,7 +295,7 @@ Sonuç olarak, hem Otomatik Doldurma hem de KeePassium uygulaması veritabanın�
   </file>
   <file original="KeePassium/database/Base.lproj/DatabaseCreatorVC.storyboard" source-language="en" target-language="tr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.1" build-num="16B40"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.4" build-num="16F6"/>
     </header>
     <body>
       <trans-unit id="2iK-ct-ygq.text" xml:space="preserve">
@@ -345,7 +362,7 @@ Sonuç olarak, hem Otomatik Doldurma hem de KeePassium uygulaması veritabanın�
   </file>
   <file original="KeePassium/database/Base.lproj/DatabaseKeyChangerVC.storyboard" source-language="en" target-language="tr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.1" build-num="16B40"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.4" build-num="16F6"/>
     </header>
     <body>
       <trans-unit id="M9Q-v8-e6Q.placeholder" xml:space="preserve">
@@ -377,7 +394,7 @@ Sonuç olarak, hem Otomatik Doldurma hem de KeePassium uygulaması veritabanın�
   </file>
   <file original="KeePassium/database/Base.lproj/DatabasePickerVC.storyboard" source-language="en" target-language="tr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.1" build-num="16B40"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.4" build-num="16F6"/>
     </header>
     <body>
       <trans-unit id="XJs-ol-dGz.title" xml:space="preserve" translate="no">
@@ -399,7 +416,7 @@ Sonuç olarak, hem Otomatik Doldurma hem de KeePassium uygulaması veritabanın�
   </file>
   <file original="KeePassium/database/entry/Base.lproj/EntryFieldViewerVC.storyboard" source-language="en" target-language="tr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.1" build-num="16B40"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.4" build-num="16F6"/>
     </header>
     <body>
       <trans-unit id="1r1-bD-3m7.text" xml:space="preserve" translate="no">
@@ -491,7 +508,7 @@ Sonuç olarak, hem Otomatik Doldurma hem de KeePassium uygulaması veritabanın�
   </file>
   <file original="KeePassium/database/entry/Base.lproj/EntryFileViewerVC.storyboard" source-language="en" target-language="tr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.1" build-num="16B40"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.4" build-num="16F6"/>
     </header>
     <body>
       <trans-unit id="Kbg-2Y-UcU.text" xml:space="preserve" translate="no">
@@ -518,7 +535,7 @@ Sonuç olarak, hem Otomatik Doldurma hem de KeePassium uygulaması veritabanın�
   </file>
   <file original="KeePassium/database/entry/Base.lproj/EntryHistoryViewerVC.storyboard" source-language="en" target-language="tr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.1" build-num="16B40"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.4" build-num="16F6"/>
     </header>
     <body>
       <trans-unit id="E9b-9K-I4D.text" xml:space="preserve" translate="no">
@@ -565,7 +582,7 @@ Sonuç olarak, hem Otomatik Doldurma hem de KeePassium uygulaması veritabanın�
   </file>
   <file original="KeePassium/database/entry/Base.lproj/EntryViewerPagesVC.storyboard" source-language="en" target-language="tr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.1" build-num="16B40"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.4" build-num="16F6"/>
     </header>
     <body>
       <trans-unit id="g9A-4w-Dsa.segmentTitles[0]" xml:space="preserve" translate="no">
@@ -709,7 +726,7 @@ Sonuç olarak, hem Otomatik Doldurma hem de KeePassium uygulaması veritabanın�
   </file>
   <file original="KeePassium/database/expiry-date/Base.lproj/ExpiryDateEditorVC.storyboard" source-language="en" target-language="tr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.1" build-num="16B40"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.4" build-num="16F6"/>
     </header>
     <body>
       <trans-unit id="GWy-pa-ObH.normalTitle" xml:space="preserve" translate="no">
@@ -778,7 +795,7 @@ Sonuç olarak, hem Otomatik Doldurma hem de KeePassium uygulaması veritabanın�
   </file>
   <file original="KeePassium/database/icon/Base.lproj/ItemIconPicker.storyboard" source-language="en" target-language="tr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.1" build-num="16B40"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.4" build-num="16F6"/>
     </header>
     <body>
       <trans-unit id="H8v-gf-kff.title" xml:space="preserve">
@@ -832,7 +849,7 @@ Sonuç olarak, hem Otomatik Doldurma hem de KeePassium uygulaması veritabanın�
   </file>
   <file original="KeePassium/database/relocation/Base.lproj/DestinationGroupPickerVC.storyboard" source-language="en" target-language="tr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.1" build-num="16B40"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.4" build-num="16F6"/>
     </header>
     <body>
       <trans-unit id="Ypt-ow-bC3.text" xml:space="preserve" translate="no">
@@ -854,7 +871,7 @@ Sonuç olarak, hem Otomatik Doldurma hem de KeePassium uygulaması veritabanın�
   </file>
   <file original="KeePassium/database/unlocker/Base.lproj/DatabaseUnlockerVC.storyboard" source-language="en" target-language="tr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.1" build-num="16B40"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.4" build-num="16F6"/>
     </header>
     <body>
       <trans-unit id="CuN-tE-lAG.placeholder" xml:space="preserve">
@@ -901,7 +918,7 @@ Sonuç olarak, hem Otomatik Doldurma hem de KeePassium uygulaması veritabanın�
   </file>
   <file original="KeePassium/en.lproj/InfoPlist.strings" source-language="en" target-language="tr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.1" build-num="16B40"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.4" build-num="16F6"/>
     </header>
     <body>
       <trans-unit id="KeePass Database (kdb)" xml:space="preserve">
@@ -943,7 +960,7 @@ Sonuç olarak, hem Otomatik Doldurma hem de KeePassium uygulaması veritabanın�
   </file>
   <file original="KeePassium/en.lproj/Localizable.strings" source-language="en" target-language="tr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.1" build-num="16B40"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.4" build-num="16F6"/>
     </header>
     <body>
       <trans-unit id="[AppHistory/title]" xml:space="preserve">
@@ -1515,7 +1532,7 @@ Your actual passwords are never shared with the online service.
   </file>
   <file original="KeePassium/general/about/Base.lproj/AboutVC.storyboard" source-language="en" target-language="tr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.1" build-num="16B40"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.4" build-num="16F6"/>
     </header>
     <body>
       <trans-unit id="0mb-N7-JBa.headerTitle" xml:space="preserve" translate="no">
@@ -1592,7 +1609,7 @@ Your actual passwords are never shared with the online service.
   </file>
   <file original="KeePassium/general/Base.lproj/PasscodeInputVC.storyboard" source-language="en" target-language="tr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.1" build-num="16B40"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.4" build-num="16F6"/>
     </header>
     <body>
       <trans-unit id="3mQ-t6-0ty.text" xml:space="preserve" translate="no">
@@ -1634,7 +1651,7 @@ Your actual passwords are never shared with the online service.
   </file>
   <file original="KeePassium/general/file-info/Base.lproj/FileInfoVC.storyboard" source-language="en" target-language="tr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.1" build-num="16B40"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.4" build-num="16F6"/>
     </header>
     <body>
       <trans-unit id="Cu8-bv-TEu.title" xml:space="preserve" translate="no">
@@ -1656,7 +1673,7 @@ Your actual passwords are never shared with the online service.
   </file>
   <file original="KeePassium/premium/Base.lproj/PricingPlanPickerVC.storyboard" source-language="en" target-language="tr" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.1" build-num="16B40"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.4" build-num="16F6"/>
     </header>
     <body>
       <trans-unit id="0wQ-G1-ZOk.text" xml:space="preserve" translate="no">
