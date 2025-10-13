@@ -2460,6 +2460,26 @@ Bitte stellen Sie sicher, dass Sie eine Sicherung Ihrer Datenbank haben, bevor S
         <target state="final">QR von Foto scannen</target>
         <note>Action: pick a photo (from gallery) to scan as QR code</note>
       </trans-unit>
+      <trans-unit id="[OTP/Setup/SelectDatabase/message]" xml:space="preserve">
+        <source>Select database for setting up the verification code (one-time password).</source>
+        <target state="translated">Datenbank für die Einrichtung des Bestätigungscodes (Einmalpasswort) auswählen.</target>
+        <note>Call to action/instruction during setup of OTP codes.</note>
+      </trans-unit>
+      <trans-unit id="[OTP/Setup/SelectEntry/message]" xml:space="preserve">
+        <source>Select entry for setting up the verification code (one-time password).</source>
+        <target state="translated">Eintrag für die Einrichtung des Bestätigungscodes (Einmalpasswort) auswählen.</target>
+        <note>Call to action/instruction during setup of OTP codes.</note>
+      </trans-unit>
+      <trans-unit id="[OTP/Setup/Success]" xml:space="preserve">
+        <source>OTP setup complete</source>
+        <target state="translated">OTP-Einrichtung abgeschlossen</target>
+        <note>Confirmation message after successful OTP setup</note>
+      </trans-unit>
+      <trans-unit id="[OTP/Setup/Title]" xml:space="preserve">
+        <source>Verification Code Setup</source>
+        <target state="translated">Bestätigungscode-Einrichtung</target>
+        <note>Title of a dialog related to setup of one-time passwords (OTP)</note>
+      </trans-unit>
       <trans-unit id="[OTP/Setup]" xml:space="preserve" approved="yes">
         <source>Set up one-time password (OTP)</source>
         <target state="final">Einmalpasswort einrichten (OTP)</target>
@@ -3082,6 +3102,11 @@ Dies kann bei größeren Datenbanken oder zu ehrgeizigen Datenbankeinstellungen 
         <target state="final">Datei-URL</target>
         <note>Network address of a file</note>
       </trans-unit>
+      <trans-unit id="[RemoteConnection/FullURL]" xml:space="preserve">
+        <source>Full URL</source>
+        <target state="translated">Vollständige URL</target>
+        <note>Complete WebDAV URL including path prefix</note>
+      </trans-unit>
       <trans-unit id="[RemoteConnection/GoogleDrive/Folder/myDrive]" xml:space="preserve">
         <source>My Drive</source>
         <target state="translated">Meine Ablage</target>
@@ -3151,6 +3176,11 @@ Dies kann bei größeren Datenbanken oder zu ehrgeizigen Datenbankeinstellungen 
         <source>KeePassium will assign file synchronization to the app of your storage provider. Some apps work better than others.</source>
         <target state="final">KeePassium weist die Dateisynchronisierung der App Ihres Speicheranbieters zu. Einige Apps funktionieren besser als andere.</target>
         <note>Description of the `Integration via Files app` sync method.</note>
+      </trans-unit>
+      <trans-unit id="[RemoteConnection/WebDAVService/SetupGuide]" xml:space="preserve">
+        <source>%@ Setup Guide</source>
+        <target state="translated">%@-Einrichtungsanleitung</target>
+        <note>Link to a help page for an online storage service. The parameter is the service name in fixed neutral form. Example: 'Nextcloud Setup Guide' or 'Synology NAS Setup Guide'.</note>
       </trans-unit>
       <trans-unit id="[RemoteConnection/connectToServer]" xml:space="preserve" approved="yes">
         <source>Connect to Server</source>
