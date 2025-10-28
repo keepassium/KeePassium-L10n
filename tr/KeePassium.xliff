@@ -27,15 +27,15 @@
         <target state="needs-translation">{Learn more}</target>
         <note>Class = "UIButton"; normalTitle = "{Learn more}"; ObjectID = "1To-fA-tCt"; Note = "#bc-ignore!";</note>
       </trans-unit>
-      <trans-unit id="kmV-si-Nrg.text" xml:space="preserve">
+      <trans-unit id="kmV-si-Nrg.text" xml:space="preserve" approved="yes">
         <source>It seems that AutoFill did not close correctly the last time. 
 
 This can happen with large databases or memory-demanding database settings (Argon2).
 
 Please contact us if you need help with this.</source>
-        <target state="translated">Otomatik Doldurma son seferde doğru kapanmamış gibi görünüyor.
+        <target state="final">Otomatik Doldurma son seferde doğru kapatılmamış gibi görünüyor.
 
-Büyük veritabanlarında veya bellek gerektiren veritabanı ayarlarında (Argon2) böyle olabilmektedir.
+Büyük veri tabanlarında veya bellek gerektiren veri tabanı ayarlarında (Argon2) bu olabilir.
 
 Bu konuda yardıma ihtiyacınız olursa lütfen bizimle iletişime geçin.</target>
         <note>Class = "UILabel"; text = "It seems that AutoFill did not close correctly the last time. \n\nThis can happen with large databases or memory-demanding database settings (Argon2).\n\nPlease contact us if you need help with this."; ObjectID = "kmV-si-Nrg";</note>
@@ -57,14 +57,14 @@ Bu konuda yardıma ihtiyacınız olursa lütfen bizimle iletişime geçin.</targ
         <target state="needs-translation">{Connect to server}</target>
         <note>Class = "UIButton"; normalTitle = "{Connect to server}"; ObjectID = "DKP-uL-37z";</note>
       </trans-unit>
-      <trans-unit id="Gck-9R-sGq.normalTitle" xml:space="preserve">
+      <trans-unit id="Gck-9R-sGq.normalTitle" xml:space="preserve" approved="yes">
         <source>Skip</source>
-        <target state="translated">Geç</target>
+        <target state="final">Atla</target>
         <note>Class = "UIButton"; normalTitle = "Skip"; ObjectID = "Gck-9R-sGq"; Note = "Action: skip setup and proceed to the next step.";</note>
       </trans-unit>
-      <trans-unit id="P0M-N3-ynf.text" xml:space="preserve">
+      <trans-unit id="P0M-N3-ynf.text" xml:space="preserve" approved="yes">
         <source>Please re-add databases and key files you want to use with the AutoFill feature.</source>
-        <target state="translated">Lütfen otomatik doldurma özelliği ile kullanmak istediğiniz veritabanlarını ve anahtar dosyalarını yeniden ekleyin.</target>
+        <target state="final">Lütfen Otomatik Doldurma özelliği ile kullanmak istediğiniz veri tabanlarını ve anahtar dosyalarını tekrar ekleyin.</target>
         <note>Class = "UILabel"; text = "Please re-add databases and key files you want to use with the AutoFill feature."; ObjectID = "P0M-N3-ynf";</note>
       </trans-unit>
       <trans-unit id="UAW-0G-N5G.text" xml:space="preserve" translate="no">
@@ -72,19 +72,19 @@ Bu konuda yardıma ihtiyacınız olursa lütfen bizimle iletişime geçin.</targ
         <target state="needs-translation">{Footer text}</target>
         <note>Class = "UITextView"; text = "{Footer text}"; ObjectID = "UAW-0G-N5G"; Note = "#bc-ignore!";</note>
       </trans-unit>
-      <trans-unit id="enW-gs-tra.configuration.title" xml:space="preserve">
+      <trans-unit id="enW-gs-tra.configuration.title" xml:space="preserve" approved="yes">
         <source>Add Database</source>
-        <target state="translated">Veritabanı Ekle</target>
+        <target state="final">Veri Tabanı ekle</target>
         <note>Class = "UIButton"; configuration.title = "Add Database"; ObjectID = "enW-gs-tra";</note>
       </trans-unit>
-      <trans-unit id="enW-gs-tra.normalTitle" xml:space="preserve">
+      <trans-unit id="enW-gs-tra.normalTitle" xml:space="preserve" approved="yes">
         <source>Add Database</source>
-        <target state="translated">Veritabanı Ekle</target>
+        <target state="final">Veri Tabanı ekle</target>
         <note>Class = "UIButton"; normalTitle = "Add Database"; ObjectID = "enW-gs-tra";</note>
       </trans-unit>
-      <trans-unit id="pIl-6L-Msp.text" xml:space="preserve">
+      <trans-unit id="pIl-6L-Msp.text" xml:space="preserve" approved="yes">
         <source>AutoFill Setup</source>
-        <target state="translated">Otomatik Doldurma Kurulumu</target>
+        <target state="final">Otomatik Doldurma Kurulumu</target>
         <note>Class = "UILabel"; text = "AutoFill Setup"; ObjectID = "pIl-6L-Msp";</note>
       </trans-unit>
       <trans-unit id="rzY-Ci-bd9.title" xml:space="preserve" approved="yes">
@@ -99,19 +99,19 @@ Bu konuda yardıma ihtiyacınız olursa lütfen bizimle iletişime geçin.</targ
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="26.0.1" build-num="17A400"/>
     </header>
     <body>
-      <trans-unit id="CFBundleDisplayName" xml:space="preserve">
+      <trans-unit id="CFBundleDisplayName" xml:space="preserve" approved="yes">
         <source>KeePassium AutoFill</source>
-        <target state="translated">KeePassium Otomatik Doldurma</target>
+        <target state="final">KeePassium Otomatik Doldurma</target>
         <note>Bundle display name</note>
       </trans-unit>
-      <trans-unit id="CFBundleName" xml:space="preserve">
+      <trans-unit id="CFBundleName" xml:space="preserve" approved="yes">
         <source>KeePassium AutoFill</source>
-        <target state="translated">KeePassium Otomatik Doldurma</target>
+        <target state="final">KeePassium Otomatik Doldurma</target>
         <note>Bundle name</note>
       </trans-unit>
-      <trans-unit id="NSFaceIDUsageDescription" xml:space="preserve">
+      <trans-unit id="NSFaceIDUsageDescription" xml:space="preserve" approved="yes">
         <source>Use FaceID to unlock KeePassium</source>
-        <target state="translated">KeePassium'un kilidini açmak için FaceID kullan</target>
+        <target state="final">KeePassium'un kilidini açmak için FaceID'yi kullanın</target>
         <note>Privacy - Face ID Usage Description</note>
       </trans-unit>
     </body>
@@ -121,74 +121,74 @@ Bu konuda yardıma ihtiyacınız olursa lütfen bizimle iletişime geçin.</targ
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="26.0.1" build-num="17A400"/>
     </header>
     <body>
-      <trans-unit id="[AppLock/weakPasscodeWarning]" xml:space="preserve">
+      <trans-unit id="[AppLock/weakPasscodeWarning]" xml:space="preserve" approved="yes">
         <source>This passcode is easy to guess. Try entering a stronger one.</source>
-        <target state="needs-translation">This passcode is easy to guess. Try entering a stronger one.</target>
+        <target state="final">Bu şifre kodunun tahmin edilmesi çok kolay. Daha güçlü bir şifre kodu girmeyi deneyin.</target>
         <note>Notification when user tries to set up too weak an app protection passcode.</note>
       </trans-unit>
-      <trans-unit id="[AutoFill/AcceptAndRemember/action]" xml:space="preserve">
+      <trans-unit id="[AutoFill/AcceptAndRemember/action]" xml:space="preserve" approved="yes">
         <source>Accept and Remember</source>
-        <target state="needs-translation">Accept and Remember</target>
+        <target state="final">Kabul Et ve Hatırla</target>
         <note>Action in AutoFill: choose the entry and remember it for future use on this website.</note>
       </trans-unit>
-      <trans-unit id="[AutoFill/AllEntries/title]" xml:space="preserve">
+      <trans-unit id="[AutoFill/AllEntries/title]" xml:space="preserve" approved="yes">
         <source>All Entries</source>
-        <target state="needs-translation">All Entries</target>
+        <target state="final">Tüm Girdiler</target>
         <note>Title of a list</note>
       </trans-unit>
-      <trans-unit id="[AutoFill/Context/Empty/title]" xml:space="preserve">
+      <trans-unit id="[AutoFill/Context/Empty/title]" xml:space="preserve" approved="yes">
         <source>Unknown</source>
-        <target state="needs-translation">Unknown</target>
+        <target state="final">Bilinmeyen</target>
         <note>Title of AutoFill context when no context is available. Usage: `Context: Unknown`</note>
       </trans-unit>
-      <trans-unit id="[AutoFill/FoundEntries/title]" xml:space="preserve">
+      <trans-unit id="[AutoFill/FoundEntries/title]" xml:space="preserve" approved="yes">
         <source>Best Matches</source>
-        <target state="needs-translation">Best Matches</target>
+        <target state="final">En İyi Eşleşmeler</target>
         <note>Title of a list with search results</note>
       </trans-unit>
-      <trans-unit id="[AutoFill/InsertText/select]" xml:space="preserve">
+      <trans-unit id="[AutoFill/InsertText/select]" xml:space="preserve" approved="yes">
         <source>Select Field</source>
-        <target state="needs-translation">Select Field</target>
+        <target state="final">Alan seçin</target>
         <note>Call for action to select an entry field for filling out.</note>
       </trans-unit>
-      <trans-unit id="[AutoFill/RecentlyUsed/title]" xml:space="preserve">
+      <trans-unit id="[AutoFill/RecentlyUsed/title]" xml:space="preserve" approved="yes">
         <source>Recently Used</source>
-        <target state="needs-translation">Recently Used</target>
+        <target state="final">Son Kullanılanlar</target>
         <note>Section title for the recently used entry in AutoFill</note>
       </trans-unit>
-      <trans-unit id="[AutoFill/RememberContext/action]" xml:space="preserve">
+      <trans-unit id="[AutoFill/RememberContext/action]" xml:space="preserve" approved="yes">
         <source>Remember Selected Entries</source>
-        <target state="needs-translation">Remember Selected Entries</target>
+        <target state="final">Seçilen Girdileri hatırla</target>
         <note>Not an action, but a button to activate the same-named setting</note>
       </trans-unit>
-      <trans-unit id="[AutoFill/RememberContext/callToAction]" xml:space="preserve">
+      <trans-unit id="[AutoFill/RememberContext/callToAction]" xml:space="preserve" approved="yes">
         <source>Improve AutoFill suggestions</source>
-        <target state="needs-translation">Improve AutoFill suggestions</target>
+        <target state="final">Otomatik Doldurma önerilerini iyileştir</target>
         <note>Call to action</note>
       </trans-unit>
-      <trans-unit id="[AutoFill/RememberContext/description]" xml:space="preserve">
+      <trans-unit id="[AutoFill/RememberContext/description]" xml:space="preserve" approved="yes">
         <source>KeePassium will remember which entry you select for each website and then suggest it automatically.</source>
-        <target state="needs-translation">KeePassium will remember which entry you select for each website and then suggest it automatically.</target>
+        <target state="final">KeePassium her bir web sitesi için seçtiğiniz girdiyi hatırlar ve otomatik olarak önerir.</target>
         <note>Description of the 'Remember Selected Entries` feature</note>
       </trans-unit>
-      <trans-unit id="[AutoFill/Search/Context/title]" xml:space="preserve">
+      <trans-unit id="[AutoFill/Search/Context/title]" xml:space="preserve" approved="yes">
         <source>Context</source>
-        <target state="needs-translation">Context</target>
+        <target state="final">Bağlam</target>
         <note>Title for referring to the app or webpage that launched AutoFill. For example: `Context: google.com`</note>
       </trans-unit>
-      <trans-unit id="[AutoFill/Setup/UncheckKeychain/autofillFrom]" xml:space="preserve">
+      <trans-unit id="[AutoFill/Setup/UncheckKeychain/autofillFrom]" xml:space="preserve" approved="yes">
         <source>AutoFill from:</source>
-        <target state="needs-translation">AutoFill from:</target>
+        <target state="final">Otomatik Doldurma kaynağı:</target>
         <note>Must match Apple's translation, as found in iOS 18 Settings → General → AutoFill &amp; Passwords. If unsure, leave untranslated.</note>
       </trans-unit>
-      <trans-unit id="[AutoFill/Setup/UncheckKeychain/callToAction]" xml:space="preserve">
+      <trans-unit id="[AutoFill/Setup/UncheckKeychain/callToAction]" xml:space="preserve" approved="yes">
         <source>Uncheck Keychain</source>
-        <target state="needs-translation">Uncheck Keychain</target>
+        <target state="final">Anahtar Zinciri seçimini kaldır</target>
         <note>Call to action: deselect the `Keychain` option. Keychain is a glossary term.</note>
       </trans-unit>
-      <trans-unit id="[AutoFill/Setup/UncheckKeychain/message]" xml:space="preserve">
+      <trans-unit id="[AutoFill/Setup/UncheckKeychain/message]" xml:space="preserve" approved="yes">
         <source>To make KeePassium your default password manager, uncheck "%@".</source>
-        <target state="needs-translation">To make KeePassium your default password manager, uncheck "%@".</target>
+        <target state="final">KeePassium'u varsayılan şifre yöneticiniz yapmak için "%@" seçimini kaldırın.</target>
         <note>Instruction to deselect another app in the settings [appName: String]</note>
       </trans-unit>
       <trans-unit id="[AutoFill/Setup/UncheckKeychain/usePasswordsAndPasskeysFrom]" xml:space="preserve" approved="yes">
@@ -196,117 +196,117 @@ Bu konuda yardıma ihtiyacınız olursa lütfen bizimle iletişime geçin.</targ
         <target state="final">Şuradaki parolaları ve geçiş anahtarlarını kullan:</target>
         <note>Must match Apple's translation, as found in iOS 17 Settings → Passwords → Password Options. If unsure, leave untranslated.</note>
       </trans-unit>
-      <trans-unit id="[AutoFill/Setup/footer]" xml:space="preserve">
+      <trans-unit id="[AutoFill/Setup/footer]" xml:space="preserve" approved="yes">
         <source>The AutoFill cannot automatically access the files you already have in the main KeePassium app.
 
 Why? Behind the scenes, the system treats AutoFill as a separate app, independent from the main KeePassium process. For security reasons, an app cannot simply access any external files – unless you explicitly link these files to that app. Thus the system guarantees that the app can only access the few files you allowed it to.
 
 As a result, both AutoFill and the main KeePassium app need to be given their own permissions for each external file. Luckily, this is a one-time procedure.</source>
-        <target state="translated">Otomatik Doldurma, ana KeePassium uygulamasında halihazırda var olan bilgilere otomatik olarak erişemez.
+        <target state="final">Otomatik Doldurma, hâlihazırda ana KeePassium uygulamasında bulunan dosyalara otomatik olarak erişemez.
 
-Peki neden? Arka plandaki işleyişte; sistem Otomatik Doldurmayı ana KeePassium uygulamasından bağımsız apayrı bir uygulama gibi görmekte. Güvenlik kaynaklı sebeplerden ötürü, siz spesifik olarak aralarında bağıntı kurup izin vermedikçe; bir uygulama hiçbir dış dosyaya kolayca erişemez. Böylece sistem, uygulamanın sadece sizin izin verdiğiniz dosyalara erişebildiğini garanti eder.
+Neden mi? Arka planda, sistem Otomatik Doldurma'yı KeePassium işleminden bağımsız, ayrı bir uygulama olarak kabul eder. Güvenlik sebebiyle, bu dosyaları o uygulamaya özel olarak bağlamazsanız uygulama harici dosyalara erişemez. Dolayısıyla sistem, uygulamanın yalnızca izin verdiğiniz birkaç dosyaya erişebilmesini garantiler.
 
-Sonuç olarak, hem Otomatik Doldurma hem de KeePassium uygulaması veritabanınızı okumak ve değiştirmek için ayrı ayrı yetkilendirilmeye ihtiyaç duyar. Şükür ki, bu tek seferlik bir bürokrasidir.</target>
+Sonuç olarak hem Otomatik Doldurmaya hem de ana KeePassium uygulamasına her bir harici dosya için kendi izinlerinin verilmesi gerekir. Neyse ki, bu tek seferlik bir prosedürdür.</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
-      <trans-unit id="[Database/Entry/Location/title]" xml:space="preserve">
+      <trans-unit id="[Database/Entry/Location/title]" xml:space="preserve" approved="yes">
         <source>Location</source>
-        <target state="needs-translation">Location</target>
+        <target state="final">Konum</target>
         <note>Field title: name of the group that contains the entry</note>
       </trans-unit>
-      <trans-unit id="[Database/Entry/RandomUsernames/title]" xml:space="preserve">
+      <trans-unit id="[Database/Entry/RandomUsernames/title]" xml:space="preserve" approved="yes">
         <source>Random Usernames</source>
-        <target state="needs-translation">Random Usernames</target>
+        <target state="final">Rastgele Kullanıcı Adları</target>
         <note>Title of a list with randomly generated usernames</note>
       </trans-unit>
-      <trans-unit id="[Database/Entry/SelectUsername/action]" xml:space="preserve">
+      <trans-unit id="[Database/Entry/SelectUsername/action]" xml:space="preserve" approved="yes">
         <source>Select Username</source>
-        <target state="needs-translation">Select Username</target>
+        <target state="final">Kullanıcı Adı seç</target>
         <note>Action/button that shows a list of usernames to pick from</note>
       </trans-unit>
-      <trans-unit id="[Database/Item/SelectNamed/action]" xml:space="preserve">
+      <trans-unit id="[Database/Item/SelectNamed/action]" xml:space="preserve" approved="yes">
         <source>Select "%@"</source>
-        <target state="needs-translation">Select "%@"</target>
+        <target state="final">"%@" ögesini seç</target>
         <note>Action: select item from a list/menu, with item name in quotes. For example: `Select "Sample Group"`</note>
       </trans-unit>
-      <trans-unit id="[Database/Passkey/AddToExisting/action]" xml:space="preserve">
+      <trans-unit id="[Database/Passkey/AddToExisting/action]" xml:space="preserve" approved="yes">
         <source>Add Passkey to Existing Entry</source>
-        <target state="needs-translation">Add Passkey to Existing Entry</target>
+        <target state="final">Mevcut Girdiye Geçiş Kodu ekle</target>
         <note>Action: create a passkey and add it to existing entry</note>
       </trans-unit>
-      <trans-unit id="[Database/Passkey/AddToExisting/callToAction]" xml:space="preserve">
+      <trans-unit id="[Database/Passkey/AddToExisting/callToAction]" xml:space="preserve" approved="yes">
         <source>Choose an entry for the new passkey</source>
-        <target state="needs-translation">Choose an entry for the new passkey</target>
+        <target state="final">Yeni geçiş kodu için bir girdi seçin</target>
         <note>Call to action: select an existing entry to add a new passkey to</note>
       </trans-unit>
-      <trans-unit id="[Database/Passkey/AddToExisting/confirm]" xml:space="preserve">
+      <trans-unit id="[Database/Passkey/AddToExisting/confirm]" xml:space="preserve" approved="yes">
         <source>This entry already has a passkey. Replace it?</source>
-        <target state="needs-translation">This entry already has a passkey. Replace it?</target>
+        <target state="final">Bu girdinin zaten bir geçiş kodu var. Değiştirilsin mi?</target>
         <note>Confirmation message before replacing an existing passkey.</note>
       </trans-unit>
-      <trans-unit id="[Database/Passkey/Create/title]" xml:space="preserve">
+      <trans-unit id="[Database/Passkey/Create/title]" xml:space="preserve" approved="yes">
         <source>Create a Passkey?</source>
-        <target state="needs-translation">Create a Passkey?</target>
+        <target state="final">Geçiş Kodu oluşturulsun mu?</target>
         <note>Title of an optional dialog for creating new passkeys</note>
       </trans-unit>
-      <trans-unit id="[Generic/ApplePasswordsApp/title]" xml:space="preserve">
+      <trans-unit id="[Generic/ApplePasswordsApp/title]" xml:space="preserve" approved="yes">
         <source>Passwords</source>
-        <target state="needs-translation">Passwords</target>
+        <target state="final">Şifreler</target>
         <note>Name of the Apple Passwords application, see https://support.apple.com/120758</note>
       </trans-unit>
-      <trans-unit id="[Generic/Keychain/title]" xml:space="preserve">
+      <trans-unit id="[Generic/Keychain/title]" xml:space="preserve" approved="yes">
         <source>Keychain</source>
-        <target state="translated">Anahtar Zinciri</target>
+        <target state="final">Anahtar Zinciri</target>
         <note>Apple Keychain software; is a glossary term.</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/Wordlist/Import/menuAction]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/Wordlist/Import/menuAction]" xml:space="preserve" approved="yes">
         <source>Import Wordlist…</source>
-        <target state="needs-translation">Import Wordlist…</target>
+        <target state="final">Kelime Listesini içe aktar…</target>
         <note>Menu action to add a user-provided word list file to the app.</note>
       </trans-unit>
-      <trans-unit id="[PasswordQuality/LevelWithApproximateEntropy/description]" xml:space="preserve">
+      <trans-unit id="[PasswordQuality/LevelWithApproximateEntropy/description]" xml:space="preserve" approved="yes">
         <source>%1$@ (~%2$@ of entropy)</source>
-        <target state="needs-translation">%1$@ (~%2$@ of entropy)</target>
+        <target state="final">%1$@ (~%2$@ entropi)</target>
         <note>Password quality description. Note the tilda that refers to an estimated/approximate value. For example: `Very good (~123 bits of entropy)`. [level: String, formattedBitCount: String]</note>
       </trans-unit>
-      <trans-unit id="[PasswordQuality/LevelWithEntropy/description]" xml:space="preserve">
+      <trans-unit id="[PasswordQuality/LevelWithEntropy/description]" xml:space="preserve" approved="yes">
         <source>%1$@ (%2$@ of entropy)</source>
-        <target state="needs-translation">%1$@ (%2$@ of entropy)</target>
+        <target state="final">%1$@ (%2$@ entropi)</target>
         <note>Password quality description. For example: `Very good (234 bits of entropy)`. [level: String, formattedBitCount: String]</note>
       </trans-unit>
-      <trans-unit id="[PasswordQuality/Level] Good" xml:space="preserve">
+      <trans-unit id="[PasswordQuality/Level] Good" xml:space="preserve" approved="yes">
         <source>Good</source>
-        <target state="needs-translation">Good</target>
+        <target state="final">İyi</target>
         <note>Good password quality</note>
       </trans-unit>
-      <trans-unit id="[PasswordQuality/Level] Very good" xml:space="preserve">
+      <trans-unit id="[PasswordQuality/Level] Very good" xml:space="preserve" approved="yes">
         <source>Very good</source>
-        <target state="needs-translation">Very good</target>
+        <target state="final">Çok iyi</target>
         <note>Very good password quality</note>
       </trans-unit>
-      <trans-unit id="[PasswordQuality/Level] Very weak" xml:space="preserve">
+      <trans-unit id="[PasswordQuality/Level] Very weak" xml:space="preserve" approved="yes">
         <source>Very weak</source>
-        <target state="needs-translation">Very weak</target>
+        <target state="final">Çok zayıf</target>
         <note>Very weak password quality</note>
       </trans-unit>
-      <trans-unit id="[PasswordQuality/Level] Weak" xml:space="preserve">
+      <trans-unit id="[PasswordQuality/Level] Weak" xml:space="preserve" approved="yes">
         <source>Weak</source>
-        <target state="needs-translation">Weak</target>
+        <target state="final">Zayıf</target>
         <note>Weak password quality</note>
       </trans-unit>
-      <trans-unit id="[PasswordQuality/description]" xml:space="preserve">
+      <trans-unit id="[PasswordQuality/description]" xml:space="preserve" approved="yes">
         <source>Password quality: %@</source>
-        <target state="needs-translation">Password quality: %@</target>
+        <target state="final">Şifre kalitesi: %@</target>
         <note>Password quality description. For example: `Password quality: Weak`. [level: String]</note>
       </trans-unit>
-      <trans-unit id="[ProtectedTextField] Show Password" xml:space="preserve">
+      <trans-unit id="[ProtectedTextField] Show Password" xml:space="preserve" approved="yes">
         <source>Show Password</source>
-        <target state="translated">Şifreyi Göster</target>
+        <target state="final">Şifreyi göster</target>
         <note>Action/button to make password visible as plain-text</note>
       </trans-unit>
-      <trans-unit id="[QuickAutoFill/Activate/callToAction]" xml:space="preserve">
+      <trans-unit id="[QuickAutoFill/Activate/callToAction]" xml:space="preserve" approved="yes">
         <source>Activate Quick AutoFill</source>
-        <target state="needs-translation">Activate Quick AutoFill</target>
+        <target state="final">Hızlı Otomatik Doldurma'yı etkinleştirin</target>
         <note>Call to action, invites the user to enable the Quick AutoFill feature</note>
       </trans-unit>
       <trans-unit id="[Search/EmptyResult/title]" xml:space="preserve" approved="yes">
@@ -321,9 +321,9 @@ Sonuç olarak, hem Otomatik Doldurma hem de KeePassium uygulaması veritabanın�
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="26.0.1" build-num="17A400"/>
     </header>
     <body>
-      <trans-unit id="2iK-ct-ygq.text" xml:space="preserve">
+      <trans-unit id="2iK-ct-ygq.text" xml:space="preserve" approved="yes">
         <source>Database File Name</source>
-        <target state="translated">Veritabanı Dosya Adı</target>
+        <target state="final">Veri Tabanı Dosyası Adı</target>
         <note>Class = "UILabel"; text = "Database File Name"; ObjectID = "2iK-ct-ygq";</note>
       </trans-unit>
       <trans-unit id="6gJ-zZ-l4s.configuration.title" xml:space="preserve" translate="no">
@@ -336,19 +336,19 @@ Sonuç olarak, hem Otomatik Doldurma hem de KeePassium uygulaması veritabanın�
         <target state="needs-translation">{Send to Server}</target>
         <note>Class = "UIButton"; normalTitle = "{Send to Server}"; ObjectID = "6gJ-zZ-l4s";</note>
       </trans-unit>
-      <trans-unit id="VjQ-di-Ilx.text" xml:space="preserve">
+      <trans-unit id="VjQ-di-Ilx.text" xml:space="preserve" approved="yes">
         <source>Master Key</source>
-        <target state="translated">Ana Anahtar</target>
+        <target state="final">Ana Anahtar</target>
         <note>Class = "UILabel"; text = "Master Key"; ObjectID = "VjQ-di-Ilx"; Note = "Common title for the password/key file fields.";</note>
       </trans-unit>
-      <trans-unit id="XNL-lc-2Ti.placeholder" xml:space="preserve">
+      <trans-unit id="XNL-lc-2Ti.placeholder" xml:space="preserve" approved="yes">
         <source>e.g. MyPasswords</source>
-        <target state="translated">Örneğin: Şifrelerim</target>
+        <target state="final">ör.: Şifrelerim</target>
         <note>Class = "UITextField"; placeholder = "e.g. MyPasswords"; ObjectID = "XNL-lc-2Ti"; Note = "Default name for a new database.";</note>
       </trans-unit>
-      <trans-unit id="XNL-lc-2Ti.text" xml:space="preserve">
+      <trans-unit id="XNL-lc-2Ti.text" xml:space="preserve" approved="yes">
         <source>MyPasswords</source>
-        <target state="translated">Şifrelerim</target>
+        <target state="final">Şifrelerim</target>
         <note>Class = "UITextField"; text = "MyPasswords"; ObjectID = "XNL-lc-2Ti"; Note = "Default name for a new database.";</note>
       </trans-unit>
       <trans-unit id="dhd-je-Doc.title" xml:space="preserve" translate="no">
@@ -356,24 +356,24 @@ Sonuç olarak, hem Otomatik Doldurma hem de KeePassium uygulaması veritabanın�
         <target state="needs-translation">{Create Database}</target>
         <note>Class = "UINavigationItem"; title = "{Create Database}"; ObjectID = "dhd-je-Doc"; Note = "#bc-ignore!";</note>
       </trans-unit>
-      <trans-unit id="h6C-CG-RVI.configuration.title" xml:space="preserve">
+      <trans-unit id="h6C-CG-RVI.configuration.title" xml:space="preserve" approved="yes">
         <source>Save Database</source>
-        <target state="translated">Veritabanını Kaydet</target>
+        <target state="final">Veri Tabanını kaydet</target>
         <note>Class = "UIButton"; configuration.title = "Save Database"; ObjectID = "h6C-CG-RVI"; Note = "Action: save the new database (will show a file picker dialog).";</note>
       </trans-unit>
-      <trans-unit id="h6C-CG-RVI.normalTitle" xml:space="preserve">
+      <trans-unit id="h6C-CG-RVI.normalTitle" xml:space="preserve" approved="yes">
         <source>Save Database</source>
-        <target state="translated">Veritabanını Kaydet</target>
+        <target state="final">Veri Tabanını kaydet</target>
         <note>Class = "UIButton"; normalTitle = "Save Database"; ObjectID = "h6C-CG-RVI"; Note = "Action: save the new database (will show a file picker dialog).";</note>
       </trans-unit>
-      <trans-unit id="pvt-FS-0Yx.placeholder" xml:space="preserve">
+      <trans-unit id="pvt-FS-0Yx.placeholder" xml:space="preserve" approved="yes">
         <source>No Key File</source>
-        <target state="translated">Anahtar Dosyası Yok</target>
+        <target state="final">Anahtar Dosyası Yok</target>
         <note>Class = "UITextField"; placeholder = "No Key File"; ObjectID = "pvt-FS-0Yx"; Note = "Placeholder: don't use key file (should match the No Key File option in key file picker).";</note>
       </trans-unit>
-      <trans-unit id="uHk-Yt-mBh.placeholder" xml:space="preserve">
+      <trans-unit id="uHk-Yt-mBh.placeholder" xml:space="preserve" approved="yes">
         <source>Password</source>
-        <target state="translated">Şifre</target>
+        <target state="final">Şifre</target>
         <note>Class = "UITextField"; placeholder = "Password"; ObjectID = "uHk-Yt-mBh"; Note = "Placeholder: master password of the database";</note>
       </trans-unit>
       <trans-unit id="wiB-ZM-ePr.placeholder" xml:space="preserve" translate="no">
@@ -388,19 +388,19 @@ Sonuç olarak, hem Otomatik Doldurma hem de KeePassium uygulaması veritabanın�
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="26.0.1" build-num="17A400"/>
     </header>
     <body>
-      <trans-unit id="M9Q-v8-e6Q.placeholder" xml:space="preserve">
+      <trans-unit id="M9Q-v8-e6Q.placeholder" xml:space="preserve" approved="yes">
         <source>No Key File</source>
-        <target state="translated">Anahtar Dosyası Yok</target>
+        <target state="final">Anahtar Dosyası Yok</target>
         <note>Class = "UITextField"; placeholder = "No Key File"; ObjectID = "M9Q-v8-e6Q"; Note = "Placeholder: don't use key file (should match the No Key File option in key file picker).";</note>
       </trans-unit>
-      <trans-unit id="SHG-X2-fHH.placeholder" xml:space="preserve">
+      <trans-unit id="SHG-X2-fHH.placeholder" xml:space="preserve" approved="yes">
         <source>Repeat Password</source>
-        <target state="translated">Şifreyi Tekrarla</target>
+        <target state="final">Şifreyi tekrarla</target>
         <note>Class = "UITextField"; placeholder = "Repeat Password"; ObjectID = "SHG-X2-fHH"; Note = "Placeholder: the second text field for changing the master password";</note>
       </trans-unit>
-      <trans-unit id="hYP-f0-K1s.placeholder" xml:space="preserve">
+      <trans-unit id="hYP-f0-K1s.placeholder" xml:space="preserve" approved="yes">
         <source>New Password</source>
-        <target state="translated">Yeni Şifre</target>
+        <target state="final">Yeni Şifre</target>
         <note>Class = "UITextField"; placeholder = "New Password"; ObjectID = "hYP-f0-K1s"; Note = "Placeholder: text field for changing the master password";</note>
       </trans-unit>
       <trans-unit id="lzF-lh-Cod.text" xml:space="preserve" translate="no">
@@ -470,9 +470,9 @@ Sonuç olarak, hem Otomatik Doldurma hem de KeePassium uygulaması veritabanın�
         <target state="final">Başlık</target>
         <note>Class = "UITextField"; accessibilityLabel = "Custom field name"; ObjectID = "ecN-Xd-ff5";</note>
       </trans-unit>
-      <trans-unit id="ecN-Xd-ff5.placeholder" xml:space="preserve">
+      <trans-unit id="ecN-Xd-ff5.placeholder" xml:space="preserve" approved="yes">
         <source>Field Name</source>
-        <target state="translated">Alan Adı</target>
+        <target state="final">Alan Adı</target>
         <note>Class = "UITextField"; placeholder = "Field Name"; ObjectID = "ecN-Xd-ff5";</note>
       </trans-unit>
       <trans-unit id="ecN-Xd-ff5.text" xml:space="preserve" translate="no">
@@ -532,9 +532,9 @@ Sonuç olarak, hem Otomatik Doldurma hem de KeePassium uygulaması veritabanın�
         <target state="final">Metin alanını sonuna kadar genişlet</target>
         <note>Class = "UIButton"; accessibilityHint = "Expands a text field to its full height"; ObjectID = "6Mx-Oh-6m0";</note>
       </trans-unit>
-      <trans-unit id="6Mx-Oh-6m0.accessibilityLabel" xml:space="preserve">
+      <trans-unit id="6Mx-Oh-6m0.accessibilityLabel" xml:space="preserve" approved="yes">
         <source>Show more</source>
-        <target state="translated">Daha fazla göster</target>
+        <target state="final">Daha fazlasını göster</target>
         <note>Class = "UIButton"; accessibilityLabel = "Show more"; ObjectID = "6Mx-Oh-6m0";</note>
       </trans-unit>
       <trans-unit id="46A-ga-B85.text" xml:space="preserve" translate="no">
@@ -624,9 +624,9 @@ Sonuç olarak, hem Otomatik Doldurma hem de KeePassium uygulaması veritabanın�
         <target state="needs-translation">{File Name}</target>
         <note>Class = "UILabel"; text = "{File Name}"; ObjectID = "WUw-Hm-GLz"; Note = "#bc-ignore!";</note>
       </trans-unit>
-      <trans-unit id="bgK-Q6-nzE.text" xml:space="preserve">
+      <trans-unit id="bgK-Q6-nzE.text" xml:space="preserve" approved="yes">
         <source>Add File</source>
-        <target state="translated">Dosya Ekle</target>
+        <target state="final">Dosya ekle</target>
         <note>Class = "UILabel"; text = "Add File"; ObjectID = "bgK-Q6-nzE"; Note = "Action: attach a file to the entry.";</note>
       </trans-unit>
     </body>
@@ -732,9 +732,9 @@ Sonuç olarak, hem Otomatik Doldurma hem de KeePassium uygulaması veritabanın�
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="26.0.1" build-num="17A400"/>
     </header>
     <body>
-      <trans-unit id="H8v-gf-kff.title" xml:space="preserve">
+      <trans-unit id="H8v-gf-kff.title" xml:space="preserve" approved="yes">
         <source>Choose Icon</source>
-        <target state="translated">Simge Seç</target>
+        <target state="final">Simge Seç</target>
         <note>Class = "UINavigationItem"; title = "Choose Icon"; ObjectID = "H8v-gf-kff";</note>
       </trans-unit>
       <trans-unit id="jvB-IX-QoY.text" xml:space="preserve" translate="no">
@@ -771,9 +771,9 @@ Sonuç olarak, hem Otomatik Doldurma hem de KeePassium uygulaması veritabanın�
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="26.0.1" build-num="17A400"/>
     </header>
     <body>
-      <trans-unit id="CuN-tE-lAG.placeholder" xml:space="preserve">
+      <trans-unit id="CuN-tE-lAG.placeholder" xml:space="preserve" approved="yes">
         <source>Password</source>
-        <target state="translated">Şifre</target>
+        <target state="final">Şifre</target>
         <note>Class = "UITextField"; placeholder = "Password"; ObjectID = "CuN-tE-lAG"; Note = "Placeholder: database password";</note>
       </trans-unit>
       <trans-unit id="IDJ-gO-5kR.placeholder" xml:space="preserve" translate="no">
@@ -781,9 +781,9 @@ Sonuç olarak, hem Otomatik Doldurma hem de KeePassium uygulaması veritabanın�
         <target state="needs-translation">{No Hardware Key}</target>
         <note>Class = "UITextField"; placeholder = "{No Hardware Key}"; ObjectID = "IDJ-gO-5kR";</note>
       </trans-unit>
-      <trans-unit id="K3Y-ON-C19.text" xml:space="preserve">
+      <trans-unit id="K3Y-ON-C19.text" xml:space="preserve" approved="yes">
         <source>Will use the remembered master key.</source>
-        <target state="translated">Hatırlanan ana anahtar kullanacak.</target>
+        <target state="final">Hatırlanan ana anahtarı kullanır.</target>
         <note>Class = "UILabel"; text = "Will use the remembered master key."; ObjectID = "K3Y-ON-C19"; Note = "Hint shown below the Unlock button, when not asking for master password/key file.";</note>
       </trans-unit>
       <trans-unit id="LsQ-5N-nP3.text" xml:space="preserve" translate="no">
@@ -791,24 +791,24 @@ Sonuç olarak, hem Otomatik Doldurma hem de KeePassium uygulaması veritabanın�
         <target state="needs-translation">{Database file name}</target>
         <note>Class = "UILabel"; text = "{Database file name}"; ObjectID = "LsQ-5N-nP3"; Note = "#bc-ignore!";</note>
       </trans-unit>
-      <trans-unit id="eAa-Z5-pdq.title" xml:space="preserve">
+      <trans-unit id="eAa-Z5-pdq.title" xml:space="preserve" approved="yes">
         <source>Unlock Database</source>
-        <target state="translated">Veritabanının Kilidini Aç</target>
+        <target state="final">Veri Tabanının kilidini aç</target>
         <note>Class = "UIViewController"; title = "Unlock Database"; ObjectID = "eAa-Z5-pdq"; Note = "Title of the database unlocker dialog.";</note>
       </trans-unit>
-      <trans-unit id="gji-1x-co5.normalTitle" xml:space="preserve">
+      <trans-unit id="gji-1x-co5.normalTitle" xml:space="preserve" approved="yes">
         <source>Lock Database</source>
-        <target state="translated">Veritabanını Kilitle</target>
+        <target state="final">Veri Tabanını kilitle</target>
         <note>Class = "UIButton"; normalTitle = "Lock Database"; ObjectID = "gji-1x-co5";</note>
       </trans-unit>
-      <trans-unit id="l45-hq-1lr.normalTitle" xml:space="preserve">
+      <trans-unit id="l45-hq-1lr.normalTitle" xml:space="preserve" approved="yes">
         <source>Unlock</source>
-        <target state="translated">Kilidi aç</target>
+        <target state="final">Kilidi aç</target>
         <note>Class = "UIButton"; normalTitle = "Unlock"; ObjectID = "l45-hq-1lr";</note>
       </trans-unit>
-      <trans-unit id="mYY-hP-3vH.placeholder" xml:space="preserve">
+      <trans-unit id="mYY-hP-3vH.placeholder" xml:space="preserve" approved="yes">
         <source>No Key File</source>
-        <target state="translated">Anahtar Dosyası Yok</target>
+        <target state="final">Anahtar Dosyası Yok</target>
         <note>Class = "UITextField"; placeholder = "No Key File"; ObjectID = "mYY-hP-3vH"; Note = "Placeholder: don't use key file (should match the No Key File option in key file picker).";</note>
       </trans-unit>
     </body>
@@ -818,39 +818,39 @@ Sonuç olarak, hem Otomatik Doldurma hem de KeePassium uygulaması veritabanın�
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="26.0.1" build-num="17A400"/>
     </header>
     <body>
-      <trans-unit id="KeePass Database (kdb)" xml:space="preserve">
+      <trans-unit id="KeePass Database (kdb)" xml:space="preserve" approved="yes">
         <source>KeePass Database (kdb)</source>
-        <target state="translated">KeePass Veritabanı (kdb)</target>
+        <target state="final">KeePass Veri Tabanı (kdb)</target>
         <note>(No Comment)</note>
       </trans-unit>
-      <trans-unit id="KeePass Database (kdbx)" xml:space="preserve">
+      <trans-unit id="KeePass Database (kdbx)" xml:space="preserve" approved="yes">
         <source>KeePass Database (kdbx)</source>
-        <target state="translated">KeePass Veritabanı (kdb)</target>
+        <target state="final">KeePass Veri Tabanı (kdbx)</target>
         <note>(No Comment)</note>
       </trans-unit>
-      <trans-unit id="NFCReaderUsageDescription" xml:space="preserve">
+      <trans-unit id="NFCReaderUsageDescription" xml:space="preserve" approved="yes">
         <source>KeePassium needs access to NFC to communicate with your YubiKey.</source>
-        <target state="translated">YubiKey'le iletişime geçebilmek için KeePassium'un NFC erişimine ihtiyacı vardır.</target>
+        <target state="final">YubiKey'inizle iletişime geçmek için KeePassium'un NFC erişimine ihtiyacı var.</target>
         <note>Privacy - NFC Scan Usage Description</note>
       </trans-unit>
-      <trans-unit id="NSCameraUsageDescription" xml:space="preserve">
+      <trans-unit id="NSCameraUsageDescription" xml:space="preserve" approved="yes">
         <source>KeePassium needs the camera to scan QR codes.</source>
-        <target state="translated">Kare kodları tarama için KeePassium'un kameraya erişmeye ihtiyacı vardır.</target>
+        <target state="final">QR kodları taramak için KeePassium'un kameraya ihtiyacı var.</target>
         <note>Privacy - Camera Usage Description</note>
       </trans-unit>
-      <trans-unit id="NSFaceIDUsageDescription" xml:space="preserve">
+      <trans-unit id="NSFaceIDUsageDescription" xml:space="preserve" approved="yes">
         <source>Use FaceID to unlock KeePassium</source>
-        <target state="translated">KeePassium'un kilidini açmak için FaceID kullan</target>
+        <target state="final">KeePassium'un kilidini açmak için FaceID'yi kullanın</target>
         <note>Privacy - Face ID Usage Description</note>
       </trans-unit>
-      <trans-unit id="NSPhotoLibraryAddUsageDescription" xml:space="preserve">
+      <trans-unit id="NSPhotoLibraryAddUsageDescription" xml:space="preserve" approved="yes">
         <source>KeePassium needs permission to export files to your Photo Library.</source>
-        <target state="translated">Dosyaları dışa aktarmak için KeePassium'un Fotoğraf Kütüphanesine erişmeye ihtiyacı vardır.</target>
+        <target state="final">Dosyaları Fotoğraf Kitaplığınıza aktarmak için KeePassium'un izne ihtiyacı var.</target>
         <note>Privacy - Photo Library Additions Usage Description</note>
       </trans-unit>
-      <trans-unit id="NSPhotoLibraryUsageDescription" xml:space="preserve">
+      <trans-unit id="NSPhotoLibraryUsageDescription" xml:space="preserve" approved="yes">
         <source>KeePassium needs access to select images for custom icons and to scan QR codes for OTP setup.</source>
-        <target state="needs-translation">KeePassium needs access to select images for custom icons and to scan QR codes for OTP setup.</target>
+        <target state="final">KeePassium'un özel simgelere görüntü seçmek ve OTP kurulumu için QR kodu taramak için erişime ihtiyacı var.</target>
         <note>Privacy - Photo Library Usage Description</note>
       </trans-unit>
     </body>
@@ -860,9 +860,9 @@ Sonuç olarak, hem Otomatik Doldurma hem de KeePassium uygulaması veritabanın�
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="26.0.1" build-num="17A400"/>
     </header>
     <body>
-      <trans-unit id="[About/altTitle]" xml:space="preserve">
+      <trans-unit id="[About/altTitle]" xml:space="preserve" approved="yes">
         <source>About KeePassium</source>
-        <target state="translated">KeePassium Hakkında</target>
+        <target state="final">KeePassium hakkında</target>
         <note>Menu item that shows info about KeePassium app</note>
       </trans-unit>
       <trans-unit id="[AppHistory/title]" xml:space="preserve" approved="yes">
@@ -870,29 +870,29 @@ Sonuç olarak, hem Otomatik Doldurma hem de KeePassium uygulaması veritabanın�
         <target state="final">Neler Değişti?</target>
         <note>Title of the app history (changelog) screen</note>
       </trans-unit>
-      <trans-unit id="[AppLock/weakPasscodeWarning]" xml:space="preserve">
+      <trans-unit id="[AppLock/weakPasscodeWarning]" xml:space="preserve" approved="yes">
         <source>This passcode is easy to guess. Try entering a stronger one.</source>
-        <target state="needs-translation">This passcode is easy to guess. Try entering a stronger one.</target>
+        <target state="final">Bu şifre kodunun tahmin edilmesi çok kolay. Daha güçlü bir şifre kodu girmeyi deneyin.</target>
         <note>Notification when user tries to set up too weak an app protection passcode.</note>
       </trans-unit>
-      <trans-unit id="[Appearance/AppIcon/title]" xml:space="preserve">
+      <trans-unit id="[Appearance/AppIcon/title]" xml:space="preserve" approved="yes">
         <source>App Icon</source>
-        <target state="translated">Uygulama Simgesi</target>
+        <target state="final">Uygulama Simgesi</target>
         <note>Section in settings: icon for the app</note>
       </trans-unit>
-      <trans-unit id="[Appearance/DatabaseIcons/title]" xml:space="preserve">
+      <trans-unit id="[Appearance/DatabaseIcons/title]" xml:space="preserve" approved="yes">
         <source>Database Icons</source>
-        <target state="translated">Veritabanı simgeleri</target>
+        <target state="final">Veri Tabanı Simgeleri</target>
         <note>Section in settings: icons for database</note>
       </trans-unit>
-      <trans-unit id="[Appearance/DefaultFont/shortTitle]" xml:space="preserve">
+      <trans-unit id="[Appearance/DefaultFont/shortTitle]" xml:space="preserve" approved="yes">
         <source>Default</source>
-        <target state="needs-translation">Default</target>
+        <target state="final">Varsayılan</target>
         <note>Short name of the default/system font. For example: `Font: Default`</note>
       </trans-unit>
-      <trans-unit id="[Appearance/EntryViewer/OpenLastUsedTab/title]" xml:space="preserve">
+      <trans-unit id="[Appearance/EntryViewer/OpenLastUsedTab/title]" xml:space="preserve" approved="yes">
         <source>Open Last Used Tab</source>
-        <target state="needs-translation">Open Last Used Tab</target>
+        <target state="final">Son Kullanılan Sekmesini aç</target>
         <note>Title of a setting: whether the Entry Viewer should open on the same tab/page when switching between entries, or switch to the first tab instead.</note>
       </trans-unit>
       <trans-unit id="[Appearance/EntryViewer/title]" xml:space="preserve" approved="yes">
@@ -900,9 +900,9 @@ Sonuç olarak, hem Otomatik Doldurma hem de KeePassium uygulaması veritabanın�
         <target state="final">Metin Boyutu</target>
         <note>Section in settings: parameters related to entry viewer component</note>
       </trans-unit>
-      <trans-unit id="[Appearance/Font/title]" xml:space="preserve">
+      <trans-unit id="[Appearance/Font/title]" xml:space="preserve" approved="yes">
         <source>Font</source>
-        <target state="needs-translation">Font</target>
+        <target state="final">Yazı Tipi</target>
         <note>Title of a setting option: font</note>
       </trans-unit>
       <trans-unit id="[Appearance/TextSize/reset]" xml:space="preserve" approved="yes">
@@ -910,264 +910,264 @@ Sonuç olarak, hem Otomatik Doldurma hem de KeePassium uygulaması veritabanın�
         <target state="final">Metin boyutunu varsayılana sıfırla</target>
         <note>Action: set text size to standard size</note>
       </trans-unit>
-      <trans-unit id="[Appearance/TextSize/title]" xml:space="preserve">
+      <trans-unit id="[Appearance/TextSize/title]" xml:space="preserve" approved="yes">
         <source>Text Size</source>
-        <target state="translated">Metin Boyutu</target>
+        <target state="final">Metin Boyutu</target>
         <note>Title of a setting option: font size</note>
       </trans-unit>
-      <trans-unit id="[Appearance/title]" xml:space="preserve">
+      <trans-unit id="[Appearance/title]" xml:space="preserve" approved="yes">
         <source>Appearance</source>
-        <target state="translated">Görünüm</target>
+        <target state="final">Görünüm</target>
         <note>Group of settings for user interface appearance (text size, icons, etc)</note>
       </trans-unit>
-      <trans-unit id="[ContactUs/subtitle]" xml:space="preserve">
+      <trans-unit id="[ContactUs/subtitle]" xml:space="preserve" approved="yes">
         <source>Suggestions? Problems? Let us know!</source>
-        <target state="translated">Öneriler? Problemler? Bize haber verin!</target>
+        <target state="final">Önerileriniz ya da sorunlarınız mı var? Bizimle paylaşın!</target>
         <note>Subtitle for `Contact Us`. Keep it short.</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/aexml]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/aexml]" xml:space="preserve" approved="yes">
         <source>AEXML by Marko Tadić</source>
-        <target state="needs-translation">AEXML by Marko Tadić</target>
+        <target state="final">Marko Tadić'ten AEXML</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/argon2]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/argon2]" xml:space="preserve" approved="yes">
         <source>Argon2 by Daniel Dinu, Dmitry Khovratovich, Jean-Philippe Aumasson, and Samuel Neves</source>
-        <target state="needs-translation">Argon2 by Daniel Dinu, Dmitry Khovratovich, Jean-Philippe Aumasson, and Samuel Neves</target>
+        <target state="final">Daniel Dinu, Dmitry Khovratovich, Jean-Philippe Aumasson ve Samuel Neves'ten Argon2</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/base32]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/base32]" xml:space="preserve" approved="yes">
         <source>Base32 for Swift by Norio Nomura</source>
-        <target state="needs-translation">Base32 for Swift by Norio Nomura</target>
+        <target state="final">Norio Nomura'dan Base32 for Swift</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/chaCha20]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/chaCha20]" xml:space="preserve" approved="yes">
         <source>ChaCha20 &amp; Salsa20 implementation by D. J. Bernstein</source>
-        <target state="needs-translation">ChaCha20 &amp; Salsa20 implementation by D. J. Bernstein</target>
+        <target state="final">D. J. Bernstein'den ChaCha20 ve Salsa20 uygulaması</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/fancyDebossPattern]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/fancyDebossPattern]" xml:space="preserve" approved="yes">
         <source>Fancy deboss pattern by Daniel Beaton</source>
-        <target state="needs-translation">Fancy deboss pattern by Daniel Beaton</target>
+        <target state="final">Daniel Beaton'dan özel pütürlü desen</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/featherIcons]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/featherIcons]" xml:space="preserve" approved="yes">
         <source>Feather icons by Cole Bemis</source>
-        <target state="needs-translation">Feather icons by Cole Bemis</target>
+        <target state="final">Cole Bemis'ten tüy simgeleri</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/gzipSwift]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/gzipSwift]" xml:space="preserve" approved="yes">
         <source>GzipSwift by 1024jp</source>
-        <target state="needs-translation">GzipSwift by 1024jp</target>
+        <target state="final">1024jp'den GzipSwift</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/icons8]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/icons8]" xml:space="preserve" approved="yes">
         <source>Icons by Icons8</source>
-        <target state="needs-translation">Icons by Icons8</target>
+        <target state="final">Icon8'ten simgeler</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/ionIcons]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/ionIcons]" xml:space="preserve" approved="yes">
         <source>Ionicons by Ionic</source>
-        <target state="needs-translation">Ionicons by Ionic</target>
+        <target state="final">Ionic'ten Ionicons</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/keePassXCIcons]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/keePassXCIcons]" xml:space="preserve" approved="yes">
         <source>Icons by KeePassXC team</source>
-        <target state="needs-translation">Icons by KeePassXC team</target>
+        <target state="final">KeePassXC ekibinden simgeler</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/keePass]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/keePass]" xml:space="preserve" approved="yes">
         <source>KeePass by Dominik Reichl</source>
-        <target state="needs-translation">KeePass by Dominik Reichl</target>
+        <target state="final">Dominik Reichl'dan KeePass</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/lineIcons]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/lineIcons]" xml:space="preserve" approved="yes">
         <source>Linecons by Andrian Valeanu</source>
-        <target state="needs-translation">Linecons by Andrian Valeanu</target>
+        <target state="final">Andrian Valeanu'dan Linecons</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/nuvolaIcons]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/nuvolaIcons]" xml:space="preserve" approved="yes">
         <source>Nuvola icons by David Vignoni</source>
-        <target state="needs-translation">Nuvola icons by David Vignoni</target>
+        <target state="final">David Vignoni'den Nuvola simgeleri</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/rijndael]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/rijndael]" xml:space="preserve" approved="yes">
         <source>Rijndael implementation by Szymon Stefanek</source>
-        <target state="needs-translation">Rijndael implementation by Szymon Stefanek</target>
+        <target state="final">Szymon Stefanek'ten Rijndael uygulaması</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/swiftDomainParser]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/swiftDomainParser]" xml:space="preserve" approved="yes">
         <source>SwiftDomainParser by Dashlane</source>
-        <target state="needs-translation">SwiftDomainParser by Dashlane</target>
+        <target state="final">Dashlane'den SwiftDomainParser</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/systemSettingsIcon]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/systemSettingsIcon]" xml:space="preserve" approved="yes">
         <source>System settings icon by Vicons Design</source>
-        <target state="needs-translation">System settings icon by Vicons Design</target>
+        <target state="final">Vicons Design'dan sistem ayarları simgesi</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/toastSwift]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/toastSwift]" xml:space="preserve" approved="yes">
         <source>Toast-Swift by Charles Scalesse</source>
-        <target state="needs-translation">Toast-Swift by Charles Scalesse</target>
+        <target state="final">Charles Scalesse'den Toast-Swift</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/tpInappReceipt]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/tpInappReceipt]" xml:space="preserve" approved="yes">
         <source>TPInAppReceipt by Pavel Tikhonenko</source>
-        <target state="needs-translation">TPInAppReceipt by Pavel Tikhonenko</target>
+        <target state="final">Pavel Tikhonenko'dan TPInAppReceipt</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/translations]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/translations]" xml:space="preserve" approved="yes">
         <source>Translation by KeePassium contributors</source>
-        <target state="needs-translation">Translation by KeePassium contributors</target>
+        <target state="final">KeePassium'a katkıda bulunanların çevirileri</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/twoFish]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/twoFish]" xml:space="preserve" approved="yes">
         <source>Twofish implementation by Niels Ferguson</source>
-        <target state="needs-translation">Twofish implementation by Niels Ferguson</target>
+        <target state="final">Niels Ferguson'dan Twofish uygulaması</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/whatsNewKit]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/whatsNewKit]" xml:space="preserve" approved="yes">
         <source>WhatsNewKit by Sven Tiigi</source>
-        <target state="needs-translation">WhatsNewKit by Sven Tiigi</target>
+        <target state="final">Sven Tiigi'den WhatsNewKit</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/wordlists]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/wordlists]" xml:space="preserve" approved="yes">
         <source>Passphrase wordlists by EFF</source>
-        <target state="needs-translation">Passphrase wordlists by EFF</target>
+        <target state="final">EFF'den geçiş ifadesi kelime listeleri</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/yubico]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/yubico]" xml:space="preserve" approved="yes">
         <source>Yubico Mobile iOS SDK by Yubico AB</source>
-        <target state="needs-translation">Yubico Mobile iOS SDK by Yubico AB</target>
+        <target state="final">Yubico AB'den Yubico Mobile iOS SDK</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/zxcvbn]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/zxcvbn]" xml:space="preserve" approved="yes">
         <source>zxcvbn-ios by Dropbox</source>
-        <target state="needs-translation">zxcvbn-ios by Dropbox</target>
+        <target state="final">Dropbox'tan zxcvbn-ios</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/License/apache2]" xml:space="preserve">
+      <trans-unit id="[Credits/License/apache2]" xml:space="preserve" approved="yes">
         <source>Apache 2.0 license</source>
-        <target state="needs-translation">Apache 2.0 license</target>
+        <target state="final">Apache 2.0 lisansı</target>
         <note>License name for credits</note>
       </trans-unit>
-      <trans-unit id="[Credits/License/cc0]" xml:space="preserve">
+      <trans-unit id="[Credits/License/cc0]" xml:space="preserve" approved="yes">
         <source>CC0 license</source>
-        <target state="needs-translation">CC0 license</target>
+        <target state="final">CC0 lisansı</target>
         <note>License name for credits</note>
       </trans-unit>
-      <trans-unit id="[Credits/License/ccBy3]" xml:space="preserve">
+      <trans-unit id="[Credits/License/ccBy3]" xml:space="preserve" approved="yes">
         <source>CC BY 3.0</source>
-        <target state="needs-translation">CC BY 3.0</target>
+        <target state="final">CC BY 3.0</target>
         <note>License name for credits</note>
       </trans-unit>
-      <trans-unit id="[Credits/License/ccByNd]" xml:space="preserve">
+      <trans-unit id="[Credits/License/ccByNd]" xml:space="preserve" approved="yes">
         <source>CC BY-ND 3.0</source>
-        <target state="needs-translation">CC BY-ND 3.0</target>
+        <target state="final">CC BY-ND 3.0</target>
         <note>License name for credits</note>
       </trans-unit>
-      <trans-unit id="[Credits/License/customPermissiveLicense]" xml:space="preserve">
+      <trans-unit id="[Credits/License/customPermissiveLicense]" xml:space="preserve" approved="yes">
         <source>Custom permissive license</source>
-        <target state="needs-translation">Custom permissive license</target>
+        <target state="final">Özel izin lisansı</target>
         <note>License name for credits</note>
       </trans-unit>
-      <trans-unit id="[Credits/License/gpl]" xml:space="preserve">
+      <trans-unit id="[Credits/License/gpl]" xml:space="preserve" approved="yes">
         <source>GPL license</source>
-        <target state="needs-translation">GPL license</target>
+        <target state="final">GPL lisansı</target>
         <note>License name for credits</note>
       </trans-unit>
-      <trans-unit id="[Credits/License/lgpl]" xml:space="preserve">
+      <trans-unit id="[Credits/License/lgpl]" xml:space="preserve" approved="yes">
         <source>LGPL license</source>
-        <target state="needs-translation">LGPL license</target>
+        <target state="final">LGPL lisansı</target>
         <note>License name for credits</note>
       </trans-unit>
-      <trans-unit id="[Credits/License/mit]" xml:space="preserve">
+      <trans-unit id="[Credits/License/mit]" xml:space="preserve" approved="yes">
         <source>MIT license</source>
-        <target state="needs-translation">MIT license</target>
+        <target state="final">MIT lisansı</target>
         <note>License name for credits</note>
       </trans-unit>
-      <trans-unit id="[Credits/License/proprietary]" xml:space="preserve">
+      <trans-unit id="[Credits/License/proprietary]" xml:space="preserve" approved="yes">
         <source>Proprietary license</source>
-        <target state="needs-translation">Proprietary license</target>
+        <target state="final">Kişisel lisans</target>
         <note>License name for credits</note>
       </trans-unit>
-      <trans-unit id="[Credits/License/publicDomain]" xml:space="preserve">
+      <trans-unit id="[Credits/License/publicDomain]" xml:space="preserve" approved="yes">
         <source>Public Domain</source>
-        <target state="needs-translation">Public Domain</target>
+        <target state="final">Herkese Açık Etki Alanı</target>
         <note>License name for credits</note>
       </trans-unit>
-      <trans-unit id="[Database/Create/TemplateEntry/notes] You can also store some notes, if you like." xml:space="preserve">
+      <trans-unit id="[Database/Create/TemplateEntry/notes] You can also store some notes, if you like." xml:space="preserve" approved="yes">
         <source>You can also store some notes, if you like.</source>
-        <target state="translated">İsterseniz buraya birkaç not da alabilirsiniz.</target>
+        <target state="final">İsterseniz not da saklayabilirsiniz.</target>
         <note>Note for a sample entry</note>
       </trans-unit>
-      <trans-unit id="[Database/Create/TemplateEntry/password] pa$$word" xml:space="preserve">
+      <trans-unit id="[Database/Create/TemplateEntry/password] pa$$word" xml:space="preserve" approved="yes">
         <source>pa$$word</source>
-        <target state="translated">Şifre $word</target>
+        <target state="final">pa$$word</target>
         <note>Password for a sample entry. Translation is optional.</note>
       </trans-unit>
-      <trans-unit id="[Database/Create/TemplateEntry/title] Sample Entry" xml:space="preserve">
+      <trans-unit id="[Database/Create/TemplateEntry/title] Sample Entry" xml:space="preserve" approved="yes">
         <source>Sample Entry</source>
-        <target state="translated">Örnek Girdi</target>
+        <target state="final">Örnek Girdi</target>
         <note>Title for a sample entry</note>
       </trans-unit>
-      <trans-unit id="[Database/Create/TemplateEntry/userName] john.smith" xml:space="preserve">
+      <trans-unit id="[Database/Create/TemplateEntry/userName] john.smith" xml:space="preserve" approved="yes">
         <source>john.smith</source>
-        <target state="translated">mehmet.yildiz</target>
+        <target state="final">john.smith</target>
         <note>User name for a sample entry. Set it to a typical person name for your language ( https://en.wikipedia.org/wiki/List_of_placeholder_names_by_language).</note>
       </trans-unit>
-      <trans-unit id="[Database/Create/TemplateGroup/title] Email" xml:space="preserve">
+      <trans-unit id="[Database/Create/TemplateGroup/title] Email" xml:space="preserve" approved="yes">
         <source>Email</source>
-        <target state="translated">e-mail</target>
+        <target state="final">E-posta</target>
         <note>Predefined group in a new database</note>
       </trans-unit>
-      <trans-unit id="[Database/Create/TemplateGroup/title] Finance" xml:space="preserve">
+      <trans-unit id="[Database/Create/TemplateGroup/title] Finance" xml:space="preserve" approved="yes">
         <source>Finance</source>
-        <target state="translated">Finans</target>
+        <target state="final">Finans</target>
         <note>Predefined group in a new database</note>
       </trans-unit>
-      <trans-unit id="[Database/Create/TemplateGroup/title] General" xml:space="preserve">
+      <trans-unit id="[Database/Create/TemplateGroup/title] General" xml:space="preserve" approved="yes">
         <source>General</source>
-        <target state="translated">Genel</target>
+        <target state="final">Genel</target>
         <note>Predefined group in a new database</note>
       </trans-unit>
-      <trans-unit id="[Database/Create/TemplateGroup/title] Internet" xml:space="preserve">
+      <trans-unit id="[Database/Create/TemplateGroup/title] Internet" xml:space="preserve" approved="yes">
         <source>Internet</source>
-        <target state="translated">İnternet</target>
+        <target state="final">İnternet</target>
         <note>Predefined group in a new database</note>
       </trans-unit>
-      <trans-unit id="[Database/Create/TemplateGroup/title] Network" xml:space="preserve">
+      <trans-unit id="[Database/Create/TemplateGroup/title] Network" xml:space="preserve" approved="yes">
         <source>Network</source>
-        <target state="translated">Ağ</target>
+        <target state="final">Ağ</target>
         <note>Predefined group in a new database</note>
       </trans-unit>
-      <trans-unit id="[Database/Create/TemplateGroup/title] OS" xml:space="preserve">
+      <trans-unit id="[Database/Create/TemplateGroup/title] OS" xml:space="preserve" approved="yes">
         <source>OS</source>
-        <target state="translated">İşletim Sistemi</target>
+        <target state="final">İşletim Sistemi</target>
         <note>Predefined `Operating system` group in a new database</note>
       </trans-unit>
-      <trans-unit id="[Database/Create/orgRequiresStronger]" xml:space="preserve">
+      <trans-unit id="[Database/Create/orgRequiresStronger]" xml:space="preserve" approved="yes">
         <source>Your organization requires a more complex database password.</source>
-        <target state="needs-translation">Your organization requires a more complex database password.</target>
+        <target state="final">Kuruluşunuz daha karmaşık bir veri tabanı şifresi gerektiriyor.</target>
         <note>Notification for business users when they set up too weak database password.</note>
       </trans-unit>
-      <trans-unit id="[Database/Create/weakPasswordWarning]" xml:space="preserve">
+      <trans-unit id="[Database/Create/weakPasswordWarning]" xml:space="preserve" approved="yes">
         <source>This password is easy to guess. Try entering a stronger one.</source>
-        <target state="needs-translation">This password is easy to guess. Try entering a stronger one.</target>
+        <target state="final">Bu şifreyi tahmin etmesi kolay. Daha güçlü bir şifre girmeyi deneyin.</target>
         <note>Notification when user sets up too weak a database password.</note>
       </trans-unit>
-      <trans-unit id="[Database/Create] Please enter a password or choose a key file." xml:space="preserve">
+      <trans-unit id="[Database/Create] Please enter a password or choose a key file." xml:space="preserve" approved="yes">
         <source>Please enter a password or choose a key file.</source>
-        <target state="translated">Lütfen bir şifre girin ya da anahtar dosya seçin.</target>
+        <target state="final">Lütfen bir şifre girin ya da anahtar dosyası seçin.</target>
         <note>Hint shown when both password and key file are empty.</note>
       </trans-unit>
-      <trans-unit id="[Database/DownloadFavicons/intro]" xml:space="preserve">
+      <trans-unit id="[Database/DownloadFavicons/intro]" xml:space="preserve" approved="yes">
         <source>KeePassium will contact websites associated with each entry.</source>
-        <target state="needs-translation">KeePassium will contact websites associated with each entry.</target>
+        <target state="final">KeePassium, her girdi ile ilişkili web siteleriyle iletişime geçecek.</target>
         <note>Description of favicon downloader feature.</note>
       </trans-unit>
-      <trans-unit id="[Database/DownloadFavicons/warning]" xml:space="preserve">
+      <trans-unit id="[Database/DownloadFavicons/warning]" xml:space="preserve" approved="yes">
         <source>Doing this on a public or monitored network can expose the list of websites where you have an account.</source>
-        <target state="needs-translation">Doing this on a public or monitored network can expose the list of websites where you have an account.</target>
+        <target state="final">Bunu herkese açık veya izlenen bir ağda yapmak, hesabınız olan web sitelerinin listesini açığa çıkarabilir.</target>
         <note>Description of favicon downloader feature. 'Doing this' refers to downloading favicons.</note>
       </trans-unit>
       <trans-unit id="[Database/Group/empty]" xml:space="preserve" approved="yes">
@@ -1175,374 +1175,374 @@ Sonuç olarak, hem Otomatik Doldurma hem de KeePassium uygulaması veritabanın�
         <target state="final">Bu grup boş</target>
         <note>Placeholder text in an empty group</note>
       </trans-unit>
-      <trans-unit id="[Database/KDF/consideredWeak]" xml:space="preserve">
+      <trans-unit id="[Database/KDF/consideredWeak]" xml:space="preserve" approved="yes">
         <source>%1$@ is considered weak. Use %2$@ instead.</source>
-        <target state="needs-translation">%1$@ is considered weak. Use %2$@ instead.</target>
+        <target state="final">%1$@ zayıf kabul ediliyor. Bunun yerine %2$@ kullanın.</target>
         <note>Warning that one key derivation function (KDF) should be preferred to another. Example: 'AES-KDF is considered weak. Use Argon2id instead.'</note>
       </trans-unit>
-      <trans-unit id="[Database/KDF/tooSlow]" xml:space="preserve">
+      <trans-unit id="[Database/KDF/tooSlow]" xml:space="preserve" approved="yes">
         <source>These settings may be too slow for some devices.</source>
-        <target state="needs-translation">These settings may be too slow for some devices.</target>
+        <target state="final">Bu ayarlar bazı cihazlar için çok yavaş olabilir.</target>
         <note>Notification message about encryption settings.</note>
       </trans-unit>
-      <trans-unit id="[Database/KDF/tooWeak]" xml:space="preserve">
+      <trans-unit id="[Database/KDF/tooWeak]" xml:space="preserve" approved="yes">
         <source>Increase the settings for optimal data protection.</source>
-        <target state="needs-translation">Increase the settings for optimal data protection.</target>
+        <target state="final">Veri korumasını en iyi hâle getirmek için ayarları artırın.</target>
         <note>Call to action when encryption settings are too weak.</note>
       </trans-unit>
-      <trans-unit id="[DiagLog/subtitle]" xml:space="preserve">
+      <trans-unit id="[DiagLog/subtitle]" xml:space="preserve" approved="yes">
         <source>For expert troubleshooting</source>
-        <target state="translated">İleri düzey kullanıcılar için..</target>
+        <target state="final">Uzman hata giderme için</target>
         <note>Subtitle for `Diagnostic Log`. Keep it short.</note>
       </trans-unit>
-      <trans-unit id="[Entry/Files/Add] Replace existing attachment?" xml:space="preserve">
+      <trans-unit id="[Entry/Files/Add] Replace existing attachment?" xml:space="preserve" approved="yes">
         <source>Replace existing attachment?</source>
-        <target state="translated">Mevcut dosyanın yerine yapıştırılsın mı?</target>
+        <target state="final">Mevcut ek değiştirilsin mi?</target>
         <note>Confirmation message to replace an existing entry attachment with a new one.</note>
       </trans-unit>
-      <trans-unit id="[Entry/Files/Add] This database supports only one attachment per entry, and there is already one." xml:space="preserve">
+      <trans-unit id="[Entry/Files/Add] This database supports only one attachment per entry, and there is already one." xml:space="preserve" approved="yes">
         <source>This database supports only one attachment per entry, and there is already one.</source>
-        <target state="translated">Bu veritabanı girdi başına sadece bir dosya eklemeye izin veriyor, daha fazla eklenemez.</target>
+        <target state="final">Bu veri tabanı, girdi başına sadece bir eki destekler ve zaten bir tane var.</target>
         <note>Explanation for replacing the only attachment of KeePass1 entry</note>
       </trans-unit>
-      <trans-unit id="[Entry/Files/Rename/title] Rename File" xml:space="preserve">
+      <trans-unit id="[Entry/Files/Rename/title] Rename File" xml:space="preserve" approved="yes">
         <source>Rename File</source>
-        <target state="translated">Yeniden Adlandır</target>
+        <target state="final">Dosyayı yeniden adlandırın</target>
         <note>Title of a dialog for renaming an attached file</note>
       </trans-unit>
-      <trans-unit id="[Entry/Tab/Files/title]" xml:space="preserve">
+      <trans-unit id="[Entry/Tab/Files/title]" xml:space="preserve" approved="yes">
         <source>Files</source>
-        <target state="translated">Dosyalar</target>
+        <target state="final">Dosyalar</target>
         <note>Title of entry viewer's tab with files attached to the entry</note>
       </trans-unit>
-      <trans-unit id="[Entry/Tab/General/title]" xml:space="preserve">
+      <trans-unit id="[Entry/Tab/General/title]" xml:space="preserve" approved="yes">
         <source>General</source>
-        <target state="translated">Genel</target>
+        <target state="final">Genel</target>
         <note>Title of entry viewer's tab with the entry's main information</note>
       </trans-unit>
-      <trans-unit id="[Entry/Tab/History/title]" xml:space="preserve">
+      <trans-unit id="[Entry/Tab/History/title]" xml:space="preserve" approved="yes">
         <source>History</source>
-        <target state="translated">Tarihçe</target>
+        <target state="final">Geçmiş</target>
         <note>Title of entry viewer's tab with previous revisions of the entry</note>
       </trans-unit>
-      <trans-unit id="[Entry/Tab/More/title]" xml:space="preserve">
+      <trans-unit id="[Entry/Tab/More/title]" xml:space="preserve" approved="yes">
         <source>More</source>
-        <target state="needs-translation">More</target>
+        <target state="final">Daha fazla</target>
         <note>Title of entry viewer's tab with advanced/secondary properties</note>
       </trans-unit>
-      <trans-unit id="[Format/ApplePasswordsCSV]" xml:space="preserve">
+      <trans-unit id="[Format/ApplePasswordsCSV]" xml:space="preserve" approved="yes">
         <source>Apple Passwords (.csv)</source>
-        <target state="needs-translation">Apple Passwords (.csv)</target>
+        <target state="final">Apple Şifreleri (.csv)</target>
         <note>Name of Apple Passwords' CSV file format</note>
       </trans-unit>
-      <trans-unit id="[Format/EnpassJSON]" xml:space="preserve">
+      <trans-unit id="[Format/EnpassJSON]" xml:space="preserve" approved="yes">
         <source>Enpass (.json)</source>
-        <target state="translated">Enpass (.json)</target>
+        <target state="final">Enpass (.json)</target>
         <note>Name of Enpass' JSON file format</note>
       </trans-unit>
-      <trans-unit id="[Import/CSV/Error/InvalidFormat/withColumn]" xml:space="preserve">
+      <trans-unit id="[Import/CSV/Error/InvalidFormat/withColumn]" xml:space="preserve" approved="yes">
         <source>Invalid CSV format at line %1$d, column %2$d.</source>
-        <target state="needs-translation">Invalid CSV format at line %1$d, column %2$d.</target>
+        <target state="final">%1$d. satır, %2$d. sütunda geçersiz CSV formatı.</target>
         <note>Error message when CSV parsing fails [lineNumber: Int, colNumber: Int]</note>
       </trans-unit>
-      <trans-unit id="[Import/CSV/Error/InvalidFormat]" xml:space="preserve">
+      <trans-unit id="[Import/CSV/Error/InvalidFormat]" xml:space="preserve" approved="yes">
         <source>Invalid CSV format at line %d.</source>
-        <target state="needs-translation">Invalid CSV format at line %d.</target>
+        <target state="final">%d. satırda geçersiz CSV formatı.</target>
         <note>Error message when CSV parsing fails [lineNumber: Int]</note>
       </trans-unit>
-      <trans-unit id="[Import/Enpass/Error/CorruptedAttachment]" xml:space="preserve">
+      <trans-unit id="[Import/Enpass/Error/CorruptedAttachment]" xml:space="preserve" approved="yes">
         <source>Corrupted data for attachment '%1$@' in item '%2$@'.</source>
-        <target state="needs-translation">Corrupted data for attachment '%1$@' in item '%2$@'.</target>
+        <target state="final">"%2$@" ögesinde "%1$@" eki için bozulmuş veriler.</target>
         <note>Error message when Enpass import fails due to corrupted attachment data [attachmentName: String, itemName: String]</note>
       </trans-unit>
-      <trans-unit id="[Import/Error/EmptyFile]" xml:space="preserve">
+      <trans-unit id="[Import/Error/EmptyFile]" xml:space="preserve" approved="yes">
         <source>Incoming file is empty.</source>
-        <target state="needs-translation">Incoming file is empty.</target>
+        <target state="final">Gelen dosya boş.</target>
         <note>Error shown when trying to import from an empty file</note>
       </trans-unit>
-      <trans-unit id="[Import/JSON/ParsingError]" xml:space="preserve">
+      <trans-unit id="[Import/JSON/ParsingError]" xml:space="preserve" approved="yes">
         <source>Failed to parse JSON file.</source>
-        <target state="needs-translation">Failed to parse JSON file.</target>
+        <target state="final">JSON dosyası ayrıştırılamadı.</target>
         <note>Error message when JSON parsing fails</note>
       </trans-unit>
-      <trans-unit id="[Onboarding/AddExistingDatabase/action]" xml:space="preserve">
+      <trans-unit id="[Onboarding/AddExistingDatabase/action]" xml:space="preserve" approved="yes">
         <source>Add Existing Database</source>
-        <target state="translated">Varolan Bir Veritabanını Ekle</target>
+        <target state="final">Mevcut Veri Tabanı ekle</target>
         <note>Action/button</note>
       </trans-unit>
-      <trans-unit id="[Onboarding/AppProtection/activate]" xml:space="preserve">
+      <trans-unit id="[Onboarding/AppProtection/activate]" xml:space="preserve" approved="yes">
         <source>Activate App Protection</source>
-        <target state="translated">Uygulama kilidini etkinleştir</target>
+        <target state="final">Uygulama Korumasını etkinleştir</target>
         <note>Action/button to set up the App Protection feature. Not a call to action.</note>
       </trans-unit>
-      <trans-unit id="[Onboarding/AppProtection/text1]" xml:space="preserve">
+      <trans-unit id="[Onboarding/AppProtection/text1]" xml:space="preserve" approved="yes">
         <source>KeePassium is your vault. App protection ensures that only you can open it.</source>
-        <target state="needs-translation">KeePassium is your vault. App protection ensures that only you can open it.</target>
+        <target state="final">KeePassium kasa odanızda. Uygulama koruması, yalnızca sizin açabilmenizi sağlar.</target>
         <note>Text in the App Protection onboarding screen.</note>
       </trans-unit>
-      <trans-unit id="[Onboarding/AppProtection/title]" xml:space="preserve">
+      <trans-unit id="[Onboarding/AppProtection/title]" xml:space="preserve" approved="yes">
         <source>For Your Eyes Only</source>
-        <target state="needs-translation">For Your Eyes Only</target>
+        <target state="final">Yalnızca Size Özel</target>
         <note>Title of the App Protection onboarding screen</note>
       </trans-unit>
-      <trans-unit id="[Onboarding/AutoFill/activate]" xml:space="preserve">
+      <trans-unit id="[Onboarding/AutoFill/activate]" xml:space="preserve" approved="yes">
         <source>Activate AutoFill</source>
-        <target state="needs-translation">Activate AutoFill</target>
+        <target state="final">Otomatik Doldurma'yı etkinleştir</target>
         <note>Action/button to set up the Password AutoFill feature. Not a call to action.</note>
       </trans-unit>
-      <trans-unit id="[Onboarding/AutoFill/text1]" xml:space="preserve">
+      <trans-unit id="[Onboarding/AutoFill/text1]" xml:space="preserve" approved="yes">
         <source>With AutoFill you can breeze through sign-in pages with a single button press.</source>
-        <target state="needs-translation">With AutoFill you can breeze through sign-in pages with a single button press.</target>
+        <target state="final">Otomatik Doldurma ile tek bir tuşa basarak giriş sayfalarında hızlıca işlem yapabilirsiniz.</target>
         <note>Text in the Password AutoFill onboarding screen.</note>
       </trans-unit>
-      <trans-unit id="[Onboarding/AutoFill/text2]" xml:space="preserve">
+      <trans-unit id="[Onboarding/AutoFill/text2]" xml:space="preserve" approved="yes">
         <source>To start, activate Password AutoFill in system settings.</source>
-        <target state="needs-translation">To start, activate Password AutoFill in system settings.</target>
+        <target state="final">Başlamak için sistem ayarlarında Otomatik Şifre Doldurma'yı etkinleştirin.</target>
         <note>Text in the Password AutoFill onboarding screen.</note>
       </trans-unit>
-      <trans-unit id="[Onboarding/AutoFill/title]" xml:space="preserve">
+      <trans-unit id="[Onboarding/AutoFill/title]" xml:space="preserve" approved="yes">
         <source>Password AutoFill</source>
-        <target state="needs-translation">Password AutoFill</target>
+        <target state="final">Otomatik Şifre Doldurma</target>
         <note>Title of the Password AutoFill onboarding screen</note>
       </trans-unit>
-      <trans-unit id="[Onboarding/CreateNewDatabase/action]" xml:space="preserve">
+      <trans-unit id="[Onboarding/CreateNewDatabase/action]" xml:space="preserve" approved="yes">
         <source>Create New Database</source>
-        <target state="translated">Yeni Bir Veritabanı Oluşturun</target>
+        <target state="final">Yeni Veri Tabanı oluştur</target>
         <note>Action/button</note>
       </trans-unit>
-      <trans-unit id="[Onboarding/DataEncryption/text1]" xml:space="preserve">
+      <trans-unit id="[Onboarding/DataEncryption/text1]" xml:space="preserve" approved="yes">
         <source>Your safe box is an encrypted database.</source>
-        <target state="needs-translation">Your safe box is an encrypted database.</target>
+        <target state="final">Kasanız şifrelenmiş bir veri tabanıdır.</target>
         <note>Text in the Data Encryption intro screen</note>
       </trans-unit>
-      <trans-unit id="[Onboarding/DataEncryption/text2]" xml:space="preserve">
+      <trans-unit id="[Onboarding/DataEncryption/text2]" xml:space="preserve" approved="yes">
         <source>You can keep databases in your favorite cloud or locally on device.</source>
-        <target state="needs-translation">You can keep databases in your favorite cloud or locally on device.</target>
+        <target state="final">Veri tabanlarını en sevdiğiniz bulutta ya da cihazda saklayabilirsiniz.</target>
         <note>Text in the Data Encryption intro screen</note>
       </trans-unit>
-      <trans-unit id="[Onboarding/DataEncryption/title]" xml:space="preserve">
+      <trans-unit id="[Onboarding/DataEncryption/title]" xml:space="preserve" approved="yes">
         <source>Data Encryption</source>
-        <target state="needs-translation">Data Encryption</target>
+        <target state="final">Veri Şifreleme</target>
         <note>Title of the Data Encryption intro screen</note>
       </trans-unit>
-      <trans-unit id="[Onboarding/Intro/text1]" xml:space="preserve">
+      <trans-unit id="[Onboarding/Intro/text1]" xml:space="preserve" approved="yes">
         <source>KeePassium keeps your passwords and other sensitive info securely encrypted.</source>
-        <target state="needs-translation">KeePassium keeps your passwords and other sensitive info securely encrypted.</target>
+        <target state="final">KeePassium, şifrelerinizi ve diğer hassas bilgilerinizi güvenli bir şekilde şifrelenmiş hâlde tutar.</target>
         <note>Text in the introductory onboarding screen.</note>
       </trans-unit>
-      <trans-unit id="[Onboarding/Intro/text2]" xml:space="preserve">
+      <trans-unit id="[Onboarding/Intro/text2]" xml:space="preserve" approved="yes">
         <source>There are no ads and no tracking.</source>
-        <target state="needs-translation">There are no ads and no tracking.</target>
+        <target state="final">Reklam veya takip yok.</target>
         <note>Text in the introductory onboarding screen.</note>
       </trans-unit>
-      <trans-unit id="[Onboarding/Intro/text3]" xml:space="preserve">
+      <trans-unit id="[Onboarding/Intro/text3]" xml:space="preserve" approved="yes">
         <source>We don't know anything about you.</source>
-        <target state="needs-translation">We don't know anything about you.</target>
+        <target state="final">Hakkınızda hiçbir şey bilmiyoruz.</target>
         <note>Text in the introductory onboarding screen.</note>
       </trans-unit>
-      <trans-unit id="[Onboarding/Intro/text4]" xml:space="preserve">
+      <trans-unit id="[Onboarding/Intro/text4]" xml:space="preserve" approved="yes">
         <source>Your data belongs to you.</source>
-        <target state="needs-translation">Your data belongs to you.</target>
+        <target state="final">Verileriniz size aittir.</target>
         <note>Text in the introductory onboarding screen.</note>
       </trans-unit>
-      <trans-unit id="[Onboarding/Intro/title]" xml:space="preserve">
+      <trans-unit id="[Onboarding/Intro/title]" xml:space="preserve" approved="yes">
         <source>Welcome</source>
-        <target state="needs-translation">Welcome</target>
+        <target state="final">Hoş geldiniz</target>
         <note>Title of the introductory onboarding screen.</note>
       </trans-unit>
-      <trans-unit id="[Onboarding/Security/text1]" xml:space="preserve">
+      <trans-unit id="[Onboarding/Security/text1]" xml:space="preserve" approved="yes">
         <source>Your info is encrypted in a safe box (database). Safe boxes are stored in a vault (KeePassium).</source>
-        <target state="needs-translation">Your info is encrypted in a safe box (database). Safe boxes are stored in a vault (KeePassium).</target>
+        <target state="final">Verileriniz bir kasada (veri tabanı) şifrelenir. Kasalar, kasa odasında (KeePassium) saklanır.</target>
         <note>Text in the Security intro screen</note>
       </trans-unit>
-      <trans-unit id="[Onboarding/Security/text2]" xml:space="preserve">
+      <trans-unit id="[Onboarding/Security/text2]" xml:space="preserve" approved="yes">
         <source>The vault and safe boxes have different keys and only you will know them.</source>
-        <target state="needs-translation">The vault and safe boxes have different keys and only you will know them.</target>
+        <target state="final">Kasa odası ve kasaların farklı anahtarları vardır ve bunları yalnızca siz bilirsiniz.</target>
         <note>Text in the Security intro screen</note>
       </trans-unit>
-      <trans-unit id="[Onboarding/Security/title]" xml:space="preserve">
+      <trans-unit id="[Onboarding/Security/title]" xml:space="preserve" approved="yes">
         <source>Maximum Security</source>
-        <target state="needs-translation">Maximum Security</target>
+        <target state="final">Maksimum Güvenlik</target>
         <note>Title of the Security intro screen</note>
       </trans-unit>
-      <trans-unit id="[PasswordAudit/Action/Exclude]" xml:space="preserve">
+      <trans-unit id="[PasswordAudit/Action/Exclude]" xml:space="preserve" approved="yes">
         <source>Exclude From Audit</source>
-        <target state="needs-translation">Exclude From Audit</target>
+        <target state="final">Denetimden Hariç Tut</target>
         <note>Action to skip selected item/items in future password audits.</note>
       </trans-unit>
-      <trans-unit id="[PasswordAudit/Auditing/status]" xml:space="preserve">
+      <trans-unit id="[PasswordAudit/Auditing/status]" xml:space="preserve" approved="yes">
         <source>Auditing passwords</source>
-        <target state="needs-translation">Auditing passwords</target>
+        <target state="final">Şifre denetleme</target>
         <note>Status message: password audit in progress</note>
       </trans-unit>
-      <trans-unit id="[PasswordAudit/Error/text]" xml:space="preserve">
+      <trans-unit id="[PasswordAudit/Error/text]" xml:space="preserve" approved="yes">
         <source>An error occured while communicating with the HIBP service. %@</source>
-        <target state="needs-translation">An error occured while communicating with the HIBP service. %@</target>
+        <target state="final">HIBP hizmetiyle iletişim sırasında bir hata oluştu. %@</target>
         <note>Error message after a failed password audit request [message: String].</note>
       </trans-unit>
-      <trans-unit id="[PasswordAudit/ExposureCount/description]" xml:space="preserve">
+      <trans-unit id="[PasswordAudit/ExposureCount/description]" xml:space="preserve" approved="yes">
         <source>The number shows how many times the password has been found in known data leaks.</source>
-        <target state="needs-translation">The number shows how many times the password has been found in known data leaks.</target>
+        <target state="final">Sayı, şifrenin bilinen veri sızıntılarında kaç kez bulunduğunu gösterir.</target>
         <note>Description of the password audit results, where a number appears next to each password.</note>
       </trans-unit>
-      <trans-unit id="[PasswordAudit/Intro/text]" xml:space="preserve">
+      <trans-unit id="[PasswordAudit/Intro/text]" xml:space="preserve" approved="yes">
         <source>Password audit checks your passwords against an online database of leaked passwords in a secure and private way.
 
 KeePassium will send information calculated from your passwords — a kind of a partial checksum — to the [Have I Been Pwned](https://haveibeenpwned.com) service. The service will return detailed information about compromised passwords with similar checksums. The app will then compare the detailed checksums locally on the device and detect which of your passwords are at risk.
 
 Your actual passwords are never shared with the online service.
 [Learn more…](%@)</source>
-        <target state="needs-translation">Password audit checks your passwords against an online database of leaked passwords in a secure and private way.
+        <target state="final">Şifre denetimi, şifrelerinizi güvenli ve gizli bir şekilde çevrimiçi sızdırılmış şifreler veri tabanında kontrol eder.
 
-KeePassium will send information calculated from your passwords — a kind of a partial checksum — to the [Have I Been Pwned](https://haveibeenpwned.com) service. The service will return detailed information about compromised passwords with similar checksums. The app will then compare the detailed checksums locally on the device and detect which of your passwords are at risk.
+KeePassium, şifrelerinizden hesaplanan bilgileri (bir tür kısmi sağlama toplamı) [Have I Been Pwned](https://haveibeenpwned.com) hizmetine gönderir. Hizmet, benzer sağlama toplamlarına sahip tehlikeye giren şifreler hakkında ayrıntılı bilgi döndürür. Uygulama ardından ayrıntılı sağlama toplamlarını cihazınızda yerel olarak karşılaştırır ve hangi şifrelerinizin risk altında olduğunu tespit eder.
 
-Your actual passwords are never shared with the online service.
-[Learn more…](%@)</target>
+Gerçek şifreleriniz çevrimiçi hizmetle asla paylaşılmaz.
+[Daha fazla bilgi…](%@)</target>
         <note>Description of the Password Audit function.</note>
       </trans-unit>
-      <trans-unit id="[PasswordAudit/Results/allGood]" xml:space="preserve">
+      <trans-unit id="[PasswordAudit/Results/allGood]" xml:space="preserve" approved="yes">
         <source>Good news! None of your passwords have appeared in known data leaks.</source>
-        <target state="needs-translation">Good news! None of your passwords have appeared in known data leaks.</target>
+        <target state="final">İyi haber! Şifrelerinizin hiçbiri bilinen veri sızıntılarında görünmedi.</target>
         <note>Result of a password audit.</note>
       </trans-unit>
-      <trans-unit id="[PasswordAudit/Results/title]" xml:space="preserve">
+      <trans-unit id="[PasswordAudit/Results/title]" xml:space="preserve" approved="yes">
         <source>Compromised Passwords</source>
-        <target state="needs-translation">Compromised Passwords</target>
+        <target state="final">Ele Geçirilmiş Şifreler</target>
         <note>Title of a list with passwords that are known to have been exposed in online breaches.</note>
       </trans-unit>
-      <trans-unit id="[PasswordAudit/Start/action]" xml:space="preserve">
+      <trans-unit id="[PasswordAudit/Start/action]" xml:space="preserve" approved="yes">
         <source>Start Audit</source>
-        <target state="needs-translation">Start Audit</target>
+        <target state="final">Denetimi başlat</target>
         <note>Action/button: intiate password audit</note>
       </trans-unit>
-      <trans-unit id="[PasswordAudit/title]" xml:space="preserve">
+      <trans-unit id="[PasswordAudit/title]" xml:space="preserve" approved="yes">
         <source>Password Audit</source>
-        <target state="needs-translation">Password Audit</target>
+        <target state="final">Şifre Denetimi</target>
         <note>Title of a screen to check which passwords are known to be compromised.</note>
       </trans-unit>
-      <trans-unit id="[PasswordGenerator/Wordlist/Import/menuAction]" xml:space="preserve">
+      <trans-unit id="[PasswordGenerator/Wordlist/Import/menuAction]" xml:space="preserve" approved="yes">
         <source>Import Wordlist…</source>
-        <target state="needs-translation">Import Wordlist…</target>
+        <target state="final">Kelime Listesini içe aktar…</target>
         <note>Menu action to add a user-provided word list file to the app.</note>
       </trans-unit>
-      <trans-unit id="[PasswordQuality/LevelWithApproximateEntropy/description]" xml:space="preserve">
+      <trans-unit id="[PasswordQuality/LevelWithApproximateEntropy/description]" xml:space="preserve" approved="yes">
         <source>%1$@ (~%2$@ of entropy)</source>
-        <target state="needs-translation">%1$@ (~%2$@ of entropy)</target>
+        <target state="final">%1$@ (~%2$@ entropi)</target>
         <note>Password quality description. Note the tilda that refers to an estimated/approximate value. For example: `Very good (~123 bits of entropy)`. [level: String, formattedBitCount: String]</note>
       </trans-unit>
-      <trans-unit id="[PasswordQuality/LevelWithEntropy/description]" xml:space="preserve">
+      <trans-unit id="[PasswordQuality/LevelWithEntropy/description]" xml:space="preserve" approved="yes">
         <source>%1$@ (%2$@ of entropy)</source>
-        <target state="needs-translation">%1$@ (%2$@ of entropy)</target>
+        <target state="final">%1$@ (%2$@ entropi)</target>
         <note>Password quality description. For example: `Very good (234 bits of entropy)`. [level: String, formattedBitCount: String]</note>
       </trans-unit>
-      <trans-unit id="[PasswordQuality/Level] Good" xml:space="preserve">
+      <trans-unit id="[PasswordQuality/Level] Good" xml:space="preserve" approved="yes">
         <source>Good</source>
-        <target state="needs-translation">Good</target>
+        <target state="final">İyi</target>
         <note>Good password quality</note>
       </trans-unit>
-      <trans-unit id="[PasswordQuality/Level] Very good" xml:space="preserve">
+      <trans-unit id="[PasswordQuality/Level] Very good" xml:space="preserve" approved="yes">
         <source>Very good</source>
-        <target state="needs-translation">Very good</target>
+        <target state="final">Çok iyi</target>
         <note>Very good password quality</note>
       </trans-unit>
-      <trans-unit id="[PasswordQuality/Level] Very weak" xml:space="preserve">
+      <trans-unit id="[PasswordQuality/Level] Very weak" xml:space="preserve" approved="yes">
         <source>Very weak</source>
-        <target state="needs-translation">Very weak</target>
+        <target state="final">Çok zayıf</target>
         <note>Very weak password quality</note>
       </trans-unit>
-      <trans-unit id="[PasswordQuality/Level] Weak" xml:space="preserve">
+      <trans-unit id="[PasswordQuality/Level] Weak" xml:space="preserve" approved="yes">
         <source>Weak</source>
-        <target state="needs-translation">Weak</target>
+        <target state="final">Zayıf</target>
         <note>Weak password quality</note>
       </trans-unit>
-      <trans-unit id="[PasswordQuality/description]" xml:space="preserve">
+      <trans-unit id="[PasswordQuality/description]" xml:space="preserve" approved="yes">
         <source>Password quality: %@</source>
-        <target state="needs-translation">Password quality: %@</target>
+        <target state="final">Şifre kalitesi: %@</target>
         <note>Password quality description. For example: `Password quality: Weak`. [level: String]</note>
       </trans-unit>
-      <trans-unit id="[Premium/Status/BetaTesting/title]" xml:space="preserve">
+      <trans-unit id="[Premium/Status/BetaTesting/title]" xml:space="preserve" approved="yes">
         <source>Beta testing</source>
-        <target state="translated">Beta testi</target>
+        <target state="final">Beta testi</target>
         <note>Status: special premium for beta-testing environment is active</note>
       </trans-unit>
-      <trans-unit id="[Premium/Status/ValidForever/title]" xml:space="preserve">
+      <trans-unit id="[Premium/Status/ValidForever/title]" xml:space="preserve" approved="yes">
         <source>Valid forever</source>
-        <target state="translated">Sonsuza dek geçerlidir</target>
+        <target state="final">Sonsuza dek geçerli</target>
         <note>Status: validity period of once-and-forever premium</note>
       </trans-unit>
-      <trans-unit id="[Premium/Status/currentVersion]" xml:space="preserve">
+      <trans-unit id="[Premium/Status/currentVersion]" xml:space="preserve" approved="yes">
         <source>Current version: %@</source>
-        <target state="translated">Mevcut versiyon: %@</target>
+        <target state="final">Mevcut sürüm: %@</target>
         <note>Status: current version of the app. For example: `Current version: 1.23`. Should be similar to the `Licensed version` string. [version: String]</note>
       </trans-unit>
-      <trans-unit id="[Premium/Status/expiredAgo]" xml:space="preserve">
+      <trans-unit id="[Premium/Status/expiredAgo]" xml:space="preserve" approved="yes">
         <source>Expired %@ ago. Please renew.</source>
-        <target state="translated">%@ önce süresi doldu. Lütfen yenileyin.</target>
+        <target state="final">%@ önce süresi doldu. Lütfen yenileyin.</target>
         <note>Status: premium subscription has expired. For example: `Expired 1 day ago`. [timeFormatted: String, includes the time unit (day, hour, minute)]</note>
       </trans-unit>
-      <trans-unit id="[Premium/Status/licensedVersion]" xml:space="preserve">
+      <trans-unit id="[Premium/Status/licensedVersion]" xml:space="preserve" approved="yes">
         <source>Licensed version: %@</source>
-        <target state="translated">Lisanslı versiyon: %@</target>
+        <target state="final">Lisanslı sürüm: %@</target>
         <note>Status: licensed premium version of the app. For example: `Licensed version: 1.23`. [version: String]</note>
       </trans-unit>
-      <trans-unit id="[Premium/Status/nextRenewal]" xml:space="preserve">
+      <trans-unit id="[Premium/Status/nextRenewal]" xml:space="preserve" approved="yes">
         <source>Next renewal on %@</source>
-        <target state="translated">Bir sonraki yenileme %@ tarihinde</target>
+        <target state="final">Sonraki yenileme tarihi: %@</target>
         <note>Status: scheduled renewal date of a premium subscription. For example: `Next renewal on 1 Jan 2050`. [expiryDateString: String]</note>
       </trans-unit>
-      <trans-unit id="[Premium/Status/title]" xml:space="preserve">
+      <trans-unit id="[Premium/Status/title]" xml:space="preserve" approved="yes">
         <source>Premium Version</source>
-        <target state="translated">Premium Sürüm</target>
+        <target state="final">Premium Sürüm</target>
         <note>Status when the user has a premium version</note>
       </trans-unit>
-      <trans-unit id="[Premium/usage] App being useful: %@/month, that is around %@/year." xml:space="preserve">
+      <trans-unit id="[Premium/usage] App being useful: %@/month, that is around %@/year." xml:space="preserve" approved="yes">
         <source>App being useful: %1$@/month, that is around %2$@/year.</source>
-        <target state="translated">Uygulamanın kullanışlı olması: %1$@/ay, yani yaklaşık %2$@/yıl.</target>
+        <target state="final">Uygulamanın kullanışlı olması: %1$@/ay, yani yaklaşık %2$@/yıl.</target>
         <note>Status: how long the app has been used during some time period. For example: `App being useful: 1hr/month, about 12hr/year`. [monthlyUsage: String, annualUsage: String — already include the time unit (hours, minutes)]</note>
       </trans-unit>
-      <trans-unit id="[ProtectedTextField] Show Password" xml:space="preserve">
+      <trans-unit id="[ProtectedTextField] Show Password" xml:space="preserve" approved="yes">
         <source>Show Password</source>
-        <target state="translated">Şifreyi Göster</target>
+        <target state="final">Şifreyi göster</target>
         <note>Action/button to make password visible as plain-text</note>
       </trans-unit>
-      <trans-unit id="[QRCodeScanner/CameraPermission/description]" xml:space="preserve">
+      <trans-unit id="[QRCodeScanner/CameraPermission/description]" xml:space="preserve" approved="yes">
         <source>KeePassium needs camera access to scan QR codes.</source>
-        <target state="needs-translation">KeePassium needs camera access to scan QR codes.</target>
+        <target state="final">Kare kodları taramak için KeePassium'un kameraya erişmesi gerekiyor.</target>
         <note>Explanation why the app needs camera access permission.</note>
       </trans-unit>
-      <trans-unit id="[QRCodeScanner/Error/CameraBusy]" xml:space="preserve">
+      <trans-unit id="[QRCodeScanner/Error/CameraBusy]" xml:space="preserve" approved="yes">
         <source>Camera is already in use.</source>
-        <target state="needs-translation">Camera is already in use.</target>
+        <target state="final">Kamera zaten kullanımda.</target>
         <note>Error message when the app cannot use the camera.</note>
       </trans-unit>
-      <trans-unit id="[QRCodeScanner/Error/ImageCorrupted]" xml:space="preserve">
+      <trans-unit id="[QRCodeScanner/Error/ImageCorrupted]" xml:space="preserve" approved="yes">
         <source>Selected image is corrupted.</source>
-        <target state="needs-translation">Selected image is corrupted.</target>
+        <target state="final">Seçilen görüntü bozuk.</target>
         <note>Error message</note>
       </trans-unit>
-      <trans-unit id="[QRCodeScanner/Error/Internal]" xml:space="preserve">
+      <trans-unit id="[QRCodeScanner/Error/Internal]" xml:space="preserve" approved="yes">
         <source>Internal error in QR code reader. Check diagnostic log for details.</source>
-        <target state="needs-translation">Internal error in QR code reader. Check diagnostic log for details.</target>
+        <target state="final">QR kodu okuyucusunda dâhilî hata. Ayrıntılar için tanı günlüğünü kontrol edin.</target>
         <note>Error message with a suggested action.</note>
       </trans-unit>
-      <trans-unit id="[QRCodeScanner/Error/NoQRCodeFound]" xml:space="preserve">
+      <trans-unit id="[QRCodeScanner/Error/NoQRCodeFound]" xml:space="preserve" approved="yes">
         <source>Looks like there’s no QR code in that image.</source>
-        <target state="needs-translation">Looks like there’s no QR code in that image.</target>
+        <target state="final">O görüntüde QR kodu yok gibi görünüyor.</target>
         <note>Notification message</note>
       </trans-unit>
-      <trans-unit id="[QRCodeScanner/Error/SourceNoAvailable]" xml:space="preserve">
+      <trans-unit id="[QRCodeScanner/Error/SourceNoAvailable]" xml:space="preserve" approved="yes">
         <source>Image source is not available.</source>
-        <target state="needs-translation">Image source is not available.</target>
+        <target state="final">Görüntü kaynağı kullanılamıyor.</target>
         <note>Error message when camera/gallery/etc is either missing or forbidden.</note>
       </trans-unit>
-      <trans-unit id="[QRCodeScanner/Info/callToAction]" xml:space="preserve">
+      <trans-unit id="[QRCodeScanner/Info/callToAction]" xml:space="preserve" approved="yes">
         <source>Point the camera at a QR code.</source>
-        <target state="needs-translation">Point the camera at a QR code.</target>
+        <target state="final">Kamerayı bir QR koduna yöneltin.</target>
         <note>Call to action/instruction for QR code scanner.</note>
       </trans-unit>
-      <trans-unit id="[QuickAutoFill/description]" xml:space="preserve">
+      <trans-unit id="[QuickAutoFill/description]" xml:space="preserve" approved="yes">
         <source>Quick AutoFill shows relevant entries right next to the password field, without opening KeePassium.</source>
-        <target state="translated">Hızlı Otomatik Doldurma, KeePassium'u açmadan, parola alanının hemen yanında ilgili girdileri gösterir.</target>
+        <target state="final">Hızlı Otomatik Doldurma, KeePassium'u açmadan, şifre alanının hemen yanında ilgili girdileri gösterir.</target>
         <note>Description of the Quick AutoFill feature.</note>
       </trans-unit>
       <trans-unit id="[Search/EmptyResult/title]" xml:space="preserve" approved="yes">
@@ -1550,14 +1550,14 @@ Your actual passwords are never shared with the online service.
         <target state="final">Uygun bir şey bulunamadı</target>
         <note>Placeholder text for empty search results</note>
       </trans-unit>
-      <trans-unit id="[Selection/Delete/confirmation]" xml:space="preserve">
+      <trans-unit id="[Selection/Delete/confirmation]" xml:space="preserve" approved="yes">
         <source>Delete selection?</source>
-        <target state="needs-translation">Delete selection?</target>
+        <target state="final">Seçim silinsin mi?</target>
         <note>Title of the confirmation dialog for `Delete` action for several items</note>
       </trans-unit>
-      <trans-unit id="[Selection/ExcludeFromAudit/confirmation]" xml:space="preserve">
+      <trans-unit id="[Selection/ExcludeFromAudit/confirmation]" xml:space="preserve" approved="yes">
         <source>Exclude selection from password audit?</source>
-        <target state="needs-translation">Exclude selection from password audit?</target>
+        <target state="final">Seçim, şifre denetiminden hariç tutulsun mu?</target>
         <note>Title of the confirmation dialog for `Exclude from audit` action for several items</note>
       </trans-unit>
       <trans-unit id="[Settings/AccessControl/title]" xml:space="preserve" approved="yes">
@@ -1565,14 +1565,14 @@ Your actual passwords are never shared with the online service.
         <target state="final">Erişim Kontrolleri</target>
         <note>Title of a section in settings: parameters that protect access to data</note>
       </trans-unit>
-      <trans-unit id="[Settings/AppLoc/Activate/callToAction]" xml:space="preserve">
+      <trans-unit id="[Settings/AppLoc/Activate/callToAction]" xml:space="preserve" approved="yes">
         <source>Activate App Protection</source>
-        <target state="translated">Uygulama kilidini etkinleştir</target>
+        <target state="final">Uygulama Korumasını etkinleştir</target>
         <note>Call to action (protect the app from unauthorized access)</note>
       </trans-unit>
-      <trans-unit id="[Settings/AppLock/Activate/description]" xml:space="preserve">
+      <trans-unit id="[Settings/AppLock/Activate/description]" xml:space="preserve" approved="yes">
         <source>Protect KeePassium from unauthorized access.</source>
-        <target state="translated">KeePassium'u yetkisiz girişlerden koruyun.</target>
+        <target state="final">KeePassium'u izinsiz erişimden koruyun.</target>
         <note>Description of `Activate app protection` call to action.</note>
       </trans-unit>
       <trans-unit id="[Settings/AppLock/Biometric/description]" xml:space="preserve" approved="yes">
@@ -1580,54 +1580,54 @@ Your actual passwords are never shared with the online service.
         <target state="final">Uygulama Kilidi şifresi yerine hızlı (ama daha güvensiz) bir alternatif olan biyometrik yetkilendirmeye izin verir.</target>
         <note>Description of biometric unlock settings</note>
       </trans-unit>
-      <trans-unit id="[Settings/AppLock/Biometric/title] Use %@" xml:space="preserve">
+      <trans-unit id="[Settings/AppLock/Biometric/title] Use %@" xml:space="preserve" approved="yes">
         <source>Use %@</source>
-        <target state="translated">%@ kullan</target>
+        <target state="final">%@ kullan</target>
         <note>Settings switch: whether App Protection is allowed to use Touch ID/Face ID. Example: 'Use Touch ID'. [biometryTypeName: String]</note>
       </trans-unit>
-      <trans-unit id="[Settings/AppLock/LockOnLaunch/description]" xml:space="preserve">
+      <trans-unit id="[Settings/AppLock/LockOnLaunch/description]" xml:space="preserve" approved="yes">
         <source>Ensures KeePassium is locked after you force-close the app or restart the device.</source>
-        <target state="translated">Uygulamayı yukarı attığınızda ya da cihazı aç-kapa yaptığınızda KeePassium'un kilitlendiğinden emin olun.</target>
+        <target state="final">Uygulamayı zorla kapattıktan veya cihazı tekrar başlattıktan sonra KeePassium'un kilitlenmesini sağlar.</target>
         <note>Explanation for the `Lock on App Launch` setting</note>
       </trans-unit>
-      <trans-unit id="[Settings/AppLock/LockOnLaunch/title]" xml:space="preserve">
+      <trans-unit id="[Settings/AppLock/LockOnLaunch/title]" xml:space="preserve" approved="yes">
         <source>Lock on App Launch</source>
-        <target state="translated">Başlangıçta Kilitle</target>
+        <target state="final">Uygulama Başlatıldığında kilitle</target>
         <note>Setting switch: whether to lock the app after it was terminated and relaunched.</note>
       </trans-unit>
-      <trans-unit id="[Settings/AppLock/LockOnScreenLock/description]" xml:space="preserve">
+      <trans-unit id="[Settings/AppLock/LockOnScreenLock/description]" xml:space="preserve" approved="yes">
         <source>Ensures KeePassium is locked when you lock your Mac.</source>
-        <target state="needs-translation">Ensures KeePassium is locked when you lock your Mac.</target>
+        <target state="final">Mac'inizi kilitlediğinizde KeePassium'un kilitli kalmasını sağlar.</target>
         <note>Explanation for the `Lock on macOS Screen Lock` setting</note>
       </trans-unit>
-      <trans-unit id="[Settings/AppLock/LockOnScreenLock/title]" xml:space="preserve">
+      <trans-unit id="[Settings/AppLock/LockOnScreenLock/title]" xml:space="preserve" approved="yes">
         <source>Lock on macOS Screen Lock</source>
-        <target state="needs-translation">Lock on macOS Screen Lock</target>
+        <target state="final">macOS Ekran Kilidi açık olduğunda kilitle</target>
         <note>Title of a yes/no setting: whether to lock app when computer screen is locked (see https://support.apple.com/en-gb/guide/mac-help/mchl8e8b6a34/mac)</note>
       </trans-unit>
-      <trans-unit id="[Settings/AppLock/LockOnWrongPasscode/description]" xml:space="preserve">
+      <trans-unit id="[Settings/AppLock/LockOnWrongPasscode/description]" xml:space="preserve" approved="yes">
         <source>If you enter a wrong app protection passcode, KeePassium will close all databases and clear all master keys from the keychain.</source>
-        <target state="translated">Eğer yanlış bir AppLock şifresi girerseniz, KeePassium tüm veritabanlarını kapatacak ve tüm ana şifreleri unutacak.</target>
+        <target state="final">Yanlış bir uygulama koruma şifre kodu girerseniz KeePassium tüm veri tabanlarını kapatır ve tüm ana anahtarları anahtar zincirinden temizler.</target>
         <note>Description of the `Lock on Wrong Passcode` setting</note>
       </trans-unit>
-      <trans-unit id="[Settings/AppLock/LockOnWrongPasscode/title]" xml:space="preserve">
+      <trans-unit id="[Settings/AppLock/LockOnWrongPasscode/title]" xml:space="preserve" approved="yes">
         <source>Lock on Wrong Passcode</source>
-        <target state="needs-translation">Lock on Wrong Passcode</target>
+        <target state="final">Yanlış Şifre Kodu girildiğinde kilitle</target>
         <note>Title in the settings: whether to lock databases when user enters a wrong app protection passcode.</note>
       </trans-unit>
-      <trans-unit id="[Settings/AppLock/PasscodeAttemptsUntilAppReset/Never/title]" xml:space="preserve">
+      <trans-unit id="[Settings/AppLock/PasscodeAttemptsUntilAppReset/Never/title]" xml:space="preserve" approved="yes">
         <source>Do not reset</source>
-        <target state="needs-translation">Do not reset</target>
+        <target state="final">Sıfırlama</target>
         <note>An option in Settings. Will be shown as 'Passcode Attempts Until App Reset: Do not reset'</note>
       </trans-unit>
-      <trans-unit id="[Settings/AppLock/PasscodeAttemptsUntilAppReset/description]" xml:space="preserve">
+      <trans-unit id="[Settings/AppLock/PasscodeAttemptsUntilAppReset/description]" xml:space="preserve" approved="yes">
         <source>App reset will delete all the stored keys, settings, database backups, imported files, and links to external files. However, if app reset is triggered from AutoFill, imported files may remain due to technical limitations.</source>
-        <target state="needs-translation">App reset will delete all the stored keys, settings, database backups, imported files, and links to external files. However, if app reset is triggered from AutoFill, imported files may remain due to technical limitations.</target>
+        <target state="final">Uygulama sıfırlaması, saklanan tüm anahtarları, ayarları, veri tabanı yedeklemelerini, içe aktarılan dosyaları ve harici dosyalara bağlantıları siler. Ancak uygulama sıfırlaması Otomatik Doldurmadan tetiklenirse içe aktarılan dosyalar, teknik kısıtlamalar nedeniyle kalabilir.</target>
         <note>Description of the `Passcode Attempts Until App Reset` setting</note>
       </trans-unit>
-      <trans-unit id="[Settings/AppLock/PasscodeAttemptsUntilAppReset/title]" xml:space="preserve">
+      <trans-unit id="[Settings/AppLock/PasscodeAttemptsUntilAppReset/title]" xml:space="preserve" approved="yes">
         <source>Attempts Until App Reset</source>
-        <target state="needs-translation">Attempts Until App Reset</target>
+        <target state="final">Uygulama Sıfırlanana Kadar Denemeler</target>
         <note>Title in the settings: number of failed passcode attempts that will reset the app into 'just installed' state.</note>
       </trans-unit>
       <trans-unit id="[Settings/AppLock/Timeout/description]" xml:space="preserve" approved="yes">
@@ -1645,24 +1645,24 @@ Your actual passwords are never shared with the online service.
         <target state="final">Yanlış Şifre</target>
         <note>Settings section: what happens if user enters incorrect App Protection passcode.</note>
       </trans-unit>
-      <trans-unit id="[Settings/AppLock/subtitle] App Lock, %@, timeout" xml:space="preserve">
+      <trans-unit id="[Settings/AppLock/subtitle] App Lock, %@, timeout" xml:space="preserve" approved="yes">
         <source>App Lock, %@, timeout</source>
-        <target state="translated">Uygulama Kilidi, %@, zaman aşımı</target>
+        <target state="final">Uygulama Kilidi, %@, zaman aşımı</target>
         <note>Settings: subtitle of the `App Protection` section. biometryTypeName will be either 'Touch ID' or 'Face ID'. [biometryTypeName: String]</note>
       </trans-unit>
-      <trans-unit id="[Settings/AppLock/subtitle] App Lock, passcode, timeout" xml:space="preserve">
+      <trans-unit id="[Settings/AppLock/subtitle] App Lock, passcode, timeout" xml:space="preserve" approved="yes">
         <source>App Lock, passcode, timeout</source>
-        <target state="translated">Uygulama Kilidi, pin kodu, zaman aşımı</target>
+        <target state="final">Uygulama Kilidi, şifre kodu, zaman aşımı</target>
         <note>Settings: subtitle of the `App Protection` section when biometric auth is not available.</note>
       </trans-unit>
-      <trans-unit id="[Settings/AppLock/title]" xml:space="preserve">
+      <trans-unit id="[Settings/AppLock/title]" xml:space="preserve" approved="yes">
         <source>App Protection</source>
-        <target state="translated">Uygulama Güvenliği</target>
+        <target state="final">Uygulama Koruması</target>
         <note>Settings section: protection of the app from unauthorized access</note>
       </trans-unit>
-      <trans-unit id="[Settings/AppLockTimeout/AfterLeavingApp/description]" xml:space="preserve">
+      <trans-unit id="[Settings/AppLockTimeout/AfterLeavingApp/description]" xml:space="preserve" approved="yes">
         <source>After leaving the app</source>
-        <target state="translated">Uygulamadan çıktıktan sonra</target>
+        <target state="final">Uygulamadan çıktıktan sonra</target>
         <note>Description of those 'App Protection Timeout' options that trigger when the app is minimized. For example: 'Timeout: 3 seconds (After leaving the app)</note>
       </trans-unit>
       <trans-unit id="[Settings/AppLockTimeout/Immediately/title] " xml:space="preserve" approved="yes">
@@ -1675,19 +1675,19 @@ Your actual passwords are never shared with the online service.
         <target state="final">Asla</target>
         <note>An option in Settings. Will be shown as 'App Lock: Timeout: Never'</note>
       </trans-unit>
-      <trans-unit id="[Settings/AppLockTimeout/description] After last interaction" xml:space="preserve">
+      <trans-unit id="[Settings/AppLockTimeout/description] After last interaction" xml:space="preserve" approved="yes">
         <source>After last interaction</source>
-        <target state="translated">Son etkileşimden sonra</target>
+        <target state="final">Son etkileşimden sonra</target>
         <note>Description of those 'App Protection Timeout' options that trigger when the user has been idle for a while. For example: 'Timeout: 3 seconds (After last interaction)</note>
       </trans-unit>
-      <trans-unit id="[Settings/AutoFill/Activate/action]" xml:space="preserve">
+      <trans-unit id="[Settings/AutoFill/Activate/action]" xml:space="preserve" approved="yes">
         <source>Activate AutoFill</source>
-        <target state="needs-translation">Activate AutoFill</target>
+        <target state="final">Otomatik Doldurma'yı etkinleştir</target>
         <note>Action that opens system settings or instructions</note>
       </trans-unit>
-      <trans-unit id="[Settings/AutoFill/Activate/description]" xml:space="preserve">
+      <trans-unit id="[Settings/AutoFill/Activate/description]" xml:space="preserve" approved="yes">
         <source>Before first use, you need to activate AutoFill in system settings.</source>
-        <target state="needs-translation">Before first use, you need to activate AutoFill in system settings.</target>
+        <target state="final">İlk kullanımdan önce, sistem ayarlarında Otomatik Doldurma'yı etkinleştirmeniz gerekiyor.</target>
         <note>Description for the AutoFill setup instructions</note>
       </trans-unit>
       <trans-unit id="[Settings/AutoFill/CopyOTP/Description]" xml:space="preserve" approved="yes">
@@ -1695,29 +1695,29 @@ Your actual passwords are never shared with the online service.
         <target state="final">Otomatik Doldur işlevi kullanıcı adı ve şifreyi yazdıktan sonra şifreyi de senin için kopyalayabilir.</target>
         <note>Description of the 'Copy OTP to Clipboard' setting</note>
       </trans-unit>
-      <trans-unit id="[Settings/AutoFill/CopyOTP/title]" xml:space="preserve">
+      <trans-unit id="[Settings/AutoFill/CopyOTP/title]" xml:space="preserve" approved="yes">
         <source>Copy OTP to Clipboard</source>
-        <target state="translated">Tek Kullanımlık Şifreyi kopyala</target>
+        <target state="final">Tek Kullanımlık Şifreyi Panoya kopyala</target>
         <note>Title of a yes/no setting: copy one-time password to clipboard when using AutoFill</note>
       </trans-unit>
-      <trans-unit id="[Settings/AutoFill/RememberContext/description]" xml:space="preserve">
+      <trans-unit id="[Settings/AutoFill/RememberContext/description]" xml:space="preserve" approved="yes">
         <source>KeePassium will remember which entry you select for each website and then suggest it automatically.</source>
-        <target state="needs-translation">KeePassium will remember which entry you select for each website and then suggest it automatically.</target>
+        <target state="final">KeePassium her bir web sitesi için seçtiğiniz girdiyi hatırlar ve otomatik olarak önerir.</target>
         <note>Description of the 'Remember Selected Entries' setting.</note>
       </trans-unit>
-      <trans-unit id="[Settings/AutoFill/RememberContext/title]" xml:space="preserve">
+      <trans-unit id="[Settings/AutoFill/RememberContext/title]" xml:space="preserve" approved="yes">
         <source>Remember Selected Entries</source>
-        <target state="needs-translation">Remember Selected Entries</target>
+        <target state="final">Seçilen Girdileri hatırla</target>
         <note>Title of a yes/no setting: remember which entry was used for AutoFill on which website.</note>
       </trans-unit>
-      <trans-unit id="[Settings/AutoFill/Setup Guide/title]" xml:space="preserve">
+      <trans-unit id="[Settings/AutoFill/Setup Guide/title]" xml:space="preserve" approved="yes">
         <source>AutoFill Setup Guide</source>
-        <target state="needs-translation">AutoFill Setup Guide</target>
+        <target state="final">Otomatik Doldurma Kurulum Rehberi</target>
         <note>Title of a help article on how to activate AutoFill.</note>
       </trans-unit>
-      <trans-unit id="[Settings/AutoFill/UnavailableInIntune/description]" xml:space="preserve">
+      <trans-unit id="[Settings/AutoFill/UnavailableInIntune/description]" xml:space="preserve" approved="yes">
         <source>AutoFill is not available in KeePassium for Intune.</source>
-        <target state="needs-translation">AutoFill is not available in KeePassium for Intune.</target>
+        <target state="final">Otomatik Doldurma, Intune için KeePassium'da kullanılamıyor.</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="[Settings/AutoFill/UsePerfectMatch/description]" xml:space="preserve" approved="yes">
@@ -1725,14 +1725,14 @@ Your actual passwords are never shared with the online service.
         <target state="final">Otomatik Doldurma, birebir eşleşen bir girdi bulduğunda; otomatik olarak bu girdi kopyalanır.</target>
         <note>Description of the 'Fill-In Perfect Result Automatically' setting</note>
       </trans-unit>
-      <trans-unit id="[Settings/AutoFill/UsePerfectMatch/title]" xml:space="preserve">
+      <trans-unit id="[Settings/AutoFill/UsePerfectMatch/title]" xml:space="preserve" approved="yes">
         <source>Fill-In Perfect Result Automatically</source>
-        <target state="translated">En iyi sonucu otomatik olarak getir</target>
+        <target state="final">En İyi Sonucu Otomatik Olarak Doldurun</target>
         <note>Title of a yes/no setting: automatically use the single best match found by AutoFill search</note>
       </trans-unit>
-      <trans-unit id="[Settings/AutoOpenPreviousDatabase/title]" xml:space="preserve">
+      <trans-unit id="[Settings/AutoOpenPreviousDatabase/title]" xml:space="preserve" approved="yes">
         <source>Auto-Open Previous Database</source>
-        <target state="translated">Önceki Veritabanını Otomatik Olarak Aç</target>
+        <target state="final">Önceki Veri Tabanını Otomatik Olarak Aç</target>
         <note>Option in settings: whether to open the last used database automatically on start.</note>
       </trans-unit>
       <trans-unit id="[Settings/AutoSearch/title]" xml:space="preserve" approved="yes">
@@ -1740,9 +1740,9 @@ Your actual passwords are never shared with the online service.
         <target state="final">Otomatik arama</target>
         <note>Title of a section in settings</note>
       </trans-unit>
-      <trans-unit id="[Settings/ClearKeyFileAssociations/Cleared/title]" xml:space="preserve">
+      <trans-unit id="[Settings/ClearKeyFileAssociations/Cleared/title]" xml:space="preserve" approved="yes">
         <source>Cleared</source>
-        <target state="translated">Temizlendi</target>
+        <target state="final">Temizlendi</target>
         <note>Title of the success message for `Clear Key File Associations` button</note>
       </trans-unit>
       <trans-unit id="[Settings/ClearKeyFileAssociations/action]" xml:space="preserve" approved="yes">
@@ -1750,9 +1750,9 @@ Your actual passwords are never shared with the online service.
         <target state="final">Anahtar Dosya İlişkilendirmelerini Kaldır</target>
         <note>Action to clear/erase info about which database uses which key file</note>
       </trans-unit>
-      <trans-unit id="[Settings/ClearMasterKeys/Cleared/title]" xml:space="preserve">
+      <trans-unit id="[Settings/ClearMasterKeys/Cleared/title]" xml:space="preserve" approved="yes">
         <source>Cleared</source>
-        <target state="translated">Temizlendi</target>
+        <target state="final">Temizlendi</target>
         <note>Title of the success message for `Clear Master Keys` button</note>
       </trans-unit>
       <trans-unit id="[Settings/Clipboard/Timeout/title]" xml:space="preserve" approved="yes">
@@ -1775,39 +1775,39 @@ Your actual passwords are never shared with the online service.
         <target state="final">Herhangi bir şeyi kopyaladığınızda, KeePassium bir süre sonra panonuzu (çalışma alanını) otomatik olarak temizler.</target>
         <note>Description of the 'Clipboard Timeout' setting.</note>
       </trans-unit>
-      <trans-unit id="[Settings/DataProtection/Advanced/title]" xml:space="preserve">
+      <trans-unit id="[Settings/DataProtection/Advanced/title]" xml:space="preserve" approved="yes">
         <source>Advanced</source>
-        <target state="translated">İleri düzey</target>
+        <target state="final">Gelişmiş</target>
         <note>Section title: advanced/expert settings</note>
       </trans-unit>
-      <trans-unit id="[Settings/DataProtection/AutomaticLock/title]" xml:space="preserve">
+      <trans-unit id="[Settings/DataProtection/AutomaticLock/title]" xml:space="preserve" approved="yes">
         <source>Automatic Lock</source>
-        <target state="translated">Otomatik Kilitleme</target>
+        <target state="final">Otomatik Kilitleme</target>
         <note>Title of a section in settings</note>
       </trans-unit>
-      <trans-unit id="[Settings/DataProtection/LockOnReboot/title]" xml:space="preserve">
+      <trans-unit id="[Settings/DataProtection/LockOnReboot/title]" xml:space="preserve" approved="yes">
         <source>Lock on Device Restart</source>
-        <target state="needs-translation">Lock on Device Restart</target>
+        <target state="final">Cihaz Yeniden Başlatıldığında Kilitle</target>
         <note>Setting switch: whether to lock databases after device reboot.</note>
       </trans-unit>
-      <trans-unit id="[Settings/DataProtection/LockOnScreenLock/title]" xml:space="preserve">
+      <trans-unit id="[Settings/DataProtection/LockOnScreenLock/title]" xml:space="preserve" approved="yes">
         <source>Lock on macOS Screen Lock</source>
-        <target state="needs-translation">Lock on macOS Screen Lock</target>
+        <target state="final">macOS Ekran Kilidi açık olduğunda kilitle</target>
         <note>Title of a yes/no setting: whether to lock databases when computer screen is locked (see https://support.apple.com/en-gb/guide/mac-help/mchl8e8b6a34/mac)</note>
       </trans-unit>
-      <trans-unit id="[Settings/DataProtection/subtitle]" xml:space="preserve">
+      <trans-unit id="[Settings/DataProtection/subtitle]" xml:space="preserve" approved="yes">
         <source>Master keys, key files</source>
-        <target state="translated">Ana şifreler, şifre dosyaları</target>
+        <target state="final">Ana anahtarlar, anahtar dosyaları</target>
         <note>Subtitle for `Data Protection` section in settings</note>
       </trans-unit>
-      <trans-unit id="[Settings/DatabaseBackup/Active/description]" xml:space="preserve">
+      <trans-unit id="[Settings/DatabaseBackup/Active/description]" xml:space="preserve" approved="yes">
         <source>Before saving a database, KeePassium will automatically make a copy, just in case.</source>
-        <target state="translated">Ne olur ne olmaz, KeePassium değişiklikleri kaydetmeden önce otomatik olarak bir yedek alır.</target>
+        <target state="final">Her ihtimale karşı bir veri tabanını kaydetmeden önce KeePassium otomatik olarak bir kopya çıkarır.</target>
         <note>Description of the 'Make Backup Copies' setting</note>
       </trans-unit>
-      <trans-unit id="[Settings/DatabaseBackup/Active/title]" xml:space="preserve">
+      <trans-unit id="[Settings/DatabaseBackup/Active/title]" xml:space="preserve" approved="yes">
         <source>Make Backup Copies</source>
-        <target state="translated">Yedek Dosyaları Oluştur</target>
+        <target state="final">Yedek Kopyaları Hazırlayın</target>
         <note>Title of a yes/no setting: whether to back up databases before saving them</note>
       </trans-unit>
       <trans-unit id="[Settings/DatabaseBackup/DeleteAll/confirm]" xml:space="preserve" approved="yes">
@@ -1960,9 +1960,9 @@ Your actual passwords are never shared with the online service.
         <target state="final">Girdilerde Ara</target>
         <note>Title of a setting: whether search looks in field names</note>
       </trans-unit>
-      <trans-unit id="[Settings/Search/InPasswords/title]" xml:space="preserve">
+      <trans-unit id="[Settings/Search/InPasswords/title]" xml:space="preserve" approved="yes">
         <source>Search in Passwords</source>
-        <target state="needs-translation">Search in Passwords</target>
+        <target state="final">Şifrelerde ara</target>
         <note>Title of a setting: whether search looks in passwords</note>
       </trans-unit>
       <trans-unit id="[Settings/Search/InProtectValues/title]" xml:space="preserve" approved="yes">
@@ -1990,19 +1990,19 @@ Your actual passwords are never shared with the online service.
         <target state="final">Arama</target>
         <note>Section title in settings</note>
       </trans-unit>
-      <trans-unit id="[Settings/ShakeGestureAction/Confirm/description]" xml:space="preserve">
+      <trans-unit id="[Settings/ShakeGestureAction/Confirm/description]" xml:space="preserve" approved="yes">
         <source>If the app is locked, it acts without confirmation.</source>
-        <target state="needs-translation">If the app is locked, it acts without confirmation.</target>
+        <target state="final">Uygulama kilitliyse onaysız hareket eder.</target>
         <note>Description of the 'Ask for Confirmation' setting.</note>
       </trans-unit>
-      <trans-unit id="[Settings/ShakeGestureAction/Confirm/title]" xml:space="preserve">
+      <trans-unit id="[Settings/ShakeGestureAction/Confirm/title]" xml:space="preserve" approved="yes">
         <source>Ask for Confirmation</source>
-        <target state="needs-translation">Ask for Confirmation</target>
+        <target state="final">Onay iste</target>
         <note>Title for a setting: whether the app should show an 'Are you sure?' before continuing</note>
       </trans-unit>
-      <trans-unit id="[Settings/ShakeGestureAction/title]" xml:space="preserve">
+      <trans-unit id="[Settings/ShakeGestureAction/title]" xml:space="preserve" approved="yes">
         <source>When Shaken</source>
-        <target state="needs-translation">When Shaken</target>
+        <target state="final">Sallandığında</target>
         <note>Title for a setting: what the app should do when the user shakes the device</note>
       </trans-unit>
       <trans-unit id="[Settings/Start/title]" xml:space="preserve" approved="yes">
@@ -2025,64 +2025,64 @@ Your actual passwords are never shared with the online service.
         <target state="final">Aygıtın tüm panolarında kopyalama</target>
         <note>Apple's term: https://support.apple.com/102430</note>
       </trans-unit>
-      <trans-unit id="[Tags/Create/action]" xml:space="preserve">
+      <trans-unit id="[Tags/Create/action]" xml:space="preserve" approved="yes">
         <source>Create Tag</source>
-        <target state="needs-translation">Create Tag</target>
+        <target state="final">Etiket oluştur</target>
         <note>Action/button to create a new item tag</note>
       </trans-unit>
-      <trans-unit id="[Tags/Create/placeholder]" xml:space="preserve">
+      <trans-unit id="[Tags/Create/placeholder]" xml:space="preserve" approved="yes">
         <source>Enter tag name</source>
-        <target state="needs-translation">Enter tag name</target>
+        <target state="final">Etiket adı girin</target>
         <note>Call to action/hint inside a text input</note>
       </trans-unit>
-      <trans-unit id="[Tags/Create/title]" xml:space="preserve">
+      <trans-unit id="[Tags/Create/title]" xml:space="preserve" approved="yes">
         <source>New Tag</source>
-        <target state="needs-translation">New Tag</target>
+        <target state="final">Yeni Etiket</target>
         <note>Title of the tag creation dialog</note>
       </trans-unit>
-      <trans-unit id="[Tags/Delete/Confirm/message]" xml:space="preserve">
+      <trans-unit id="[Tags/Delete/Confirm/message]" xml:space="preserve" approved="yes">
         <source>Delete this tag from all groups and entries?</source>
-        <target state="needs-translation">Delete this tag from all groups and entries?</target>
+        <target state="final">Bu etiket tüm grup ve girdilerden silinsin mi?</target>
         <note>Question to confirm global deletion</note>
       </trans-unit>
-      <trans-unit id="[Tags/Edit/title]" xml:space="preserve">
+      <trans-unit id="[Tags/Edit/title]" xml:space="preserve" approved="yes">
         <source>Edit Tag</source>
-        <target state="needs-translation">Edit Tag</target>
+        <target state="final">Etiketi düzenle</target>
         <note>Title of a dialog for editing a tag</note>
       </trans-unit>
-      <trans-unit id="[Tags/None/placeholder]" xml:space="preserve">
+      <trans-unit id="[Tags/None/placeholder]" xml:space="preserve" approved="yes">
         <source>There are no tags in the database, add some.</source>
-        <target state="needs-translation">There are no tags in the database, add some.</target>
+        <target state="final">Veri tabanında herhangi bir etiket yok, birkaç etiket ekleyin.</target>
         <note>Status message with a call to action</note>
       </trans-unit>
-      <trans-unit id="[Tags/Search/emptyResult]" xml:space="preserve">
+      <trans-unit id="[Tags/Search/emptyResult]" xml:space="preserve" approved="yes">
         <source>No suitable tags found.</source>
-        <target state="needs-translation">No suitable tags found.</target>
+        <target state="final">Uygun etiket bulunamadı.</target>
         <note>Status message: tag search result is empty</note>
       </trans-unit>
-      <trans-unit id="[Tags/Section/All]" xml:space="preserve">
+      <trans-unit id="[Tags/Section/All]" xml:space="preserve" approved="yes">
         <source>All Tags</source>
-        <target state="needs-translation">All Tags</target>
+        <target state="final">Tüm Etiketler</target>
         <note>Title of a list with all the tags existing in the database.</note>
       </trans-unit>
-      <trans-unit id="[Tags/Section/Inherited]" xml:space="preserve">
+      <trans-unit id="[Tags/Section/Inherited]" xml:space="preserve" approved="yes">
         <source>Inherited Tags</source>
-        <target state="needs-translation">Inherited Tags</target>
+        <target state="final">Kalıtsal Etiketler</target>
         <note>Title of a list with tags used by parent groups.</note>
       </trans-unit>
-      <trans-unit id="[Tags/Section/Selected]" xml:space="preserve">
+      <trans-unit id="[Tags/Section/Selected]" xml:space="preserve" approved="yes">
         <source>Selected Tags</source>
-        <target state="needs-translation">Selected Tags</target>
+        <target state="final">Seçili Etiketler</target>
         <note>Title of a list with tags chosen by the user for a specific entry or group.</note>
       </trans-unit>
-      <trans-unit id="[Tags/UsageCount/title]" xml:space="preserve">
+      <trans-unit id="[Tags/UsageCount/title]" xml:space="preserve" approved="yes">
         <source>Usage count</source>
-        <target state="needs-translation">Usage count</target>
+        <target state="final">Kullanım sayısı</target>
         <note>Title: the number of times a tag is encountered in the database.</note>
       </trans-unit>
-      <trans-unit id="[WhatsNew/Announcement/body]" xml:space="preserve">
+      <trans-unit id="[WhatsNew/Announcement/body]" xml:space="preserve" approved="yes">
         <source>Discover new features and improvements in KeePassium.</source>
-        <target state="needs-translation">Discover new features and improvements in KeePassium.</target>
+        <target state="final">KeePassium'daki yeni özellik ve iyileştirmeleri keşfedin.</target>
         <note>Call to action in What's New announcement</note>
       </trans-unit>
       <trans-unit id="[WhatsNew/Announcement/button]" xml:space="preserve" approved="yes">
@@ -2090,64 +2090,64 @@ Your actual passwords are never shared with the online service.
         <target state="final">Neler Değişti?</target>
         <note>Button which opens the What's New screen.</note>
       </trans-unit>
-      <trans-unit id="[WhatsNew/Feature/AppScopedConnections/description]" xml:space="preserve">
+      <trans-unit id="[WhatsNew/Feature/AppScopedConnections/description]" xml:space="preserve" approved="yes">
         <source>Protect your cloud data using app-folder-only permissions.</source>
-        <target state="needs-translation">Protect your cloud data using app-folder-only permissions.</target>
+        <target state="final">Bulut verilerinizi sadece uygulama klasörü izinlerini kullanarak koruyun.</target>
         <note>Description of a feature highlight, a call to action.</note>
       </trans-unit>
-      <trans-unit id="[WhatsNew/Feature/AppScopedConnections/title]" xml:space="preserve">
+      <trans-unit id="[WhatsNew/Feature/AppScopedConnections/title]" xml:space="preserve" approved="yes">
         <source>Safer Cloud Access</source>
-        <target state="needs-translation">Safer Cloud Access</target>
+        <target state="final">Daha Güvenli Bulut Erişimi</target>
         <note>Title of a feature highlight, a noun phrase.</note>
       </trans-unit>
-      <trans-unit id="[WhatsNew/Feature/AutoFillWithMemory/description]" xml:space="preserve">
+      <trans-unit id="[WhatsNew/Feature/AutoFillWithMemory/description]" xml:space="preserve" approved="yes">
         <source>KeePassium remembers the entry you choose on each website.</source>
-        <target state="needs-translation">KeePassium remembers the entry you choose on each website.</target>
+        <target state="final">KeePassium, her bir web sitesinde seçtiğiniz girdiyi hatırlar.</target>
         <note>Description of a feature highlight, a call to action.</note>
       </trans-unit>
-      <trans-unit id="[WhatsNew/Feature/AutoFillWithMemory/title]" xml:space="preserve">
+      <trans-unit id="[WhatsNew/Feature/AutoFillWithMemory/title]" xml:space="preserve" approved="yes">
         <source>Smarter AutoFill</source>
-        <target state="needs-translation">Smarter AutoFill</target>
+        <target state="final">Daha Akıllı Otomatik Doldurma</target>
         <note>Title of a feature highlight, a noun phrase.</note>
       </trans-unit>
-      <trans-unit id="[WhatsNew/Feature/AutoType/description]" xml:space="preserve">
+      <trans-unit id="[WhatsNew/Feature/AutoType/description]" xml:space="preserve" approved="yes">
         <source>Quickly sign in to any app or web browser using key-press emulation.</source>
-        <target state="needs-translation">Quickly sign in to any app or web browser using key-press emulation.</target>
+        <target state="final">Hızlıca herhangi bir uygulamaya veya web tarayıcısına giriş yapın. Şifre girişi için tuş simülasyonu kullanılır.</target>
         <note>Description of a feature highlight, a call to action.</note>
       </trans-unit>
-      <trans-unit id="[WhatsNew/Feature/AutoType/title]" xml:space="preserve">
+      <trans-unit id="[WhatsNew/Feature/AutoType/title]" xml:space="preserve" approved="yes">
         <source>Password Auto-Type</source>
-        <target state="needs-translation">Password Auto-Type</target>
+        <target state="final">Otomatik Şifre Yazma</target>
         <note>Title of a feature highlight, a noun phrase.</note>
       </trans-unit>
-      <trans-unit id="[WhatsNew/Feature/CreativeAutoFill/description]" xml:space="preserve">
+      <trans-unit id="[WhatsNew/Feature/CreativeAutoFill/description]" xml:space="preserve" approved="yes">
         <source>Create new entries in AutoFill with main fields pre-filled automatically.</source>
-        <target state="needs-translation">Create new entries in AutoFill with main fields pre-filled automatically.</target>
+        <target state="final">Otomatik Doldurma'da ana alanların otomatik olarak önceden doldurulduğu yeni girdiler oluşturun.</target>
         <note>Description of a feature highlight, a call to action.</note>
       </trans-unit>
-      <trans-unit id="[WhatsNew/Feature/CreativeAutoFill/title]" xml:space="preserve">
+      <trans-unit id="[WhatsNew/Feature/CreativeAutoFill/title]" xml:space="preserve" approved="yes">
         <source>Faster Sign-Ups</source>
-        <target state="needs-translation">Faster Sign-Ups</target>
+        <target state="final">Daha Hızlı Kaydolma</target>
         <note>Title of a feature highlight, a noun phrase.</note>
       </trans-unit>
-      <trans-unit id="[WhatsNew/Feature/MoreInteractions/description]" xml:space="preserve">
+      <trans-unit id="[WhatsNew/Feature/MoreInteractions/description]" xml:space="preserve" approved="yes">
         <source>Drag and drop, select multiple items, and browse alphabetically.</source>
-        <target state="needs-translation">Drag and drop, select multiple items, and browse alphabetically.</target>
+        <target state="final">Kaydırın ve bırakın, birden çok öge seçin ve alfabetik olarak göz atın.</target>
         <note>Description of a feature highlight, a call to action. `Browse alphabetically` refers to a phonebook-like index with letters.</note>
       </trans-unit>
-      <trans-unit id="[WhatsNew/Feature/MoreInteractions/title]" xml:space="preserve">
+      <trans-unit id="[WhatsNew/Feature/MoreInteractions/title]" xml:space="preserve" approved="yes">
         <source>More Ways to Interact</source>
-        <target state="needs-translation">More Ways to Interact</target>
+        <target state="final">Daha Fazla Etkileşim Kurma Yolu</target>
         <note>Title of a feature highlight, a noun phrase.</note>
       </trans-unit>
-      <trans-unit id="[WhatsNew/FullChangelog/title]" xml:space="preserve">
+      <trans-unit id="[WhatsNew/FullChangelog/title]" xml:space="preserve" approved="yes">
         <source>Detailed Changelog</source>
-        <target state="needs-translation">Detailed Changelog</target>
+        <target state="final">Ayrıntılı Değişiklik Günlüğü</target>
         <note>Title of the detailed history of app changes over time.</note>
       </trans-unit>
-      <trans-unit id="[WhatsNew/fullTitle]" xml:space="preserve">
+      <trans-unit id="[WhatsNew/fullTitle]" xml:space="preserve" approved="yes">
         <source>What's New in KeePassium</source>
-        <target state="needs-translation">What's New in KeePassium</target>
+        <target state="final">KeePassium'daki Yenilikler</target>
         <note>Full title for release highlights</note>
       </trans-unit>
     </body>
@@ -2162,9 +2162,9 @@ Your actual passwords are never shared with the online service.
         <target state="needs-translation">Troubleshooting</target>
         <note>Class = "UITableViewSection"; headerTitle = "Troubleshooting"; ObjectID = "0mb-N7-JBa"; Note = "#bc-ignore!";</note>
       </trans-unit>
-      <trans-unit id="7bL-fQ-OUc.headerTitle" xml:space="preserve">
+      <trans-unit id="7bL-fQ-OUc.headerTitle" xml:space="preserve" approved="yes">
         <source>Feedback</source>
-        <target state="translated">Geri bildirim</target>
+        <target state="final">Geri bildirim</target>
         <note>Class = "UITableViewSection"; headerTitle = "Feedback"; ObjectID = "7bL-fQ-OUc"; Note = "Section: user feedback about the app";</note>
       </trans-unit>
       <trans-unit id="9wt-nj-TZW.text" xml:space="preserve" translate="no">
@@ -2172,24 +2172,24 @@ Your actual passwords are never shared with the online service.
         <target state="needs-translation">{Privacy policy summary}</target>
         <note>Class = "UILabel"; text = "{Privacy policy summary}"; ObjectID = "9wt-nj-TZW";</note>
       </trans-unit>
-      <trans-unit id="AMd-x7-PDa.text" xml:space="preserve">
+      <trans-unit id="AMd-x7-PDa.text" xml:space="preserve" approved="yes">
         <source>Do you like what you see?</source>
-        <target state="translated">Gördüğünüz hoşunuza gitti mi?</target>
+        <target state="final">Gördükleriniz hoşunuza gitti mi?</target>
         <note>Class = "UILabel"; text = "Do you like what you see?"; ObjectID = "AMd-x7-PDa"; Note = "First part of the 'Do you like what you see? / Leave an App Store review.\"";</note>
       </trans-unit>
-      <trans-unit id="JbR-nf-D9o.headerTitle" xml:space="preserve">
+      <trans-unit id="JbR-nf-D9o.headerTitle" xml:space="preserve" approved="yes">
         <source>Privacy Policy</source>
-        <target state="translated">Gizlilik Politikası</target>
+        <target state="final">Gizlilik Politikası</target>
         <note>Class = "UITableViewSection"; headerTitle = "Privacy Policy"; ObjectID = "JbR-nf-D9o"; Note = "Section: privacy policy";</note>
       </trans-unit>
-      <trans-unit id="NLN-lQ-bh5.title" xml:space="preserve">
+      <trans-unit id="NLN-lQ-bh5.title" xml:space="preserve" approved="yes">
         <source>About</source>
-        <target state="translated">Hakkında</target>
+        <target state="final">Hakkında</target>
         <note>Class = "UITableViewController"; title = "About"; ObjectID = "NLN-lQ-bh5";</note>
       </trans-unit>
-      <trans-unit id="TOl-DA-gYc.text" xml:space="preserve">
+      <trans-unit id="TOl-DA-gYc.text" xml:space="preserve" approved="yes">
         <source>Contact Support</source>
-        <target state="translated">Destekle İletişim</target>
+        <target state="final">Destekle İletişime Geçin</target>
         <note>Class = "UILabel"; text = "Contact Support"; ObjectID = "TOl-DA-gYc"; Note = "Action: contact us";</note>
       </trans-unit>
       <trans-unit id="Wuj-Uw-baK.text" xml:space="preserve" approved="yes">
@@ -2212,14 +2212,14 @@ Your actual passwords are never shared with the online service.
         <target state="needs-translation">{info@keepassium.com}</target>
         <note>Class = "UILabel"; text = "{info@keepassium.com}"; ObjectID = "kae-Kb-5ZU"; Note = "#bc-ignore!";</note>
       </trans-unit>
-      <trans-unit id="muG-xI-muo.headerTitle" xml:space="preserve">
+      <trans-unit id="muG-xI-muo.headerTitle" xml:space="preserve" approved="yes">
         <source>Credits</source>
-        <target state="translated">Katkıda Bulunanlar</target>
+        <target state="final">Katkıda Bulunanlar</target>
         <note>Class = "UITableViewSection"; headerTitle = "Credits"; ObjectID = "muG-xI-muo"; Note = "Section: acknowledgements and thank-you notes";</note>
       </trans-unit>
-      <trans-unit id="uiw-Qh-pNp.text" xml:space="preserve">
+      <trans-unit id="uiw-Qh-pNp.text" xml:space="preserve" approved="yes">
         <source>Leave an App Store review.</source>
-        <target state="translated">AppStore'da bizi değerlendirin.</target>
+        <target state="final">AppStore'da bizi değerlendirin.</target>
         <note>Class = "UILabel"; text = "Leave an App Store review."; ObjectID = "uiw-Qh-pNp"; Note = "Second part of the 'Do you like what you see? / Leave an App Store review.\"";</note>
       </trans-unit>
       <trans-unit id="vDg-fF-8ty.text" xml:space="preserve" translate="no">
@@ -2239,14 +2239,14 @@ Your actual passwords are never shared with the online service.
         <target state="needs-translation">{Enter passcode to protect KeePassium}</target>
         <note>Class = "UILabel"; text = "{Enter passcode to protect KeePassium}"; ObjectID = "3mQ-t6-0ty"; Note = "#bc-ignore!";</note>
       </trans-unit>
-      <trans-unit id="P3J-3c-ucU.title" xml:space="preserve">
+      <trans-unit id="P3J-3c-ucU.title" xml:space="preserve" approved="yes">
         <source>Unlock KeePassium</source>
-        <target state="translated">KeePassium'un Kilidini Aç</target>
+        <target state="final">KeePassium'un kilidini açın</target>
         <note>Class = "UINavigationItem"; title = "Unlock KeePassium"; ObjectID = "P3J-3c-ucU";</note>
       </trans-unit>
-      <trans-unit id="ZTd-Zj-qAs.placeholder" xml:space="preserve">
+      <trans-unit id="ZTd-Zj-qAs.placeholder" xml:space="preserve" approved="yes">
         <source>Passcode</source>
-        <target state="translated">Şifre</target>
+        <target state="final">Şifre kodu</target>
         <note>Class = "UITextField"; placeholder = "Passcode"; ObjectID = "ZTd-Zj-qAs"; Note = "Placeholder text in the AppLock passcode field";</note>
       </trans-unit>
       <trans-unit id="atY-8z-wKo.text" xml:space="preserve" translate="no">
@@ -2264,9 +2264,9 @@ Your actual passwords are never shared with the online service.
         <target state="needs-translation">{Unlock / Save}</target>
         <note>Class = "UIButton"; normalTitle = "{Unlock / Save}"; ObjectID = "i2Z-Q7-JRa"; Note = "#bc-ignore!";</note>
       </trans-unit>
-      <trans-unit id="z0x-Rz-Nfj.normalTitle" xml:space="preserve">
+      <trans-unit id="z0x-Rz-Nfj.normalTitle" xml:space="preserve" approved="yes">
         <source>Cancel</source>
-        <target state="translated">İptal</target>
+        <target state="final">İptal et</target>
         <note>Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "z0x-Rz-Nfj";</note>
       </trans-unit>
     </body>
@@ -2328,9 +2328,9 @@ Your actual passwords are never shared with the online service.
         <target state="final">Premium</target>
         <note>Class = "UINavigationItem"; title = "Premium"; ObjectID = "LNd-e9-YY7";</note>
       </trans-unit>
-      <trans-unit id="NSz-U1-2ye.normalTitle" xml:space="preserve">
+      <trans-unit id="NSz-U1-2ye.normalTitle" xml:space="preserve" approved="yes">
         <source>Terms and Conditions</source>
-        <target state="translated">Hizmet Koşulları ve Kullanım Şartları</target>
+        <target state="final">Hüküm ve Koşullar</target>
         <note>Class = "UIButton"; normalTitle = "Terms and Conditions"; ObjectID = "NSz-U1-2ye";</note>
       </trans-unit>
       <trans-unit id="cEd-4Y-m9a.text" xml:space="preserve" translate="no">
@@ -2343,14 +2343,14 @@ Your actual passwords are never shared with the online service.
         <target state="needs-translation">{Benefit Title}</target>
         <note>Class = "UILabel"; text = "{Benefit Title}"; ObjectID = "f0i-gI-Jb4"; Note = "#bc-ignore!";</note>
       </trans-unit>
-      <trans-unit id="fC2-en-cOo.normalTitle" xml:space="preserve">
+      <trans-unit id="fC2-en-cOo.normalTitle" xml:space="preserve" approved="yes">
         <source>Privacy Policy</source>
-        <target state="translated">Gizlilik Politikası</target>
+        <target state="final">Gizlilik Politikası</target>
         <note>Class = "UIButton"; normalTitle = "Privacy Policy"; ObjectID = "fC2-en-cOo";</note>
       </trans-unit>
-      <trans-unit id="j7c-Gd-QEh.normalTitle" xml:space="preserve">
+      <trans-unit id="j7c-Gd-QEh.normalTitle" xml:space="preserve" approved="yes">
         <source>Already purchased?</source>
-        <target state="translated">Zaten satın aldınız mı?</target>
+        <target state="final">Zaten satın aldınız mı?</target>
         <note>Class = "UIButton"; normalTitle = "Already purchased?"; ObjectID = "j7c-Gd-QEh";</note>
       </trans-unit>
       <trans-unit id="juk-xI-Nbg.text" xml:space="preserve" translate="no">

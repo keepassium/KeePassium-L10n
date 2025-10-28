@@ -37,19 +37,19 @@
         <target state="translated">Aktivera för att lyssna.</target>
         <note>Call to action: perform accessibilty `activate` action to listen to text/content.</note>
       </trans-unit>
-      <trans-unit id="[Accessibility/containsAttachments]" xml:space="preserve">
+      <trans-unit id="[Accessibility/containsAttachments]" xml:space="preserve" approved="yes">
         <source>Contains attachments.</source>
-        <target state="needs-translation">Contains attachments.</target>
+        <target state="final">Innehåller bilagor.</target>
         <note>Accessibility notification for entries with attached files.</note>
       </trans-unit>
-      <trans-unit id="[Accessibility/containsIncompatiblePasskey]" xml:space="preserve">
+      <trans-unit id="[Accessibility/containsIncompatiblePasskey]" xml:space="preserve" approved="yes">
         <source>Contains a passkey incompatible with this device.</source>
-        <target state="needs-translation">Contains a passkey incompatible with this device.</target>
+        <target state="final">Innehåller en nyckel som inte är kompatibel med enheten.</target>
         <note>Accessibility notification for entries with a problematic passkey</note>
       </trans-unit>
-      <trans-unit id="[Accessibility/containsOTP]" xml:space="preserve">
+      <trans-unit id="[Accessibility/containsOTP]" xml:space="preserve" approved="yes">
         <source>Contains one-time password.</source>
-        <target state="needs-translation">Contains one-time password.</target>
+        <target state="final">Innehåller engångslösenord.</target>
         <note>Accessibility notification for entries with OTP codes.</note>
       </trans-unit>
       <trans-unit id="[Accessibility/containsPasskey]" xml:space="preserve" approved="yes">
@@ -152,34 +152,34 @@
         <target state="translated">Premiumuppgradering</target>
         <note>Title of a message related to upgrading to the premium version</note>
       </trans-unit>
-      <trans-unit id="[AutoType/AccessibilityPrompt/callToAction]" xml:space="preserve">
+      <trans-unit id="[AutoType/AccessibilityPrompt/callToAction]" xml:space="preserve" approved="yes">
         <source>Open system settings → Privacy &amp; Security → Accessibility and enable KeePassium there.</source>
-        <target state="needs-translation">Open system settings → Privacy &amp; Security → Accessibility and enable KeePassium there.</target>
+        <target state="final">Öppna systeminställningarna → Integritet och säkerhet → Tillgänglighet, och aktivera KeePassium.</target>
         <note>Call to action / instruction on how to enable accessibility permission</note>
       </trans-unit>
-      <trans-unit id="[AutoType/AccessibilityPrompt/message]" xml:space="preserve">
+      <trans-unit id="[AutoType/AccessibilityPrompt/message]" xml:space="preserve" approved="yes">
         <source>KeePassium needs your permission to send key presses to other apps.</source>
-        <target state="needs-translation">KeePassium needs your permission to send key presses to other apps.</target>
+        <target state="final">KeePassium behöver din tillåtelse att skicka knapptryckningar till andra appar.</target>
         <note>Message explaining why accessibility permission is needed</note>
       </trans-unit>
-      <trans-unit id="[AutoType/AccessibilityPrompt/title]" xml:space="preserve">
+      <trans-unit id="[AutoType/AccessibilityPrompt/title]" xml:space="preserve" approved="yes">
         <source>KeePassium needs your permission</source>
-        <target state="needs-translation">KeePassium needs your permission</target>
+        <target state="final">KeePassium behöver din tillåtelse</target>
         <note>Title of a dialog asking user to provide a security permission</note>
       </trans-unit>
-      <trans-unit id="[AutoType/Action/OpenSettings]" xml:space="preserve">
+      <trans-unit id="[AutoType/Action/OpenSettings]" xml:space="preserve" approved="yes">
         <source>Open Settings</source>
-        <target state="needs-translation">Open Settings</target>
+        <target state="final">Öppna inställningarna</target>
         <note>Button to open system settings (accessibility, permissions, etc)</note>
       </trans-unit>
-      <trans-unit id="[AutoType/Error/Title]" xml:space="preserve">
+      <trans-unit id="[AutoType/Error/Title]" xml:space="preserve" approved="yes">
         <source>Auto-type Failed</source>
-        <target state="needs-translation">Auto-type Failed</target>
+        <target state="final">Autoskriv misslyckades</target>
         <note>Title for error when auto-type fails</note>
       </trans-unit>
-      <trans-unit id="[AutoType/action]" xml:space="preserve">
+      <trans-unit id="[AutoType/action]" xml:space="preserve" approved="yes">
         <source>Perform Auto-Type</source>
-        <target state="needs-translation">Perform Auto-Type</target>
+        <target state="final">Använd Autoskriv</target>
         <note>Action: send key presses to 'type in' entry data into another app</note>
       </trans-unit>
       <trans-unit id="[BiometricAuthType] Face ID" xml:space="preserve">
@@ -292,9 +292,9 @@
         <target state="translated">Skapa databas</target>
         <note>Action/button to create a new database</note>
       </trans-unit>
-      <trans-unit id="[Database/CustomIcon/All/count]" xml:space="preserve">
+      <trans-unit id="[Database/CustomIcon/All/count]" xml:space="preserve" approved="yes">
         <source>All custom icons: %d</source>
-        <target state="needs-translation">All custom icons: %d</target>
+        <target state="final">Alla anpassade ikoner: %d</target>
         <note>Notification when some custom icons are about to be deleted [iconCount: Int]</note>
       </trans-unit>
       <trans-unit id="[Database/CustomIcon/DownloadFavicon/action]" xml:space="preserve">
@@ -461,9 +461,9 @@ Säkerställ att du har en backup.</target>
         <target state="translated">Det här är ett äldre databasformat, viss data kan gå förlorade.</target>
         <note>Notification when user tries to copy data from KDBX to older KDB database.</note>
       </trans-unit>
-      <trans-unit id="[Database/List/LocalMissing/callToAction]" xml:space="preserve">
+      <trans-unit id="[Database/List/LocalMissing/callToAction]" xml:space="preserve" approved="yes">
         <source>Open the app</source>
-        <target state="needs-translation">Open the app</target>
+        <target state="final">Öppna appen</target>
         <note>Call to action. 'Open' here is used as 'launch'.</note>
       </trans-unit>
       <trans-unit id="[Database/List/LocalMissing/message]" xml:space="preserve" approved="yes">
@@ -835,14 +835,14 @@ Filen kommer inte raderas, och du kan lägga till den igen vid ett senare tillf�
         <target state="final">Öppna KeePassium-huvudappen om du vill spara ändringar.</target>
         <note>Call to action shown in AutoFill module.</note>
       </trans-unit>
-      <trans-unit id="[Database/UnsavedChanges/Problematic/info]" xml:space="preserve">
+      <trans-unit id="[Database/UnsavedChanges/Problematic/info]" xml:space="preserve" approved="yes">
         <source>Some pending changes refer to missing entries or groups. KeePassium will create these items in a separate group and apply the changes there.</source>
-        <target state="needs-translation">Some pending changes refer to missing entries or groups. KeePassium will create these items in a separate group and apply the changes there.</target>
+        <target state="final">Några väntande ändringar handlar om poster eller grupper som saknas. KeePassium skapar dessa objekt i en separat grupp och tillämpar ändringarna där.</target>
         <note>Notification message about a problem with unsaved/pending changes.</note>
       </trans-unit>
-      <trans-unit id="[Database/UnsavedChanges/RecoveredEntriesGroup/name]" xml:space="preserve">
+      <trans-unit id="[Database/UnsavedChanges/RecoveredEntriesGroup/name]" xml:space="preserve" approved="yes">
         <source>Recovered Changes (%@)</source>
-        <target state="needs-translation">Recovered Changes (%@)</target>
+        <target state="final">Återställda ändringar (%@)</target>
         <note>Title of a group where problematic pending changes are saved. %@ is the date of recovery.</note>
       </trans-unit>
       <trans-unit id="[Database/UnsavedChanges/autoFillCrashed]" xml:space="preserve" approved="yes">
@@ -855,9 +855,9 @@ Filen kommer inte raderas, och du kan lägga till den igen vid ett senare tillf�
         <target state="final">Autofyll kan tyvärr inte modifiera stora databaser än. Vi jobbar på att lösa det.</target>
         <note>Notification message</note>
       </trans-unit>
-      <trans-unit id="[Database/UnsavedChanges/couldNotApply]" xml:space="preserve">
+      <trans-unit id="[Database/UnsavedChanges/couldNotApply]" xml:space="preserve" approved="yes">
         <source>Some pending changes could not be applied automatically; recent modifications might be missing.</source>
-        <target state="needs-translation">Some pending changes could not be applied automatically; recent modifications might be missing.</target>
+        <target state="final">Det gick inte att tillämpa några väntande ändringar automatiskt. De senaste ändringarna kanske saknas.</target>
         <note>Notification message</note>
       </trans-unit>
       <trans-unit id="[Database/UnsavedChanges/saveAction]" xml:space="preserve" approved="yes">
@@ -1034,12 +1034,12 @@ Missing attachments: %2$@</source>
 Saknade bilagor: %2$@</target>
         <note>A warning about missing attachments after loading the database. [lastUsedAppName: String, attachmentNames: String]</note>
       </trans-unit>
-      <trans-unit id="[Database2/Loading/Warning/namelessAttachments]" xml:space="preserve">
+      <trans-unit id="[Database2/Loading/Warning/namelessAttachments]" xml:space="preserve" approved="yes">
         <source>Some entries have attachments without a name. This is a sign of previous database corruption.
 
  Please review attached files in the following entries (and their history):
 %@</source>
-        <target state="translated">Några poster har bilagor utan ett namn. Det är ett tecken på tidigare skador på databasen.
+        <target state="final">Några poster har bilagor utan ett namn. Det är ett tecken på tidigare skador i databasen.
 
 Granska bilagor för följande poster (och deras historik):
 %@</target>
@@ -1211,14 +1211,14 @@ Säkerställ att du har en backup på din databas innan du ändrar något.</targ
         <target state="translated">Redigera post</target>
         <note>Action/button to modify an entry</note>
       </trans-unit>
-      <trans-unit id="[Entry/Field/Add/action]" xml:space="preserve">
+      <trans-unit id="[Entry/Field/Add/action]" xml:space="preserve" approved="yes">
         <source>Add Field</source>
-        <target state="needs-translation">Add Field</target>
+        <target state="final">Lägg till fält</target>
         <note>Action/button to add a new field to the entry</note>
       </trans-unit>
-      <trans-unit id="[Entry/Field/CompactMenu/title]" xml:space="preserve">
+      <trans-unit id="[Entry/Field/CompactMenu/title]" xml:space="preserve" approved="yes">
         <source>Compact View</source>
-        <target state="needs-translation">Compact View</target>
+        <target state="final">Komprimerad vy</target>
         <note>On/off state: whether to show full-size or compact menu</note>
       </trans-unit>
       <trans-unit id="[Entry/Field/CopyReference/acknowledgement]" xml:space="preserve">
@@ -1231,9 +1231,9 @@ Säkerställ att du har en backup på din databas innan du ändrar något.</targ
         <target state="translated">Kopiera referens till fält</target>
         <note>Action: copy a reference to the selected entry field to clipboard</note>
       </trans-unit>
-      <trans-unit id="[Entry/Field/Custom/title]" xml:space="preserve">
+      <trans-unit id="[Entry/Field/Custom/title]" xml:space="preserve" approved="yes">
         <source>Custom Field</source>
-        <target state="needs-translation">Custom Field</target>
+        <target state="final">Anpassat fält</target>
         <note>Title for a generic user-defined entry field.</note>
       </trans-unit>
       <trans-unit id="[Entry/Field/LargeType/action]" xml:space="preserve" approved="yes">
@@ -1246,9 +1246,9 @@ Säkerställ att du har en backup på din databas innan du ändrar något.</targ
         <target state="translated">Skyddat fält</target>
         <note>Title of a setting: whether the entry's field is protected (shown as asterisks).</note>
       </trans-unit>
-      <trans-unit id="[Entry/Field/QRCode/action]" xml:space="preserve">
+      <trans-unit id="[Entry/Field/QRCode/action]" xml:space="preserve" approved="yes">
         <source>Show as QR Code</source>
-        <target state="needs-translation">Show as QR Code</target>
+        <target state="final">Visa som QR-kod</target>
         <note>Action: display text using QR code</note>
       </trans-unit>
       <trans-unit id="[Entry/Field/URL/Extra/title]" xml:space="preserve">
@@ -1301,9 +1301,9 @@ Säkerställ att du har en backup på din databas innan du ändrar något.</targ
         <target state="translated">Laddar fil att bifoga</target>
         <note>Status message: loading file to be attached to an entry</note>
       </trans-unit>
-      <trans-unit id="[Entry/FrequentlyUsedFields/title]" xml:space="preserve">
+      <trans-unit id="[Entry/FrequentlyUsedFields/title]" xml:space="preserve" approved="yes">
         <source>Frequently Used</source>
-        <target state="needs-translation">Frequently Used</target>
+        <target state="final">Används ofta</target>
         <note>Title of a list with frequently used entry fields.</note>
       </trans-unit>
       <trans-unit id="[Entry/History/ExpiryDate] Never" xml:space="preserve" approved="yes">
@@ -1341,9 +1341,9 @@ Säkerställ att du har en backup på din databas innan du ändrar något.</targ
         <target state="translated">Tidigare versioner</target>
         <note>Title of a list with previous versions/revisions of an entry.</note>
       </trans-unit>
-      <trans-unit id="[Entry/New/defaultTitle] New Entry" xml:space="preserve">
+      <trans-unit id="[Entry/New/defaultTitle] New Entry" xml:space="preserve" approved="yes">
         <source>New Entry</source>
-        <target state="translated">Ny post</target>
+        <target state="final">Ny post</target>
         <note>Default title of a new entry</note>
       </trans-unit>
       <trans-unit id="[Entry/title]" xml:space="preserve">
@@ -1706,9 +1706,9 @@ Säkerställ att du har en backup på din databas innan du ändrar något.</targ
         <target state="translated">Mappen är tom</target>
         <note>Placeholder for folders without files</note>
       </trans-unit>
-      <trans-unit id="[General/MultiSelectionKeys/hint]" xml:space="preserve">
+      <trans-unit id="[General/MultiSelectionKeys/hint]" xml:space="preserve" approved="yes">
         <source>Press and hold Cmd or Shift key to select multiple items.</source>
-        <target state="needs-translation">Press and hold Cmd or Shift key to select multiple items.</target>
+        <target state="final">Tryck och håll ned på Cmd- eller Shift-tangenten om du vill välja flera objekt.</target>
         <note>Info message for keyboard-assisted selection</note>
       </trans-unit>
       <trans-unit id="[Generic/Action/ReorderItems]" xml:space="preserve" approved="yes">
@@ -1731,9 +1731,9 @@ Säkerställ att du har en backup på din databas innan du ändrar något.</targ
         <target state="needs-translation">[Generic/Count/EntriesSelected]</target>
         <note>Number of entries selected. For example: 'No entries selected', '1 entry selected'. IMPORTANT: Please fill out all the plural forms. (Key in .stringsdict)</note>
       </trans-unit>
-      <trans-unit id="[Generic/Count/ImportedEntries]" xml:space="preserve">
+      <trans-unit id="[Generic/Count/ImportedEntries]" xml:space="preserve" approved="yes">
         <source>Entries found: %d</source>
-        <target state="needs-translation">Entries found: %d</target>
+        <target state="final">Poster som hittats: %d</target>
         <note>Number of entries found in an incoming file. For example: 'Found entries: 42' [itemCount: Int]</note>
       </trans-unit>
       <trans-unit id="[Generic/Count/ItemsSelected]" translate="no" xml:space="preserve">
@@ -1766,9 +1766,9 @@ Säkerställ att du har en backup på din databas innan du ändrar något.</targ
         <target state="final">Filexport</target>
         <note>Title of a generic file export screen.</note>
       </trans-unit>
-      <trans-unit id="[Generic/File/ForceSave]" xml:space="preserve">
+      <trans-unit id="[Generic/File/ForceSave]" xml:space="preserve" approved="yes">
         <source>Force Save</source>
-        <target state="needs-translation">Force Save</target>
+        <target state="final">Tvinga att spara</target>
         <note>Action to save data, when we ignore minor problems in the process.</note>
       </trans-unit>
       <trans-unit id="[Generic/File/Save as]" xml:space="preserve">
@@ -1801,9 +1801,9 @@ Säkerställ att du har en backup på din databas innan du ändrar något.</targ
         <target state="translated">Ta bort</target>
         <note>Action/button to remove a file from the app (the file remains, but the app forgets about it)</note>
       </trans-unit>
-      <trans-unit id="[Generic/GotIt/action]" xml:space="preserve">
+      <trans-unit id="[Generic/GotIt/action]" xml:space="preserve" approved="yes">
         <source>Got It</source>
-        <target state="needs-translation">Got It</target>
+        <target state="final">Ok</target>
         <note>Action to proceed after a warning, basically 'I understand the risk'</note>
       </trans-unit>
       <trans-unit id="[Generic/Presets]" xml:space="preserve">
@@ -1926,9 +1926,9 @@ Säkerställ att du har en backup på din databas innan du ändrar något.</targ
         <target state="translated">Åtgärda</target>
         <note>Action/button shown below error messages. Tapping the button will start the fixing/repairing workflow described in the error message.</note>
       </trans-unit>
-      <trans-unit id="[Generic] Import" xml:space="preserve">
+      <trans-unit id="[Generic] Import" xml:space="preserve" approved="yes">
         <source>Import</source>
-        <target state="needs-translation">Import</target>
+        <target state="final">Importera</target>
         <note>Action/button to import an item to another app</note>
       </trans-unit>
       <trans-unit id="[Generic] Learn more" xml:space="preserve" approved="yes">
@@ -2166,19 +2166,19 @@ Säkerställ att du har en backup på din databas innan du ändrar något.</targ
         <target state="translated">Hårdvarunycklar</target>
         <note>Title of a list with possible hardware key connections</note>
       </trans-unit>
-      <trans-unit id="[HardwareKey/Slot/title]" xml:space="preserve">
+      <trans-unit id="[HardwareKey/Slot/title]" xml:space="preserve" approved="yes">
         <source>%1$@ Slot %2$d</source>
-        <target state="needs-translation">%1$@ Slot %2$d</target>
+        <target state="final">%1$@ Plats %2$d</target>
         <note>Title of a slot of a hardware key. For example: `YubiKey Slot 1`.</note>
       </trans-unit>
-      <trans-unit id="[HardwareKey/SlotN]" xml:space="preserve">
+      <trans-unit id="[HardwareKey/SlotN]" xml:space="preserve" approved="yes">
         <source>Slot %d</source>
-        <target state="needs-translation">Slot %d</target>
+        <target state="final">Plats %d</target>
         <note>Hardware key slot number. [slotNumber: Int]</note>
       </trans-unit>
-      <trans-unit id="[HardwareKey/SlotTitle]" xml:space="preserve">
+      <trans-unit id="[HardwareKey/SlotTitle]" xml:space="preserve" approved="yes">
         <source>Slot</source>
-        <target state="needs-translation">Slot</target>
+        <target state="final">Plats</target>
         <note>Title for hardware key slot selection menu.</note>
       </trans-unit>
       <trans-unit id="[HardwareKey/USB/chalRespNotSupported]" xml:space="preserve" approved="yes">
@@ -2333,9 +2333,9 @@ Se till att du har en säkerhetskopia.</target>
         <target state="final">Importera nyckelfil</target>
         <note>Action: import/add a key file into the app. `Key file` is a glossary term.</note>
       </trans-unit>
-      <trans-unit id="[KeyFile/List/empty]" xml:space="preserve">
+      <trans-unit id="[KeyFile/List/empty]" xml:space="preserve" approved="yes">
         <source>No key files</source>
-        <target state="needs-translation">No key files</target>
+        <target state="final">Inga nyckelfiler</target>
         <note>Placeholder shown when there are no key files available</note>
       </trans-unit>
       <trans-unit id="[KeyFile/List/title]" xml:space="preserve" approved="yes">
@@ -2450,34 +2450,34 @@ Se till att du har en säkerhetskopia.</target>
         <target state="translated">Skanna QR-kod</target>
         <note>Button/action: proceed with QR code based OTP setup</note>
       </trans-unit>
-      <trans-unit id="[OTP/Setup/ScanQRImageFile]" xml:space="preserve">
+      <trans-unit id="[OTP/Setup/ScanQRImageFile]" xml:space="preserve" approved="yes">
         <source>Scan QR from File</source>
-        <target state="needs-translation">Scan QR from File</target>
+        <target state="final">Skanna QR-kod från fil</target>
         <note>Action: pick an image (from files) to scan as QR code</note>
       </trans-unit>
-      <trans-unit id="[OTP/Setup/ScanQRPhoto]" xml:space="preserve">
+      <trans-unit id="[OTP/Setup/ScanQRPhoto]" xml:space="preserve" approved="yes">
         <source>Scan QR from Photo</source>
-        <target state="needs-translation">Scan QR from Photo</target>
+        <target state="final">Skanna QR-kod från foto</target>
         <note>Action: pick a photo (from gallery) to scan as QR code</note>
       </trans-unit>
-      <trans-unit id="[OTP/Setup/SelectDatabase/message]" xml:space="preserve">
+      <trans-unit id="[OTP/Setup/SelectDatabase/message]" xml:space="preserve" approved="yes">
         <source>Select database for setting up the verification code (one-time password).</source>
-        <target state="needs-translation">Select database for setting up the verification code (one-time password).</target>
+        <target state="final">Välj databas för att konfigurera verifieringskoden (engångslösenord).</target>
         <note>Call to action/instruction during setup of OTP codes.</note>
       </trans-unit>
-      <trans-unit id="[OTP/Setup/SelectEntry/message]" xml:space="preserve">
+      <trans-unit id="[OTP/Setup/SelectEntry/message]" xml:space="preserve" approved="yes">
         <source>Select entry for setting up the verification code (one-time password).</source>
-        <target state="needs-translation">Select entry for setting up the verification code (one-time password).</target>
+        <target state="final">Välj post för att konfigurera verifieringskoden (engångslösenord).</target>
         <note>Call to action/instruction during setup of OTP codes.</note>
       </trans-unit>
-      <trans-unit id="[OTP/Setup/Success]" xml:space="preserve">
+      <trans-unit id="[OTP/Setup/Success]" xml:space="preserve" approved="yes">
         <source>OTP setup complete</source>
-        <target state="needs-translation">OTP setup complete</target>
+        <target state="final">Konfiguration av engångslösenord klar</target>
         <note>Confirmation message after successful OTP setup</note>
       </trans-unit>
-      <trans-unit id="[OTP/Setup/Title]" xml:space="preserve">
+      <trans-unit id="[OTP/Setup/Title]" xml:space="preserve" approved="yes">
         <source>Verification Code Setup</source>
-        <target state="needs-translation">Verification Code Setup</target>
+        <target state="final">Konfiguration av verifieringskod</target>
         <note>Title of a dialog related to setup of one-time passwords (OTP)</note>
       </trans-unit>
       <trans-unit id="[OTP/Setup]" xml:space="preserve">
@@ -2695,9 +2695,9 @@ Se till att du har en säkerhetskopia.</target>
         <target state="translated">Synkronisera med företagslagring</target>
         <note>Title of a premium feature</note>
       </trans-unit>
-      <trans-unit id="[Premium/Benefits/CreativeAutoFill/title]" xml:space="preserve">
+      <trans-unit id="[Premium/Benefits/CreativeAutoFill/title]" xml:space="preserve" approved="yes">
         <source>Create accounts faster</source>
-        <target state="needs-translation">Create accounts faster</target>
+        <target state="final">Skapa konton snabbare</target>
         <note>Call to action / Title of a premium feature</note>
       </trans-unit>
       <trans-unit id="[Premium/Benefits/HardwareKeys/details]" xml:space="preserve">
@@ -2958,14 +2958,14 @@ Du kan hantera och avsluta din prenumeration genom att gå till Kontoinställnin
         <target state="translated">Företagslagring i molnet</target>
         <note>Title of a premium feature: access to company's cloud accounts like 'OneDrive for Business'</note>
       </trans-unit>
-      <trans-unit id="[PremiumFeature/CreativeAutoFill/description]" xml:space="preserve">
+      <trans-unit id="[PremiumFeature/CreativeAutoFill/description]" xml:space="preserve" approved="yes">
         <source>Create new entries in AutoFill with main fields pre-filled.</source>
-        <target state="needs-translation">Create new entries in AutoFill with main fields pre-filled.</target>
+        <target state="final">Skapa nya poster i Autofyll där huvudfälten redan fyllts i.</target>
         <note>Description/advertisement for the `Faster Sign-Ups` premium feature</note>
       </trans-unit>
-      <trans-unit id="[PremiumFeature/CreativeAutoFill/title]" xml:space="preserve">
+      <trans-unit id="[PremiumFeature/CreativeAutoFill/title]" xml:space="preserve" approved="yes">
         <source>Faster Sign-Ups</source>
-        <target state="needs-translation">Faster Sign-Ups</target>
+        <target state="final">Registrera dig snabbare</target>
         <note>Title of a premium feature: easier registration of new accounts, directly in AutoFill dialog</note>
       </trans-unit>
       <trans-unit id="[PremiumFeature/Generic/description]" xml:space="preserve">
@@ -3082,14 +3082,14 @@ Detta kan hända med stora databaser eller för högt ställda databasinställni
         <target state="final">KeePassium kommunicerar direkt med din onlinelagring vilket garanterar pålitlig filöverföring.</target>
         <note>Description of the `Direct connection` sync method.</note>
       </trans-unit>
-      <trans-unit id="[RemoteConnection/Direct/title]" xml:space="preserve">
+      <trans-unit id="[RemoteConnection/Direct/title]" xml:space="preserve" approved="yes">
         <source>Online Services</source>
-        <target state="needs-translation">Online Services</target>
+        <target state="final">Onlinetjänster</target>
         <note>Title of a list with online storage services like OneDrive, Dropbox, etc.</note>
       </trans-unit>
-      <trans-unit id="[RemoteConnection/Edit/action]" xml:space="preserve">
+      <trans-unit id="[RemoteConnection/Edit/action]" xml:space="preserve" approved="yes">
         <source>Edit Connection…</source>
-        <target state="needs-translation">Edit Connection…</target>
+        <target state="final">Redigera anslutning …</target>
         <note>Action: change properties of a remote network connection</note>
       </trans-unit>
       <trans-unit id="[RemoteConnection/Error/AuthenticationFailed/title]" xml:space="preserve">
@@ -3102,9 +3102,9 @@ Detta kan hända med stora databaser eller för högt ställda databasinställni
         <target state="translated">Fil-URL</target>
         <note>Network address of a file</note>
       </trans-unit>
-      <trans-unit id="[RemoteConnection/FullURL]" xml:space="preserve">
+      <trans-unit id="[RemoteConnection/FullURL]" xml:space="preserve" approved="yes">
         <source>Full URL</source>
-        <target state="needs-translation">Full URL</target>
+        <target state="final">Fullständig URL</target>
         <note>Complete WebDAV URL including path prefix</note>
       </trans-unit>
       <trans-unit id="[RemoteConnection/GoogleDrive/Folder/myDrive]" xml:space="preserve">
@@ -3177,9 +3177,9 @@ Detta kan hända med stora databaser eller för högt ställda databasinställni
         <target state="final">KeePassium tilldelar filsynkronisering till din lagringsleverantörs app. Vissa appar fungerar bättre än andra.</target>
         <note>Description of the `Integration via Files app` sync method.</note>
       </trans-unit>
-      <trans-unit id="[RemoteConnection/WebDAVService/SetupGuide]" xml:space="preserve">
+      <trans-unit id="[RemoteConnection/WebDAVService/SetupGuide]" xml:space="preserve" approved="yes">
         <source>%@ Setup Guide</source>
-        <target state="needs-translation">%@ Setup Guide</target>
+        <target state="final">Inställningsguide för %@</target>
         <note>Link to a help page for an online storage service. The parameter is the service name in fixed neutral form. Example: 'Nextcloud Setup Guide' or 'Synology NAS Setup Guide'.</note>
       </trans-unit>
       <trans-unit id="[RemoteConnection/connectToServer]" xml:space="preserve">
@@ -3197,14 +3197,14 @@ Detta kan hända med stora databaser eller för högt ställda databasinställni
         <target state="translated">Repetera lösenord</target>
         <note>Name of an input field for entering the password again</note>
       </trans-unit>
-      <trans-unit id="[Settings/AutoDownloadFavicons/description]" xml:space="preserve">
+      <trans-unit id="[Settings/AutoDownloadFavicons/description]" xml:space="preserve" approved="yes">
         <source>Automatically download website icon after editing an entry.</source>
-        <target state="needs-translation">Automatically download website icon after editing an entry.</target>
+        <target state="final">Ladda ned webbplatsikon automatiskt efter att en post har redigerats.</target>
         <note>Description of the auto-download favicons feature</note>
       </trans-unit>
-      <trans-unit id="[Settings/AutoDownloadFavicons/title]" xml:space="preserve">
+      <trans-unit id="[Settings/AutoDownloadFavicons/title]" xml:space="preserve" approved="yes">
         <source>Auto-Download Favicons</source>
-        <target state="needs-translation">Auto-Download Favicons</target>
+        <target state="final">Ladda ned favoritikoner automatiskt</target>
         <note>Settings option: automatically download website icons/favicons</note>
       </trans-unit>
       <trans-unit id="[Settings/AutoFill/title]" xml:space="preserve">
@@ -3302,44 +3302,44 @@ Detta kan hända med stora databaser eller för högt ställda databasinställni
         <target state="translated">Återställ standardinställningar</target>
         <note>Action/button which resets some settings to their default state.</note>
       </trans-unit>
-      <trans-unit id="[Settings/ShakeGestureAction/LockApp/disabledTitle]" xml:space="preserve">
+      <trans-unit id="[Settings/ShakeGestureAction/LockApp/disabledTitle]" xml:space="preserve" approved="yes">
         <source>Activate app protection first</source>
-        <target state="needs-translation">Activate app protection first</target>
+        <target state="final">Aktivera först appskyddet</target>
         <note>Call to action (explains why a setting is disabled)</note>
       </trans-unit>
-      <trans-unit id="[Settings/ShakeGestureAction/LockApp/shortTitle]" xml:space="preserve">
+      <trans-unit id="[Settings/ShakeGestureAction/LockApp/shortTitle]" xml:space="preserve" approved="yes">
         <source>Lock App</source>
-        <target state="needs-translation">Lock App</target>
+        <target state="final">Lås appen</target>
         <note>An option in Settings. Will be shown as 'When Shaken: Lock App'</note>
       </trans-unit>
-      <trans-unit id="[Settings/ShakeGestureAction/LockDatabases/shortTitle]" xml:space="preserve">
+      <trans-unit id="[Settings/ShakeGestureAction/LockDatabases/shortTitle]" xml:space="preserve" approved="yes">
         <source>Lock All Databases</source>
-        <target state="needs-translation">Lock All Databases</target>
+        <target state="final">Lås alla databaser</target>
         <note>An option in Settings. Will be shown as 'When Shaken: Lock All Databases'</note>
       </trans-unit>
-      <trans-unit id="[Settings/ShakeGestureAction/Nothing/shortTitle]" xml:space="preserve">
+      <trans-unit id="[Settings/ShakeGestureAction/Nothing/shortTitle]" xml:space="preserve" approved="yes">
         <source>Do Nothing</source>
-        <target state="needs-translation">Do Nothing</target>
+        <target state="final">Gör ingenting</target>
         <note>An option in Settings. Will be shown as 'When Shaken: Do Nothing'</note>
       </trans-unit>
-      <trans-unit id="[Settings/ShakeGestureAction/QuitApp/shortTitle]" xml:space="preserve">
+      <trans-unit id="[Settings/ShakeGestureAction/QuitApp/shortTitle]" xml:space="preserve" approved="yes">
         <source>Quit App</source>
-        <target state="needs-translation">Quit App</target>
+        <target state="final">Avsluta appen</target>
         <note>An option in Settings. Will be shown as 'When Shaken: Quit App'</note>
       </trans-unit>
-      <trans-unit id="[Settings/Value/No/title]" xml:space="preserve">
+      <trans-unit id="[Settings/Value/No/title]" xml:space="preserve" approved="yes">
         <source>No</source>
-        <target state="needs-translation">No</target>
+        <target state="final">Nej</target>
         <note>Title of a settings value. For example: `Remember Master Keys: No`</note>
       </trans-unit>
-      <trans-unit id="[Settings/Value/UseAppSettings/title]" xml:space="preserve">
+      <trans-unit id="[Settings/Value/UseAppSettings/title]" xml:space="preserve" approved="yes">
         <source>Use App Settings (%@)</source>
-        <target state="needs-translation">Use App Settings (%@)</target>
+        <target state="final">Använd appinställningarna (%@)</target>
         <note>Title of a settings value, when it is not customized and we default to app's global settings. For example: `Remember Master Keys: Use App Settings (No)`</note>
       </trans-unit>
-      <trans-unit id="[Settings/Value/Yes/title]" xml:space="preserve">
+      <trans-unit id="[Settings/Value/Yes/title]" xml:space="preserve" approved="yes">
         <source>Yes</source>
-        <target state="needs-translation">Yes</target>
+        <target state="final">Ja</target>
         <note>Title of a settings value. For example: `Remember Master Keys: Yes`</note>
       </trans-unit>
       <trans-unit id="[Settings/title]" xml:space="preserve">
@@ -3362,9 +3362,9 @@ Detta kan hända med stora databaser eller för högt ställda databasinställni
         <target state="final">Anpassat</target>
         <note>List sorting option, when items are manually ordered by the user. Example: 'Sort order: Custom'</note>
       </trans-unit>
-      <trans-unit id="[StorageService/DedicatedAppFolder/title]" xml:space="preserve">
+      <trans-unit id="[StorageService/DedicatedAppFolder/title]" xml:space="preserve" approved="yes">
         <source>App Folder Only</source>
-        <target state="needs-translation">App Folder Only</target>
+        <target state="final">Endast appmappen</target>
         <note>Subtitle for a storage service: the app will have access only to its own dedicated folder.</note>
       </trans-unit>
       <trans-unit id="[StorageService/DropboxBusiness/title]" xml:space="preserve">
@@ -3472,9 +3472,9 @@ Detta kan hända med stora databaser eller för högt ställda databasinställni
         <target state="translated">Lokal kopia</target>
         <note>Human-readable file location: the file is on device, inside the app sandbox. Example: 'File Location: Local copy'</note>
       </trans-unit>
-      <trans-unit id="[WebDAV/Export/NeedsFolder]" xml:space="preserve">
+      <trans-unit id="[WebDAV/Export/NeedsFolder]" xml:space="preserve" approved="yes">
         <source>Please select path to a folder</source>
-        <target state="needs-translation">Please select path to a folder</target>
+        <target state="final">Välj sökväg till en mapp</target>
         <note>Error shown when user selects a file path instead of folder path in WebDAV.</note>
       </trans-unit>
       <trans-unit id="[YubiKey] Insert the key" xml:space="preserve">
@@ -3518,13 +3518,13 @@ Detta kan hända med stora databaser eller för högt ställda databasinställni
         <source>%d items selected</source>
         <target state="final">%d objekt valda</target>
       </trans-unit>
-      <trans-unit id="/[Generic/Count/Items]:dict/GenericCountItems:dict/one:dict/:string">
+      <trans-unit id="/[Generic/Count/Items]:dict/GenericCountItems:dict/one:dict/:string" approved="yes">
         <source>%d item</source>
-        <target state="needs-translation">%d item</target>
+        <target state="final">%d objekt</target>
       </trans-unit>
-      <trans-unit id="/[Generic/Count/Items]:dict/GenericCountItems:dict/other:dict/:string">
+      <trans-unit id="/[Generic/Count/Items]:dict/GenericCountItems:dict/other:dict/:string" approved="yes">
         <source>%d items</source>
-        <target state="needs-translation">%d items</target>
+        <target state="final">%d objekt</target>
       </trans-unit>
       <trans-unit id="/[Generic/Count/Threads]:dict/GenericCountThreads:dict/one:dict/:string" approved="yes">
         <source>%d thread</source>

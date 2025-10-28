@@ -2,192 +2,35 @@
 <xliff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="KeePassium/AppStoreDescription.txt" source-language="en" target-language="sv-SE" datatype="plaintext">
     <body>
-      <trans-unit id="Title" maxwidth="30">
+      <trans-unit id="Title1" maxwidth="30" approved="yes">
+        <source>KeePassium — KeePass passwords</source>
+        <target state="final">KeePassium – KeePass-lösenord</target>
+        <note>App page title. If translation does not fit in length limit, use 'KeePassium (KeePass)'</note>
+      </trans-unit>
+      <trans-unit id="Title2" maxwidth="30" approved="yes">
         <source>KeePassium Password Manager</source>
-        <target state="translated">KeePassium Lösenordshanterare</target>
-        <note>Please keep `KeePassium` as the first word. If this is difficult with the natural word order, feel free to use punctuation, for example: "KeePassium - Password Manager"</note>
+        <target state="final">KeePassium – lösenordshanterare</target>
+        <note>App page title. Please keep `KeePassium` as the first word. Break with punctuation if necessary, for example: "KeePassium - Password Manager"</note>
       </trans-unit>
-      <trans-unit id="Subtitle 1" maxwidth="30">
+      <trans-unit id="Subtitle1" maxwidth="30" approved="yes">
         <source>Respects your privacy</source>
-        <target state="translated">Respekterar din integritet</target>
-        <note>One-line app description/subtitle</note>
+        <target state="final">Respekterar din integritet</target>
+        <note>App page subtitle, promo tone</note>
       </trans-unit>
-      <trans-unit id="Description/Intro">
-        <source>KeePassium keeps your passwords safe. It delivers the security of KeePass databases with a clean, easy to use interface.</source>
-        <target state="translated">KeePassium lagrar dina lösenord säkert. Appen kombinerar säkerheten från KeePass databasformat med ett lättanvänt användarinterface.</target>
-        <note/>
+      <trans-unit id="Subtitle2" maxwidth="30" approved="yes">
+        <source>Secure your passwords</source>
+        <target state="final">Skydda dina lösenord</target>
+        <note>App page subtitle, call to action</note>
       </trans-unit>
-      <trans-unit id="Description/MainFeatures/title">
-        <source>MAIN FEATURES</source>
-        <target state="translated">HUVUDFUNKTIONER</target>
-        <note>Section header, capitalized</note>
+      <trans-unit id="Subtitle3" maxwidth="30" approved="yes">
+        <source>Open-source privacy</source>
+        <target state="final">Integritet med öppen källkod</target>
+        <note>App page subtitle, promo tone. 'Privacy ensured by open source'</note>
       </trans-unit>
-      <trans-unit id="Description/MainFeatures/text">
-        <source>• Automatic sync — keep your database in your favorite cloud or offline.
-• Password AutoFill — login to any service in a few taps.
-• Touch ID / Face ID — save your time.
-• Multiple databases — to share passwords with your team or family.
-• Attached files — passport scans and server keys, always with you.
-• Peace of mind — feel free to check our source code, it's open.</source>
-        <target state="translated">• Automatisk synkronisering — lagra din databas i din favoritmolntjänst eller lokalt på telefonen.
-• Autofyll lösenord — logga in på alla dina tjänster med några få tryck.
-• Touch ID / Face ID — sparar dig tid.
-• Flera databaser — för att kunna dela lösenord med kollegor eller familj och vänner.
-• Bifogade filer — scannade pass eller servernycklar, alltid med dig.
-• Orosfritt — alla är välkomna att granska vår källkod, den är öppen.</target>
-        <note>Please keep the bullet points (followed by one space)</note>
-      </trans-unit>
-      <trans-unit id="Description/AntiFeatures/title">
-        <source>ANTI-FEATURES</source>
-        <target state="translated">ANTI-FUNKTIONER</target>
-        <note>Section header, capitalized: features that are explicitly excluded</note>
-      </trans-unit>
-      <trans-unit id="Description/AntiFeatures/text">
-        <source>• No in-app browser
-• No VNC/SSH viewer 
-• No coffee maker
-• No analytics
-• No ads</source>
-        <target state="translated">• Ingen integrerad webbläsare
-• Ingen VNC/SSH-klient
-• Ingen kaffebryggare
-• Inga analytics
-• Ingen reklam</target>
-        <note>Please keep the bullet points (followed by one space)</note>
-      </trans-unit>
-      <trans-unit id="Description/AutomaticSync/title">
-        <source>AUTOMATIC SYNC</source>
-        <target state="translated">AUTOMATISK SYNKRONISERING</target>
-        <note>Section header, capitalized</note>
-      </trans-unit>
-      <trans-unit id="Description/AutomaticSync/text">
-        <source>KeePassium can work both offline and with your favorite cloud provider. 
-
-There is no setup: pick your database through the familiar Files interface — and that's it. By integrating with the Files app, KeePassium supports almost all storage providers, including:
-
-• iCloud Drive
-• OneDrive
-• Dropbox 
-• Box
-• pCloud
-• Google Drive
-• NextCloud (with hiccups)
-• WebDAV and SFTP (via a third-party app)
-• ...and more!
-
-Should a password manager have full access to your corporate file server? Of course not! All the networking is automatically performed by the original storage provider app. This way, KeePassium knows only about few specific databases, not your whole server.</source>
-        <target state="translated">KeePassium kan användas lokalt på telefonen, eller mot din favoritmolntjänst.
-
-Det behövs ingen krånglig konfiguration; Välj din databas genom det bekanta gränssnittet i Filer — och du är klar! Genom integrationen med appen Filer kommer KeePassium åt nästan alla tjänster för lagring, inklusive:
-
-• iCloud Drive
-• OneDrive
-• Dropbox
-• Box
-• pCloud
-• Google Drive
-• NextCloud (med små utmaningar)
-• WebDAV and SFTP (via tredjepartsapp)
-• ...och fler!
-
-Borde en lösenordshanterare ha full tillgång till din filserver? Absolut inte! All nätverkskommunikation sköts automatiskt av lagringstjänstens egna app. På detta sätt behöver KeePassium endast ha vetskap om några enstaka databasfiler, inte hela innehållet på servern.</target>
-        <note>Please keep the bullet points (followed by one space)</note>
-      </trans-unit>
-      <trans-unit id="Description/More/title">
-        <source>WHAT ELSE CAN IT DO?</source>
-        <target state="translated">VAD MER KAN APPEN GÖRA?</target>
-        <note>Section header, capitalized: additional list of features</note>
-      </trans-unit>
-      <trans-unit id="Description/More/text">
-        <source>• Read and write all database formats (kdb, kdbx3, kdbx4 — including Argon2/ChaCha20)
-• View time-based one-time passwords (TOTP)
-• View deleted groups and entries (Recycle Bin)
-• View previous revisions of an entry
-• View and edit custom fields
-• View custom icons
-• And more! See for yourself, it's free.</source>
-        <target state="translated">• Läsa och skriva alla databasformat (kdb, kdbx3, kdbx4 — inklusive Argon2/ChaCha20)
-• Visa tidsbaserade engångslösenord (TOTP)
-• Visa raderade grupper och poster (Papperskorg)
-• Visa äldre revisioner av en post
-• Visa och redigera anpassade fält
-• Visa anpassade ikoner
-• Och mer! Prova själv, det kostar inte ett öre.</target>
-        <note>Please keep the bullet points (followed by one space)</note>
-      </trans-unit>
-      <trans-unit id="Description/Privacy/title">
-        <source>PRIVACY</source>
-        <target state="translated">SEKRETESS</target>
-        <note>Section header, capitalized: privacy policy</note>
-      </trans-unit>
-      <trans-unit id="Description/Privacy/text">
-        <source>This app does not collect any personal data. We sell the app, not its users.</source>
-        <target state="translated">Denna app samlar inte in någon personlig data. Vi säljer appen, inte dess användare.</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="Description/CommercialAndOpen/title">
-        <source>COMMERCIAL AND OPEN</source>
-        <target state="translated">KOMMERSIELL OCH ÖPPEN</target>
-        <note>Section header, capitalized: the app is both a commercial and open source project</note>
-      </trans-unit>
-      <trans-unit id="Description/CommercialAndOpen/text">
-        <source>KeePassium is a commercial open source app. Here, "open source" is the transparency you need from a password manager. The "commercial" part, in turn, gives you:
-
-• A great well-polished interface
-• Responsive support that cares
-• Future updates and improvements</source>
-        <target state="translated">KeePassium är en kommersiell app med öppen källkod. "Öppen källkod" ger transparensen du behöver och bör förvänta dig från en lösenordshanterare. Den "kommersiella" biten ger dig:
-
-• Ett fantastiskt och välpolerat gränssnitt 
-• Responsiv support som bryr sig
-• Framtida uppdateringar och förbättringar</target>
-        <note>Please keep the bullet points (followed by one space)</note>
-      </trans-unit>
-      <trans-unit id="Description/Freemium/title">
-        <source>FREE vs PREMIUM</source>
-        <target state="translated">GRATIS vs PREMIUM</target>
-        <note>Section header, capitalized: a comparison of free and premium version.</note>
-      </trans-unit>
-      <trans-unit id="Description/Freemium/text">
-        <source>There is no "trial period". The free version is always completely functional. You can view and edit, use Touch ID / Face ID, search and AutoFill — but only with one database at a time.
-
-You can install free KeePassium for your family members. If they barely use the app, it will not bother them to buy premium. 
-
-With the premium version, you can:
-• Quickly switch between multiple databases.
-• Unlock databases with one tap and keep them open as long as you need.
-• View attachments in the app, without leaving a trace in the system.
-• Email your questions and get answers directly from the developer.
-• Keep KeePassium shiny and available to people who need security but cannot afford it yet.</source>
-        <target state="translated">Det finns ingen "tidsbegränsad provperiod". Gratisversionen är alltid helt funktionell. Du kan se och redigera, använda Touch ID / Face ID, söka och använda autofyll — men bara med en databas åt gången.
-
-Du kan installera KeePassium utan kostnad åt dina familjemedlemmar. Om de knappt använder appen kommer de aldrig ens få frågan om att betala för premiumversionen.
-
-Med premium kan du:
-• Snabbt växla mellan olika databaser.
-• Låsa upp databaser med ett tryck, och hålla dem upplåsta så länge du behöver dem.
-• Granska bilagor i appen, utan att lämna ett spår på telefonen.
-• Maila dina frågor och få svar direkt från utvecklaren.
-• Se till att KeePassium håller sig snyggt och skinande, och tillgängligt för de som behöver säkerheten men inte har råd än.</target>
-        <note>Please keep the bullet points (followed by one space)</note>
-      </trans-unit>
-      <trans-unit id="Description/Contact/text">
-        <source>Talk to us at info@keepassium.com, /r/KeePassium on Reddit, @KeePassium on Twitter and GitHub.</source>
-        <target state="translated">Hör av er till oss på info@keepassium.com, /r/KeePassium på Reddit, @KeePassium på Twitter och GitHub.</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="Description/Footer/text">
-        <source>* Premium version is available as an in-app purchase, either as a subscription or a one-time payment. 
-* Payment will be charged to your Apple ID account at the confirmation of (in-app) purchase. Subscription automatically renews unless it is canceled at least 24 hours before the end of the current period. Your account will be charged for renewal within 24 hours prior to the end of the current period. 
-* You can manage and cancel your subscriptions by going to your account settings on the App Store after purchase.
-* Privacy policy: https://keepassium.com/privacy/app
-* Terms of Use: https://keepassium.com/terms/app</source>
-        <target state="translated">* Premiumversionen är tillgänglig som köp inuti appen, antingen som en prenumeration eller en engångsbetalning.
-* Betalningen kommer göras mot ditt Apple ID vid bekräftelsen av köpet inuti appen. Prenumerationer förnyas automatiskt om de ej är uppsagda 24 timmar innan slutet på den aktiva perioden. Betalning kommer dras mot ditt konto inom 24 timmar från periodens utgång.
-* Du kan hantera och avbryta din prenumeration genom att gå till dina kontoinställningar i App Store, efter köpet.
-* Integritetspolicy: https://keepassium.com/privacy/app
-* Användarvillkor: https://keepassium.com/terms/app</target>
-        <note>Mandatory legalese required by Apple. Asterisks instead of bullet points.</note>
+      <trans-unit id="Subtitle4" maxwidth="30" approved="yes">
+        <source>Open-source. No ads.</source>
+        <target state="final">Öppen källkod. Inga annonser.</target>
+        <note>App page subtitle, promo tone</note>
       </trans-unit>
       <trans-unit id="Subtitle Pro">
         <source>Lifetime license</source>
@@ -222,9 +65,9 @@ Med premium kan du:
         <target state="translated">KeePassium för Intune är en lösenordshanterare för företag, myndigheter och akademiska organisationer som hanteras av Microsoft Intune. Appen gör det möjligt för organisationens administratörer att skydda företagsinformation genom att tillhandahålla riktlinjer för app-inställningar och dataskydd.</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Org/Description/endUser">
-        <source>The end-user version of KeePassium is available at http://keepassium.app</source>
-        <target state="translated">Slutanvändarversionen av KeePassium finns tillgänglig på http://keepassium.app</target>
+      <trans-unit id="Org/Description/endUser" approved="yes">
+        <source>The end-user version of KeePassium is available at https://keepassium.app</source>
+        <target state="final">Slutanvändarversionen av KeePassium finns tillgänglig på https://keepassium.app</target>
         <note/>
       </trans-unit>
       <trans-unit id="Org/Description/footer">

@@ -126,9 +126,9 @@ Kontakta oss om du behöver hjälp med detta.</target>
         <target state="final">Det är lätt att gissa den här lösenkoden. Ange en starkare lösenkod.</target>
         <note>Notification when user tries to set up too weak an app protection passcode.</note>
       </trans-unit>
-      <trans-unit id="[AutoFill/AcceptAndRemember/action]" xml:space="preserve">
+      <trans-unit id="[AutoFill/AcceptAndRemember/action]" xml:space="preserve" approved="yes">
         <source>Accept and Remember</source>
-        <target state="needs-translation">Accept and Remember</target>
+        <target state="final">Godkänn och kom ihåg</target>
         <note>Action in AutoFill: choose the entry and remember it for future use on this website.</note>
       </trans-unit>
       <trans-unit id="[AutoFill/AllEntries/title]" xml:space="preserve" approved="yes">
@@ -136,14 +136,14 @@ Kontakta oss om du behöver hjälp med detta.</target>
         <target state="final">Alla poster</target>
         <note>Title of a list</note>
       </trans-unit>
-      <trans-unit id="[AutoFill/Context/Empty/title]" xml:space="preserve">
+      <trans-unit id="[AutoFill/Context/Empty/title]" xml:space="preserve" approved="yes">
         <source>Unknown</source>
-        <target state="needs-translation">Unknown</target>
+        <target state="final">Okänd</target>
         <note>Title of AutoFill context when no context is available. Usage: `Context: Unknown`</note>
       </trans-unit>
-      <trans-unit id="[AutoFill/FoundEntries/title]" xml:space="preserve">
+      <trans-unit id="[AutoFill/FoundEntries/title]" xml:space="preserve" approved="yes">
         <source>Best Matches</source>
-        <target state="needs-translation">Best Matches</target>
+        <target state="final">Bästa matchningar</target>
         <note>Title of a list with search results</note>
       </trans-unit>
       <trans-unit id="[AutoFill/InsertText/select]" xml:space="preserve" approved="yes">
@@ -151,24 +151,24 @@ Kontakta oss om du behöver hjälp med detta.</target>
         <target state="final">Välj fält</target>
         <note>Call for action to select an entry field for filling out.</note>
       </trans-unit>
-      <trans-unit id="[AutoFill/RecentlyUsed/title]" xml:space="preserve">
+      <trans-unit id="[AutoFill/RecentlyUsed/title]" xml:space="preserve" approved="yes">
         <source>Recently Used</source>
-        <target state="needs-translation">Recently Used</target>
+        <target state="final">Nyligen använd</target>
         <note>Section title for the recently used entry in AutoFill</note>
       </trans-unit>
-      <trans-unit id="[AutoFill/RememberContext/action]" xml:space="preserve">
+      <trans-unit id="[AutoFill/RememberContext/action]" xml:space="preserve" approved="yes">
         <source>Remember Selected Entries</source>
-        <target state="needs-translation">Remember Selected Entries</target>
+        <target state="final">Kom ihåg valda poster</target>
         <note>Not an action, but a button to activate the same-named setting</note>
       </trans-unit>
-      <trans-unit id="[AutoFill/RememberContext/callToAction]" xml:space="preserve">
+      <trans-unit id="[AutoFill/RememberContext/callToAction]" xml:space="preserve" approved="yes">
         <source>Improve AutoFill suggestions</source>
-        <target state="needs-translation">Improve AutoFill suggestions</target>
+        <target state="final">Förbättra förslag för Autofyll</target>
         <note>Call to action</note>
       </trans-unit>
-      <trans-unit id="[AutoFill/RememberContext/description]" xml:space="preserve">
+      <trans-unit id="[AutoFill/RememberContext/description]" xml:space="preserve" approved="yes">
         <source>KeePassium will remember which entry you select for each website and then suggest it automatically.</source>
-        <target state="needs-translation">KeePassium will remember which entry you select for each website and then suggest it automatically.</target>
+        <target state="final">KeePassium kommer ihåg posten du väljer för varje webbplats och föreslår den sedan automatiskt.</target>
         <note>Description of the 'Remember Selected Entries` feature</note>
       </trans-unit>
       <trans-unit id="[AutoFill/Search/Context/title]" xml:space="preserve">
@@ -209,24 +209,24 @@ Varför? Bakom kulisserna hanterar systemet Auotfyll som en separat app, som är
 Detta leder till att både Autofyll och huvudappen för KeePassium behöver ges tillstånd för varje extern fil som ska användas. Som tur är behöver detta bara göras en gång.</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
-      <trans-unit id="[Database/Entry/Location/title]" xml:space="preserve">
+      <trans-unit id="[Database/Entry/Location/title]" xml:space="preserve" approved="yes">
         <source>Location</source>
-        <target state="needs-translation">Location</target>
+        <target state="final">Plats</target>
         <note>Field title: name of the group that contains the entry</note>
       </trans-unit>
-      <trans-unit id="[Database/Entry/RandomUsernames/title]" xml:space="preserve">
+      <trans-unit id="[Database/Entry/RandomUsernames/title]" xml:space="preserve" approved="yes">
         <source>Random Usernames</source>
-        <target state="needs-translation">Random Usernames</target>
+        <target state="final">Slumpmässiga användarnamn</target>
         <note>Title of a list with randomly generated usernames</note>
       </trans-unit>
-      <trans-unit id="[Database/Entry/SelectUsername/action]" xml:space="preserve">
+      <trans-unit id="[Database/Entry/SelectUsername/action]" xml:space="preserve" approved="yes">
         <source>Select Username</source>
-        <target state="needs-translation">Select Username</target>
+        <target state="final">Välj användarnamn</target>
         <note>Action/button that shows a list of usernames to pick from</note>
       </trans-unit>
-      <trans-unit id="[Database/Item/SelectNamed/action]" xml:space="preserve">
+      <trans-unit id="[Database/Item/SelectNamed/action]" xml:space="preserve" approved="yes">
         <source>Select "%@"</source>
-        <target state="needs-translation">Select "%@"</target>
+        <target state="final">Välj "%@"</target>
         <note>Action: select item from a list/menu, with item name in quotes. For example: `Select "Sample Group"`</note>
       </trans-unit>
       <trans-unit id="[Database/Passkey/AddToExisting/action]" xml:space="preserve" approved="yes">
@@ -234,9 +234,9 @@ Detta leder till att både Autofyll och huvudappen för KeePassium behöver ges 
         <target state="final">Lägg till nycklar i befintlig post</target>
         <note>Action: create a passkey and add it to existing entry</note>
       </trans-unit>
-      <trans-unit id="[Database/Passkey/AddToExisting/callToAction]" xml:space="preserve">
+      <trans-unit id="[Database/Passkey/AddToExisting/callToAction]" xml:space="preserve" approved="yes">
         <source>Choose an entry for the new passkey</source>
-        <target state="needs-translation">Choose an entry for the new passkey</target>
+        <target state="final">Välj en post för den nya nyckeln</target>
         <note>Call to action: select an existing entry to add a new passkey to</note>
       </trans-unit>
       <trans-unit id="[Database/Passkey/AddToExisting/confirm]" xml:space="preserve" approved="yes">
@@ -848,9 +848,9 @@ Detta leder till att både Autofyll och huvudappen för KeePassium behöver ges 
         <target state="translated">KeePassium behöver tillåtelse för att exportera filer till Bilder.</target>
         <note>Privacy - Photo Library Additions Usage Description</note>
       </trans-unit>
-      <trans-unit id="NSPhotoLibraryUsageDescription" xml:space="preserve">
+      <trans-unit id="NSPhotoLibraryUsageDescription" xml:space="preserve" approved="yes">
         <source>KeePassium needs access to select images for custom icons and to scan QR codes for OTP setup.</source>
-        <target state="needs-translation">KeePassium needs access to select images for custom icons and to scan QR codes for OTP setup.</target>
+        <target state="final">KeePassium behöver åtkomst till att välja bilder för anpassade ikoner samt för att skanna QR-koder i konfigurationen av engångslösenord.</target>
         <note>Privacy - Photo Library Usage Description</note>
       </trans-unit>
     </body>
@@ -890,9 +890,9 @@ Detta leder till att både Autofyll och huvudappen för KeePassium behöver ges 
         <target state="final">Förvalt</target>
         <note>Short name of the default/system font. For example: `Font: Default`</note>
       </trans-unit>
-      <trans-unit id="[Appearance/EntryViewer/OpenLastUsedTab/title]" xml:space="preserve">
+      <trans-unit id="[Appearance/EntryViewer/OpenLastUsedTab/title]" xml:space="preserve" approved="yes">
         <source>Open Last Used Tab</source>
-        <target state="needs-translation">Open Last Used Tab</target>
+        <target state="final">Öppna den senast använda fliken</target>
         <note>Title of a setting: whether the Entry Viewer should open on the same tab/page when switching between entries, or switch to the first tab instead.</note>
       </trans-unit>
       <trans-unit id="[Appearance/EntryViewer/title]" xml:space="preserve" approved="yes">
@@ -1025,9 +1025,9 @@ Detta leder till att både Autofyll och huvudappen för KeePassium behöver ges 
         <target state="translated">Twofish implementation av Niels Ferguson</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/whatsNewKit]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/whatsNewKit]" xml:space="preserve" approved="yes">
         <source>WhatsNewKit by Sven Tiigi</source>
-        <target state="needs-translation">WhatsNewKit by Sven Tiigi</target>
+        <target state="final">WhatsNewKit av Sven Tiigi</target>
         <note>Item in the credits list</note>
       </trans-unit>
       <trans-unit id="[Credits/Item/wordlists]" xml:space="preserve">
@@ -1230,9 +1230,9 @@ Detta leder till att både Autofyll och huvudappen för KeePassium behöver ges 
         <target state="final">Mer</target>
         <note>Title of entry viewer's tab with advanced/secondary properties</note>
       </trans-unit>
-      <trans-unit id="[Format/ApplePasswordsCSV]" xml:space="preserve">
+      <trans-unit id="[Format/ApplePasswordsCSV]" xml:space="preserve" approved="yes">
         <source>Apple Passwords (.csv)</source>
-        <target state="needs-translation">Apple Passwords (.csv)</target>
+        <target state="final">Apple-lösenord (.csv)</target>
         <note>Name of Apple Passwords' CSV file format</note>
       </trans-unit>
       <trans-unit id="[Format/EnpassJSON]" xml:space="preserve">
@@ -1240,29 +1240,29 @@ Detta leder till att både Autofyll och huvudappen för KeePassium behöver ges 
         <target state="translated">Enpass (.json)</target>
         <note>Name of Enpass' JSON file format</note>
       </trans-unit>
-      <trans-unit id="[Import/CSV/Error/InvalidFormat/withColumn]" xml:space="preserve">
+      <trans-unit id="[Import/CSV/Error/InvalidFormat/withColumn]" xml:space="preserve" approved="yes">
         <source>Invalid CSV format at line %1$d, column %2$d.</source>
-        <target state="needs-translation">Invalid CSV format at line %1$d, column %2$d.</target>
+        <target state="final">Ogiltigt CSV-format på rad %1$d, kolumn %2$d.</target>
         <note>Error message when CSV parsing fails [lineNumber: Int, colNumber: Int]</note>
       </trans-unit>
-      <trans-unit id="[Import/CSV/Error/InvalidFormat]" xml:space="preserve">
+      <trans-unit id="[Import/CSV/Error/InvalidFormat]" xml:space="preserve" approved="yes">
         <source>Invalid CSV format at line %d.</source>
-        <target state="needs-translation">Invalid CSV format at line %d.</target>
+        <target state="final">Ogiltigt CSV-format på rad %d.</target>
         <note>Error message when CSV parsing fails [lineNumber: Int]</note>
       </trans-unit>
-      <trans-unit id="[Import/Enpass/Error/CorruptedAttachment]" xml:space="preserve">
+      <trans-unit id="[Import/Enpass/Error/CorruptedAttachment]" xml:space="preserve" approved="yes">
         <source>Corrupted data for attachment '%1$@' in item '%2$@'.</source>
-        <target state="needs-translation">Corrupted data for attachment '%1$@' in item '%2$@'.</target>
+        <target state="final">Skadade data i bilagan '%1$@' i objekt '%2$@'.</target>
         <note>Error message when Enpass import fails due to corrupted attachment data [attachmentName: String, itemName: String]</note>
       </trans-unit>
-      <trans-unit id="[Import/Error/EmptyFile]" xml:space="preserve">
+      <trans-unit id="[Import/Error/EmptyFile]" xml:space="preserve" approved="yes">
         <source>Incoming file is empty.</source>
-        <target state="needs-translation">Incoming file is empty.</target>
+        <target state="final">Den inkommande filen är tom.</target>
         <note>Error shown when trying to import from an empty file</note>
       </trans-unit>
-      <trans-unit id="[Import/JSON/ParsingError]" xml:space="preserve">
+      <trans-unit id="[Import/JSON/ParsingError]" xml:space="preserve" approved="yes">
         <source>Failed to parse JSON file.</source>
-        <target state="needs-translation">Failed to parse JSON file.</target>
+        <target state="final">Det gick inte att parsa JSON-filen.</target>
         <note>Error message when JSON parsing fails</note>
       </trans-unit>
       <trans-unit id="[Onboarding/AddExistingDatabase/action]" xml:space="preserve">
@@ -1505,39 +1505,39 @@ Dina faktiska lösenord delas aldrig med tjänsten.
         <target state="translated">Visa lösenord</target>
         <note>Action/button to make password visible as plain-text</note>
       </trans-unit>
-      <trans-unit id="[QRCodeScanner/CameraPermission/description]" xml:space="preserve">
+      <trans-unit id="[QRCodeScanner/CameraPermission/description]" xml:space="preserve" approved="yes">
         <source>KeePassium needs camera access to scan QR codes.</source>
-        <target state="needs-translation">KeePassium needs camera access to scan QR codes.</target>
+        <target state="final">KeePassium behöver åtkomst till kameran för att skanna QR-koder.</target>
         <note>Explanation why the app needs camera access permission.</note>
       </trans-unit>
-      <trans-unit id="[QRCodeScanner/Error/CameraBusy]" xml:space="preserve">
+      <trans-unit id="[QRCodeScanner/Error/CameraBusy]" xml:space="preserve" approved="yes">
         <source>Camera is already in use.</source>
-        <target state="needs-translation">Camera is already in use.</target>
+        <target state="final">Kameran används redan.</target>
         <note>Error message when the app cannot use the camera.</note>
       </trans-unit>
-      <trans-unit id="[QRCodeScanner/Error/ImageCorrupted]" xml:space="preserve">
+      <trans-unit id="[QRCodeScanner/Error/ImageCorrupted]" xml:space="preserve" approved="yes">
         <source>Selected image is corrupted.</source>
-        <target state="needs-translation">Selected image is corrupted.</target>
+        <target state="final">Den valda bilden är skadad.</target>
         <note>Error message</note>
       </trans-unit>
-      <trans-unit id="[QRCodeScanner/Error/Internal]" xml:space="preserve">
+      <trans-unit id="[QRCodeScanner/Error/Internal]" xml:space="preserve" approved="yes">
         <source>Internal error in QR code reader. Check diagnostic log for details.</source>
-        <target state="needs-translation">Internal error in QR code reader. Check diagnostic log for details.</target>
+        <target state="final">Internt fel i QR-kodläsaren. Du hittar information i diagnostikloggen.</target>
         <note>Error message with a suggested action.</note>
       </trans-unit>
-      <trans-unit id="[QRCodeScanner/Error/NoQRCodeFound]" xml:space="preserve">
+      <trans-unit id="[QRCodeScanner/Error/NoQRCodeFound]" xml:space="preserve" approved="yes">
         <source>Looks like there’s no QR code in that image.</source>
-        <target state="needs-translation">Looks like there’s no QR code in that image.</target>
+        <target state="final">Det finns ingen QR-kod i bilden.</target>
         <note>Notification message</note>
       </trans-unit>
-      <trans-unit id="[QRCodeScanner/Error/SourceNoAvailable]" xml:space="preserve">
+      <trans-unit id="[QRCodeScanner/Error/SourceNoAvailable]" xml:space="preserve" approved="yes">
         <source>Image source is not available.</source>
-        <target state="needs-translation">Image source is not available.</target>
+        <target state="final">Bildkällan är inte tillgänglig.</target>
         <note>Error message when camera/gallery/etc is either missing or forbidden.</note>
       </trans-unit>
-      <trans-unit id="[QRCodeScanner/Info/callToAction]" xml:space="preserve">
+      <trans-unit id="[QRCodeScanner/Info/callToAction]" xml:space="preserve" approved="yes">
         <source>Point the camera at a QR code.</source>
-        <target state="needs-translation">Point the camera at a QR code.</target>
+        <target state="final">Rikta kameran mot en QR-kod.</target>
         <note>Call to action/instruction for QR code scanner.</note>
       </trans-unit>
       <trans-unit id="[QuickAutoFill/description]" xml:space="preserve" approved="yes">
@@ -1595,14 +1595,14 @@ Dina faktiska lösenord delas aldrig med tjänsten.
         <target state="final">Lås vid programstart</target>
         <note>Setting switch: whether to lock the app after it was terminated and relaunched.</note>
       </trans-unit>
-      <trans-unit id="[Settings/AppLock/LockOnScreenLock/description]" xml:space="preserve">
+      <trans-unit id="[Settings/AppLock/LockOnScreenLock/description]" xml:space="preserve" approved="yes">
         <source>Ensures KeePassium is locked when you lock your Mac.</source>
-        <target state="needs-translation">Ensures KeePassium is locked when you lock your Mac.</target>
+        <target state="final">Låser KeePassium när du låser din Mac.</target>
         <note>Explanation for the `Lock on macOS Screen Lock` setting</note>
       </trans-unit>
-      <trans-unit id="[Settings/AppLock/LockOnScreenLock/title]" xml:space="preserve">
+      <trans-unit id="[Settings/AppLock/LockOnScreenLock/title]" xml:space="preserve" approved="yes">
         <source>Lock on macOS Screen Lock</source>
-        <target state="needs-translation">Lock on macOS Screen Lock</target>
+        <target state="final">Lås med macOS-skärmlås</target>
         <note>Title of a yes/no setting: whether to lock app when computer screen is locked (see https://support.apple.com/en-gb/guide/mac-help/mchl8e8b6a34/mac)</note>
       </trans-unit>
       <trans-unit id="[Settings/AppLock/LockOnWrongPasscode/description]" xml:space="preserve">
@@ -1610,24 +1610,24 @@ Dina faktiska lösenord delas aldrig med tjänsten.
         <target state="translated">Om du anger fel PIN-Kod för AppLock kommer KeePassium stänga alla databaser och rensa alla huvudnycklar från nyckelkedjan.</target>
         <note>Description of the `Lock on Wrong Passcode` setting</note>
       </trans-unit>
-      <trans-unit id="[Settings/AppLock/LockOnWrongPasscode/title]" xml:space="preserve">
+      <trans-unit id="[Settings/AppLock/LockOnWrongPasscode/title]" xml:space="preserve" approved="yes">
         <source>Lock on Wrong Passcode</source>
-        <target state="needs-translation">Lock on Wrong Passcode</target>
+        <target state="final">Lås om fel lösenkod anges</target>
         <note>Title in the settings: whether to lock databases when user enters a wrong app protection passcode.</note>
       </trans-unit>
-      <trans-unit id="[Settings/AppLock/PasscodeAttemptsUntilAppReset/Never/title]" xml:space="preserve">
+      <trans-unit id="[Settings/AppLock/PasscodeAttemptsUntilAppReset/Never/title]" xml:space="preserve" approved="yes">
         <source>Do not reset</source>
-        <target state="needs-translation">Do not reset</target>
+        <target state="final">Återställ inte</target>
         <note>An option in Settings. Will be shown as 'Passcode Attempts Until App Reset: Do not reset'</note>
       </trans-unit>
-      <trans-unit id="[Settings/AppLock/PasscodeAttemptsUntilAppReset/description]" xml:space="preserve">
+      <trans-unit id="[Settings/AppLock/PasscodeAttemptsUntilAppReset/description]" xml:space="preserve" approved="yes">
         <source>App reset will delete all the stored keys, settings, database backups, imported files, and links to external files. However, if app reset is triggered from AutoFill, imported files may remain due to technical limitations.</source>
-        <target state="needs-translation">App reset will delete all the stored keys, settings, database backups, imported files, and links to external files. However, if app reset is triggered from AutoFill, imported files may remain due to technical limitations.</target>
+        <target state="final">Om du återställer appen raderas alla lagrade nycklar, inställningar, databassäkerhetskopior, importerade filer och länkar till externa filer. Men om återställningen av appen aktiveras från Autofyll, kan importerade filer finnas kvar på grund av tekniska begränsningar.</target>
         <note>Description of the `Passcode Attempts Until App Reset` setting</note>
       </trans-unit>
-      <trans-unit id="[Settings/AppLock/PasscodeAttemptsUntilAppReset/title]" xml:space="preserve">
+      <trans-unit id="[Settings/AppLock/PasscodeAttemptsUntilAppReset/title]" xml:space="preserve" approved="yes">
         <source>Attempts Until App Reset</source>
-        <target state="needs-translation">Attempts Until App Reset</target>
+        <target state="final">Försök innan appen återställs</target>
         <note>Title in the settings: number of failed passcode attempts that will reset the app into 'just installed' state.</note>
       </trans-unit>
       <trans-unit id="[Settings/AppLock/Timeout/description]" xml:space="preserve" approved="yes">
@@ -1700,14 +1700,14 @@ Dina faktiska lösenord delas aldrig med tjänsten.
         <target state="translated">Kopiera engångslösenord till urklipp</target>
         <note>Title of a yes/no setting: copy one-time password to clipboard when using AutoFill</note>
       </trans-unit>
-      <trans-unit id="[Settings/AutoFill/RememberContext/description]" xml:space="preserve">
+      <trans-unit id="[Settings/AutoFill/RememberContext/description]" xml:space="preserve" approved="yes">
         <source>KeePassium will remember which entry you select for each website and then suggest it automatically.</source>
-        <target state="needs-translation">KeePassium will remember which entry you select for each website and then suggest it automatically.</target>
+        <target state="final">KeePassium kommer ihåg vilken post du valt för varje webbplats och föreslår den sedan automatiskt.</target>
         <note>Description of the 'Remember Selected Entries' setting.</note>
       </trans-unit>
-      <trans-unit id="[Settings/AutoFill/RememberContext/title]" xml:space="preserve">
+      <trans-unit id="[Settings/AutoFill/RememberContext/title]" xml:space="preserve" approved="yes">
         <source>Remember Selected Entries</source>
-        <target state="needs-translation">Remember Selected Entries</target>
+        <target state="final">Kom ihåg valda poster</target>
         <note>Title of a yes/no setting: remember which entry was used for AutoFill on which website.</note>
       </trans-unit>
       <trans-unit id="[Settings/AutoFill/Setup Guide/title]" xml:space="preserve" approved="yes">
@@ -1790,9 +1790,9 @@ Dina faktiska lösenord delas aldrig med tjänsten.
         <target state="final">Lås för omstart av enhet</target>
         <note>Setting switch: whether to lock databases after device reboot.</note>
       </trans-unit>
-      <trans-unit id="[Settings/DataProtection/LockOnScreenLock/title]" xml:space="preserve">
+      <trans-unit id="[Settings/DataProtection/LockOnScreenLock/title]" xml:space="preserve" approved="yes">
         <source>Lock on macOS Screen Lock</source>
-        <target state="needs-translation">Lock on macOS Screen Lock</target>
+        <target state="final">Lås med macOS-skärmlås</target>
         <note>Title of a yes/no setting: whether to lock databases when computer screen is locked (see https://support.apple.com/en-gb/guide/mac-help/mchl8e8b6a34/mac)</note>
       </trans-unit>
       <trans-unit id="[Settings/DataProtection/subtitle]" xml:space="preserve">
@@ -1990,19 +1990,19 @@ Dina faktiska lösenord delas aldrig med tjänsten.
         <target state="final">Sök</target>
         <note>Section title in settings</note>
       </trans-unit>
-      <trans-unit id="[Settings/ShakeGestureAction/Confirm/description]" xml:space="preserve">
+      <trans-unit id="[Settings/ShakeGestureAction/Confirm/description]" xml:space="preserve" approved="yes">
         <source>If the app is locked, it acts without confirmation.</source>
-        <target state="needs-translation">If the app is locked, it acts without confirmation.</target>
+        <target state="final">Om appen är låst agerar den utan bekräftelse.</target>
         <note>Description of the 'Ask for Confirmation' setting.</note>
       </trans-unit>
-      <trans-unit id="[Settings/ShakeGestureAction/Confirm/title]" xml:space="preserve">
+      <trans-unit id="[Settings/ShakeGestureAction/Confirm/title]" xml:space="preserve" approved="yes">
         <source>Ask for Confirmation</source>
-        <target state="needs-translation">Ask for Confirmation</target>
+        <target state="final">Be om bekräftelse</target>
         <note>Title for a setting: whether the app should show an 'Are you sure?' before continuing</note>
       </trans-unit>
-      <trans-unit id="[Settings/ShakeGestureAction/title]" xml:space="preserve">
+      <trans-unit id="[Settings/ShakeGestureAction/title]" xml:space="preserve" approved="yes">
         <source>When Shaken</source>
-        <target state="needs-translation">When Shaken</target>
+        <target state="final">När den skakar</target>
         <note>Title for a setting: what the app should do when the user shakes the device</note>
       </trans-unit>
       <trans-unit id="[Settings/Start/title]" xml:space="preserve" approved="yes">
@@ -2080,9 +2080,9 @@ Dina faktiska lösenord delas aldrig med tjänsten.
         <target state="final">Antal användningar</target>
         <note>Title: the number of times a tag is encountered in the database.</note>
       </trans-unit>
-      <trans-unit id="[WhatsNew/Announcement/body]" xml:space="preserve">
+      <trans-unit id="[WhatsNew/Announcement/body]" xml:space="preserve" approved="yes">
         <source>Discover new features and improvements in KeePassium.</source>
-        <target state="needs-translation">Discover new features and improvements in KeePassium.</target>
+        <target state="final">Upptäck nya funktioner och förbättringar i KeePassium.</target>
         <note>Call to action in What's New announcement</note>
       </trans-unit>
       <trans-unit id="[WhatsNew/Announcement/button]" xml:space="preserve" approved="yes">
@@ -2090,64 +2090,64 @@ Dina faktiska lösenord delas aldrig med tjänsten.
         <target state="final">Nyheter</target>
         <note>Button which opens the What's New screen.</note>
       </trans-unit>
-      <trans-unit id="[WhatsNew/Feature/AppScopedConnections/description]" xml:space="preserve">
+      <trans-unit id="[WhatsNew/Feature/AppScopedConnections/description]" xml:space="preserve" approved="yes">
         <source>Protect your cloud data using app-folder-only permissions.</source>
-        <target state="needs-translation">Protect your cloud data using app-folder-only permissions.</target>
+        <target state="final">Skydda dina molndata med behörighet endast för appmappen.</target>
         <note>Description of a feature highlight, a call to action.</note>
       </trans-unit>
-      <trans-unit id="[WhatsNew/Feature/AppScopedConnections/title]" xml:space="preserve">
+      <trans-unit id="[WhatsNew/Feature/AppScopedConnections/title]" xml:space="preserve" approved="yes">
         <source>Safer Cloud Access</source>
-        <target state="needs-translation">Safer Cloud Access</target>
+        <target state="final">Säker molnåtkomst</target>
         <note>Title of a feature highlight, a noun phrase.</note>
       </trans-unit>
-      <trans-unit id="[WhatsNew/Feature/AutoFillWithMemory/description]" xml:space="preserve">
+      <trans-unit id="[WhatsNew/Feature/AutoFillWithMemory/description]" xml:space="preserve" approved="yes">
         <source>KeePassium remembers the entry you choose on each website.</source>
-        <target state="needs-translation">KeePassium remembers the entry you choose on each website.</target>
+        <target state="final">KeePassium kommer ihåg posten som du väljer på varje webbplats.</target>
         <note>Description of a feature highlight, a call to action.</note>
       </trans-unit>
-      <trans-unit id="[WhatsNew/Feature/AutoFillWithMemory/title]" xml:space="preserve">
+      <trans-unit id="[WhatsNew/Feature/AutoFillWithMemory/title]" xml:space="preserve" approved="yes">
         <source>Smarter AutoFill</source>
-        <target state="needs-translation">Smarter AutoFill</target>
+        <target state="final">Autofyll smartare</target>
         <note>Title of a feature highlight, a noun phrase.</note>
       </trans-unit>
-      <trans-unit id="[WhatsNew/Feature/AutoType/description]" xml:space="preserve">
+      <trans-unit id="[WhatsNew/Feature/AutoType/description]" xml:space="preserve" approved="yes">
         <source>Quickly sign in to any app or web browser using key-press emulation.</source>
-        <target state="needs-translation">Quickly sign in to any app or web browser using key-press emulation.</target>
+        <target state="final">Logga in på appar eller webbläsare snabbt med tangenttrycksemulering.</target>
         <note>Description of a feature highlight, a call to action.</note>
       </trans-unit>
-      <trans-unit id="[WhatsNew/Feature/AutoType/title]" xml:space="preserve">
+      <trans-unit id="[WhatsNew/Feature/AutoType/title]" xml:space="preserve" approved="yes">
         <source>Password Auto-Type</source>
-        <target state="needs-translation">Password Auto-Type</target>
+        <target state="final">Ange lösenord automatiskt</target>
         <note>Title of a feature highlight, a noun phrase.</note>
       </trans-unit>
-      <trans-unit id="[WhatsNew/Feature/CreativeAutoFill/description]" xml:space="preserve">
+      <trans-unit id="[WhatsNew/Feature/CreativeAutoFill/description]" xml:space="preserve" approved="yes">
         <source>Create new entries in AutoFill with main fields pre-filled automatically.</source>
-        <target state="needs-translation">Create new entries in AutoFill with main fields pre-filled automatically.</target>
+        <target state="final">Skapa nya poster i Autofyll där huvudfälten fylls i automatiskt.</target>
         <note>Description of a feature highlight, a call to action.</note>
       </trans-unit>
-      <trans-unit id="[WhatsNew/Feature/CreativeAutoFill/title]" xml:space="preserve">
+      <trans-unit id="[WhatsNew/Feature/CreativeAutoFill/title]" xml:space="preserve" approved="yes">
         <source>Faster Sign-Ups</source>
-        <target state="needs-translation">Faster Sign-Ups</target>
+        <target state="final">Registrera dig snabbare</target>
         <note>Title of a feature highlight, a noun phrase.</note>
       </trans-unit>
-      <trans-unit id="[WhatsNew/Feature/MoreInteractions/description]" xml:space="preserve">
+      <trans-unit id="[WhatsNew/Feature/MoreInteractions/description]" xml:space="preserve" approved="yes">
         <source>Drag and drop, select multiple items, and browse alphabetically.</source>
-        <target state="needs-translation">Drag and drop, select multiple items, and browse alphabetically.</target>
+        <target state="final">Dra och släpp, välj flera objekt och bläddra i alfabetisk ordning.</target>
         <note>Description of a feature highlight, a call to action. `Browse alphabetically` refers to a phonebook-like index with letters.</note>
       </trans-unit>
-      <trans-unit id="[WhatsNew/Feature/MoreInteractions/title]" xml:space="preserve">
+      <trans-unit id="[WhatsNew/Feature/MoreInteractions/title]" xml:space="preserve" approved="yes">
         <source>More Ways to Interact</source>
-        <target state="needs-translation">More Ways to Interact</target>
+        <target state="final">Fler sätt att interagera</target>
         <note>Title of a feature highlight, a noun phrase.</note>
       </trans-unit>
-      <trans-unit id="[WhatsNew/FullChangelog/title]" xml:space="preserve">
+      <trans-unit id="[WhatsNew/FullChangelog/title]" xml:space="preserve" approved="yes">
         <source>Detailed Changelog</source>
-        <target state="needs-translation">Detailed Changelog</target>
+        <target state="final">Detaljerad ändringslogg</target>
         <note>Title of the detailed history of app changes over time.</note>
       </trans-unit>
-      <trans-unit id="[WhatsNew/fullTitle]" xml:space="preserve">
+      <trans-unit id="[WhatsNew/fullTitle]" xml:space="preserve" approved="yes">
         <source>What's New in KeePassium</source>
-        <target state="needs-translation">What's New in KeePassium</target>
+        <target state="final">Vad är nytt i KeePassium</target>
         <note>Full title for release highlights</note>
       </trans-unit>
     </body>

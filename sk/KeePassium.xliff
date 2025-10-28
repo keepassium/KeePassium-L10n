@@ -126,9 +126,9 @@ Ak s tým potrebujete pomôcť, kontaktujte nás.</target>
         <target state="final">Tento kód aplikácie sa dá ľahko uhádnuť. Skúste zadať silnejší kód.</target>
         <note>Notification when user tries to set up too weak an app protection passcode.</note>
       </trans-unit>
-      <trans-unit id="[AutoFill/AcceptAndRemember/action]" xml:space="preserve">
+      <trans-unit id="[AutoFill/AcceptAndRemember/action]" xml:space="preserve" approved="yes">
         <source>Accept and Remember</source>
-        <target state="needs-translation">Accept and Remember</target>
+        <target state="final">Prijať a zapamätať si</target>
         <note>Action in AutoFill: choose the entry and remember it for future use on this website.</note>
       </trans-unit>
       <trans-unit id="[AutoFill/AllEntries/title]" xml:space="preserve" approved="yes">
@@ -136,14 +136,14 @@ Ak s tým potrebujete pomôcť, kontaktujte nás.</target>
         <target state="final">Všetky záznamy</target>
         <note>Title of a list</note>
       </trans-unit>
-      <trans-unit id="[AutoFill/Context/Empty/title]" xml:space="preserve">
+      <trans-unit id="[AutoFill/Context/Empty/title]" xml:space="preserve" approved="yes">
         <source>Unknown</source>
-        <target state="needs-translation">Unknown</target>
+        <target state="final">Neznáme</target>
         <note>Title of AutoFill context when no context is available. Usage: `Context: Unknown`</note>
       </trans-unit>
-      <trans-unit id="[AutoFill/FoundEntries/title]" xml:space="preserve">
+      <trans-unit id="[AutoFill/FoundEntries/title]" xml:space="preserve" approved="yes">
         <source>Best Matches</source>
-        <target state="needs-translation">Best Matches</target>
+        <target state="final">Najlepšie zhody</target>
         <note>Title of a list with search results</note>
       </trans-unit>
       <trans-unit id="[AutoFill/InsertText/select]" xml:space="preserve" approved="yes">
@@ -151,24 +151,24 @@ Ak s tým potrebujete pomôcť, kontaktujte nás.</target>
         <target state="final">Vyberte pole</target>
         <note>Call for action to select an entry field for filling out.</note>
       </trans-unit>
-      <trans-unit id="[AutoFill/RecentlyUsed/title]" xml:space="preserve">
+      <trans-unit id="[AutoFill/RecentlyUsed/title]" xml:space="preserve" approved="yes">
         <source>Recently Used</source>
-        <target state="needs-translation">Recently Used</target>
+        <target state="final">Naposledy použité</target>
         <note>Section title for the recently used entry in AutoFill</note>
       </trans-unit>
-      <trans-unit id="[AutoFill/RememberContext/action]" xml:space="preserve">
+      <trans-unit id="[AutoFill/RememberContext/action]" xml:space="preserve" approved="yes">
         <source>Remember Selected Entries</source>
-        <target state="needs-translation">Remember Selected Entries</target>
+        <target state="final">Pamätať vybrané záznamy</target>
         <note>Not an action, but a button to activate the same-named setting</note>
       </trans-unit>
-      <trans-unit id="[AutoFill/RememberContext/callToAction]" xml:space="preserve">
+      <trans-unit id="[AutoFill/RememberContext/callToAction]" xml:space="preserve" approved="yes">
         <source>Improve AutoFill suggestions</source>
-        <target state="needs-translation">Improve AutoFill suggestions</target>
+        <target state="final">Vylepšite návrhy automatického vyplňovania</target>
         <note>Call to action</note>
       </trans-unit>
-      <trans-unit id="[AutoFill/RememberContext/description]" xml:space="preserve">
+      <trans-unit id="[AutoFill/RememberContext/description]" xml:space="preserve" approved="yes">
         <source>KeePassium will remember which entry you select for each website and then suggest it automatically.</source>
-        <target state="needs-translation">KeePassium will remember which entry you select for each website and then suggest it automatically.</target>
+        <target state="final">KeePassium si zapamätá, ktorý záznam ste vybrali pre každú webovú stránku, a potom ho automaticky navrhne.</target>
         <note>Description of the 'Remember Selected Entries` feature</note>
       </trans-unit>
       <trans-unit id="[AutoFill/Search/Context/title]" xml:space="preserve">
@@ -209,44 +209,44 @@ Prečo? Operačný systém považuje službu automatického vyplňovania za samo
 Z tohoto dôvodu je nutné dať súhlas k prístupu samotne aplikácii KeePassium ako aj službe automatického vyplňovania. Toto je však potrebné vykonať iba raz.</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
-      <trans-unit id="[Database/Entry/Location/title]" xml:space="preserve">
+      <trans-unit id="[Database/Entry/Location/title]" xml:space="preserve" approved="yes">
         <source>Location</source>
-        <target state="needs-translation">Location</target>
+        <target state="final">Poloha</target>
         <note>Field title: name of the group that contains the entry</note>
       </trans-unit>
-      <trans-unit id="[Database/Entry/RandomUsernames/title]" xml:space="preserve">
+      <trans-unit id="[Database/Entry/RandomUsernames/title]" xml:space="preserve" approved="yes">
         <source>Random Usernames</source>
-        <target state="needs-translation">Random Usernames</target>
+        <target state="final">Náhodné používateľské mená</target>
         <note>Title of a list with randomly generated usernames</note>
       </trans-unit>
-      <trans-unit id="[Database/Entry/SelectUsername/action]" xml:space="preserve">
+      <trans-unit id="[Database/Entry/SelectUsername/action]" xml:space="preserve" approved="yes">
         <source>Select Username</source>
-        <target state="needs-translation">Select Username</target>
+        <target state="final">Vyberte používateľské meno</target>
         <note>Action/button that shows a list of usernames to pick from</note>
       </trans-unit>
-      <trans-unit id="[Database/Item/SelectNamed/action]" xml:space="preserve">
+      <trans-unit id="[Database/Item/SelectNamed/action]" xml:space="preserve" approved="yes">
         <source>Select "%@"</source>
-        <target state="needs-translation">Select "%@"</target>
+        <target state="final">Vyberte „%@“</target>
         <note>Action: select item from a list/menu, with item name in quotes. For example: `Select "Sample Group"`</note>
       </trans-unit>
-      <trans-unit id="[Database/Passkey/AddToExisting/action]" xml:space="preserve">
+      <trans-unit id="[Database/Passkey/AddToExisting/action]" xml:space="preserve" approved="yes">
         <source>Add Passkey to Existing Entry</source>
-        <target state="needs-translation">Add Passkey to Existing Entry</target>
+        <target state="final">Pridajte prihlasovací kľúč do existujúceho záznamu</target>
         <note>Action: create a passkey and add it to existing entry</note>
       </trans-unit>
-      <trans-unit id="[Database/Passkey/AddToExisting/callToAction]" xml:space="preserve">
+      <trans-unit id="[Database/Passkey/AddToExisting/callToAction]" xml:space="preserve" approved="yes">
         <source>Choose an entry for the new passkey</source>
-        <target state="needs-translation">Choose an entry for the new passkey</target>
+        <target state="final">Vyberte záznam pre nový prihlasovací kľúč</target>
         <note>Call to action: select an existing entry to add a new passkey to</note>
       </trans-unit>
-      <trans-unit id="[Database/Passkey/AddToExisting/confirm]" xml:space="preserve">
+      <trans-unit id="[Database/Passkey/AddToExisting/confirm]" xml:space="preserve" approved="yes">
         <source>This entry already has a passkey. Replace it?</source>
-        <target state="needs-translation">This entry already has a passkey. Replace it?</target>
+        <target state="final">Tento záznam už má prihlasovací kľúč. Chcete ho nahradiť?</target>
         <note>Confirmation message before replacing an existing passkey.</note>
       </trans-unit>
-      <trans-unit id="[Database/Passkey/Create/title]" xml:space="preserve">
+      <trans-unit id="[Database/Passkey/Create/title]" xml:space="preserve" approved="yes">
         <source>Create a Passkey?</source>
-        <target state="needs-translation">Create a Passkey?</target>
+        <target state="final">Vytvoriť prihlasovací kľúč?</target>
         <note>Title of an optional dialog for creating new passkeys</note>
       </trans-unit>
       <trans-unit id="[Generic/ApplePasswordsApp/title]" xml:space="preserve">
@@ -309,9 +309,9 @@ Z tohoto dôvodu je nutné dať súhlas k prístupu samotne aplikácii KeePassiu
         <target state="translated">Aktivovať rýchle automatické dopĺňanie</target>
         <note>Call to action, invites the user to enable the Quick AutoFill feature</note>
       </trans-unit>
-      <trans-unit id="[Search/EmptyResult/title]" xml:space="preserve">
+      <trans-unit id="[Search/EmptyResult/title]" xml:space="preserve" approved="yes">
         <source>Nothing suitable found</source>
-        <target state="needs-translation">Nothing suitable found</target>
+        <target state="final">Nenašli sa žiadne výsledky</target>
         <note>Placeholder text for empty search results</note>
       </trans-unit>
     </body>
@@ -425,9 +425,9 @@ Z tohoto dôvodu je nutné dať súhlas k prístupu samotne aplikácii KeePassiu
         <target state="needs-translation">{Protected Field}</target>
         <note>Class = "UILabel"; text = "{Protected Field}"; ObjectID = "0pb-xb-fuf";</note>
       </trans-unit>
-      <trans-unit id="7iU-ut-hd7.accessibilityLabel" xml:space="preserve">
+      <trans-unit id="7iU-ut-hd7.accessibilityLabel" xml:space="preserve" approved="yes">
         <source>Custom field value</source>
-        <target state="needs-translation">Custom field value</target>
+        <target state="final">Hodnota vlastného poľa</target>
         <note>Class = "UITextView"; accessibilityLabel = "Custom field value"; ObjectID = "7iU-ut-hd7";</note>
       </trans-unit>
       <trans-unit id="7iU-ut-hd7.text" xml:space="preserve" translate="no">
@@ -440,14 +440,14 @@ Z tohoto dôvodu je nutné dať súhlas k prístupu samotne aplikácii KeePassiu
         <target state="needs-translation">{Multi-line field value. Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.}</target>
         <note>Class = "UITextView"; text = "{Multi-line field value. Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.}"; ObjectID = "9e5-bz-qOo"; Note = "#bc-ignore!";</note>
       </trans-unit>
-      <trans-unit id="CcF-c8-r4M.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" xml:space="preserve">
+      <trans-unit id="CcF-c8-r4M.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" xml:space="preserve" approved="yes">
         <source>Custom field editor</source>
-        <target state="needs-translation">Custom field editor</target>
+        <target state="final">Editor vlastných polí</target>
         <note>Class = "UITableViewCell"; CcF-c8-r4M.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Custom field editor"; ObjectID = "CcF-c8-r4M";</note>
       </trans-unit>
-      <trans-unit id="HGI-xq-zUf.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" xml:space="preserve">
+      <trans-unit id="HGI-xq-zUf.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0]" xml:space="preserve" approved="yes">
         <source>Add Custom Field</source>
-        <target state="needs-translation">Add Custom Field</target>
+        <target state="final">Pridať vlastné pole</target>
         <note>Class = "UIBarButtonItem"; HGI-xq-zUf.ibExternalUserDefinedRuntimeAttributesLocalizableStrings[0] = "Add Custom Field"; ObjectID = "HGI-xq-zUf";</note>
       </trans-unit>
       <trans-unit id="MCF-pf-BwZ.text" xml:space="preserve" translate="no">
@@ -465,9 +465,9 @@ Z tohoto dôvodu je nutné dať súhlas k prístupu samotne aplikácii KeePassiu
         <target state="needs-translation">{Field Name}</target>
         <note>Class = "UILabel"; text = "{Field Name}"; ObjectID = "bcH-X1-BtY"; Note = "#bc-ignore!";</note>
       </trans-unit>
-      <trans-unit id="ecN-Xd-ff5.accessibilityLabel" xml:space="preserve">
+      <trans-unit id="ecN-Xd-ff5.accessibilityLabel" xml:space="preserve" approved="yes">
         <source>Custom field name</source>
-        <target state="needs-translation">Custom field name</target>
+        <target state="final">Názov vlastného poľa</target>
         <note>Class = "UITextField"; accessibilityLabel = "Custom field name"; ObjectID = "ecN-Xd-ff5";</note>
       </trans-unit>
       <trans-unit id="ecN-Xd-ff5.placeholder" xml:space="preserve">
@@ -480,9 +480,9 @@ Z tohoto dôvodu je nutné dať súhlas k prístupu samotne aplikácii KeePassiu
         <target state="needs-translation">{Field Name}</target>
         <note>Class = "UITextField"; text = "{Field Name}"; ObjectID = "ecN-Xd-ff5";</note>
       </trans-unit>
-      <trans-unit id="eox-My-Hns.accessibilityLabel" xml:space="preserve">
+      <trans-unit id="eox-My-Hns.accessibilityLabel" xml:space="preserve" approved="yes">
         <source>In-memory Protection</source>
-        <target state="needs-translation">In-memory Protection</target>
+        <target state="final">Ochrana pamäte</target>
         <note>Class = "UISwitch"; accessibilityLabel = "In-memory Protection"; ObjectID = "eox-My-Hns"; Note = "Equivalent to KeePass' own `Enable in-memory protection' for custom entry fields.";</note>
       </trans-unit>
       <trans-unit id="kN4-4o-MBS.text" xml:space="preserve" translate="no">
@@ -490,14 +490,14 @@ Z tohoto dôvodu je nutné dať súhlas k prístupu samotne aplikácii KeePassiu
         <target state="needs-translation">{Password}</target>
         <note>Class = "UILabel"; text = "{Password}"; ObjectID = "kN4-4o-MBS"; Note = "#bc-ignore!";</note>
       </trans-unit>
-      <trans-unit id="mGc-If-zfn.accessibilityLabel" xml:space="preserve">
+      <trans-unit id="mGc-If-zfn.accessibilityLabel" xml:space="preserve" approved="yes">
         <source>Entry title</source>
-        <target state="needs-translation">Entry title</target>
+        <target state="final">Názov záznamu</target>
         <note>Class = "UITextField"; accessibilityLabel = "Entry title"; ObjectID = "mGc-If-zfn";</note>
       </trans-unit>
-      <trans-unit id="mGc-If-zfn.placeholder" xml:space="preserve">
+      <trans-unit id="mGc-If-zfn.placeholder" xml:space="preserve" approved="yes">
         <source>Entry Title</source>
-        <target state="needs-translation">Entry Title</target>
+        <target state="final">Názov záznamu</target>
         <note>Class = "UITextField"; placeholder = "Entry Title"; ObjectID = "mGc-If-zfn";</note>
       </trans-unit>
       <trans-unit id="mGc-If-zfn.text" xml:space="preserve" translate="no">
@@ -527,9 +527,9 @@ Z tohoto dôvodu je nutné dať súhlas k prístupu samotne aplikácii KeePassiu
         <target state="needs-translation">{Field Value}</target>
         <note>Class = "UITextView"; text = "{Field Value}"; ObjectID = "4Cc-vV-vTv"; Note = "#bc-ignore!";</note>
       </trans-unit>
-      <trans-unit id="6Mx-Oh-6m0.accessibilityHint" xml:space="preserve">
+      <trans-unit id="6Mx-Oh-6m0.accessibilityHint" xml:space="preserve" approved="yes">
         <source>Expands a text field to its full height</source>
-        <target state="needs-translation">Expands a text field to its full height</target>
+        <target state="final">Rozšíri textové pole na jeho plnú výšku</target>
         <note>Class = "UIButton"; accessibilityHint = "Expands a text field to its full height"; ObjectID = "6Mx-Oh-6m0";</note>
       </trans-unit>
       <trans-unit id="6Mx-Oh-6m0.accessibilityLabel" xml:space="preserve">
@@ -614,9 +614,9 @@ Z tohoto dôvodu je nutné dať súhlas k prístupu samotne aplikácii KeePassiu
         <target state="needs-translation">{File Size}</target>
         <note>Class = "UILabel"; text = "{File Size}"; ObjectID = "Kbg-2Y-UcU"; Note = "#bc-ignore!";</note>
       </trans-unit>
-      <trans-unit id="W86-tp-bfF.text" xml:space="preserve">
+      <trans-unit id="W86-tp-bfF.text" xml:space="preserve" approved="yes">
         <source>There are no attached files</source>
-        <target state="needs-translation">There are no attached files</target>
+        <target state="final">Žiadne prílohy</target>
         <note>Class = "UILabel"; text = "There are no attached files"; ObjectID = "W86-tp-bfF"; Note = "Placeholder shown when there are no attached files in the entry.";</note>
       </trans-unit>
       <trans-unit id="WUw-Hm-GLz.text" xml:space="preserve" translate="no">
@@ -661,9 +661,9 @@ Z tohoto dôvodu je nutné dať súhlas k prístupu samotne aplikácii KeePassiu
         <target state="needs-translation">{History Entry Subtitle}</target>
         <note>Class = "UILabel"; text = "{History Entry Subtitle}"; ObjectID = "bPL-8Z-oet"; Note = "#bc-ignore!";</note>
       </trans-unit>
-      <trans-unit id="bzL-mr-Hrz.text" xml:space="preserve">
+      <trans-unit id="bzL-mr-Hrz.text" xml:space="preserve" approved="yes">
         <source>There are no previous versions</source>
-        <target state="needs-translation">There are no previous versions</target>
+        <target state="final">Žiadne predchádzajúce verzie</target>
         <note>Class = "UILabel"; text = "There are no previous versions"; ObjectID = "bzL-mr-Hrz"; Note = "Placeholder text shown when the entry does not have previous versions/revisions (has never been changed)";</note>
       </trans-unit>
       <trans-unit id="dDj-Ye-gUX.text" xml:space="preserve" translate="no">
@@ -848,9 +848,9 @@ Z tohoto dôvodu je nutné dať súhlas k prístupu samotne aplikácii KeePassiu
         <target state="translated">KeePassium vyžaduje vaše povolenie na export súborov do vašej knižnice fotografií.</target>
         <note>Privacy - Photo Library Additions Usage Description</note>
       </trans-unit>
-      <trans-unit id="NSPhotoLibraryUsageDescription" xml:space="preserve">
+      <trans-unit id="NSPhotoLibraryUsageDescription" xml:space="preserve" approved="yes">
         <source>KeePassium needs access to select images for custom icons and to scan QR codes for OTP setup.</source>
-        <target state="needs-translation">KeePassium needs access to select images for custom icons and to scan QR codes for OTP setup.</target>
+        <target state="final">KeePassium potrebuje prístup k vybraným obrázkom pre vlastné ikony a na skenovanie QR kódov pre nastavenie OTP.</target>
         <note>Privacy - Photo Library Usage Description</note>
       </trans-unit>
     </body>
@@ -890,14 +890,14 @@ Z tohoto dôvodu je nutné dať súhlas k prístupu samotne aplikácii KeePassiu
         <target state="translated">Predvolený</target>
         <note>Short name of the default/system font. For example: `Font: Default`</note>
       </trans-unit>
-      <trans-unit id="[Appearance/EntryViewer/OpenLastUsedTab/title]" xml:space="preserve">
+      <trans-unit id="[Appearance/EntryViewer/OpenLastUsedTab/title]" xml:space="preserve" approved="yes">
         <source>Open Last Used Tab</source>
-        <target state="needs-translation">Open Last Used Tab</target>
+        <target state="final">Otvoriť poslednú použitú záložku</target>
         <note>Title of a setting: whether the Entry Viewer should open on the same tab/page when switching between entries, or switch to the first tab instead.</note>
       </trans-unit>
-      <trans-unit id="[Appearance/EntryViewer/title]" xml:space="preserve">
+      <trans-unit id="[Appearance/EntryViewer/title]" xml:space="preserve" approved="yes">
         <source>Entry Viewer</source>
-        <target state="needs-translation">Entry Viewer</target>
+        <target state="final">Prehliadač záznamov</target>
         <note>Section in settings: parameters related to entry viewer component</note>
       </trans-unit>
       <trans-unit id="[Appearance/Font/title]" xml:space="preserve">
@@ -905,9 +905,9 @@ Z tohoto dôvodu je nutné dať súhlas k prístupu samotne aplikácii KeePassiu
         <target state="translated">Písmo</target>
         <note>Title of a setting option: font</note>
       </trans-unit>
-      <trans-unit id="[Appearance/TextSize/reset]" xml:space="preserve">
+      <trans-unit id="[Appearance/TextSize/reset]" xml:space="preserve" approved="yes">
         <source>Reset text size to default</source>
-        <target state="needs-translation">Reset text size to default</target>
+        <target state="final">Obnoviť veľkosť písma na predvolené</target>
         <note>Action: set text size to standard size</note>
       </trans-unit>
       <trans-unit id="[Appearance/TextSize/title]" xml:space="preserve">
@@ -925,174 +925,174 @@ Z tohoto dôvodu je nutné dať súhlas k prístupu samotne aplikácii KeePassiu
         <target state="translated">Návrhy? Problémy? Dajte nám vedieť!</target>
         <note>Subtitle for `Contact Us`. Keep it short.</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/aexml]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/aexml]" xml:space="preserve" approved="yes">
         <source>AEXML by Marko Tadić</source>
-        <target state="needs-translation">AEXML by Marko Tadić</target>
+        <target state="final">AEXML by Marko Tadić</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/argon2]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/argon2]" xml:space="preserve" approved="yes">
         <source>Argon2 by Daniel Dinu, Dmitry Khovratovich, Jean-Philippe Aumasson, and Samuel Neves</source>
-        <target state="needs-translation">Argon2 by Daniel Dinu, Dmitry Khovratovich, Jean-Philippe Aumasson, and Samuel Neves</target>
+        <target state="final">Argon2 by Daniel Dinu, Dmitry Khovratovich, Jean-Philippe Aumasson, and Samuel Neves</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/base32]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/base32]" xml:space="preserve" approved="yes">
         <source>Base32 for Swift by Norio Nomura</source>
-        <target state="needs-translation">Base32 for Swift by Norio Nomura</target>
+        <target state="final">Base32 for Swift by Norio Nomura</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/chaCha20]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/chaCha20]" xml:space="preserve" approved="yes">
         <source>ChaCha20 &amp; Salsa20 implementation by D. J. Bernstein</source>
-        <target state="needs-translation">ChaCha20 &amp; Salsa20 implementation by D. J. Bernstein</target>
+        <target state="final">ChaCha20 &amp; Salsa20 implementation by D. J. Bernstein</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/fancyDebossPattern]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/fancyDebossPattern]" xml:space="preserve" approved="yes">
         <source>Fancy deboss pattern by Daniel Beaton</source>
-        <target state="needs-translation">Fancy deboss pattern by Daniel Beaton</target>
+        <target state="final">Fancy deboss pattern by Daniel Beaton</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/featherIcons]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/featherIcons]" xml:space="preserve" approved="yes">
         <source>Feather icons by Cole Bemis</source>
-        <target state="needs-translation">Feather icons by Cole Bemis</target>
+        <target state="final">Feather icons by Cole Bemis</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/gzipSwift]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/gzipSwift]" xml:space="preserve" approved="yes">
         <source>GzipSwift by 1024jp</source>
-        <target state="needs-translation">GzipSwift by 1024jp</target>
+        <target state="final">GzipSwift by 1024jp</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/icons8]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/icons8]" xml:space="preserve" approved="yes">
         <source>Icons by Icons8</source>
-        <target state="needs-translation">Icons by Icons8</target>
+        <target state="final">Icons by Icons8</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/ionIcons]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/ionIcons]" xml:space="preserve" approved="yes">
         <source>Ionicons by Ionic</source>
-        <target state="needs-translation">Ionicons by Ionic</target>
+        <target state="final">Ionicons by Ionic</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/keePassXCIcons]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/keePassXCIcons]" xml:space="preserve" approved="yes">
         <source>Icons by KeePassXC team</source>
-        <target state="needs-translation">Icons by KeePassXC team</target>
+        <target state="final">Icons by KeePassXC team</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/keePass]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/keePass]" xml:space="preserve" approved="yes">
         <source>KeePass by Dominik Reichl</source>
-        <target state="needs-translation">KeePass by Dominik Reichl</target>
+        <target state="final">KeePass by Dominik Reichl</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/lineIcons]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/lineIcons]" xml:space="preserve" approved="yes">
         <source>Linecons by Andrian Valeanu</source>
-        <target state="needs-translation">Linecons by Andrian Valeanu</target>
+        <target state="final">Linecons by Andrian Valeanu</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/nuvolaIcons]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/nuvolaIcons]" xml:space="preserve" approved="yes">
         <source>Nuvola icons by David Vignoni</source>
-        <target state="needs-translation">Nuvola icons by David Vignoni</target>
+        <target state="final">Nuvola icons by David Vignoni</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/rijndael]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/rijndael]" xml:space="preserve" approved="yes">
         <source>Rijndael implementation by Szymon Stefanek</source>
-        <target state="needs-translation">Rijndael implementation by Szymon Stefanek</target>
+        <target state="final">Rijndael implementation by Szymon Stefanek</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/swiftDomainParser]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/swiftDomainParser]" xml:space="preserve" approved="yes">
         <source>SwiftDomainParser by Dashlane</source>
-        <target state="needs-translation">SwiftDomainParser by Dashlane</target>
+        <target state="final">SwiftDomainParser by Dashlane</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/systemSettingsIcon]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/systemSettingsIcon]" xml:space="preserve" approved="yes">
         <source>System settings icon by Vicons Design</source>
-        <target state="needs-translation">System settings icon by Vicons Design</target>
+        <target state="final">System settings icon by Vicons Design</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/toastSwift]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/toastSwift]" xml:space="preserve" approved="yes">
         <source>Toast-Swift by Charles Scalesse</source>
-        <target state="needs-translation">Toast-Swift by Charles Scalesse</target>
+        <target state="final">Toast-Swift by Charles Scalesse</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/tpInappReceipt]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/tpInappReceipt]" xml:space="preserve" approved="yes">
         <source>TPInAppReceipt by Pavel Tikhonenko</source>
-        <target state="needs-translation">TPInAppReceipt by Pavel Tikhonenko</target>
+        <target state="final">TPInAppReceipt by Pavel Tikhonenko</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/translations]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/translations]" xml:space="preserve" approved="yes">
         <source>Translation by KeePassium contributors</source>
-        <target state="needs-translation">Translation by KeePassium contributors</target>
+        <target state="final">Slovenský preklad KeePassium</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/twoFish]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/twoFish]" xml:space="preserve" approved="yes">
         <source>Twofish implementation by Niels Ferguson</source>
-        <target state="needs-translation">Twofish implementation by Niels Ferguson</target>
+        <target state="final">Twofish implementation by Niels Ferguson</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/whatsNewKit]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/whatsNewKit]" xml:space="preserve" approved="yes">
         <source>WhatsNewKit by Sven Tiigi</source>
-        <target state="needs-translation">WhatsNewKit by Sven Tiigi</target>
+        <target state="final">WhatsNewKit by Sven Tiigi</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/wordlists]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/wordlists]" xml:space="preserve" approved="yes">
         <source>Passphrase wordlists by EFF</source>
-        <target state="needs-translation">Passphrase wordlists by EFF</target>
+        <target state="final">Zoznamy prístupových fráz EFF</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/yubico]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/yubico]" xml:space="preserve" approved="yes">
         <source>Yubico Mobile iOS SDK by Yubico AB</source>
-        <target state="needs-translation">Yubico Mobile iOS SDK by Yubico AB</target>
+        <target state="final">Yubico Mobile iOS SDK by Yubico AB</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/Item/zxcvbn]" xml:space="preserve">
+      <trans-unit id="[Credits/Item/zxcvbn]" xml:space="preserve" approved="yes">
         <source>zxcvbn-ios by Dropbox</source>
-        <target state="needs-translation">zxcvbn-ios by Dropbox</target>
+        <target state="final">zxcvbn-ios by Dropbox</target>
         <note>Item in the credits list</note>
       </trans-unit>
-      <trans-unit id="[Credits/License/apache2]" xml:space="preserve">
+      <trans-unit id="[Credits/License/apache2]" xml:space="preserve" approved="yes">
         <source>Apache 2.0 license</source>
-        <target state="needs-translation">Apache 2.0 license</target>
+        <target state="final">Apache 2.0 licencia</target>
         <note>License name for credits</note>
       </trans-unit>
-      <trans-unit id="[Credits/License/cc0]" xml:space="preserve">
+      <trans-unit id="[Credits/License/cc0]" xml:space="preserve" approved="yes">
         <source>CC0 license</source>
-        <target state="needs-translation">CC0 license</target>
+        <target state="final">CC0 licencia</target>
         <note>License name for credits</note>
       </trans-unit>
-      <trans-unit id="[Credits/License/ccBy3]" xml:space="preserve">
+      <trans-unit id="[Credits/License/ccBy3]" xml:space="preserve" approved="yes">
         <source>CC BY 3.0</source>
-        <target state="needs-translation">CC BY 3.0</target>
+        <target state="final">CC BY 3.0</target>
         <note>License name for credits</note>
       </trans-unit>
-      <trans-unit id="[Credits/License/ccByNd]" xml:space="preserve">
+      <trans-unit id="[Credits/License/ccByNd]" xml:space="preserve" approved="yes">
         <source>CC BY-ND 3.0</source>
-        <target state="needs-translation">CC BY-ND 3.0</target>
+        <target state="final">CC BY-ND 3.0</target>
         <note>License name for credits</note>
       </trans-unit>
-      <trans-unit id="[Credits/License/customPermissiveLicense]" xml:space="preserve">
+      <trans-unit id="[Credits/License/customPermissiveLicense]" xml:space="preserve" approved="yes">
         <source>Custom permissive license</source>
-        <target state="needs-translation">Custom permissive license</target>
+        <target state="final">Custom permissive license</target>
         <note>License name for credits</note>
       </trans-unit>
-      <trans-unit id="[Credits/License/gpl]" xml:space="preserve">
+      <trans-unit id="[Credits/License/gpl]" xml:space="preserve" approved="yes">
         <source>GPL license</source>
-        <target state="needs-translation">GPL license</target>
+        <target state="final">GPL licencia</target>
         <note>License name for credits</note>
       </trans-unit>
-      <trans-unit id="[Credits/License/lgpl]" xml:space="preserve">
+      <trans-unit id="[Credits/License/lgpl]" xml:space="preserve" approved="yes">
         <source>LGPL license</source>
-        <target state="needs-translation">LGPL license</target>
+        <target state="final">LGPL licencia</target>
         <note>License name for credits</note>
       </trans-unit>
-      <trans-unit id="[Credits/License/mit]" xml:space="preserve">
+      <trans-unit id="[Credits/License/mit]" xml:space="preserve" approved="yes">
         <source>MIT license</source>
-        <target state="needs-translation">MIT license</target>
+        <target state="final">MIT Licencia</target>
         <note>License name for credits</note>
       </trans-unit>
-      <trans-unit id="[Credits/License/proprietary]" xml:space="preserve">
+      <trans-unit id="[Credits/License/proprietary]" xml:space="preserve" approved="yes">
         <source>Proprietary license</source>
-        <target state="needs-translation">Proprietary license</target>
+        <target state="final">Vlastnícka licencia</target>
         <note>License name for credits</note>
       </trans-unit>
-      <trans-unit id="[Credits/License/publicDomain]" xml:space="preserve">
+      <trans-unit id="[Credits/License/publicDomain]" xml:space="preserve" approved="yes">
         <source>Public Domain</source>
-        <target state="needs-translation">Public Domain</target>
+        <target state="final">Verejná doména</target>
         <note>License name for credits</note>
       </trans-unit>
       <trans-unit id="[Database/Create/TemplateEntry/notes] You can also store some notes, if you like." xml:space="preserve">
@@ -1160,9 +1160,9 @@ Z tohoto dôvodu je nutné dať súhlas k prístupu samotne aplikácii KeePassiu
         <target state="translated">Prosím, zadajte heslo alebo vyberte súbor s kľúčom.</target>
         <note>Hint shown when both password and key file are empty.</note>
       </trans-unit>
-      <trans-unit id="[Database/DownloadFavicons/intro]" xml:space="preserve">
+      <trans-unit id="[Database/DownloadFavicons/intro]" xml:space="preserve" approved="yes">
         <source>KeePassium will contact websites associated with each entry.</source>
-        <target state="needs-translation">KeePassium will contact websites associated with each entry.</target>
+        <target state="final">KeePassium bude kontaktovať webové stránky spojené s každým záznamom.</target>
         <note>Description of favicon downloader feature.</note>
       </trans-unit>
       <trans-unit id="[Database/DownloadFavicons/warning]" xml:space="preserve" approved="yes">
@@ -1170,9 +1170,9 @@ Z tohoto dôvodu je nutné dať súhlas k prístupu samotne aplikácii KeePassiu
         <target state="final">Ak to urobíte vo verejnej alebo monitorovanej sieti, môžete odhaliť zoznam webových lokalít, na ktorých máte vytvorený účet.</target>
         <note>Description of favicon downloader feature. 'Doing this' refers to downloading favicons.</note>
       </trans-unit>
-      <trans-unit id="[Database/Group/empty]" xml:space="preserve">
+      <trans-unit id="[Database/Group/empty]" xml:space="preserve" approved="yes">
         <source>This group is empty</source>
-        <target state="needs-translation">This group is empty</target>
+        <target state="final">Skupina je prázdna</target>
         <note>Placeholder text in an empty group</note>
       </trans-unit>
       <trans-unit id="[Database/KDF/consideredWeak]" xml:space="preserve" approved="yes">
@@ -1230,39 +1230,39 @@ Z tohoto dôvodu je nutné dať súhlas k prístupu samotne aplikácii KeePassiu
         <target state="final">Viac</target>
         <note>Title of entry viewer's tab with advanced/secondary properties</note>
       </trans-unit>
-      <trans-unit id="[Format/ApplePasswordsCSV]" xml:space="preserve">
+      <trans-unit id="[Format/ApplePasswordsCSV]" xml:space="preserve" approved="yes">
         <source>Apple Passwords (.csv)</source>
-        <target state="needs-translation">Apple Passwords (.csv)</target>
+        <target state="final">Heslá Apple (.csv)</target>
         <note>Name of Apple Passwords' CSV file format</note>
       </trans-unit>
-      <trans-unit id="[Format/EnpassJSON]" xml:space="preserve">
+      <trans-unit id="[Format/EnpassJSON]" xml:space="preserve" approved="yes">
         <source>Enpass (.json)</source>
-        <target state="needs-translation">Enpass (.json)</target>
+        <target state="final">Enpass (.json)</target>
         <note>Name of Enpass' JSON file format</note>
       </trans-unit>
-      <trans-unit id="[Import/CSV/Error/InvalidFormat/withColumn]" xml:space="preserve">
+      <trans-unit id="[Import/CSV/Error/InvalidFormat/withColumn]" xml:space="preserve" approved="yes">
         <source>Invalid CSV format at line %1$d, column %2$d.</source>
-        <target state="needs-translation">Invalid CSV format at line %1$d, column %2$d.</target>
+        <target state="final">Neplatný formát CSV v riadku %1$d, stĺpci %2$d.</target>
         <note>Error message when CSV parsing fails [lineNumber: Int, colNumber: Int]</note>
       </trans-unit>
-      <trans-unit id="[Import/CSV/Error/InvalidFormat]" xml:space="preserve">
+      <trans-unit id="[Import/CSV/Error/InvalidFormat]" xml:space="preserve" approved="yes">
         <source>Invalid CSV format at line %d.</source>
-        <target state="needs-translation">Invalid CSV format at line %d.</target>
+        <target state="final">Neplatný formát CSV v riadku %d.</target>
         <note>Error message when CSV parsing fails [lineNumber: Int]</note>
       </trans-unit>
-      <trans-unit id="[Import/Enpass/Error/CorruptedAttachment]" xml:space="preserve">
+      <trans-unit id="[Import/Enpass/Error/CorruptedAttachment]" xml:space="preserve" approved="yes">
         <source>Corrupted data for attachment '%1$@' in item '%2$@'.</source>
-        <target state="needs-translation">Corrupted data for attachment '%1$@' in item '%2$@'.</target>
+        <target state="final">Poškodené údaje pre prílohu „%1$@“ v položke „%2$@“.</target>
         <note>Error message when Enpass import fails due to corrupted attachment data [attachmentName: String, itemName: String]</note>
       </trans-unit>
-      <trans-unit id="[Import/Error/EmptyFile]" xml:space="preserve">
+      <trans-unit id="[Import/Error/EmptyFile]" xml:space="preserve" approved="yes">
         <source>Incoming file is empty.</source>
-        <target state="needs-translation">Incoming file is empty.</target>
+        <target state="final">Prichádzajúci súbor je prázdny.</target>
         <note>Error shown when trying to import from an empty file</note>
       </trans-unit>
-      <trans-unit id="[Import/JSON/ParsingError]" xml:space="preserve">
+      <trans-unit id="[Import/JSON/ParsingError]" xml:space="preserve" approved="yes">
         <source>Failed to parse JSON file.</source>
-        <target state="needs-translation">Failed to parse JSON file.</target>
+        <target state="final">Nepodarilo sa analyzovať súbor JSON.</target>
         <note>Error message when JSON parsing fails</note>
       </trans-unit>
       <trans-unit id="[Onboarding/AddExistingDatabase/action]" xml:space="preserve">
@@ -1500,39 +1500,39 @@ Your actual passwords are never shared with the online service.
         <target state="translated">Zobraziť heslo</target>
         <note>Action/button to make password visible as plain-text</note>
       </trans-unit>
-      <trans-unit id="[QRCodeScanner/CameraPermission/description]" xml:space="preserve">
+      <trans-unit id="[QRCodeScanner/CameraPermission/description]" xml:space="preserve" approved="yes">
         <source>KeePassium needs camera access to scan QR codes.</source>
-        <target state="needs-translation">KeePassium needs camera access to scan QR codes.</target>
+        <target state="final">Na skenovanie QR kódov potrebuje aplikácia KeePassium prístup ku kamere.</target>
         <note>Explanation why the app needs camera access permission.</note>
       </trans-unit>
-      <trans-unit id="[QRCodeScanner/Error/CameraBusy]" xml:space="preserve">
+      <trans-unit id="[QRCodeScanner/Error/CameraBusy]" xml:space="preserve" approved="yes">
         <source>Camera is already in use.</source>
-        <target state="needs-translation">Camera is already in use.</target>
+        <target state="final">Kamera sa už používa.</target>
         <note>Error message when the app cannot use the camera.</note>
       </trans-unit>
-      <trans-unit id="[QRCodeScanner/Error/ImageCorrupted]" xml:space="preserve">
+      <trans-unit id="[QRCodeScanner/Error/ImageCorrupted]" xml:space="preserve" approved="yes">
         <source>Selected image is corrupted.</source>
-        <target state="needs-translation">Selected image is corrupted.</target>
+        <target state="final">Vybraný obrázok je poškodený.</target>
         <note>Error message</note>
       </trans-unit>
-      <trans-unit id="[QRCodeScanner/Error/Internal]" xml:space="preserve">
+      <trans-unit id="[QRCodeScanner/Error/Internal]" xml:space="preserve" approved="yes">
         <source>Internal error in QR code reader. Check diagnostic log for details.</source>
-        <target state="needs-translation">Internal error in QR code reader. Check diagnostic log for details.</target>
+        <target state="final">Interná chyba v čítačke QR kódov. Podrobnosti nájdete v diagnostickom protokole.</target>
         <note>Error message with a suggested action.</note>
       </trans-unit>
-      <trans-unit id="[QRCodeScanner/Error/NoQRCodeFound]" xml:space="preserve">
+      <trans-unit id="[QRCodeScanner/Error/NoQRCodeFound]" xml:space="preserve" approved="yes">
         <source>Looks like there’s no QR code in that image.</source>
-        <target state="needs-translation">Looks like there’s no QR code in that image.</target>
+        <target state="final">Vyzerá to, že na tomto obrázku nie je žiadny QR kód.</target>
         <note>Notification message</note>
       </trans-unit>
-      <trans-unit id="[QRCodeScanner/Error/SourceNoAvailable]" xml:space="preserve">
+      <trans-unit id="[QRCodeScanner/Error/SourceNoAvailable]" xml:space="preserve" approved="yes">
         <source>Image source is not available.</source>
-        <target state="needs-translation">Image source is not available.</target>
+        <target state="final">Zdroj obrázku nie je k dispozícii.</target>
         <note>Error message when camera/gallery/etc is either missing or forbidden.</note>
       </trans-unit>
-      <trans-unit id="[QRCodeScanner/Info/callToAction]" xml:space="preserve">
+      <trans-unit id="[QRCodeScanner/Info/callToAction]" xml:space="preserve" approved="yes">
         <source>Point the camera at a QR code.</source>
-        <target state="needs-translation">Point the camera at a QR code.</target>
+        <target state="final">Nasmerujte fotoaparát na QR kód.</target>
         <note>Call to action/instruction for QR code scanner.</note>
       </trans-unit>
       <trans-unit id="[QuickAutoFill/description]" xml:space="preserve">
@@ -1540,9 +1540,9 @@ Your actual passwords are never shared with the online service.
         <target state="translated">Rýchle automatické dopĺňanie zobrazuje relevantné položky hneď vedľa poľa hesla bez otvárania KeePassium.</target>
         <note>Description of the Quick AutoFill feature.</note>
       </trans-unit>
-      <trans-unit id="[Search/EmptyResult/title]" xml:space="preserve">
+      <trans-unit id="[Search/EmptyResult/title]" xml:space="preserve" approved="yes">
         <source>Nothing suitable found</source>
-        <target state="needs-translation">Nothing suitable found</target>
+        <target state="final">Nenašli sa žiadne výsledky</target>
         <note>Placeholder text for empty search results</note>
       </trans-unit>
       <trans-unit id="[Selection/Delete/confirmation]" xml:space="preserve">
@@ -1555,9 +1555,9 @@ Your actual passwords are never shared with the online service.
         <target state="translated">Vylúčiť výber z auditu hesiel?</target>
         <note>Title of the confirmation dialog for `Exclude from audit` action for several items</note>
       </trans-unit>
-      <trans-unit id="[Settings/AccessControl/title]" xml:space="preserve">
+      <trans-unit id="[Settings/AccessControl/title]" xml:space="preserve" approved="yes">
         <source>Access Control</source>
-        <target state="needs-translation">Access Control</target>
+        <target state="final">Správa prístupu</target>
         <note>Title of a section in settings: parameters that protect access to data</note>
       </trans-unit>
       <trans-unit id="[Settings/AppLoc/Activate/callToAction]" xml:space="preserve">
@@ -1565,14 +1565,14 @@ Your actual passwords are never shared with the online service.
         <target state="translated">Zapnúť zámok</target>
         <note>Call to action (protect the app from unauthorized access)</note>
       </trans-unit>
-      <trans-unit id="[Settings/AppLock/Activate/description]" xml:space="preserve">
+      <trans-unit id="[Settings/AppLock/Activate/description]" xml:space="preserve" approved="yes">
         <source>Protect KeePassium from unauthorized access.</source>
-        <target state="needs-translation">Protect KeePassium from unauthorized access.</target>
+        <target state="final">Chráňte KeePassium pred neoprávneným prístupom.</target>
         <note>Description of `Activate app protection` call to action.</note>
       </trans-unit>
-      <trans-unit id="[Settings/AppLock/Biometric/description]" xml:space="preserve">
+      <trans-unit id="[Settings/AppLock/Biometric/description]" xml:space="preserve" approved="yes">
         <source>Allows biometric authentication as a quick (but less secure) alternative to passcode.</source>
-        <target state="needs-translation">Allows biometric authentication as a quick (but less secure) alternative to passcode.</target>
+        <target state="final">Umožňuje biometrickú autentifikáciu ako rýchlu (ale menej bezpečnú) alternatívu ku kódu aplikácie.</target>
         <note>Description of biometric unlock settings</note>
       </trans-unit>
       <trans-unit id="[Settings/AppLock/Biometric/title] Use %@" xml:space="preserve">
@@ -1590,54 +1590,54 @@ Your actual passwords are never shared with the online service.
         <target state="translated">Zamknúť pri spustení aplikácie</target>
         <note>Setting switch: whether to lock the app after it was terminated and relaunched.</note>
       </trans-unit>
-      <trans-unit id="[Settings/AppLock/LockOnScreenLock/description]" xml:space="preserve">
+      <trans-unit id="[Settings/AppLock/LockOnScreenLock/description]" xml:space="preserve" approved="yes">
         <source>Ensures KeePassium is locked when you lock your Mac.</source>
-        <target state="needs-translation">Ensures KeePassium is locked when you lock your Mac.</target>
+        <target state="final">Zabezpečuje, že KeePassium sa uzamkne, keď uzamknete svoj Mac.</target>
         <note>Explanation for the `Lock on macOS Screen Lock` setting</note>
       </trans-unit>
-      <trans-unit id="[Settings/AppLock/LockOnScreenLock/title]" xml:space="preserve">
+      <trans-unit id="[Settings/AppLock/LockOnScreenLock/title]" xml:space="preserve" approved="yes">
         <source>Lock on macOS Screen Lock</source>
-        <target state="needs-translation">Lock on macOS Screen Lock</target>
+        <target state="final">Zamknúť pri uzamknutí obrazovky na macOS</target>
         <note>Title of a yes/no setting: whether to lock app when computer screen is locked (see https://support.apple.com/en-gb/guide/mac-help/mchl8e8b6a34/mac)</note>
       </trans-unit>
-      <trans-unit id="[Settings/AppLock/LockOnWrongPasscode/description]" xml:space="preserve">
+      <trans-unit id="[Settings/AppLock/LockOnWrongPasscode/description]" xml:space="preserve" approved="yes">
         <source>If you enter a wrong app protection passcode, KeePassium will close all databases and clear all master keys from the keychain.</source>
-        <target state="needs-translation">If you enter a wrong app protection passcode, KeePassium will close all databases and clear all master keys from the keychain.</target>
+        <target state="final">Ak zadáte nesprávny ochranný kód aplikácie, KeePassium uzavrie všetky databázy a vymaže všetky hlavné kľúče z kľúčenky.</target>
         <note>Description of the `Lock on Wrong Passcode` setting</note>
       </trans-unit>
-      <trans-unit id="[Settings/AppLock/LockOnWrongPasscode/title]" xml:space="preserve">
+      <trans-unit id="[Settings/AppLock/LockOnWrongPasscode/title]" xml:space="preserve" approved="yes">
         <source>Lock on Wrong Passcode</source>
-        <target state="needs-translation">Lock on Wrong Passcode</target>
+        <target state="final">Uzamknúť pri nesprávnom kóde aplikácie</target>
         <note>Title in the settings: whether to lock databases when user enters a wrong app protection passcode.</note>
       </trans-unit>
-      <trans-unit id="[Settings/AppLock/PasscodeAttemptsUntilAppReset/Never/title]" xml:space="preserve">
+      <trans-unit id="[Settings/AppLock/PasscodeAttemptsUntilAppReset/Never/title]" xml:space="preserve" approved="yes">
         <source>Do not reset</source>
-        <target state="needs-translation">Do not reset</target>
+        <target state="final">Neobnovovať</target>
         <note>An option in Settings. Will be shown as 'Passcode Attempts Until App Reset: Do not reset'</note>
       </trans-unit>
-      <trans-unit id="[Settings/AppLock/PasscodeAttemptsUntilAppReset/description]" xml:space="preserve">
+      <trans-unit id="[Settings/AppLock/PasscodeAttemptsUntilAppReset/description]" xml:space="preserve" approved="yes">
         <source>App reset will delete all the stored keys, settings, database backups, imported files, and links to external files. However, if app reset is triggered from AutoFill, imported files may remain due to technical limitations.</source>
-        <target state="needs-translation">App reset will delete all the stored keys, settings, database backups, imported files, and links to external files. However, if app reset is triggered from AutoFill, imported files may remain due to technical limitations.</target>
+        <target state="final">Resetovanie aplikácie vymaže všetky uložené kľúče, nastavenia, zálohy databázy, importované súbory a odkazy na externé súbory. Ak sa však resetovanie aplikácie spustí z funkcie automatického vyplňovania, importované súbory môžu zostať zachované z dôvodu technických obmedzení.</target>
         <note>Description of the `Passcode Attempts Until App Reset` setting</note>
       </trans-unit>
-      <trans-unit id="[Settings/AppLock/PasscodeAttemptsUntilAppReset/title]" xml:space="preserve">
+      <trans-unit id="[Settings/AppLock/PasscodeAttemptsUntilAppReset/title]" xml:space="preserve" approved="yes">
         <source>Attempts Until App Reset</source>
-        <target state="needs-translation">Attempts Until App Reset</target>
+        <target state="final">Pokusy do resetovania aplikácie</target>
         <note>Title in the settings: number of failed passcode attempts that will reset the app into 'just installed' state.</note>
       </trans-unit>
-      <trans-unit id="[Settings/AppLock/Timeout/description]" xml:space="preserve">
+      <trans-unit id="[Settings/AppLock/Timeout/description]" xml:space="preserve" approved="yes">
         <source>The app will automatically lock up after this time.</source>
-        <target state="needs-translation">The app will automatically lock up after this time.</target>
+        <target state="final">Aplikácia sa automaticky uzamkne po tejto dobe.</target>
         <note>Description of the App Lock Timeout setting</note>
       </trans-unit>
-      <trans-unit id="[Settings/AppLock/Timeout/title]" xml:space="preserve">
+      <trans-unit id="[Settings/AppLock/Timeout/title]" xml:space="preserve" approved="yes">
         <source>Timeout</source>
-        <target state="needs-translation">Timeout</target>
+        <target state="final">Časový limit</target>
         <note>Title for App Lock Timeout setting</note>
       </trans-unit>
-      <trans-unit id="[Settings/AppLock/WrongPasscode/title]" xml:space="preserve">
+      <trans-unit id="[Settings/AppLock/WrongPasscode/title]" xml:space="preserve" approved="yes">
         <source>Wrong Passcode</source>
-        <target state="needs-translation">Wrong Passcode</target>
+        <target state="final">Nesprávny kód aplikácie</target>
         <note>Settings section: what happens if user enters incorrect App Protection passcode.</note>
       </trans-unit>
       <trans-unit id="[Settings/AppLock/subtitle] App Lock, %@, timeout" xml:space="preserve">
@@ -1660,9 +1660,9 @@ Your actual passwords are never shared with the online service.
         <target state="translated">Po odchode z tejto aplikácie</target>
         <note>Description of those 'App Protection Timeout' options that trigger when the app is minimized. For example: 'Timeout: 3 seconds (After leaving the app)</note>
       </trans-unit>
-      <trans-unit id="[Settings/AppLockTimeout/Immediately/title] " xml:space="preserve">
+      <trans-unit id="[Settings/AppLockTimeout/Immediately/title] " xml:space="preserve" approved="yes">
         <source>Immediately</source>
-        <target state="needs-translation">Immediately</target>
+        <target state="final">Okamžite</target>
         <note>An option in Settings. Will be shown as 'App Lock: Timeout: Immediately'</note>
       </trans-unit>
       <trans-unit id="[Settings/AppLockTimeout/Never/title]" xml:space="preserve">
@@ -1685,9 +1685,9 @@ Your actual passwords are never shared with the online service.
         <target state="translated">Pred prvým použitím je potrebné aktivovať automatické dopĺňanie v systémových nastaveniach.</target>
         <note>Description for the AutoFill setup instructions</note>
       </trans-unit>
-      <trans-unit id="[Settings/AutoFill/CopyOTP/Description]" xml:space="preserve">
+      <trans-unit id="[Settings/AutoFill/CopyOTP/Description]" xml:space="preserve" approved="yes">
         <source>When AutoFill inserts the username and password, it can also copy the one-time password (OTP) for you.</source>
-        <target state="needs-translation">When AutoFill inserts the username and password, it can also copy the one-time password (OTP) for you.</target>
+        <target state="final">Akonáhle aplikácia automaticky vyplní používateľské meno a heslo, môže tiež pre vás skopírovať aj jednorazové heslo (OTP).</target>
         <note>Description of the 'Copy OTP to Clipboard' setting</note>
       </trans-unit>
       <trans-unit id="[Settings/AutoFill/CopyOTP/title]" xml:space="preserve">
@@ -1695,14 +1695,14 @@ Your actual passwords are never shared with the online service.
         <target state="translated">Kopírovať jednorazové heslo</target>
         <note>Title of a yes/no setting: copy one-time password to clipboard when using AutoFill</note>
       </trans-unit>
-      <trans-unit id="[Settings/AutoFill/RememberContext/description]" xml:space="preserve">
+      <trans-unit id="[Settings/AutoFill/RememberContext/description]" xml:space="preserve" approved="yes">
         <source>KeePassium will remember which entry you select for each website and then suggest it automatically.</source>
-        <target state="needs-translation">KeePassium will remember which entry you select for each website and then suggest it automatically.</target>
+        <target state="final">KeePassium si zapamätá, ktorý záznam ste vybrali pre každú webovú stránku, a potom ho automaticky navrhne.</target>
         <note>Description of the 'Remember Selected Entries' setting.</note>
       </trans-unit>
-      <trans-unit id="[Settings/AutoFill/RememberContext/title]" xml:space="preserve">
+      <trans-unit id="[Settings/AutoFill/RememberContext/title]" xml:space="preserve" approved="yes">
         <source>Remember Selected Entries</source>
-        <target state="needs-translation">Remember Selected Entries</target>
+        <target state="final">Pamätať vybrané záznamy</target>
         <note>Title of a yes/no setting: remember which entry was used for AutoFill on which website.</note>
       </trans-unit>
       <trans-unit id="[Settings/AutoFill/Setup Guide/title]" xml:space="preserve">
@@ -1715,9 +1715,9 @@ Your actual passwords are never shared with the online service.
         <target state="translated">Automatické doplňovanie nie je dostupné v KeePassium pre Intune.</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
-      <trans-unit id="[Settings/AutoFill/UsePerfectMatch/description]" xml:space="preserve">
+      <trans-unit id="[Settings/AutoFill/UsePerfectMatch/description]" xml:space="preserve" approved="yes">
         <source>When AutoFill finds only one, perfectly matching, entry – this entry will be pasted automatically.</source>
-        <target state="needs-translation">When AutoFill finds only one, perfectly matching, entry – this entry will be pasted automatically.</target>
+        <target state="final">Keď bude nájdený iba jeden, presne zodpovedajúci záznam, tak sa tento záznam vloží automaticky.</target>
         <note>Description of the 'Fill-In Perfect Result Automatically' setting</note>
       </trans-unit>
       <trans-unit id="[Settings/AutoFill/UsePerfectMatch/title]" xml:space="preserve">
@@ -1730,9 +1730,9 @@ Your actual passwords are never shared with the online service.
         <target state="translated">Automaticky načítať naposledy otvorenú databázu</target>
         <note>Option in settings: whether to open the last used database automatically on start.</note>
       </trans-unit>
-      <trans-unit id="[Settings/AutoSearch/title]" xml:space="preserve">
+      <trans-unit id="[Settings/AutoSearch/title]" xml:space="preserve" approved="yes">
         <source>Automatic search</source>
-        <target state="needs-translation">Automatic search</target>
+        <target state="final">Automatické vyhľadávanie</target>
         <note>Title of a section in settings</note>
       </trans-unit>
       <trans-unit id="[Settings/ClearKeyFileAssociations/Cleared/title]" xml:space="preserve">
@@ -1740,9 +1740,9 @@ Your actual passwords are never shared with the online service.
         <target state="translated">Vymazané</target>
         <note>Title of the success message for `Clear Key File Associations` button</note>
       </trans-unit>
-      <trans-unit id="[Settings/ClearKeyFileAssociations/action]" xml:space="preserve">
+      <trans-unit id="[Settings/ClearKeyFileAssociations/action]" xml:space="preserve" approved="yes">
         <source>Clear Key File Associations</source>
-        <target state="needs-translation">Clear Key File Associations</target>
+        <target state="final">Vymazať asociácie súboru s kľúčom</target>
         <note>Action to clear/erase info about which database uses which key file</note>
       </trans-unit>
       <trans-unit id="[Settings/ClearMasterKeys/Cleared/title]" xml:space="preserve">
@@ -1750,14 +1750,14 @@ Your actual passwords are never shared with the online service.
         <target state="translated">Vymazané</target>
         <note>Title of the success message for `Clear Master Keys` button</note>
       </trans-unit>
-      <trans-unit id="[Settings/Clipboard/Timeout/title]" xml:space="preserve">
+      <trans-unit id="[Settings/Clipboard/Timeout/title]" xml:space="preserve" approved="yes">
         <source>Clipboard Timeout</source>
-        <target state="needs-translation">Clipboard Timeout</target>
+        <target state="final">Časový limit schránky</target>
         <note>Title of a setting: time after which clipboard will be cleared</note>
       </trans-unit>
-      <trans-unit id="[Settings/Clipboard/title]" xml:space="preserve">
+      <trans-unit id="[Settings/Clipboard/title]" xml:space="preserve" approved="yes">
         <source>Clipboard</source>
-        <target state="needs-translation">Clipboard</target>
+        <target state="final">Schránka</target>
         <note>Section title in Settings</note>
       </trans-unit>
       <trans-unit id="[Settings/ClipboardTimeout/Never/title]" xml:space="preserve">
@@ -1765,19 +1765,19 @@ Your actual passwords are never shared with the online service.
         <target state="translated">Nikdy</target>
         <note>An option in Settings. Will be shown as 'Clipboard Timeout: Never'</note>
       </trans-unit>
-      <trans-unit id="[Settings/ClipboardTimeout/description]" xml:space="preserve">
+      <trans-unit id="[Settings/ClipboardTimeout/description]" xml:space="preserve" approved="yes">
         <source>When you copy anything, KeePassium will automatically clear your clipboard after some time.</source>
-        <target state="needs-translation">When you copy anything, KeePassium will automatically clear your clipboard after some time.</target>
+        <target state="final">Keď niečo skopírujete, KeePassium po určitej dobe automaticky vyprázdni vašu schránku.</target>
         <note>Description of the 'Clipboard Timeout' setting.</note>
       </trans-unit>
-      <trans-unit id="[Settings/DataProtection/Advanced/title]" xml:space="preserve">
+      <trans-unit id="[Settings/DataProtection/Advanced/title]" xml:space="preserve" approved="yes">
         <source>Advanced</source>
-        <target state="needs-translation">Advanced</target>
+        <target state="final">Pokročilé</target>
         <note>Section title: advanced/expert settings</note>
       </trans-unit>
-      <trans-unit id="[Settings/DataProtection/AutomaticLock/title]" xml:space="preserve">
+      <trans-unit id="[Settings/DataProtection/AutomaticLock/title]" xml:space="preserve" approved="yes">
         <source>Automatic Lock</source>
-        <target state="needs-translation">Automatic Lock</target>
+        <target state="final">Automatický zámok</target>
         <note>Title of a section in settings</note>
       </trans-unit>
       <trans-unit id="[Settings/DataProtection/LockOnReboot/title]" xml:space="preserve" approved="yes">
@@ -1785,9 +1785,9 @@ Your actual passwords are never shared with the online service.
         <target state="final">Zamknúť pri reštarte zariadenia</target>
         <note>Setting switch: whether to lock databases after device reboot.</note>
       </trans-unit>
-      <trans-unit id="[Settings/DataProtection/LockOnScreenLock/title]" xml:space="preserve">
+      <trans-unit id="[Settings/DataProtection/LockOnScreenLock/title]" xml:space="preserve" approved="yes">
         <source>Lock on macOS Screen Lock</source>
-        <target state="needs-translation">Lock on macOS Screen Lock</target>
+        <target state="final">Zamknúť pri uzamknutí obrazovky na macOS</target>
         <note>Title of a yes/no setting: whether to lock databases when computer screen is locked (see https://support.apple.com/en-gb/guide/mac-help/mchl8e8b6a34/mac)</note>
       </trans-unit>
       <trans-unit id="[Settings/DataProtection/subtitle]" xml:space="preserve">
@@ -1795,14 +1795,14 @@ Your actual passwords are never shared with the online service.
         <target state="translated">Hlavné kľúče, súbory s kľúčom</target>
         <note>Subtitle for `Data Protection` section in settings</note>
       </trans-unit>
-      <trans-unit id="[Settings/DatabaseBackup/Active/description]" xml:space="preserve">
+      <trans-unit id="[Settings/DatabaseBackup/Active/description]" xml:space="preserve" approved="yes">
         <source>Before saving a database, KeePassium will automatically make a copy, just in case.</source>
-        <target state="needs-translation">Before saving a database, KeePassium will automatically make a copy, just in case.</target>
+        <target state="final">KeePassium bude automaticky vytvárať zálohu pred každým uložením databázy.</target>
         <note>Description of the 'Make Backup Copies' setting</note>
       </trans-unit>
-      <trans-unit id="[Settings/DatabaseBackup/Active/title]" xml:space="preserve">
+      <trans-unit id="[Settings/DatabaseBackup/Active/title]" xml:space="preserve" approved="yes">
         <source>Make Backup Copies</source>
-        <target state="needs-translation">Make Backup Copies</target>
+        <target state="final">Vytvárať zálohy</target>
         <note>Title of a yes/no setting: whether to back up databases before saving them</note>
       </trans-unit>
       <trans-unit id="[Settings/DatabaseBackup/DeleteAll/confirm]" xml:space="preserve">
@@ -1815,14 +1815,14 @@ Your actual passwords are never shared with the online service.
         <target state="translated">Vymazať VŠETKY zálohy? (%d)</target>
         <note>Action to delete all backup files from the app. `ALL` is in capitals as a highlight. [backupFileCount: Int]</note>
       </trans-unit>
-      <trans-unit id="[Settings/DatabaseBackup/ExcludeFromSystemBackup/description]" xml:space="preserve">
+      <trans-unit id="[Settings/DatabaseBackup/ExcludeFromSystemBackup/description]" xml:space="preserve" approved="yes">
         <source>Defines whether backup databases created by KeePassium should be excluded from iCloud/iTunes backup. Applies to all the existing and future backup files.</source>
-        <target state="needs-translation">Defines whether backup databases created by KeePassium should be excluded from iCloud/iTunes backup. Applies to all the existing and future backup files.</target>
+        <target state="final">Určuje, či majú byť záložné databázy, vytvorené aplikáciou KeePassium, vylúčené pri zálohovaní na iCloud/iTunes. Platí pre všetky súčasné a budúce záložné súbory.</target>
         <note>Description of the 'Exclude Backup Files from System Backup' setting</note>
       </trans-unit>
-      <trans-unit id="[Settings/DatabaseBackup/ExcludeFromSystemBackup/title]" xml:space="preserve">
+      <trans-unit id="[Settings/DatabaseBackup/ExcludeFromSystemBackup/title]" xml:space="preserve" approved="yes">
         <source>Exclude Backup Files from System Backup</source>
-        <target state="needs-translation">Exclude Backup Files from System Backup</target>
+        <target state="final">Vynechať záložné súbory zo zálohy systému</target>
         <note>Title of a yes/no setting: whether app's internal backup copies should be excluded from global system backup</note>
       </trans-unit>
       <trans-unit id="[Settings/DatabaseBackup/KeepingDuration/Forever/title]" xml:space="preserve">
@@ -1830,9 +1830,9 @@ Your actual passwords are never shared with the online service.
         <target state="translated">Navždy</target>
         <note>Setting title: how long to keep backup copies. Example: 'Keep Backup Files: Forever'</note>
       </trans-unit>
-      <trans-unit id="[Settings/DatabaseBackup/KeepingDuration/title]" xml:space="preserve">
+      <trans-unit id="[Settings/DatabaseBackup/KeepingDuration/title]" xml:space="preserve" approved="yes">
         <source>Keep Backup Files</source>
-        <target state="needs-translation">Keep Backup Files</target>
+        <target state="final">Uchovávať záložné súbory</target>
         <note>Setting title: how long to keep backup copies. For example: `Keep Backup Files: 3 days`</note>
       </trans-unit>
       <trans-unit id="[Settings/DatabaseBackup/NoFiles/title]" xml:space="preserve">
@@ -1840,24 +1840,24 @@ Your actual passwords are never shared with the online service.
         <target state="translated">Nenašli sa žiadne zálohy</target>
         <note>Status message: there are no backup files to delete</note>
       </trans-unit>
-      <trans-unit id="[Settings/DatabaseBackup/PeriodicCleanup/description]" xml:space="preserve">
+      <trans-unit id="[Settings/DatabaseBackup/PeriodicCleanup/description]" xml:space="preserve" approved="yes">
         <source>KeePassium can automatically delete old backup files to free up some storage space.</source>
-        <target state="needs-translation">KeePassium can automatically delete old backup files to free up some storage space.</target>
+        <target state="final">KeePassium môže automaticky vymazávať staré záložné súbory a uvoľniť tak miesto na vašom zariadení.</target>
         <note>Description of the `Periodic Cleanup` settings</note>
       </trans-unit>
-      <trans-unit id="[Settings/DatabaseBackup/PeriodicCleanup/title]" xml:space="preserve">
+      <trans-unit id="[Settings/DatabaseBackup/PeriodicCleanup/title]" xml:space="preserve" approved="yes">
         <source>Periodic Cleanup</source>
-        <target state="needs-translation">Periodic Cleanup</target>
+        <target state="final">Periodické vymazávanie</target>
         <note>Settings section: automatic deletion of old backup files</note>
       </trans-unit>
-      <trans-unit id="[Settings/DatabaseBackup/ShowBackupFiles/description]" xml:space="preserve">
+      <trans-unit id="[Settings/DatabaseBackup/ShowBackupFiles/description]" xml:space="preserve" approved="yes">
         <source>Backup copies will appear along with the original files.</source>
-        <target state="needs-translation">Backup copies will appear along with the original files.</target>
+        <target state="final">Záložné súbory budú zobrazené spolu s originálnymi súbormi.</target>
         <note>Description of the 'Show Backup Files' setting</note>
       </trans-unit>
-      <trans-unit id="[Settings/DatabaseBackup/SystemBackup/title]" xml:space="preserve">
+      <trans-unit id="[Settings/DatabaseBackup/SystemBackup/title]" xml:space="preserve" approved="yes">
         <source>iTunes and iCloud Backup</source>
-        <target state="needs-translation">iTunes and iCloud Backup</target>
+        <target state="final">Zálohovanie na iTunes a iCloud</target>
         <note>Section header, refers to Apple's backup services (https://support.apple.com/HT203977)</note>
       </trans-unit>
       <trans-unit id="[Settings/DatabaseBackup/title]" xml:space="preserve">
@@ -1870,9 +1870,9 @@ Your actual passwords are never shared with the online service.
         <target state="translated">Ak aplikáciu nejaký čas nepoužívate, databáza sa z dôvodu vašej bezpečnosti uzavrie. Pre jej opätovné otvorenie budete musieť znova zadať jej hlavné heslo.</target>
         <note>Description of the `Database Timeout` setting</note>
       </trans-unit>
-      <trans-unit id="[Settings/DatabaseLockTimeout/title]" xml:space="preserve">
+      <trans-unit id="[Settings/DatabaseLockTimeout/title]" xml:space="preserve" approved="yes">
         <source>Database Timeout</source>
-        <target state="needs-translation">Database Timeout</target>
+        <target state="final">Časový limit databázy</target>
         <note>Title of a setting: the time after which databases will be locked.</note>
       </trans-unit>
       <trans-unit id="[Settings/DatabaseTimeout/Immediately/description]" xml:space="preserve">
@@ -1880,9 +1880,9 @@ Your actual passwords are never shared with the online service.
         <target state="translated">Keď opustíte aplikáciu</target>
         <note>A description/subtitle for the 'Database Timeout: Immediately'.</note>
       </trans-unit>
-      <trans-unit id="[Settings/DatabaseTimeout/Immediately/title" xml:space="preserve">
+      <trans-unit id="[Settings/DatabaseTimeout/Immediately/title" xml:space="preserve" approved="yes">
         <source>Immediately</source>
-        <target state="needs-translation">Immediately</target>
+        <target state="final">Okamžite</target>
         <note>An option in Settings. Will be shown as 'Database Timeout: Immediately'</note>
       </trans-unit>
       <trans-unit id="[Settings/DatabaseTimeout/Never/title]" xml:space="preserve">
@@ -1890,49 +1890,49 @@ Your actual passwords are never shared with the online service.
         <target state="translated">Nikdy</target>
         <note>An option in Settings. Will be shown as 'Database Timeout: Never'</note>
       </trans-unit>
-      <trans-unit id="[Settings/HidePasswords/description]" xml:space="preserve">
+      <trans-unit id="[Settings/HidePasswords/description]" xml:space="preserve" approved="yes">
         <source>Hide passwords and other protected fields behind asterisks (recommended).</source>
-        <target state="needs-translation">Hide passwords and other protected fields behind asterisks (recommended).</target>
+        <target state="final">Maskovať heslá a ďalšie chránená polia hviezdičkami (odporúčané).</target>
         <note>Description of the 'Hide Passwords' setting.</note>
       </trans-unit>
-      <trans-unit id="[Settings/HidePasswords/title]" xml:space="preserve">
+      <trans-unit id="[Settings/HidePasswords/title]" xml:space="preserve" approved="yes">
         <source>Hide Passwords</source>
-        <target state="needs-translation">Hide Passwords</target>
+        <target state="final">Skryť heslá</target>
         <note>Title of a yes/no setting</note>
       </trans-unit>
-      <trans-unit id="[Settings/KeyFiles/Remember/description]" xml:space="preserve">
+      <trans-unit id="[Settings/KeyFiles/Remember/description]" xml:space="preserve" approved="yes">
         <source>Remember and automatically select the last used key file for each database. Clearing the associations does not affect the files.</source>
-        <target state="needs-translation">Remember and automatically select the last used key file for each database. Clearing the associations does not affect the files.</target>
+        <target state="final">Aplikácia si zapamätá naposledy použitý súbor s kľúčom pre každú databázu a vy ho tak nebudete musieť opakovane vyberať. Vymazanie asociácii neovplyvní žiadne súbory.</target>
         <note>Description of the 'Remember Key Files' setting</note>
       </trans-unit>
-      <trans-unit id="[Settings/KeyFiles/title]" xml:space="preserve">
+      <trans-unit id="[Settings/KeyFiles/title]" xml:space="preserve" approved="yes">
         <source>Key Files</source>
-        <target state="needs-translation">Key Files</target>
+        <target state="final">Súbory s kľúčom</target>
         <note>Title of a section in Settings</note>
       </trans-unit>
-      <trans-unit id="[Settings/MasterKeys/CacheDerived/description]" xml:space="preserve">
+      <trans-unit id="[Settings/MasterKeys/CacheDerived/description]" xml:space="preserve" approved="yes">
         <source>Cached keys allow KeePassium to skip key derivation and YubiKey scans whenever possible.</source>
-        <target state="needs-translation">Cached keys allow KeePassium to skip key derivation and YubiKey scans whenever possible.</target>
+        <target state="final">Kľúče vo vyrovnávajúcej pamäti umožňujú aplikácii KeePassium preskočiť derivácie kľúčov a skenovanie YubiKey, kedykoľvek je to možné.</target>
         <note>Description of the 'Cache Derived Encryption Keys' setting</note>
       </trans-unit>
-      <trans-unit id="[Settings/MasterKeys/Clear/action]" xml:space="preserve">
+      <trans-unit id="[Settings/MasterKeys/Clear/action]" xml:space="preserve" approved="yes">
         <source>Clear Master Keys</source>
-        <target state="needs-translation">Clear Master Keys</target>
+        <target state="final">Vymazať hlavné kľúče</target>
         <note>Action: clear/erase/delete stored master keys</note>
       </trans-unit>
-      <trans-unit id="[Settings/MasterKeys/ClearOnTimeout/title]" xml:space="preserve">
+      <trans-unit id="[Settings/MasterKeys/ClearOnTimeout/title]" xml:space="preserve" approved="yes">
         <source>Clear Master Keys on Timeout</source>
-        <target state="needs-translation">Clear Master Keys on Timeout</target>
+        <target state="final">Vymazať hlavný kľúč po vypršaní časového limitu</target>
         <note>Title of a yes/no setting.</note>
       </trans-unit>
-      <trans-unit id="[Settings/MasterKeys/Remember/description]" xml:space="preserve">
+      <trans-unit id="[Settings/MasterKeys/Remember/description]" xml:space="preserve" approved="yes">
         <source>Once you unlock a database, its master key can be stored in device's secure keychain. The next time, KeePassium will use that key so you won't have to type your full master password again.</source>
-        <target state="needs-translation">Once you unlock a database, its master key can be stored in device's secure keychain. The next time, KeePassium will use that key so you won't have to type your full master password again.</target>
+        <target state="final">Akonáhle odomknete databázu pomocou hlavného kľúča, aplikácia si ho uloží do kľúčenky na vašom zariadení. Pri ďalšom odomykaní databázy bude uložený kľúč použitý a vy tak nebudete musieť zadávať hlavné heslo znova.</target>
         <note>Description of the 'Remember Master Keys' setting.</note>
       </trans-unit>
-      <trans-unit id="[Settings/OTP/title]" xml:space="preserve">
+      <trans-unit id="[Settings/OTP/title]" xml:space="preserve" approved="yes">
         <source>One-time passwords</source>
-        <target state="needs-translation">One-time passwords</target>
+        <target state="final">Jednorázové heslá</target>
         <note>Title of a section in settings</note>
       </trans-unit>
       <trans-unit id="[Settings/Premium/title]" xml:space="preserve">
@@ -1940,44 +1940,44 @@ Your actual passwords are never shared with the online service.
         <target state="translated">Premium</target>
         <note>Title of a section in settings</note>
       </trans-unit>
-      <trans-unit id="[Settings/ProtectedFields/title]" xml:space="preserve">
+      <trans-unit id="[Settings/ProtectedFields/title]" xml:space="preserve" approved="yes">
         <source>Protected Fields</source>
-        <target state="needs-translation">Protected Fields</target>
+        <target state="final">Chránené polia</target>
         <note>Title of a section in Settings</note>
       </trans-unit>
-      <trans-unit id="[Settings/QuickUnlock/title]" xml:space="preserve">
+      <trans-unit id="[Settings/QuickUnlock/title]" xml:space="preserve" approved="yes">
         <source>Quick Unlock</source>
-        <target state="needs-translation">Quick Unlock</target>
+        <target state="final">Rýchle odomknutie</target>
         <note>Title of a section in settings</note>
       </trans-unit>
-      <trans-unit id="[Settings/Search/InFieldNames/title]" xml:space="preserve">
+      <trans-unit id="[Settings/Search/InFieldNames/title]" xml:space="preserve" approved="yes">
         <source>Search in Field Names</source>
-        <target state="needs-translation">Search in Field Names</target>
+        <target state="final">Prehľadávať názvy polí</target>
         <note>Title of a setting: whether search looks in field names</note>
       </trans-unit>
-      <trans-unit id="[Settings/Search/InPasswords/title]" xml:space="preserve">
+      <trans-unit id="[Settings/Search/InPasswords/title]" xml:space="preserve" approved="yes">
         <source>Search in Passwords</source>
-        <target state="needs-translation">Search in Passwords</target>
+        <target state="final">Hľadať v heslách</target>
         <note>Title of a setting: whether search looks in passwords</note>
       </trans-unit>
-      <trans-unit id="[Settings/Search/InProtectValues/title]" xml:space="preserve">
+      <trans-unit id="[Settings/Search/InProtectValues/title]" xml:space="preserve" approved="yes">
         <source>Search in Protected Values</source>
-        <target state="needs-translation">Search in Protected Values</target>
+        <target state="final">Hľadať v hodnotách s ochranou</target>
         <note>Title of a setting: whether search looks in values of protected fields</note>
       </trans-unit>
-      <trans-unit id="[Settings/Search/Scope/title]" xml:space="preserve">
+      <trans-unit id="[Settings/Search/Scope/title]" xml:space="preserve" approved="yes">
         <source>Search Scope</source>
-        <target state="needs-translation">Search Scope</target>
+        <target state="final">Rozsah vyhľadávania</target>
         <note>Title of a setting: which fields to consider in search</note>
       </trans-unit>
-      <trans-unit id="[Settings/Search/StartWithSearch/description]" xml:space="preserve">
+      <trans-unit id="[Settings/Search/StartWithSearch/description]" xml:space="preserve" approved="yes">
         <source>After opening a database, automatically show the search field.</source>
-        <target state="needs-translation">After opening a database, automatically show the search field.</target>
+        <target state="final">Vyhľadávacie pole sa zobrazí automaticky po otvorení databázy.</target>
         <note>Description of the 'Start with Search' setting.</note>
       </trans-unit>
-      <trans-unit id="[Settings/Search/StartWithSearch/title]" xml:space="preserve">
+      <trans-unit id="[Settings/Search/StartWithSearch/title]" xml:space="preserve" approved="yes">
         <source>Start with Search</source>
-        <target state="needs-translation">Start with Search</target>
+        <target state="final">Začať s vyhľadávaním</target>
         <note>Title of a setting: whether to open search field immediately after opening a database</note>
       </trans-unit>
       <trans-unit id="[Settings/Search/title]" xml:space="preserve">
@@ -1985,29 +1985,29 @@ Your actual passwords are never shared with the online service.
         <target state="translated">Vyhľadávanie</target>
         <note>Section title in settings</note>
       </trans-unit>
-      <trans-unit id="[Settings/ShakeGestureAction/Confirm/description]" xml:space="preserve">
+      <trans-unit id="[Settings/ShakeGestureAction/Confirm/description]" xml:space="preserve" approved="yes">
         <source>If the app is locked, it acts without confirmation.</source>
-        <target state="needs-translation">If the app is locked, it acts without confirmation.</target>
+        <target state="final">Ak je aplikácia uzamknutá, funguje bez potvrdenia.</target>
         <note>Description of the 'Ask for Confirmation' setting.</note>
       </trans-unit>
-      <trans-unit id="[Settings/ShakeGestureAction/Confirm/title]" xml:space="preserve">
+      <trans-unit id="[Settings/ShakeGestureAction/Confirm/title]" xml:space="preserve" approved="yes">
         <source>Ask for Confirmation</source>
-        <target state="needs-translation">Ask for Confirmation</target>
+        <target state="final">Požiadať o potvrdenie</target>
         <note>Title for a setting: whether the app should show an 'Are you sure?' before continuing</note>
       </trans-unit>
-      <trans-unit id="[Settings/ShakeGestureAction/title]" xml:space="preserve">
+      <trans-unit id="[Settings/ShakeGestureAction/title]" xml:space="preserve" approved="yes">
         <source>When Shaken</source>
-        <target state="needs-translation">When Shaken</target>
+        <target state="final">Pri zatrasení</target>
         <note>Title for a setting: what the app should do when the user shakes the device</note>
       </trans-unit>
-      <trans-unit id="[Settings/Start/title]" xml:space="preserve">
+      <trans-unit id="[Settings/Start/title]" xml:space="preserve" approved="yes">
         <source>Start</source>
-        <target state="needs-translation">Start</target>
+        <target state="final">Po spustení</target>
         <note>Title of a section in settings: parameters that control what happens when the app is started.</note>
       </trans-unit>
-      <trans-unit id="[Settings/Support/title]" xml:space="preserve">
+      <trans-unit id="[Settings/Support/title]" xml:space="preserve" approved="yes">
         <source>Support</source>
-        <target state="needs-translation">Support</target>
+        <target state="final">Podpora</target>
         <note>Title of a section in settings: technical support and diagnostics</note>
       </trans-unit>
       <trans-unit id="[Settings/UniversalClipboard/description]" xml:space="preserve" approved="yes">
@@ -2015,9 +2015,9 @@ Your actual passwords are never shared with the online service.
         <target state="final">Použite univerzálnu schránku na kopírovanie a vkladanie medzi vašimi Apple zariadeniami. Na externých zariadeniach je táto schránka vymazaná po dvoch minútach.</target>
         <note>Description of the 'Universal Clipboard' setting.</note>
       </trans-unit>
-      <trans-unit id="[Settings/UniversalClipboard/title]" xml:space="preserve">
+      <trans-unit id="[Settings/UniversalClipboard/title]" xml:space="preserve" approved="yes">
         <source>Universal Clipboard</source>
-        <target state="needs-translation">Universal Clipboard</target>
+        <target state="final">Univerzálna schránka</target>
         <note>Apple's term: https://support.apple.com/102430</note>
       </trans-unit>
       <trans-unit id="[Tags/Create/action]" xml:space="preserve" approved="yes">
@@ -2075,9 +2075,9 @@ Your actual passwords are never shared with the online service.
         <target state="final">Počet použití</target>
         <note>Title: the number of times a tag is encountered in the database.</note>
       </trans-unit>
-      <trans-unit id="[WhatsNew/Announcement/body]" xml:space="preserve">
+      <trans-unit id="[WhatsNew/Announcement/body]" xml:space="preserve" approved="yes">
         <source>Discover new features and improvements in KeePassium.</source>
-        <target state="needs-translation">Discover new features and improvements in KeePassium.</target>
+        <target state="final">Objavte nové funkcie a vylepšenia v programe KeePassium.</target>
         <note>Call to action in What's New announcement</note>
       </trans-unit>
       <trans-unit id="[WhatsNew/Announcement/button]" xml:space="preserve">
@@ -2085,64 +2085,64 @@ Your actual passwords are never shared with the online service.
         <target state="translated">Novinky</target>
         <note>Button which opens the What's New screen.</note>
       </trans-unit>
-      <trans-unit id="[WhatsNew/Feature/AppScopedConnections/description]" xml:space="preserve">
+      <trans-unit id="[WhatsNew/Feature/AppScopedConnections/description]" xml:space="preserve" approved="yes">
         <source>Protect your cloud data using app-folder-only permissions.</source>
-        <target state="needs-translation">Protect your cloud data using app-folder-only permissions.</target>
+        <target state="final">Chráňte svoje údaje v cloude pomocou oprávnení len pre priečinky aplikácií.</target>
         <note>Description of a feature highlight, a call to action.</note>
       </trans-unit>
-      <trans-unit id="[WhatsNew/Feature/AppScopedConnections/title]" xml:space="preserve">
+      <trans-unit id="[WhatsNew/Feature/AppScopedConnections/title]" xml:space="preserve" approved="yes">
         <source>Safer Cloud Access</source>
-        <target state="needs-translation">Safer Cloud Access</target>
+        <target state="final">Bezpečnejší prístup do cloudu</target>
         <note>Title of a feature highlight, a noun phrase.</note>
       </trans-unit>
-      <trans-unit id="[WhatsNew/Feature/AutoFillWithMemory/description]" xml:space="preserve">
+      <trans-unit id="[WhatsNew/Feature/AutoFillWithMemory/description]" xml:space="preserve" approved="yes">
         <source>KeePassium remembers the entry you choose on each website.</source>
-        <target state="needs-translation">KeePassium remembers the entry you choose on each website.</target>
+        <target state="final">KeePassium si pamätá záznam, ktorý si vyberiete na každej webovej stránke.</target>
         <note>Description of a feature highlight, a call to action.</note>
       </trans-unit>
-      <trans-unit id="[WhatsNew/Feature/AutoFillWithMemory/title]" xml:space="preserve">
+      <trans-unit id="[WhatsNew/Feature/AutoFillWithMemory/title]" xml:space="preserve" approved="yes">
         <source>Smarter AutoFill</source>
-        <target state="needs-translation">Smarter AutoFill</target>
+        <target state="final">Inteligentnejšie automatické vyplňovanie</target>
         <note>Title of a feature highlight, a noun phrase.</note>
       </trans-unit>
-      <trans-unit id="[WhatsNew/Feature/AutoType/description]" xml:space="preserve">
+      <trans-unit id="[WhatsNew/Feature/AutoType/description]" xml:space="preserve" approved="yes">
         <source>Quickly sign in to any app or web browser using key-press emulation.</source>
-        <target state="needs-translation">Quickly sign in to any app or web browser using key-press emulation.</target>
+        <target state="final">Rýchlo sa prihláste do akejkoľvek aplikácie alebo webového prehliadača pomocou emulácie stlačenia klávesov.</target>
         <note>Description of a feature highlight, a call to action.</note>
       </trans-unit>
-      <trans-unit id="[WhatsNew/Feature/AutoType/title]" xml:space="preserve">
+      <trans-unit id="[WhatsNew/Feature/AutoType/title]" xml:space="preserve" approved="yes">
         <source>Password Auto-Type</source>
-        <target state="needs-translation">Password Auto-Type</target>
+        <target state="final">Automatické vypĺňanie hesiel</target>
         <note>Title of a feature highlight, a noun phrase.</note>
       </trans-unit>
-      <trans-unit id="[WhatsNew/Feature/CreativeAutoFill/description]" xml:space="preserve">
+      <trans-unit id="[WhatsNew/Feature/CreativeAutoFill/description]" xml:space="preserve" approved="yes">
         <source>Create new entries in AutoFill with main fields pre-filled automatically.</source>
-        <target state="needs-translation">Create new entries in AutoFill with main fields pre-filled automatically.</target>
+        <target state="final">Vytvorte nové položky s funkciou automatického vyplňovania s automaticky predvyplnenými hlavnými polami.</target>
         <note>Description of a feature highlight, a call to action.</note>
       </trans-unit>
-      <trans-unit id="[WhatsNew/Feature/CreativeAutoFill/title]" xml:space="preserve">
+      <trans-unit id="[WhatsNew/Feature/CreativeAutoFill/title]" xml:space="preserve" approved="yes">
         <source>Faster Sign-Ups</source>
-        <target state="needs-translation">Faster Sign-Ups</target>
+        <target state="final">Rýchlejšie registrácie</target>
         <note>Title of a feature highlight, a noun phrase.</note>
       </trans-unit>
-      <trans-unit id="[WhatsNew/Feature/MoreInteractions/description]" xml:space="preserve">
+      <trans-unit id="[WhatsNew/Feature/MoreInteractions/description]" xml:space="preserve" approved="yes">
         <source>Drag and drop, select multiple items, and browse alphabetically.</source>
-        <target state="needs-translation">Drag and drop, select multiple items, and browse alphabetically.</target>
+        <target state="final">Pretiahnite a pusťte, vyberte viacero položiek a prehliadajte abecedne.</target>
         <note>Description of a feature highlight, a call to action. `Browse alphabetically` refers to a phonebook-like index with letters.</note>
       </trans-unit>
-      <trans-unit id="[WhatsNew/Feature/MoreInteractions/title]" xml:space="preserve">
+      <trans-unit id="[WhatsNew/Feature/MoreInteractions/title]" xml:space="preserve" approved="yes">
         <source>More Ways to Interact</source>
-        <target state="needs-translation">More Ways to Interact</target>
+        <target state="final">Viac spôsobov interakcie</target>
         <note>Title of a feature highlight, a noun phrase.</note>
       </trans-unit>
-      <trans-unit id="[WhatsNew/FullChangelog/title]" xml:space="preserve">
+      <trans-unit id="[WhatsNew/FullChangelog/title]" xml:space="preserve" approved="yes">
         <source>Detailed Changelog</source>
-        <target state="needs-translation">Detailed Changelog</target>
+        <target state="final">Podrobný zoznam zmien</target>
         <note>Title of the detailed history of app changes over time.</note>
       </trans-unit>
-      <trans-unit id="[WhatsNew/fullTitle]" xml:space="preserve">
+      <trans-unit id="[WhatsNew/fullTitle]" xml:space="preserve" approved="yes">
         <source>What's New in KeePassium</source>
-        <target state="needs-translation">What's New in KeePassium</target>
+        <target state="final">Čo je nové v aplikácii KeePassium</target>
         <note>Full title for release highlights</note>
       </trans-unit>
     </body>

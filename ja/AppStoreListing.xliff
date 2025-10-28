@@ -2,192 +2,35 @@
 <xliff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="KeePassium/AppStoreDescription.txt" source-language="en" target-language="ja" datatype="plaintext">
     <body>
-      <trans-unit id="Title" maxwidth="30">
+      <trans-unit id="Title1" maxwidth="30" approved="yes">
+        <source>KeePassium — KeePass passwords</source>
+        <target state="final">KeePassium — KeePassパスワード</target>
+        <note>App page title. If translation does not fit in length limit, use 'KeePassium (KeePass)'</note>
+      </trans-unit>
+      <trans-unit id="Title2" maxwidth="30" approved="yes">
         <source>KeePassium Password Manager</source>
-        <target state="translated">KeePassium パスワードマネージャー</target>
-        <note>Please keep `KeePassium` as the first word. If this is difficult with the natural word order, feel free to use punctuation, for example: "KeePassium - Password Manager"</note>
+        <target state="final">KeePassiumパスワードマネージャー</target>
+        <note>App page title. Please keep `KeePassium` as the first word. Break with punctuation if necessary, for example: "KeePassium - Password Manager"</note>
       </trans-unit>
-      <trans-unit id="Subtitle 1" maxwidth="30">
+      <trans-unit id="Subtitle1" maxwidth="30" approved="yes">
         <source>Respects your privacy</source>
-        <target state="translated">プライバシーを尊重します</target>
-        <note>One-line app description/subtitle</note>
+        <target state="final">プライバシーを尊重します</target>
+        <note>App page subtitle, promo tone</note>
       </trans-unit>
-      <trans-unit id="Description/Intro">
-        <source>KeePassium keeps your passwords safe. It delivers the security of KeePass databases with a clean, easy to use interface.</source>
-        <target state="translated">KeePassiumはパスワードを安全に保管します。KeePassデータベースの安全性を、使いやすいクリーンなインターフェイスで提供します。</target>
-        <note/>
+      <trans-unit id="Subtitle2" maxwidth="30" approved="yes">
+        <source>Secure your passwords</source>
+        <target state="final">パスワードを保護します</target>
+        <note>App page subtitle, call to action</note>
       </trans-unit>
-      <trans-unit id="Description/MainFeatures/title">
-        <source>MAIN FEATURES</source>
-        <target state="translated">主な機能</target>
-        <note>Section header, capitalized</note>
+      <trans-unit id="Subtitle3" maxwidth="30" approved="yes">
+        <source>Open-source privacy</source>
+        <target state="final">オープンソースでプライバシーを確保します</target>
+        <note>App page subtitle, promo tone. 'Privacy ensured by open source'</note>
       </trans-unit>
-      <trans-unit id="Description/MainFeatures/text">
-        <source>• Automatic sync — keep your database in your favorite cloud or offline.
-• Password AutoFill — login to any service in a few taps.
-• Touch ID / Face ID — save your time.
-• Multiple databases — to share passwords with your team or family.
-• Attached files — passport scans and server keys, always with you.
-• Peace of mind — feel free to check our source code, it's open.</source>
-        <target state="translated">• 自動同期：データベースの置き場所はお気に入りのクラウドでもオフラインでも。
-• パスワードの自動入力：どのサイトでも簡単にログインできます。
-• 指紋・顔認証（Touch ID/Face ID）：時間が節約できます。
-• 複数データベース：パスワードをチームや家族に共有できます。
-• 添付ファイル：パスポートの画像やサーバーキーを携帯できます。
-• 心の平和：ソースコードをチェックできます。オープンですので。</target>
-        <note>Please keep the bullet points (followed by one space)</note>
-      </trans-unit>
-      <trans-unit id="Description/AntiFeatures/title">
-        <source>ANTI-FEATURES</source>
-        <target state="translated">機能にないもの</target>
-        <note>Section header, capitalized: features that are explicitly excluded</note>
-      </trans-unit>
-      <trans-unit id="Description/AntiFeatures/text">
-        <source>• No in-app browser
-• No VNC/SSH viewer 
-• No coffee maker
-• No analytics
-• No ads</source>
-        <target state="translated">• アプリ内ブラウザはありません
-• VNC/SSHビュアもありません
-• コーヒーメーカーもありませんし
-• 分析ツールもありませんし
-• 広告もありません</target>
-        <note>Please keep the bullet points (followed by one space)</note>
-      </trans-unit>
-      <trans-unit id="Description/AutomaticSync/title">
-        <source>AUTOMATIC SYNC</source>
-        <target state="translated">自動同期</target>
-        <note>Section header, capitalized</note>
-      </trans-unit>
-      <trans-unit id="Description/AutomaticSync/text">
-        <source>KeePassium can work both offline and with your favorite cloud provider. 
-
-There is no setup: pick your database through the familiar Files interface — and that's it. By integrating with the Files app, KeePassium supports almost all storage providers, including:
-
-• iCloud Drive
-• OneDrive
-• Dropbox 
-• Box
-• pCloud
-• Google Drive
-• NextCloud (with hiccups)
-• WebDAV and SFTP (via a third-party app)
-• ...and more!
-
-Should a password manager have full access to your corporate file server? Of course not! All the networking is automatically performed by the original storage provider app. This way, KeePassium knows only about few specific databases, not your whole server.</source>
-        <target state="translated">KeePassium は、オフラインでも、お好きなクラウドでも利用できます。 
-
-設定は不要です。見慣れた画面で自分のデータベースを選ぶだけです。KeePassiumはファイルアプリと統合しているので、ほぼすべてのストレージをサポートします。例えば 
-
-• iCloud Drive
-• OneDrive
-• Dropbox
-• Box
-• pCloud
-• Google Drive
-• NextCloud (with hiccups)
-• WebDAV と SFTP (サードパーティのアプリを使って)
-• など!
-
-パスワードマネージャーがあなたの会社のファイルサーバーにフルアクセスすべきでしょうか。もちろん違います。ネットワークへの接続はすべてストレージアプリによって自動的に行われます。こうすることで、KeePassiumは特定のデータベースにしかアクセスせず、サーバー全体にはアクセスしないのです。</target>
-        <note>Please keep the bullet points (followed by one space)</note>
-      </trans-unit>
-      <trans-unit id="Description/More/title">
-        <source>WHAT ELSE CAN IT DO?</source>
-        <target state="translated">他に何ができるの？</target>
-        <note>Section header, capitalized: additional list of features</note>
-      </trans-unit>
-      <trans-unit id="Description/More/text">
-        <source>• Read and write all database formats (kdb, kdbx3, kdbx4 — including Argon2/ChaCha20)
-• View time-based one-time passwords (TOTP)
-• View deleted groups and entries (Recycle Bin)
-• View previous revisions of an entry
-• View and edit custom fields
-• View custom icons
-• And more! See for yourself, it's free.</source>
-        <target state="translated">• データベースのすべての形式の読み書き (kdb, kdbx3, kdbx4, Argon2/ChaCha20)
-• 時間を使ったワンタイムパスワード (TOTP) の表示
-• 削除したグループやエントリの表示 (ごみ箱)
-• エントリごとの書き換え履歴及び旧データの表示
-• カスタムフィールドの表示・編集
-• カスタムアイコンの表示
-• などなど！ ご確認ください。無料ですので。</target>
-        <note>Please keep the bullet points (followed by one space)</note>
-      </trans-unit>
-      <trans-unit id="Description/Privacy/title">
-        <source>PRIVACY</source>
-        <target state="translated">プライバシー</target>
-        <note>Section header, capitalized: privacy policy</note>
-      </trans-unit>
-      <trans-unit id="Description/Privacy/text">
-        <source>This app does not collect any personal data. We sell the app, not its users.</source>
-        <target state="translated">このアプリは個人データを一切収集しません。売っているのはアプリであって、ユーザーではありません。</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="Description/CommercialAndOpen/title">
-        <source>COMMERCIAL AND OPEN</source>
-        <target state="translated">商用でオープンな</target>
-        <note>Section header, capitalized: the app is both a commercial and open source project</note>
-      </trans-unit>
-      <trans-unit id="Description/CommercialAndOpen/text">
-        <source>KeePassium is a commercial open source app. Here, "open source" is the transparency you need from a password manager. The "commercial" part, in turn, gives you:
-
-• A great well-polished interface
-• Responsive support that cares
-• Future updates and improvements</source>
-        <target state="translated">KeePassiumは商用でオープンソースのアプリです。「オープンソース」はパスワード管理アプリに求められる透明性です。「商用」の部分が以下を提供します:
-
-• 洗練された優れたインターフェイス
-• 真剣で素速いサポート
-• 今後のアップデートと改良</target>
-        <note>Please keep the bullet points (followed by one space)</note>
-      </trans-unit>
-      <trans-unit id="Description/Freemium/title">
-        <source>FREE vs PREMIUM</source>
-        <target state="translated">無料版とプレミアム版</target>
-        <note>Section header, capitalized: a comparison of free and premium version.</note>
-      </trans-unit>
-      <trans-unit id="Description/Freemium/text">
-        <source>There is no "trial period". The free version is always completely functional. You can view and edit, use Touch ID / Face ID, search and AutoFill — but only with one database at a time.
-
-You can install free KeePassium for your family members. If they barely use the app, it will not bother them to buy premium. 
-
-With the premium version, you can:
-• Quickly switch between multiple databases.
-• Unlock databases with one tap and keep them open as long as you need.
-• View attachments in the app, without leaving a trace in the system.
-• Email your questions and get answers directly from the developer.
-• Keep KeePassium shiny and available to people who need security but cannot afford it yet.</source>
-        <target state="translated">「お試し期間」はありません。無料版はいつでも完全に機能します。閲覧・編集・指紋認証・顔認証・検索・自動入力が可能です。１度に１つのデータベースしか使えませんが。
-
-家族用に無料版をインストールすることができます。家族の方がアプリをあまり使わない場合、プレミアム版を家族にも買う必要はありません。
-
-プレミアム版でできること
-・複数のデータベースの切り替えが簡単にできます。
-・データベースのロックをワンタッチで解除し、いくらでも長い時間、開いたままにできます。
-・添付ファイルの閲覧がアプリ内部で可能なので、他のアプリに痕跡を残しません。
-・質問をEメールで送って、開発者から直接回答を受け取ることができます。
-・アプリを磨き続け、安全が必要なのに手に入らない方々に提供します。</target>
-        <note>Please keep the bullet points (followed by one space)</note>
-      </trans-unit>
-      <trans-unit id="Description/Contact/text">
-        <source>Talk to us at info@keepassium.com, /r/KeePassium on Reddit, @KeePassium on Twitter and GitHub.</source>
-        <target state="translated">お問い合わせは info@keepassium.com，Redditでは r/KeePassium，TwitterやGitHubでは @KeePassium にお寄せ下さい。</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="Description/Footer/text">
-        <source>* Premium version is available as an in-app purchase, either as a subscription or a one-time payment. 
-* Payment will be charged to your Apple ID account at the confirmation of (in-app) purchase. Subscription automatically renews unless it is canceled at least 24 hours before the end of the current period. Your account will be charged for renewal within 24 hours prior to the end of the current period. 
-* You can manage and cancel your subscriptions by going to your account settings on the App Store after purchase.
-* Privacy policy: https://keepassium.com/privacy/app
-* Terms of Use: https://keepassium.com/terms/app</source>
-        <target state="translated">＊プレミアム版はアプリ内で購入できます。サブスクリプション（期限付き使用）と買い切りのどちらも可能です。
-＊お支払いはApple IDのアカウントに対して (アプリ内) 購入が確認された時点で行われます。サブスクリプション契約は、期限が切れる24時間前までにキャンセルされなければ自動的に更新されます。更新した場合、期限終了前の24時間以内にアカウントに請求いたします。
-＊サブスクリプションの管理やキャンセルは、購入後にApp Storeのアカウント設定で行うことができます。
-＊個人情報保護方針：https://keepassium.com/privacy/app
-＊利用規約：https://keepassium.com/terms/app</target>
-        <note>Mandatory legalese required by Apple. Asterisks instead of bullet points.</note>
+      <trans-unit id="Subtitle4" maxwidth="30" approved="yes">
+        <source>Open-source. No ads.</source>
+        <target state="final">オープンソースで広告はありません。</target>
+        <note>App page subtitle, promo tone</note>
       </trans-unit>
       <trans-unit id="Subtitle Pro">
         <source>Lifetime license</source>
@@ -223,8 +66,8 @@ With the premium version, you can:
         <note/>
       </trans-unit>
       <trans-unit id="Org/Description/endUser">
-        <source>The end-user version of KeePassium is available at http://keepassium.app</source>
-        <target state="translated">一般ユーザー向けのKeePassiumは http://keepassium.app から入手できます。</target>
+        <source>The end-user version of KeePassium is available at https://keepassium.app</source>
+        <target state="translated">一般ユーザー向けのKeePassiumは https://keepassium.app から入手できます。</target>
         <note/>
       </trans-unit>
       <trans-unit id="Org/Description/footer">

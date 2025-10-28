@@ -2,191 +2,35 @@
 <xliff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="KeePassium/AppStoreDescription.txt" source-language="en" target-language="ar" datatype="plaintext">
     <body>
-      <trans-unit id="Title" maxwidth="30">
+      <trans-unit id="Title1" maxwidth="30" approved="yes">
+        <source>KeePassium — KeePass passwords</source>
+        <target state="final">KeePassium — KeePass</target>
+        <note>App page title. If translation does not fit in length limit, use 'KeePassium (KeePass)'</note>
+      </trans-unit>
+      <trans-unit id="Title2" maxwidth="30" approved="yes">
         <source>KeePassium Password Manager</source>
-        <target state="translated">مدير كلِمات المُرور KeePassium</target>
-        <note>Please keep `KeePassium` as the first word. If this is difficult with the natural word order, feel free to use punctuation, for example: "KeePassium - Password Manager"</note>
+        <target state="final">KeePassium - مدير كلمات المرور</target>
+        <note>App page title. Please keep `KeePassium` as the first word. Break with punctuation if necessary, for example: "KeePassium - Password Manager"</note>
       </trans-unit>
-      <trans-unit id="Subtitle 1" maxwidth="30">
+      <trans-unit id="Subtitle1" maxwidth="30" approved="yes">
         <source>Respects your privacy</source>
-        <target state="translated">يُقدِّر خصوصيتك</target>
-        <note>One-line app description/subtitle</note>
+        <target state="final">نقدّر خصوصيتك</target>
+        <note>App page subtitle, promo tone</note>
       </trans-unit>
-      <trans-unit id="Description/Intro">
-        <source>KeePassium keeps your passwords safe. It delivers the security of KeePass databases with a clean, easy to use interface.</source>
-        <target state="translated">Keepassium يُحافظ على كلمات المرور الخاصة بك بشكل آمن. يدعم قواعد بيانات KeePass الآمنة مع واجهة مستخدم مُنظمة ومَرنة.</target>
-        <note/>
+      <trans-unit id="Subtitle2" maxwidth="30" approved="yes">
+        <source>Secure your passwords</source>
+        <target state="final">حماية كلمات مرورك</target>
+        <note>App page subtitle, call to action</note>
       </trans-unit>
-      <trans-unit id="Description/MainFeatures/title">
-        <source>MAIN FEATURES</source>
-        <target state="translated">الميزات الرئيسة</target>
-        <note>Section header, capitalized</note>
+      <trans-unit id="Subtitle3" maxwidth="30" approved="yes">
+        <source>Open-source privacy</source>
+        <target state="final">الخصوصية عبر المصدر المفتوح</target>
+        <note>App page subtitle, promo tone. 'Privacy ensured by open source'</note>
       </trans-unit>
-      <trans-unit id="Description/MainFeatures/text">
-        <source>• Automatic sync — keep your database in your favorite cloud or offline.
-• Password AutoFill — login to any service in a few taps.
-• Touch ID / Face ID — save your time.
-• Multiple databases — to share passwords with your team or family.
-• Attached files — passport scans and server keys, always with you.
-• Peace of mind — feel free to check our source code, it's open.</source>
-        <target state="translated">• المزامنة التلقائية - حافظ على قاعدة البيانات الخاصة بك في خدمة التخزين السحابية المفضلة لديك أو محلياً بغير اتصال انترنت.
-• تعبئة كلمة المرور تلقائياً - تسجيل الدخول إلى أي خدمة خلال خطوات قليلة.
-• مُعرف بصمة اليد / مُعرف الوجه - وفر وقتك.
-• قواعد بيانات متعددة - لمشاركة كلمات المرور مع فريقك أو عائلتك.
-• إرفاق الملفات - صور جوازات السفر ومفاتيح الخوادم، دائما معك.
-• راحة البال - لا تتردد في التحقق من شفرة المصدر الخاصة بنا، إنها مفتوحة.</target>
-        <note>Please keep the bullet points (followed by one space)</note>
-      </trans-unit>
-      <trans-unit id="Description/AntiFeatures/title">
-        <source>ANTI-FEATURES</source>
-        <target state="translated">الميزات المضادة</target>
-        <note>Section header, capitalized: features that are explicitly excluded</note>
-      </trans-unit>
-      <trans-unit id="Description/AntiFeatures/text">
-        <source>• No in-app browser
-• No VNC/SSH viewer 
-• No coffee maker
-• No analytics
-• No ads</source>
-        <target state="translated">• لا يوجد متصفح داخل التطبيق
-• لا عارض VNC/SSH
-• لا صانع قهوة
-• لا تحليلات
-• لا إعلانات</target>
-        <note>Please keep the bullet points (followed by one space)</note>
-      </trans-unit>
-      <trans-unit id="Description/AutomaticSync/title">
-        <source>AUTOMATIC SYNC</source>
-        <target state="translated">المُزامنة التلقائية</target>
-        <note>Section header, capitalized</note>
-      </trans-unit>
-      <trans-unit id="Description/AutomaticSync/text">
-        <source>KeePassium can work both offline and with your favorite cloud provider. 
-
-There is no setup: pick your database through the familiar Files interface — and that's it. By integrating with the Files app, KeePassium supports almost all storage providers, including:
-
-• iCloud Drive
-• OneDrive
-• Dropbox 
-• Box
-• pCloud
-• Google Drive
-• NextCloud (with hiccups)
-• WebDAV and SFTP (via a third-party app)
-• ...and more!
-
-Should a password manager have full access to your corporate file server? Of course not! All the networking is automatically performed by the original storage provider app. This way, KeePassium knows only about few specific databases, not your whole server.</source>
-        <target state="translated">KeePassium يمكن أن يعمل دون اتصال بالانترنت(مَحَلياً) ومع موفر الخدمة السحابية المفضل لديك.
-
-لا يوجد إعداد: اين تريد قاعدة البيانات الخاصة بك من خلال واجهة الملفات المألوفة. من خلال التكامل مع تطبيق مدير الملفات، يدعم KeePassium تقريبا جميع مزودي خدمات التخزين، بما في ذلك:
-
-• iCloud Drive
-• OneDrive
-• Dropbox
-• Box
-• pCloud
-• Google Drive
-• NextCloud (with hiccups)
-• WebDAV and SFTP (via a third-party app)
-• . .والمزيد!
-
-هل يجب أن يكون لمدير كلمة المرور الوصول الكامل إلى خادم ملفات الشركة الخاص بك؟ بالطبع لا! يتم تشغيل جميع الاتصالات تلقائياً بواسطة تطبيق موفر خدمة التخزين الأصلي. بهذه الطريقة، لا يعرف KeePassium سوى القليل من قواعد البيانات المحددة، وليس الخادم بأكمله.</target>
-        <note>Please keep the bullet points (followed by one space)</note>
-      </trans-unit>
-      <trans-unit id="Description/More/title">
-        <source>WHAT ELSE CAN IT DO?</source>
-        <target state="translated">ماذا يتيح لي ايضاً؟</target>
-        <note>Section header, capitalized: additional list of features</note>
-      </trans-unit>
-      <trans-unit id="Description/More/text">
-        <source>• Read and write all database formats (kdb, kdbx3, kdbx4 — including Argon2/ChaCha20)
-• View time-based one-time passwords (TOTP)
-• View deleted groups and entries (Recycle Bin)
-• View previous revisions of an entry
-• View and edit custom fields
-• View custom icons
-• And more! See for yourself, it's free.</source>
-        <target state="translated">• قراءة وكتابة جميع صيغ قاعدة البيانات (kdb, kdbx3, kdbx4 - بما في ذلك Argon2/ChaCha20)
-• عرض كلمات المرور المبنية على الوقت، الاستخدام لمرة واحدة (TOTP)
-• عرض المجموعات أوالسجلات المحذوفة (سلة المحذوفات)
-• عرض الإصدارات السابقة للسجلات قبل التعديل عليها.
-• عرض وتعديل الحقول المخصصة.
-• عرض الأيقونات المخصصة.
-• وأكثر! انظر لنفسك، إنها مجانية.</target>
-        <note>Please keep the bullet points (followed by one space)</note>
-      </trans-unit>
-      <trans-unit id="Description/Privacy/title">
-        <source>PRIVACY</source>
-        <target state="translated">الخصوصية</target>
-        <note>Section header, capitalized: privacy policy</note>
-      </trans-unit>
-      <trans-unit id="Description/Privacy/text">
-        <source>This app does not collect any personal data. We sell the app, not its users.</source>
-        <target state="translated">هذا التطبيق لا يجمع أي معلومات شخصية. نحن نبيع التطبيق، وليس مُستخدميه.</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="Description/CommercialAndOpen/title">
-        <source>COMMERCIAL AND OPEN</source>
-        <target state="translated">تجاري ومفتوح</target>
-        <note>Section header, capitalized: the app is both a commercial and open source project</note>
-      </trans-unit>
-      <trans-unit id="Description/CommercialAndOpen/text">
-        <source>KeePassium is a commercial open source app. Here, "open source" is the transparency you need from a password manager. The "commercial" part, in turn, gives you:
-
-• A great well-polished interface
-• Responsive support that cares
-• Future updates and improvements</source>
-        <target state="translated">KeePassium تطبيق تجاري مفتوح المصدر. هنا، "مفتوح المصدر" هو الشفافية التي تحتاجها من مدير كلمة المرور. الجزء "التجاري" يعطيك بدوره:
-
-• واجهة رائعة جداً
-• الدعم المتجاوب المُهتم
-• التحديثات والتحسينات المستقبلية</target>
-        <note>Please keep the bullet points (followed by one space)</note>
-      </trans-unit>
-      <trans-unit id="Description/Freemium/title">
-        <source>FREE vs PREMIUM</source>
-        <target state="translated">النسخة المجانية ضد المدفوعة(المميزة)</target>
-        <note>Section header, capitalized: a comparison of free and premium version.</note>
-      </trans-unit>
-      <trans-unit id="Description/Freemium/text">
-        <source>There is no "trial period". The free version is always completely functional. You can view and edit, use Touch ID / Face ID, search and AutoFill — but only with one database at a time.
-
-You can install free KeePassium for your family members. If they barely use the app, it will not bother them to buy premium. 
-
-With the premium version, you can:
-• Quickly switch between multiple databases.
-• Unlock databases with one tap and keep them open as long as you need.
-• View attachments in the app, without leaving a trace in the system.
-• Email your questions and get answers directly from the developer.
-• Keep KeePassium shiny and available to people who need security but cannot afford it yet.</source>
-        <target state="translated">لا توجد "فترة تجريبية". الإصدار المجاني يعمل دائماً بشكل كامل. يمكنك عرض وتعديل، واستخدام معرف بصمة اليد / معرف الوجه والبحث والملء التلقائي - ولكن فقط مع قاعدة بيانات واحدة في الوقت الواحد.
-
-يمكنك تثبيت KeePassium مجاناً لأفراد عائلتك. إذا كانوا بالكاد يستخدمون التطبيق، فلن يغريهم شراء النسخة المدفوعة
-مع الإصدار المميز، يمكنك:
-• التبديل السريع بين قواعد بيانات متعددة.
-• فتح قواعد البيانات بنقرة واحدة وإبقائها مفتوحة طالما كنت بحاجة إليها.
-• عرض المرفقات في التطبيق، دون ترك أثر في النظام.
-• إرسال بريد إلكتروني لأسئلتك والحصول على إجابات مباشرة من المطور.
-• يبقى KeePassium مشرقا ومتاحا للأشخاص الذين يحتاجون إلى الأمن ولكنهم لا يستطيعون تحمل تكاليفه حتى الآن.</target>
-        <note>Please keep the bullet points (followed by one space)</note>
-      </trans-unit>
-      <trans-unit id="Description/Contact/text">
-        <source>Talk to us at info@keepassium.com, /r/KeePassium on Reddit, @KeePassium on Twitter and GitHub.</source>
-        <target state="translated">تواصل معنا عبر info@keepassium.com أو /r/KeePassium على Reddit أو @KeePassium على تويتر و GitHub.</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="Description/Footer/text">
-        <source>* Premium version is available as an in-app purchase, either as a subscription or a one-time payment. 
-* Payment will be charged to your Apple ID account at the confirmation of (in-app) purchase. Subscription automatically renews unless it is canceled at least 24 hours before the end of the current period. Your account will be charged for renewal within 24 hours prior to the end of the current period. 
-* You can manage and cancel your subscriptions by going to your account settings on the App Store after purchase.
-* Privacy policy: https://keepassium.com/privacy/app
-* Terms of Use: https://keepassium.com/terms/app</source>
-        <target state="translated">*النسخة المدفوعة متوفرة كشراء داخل التطبيق، سواءً اشتراك أو الدفع مرة واحدة.
-*سوف يتم اقتطاع المبلغ من حساب Apple ID عند تأكيد الشراء. يتجدد الاشتراك تلقائيًا إلا إذا قمت بالإلغاء في غضون 24 ساعة على الأقل قبل انتهاء فترة الاشتراك الحالية. وسوف يتم خصم المبلغ من حسابك نظير التجديد في غضون فترة 24 ساعة قبل نهاية الفترة المحددة.
-*يمكنك إدارة اشتراكاتك وإلغائها بالذهاب إلى إعدادات الحساب في App Store بعد الاشتراك.
-*سياسة الخصوصية: https://keepassium.com/privacy/app
-*شروط الاستخدام: https://keepassium.com/terms/app</target>
-        <note>Mandatory legalese required by Apple. Asterisks instead of bullet points.</note>
+      <trans-unit id="Subtitle4" maxwidth="30" approved="yes">
+        <source>Open-source. No ads.</source>
+        <target state="final">مفتوح المصدر. من دون إعلانات.</target>
+        <note>App page subtitle, promo tone</note>
       </trans-unit>
       <trans-unit id="Subtitle Pro">
         <source>Lifetime license</source>
@@ -206,29 +50,29 @@ With the premium version, you can:
 • لا مشتريات في التطبيق</target>
         <note>Please keep the bullet points (followed by one space)</note>
       </trans-unit>
-      <trans-unit id="Org/Title" maxwidth="30">
+      <trans-unit id="Org/Title" maxwidth="30" approved="yes">
         <source>KeePassium for Intune</source>
-        <target state="needs-translation">KeePassium for Intune</target>
+        <target state="final">KeePassium for Intune</target>
         <note>App title, refers to Microsoft Intune.</note>
       </trans-unit>
-      <trans-unit id="Org/Subtitle" maxwidth="30">
+      <trans-unit id="Org/Subtitle" maxwidth="30" approved="yes">
         <source>Enterprise edition</source>
-        <target state="needs-translation">Enterprise edition</target>
+        <target state="final">إصدار المؤسسات</target>
         <note>Subtitle for the Intune edition</note>
       </trans-unit>
-      <trans-unit id="Org/Description/intro">
+      <trans-unit id="Org/Description/intro" approved="yes">
         <source>KeePassium for Intune is a password manager for enterprise, government and academic organizations managed by Microsoft Intune. The app enables company's administrators to safeguard corporate information by enforcing app configuration and data protection policies.</source>
-        <target state="needs-translation">KeePassium for Intune is a password manager for enterprise, government and academic organizations managed by Microsoft Intune. The app enables company's administrators to safeguard corporate information by enforcing app configuration and data protection policies.</target>
+        <target state="final">إن تطبيق KeePassium for Intune هو مدير كلمات مرور للمؤسسات والجهات الحكومية والمنظمات الأكاديمية التي تتم إدارتها بواسطة Microsoft Intune. يتيح هذا التطبيق لمسؤولي الشركات حماية معلومات المؤسسة عن طريق فرض سياسات تكوين التطبيق وحماية البيانات.</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Org/Description/endUser">
-        <source>The end-user version of KeePassium is available at http://keepassium.app</source>
-        <target state="needs-translation">The end-user version of KeePassium is available at http://keepassium.app</target>
+      <trans-unit id="Org/Description/endUser" approved="yes">
+        <source>The end-user version of KeePassium is available at https://keepassium.app</source>
+        <target state="final">إصدار المستخدم النهائي من تطبيق KeePassium متاح على https://keepassium.app</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Org/Description/footer">
+      <trans-unit id="Org/Description/footer" approved="yes">
         <source>IMPORTANT: This app requires your company’s work account and a managed environment. Some functionality may not be available in all countries. Please contact your company’s IT administrator if you have issues or questions about this app.</source>
-        <target state="needs-translation">IMPORTANT: This app requires your company’s work account and a managed environment. Some functionality may not be available in all countries. Please contact your company’s IT administrator if you have issues or questions about this app.</target>
+        <target state="final">تنبيه هام: لاستخدام هذا التطبيق، تحتاج إلى حساب العمل وبيئة مُدارة من قِبل الشركة التابع لها. قد تكون بعض الوظائف غير متاحة في بعض البلدان. لأي مشكلات أو استفسارات حول هذا التطبيق، يرجى الاتصال بمسؤول تكنولوجيا المعلومات في شركتك.</target>
         <note/>
       </trans-unit>
     </body>

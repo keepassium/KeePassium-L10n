@@ -2459,24 +2459,24 @@ Please make sure to have a backup of your database before changing anything.</so
         <target state="final">写真からQRをスキャン</target>
         <note>Action: pick a photo (from gallery) to scan as QR code</note>
       </trans-unit>
-      <trans-unit id="[OTP/Setup/SelectDatabase/message]" xml:space="preserve">
+      <trans-unit id="[OTP/Setup/SelectDatabase/message]" xml:space="preserve" approved="yes">
         <source>Select database for setting up the verification code (one-time password).</source>
-        <target state="needs-translation">Select database for setting up the verification code (one-time password).</target>
+        <target state="final">確認コード (ワンタイムパスワード) を設定するためのデータベースを選択しましょう。</target>
         <note>Call to action/instruction during setup of OTP codes.</note>
       </trans-unit>
-      <trans-unit id="[OTP/Setup/SelectEntry/message]" xml:space="preserve">
+      <trans-unit id="[OTP/Setup/SelectEntry/message]" xml:space="preserve" approved="yes">
         <source>Select entry for setting up the verification code (one-time password).</source>
-        <target state="needs-translation">Select entry for setting up the verification code (one-time password).</target>
+        <target state="final">確認コード (ワンタイムパスワード) を設定するためのエントリーを選択しましょう。</target>
         <note>Call to action/instruction during setup of OTP codes.</note>
       </trans-unit>
-      <trans-unit id="[OTP/Setup/Success]" xml:space="preserve">
+      <trans-unit id="[OTP/Setup/Success]" xml:space="preserve" approved="yes">
         <source>OTP setup complete</source>
-        <target state="needs-translation">OTP setup complete</target>
+        <target state="final">OTPの設定が完了しました。</target>
         <note>Confirmation message after successful OTP setup</note>
       </trans-unit>
-      <trans-unit id="[OTP/Setup/Title]" xml:space="preserve">
+      <trans-unit id="[OTP/Setup/Title]" xml:space="preserve" approved="yes">
         <source>Verification Code Setup</source>
-        <target state="needs-translation">Verification Code Setup</target>
+        <target state="final">確認コードの設定</target>
         <note>Title of a dialog related to setup of one-time passwords (OTP)</note>
       </trans-unit>
       <trans-unit id="[OTP/Setup]" xml:space="preserve">

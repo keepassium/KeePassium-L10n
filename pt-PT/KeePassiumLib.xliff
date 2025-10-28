@@ -2460,24 +2460,24 @@ Por favor, certifique-se que tem uma cópia de segurança da sua base de dados a
         <target state="final">Digitalizar QR da foto</target>
         <note>Action: pick a photo (from gallery) to scan as QR code</note>
       </trans-unit>
-      <trans-unit id="[OTP/Setup/SelectDatabase/message]" xml:space="preserve">
+      <trans-unit id="[OTP/Setup/SelectDatabase/message]" xml:space="preserve" approved="yes">
         <source>Select database for setting up the verification code (one-time password).</source>
-        <target state="needs-translation">Select database for setting up the verification code (one-time password).</target>
+        <target state="final">Selecione a base de dados para configurar o código de confirmação (palavra-passe única).</target>
         <note>Call to action/instruction during setup of OTP codes.</note>
       </trans-unit>
-      <trans-unit id="[OTP/Setup/SelectEntry/message]" xml:space="preserve">
+      <trans-unit id="[OTP/Setup/SelectEntry/message]" xml:space="preserve" approved="yes">
         <source>Select entry for setting up the verification code (one-time password).</source>
-        <target state="needs-translation">Select entry for setting up the verification code (one-time password).</target>
+        <target state="final">Selecione a entrada para configurar o código de confirmação (palavra-passe única).</target>
         <note>Call to action/instruction during setup of OTP codes.</note>
       </trans-unit>
-      <trans-unit id="[OTP/Setup/Success]" xml:space="preserve">
+      <trans-unit id="[OTP/Setup/Success]" xml:space="preserve" approved="yes">
         <source>OTP setup complete</source>
-        <target state="needs-translation">OTP setup complete</target>
+        <target state="final">Configuração de OTP concluída</target>
         <note>Confirmation message after successful OTP setup</note>
       </trans-unit>
-      <trans-unit id="[OTP/Setup/Title]" xml:space="preserve">
+      <trans-unit id="[OTP/Setup/Title]" xml:space="preserve" approved="yes">
         <source>Verification Code Setup</source>
-        <target state="needs-translation">Verification Code Setup</target>
+        <target state="final">Configuração do Código de Confirmação</target>
         <note>Title of a dialog related to setup of one-time passwords (OTP)</note>
       </trans-unit>
       <trans-unit id="[OTP/Setup]" xml:space="preserve">
@@ -3177,9 +3177,9 @@ Normalmente, esta situação deve-se a bases de dados muito grandes ou com confi
         <target state="translated">O KeePassium fará a sincronização de arquivos através da aplicação do seu serviço de armazenamento. Algumas aplicações funcionam melhor do que outras.</target>
         <note>Description of the `Integration via Files app` sync method.</note>
       </trans-unit>
-      <trans-unit id="[RemoteConnection/WebDAVService/SetupGuide]" xml:space="preserve">
+      <trans-unit id="[RemoteConnection/WebDAVService/SetupGuide]" xml:space="preserve" approved="yes">
         <source>%@ Setup Guide</source>
-        <target state="needs-translation">%@ Setup Guide</target>
+        <target state="final">Guia de Configuração de %@</target>
         <note>Link to a help page for an online storage service. The parameter is the service name in fixed neutral form. Example: 'Nextcloud Setup Guide' or 'Synology NAS Setup Guide'.</note>
       </trans-unit>
       <trans-unit id="[RemoteConnection/connectToServer]" xml:space="preserve">

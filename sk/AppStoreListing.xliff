@@ -2,192 +2,35 @@
 <xliff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="KeePassium/AppStoreDescription.txt" source-language="en" target-language="sk" datatype="plaintext">
     <body>
-      <trans-unit id="Title" maxwidth="30">
+      <trans-unit id="Title1" maxwidth="30" approved="yes">
+        <source>KeePassium — KeePass passwords</source>
+        <target state="final">KeePassium – heslá KeePass</target>
+        <note>App page title. If translation does not fit in length limit, use 'KeePassium (KeePass)'</note>
+      </trans-unit>
+      <trans-unit id="Title2" maxwidth="30" approved="yes">
         <source>KeePassium Password Manager</source>
-        <target state="translated">KeePassium — Správca hesiel</target>
-        <note>Please keep `KeePassium` as the first word. If this is difficult with the natural word order, feel free to use punctuation, for example: "KeePassium - Password Manager"</note>
+        <target state="final">KeePassium – Správca hesiel</target>
+        <note>App page title. Please keep `KeePassium` as the first word. Break with punctuation if necessary, for example: "KeePassium - Password Manager"</note>
       </trans-unit>
-      <trans-unit id="Subtitle 1" maxwidth="30">
+      <trans-unit id="Subtitle1" maxwidth="30" approved="yes">
         <source>Respects your privacy</source>
-        <target state="translated">Rešpektuje Vaše súkromie</target>
-        <note>One-line app description/subtitle</note>
+        <target state="final">Rešpektuje Vaše súkromie</target>
+        <note>App page subtitle, promo tone</note>
       </trans-unit>
-      <trans-unit id="Description/Intro">
-        <source>KeePassium keeps your passwords safe. It delivers the security of KeePass databases with a clean, easy to use interface.</source>
-        <target state="translated">KeePassium uchováva vaše heslá v bezpečí. Prináša bezpečné databázy KeePass v čistom a jednoduchom užívateľskpm rozhraní.</target>
-        <note/>
+      <trans-unit id="Subtitle2" maxwidth="30" approved="yes">
+        <source>Secure your passwords</source>
+        <target state="final">Zabezpečte svoje heslá</target>
+        <note>App page subtitle, call to action</note>
       </trans-unit>
-      <trans-unit id="Description/MainFeatures/title">
-        <source>MAIN FEATURES</source>
-        <target state="translated">HLAVNÉ FUNKCIE</target>
-        <note>Section header, capitalized</note>
+      <trans-unit id="Subtitle3" maxwidth="30" approved="yes">
+        <source>Open-source privacy</source>
+        <target state="final">Ochrana súkromia v open source</target>
+        <note>App page subtitle, promo tone. 'Privacy ensured by open source'</note>
       </trans-unit>
-      <trans-unit id="Description/MainFeatures/text">
-        <source>• Automatic sync — keep your database in your favorite cloud or offline.
-• Password AutoFill — login to any service in a few taps.
-• Touch ID / Face ID — save your time.
-• Multiple databases — to share passwords with your team or family.
-• Attached files — passport scans and server keys, always with you.
-• Peace of mind — feel free to check our source code, it's open.</source>
-        <target state="translated">• Automatická synchronizácia — uchovávajte vašu databázu vo vašom obľúbenom cloude alebo offline.
-• Automatické vyplňovanie hesiel — prihlasujte se do akejkoľvek služby niekoľkými kliknutiami.
-• Touch ID / Face ID — šetrite svoj čas.
-• Viaceré databázy — zdieľajte heslá s tímom alebo rodinou.
-• Prílohy — sken cestovného pasu nebo serverových kľúčov vždy so sebou.
-• Kľud v duši — neváhajte skontrolovať náš zdrojový kód, je otvorený.</target>
-        <note>Please keep the bullet points (followed by one space)</note>
-      </trans-unit>
-      <trans-unit id="Description/AntiFeatures/title">
-        <source>ANTI-FEATURES</source>
-        <target state="translated">ANTI-FUNKCIE</target>
-        <note>Section header, capitalized: features that are explicitly excluded</note>
-      </trans-unit>
-      <trans-unit id="Description/AntiFeatures/text">
-        <source>• No in-app browser
-• No VNC/SSH viewer 
-• No coffee maker
-• No analytics
-• No ads</source>
-        <target state="translated">• Žiadny prehľadávač v aplikácii
-• Žiadny VNC/SSH prehliadač
-• Žiadny kávovar
-• Žiadna analytika
-• Žiadne reklamy</target>
-        <note>Please keep the bullet points (followed by one space)</note>
-      </trans-unit>
-      <trans-unit id="Description/AutomaticSync/title">
-        <source>AUTOMATIC SYNC</source>
-        <target state="translated">AUTOMATICKÁ SYNCHRONIZÁCIA</target>
-        <note>Section header, capitalized</note>
-      </trans-unit>
-      <trans-unit id="Description/AutomaticSync/text">
-        <source>KeePassium can work both offline and with your favorite cloud provider. 
-
-There is no setup: pick your database through the familiar Files interface — and that's it. By integrating with the Files app, KeePassium supports almost all storage providers, including:
-
-• iCloud Drive
-• OneDrive
-• Dropbox 
-• Box
-• pCloud
-• Google Drive
-• NextCloud (with hiccups)
-• WebDAV and SFTP (via a third-party app)
-• ...and more!
-
-Should a password manager have full access to your corporate file server? Of course not! All the networking is automatically performed by the original storage provider app. This way, KeePassium knows only about few specific databases, not your whole server.</source>
-        <target state="translated">KeePassium môže pracovať ako offline, tak aj s vašim obľúbeným cloudovým poskytovateľom.
-
-Netreba nič nastavovať: vyberte si svoju databázu cez bežného správcu súborov – a je to. Integráciou s aplikáciou Súbory KeePassium podporuje takmer všetkých poskytovateľov úložísk, vrátane:
-
-• iCloud Drive
-• OneDrive
-• Dropbox
-• Box
-• pCloud
-• Google Drive
-• NextCloud (s malými obmedzeniami)
-• WebDAV a SFTP (cez aplikáciu tretej strany)
-• … a ďalšie!
-
-Mal by mať správca hesiel plný prístup na váš firemný súborový server? Samozrejme, že nie! Všetko na sieti je automaticky vykonávané pomocou originálnej aplikácie vášho poskytovateľa úložiska. Takto KeePassium pozná iba niekoľko špecifických databáz, nie celý váš server.</target>
-        <note>Please keep the bullet points (followed by one space)</note>
-      </trans-unit>
-      <trans-unit id="Description/More/title">
-        <source>WHAT ELSE CAN IT DO?</source>
-        <target state="translated">ČO EŠTE DOKÁŽE?</target>
-        <note>Section header, capitalized: additional list of features</note>
-      </trans-unit>
-      <trans-unit id="Description/More/text">
-        <source>• Read and write all database formats (kdb, kdbx3, kdbx4 — including Argon2/ChaCha20)
-• View time-based one-time passwords (TOTP)
-• View deleted groups and entries (Recycle Bin)
-• View previous revisions of an entry
-• View and edit custom fields
-• View custom icons
-• And more! See for yourself, it's free.</source>
-        <target state="translated">• Čítať a zapisovať všetky databázové formáty (kdb, kdbx3, kdbx4 — vrátane Argon2/ChaCha20)
- • Zobrazovať časovo obmedzené jednorázové heslá (TOTP)
- • Zobrazovať zmazané skupiny a záznamy (Odpadkový Kôš)
- • Zobrazovať predchádzajúce revízie záznamov
- • Zobrazovať a upravovať vlastné polia
- • Zobrazovať vlastné ikony
- • A mnoho ďalšieho! Presvedčte sa sami, je to zadarmo.</target>
-        <note>Please keep the bullet points (followed by one space)</note>
-      </trans-unit>
-      <trans-unit id="Description/Privacy/title">
-        <source>PRIVACY</source>
-        <target state="translated">SÚKROMIE</target>
-        <note>Section header, capitalized: privacy policy</note>
-      </trans-unit>
-      <trans-unit id="Description/Privacy/text">
-        <source>This app does not collect any personal data. We sell the app, not its users.</source>
-        <target state="translated">Aplikácia nezhromažďuje žiadne osobné údaje. Predávame aplikáciu, nie jej používateľov.</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="Description/CommercialAndOpen/title">
-        <source>COMMERCIAL AND OPEN</source>
-        <target state="translated">KOMERČNÝ A OTVORENÝ</target>
-        <note>Section header, capitalized: the app is both a commercial and open source project</note>
-      </trans-unit>
-      <trans-unit id="Description/CommercialAndOpen/text">
-        <source>KeePassium is a commercial open source app. Here, "open source" is the transparency you need from a password manager. The "commercial" part, in turn, gives you:
-
-• A great well-polished interface
-• Responsive support that cares
-• Future updates and improvements</source>
-        <target state="translated">KeePassium je komerčná, open source aplikácia. Vďaka otvorenému zdrojovému kódu získavate transparentnosť, ktorú u správcov hesiel potrebujete. Komerčná časť vám potom ďalej poskytuje:
-
-• Nádherne vypracované užívateľské rozhranie
-• Rýchlu podporu, ktorej na vás záleží
-• Budúce aktualizácie a vylepšenia</target>
-        <note>Please keep the bullet points (followed by one space)</note>
-      </trans-unit>
-      <trans-unit id="Description/Freemium/title">
-        <source>FREE vs PREMIUM</source>
-        <target state="translated">ZADARMO vs PREMIUM</target>
-        <note>Section header, capitalized: a comparison of free and premium version.</note>
-      </trans-unit>
-      <trans-unit id="Description/Freemium/text">
-        <source>There is no "trial period". The free version is always completely functional. You can view and edit, use Touch ID / Face ID, search and AutoFill — but only with one database at a time.
-
-You can install free KeePassium for your family members. If they barely use the app, it will not bother them to buy premium. 
-
-With the premium version, you can:
-• Quickly switch between multiple databases.
-• Unlock databases with one tap and keep them open as long as you need.
-• View attachments in the app, without leaving a trace in the system.
-• Email your questions and get answers directly from the developer.
-• Keep KeePassium shiny and available to people who need security but cannot afford it yet.</source>
-        <target state="translated">Neponúkame „skúšobnú dobu“. Bezplatná verzia je vždy plne funkčná. Môžete vyhľadávať, zobrazovať a upravovať záznamy, využívať Touch ID / Face ID a automatické vyplňovanie hesiel – avšak iba s jednou databázou.
-
-KeePassium môžete bezplatne nainštalovať vašim rodinným príslušníkom. Pokiaľ budú aplikáciu používať zriedka, nebude ich obťažovať výzvami na zakúpenie prémiovej verzie.
-
-S prémiovou verziou môžete:
-• Rýchlo prepínať medzi viacerými databázami.
-• Otvárať databázy jediným kliknutím a ponechať ich otvorené tak dlho, ako budete potrebovať.
-• Zobrazovať prílohy priamo v aplikácii, bez zanechania stôp v systéme.
-• Posielať otázky emailom a získavať odpovede priamo od vývojára.
-• Pomôcť udržať KeePassium príťažlivým a dostupným ľuďom, ktorí potrebujú bezpečnosť, ale nemôžu si ju zatiaľ dovoliť.</target>
-        <note>Please keep the bullet points (followed by one space)</note>
-      </trans-unit>
-      <trans-unit id="Description/Contact/text">
-        <source>Talk to us at info@keepassium.com, /r/KeePassium on Reddit, @KeePassium on Twitter and GitHub.</source>
-        <target state="translated">Spojte sa s nami na info@keepassium.com, /r/KeePassium na Reddit, @KeePassium na Twitteri a GitHub.</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="Description/Footer/text">
-        <source>* Premium version is available as an in-app purchase, either as a subscription or a one-time payment. 
-* Payment will be charged to your Apple ID account at the confirmation of (in-app) purchase. Subscription automatically renews unless it is canceled at least 24 hours before the end of the current period. Your account will be charged for renewal within 24 hours prior to the end of the current period. 
-* You can manage and cancel your subscriptions by going to your account settings on the App Store after purchase.
-* Privacy policy: https://keepassium.com/privacy/app
-* Terms of Use: https://keepassium.com/terms/app</source>
-        <target state="translated">* Prémiová verzia je dostupná cez nákup v aplikácii, a to buď ako predplatné alebo jednorázová platba.
-* Platba bude naúčtovaná na váš Apple účet pri potvrdení nákupu. Predplatné sa automaticky obnoví, ak nebude zrušené najmenej 24 hodín pred koncom aktuálneho obdobia. Platba za obnovenie predplatného bude zúčtovaná z vášho účtu počas 24 hodín pred vypršaním aktuálneho obdobia.
-* Svoje predplatné môžete spravovať alebo zrušiť po vykonaní nákupu v nastavení vášho účtu v App Store.
-* Zásady ochrany osobných údajov: https://keepassium.com/privacy/app
-* Podmienky používania: https://keepassium.com/terms/app</target>
-        <note>Mandatory legalese required by Apple. Asterisks instead of bullet points.</note>
+      <trans-unit id="Subtitle4" maxwidth="30" approved="yes">
+        <source>Open-source. No ads.</source>
+        <target state="final">Open-source. Žiadne reklamy.</target>
+        <note>App page subtitle, promo tone</note>
       </trans-unit>
       <trans-unit id="Subtitle Pro">
         <source>Lifetime license</source>
@@ -222,9 +65,9 @@ S prémiovou verziou môžete:
         <target state="translated">KeePassium pre Intune je správca hesiel pre podniky, vládne a akademické organizácie spravované prostredníctvom aplikácie Microsoft Intune. Aplikácia umožňuje správcom spoločností chrániť firemné informácie vynútenými politikami konfigurácií aplikácií a ochrany údajov.</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Org/Description/endUser">
-        <source>The end-user version of KeePassium is available at http://keepassium.app</source>
-        <target state="translated">Verzia KeePassium pre koncového používateľa je k dispozícii na http://keepassium.app</target>
+      <trans-unit id="Org/Description/endUser" approved="yes">
+        <source>The end-user version of KeePassium is available at https://keepassium.app</source>
+        <target state="final">Verzia KeePassium pre koncového používateľa je k dispozícii na https://keepassium.app</target>
         <note/>
       </trans-unit>
       <trans-unit id="Org/Description/footer">

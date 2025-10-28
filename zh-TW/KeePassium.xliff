@@ -123,57 +123,57 @@ Please contact us if you need help with this.</source>
     <body>
       <trans-unit id="[AppLock/weakPasscodeWarning]" xml:space="preserve">
         <source>This passcode is easy to guess. Try entering a stronger one.</source>
-        <target state="needs-translation">This passcode is easy to guess. Try entering a stronger one.</target>
+        <target state="translated">此應用解鎖密碼容易被猜出來。請嘗試輸入一個强度更高的密碼。</target>
         <note>Notification when user tries to set up too weak an app protection passcode.</note>
       </trans-unit>
       <trans-unit id="[AutoFill/AcceptAndRemember/action]" xml:space="preserve">
         <source>Accept and Remember</source>
-        <target state="needs-translation">Accept and Remember</target>
+        <target state="translated">接受並記住</target>
         <note>Action in AutoFill: choose the entry and remember it for future use on this website.</note>
       </trans-unit>
       <trans-unit id="[AutoFill/AllEntries/title]" xml:space="preserve">
         <source>All Entries</source>
-        <target state="needs-translation">All Entries</target>
+        <target state="translated">所有項目</target>
         <note>Title of a list</note>
       </trans-unit>
       <trans-unit id="[AutoFill/Context/Empty/title]" xml:space="preserve">
         <source>Unknown</source>
-        <target state="needs-translation">Unknown</target>
+        <target state="translated">未知</target>
         <note>Title of AutoFill context when no context is available. Usage: `Context: Unknown`</note>
       </trans-unit>
       <trans-unit id="[AutoFill/FoundEntries/title]" xml:space="preserve">
         <source>Best Matches</source>
-        <target state="needs-translation">Best Matches</target>
+        <target state="translated">最佳配對</target>
         <note>Title of a list with search results</note>
       </trans-unit>
       <trans-unit id="[AutoFill/InsertText/select]" xml:space="preserve">
         <source>Select Field</source>
-        <target state="needs-translation">Select Field</target>
+        <target state="translated">選擇欄位</target>
         <note>Call for action to select an entry field for filling out.</note>
       </trans-unit>
       <trans-unit id="[AutoFill/RecentlyUsed/title]" xml:space="preserve">
         <source>Recently Used</source>
-        <target state="needs-translation">Recently Used</target>
+        <target state="translated">最近使用</target>
         <note>Section title for the recently used entry in AutoFill</note>
       </trans-unit>
       <trans-unit id="[AutoFill/RememberContext/action]" xml:space="preserve">
         <source>Remember Selected Entries</source>
-        <target state="needs-translation">Remember Selected Entries</target>
+        <target state="translated">記住所選項目</target>
         <note>Not an action, but a button to activate the same-named setting</note>
       </trans-unit>
       <trans-unit id="[AutoFill/RememberContext/callToAction]" xml:space="preserve">
         <source>Improve AutoFill suggestions</source>
-        <target state="needs-translation">Improve AutoFill suggestions</target>
+        <target state="translated">改善自動填寫建議</target>
         <note>Call to action</note>
       </trans-unit>
       <trans-unit id="[AutoFill/RememberContext/description]" xml:space="preserve">
         <source>KeePassium will remember which entry you select for each website and then suggest it automatically.</source>
-        <target state="needs-translation">KeePassium will remember which entry you select for each website and then suggest it automatically.</target>
+        <target state="translated">KeePassium 會記住您為每個網站選擇的項目，然後自動建議該項目。</target>
         <note>Description of the 'Remember Selected Entries` feature</note>
       </trans-unit>
       <trans-unit id="[AutoFill/Search/Context/title]" xml:space="preserve">
         <source>Context</source>
-        <target state="needs-translation">Context</target>
+        <target state="translated">上下文</target>
         <note>Title for referring to the app or webpage that launched AutoFill. For example: `Context: google.com`</note>
       </trans-unit>
       <trans-unit id="[AutoFill/Setup/UncheckKeychain/autofillFrom]" xml:space="preserve" approved="yes">
@@ -183,12 +183,12 @@ Please contact us if you need help with this.</source>
       </trans-unit>
       <trans-unit id="[AutoFill/Setup/UncheckKeychain/callToAction]" xml:space="preserve">
         <source>Uncheck Keychain</source>
-        <target state="needs-translation">Uncheck Keychain</target>
+        <target state="translated">取消勾選鑰匙圈</target>
         <note>Call to action: deselect the `Keychain` option. Keychain is a glossary term.</note>
       </trans-unit>
       <trans-unit id="[AutoFill/Setup/UncheckKeychain/message]" xml:space="preserve">
         <source>To make KeePassium your default password manager, uncheck "%@".</source>
-        <target state="needs-translation">To make KeePassium your default password manager, uncheck "%@".</target>
+        <target state="translated">要將 KeePassium 設為您的預設密碼管理器，請取消選取「%@」。</target>
         <note>Instruction to deselect another app in the settings [appName: String]</note>
       </trans-unit>
       <trans-unit id="[AutoFill/Setup/UncheckKeychain/usePasswordsAndPasskeysFrom]" xml:space="preserve" approved="yes">
@@ -211,42 +211,42 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="[Database/Entry/Location/title]" xml:space="preserve">
         <source>Location</source>
-        <target state="needs-translation">Location</target>
+        <target state="translated">位置</target>
         <note>Field title: name of the group that contains the entry</note>
       </trans-unit>
       <trans-unit id="[Database/Entry/RandomUsernames/title]" xml:space="preserve">
         <source>Random Usernames</source>
-        <target state="needs-translation">Random Usernames</target>
+        <target state="translated">隨機使用者名稱</target>
         <note>Title of a list with randomly generated usernames</note>
       </trans-unit>
       <trans-unit id="[Database/Entry/SelectUsername/action]" xml:space="preserve">
         <source>Select Username</source>
-        <target state="needs-translation">Select Username</target>
+        <target state="translated">選擇使用者名稱</target>
         <note>Action/button that shows a list of usernames to pick from</note>
       </trans-unit>
       <trans-unit id="[Database/Item/SelectNamed/action]" xml:space="preserve">
         <source>Select "%@"</source>
-        <target state="needs-translation">Select "%@"</target>
+        <target state="translated">選擇「%@」</target>
         <note>Action: select item from a list/menu, with item name in quotes. For example: `Select "Sample Group"`</note>
       </trans-unit>
       <trans-unit id="[Database/Passkey/AddToExisting/action]" xml:space="preserve">
         <source>Add Passkey to Existing Entry</source>
-        <target state="needs-translation">Add Passkey to Existing Entry</target>
+        <target state="translated">將通行密鑰新增至既有項目</target>
         <note>Action: create a passkey and add it to existing entry</note>
       </trans-unit>
       <trans-unit id="[Database/Passkey/AddToExisting/callToAction]" xml:space="preserve">
         <source>Choose an entry for the new passkey</source>
-        <target state="needs-translation">Choose an entry for the new passkey</target>
+        <target state="translated">為新通行密鑰選擇一個項目</target>
         <note>Call to action: select an existing entry to add a new passkey to</note>
       </trans-unit>
       <trans-unit id="[Database/Passkey/AddToExisting/confirm]" xml:space="preserve">
         <source>This entry already has a passkey. Replace it?</source>
-        <target state="needs-translation">This entry already has a passkey. Replace it?</target>
+        <target state="translated">此項目已有一個通行密鑰。是否要更換？</target>
         <note>Confirmation message before replacing an existing passkey.</note>
       </trans-unit>
       <trans-unit id="[Database/Passkey/Create/title]" xml:space="preserve">
         <source>Create a Passkey?</source>
-        <target state="needs-translation">Create a Passkey?</target>
+        <target state="translated">是否要建立通行密鑰？</target>
         <note>Title of an optional dialog for creating new passkeys</note>
       </trans-unit>
       <trans-unit id="[Generic/ApplePasswordsApp/title]" xml:space="preserve">
@@ -261,42 +261,42 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="[PasswordGenerator/Wordlist/Import/menuAction]" xml:space="preserve">
         <source>Import Wordlist…</source>
-        <target state="needs-translation">Import Wordlist…</target>
+        <target state="translated">匯入字詞表…</target>
         <note>Menu action to add a user-provided word list file to the app.</note>
       </trans-unit>
       <trans-unit id="[PasswordQuality/LevelWithApproximateEntropy/description]" xml:space="preserve">
         <source>%1$@ (~%2$@ of entropy)</source>
-        <target state="needs-translation">%1$@ (~%2$@ of entropy)</target>
+        <target state="translated">%1$@（熵值約為 %2$@）</target>
         <note>Password quality description. Note the tilda that refers to an estimated/approximate value. For example: `Very good (~123 bits of entropy)`. [level: String, formattedBitCount: String]</note>
       </trans-unit>
       <trans-unit id="[PasswordQuality/LevelWithEntropy/description]" xml:space="preserve">
         <source>%1$@ (%2$@ of entropy)</source>
-        <target state="needs-translation">%1$@ (%2$@ of entropy)</target>
+        <target state="translated">%1$@（熵值為 %2$@）</target>
         <note>Password quality description. For example: `Very good (234 bits of entropy)`. [level: String, formattedBitCount: String]</note>
       </trans-unit>
       <trans-unit id="[PasswordQuality/Level] Good" xml:space="preserve">
         <source>Good</source>
-        <target state="needs-translation">Good</target>
+        <target state="translated">好</target>
         <note>Good password quality</note>
       </trans-unit>
       <trans-unit id="[PasswordQuality/Level] Very good" xml:space="preserve">
         <source>Very good</source>
-        <target state="needs-translation">Very good</target>
+        <target state="translated">非常好</target>
         <note>Very good password quality</note>
       </trans-unit>
       <trans-unit id="[PasswordQuality/Level] Very weak" xml:space="preserve">
         <source>Very weak</source>
-        <target state="needs-translation">Very weak</target>
+        <target state="translated">非常弱</target>
         <note>Very weak password quality</note>
       </trans-unit>
       <trans-unit id="[PasswordQuality/Level] Weak" xml:space="preserve">
         <source>Weak</source>
-        <target state="needs-translation">Weak</target>
+        <target state="translated">弱</target>
         <note>Weak password quality</note>
       </trans-unit>
       <trans-unit id="[PasswordQuality/description]" xml:space="preserve">
         <source>Password quality: %@</source>
-        <target state="needs-translation">Password quality: %@</target>
+        <target state="translated">密碼強度：%@</target>
         <note>Password quality description. For example: `Password quality: Weak`. [level: String]</note>
       </trans-unit>
       <trans-unit id="[ProtectedTextField] Show Password" xml:space="preserve">
@@ -850,14 +850,14 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="NSPhotoLibraryUsageDescription" xml:space="preserve">
         <source>KeePassium needs access to select images for custom icons and to scan QR codes for OTP setup.</source>
-        <target state="needs-translation">KeePassium needs access to select images for custom icons and to scan QR codes for OTP setup.</target>
+        <target state="translated">KeePassium 需要存取權才能選擇自定義圖示的圖片，以及掃描行動條碼以進行 OTP 設定。</target>
         <note>Privacy - Photo Library Usage Description</note>
       </trans-unit>
     </body>
   </file>
   <file original="KeePassium/en.lproj/Localizable.strings" source-language="en" target-language="zh-Hant" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.4" build-num="16F6"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="26.0.1" build-num="17A400"/>
     </header>
     <body>
       <trans-unit id="[About/altTitle]" xml:space="preserve">
@@ -872,7 +872,7 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="[AppLock/weakPasscodeWarning]" xml:space="preserve">
         <source>This passcode is easy to guess. Try entering a stronger one.</source>
-        <target state="needs-translation">This passcode is easy to guess. Try entering a stronger one.</target>
+        <target state="translated">此應用解鎖密碼容易被猜出來。請嘗試輸入一個强度更高的密碼。</target>
         <note>Notification when user tries to set up too weak an app protection passcode.</note>
       </trans-unit>
       <trans-unit id="[Appearance/AppIcon/title]" xml:space="preserve">
@@ -887,12 +887,12 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="[Appearance/DefaultFont/shortTitle]" xml:space="preserve">
         <source>Default</source>
-        <target state="needs-translation">Default</target>
+        <target state="translated">預設</target>
         <note>Short name of the default/system font. For example: `Font: Default`</note>
       </trans-unit>
       <trans-unit id="[Appearance/EntryViewer/OpenLastUsedTab/title]" xml:space="preserve">
         <source>Open Last Used Tab</source>
-        <target state="needs-translation">Open Last Used Tab</target>
+        <target state="translated">開啟上次使用的標籤頁</target>
         <note>Title of a setting: whether the Entry Viewer should open on the same tab/page when switching between entries, or switch to the first tab instead.</note>
       </trans-unit>
       <trans-unit id="[Appearance/EntryViewer/title]" xml:space="preserve" approved="yes">
@@ -902,7 +902,7 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="[Appearance/Font/title]" xml:space="preserve">
         <source>Font</source>
-        <target state="needs-translation">Font</target>
+        <target state="translated">字體</target>
         <note>Title of a setting option: font</note>
       </trans-unit>
       <trans-unit id="[Appearance/TextSize/reset]" xml:space="preserve" approved="yes">
@@ -927,172 +927,172 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="[Credits/Item/aexml]" xml:space="preserve">
         <source>AEXML by Marko Tadić</source>
-        <target state="needs-translation">AEXML by Marko Tadić</target>
+        <target state="translated">AEXML：Marko Tadić</target>
         <note>Item in the credits list</note>
       </trans-unit>
       <trans-unit id="[Credits/Item/argon2]" xml:space="preserve">
         <source>Argon2 by Daniel Dinu, Dmitry Khovratovich, Jean-Philippe Aumasson, and Samuel Neves</source>
-        <target state="needs-translation">Argon2 by Daniel Dinu, Dmitry Khovratovich, Jean-Philippe Aumasson, and Samuel Neves</target>
+        <target state="translated">Argon2：Daniel Dinu、Dmitry Khovratovich、Jean-Philippe Aumasson 和 Samuel Neves</target>
         <note>Item in the credits list</note>
       </trans-unit>
       <trans-unit id="[Credits/Item/base32]" xml:space="preserve">
         <source>Base32 for Swift by Norio Nomura</source>
-        <target state="needs-translation">Base32 for Swift by Norio Nomura</target>
+        <target state="translated">Base32 for Swift：Norio Nomura</target>
         <note>Item in the credits list</note>
       </trans-unit>
       <trans-unit id="[Credits/Item/chaCha20]" xml:space="preserve">
         <source>ChaCha20 &amp; Salsa20 implementation by D. J. Bernstein</source>
-        <target state="needs-translation">ChaCha20 &amp; Salsa20 implementation by D. J. Bernstein</target>
+        <target state="translated">ChaCha20 &amp; Salsa20：由 D. J. Bernstein 實作</target>
         <note>Item in the credits list</note>
       </trans-unit>
       <trans-unit id="[Credits/Item/fancyDebossPattern]" xml:space="preserve">
         <source>Fancy deboss pattern by Daniel Beaton</source>
-        <target state="needs-translation">Fancy deboss pattern by Daniel Beaton</target>
+        <target state="translated">Fancy deboss pattern：Daniel Beaton</target>
         <note>Item in the credits list</note>
       </trans-unit>
       <trans-unit id="[Credits/Item/featherIcons]" xml:space="preserve">
         <source>Feather icons by Cole Bemis</source>
-        <target state="needs-translation">Feather icons by Cole Bemis</target>
+        <target state="translated">Feather icons：Cole Bemis</target>
         <note>Item in the credits list</note>
       </trans-unit>
       <trans-unit id="[Credits/Item/gzipSwift]" xml:space="preserve">
         <source>GzipSwift by 1024jp</source>
-        <target state="needs-translation">GzipSwift by 1024jp</target>
+        <target state="translated">GzipSwift：1024jp</target>
         <note>Item in the credits list</note>
       </trans-unit>
       <trans-unit id="[Credits/Item/icons8]" xml:space="preserve">
         <source>Icons by Icons8</source>
-        <target state="needs-translation">Icons by Icons8</target>
+        <target state="translated">圖示：Icons8</target>
         <note>Item in the credits list</note>
       </trans-unit>
       <trans-unit id="[Credits/Item/ionIcons]" xml:space="preserve">
         <source>Ionicons by Ionic</source>
-        <target state="needs-translation">Ionicons by Ionic</target>
+        <target state="translated">Ionicons：Ionic</target>
         <note>Item in the credits list</note>
       </trans-unit>
       <trans-unit id="[Credits/Item/keePassXCIcons]" xml:space="preserve">
         <source>Icons by KeePassXC team</source>
-        <target state="needs-translation">Icons by KeePassXC team</target>
+        <target state="translated">圖示：KeePassXC team</target>
         <note>Item in the credits list</note>
       </trans-unit>
       <trans-unit id="[Credits/Item/keePass]" xml:space="preserve">
         <source>KeePass by Dominik Reichl</source>
-        <target state="needs-translation">KeePass by Dominik Reichl</target>
+        <target state="translated">KeePass：Dominik Reichl</target>
         <note>Item in the credits list</note>
       </trans-unit>
       <trans-unit id="[Credits/Item/lineIcons]" xml:space="preserve">
         <source>Linecons by Andrian Valeanu</source>
-        <target state="needs-translation">Linecons by Andrian Valeanu</target>
+        <target state="translated">Linecons：Andrian Valeanu</target>
         <note>Item in the credits list</note>
       </trans-unit>
       <trans-unit id="[Credits/Item/nuvolaIcons]" xml:space="preserve">
         <source>Nuvola icons by David Vignoni</source>
-        <target state="needs-translation">Nuvola icons by David Vignoni</target>
+        <target state="translated">Nuvola icons：David Vignoni</target>
         <note>Item in the credits list</note>
       </trans-unit>
       <trans-unit id="[Credits/Item/rijndael]" xml:space="preserve">
         <source>Rijndael implementation by Szymon Stefanek</source>
-        <target state="needs-translation">Rijndael implementation by Szymon Stefanek</target>
+        <target state="translated">Rijndael：由 Szymon Stefanek 實作</target>
         <note>Item in the credits list</note>
       </trans-unit>
       <trans-unit id="[Credits/Item/swiftDomainParser]" xml:space="preserve">
         <source>SwiftDomainParser by Dashlane</source>
-        <target state="needs-translation">SwiftDomainParser by Dashlane</target>
+        <target state="translated">SwiftDomainParser：Dashlane</target>
         <note>Item in the credits list</note>
       </trans-unit>
       <trans-unit id="[Credits/Item/systemSettingsIcon]" xml:space="preserve">
         <source>System settings icon by Vicons Design</source>
-        <target state="needs-translation">System settings icon by Vicons Design</target>
+        <target state="translated">系統設定圖示：Vicons Design</target>
         <note>Item in the credits list</note>
       </trans-unit>
       <trans-unit id="[Credits/Item/toastSwift]" xml:space="preserve">
         <source>Toast-Swift by Charles Scalesse</source>
-        <target state="needs-translation">Toast-Swift by Charles Scalesse</target>
+        <target state="translated">Toast-Swift：Charles Scalesse</target>
         <note>Item in the credits list</note>
       </trans-unit>
       <trans-unit id="[Credits/Item/tpInappReceipt]" xml:space="preserve">
         <source>TPInAppReceipt by Pavel Tikhonenko</source>
-        <target state="needs-translation">TPInAppReceipt by Pavel Tikhonenko</target>
+        <target state="translated">TPInAppReceipt：Pavel Tikhonenko</target>
         <note>Item in the credits list</note>
       </trans-unit>
       <trans-unit id="[Credits/Item/translations]" xml:space="preserve">
         <source>Translation by KeePassium contributors</source>
-        <target state="needs-translation">Translation by KeePassium contributors</target>
+        <target state="translated">翻譯：KeePassium 貢獻者</target>
         <note>Item in the credits list</note>
       </trans-unit>
       <trans-unit id="[Credits/Item/twoFish]" xml:space="preserve">
         <source>Twofish implementation by Niels Ferguson</source>
-        <target state="needs-translation">Twofish implementation by Niels Ferguson</target>
+        <target state="translated">Twofish：由 Niels Ferguson 實作</target>
         <note>Item in the credits list</note>
       </trans-unit>
       <trans-unit id="[Credits/Item/whatsNewKit]" xml:space="preserve">
         <source>WhatsNewKit by Sven Tiigi</source>
-        <target state="needs-translation">WhatsNewKit by Sven Tiigi</target>
+        <target state="translated">WhatsNewKit：Sven Tiigi</target>
         <note>Item in the credits list</note>
       </trans-unit>
       <trans-unit id="[Credits/Item/wordlists]" xml:space="preserve">
         <source>Passphrase wordlists by EFF</source>
-        <target state="needs-translation">Passphrase wordlists by EFF</target>
+        <target state="translated">助記詞字詞表：EFF</target>
         <note>Item in the credits list</note>
       </trans-unit>
       <trans-unit id="[Credits/Item/yubico]" xml:space="preserve">
         <source>Yubico Mobile iOS SDK by Yubico AB</source>
-        <target state="needs-translation">Yubico Mobile iOS SDK by Yubico AB</target>
+        <target state="translated">Yubico Mobile iOS SDK：Yubico AB</target>
         <note>Item in the credits list</note>
       </trans-unit>
       <trans-unit id="[Credits/Item/zxcvbn]" xml:space="preserve">
         <source>zxcvbn-ios by Dropbox</source>
-        <target state="needs-translation">zxcvbn-ios by Dropbox</target>
+        <target state="translated">zxcvbn-ios：Dropbox</target>
         <note>Item in the credits list</note>
       </trans-unit>
       <trans-unit id="[Credits/License/apache2]" xml:space="preserve">
         <source>Apache 2.0 license</source>
-        <target state="needs-translation">Apache 2.0 license</target>
+        <target state="translated">Apache 2.0 授權</target>
         <note>License name for credits</note>
       </trans-unit>
       <trans-unit id="[Credits/License/cc0]" xml:space="preserve">
         <source>CC0 license</source>
-        <target state="needs-translation">CC0 license</target>
+        <target state="translated">CC0 授權</target>
         <note>License name for credits</note>
       </trans-unit>
       <trans-unit id="[Credits/License/ccBy3]" xml:space="preserve">
         <source>CC BY 3.0</source>
-        <target state="needs-translation">CC BY 3.0</target>
+        <target state="translated">CC BY 3.0</target>
         <note>License name for credits</note>
       </trans-unit>
       <trans-unit id="[Credits/License/ccByNd]" xml:space="preserve">
         <source>CC BY-ND 3.0</source>
-        <target state="needs-translation">CC BY-ND 3.0</target>
+        <target state="translated">CC BY-ND 3.0</target>
         <note>License name for credits</note>
       </trans-unit>
       <trans-unit id="[Credits/License/customPermissiveLicense]" xml:space="preserve">
         <source>Custom permissive license</source>
-        <target state="needs-translation">Custom permissive license</target>
+        <target state="translated">自定義授權</target>
         <note>License name for credits</note>
       </trans-unit>
       <trans-unit id="[Credits/License/gpl]" xml:space="preserve">
         <source>GPL license</source>
-        <target state="needs-translation">GPL license</target>
+        <target state="translated">GPL 授權</target>
         <note>License name for credits</note>
       </trans-unit>
       <trans-unit id="[Credits/License/lgpl]" xml:space="preserve">
         <source>LGPL license</source>
-        <target state="needs-translation">LGPL license</target>
+        <target state="translated">LGPL 授權</target>
         <note>License name for credits</note>
       </trans-unit>
       <trans-unit id="[Credits/License/mit]" xml:space="preserve">
         <source>MIT license</source>
-        <target state="needs-translation">MIT license</target>
+        <target state="translated">MIT 授權</target>
         <note>License name for credits</note>
       </trans-unit>
       <trans-unit id="[Credits/License/proprietary]" xml:space="preserve">
         <source>Proprietary license</source>
-        <target state="needs-translation">Proprietary license</target>
+        <target state="translated">專有授權</target>
         <note>License name for credits</note>
       </trans-unit>
       <trans-unit id="[Credits/License/publicDomain]" xml:space="preserve">
         <source>Public Domain</source>
-        <target state="needs-translation">Public Domain</target>
+        <target state="translated">公有領域</target>
         <note>License name for credits</note>
       </trans-unit>
       <trans-unit id="[Database/Create/TemplateEntry/notes] You can also store some notes, if you like." xml:space="preserve">
@@ -1147,12 +1147,12 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="[Database/Create/orgRequiresStronger]" xml:space="preserve">
         <source>Your organization requires a more complex database password.</source>
-        <target state="needs-translation">Your organization requires a more complex database password.</target>
+        <target state="translated">您的組織需要更複雜的資料庫密碼。</target>
         <note>Notification for business users when they set up too weak database password.</note>
       </trans-unit>
       <trans-unit id="[Database/Create/weakPasswordWarning]" xml:space="preserve">
         <source>This password is easy to guess. Try entering a stronger one.</source>
-        <target state="needs-translation">This password is easy to guess. Try entering a stronger one.</target>
+        <target state="translated">此密碼很容易被猜到。請嘗試輸入強度較高的密碼。</target>
         <note>Notification when user sets up too weak a database password.</note>
       </trans-unit>
       <trans-unit id="[Database/Create] Please enter a password or choose a key file." xml:space="preserve">
@@ -1162,12 +1162,12 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="[Database/DownloadFavicons/intro]" xml:space="preserve">
         <source>KeePassium will contact websites associated with each entry.</source>
-        <target state="needs-translation">KeePassium will contact websites associated with each entry.</target>
+        <target state="translated">KeePassium 會聯絡與每個項目相連的網站。</target>
         <note>Description of favicon downloader feature.</note>
       </trans-unit>
       <trans-unit id="[Database/DownloadFavicons/warning]" xml:space="preserve">
         <source>Doing this on a public or monitored network can expose the list of websites where you have an account.</source>
-        <target state="needs-translation">Doing this on a public or monitored network can expose the list of websites where you have an account.</target>
+        <target state="translated">在公共或受監控的網路上執行此操作，可能會暴露您擁有帳戶的網站的清單。</target>
         <note>Description of favicon downloader feature. 'Doing this' refers to downloading favicons.</note>
       </trans-unit>
       <trans-unit id="[Database/Group/empty]" xml:space="preserve" approved="yes">
@@ -1177,17 +1177,17 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="[Database/KDF/consideredWeak]" xml:space="preserve">
         <source>%1$@ is considered weak. Use %2$@ instead.</source>
-        <target state="needs-translation">%1$@ is considered weak. Use %2$@ instead.</target>
+        <target state="translated">%1$@ 強度不夠。請改為使用 %2$@。</target>
         <note>Warning that one key derivation function (KDF) should be preferred to another. Example: 'AES-KDF is considered weak. Use Argon2id instead.'</note>
       </trans-unit>
       <trans-unit id="[Database/KDF/tooSlow]" xml:space="preserve">
         <source>These settings may be too slow for some devices.</source>
-        <target state="needs-translation">These settings may be too slow for some devices.</target>
+        <target state="translated">對於某些裝置而言，這些設定可能導致速度過於緩慢。</target>
         <note>Notification message about encryption settings.</note>
       </trans-unit>
       <trans-unit id="[Database/KDF/tooWeak]" xml:space="preserve">
         <source>Increase the settings for optimal data protection.</source>
-        <target state="needs-translation">Increase the settings for optimal data protection.</target>
+        <target state="translated">提高設定以達到最佳的資料保護。</target>
         <note>Call to action when encryption settings are too weak.</note>
       </trans-unit>
       <trans-unit id="[DiagLog/subtitle]" xml:space="preserve">
@@ -1227,12 +1227,12 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="[Entry/Tab/More/title]" xml:space="preserve">
         <source>More</source>
-        <target state="needs-translation">More</target>
+        <target state="translated">更多</target>
         <note>Title of entry viewer's tab with advanced/secondary properties</note>
       </trans-unit>
       <trans-unit id="[Format/ApplePasswordsCSV]" xml:space="preserve">
         <source>Apple Passwords (.csv)</source>
-        <target state="needs-translation">Apple Passwords (.csv)</target>
+        <target state="translated">Apple 密碼 (.csv)</target>
         <note>Name of Apple Passwords' CSV file format</note>
       </trans-unit>
       <trans-unit id="[Format/EnpassJSON]" xml:space="preserve">
@@ -1242,27 +1242,27 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="[Import/CSV/Error/InvalidFormat/withColumn]" xml:space="preserve">
         <source>Invalid CSV format at line %1$d, column %2$d.</source>
-        <target state="needs-translation">Invalid CSV format at line %1$d, column %2$d.</target>
+        <target state="translated">第 %1$d 行、第 %2$d 列的 CSV 格式無效。</target>
         <note>Error message when CSV parsing fails [lineNumber: Int, colNumber: Int]</note>
       </trans-unit>
       <trans-unit id="[Import/CSV/Error/InvalidFormat]" xml:space="preserve">
         <source>Invalid CSV format at line %d.</source>
-        <target state="needs-translation">Invalid CSV format at line %d.</target>
+        <target state="translated">第 %d 行的 CSV 格式無效。</target>
         <note>Error message when CSV parsing fails [lineNumber: Int]</note>
       </trans-unit>
       <trans-unit id="[Import/Enpass/Error/CorruptedAttachment]" xml:space="preserve">
         <source>Corrupted data for attachment '%1$@' in item '%2$@'.</source>
-        <target state="needs-translation">Corrupted data for attachment '%1$@' in item '%2$@'.</target>
+        <target state="translated">項目「%2$@」中的附件「%1$@」資料已損毀。</target>
         <note>Error message when Enpass import fails due to corrupted attachment data [attachmentName: String, itemName: String]</note>
       </trans-unit>
       <trans-unit id="[Import/Error/EmptyFile]" xml:space="preserve">
         <source>Incoming file is empty.</source>
-        <target state="needs-translation">Incoming file is empty.</target>
+        <target state="translated">傳入檔案為空。</target>
         <note>Error shown when trying to import from an empty file</note>
       </trans-unit>
       <trans-unit id="[Import/JSON/ParsingError]" xml:space="preserve">
         <source>Failed to parse JSON file.</source>
-        <target state="needs-translation">Failed to parse JSON file.</target>
+        <target state="translated">無法解析 JSON 檔案。</target>
         <note>Error message when JSON parsing fails</note>
       </trans-unit>
       <trans-unit id="[Onboarding/AddExistingDatabase/action]" xml:space="preserve">
@@ -1277,12 +1277,12 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="[Onboarding/AppProtection/text1]" xml:space="preserve">
         <source>KeePassium is your vault. App protection ensures that only you can open it.</source>
-        <target state="needs-translation">KeePassium is your vault. App protection ensures that only you can open it.</target>
+        <target state="translated">KeePassium 是您的保險庫。應用程式防護功能可確保只有您能開啟它。</target>
         <note>Text in the App Protection onboarding screen.</note>
       </trans-unit>
       <trans-unit id="[Onboarding/AppProtection/title]" xml:space="preserve">
         <source>For Your Eyes Only</source>
-        <target state="needs-translation">For Your Eyes Only</target>
+        <target state="translated">只有您可以查看</target>
         <note>Title of the App Protection onboarding screen</note>
       </trans-unit>
       <trans-unit id="[Onboarding/AutoFill/activate]" xml:space="preserve" approved="yes">
@@ -1292,17 +1292,17 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="[Onboarding/AutoFill/text1]" xml:space="preserve">
         <source>With AutoFill you can breeze through sign-in pages with a single button press.</source>
-        <target state="needs-translation">With AutoFill you can breeze through sign-in pages with a single button press.</target>
+        <target state="translated">有了自動填寫功能，您只要按一個按鈕就能輕鬆登入頁面。</target>
         <note>Text in the Password AutoFill onboarding screen.</note>
       </trans-unit>
       <trans-unit id="[Onboarding/AutoFill/text2]" xml:space="preserve">
         <source>To start, activate Password AutoFill in system settings.</source>
-        <target state="needs-translation">To start, activate Password AutoFill in system settings.</target>
+        <target state="translated">開始使用前，請在系統設定中啟用密碼自動填寫。</target>
         <note>Text in the Password AutoFill onboarding screen.</note>
       </trans-unit>
       <trans-unit id="[Onboarding/AutoFill/title]" xml:space="preserve">
         <source>Password AutoFill</source>
-        <target state="needs-translation">Password AutoFill</target>
+        <target state="translated">密碼自動填寫</target>
         <note>Title of the Password AutoFill onboarding screen</note>
       </trans-unit>
       <trans-unit id="[Onboarding/CreateNewDatabase/action]" xml:space="preserve">
@@ -1312,77 +1312,77 @@ As a result, both AutoFill and the main KeePassium app need to be given their ow
       </trans-unit>
       <trans-unit id="[Onboarding/DataEncryption/text1]" xml:space="preserve">
         <source>Your safe box is an encrypted database.</source>
-        <target state="needs-translation">Your safe box is an encrypted database.</target>
+        <target state="translated">您的保險箱是一個加密的資料庫。</target>
         <note>Text in the Data Encryption intro screen</note>
       </trans-unit>
       <trans-unit id="[Onboarding/DataEncryption/text2]" xml:space="preserve">
         <source>You can keep databases in your favorite cloud or locally on device.</source>
-        <target state="needs-translation">You can keep databases in your favorite cloud or locally on device.</target>
+        <target state="translated">您可以將資料庫存放在您最愛的雲端或是本機裝置中。</target>
         <note>Text in the Data Encryption intro screen</note>
       </trans-unit>
       <trans-unit id="[Onboarding/DataEncryption/title]" xml:space="preserve">
         <source>Data Encryption</source>
-        <target state="needs-translation">Data Encryption</target>
+        <target state="translated">資料加密</target>
         <note>Title of the Data Encryption intro screen</note>
       </trans-unit>
       <trans-unit id="[Onboarding/Intro/text1]" xml:space="preserve">
         <source>KeePassium keeps your passwords and other sensitive info securely encrypted.</source>
-        <target state="needs-translation">KeePassium keeps your passwords and other sensitive info securely encrypted.</target>
+        <target state="translated">KeePassium 會安全地加密儲存您的密碼及其他敏感資訊。</target>
         <note>Text in the introductory onboarding screen.</note>
       </trans-unit>
       <trans-unit id="[Onboarding/Intro/text2]" xml:space="preserve">
         <source>There are no ads and no tracking.</source>
-        <target state="needs-translation">There are no ads and no tracking.</target>
+        <target state="translated">無廣告，也無追蹤行為。</target>
         <note>Text in the introductory onboarding screen.</note>
       </trans-unit>
       <trans-unit id="[Onboarding/Intro/text3]" xml:space="preserve">
         <source>We don't know anything about you.</source>
-        <target state="needs-translation">We don't know anything about you.</target>
+        <target state="translated">我們絕不掌握您的資料。</target>
         <note>Text in the introductory onboarding screen.</note>
       </trans-unit>
       <trans-unit id="[Onboarding/Intro/text4]" xml:space="preserve">
         <source>Your data belongs to you.</source>
-        <target state="needs-translation">Your data belongs to you.</target>
+        <target state="translated">您的資料只為您所有。</target>
         <note>Text in the introductory onboarding screen.</note>
       </trans-unit>
       <trans-unit id="[Onboarding/Intro/title]" xml:space="preserve">
         <source>Welcome</source>
-        <target state="needs-translation">Welcome</target>
+        <target state="translated">歡迎使用</target>
         <note>Title of the introductory onboarding screen.</note>
       </trans-unit>
       <trans-unit id="[Onboarding/Security/text1]" xml:space="preserve">
         <source>Your info is encrypted in a safe box (database). Safe boxes are stored in a vault (KeePassium).</source>
-        <target state="needs-translation">Your info is encrypted in a safe box (database). Safe boxes are stored in a vault (KeePassium).</target>
+        <target state="translated">您的資訊在保險箱（資料庫）中被加密。保險箱則儲存在保險庫中（KeePassium）。</target>
         <note>Text in the Security intro screen</note>
       </trans-unit>
       <trans-unit id="[Onboarding/Security/text2]" xml:space="preserve">
         <source>The vault and safe boxes have different keys and only you will know them.</source>
-        <target state="needs-translation">The vault and safe boxes have different keys and only you will know them.</target>
+        <target state="translated">保險庫和保險箱有不同金鑰，只有您知道。</target>
         <note>Text in the Security intro screen</note>
       </trans-unit>
       <trans-unit id="[Onboarding/Security/title]" xml:space="preserve">
         <source>Maximum Security</source>
-        <target state="needs-translation">Maximum Security</target>
+        <target state="translated">最高安全性</target>
         <note>Title of the Security intro screen</note>
       </trans-unit>
       <trans-unit id="[PasswordAudit/Action/Exclude]" xml:space="preserve">
         <source>Exclude From Audit</source>
-        <target state="needs-translation">Exclude From Audit</target>
+        <target state="translated">從檢查中排除</target>
         <note>Action to skip selected item/items in future password audits.</note>
       </trans-unit>
       <trans-unit id="[PasswordAudit/Auditing/status]" xml:space="preserve">
         <source>Auditing passwords</source>
-        <target state="needs-translation">Auditing passwords</target>
+        <target state="translated">正在檢查密碼</target>
         <note>Status message: password audit in progress</note>
       </trans-unit>
       <trans-unit id="[PasswordAudit/Error/text]" xml:space="preserve">
         <source>An error occured while communicating with the HIBP service. %@</source>
-        <target state="needs-translation">An error occured while communicating with the HIBP service. %@</target>
+        <target state="translated">與 HIBP 服務通訊時發生錯誤。%@</target>
         <note>Error message after a failed password audit request [message: String].</note>
       </trans-unit>
       <trans-unit id="[PasswordAudit/ExposureCount/description]" xml:space="preserve">
         <source>The number shows how many times the password has been found in known data leaks.</source>
-        <target state="needs-translation">The number shows how many times the password has been found in known data leaks.</target>
+        <target state="translated">該數字顯示密碼在已知資料洩漏中被發現的次數。</target>
         <note>Description of the password audit results, where a number appears next to each password.</note>
       </trans-unit>
       <trans-unit id="[PasswordAudit/Intro/text]" xml:space="preserve">
@@ -1392,72 +1392,72 @@ KeePassium will send information calculated from your passwords — a kind of a 
 
 Your actual passwords are never shared with the online service.
 [Learn more…](%@)</source>
-        <target state="needs-translation">Password audit checks your passwords against an online database of leaked passwords in a secure and private way.
+        <target state="translated">密碼檢查根據線上密碼洩漏資料庫，以安全並私密的方式檢查您的密碼。
 
-KeePassium will send information calculated from your passwords — a kind of a partial checksum — to the [Have I Been Pwned](https://haveibeenpwned.com) service. The service will return detailed information about compromised passwords with similar checksums. The app will then compare the detailed checksums locally on the device and detect which of your passwords are at risk.
+KeePassium 會將從您的密碼計算出來的資訊（類似部分核對和）傳送給 [Have I Been Pwned](https://haveibeenpwned.com) 服務。該服務會回傳具有類似核對和的遭洩密碼的詳細資訊。然後應用程式會在本地裝置上比對詳細的核對和，並偵測出哪些密碼存在風險。
 
-Your actual passwords are never shared with the online service.
-[Learn more…](%@)</target>
+您的實際密碼決不會和線上服務共享。
+[深入了解…](%@)</target>
         <note>Description of the Password Audit function.</note>
       </trans-unit>
       <trans-unit id="[PasswordAudit/Results/allGood]" xml:space="preserve">
         <source>Good news! None of your passwords have appeared in known data leaks.</source>
-        <target state="needs-translation">Good news! None of your passwords have appeared in known data leaks.</target>
+        <target state="translated">好消息！您的所有密碼都沒出現在已知的資料洩漏中。</target>
         <note>Result of a password audit.</note>
       </trans-unit>
       <trans-unit id="[PasswordAudit/Results/title]" xml:space="preserve">
         <source>Compromised Passwords</source>
-        <target state="needs-translation">Compromised Passwords</target>
+        <target state="translated">洩漏的密碼</target>
         <note>Title of a list with passwords that are known to have been exposed in online breaches.</note>
       </trans-unit>
       <trans-unit id="[PasswordAudit/Start/action]" xml:space="preserve">
         <source>Start Audit</source>
-        <target state="needs-translation">Start Audit</target>
+        <target state="translated">開始檢查</target>
         <note>Action/button: intiate password audit</note>
       </trans-unit>
       <trans-unit id="[PasswordAudit/title]" xml:space="preserve">
         <source>Password Audit</source>
-        <target state="needs-translation">Password Audit</target>
+        <target state="translated">密碼檢查</target>
         <note>Title of a screen to check which passwords are known to be compromised.</note>
       </trans-unit>
       <trans-unit id="[PasswordGenerator/Wordlist/Import/menuAction]" xml:space="preserve">
         <source>Import Wordlist…</source>
-        <target state="needs-translation">Import Wordlist…</target>
+        <target state="translated">匯入字詞表…</target>
         <note>Menu action to add a user-provided word list file to the app.</note>
       </trans-unit>
       <trans-unit id="[PasswordQuality/LevelWithApproximateEntropy/description]" xml:space="preserve">
         <source>%1$@ (~%2$@ of entropy)</source>
-        <target state="needs-translation">%1$@ (~%2$@ of entropy)</target>
+        <target state="translated">%1$@（熵值約為 %2$@）</target>
         <note>Password quality description. Note the tilda that refers to an estimated/approximate value. For example: `Very good (~123 bits of entropy)`. [level: String, formattedBitCount: String]</note>
       </trans-unit>
       <trans-unit id="[PasswordQuality/LevelWithEntropy/description]" xml:space="preserve">
         <source>%1$@ (%2$@ of entropy)</source>
-        <target state="needs-translation">%1$@ (%2$@ of entropy)</target>
+        <target state="translated">%1$@（熵值為 %2$@）</target>
         <note>Password quality description. For example: `Very good (234 bits of entropy)`. [level: String, formattedBitCount: String]</note>
       </trans-unit>
       <trans-unit id="[PasswordQuality/Level] Good" xml:space="preserve">
         <source>Good</source>
-        <target state="needs-translation">Good</target>
+        <target state="translated">好</target>
         <note>Good password quality</note>
       </trans-unit>
       <trans-unit id="[PasswordQuality/Level] Very good" xml:space="preserve">
         <source>Very good</source>
-        <target state="needs-translation">Very good</target>
+        <target state="translated">非常好</target>
         <note>Very good password quality</note>
       </trans-unit>
       <trans-unit id="[PasswordQuality/Level] Very weak" xml:space="preserve">
         <source>Very weak</source>
-        <target state="needs-translation">Very weak</target>
+        <target state="translated">非常弱</target>
         <note>Very weak password quality</note>
       </trans-unit>
       <trans-unit id="[PasswordQuality/Level] Weak" xml:space="preserve">
         <source>Weak</source>
-        <target state="needs-translation">Weak</target>
+        <target state="translated">弱</target>
         <note>Weak password quality</note>
       </trans-unit>
       <trans-unit id="[PasswordQuality/description]" xml:space="preserve">
         <source>Password quality: %@</source>
-        <target state="needs-translation">Password quality: %@</target>
+        <target state="translated">密碼強度：%@</target>
         <note>Password quality description. For example: `Password quality: Weak`. [level: String]</note>
       </trans-unit>
       <trans-unit id="[Premium/Status/BetaTesting/title]" xml:space="preserve">
@@ -1507,37 +1507,37 @@ Your actual passwords are never shared with the online service.
       </trans-unit>
       <trans-unit id="[QRCodeScanner/CameraPermission/description]" xml:space="preserve">
         <source>KeePassium needs camera access to scan QR codes.</source>
-        <target state="needs-translation">KeePassium needs camera access to scan QR codes.</target>
+        <target state="translated">KeePassium 需要相機存取權才能掃描行動條碼。</target>
         <note>Explanation why the app needs camera access permission.</note>
       </trans-unit>
       <trans-unit id="[QRCodeScanner/Error/CameraBusy]" xml:space="preserve">
         <source>Camera is already in use.</source>
-        <target state="needs-translation">Camera is already in use.</target>
+        <target state="translated">相機已使用中。</target>
         <note>Error message when the app cannot use the camera.</note>
       </trans-unit>
       <trans-unit id="[QRCodeScanner/Error/ImageCorrupted]" xml:space="preserve">
         <source>Selected image is corrupted.</source>
-        <target state="needs-translation">Selected image is corrupted.</target>
+        <target state="translated">所選圖片已損毀。</target>
         <note>Error message</note>
       </trans-unit>
       <trans-unit id="[QRCodeScanner/Error/Internal]" xml:space="preserve">
         <source>Internal error in QR code reader. Check diagnostic log for details.</source>
-        <target state="needs-translation">Internal error in QR code reader. Check diagnostic log for details.</target>
+        <target state="translated">行動條碼讀取器發生內部錯誤。查看診斷日誌了解詳情。</target>
         <note>Error message with a suggested action.</note>
       </trans-unit>
       <trans-unit id="[QRCodeScanner/Error/NoQRCodeFound]" xml:space="preserve">
         <source>Looks like there’s no QR code in that image.</source>
-        <target state="needs-translation">Looks like there’s no QR code in that image.</target>
+        <target state="translated">這張圖片裡似乎沒有行動條碼。</target>
         <note>Notification message</note>
       </trans-unit>
       <trans-unit id="[QRCodeScanner/Error/SourceNoAvailable]" xml:space="preserve">
         <source>Image source is not available.</source>
-        <target state="needs-translation">Image source is not available.</target>
+        <target state="translated">無法使用圖片來源。</target>
         <note>Error message when camera/gallery/etc is either missing or forbidden.</note>
       </trans-unit>
       <trans-unit id="[QRCodeScanner/Info/callToAction]" xml:space="preserve">
         <source>Point the camera at a QR code.</source>
-        <target state="needs-translation">Point the camera at a QR code.</target>
+        <target state="translated">將相機對準行動條碼。</target>
         <note>Call to action/instruction for QR code scanner.</note>
       </trans-unit>
       <trans-unit id="[QuickAutoFill/description]" xml:space="preserve" approved="yes">
@@ -1552,12 +1552,12 @@ Your actual passwords are never shared with the online service.
       </trans-unit>
       <trans-unit id="[Selection/Delete/confirmation]" xml:space="preserve">
         <source>Delete selection?</source>
-        <target state="needs-translation">Delete selection?</target>
+        <target state="translated">是否刪除所選項目？</target>
         <note>Title of the confirmation dialog for `Delete` action for several items</note>
       </trans-unit>
       <trans-unit id="[Selection/ExcludeFromAudit/confirmation]" xml:space="preserve">
         <source>Exclude selection from password audit?</source>
-        <target state="needs-translation">Exclude selection from password audit?</target>
+        <target state="translated">是否從密碼檢查中排除所選項目?</target>
         <note>Title of the confirmation dialog for `Exclude from audit` action for several items</note>
       </trans-unit>
       <trans-unit id="[Settings/AccessControl/title]" xml:space="preserve" approved="yes">
@@ -1597,12 +1597,12 @@ Your actual passwords are never shared with the online service.
       </trans-unit>
       <trans-unit id="[Settings/AppLock/LockOnScreenLock/description]" xml:space="preserve">
         <source>Ensures KeePassium is locked when you lock your Mac.</source>
-        <target state="needs-translation">Ensures KeePassium is locked when you lock your Mac.</target>
+        <target state="translated">確保您鎖定 Mac 時，KeePassium 也會鎖定。</target>
         <note>Explanation for the `Lock on macOS Screen Lock` setting</note>
       </trans-unit>
       <trans-unit id="[Settings/AppLock/LockOnScreenLock/title]" xml:space="preserve">
         <source>Lock on macOS Screen Lock</source>
-        <target state="needs-translation">Lock on macOS Screen Lock</target>
+        <target state="translated">在 macOS 鎖定螢幕時鎖定</target>
         <note>Title of a yes/no setting: whether to lock app when computer screen is locked (see https://support.apple.com/en-gb/guide/mac-help/mchl8e8b6a34/mac)</note>
       </trans-unit>
       <trans-unit id="[Settings/AppLock/LockOnWrongPasscode/description]" xml:space="preserve">
@@ -1612,22 +1612,22 @@ Your actual passwords are never shared with the online service.
       </trans-unit>
       <trans-unit id="[Settings/AppLock/LockOnWrongPasscode/title]" xml:space="preserve">
         <source>Lock on Wrong Passcode</source>
-        <target state="needs-translation">Lock on Wrong Passcode</target>
+        <target state="translated">應用解鎖密碼錯誤時鎖定</target>
         <note>Title in the settings: whether to lock databases when user enters a wrong app protection passcode.</note>
       </trans-unit>
       <trans-unit id="[Settings/AppLock/PasscodeAttemptsUntilAppReset/Never/title]" xml:space="preserve">
         <source>Do not reset</source>
-        <target state="needs-translation">Do not reset</target>
+        <target state="translated">不要重設</target>
         <note>An option in Settings. Will be shown as 'Passcode Attempts Until App Reset: Do not reset'</note>
       </trans-unit>
       <trans-unit id="[Settings/AppLock/PasscodeAttemptsUntilAppReset/description]" xml:space="preserve">
         <source>App reset will delete all the stored keys, settings, database backups, imported files, and links to external files. However, if app reset is triggered from AutoFill, imported files may remain due to technical limitations.</source>
-        <target state="needs-translation">App reset will delete all the stored keys, settings, database backups, imported files, and links to external files. However, if app reset is triggered from AutoFill, imported files may remain due to technical limitations.</target>
+        <target state="translated">應用程式重設將會刪除所有儲存的金鑰、設定、資料庫備份、匯入的檔案，以及外部檔案的連結。然而，若從自動填寫觸發應用程式重設，可能會因技術限制而保留匯入的檔案。</target>
         <note>Description of the `Passcode Attempts Until App Reset` setting</note>
       </trans-unit>
       <trans-unit id="[Settings/AppLock/PasscodeAttemptsUntilAppReset/title]" xml:space="preserve">
         <source>Attempts Until App Reset</source>
-        <target state="needs-translation">Attempts Until App Reset</target>
+        <target state="translated">應用程式重設前的嘗試次數</target>
         <note>Title in the settings: number of failed passcode attempts that will reset the app into 'just installed' state.</note>
       </trans-unit>
       <trans-unit id="[Settings/AppLock/Timeout/description]" xml:space="preserve" approved="yes">
@@ -1702,12 +1702,12 @@ Your actual passwords are never shared with the online service.
       </trans-unit>
       <trans-unit id="[Settings/AutoFill/RememberContext/description]" xml:space="preserve">
         <source>KeePassium will remember which entry you select for each website and then suggest it automatically.</source>
-        <target state="needs-translation">KeePassium will remember which entry you select for each website and then suggest it automatically.</target>
+        <target state="translated">KeePassium 會記住您為每個網站選擇的項目，然後自動建議該項目。</target>
         <note>Description of the 'Remember Selected Entries' setting.</note>
       </trans-unit>
       <trans-unit id="[Settings/AutoFill/RememberContext/title]" xml:space="preserve">
         <source>Remember Selected Entries</source>
-        <target state="needs-translation">Remember Selected Entries</target>
+        <target state="translated">記住所選項目</target>
         <note>Title of a yes/no setting: remember which entry was used for AutoFill on which website.</note>
       </trans-unit>
       <trans-unit id="[Settings/AutoFill/Setup Guide/title]" xml:space="preserve" approved="yes">
@@ -1717,7 +1717,7 @@ Your actual passwords are never shared with the online service.
       </trans-unit>
       <trans-unit id="[Settings/AutoFill/UnavailableInIntune/description]" xml:space="preserve">
         <source>AutoFill is not available in KeePassium for Intune.</source>
-        <target state="needs-translation">AutoFill is not available in KeePassium for Intune.</target>
+        <target state="translated">在 KeePassium for Intune 中無法使用自動填寫。</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="[Settings/AutoFill/UsePerfectMatch/description]" xml:space="preserve" approved="yes">
@@ -1787,12 +1787,12 @@ Your actual passwords are never shared with the online service.
       </trans-unit>
       <trans-unit id="[Settings/DataProtection/LockOnReboot/title]" xml:space="preserve">
         <source>Lock on Device Restart</source>
-        <target state="needs-translation">Lock on Device Restart</target>
+        <target state="translated">裝置重新啟動時鎖定</target>
         <note>Setting switch: whether to lock databases after device reboot.</note>
       </trans-unit>
       <trans-unit id="[Settings/DataProtection/LockOnScreenLock/title]" xml:space="preserve">
         <source>Lock on macOS Screen Lock</source>
-        <target state="needs-translation">Lock on macOS Screen Lock</target>
+        <target state="translated">在 macOS 鎖定螢幕時鎖定</target>
         <note>Title of a yes/no setting: whether to lock databases when computer screen is locked (see https://support.apple.com/en-gb/guide/mac-help/mchl8e8b6a34/mac)</note>
       </trans-unit>
       <trans-unit id="[Settings/DataProtection/subtitle]" xml:space="preserve">
@@ -1962,7 +1962,7 @@ Your actual passwords are never shared with the online service.
       </trans-unit>
       <trans-unit id="[Settings/Search/InPasswords/title]" xml:space="preserve">
         <source>Search in Passwords</source>
-        <target state="needs-translation">Search in Passwords</target>
+        <target state="translated">在密碼中搜尋</target>
         <note>Title of a setting: whether search looks in passwords</note>
       </trans-unit>
       <trans-unit id="[Settings/Search/InProtectValues/title]" xml:space="preserve" approved="yes">
@@ -1992,17 +1992,17 @@ Your actual passwords are never shared with the online service.
       </trans-unit>
       <trans-unit id="[Settings/ShakeGestureAction/Confirm/description]" xml:space="preserve">
         <source>If the app is locked, it acts without confirmation.</source>
-        <target state="needs-translation">If the app is locked, it acts without confirmation.</target>
+        <target state="translated">若應用程式已鎖定，則不確認就會執行。</target>
         <note>Description of the 'Ask for Confirmation' setting.</note>
       </trans-unit>
       <trans-unit id="[Settings/ShakeGestureAction/Confirm/title]" xml:space="preserve">
         <source>Ask for Confirmation</source>
-        <target state="needs-translation">Ask for Confirmation</target>
+        <target state="translated">要求確認</target>
         <note>Title for a setting: whether the app should show an 'Are you sure?' before continuing</note>
       </trans-unit>
       <trans-unit id="[Settings/ShakeGestureAction/title]" xml:space="preserve">
         <source>When Shaken</source>
-        <target state="needs-translation">When Shaken</target>
+        <target state="translated">搖動時</target>
         <note>Title for a setting: what the app should do when the user shakes the device</note>
       </trans-unit>
       <trans-unit id="[Settings/Start/title]" xml:space="preserve" approved="yes">
@@ -2027,62 +2027,62 @@ Your actual passwords are never shared with the online service.
       </trans-unit>
       <trans-unit id="[Tags/Create/action]" xml:space="preserve">
         <source>Create Tag</source>
-        <target state="needs-translation">Create Tag</target>
+        <target state="translated">建立標籤</target>
         <note>Action/button to create a new item tag</note>
       </trans-unit>
       <trans-unit id="[Tags/Create/placeholder]" xml:space="preserve">
         <source>Enter tag name</source>
-        <target state="needs-translation">Enter tag name</target>
+        <target state="translated">輸入標籤名稱</target>
         <note>Call to action/hint inside a text input</note>
       </trans-unit>
       <trans-unit id="[Tags/Create/title]" xml:space="preserve">
         <source>New Tag</source>
-        <target state="needs-translation">New Tag</target>
+        <target state="translated">新增標籤</target>
         <note>Title of the tag creation dialog</note>
       </trans-unit>
       <trans-unit id="[Tags/Delete/Confirm/message]" xml:space="preserve">
         <source>Delete this tag from all groups and entries?</source>
-        <target state="needs-translation">Delete this tag from all groups and entries?</target>
+        <target state="translated">是否從所有群組和項目中刪除此標籤？</target>
         <note>Question to confirm global deletion</note>
       </trans-unit>
       <trans-unit id="[Tags/Edit/title]" xml:space="preserve">
         <source>Edit Tag</source>
-        <target state="needs-translation">Edit Tag</target>
+        <target state="translated">編輯標籤</target>
         <note>Title of a dialog for editing a tag</note>
       </trans-unit>
       <trans-unit id="[Tags/None/placeholder]" xml:space="preserve">
         <source>There are no tags in the database, add some.</source>
-        <target state="needs-translation">There are no tags in the database, add some.</target>
+        <target state="translated">資料庫中沒有標籤，請新增一些標籤。</target>
         <note>Status message with a call to action</note>
       </trans-unit>
       <trans-unit id="[Tags/Search/emptyResult]" xml:space="preserve">
         <source>No suitable tags found.</source>
-        <target state="needs-translation">No suitable tags found.</target>
+        <target state="translated">找不到合適的標籤。</target>
         <note>Status message: tag search result is empty</note>
       </trans-unit>
       <trans-unit id="[Tags/Section/All]" xml:space="preserve">
         <source>All Tags</source>
-        <target state="needs-translation">All Tags</target>
+        <target state="translated">所有標籤</target>
         <note>Title of a list with all the tags existing in the database.</note>
       </trans-unit>
       <trans-unit id="[Tags/Section/Inherited]" xml:space="preserve">
         <source>Inherited Tags</source>
-        <target state="needs-translation">Inherited Tags</target>
+        <target state="translated">繼承的標籤</target>
         <note>Title of a list with tags used by parent groups.</note>
       </trans-unit>
       <trans-unit id="[Tags/Section/Selected]" xml:space="preserve">
         <source>Selected Tags</source>
-        <target state="needs-translation">Selected Tags</target>
+        <target state="translated">選擇的標籤</target>
         <note>Title of a list with tags chosen by the user for a specific entry or group.</note>
       </trans-unit>
       <trans-unit id="[Tags/UsageCount/title]" xml:space="preserve">
         <source>Usage count</source>
-        <target state="needs-translation">Usage count</target>
+        <target state="translated">使用次數</target>
         <note>Title: the number of times a tag is encountered in the database.</note>
       </trans-unit>
       <trans-unit id="[WhatsNew/Announcement/body]" xml:space="preserve">
         <source>Discover new features and improvements in KeePassium.</source>
-        <target state="needs-translation">Discover new features and improvements in KeePassium.</target>
+        <target state="translated">探索 KeePassium 中的新功能和改善的項目。</target>
         <note>Call to action in What's New announcement</note>
       </trans-unit>
       <trans-unit id="[WhatsNew/Announcement/button]" xml:space="preserve" approved="yes">
@@ -2092,62 +2092,62 @@ Your actual passwords are never shared with the online service.
       </trans-unit>
       <trans-unit id="[WhatsNew/Feature/AppScopedConnections/description]" xml:space="preserve">
         <source>Protect your cloud data using app-folder-only permissions.</source>
-        <target state="needs-translation">Protect your cloud data using app-folder-only permissions.</target>
+        <target state="translated">使用「僅限應用程式資料夾」授權來保護您的雲端資料。</target>
         <note>Description of a feature highlight, a call to action.</note>
       </trans-unit>
       <trans-unit id="[WhatsNew/Feature/AppScopedConnections/title]" xml:space="preserve">
         <source>Safer Cloud Access</source>
-        <target state="needs-translation">Safer Cloud Access</target>
+        <target state="translated">更安全的雲端存取</target>
         <note>Title of a feature highlight, a noun phrase.</note>
       </trans-unit>
       <trans-unit id="[WhatsNew/Feature/AutoFillWithMemory/description]" xml:space="preserve">
         <source>KeePassium remembers the entry you choose on each website.</source>
-        <target state="needs-translation">KeePassium remembers the entry you choose on each website.</target>
+        <target state="translated">KeePassium 會記住您在每個網站選擇的項目。</target>
         <note>Description of a feature highlight, a call to action.</note>
       </trans-unit>
       <trans-unit id="[WhatsNew/Feature/AutoFillWithMemory/title]" xml:space="preserve">
         <source>Smarter AutoFill</source>
-        <target state="needs-translation">Smarter AutoFill</target>
+        <target state="translated">更智慧的自動填寫</target>
         <note>Title of a feature highlight, a noun phrase.</note>
       </trans-unit>
       <trans-unit id="[WhatsNew/Feature/AutoType/description]" xml:space="preserve">
         <source>Quickly sign in to any app or web browser using key-press emulation.</source>
-        <target state="needs-translation">Quickly sign in to any app or web browser using key-press emulation.</target>
+        <target state="translated">使用按鍵模擬快速登入任何應用程式或網頁瀏覽器。</target>
         <note>Description of a feature highlight, a call to action.</note>
       </trans-unit>
       <trans-unit id="[WhatsNew/Feature/AutoType/title]" xml:space="preserve">
         <source>Password Auto-Type</source>
-        <target state="needs-translation">Password Auto-Type</target>
+        <target state="translated">密碼自動輸入</target>
         <note>Title of a feature highlight, a noun phrase.</note>
       </trans-unit>
       <trans-unit id="[WhatsNew/Feature/CreativeAutoFill/description]" xml:space="preserve">
         <source>Create new entries in AutoFill with main fields pre-filled automatically.</source>
-        <target state="needs-translation">Create new entries in AutoFill with main fields pre-filled automatically.</target>
+        <target state="translated">在自動填寫中建立新項目，同時自動預先填寫主要欄位。</target>
         <note>Description of a feature highlight, a call to action.</note>
       </trans-unit>
       <trans-unit id="[WhatsNew/Feature/CreativeAutoFill/title]" xml:space="preserve">
         <source>Faster Sign-Ups</source>
-        <target state="needs-translation">Faster Sign-Ups</target>
+        <target state="translated">註冊更快速</target>
         <note>Title of a feature highlight, a noun phrase.</note>
       </trans-unit>
       <trans-unit id="[WhatsNew/Feature/MoreInteractions/description]" xml:space="preserve">
         <source>Drag and drop, select multiple items, and browse alphabetically.</source>
-        <target state="needs-translation">Drag and drop, select multiple items, and browse alphabetically.</target>
+        <target state="translated">拖放、選擇多個項目，並依字母順序瀏覽。</target>
         <note>Description of a feature highlight, a call to action. `Browse alphabetically` refers to a phonebook-like index with letters.</note>
       </trans-unit>
       <trans-unit id="[WhatsNew/Feature/MoreInteractions/title]" xml:space="preserve">
         <source>More Ways to Interact</source>
-        <target state="needs-translation">More Ways to Interact</target>
+        <target state="translated">更多互動方式</target>
         <note>Title of a feature highlight, a noun phrase.</note>
       </trans-unit>
       <trans-unit id="[WhatsNew/FullChangelog/title]" xml:space="preserve">
         <source>Detailed Changelog</source>
-        <target state="needs-translation">Detailed Changelog</target>
+        <target state="translated">詳細變更紀錄</target>
         <note>Title of the detailed history of app changes over time.</note>
       </trans-unit>
       <trans-unit id="[WhatsNew/fullTitle]" xml:space="preserve">
         <source>What's New in KeePassium</source>
-        <target state="needs-translation">What's New in KeePassium</target>
+        <target state="translated">KeePassium 全新功能</target>
         <note>Full title for release highlights</note>
       </trans-unit>
     </body>
